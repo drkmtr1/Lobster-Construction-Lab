@@ -1,0 +1,282 @@
+{
+  "task": "B2 review integration verification (OC-20261121-b2-review-integration)",
+  "classification": "PROVISIONAL_INTEGRATION_PENDING_CODEX_REVIEW",
+  "created_utc": "2026-11-21T16:32:41.735841+00:00",
+  "environment": {
+    "python": "3.13.17",
+    "implementation": "CPython",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "pack_root": "C:\\Users\\Will\\Downloads\\LCL_B2_Independent_Review_2026-11-21\\LCL_B2_Independent_Review",
+  "project_root": "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab",
+  "script_sha256": "448d9bfb3f2d535ff0686a280651ccd811a16268044de8c707c8ef39033fd3b3",
+  "checks": [
+    {
+      "id": "A1",
+      "description": "byte-identical local vs pack: dfs record",
+      "pass": true,
+      "detail": {
+        "local": "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\runs\\dfs-20261121T081441Z-0a3c9a64\\record.json",
+        "pack": "C:\\Users\\Will\\Downloads\\LCL_B2_Independent_Review_2026-11-21\\LCL_B2_Independent_Review\\supplied\\runs\\dfs-20261121T081441Z-0a3c9a64\\record.json",
+        "local_bytes": 7150
+      }
+    },
+    {
+      "id": "A2",
+      "description": "byte-identical local vs pack: oracle record",
+      "pass": true,
+      "detail": {
+        "local": "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\runs\\oracle-20261121T081441Z-a5f3c783\\record.json",
+        "pack": "C:\\Users\\Will\\Downloads\\LCL_B2_Independent_Review_2026-11-21\\LCL_B2_Independent_Review\\supplied\\runs\\oracle-20261121T081441Z-a5f3c783\\record.json",
+        "local_bytes": 7328
+      }
+    },
+    {
+      "id": "A3",
+      "description": "byte-identical local vs pack: input seed",
+      "pass": true,
+      "detail": {
+        "local": "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\examples\\unequal_seed.json",
+        "pack": "C:\\Users\\Will\\Downloads\\LCL_B2_Independent_Review_2026-11-21\\LCL_B2_Independent_Review\\supplied\\examples\\unequal_seed.json",
+        "local_bytes": 26
+      }
+    },
+    {
+      "id": "A4",
+      "description": "byte-identical local vs pack: input pins",
+      "pass": true,
+      "detail": {
+        "local": "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\examples\\unequal_seed_pins.json",
+        "pack": "C:\\Users\\Will\\Downloads\\LCL_B2_Independent_Review_2026-11-21\\LCL_B2_Independent_Review\\supplied\\examples\\unequal_seed_pins.json",
+        "local_bytes": 11
+      }
+    },
+    {
+      "id": "A5",
+      "description": "byte-identical local vs pack: input domains",
+      "pass": true,
+      "detail": {
+        "local": "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\examples\\unequal_seed_domains.json",
+        "pack": "C:\\Users\\Will\\Downloads\\LCL_B2_Independent_Review_2026-11-21\\LCL_B2_Independent_Review\\supplied\\examples\\unequal_seed_domains.json",
+        "local_bytes": 179
+      }
+    },
+    {
+      "id": "A6",
+      "description": "byte-identical local vs pack: input limits",
+      "pass": true,
+      "detail": {
+        "local": "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\configs\\unequal_seed_limits.json",
+        "pack": "C:\\Users\\Will\\Downloads\\LCL_B2_Independent_Review_2026-11-21\\LCL_B2_Independent_Review\\supplied\\configs\\unequal_seed_limits.json",
+        "local_bytes": 72
+      }
+    },
+    {
+      "id": "A7",
+      "description": "byte-identical local vs pack: reviewer scratch",
+      "pass": true,
+      "detail": {
+        "local": "C:\\Users\\Will\\AppData\\Local\\Temp\\opencode\\b2_review_scratch.py",
+        "pack": "C:\\Users\\Will\\Downloads\\LCL_B2_Independent_Review_2026-11-21\\LCL_B2_Independent_Review\\supplied\\b2_review_scratch.py",
+        "local_bytes": 5136
+      }
+    },
+    {
+      "id": "B1",
+      "description": "raw sha256 dfs record.json == expected",
+      "pass": true,
+      "detail": "1c84fcf14fe4f591455db0c0c4a0522ccc2f2c644791f1361c4fea03b88dbf44"
+    },
+    {
+      "id": "B2",
+      "description": "raw sha256 oracle record.json == expected",
+      "pass": true,
+      "detail": "0504e38a259a648e0f648b4ab1e5be4789d3b28de396b69710cfe394e2c88d11"
+    },
+    {
+      "id": "B3",
+      "description": "raw sha256 dfs config.json (reported)",
+      "pass": true,
+      "detail": "b57cab595118211ac496eaeb6c8b68aee3b64488b1bd02121092d0b6a2545923"
+    },
+    {
+      "id": "B4",
+      "description": "raw sha256 oracle config.json (reported)",
+      "pass": true,
+      "detail": "e662036c36c4ba0f1e19bc3d7736c06497ae61025258640cd688fa27945920bc"
+    },
+    {
+      "id": "B5",
+      "description": "raw sha256 pack original_upload.zip == expected",
+      "pass": true,
+      "detail": "a2def9c494ff49d7dbe89ca10416b1da804e82052c9a79db773ae50c819e2b97"
+    },
+    {
+      "id": "B6",
+      "description": "raw sha256 local examples/unequal_seed.json == expected",
+      "pass": true,
+      "detail": "486c501581240d0c6aabce3acdb31fa6d205d58d5881b4ac39b37c6648765db8"
+    },
+    {
+      "id": "B7",
+      "description": "raw sha256 local examples/unequal_seed_pins.json == expected",
+      "pass": true,
+      "detail": "a39bcce07fd8427ac3c11748836b0317cc609a4b45204a104f5bda36bfe31956"
+    },
+    {
+      "id": "B8",
+      "description": "raw sha256 local examples/unequal_seed_domains.json == expected",
+      "pass": true,
+      "detail": "0bd9694a536395db1532a68e02bbae51e501889280a99c9108564af8c72acfec"
+    },
+    {
+      "id": "B9",
+      "description": "raw sha256 local configs/unequal_seed_limits.json == expected",
+      "pass": true,
+      "detail": "64bb948a40862ce8238bab108fb00915d2ef48d31c8cfe50502cd0ca9cd0388a"
+    },
+    {
+      "id": "B10",
+      "description": "raw sha256 local reviewer scratch == expected",
+      "pass": true,
+      "detail": "1d3836ea74249ac49d3a4975d8c80eb18f2bb115b6c84b05bff275623c169408"
+    },
+    {
+      "id": "C1",
+      "description": "canonical record_sha256 recomputation (field omitted)",
+      "pass": true,
+      "detail": {
+        "recomputed": "f03d968e014e17d37382ef60a1836177497e388b86d779501fbe6b9dc0071f05",
+        "stored": "f03d968e014e17d37382ef60a1836177497e388b86d779501fbe6b9dc0071f05",
+        "expected": "f03d968e014e17d37382ef60a1836177497e388b86d779501fbe6b9dc0071f05"
+      }
+    },
+    {
+      "id": "C2",
+      "description": "canonical record_sha256 recomputation (field omitted)",
+      "pass": true,
+      "detail": {
+        "recomputed": "d8c0359adc279d46e5aaffc6cd7affbf7aa70304f659dbc572f5f2eaf978a489",
+        "stored": "d8c0359adc279d46e5aaffc6cd7affbf7aa70304f659dbc572f5f2eaf978a489",
+        "expected": "d8c0359adc279d46e5aaffc6cd7affbf7aa70304f659dbc572f5f2eaf978a489"
+      }
+    },
+    {
+      "id": "D1",
+      "description": "config_sha256 recomputation from local config.json object",
+      "pass": true,
+      "detail": {
+        "recomputed": "949e505923d13323e3cb76628773bdee09ed9fee600a49ed88adbb3c7611bdb6",
+        "stored": "949e505923d13323e3cb76628773bdee09ed9fee600a49ed88adbb3c7611bdb6"
+      }
+    },
+    {
+      "id": "D2",
+      "description": "config_sha256 recomputation from local config.json object",
+      "pass": true,
+      "detail": {
+        "recomputed": "d0603cf8cf345118b4cddc7423fc573cc576e06e7b77c6b62a3c0c3d8f9673ec",
+        "stored": "d0603cf8cf345118b4cddc7423fc573cc576e06e7b77c6b62a3c0c3d8f9673ec"
+      }
+    },
+    {
+      "id": "E1",
+      "description": "source inventory sha256 == expected (21 files)",
+      "pass": true,
+      "detail": {
+        "sha256": "2dfe3231007a18f4a74e4c4b49fd4a112ebbb66ef439e711ff59ac11fde7bbfd",
+        "file_count": 21
+      }
+    },
+    {
+      "id": "E2",
+      "description": "21 local source files byte-identical to pack source_snapshot",
+      "pass": true,
+      "detail": {
+        "mismatches": []
+      }
+    },
+    {
+      "id": "E3",
+      "description": "record source.files per-file hashes match local files (both records)",
+      "pass": true,
+      "detail": {
+        "mismatches": []
+      }
+    },
+    {
+      "id": "F1",
+      "description": "all 55 MANIFEST entries verified (bytes + sha256)",
+      "pass": true,
+      "detail": {
+        "bad": []
+      }
+    },
+    {
+      "id": "F2",
+      "description": "MANIFEST file set == actual pack file set (MANIFEST.json excluded)",
+      "pass": true,
+      "detail": {
+        "only_in_manifest": [],
+        "only_on_disk": []
+      }
+    },
+    {
+      "id": "G1",
+      "description": "graph digest from build_graph([[1],[2],[]]) == expected",
+      "pass": true,
+      "detail": "9198e106ce33d9b83b8044e385b1599cfe26cd1fe471f4eec841a461868756b2"
+    },
+    {
+      "id": "G2",
+      "description": "dfs record embedded original_graph == fresh build_graph output",
+      "pass": true,
+      "detail": {
+        "embedded_digest": "9198e106ce33d9b83b8044e385b1599cfe26cd1fe471f4eec841a461868756b2"
+      }
+    },
+    {
+      "id": "G3",
+      "description": "oracle record embedded original_graph == fresh build_graph output",
+      "pass": true,
+      "detail": {
+        "embedded_digest": "9198e106ce33d9b83b8044e385b1599cfe26cd1fe471f4eec841a461868756b2"
+      }
+    },
+    {
+      "id": "H1",
+      "description": "enumeration covers exactly 144 domain-admissible assignments",
+      "pass": true,
+      "detail": 144
+    },
+    {
+      "id": "H2",
+      "description": "own enumeration: 0 graceful labelings (p=4 restricted negative)",
+      "pass": true,
+      "detail": {
+        "graceful": 0,
+        "sum_28": 22,
+        "distinct_seven": 0
+      }
+    },
+    {
+      "id": "H3",
+      "description": "own enumeration: 36 assignments have y = h(s:1) = 3",
+      "pass": true,
+      "detail": 36
+    },
+    {
+      "id": "H4",
+      "description": "own enumeration: general sum identity S = a+2b-x-2y+16 holds for all 144",
+      "pass": true,
+      "detail": {
+        "mismatches": 0
+      }
+    }
+  ],
+  "summary": {
+    "total": 33,
+    "passed": 33,
+    "failed": []
+  }
+}

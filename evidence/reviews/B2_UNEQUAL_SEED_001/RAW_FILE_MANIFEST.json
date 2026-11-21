@@ -1,0 +1,108 @@
+{
+  "purpose": "Raw SHA-256 manifest of the preserved byte copies in this directory. Raw file hashes are distinct from the canonical record fields: record_sha256 is the SHA-256 of canonical JSON of the record with the record_sha256 field omitted (lcl.records.save_single), and config_sha256 is the canonical digest of the parsed config object, not of the config.json file bytes.",
+  "created_utc": "2026-11-21T16:37:38.347792+00:00",
+  "hash_scheme": "SHA-256 of raw file bytes",
+  "preserved_files": {
+    "runs-and-inputs/configs/unequal_seed_limits.json": {
+      "bytes": 72,
+      "raw_file_sha256": "64bb948a40862ce8238bab108fb00915d2ef48d31c8cfe50502cd0ca9cd0388a"
+    },
+    "runs-and-inputs/examples/unequal_seed.json": {
+      "bytes": 26,
+      "raw_file_sha256": "486c501581240d0c6aabce3acdb31fa6d205d58d5881b4ac39b37c6648765db8"
+    },
+    "runs-and-inputs/examples/unequal_seed_domains.json": {
+      "bytes": 179,
+      "raw_file_sha256": "0bd9694a536395db1532a68e02bbae51e501889280a99c9108564af8c72acfec"
+    },
+    "runs-and-inputs/examples/unequal_seed_pins.json": {
+      "bytes": 11,
+      "raw_file_sha256": "a39bcce07fd8427ac3c11748836b0317cc609a4b45204a104f5bda36bfe31956"
+    },
+    "runs-and-inputs/runs/dfs-20261121T081441Z-0a3c9a64/config.json": {
+      "bytes": 667,
+      "raw_file_sha256": "b57cab595118211ac496eaeb6c8b68aee3b64488b1bd02121092d0b6a2545923"
+    },
+    "runs-and-inputs/runs/dfs-20261121T081441Z-0a3c9a64/record.json": {
+      "bytes": 7150,
+      "raw_file_sha256": "1c84fcf14fe4f591455db0c0c4a0522ccc2f2c644791f1361c4fea03b88dbf44"
+    },
+    "runs-and-inputs/runs/oracle-20261121T081441Z-a5f3c783/config.json": {
+      "bytes": 670,
+      "raw_file_sha256": "e662036c36c4ba0f1e19bc3d7736c06497ae61025258640cd688fa27945920bc"
+    },
+    "runs-and-inputs/runs/oracle-20261121T081441Z-a5f3c783/record.json": {
+      "bytes": 7328,
+      "raw_file_sha256": "0504e38a259a648e0f648b4ab1e5be4789d3b28de396b69710cfe394e2c88d11"
+    },
+    "review-pack/analysis/checkpoint.normalized.diff": {
+      "bytes": 52764,
+      "raw_file_sha256": "3b969555b134b7781b3286349a4952661e7a5d84368f0a8a606c2a0ea5d42488"
+    },
+    "review-pack/analysis/evidence_audit.json": {
+      "bytes": 11744,
+      "raw_file_sha256": "038f099e489c885625227f1aa5f7649913ddd95583b4f672c6714ab3568c2345"
+    },
+    "review-pack/analysis/evidence_review.md": {
+      "bytes": 8883,
+      "raw_file_sha256": "698a130b977f641e8b255cfdd85dfb32f6e8f626c6ecc919460bd7a2e13b9b53"
+    },
+    "review-pack/analysis/math_review.md": {
+      "bytes": 10273,
+      "raw_file_sha256": "ee688b6557d9dc5e049101e79421af8bca4ec7a6fd1c052ebfa49f43e9fa533a"
+    },
+    "review-pack/analysis/next_step_review.md": {
+      "bytes": 7600,
+      "raw_file_sha256": "03a5215d7e01ec14fc705e656a1972d4deb2d1493994b2ab0f34db1636a5be75"
+    },
+    "review-pack/B2_INTERFACE_OBSTRUCTION.md": {
+      "bytes": 7038,
+      "raw_file_sha256": "1234e5336d26ffc4aabb17f92e5b64d15aa63e2f9d54f7c8fcd934cc16df8f6f"
+    },
+    "review-pack/CODEX_REVIEW_AND_RECORD_PROMPT.md": {
+      "bytes": 7446,
+      "raw_file_sha256": "ad5500f1846d4a304ede27f9b10f58652fa523f45095b26b7274ea1982be1434"
+    },
+    "review-pack/independent_seed_check.json": {
+      "bytes": 55360,
+      "raw_file_sha256": "0b554f207726dcbb58822b17f5310b5301665f22ecb81e9cae51f509048418da"
+    },
+    "review-pack/independent_seed_check.py": {
+      "bytes": 7851,
+      "raw_file_sha256": "277f90b67c60c8c380ec8da0422b4d648cff2743a8a94c45d63217bb4f40a43f"
+    },
+    "review-pack/MANIFEST.json": {
+      "bytes": 9062,
+      "raw_file_sha256": "2807660a6b4a8affbfd64e63567f4a46074c7c363af525220f0e53b9aa4decb5"
+    },
+    "review-pack/README.md": {
+      "bytes": 2388,
+      "raw_file_sha256": "94e1db06a2791969db4fd0e7f714bb5745db5ed9efd61df21bc44c96e032ce63"
+    },
+    "review-pack/REVIEW_REPORT.md": {
+      "bytes": 17289,
+      "raw_file_sha256": "b5f38a69bfb80df7e35921a57a56568780381992e7991242e556a47a395380ea"
+    },
+    "review-pack/supplied/b2_review_scratch.py": {
+      "bytes": 5136,
+      "raw_file_sha256": "1d3836ea74249ac49d3a4975d8c80eb18f2bb115b6c84b05bff275623c169408"
+    }
+  },
+  "not_copied": {
+    "original_upload.zip (pack root)": {
+      "bytes": 66234,
+      "raw_file_sha256": "a2def9c494ff49d7dbe89ca10416b1da804e82052c9a79db773ae50c819e2b97",
+      "note": "Preserved by hash only; the unpacked pack contents above are byte-verified against it via the pack MANIFEST (check F1/F2 of verification_result.json)."
+    }
+  },
+  "canonical_record_fields": {
+    "runs-and-inputs/runs/dfs-20261121T081441Z-0a3c9a64/record.json": {
+      "record_sha256": "f03d968e014e17d37382ef60a1836177497e388b86d779501fbe6b9dc0071f05",
+      "config_sha256": "949e505923d13323e3cb76628773bdee09ed9fee600a49ed88adbb3c7611bdb6"
+    },
+    "runs-and-inputs/runs/oracle-20261121T081441Z-a5f3c783/record.json": {
+      "record_sha256": "d8c0359adc279d46e5aaffc6cd7affbf7aa70304f659dbc572f5f2eaf978a489",
+      "config_sha256": "d0603cf8cf345118b4cddc7423fc573cc576e06e7b77c6b62a3c0c3d8f9673ec"
+    }
+  }
+}

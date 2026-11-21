@@ -1,0 +1,392 @@
+{
+  "archive_sha256": "a2def9c494ff49d7dbe89ca10416b1da804e82052c9a79db773ae50c819e2b97",
+  "records": [
+    {
+      "path": "runs/dfs-20261121T081441Z-0a3c9a64/record.json",
+      "bytes": 7150,
+      "raw_file_sha256": "1c84fcf14fe4f591455db0c0c4a0522ccc2f2c644791f1361c4fea03b88dbf44",
+      "canonical_record_sha256": "f03d968e014e17d37382ef60a1836177497e388b86d779501fbe6b9dc0071f05",
+      "config_sha256": "949e505923d13323e3cb76628773bdee09ed9fee600a49ed88adbb3c7611bdb6",
+      "source_inventory_sha256": "2dfe3231007a18f4a74e4c4b49fd4a112ebbb66ef439e711ff59ac11fde7bbfd",
+      "source_file_count": 21,
+      "source_mismatches": [],
+      "checks": {
+        "canonical_record_hash_valid": true,
+        "config_hash_valid": true,
+        "source_inventory_hash_valid": true,
+        "source_matches_archived_baseline": true,
+        "original_graph_matches_independent_profile_expansion": true,
+        "original_graph_digest_valid": true,
+        "input_pins_match": true,
+        "input_domains_match": true,
+        "input_limits_match": true,
+        "exhausted_exact_zero_consistent": true,
+        "below_record_byte_limit": true
+      },
+      "result": {
+        "count": 0,
+        "count_lower_bound": 0,
+        "elapsed_seconds": 0.0002966000174637884,
+        "exhausted": true,
+        "limits": {
+          "max_nodes": 10000,
+          "max_states": 2000,
+          "max_vertices": 8,
+          "time_limit": 2.0
+        },
+        "method": "dfs",
+        "negative_evidence": "implementation exhaustion on declared scope; no formal negative certificate",
+        "nodes": 65,
+        "restrictions": {
+          "count_convention": "bijections on named physical vertices; no symmetry quotient",
+          "domains": {
+            "b:0:0": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "b:1:0": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "l:0:0:0": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "l:1:0:0": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "l:1:0:1": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "s:0": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "s:1": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "s:2": [
+              4,
+              5,
+              6,
+              7
+            ]
+          },
+          "hidden_symmetry_reduction": false,
+          "pins": {
+            "s:2": 4
+          },
+          "scope": "restricted"
+        },
+        "status": "EXHAUSTED_NO_SOLUTION",
+        "witness": null
+      },
+      "created_utc": "2026-11-21T08:14:41.751923+00:00",
+      "environment": {
+        "implementation": "CPython",
+        "machine": "AMD64",
+        "optional_dependencies": {
+          "mpmath": null,
+          "networkx": null,
+          "sympy": null,
+          "z3-solver": null
+        },
+        "package_version": "0.1.0",
+        "platform": "Windows-11-10.0.26200-SP0",
+        "python": "3.13.17"
+      }
+    },
+    {
+      "path": "runs/oracle-20261121T081441Z-a5f3c783/record.json",
+      "bytes": 7328,
+      "raw_file_sha256": "0504e38a259a648e0f648b4ab1e5be4789d3b28de396b69710cfe394e2c88d11",
+      "canonical_record_sha256": "d8c0359adc279d46e5aaffc6cd7affbf7aa70304f659dbc572f5f2eaf978a489",
+      "config_sha256": "d0603cf8cf345118b4cddc7423fc573cc576e06e7b77c6b62a3c0c3d8f9673ec",
+      "source_inventory_sha256": "2dfe3231007a18f4a74e4c4b49fd4a112ebbb66ef439e711ff59ac11fde7bbfd",
+      "source_file_count": 21,
+      "source_mismatches": [],
+      "checks": {
+        "canonical_record_hash_valid": true,
+        "config_hash_valid": true,
+        "source_inventory_hash_valid": true,
+        "source_matches_archived_baseline": true,
+        "original_graph_matches_independent_profile_expansion": true,
+        "original_graph_digest_valid": true,
+        "input_pins_match": true,
+        "input_domains_match": true,
+        "input_limits_match": true,
+        "exhausted_exact_zero_consistent": true,
+        "below_record_byte_limit": true
+      },
+      "result": {
+        "attempted_permutations": 5040,
+        "count": 0,
+        "elapsed_seconds": 0.004339300008723512,
+        "exhausted": true,
+        "graph_digest": "9198e106ce33d9b83b8044e385b1599cfe26cd1fe471f4eec841a461868756b2",
+        "limits": {
+          "enforcement": "cooperative between permutations",
+          "max_permutations": 10000,
+          "max_vertices": 8,
+          "time_limit": 2.0
+        },
+        "method": "direct_permutation_oracle",
+        "permutation_domain_size": 5040,
+        "proof_status": "finite computation; not a formal negative certificate",
+        "reason": "EXHAUSTED",
+        "restrictions": {
+          "alpha_required": false,
+          "count_convention": "named bijections; no symmetry quotient",
+          "domains": {
+            "b:0:0": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "b:1:0": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "l:0:0:0": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "l:1:0:0": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "l:1:0:1": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "s:0": [
+              4,
+              5,
+              6,
+              7
+            ],
+            "s:1": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "s:2": [
+              4,
+              5,
+              6,
+              7
+            ]
+          },
+          "pins": {
+            "s:2": 4
+          },
+          "symmetry_reduction": null
+        },
+        "scope": "restricted",
+        "status": "EXHAUSTED_NO_SOLUTION",
+        "witness": null
+      },
+      "created_utc": "2026-11-21T08:14:41.754669+00:00",
+      "environment": {
+        "implementation": "CPython",
+        "machine": "AMD64",
+        "optional_dependencies": {
+          "mpmath": null,
+          "networkx": null,
+          "sympy": null,
+          "z3-solver": null
+        },
+        "package_version": "0.1.0",
+        "platform": "Windows-11-10.0.26200-SP0",
+        "python": "3.13.17"
+      }
+    }
+  ],
+  "inputs": {
+    "examples/unequal_seed.json": {
+      "raw_file_sha256": "486c501581240d0c6aabce3acdb31fa6d205d58d5881b4ac39b37c6648765db8",
+      "data": {
+        "profile": [
+          [
+            1
+          ],
+          [
+            2
+          ],
+          []
+        ]
+      }
+    },
+    "examples/unequal_seed_pins.json": {
+      "raw_file_sha256": "a39bcce07fd8427ac3c11748836b0317cc609a4b45204a104f5bda36bfe31956",
+      "data": {
+        "s:2": 4
+      }
+    },
+    "examples/unequal_seed_domains.json": {
+      "raw_file_sha256": "0bd9694a536395db1532a68e02bbae51e501889280a99c9108564af8c72acfec",
+      "data": {
+        "s:1": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "b:0:0": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "l:1:0:0": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "l:1:0:1": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "s:0": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "b:1:0": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "l:0:0:0": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "s:2": [
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    },
+    "configs/unequal_seed_limits.json": {
+      "raw_file_sha256": "64bb948a40862ce8238bab108fb00915d2ef48d31c8cfe50502cd0ca9cd0388a",
+      "data": {
+        "max_nodes": 10000,
+        "time_limit": 2.0,
+        "max_vertices": 8,
+        "max_states": 2000
+      }
+    }
+  },
+  "patch": {
+    "export_issue": "Native UTF-8 bytes were decoded as CP437 before the UTF-8 PowerShell export; fully reversible in supplied diff, source files intact.",
+    "normalized_path": "analysis/checkpoint.normalized.diff",
+    "files": [
+      {
+        "path": "STATE.md",
+        "preimage_prefix": "cd1320b",
+        "postimage_prefix": "08d5a45",
+        "uploaded_blob_sha1": "08d5a455a649c69d8e87d74049839e2c3adceb35",
+        "reconstructed_exactly": true
+      },
+      {
+        "path": "handoffs/OC-20261120-b2-unequal-seed.md",
+        "preimage_prefix": "0000000",
+        "postimage_prefix": "434921b",
+        "uploaded_blob_sha1": "434921b698f681f844a2513bc07596217de9a0ea",
+        "reconstructed_exactly": true
+      },
+      {
+        "path": "research/B2_UNEQUAL_SEED.md",
+        "preimage_prefix": "0000000",
+        "postimage_prefix": "98c5a4c",
+        "uploaded_blob_sha1": "98c5a4c4d145998b7d0203c5c10bd0d9ca5998a7",
+        "reconstructed_exactly": true
+      },
+      {
+        "path": "research/DECISIONS.md",
+        "preimage_prefix": "41e66c2",
+        "postimage_prefix": "30d21c1",
+        "uploaded_blob_sha1": "30d21c196187fde1cff60db9abb5c9d81a7a5e7e",
+        "reconstructed_exactly": true
+      },
+      {
+        "path": "research/FAILED_HYPOTHESES.md",
+        "preimage_prefix": "e0901ba",
+        "postimage_prefix": "b4280e3",
+        "uploaded_blob_sha1": "b4280e3478e1f0058586aedac696674b3b2bb1e4",
+        "reconstructed_exactly": true
+      },
+      {
+        "path": "research/FINDINGS.md",
+        "preimage_prefix": "b416c22",
+        "postimage_prefix": "efdd533",
+        "uploaded_blob_sha1": "efdd533b9d987b8357183aaf1f5a69bee88210e5",
+        "reconstructed_exactly": true
+      },
+      {
+        "path": "research/NEXT_TASK.md",
+        "preimage_prefix": "12ec6b4",
+        "postimage_prefix": "73c975c",
+        "uploaded_blob_sha1": "73c975c9d6baf9087ff17cd2ce70fb5ff30c2de3",
+        "reconstructed_exactly": true
+      },
+      {
+        "path": "research/PROOF_OBLIGATIONS.md",
+        "preimage_prefix": "5f60dd8",
+        "postimage_prefix": "5bae331",
+        "uploaded_blob_sha1": "5bae331d8bccde94d58cea23bbb2e9c91956d294",
+        "reconstructed_exactly": true
+      }
+    ],
+    "file_count": 8,
+    "insertions": 246,
+    "deletions": 27,
+    "all_preimages_match_archived_baseline": true,
+    "all_postimages_match_uploaded_bytes": true
+  },
+  "limitations": [
+    "No .git objects or refs supplied: commit ancestry, branch name, tag target, no-push claim and live working tree are reported exports, not independently authenticated here.",
+    "Run source directories and config.json not in upload; record inventory metadata matches all 21 archived release source files exactly.",
+    "Preflight doctor/demo/test stdout not uploaded: report says 110 tests with 6 skipped; this review does not certify that local preflight execution.",
+    "The scratch reviewer script still has its disclosed unconditioned y=3 identity test; corrected script/stdout not uploaded. Its direct 144-assignment witness check is independent of that mistaken diagnostic.",
+    "No negative certificate is produced by verify_certificate: certificate=null; evidence is exhaustion plus a separate mathematical proof, not a formal certificate.",
+    "Run records are currently Git-ignored according to handoff and absent from tracked patch; copy exact bytes to a tracked evidence directory for repository preservation."
+  ],
+  "independently_reconstructed_graph_digest": "9198e106ce33d9b83b8044e385b1599cfe26cd1fe471f4eec841a461868756b2"
+}

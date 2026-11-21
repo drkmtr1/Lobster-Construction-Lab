@@ -2,7 +2,7 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 21, 2026, Pacific/Honolulu  
-**Stage:** usable starter delivered; balanced-family supplier established within its stated domain; unequal-family seed template (pin `s:2=4`) disposed as an exhausted restricted negative; pin-sweep alternative queued.
+**Stage:** usable starter delivered; balanced-family supplier established within its stated domain; unequal-family seed template (pin `s:2=4`) disposed as an exhausted restricted negative; external independent B2 review provisionally integrated (K≥6 interval/adjacent-port obstruction adopted; queued pin sweep superseded, not executed); independent Codex acceptance review is the single next action.
 
 ## Current scientific objective
 
@@ -10,7 +10,7 @@ Supply a usable original-graph boundary for two unequal branched sections withou
 
 ## One next action
 
-**Carry out the queued pin sweep specified in `research/NEXT_TASK.md`: on the same named eight-vertex target with the same alpha domains and the same declared bounded protocol, test the remaining port pins `h(s:2) ∈ {5,6,7}`** — one specific alternative port rule per the exhausted-negative decision rule of B2-UNEQUAL-SEED-001. Cross-check any exhaustive negative with the direct permutation oracle before adopting it. Do not start a broader search automatically. The queued task begins only after the Codex acceptance review of the B2-UNEQUAL-SEED-001 checkpoint (handoff `OC-20261120-b2-unequal-seed`, PENDING_CODEX_REVIEW).
+**Carry out the independent Codex acceptance review of the provisional integration checkpoint** (handoff `OC-20261121-b2-review-integration`, PROVISIONAL_INTEGRATION_PENDING_CODEX_REVIEW) per `docs/CODEX_RETURN_PROMPT.md`: compare all committed and uncommitted changes since the last accepted baseline (including the still-unaccepted overlay `6d0f8d2` and the B2-UNEQUAL-SEED-001 checkpoint `0f0a39c`), and adjudicate each consequential claim — the p=4 restricted negative, the conditional transport, the evidence custody, and the newly adopted K≥6 interface obstruction — as ACCEPT / REVISE / REJECT before any promotion. The superseded pin sweep is **not** executed, and no new search, successor task, push, or installation starts before that decision.
 
 ## What is established in this package
 
@@ -19,6 +19,7 @@ Supply a usable original-graph boundary for two unequal branched sections withou
 - Two L010 prefixes compose under the stated direct-leaf budgets; the reviewed padded construction returns a shifted interval.
 - For q=r=t>=1, no direct leaves, and any K>=1, the new explicit balanced formula supplies `R=[t+2,K+t+1]`, `D=1..K`, active `s:2=K+t+2`, then completes the original path. The full proof is `research/B2_BALANCED_SUPPLIER.md`. This is not a novelty or universal claim.
 - B2-UNEQUAL-SEED-001 is disposed: the eight-vertex prefix `[[1],[2],[]]` with A-side `0..3` / B-side `4..7` bijective domains and pin `h(s:2)=4` has no graceful labeling (analytic obstruction confirmed; bounded DFS and direct permutation oracle both exhausted with 0 solutions; separate reviewer challenge with no unresolved objections). The all-K high-side shift is retained as a conditional identity only. Record: `research/B2_UNEQUAL_SEED.md`; failure entry F-UNEQUAL-SEED; decision D015.
+- The external independent B2 review is **provisionally integrated** (PROVISIONAL_INTEGRATION_PENDING_CODEX_REVIEW): both historical run records and their exact inputs are preserved byte-for-byte in tracked `evidence/reviews/B2_UNEQUAL_SEED_001/` (33/33 verification checks, no discrepancy); the new K≥6 interval/adjacent-port obstruction for `q=1,r=2,z0=z1=0` is adopted as `research/B2_INTERFACE_OBSTRUCTION.md` (threshold sufficient, not sharp; `K=1..5` undetermined; an interface obstruction, not nongracefulness); the queued pin sweep is recorded superseded, not executed. Finding B2-INTERFACE-OBSTRUCTION (FINDINGS.md §6); failure entry F-INTERFACE-K6; decision D016; handoff `OC-20261121-b2-review-integration`.
 - DFS, full-resource DP, direct enumeration, optional Z3 and evidence/recovery controls passed the release's bounded checks. **110 test methods passed.** The final source identity and complete commands are in `evidence/validation/release_final/summary.json`.
 - Four diagnostic target/interface pairs on three named profiles completed: two checked witnesses and two restricted negatives. The q=r=1,ell=1 negative was independently cross-checked by direct enumeration. Results are in `evidence/validation/VALIDATION_REPORT.md`.
 - The current subcubic Lean source was inspected but not rebuilt. Its stated ordinary-gracefulness scope overlaps the small pilot profiles; prescribed return states remain additional conditions.

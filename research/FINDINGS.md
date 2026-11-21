@@ -66,12 +66,20 @@ The proposed analytic obstruction is correct in every step: difference 1 forces 
 
 Scope: this falsifies exactly this alpha/physical-port template. It is not a nongracefulness certificate for the unrestricted eight-vertex tree, for any other restriction set, or for the unequal B2 family at any K. The all-K high-side-shift transport is retained as a conditional identity only (its antecedent is false) and discharges no P07 obligation. Failure-ledger entry: F-UNEQUAL-SEED; decision: D015; full record: [B2_UNEQUAL_SEED.md](B2_UNEQUAL_SEED.md).
 
-## 6. Finite validation and current literature
+## 6. B2-INTERFACE-OBSTRUCTION: the all-K adjacent-port interface is impossible for K>=6
+
+**Disposition: adopted proof note, PROVISIONAL_INTEGRATION_PENDING_CODEX_REVIEW (pending the Codex acceptance review of checkpoint `OC-20261121-b2-review-integration`).** For `q=1`, `r=2`, `z0=z1=0` and every integer `K>=6`, the exact eight-vertex prefix through `s:2` of the B2-P1 tree (profile `[[1],[2]]+[[]]*(K+1)`, the seven original edges of [B2_UNEQUAL_SEED.md](B2_UNEQUAL_SEED.md) section 1) admits **no** injective labeling in the final alphabet `0..K+7` with unused labels exactly `[ell,ell+K-1]`, prefix-edge differences exactly `K+1..K+7` (equivalently unused differences `1..K`), and physical port `f(s:2)=ell+K` or `f(s:2)=ell-1`, for any `ell` and either side. No alpha condition is assumed and no root label is pinned.
+
+Argument in outline (full proof with scope in [B2_INTERFACE_OBSTRUCTION.md](B2_INTERFACE_OBSTRUCTION.md)): the maximum difference `K+7` forces labels `0` and `K+7` into the prefix, giving `1<=ell<=7`; the assigned labels are therefore two blocks `0..ell-1` and `ell+K..K+7`, each of span at most six; for `K>=6` every prefix edge must cross between the blocks; the connected prefix's `4/4` bipartition forces `ell=4`; subtracting `K` from the high block yields a graceful alpha labeling of the original seed graph; the above-side port becomes exactly the forbidden p=4 seed, and the below-side port becomes, after complementing labels by `7-g`, the same forbidden seed (a proof map, not a counting quotient). Both sides are impossible.
+
+Scope limits: the threshold 6 is sufficient, not claimed sharp; `K=1..5` are undetermined (the earlier positive `K=1` pilot is consistent with the result); this is an obstruction to the particular returned interface at the exact prefix — not a nongracefulness proof for the full tree, for any other family, or for any other restriction set; the balanced `q=r` supplier and the padded construction (different parameter domains) are unaffected. Provenance: new deduction of an independent external acceptance review of checkpoint `0f0a39c` (pack `LCL_B2_Independent_Review_2026-11-21`, custody at `evidence/reviews/B2_UNEQUAL_SEED_001/`), challenged there by two separate reasoning agents and independently re-derived step by step by the integrating session. Failure-ledger entry F-INTERFACE-K6; decision D016.
+
+## 7. Finite validation and current literature
 
 The authoritative executed results are in `evidence/validation/VALIDATION_REPORT.md` and its linked JSON records. Positive witnesses are bound to original graphs and requested restrictions. Count controls and the four B2 pairs have only their stated finite meaning. They do not prove a new supplier family.
 
 The [current literature note](../docs/LITERATURE_UPDATE.md) records the author-posted subcubic Lean archive, almost-graceful asymptotics and graceful supertree construction with their exact inspection limits. All three small pilot profiles fall within the subcubic archive's stated ordinary-gracefulness scope; the prescribed interval/port condition is an additional question. The source was inspected, not locally rebuilt in Lean. No exhaustive worldwide novelty or status audit is claimed.
 
-## 7. Promotion criteria
+## 8. Promotion criteria
 
 New findings must name their quantifiers/domain, independent inputs, unchanged original topology, returned physical interface, proof/verification evidence, applicable sources and remaining dependencies. Universal coverage requires a coverage and termination argument, not a large finite record. Keep unproved candidate statements in proof obligations and preserve failed attempts in the failure ledger.
