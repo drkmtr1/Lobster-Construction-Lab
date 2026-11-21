@@ -1,0 +1,215 @@
+{
+  "certificate": null,
+  "classification": "RESTRICTED_INFEASIBLE",
+  "config": {
+    "core_labels": {
+      "s:0": 0,
+      "s:1": 1
+    },
+    "hosts": [
+      "s:0",
+      "s:1"
+    ],
+    "profile": [
+      [
+        0
+      ],
+      [
+        0
+      ]
+    ]
+  },
+  "config_sha256": "fd0a3fae22c21da7719ce417ad1dc1ce40dc9f54304912d90801404084b953a2",
+  "consistency_errors": [],
+  "created_utc": "2026-11-21T05:54:04.710131+00:00",
+  "environment": {
+    "implementation": "CPython",
+    "machine": "x86_64",
+    "optional_dependencies": {
+      "mpmath": "1.3.0",
+      "networkx": "3.7",
+      "sympy": "1.14.0",
+      "z3-solver": "5.4.1.0"
+    },
+    "package_version": "0.1.0",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "python": "3.12.14"
+  },
+  "expected_restrictions": {
+    "domains": {},
+    "pins": {
+      "s:0": 0,
+      "s:1": 1
+    }
+  },
+  "original_graph": {
+    "edges": [
+      [
+        "s:0",
+        "s:1"
+      ],
+      [
+        "s:0",
+        "b:0:0"
+      ],
+      [
+        "s:1",
+        "b:1:0"
+      ]
+    ],
+    "profile": [
+      [
+        0
+      ],
+      [
+        0
+      ]
+    ],
+    "roles": {
+      "b:0:0": {
+        "branch": 0,
+        "kind": "branch",
+        "section": 0
+      },
+      "b:1:0": {
+        "branch": 0,
+        "kind": "branch",
+        "section": 1
+      },
+      "s:0": {
+        "kind": "spine",
+        "section": 0
+      },
+      "s:1": {
+        "kind": "spine",
+        "section": 1
+      }
+    },
+    "schema_version": 1,
+    "spine": [
+      "s:0",
+      "s:1"
+    ],
+    "vertices": [
+      "s:0",
+      "b:0:0",
+      "s:1",
+      "b:1:0"
+    ]
+  },
+  "original_graph_digest": "e9542e6fdd432d4ad2965f79f15242b1a2b69937daf5c028891a6389a7008375",
+  "record_sha256": "3ac0d9a032c30123ef8de64bfe87e28e6c25db0349f483c61992722f7ce3f577",
+  "result": {
+    "details": {
+      "A0": 2,
+      "c": 0,
+      "components": [
+        {
+          "differences": [
+            2,
+            3
+          ],
+          "e": 1,
+          "forced": [
+            {
+              "host": "s:0",
+              "label": 2
+            },
+            {
+              "host": "s:0",
+              "label": 3
+            }
+          ],
+          "kind": "tree_with_forced_half_edge",
+          "labels": [
+            2,
+            3
+          ],
+          "n": 2,
+          "t": 1
+        }
+      ],
+      "eta": 0,
+      "fractional_quota_interval": [
+        2,
+        2
+      ],
+      "free_pairs": [],
+      "host_labels": [
+        0,
+        1
+      ],
+      "integral_quota_rule": "A0 + 2*j + epsilon; 0<=j<=c; 0<=epsilon<=eta",
+      "midpoint_labels": [],
+      "ordered_hosts": [
+        "s:0",
+        "s:1"
+      ],
+      "reason": "fixed host quota fails the R226 interval/parity criterion",
+      "requested_lower_label_host_quota": 1,
+      "unused_differences": [
+        2,
+        3
+      ],
+      "unused_labels": [
+        2,
+        3
+      ]
+    },
+    "labels": null,
+    "method": "r226",
+    "restrictions": {
+      "domain": "lobster target; connected fixed core; unassigned leaves at two hosts",
+      "fixed_core_labels": {
+        "s:0": 0,
+        "s:1": 1
+      },
+      "graph_digest": "e9542e6fdd432d4ad2965f79f15242b1a2b69937daf5c028891a6389a7008375",
+      "host_quotas": {
+        "s:0": 1,
+        "s:1": 1
+      },
+      "hosts": [
+        "s:0",
+        "s:1"
+      ],
+      "ordered_hosts_by_label": [
+        "s:0",
+        "s:1"
+      ],
+      "ordinary_nongracefulness_claim": false,
+      "source": "https://github.com/drkmtr1/Math-Discovery-Lab/blob/858a8c1fcfda87ba40bb1adee498a6131504a803/research/candidates/volume-010.md#n226-researcher",
+      "supplies_core_labels": false,
+      "target_incidence_preserved": true
+    },
+    "status": "RESTRICTED_INFEASIBLE"
+  },
+  "schema_version": 1,
+  "source": {
+    "files": {
+      "lcl/__init__.py": "134055506d3e9cd4fa538177844d28a44d5ab567ec220cf54048e63d1a8a7374",
+      "lcl/__main__.py": "30782be9a5f5e6bc8b28d2ba189b3dfbf36f24571321d404bec50bd8175f1014",
+      "lcl/allocation.py": "0aab778a6665712d3cd1e35554657cc212fa840d3ce28d32ba79c18f2dcce2b9",
+      "lcl/budget.py": "02145a6b4bc10eda53d2f3736fdf082c1414f96905c71e74a407c0cefd73b16a",
+      "lcl/constructors.py": "5aefc067c9906052dbf1dce6063510b56479bccf0766e81c1a1ebfdbf28f02b4",
+      "lcl/dp.py": "1aa3d2ed888c26b8e5fd65bd74069eb654c60dd336eef5fb33e8fdb7659a14f9",
+      "lcl/engines.py": "8a67ba56d97676b613f9fa89e18e30d8642d74d5c6ada7ec55f97733b0dc7207",
+      "lcl/experiments.py": "0d0f08632397082a2580e250aa7a2a53c5df61aba770e4d2ae0d701b1fe2f714",
+      "lcl/ingest.py": "a7348d668d7a66757fc3e6b2cd8552fd9d26fb7c62a36c43762f5534143f502b",
+      "lcl/model.py": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6",
+      "lcl/oracle.py": "6d70eca24f9b0c254073ec8d1ffcc769d9beca42ad43b6cf272659aecf58146d",
+      "lcl/records.py": "ba7299dac2b3f2c1907c3cce40e0ba20c603b19fc8dcee2f9b2b0760b925391e",
+      "lcl/search.py": "f8291a3446e04422095131e4d75100ec9bfd3213d039d17ce83c04ec82d671ff",
+      "lcl/states.py": "386a7666da91466d35d17b634ad2e5a69e67581f553e86e9d4e75389dc781e1c",
+      "lcl/verify.py": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909",
+      "pyproject.toml": "738f14eba3125ce7f444628adaddaf2e3e30e5aa7f43f10e7035067f6b7072e5",
+      "requirements-graph.txt": "63b83d49071ae093c187423c768c6711a3716cda354d3a24e2bb10b0f536d34c",
+      "requirements-optional.txt": "5bab117f06ee96a8fa7529e4e08f5125087e6ca42bb5ffee3edfdc6913da9e3b",
+      "requirements-smt.txt": "4bb07f85bfdeaabba65e8deb117ecc222d748651ed5526284666f4bb3e6450bd",
+      "requirements-symbolic.txt": "47fd19021144e071cc43b6e265aafada0056abe89724ad95bd6e3a8e37995b94",
+      "requirements.txt": "60f6e1bd76adf6ed25cf381ca95f67e8a27a0de1e62fb673a7cf5af4b86249ea"
+    },
+    "sha256": "578a4fa8b830dd84b20b4d7e7568b9e8c31609fda80b9320a46f66001182ca01"
+  },
+  "universal_claim": false
+}

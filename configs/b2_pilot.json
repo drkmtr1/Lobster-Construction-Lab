@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "objective": "B2-P1-interval-diagnostic",
+  "engine": "dfs",
+  "limits": {"max_nodes": 50000, "time_limit": 2.0, "max_vertices": 16, "max_states": 20000},
+  "invocation": {"max_cases": 4, "wall_seconds": 20.0, "max_record_bytes": 2000000},
+  "cases": [
+    {"q":1,"r":1,"z0":0,"z1":0,"K":1,"interval_start":1,"side":"above"},
+    {"q":1,"r":1,"z0":0,"z1":0,"K":1,"interval_start":2,"side":"above"},
+    {"q":1,"r":2,"z0":0,"z1":0,"K":1,"interval_start":1,"side":"above"},
+    {"q":2,"r":1,"z0":0,"z1":0,"K":1,"interval_start":1,"side":"above"}
+  ]
+}

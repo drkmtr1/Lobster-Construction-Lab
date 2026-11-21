@@ -1,0 +1,1177 @@
+{
+  "schema_version": 1,
+  "purpose": "Curated archived mathematical evidence for Lobster Construction Lab",
+  "source_integrity": "Every full source blob was reproduced byte-for-byte against pinned tree Git blob SHA-1 before LF-normalized excerpting.",
+  "line_number_convention": "One-based inclusive physical lines of the verified source; line-ending normalization does not change line positions.",
+  "scope": "Selection and source-integrity check only. No new theorem review, execution, formal verification, or novelty claim.",
+  "excluded": [
+    "AGENTS.md",
+    "active upstream governance/configuration",
+    "unrelated source campaigns",
+    "private credentials"
+  ],
+  "repositories": {
+    "mdl": {
+      "url": "https://github.com/drkmtr1/Math-Discovery-Lab",
+      "commit": "858a8c1fcfda87ba40bb1adee498a6131504a803"
+    },
+    "bounded": {
+      "url": "https://github.com/drkmtr1/MDL_Bounded_Search",
+      "commit": "e48b94eec4091b4fe189e325cab2eda464409943"
+    }
+  },
+  "entries": [
+    {
+      "file": "mdl/N033_retained_record.md",
+      "title": "MDL N33: retained record",
+      "scope": "Complete selected historical session: statement, construction/argument, review and bounded disposition; original limits retained.",
+      "excerpt_sha256": "7147e0e025c7280414077d316d680549d2d4db8813c5d81ec27340b680d5beb0",
+      "excerpt_bytes": 10836,
+      "segments": [
+        {
+          "start_line": 3717,
+          "end_line": 3908,
+          "url": "https://github.com/drkmtr1/Math-Discovery-Lab/blob/858a8c1fcfda87ba40bb1adee498a6131504a803/research/candidates/volume-005.md#L3717-L3908",
+          "normalized_segment_sha256": "7d187cb358a3dd0f724cfa0eda1637adbeba1cf4e94c2e0cf66f32b7c0577205",
+          "normalized_segment_bytes": 9825
+        }
+      ],
+      "source": {
+        "repository": "drkmtr1/Math-Discovery-Lab",
+        "pinned_commit": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+        "source_path": "research/candidates/volume-005.md",
+        "source_url": "https://github.com/drkmtr1/Math-Discovery-Lab/blob/858a8c1fcfda87ba40bb1adee498a6131504a803/research/candidates/volume-005.md",
+        "source_tree_url": "https://api.github.com/repos/drkmtr1/Math-Discovery-Lab/git/trees/858a8c1fcfda87ba40bb1adee498a6131504a803",
+        "source_blob_sha1": "43084076ad525f4279a939dbf0cb95ac7536fa67",
+        "source_blob_bytes": 377448,
+        "restored_blob_bytes": 377448,
+        "restored_blob_sha1": "43084076ad525f4279a939dbf0cb95ac7536fa67",
+        "source_blob_verified": true,
+        "restoration_from_local_cache": "LF; 1 terminal newline(s); UTF-8 without BOM",
+        "local_cache_body_matches_verified_source_after_line_ending_normalization": true,
+        "local_cache_sha256": "420bcadf418806b1f54c1e05f2688fb6ab69ac405b3b28334a6add5afa647798",
+        "normalized_source_sha256": "8f614be14f2cfdec998f22c6da475b0b9d26c07aca3dfaf21ccc728106bc8aab",
+        "normalization": "UTF-8 without BOM; CRLF/CR converted to LF; verified original terminal newlines retained",
+        "normalized_source_lines": 6511
+      }
+    },
+    {
+      "file": "mdl/N068_retained_record.md",
+      "title": "MDL N68: retained record",
+      "scope": "Complete selected historical session: statement, construction/argument, review and bounded disposition; original limits retained.",
+      "excerpt_sha256": "4d007d4aeb73c42ef5fc15e4fbffb5154ea18f9db6329a99d68f4020423402be",
+      "excerpt_bytes": 12833,
+      "segments": [
+        {
+          "start_line": 1003,
+          "end_line": 1225,
+          "url": "https://github.com/drkmtr1/Math-Discovery-Lab/blob/858a8c1fcfda87ba40bb1adee498a6131504a803/research/candidates/volume-004.md#L1003-L1225",
+          "normalized_segment_sha256": "d8e3cc52b64b53f530cd2f2847783f09ec2329a523c40e822e6b8b9204f00cbf",
+          "normalized_segment_bytes": 11822
+        }
+      ],
+      "source": {
+        "repository": "drkmtr1/Math-Discovery-Lab",
+        "pinned_commit": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+        "source_path": "research/candidates/volume-004.md",
+        "source_url": "https://github.com/drkmtr1/Math-Discovery-Lab/blob/858a8c1fcfda87ba40bb1adee498a6131504a803/research/candidates/volume-004.md",
+        "source_tree_url": "https://api.github.com/repos/drkmtr1/Math-Discovery-Lab/git/trees/858a8c1fcfda87ba40bb1adee498a6131504a803",
+        "source_blob_sha1": "aef2c40b4ba13b18c70cc3a8e664e3f348260126",
+        "source_blob_bytes": 371611,
+        "restored_blob_bytes": 371611,
+        "restored_blob_sha1": "aef2c40b4ba13b18c70cc3a8e664e3f348260126",
+        "source_blob_verified": true,
+        "restoration_from_local_cache": "LF; 1 terminal newline(s); UTF-8 without BOM",
+        "local_cache_body_matches_verified_source_after_line_ending_normalization": true,
+        "local_cache_sha256": "498cf047f11b2734e2568ca1cc5c1cca55877a7374e7d0bb5b0c69e648c4866e",
+        "normalized_source_sha256": "6276e002300bc7ebb29c14824464666bb05ab5387d30f8579a15e392a8ae5bb6",
+        "normalization": "UTF-8 without BOM; CRLF/CR converted to LF; verified original terminal newlines retained",
+        "normalized_source_lines": 6684
+      }
+    },
+    {
+      "file": "mdl/N069_retained_record.md",
+      "title": "MDL N69: retained record",
+      "scope": "Complete selected historical session: statement, construction/argument, review and bounded disposition; original limits retained.",
+      "excerpt_sha256": "f2bf62799be61be5a01871b37b82b29bbff41a7a91b9ac234ff039495e411d2a",
+      "excerpt_bytes": 16022,
+      "segments": [
+        {
+          "start_line": 732,
+          "end_line": 999,
+          "url": "https://github.com/drkmtr1/Math-Discovery-Lab/blob/858a8c1fcfda87ba40bb1adee498a6131504a803/research/candidates/volume-004.md#L732-L999",
+          "normalized_segment_sha256": "17481995f7f2ce02238ce23706558560fd5041034f5346557e54e8b41db95c54",
+          "normalized_segment_bytes": 15015
+        }
+      ],
+      "source": {
+        "repository": "drkmtr1/Math-Discovery-Lab",
+        "pinned_commit": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+        "source_path": "research/candidates/volume-004.md",
+        "source_url": "https://github.com/drkmtr1/Math-Discovery-Lab/blob/858a8c1fcfda87ba40bb1adee498a6131504a803/research/candidates/volume-004.md",
+        "source_tree_url": "https://api.github.com/repos/drkmtr1/Math-Discovery-Lab/git/trees/858a8c1fcfda87ba40bb1adee498a6131504a803",
+        "source_blob_sha1": "aef2c40b4ba13b18c70cc3a8e664e3f348260126",
+        "source_blob_bytes": 371611,
+        "restored_blob_bytes": 371611,
+        "restored_blob_sha1": "aef2c40b4ba13b18c70cc3a8e664e3f348260126",
+        "source_blob_verified": true,
+        "restoration_from_local_cache": "LF; 1 terminal newline(s); UTF-8 without BOM",
+        "local_cache_body_matches_verified_source_after_line_ending_normalization": true,
+        "local_cache_sha256": "498cf047f11b2734e2568ca1cc5c1cca55877a7374e7d0bb5b0c69e648c4866e",
+        "normalized_source_sha256": "6276e002300bc7ebb29c14824464666bb05ab5387d30f8579a15e392a8ae5bb6",
+        "normalization": "UTF-8 without BOM; CRLF/CR converted to LF; verified original terminal newlines retained",
+        "normalized_source_lines": 6684
+      }
+    },
+    {
+      "file": "mdl/N070_retained_record.md",
+      "title": "MDL N70: retained record",
+      "scope": "Complete selected historical session: statement, construction/argument, review and bounded disposition; original limits retained.",
+      "excerpt_sha256": "1d43c96a05d6d4839d125c24703e7630a88b2c93f6d9d06b602dd50a5d743976",
+      "excerpt_bytes": 15151,
+      "segments": [
+        {
+          "start_line": 476,
+          "end_line": 728,
+          "url": "https://github.com/drkmtr1/Math-Discovery-Lab/blob/858a8c1fcfda87ba40bb1adee498a6131504a803/research/candidates/volume-004.md#L476-L728",
+          "normalized_segment_sha256": "2b5f20f87e1cbc32b01c96cde2fbd755a837aab5fb33007893b06b68681a60e0",
+          "normalized_segment_bytes": 14144
+        }
+      ],
+      "source": {
+        "repository": "drkmtr1/Math-Discovery-Lab",
+        "pinned_commit": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+        "source_path": "research/candidates/volume-004.md",
+        "source_url": "https://github.com/drkmtr1/Math-Discovery-Lab/blob/858a8c1fcfda87ba40bb1adee498a6131504a803/research/candidates/volume-004.md",
+        "source_tree_url": "https://api.github.com/repos/drkmtr1/Math-Discovery-Lab/git/trees/858a8c1fcfda87ba40bb1adee498a6131504a803",
+        "source_blob_sha1": "aef2c40b4ba13b18c70cc3a8e664e3f348260126",
+        "source_blob_bytes": 371611,
+        "restored_blob_bytes": 371611,
+        "restored_blob_sha1": "aef2c40b4ba13b18c70cc3a8e664e3f348260126",
+        "source_blob_verified": true,
+        "restoration_from_local_cache": "LF; 1 terminal newline(s); UTF-8 without BOM",
+        "local_cache_body_matches_verified_source_after_line_ending_normalization": true,
+        "local_cache_sha256": "498cf047f11b2734e2568ca1cc5c1cca55877a7374e7d0bb5b0c69e648c4866e",
+        "normalized_source_sha256": "6276e002300bc7ebb29c14824464666bb05ab5387d30f8579a15e392a8ae5bb6",
+        "normalization": "UTF-8 without BOM; CRLF/CR converted to LF; verified original terminal newlines retained",
+        "normalized_source_lines": 6684
+      }
+    },
+    {
+      "file": "mdl/N107_retained_record.md",
+      "title": "MDL N107: retained record",
+      "scope": "Complete selected historical session: statement, construction/argument, review and bounded disposition; original limits retained.",
+      "excerpt_sha256": "c1d9821fbd9ba75e00c78813e26371d82e9f8e85b21f077f460baa4c3189857b",
+      "excerpt_bytes": 18929,
+      "segments": [
+        {
+          "start_line": 4720,
+          "end_line": 5022,
+          "url": "https://github.com/drkmtr1/Math-Discovery-Lab/blob/858a8c1fcfda87ba40bb1adee498a6131504a803/research/candidates/volume-002.md#L4720-L5022",
+          "normalized_segment_sha256": "fc870bd05020cc7163ce43c9d66c8f4719c18469a989471bf316e22946ba3a2f",
+          "normalized_segment_bytes": 17917
+        }
+      ],
+      "source": {
+        "repository": "drkmtr1/Math-Discovery-Lab",
+        "pinned_commit": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+        "source_path": "research/candidates/volume-002.md",
+        "source_url": "https://github.com/drkmtr1/Math-Discovery-Lab/blob/858a8c1fcfda87ba40bb1adee498a6131504a803/research/candidates/volume-002.md",
+        "source_tree_url": "https://api.github.com/repos/drkmtr1/Math-Discovery-Lab/git/trees/858a8c1fcfda87ba40bb1adee498a6131504a803",
+        "source_blob_sha1": "3075b72851b9cef3fde25547286cc038e79eb16f",
+        "source_blob_bytes": 374836,
+        "restored_blob_bytes": 374836,
+        "restored_blob_sha1": "3075b72851b9cef3fde25547286cc038e79eb16f",
+        "source_blob_verified": true,
+        "restoration_from_local_cache": "LF; 1 terminal newline(s); UTF-8 without BOM",
+        "local_cache_body_matches_verified_source_after_line_ending_normalization": true,
+        "local_cache_sha256": "5544b5df70d99c132bfbb8497f55dc4cdcf1a9f449603010e8b635507eb08b57",
+        "normalized_source_sha256": "10e1d6b0722ed34f485e39fcd21ac3336c77e95734f29991a92e2707c178f172",
+        "normalization": "UTF-8 without BOM; CRLF/CR converted to LF; verified original terminal newlines retained",
+        "normalized_source_lines": 6211
+      }
+    },
+    {
+      "file": "mdl/N121_retained_record.md",
+      "title": "MDL N121: retained record",
+      "scope": "Complete selected historical session: statement, construction/argument, review and bounded disposition; original limits retained.",
+      "excerpt_sha256": "cfe6399ba612cbf85462bce2ebc920210568a5a5e1bd80c3ac871ce85fcce6be",
+      "excerpt_bytes": 18510,
+      "segments": [
+        {
+          "start_line": 1404,
+          "end_line": 1699,
+          "url": "https://github.com/drkmtr1/Math-Discovery-Lab/blob/858a8c1fcfda87ba40bb1adee498a6131504a803/research/candidates/volume-002.md#L1404-L1699",
+          "normalized_segment_sha256": "bdda917f2b23a92d61787c26d66cf4466460b72f3911e82c8c220c131bf4fafd",
+          "normalized_segment_bytes": 17498
+        }
+      ],
+      "source": {
+        "repository": "drkmtr1/Math-Discovery-Lab",
+        "pinned_commit": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+        "source_path": "research/candidates/volume-002.md",
+        "source_url": "https://github.com/drkmtr1/Math-Discovery-Lab/blob/858a8c1fcfda87ba40bb1adee498a6131504a803/research/candidates/volume-002.md",
+        "source_tree_url": "https://api.github.com/repos/drkmtr1/Math-Discovery-Lab/git/trees/858a8c1fcfda87ba40bb1adee498a6131504a803",
+        "source_blob_sha1": "3075b72851b9cef3fde25547286cc038e79eb16f",
+        "source_blob_bytes": 374836,
+        "restored_blob_bytes": 374836,
+        "restored_blob_sha1": "3075b72851b9cef3fde25547286cc038e79eb16f",
+        "source_blob_verified": true,
+        "restoration_from_local_cache": "LF; 1 terminal newline(s); UTF-8 without BOM",
+        "local_cache_body_matches_verified_source_after_line_ending_normalization": true,
+        "local_cache_sha256": "5544b5df70d99c132bfbb8497f55dc4cdcf1a9f449603010e8b635507eb08b57",
+        "normalized_source_sha256": "10e1d6b0722ed34f485e39fcd21ac3336c77e95734f29991a92e2707c178f172",
+        "normalization": "UTF-8 without BOM; CRLF/CR converted to LF; verified original terminal newlines retained",
+        "normalized_source_lines": 6211
+      }
+    },
+    {
+      "file": "mdl/N135_retained_record.md",
+      "title": "MDL N135: retained record",
+      "scope": "Complete selected historical session: statement, construction/argument, review and bounded disposition; original limits retained.",
+      "excerpt_sha256": "b6786ccb2af88744bc665e71d41b609c81830ff8ef69b4f80b7d9a8659783c36",
+      "excerpt_bytes": 19615,
+      "segments": [
+        {
+          "start_line": 2200,
+          "end_line": 2492,
+          "url": "https://github.com/drkmtr1/Math-Discovery-Lab/blob/858a8c1fcfda87ba40bb1adee498a6131504a803/research/candidates/volume-001.md#L2200-L2492",
+          "normalized_segment_sha256": "83f775cb0319fd50f6b88db92fa5305d79b313c3acdebff1bc466920a75079aa",
+          "normalized_segment_bytes": 18603
+        }
+      ],
+      "source": {
+        "repository": "drkmtr1/Math-Discovery-Lab",
+        "pinned_commit": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+        "source_path": "research/candidates/volume-001.md",
+        "source_url": "https://github.com/drkmtr1/Math-Discovery-Lab/blob/858a8c1fcfda87ba40bb1adee498a6131504a803/research/candidates/volume-001.md",
+        "source_tree_url": "https://api.github.com/repos/drkmtr1/Math-Discovery-Lab/git/trees/858a8c1fcfda87ba40bb1adee498a6131504a803",
+        "source_blob_sha1": "11dde2c5a38ba2721d24e62a96497346706439ae",
+        "source_blob_bytes": 356693,
+        "restored_blob_bytes": 356693,
+        "restored_blob_sha1": "11dde2c5a38ba2721d24e62a96497346706439ae",
+        "source_blob_verified": true,
+        "restoration_from_local_cache": "LF; 1 terminal newline(s); UTF-8 without BOM",
+        "local_cache_body_matches_verified_source_after_line_ending_normalization": true,
+        "local_cache_sha256": "7cd6104c220e6e3d71aaf85c7185c6b3a94c63ea77f3d0a8c7f7d17f06b75b6f",
+        "normalized_source_sha256": "64e47ba7cc6c284601a3eba85df9b027cfaa659ed103ffa96c0e869f1ca2ee8b",
+        "normalization": "UTF-8 without BOM; CRLF/CR converted to LF; verified original terminal newlines retained",
+        "normalized_source_lines": 4372
+      }
+    },
+    {
+      "file": "mdl/N141_retained_record.md",
+      "title": "MDL N141: retained record",
+      "scope": "Complete selected historical session: statement, construction/argument, review and bounded disposition; original limits retained.",
+      "excerpt_sha256": "c1acaf2eeb45606c56f04485662f6126fd59c7f51f32f6943ccd931e90f650b1",
+      "excerpt_bytes": 18886,
+      "segments": [
+        {
+          "start_line": 531,
+          "end_line": 837,
+          "url": "https://github.com/drkmtr1/Math-Discovery-Lab/blob/858a8c1fcfda87ba40bb1adee498a6131504a803/research/candidates/volume-001.md#L531-L837",
+          "normalized_segment_sha256": "ebe1bd84f54ba4b1e86632ed03e9cff18730a32a9b40d25c53fead0be3952524",
+          "normalized_segment_bytes": 17878
+        }
+      ],
+      "source": {
+        "repository": "drkmtr1/Math-Discovery-Lab",
+        "pinned_commit": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+        "source_path": "research/candidates/volume-001.md",
+        "source_url": "https://github.com/drkmtr1/Math-Discovery-Lab/blob/858a8c1fcfda87ba40bb1adee498a6131504a803/research/candidates/volume-001.md",
+        "source_tree_url": "https://api.github.com/repos/drkmtr1/Math-Discovery-Lab/git/trees/858a8c1fcfda87ba40bb1adee498a6131504a803",
+        "source_blob_sha1": "11dde2c5a38ba2721d24e62a96497346706439ae",
+        "source_blob_bytes": 356693,
+        "restored_blob_bytes": 356693,
+        "restored_blob_sha1": "11dde2c5a38ba2721d24e62a96497346706439ae",
+        "source_blob_verified": true,
+        "restoration_from_local_cache": "LF; 1 terminal newline(s); UTF-8 without BOM",
+        "local_cache_body_matches_verified_source_after_line_ending_normalization": true,
+        "local_cache_sha256": "7cd6104c220e6e3d71aaf85c7185c6b3a94c63ea77f3d0a8c7f7d17f06b75b6f",
+        "normalized_source_sha256": "64e47ba7cc6c284601a3eba85df9b027cfaa659ed103ffa96c0e869f1ca2ee8b",
+        "normalization": "UTF-8 without BOM; CRLF/CR converted to LF; verified original terminal newlines retained",
+        "normalized_source_lines": 4372
+      }
+    },
+    {
+      "file": "mdl/N145_retained_record.md",
+      "title": "MDL N145: retained record",
+      "scope": "Complete selected historical session: statement, construction/argument, review and bounded disposition; original limits retained.",
+      "excerpt_sha256": "f3749d52d2e771abfb071acf0db90b1a7dc2e8e4af3c67c8157b0b2cf9eed98e",
+      "excerpt_bytes": 13536,
+      "segments": [
+        {
+          "start_line": 2735,
+          "end_line": 2838,
+          "url": "https://github.com/drkmtr1/Math-Discovery-Lab/blob/858a8c1fcfda87ba40bb1adee498a6131504a803/research/candidates/volume-006.md#L2735-L2838",
+          "normalized_segment_sha256": "cbee4f91236389164fcbe4ba2a3a4736d7a245a816457ed6ed7659fc80fe66bb",
+          "normalized_segment_bytes": 12524
+        }
+      ],
+      "source": {
+        "repository": "drkmtr1/Math-Discovery-Lab",
+        "pinned_commit": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+        "source_path": "research/candidates/volume-006.md",
+        "source_url": "https://github.com/drkmtr1/Math-Discovery-Lab/blob/858a8c1fcfda87ba40bb1adee498a6131504a803/research/candidates/volume-006.md",
+        "source_tree_url": "https://api.github.com/repos/drkmtr1/Math-Discovery-Lab/git/trees/858a8c1fcfda87ba40bb1adee498a6131504a803",
+        "source_blob_sha1": "79e3fdaeafcf0048435c7507df16c68645bc879a",
+        "source_blob_bytes": 2063520,
+        "restored_blob_bytes": 2063520,
+        "restored_blob_sha1": "79e3fdaeafcf0048435c7507df16c68645bc879a",
+        "source_blob_verified": true,
+        "restoration_from_local_cache": "LF; 1 terminal newline(s); UTF-8 without BOM",
+        "local_cache_body_matches_verified_source_after_line_ending_normalization": true,
+        "local_cache_sha256": "c5892b9da051cb1cd6c0c6da99fa6f7e7d0e6903456784d8f98b8b7b18ca4185",
+        "normalized_source_sha256": "7d604f34a223fb4d06bcd749d6ecf41042743fc066f1e1d2c7300272a94b31d2",
+        "normalization": "UTF-8 without BOM; CRLF/CR converted to LF; verified original terminal newlines retained",
+        "normalized_source_lines": 9133
+      }
+    },
+    {
+      "file": "mdl/N226_R226_two_host_completion.md",
+      "title": "R226: two-host completion, review and disposition",
+      "scope": "Complete revision-2 manuscript, separate full review, investment qualification and adoption context.",
+      "excerpt_sha256": "989e85fd24be0ed3c04b0dd80df7a93f648279d6599ec82eede4f4241dc5cddc",
+      "excerpt_bytes": 39732,
+      "segments": [
+        {
+          "start_line": 609,
+          "end_line": 771,
+          "url": "https://github.com/drkmtr1/Math-Discovery-Lab/blob/858a8c1fcfda87ba40bb1adee498a6131504a803/research/candidates/volume-010.md#L609-L771",
+          "normalized_segment_sha256": "d7cc3b730a3d43196965979dc2e5bf1c5635fba81c1aece1b8ee05db99dbdf17",
+          "normalized_segment_bytes": 38729
+        }
+      ],
+      "source": {
+        "repository": "drkmtr1/Math-Discovery-Lab",
+        "pinned_commit": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+        "source_path": "research/candidates/volume-010.md",
+        "source_url": "https://github.com/drkmtr1/Math-Discovery-Lab/blob/858a8c1fcfda87ba40bb1adee498a6131504a803/research/candidates/volume-010.md",
+        "source_tree_url": "https://api.github.com/repos/drkmtr1/Math-Discovery-Lab/git/trees/858a8c1fcfda87ba40bb1adee498a6131504a803",
+        "source_blob_sha1": "faca17cfa4c484127413762adc0c36b771a18f71",
+        "source_blob_bytes": 1597207,
+        "restored_blob_bytes": 1597207,
+        "restored_blob_sha1": "faca17cfa4c484127413762adc0c36b771a18f71",
+        "source_blob_verified": true,
+        "restoration_from_local_cache": "LF; 1 terminal newline(s); UTF-8 without BOM",
+        "local_cache_body_matches_verified_source_after_line_ending_normalization": true,
+        "local_cache_sha256": "0691f938f5339188a61ea49fb5a3aeb4c48b6d2e882193f11dccca886f6b3e9d",
+        "normalized_source_sha256": "ce93859743f7fbb117d26701de01f7c0c2ed2c161aec9ef200a493ccd06eb5b0",
+        "normalization": "UTF-8 without BOM; CRLF/CR converted to LF; verified original terminal newlines retained",
+        "normalized_source_lines": 6818
+      }
+    },
+    {
+      "file": "mdl/N232_R232_joint_allocation.md",
+      "title": "R232: reserved-palette joint allocation",
+      "scope": "Complete developed manuscript with correction/review and final disposition; palette and singleton-forest restrictions retained.",
+      "excerpt_sha256": "45452191b708528c0ba3fab4802767f9e9cbf20dab0c126929a91a770dbd505d",
+      "excerpt_bytes": 29112,
+      "segments": [
+        {
+          "start_line": 2559,
+          "end_line": 2648,
+          "url": "https://github.com/drkmtr1/Math-Discovery-Lab/blob/858a8c1fcfda87ba40bb1adee498a6131504a803/research/candidates/volume-010.md#L2559-L2648",
+          "normalized_segment_sha256": "e900d4bdccb20f06640cf6767de9ebdd2eb70344466e85c3e881753f99670292",
+          "normalized_segment_bytes": 28088
+        }
+      ],
+      "source": {
+        "repository": "drkmtr1/Math-Discovery-Lab",
+        "pinned_commit": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+        "source_path": "research/candidates/volume-010.md",
+        "source_url": "https://github.com/drkmtr1/Math-Discovery-Lab/blob/858a8c1fcfda87ba40bb1adee498a6131504a803/research/candidates/volume-010.md",
+        "source_tree_url": "https://api.github.com/repos/drkmtr1/Math-Discovery-Lab/git/trees/858a8c1fcfda87ba40bb1adee498a6131504a803",
+        "source_blob_sha1": "faca17cfa4c484127413762adc0c36b771a18f71",
+        "source_blob_bytes": 1597207,
+        "restored_blob_bytes": 1597207,
+        "restored_blob_sha1": "faca17cfa4c484127413762adc0c36b771a18f71",
+        "source_blob_verified": true,
+        "restoration_from_local_cache": "LF; 1 terminal newline(s); UTF-8 without BOM",
+        "local_cache_body_matches_verified_source_after_line_ending_normalization": true,
+        "local_cache_sha256": "0691f938f5339188a61ea49fb5a3aeb4c48b6d2e882193f11dccca886f6b3e9d",
+        "normalized_source_sha256": "ce93859743f7fbb117d26701de01f7c0c2ed2c161aec9ef200a493ccd06eb5b0",
+        "normalization": "UTF-8 without BOM; CRLF/CR converted to LF; verified original terminal newlines retained",
+        "normalized_source_lines": 6818
+      }
+    },
+    {
+      "file": "mdl/N240_resource_algebra_counting.md",
+      "title": "N240: resource algebra and exact counting formulation",
+      "scope": "Complete first mathematical return, statement/full review and disposition; formulation is not an existence supplier.",
+      "excerpt_sha256": "a0747a6e1ee358ec62bf7af04fac1044aa3e4c80708b108f6191c009405f48b3",
+      "excerpt_bytes": 28699,
+      "segments": [
+        {
+          "start_line": 4137,
+          "end_line": 4187,
+          "url": "https://github.com/drkmtr1/Math-Discovery-Lab/blob/858a8c1fcfda87ba40bb1adee498a6131504a803/research/candidates/volume-010.md#L4137-L4187",
+          "normalized_segment_sha256": "71215043e43a7b7a2e2edc2e1933e188e3385f70561a7c75efb9699c17a11908",
+          "normalized_segment_bytes": 9035
+        },
+        {
+          "start_line": 4231,
+          "end_line": 4267,
+          "url": "https://github.com/drkmtr1/Math-Discovery-Lab/blob/858a8c1fcfda87ba40bb1adee498a6131504a803/research/candidates/volume-010.md#L4231-L4267",
+          "normalized_segment_sha256": "399369430334d11445d93d97ca533bb34626bb384cb5474eb4c370c1c9a30325",
+          "normalized_segment_bytes": 9946
+        },
+        {
+          "start_line": 4280,
+          "end_line": 4301,
+          "url": "https://github.com/drkmtr1/Math-Discovery-Lab/blob/858a8c1fcfda87ba40bb1adee498a6131504a803/research/candidates/volume-010.md#L4280-L4301",
+          "normalized_segment_sha256": "bf25a0faf5cdce0906e79cfbaa7fec6ef2624c9fa8cb2bf642ab09f6821fb74b",
+          "normalized_segment_bytes": 8297
+        }
+      ],
+      "source": {
+        "repository": "drkmtr1/Math-Discovery-Lab",
+        "pinned_commit": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+        "source_path": "research/candidates/volume-010.md",
+        "source_url": "https://github.com/drkmtr1/Math-Discovery-Lab/blob/858a8c1fcfda87ba40bb1adee498a6131504a803/research/candidates/volume-010.md",
+        "source_tree_url": "https://api.github.com/repos/drkmtr1/Math-Discovery-Lab/git/trees/858a8c1fcfda87ba40bb1adee498a6131504a803",
+        "source_blob_sha1": "faca17cfa4c484127413762adc0c36b771a18f71",
+        "source_blob_bytes": 1597207,
+        "restored_blob_bytes": 1597207,
+        "restored_blob_sha1": "faca17cfa4c484127413762adc0c36b771a18f71",
+        "source_blob_verified": true,
+        "restoration_from_local_cache": "LF; 1 terminal newline(s); UTF-8 without BOM",
+        "local_cache_body_matches_verified_source_after_line_ending_normalization": true,
+        "local_cache_sha256": "0691f938f5339188a61ea49fb5a3aeb4c48b6d2e882193f11dccca886f6b3e9d",
+        "normalized_source_sha256": "ce93859743f7fbb117d26701de01f7c0c2ed2c161aec9ef200a493ccd06eb5b0",
+        "normalization": "UTF-8 without BOM; CRLF/CR converted to LF; verified original terminal newlines retained",
+        "normalized_source_lines": 6818
+      }
+    },
+    {
+      "file": "mdl/N241_relational_ports.md",
+      "title": "N241: relational alpha ports and their scope",
+      "scope": "Complete mathematical return, separate reviews and disposition; fixed physical port identities retained.",
+      "excerpt_sha256": "53ac2c8bf13457ae5630dd0c1c6e19b785d3b568b67d932e86d331901ee82e9e",
+      "excerpt_bytes": 25890,
+      "segments": [
+        {
+          "start_line": 4364,
+          "end_line": 4405,
+          "url": "https://github.com/drkmtr1/Math-Discovery-Lab/blob/858a8c1fcfda87ba40bb1adee498a6131504a803/research/candidates/volume-010.md#L4364-L4405",
+          "normalized_segment_sha256": "ddee6858492055892875f447732ae5d2a5d9edcbf5b630fc8f4de2fbcef795b3",
+          "normalized_segment_bytes": 7916
+        },
+        {
+          "start_line": 4447,
+          "end_line": 4479,
+          "url": "https://github.com/drkmtr1/Math-Discovery-Lab/blob/858a8c1fcfda87ba40bb1adee498a6131504a803/research/candidates/volume-010.md#L4447-L4479",
+          "normalized_segment_sha256": "8e4a3b4a3f1bb621a9b87132e844979f5a1df44ca9bb72257c63ac0e16f463e5",
+          "normalized_segment_bytes": 9081
+        },
+        {
+          "start_line": 4488,
+          "end_line": 4505,
+          "url": "https://github.com/drkmtr1/Math-Discovery-Lab/blob/858a8c1fcfda87ba40bb1adee498a6131504a803/research/candidates/volume-010.md#L4488-L4505",
+          "normalized_segment_sha256": "f79d2beb7ca1bf5b61f8a592d8d5b7681e9bf55a6ea47d1228547d64a69d927b",
+          "normalized_segment_bytes": 7493
+        }
+      ],
+      "source": {
+        "repository": "drkmtr1/Math-Discovery-Lab",
+        "pinned_commit": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+        "source_path": "research/candidates/volume-010.md",
+        "source_url": "https://github.com/drkmtr1/Math-Discovery-Lab/blob/858a8c1fcfda87ba40bb1adee498a6131504a803/research/candidates/volume-010.md",
+        "source_tree_url": "https://api.github.com/repos/drkmtr1/Math-Discovery-Lab/git/trees/858a8c1fcfda87ba40bb1adee498a6131504a803",
+        "source_blob_sha1": "faca17cfa4c484127413762adc0c36b771a18f71",
+        "source_blob_bytes": 1597207,
+        "restored_blob_bytes": 1597207,
+        "restored_blob_sha1": "faca17cfa4c484127413762adc0c36b771a18f71",
+        "source_blob_verified": true,
+        "restoration_from_local_cache": "LF; 1 terminal newline(s); UTF-8 without BOM",
+        "local_cache_body_matches_verified_source_after_line_ending_normalization": true,
+        "local_cache_sha256": "0691f938f5339188a61ea49fb5a3aeb4c48b6d2e882193f11dccca886f6b3e9d",
+        "normalized_source_sha256": "ce93859743f7fbb117d26701de01f7c0c2ed2c161aec9ef200a493ccd06eb5b0",
+        "normalization": "UTF-8 without BOM; CRLF/CR converted to LF; verified original terminal newlines retained",
+        "normalized_source_lines": 6818
+      }
+    },
+    {
+      "file": "mdl/N243_fixed_leaf_connectors.md",
+      "title": "N243: fixed-leaf connector states",
+      "scope": "Complete mathematical return, separate reviews and disposition; conditional supplied-state composition retained.",
+      "excerpt_sha256": "ab5fa0f633d8c7fa7d3b553570b795108b1bda794c549561c5d341a0fb6f193c",
+      "excerpt_bytes": 30739,
+      "segments": [
+        {
+          "start_line": 4780,
+          "end_line": 4840,
+          "url": "https://github.com/drkmtr1/Math-Discovery-Lab/blob/858a8c1fcfda87ba40bb1adee498a6131504a803/research/candidates/volume-010.md#L4780-L4840",
+          "normalized_segment_sha256": "4914d9ea6176de14b07ec5394d1c78b09793cb192a550f36d84b00164c76f000",
+          "normalized_segment_bytes": 10090
+        },
+        {
+          "start_line": 4882,
+          "end_line": 4929,
+          "url": "https://github.com/drkmtr1/Math-Discovery-Lab/blob/858a8c1fcfda87ba40bb1adee498a6131504a803/research/candidates/volume-010.md#L4882-L4929",
+          "normalized_segment_sha256": "b7c34f32af48c49227e16e4e0768adcb13ae5b37814c189026c5d07d0ad8988b",
+          "normalized_segment_bytes": 11451
+        },
+        {
+          "start_line": 4940,
+          "end_line": 4959,
+          "url": "https://github.com/drkmtr1/Math-Discovery-Lab/blob/858a8c1fcfda87ba40bb1adee498a6131504a803/research/candidates/volume-010.md#L4940-L4959",
+          "normalized_segment_sha256": "7fa08c6bb3722bd01fe3d5abf45541ce31de6aaf223760aa7d7fa34d1d92330d",
+          "normalized_segment_bytes": 7801
+        }
+      ],
+      "source": {
+        "repository": "drkmtr1/Math-Discovery-Lab",
+        "pinned_commit": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+        "source_path": "research/candidates/volume-010.md",
+        "source_url": "https://github.com/drkmtr1/Math-Discovery-Lab/blob/858a8c1fcfda87ba40bb1adee498a6131504a803/research/candidates/volume-010.md",
+        "source_tree_url": "https://api.github.com/repos/drkmtr1/Math-Discovery-Lab/git/trees/858a8c1fcfda87ba40bb1adee498a6131504a803",
+        "source_blob_sha1": "faca17cfa4c484127413762adc0c36b771a18f71",
+        "source_blob_bytes": 1597207,
+        "restored_blob_bytes": 1597207,
+        "restored_blob_sha1": "faca17cfa4c484127413762adc0c36b771a18f71",
+        "source_blob_verified": true,
+        "restoration_from_local_cache": "LF; 1 terminal newline(s); UTF-8 without BOM",
+        "local_cache_body_matches_verified_source_after_line_ending_normalization": true,
+        "local_cache_sha256": "0691f938f5339188a61ea49fb5a3aeb4c48b6d2e882193f11dccca886f6b3e9d",
+        "normalized_source_sha256": "ce93859743f7fbb117d26701de01f7c0c2ed2c161aec9ef200a493ccd06eb5b0",
+        "normalization": "UTF-8 without BOM; CRLF/CR converted to LF; verified original terminal newlines retained",
+        "normalized_source_lines": 6818
+      }
+    },
+    {
+      "file": "mdl/N244_contraction_corrections.md",
+      "title": "N244: contraction, proof defects and corrected disposition",
+      "scope": "Original return plus complete review/correction sequence and final adoption; neither erroneous arithmetic formula is silently accepted.",
+      "excerpt_sha256": "c0553c3c013576c946d783c6fa18f6d62e90d19734b33ce6953a18ffdff09484",
+      "excerpt_bytes": 31327,
+      "segments": [
+        {
+          "start_line": 5027,
+          "end_line": 5071,
+          "url": "https://github.com/drkmtr1/Math-Discovery-Lab/blob/858a8c1fcfda87ba40bb1adee498a6131504a803/research/candidates/volume-010.md#L5027-L5071",
+          "normalized_segment_sha256": "78778b7f24458ce589addce327976bc1669fc45ca5edc9dc743d7d82e8891440",
+          "normalized_segment_bytes": 8753
+        },
+        {
+          "start_line": 5124,
+          "end_line": 5186,
+          "url": "https://github.com/drkmtr1/Math-Discovery-Lab/blob/858a8c1fcfda87ba40bb1adee498a6131504a803/research/candidates/volume-010.md#L5124-L5186",
+          "normalized_segment_sha256": "59f1a3ff6333857d54765a07e8c2649ff1c07f293bcacc28f85a3f65e33cb0f6",
+          "normalized_segment_bytes": 13975
+        },
+        {
+          "start_line": 5199,
+          "end_line": 5216,
+          "url": "https://github.com/drkmtr1/Math-Discovery-Lab/blob/858a8c1fcfda87ba40bb1adee498a6131504a803/research/candidates/volume-010.md#L5199-L5216",
+          "normalized_segment_sha256": "fabef9be95439067f330cc2bc49cbde926b4302cb3cd0109a69dc0f2b8bf05e0",
+          "normalized_segment_bytes": 7154
+        }
+      ],
+      "source": {
+        "repository": "drkmtr1/Math-Discovery-Lab",
+        "pinned_commit": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+        "source_path": "research/candidates/volume-010.md",
+        "source_url": "https://github.com/drkmtr1/Math-Discovery-Lab/blob/858a8c1fcfda87ba40bb1adee498a6131504a803/research/candidates/volume-010.md",
+        "source_tree_url": "https://api.github.com/repos/drkmtr1/Math-Discovery-Lab/git/trees/858a8c1fcfda87ba40bb1adee498a6131504a803",
+        "source_blob_sha1": "faca17cfa4c484127413762adc0c36b771a18f71",
+        "source_blob_bytes": 1597207,
+        "restored_blob_bytes": 1597207,
+        "restored_blob_sha1": "faca17cfa4c484127413762adc0c36b771a18f71",
+        "source_blob_verified": true,
+        "restoration_from_local_cache": "LF; 1 terminal newline(s); UTF-8 without BOM",
+        "local_cache_body_matches_verified_source_after_line_ending_normalization": true,
+        "local_cache_sha256": "0691f938f5339188a61ea49fb5a3aeb4c48b6d2e882193f11dccca886f6b3e9d",
+        "normalized_source_sha256": "ce93859743f7fbb117d26701de01f7c0c2ed2c161aec9ef200a493ccd06eb5b0",
+        "normalization": "UTF-8 without BOM; CRLF/CR converted to LF; verified original terminal newlines retained",
+        "normalized_source_lines": 6818
+      }
+    },
+    {
+      "file": "mdl/N246_reconstruction_and_count_correction.md",
+      "title": "N246: retained synthesis and independently corrected counts",
+      "scope": "Complete main return, evidence addendum, independent statement/full reviews, exact N229 count correction, investment and adoption context. Corrected named counts are 16 versus 24; positivity remains separate.",
+      "excerpt_sha256": "f7a8aa11c80ac3c83d5a63925d4cdc80743473940d0ed1dea4b88e06ec30b047",
+      "excerpt_bytes": 61343,
+      "segments": [
+        {
+          "start_line": 5633,
+          "end_line": 5796,
+          "url": "https://github.com/drkmtr1/Math-Discovery-Lab/blob/858a8c1fcfda87ba40bb1adee498a6131504a803/research/candidates/volume-010.md#L5633-L5796",
+          "normalized_segment_sha256": "6a0e2b7af0ef3aacc3e1fb21f3e940d67d32fde6196c990672adda0b06cd4ca5",
+          "normalized_segment_bytes": 14347
+        },
+        {
+          "start_line": 5809,
+          "end_line": 5888,
+          "url": "https://github.com/drkmtr1/Math-Discovery-Lab/blob/858a8c1fcfda87ba40bb1adee498a6131504a803/research/candidates/volume-010.md#L5809-L5888",
+          "normalized_segment_sha256": "62c2d3cbc1237bc5a6bea1d84e73a9faaf0ad1fca577350f09f2a085ddce1e41",
+          "normalized_segment_bytes": 11379
+        },
+        {
+          "start_line": 5976,
+          "end_line": 5993,
+          "url": "https://github.com/drkmtr1/Math-Discovery-Lab/blob/858a8c1fcfda87ba40bb1adee498a6131504a803/research/candidates/volume-010.md#L5976-L5993",
+          "normalized_segment_sha256": "21245f3715907fcbe2271fa03383668a4efb28f7a15d1725fb1df281f084b4df",
+          "normalized_segment_bytes": 3834
+        },
+        {
+          "start_line": 5995,
+          "end_line": 6114,
+          "url": "https://github.com/drkmtr1/Math-Discovery-Lab/blob/858a8c1fcfda87ba40bb1adee498a6131504a803/research/candidates/volume-010.md#L5995-L6114",
+          "normalized_segment_sha256": "4defe76f075869da712613ec66d1eaa6ebe56ed5ec18b4f530a6b0739847cf28",
+          "normalized_segment_bytes": 18940
+        },
+        {
+          "start_line": 6125,
+          "end_line": 6164,
+          "url": "https://github.com/drkmtr1/Math-Discovery-Lab/blob/858a8c1fcfda87ba40bb1adee498a6131504a803/research/candidates/volume-010.md#L6125-L6164",
+          "normalized_segment_sha256": "7ec1fe7df0d8ef041017d853548971752271ad653edc1dff785f1086b6853793",
+          "normalized_segment_bytes": 10930
+        }
+      ],
+      "source": {
+        "repository": "drkmtr1/Math-Discovery-Lab",
+        "pinned_commit": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+        "source_path": "research/candidates/volume-010.md",
+        "source_url": "https://github.com/drkmtr1/Math-Discovery-Lab/blob/858a8c1fcfda87ba40bb1adee498a6131504a803/research/candidates/volume-010.md",
+        "source_tree_url": "https://api.github.com/repos/drkmtr1/Math-Discovery-Lab/git/trees/858a8c1fcfda87ba40bb1adee498a6131504a803",
+        "source_blob_sha1": "faca17cfa4c484127413762adc0c36b771a18f71",
+        "source_blob_bytes": 1597207,
+        "restored_blob_bytes": 1597207,
+        "restored_blob_sha1": "faca17cfa4c484127413762adc0c36b771a18f71",
+        "source_blob_verified": true,
+        "restoration_from_local_cache": "LF; 1 terminal newline(s); UTF-8 without BOM",
+        "local_cache_body_matches_verified_source_after_line_ending_normalization": true,
+        "local_cache_sha256": "0691f938f5339188a61ea49fb5a3aeb4c48b6d2e882193f11dccca886f6b3e9d",
+        "normalized_source_sha256": "ce93859743f7fbb117d26701de01f7c0c2ed2c161aec9ef200a493ccd06eb5b0",
+        "normalization": "UTF-8 without BOM; CRLF/CR converted to LF; verified original terminal newlines retained",
+        "normalized_source_lines": 6818
+      }
+    },
+    {
+      "file": "mdl/N248_component_palette_reflection.md",
+      "title": "N248: component-palette reflection",
+      "scope": "Complete mathematical return, statement/full review, investment and final disposition; supplied-palette prerequisites retained.",
+      "excerpt_sha256": "f207eaaa6370292fdb68365c73460912f8e419c093cf365a26b26adb8f2afb41",
+      "excerpt_bytes": 37709,
+      "segments": [
+        {
+          "start_line": 6562,
+          "end_line": 6640,
+          "url": "https://github.com/drkmtr1/Math-Discovery-Lab/blob/858a8c1fcfda87ba40bb1adee498a6131504a803/research/candidates/volume-010.md#L6562-L6640",
+          "normalized_segment_sha256": "a80fbb4aaa596280df3674942fefa618ff9706c98e86333b3cbd83562a40bec6",
+          "normalized_segment_bytes": 12851
+        },
+        {
+          "start_line": 6699,
+          "end_line": 6752,
+          "url": "https://github.com/drkmtr1/Math-Discovery-Lab/blob/858a8c1fcfda87ba40bb1adee498a6131504a803/research/candidates/volume-010.md#L6699-L6752",
+          "normalized_segment_sha256": "caf5d6972145040625af0907f08583d2cb81092cb0e47bf2fcdacc807aafd79d",
+          "normalized_segment_bytes": 13829
+        },
+        {
+          "start_line": 6765,
+          "end_line": 6790,
+          "url": "https://github.com/drkmtr1/Math-Discovery-Lab/blob/858a8c1fcfda87ba40bb1adee498a6131504a803/research/candidates/volume-010.md#L6765-L6790",
+          "normalized_segment_sha256": "7fcd2c1514db61a629c250b6b268cf02acdb1368f819cc44b6996acea8f406dd",
+          "normalized_segment_bytes": 9616
+        }
+      ],
+      "source": {
+        "repository": "drkmtr1/Math-Discovery-Lab",
+        "pinned_commit": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+        "source_path": "research/candidates/volume-010.md",
+        "source_url": "https://github.com/drkmtr1/Math-Discovery-Lab/blob/858a8c1fcfda87ba40bb1adee498a6131504a803/research/candidates/volume-010.md",
+        "source_tree_url": "https://api.github.com/repos/drkmtr1/Math-Discovery-Lab/git/trees/858a8c1fcfda87ba40bb1adee498a6131504a803",
+        "source_blob_sha1": "faca17cfa4c484127413762adc0c36b771a18f71",
+        "source_blob_bytes": 1597207,
+        "restored_blob_bytes": 1597207,
+        "restored_blob_sha1": "faca17cfa4c484127413762adc0c36b771a18f71",
+        "source_blob_verified": true,
+        "restoration_from_local_cache": "LF; 1 terminal newline(s); UTF-8 without BOM",
+        "local_cache_body_matches_verified_source_after_line_ending_normalization": true,
+        "local_cache_sha256": "0691f938f5339188a61ea49fb5a3aeb4c48b6d2e882193f11dccca886f6b3e9d",
+        "normalized_source_sha256": "ce93859743f7fbb117d26701de01f7c0c2ed2c161aec9ef200a493ccd06eb5b0",
+        "normalization": "UTF-8 without BOM; CRLF/CR converted to LF; verified original terminal newlines retained",
+        "normalized_source_lines": 6818
+      }
+    },
+    {
+      "file": "bounded/MATHEMATICS.md.archive.md",
+      "title": "Mathematical specification and proof obligations",
+      "scope": "Complete file at the pinned commit. Historical review/provenance limits remain part of the source record.",
+      "excerpt_sha256": "c89c40c75bfd4aa62d87cc3e0a40021d4a6faf1044f18ff5b845a74bcbe5066c",
+      "excerpt_bytes": 11477,
+      "segments": [
+        {
+          "start_line": 1,
+          "end_line": 247,
+          "url": "https://github.com/drkmtr1/MDL_Bounded_Search/blob/e48b94eec4091b4fe189e325cab2eda464409943/MATHEMATICS.md#L1-L247",
+          "normalized_segment_sha256": "d6ee0514be646804acce16501f5e4da243891e5f0d42dca5a380308ca929bd7f",
+          "normalized_segment_bytes": 10531
+        }
+      ],
+      "source": {
+        "repository": "drkmtr1/MDL_Bounded_Search",
+        "pinned_commit": "e48b94eec4091b4fe189e325cab2eda464409943",
+        "source_path": "MATHEMATICS.md",
+        "source_url": "https://github.com/drkmtr1/MDL_Bounded_Search/blob/e48b94eec4091b4fe189e325cab2eda464409943/MATHEMATICS.md",
+        "source_tree_url": "https://api.github.com/repos/drkmtr1/MDL_Bounded_Search/git/trees/e48b94eec4091b4fe189e325cab2eda464409943",
+        "source_blob_sha1": "a4a85b158de7820ee113af42b82cd1a49fd08a9c",
+        "source_blob_bytes": 10531,
+        "restored_blob_bytes": 10531,
+        "restored_blob_sha1": "a4a85b158de7820ee113af42b82cd1a49fd08a9c",
+        "source_blob_verified": true,
+        "restoration_from_local_cache": "LF; 1 terminal newline(s); UTF-8 without BOM",
+        "local_cache_body_matches_verified_source_after_line_ending_normalization": true,
+        "local_cache_sha256": "4bafa587aecf19ab9d69b379ac0dc27fe5fe1a725f4be548150a749026db5cea",
+        "normalized_source_sha256": "d6ee0514be646804acce16501f5e4da243891e5f0d42dca5a380308ca929bd7f",
+        "normalization": "UTF-8 without BOM; CRLF/CR converted to LF; verified original terminal newlines retained",
+        "normalized_source_lines": 247
+      }
+    },
+    {
+      "file": "bounded/research__LEMMAS.md.archive.md",
+      "title": "Retained bounded-search lemmas",
+      "scope": "Complete file at the pinned commit. Historical review/provenance limits remain part of the source record.",
+      "excerpt_sha256": "030a12347321ec6dc8e17b1f60a35c0fcca744de9eecc32c1fec0d3dbd4210dc",
+      "excerpt_bytes": 8496,
+      "segments": [
+        {
+          "start_line": 1,
+          "end_line": 25,
+          "url": "https://github.com/drkmtr1/MDL_Bounded_Search/blob/e48b94eec4091b4fe189e325cab2eda464409943/research/LEMMAS.md#L1-L25",
+          "normalized_segment_sha256": "9a404da1b3561e6b0290d0dfffc4f382f5fc2e9c135d4a9935361017143740b0",
+          "normalized_segment_bytes": 7558
+        }
+      ],
+      "source": {
+        "repository": "drkmtr1/MDL_Bounded_Search",
+        "pinned_commit": "e48b94eec4091b4fe189e325cab2eda464409943",
+        "source_path": "research/LEMMAS.md",
+        "source_url": "https://github.com/drkmtr1/MDL_Bounded_Search/blob/e48b94eec4091b4fe189e325cab2eda464409943/research/LEMMAS.md",
+        "source_tree_url": "https://api.github.com/repos/drkmtr1/MDL_Bounded_Search/git/trees/e48b94eec4091b4fe189e325cab2eda464409943",
+        "source_blob_sha1": "f942e3b8b7628353ef7cf9d8cf53759c2eed0478",
+        "source_blob_bytes": 7565,
+        "restored_blob_bytes": 7565,
+        "restored_blob_sha1": "f942e3b8b7628353ef7cf9d8cf53759c2eed0478",
+        "source_blob_verified": true,
+        "restoration_from_local_cache": "exact pinned GitHub contents response, base64 decoded; original mixed line endings retained",
+        "local_cache_body_matches_verified_source_after_line_ending_normalization": true,
+        "local_cache_sha256": "f75f3d1bd6b2e7ee8cf4736e2d3175f3e98c61aae8b09cf9160aa2f8530c8a59",
+        "normalized_source_sha256": "9a404da1b3561e6b0290d0dfffc4f382f5fc2e9c135d4a9935361017143740b0",
+        "normalization": "UTF-8 without BOM; CRLF/CR converted to LF; verified original terminal newlines retained",
+        "normalized_source_lines": 25
+      }
+    },
+    {
+      "file": "bounded/research__HYPOTHESES.md.archive.md",
+      "title": "Bounded-search hypotheses and dispositions",
+      "scope": "Complete file at the pinned commit. Historical review/provenance limits remain part of the source record.",
+      "excerpt_sha256": "cdf7ad42869ab4c46fa66a8d23c5536d171c9297a206c10668900dfb6a036767",
+      "excerpt_bytes": 6308,
+      "segments": [
+        {
+          "start_line": 1,
+          "end_line": 25,
+          "url": "https://github.com/drkmtr1/MDL_Bounded_Search/blob/e48b94eec4091b4fe189e325cab2eda464409943/research/HYPOTHESES.md#L1-L25",
+          "normalized_segment_sha256": "8bfc6db6404127091f8b3a396852d9b469167cd7ca6ff32f28ce516c1b705321",
+          "normalized_segment_bytes": 5346
+        }
+      ],
+      "source": {
+        "repository": "drkmtr1/MDL_Bounded_Search",
+        "pinned_commit": "e48b94eec4091b4fe189e325cab2eda464409943",
+        "source_path": "research/HYPOTHESES.md",
+        "source_url": "https://github.com/drkmtr1/MDL_Bounded_Search/blob/e48b94eec4091b4fe189e325cab2eda464409943/research/HYPOTHESES.md",
+        "source_tree_url": "https://api.github.com/repos/drkmtr1/MDL_Bounded_Search/git/trees/e48b94eec4091b4fe189e325cab2eda464409943",
+        "source_blob_sha1": "c61c2c788c18f275a07b67eee4ad015caa646de1",
+        "source_blob_bytes": 5354,
+        "restored_blob_bytes": 5354,
+        "restored_blob_sha1": "c61c2c788c18f275a07b67eee4ad015caa646de1",
+        "source_blob_verified": true,
+        "restoration_from_local_cache": "exact pinned GitHub contents response, base64 decoded; original mixed line endings retained",
+        "local_cache_body_matches_verified_source_after_line_ending_normalization": true,
+        "local_cache_sha256": "4b56c9c5d379b6c165ef5159bf21364686a0f2a5c59b1e549b9175da09520889",
+        "normalized_source_sha256": "8bfc6db6404127091f8b3a396852d9b469167cd7ca6ff32f28ce516c1b705321",
+        "normalization": "UTF-8 without BOM; CRLF/CR converted to LF; verified original terminal newlines retained",
+        "normalized_source_lines": 25
+      }
+    },
+    {
+      "file": "bounded/research__COUNTEREXAMPLES.md.archive.md",
+      "title": "Bounded-search counterexamples",
+      "scope": "Complete file at the pinned commit. Historical review/provenance limits remain part of the source record.",
+      "excerpt_sha256": "35c0e1a9d6215f3c803de1b5224155a74b2ec976c961789dcd7787156d2c9c20",
+      "excerpt_bytes": 7866,
+      "segments": [
+        {
+          "start_line": 1,
+          "end_line": 22,
+          "url": "https://github.com/drkmtr1/MDL_Bounded_Search/blob/e48b94eec4091b4fe189e325cab2eda464409943/research/COUNTEREXAMPLES.md#L1-L22",
+          "normalized_segment_sha256": "2169602154c27ccbe041433c1a583c66fbd1cde6c555c89fe1332461e8e15ac2",
+          "normalized_segment_bytes": 6901
+        }
+      ],
+      "source": {
+        "repository": "drkmtr1/MDL_Bounded_Search",
+        "pinned_commit": "e48b94eec4091b4fe189e325cab2eda464409943",
+        "source_path": "research/COUNTEREXAMPLES.md",
+        "source_url": "https://github.com/drkmtr1/MDL_Bounded_Search/blob/e48b94eec4091b4fe189e325cab2eda464409943/research/COUNTEREXAMPLES.md",
+        "source_tree_url": "https://api.github.com/repos/drkmtr1/MDL_Bounded_Search/git/trees/e48b94eec4091b4fe189e325cab2eda464409943",
+        "source_blob_sha1": "29f6270943dedc63e47906f8c6c9f9a8ae81814f",
+        "source_blob_bytes": 6904,
+        "restored_blob_bytes": 6904,
+        "restored_blob_sha1": "29f6270943dedc63e47906f8c6c9f9a8ae81814f",
+        "source_blob_verified": true,
+        "restoration_from_local_cache": "exact pinned GitHub contents response, base64 decoded; original mixed line endings retained",
+        "local_cache_body_matches_verified_source_after_line_ending_normalization": true,
+        "local_cache_sha256": "0ecd2ae4b4ecd2bba4343a657aa39e0cf589de9c80fa18ebd1a22313223091ec",
+        "normalized_source_sha256": "2169602154c27ccbe041433c1a583c66fbd1cde6c555c89fe1332461e8e15ac2",
+        "normalization": "UTF-8 without BOM; CRLF/CR converted to LF; verified original terminal newlines retained",
+        "normalized_source_lines": 22
+      }
+    },
+    {
+      "file": "bounded/research__PROOF_OBLIGATIONS.md.archive.md",
+      "title": "Bounded-search proof obligations",
+      "scope": "Complete file at the pinned commit. Historical review/provenance limits remain part of the source record.",
+      "excerpt_sha256": "106f45ea1d1b27293f56e3112fc1611934584da94c25628ef6c694b14ca9bdef",
+      "excerpt_bytes": 3449,
+      "segments": [
+        {
+          "start_line": 1,
+          "end_line": 13,
+          "url": "https://github.com/drkmtr1/MDL_Bounded_Search/blob/e48b94eec4091b4fe189e325cab2eda464409943/research/PROOF_OBLIGATIONS.md#L1-L13",
+          "normalized_segment_sha256": "358ea567388cd4eb0acf240e1dc27d620c2688574e0a5ab2fdebb9c1f44b90cb",
+          "normalized_segment_bytes": 2476
+        }
+      ],
+      "source": {
+        "repository": "drkmtr1/MDL_Bounded_Search",
+        "pinned_commit": "e48b94eec4091b4fe189e325cab2eda464409943",
+        "source_path": "research/PROOF_OBLIGATIONS.md",
+        "source_url": "https://github.com/drkmtr1/MDL_Bounded_Search/blob/e48b94eec4091b4fe189e325cab2eda464409943/research/PROOF_OBLIGATIONS.md",
+        "source_tree_url": "https://api.github.com/repos/drkmtr1/MDL_Bounded_Search/git/trees/e48b94eec4091b4fe189e325cab2eda464409943",
+        "source_blob_sha1": "bf9ec5eed0f7187acac78d5647aa4b25262cfc74",
+        "source_blob_bytes": 2481,
+        "restored_blob_bytes": 2481,
+        "restored_blob_sha1": "bf9ec5eed0f7187acac78d5647aa4b25262cfc74",
+        "source_blob_verified": true,
+        "restoration_from_local_cache": "exact pinned GitHub contents response, base64 decoded; original mixed line endings retained",
+        "local_cache_body_matches_verified_source_after_line_ending_normalization": true,
+        "local_cache_sha256": "5ec33eb453cb284529b27dc3f3f23ec2bbdaf48de100773082ef3ebd79a7818a",
+        "normalized_source_sha256": "358ea567388cd4eb0acf240e1dc27d620c2688574e0a5ab2fdebb9c1f44b90cb",
+        "normalization": "UTF-8 without BOM; CRLF/CR converted to LF; verified original terminal newlines retained",
+        "normalized_source_lines": 13
+      }
+    },
+    {
+      "file": "bounded/research__KNOWN_RESULTS.md.archive.md",
+      "title": "Bounded-search known results",
+      "scope": "Complete file at the pinned commit. Historical review/provenance limits remain part of the source record.",
+      "excerpt_sha256": "abab7d8860302f77a2486bed980bb7d48b9ca992ea11c1825fc361f0cee8372d",
+      "excerpt_bytes": 1185,
+      "segments": [
+        {
+          "start_line": 1,
+          "end_line": 3,
+          "url": "https://github.com/drkmtr1/MDL_Bounded_Search/blob/e48b94eec4091b4fe189e325cab2eda464409943/research/KNOWN_RESULTS.md#L1-L3",
+          "normalized_segment_sha256": "e56cbca41bedb27dc8731ff4b4599db92d0436c57eb3c3ba16abf63644ad2ff8",
+          "normalized_segment_bytes": 230
+        }
+      ],
+      "source": {
+        "repository": "drkmtr1/MDL_Bounded_Search",
+        "pinned_commit": "e48b94eec4091b4fe189e325cab2eda464409943",
+        "source_path": "research/KNOWN_RESULTS.md",
+        "source_url": "https://github.com/drkmtr1/MDL_Bounded_Search/blob/e48b94eec4091b4fe189e325cab2eda464409943/research/KNOWN_RESULTS.md",
+        "source_tree_url": "https://api.github.com/repos/drkmtr1/MDL_Bounded_Search/git/trees/e48b94eec4091b4fe189e325cab2eda464409943",
+        "source_blob_sha1": "037acfbcfb0ea07e0e5a6f69b9ece9514d850a4d",
+        "source_blob_bytes": 231,
+        "restored_blob_bytes": 231,
+        "restored_blob_sha1": "037acfbcfb0ea07e0e5a6f69b9ece9514d850a4d",
+        "source_blob_verified": true,
+        "restoration_from_local_cache": "exact pinned GitHub contents response, base64 decoded; original mixed line endings retained",
+        "local_cache_body_matches_verified_source_after_line_ending_normalization": true,
+        "local_cache_sha256": "92f6386faba4b5ee40e2f01f5bab0ef6c08c7f487ccc3366bf7897c5cb79d157",
+        "normalized_source_sha256": "e56cbca41bedb27dc8731ff4b4599db92d0436c57eb3c3ba16abf63644ad2ff8",
+        "normalization": "UTF-8 without BOM; CRLF/CR converted to LF; verified original terminal newlines retained",
+        "normalized_source_lines": 3
+      }
+    },
+    {
+      "file": "bounded/research__verification__pilot_inputs__H010-proof.txt.archive.md",
+      "title": "H010 frozen proof input",
+      "scope": "Complete file at the pinned commit. Historical review/provenance limits remain part of the source record.",
+      "excerpt_sha256": "2172cde762e8f09847da6c042397895b68db75c2121428d9dc54ddc5eed0d2a8",
+      "excerpt_bytes": 1959,
+      "segments": [
+        {
+          "start_line": 1,
+          "end_line": 1,
+          "url": "https://github.com/drkmtr1/MDL_Bounded_Search/blob/e48b94eec4091b4fe189e325cab2eda464409943/research/verification/pilot_inputs/H010-proof.txt#L1-L1",
+          "normalized_segment_sha256": "2d954dadc24a876674e9b7361179466a1cf04de1660b825c6a6559cb5cfa6f34",
+          "normalized_segment_bytes": 937
+        }
+      ],
+      "source": {
+        "repository": "drkmtr1/MDL_Bounded_Search",
+        "pinned_commit": "e48b94eec4091b4fe189e325cab2eda464409943",
+        "source_path": "research/verification/pilot_inputs/H010-proof.txt",
+        "source_url": "https://github.com/drkmtr1/MDL_Bounded_Search/blob/e48b94eec4091b4fe189e325cab2eda464409943/research/verification/pilot_inputs/H010-proof.txt",
+        "source_tree_url": "https://api.github.com/repos/drkmtr1/MDL_Bounded_Search/git/trees/e48b94eec4091b4fe189e325cab2eda464409943",
+        "source_blob_sha1": "3bc6999db8abc8ae206ef82f1640aa0a2512ae83",
+        "source_blob_bytes": 938,
+        "restored_blob_bytes": 938,
+        "restored_blob_sha1": "3bc6999db8abc8ae206ef82f1640aa0a2512ae83",
+        "source_blob_verified": true,
+        "restoration_from_local_cache": "CRLF; 1 terminal newline(s); UTF-8 without BOM",
+        "local_cache_body_matches_verified_source_after_line_ending_normalization": true,
+        "local_cache_sha256": "5c505d066991a0844ca31e3adc6abb5c3ab22b43395fdc06604fbbe45c6d3490",
+        "normalized_source_sha256": "2d954dadc24a876674e9b7361179466a1cf04de1660b825c6a6559cb5cfa6f34",
+        "normalization": "UTF-8 without BOM; CRLF/CR converted to LF; verified original terminal newlines retained",
+        "normalized_source_lines": 1
+      }
+    },
+    {
+      "file": "bounded/research__verification__pilot_inputs__H010-review.json.archive.md",
+      "title": "H010 retained proof review",
+      "scope": "Complete file at the pinned commit. Historical review/provenance limits remain part of the source record.",
+      "excerpt_sha256": "1600b745247be4a37472737f8e4af1d1237f83e3108ea499a3f8a3344c28f37d",
+      "excerpt_bytes": 2350,
+      "segments": [
+        {
+          "start_line": 1,
+          "end_line": 21,
+          "url": "https://github.com/drkmtr1/MDL_Bounded_Search/blob/e48b94eec4091b4fe189e325cab2eda464409943/research/verification/pilot_inputs/H010-review.json#L1-L21",
+          "normalized_segment_sha256": "f66843e0d30b6d2ac92ba531f127960302fd2d503aedc854c3c2d1d7037ffc13",
+          "normalized_segment_bytes": 1316
+        }
+      ],
+      "source": {
+        "repository": "drkmtr1/MDL_Bounded_Search",
+        "pinned_commit": "e48b94eec4091b4fe189e325cab2eda464409943",
+        "source_path": "research/verification/pilot_inputs/H010-review.json",
+        "source_url": "https://github.com/drkmtr1/MDL_Bounded_Search/blob/e48b94eec4091b4fe189e325cab2eda464409943/research/verification/pilot_inputs/H010-review.json",
+        "source_tree_url": "https://api.github.com/repos/drkmtr1/MDL_Bounded_Search/git/trees/e48b94eec4091b4fe189e325cab2eda464409943",
+        "source_blob_sha1": "15a9102501f958b4d9ba65126f6e20247d29e6d1",
+        "source_blob_bytes": 1336,
+        "restored_blob_bytes": 1336,
+        "restored_blob_sha1": "15a9102501f958b4d9ba65126f6e20247d29e6d1",
+        "source_blob_verified": true,
+        "restoration_from_local_cache": "CRLF; 0 terminal newline(s); UTF-8 without BOM",
+        "local_cache_body_matches_verified_source_after_line_ending_normalization": true,
+        "local_cache_sha256": "47542f6cdca09835f8b84d134db75c841ee76f8e3e1b27d8fb277d76fa1c5202",
+        "normalized_source_sha256": "f66843e0d30b6d2ac92ba531f127960302fd2d503aedc854c3c2d1d7037ffc13",
+        "normalization": "UTF-8 without BOM; CRLF/CR converted to LF; verified original terminal newlines retained",
+        "normalized_source_lines": 21
+      }
+    },
+    {
+      "file": "bounded/research__verification__pilot_inputs__L007-review.json.archive.md",
+      "title": "L007 retained proof review",
+      "scope": "Complete file at the pinned commit. Historical review/provenance limits remain part of the source record.",
+      "excerpt_sha256": "77bb826d41070e8b0b0913944165b35d7196f9b5774f982a51b4acdb986b3b1a",
+      "excerpt_bytes": 2132,
+      "segments": [
+        {
+          "start_line": 1,
+          "end_line": 20,
+          "url": "https://github.com/drkmtr1/MDL_Bounded_Search/blob/e48b94eec4091b4fe189e325cab2eda464409943/research/verification/pilot_inputs/L007-review.json#L1-L20",
+          "normalized_segment_sha256": "cd77892695d21d4753cf43818bf7a17c3af88589cd74a7624caa98a8daba8af4",
+          "normalized_segment_bytes": 1098
+        }
+      ],
+      "source": {
+        "repository": "drkmtr1/MDL_Bounded_Search",
+        "pinned_commit": "e48b94eec4091b4fe189e325cab2eda464409943",
+        "source_path": "research/verification/pilot_inputs/L007-review.json",
+        "source_url": "https://github.com/drkmtr1/MDL_Bounded_Search/blob/e48b94eec4091b4fe189e325cab2eda464409943/research/verification/pilot_inputs/L007-review.json",
+        "source_tree_url": "https://api.github.com/repos/drkmtr1/MDL_Bounded_Search/git/trees/e48b94eec4091b4fe189e325cab2eda464409943",
+        "source_blob_sha1": "22ff4c7220d7370a84bc73ed7de0f9b4aff7ac75",
+        "source_blob_bytes": 1117,
+        "restored_blob_bytes": 1117,
+        "restored_blob_sha1": "22ff4c7220d7370a84bc73ed7de0f9b4aff7ac75",
+        "source_blob_verified": true,
+        "restoration_from_local_cache": "CRLF; 0 terminal newline(s); UTF-8 without BOM",
+        "local_cache_body_matches_verified_source_after_line_ending_normalization": true,
+        "local_cache_sha256": "e6050f259b672c66636ce3c7c4d95572923a771e98fe4e1c8313eb117242c376",
+        "normalized_source_sha256": "cd77892695d21d4753cf43818bf7a17c3af88589cd74a7624caa98a8daba8af4",
+        "normalization": "UTF-8 without BOM; CRLF/CR converted to LF; verified original terminal newlines retained",
+        "normalized_source_lines": 20
+      }
+    },
+    {
+      "file": "bounded/research__verification__pilot_inputs__L010-review.json.archive.md",
+      "title": "L010 retained proof review",
+      "scope": "Complete file at the pinned commit. Historical review/provenance limits remain part of the source record.",
+      "excerpt_sha256": "cef99a0d14210e8363f7d93167114f77b064a17603f6cebac223ed4e63928ea1",
+      "excerpt_bytes": 2180,
+      "segments": [
+        {
+          "start_line": 1,
+          "end_line": 20,
+          "url": "https://github.com/drkmtr1/MDL_Bounded_Search/blob/e48b94eec4091b4fe189e325cab2eda464409943/research/verification/pilot_inputs/L010-review.json#L1-L20",
+          "normalized_segment_sha256": "22cf0a955447763331344ab7b5242b5e94f9814b9a55d27c8ea9a9fc2ea371c8",
+          "normalized_segment_bytes": 1146
+        }
+      ],
+      "source": {
+        "repository": "drkmtr1/MDL_Bounded_Search",
+        "pinned_commit": "e48b94eec4091b4fe189e325cab2eda464409943",
+        "source_path": "research/verification/pilot_inputs/L010-review.json",
+        "source_url": "https://github.com/drkmtr1/MDL_Bounded_Search/blob/e48b94eec4091b4fe189e325cab2eda464409943/research/verification/pilot_inputs/L010-review.json",
+        "source_tree_url": "https://api.github.com/repos/drkmtr1/MDL_Bounded_Search/git/trees/e48b94eec4091b4fe189e325cab2eda464409943",
+        "source_blob_sha1": "0e9812dd02e1986b169c4e1a685cb329c90936ce",
+        "source_blob_bytes": 1165,
+        "restored_blob_bytes": 1165,
+        "restored_blob_sha1": "0e9812dd02e1986b169c4e1a685cb329c90936ce",
+        "source_blob_verified": true,
+        "restoration_from_local_cache": "CRLF; 0 terminal newline(s); UTF-8 without BOM",
+        "local_cache_body_matches_verified_source_after_line_ending_normalization": true,
+        "local_cache_sha256": "702ec34f21b2d6051e04ccc2c6821be61d613a626348299fabd45432d2bb741d",
+        "normalized_source_sha256": "22cf0a955447763331344ab7b5242b5e94f9814b9a55d27c8ea9a9fc2ea371c8",
+        "normalization": "UTF-8 without BOM; CRLF/CR converted to LF; verified original terminal newlines retained",
+        "normalized_source_lines": 20
+      }
+    },
+    {
+      "file": "bounded/research__verification__pilot_inputs__E009-review.json.archive.md",
+      "title": "E009 retained local-interface review",
+      "scope": "Complete file at the pinned commit. Historical review/provenance limits remain part of the source record.",
+      "excerpt_sha256": "9eec83de4fbd10791773b51b18b868867e9894cea8bcaf6f0ed1961b4b765870",
+      "excerpt_bytes": 2463,
+      "segments": [
+        {
+          "start_line": 1,
+          "end_line": 21,
+          "url": "https://github.com/drkmtr1/MDL_Bounded_Search/blob/e48b94eec4091b4fe189e325cab2eda464409943/research/verification/pilot_inputs/E009-review.json#L1-L21",
+          "normalized_segment_sha256": "28b088f501931e1aeeae4a8bdc2768603b3b661f221bef37d8fc8ef324cd5069",
+          "normalized_segment_bytes": 1419
+        }
+      ],
+      "source": {
+        "repository": "drkmtr1/MDL_Bounded_Search",
+        "pinned_commit": "e48b94eec4091b4fe189e325cab2eda464409943",
+        "source_path": "research/verification/pilot_inputs/E009-review.json",
+        "source_url": "https://github.com/drkmtr1/MDL_Bounded_Search/blob/e48b94eec4091b4fe189e325cab2eda464409943/research/verification/pilot_inputs/E009-review.json",
+        "source_tree_url": "https://api.github.com/repos/drkmtr1/MDL_Bounded_Search/git/trees/e48b94eec4091b4fe189e325cab2eda464409943",
+        "source_blob_sha1": "d5fcff721b6751167ab4e6401cffc502b2a18134",
+        "source_blob_bytes": 1439,
+        "restored_blob_bytes": 1439,
+        "restored_blob_sha1": "d5fcff721b6751167ab4e6401cffc502b2a18134",
+        "source_blob_verified": true,
+        "restoration_from_local_cache": "CRLF; 0 terminal newline(s); UTF-8 without BOM",
+        "local_cache_body_matches_verified_source_after_line_ending_normalization": true,
+        "local_cache_sha256": "4deaf5c00acd4cf0141e6aed08ba632a987b7ede014fdd2c07e19e8f70f3d105",
+        "normalized_source_sha256": "28b088f501931e1aeeae4a8bdc2768603b3b661f221bef37d8fc8ef324cd5069",
+        "normalization": "UTF-8 without BOM; CRLF/CR converted to LF; verified original terminal newlines retained",
+        "normalized_source_lines": 21
+      }
+    },
+    {
+      "file": "bounded/research__pass_p004__C1_COUNTEREXAMPLE.md.archive.md",
+      "title": "P004 fixed-prefix counterexample",
+      "scope": "Complete file at the pinned commit. Historical review/provenance limits remain part of the source record.",
+      "excerpt_sha256": "230fd60b2ec3db4328dc3cfdc6a46164948e1dd4dacd5bf144bf78834f3e5216",
+      "excerpt_bytes": 2389,
+      "segments": [
+        {
+          "start_line": 1,
+          "end_line": 25,
+          "url": "https://github.com/drkmtr1/MDL_Bounded_Search/blob/e48b94eec4091b4fe189e325cab2eda464409943/research/pass_p004/C1_COUNTEREXAMPLE.md#L1-L25",
+          "normalized_segment_sha256": "00d3c9adf6c32c00453d2550e52a3a9caa1e6da06bd18f4356fc60ddfbf90831",
+          "normalized_segment_bytes": 1386
+        }
+      ],
+      "source": {
+        "repository": "drkmtr1/MDL_Bounded_Search",
+        "pinned_commit": "e48b94eec4091b4fe189e325cab2eda464409943",
+        "source_path": "research/pass_p004/C1_COUNTEREXAMPLE.md",
+        "source_url": "https://github.com/drkmtr1/MDL_Bounded_Search/blob/e48b94eec4091b4fe189e325cab2eda464409943/research/pass_p004/C1_COUNTEREXAMPLE.md",
+        "source_tree_url": "https://api.github.com/repos/drkmtr1/MDL_Bounded_Search/git/trees/e48b94eec4091b4fe189e325cab2eda464409943",
+        "source_blob_sha1": "1556749d6f2f35aea755dc50d219592561a220d9",
+        "source_blob_bytes": 1386,
+        "restored_blob_bytes": 1386,
+        "restored_blob_sha1": "1556749d6f2f35aea755dc50d219592561a220d9",
+        "source_blob_verified": true,
+        "restoration_from_local_cache": "LF; 1 terminal newline(s); UTF-8 without BOM",
+        "local_cache_body_matches_verified_source_after_line_ending_normalization": true,
+        "local_cache_sha256": "057034eeb121ee45efc754dc6acf88e7ff474ddc48ac947824c1f08d432c9cbf",
+        "normalized_source_sha256": "00d3c9adf6c32c00453d2550e52a3a9caa1e6da06bd18f4356fc60ddfbf90831",
+        "normalization": "UTF-8 without BOM; CRLF/CR converted to LF; verified original terminal newlines retained",
+        "normalized_source_lines": 25
+      }
+    },
+    {
+      "file": "bounded/research__pass_p005__PROVISIONAL_PREFIX_124.md.archive.md",
+      "title": "P005 prefix 1,2,4 counterexample argument",
+      "scope": "Complete file at the pinned commit. Historical review/provenance limits remain part of the source record.",
+      "excerpt_sha256": "864a54c04197ec28eecf578473a4783aceb7ac7703c4321d11320a8d6a0f35e1",
+      "excerpt_bytes": 2368,
+      "segments": [
+        {
+          "start_line": 1,
+          "end_line": 22,
+          "url": "https://github.com/drkmtr1/MDL_Bounded_Search/blob/e48b94eec4091b4fe189e325cab2eda464409943/research/pass_p005/PROVISIONAL_PREFIX_124.md#L1-L22",
+          "normalized_segment_sha256": "4f4ced765e78555ba9c519b05895e154a94915e5f398da446f3dfe415c79c35b",
+          "normalized_segment_bytes": 1341
+        }
+      ],
+      "source": {
+        "repository": "drkmtr1/MDL_Bounded_Search",
+        "pinned_commit": "e48b94eec4091b4fe189e325cab2eda464409943",
+        "source_path": "research/pass_p005/PROVISIONAL_PREFIX_124.md",
+        "source_url": "https://github.com/drkmtr1/MDL_Bounded_Search/blob/e48b94eec4091b4fe189e325cab2eda464409943/research/pass_p005/PROVISIONAL_PREFIX_124.md",
+        "source_tree_url": "https://api.github.com/repos/drkmtr1/MDL_Bounded_Search/git/trees/e48b94eec4091b4fe189e325cab2eda464409943",
+        "source_blob_sha1": "32cee4a76dae222a9647411fd41fb4dbaee3ade5",
+        "source_blob_bytes": 1341,
+        "restored_blob_bytes": 1341,
+        "restored_blob_sha1": "32cee4a76dae222a9647411fd41fb4dbaee3ade5",
+        "source_blob_verified": true,
+        "restoration_from_local_cache": "LF; 1 terminal newline(s); UTF-8 without BOM",
+        "local_cache_body_matches_verified_source_after_line_ending_normalization": true,
+        "local_cache_sha256": "c1abcdcc1a5826b27ac3c5a24d14bd54764c7aa1bff7bc6437365fef319ce92b",
+        "normalized_source_sha256": "4f4ced765e78555ba9c519b05895e154a94915e5f398da446f3dfe415c79c35b",
+        "normalization": "UTF-8 without BOM; CRLF/CR converted to LF; verified original terminal newlines retained",
+        "normalized_source_lines": 22
+      }
+    },
+    {
+      "file": "bounded/research__verification__reviews__6b35b35b0883df657390e2e2eab3fa4807854d9aea3a52d9e4466a184fc7cd14.json.archive.md",
+      "title": "P005 independent counterexample review",
+      "scope": "Complete file at the pinned commit. Historical review/provenance limits remain part of the source record.",
+      "excerpt_sha256": "bebc2f8c59ac26bc7eb1dbbeb62e8ff59c1138d4dd275414f43c6f1f7350d552",
+      "excerpt_bytes": 4137,
+      "segments": [
+        {
+          "start_line": 1,
+          "end_line": 28,
+          "url": "https://github.com/drkmtr1/MDL_Bounded_Search/blob/e48b94eec4091b4fe189e325cab2eda464409943/research/verification/reviews/6b35b35b0883df657390e2e2eab3fa4807854d9aea3a52d9e4466a184fc7cd14.json#L1-L28",
+          "normalized_segment_sha256": "830bd3bba5c7bfb3c9aa46418f369954a2c8be7b6568abe770028f9f654b4544",
+          "normalized_segment_bytes": 2948
+        }
+      ],
+      "source": {
+        "repository": "drkmtr1/MDL_Bounded_Search",
+        "pinned_commit": "e48b94eec4091b4fe189e325cab2eda464409943",
+        "source_path": "research/verification/reviews/6b35b35b0883df657390e2e2eab3fa4807854d9aea3a52d9e4466a184fc7cd14.json",
+        "source_url": "https://github.com/drkmtr1/MDL_Bounded_Search/blob/e48b94eec4091b4fe189e325cab2eda464409943/research/verification/reviews/6b35b35b0883df657390e2e2eab3fa4807854d9aea3a52d9e4466a184fc7cd14.json",
+        "source_tree_url": "https://api.github.com/repos/drkmtr1/MDL_Bounded_Search/git/trees/e48b94eec4091b4fe189e325cab2eda464409943",
+        "source_blob_sha1": "4706e96f90cc6b9693bfef63fe2b24963943986e",
+        "source_blob_bytes": 2948,
+        "restored_blob_bytes": 2948,
+        "restored_blob_sha1": "4706e96f90cc6b9693bfef63fe2b24963943986e",
+        "source_blob_verified": true,
+        "restoration_from_local_cache": "LF; 1 terminal newline(s); UTF-8 without BOM",
+        "local_cache_body_matches_verified_source_after_line_ending_normalization": true,
+        "local_cache_sha256": "f207938ae3aae6f6629d814c6f1617350a636ab83ae8a78ba72ad25ce3a1ea5e",
+        "normalized_source_sha256": "830bd3bba5c7bfb3c9aa46418f369954a2c8be7b6568abe770028f9f654b4544",
+        "normalization": "UTF-8 without BOM; CRLF/CR converted to LF; verified original terminal newlines retained",
+        "normalized_source_lines": 28
+      }
+    }
+  ]
+}

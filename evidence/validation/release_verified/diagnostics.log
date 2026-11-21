@@ -1,0 +1,22 @@
+{
+  "graph": {
+    "degrees": {
+      "s:0": 1,
+      "s:1": 2,
+      "s:2": 2,
+      "s:3": 1
+    },
+    "is_tree": true,
+    "networkx_version": "3.7",
+    "physical_ids_preserved": true,
+    "status": "OK"
+  },
+  "symbolic": {
+    "identities_hold": true,
+    "leaf_reversal_residual": "0",
+    "reflection_squared_difference_residual": "0",
+    "scope": "polynomial identities only; interval inequalities and resource disjointness still require proof",
+    "status": "OK",
+    "sympy_version": "1.14.0"
+  }
+}

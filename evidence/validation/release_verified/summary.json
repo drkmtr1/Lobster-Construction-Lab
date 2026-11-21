@@ -1,0 +1,264 @@
+{
+  "environment": {
+    "implementation": "CPython",
+    "machine": "x86_64",
+    "optional_dependencies": {
+      "mpmath": "1.3.0",
+      "networkx": "3.7",
+      "sympy": "1.14.0",
+      "z3-solver": "5.4.1.0"
+    },
+    "package_version": "0.1.0",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "python": "3.12.14"
+  },
+  "events": [
+    {
+      "argv": [
+        "/workspace/scratch/77b4e42b77ac/.lcl-build-venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "elapsed_seconds": 1.3288717969999198,
+      "log": "unit_tests.log",
+      "name": "unit_tests",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/workspace/scratch/77b4e42b77ac/.lcl-build-venv/bin/python",
+        "-m",
+        "lcl",
+        "demo",
+        "--out",
+        "/workspace/scratch/77b4e42b77ac/Lobster_Construction_Lab/evidence/validation/release_verified/demo"
+      ],
+      "elapsed_seconds": 0.09741025799939962,
+      "log": "demo.log",
+      "name": "demo",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/workspace/scratch/77b4e42b77ac/.lcl-build-venv/bin/python",
+        "-m",
+        "lcl",
+        "construct",
+        "examples/two_section_padded.json",
+        "--out",
+        "/workspace/scratch/77b4e42b77ac/Lobster_Construction_Lab/evidence/validation/release_verified/composed"
+      ],
+      "elapsed_seconds": 0.09617830300066998,
+      "log": "composed.log",
+      "name": "composed",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/workspace/scratch/77b4e42b77ac/.lcl-build-venv/bin/python",
+        "-m",
+        "lcl",
+        "allocate",
+        "examples/r226.json",
+        "--out",
+        "/workspace/scratch/77b4e42b77ac/Lobster_Construction_Lab/evidence/validation/release_verified/allocation"
+      ],
+      "elapsed_seconds": 0.10061079099978087,
+      "log": "allocation.log",
+      "name": "allocation",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/workspace/scratch/77b4e42b77ac/.lcl-build-venv/bin/python",
+        "-m",
+        "lcl",
+        "solve",
+        "examples/p4.json",
+        "--engine",
+        "dfs",
+        "--count",
+        "--out",
+        "/workspace/scratch/77b4e42b77ac/Lobster_Construction_Lab/evidence/validation/release_verified/p4_dfs"
+      ],
+      "elapsed_seconds": 0.09871922099955555,
+      "log": "p4_dfs.log",
+      "name": "p4_dfs",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/workspace/scratch/77b4e42b77ac/.lcl-build-venv/bin/python",
+        "-m",
+        "lcl",
+        "solve",
+        "examples/p4.json",
+        "--engine",
+        "dp",
+        "--out",
+        "/workspace/scratch/77b4e42b77ac/Lobster_Construction_Lab/evidence/validation/release_verified/p4_dp"
+      ],
+      "elapsed_seconds": 0.09282277999955113,
+      "log": "p4_dp.log",
+      "name": "p4_dp",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/workspace/scratch/77b4e42b77ac/.lcl-build-venv/bin/python",
+        "-m",
+        "lcl",
+        "solve",
+        "examples/p4.json",
+        "--engine",
+        "oracle",
+        "--out",
+        "/workspace/scratch/77b4e42b77ac/Lobster_Construction_Lab/evidence/validation/release_verified/p4_oracle"
+      ],
+      "elapsed_seconds": 0.0979210260002219,
+      "log": "p4_oracle.log",
+      "name": "p4_oracle",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/workspace/scratch/77b4e42b77ac/.lcl-build-venv/bin/python",
+        "-m",
+        "lcl",
+        "solve",
+        "examples/p4.json",
+        "--pins",
+        "examples/p4_bad_core_pins.json",
+        "--count",
+        "--out",
+        "/workspace/scratch/77b4e42b77ac/Lobster_Construction_Lab/evidence/validation/release_verified/p4_restricted"
+      ],
+      "elapsed_seconds": 0.08985455499987438,
+      "log": "p4_restricted.log",
+      "name": "p4_restricted",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/workspace/scratch/77b4e42b77ac/.lcl-build-venv/bin/python",
+        "-m",
+        "lcl",
+        "solve",
+        "examples/p6.json",
+        "--count",
+        "--out",
+        "/workspace/scratch/77b4e42b77ac/Lobster_Construction_Lab/evidence/validation/release_verified/p6_dfs"
+      ],
+      "elapsed_seconds": 0.0928638850000425,
+      "log": "p6_dfs.log",
+      "name": "p6_dfs",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/workspace/scratch/77b4e42b77ac/.lcl-build-venv/bin/python",
+        "-m",
+        "lcl",
+        "solve",
+        "examples/spider_221.json",
+        "--count",
+        "--out",
+        "/workspace/scratch/77b4e42b77ac/Lobster_Construction_Lab/evidence/validation/release_verified/spider_dfs"
+      ],
+      "elapsed_seconds": 0.09342802300034236,
+      "log": "spider_dfs.log",
+      "name": "spider_dfs",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/workspace/scratch/77b4e42b77ac/.lcl-build-venv/bin/python",
+        "-m",
+        "lcl",
+        "pilot",
+        "configs/b2_pilot.json",
+        "--out",
+        "/workspace/scratch/77b4e42b77ac/Lobster_Construction_Lab/evidence/validation/release_verified/pilot"
+      ],
+      "elapsed_seconds": 0.11580556199987768,
+      "log": "pilot.log",
+      "name": "pilot",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/workspace/scratch/77b4e42b77ac/.lcl-build-venv/bin/python",
+        "-m",
+        "lcl",
+        "solve",
+        "examples/p4.json",
+        "--engine",
+        "z3",
+        "--out",
+        "/workspace/scratch/77b4e42b77ac/Lobster_Construction_Lab/evidence/validation/release_verified/p4_z3"
+      ],
+      "elapsed_seconds": 0.1394324710008732,
+      "log": "p4_z3.log",
+      "name": "p4_z3",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/workspace/scratch/77b4e42b77ac/.lcl-build-venv/bin/python",
+        "-m",
+        "lcl",
+        "diagnostics"
+      ],
+      "elapsed_seconds": 0.5400320720000309,
+      "log": "diagnostics.log",
+      "name": "diagnostics",
+      "returncode": 0
+    }
+  ],
+  "lean_execution": false,
+  "scope": "bounded software and finite evidence validation; no new universal theorem",
+  "semantic_checks": {
+    "allocation_verified": true,
+    "b2_negative_oracle_exact_zero": true,
+    "composed_verified": true,
+    "demo_verified": true,
+    "p4_dfs_exact_count": true,
+    "p4_dp_exact_count": true,
+    "p4_oracle_exact_count": true,
+    "p4_restricted_exact_count": true,
+    "p6_dfs_exact_count": true,
+    "spider_dfs_exact_count": true
+  },
+  "source": {
+    "files": {
+      "lcl/__init__.py": "134055506d3e9cd4fa538177844d28a44d5ab567ec220cf54048e63d1a8a7374",
+      "lcl/__main__.py": "30782be9a5f5e6bc8b28d2ba189b3dfbf36f24571321d404bec50bd8175f1014",
+      "lcl/allocation.py": "0aab778a6665712d3cd1e35554657cc212fa840d3ce28d32ba79c18f2dcce2b9",
+      "lcl/budget.py": "02145a6b4bc10eda53d2f3736fdf082c1414f96905c71e74a407c0cefd73b16a",
+      "lcl/constructors.py": "5aefc067c9906052dbf1dce6063510b56479bccf0766e81c1a1ebfdbf28f02b4",
+      "lcl/dp.py": "1aa3d2ed888c26b8e5fd65bd74069eb654c60dd336eef5fb33e8fdb7659a14f9",
+      "lcl/engines.py": "8a67ba56d97676b613f9fa89e18e30d8642d74d5c6ada7ec55f97733b0dc7207",
+      "lcl/experiments.py": "0d0f08632397082a2580e250aa7a2a53c5df61aba770e4d2ae0d701b1fe2f714",
+      "lcl/ingest.py": "a7348d668d7a66757fc3e6b2cd8552fd9d26fb7c62a36c43762f5534143f502b",
+      "lcl/model.py": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6",
+      "lcl/oracle.py": "6d70eca24f9b0c254073ec8d1ffcc769d9beca42ad43b6cf272659aecf58146d",
+      "lcl/records.py": "ba7299dac2b3f2c1907c3cce40e0ba20c603b19fc8dcee2f9b2b0760b925391e",
+      "lcl/search.py": "f8291a3446e04422095131e4d75100ec9bfd3213d039d17ce83c04ec82d671ff",
+      "lcl/states.py": "386a7666da91466d35d17b634ad2e5a69e67581f553e86e9d4e75389dc781e1c",
+      "lcl/verify.py": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909",
+      "pyproject.toml": "738f14eba3125ce7f444628adaddaf2e3e30e5aa7f43f10e7035067f6b7072e5",
+      "requirements-graph.txt": "63b83d49071ae093c187423c768c6711a3716cda354d3a24e2bb10b0f536d34c",
+      "requirements-optional.txt": "5bab117f06ee96a8fa7529e4e08f5125087e6ca42bb5ffee3edfdc6913da9e3b",
+      "requirements-smt.txt": "4bb07f85bfdeaabba65e8deb117ecc222d748651ed5526284666f4bb3e6450bd",
+      "requirements-symbolic.txt": "47fd19021144e071cc43b6e265aafada0056abe89724ad95bd6e3a8e37995b94",
+      "requirements.txt": "60f6e1bd76adf6ed25cf381ca95f67e8a27a0de1e62fb673a7cf5af4b86249ea"
+    },
+    "sha256": "578a4fa8b830dd84b20b4d7e7568b9e8c31609fda80b9320a46f66001182ca01"
+  },
+  "status": "PASSED",
+  "windows_execution": false
+}

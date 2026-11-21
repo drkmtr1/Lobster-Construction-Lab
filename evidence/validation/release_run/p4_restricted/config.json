@@ -1,0 +1,15 @@
+{
+  "count_requested": true,
+  "domains": null,
+  "engine": "dfs",
+  "limits": {
+    "max_nodes": 200000,
+    "max_states": 20000,
+    "max_vertices": 12,
+    "time_limit": 5.0
+  },
+  "pins": {
+    "s:1": 0,
+    "s:2": 3
+  }
+}

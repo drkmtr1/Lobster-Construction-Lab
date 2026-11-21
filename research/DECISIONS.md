@@ -1,0 +1,26 @@
+# Decisions and algorithm-change log
+
+This file owns consequential choices and change proposals. `STATE.md` owns current work; findings and failures own scientific dispositions. Dates below are November 20, 2026, Pacific/Honolulu.
+
+| ID | Decision | Reason and review consequence |
+|---|---|---|
+| D001 | Curated independent derivative; keep both upstream repositories unchanged | Carries the actual mathematics and provenance without importing obsolete campaign controls or requiring a remote action |
+| D002 | Standard-library core; Python 3.12/3.13; optional Z3, NetworkX and SymPy | Makes first use simple and CPU-only, while providing distinct exact solver, topology and symbolic checks |
+| D003 | Preserve named topology and original physical roles | An isomorphic graph, inserted connector or moved port may answer a different construction problem |
+| D004 | Independent certificate checker and direct permutation oracle | Solver-internal success assertions are insufficient; separate structures expose shared-assumption mistakes |
+| D005 | DFS plus full-resource frontier DP, no hidden symmetry reduction | Allows finite discovery and count comparisons while keeping complete pruning/merging arguments inspectable |
+| D006 | Implement R226 as its structural component/quota construction | Preserves the mathematical consumer and its supplied-core limitation; a generic search would obscure that distinction |
+| D007 | Start with two-section return-state supply, compare retained composition first | A new two-section example can already follow from L010; useful progress must state a removed restriction or improved interface |
+| D008 | Accept the separately recalculated padded composition as project corollary B2-BASELINE-COMP | It composes one-branch L010 prefixes by reflection and returns a shifted interval; no claim of upstream adoption, formal proof or novelty |
+| D009 | Four explicit pilot pairs, including shifted same-target control | Reveals fixed-state failure without confusing it with ordinary nongracefulness; three profiles/four pairs is the correct denominator |
+| D010 | Finite queue, case-level resume, immutable attempts and source/config/environment checks | Makes interruption recoverable without pretending unfinished solver state was saved |
+| D011 | Defer CP-SAT, DLX, broad automata, learned heuristics and proof-assistant installation | Each needs a selected obligation or measured need; more frameworks alone do not supply the missing mathematics |
+| D012 | Track the new subcubic Lean archive as inspected primary evidence, not locally revalidated theorem | It changes the literature-overlap baseline and motivates finite closure certification; its returned-interface applicability still needs analysis |
+| D013 | Adopt an exact zero-padding balanced two-section supplier after two separate algebra reviews | For equal branch size t and arbitrary K it returns interval [t+2,K+t+1]; proof partitions every actual edge difference. It improves the project interface baseline without a novelty claim. Unequal supply remains next |
+| D014 | Select one restricted unequal-prefix seed, then a quantified label-shift proof if it exists | One eight-vertex case can resolve a structural template for all K; absence falsifies only that alpha/physical-port template |
+
+## Proposal template for the next consequential algorithm change
+
+Copy a new entry with: ID/date; problem being addressed; old source/run identity; proposed mathematical rule; exact changed assumptions/domain; expected output interface; soundness/completeness argument; smallest positive/adverse comparisons; reviewer identity; result/evidence paths; accepted/candidate/reverted disposition; one remaining proof duty.
+
+Routine refactoring that changes no semantics needs an ordinary note and focused check, not a new approval ceremony. Preserve evidence of a failed hypothesis when correcting its code or statement. Mathematical semantics, pruning, symmetry and checker changes need separate review as specified in `AGENTS.md`.

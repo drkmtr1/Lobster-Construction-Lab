@@ -1,0 +1,37 @@
+{
+  "counts": {
+    "EXHAUSTED_NO_SOLUTION": 2,
+    "SAT": 2
+  },
+  "declared_cases": 4,
+  "elapsed_seconds": 0.030154755000694422,
+  "latest": {
+    "31da62597181ea39545cd89689e591113261ea7c9c7af56e60383894da947a57": {
+      "attempts": 1,
+      "path": "cases/31da62597181ea39545cd89689e591113261ea7c9c7af56e60383894da947a57.attempt-0001.json",
+      "status": "SAT"
+    },
+    "5ec48bf78151f8d1a9687e5147c492506eba28014e92ae9e74b9774262a2e139": {
+      "attempts": 1,
+      "path": "cases/5ec48bf78151f8d1a9687e5147c492506eba28014e92ae9e74b9774262a2e139.attempt-0001.json",
+      "status": "EXHAUSTED_NO_SOLUTION"
+    },
+    "c660f670f83f62024d945a22b425cdccf65ad95e4b8ce1c950d06d6409cb727d": {
+      "attempts": 1,
+      "path": "cases/c660f670f83f62024d945a22b425cdccf65ad95e4b8ce1c950d06d6409cb727d.attempt-0001.json",
+      "status": "EXHAUSTED_NO_SOLUTION"
+    },
+    "f9157dedf06bf8404960e38d8db010f28ec6fc5b3e6daeb19a300b7a2d93a3b6": {
+      "attempts": 1,
+      "path": "cases/f9157dedf06bf8404960e38d8db010f28ec6fc5b3e6daeb19a300b7a2d93a3b6.attempt-0001.json",
+      "status": "SAT"
+    }
+  },
+  "next_action": "Inspect original targets, restrictions, certificates and baselines before selecting another bounded task",
+  "processed_this_invocation": 4,
+  "recorded_cases": 4,
+  "research_conclusion": "finite diagnostic only",
+  "stop_reason": "all_declared_cases_recorded",
+  "unattempted_cases": 0,
+  "updated_utc": "2026-11-21T05:54:39.955726+00:00"
+}

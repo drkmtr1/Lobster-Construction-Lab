@@ -1,0 +1,280 @@
+{
+  "environment": {
+    "implementation": "CPython",
+    "machine": "x86_64",
+    "optional_dependencies": {
+      "mpmath": "1.3.0",
+      "networkx": "3.7",
+      "sympy": "1.14.0",
+      "z3-solver": "5.4.1.0"
+    },
+    "package_version": "0.1.0",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "python": "3.12.14"
+  },
+  "events": [
+    {
+      "argv": [
+        "/workspace/scratch/77b4e42b77ac/.lcl-build-venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "elapsed_seconds": 14.008381031999306,
+      "log": "unit_tests.log",
+      "name": "unit_tests",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/workspace/scratch/77b4e42b77ac/.lcl-build-venv/bin/python",
+        "-m",
+        "lcl",
+        "demo",
+        "--out",
+        "/workspace/scratch/77b4e42b77ac/Lobster_Construction_Lab/evidence/validation/release_final/demo"
+      ],
+      "elapsed_seconds": 0.4894006360000276,
+      "log": "demo.log",
+      "name": "demo",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/workspace/scratch/77b4e42b77ac/.lcl-build-venv/bin/python",
+        "-m",
+        "lcl",
+        "construct",
+        "examples/two_section_padded.json",
+        "--out",
+        "/workspace/scratch/77b4e42b77ac/Lobster_Construction_Lab/evidence/validation/release_final/composed"
+      ],
+      "elapsed_seconds": 0.3327863510003226,
+      "log": "composed.log",
+      "name": "composed",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/workspace/scratch/77b4e42b77ac/.lcl-build-venv/bin/python",
+        "-m",
+        "lcl",
+        "construct",
+        "examples/two_section_balanced.json",
+        "--out",
+        "/workspace/scratch/77b4e42b77ac/Lobster_Construction_Lab/evidence/validation/release_final/balanced"
+      ],
+      "elapsed_seconds": 0.31935487800001283,
+      "log": "balanced.log",
+      "name": "balanced",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/workspace/scratch/77b4e42b77ac/.lcl-build-venv/bin/python",
+        "-m",
+        "lcl",
+        "allocate",
+        "examples/r226.json",
+        "--out",
+        "/workspace/scratch/77b4e42b77ac/Lobster_Construction_Lab/evidence/validation/release_final/allocation"
+      ],
+      "elapsed_seconds": 0.3158772169999793,
+      "log": "allocation.log",
+      "name": "allocation",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/workspace/scratch/77b4e42b77ac/.lcl-build-venv/bin/python",
+        "-m",
+        "lcl",
+        "solve",
+        "examples/p4.json",
+        "--engine",
+        "dfs",
+        "--count",
+        "--out",
+        "/workspace/scratch/77b4e42b77ac/Lobster_Construction_Lab/evidence/validation/release_final/p4_dfs"
+      ],
+      "elapsed_seconds": 0.16366640500018548,
+      "log": "p4_dfs.log",
+      "name": "p4_dfs",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/workspace/scratch/77b4e42b77ac/.lcl-build-venv/bin/python",
+        "-m",
+        "lcl",
+        "solve",
+        "examples/p4.json",
+        "--engine",
+        "dp",
+        "--out",
+        "/workspace/scratch/77b4e42b77ac/Lobster_Construction_Lab/evidence/validation/release_final/p4_dp"
+      ],
+      "elapsed_seconds": 0.16513605799991637,
+      "log": "p4_dp.log",
+      "name": "p4_dp",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/workspace/scratch/77b4e42b77ac/.lcl-build-venv/bin/python",
+        "-m",
+        "lcl",
+        "solve",
+        "examples/p4.json",
+        "--engine",
+        "oracle",
+        "--out",
+        "/workspace/scratch/77b4e42b77ac/Lobster_Construction_Lab/evidence/validation/release_final/p4_oracle"
+      ],
+      "elapsed_seconds": 0.10329922399978386,
+      "log": "p4_oracle.log",
+      "name": "p4_oracle",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/workspace/scratch/77b4e42b77ac/.lcl-build-venv/bin/python",
+        "-m",
+        "lcl",
+        "solve",
+        "examples/p4.json",
+        "--pins",
+        "examples/p4_bad_core_pins.json",
+        "--count",
+        "--out",
+        "/workspace/scratch/77b4e42b77ac/Lobster_Construction_Lab/evidence/validation/release_final/p4_restricted"
+      ],
+      "elapsed_seconds": 0.13237948099958885,
+      "log": "p4_restricted.log",
+      "name": "p4_restricted",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/workspace/scratch/77b4e42b77ac/.lcl-build-venv/bin/python",
+        "-m",
+        "lcl",
+        "solve",
+        "examples/p6.json",
+        "--count",
+        "--out",
+        "/workspace/scratch/77b4e42b77ac/Lobster_Construction_Lab/evidence/validation/release_final/p6_dfs"
+      ],
+      "elapsed_seconds": 0.14853722299994843,
+      "log": "p6_dfs.log",
+      "name": "p6_dfs",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/workspace/scratch/77b4e42b77ac/.lcl-build-venv/bin/python",
+        "-m",
+        "lcl",
+        "solve",
+        "examples/spider_221.json",
+        "--count",
+        "--out",
+        "/workspace/scratch/77b4e42b77ac/Lobster_Construction_Lab/evidence/validation/release_final/spider_dfs"
+      ],
+      "elapsed_seconds": 0.23319896900011372,
+      "log": "spider_dfs.log",
+      "name": "spider_dfs",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/workspace/scratch/77b4e42b77ac/.lcl-build-venv/bin/python",
+        "-m",
+        "lcl",
+        "pilot",
+        "configs/b2_pilot.json",
+        "--out",
+        "/workspace/scratch/77b4e42b77ac/Lobster_Construction_Lab/evidence/validation/release_final/pilot"
+      ],
+      "elapsed_seconds": 0.13283479700021417,
+      "log": "pilot.log",
+      "name": "pilot",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/workspace/scratch/77b4e42b77ac/.lcl-build-venv/bin/python",
+        "-m",
+        "lcl",
+        "solve",
+        "examples/p4.json",
+        "--engine",
+        "z3",
+        "--out",
+        "/workspace/scratch/77b4e42b77ac/Lobster_Construction_Lab/evidence/validation/release_final/p4_z3"
+      ],
+      "elapsed_seconds": 0.2562591819996669,
+      "log": "p4_z3.log",
+      "name": "p4_z3",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/workspace/scratch/77b4e42b77ac/.lcl-build-venv/bin/python",
+        "-m",
+        "lcl",
+        "diagnostics"
+      ],
+      "elapsed_seconds": 0.7387662040000578,
+      "log": "diagnostics.log",
+      "name": "diagnostics",
+      "returncode": 0
+    }
+  ],
+  "lean_execution": false,
+  "scope": "bounded software and finite evidence validation; no new universal theorem",
+  "semantic_checks": {
+    "allocation_verified": true,
+    "b2_negative_oracle_exact_zero": true,
+    "balanced_verified": true,
+    "composed_verified": true,
+    "demo_verified": true,
+    "p4_dfs_exact_count": true,
+    "p4_dp_exact_count": true,
+    "p4_oracle_exact_count": true,
+    "p4_restricted_exact_count": true,
+    "p6_dfs_exact_count": true,
+    "spider_dfs_exact_count": true
+  },
+  "source": {
+    "files": {
+      "lcl/__init__.py": "134055506d3e9cd4fa538177844d28a44d5ab567ec220cf54048e63d1a8a7374",
+      "lcl/__main__.py": "30782be9a5f5e6bc8b28d2ba189b3dfbf36f24571321d404bec50bd8175f1014",
+      "lcl/allocation.py": "0aab778a6665712d3cd1e35554657cc212fa840d3ce28d32ba79c18f2dcce2b9",
+      "lcl/budget.py": "02145a6b4bc10eda53d2f3736fdf082c1414f96905c71e74a407c0cefd73b16a",
+      "lcl/constructors.py": "69e946c1be03d83e3cf33e678c1c1ab0e59e5a44abadf89af44e6d2431db3b93",
+      "lcl/dp.py": "1aa3d2ed888c26b8e5fd65bd74069eb654c60dd336eef5fb33e8fdb7659a14f9",
+      "lcl/engines.py": "8a67ba56d97676b613f9fa89e18e30d8642d74d5c6ada7ec55f97733b0dc7207",
+      "lcl/experiments.py": "0d0f08632397082a2580e250aa7a2a53c5df61aba770e4d2ae0d701b1fe2f714",
+      "lcl/ingest.py": "037eebd5e36c7a07c4a963df045ab7870eaee7261c208694d46da09014dbe794",
+      "lcl/model.py": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6",
+      "lcl/oracle.py": "6d70eca24f9b0c254073ec8d1ffcc769d9beca42ad43b6cf272659aecf58146d",
+      "lcl/records.py": "ba7299dac2b3f2c1907c3cce40e0ba20c603b19fc8dcee2f9b2b0760b925391e",
+      "lcl/search.py": "f8291a3446e04422095131e4d75100ec9bfd3213d039d17ce83c04ec82d671ff",
+      "lcl/states.py": "386a7666da91466d35d17b634ad2e5a69e67581f553e86e9d4e75389dc781e1c",
+      "lcl/verify.py": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909",
+      "pyproject.toml": "738f14eba3125ce7f444628adaddaf2e3e30e5aa7f43f10e7035067f6b7072e5",
+      "requirements-graph.txt": "63b83d49071ae093c187423c768c6711a3716cda354d3a24e2bb10b0f536d34c",
+      "requirements-optional.txt": "5bab117f06ee96a8fa7529e4e08f5125087e6ca42bb5ffee3edfdc6913da9e3b",
+      "requirements-smt.txt": "4bb07f85bfdeaabba65e8deb117ecc222d748651ed5526284666f4bb3e6450bd",
+      "requirements-symbolic.txt": "47fd19021144e071cc43b6e265aafada0056abe89724ad95bd6e3a8e37995b94",
+      "requirements.txt": "60f6e1bd76adf6ed25cf381ca95f67e8a27a0de1e62fb673a7cf5af4b86249ea"
+    },
+    "sha256": "2dfe3231007a18f4a74e4c4b49fd4a112ebbb66ef439e711ff59ac11fde7bbfd"
+  },
+  "status": "PASSED",
+  "windows_execution": false
+}

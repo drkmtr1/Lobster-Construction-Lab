@@ -1,0 +1,161 @@
+{
+  "certificate": {
+    "claim": "finite certificate for this exact named target only",
+    "edge_differences": [
+      3,
+      2,
+      1
+    ],
+    "errors": [],
+    "graph_digest": "eaf1927843195b95b7917e3cc6ef87369bea0f7acfd33651a5d03d2a0494b438",
+    "m": 3,
+    "n": 4,
+    "valid": true
+  },
+  "classification": "SAT",
+  "config": {
+    "count_requested": false,
+    "domains": null,
+    "engine": "z3",
+    "limits": {
+      "max_nodes": 200000,
+      "max_states": 20000,
+      "max_vertices": 12,
+      "time_limit": 5.0
+    },
+    "pins": null
+  },
+  "config_sha256": "78c38641e277011ade8edbe69991e90a6fdb4e3664eb8995fd3ce073138f1248",
+  "consistency_errors": [],
+  "created_utc": "2026-11-21T06:03:20.376717+00:00",
+  "environment": {
+    "implementation": "CPython",
+    "machine": "x86_64",
+    "optional_dependencies": {
+      "mpmath": "1.3.0",
+      "networkx": "3.7",
+      "sympy": "1.14.0",
+      "z3-solver": "5.4.1.0"
+    },
+    "package_version": "0.1.0",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "python": "3.12.14"
+  },
+  "expected_restrictions": {
+    "domains": {},
+    "pins": {}
+  },
+  "original_graph": {
+    "edges": [
+      [
+        "s:0",
+        "s:1"
+      ],
+      [
+        "s:1",
+        "s:2"
+      ],
+      [
+        "s:2",
+        "s:3"
+      ]
+    ],
+    "profile": [
+      [],
+      [],
+      [],
+      []
+    ],
+    "roles": {
+      "s:0": {
+        "kind": "spine",
+        "section": 0
+      },
+      "s:1": {
+        "kind": "spine",
+        "section": 1
+      },
+      "s:2": {
+        "kind": "spine",
+        "section": 2
+      },
+      "s:3": {
+        "kind": "spine",
+        "section": 3
+      }
+    },
+    "schema_version": 1,
+    "spine": [
+      "s:0",
+      "s:1",
+      "s:2",
+      "s:3"
+    ],
+    "vertices": [
+      "s:0",
+      "s:1",
+      "s:2",
+      "s:3"
+    ]
+  },
+  "original_graph_digest": "eaf1927843195b95b7917e3cc6ef87369bea0f7acfd33651a5d03d2a0494b438",
+  "record_sha256": "48ba5b66211af777fe0e5564c1ff5226da3fda2f6770a40f846a79cb0351d90c",
+  "result": {
+    "count": null,
+    "count_lower_bound": 1,
+    "elapsed_seconds": 0.09335667899995315,
+    "exhausted": false,
+    "limits": {
+      "max_nodes": 200000,
+      "max_states": 20000,
+      "max_vertices": 12,
+      "time_limit": 5.0
+    },
+    "method": "z3",
+    "resource_unit_limit": 200000,
+    "restrictions": {
+      "count_convention": "bijections on named physical vertices; no symmetry quotient",
+      "domains": {},
+      "hidden_symmetry_reduction": false,
+      "pins": {},
+      "scope": "unrestricted"
+    },
+    "solver_memory_limit_mib": 512,
+    "solver_version": "5.4.1",
+    "status": "SAT",
+    "witness": {
+      "s:0": 0,
+      "s:1": 3,
+      "s:2": 1,
+      "s:3": 2
+    }
+  },
+  "schema_version": 1,
+  "source": {
+    "files": {
+      "lcl/__init__.py": "134055506d3e9cd4fa538177844d28a44d5ab567ec220cf54048e63d1a8a7374",
+      "lcl/__main__.py": "30782be9a5f5e6bc8b28d2ba189b3dfbf36f24571321d404bec50bd8175f1014",
+      "lcl/allocation.py": "0aab778a6665712d3cd1e35554657cc212fa840d3ce28d32ba79c18f2dcce2b9",
+      "lcl/budget.py": "02145a6b4bc10eda53d2f3736fdf082c1414f96905c71e74a407c0cefd73b16a",
+      "lcl/constructors.py": "69e946c1be03d83e3cf33e678c1c1ab0e59e5a44abadf89af44e6d2431db3b93",
+      "lcl/dp.py": "1aa3d2ed888c26b8e5fd65bd74069eb654c60dd336eef5fb33e8fdb7659a14f9",
+      "lcl/engines.py": "8a67ba56d97676b613f9fa89e18e30d8642d74d5c6ada7ec55f97733b0dc7207",
+      "lcl/experiments.py": "0d0f08632397082a2580e250aa7a2a53c5df61aba770e4d2ae0d701b1fe2f714",
+      "lcl/ingest.py": "037eebd5e36c7a07c4a963df045ab7870eaee7261c208694d46da09014dbe794",
+      "lcl/model.py": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6",
+      "lcl/oracle.py": "6d70eca24f9b0c254073ec8d1ffcc769d9beca42ad43b6cf272659aecf58146d",
+      "lcl/records.py": "ba7299dac2b3f2c1907c3cce40e0ba20c603b19fc8dcee2f9b2b0760b925391e",
+      "lcl/search.py": "f8291a3446e04422095131e4d75100ec9bfd3213d039d17ce83c04ec82d671ff",
+      "lcl/states.py": "386a7666da91466d35d17b634ad2e5a69e67581f553e86e9d4e75389dc781e1c",
+      "lcl/verify.py": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909",
+      "pyproject.toml": "738f14eba3125ce7f444628adaddaf2e3e30e5aa7f43f10e7035067f6b7072e5",
+      "requirements-graph.txt": "63b83d49071ae093c187423c768c6711a3716cda354d3a24e2bb10b0f536d34c",
+      "requirements-optional.txt": "5bab117f06ee96a8fa7529e4e08f5125087e6ca42bb5ffee3edfdc6913da9e3b",
+      "requirements-smt.txt": "4bb07f85bfdeaabba65e8deb117ecc222d748651ed5526284666f4bb3e6450bd",
+      "requirements-symbolic.txt": "47fd19021144e071cc43b6e265aafada0056abe89724ad95bd6e3a8e37995b94",
+      "requirements.txt": "60f6e1bd76adf6ed25cf381ca95f67e8a27a0de1e62fb673a7cf5af4b86249ea"
+    },
+    "sha256": "2dfe3231007a18f4a74e4c4b49fd4a112ebbb66ef439e711ff59ac11fde7bbfd"
+  },
+  "universal_claim": false
+}
