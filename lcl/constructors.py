@@ -6,9 +6,10 @@ nothing about ordinary gracefulness of the requested graph.
 
 from __future__ import annotations
 
-from .consumers import complete_nonadjacent_path
+from .consumers import _nonadjacent_path_labels, complete_nonadjacent_path
 from .model import (_integer, branched_prefix_profile, build_graph, graph_digest,
                     normalize_profile)
+from .verify import verify_certificate, verify_partial
 
 
 BOUNDED_COMMIT = "e48b94eec4091b4fe189e325cab2eda464409943"
@@ -375,6 +376,75 @@ def two_section_nonadjacent(q: int, r: int, K: int) -> dict:
                              "notation": "inclusive intervals"},
         "derivation_status": "project-derived algebraic prefix supplier followed by the nonadjacent path consumer",
         "source": "research/B2_UNPADDED_ALL_QR.md",
+        "consumer_source": "research/B2_NONADJACENT_CONSUMER.md"}, trace)
+    result["evidence_level"] = "project_derived_symbolic_family; independent checking required"
+    return result
+
+
+def three_section_nonadjacent(q: int, r: int, t: int, K: int) -> dict:
+    """Supply three unpadded branches and complete their original K-edge path.
+
+    Require integer q>=r>=1, t>=1 and K>=2. The explicit original-vertex
+    prefix supplies both inventories and the nonadjacent port at physical
+    s:3, without a solver or a supplied whole-target solution.
+    """
+    _integer(q, "q", 1)
+    _integer(r, "r", 1)
+    _integer(t, "t", 1)
+    _integer(K, "K", 2)
+    if q < r:
+        raise ValueError("outside three-section construction domain: q must be >= r")
+
+    graph = build_graph([[q], [r], [t]] + [[] for _ in range(K + 1)])
+    m, a, x = q + r + t + K + 6, q + t + 3, q - r
+    prefix = {"s:0": x, "s:1": K + a + 2, "s:2": q + 2,
+              "s:3": K + a + 1, "b:0:0": m, "b:1:0": q + 1,
+              "b:2:0": K + a}
+    for j in range(q):
+        prefix[f"l:0:0:{j}"] = j if j < x else j + 1
+    for j in range(r):
+        prefix[f"l:1:0:{j}"] = K + a + 3 + j
+    for j in range(t):
+        prefix[f"l:2:0:{j}"] = q + 3 + j
+
+    partial = verify_partial(graph, prefix)
+    if not partial["valid"]:
+        raise ArithmeticError("three-section prefix failed original-target verification: "
+                              + "; ".join(partial["errors"]))
+    suffix = {f"s:{i}" for i in range(4, K + 4)}
+    path = {frozenset((f"s:{i}", f"s:{i + 1}")) for i in range(3, K + 3)}
+    incident = {frozenset(edge) for edge in graph["edges"] if suffix.intersection(edge)}
+    if (set(graph["vertices"]) - set(prefix) != suffix or incident != path
+            or partial["frontier"] != ["s:3"]
+            or partial["unused_labels"] != list(range(a, a + K))
+            or partial["unused_differences"] != list(range(1, K + 1))
+            or prefix["s:3"] != a + K + 1):
+        raise ArithmeticError("three-section prefix has a different original-path interface")
+
+    trace = [{"operation": "supplied_nonadjacent_interval_interface", "stage": 3,
+              "active_vertex": "s:3", "active_label": a + K + 1,
+              "unused_labels": list(range(a, a + K)),
+              "unused_differences": list(range(1, K + 1)),
+              "prefix_labels": dict(prefix), "prefix_difference_interval": [K + 1, m]}]
+    path_labels = _nonadjacent_path_labels(K, a)
+    if path_labels[0] != prefix["s:3"]:
+        raise ArithmeticError("nonadjacent sequence does not start at original s:3")
+    labels = dict(prefix)
+    labels.update({f"s:{3 + i}": path_labels[i] for i in range(1, K + 1)})
+    certificate = verify_certificate(graph, labels, partial["graph_digest"])
+    if not certificate["valid"]:
+        raise ArithmeticError("three-section completion failed original-target verification: "
+                              + "; ".join(certificate["errors"]))
+    result = _result(graph, labels, "three_section_nonadjacent", {
+        "parameters": {"q": q, "r": r, "t": t, "z0": 0, "z1": 0, "z2": 0, "K": K},
+        "family": "three successive positive branches, no direct leaves, and a K-edge path suffix",
+        "independent_input_supply": True, "universal_lobster_claim": False,
+        "mathematical_novelty_claim": False, "arbitrary_branched_suffix": False,
+        "suffix_interface": {"unused_labels": [a, a + K - 1],
+                             "unused_differences": [1, K], "active_vertex": "s:3",
+                             "active_label": a + K + 1, "notation": "inclusive intervals"},
+        "derivation_status": "project corollary of retained R241 and L008 with an explicit left supplier",
+        "source": "research/B3_UNPADDED_QGE_R.md",
         "consumer_source": "research/B2_NONADJACENT_CONSUMER.md"}, trace)
     result["evidence_level"] = "project_derived_symbolic_family; independent checking required"
     return result

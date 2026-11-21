@@ -184,6 +184,8 @@ An exhausted exact search can establish a finite negative only for the correctly
 
 ## 7. Obligations for repetition beyond the first target
 
+The separately accepted [B3-UNPADDED-QGE-R-001](B3_UNPADDED_QGE_R.md) constructs one three-section original target for every integer `q>=r>=1`, `t>=1`, `K>=2` with zero padding. Its prefix supplies `R=[q+t+3,q+t+K+2]`, `D=1..K` and actual port `s:3=q+t+K+4`; the accepted recurrence completes the original K-edge path. This is a fixed three-section family with a nonadjacent port, not literal B2 adjacent P05, an arbitrary transition, or a proof for `q<r`. K=1 needs a different interface; padding, extra branches, fourth sections and arbitrary repetition remain separate duties. See D023 and `FINDINGS.md` for disposition.
+
 To promote a two-section supplier into a repeated construction, specify a state class `S`, a transition for the next actual section, and a domain of admitted input sequences. Prove that each admitted input reaches `S`, each transition receives independently available resources and preserves its invariant, and a finite measure decreases until a terminal consumer applies.
 
 The state must carry the physical port, actual label or normalization map, both resource inventories, remaining topology, and any quota constraints needed later. A compact normalized representation is acceptable only after its equivalence to those facts is proved. A transfer-state transition valid for one parity or capacity regime does not automatically cover another. [U06]
