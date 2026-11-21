@@ -304,6 +304,41 @@ def two_section_balanced(q: int, K: int) -> dict:
     return result
 
 
+def two_section_k1(q: int, r: int) -> dict:
+    """Label the original unpadded two-section target with K=1.
+
+    For integers q,r>=1, the independent prefix leaves the singleton label
+    q+4 and difference q+3 at the physical port s:2=1. The original edge
+    s:2--s:3 completes the labeling. No successful full labeling is input.
+    """
+    _integer(q, "q", 1)
+    _integer(r, "r", 1)
+    graph = build_graph(branched_prefix_profile(q, r, 0, 0, 1))
+    prefix = {"s:0": 3, "s:1": q + 5, "s:2": 1,
+              "b:0:0": q + 3, "l:0:0:0": 2, "b:1:0": 0}
+    for j in range(1, q):
+        prefix[f"l:0:0:{j}"] = j + 3
+    for j in range(r):
+        prefix[f"l:1:0:{j}"] = q + 6 + j
+    trace = [{"operation": "supplied_singleton_interface", "stage": 2,
+              "active_vertex": "s:2", "active_label": 1,
+              "unused_labels": [q + 4], "unused_differences": [q + 3],
+              "prefix_labels": dict(prefix)}]
+    labels = dict(prefix)
+    labels["s:3"] = q + 4
+    result = _result(graph, labels, "two_section_k1", {
+        "parameters": {"q": q, "r": r, "z0": 0, "z1": 0, "K": 1},
+        "family": "two successive positive branches, no direct leaves, and a one-edge path suffix",
+        "independent_input_supply": True, "universal_lobster_claim": False,
+        "mathematical_novelty_claim": False, "arbitrary_branched_suffix": False,
+        "suffix_interface": {"unused_labels": [q + 4], "unused_differences": [q + 3],
+                             "active_vertex": "s:2", "active_label": 1},
+        "derivation_status": "project specialization of retained R241/R212-B",
+        "source": "research/B2_UNPADDED_K1.md"}, trace)
+    result["evidence_level"] = "project_derived_symbolic_family; independent checking required"
+    return result
+
+
 def two_section_nonadjacent(q: int, r: int, K: int) -> dict:
     """Supply two unpadded branches and complete their original K-edge path.
 

@@ -2,7 +2,7 @@
 
 ## What is implemented
 
-The code supplies six direct construction implementations, a unit-size convenience alias, and one structural completion API. Four constructions implement retained formulas directly; one composes retained prefixes under explicit padding conditions; one supplies a project-derived equal-branch family without padding. Each construction accepts an independently specified topology and calculates its labels directly. R226 takes independently supplied core labels and completes a precisely described two-host leaf attachment when its exact conditions pass. None of these APIs selects a convenient complete labeling and then presents a fragment of that answer as a general input rule.
+The code supplies direct constructions, a unit-size convenience alias, and a structural completion API. They include retained formulas, a padded composition, and separate zero-padding suppliers with their own domains and interfaces. Each construction calculates labels directly from parameters and its specified topology. R226 takes independently supplied core labels and completes a precisely described two-host leaf attachment when its exact conditions pass. None of these APIs selects a convenient complete labeling and then presents a fragment of that answer as a general input rule.
 
 | API | Independently supplied input | Successful output | Scope boundary |
 |---|---|---|---|
@@ -13,6 +13,7 @@ The code supplies six direct construction implementations, a unit-size convenien
 | `two_section_padded(q,r,z0,z1,K)` | Two positive branch sizes, specified direct-leaf counts satisfying both budgets, a positive pure-path suffix length | Complete graceful labeling | A composition corollary of retained L010 prefixes under the stated budgets |
 | `two_section_balanced(q,K)` | Equal positive branch sizes `q`, no direct leaves, positive suffix length `K` | Complete graceful labeling | Project-derived symbolic supplier; unequal sizes are outside its domain |
 | `two_section_nonadjacent(q,r,K)` | Any positive q,r, no direct leaves, K>=2 | Complete graceful labeling | Independent formula supplies a two-above port and exact original path consumer |
+| `two_section_k1(q,r)` | Any positive integers q,r, no direct leaves, K=1 | Complete graceful labeling | Retained R241 specialization; singleton R={q+4}, D={q+3}, physical port s:2=1 |
 | `two_section_unit(K)` | Positive suffix length `K` | Complete graceful labeling | Alias for `two_section_balanced(q=1,K=K)` |
 | `complete_two_host(graph, core_labels, hosts)` | Original target, connected labeled core, two distinct physical hosts | Exact fixed-core completion or restricted obstruction | Does not supply the core labeling, host choice, or a palette partition |
 
@@ -228,3 +229,5 @@ These finite implementation controls do not prove the retained theorems or exten
 ## All-q,r unpadded two-section supplier
 
 `two_section_nonadjacent(q,r,K)` constructs the exact unpadded two-section graph for positive integer `q,r` and integer `K>=2`. Its prefix trace carries the physical port, prefix labels, and both unused inventories; the unchanged nonadjacent consumer completes the original path. The CLI constructor method of the same name requires an independently declared `profile` and exact `q,r,K` parameters, and rejects oversized targets before expansion. Its algebra, comparisons and K=1 limitation are in [B2_UNPADDED_ALL_QR.md](../research/B2_UNPADDED_ALL_QR.md).
+
+`two_section_k1(q,r)` is a separate R241/R212-B specialization for `[[q],[r],[],[]]`. Its prefix trace leaves the singleton label `q+4` and difference `q+3` at original `s:2=1`; it assigns the final vertex `s:3=q+4`. CLI method `two_section_k1` requires the caller's independently declared profile and exact `q,r` parameter keys; the preflight rejects invalid integers and a vertex count above its cap before expansion. The theorem and source derivation are in [B2_UNPADDED_K1.md](../research/B2_UNPADDED_K1.md). Neither K>=2 behavior nor the adjacent `interval_boundary` predicate is redefined.

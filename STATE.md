@@ -2,7 +2,7 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 21, 2026, Pacific/Honolulu  
-**Stage:** B2-UNPADDED-ALL-QR-001 independently reviewed and accepted: explicit zero-padding two-section prefix supply and original path completion for all integers q,r≥1 and K≥2.
+**Stage:** B2-UNPADDED-K1-001 accepted after separate AI reviews: an explicit R241 specialization covers K=1; together with the previously accepted K≥2 construction it covers the original zero-padding two-section family for all positive integers q,r,K.
 
 ## Current scientific objective
 
@@ -10,7 +10,7 @@ Develop independently supplied original-graph boundaries and transitions beyond 
 
 ## One next action
 
-**With a new bounded scope decision, formulate a separate proof obligation for K=1 on the same unpadded two-section family**, comparing retained constructions and preserving the original named graph. No successor task or K=1 search is started by this review.
+**With a new bounded scope decision, formulate a precise proof obligation for extending an independently supplied construction to a third branched section**, retaining the original named graph, physical port, and both resource inventories. No successor task is started by this review.
 
 ## What is established in this package
 
@@ -23,6 +23,7 @@ Develop independently supplied original-graph boundaries and transitions beyond 
 - B2-NONADJACENT-CONSUMER-001 supplies a reviewed conditional K-edge path consumer for integer K>=2, interval `[ell,ell+K-1]`, unused differences `1..K`, and physical port `ell+K+1`. K=1 is impossible under this exact interface. Proof and separate review: `research/B2_NONADJACENT_CONSUMER.md`; implementation: `lcl/consumers.py`; bounded evidence: `evidence/validation/B2_NONADJACENT_CONSUMER_001/`. This consumer alone does not supply the prefix; the separate p=5 result below does.
 - B2-NONADJACENT-SEED-P5-001 found and independently checked a fixed port-5 alpha seed. Its explicit high-side shift supplies the nonadjacent consumer on the original zero-padding `q=1,r=2` family for all K>=2; a previously verified adjacent-port witness separately covers K=1. The first-witness DFS was SAT after 9 nodes, not exhausted, with no exact solution count. Proof, reduction and scope: `research/B2_NONADJACENT_SEED_P5.md`; evidence: `evidence/runs/b2-nonadjacent-seed-p5-001-20261121-dfs/`; decision D020.
 - B2-UNPADDED-ALL-QR-001 supplies an explicit independently constructed zero-padding prefix for every integer `q,r>=1,K>=2`, leaving labels `[r+2,K+r+1]`, differences `1..K`, and actual port `K+r+3` for the accepted nonadjacent consumer. The exact named target is completed without a solver input. Proof and source comparison: `research/B2_UNPADDED_ALL_QR.md`; implementation: `lcl/constructors.py`; original-target bounded evidence: `evidence/validation/B2_UNPADDED_ALL_QR_001/`; decision D021. K=1 is outside this theorem.
+- B2-UNPADDED-K1-001 is an explicitly proved specialization of retained R241/R212-B for all integer `q,r>=1` on `[[q],[r],[],[]]`. Its original prefix leaves `R={q+4}`, `D={q+3}`, and port `s:2=1`; the final original edge uses the singleton resources. This is distinct from both the adjacent and the K>=2 nonadjacent interfaces. With the preceding K>=2 theorem it gives ordinary gracefulness of the exact unpadded profile for all positive `q,r,K`, not a uniform prescribed boundary, an arbitrary-lobster result, or a historical novelty claim. Separate AI mathematical and implementation reviews accepted the scoped argument and code; finite evidence is not the proof. See `research/B2_UNPADDED_K1.md`, D022 and `evidence/validation/B2_UNPADDED_K1_001/`.
 - Evidence custody and closeout corrections are accepted within their documented scope: the historical 33 successful entries comprise 31 predicates and two informational hashes, and the later 72/72 check verifies saved custody, not proof or independent provenance authentication. The unchanged solver, original-target verifier, restrictions, pruning and symmetry are inherited from the accepted baseline. Historical OpenChamber handoffs and decisions preserve their then-pending status as history.
 - DFS, full-resource DP, direct enumeration, optional Z3 and evidence/recovery controls passed the release's bounded checks. **110 test methods passed.** The final source identity and complete commands are in `evidence/validation/release_final/summary.json`.
 - Four diagnostic target/interface pairs on three named profiles completed: two checked witnesses and two restricted negatives. The q=r=1,ell=1 negative was independently cross-checked by direct enumeration. Results are in `evidence/validation/VALIDATION_REPORT.md`.

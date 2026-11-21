@@ -1,0 +1,14 @@
+{
+  "run_id": "B2-UNPADDED-K1-001-original-target-regression-20261121",
+  "cases": [[1, 1], [1, 2], [2, 1], [1, 8], [8, 1], [2, 3],
+            [3, 2], [3, 3], [4, 9], [9, 4], [17, 31], [31, 17]],
+  "parameter_order": ["q", "r"],
+  "K": 1,
+  "z0": 0,
+  "z1": 0,
+  "max_cases": 12,
+  "max_vertices": 54,
+  "max_output_bytes": 2000000,
+  "workers": 1,
+  "scope": "12 fixed ordered original-target cases; deterministic construction only; no solver or search"
+}
