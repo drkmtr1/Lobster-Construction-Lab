@@ -102,6 +102,12 @@ The `(q,r)=(1,2)` prefix is exactly the earlier p=5 construction. For `q=r` the 
 
 The domain `q<r` is outside this formula, not proved nongraceful. K=1 requires a different boundary; padding, extra branches, a fourth branched section and arbitrary repetition remain unproved here. Finite tests corroborate the symbolic proof. The earlier B2 resource contracts, scoped negatives and obstructions are unchanged; this review is not human peer review or formal verification.
 
+## B3-UNPADDED-QLT-R-ADJACENT-001
+
+**ACCEPT** for the exact zero-padding profile `[[q],[r],[t]]+[[]]*(K+1)` with integers `1<=q<r`, `1<=t<=q+1`, and `K>=1`. The independent prefix returns labels `[a,a+K-1]`, differences `1..K`, and adjacent port `s:3=a+K`, where `a=q+t+3`. The retained adjacent completion uses the original path, including its single edge for K=1. The proof applies R241 to the directly proved left component and the class-reversed L008 labeling. Separate AI mathematical and implementation reviews accepted the proof and implementation. The 12 original-target certificates and a separate arithmetic audit of those same 12 corroborate the proof. These reviews are at project AI review scope. See [proof](B3_UNPADDED_QLT_R_ADJACENT.md), [evidence](../evidence/validation/B3_UNPADDED_QLT_R_ADJACENT_001/README.md), and D024.
+
+The prior q>=r, K>=2 branch retains the nonadjacent port `a+K+1`. The q<r region with `t>=q+2` lies outside the adjacent construction, with gracefulness unresolved by this result. Padding, extra positive branches, further sections and arbitrary repetition are separate duties. No historical novelty is claimed.
+
 ## 10. Finite validation and current literature
 
 The authoritative executed results are in `evidence/validation/VALIDATION_REPORT.md` and its linked JSON records. Positive witnesses are bound to original graphs and requested restrictions. Count controls and the four B2 pairs have only their stated finite meaning. They do not prove a new supplier family.

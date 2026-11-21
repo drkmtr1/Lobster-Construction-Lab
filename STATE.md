@@ -2,7 +2,7 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 21, 2026, Pacific/Honolulu  
-**Stage:** B3-UNPADDED-QGE-R-001 accepted after separate AI reviews: an explicit R241/L008 corollary supplies the exact unpadded three-section family for integers q≥r≥1, t≥1, K≥2.
+**Stage:** B3-UNPADDED-QLT-R-ADJACENT-001 accepted after separate AI reviews on the original unpadded three-section family for integers 1≤q<r, 1≤t≤q+1, and K≥1.
 
 ## Current scientific objective
 
@@ -10,11 +10,12 @@ Develop independently supplied original-graph boundaries beyond the proved zero-
 
 ## One next action
 
-**With a new bounded scope decision, formulate a precise independently supplied boundary question for the same unpadded three-section family when `q<r`**, retaining original branch order, physical port, and both resource inventories. No successor task is started by this review.
+**With a new bounded scope decision, formulate an independent boundary supply question for the original unpadded three-section family with `q<r` and `t>=q+2`**, retaining original branch order, the physical port, and both resource inventories.
 
 ## What is established in this package
 
 - Both authenticated upstream main heads match the pinned audit commits. The repositories remain unchanged.
+- B3-UNPADDED-QLT-R-ADJACENT-001 supplies the original unpadded three-section prefix for integers `1<=q<r`, `1<=t<=q+1`, `K>=1`. With `a=q+t+3`, it leaves labels `[a,a+K-1]`, differences `1..K`, and adjacent port `s:3=a+K`. The adjacent consumer completes the original path, including K=1. The earlier q>=r, K>=2 result retains its own nonadjacent port `a+K+1`. The q<r region with `t>=q+2` remains unresolved by this proof. See `research/B3_UNPADDED_QLT_R_ADJACENT.md`, D024, and `evidence/validation/B3_UNPADDED_QLT_R_ADJACENT_001/`.
 - Caterpillar, L007, L010/H010 and constructive R226 are implemented with exact domains and independent checking.
 - Two L010 prefixes compose under the stated direct-leaf budgets; the reviewed padded construction returns a shifted interval.
 - For q=r=t>=1, no direct leaves, and any K>=1, the new explicit balanced formula supplies `R=[t+2,K+t+1]`, `D=1..K`, active `s:2=K+t+2`, then completes the original path. The full proof is `research/B2_BALANCED_SUPPLIER.md`. This is not a novelty or universal claim.

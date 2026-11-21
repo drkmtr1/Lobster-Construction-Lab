@@ -9,6 +9,7 @@ from __future__ import annotations
 from .consumers import _nonadjacent_path_labels, complete_nonadjacent_path
 from .model import (_integer, branched_prefix_profile, build_graph, graph_digest,
                     normalize_profile)
+from .states import interval_boundary
 from .verify import verify_certificate, verify_partial
 
 
@@ -446,6 +447,62 @@ def three_section_nonadjacent(q: int, r: int, t: int, K: int) -> dict:
         "derivation_status": "project corollary of retained R241 and L008 with an explicit left supplier",
         "source": "research/B3_UNPADDED_QGE_R.md",
         "consumer_source": "research/B2_NONADJACENT_CONSUMER.md"}, trace)
+    result["evidence_level"] = "project_derived_symbolic_family; independent checking required"
+    return result
+
+
+def three_section_qltr_adjacent(q: int, r: int, t: int, K: int) -> dict:
+    """Label the original unpadded B3 graph for 1 <= q < r, 1 <= t <= q+1."""
+    _integer(q, "q", 1)
+    _integer(r, "r", 1)
+    _integer(t, "t", 1)
+    _integer(K, "K", 1)
+    if q >= r or t > q + 1:
+        raise ValueError("adjacent three-section construction requires q < r and t <= q+1")
+
+    graph = build_graph([[q], [r], [t]] + [[] for _ in range(K + 1)])
+    a = q + t + 3
+    m = q + r + t + K + 6
+    port = a + K
+    prefix = {"s:0": t, "s:1": port + t + 2, "s:2": a - 1, "s:3": port,
+              "b:0:0": port + 2, "b:1:0": 0, "b:2:0": port + 1}
+    for j in range(q):
+        prefix[f"l:0:0:{j}"] = j + (1 if j < t - 1 else 2)
+    for j in range(r):
+        prefix[f"l:1:0:{j}"] = port + j + (3 if j < t - 1 else 4)
+    for j in range(t):
+        prefix[f"l:2:0:{j}"] = q + 2 + j
+
+    boundary = interval_boundary(graph, prefix, "s:3")
+    suffix = {f"s:{i}" for i in range(4, K + 4)}
+    path = {frozenset((f"s:{i}", f"s:{i + 1}")) for i in range(3, K + 3)}
+    incident = {frozenset(edge) for edge in graph["edges"] if suffix.intersection(edge)}
+    if (not boundary["valid"] or boundary["interval"] != [a, port - 1]
+            or boundary["active_label"] != port or boundary["remaining_edges"] != K
+            or set(graph["vertices"]) - set(prefix) != suffix or incident != path):
+        raise ArithmeticError("adjacent three-section prefix has a different original-path interface")
+
+    trace = [{"operation": "supplied_interval_interface", "stage": 3,
+              "active_vertex": "s:3", "active_label": port,
+              "unused_labels": boundary["unused_labels"],
+              "unused_differences": boundary["unused_differences"],
+              "prefix_labels": dict(prefix), "prefix_difference_interval": [K + 1, m]}]
+    labels = dict(prefix)
+    _consume_suffix(graph, 3, labels, a, port - 1, trace)
+    certificate = verify_certificate(graph, labels, graph_digest(graph))
+    if not certificate["valid"]:
+        raise ArithmeticError("adjacent three-section completion failed original-target verification: "
+                              + "; ".join(certificate["errors"]))
+    result = _result(graph, labels, "three_section_qltr_adjacent", {
+        "parameters": {"q": q, "r": r, "t": t, "K": K, "z0": 0, "z1": 0, "z2": 0},
+        "family": "three successive positive branches, no direct leaves, and a K-edge path suffix",
+        "independent_input_supply": True, "universal_lobster_claim": False,
+        "mathematical_novelty_claim": False, "arbitrary_branched_suffix": False,
+        "suffix_interface": {"unused_labels": [a, port - 1], "unused_differences": [1, K],
+                             "active_vertex": "s:3", "active_label": port,
+                             "side": "above", "notation": "inclusive intervals"},
+        "derivation_status": "R241 corollary with a direct left supplier and class-reversed L008",
+        "source": "research/B3_UNPADDED_QLT_R_ADJACENT.md"}, trace)
     result["evidence_level"] = "project_derived_symbolic_family; independent checking required"
     return result
 

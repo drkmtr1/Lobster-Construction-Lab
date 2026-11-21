@@ -1,0 +1,9 @@
+# B3-UNPADDED-QLT-R-ADJACENT-001 validation
+
+The original-target regression passed all 12 declared ordered tuples on CPython 3.13.17 for Windows 11 with optimization level 0. The configuration caps this run at one worker, 48 vertices per target, and 2,000,000 bytes per result. The regression saved each exact named graph and digest, parameters, prefix, original partial certificate, adjacent boundary, ordered suffix differences and verified full certificate.
+
+The separate arithmetic audit passed on those same 12 saved targets. It reconstructs the declared vertices and edges, computes the named leaf assignments and both inventories from the saved prefix, and checks the exact suffix assignments and differences. It invokes the existing verifier for certificate comparison and does not invoke the constructor. The finite checks corroborate the proof in `research/B3_UNPADDED_QLT_R_ADJACENT.md`.
+
+`commands.json` records the validation invocations, exit statuses and outputs. The six targeted test modules passed 33 test methods: four new adjacent B3, four retained nonadjacent B3, five B2 all-QR, four B2 K1, five nonadjacent consumer and 11 ingestion. The CLI run certified the declared tuple `(1,2,2,1)`, already among the 12 targets. The retained H010 demo also certified its original graph. The full suite includes solver searches and was outside scope.
+
+The 23-file raw source snapshot covers runtime modules, dependency declarations and focused test source. The regression and audit each record the runtime, script and configuration identities. The audit matches the recorded source hashes against both the live files and snapshot. CLI and demo outputs retain their own inventories and snapshots. `MANIFEST.json` hashes the evidence package's raw bytes except for itself. The local attributes preserve snapshot and result bytes through Git.
