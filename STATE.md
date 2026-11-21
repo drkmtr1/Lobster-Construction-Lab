@@ -1,8 +1,8 @@
 # Current project state
 
 **Project:** Lobster Construction Lab v0.1.0  
-**Updated:** November 20, 2026, Pacific/Honolulu  
-**Stage:** usable starter delivered; balanced-family supplier established within its stated domain; unequal-family seed question queued.
+**Updated:** November 21, 2026, Pacific/Honolulu  
+**Stage:** usable starter delivered; balanced-family supplier established within its stated domain; unequal-family seed template (pin `s:2=4`) disposed as an exhausted restricted negative; pin-sweep alternative queued.
 
 ## Current scientific objective
 
@@ -10,7 +10,7 @@ Supply a usable original-graph boundary for two unequal branched sections withou
 
 ## One next action
 
-**Carry out B2-UNEQUAL-SEED-001 exactly as specified in `research/NEXT_TASK.md`: review the conditional high-side shift argument, run the one declared bounded eight-vertex alpha/physical-port seed check, and preserve its scoped disposition.** The exact command and all inputs are already provided. This task has not been executed in release validation. Do not start a broader search automatically.
+**Carry out the queued pin sweep specified in `research/NEXT_TASK.md`: on the same named eight-vertex target with the same alpha domains and the same declared bounded protocol, test the remaining port pins `h(s:2) ∈ {5,6,7}`** — one specific alternative port rule per the exhausted-negative decision rule of B2-UNEQUAL-SEED-001. Cross-check any exhaustive negative with the direct permutation oracle before adopting it. Do not start a broader search automatically. The queued task begins only after the Codex acceptance review of the B2-UNEQUAL-SEED-001 checkpoint (handoff `OC-20261120-b2-unequal-seed`, PENDING_CODEX_REVIEW).
 
 ## What is established in this package
 
@@ -18,6 +18,7 @@ Supply a usable original-graph boundary for two unequal branched sections withou
 - Caterpillar, L007, L010/H010 and constructive R226 are implemented with exact domains and independent checking.
 - Two L010 prefixes compose under the stated direct-leaf budgets; the reviewed padded construction returns a shifted interval.
 - For q=r=t>=1, no direct leaves, and any K>=1, the new explicit balanced formula supplies `R=[t+2,K+t+1]`, `D=1..K`, active `s:2=K+t+2`, then completes the original path. The full proof is `research/B2_BALANCED_SUPPLIER.md`. This is not a novelty or universal claim.
+- B2-UNEQUAL-SEED-001 is disposed: the eight-vertex prefix `[[1],[2],[]]` with A-side `0..3` / B-side `4..7` bijective domains and pin `h(s:2)=4` has no graceful labeling (analytic obstruction confirmed; bounded DFS and direct permutation oracle both exhausted with 0 solutions; separate reviewer challenge with no unresolved objections). The all-K high-side shift is retained as a conditional identity only. Record: `research/B2_UNEQUAL_SEED.md`; failure entry F-UNEQUAL-SEED; decision D015.
 - DFS, full-resource DP, direct enumeration, optional Z3 and evidence/recovery controls passed the release's bounded checks. **110 test methods passed.** The final source identity and complete commands are in `evidence/validation/release_final/summary.json`.
 - Four diagnostic target/interface pairs on three named profiles completed: two checked witnesses and two restricted negatives. The q=r=1,ell=1 negative was independently cross-checked by direct enumeration. Results are in `evidence/validation/VALIDATION_REPORT.md`.
 - The current subcubic Lean source was inspected but not rebuilt. Its stated ordinary-gracefulness scope overlaps the small pilot profiles; prescribed return states remain additional conditions.

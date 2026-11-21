@@ -58,12 +58,20 @@ These are explicit formulas from the parameters. They use labels `0..t+1` and `K
 
 Two separate reasoning roles checked the symbolic label/edge partitions. `two_section_balanced(t,K)` implements the rule and `two_section_unit(K)` is its t=1 specialization. The full proof, exact domain and source-overlap caution are in [B2_BALANCED_SUPPLIER.md](B2_BALANCED_SUPPLIER.md). This supplies a genuine parameterized zero-padding interface, rather than only finite extraction. No historical novelty, formal proof-assistant check or universal lobster result is claimed. The next selected question is the unequal pair (1,2), specified in `NEXT_TASK.md`.
 
-## 5. Finite validation and current literature
+## 5. B2-UNEQUAL-SEED-001: exhausted restricted negative
+
+**Disposition: recorded exhausted restricted negative (PENDING_CODEX_REVIEW until the Codex acceptance review).** The named eight-vertex prefix `[[1],[2],[]]` (the seven actual edges listed in [B2_UNEQUAL_SEED.md](B2_UNEQUAL_SEED.md) section 1), subject to exactly the declared restrictions — A-side `s:1,b:0:0,l:1:0:0,l:1:0:1` bijectively labeled `0..3`, B-side `s:0,b:1:0,l:0:0:0,s:2` bijectively labeled `4..7`, physical port pin `h(s:2)=4`, and no further root pin, complement quotient, symmetry assumption or automorphism quotient — **has no graceful labeling**.
+
+The proposed analytic obstruction is correct in every step: difference 1 forces `h(s:1)=3`; the sum identity `a+2b−x=18` admits only `(a,b,x) ∈ {(5,7,1),(6,7,2),(7,6,1)}`; in all six resulting assignments difference 4 is duplicated on at least two actual original edges (three times in the third triple). The declared bounded DFS (65 nodes of the 10,000 cap) and the independent direct permutation oracle (5,040/5,040 permutations, 144 domain-admissible, 0 graceful) both exhausted the declared scope with 0 solutions on the same original graph digest. A separate reviewer subagent challenge confirmed every step; two minor reporting omissions in the record's step 5 were corrected (both strengthen the obstruction).
+
+Scope: this falsifies exactly this alpha/physical-port template. It is not a nongracefulness certificate for the unrestricted eight-vertex tree, for any other restriction set, or for the unequal B2 family at any K. The all-K high-side-shift transport is retained as a conditional identity only (its antecedent is false) and discharges no P07 obligation. Failure-ledger entry: F-UNEQUAL-SEED; decision: D015; full record: [B2_UNEQUAL_SEED.md](B2_UNEQUAL_SEED.md).
+
+## 6. Finite validation and current literature
 
 The authoritative executed results are in `evidence/validation/VALIDATION_REPORT.md` and its linked JSON records. Positive witnesses are bound to original graphs and requested restrictions. Count controls and the four B2 pairs have only their stated finite meaning. They do not prove a new supplier family.
 
 The [current literature note](../docs/LITERATURE_UPDATE.md) records the author-posted subcubic Lean archive, almost-graceful asymptotics and graceful supertree construction with their exact inspection limits. All three small pilot profiles fall within the subcubic archive's stated ordinary-gracefulness scope; the prescribed interval/port condition is an additional question. The source was inspected, not locally rebuilt in Lean. No exhaustive worldwide novelty or status audit is claimed.
 
-## 6. Promotion criteria
+## 7. Promotion criteria
 
 New findings must name their quantifiers/domain, independent inputs, unchanged original topology, returned physical interface, proof/verification evidence, applicable sources and remaining dependencies. Universal coverage requires a coverage and termination argument, not a large finite record. Keep unproved candidate statements in proof obligations and preserve failed attempts in the failure ledger.
