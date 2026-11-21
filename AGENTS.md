@@ -43,3 +43,10 @@ At handoff update `STATE.md` with the current objective, disposition, relevant e
 ## Practical delivery
 
 Explain why each consequential choice helps the mathematics. Lead reports with the outcome and its scope; give source/evidence references, limitations and one useful next action. Preserve the user's Windows launchers and standard-library path. Do not change permission policy or require PowerShell execution-policy changes to run this project.
+
+## Codex/OpenChamber shared-folder handoff (v0.1.1 overlay)
+
+When working in OpenChamber, also read `docs/OPENCHAMBER_HANDOFF.md` and use the project-local `.opencode/skills/lcl-bounded-research` and `lcl-handoff` skills as applicable. Before changing code, record the exact last accepted Git baseline, original named target and finite task limits. Stop after one declared bounded task. Write a scoped handoff under `handoffs/`, preserve reviewable evidence in tracked files, and mark consequential additions `PENDING_CODEX_REVIEW`. A local commit preserves work but does not constitute mathematical acceptance. Do not start a new Session Goal or successor task without a new scope decision.
+
+When returning to Codex, first follow `docs/CODEX_RETURN_PROMPT.md`. Compare all committed and uncommitted changes against the last accepted checkpoint, inspect original arguments and independent verification, and explicitly ACCEPT/REVISE/REJECT consequential changes before starting new research. Never let Codex and OpenChamber write the same working tree simultaneously. This is an additional handoff rule, not a change to mathematical definitions or authorization boundaries.
+
