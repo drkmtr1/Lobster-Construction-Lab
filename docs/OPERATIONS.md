@@ -74,16 +74,6 @@ Every positive engine/constructor result passes the independent checker against 
 
 Run the smallest checks addressing the changed risk. Constructor changes need exact domain boundaries and adverse labels/topology checks. Pruning or DP compression changes need independent exhaustive comparisons on small named graphs and a proof of preserved completions. Verifier changes need separate review and intentional false-certificate rejection. Avoid rerunning broad campaigns merely because files were edited.
 
-## Handoff and optional private Git setup
+## Handoff and Git synchronization
 
-Update the authoritative `STATE.md` and the relevant findings/failures/obligations. Generate a fresh context file with `python -m lcl context --out <new-file.md>`. Include run IDs, exact source/config identities, unresolved questions and one next action. Uploaded ChatGPT files are snapshots; replace stale context deliberately after substantive changes.
-
-For a later local history, from this folder:
-
-```text
-git init
-git add .
-git commit -m "Initialize Lobster Construction Lab from pinned MDL evidence"
-```
-
-This does not create a remote fork. Before any remote publication, review `UPSTREAM_NOTICE.md`, choose visibility/license deliberately and obtain the user's authorization. If the user authorizes a private remote later, create it empty, add its supplied URL with `git remote add origin <private-url>`, and push the reviewed local branch. No remote action is part of this release.
+Update `STATE.md` and applicable research records; use the standardized handoff and closeout procedure in [REPOSITORY_CONTINUITY.md](REPOSITORY_CONTINUITY.md). Synchronize every completed run, including its reproducibility evidence, to the authorized LCL GitHub repository. Record blocked or partial synchronization honestly. Do not modify historical attempts or upstream repositories.

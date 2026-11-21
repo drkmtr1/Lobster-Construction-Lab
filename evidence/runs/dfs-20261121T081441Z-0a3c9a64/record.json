@@ -1,0 +1,342 @@
+{
+  "certificate": null,
+  "classification": "EXHAUSTED_NO_SOLUTION",
+  "config": {
+    "count_requested": false,
+    "domains": {
+      "b:0:0": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "b:1:0": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "l:0:0:0": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "l:1:0:0": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "l:1:0:1": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "s:0": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "s:1": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "s:2": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "engine": "dfs",
+    "limits": {
+      "max_nodes": 10000,
+      "max_states": 2000,
+      "max_vertices": 8,
+      "time_limit": 2.0
+    },
+    "pins": {
+      "s:2": 4
+    }
+  },
+  "config_sha256": "949e505923d13323e3cb76628773bdee09ed9fee600a49ed88adbb3c7611bdb6",
+  "consistency_errors": [],
+  "created_utc": "2026-11-21T08:14:41.751923+00:00",
+  "environment": {
+    "implementation": "CPython",
+    "machine": "AMD64",
+    "optional_dependencies": {
+      "mpmath": null,
+      "networkx": null,
+      "sympy": null,
+      "z3-solver": null
+    },
+    "package_version": "0.1.0",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.13.17"
+  },
+  "expected_restrictions": {
+    "domains": {
+      "b:0:0": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "b:1:0": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "l:0:0:0": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "l:1:0:0": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "l:1:0:1": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "s:0": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "s:1": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "s:2": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "pins": {
+      "s:2": 4
+    }
+  },
+  "original_graph": {
+    "edges": [
+      [
+        "s:0",
+        "s:1"
+      ],
+      [
+        "s:1",
+        "s:2"
+      ],
+      [
+        "s:0",
+        "b:0:0"
+      ],
+      [
+        "b:0:0",
+        "l:0:0:0"
+      ],
+      [
+        "s:1",
+        "b:1:0"
+      ],
+      [
+        "b:1:0",
+        "l:1:0:0"
+      ],
+      [
+        "b:1:0",
+        "l:1:0:1"
+      ]
+    ],
+    "profile": [
+      [
+        1
+      ],
+      [
+        2
+      ],
+      []
+    ],
+    "roles": {
+      "b:0:0": {
+        "branch": 0,
+        "kind": "branch",
+        "section": 0
+      },
+      "b:1:0": {
+        "branch": 0,
+        "kind": "branch",
+        "section": 1
+      },
+      "l:0:0:0": {
+        "branch": 0,
+        "kind": "leaf",
+        "leaf": 0,
+        "section": 0
+      },
+      "l:1:0:0": {
+        "branch": 0,
+        "kind": "leaf",
+        "leaf": 0,
+        "section": 1
+      },
+      "l:1:0:1": {
+        "branch": 0,
+        "kind": "leaf",
+        "leaf": 1,
+        "section": 1
+      },
+      "s:0": {
+        "kind": "spine",
+        "section": 0
+      },
+      "s:1": {
+        "kind": "spine",
+        "section": 1
+      },
+      "s:2": {
+        "kind": "spine",
+        "section": 2
+      }
+    },
+    "schema_version": 1,
+    "spine": [
+      "s:0",
+      "s:1",
+      "s:2"
+    ],
+    "vertices": [
+      "s:0",
+      "b:0:0",
+      "l:0:0:0",
+      "s:1",
+      "b:1:0",
+      "l:1:0:0",
+      "l:1:0:1",
+      "s:2"
+    ]
+  },
+  "original_graph_digest": "9198e106ce33d9b83b8044e385b1599cfe26cd1fe471f4eec841a461868756b2",
+  "record_sha256": "f03d968e014e17d37382ef60a1836177497e388b86d779501fbe6b9dc0071f05",
+  "result": {
+    "count": 0,
+    "count_lower_bound": 0,
+    "elapsed_seconds": 0.0002966000174637884,
+    "exhausted": true,
+    "limits": {
+      "max_nodes": 10000,
+      "max_states": 2000,
+      "max_vertices": 8,
+      "time_limit": 2.0
+    },
+    "method": "dfs",
+    "negative_evidence": "implementation exhaustion on declared scope; no formal negative certificate",
+    "nodes": 65,
+    "restrictions": {
+      "count_convention": "bijections on named physical vertices; no symmetry quotient",
+      "domains": {
+        "b:0:0": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "b:1:0": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "l:0:0:0": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "l:1:0:0": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "l:1:0:1": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "s:0": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "s:1": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "s:2": [
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "hidden_symmetry_reduction": false,
+      "pins": {
+        "s:2": 4
+      },
+      "scope": "restricted"
+    },
+    "status": "EXHAUSTED_NO_SOLUTION",
+    "witness": null
+  },
+  "schema_version": 1,
+  "source": {
+    "files": {
+      "lcl/__init__.py": "134055506d3e9cd4fa538177844d28a44d5ab567ec220cf54048e63d1a8a7374",
+      "lcl/__main__.py": "30782be9a5f5e6bc8b28d2ba189b3dfbf36f24571321d404bec50bd8175f1014",
+      "lcl/allocation.py": "0aab778a6665712d3cd1e35554657cc212fa840d3ce28d32ba79c18f2dcce2b9",
+      "lcl/budget.py": "02145a6b4bc10eda53d2f3736fdf082c1414f96905c71e74a407c0cefd73b16a",
+      "lcl/constructors.py": "69e946c1be03d83e3cf33e678c1c1ab0e59e5a44abadf89af44e6d2431db3b93",
+      "lcl/dp.py": "1aa3d2ed888c26b8e5fd65bd74069eb654c60dd336eef5fb33e8fdb7659a14f9",
+      "lcl/engines.py": "8a67ba56d97676b613f9fa89e18e30d8642d74d5c6ada7ec55f97733b0dc7207",
+      "lcl/experiments.py": "0d0f08632397082a2580e250aa7a2a53c5df61aba770e4d2ae0d701b1fe2f714",
+      "lcl/ingest.py": "037eebd5e36c7a07c4a963df045ab7870eaee7261c208694d46da09014dbe794",
+      "lcl/model.py": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6",
+      "lcl/oracle.py": "6d70eca24f9b0c254073ec8d1ffcc769d9beca42ad43b6cf272659aecf58146d",
+      "lcl/records.py": "ba7299dac2b3f2c1907c3cce40e0ba20c603b19fc8dcee2f9b2b0760b925391e",
+      "lcl/search.py": "f8291a3446e04422095131e4d75100ec9bfd3213d039d17ce83c04ec82d671ff",
+      "lcl/states.py": "386a7666da91466d35d17b634ad2e5a69e67581f553e86e9d4e75389dc781e1c",
+      "lcl/verify.py": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909",
+      "pyproject.toml": "738f14eba3125ce7f444628adaddaf2e3e30e5aa7f43f10e7035067f6b7072e5",
+      "requirements-graph.txt": "63b83d49071ae093c187423c768c6711a3716cda354d3a24e2bb10b0f536d34c",
+      "requirements-optional.txt": "5bab117f06ee96a8fa7529e4e08f5125087e6ca42bb5ffee3edfdc6913da9e3b",
+      "requirements-smt.txt": "4bb07f85bfdeaabba65e8deb117ecc222d748651ed5526284666f4bb3e6450bd",
+      "requirements-symbolic.txt": "47fd19021144e071cc43b6e265aafada0056abe89724ad95bd6e3a8e37995b94",
+      "requirements.txt": "60f6e1bd76adf6ed25cf381ca95f67e8a27a0de1e62fb673a7cf5af4b86249ea"
+    },
+    "sha256": "2dfe3231007a18f4a74e4c4b49fd4a112ebbb66ef439e711ff59ac11fde7bbfd"
+  },
+  "universal_claim": false
+}

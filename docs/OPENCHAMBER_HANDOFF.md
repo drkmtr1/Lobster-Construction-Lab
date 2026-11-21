@@ -12,7 +12,7 @@ This protocol applies to every OpenChamber task that changes LCL mathematics, co
 2. Read `AGENTS.md`, `STATE.md`, the exact next task, and relevant primary sources/proofs.
 3. Capture `git status --short`, `git rev-parse HEAD`, last reviewed commit or baseline tag, and any existing uncommitted work. Do not hide pre-existing changes or blend unrelated edits into a review request.
 4. Declare: exact hypothesis, input domain/restrictions, target physical topology, proof obligation, case/compute budgets, output and stop criteria.
-5. Use a separate local branch/worktree for risky exploratory algorithms when justified. Never change upstream repositories or push without explicit authorization.
+5. Use a separate local branch/worktree for risky exploratory algorithms when justified. Never change upstream repositories; Git and GitHub actions for this project are authorized under `docs/REPOSITORY_CONTINUITY.md`.
 
 ## During the bounded task
 
@@ -28,7 +28,7 @@ This protocol applies to every OpenChamber task that changes LCL mathematics, co
 3. Write `handoffs/OC-YYYYMMDD-short-id.md` using `handoffs/HANDOFF_TEMPLATE.md`, filling in actual result and commands. Do not invent PASS status when a tool/test is unavailable.
 4. Mark consequential new results as **`PENDING_CODEX_REVIEW`**. Provisional findings can be recorded with explicit evidence level, but do not present an AI review as a formal proof or historical novelty.
 5. Update existing authoritative state and scientific records as appropriate, leaving exactly one next action. If no mathematical progress, state that precisely.
-6. Preserve a local checkpoint commit on the current work branch **after reviewing staged files**; commits do not mean mathematical acceptance. No remote push or approval tag. Record the commit hash in the handoff.
+6. Preserve a local checkpoint commit on the current work branch **after reviewing staged files**; commits do not mean mathematical acceptance. Synchronize the reviewed checkpoint under `docs/REPOSITORY_CONTINUITY.md`; do not apply an acceptance tag. Record the checkpoint SHA in a subsequent receipt or resolve it from Git as described there.
 7. Stop. Do not launch a successor task, continuing Session Goal, scheduled run or unlimited exploration.
 
 ## When Codex returns

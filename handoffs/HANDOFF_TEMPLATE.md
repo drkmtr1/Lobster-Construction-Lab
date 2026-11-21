@@ -4,7 +4,7 @@
 **Task ID:**  
 **Local working tree / branch:**  
 **Last accepted base commit or tag:**  
-**OpenChamber checkpoint commit:**  
+**OpenChamber checkpoint commit (resolve from Git after commit; see continuity protocol):**
 **OpenChamber session/model (if known):**  
 **Completion date and time zone:**
 
@@ -43,4 +43,4 @@
 - Proposed review disposition (Codex decides): PENDING_CODEX_REVIEW
 - Exactly one next action:
 
-No remotely pushed work, paid usage, system security changes or indefinite research are authorized by this template.
+GitHub synchronization is authorized by `AGENTS.md` and follows `docs/REPOSITORY_CONTINUITY.md`. Paid usage, system security changes and indefinite research require separate authorization.

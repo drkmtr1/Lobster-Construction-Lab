@@ -60,4 +60,4 @@ The four-pair diagnostic in `configs/b2_pilot.json` is intentionally small. Its 
 | Executed validation and limitations | `evidence/validation/VALIDATION_REPORT.md` |
 | ChatGPT Project instructions/context/kickoff | `chatgpt_project/` |
 
-Run `python -m lcl --help` for the command list. The software does not schedule itself or run an indefinite campaign. A new ChatGPT Project must be created manually from the supplied pack; no remote GitHub fork was created.
+Run `python -m lcl --help` for the command list. The software does not schedule itself or run an indefinite campaign. A new ChatGPT Project must be created manually from the supplied pack; GitHub synchronization and cross-agent handoff are described in `docs/REPOSITORY_CONTINUITY.md`.

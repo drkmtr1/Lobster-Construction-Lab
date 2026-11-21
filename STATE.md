@@ -10,7 +10,7 @@ Supply a usable original-graph boundary for two unequal branched sections withou
 
 ## One next action
 
-**Carry out the independent Codex acceptance review of the provisional integration checkpoint** (handoff `OC-20261121-b2-review-integration`, PROVISIONAL_INTEGRATION_PENDING_CODEX_REVIEW) per `docs/CODEX_RETURN_PROMPT.md`: compare all committed and uncommitted changes since the last accepted baseline (including the still-unaccepted overlay `6d0f8d2` and the B2-UNEQUAL-SEED-001 checkpoint `0f0a39c`), and adjudicate each consequential claim — the p=4 restricted negative, the conditional transport, the evidence custody, and the newly adopted K≥6 interface obstruction — as ACCEPT / REVISE / REJECT before any promotion. The superseded pin sweep is **not** executed, and no new search, successor task, push, or installation starts before that decision.
+**Carry out the independent Codex acceptance review of the provisional integration checkpoint** (handoff `OC-20261121-b2-review-integration`, PROVISIONAL_INTEGRATION_PENDING_CODEX_REVIEW) per `docs/CODEX_RETURN_PROMPT.md`: compare all committed and uncommitted changes since the last accepted baseline (including the still-unaccepted overlay `6d0f8d2` and the B2-UNEQUAL-SEED-001 checkpoint `0f0a39c`), and adjudicate each consequential claim — the p=4 restricted negative, the conditional transport, the evidence custody, and the newly adopted K≥6 interface obstruction — as ACCEPT / REVISE / REJECT before any promotion. The superseded pin sweep is **not** executed, and no new search, successor research task, or installation starts before that decision. Authorized continuity maintenance and synchronization do not constitute acceptance.
 
 ## What is established in this package
 
@@ -36,4 +36,4 @@ Research scope/milestones: `docs/RESEARCH_PLAN.md`. Accepted findings: `research
 
 ## Execution limits and delivery boundary
 
-Release execution was Linux x86_64, CPython3.12.14. Windows11 and Python3.13 setup paths were documented, not executed. The package has no remote GitHub repository, background campaign, model service or native ChatGPT Project object. Use the manual pack in `chatgpt_project/`; its project instructions occupy 6,454 Unicode characters within an 8,000-character design budget.
+Release execution was Linux x86_64, CPython3.12.14. Windows11 and Python3.13 setup paths were documented, not executed. The designated GitHub synchronization target is `drkmtr1/Lobster-Construction-Lab`; verify actual remote status instead of assuming synchronization. The package has no background campaign, model service or native ChatGPT Project object. Use the manual pack in `chatgpt_project/`; its project instructions occupy 6,454 Unicode characters within an 8,000-character design budget.

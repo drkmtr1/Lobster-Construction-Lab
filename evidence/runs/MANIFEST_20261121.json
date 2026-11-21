@@ -1,0 +1,695 @@
+{
+  "description": "Byte-verified copies of existing completed local run artifacts; original run records retain their own status and scope.",
+  "files": [
+    {
+      "path": "evidence/runs/demo-20261121T062607Z-1ed84aae/config.json",
+      "sha256": "d9cb30adb8eddd23935d5dbb11408654f38de64090cc7e9aa8742d3f90da9a83",
+      "size": 280
+    },
+    {
+      "path": "evidence/runs/demo-20261121T062607Z-1ed84aae/record.json",
+      "sha256": "b889ace63c9be5032e1dd4e6e4fde1ee3f37f78af8a8bcaa982211bf5f03f0ca",
+      "size": 11391
+    },
+    {
+      "path": "evidence/runs/demo-20261121T062607Z-1ed84aae/source/lcl/__init__.py",
+      "sha256": "134055506d3e9cd4fa538177844d28a44d5ab567ec220cf54048e63d1a8a7374",
+      "size": 80
+    },
+    {
+      "path": "evidence/runs/demo-20261121T062607Z-1ed84aae/source/lcl/__main__.py",
+      "sha256": "30782be9a5f5e6bc8b28d2ba189b3dfbf36f24571321d404bec50bd8175f1014",
+      "size": 9654
+    },
+    {
+      "path": "evidence/runs/demo-20261121T062607Z-1ed84aae/source/lcl/allocation.py",
+      "sha256": "0aab778a6665712d3cd1e35554657cc212fa840d3ce28d32ba79c18f2dcce2b9",
+      "size": 12851
+    },
+    {
+      "path": "evidence/runs/demo-20261121T062607Z-1ed84aae/source/lcl/budget.py",
+      "sha256": "02145a6b4bc10eda53d2f3736fdf082c1414f96905c71e74a407c0cefd73b16a",
+      "size": 1884
+    },
+    {
+      "path": "evidence/runs/demo-20261121T062607Z-1ed84aae/source/lcl/constructors.py",
+      "sha256": "69e946c1be03d83e3cf33e678c1c1ab0e59e5a44abadf89af44e6d2431db3b93",
+      "size": 15701
+    },
+    {
+      "path": "evidence/runs/demo-20261121T062607Z-1ed84aae/source/lcl/dp.py",
+      "sha256": "1aa3d2ed888c26b8e5fd65bd74069eb654c60dd336eef5fb33e8fdb7659a14f9",
+      "size": 4688
+    },
+    {
+      "path": "evidence/runs/demo-20261121T062607Z-1ed84aae/source/lcl/engines.py",
+      "sha256": "8a67ba56d97676b613f9fa89e18e30d8642d74d5c6ada7ec55f97733b0dc7207",
+      "size": 5322
+    },
+    {
+      "path": "evidence/runs/demo-20261121T062607Z-1ed84aae/source/lcl/experiments.py",
+      "sha256": "0d0f08632397082a2580e250aa7a2a53c5df61aba770e4d2ae0d701b1fe2f714",
+      "size": 11430
+    },
+    {
+      "path": "evidence/runs/demo-20261121T062607Z-1ed84aae/source/lcl/ingest.py",
+      "sha256": "037eebd5e36c7a07c4a963df045ab7870eaee7261c208694d46da09014dbe794",
+      "size": 10646
+    },
+    {
+      "path": "evidence/runs/demo-20261121T062607Z-1ed84aae/source/lcl/model.py",
+      "sha256": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6",
+      "size": 10720
+    },
+    {
+      "path": "evidence/runs/demo-20261121T062607Z-1ed84aae/source/lcl/oracle.py",
+      "sha256": "6d70eca24f9b0c254073ec8d1ffcc769d9beca42ad43b6cf272659aecf58146d",
+      "size": 6603
+    },
+    {
+      "path": "evidence/runs/demo-20261121T062607Z-1ed84aae/source/lcl/records.py",
+      "sha256": "ba7299dac2b3f2c1907c3cce40e0ba20c603b19fc8dcee2f9b2b0760b925391e",
+      "size": 8291
+    },
+    {
+      "path": "evidence/runs/demo-20261121T062607Z-1ed84aae/source/lcl/search.py",
+      "sha256": "f8291a3446e04422095131e4d75100ec9bfd3213d039d17ce83c04ec82d671ff",
+      "size": 5318
+    },
+    {
+      "path": "evidence/runs/demo-20261121T062607Z-1ed84aae/source/lcl/states.py",
+      "sha256": "386a7666da91466d35d17b634ad2e5a69e67581f553e86e9d4e75389dc781e1c",
+      "size": 4812
+    },
+    {
+      "path": "evidence/runs/demo-20261121T062607Z-1ed84aae/source/lcl/verify.py",
+      "sha256": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909",
+      "size": 14075
+    },
+    {
+      "path": "evidence/runs/demo-20261121T062607Z-1ed84aae/source/pyproject.toml",
+      "sha256": "738f14eba3125ce7f444628adaddaf2e3e30e5aa7f43f10e7035067f6b7072e5",
+      "size": 474
+    },
+    {
+      "path": "evidence/runs/demo-20261121T062607Z-1ed84aae/source/requirements-graph.txt",
+      "sha256": "63b83d49071ae093c187423c768c6711a3716cda354d3a24e2bb10b0f536d34c",
+      "size": 14
+    },
+    {
+      "path": "evidence/runs/demo-20261121T062607Z-1ed84aae/source/requirements-optional.txt",
+      "sha256": "5bab117f06ee96a8fa7529e4e08f5125087e6ca42bb5ffee3edfdc6913da9e3b",
+      "size": 79
+    },
+    {
+      "path": "evidence/runs/demo-20261121T062607Z-1ed84aae/source/requirements-smt.txt",
+      "sha256": "4bb07f85bfdeaabba65e8deb117ecc222d748651ed5526284666f4bb3e6450bd",
+      "size": 19
+    },
+    {
+      "path": "evidence/runs/demo-20261121T062607Z-1ed84aae/source/requirements-symbolic.txt",
+      "sha256": "47fd19021144e071cc43b6e265aafada0056abe89724ad95bd6e3a8e37995b94",
+      "size": 28
+    },
+    {
+      "path": "evidence/runs/demo-20261121T062607Z-1ed84aae/source/requirements.txt",
+      "sha256": "60f6e1bd76adf6ed25cf381ca95f67e8a27a0de1e62fb673a7cf5af4b86249ea",
+      "size": 144
+    },
+    {
+      "path": "evidence/runs/demo-20261121T080206Z-c0688252/config.json",
+      "sha256": "d9cb30adb8eddd23935d5dbb11408654f38de64090cc7e9aa8742d3f90da9a83",
+      "size": 280
+    },
+    {
+      "path": "evidence/runs/demo-20261121T080206Z-c0688252/record.json",
+      "sha256": "359e7de7d0bcaf1cb33738103b53157a7b27336795c48ad49813186e2363c3cf",
+      "size": 11391
+    },
+    {
+      "path": "evidence/runs/demo-20261121T080206Z-c0688252/source/lcl/__init__.py",
+      "sha256": "134055506d3e9cd4fa538177844d28a44d5ab567ec220cf54048e63d1a8a7374",
+      "size": 80
+    },
+    {
+      "path": "evidence/runs/demo-20261121T080206Z-c0688252/source/lcl/__main__.py",
+      "sha256": "30782be9a5f5e6bc8b28d2ba189b3dfbf36f24571321d404bec50bd8175f1014",
+      "size": 9654
+    },
+    {
+      "path": "evidence/runs/demo-20261121T080206Z-c0688252/source/lcl/allocation.py",
+      "sha256": "0aab778a6665712d3cd1e35554657cc212fa840d3ce28d32ba79c18f2dcce2b9",
+      "size": 12851
+    },
+    {
+      "path": "evidence/runs/demo-20261121T080206Z-c0688252/source/lcl/budget.py",
+      "sha256": "02145a6b4bc10eda53d2f3736fdf082c1414f96905c71e74a407c0cefd73b16a",
+      "size": 1884
+    },
+    {
+      "path": "evidence/runs/demo-20261121T080206Z-c0688252/source/lcl/constructors.py",
+      "sha256": "69e946c1be03d83e3cf33e678c1c1ab0e59e5a44abadf89af44e6d2431db3b93",
+      "size": 15701
+    },
+    {
+      "path": "evidence/runs/demo-20261121T080206Z-c0688252/source/lcl/dp.py",
+      "sha256": "1aa3d2ed888c26b8e5fd65bd74069eb654c60dd336eef5fb33e8fdb7659a14f9",
+      "size": 4688
+    },
+    {
+      "path": "evidence/runs/demo-20261121T080206Z-c0688252/source/lcl/engines.py",
+      "sha256": "8a67ba56d97676b613f9fa89e18e30d8642d74d5c6ada7ec55f97733b0dc7207",
+      "size": 5322
+    },
+    {
+      "path": "evidence/runs/demo-20261121T080206Z-c0688252/source/lcl/experiments.py",
+      "sha256": "0d0f08632397082a2580e250aa7a2a53c5df61aba770e4d2ae0d701b1fe2f714",
+      "size": 11430
+    },
+    {
+      "path": "evidence/runs/demo-20261121T080206Z-c0688252/source/lcl/ingest.py",
+      "sha256": "037eebd5e36c7a07c4a963df045ab7870eaee7261c208694d46da09014dbe794",
+      "size": 10646
+    },
+    {
+      "path": "evidence/runs/demo-20261121T080206Z-c0688252/source/lcl/model.py",
+      "sha256": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6",
+      "size": 10720
+    },
+    {
+      "path": "evidence/runs/demo-20261121T080206Z-c0688252/source/lcl/oracle.py",
+      "sha256": "6d70eca24f9b0c254073ec8d1ffcc769d9beca42ad43b6cf272659aecf58146d",
+      "size": 6603
+    },
+    {
+      "path": "evidence/runs/demo-20261121T080206Z-c0688252/source/lcl/records.py",
+      "sha256": "ba7299dac2b3f2c1907c3cce40e0ba20c603b19fc8dcee2f9b2b0760b925391e",
+      "size": 8291
+    },
+    {
+      "path": "evidence/runs/demo-20261121T080206Z-c0688252/source/lcl/search.py",
+      "sha256": "f8291a3446e04422095131e4d75100ec9bfd3213d039d17ce83c04ec82d671ff",
+      "size": 5318
+    },
+    {
+      "path": "evidence/runs/demo-20261121T080206Z-c0688252/source/lcl/states.py",
+      "sha256": "386a7666da91466d35d17b634ad2e5a69e67581f553e86e9d4e75389dc781e1c",
+      "size": 4812
+    },
+    {
+      "path": "evidence/runs/demo-20261121T080206Z-c0688252/source/lcl/verify.py",
+      "sha256": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909",
+      "size": 14075
+    },
+    {
+      "path": "evidence/runs/demo-20261121T080206Z-c0688252/source/pyproject.toml",
+      "sha256": "738f14eba3125ce7f444628adaddaf2e3e30e5aa7f43f10e7035067f6b7072e5",
+      "size": 474
+    },
+    {
+      "path": "evidence/runs/demo-20261121T080206Z-c0688252/source/requirements-graph.txt",
+      "sha256": "63b83d49071ae093c187423c768c6711a3716cda354d3a24e2bb10b0f536d34c",
+      "size": 14
+    },
+    {
+      "path": "evidence/runs/demo-20261121T080206Z-c0688252/source/requirements-optional.txt",
+      "sha256": "5bab117f06ee96a8fa7529e4e08f5125087e6ca42bb5ffee3edfdc6913da9e3b",
+      "size": 79
+    },
+    {
+      "path": "evidence/runs/demo-20261121T080206Z-c0688252/source/requirements-smt.txt",
+      "sha256": "4bb07f85bfdeaabba65e8deb117ecc222d748651ed5526284666f4bb3e6450bd",
+      "size": 19
+    },
+    {
+      "path": "evidence/runs/demo-20261121T080206Z-c0688252/source/requirements-symbolic.txt",
+      "sha256": "47fd19021144e071cc43b6e265aafada0056abe89724ad95bd6e3a8e37995b94",
+      "size": 28
+    },
+    {
+      "path": "evidence/runs/demo-20261121T080206Z-c0688252/source/requirements.txt",
+      "sha256": "60f6e1bd76adf6ed25cf381ca95f67e8a27a0de1e62fb673a7cf5af4b86249ea",
+      "size": 144
+    },
+    {
+      "path": "evidence/runs/demo-20261121T210242Z-9e141554/config.json",
+      "sha256": "d9cb30adb8eddd23935d5dbb11408654f38de64090cc7e9aa8742d3f90da9a83",
+      "size": 280
+    },
+    {
+      "path": "evidence/runs/demo-20261121T210242Z-9e141554/record.json",
+      "sha256": "2778d378b8aa10a32ab795f3b0bba9abae6690c44b63a81d7df56c4b2a9bf457",
+      "size": 11391
+    },
+    {
+      "path": "evidence/runs/demo-20261121T210242Z-9e141554/source/lcl/__init__.py",
+      "sha256": "134055506d3e9cd4fa538177844d28a44d5ab567ec220cf54048e63d1a8a7374",
+      "size": 80
+    },
+    {
+      "path": "evidence/runs/demo-20261121T210242Z-9e141554/source/lcl/__main__.py",
+      "sha256": "30782be9a5f5e6bc8b28d2ba189b3dfbf36f24571321d404bec50bd8175f1014",
+      "size": 9654
+    },
+    {
+      "path": "evidence/runs/demo-20261121T210242Z-9e141554/source/lcl/allocation.py",
+      "sha256": "0aab778a6665712d3cd1e35554657cc212fa840d3ce28d32ba79c18f2dcce2b9",
+      "size": 12851
+    },
+    {
+      "path": "evidence/runs/demo-20261121T210242Z-9e141554/source/lcl/budget.py",
+      "sha256": "02145a6b4bc10eda53d2f3736fdf082c1414f96905c71e74a407c0cefd73b16a",
+      "size": 1884
+    },
+    {
+      "path": "evidence/runs/demo-20261121T210242Z-9e141554/source/lcl/constructors.py",
+      "sha256": "69e946c1be03d83e3cf33e678c1c1ab0e59e5a44abadf89af44e6d2431db3b93",
+      "size": 15701
+    },
+    {
+      "path": "evidence/runs/demo-20261121T210242Z-9e141554/source/lcl/dp.py",
+      "sha256": "1aa3d2ed888c26b8e5fd65bd74069eb654c60dd336eef5fb33e8fdb7659a14f9",
+      "size": 4688
+    },
+    {
+      "path": "evidence/runs/demo-20261121T210242Z-9e141554/source/lcl/engines.py",
+      "sha256": "8a67ba56d97676b613f9fa89e18e30d8642d74d5c6ada7ec55f97733b0dc7207",
+      "size": 5322
+    },
+    {
+      "path": "evidence/runs/demo-20261121T210242Z-9e141554/source/lcl/experiments.py",
+      "sha256": "0d0f08632397082a2580e250aa7a2a53c5df61aba770e4d2ae0d701b1fe2f714",
+      "size": 11430
+    },
+    {
+      "path": "evidence/runs/demo-20261121T210242Z-9e141554/source/lcl/ingest.py",
+      "sha256": "037eebd5e36c7a07c4a963df045ab7870eaee7261c208694d46da09014dbe794",
+      "size": 10646
+    },
+    {
+      "path": "evidence/runs/demo-20261121T210242Z-9e141554/source/lcl/model.py",
+      "sha256": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6",
+      "size": 10720
+    },
+    {
+      "path": "evidence/runs/demo-20261121T210242Z-9e141554/source/lcl/oracle.py",
+      "sha256": "6d70eca24f9b0c254073ec8d1ffcc769d9beca42ad43b6cf272659aecf58146d",
+      "size": 6603
+    },
+    {
+      "path": "evidence/runs/demo-20261121T210242Z-9e141554/source/lcl/records.py",
+      "sha256": "ba7299dac2b3f2c1907c3cce40e0ba20c603b19fc8dcee2f9b2b0760b925391e",
+      "size": 8291
+    },
+    {
+      "path": "evidence/runs/demo-20261121T210242Z-9e141554/source/lcl/search.py",
+      "sha256": "f8291a3446e04422095131e4d75100ec9bfd3213d039d17ce83c04ec82d671ff",
+      "size": 5318
+    },
+    {
+      "path": "evidence/runs/demo-20261121T210242Z-9e141554/source/lcl/states.py",
+      "sha256": "386a7666da91466d35d17b634ad2e5a69e67581f553e86e9d4e75389dc781e1c",
+      "size": 4812
+    },
+    {
+      "path": "evidence/runs/demo-20261121T210242Z-9e141554/source/lcl/verify.py",
+      "sha256": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909",
+      "size": 14075
+    },
+    {
+      "path": "evidence/runs/demo-20261121T210242Z-9e141554/source/pyproject.toml",
+      "sha256": "738f14eba3125ce7f444628adaddaf2e3e30e5aa7f43f10e7035067f6b7072e5",
+      "size": 474
+    },
+    {
+      "path": "evidence/runs/demo-20261121T210242Z-9e141554/source/requirements-graph.txt",
+      "sha256": "63b83d49071ae093c187423c768c6711a3716cda354d3a24e2bb10b0f536d34c",
+      "size": 14
+    },
+    {
+      "path": "evidence/runs/demo-20261121T210242Z-9e141554/source/requirements-optional.txt",
+      "sha256": "5bab117f06ee96a8fa7529e4e08f5125087e6ca42bb5ffee3edfdc6913da9e3b",
+      "size": 79
+    },
+    {
+      "path": "evidence/runs/demo-20261121T210242Z-9e141554/source/requirements-smt.txt",
+      "sha256": "4bb07f85bfdeaabba65e8deb117ecc222d748651ed5526284666f4bb3e6450bd",
+      "size": 19
+    },
+    {
+      "path": "evidence/runs/demo-20261121T210242Z-9e141554/source/requirements-symbolic.txt",
+      "sha256": "47fd19021144e071cc43b6e265aafada0056abe89724ad95bd6e3a8e37995b94",
+      "size": 28
+    },
+    {
+      "path": "evidence/runs/demo-20261121T210242Z-9e141554/source/requirements.txt",
+      "sha256": "60f6e1bd76adf6ed25cf381ca95f67e8a27a0de1e62fb673a7cf5af4b86249ea",
+      "size": 144
+    },
+    {
+      "path": "evidence/runs/dfs-20261121T081441Z-0a3c9a64/config.json",
+      "sha256": "b57cab595118211ac496eaeb6c8b68aee3b64488b1bd02121092d0b6a2545923",
+      "size": 667
+    },
+    {
+      "path": "evidence/runs/dfs-20261121T081441Z-0a3c9a64/record.json",
+      "sha256": "1c84fcf14fe4f591455db0c0c4a0522ccc2f2c644791f1361c4fea03b88dbf44",
+      "size": 7150
+    },
+    {
+      "path": "evidence/runs/dfs-20261121T081441Z-0a3c9a64/source/lcl/__init__.py",
+      "sha256": "134055506d3e9cd4fa538177844d28a44d5ab567ec220cf54048e63d1a8a7374",
+      "size": 80
+    },
+    {
+      "path": "evidence/runs/dfs-20261121T081441Z-0a3c9a64/source/lcl/__main__.py",
+      "sha256": "30782be9a5f5e6bc8b28d2ba189b3dfbf36f24571321d404bec50bd8175f1014",
+      "size": 9654
+    },
+    {
+      "path": "evidence/runs/dfs-20261121T081441Z-0a3c9a64/source/lcl/allocation.py",
+      "sha256": "0aab778a6665712d3cd1e35554657cc212fa840d3ce28d32ba79c18f2dcce2b9",
+      "size": 12851
+    },
+    {
+      "path": "evidence/runs/dfs-20261121T081441Z-0a3c9a64/source/lcl/budget.py",
+      "sha256": "02145a6b4bc10eda53d2f3736fdf082c1414f96905c71e74a407c0cefd73b16a",
+      "size": 1884
+    },
+    {
+      "path": "evidence/runs/dfs-20261121T081441Z-0a3c9a64/source/lcl/constructors.py",
+      "sha256": "69e946c1be03d83e3cf33e678c1c1ab0e59e5a44abadf89af44e6d2431db3b93",
+      "size": 15701
+    },
+    {
+      "path": "evidence/runs/dfs-20261121T081441Z-0a3c9a64/source/lcl/dp.py",
+      "sha256": "1aa3d2ed888c26b8e5fd65bd74069eb654c60dd336eef5fb33e8fdb7659a14f9",
+      "size": 4688
+    },
+    {
+      "path": "evidence/runs/dfs-20261121T081441Z-0a3c9a64/source/lcl/engines.py",
+      "sha256": "8a67ba56d97676b613f9fa89e18e30d8642d74d5c6ada7ec55f97733b0dc7207",
+      "size": 5322
+    },
+    {
+      "path": "evidence/runs/dfs-20261121T081441Z-0a3c9a64/source/lcl/experiments.py",
+      "sha256": "0d0f08632397082a2580e250aa7a2a53c5df61aba770e4d2ae0d701b1fe2f714",
+      "size": 11430
+    },
+    {
+      "path": "evidence/runs/dfs-20261121T081441Z-0a3c9a64/source/lcl/ingest.py",
+      "sha256": "037eebd5e36c7a07c4a963df045ab7870eaee7261c208694d46da09014dbe794",
+      "size": 10646
+    },
+    {
+      "path": "evidence/runs/dfs-20261121T081441Z-0a3c9a64/source/lcl/model.py",
+      "sha256": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6",
+      "size": 10720
+    },
+    {
+      "path": "evidence/runs/dfs-20261121T081441Z-0a3c9a64/source/lcl/oracle.py",
+      "sha256": "6d70eca24f9b0c254073ec8d1ffcc769d9beca42ad43b6cf272659aecf58146d",
+      "size": 6603
+    },
+    {
+      "path": "evidence/runs/dfs-20261121T081441Z-0a3c9a64/source/lcl/records.py",
+      "sha256": "ba7299dac2b3f2c1907c3cce40e0ba20c603b19fc8dcee2f9b2b0760b925391e",
+      "size": 8291
+    },
+    {
+      "path": "evidence/runs/dfs-20261121T081441Z-0a3c9a64/source/lcl/search.py",
+      "sha256": "f8291a3446e04422095131e4d75100ec9bfd3213d039d17ce83c04ec82d671ff",
+      "size": 5318
+    },
+    {
+      "path": "evidence/runs/dfs-20261121T081441Z-0a3c9a64/source/lcl/states.py",
+      "sha256": "386a7666da91466d35d17b634ad2e5a69e67581f553e86e9d4e75389dc781e1c",
+      "size": 4812
+    },
+    {
+      "path": "evidence/runs/dfs-20261121T081441Z-0a3c9a64/source/lcl/verify.py",
+      "sha256": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909",
+      "size": 14075
+    },
+    {
+      "path": "evidence/runs/dfs-20261121T081441Z-0a3c9a64/source/pyproject.toml",
+      "sha256": "738f14eba3125ce7f444628adaddaf2e3e30e5aa7f43f10e7035067f6b7072e5",
+      "size": 474
+    },
+    {
+      "path": "evidence/runs/dfs-20261121T081441Z-0a3c9a64/source/requirements-graph.txt",
+      "sha256": "63b83d49071ae093c187423c768c6711a3716cda354d3a24e2bb10b0f536d34c",
+      "size": 14
+    },
+    {
+      "path": "evidence/runs/dfs-20261121T081441Z-0a3c9a64/source/requirements-optional.txt",
+      "sha256": "5bab117f06ee96a8fa7529e4e08f5125087e6ca42bb5ffee3edfdc6913da9e3b",
+      "size": 79
+    },
+    {
+      "path": "evidence/runs/dfs-20261121T081441Z-0a3c9a64/source/requirements-smt.txt",
+      "sha256": "4bb07f85bfdeaabba65e8deb117ecc222d748651ed5526284666f4bb3e6450bd",
+      "size": 19
+    },
+    {
+      "path": "evidence/runs/dfs-20261121T081441Z-0a3c9a64/source/requirements-symbolic.txt",
+      "sha256": "47fd19021144e071cc43b6e265aafada0056abe89724ad95bd6e3a8e37995b94",
+      "size": 28
+    },
+    {
+      "path": "evidence/runs/dfs-20261121T081441Z-0a3c9a64/source/requirements.txt",
+      "sha256": "60f6e1bd76adf6ed25cf381ca95f67e8a27a0de1e62fb673a7cf5af4b86249ea",
+      "size": 144
+    },
+    {
+      "path": "evidence/runs/dfs-20261121T210254Z-324a1ac6/config.json",
+      "sha256": "5179f6addc3dd5192522c4990991bfa49bff9250de0921cc442264e9f2cccf2a",
+      "size": 196
+    },
+    {
+      "path": "evidence/runs/dfs-20261121T210254Z-324a1ac6/record.json",
+      "sha256": "36fec247e83b67646adbd014f7eb5880d5d28d3d1a571f587fecb6f8703811c8",
+      "size": 4786
+    },
+    {
+      "path": "evidence/runs/dfs-20261121T210254Z-324a1ac6/source/lcl/__init__.py",
+      "sha256": "134055506d3e9cd4fa538177844d28a44d5ab567ec220cf54048e63d1a8a7374",
+      "size": 80
+    },
+    {
+      "path": "evidence/runs/dfs-20261121T210254Z-324a1ac6/source/lcl/__main__.py",
+      "sha256": "30782be9a5f5e6bc8b28d2ba189b3dfbf36f24571321d404bec50bd8175f1014",
+      "size": 9654
+    },
+    {
+      "path": "evidence/runs/dfs-20261121T210254Z-324a1ac6/source/lcl/allocation.py",
+      "sha256": "0aab778a6665712d3cd1e35554657cc212fa840d3ce28d32ba79c18f2dcce2b9",
+      "size": 12851
+    },
+    {
+      "path": "evidence/runs/dfs-20261121T210254Z-324a1ac6/source/lcl/budget.py",
+      "sha256": "02145a6b4bc10eda53d2f3736fdf082c1414f96905c71e74a407c0cefd73b16a",
+      "size": 1884
+    },
+    {
+      "path": "evidence/runs/dfs-20261121T210254Z-324a1ac6/source/lcl/constructors.py",
+      "sha256": "69e946c1be03d83e3cf33e678c1c1ab0e59e5a44abadf89af44e6d2431db3b93",
+      "size": 15701
+    },
+    {
+      "path": "evidence/runs/dfs-20261121T210254Z-324a1ac6/source/lcl/dp.py",
+      "sha256": "1aa3d2ed888c26b8e5fd65bd74069eb654c60dd336eef5fb33e8fdb7659a14f9",
+      "size": 4688
+    },
+    {
+      "path": "evidence/runs/dfs-20261121T210254Z-324a1ac6/source/lcl/engines.py",
+      "sha256": "8a67ba56d97676b613f9fa89e18e30d8642d74d5c6ada7ec55f97733b0dc7207",
+      "size": 5322
+    },
+    {
+      "path": "evidence/runs/dfs-20261121T210254Z-324a1ac6/source/lcl/experiments.py",
+      "sha256": "0d0f08632397082a2580e250aa7a2a53c5df61aba770e4d2ae0d701b1fe2f714",
+      "size": 11430
+    },
+    {
+      "path": "evidence/runs/dfs-20261121T210254Z-324a1ac6/source/lcl/ingest.py",
+      "sha256": "037eebd5e36c7a07c4a963df045ab7870eaee7261c208694d46da09014dbe794",
+      "size": 10646
+    },
+    {
+      "path": "evidence/runs/dfs-20261121T210254Z-324a1ac6/source/lcl/model.py",
+      "sha256": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6",
+      "size": 10720
+    },
+    {
+      "path": "evidence/runs/dfs-20261121T210254Z-324a1ac6/source/lcl/oracle.py",
+      "sha256": "6d70eca24f9b0c254073ec8d1ffcc769d9beca42ad43b6cf272659aecf58146d",
+      "size": 6603
+    },
+    {
+      "path": "evidence/runs/dfs-20261121T210254Z-324a1ac6/source/lcl/records.py",
+      "sha256": "ba7299dac2b3f2c1907c3cce40e0ba20c603b19fc8dcee2f9b2b0760b925391e",
+      "size": 8291
+    },
+    {
+      "path": "evidence/runs/dfs-20261121T210254Z-324a1ac6/source/lcl/search.py",
+      "sha256": "f8291a3446e04422095131e4d75100ec9bfd3213d039d17ce83c04ec82d671ff",
+      "size": 5318
+    },
+    {
+      "path": "evidence/runs/dfs-20261121T210254Z-324a1ac6/source/lcl/states.py",
+      "sha256": "386a7666da91466d35d17b634ad2e5a69e67581f553e86e9d4e75389dc781e1c",
+      "size": 4812
+    },
+    {
+      "path": "evidence/runs/dfs-20261121T210254Z-324a1ac6/source/lcl/verify.py",
+      "sha256": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909",
+      "size": 14075
+    },
+    {
+      "path": "evidence/runs/dfs-20261121T210254Z-324a1ac6/source/pyproject.toml",
+      "sha256": "738f14eba3125ce7f444628adaddaf2e3e30e5aa7f43f10e7035067f6b7072e5",
+      "size": 474
+    },
+    {
+      "path": "evidence/runs/dfs-20261121T210254Z-324a1ac6/source/requirements-graph.txt",
+      "sha256": "63b83d49071ae093c187423c768c6711a3716cda354d3a24e2bb10b0f536d34c",
+      "size": 14
+    },
+    {
+      "path": "evidence/runs/dfs-20261121T210254Z-324a1ac6/source/requirements-optional.txt",
+      "sha256": "5bab117f06ee96a8fa7529e4e08f5125087e6ca42bb5ffee3edfdc6913da9e3b",
+      "size": 79
+    },
+    {
+      "path": "evidence/runs/dfs-20261121T210254Z-324a1ac6/source/requirements-smt.txt",
+      "sha256": "4bb07f85bfdeaabba65e8deb117ecc222d748651ed5526284666f4bb3e6450bd",
+      "size": 19
+    },
+    {
+      "path": "evidence/runs/dfs-20261121T210254Z-324a1ac6/source/requirements-symbolic.txt",
+      "sha256": "47fd19021144e071cc43b6e265aafada0056abe89724ad95bd6e3a8e37995b94",
+      "size": 28
+    },
+    {
+      "path": "evidence/runs/dfs-20261121T210254Z-324a1ac6/source/requirements.txt",
+      "sha256": "60f6e1bd76adf6ed25cf381ca95f67e8a27a0de1e62fb673a7cf5af4b86249ea",
+      "size": 144
+    },
+    {
+      "path": "evidence/runs/oracle-20261121T081441Z-a5f3c783/config.json",
+      "sha256": "e662036c36c4ba0f1e19bc3d7736c06497ae61025258640cd688fa27945920bc",
+      "size": 670
+    },
+    {
+      "path": "evidence/runs/oracle-20261121T081441Z-a5f3c783/record.json",
+      "sha256": "0504e38a259a648e0f648b4ab1e5be4789d3b28de396b69710cfe394e2c88d11",
+      "size": 7328
+    },
+    {
+      "path": "evidence/runs/oracle-20261121T081441Z-a5f3c783/source/lcl/__init__.py",
+      "sha256": "134055506d3e9cd4fa538177844d28a44d5ab567ec220cf54048e63d1a8a7374",
+      "size": 80
+    },
+    {
+      "path": "evidence/runs/oracle-20261121T081441Z-a5f3c783/source/lcl/__main__.py",
+      "sha256": "30782be9a5f5e6bc8b28d2ba189b3dfbf36f24571321d404bec50bd8175f1014",
+      "size": 9654
+    },
+    {
+      "path": "evidence/runs/oracle-20261121T081441Z-a5f3c783/source/lcl/allocation.py",
+      "sha256": "0aab778a6665712d3cd1e35554657cc212fa840d3ce28d32ba79c18f2dcce2b9",
+      "size": 12851
+    },
+    {
+      "path": "evidence/runs/oracle-20261121T081441Z-a5f3c783/source/lcl/budget.py",
+      "sha256": "02145a6b4bc10eda53d2f3736fdf082c1414f96905c71e74a407c0cefd73b16a",
+      "size": 1884
+    },
+    {
+      "path": "evidence/runs/oracle-20261121T081441Z-a5f3c783/source/lcl/constructors.py",
+      "sha256": "69e946c1be03d83e3cf33e678c1c1ab0e59e5a44abadf89af44e6d2431db3b93",
+      "size": 15701
+    },
+    {
+      "path": "evidence/runs/oracle-20261121T081441Z-a5f3c783/source/lcl/dp.py",
+      "sha256": "1aa3d2ed888c26b8e5fd65bd74069eb654c60dd336eef5fb33e8fdb7659a14f9",
+      "size": 4688
+    },
+    {
+      "path": "evidence/runs/oracle-20261121T081441Z-a5f3c783/source/lcl/engines.py",
+      "sha256": "8a67ba56d97676b613f9fa89e18e30d8642d74d5c6ada7ec55f97733b0dc7207",
+      "size": 5322
+    },
+    {
+      "path": "evidence/runs/oracle-20261121T081441Z-a5f3c783/source/lcl/experiments.py",
+      "sha256": "0d0f08632397082a2580e250aa7a2a53c5df61aba770e4d2ae0d701b1fe2f714",
+      "size": 11430
+    },
+    {
+      "path": "evidence/runs/oracle-20261121T081441Z-a5f3c783/source/lcl/ingest.py",
+      "sha256": "037eebd5e36c7a07c4a963df045ab7870eaee7261c208694d46da09014dbe794",
+      "size": 10646
+    },
+    {
+      "path": "evidence/runs/oracle-20261121T081441Z-a5f3c783/source/lcl/model.py",
+      "sha256": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6",
+      "size": 10720
+    },
+    {
+      "path": "evidence/runs/oracle-20261121T081441Z-a5f3c783/source/lcl/oracle.py",
+      "sha256": "6d70eca24f9b0c254073ec8d1ffcc769d9beca42ad43b6cf272659aecf58146d",
+      "size": 6603
+    },
+    {
+      "path": "evidence/runs/oracle-20261121T081441Z-a5f3c783/source/lcl/records.py",
+      "sha256": "ba7299dac2b3f2c1907c3cce40e0ba20c603b19fc8dcee2f9b2b0760b925391e",
+      "size": 8291
+    },
+    {
+      "path": "evidence/runs/oracle-20261121T081441Z-a5f3c783/source/lcl/search.py",
+      "sha256": "f8291a3446e04422095131e4d75100ec9bfd3213d039d17ce83c04ec82d671ff",
+      "size": 5318
+    },
+    {
+      "path": "evidence/runs/oracle-20261121T081441Z-a5f3c783/source/lcl/states.py",
+      "sha256": "386a7666da91466d35d17b634ad2e5a69e67581f553e86e9d4e75389dc781e1c",
+      "size": 4812
+    },
+    {
+      "path": "evidence/runs/oracle-20261121T081441Z-a5f3c783/source/lcl/verify.py",
+      "sha256": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909",
+      "size": 14075
+    },
+    {
+      "path": "evidence/runs/oracle-20261121T081441Z-a5f3c783/source/pyproject.toml",
+      "sha256": "738f14eba3125ce7f444628adaddaf2e3e30e5aa7f43f10e7035067f6b7072e5",
+      "size": 474
+    },
+    {
+      "path": "evidence/runs/oracle-20261121T081441Z-a5f3c783/source/requirements-graph.txt",
+      "sha256": "63b83d49071ae093c187423c768c6711a3716cda354d3a24e2bb10b0f536d34c",
+      "size": 14
+    },
+    {
+      "path": "evidence/runs/oracle-20261121T081441Z-a5f3c783/source/requirements-optional.txt",
+      "sha256": "5bab117f06ee96a8fa7529e4e08f5125087e6ca42bb5ffee3edfdc6913da9e3b",
+      "size": 79
+    },
+    {
+      "path": "evidence/runs/oracle-20261121T081441Z-a5f3c783/source/requirements-smt.txt",
+      "sha256": "4bb07f85bfdeaabba65e8deb117ecc222d748651ed5526284666f4bb3e6450bd",
+      "size": 19
+    },
+    {
+      "path": "evidence/runs/oracle-20261121T081441Z-a5f3c783/source/requirements-symbolic.txt",
+      "sha256": "47fd19021144e071cc43b6e265aafada0056abe89724ad95bd6e3a8e37995b94",
+      "size": 28
+    },
+    {
+      "path": "evidence/runs/oracle-20261121T081441Z-a5f3c783/source/requirements.txt",
+      "sha256": "60f6e1bd76adf6ed25cf381ca95f67e8a27a0de1e62fb673a7cf5af4b86249ea",
+      "size": 144
+    }
+  ]
+}
