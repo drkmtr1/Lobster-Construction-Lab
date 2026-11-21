@@ -1,0 +1,9656 @@
+{
+  "run_id": "B2-NONADJACENT-CONSUMER-001-regression-20261121",
+  "classification": "COMPLETE",
+  "status": "PASS",
+  "cases_completed": 31,
+  "config_sha256_raw": "96a900b04ea4ca2605a8ae7f5260822eedaebd70aaba4db075337b8f1a620a77",
+  "regression_script_sha256_raw": "282db1c820a0edb4a2698bea68a5a127011a551322fcec0b584fa0315c376423",
+  "source_sha256_raw": {
+    "lcl/__init__.py": "134055506d3e9cd4fa538177844d28a44d5ab567ec220cf54048e63d1a8a7374",
+    "lcl/__main__.py": "30782be9a5f5e6bc8b28d2ba189b3dfbf36f24571321d404bec50bd8175f1014",
+    "lcl/allocation.py": "0aab778a6665712d3cd1e35554657cc212fa840d3ce28d32ba79c18f2dcce2b9",
+    "lcl/budget.py": "02145a6b4bc10eda53d2f3736fdf082c1414f96905c71e74a407c0cefd73b16a",
+    "lcl/constructors.py": "69e946c1be03d83e3cf33e678c1c1ab0e59e5a44abadf89af44e6d2431db3b93",
+    "lcl/consumers.py": "2cb688d09c510ca855ba1695d0f89a325ea4fc7882c9e5a8e971c2b506e64560",
+    "lcl/dp.py": "1aa3d2ed888c26b8e5fd65bd74069eb654c60dd336eef5fb33e8fdb7659a14f9",
+    "lcl/engines.py": "8a67ba56d97676b613f9fa89e18e30d8642d74d5c6ada7ec55f97733b0dc7207",
+    "lcl/experiments.py": "0d0f08632397082a2580e250aa7a2a53c5df61aba770e4d2ae0d701b1fe2f714",
+    "lcl/ingest.py": "037eebd5e36c7a07c4a963df045ab7870eaee7261c208694d46da09014dbe794",
+    "lcl/model.py": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6",
+    "lcl/oracle.py": "6d70eca24f9b0c254073ec8d1ffcc769d9beca42ad43b6cf272659aecf58146d",
+    "lcl/records.py": "ba7299dac2b3f2c1907c3cce40e0ba20c603b19fc8dcee2f9b2b0760b925391e",
+    "lcl/search.py": "f8291a3446e04422095131e4d75100ec9bfd3213d039d17ce83c04ec82d671ff",
+    "lcl/states.py": "386a7666da91466d35d17b634ad2e5a69e67581f553e86e9d4e75389dc781e1c",
+    "lcl/verify.py": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909",
+    "pyproject.toml": "738f14eba3125ce7f444628adaddaf2e3e30e5aa7f43f10e7035067f6b7072e5",
+    "requirements.txt": "60f6e1bd76adf6ed25cf381ca95f67e8a27a0de1e62fb673a7cf5af4b86249ea",
+    "requirements-graph.txt": "63b83d49071ae093c187423c768c6711a3716cda354d3a24e2bb10b0f536d34c",
+    "requirements-optional.txt": "5bab117f06ee96a8fa7529e4e08f5125087e6ca42bb5ffee3edfdc6913da9e3b",
+    "requirements-smt.txt": "4bb07f85bfdeaabba65e8deb117ecc222d748651ed5526284666f4bb3e6450bd",
+    "requirements-symbolic.txt": "47fd19021144e071cc43b6e265aafada0056abe89724ad95bd6e3a8e37995b94",
+    "tests/test_nonadjacent_consumer.py": "f2f66eb32492cbe658f75c7a4699e7bb22f10b0c3ec6b85b9ba483426e7b26fc"
+  },
+  "environment": {
+    "python": "3.13.17",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "elapsed_seconds": 0.2425445000117179,
+  "limits": {
+    "case_count": 31,
+    "max_vertices": 35,
+    "workers": 1
+  },
+  "claim": "finite conditional-consumer regression; no seed search or universal proof",
+  "cases": [
+    {
+      "K": 2,
+      "original_graph": {
+        "schema_version": 1,
+        "profile": [
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "vertices": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4"
+        ],
+        "edges": [
+          [
+            "s:0",
+            "s:1"
+          ],
+          [
+            "s:1",
+            "s:2"
+          ],
+          [
+            "s:2",
+            "s:3"
+          ],
+          [
+            "s:3",
+            "s:4"
+          ]
+        ],
+        "spine": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4"
+        ],
+        "roles": {
+          "s:0": {
+            "kind": "spine",
+            "section": 0
+          },
+          "s:1": {
+            "kind": "spine",
+            "section": 1
+          },
+          "s:2": {
+            "kind": "spine",
+            "section": 2
+          },
+          "s:3": {
+            "kind": "spine",
+            "section": 3
+          },
+          "s:4": {
+            "kind": "spine",
+            "section": 4
+          }
+        }
+      },
+      "graph_digest": "24e41f7b181cc2931cb53547451b945af4f0fb8b645b0d132683d3b22e31bd21",
+      "prefix_labels": {
+        "s:0": 3,
+        "s:1": 0,
+        "s:2": 4
+      },
+      "labels": {
+        "s:0": 3,
+        "s:1": 0,
+        "s:2": 4,
+        "s:3": 2,
+        "s:4": 1
+      },
+      "original_edge_differences": [
+        3,
+        4,
+        2,
+        1
+      ],
+      "independent_certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 5,
+        "m": 4,
+        "graph_digest": "24e41f7b181cc2931cb53547451b945af4f0fb8b645b0d132683d3b22e31bd21",
+        "edge_differences": [
+          3,
+          4,
+          2,
+          1
+        ],
+        "claim": "finite certificate for this exact named target only"
+      }
+    },
+    {
+      "K": 3,
+      "original_graph": {
+        "schema_version": 1,
+        "profile": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "vertices": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5"
+        ],
+        "edges": [
+          [
+            "s:0",
+            "s:1"
+          ],
+          [
+            "s:1",
+            "s:2"
+          ],
+          [
+            "s:2",
+            "s:3"
+          ],
+          [
+            "s:3",
+            "s:4"
+          ],
+          [
+            "s:4",
+            "s:5"
+          ]
+        ],
+        "spine": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5"
+        ],
+        "roles": {
+          "s:0": {
+            "kind": "spine",
+            "section": 0
+          },
+          "s:1": {
+            "kind": "spine",
+            "section": 1
+          },
+          "s:2": {
+            "kind": "spine",
+            "section": 2
+          },
+          "s:3": {
+            "kind": "spine",
+            "section": 3
+          },
+          "s:4": {
+            "kind": "spine",
+            "section": 4
+          },
+          "s:5": {
+            "kind": "spine",
+            "section": 5
+          }
+        }
+      },
+      "graph_digest": "2418801b79440622320ab6941a0a261b3991a4272669ce66c6a5d99c711c9f1b",
+      "prefix_labels": {
+        "s:0": 4,
+        "s:1": 0,
+        "s:2": 5
+      },
+      "labels": {
+        "s:0": 4,
+        "s:1": 0,
+        "s:2": 5,
+        "s:3": 2,
+        "s:4": 1,
+        "s:5": 3
+      },
+      "original_edge_differences": [
+        4,
+        5,
+        3,
+        1,
+        2
+      ],
+      "independent_certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 6,
+        "m": 5,
+        "graph_digest": "2418801b79440622320ab6941a0a261b3991a4272669ce66c6a5d99c711c9f1b",
+        "edge_differences": [
+          4,
+          5,
+          3,
+          1,
+          2
+        ],
+        "claim": "finite certificate for this exact named target only"
+      }
+    },
+    {
+      "K": 4,
+      "original_graph": {
+        "schema_version": 1,
+        "profile": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "vertices": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6"
+        ],
+        "edges": [
+          [
+            "s:0",
+            "s:1"
+          ],
+          [
+            "s:1",
+            "s:2"
+          ],
+          [
+            "s:2",
+            "s:3"
+          ],
+          [
+            "s:3",
+            "s:4"
+          ],
+          [
+            "s:4",
+            "s:5"
+          ],
+          [
+            "s:5",
+            "s:6"
+          ]
+        ],
+        "spine": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6"
+        ],
+        "roles": {
+          "s:0": {
+            "kind": "spine",
+            "section": 0
+          },
+          "s:1": {
+            "kind": "spine",
+            "section": 1
+          },
+          "s:2": {
+            "kind": "spine",
+            "section": 2
+          },
+          "s:3": {
+            "kind": "spine",
+            "section": 3
+          },
+          "s:4": {
+            "kind": "spine",
+            "section": 4
+          },
+          "s:5": {
+            "kind": "spine",
+            "section": 5
+          },
+          "s:6": {
+            "kind": "spine",
+            "section": 6
+          }
+        }
+      },
+      "graph_digest": "66dc8a8315cb9a778dd1dbab17e4f5b781081b3f2bd609a1ed03881f6082d0d7",
+      "prefix_labels": {
+        "s:0": 5,
+        "s:1": 0,
+        "s:2": 6
+      },
+      "labels": {
+        "s:0": 5,
+        "s:1": 0,
+        "s:2": 6,
+        "s:3": 2,
+        "s:4": 3,
+        "s:5": 1,
+        "s:6": 4
+      },
+      "original_edge_differences": [
+        5,
+        6,
+        4,
+        1,
+        2,
+        3
+      ],
+      "independent_certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 7,
+        "m": 6,
+        "graph_digest": "66dc8a8315cb9a778dd1dbab17e4f5b781081b3f2bd609a1ed03881f6082d0d7",
+        "edge_differences": [
+          5,
+          6,
+          4,
+          1,
+          2,
+          3
+        ],
+        "claim": "finite certificate for this exact named target only"
+      }
+    },
+    {
+      "K": 5,
+      "original_graph": {
+        "schema_version": 1,
+        "profile": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "vertices": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7"
+        ],
+        "edges": [
+          [
+            "s:0",
+            "s:1"
+          ],
+          [
+            "s:1",
+            "s:2"
+          ],
+          [
+            "s:2",
+            "s:3"
+          ],
+          [
+            "s:3",
+            "s:4"
+          ],
+          [
+            "s:4",
+            "s:5"
+          ],
+          [
+            "s:5",
+            "s:6"
+          ],
+          [
+            "s:6",
+            "s:7"
+          ]
+        ],
+        "spine": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7"
+        ],
+        "roles": {
+          "s:0": {
+            "kind": "spine",
+            "section": 0
+          },
+          "s:1": {
+            "kind": "spine",
+            "section": 1
+          },
+          "s:2": {
+            "kind": "spine",
+            "section": 2
+          },
+          "s:3": {
+            "kind": "spine",
+            "section": 3
+          },
+          "s:4": {
+            "kind": "spine",
+            "section": 4
+          },
+          "s:5": {
+            "kind": "spine",
+            "section": 5
+          },
+          "s:6": {
+            "kind": "spine",
+            "section": 6
+          },
+          "s:7": {
+            "kind": "spine",
+            "section": 7
+          }
+        }
+      },
+      "graph_digest": "e84ca8b25773695187065cff37e809594323e5249ecf3fc21d41d7b8822081f2",
+      "prefix_labels": {
+        "s:0": 6,
+        "s:1": 0,
+        "s:2": 7
+      },
+      "labels": {
+        "s:0": 6,
+        "s:1": 0,
+        "s:2": 7,
+        "s:3": 2,
+        "s:4": 5,
+        "s:5": 1,
+        "s:6": 3,
+        "s:7": 4
+      },
+      "original_edge_differences": [
+        6,
+        7,
+        5,
+        3,
+        4,
+        2,
+        1
+      ],
+      "independent_certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 8,
+        "m": 7,
+        "graph_digest": "e84ca8b25773695187065cff37e809594323e5249ecf3fc21d41d7b8822081f2",
+        "edge_differences": [
+          6,
+          7,
+          5,
+          3,
+          4,
+          2,
+          1
+        ],
+        "claim": "finite certificate for this exact named target only"
+      }
+    },
+    {
+      "K": 6,
+      "original_graph": {
+        "schema_version": 1,
+        "profile": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "vertices": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8"
+        ],
+        "edges": [
+          [
+            "s:0",
+            "s:1"
+          ],
+          [
+            "s:1",
+            "s:2"
+          ],
+          [
+            "s:2",
+            "s:3"
+          ],
+          [
+            "s:3",
+            "s:4"
+          ],
+          [
+            "s:4",
+            "s:5"
+          ],
+          [
+            "s:5",
+            "s:6"
+          ],
+          [
+            "s:6",
+            "s:7"
+          ],
+          [
+            "s:7",
+            "s:8"
+          ]
+        ],
+        "spine": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8"
+        ],
+        "roles": {
+          "s:0": {
+            "kind": "spine",
+            "section": 0
+          },
+          "s:1": {
+            "kind": "spine",
+            "section": 1
+          },
+          "s:2": {
+            "kind": "spine",
+            "section": 2
+          },
+          "s:3": {
+            "kind": "spine",
+            "section": 3
+          },
+          "s:4": {
+            "kind": "spine",
+            "section": 4
+          },
+          "s:5": {
+            "kind": "spine",
+            "section": 5
+          },
+          "s:6": {
+            "kind": "spine",
+            "section": 6
+          },
+          "s:7": {
+            "kind": "spine",
+            "section": 7
+          },
+          "s:8": {
+            "kind": "spine",
+            "section": 8
+          }
+        }
+      },
+      "graph_digest": "d3cc51610f8fecf0d3346be2a289a23869b004589dd4c273fa35ad816f8a892c",
+      "prefix_labels": {
+        "s:0": 7,
+        "s:1": 0,
+        "s:2": 8
+      },
+      "labels": {
+        "s:0": 7,
+        "s:1": 0,
+        "s:2": 8,
+        "s:3": 2,
+        "s:4": 6,
+        "s:5": 1,
+        "s:6": 4,
+        "s:7": 5,
+        "s:8": 3
+      },
+      "original_edge_differences": [
+        7,
+        8,
+        6,
+        4,
+        5,
+        3,
+        1,
+        2
+      ],
+      "independent_certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 9,
+        "m": 8,
+        "graph_digest": "d3cc51610f8fecf0d3346be2a289a23869b004589dd4c273fa35ad816f8a892c",
+        "edge_differences": [
+          7,
+          8,
+          6,
+          4,
+          5,
+          3,
+          1,
+          2
+        ],
+        "claim": "finite certificate for this exact named target only"
+      }
+    },
+    {
+      "K": 7,
+      "original_graph": {
+        "schema_version": 1,
+        "profile": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "vertices": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9"
+        ],
+        "edges": [
+          [
+            "s:0",
+            "s:1"
+          ],
+          [
+            "s:1",
+            "s:2"
+          ],
+          [
+            "s:2",
+            "s:3"
+          ],
+          [
+            "s:3",
+            "s:4"
+          ],
+          [
+            "s:4",
+            "s:5"
+          ],
+          [
+            "s:5",
+            "s:6"
+          ],
+          [
+            "s:6",
+            "s:7"
+          ],
+          [
+            "s:7",
+            "s:8"
+          ],
+          [
+            "s:8",
+            "s:9"
+          ]
+        ],
+        "spine": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9"
+        ],
+        "roles": {
+          "s:0": {
+            "kind": "spine",
+            "section": 0
+          },
+          "s:1": {
+            "kind": "spine",
+            "section": 1
+          },
+          "s:2": {
+            "kind": "spine",
+            "section": 2
+          },
+          "s:3": {
+            "kind": "spine",
+            "section": 3
+          },
+          "s:4": {
+            "kind": "spine",
+            "section": 4
+          },
+          "s:5": {
+            "kind": "spine",
+            "section": 5
+          },
+          "s:6": {
+            "kind": "spine",
+            "section": 6
+          },
+          "s:7": {
+            "kind": "spine",
+            "section": 7
+          },
+          "s:8": {
+            "kind": "spine",
+            "section": 8
+          },
+          "s:9": {
+            "kind": "spine",
+            "section": 9
+          }
+        }
+      },
+      "graph_digest": "35dacbe5a5e6781429df0eac8e414f7cc99a303f0efdbc030440199b9e8893b1",
+      "prefix_labels": {
+        "s:0": 8,
+        "s:1": 0,
+        "s:2": 9
+      },
+      "labels": {
+        "s:0": 8,
+        "s:1": 0,
+        "s:2": 9,
+        "s:3": 2,
+        "s:4": 7,
+        "s:5": 1,
+        "s:6": 5,
+        "s:7": 4,
+        "s:8": 6,
+        "s:9": 3
+      },
+      "original_edge_differences": [
+        8,
+        9,
+        7,
+        5,
+        6,
+        4,
+        1,
+        2,
+        3
+      ],
+      "independent_certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 10,
+        "m": 9,
+        "graph_digest": "35dacbe5a5e6781429df0eac8e414f7cc99a303f0efdbc030440199b9e8893b1",
+        "edge_differences": [
+          8,
+          9,
+          7,
+          5,
+          6,
+          4,
+          1,
+          2,
+          3
+        ],
+        "claim": "finite certificate for this exact named target only"
+      }
+    },
+    {
+      "K": 8,
+      "original_graph": {
+        "schema_version": 1,
+        "profile": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "vertices": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10"
+        ],
+        "edges": [
+          [
+            "s:0",
+            "s:1"
+          ],
+          [
+            "s:1",
+            "s:2"
+          ],
+          [
+            "s:2",
+            "s:3"
+          ],
+          [
+            "s:3",
+            "s:4"
+          ],
+          [
+            "s:4",
+            "s:5"
+          ],
+          [
+            "s:5",
+            "s:6"
+          ],
+          [
+            "s:6",
+            "s:7"
+          ],
+          [
+            "s:7",
+            "s:8"
+          ],
+          [
+            "s:8",
+            "s:9"
+          ],
+          [
+            "s:9",
+            "s:10"
+          ]
+        ],
+        "spine": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10"
+        ],
+        "roles": {
+          "s:0": {
+            "kind": "spine",
+            "section": 0
+          },
+          "s:1": {
+            "kind": "spine",
+            "section": 1
+          },
+          "s:2": {
+            "kind": "spine",
+            "section": 2
+          },
+          "s:3": {
+            "kind": "spine",
+            "section": 3
+          },
+          "s:4": {
+            "kind": "spine",
+            "section": 4
+          },
+          "s:5": {
+            "kind": "spine",
+            "section": 5
+          },
+          "s:6": {
+            "kind": "spine",
+            "section": 6
+          },
+          "s:7": {
+            "kind": "spine",
+            "section": 7
+          },
+          "s:8": {
+            "kind": "spine",
+            "section": 8
+          },
+          "s:9": {
+            "kind": "spine",
+            "section": 9
+          },
+          "s:10": {
+            "kind": "spine",
+            "section": 10
+          }
+        }
+      },
+      "graph_digest": "b976cfcd47a34b8f4a94fabb47421b82076e4781eae608bd03821b2b4f8752c3",
+      "prefix_labels": {
+        "s:0": 9,
+        "s:1": 0,
+        "s:2": 10
+      },
+      "labels": {
+        "s:0": 9,
+        "s:1": 0,
+        "s:2": 10,
+        "s:3": 2,
+        "s:4": 8,
+        "s:5": 1,
+        "s:6": 6,
+        "s:7": 3,
+        "s:8": 7,
+        "s:9": 5,
+        "s:10": 4
+      },
+      "original_edge_differences": [
+        9,
+        10,
+        8,
+        6,
+        7,
+        5,
+        3,
+        4,
+        2,
+        1
+      ],
+      "independent_certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 11,
+        "m": 10,
+        "graph_digest": "b976cfcd47a34b8f4a94fabb47421b82076e4781eae608bd03821b2b4f8752c3",
+        "edge_differences": [
+          9,
+          10,
+          8,
+          6,
+          7,
+          5,
+          3,
+          4,
+          2,
+          1
+        ],
+        "claim": "finite certificate for this exact named target only"
+      }
+    },
+    {
+      "K": 9,
+      "original_graph": {
+        "schema_version": 1,
+        "profile": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "vertices": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11"
+        ],
+        "edges": [
+          [
+            "s:0",
+            "s:1"
+          ],
+          [
+            "s:1",
+            "s:2"
+          ],
+          [
+            "s:2",
+            "s:3"
+          ],
+          [
+            "s:3",
+            "s:4"
+          ],
+          [
+            "s:4",
+            "s:5"
+          ],
+          [
+            "s:5",
+            "s:6"
+          ],
+          [
+            "s:6",
+            "s:7"
+          ],
+          [
+            "s:7",
+            "s:8"
+          ],
+          [
+            "s:8",
+            "s:9"
+          ],
+          [
+            "s:9",
+            "s:10"
+          ],
+          [
+            "s:10",
+            "s:11"
+          ]
+        ],
+        "spine": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11"
+        ],
+        "roles": {
+          "s:0": {
+            "kind": "spine",
+            "section": 0
+          },
+          "s:1": {
+            "kind": "spine",
+            "section": 1
+          },
+          "s:2": {
+            "kind": "spine",
+            "section": 2
+          },
+          "s:3": {
+            "kind": "spine",
+            "section": 3
+          },
+          "s:4": {
+            "kind": "spine",
+            "section": 4
+          },
+          "s:5": {
+            "kind": "spine",
+            "section": 5
+          },
+          "s:6": {
+            "kind": "spine",
+            "section": 6
+          },
+          "s:7": {
+            "kind": "spine",
+            "section": 7
+          },
+          "s:8": {
+            "kind": "spine",
+            "section": 8
+          },
+          "s:9": {
+            "kind": "spine",
+            "section": 9
+          },
+          "s:10": {
+            "kind": "spine",
+            "section": 10
+          },
+          "s:11": {
+            "kind": "spine",
+            "section": 11
+          }
+        }
+      },
+      "graph_digest": "41fbcfe12f813dc409806693d0e5c4ee71a786e8b55af8793d968f64411da89e",
+      "prefix_labels": {
+        "s:0": 10,
+        "s:1": 0,
+        "s:2": 11
+      },
+      "labels": {
+        "s:0": 10,
+        "s:1": 0,
+        "s:2": 11,
+        "s:3": 2,
+        "s:4": 9,
+        "s:5": 1,
+        "s:6": 7,
+        "s:7": 3,
+        "s:8": 8,
+        "s:9": 5,
+        "s:10": 4,
+        "s:11": 6
+      },
+      "original_edge_differences": [
+        10,
+        11,
+        9,
+        7,
+        8,
+        6,
+        4,
+        5,
+        3,
+        1,
+        2
+      ],
+      "independent_certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 12,
+        "m": 11,
+        "graph_digest": "41fbcfe12f813dc409806693d0e5c4ee71a786e8b55af8793d968f64411da89e",
+        "edge_differences": [
+          10,
+          11,
+          9,
+          7,
+          8,
+          6,
+          4,
+          5,
+          3,
+          1,
+          2
+        ],
+        "claim": "finite certificate for this exact named target only"
+      }
+    },
+    {
+      "K": 10,
+      "original_graph": {
+        "schema_version": 1,
+        "profile": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "vertices": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11",
+          "s:12"
+        ],
+        "edges": [
+          [
+            "s:0",
+            "s:1"
+          ],
+          [
+            "s:1",
+            "s:2"
+          ],
+          [
+            "s:2",
+            "s:3"
+          ],
+          [
+            "s:3",
+            "s:4"
+          ],
+          [
+            "s:4",
+            "s:5"
+          ],
+          [
+            "s:5",
+            "s:6"
+          ],
+          [
+            "s:6",
+            "s:7"
+          ],
+          [
+            "s:7",
+            "s:8"
+          ],
+          [
+            "s:8",
+            "s:9"
+          ],
+          [
+            "s:9",
+            "s:10"
+          ],
+          [
+            "s:10",
+            "s:11"
+          ],
+          [
+            "s:11",
+            "s:12"
+          ]
+        ],
+        "spine": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11",
+          "s:12"
+        ],
+        "roles": {
+          "s:0": {
+            "kind": "spine",
+            "section": 0
+          },
+          "s:1": {
+            "kind": "spine",
+            "section": 1
+          },
+          "s:2": {
+            "kind": "spine",
+            "section": 2
+          },
+          "s:3": {
+            "kind": "spine",
+            "section": 3
+          },
+          "s:4": {
+            "kind": "spine",
+            "section": 4
+          },
+          "s:5": {
+            "kind": "spine",
+            "section": 5
+          },
+          "s:6": {
+            "kind": "spine",
+            "section": 6
+          },
+          "s:7": {
+            "kind": "spine",
+            "section": 7
+          },
+          "s:8": {
+            "kind": "spine",
+            "section": 8
+          },
+          "s:9": {
+            "kind": "spine",
+            "section": 9
+          },
+          "s:10": {
+            "kind": "spine",
+            "section": 10
+          },
+          "s:11": {
+            "kind": "spine",
+            "section": 11
+          },
+          "s:12": {
+            "kind": "spine",
+            "section": 12
+          }
+        }
+      },
+      "graph_digest": "e12d8b15cf28a31ac25b78d6d07422441d415873999585bdf02ba64c4caee745",
+      "prefix_labels": {
+        "s:0": 11,
+        "s:1": 0,
+        "s:2": 12
+      },
+      "labels": {
+        "s:0": 11,
+        "s:1": 0,
+        "s:2": 12,
+        "s:3": 2,
+        "s:4": 10,
+        "s:5": 1,
+        "s:6": 8,
+        "s:7": 3,
+        "s:8": 9,
+        "s:9": 5,
+        "s:10": 6,
+        "s:11": 4,
+        "s:12": 7
+      },
+      "original_edge_differences": [
+        11,
+        12,
+        10,
+        8,
+        9,
+        7,
+        5,
+        6,
+        4,
+        1,
+        2,
+        3
+      ],
+      "independent_certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 13,
+        "m": 12,
+        "graph_digest": "e12d8b15cf28a31ac25b78d6d07422441d415873999585bdf02ba64c4caee745",
+        "edge_differences": [
+          11,
+          12,
+          10,
+          8,
+          9,
+          7,
+          5,
+          6,
+          4,
+          1,
+          2,
+          3
+        ],
+        "claim": "finite certificate for this exact named target only"
+      }
+    },
+    {
+      "K": 11,
+      "original_graph": {
+        "schema_version": 1,
+        "profile": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "vertices": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11",
+          "s:12",
+          "s:13"
+        ],
+        "edges": [
+          [
+            "s:0",
+            "s:1"
+          ],
+          [
+            "s:1",
+            "s:2"
+          ],
+          [
+            "s:2",
+            "s:3"
+          ],
+          [
+            "s:3",
+            "s:4"
+          ],
+          [
+            "s:4",
+            "s:5"
+          ],
+          [
+            "s:5",
+            "s:6"
+          ],
+          [
+            "s:6",
+            "s:7"
+          ],
+          [
+            "s:7",
+            "s:8"
+          ],
+          [
+            "s:8",
+            "s:9"
+          ],
+          [
+            "s:9",
+            "s:10"
+          ],
+          [
+            "s:10",
+            "s:11"
+          ],
+          [
+            "s:11",
+            "s:12"
+          ],
+          [
+            "s:12",
+            "s:13"
+          ]
+        ],
+        "spine": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11",
+          "s:12",
+          "s:13"
+        ],
+        "roles": {
+          "s:0": {
+            "kind": "spine",
+            "section": 0
+          },
+          "s:1": {
+            "kind": "spine",
+            "section": 1
+          },
+          "s:2": {
+            "kind": "spine",
+            "section": 2
+          },
+          "s:3": {
+            "kind": "spine",
+            "section": 3
+          },
+          "s:4": {
+            "kind": "spine",
+            "section": 4
+          },
+          "s:5": {
+            "kind": "spine",
+            "section": 5
+          },
+          "s:6": {
+            "kind": "spine",
+            "section": 6
+          },
+          "s:7": {
+            "kind": "spine",
+            "section": 7
+          },
+          "s:8": {
+            "kind": "spine",
+            "section": 8
+          },
+          "s:9": {
+            "kind": "spine",
+            "section": 9
+          },
+          "s:10": {
+            "kind": "spine",
+            "section": 10
+          },
+          "s:11": {
+            "kind": "spine",
+            "section": 11
+          },
+          "s:12": {
+            "kind": "spine",
+            "section": 12
+          },
+          "s:13": {
+            "kind": "spine",
+            "section": 13
+          }
+        }
+      },
+      "graph_digest": "d9864a24b9ccff64931823149a5a3fe3791de931ef5f1b3b4a92fd51a1c4856e",
+      "prefix_labels": {
+        "s:0": 12,
+        "s:1": 0,
+        "s:2": 13
+      },
+      "labels": {
+        "s:0": 12,
+        "s:1": 0,
+        "s:2": 13,
+        "s:3": 2,
+        "s:4": 11,
+        "s:5": 1,
+        "s:6": 9,
+        "s:7": 3,
+        "s:8": 10,
+        "s:9": 5,
+        "s:10": 8,
+        "s:11": 4,
+        "s:12": 6,
+        "s:13": 7
+      },
+      "original_edge_differences": [
+        12,
+        13,
+        11,
+        9,
+        10,
+        8,
+        6,
+        7,
+        5,
+        3,
+        4,
+        2,
+        1
+      ],
+      "independent_certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 14,
+        "m": 13,
+        "graph_digest": "d9864a24b9ccff64931823149a5a3fe3791de931ef5f1b3b4a92fd51a1c4856e",
+        "edge_differences": [
+          12,
+          13,
+          11,
+          9,
+          10,
+          8,
+          6,
+          7,
+          5,
+          3,
+          4,
+          2,
+          1
+        ],
+        "claim": "finite certificate for this exact named target only"
+      }
+    },
+    {
+      "K": 12,
+      "original_graph": {
+        "schema_version": 1,
+        "profile": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "vertices": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11",
+          "s:12",
+          "s:13",
+          "s:14"
+        ],
+        "edges": [
+          [
+            "s:0",
+            "s:1"
+          ],
+          [
+            "s:1",
+            "s:2"
+          ],
+          [
+            "s:2",
+            "s:3"
+          ],
+          [
+            "s:3",
+            "s:4"
+          ],
+          [
+            "s:4",
+            "s:5"
+          ],
+          [
+            "s:5",
+            "s:6"
+          ],
+          [
+            "s:6",
+            "s:7"
+          ],
+          [
+            "s:7",
+            "s:8"
+          ],
+          [
+            "s:8",
+            "s:9"
+          ],
+          [
+            "s:9",
+            "s:10"
+          ],
+          [
+            "s:10",
+            "s:11"
+          ],
+          [
+            "s:11",
+            "s:12"
+          ],
+          [
+            "s:12",
+            "s:13"
+          ],
+          [
+            "s:13",
+            "s:14"
+          ]
+        ],
+        "spine": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11",
+          "s:12",
+          "s:13",
+          "s:14"
+        ],
+        "roles": {
+          "s:0": {
+            "kind": "spine",
+            "section": 0
+          },
+          "s:1": {
+            "kind": "spine",
+            "section": 1
+          },
+          "s:2": {
+            "kind": "spine",
+            "section": 2
+          },
+          "s:3": {
+            "kind": "spine",
+            "section": 3
+          },
+          "s:4": {
+            "kind": "spine",
+            "section": 4
+          },
+          "s:5": {
+            "kind": "spine",
+            "section": 5
+          },
+          "s:6": {
+            "kind": "spine",
+            "section": 6
+          },
+          "s:7": {
+            "kind": "spine",
+            "section": 7
+          },
+          "s:8": {
+            "kind": "spine",
+            "section": 8
+          },
+          "s:9": {
+            "kind": "spine",
+            "section": 9
+          },
+          "s:10": {
+            "kind": "spine",
+            "section": 10
+          },
+          "s:11": {
+            "kind": "spine",
+            "section": 11
+          },
+          "s:12": {
+            "kind": "spine",
+            "section": 12
+          },
+          "s:13": {
+            "kind": "spine",
+            "section": 13
+          },
+          "s:14": {
+            "kind": "spine",
+            "section": 14
+          }
+        }
+      },
+      "graph_digest": "db2b5c84e93d57e4ea6d36ed60a29b1a0aa69ca0a38750ea5cf2450507b7ca23",
+      "prefix_labels": {
+        "s:0": 13,
+        "s:1": 0,
+        "s:2": 14
+      },
+      "labels": {
+        "s:0": 13,
+        "s:1": 0,
+        "s:2": 14,
+        "s:3": 2,
+        "s:4": 12,
+        "s:5": 1,
+        "s:6": 10,
+        "s:7": 3,
+        "s:8": 11,
+        "s:9": 5,
+        "s:10": 9,
+        "s:11": 4,
+        "s:12": 7,
+        "s:13": 8,
+        "s:14": 6
+      },
+      "original_edge_differences": [
+        13,
+        14,
+        12,
+        10,
+        11,
+        9,
+        7,
+        8,
+        6,
+        4,
+        5,
+        3,
+        1,
+        2
+      ],
+      "independent_certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 15,
+        "m": 14,
+        "graph_digest": "db2b5c84e93d57e4ea6d36ed60a29b1a0aa69ca0a38750ea5cf2450507b7ca23",
+        "edge_differences": [
+          13,
+          14,
+          12,
+          10,
+          11,
+          9,
+          7,
+          8,
+          6,
+          4,
+          5,
+          3,
+          1,
+          2
+        ],
+        "claim": "finite certificate for this exact named target only"
+      }
+    },
+    {
+      "K": 13,
+      "original_graph": {
+        "schema_version": 1,
+        "profile": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "vertices": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11",
+          "s:12",
+          "s:13",
+          "s:14",
+          "s:15"
+        ],
+        "edges": [
+          [
+            "s:0",
+            "s:1"
+          ],
+          [
+            "s:1",
+            "s:2"
+          ],
+          [
+            "s:2",
+            "s:3"
+          ],
+          [
+            "s:3",
+            "s:4"
+          ],
+          [
+            "s:4",
+            "s:5"
+          ],
+          [
+            "s:5",
+            "s:6"
+          ],
+          [
+            "s:6",
+            "s:7"
+          ],
+          [
+            "s:7",
+            "s:8"
+          ],
+          [
+            "s:8",
+            "s:9"
+          ],
+          [
+            "s:9",
+            "s:10"
+          ],
+          [
+            "s:10",
+            "s:11"
+          ],
+          [
+            "s:11",
+            "s:12"
+          ],
+          [
+            "s:12",
+            "s:13"
+          ],
+          [
+            "s:13",
+            "s:14"
+          ],
+          [
+            "s:14",
+            "s:15"
+          ]
+        ],
+        "spine": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11",
+          "s:12",
+          "s:13",
+          "s:14",
+          "s:15"
+        ],
+        "roles": {
+          "s:0": {
+            "kind": "spine",
+            "section": 0
+          },
+          "s:1": {
+            "kind": "spine",
+            "section": 1
+          },
+          "s:2": {
+            "kind": "spine",
+            "section": 2
+          },
+          "s:3": {
+            "kind": "spine",
+            "section": 3
+          },
+          "s:4": {
+            "kind": "spine",
+            "section": 4
+          },
+          "s:5": {
+            "kind": "spine",
+            "section": 5
+          },
+          "s:6": {
+            "kind": "spine",
+            "section": 6
+          },
+          "s:7": {
+            "kind": "spine",
+            "section": 7
+          },
+          "s:8": {
+            "kind": "spine",
+            "section": 8
+          },
+          "s:9": {
+            "kind": "spine",
+            "section": 9
+          },
+          "s:10": {
+            "kind": "spine",
+            "section": 10
+          },
+          "s:11": {
+            "kind": "spine",
+            "section": 11
+          },
+          "s:12": {
+            "kind": "spine",
+            "section": 12
+          },
+          "s:13": {
+            "kind": "spine",
+            "section": 13
+          },
+          "s:14": {
+            "kind": "spine",
+            "section": 14
+          },
+          "s:15": {
+            "kind": "spine",
+            "section": 15
+          }
+        }
+      },
+      "graph_digest": "ed96b4b04c3987e37c9b8fe7561b3adf81434b03f2712b9a3d95c28ae6bfb0e3",
+      "prefix_labels": {
+        "s:0": 14,
+        "s:1": 0,
+        "s:2": 15
+      },
+      "labels": {
+        "s:0": 14,
+        "s:1": 0,
+        "s:2": 15,
+        "s:3": 2,
+        "s:4": 13,
+        "s:5": 1,
+        "s:6": 11,
+        "s:7": 3,
+        "s:8": 12,
+        "s:9": 5,
+        "s:10": 10,
+        "s:11": 4,
+        "s:12": 8,
+        "s:13": 7,
+        "s:14": 9,
+        "s:15": 6
+      },
+      "original_edge_differences": [
+        14,
+        15,
+        13,
+        11,
+        12,
+        10,
+        8,
+        9,
+        7,
+        5,
+        6,
+        4,
+        1,
+        2,
+        3
+      ],
+      "independent_certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 16,
+        "m": 15,
+        "graph_digest": "ed96b4b04c3987e37c9b8fe7561b3adf81434b03f2712b9a3d95c28ae6bfb0e3",
+        "edge_differences": [
+          14,
+          15,
+          13,
+          11,
+          12,
+          10,
+          8,
+          9,
+          7,
+          5,
+          6,
+          4,
+          1,
+          2,
+          3
+        ],
+        "claim": "finite certificate for this exact named target only"
+      }
+    },
+    {
+      "K": 14,
+      "original_graph": {
+        "schema_version": 1,
+        "profile": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "vertices": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11",
+          "s:12",
+          "s:13",
+          "s:14",
+          "s:15",
+          "s:16"
+        ],
+        "edges": [
+          [
+            "s:0",
+            "s:1"
+          ],
+          [
+            "s:1",
+            "s:2"
+          ],
+          [
+            "s:2",
+            "s:3"
+          ],
+          [
+            "s:3",
+            "s:4"
+          ],
+          [
+            "s:4",
+            "s:5"
+          ],
+          [
+            "s:5",
+            "s:6"
+          ],
+          [
+            "s:6",
+            "s:7"
+          ],
+          [
+            "s:7",
+            "s:8"
+          ],
+          [
+            "s:8",
+            "s:9"
+          ],
+          [
+            "s:9",
+            "s:10"
+          ],
+          [
+            "s:10",
+            "s:11"
+          ],
+          [
+            "s:11",
+            "s:12"
+          ],
+          [
+            "s:12",
+            "s:13"
+          ],
+          [
+            "s:13",
+            "s:14"
+          ],
+          [
+            "s:14",
+            "s:15"
+          ],
+          [
+            "s:15",
+            "s:16"
+          ]
+        ],
+        "spine": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11",
+          "s:12",
+          "s:13",
+          "s:14",
+          "s:15",
+          "s:16"
+        ],
+        "roles": {
+          "s:0": {
+            "kind": "spine",
+            "section": 0
+          },
+          "s:1": {
+            "kind": "spine",
+            "section": 1
+          },
+          "s:2": {
+            "kind": "spine",
+            "section": 2
+          },
+          "s:3": {
+            "kind": "spine",
+            "section": 3
+          },
+          "s:4": {
+            "kind": "spine",
+            "section": 4
+          },
+          "s:5": {
+            "kind": "spine",
+            "section": 5
+          },
+          "s:6": {
+            "kind": "spine",
+            "section": 6
+          },
+          "s:7": {
+            "kind": "spine",
+            "section": 7
+          },
+          "s:8": {
+            "kind": "spine",
+            "section": 8
+          },
+          "s:9": {
+            "kind": "spine",
+            "section": 9
+          },
+          "s:10": {
+            "kind": "spine",
+            "section": 10
+          },
+          "s:11": {
+            "kind": "spine",
+            "section": 11
+          },
+          "s:12": {
+            "kind": "spine",
+            "section": 12
+          },
+          "s:13": {
+            "kind": "spine",
+            "section": 13
+          },
+          "s:14": {
+            "kind": "spine",
+            "section": 14
+          },
+          "s:15": {
+            "kind": "spine",
+            "section": 15
+          },
+          "s:16": {
+            "kind": "spine",
+            "section": 16
+          }
+        }
+      },
+      "graph_digest": "812a93aba32e12458e297146acd015cac71f2ca60686dcd25c554b54ad479768",
+      "prefix_labels": {
+        "s:0": 15,
+        "s:1": 0,
+        "s:2": 16
+      },
+      "labels": {
+        "s:0": 15,
+        "s:1": 0,
+        "s:2": 16,
+        "s:3": 2,
+        "s:4": 14,
+        "s:5": 1,
+        "s:6": 12,
+        "s:7": 3,
+        "s:8": 13,
+        "s:9": 5,
+        "s:10": 11,
+        "s:11": 4,
+        "s:12": 9,
+        "s:13": 6,
+        "s:14": 10,
+        "s:15": 8,
+        "s:16": 7
+      },
+      "original_edge_differences": [
+        15,
+        16,
+        14,
+        12,
+        13,
+        11,
+        9,
+        10,
+        8,
+        6,
+        7,
+        5,
+        3,
+        4,
+        2,
+        1
+      ],
+      "independent_certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 17,
+        "m": 16,
+        "graph_digest": "812a93aba32e12458e297146acd015cac71f2ca60686dcd25c554b54ad479768",
+        "edge_differences": [
+          15,
+          16,
+          14,
+          12,
+          13,
+          11,
+          9,
+          10,
+          8,
+          6,
+          7,
+          5,
+          3,
+          4,
+          2,
+          1
+        ],
+        "claim": "finite certificate for this exact named target only"
+      }
+    },
+    {
+      "K": 15,
+      "original_graph": {
+        "schema_version": 1,
+        "profile": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "vertices": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11",
+          "s:12",
+          "s:13",
+          "s:14",
+          "s:15",
+          "s:16",
+          "s:17"
+        ],
+        "edges": [
+          [
+            "s:0",
+            "s:1"
+          ],
+          [
+            "s:1",
+            "s:2"
+          ],
+          [
+            "s:2",
+            "s:3"
+          ],
+          [
+            "s:3",
+            "s:4"
+          ],
+          [
+            "s:4",
+            "s:5"
+          ],
+          [
+            "s:5",
+            "s:6"
+          ],
+          [
+            "s:6",
+            "s:7"
+          ],
+          [
+            "s:7",
+            "s:8"
+          ],
+          [
+            "s:8",
+            "s:9"
+          ],
+          [
+            "s:9",
+            "s:10"
+          ],
+          [
+            "s:10",
+            "s:11"
+          ],
+          [
+            "s:11",
+            "s:12"
+          ],
+          [
+            "s:12",
+            "s:13"
+          ],
+          [
+            "s:13",
+            "s:14"
+          ],
+          [
+            "s:14",
+            "s:15"
+          ],
+          [
+            "s:15",
+            "s:16"
+          ],
+          [
+            "s:16",
+            "s:17"
+          ]
+        ],
+        "spine": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11",
+          "s:12",
+          "s:13",
+          "s:14",
+          "s:15",
+          "s:16",
+          "s:17"
+        ],
+        "roles": {
+          "s:0": {
+            "kind": "spine",
+            "section": 0
+          },
+          "s:1": {
+            "kind": "spine",
+            "section": 1
+          },
+          "s:2": {
+            "kind": "spine",
+            "section": 2
+          },
+          "s:3": {
+            "kind": "spine",
+            "section": 3
+          },
+          "s:4": {
+            "kind": "spine",
+            "section": 4
+          },
+          "s:5": {
+            "kind": "spine",
+            "section": 5
+          },
+          "s:6": {
+            "kind": "spine",
+            "section": 6
+          },
+          "s:7": {
+            "kind": "spine",
+            "section": 7
+          },
+          "s:8": {
+            "kind": "spine",
+            "section": 8
+          },
+          "s:9": {
+            "kind": "spine",
+            "section": 9
+          },
+          "s:10": {
+            "kind": "spine",
+            "section": 10
+          },
+          "s:11": {
+            "kind": "spine",
+            "section": 11
+          },
+          "s:12": {
+            "kind": "spine",
+            "section": 12
+          },
+          "s:13": {
+            "kind": "spine",
+            "section": 13
+          },
+          "s:14": {
+            "kind": "spine",
+            "section": 14
+          },
+          "s:15": {
+            "kind": "spine",
+            "section": 15
+          },
+          "s:16": {
+            "kind": "spine",
+            "section": 16
+          },
+          "s:17": {
+            "kind": "spine",
+            "section": 17
+          }
+        }
+      },
+      "graph_digest": "f8ff4e61e08efda843a01e46f4544b695e22efc9790161923fce847251b7527f",
+      "prefix_labels": {
+        "s:0": 16,
+        "s:1": 0,
+        "s:2": 17
+      },
+      "labels": {
+        "s:0": 16,
+        "s:1": 0,
+        "s:2": 17,
+        "s:3": 2,
+        "s:4": 15,
+        "s:5": 1,
+        "s:6": 13,
+        "s:7": 3,
+        "s:8": 14,
+        "s:9": 5,
+        "s:10": 12,
+        "s:11": 4,
+        "s:12": 10,
+        "s:13": 6,
+        "s:14": 11,
+        "s:15": 8,
+        "s:16": 7,
+        "s:17": 9
+      },
+      "original_edge_differences": [
+        16,
+        17,
+        15,
+        13,
+        14,
+        12,
+        10,
+        11,
+        9,
+        7,
+        8,
+        6,
+        4,
+        5,
+        3,
+        1,
+        2
+      ],
+      "independent_certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 18,
+        "m": 17,
+        "graph_digest": "f8ff4e61e08efda843a01e46f4544b695e22efc9790161923fce847251b7527f",
+        "edge_differences": [
+          16,
+          17,
+          15,
+          13,
+          14,
+          12,
+          10,
+          11,
+          9,
+          7,
+          8,
+          6,
+          4,
+          5,
+          3,
+          1,
+          2
+        ],
+        "claim": "finite certificate for this exact named target only"
+      }
+    },
+    {
+      "K": 16,
+      "original_graph": {
+        "schema_version": 1,
+        "profile": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "vertices": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11",
+          "s:12",
+          "s:13",
+          "s:14",
+          "s:15",
+          "s:16",
+          "s:17",
+          "s:18"
+        ],
+        "edges": [
+          [
+            "s:0",
+            "s:1"
+          ],
+          [
+            "s:1",
+            "s:2"
+          ],
+          [
+            "s:2",
+            "s:3"
+          ],
+          [
+            "s:3",
+            "s:4"
+          ],
+          [
+            "s:4",
+            "s:5"
+          ],
+          [
+            "s:5",
+            "s:6"
+          ],
+          [
+            "s:6",
+            "s:7"
+          ],
+          [
+            "s:7",
+            "s:8"
+          ],
+          [
+            "s:8",
+            "s:9"
+          ],
+          [
+            "s:9",
+            "s:10"
+          ],
+          [
+            "s:10",
+            "s:11"
+          ],
+          [
+            "s:11",
+            "s:12"
+          ],
+          [
+            "s:12",
+            "s:13"
+          ],
+          [
+            "s:13",
+            "s:14"
+          ],
+          [
+            "s:14",
+            "s:15"
+          ],
+          [
+            "s:15",
+            "s:16"
+          ],
+          [
+            "s:16",
+            "s:17"
+          ],
+          [
+            "s:17",
+            "s:18"
+          ]
+        ],
+        "spine": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11",
+          "s:12",
+          "s:13",
+          "s:14",
+          "s:15",
+          "s:16",
+          "s:17",
+          "s:18"
+        ],
+        "roles": {
+          "s:0": {
+            "kind": "spine",
+            "section": 0
+          },
+          "s:1": {
+            "kind": "spine",
+            "section": 1
+          },
+          "s:2": {
+            "kind": "spine",
+            "section": 2
+          },
+          "s:3": {
+            "kind": "spine",
+            "section": 3
+          },
+          "s:4": {
+            "kind": "spine",
+            "section": 4
+          },
+          "s:5": {
+            "kind": "spine",
+            "section": 5
+          },
+          "s:6": {
+            "kind": "spine",
+            "section": 6
+          },
+          "s:7": {
+            "kind": "spine",
+            "section": 7
+          },
+          "s:8": {
+            "kind": "spine",
+            "section": 8
+          },
+          "s:9": {
+            "kind": "spine",
+            "section": 9
+          },
+          "s:10": {
+            "kind": "spine",
+            "section": 10
+          },
+          "s:11": {
+            "kind": "spine",
+            "section": 11
+          },
+          "s:12": {
+            "kind": "spine",
+            "section": 12
+          },
+          "s:13": {
+            "kind": "spine",
+            "section": 13
+          },
+          "s:14": {
+            "kind": "spine",
+            "section": 14
+          },
+          "s:15": {
+            "kind": "spine",
+            "section": 15
+          },
+          "s:16": {
+            "kind": "spine",
+            "section": 16
+          },
+          "s:17": {
+            "kind": "spine",
+            "section": 17
+          },
+          "s:18": {
+            "kind": "spine",
+            "section": 18
+          }
+        }
+      },
+      "graph_digest": "f8e874d3f187fb40c909c536ed9d6f12ebe7832a29e54d2cda10696d6aa188dc",
+      "prefix_labels": {
+        "s:0": 17,
+        "s:1": 0,
+        "s:2": 18
+      },
+      "labels": {
+        "s:0": 17,
+        "s:1": 0,
+        "s:2": 18,
+        "s:3": 2,
+        "s:4": 16,
+        "s:5": 1,
+        "s:6": 14,
+        "s:7": 3,
+        "s:8": 15,
+        "s:9": 5,
+        "s:10": 13,
+        "s:11": 4,
+        "s:12": 11,
+        "s:13": 6,
+        "s:14": 12,
+        "s:15": 8,
+        "s:16": 9,
+        "s:17": 7,
+        "s:18": 10
+      },
+      "original_edge_differences": [
+        17,
+        18,
+        16,
+        14,
+        15,
+        13,
+        11,
+        12,
+        10,
+        8,
+        9,
+        7,
+        5,
+        6,
+        4,
+        1,
+        2,
+        3
+      ],
+      "independent_certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 19,
+        "m": 18,
+        "graph_digest": "f8e874d3f187fb40c909c536ed9d6f12ebe7832a29e54d2cda10696d6aa188dc",
+        "edge_differences": [
+          17,
+          18,
+          16,
+          14,
+          15,
+          13,
+          11,
+          12,
+          10,
+          8,
+          9,
+          7,
+          5,
+          6,
+          4,
+          1,
+          2,
+          3
+        ],
+        "claim": "finite certificate for this exact named target only"
+      }
+    },
+    {
+      "K": 17,
+      "original_graph": {
+        "schema_version": 1,
+        "profile": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "vertices": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11",
+          "s:12",
+          "s:13",
+          "s:14",
+          "s:15",
+          "s:16",
+          "s:17",
+          "s:18",
+          "s:19"
+        ],
+        "edges": [
+          [
+            "s:0",
+            "s:1"
+          ],
+          [
+            "s:1",
+            "s:2"
+          ],
+          [
+            "s:2",
+            "s:3"
+          ],
+          [
+            "s:3",
+            "s:4"
+          ],
+          [
+            "s:4",
+            "s:5"
+          ],
+          [
+            "s:5",
+            "s:6"
+          ],
+          [
+            "s:6",
+            "s:7"
+          ],
+          [
+            "s:7",
+            "s:8"
+          ],
+          [
+            "s:8",
+            "s:9"
+          ],
+          [
+            "s:9",
+            "s:10"
+          ],
+          [
+            "s:10",
+            "s:11"
+          ],
+          [
+            "s:11",
+            "s:12"
+          ],
+          [
+            "s:12",
+            "s:13"
+          ],
+          [
+            "s:13",
+            "s:14"
+          ],
+          [
+            "s:14",
+            "s:15"
+          ],
+          [
+            "s:15",
+            "s:16"
+          ],
+          [
+            "s:16",
+            "s:17"
+          ],
+          [
+            "s:17",
+            "s:18"
+          ],
+          [
+            "s:18",
+            "s:19"
+          ]
+        ],
+        "spine": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11",
+          "s:12",
+          "s:13",
+          "s:14",
+          "s:15",
+          "s:16",
+          "s:17",
+          "s:18",
+          "s:19"
+        ],
+        "roles": {
+          "s:0": {
+            "kind": "spine",
+            "section": 0
+          },
+          "s:1": {
+            "kind": "spine",
+            "section": 1
+          },
+          "s:2": {
+            "kind": "spine",
+            "section": 2
+          },
+          "s:3": {
+            "kind": "spine",
+            "section": 3
+          },
+          "s:4": {
+            "kind": "spine",
+            "section": 4
+          },
+          "s:5": {
+            "kind": "spine",
+            "section": 5
+          },
+          "s:6": {
+            "kind": "spine",
+            "section": 6
+          },
+          "s:7": {
+            "kind": "spine",
+            "section": 7
+          },
+          "s:8": {
+            "kind": "spine",
+            "section": 8
+          },
+          "s:9": {
+            "kind": "spine",
+            "section": 9
+          },
+          "s:10": {
+            "kind": "spine",
+            "section": 10
+          },
+          "s:11": {
+            "kind": "spine",
+            "section": 11
+          },
+          "s:12": {
+            "kind": "spine",
+            "section": 12
+          },
+          "s:13": {
+            "kind": "spine",
+            "section": 13
+          },
+          "s:14": {
+            "kind": "spine",
+            "section": 14
+          },
+          "s:15": {
+            "kind": "spine",
+            "section": 15
+          },
+          "s:16": {
+            "kind": "spine",
+            "section": 16
+          },
+          "s:17": {
+            "kind": "spine",
+            "section": 17
+          },
+          "s:18": {
+            "kind": "spine",
+            "section": 18
+          },
+          "s:19": {
+            "kind": "spine",
+            "section": 19
+          }
+        }
+      },
+      "graph_digest": "916592c1cb8076bbc99ab999004f1f5514abc0fbbae6d18ebeae3c2d3e19fa49",
+      "prefix_labels": {
+        "s:0": 18,
+        "s:1": 0,
+        "s:2": 19
+      },
+      "labels": {
+        "s:0": 18,
+        "s:1": 0,
+        "s:2": 19,
+        "s:3": 2,
+        "s:4": 17,
+        "s:5": 1,
+        "s:6": 15,
+        "s:7": 3,
+        "s:8": 16,
+        "s:9": 5,
+        "s:10": 14,
+        "s:11": 4,
+        "s:12": 12,
+        "s:13": 6,
+        "s:14": 13,
+        "s:15": 8,
+        "s:16": 11,
+        "s:17": 7,
+        "s:18": 9,
+        "s:19": 10
+      },
+      "original_edge_differences": [
+        18,
+        19,
+        17,
+        15,
+        16,
+        14,
+        12,
+        13,
+        11,
+        9,
+        10,
+        8,
+        6,
+        7,
+        5,
+        3,
+        4,
+        2,
+        1
+      ],
+      "independent_certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 20,
+        "m": 19,
+        "graph_digest": "916592c1cb8076bbc99ab999004f1f5514abc0fbbae6d18ebeae3c2d3e19fa49",
+        "edge_differences": [
+          18,
+          19,
+          17,
+          15,
+          16,
+          14,
+          12,
+          13,
+          11,
+          9,
+          10,
+          8,
+          6,
+          7,
+          5,
+          3,
+          4,
+          2,
+          1
+        ],
+        "claim": "finite certificate for this exact named target only"
+      }
+    },
+    {
+      "K": 18,
+      "original_graph": {
+        "schema_version": 1,
+        "profile": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "vertices": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11",
+          "s:12",
+          "s:13",
+          "s:14",
+          "s:15",
+          "s:16",
+          "s:17",
+          "s:18",
+          "s:19",
+          "s:20"
+        ],
+        "edges": [
+          [
+            "s:0",
+            "s:1"
+          ],
+          [
+            "s:1",
+            "s:2"
+          ],
+          [
+            "s:2",
+            "s:3"
+          ],
+          [
+            "s:3",
+            "s:4"
+          ],
+          [
+            "s:4",
+            "s:5"
+          ],
+          [
+            "s:5",
+            "s:6"
+          ],
+          [
+            "s:6",
+            "s:7"
+          ],
+          [
+            "s:7",
+            "s:8"
+          ],
+          [
+            "s:8",
+            "s:9"
+          ],
+          [
+            "s:9",
+            "s:10"
+          ],
+          [
+            "s:10",
+            "s:11"
+          ],
+          [
+            "s:11",
+            "s:12"
+          ],
+          [
+            "s:12",
+            "s:13"
+          ],
+          [
+            "s:13",
+            "s:14"
+          ],
+          [
+            "s:14",
+            "s:15"
+          ],
+          [
+            "s:15",
+            "s:16"
+          ],
+          [
+            "s:16",
+            "s:17"
+          ],
+          [
+            "s:17",
+            "s:18"
+          ],
+          [
+            "s:18",
+            "s:19"
+          ],
+          [
+            "s:19",
+            "s:20"
+          ]
+        ],
+        "spine": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11",
+          "s:12",
+          "s:13",
+          "s:14",
+          "s:15",
+          "s:16",
+          "s:17",
+          "s:18",
+          "s:19",
+          "s:20"
+        ],
+        "roles": {
+          "s:0": {
+            "kind": "spine",
+            "section": 0
+          },
+          "s:1": {
+            "kind": "spine",
+            "section": 1
+          },
+          "s:2": {
+            "kind": "spine",
+            "section": 2
+          },
+          "s:3": {
+            "kind": "spine",
+            "section": 3
+          },
+          "s:4": {
+            "kind": "spine",
+            "section": 4
+          },
+          "s:5": {
+            "kind": "spine",
+            "section": 5
+          },
+          "s:6": {
+            "kind": "spine",
+            "section": 6
+          },
+          "s:7": {
+            "kind": "spine",
+            "section": 7
+          },
+          "s:8": {
+            "kind": "spine",
+            "section": 8
+          },
+          "s:9": {
+            "kind": "spine",
+            "section": 9
+          },
+          "s:10": {
+            "kind": "spine",
+            "section": 10
+          },
+          "s:11": {
+            "kind": "spine",
+            "section": 11
+          },
+          "s:12": {
+            "kind": "spine",
+            "section": 12
+          },
+          "s:13": {
+            "kind": "spine",
+            "section": 13
+          },
+          "s:14": {
+            "kind": "spine",
+            "section": 14
+          },
+          "s:15": {
+            "kind": "spine",
+            "section": 15
+          },
+          "s:16": {
+            "kind": "spine",
+            "section": 16
+          },
+          "s:17": {
+            "kind": "spine",
+            "section": 17
+          },
+          "s:18": {
+            "kind": "spine",
+            "section": 18
+          },
+          "s:19": {
+            "kind": "spine",
+            "section": 19
+          },
+          "s:20": {
+            "kind": "spine",
+            "section": 20
+          }
+        }
+      },
+      "graph_digest": "b16d461509dac604494ff02c5f7c4fb61da23e76a913724434e712dd45acd5a7",
+      "prefix_labels": {
+        "s:0": 19,
+        "s:1": 0,
+        "s:2": 20
+      },
+      "labels": {
+        "s:0": 19,
+        "s:1": 0,
+        "s:2": 20,
+        "s:3": 2,
+        "s:4": 18,
+        "s:5": 1,
+        "s:6": 16,
+        "s:7": 3,
+        "s:8": 17,
+        "s:9": 5,
+        "s:10": 15,
+        "s:11": 4,
+        "s:12": 13,
+        "s:13": 6,
+        "s:14": 14,
+        "s:15": 8,
+        "s:16": 12,
+        "s:17": 7,
+        "s:18": 10,
+        "s:19": 11,
+        "s:20": 9
+      },
+      "original_edge_differences": [
+        19,
+        20,
+        18,
+        16,
+        17,
+        15,
+        13,
+        14,
+        12,
+        10,
+        11,
+        9,
+        7,
+        8,
+        6,
+        4,
+        5,
+        3,
+        1,
+        2
+      ],
+      "independent_certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 21,
+        "m": 20,
+        "graph_digest": "b16d461509dac604494ff02c5f7c4fb61da23e76a913724434e712dd45acd5a7",
+        "edge_differences": [
+          19,
+          20,
+          18,
+          16,
+          17,
+          15,
+          13,
+          14,
+          12,
+          10,
+          11,
+          9,
+          7,
+          8,
+          6,
+          4,
+          5,
+          3,
+          1,
+          2
+        ],
+        "claim": "finite certificate for this exact named target only"
+      }
+    },
+    {
+      "K": 19,
+      "original_graph": {
+        "schema_version": 1,
+        "profile": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "vertices": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11",
+          "s:12",
+          "s:13",
+          "s:14",
+          "s:15",
+          "s:16",
+          "s:17",
+          "s:18",
+          "s:19",
+          "s:20",
+          "s:21"
+        ],
+        "edges": [
+          [
+            "s:0",
+            "s:1"
+          ],
+          [
+            "s:1",
+            "s:2"
+          ],
+          [
+            "s:2",
+            "s:3"
+          ],
+          [
+            "s:3",
+            "s:4"
+          ],
+          [
+            "s:4",
+            "s:5"
+          ],
+          [
+            "s:5",
+            "s:6"
+          ],
+          [
+            "s:6",
+            "s:7"
+          ],
+          [
+            "s:7",
+            "s:8"
+          ],
+          [
+            "s:8",
+            "s:9"
+          ],
+          [
+            "s:9",
+            "s:10"
+          ],
+          [
+            "s:10",
+            "s:11"
+          ],
+          [
+            "s:11",
+            "s:12"
+          ],
+          [
+            "s:12",
+            "s:13"
+          ],
+          [
+            "s:13",
+            "s:14"
+          ],
+          [
+            "s:14",
+            "s:15"
+          ],
+          [
+            "s:15",
+            "s:16"
+          ],
+          [
+            "s:16",
+            "s:17"
+          ],
+          [
+            "s:17",
+            "s:18"
+          ],
+          [
+            "s:18",
+            "s:19"
+          ],
+          [
+            "s:19",
+            "s:20"
+          ],
+          [
+            "s:20",
+            "s:21"
+          ]
+        ],
+        "spine": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11",
+          "s:12",
+          "s:13",
+          "s:14",
+          "s:15",
+          "s:16",
+          "s:17",
+          "s:18",
+          "s:19",
+          "s:20",
+          "s:21"
+        ],
+        "roles": {
+          "s:0": {
+            "kind": "spine",
+            "section": 0
+          },
+          "s:1": {
+            "kind": "spine",
+            "section": 1
+          },
+          "s:2": {
+            "kind": "spine",
+            "section": 2
+          },
+          "s:3": {
+            "kind": "spine",
+            "section": 3
+          },
+          "s:4": {
+            "kind": "spine",
+            "section": 4
+          },
+          "s:5": {
+            "kind": "spine",
+            "section": 5
+          },
+          "s:6": {
+            "kind": "spine",
+            "section": 6
+          },
+          "s:7": {
+            "kind": "spine",
+            "section": 7
+          },
+          "s:8": {
+            "kind": "spine",
+            "section": 8
+          },
+          "s:9": {
+            "kind": "spine",
+            "section": 9
+          },
+          "s:10": {
+            "kind": "spine",
+            "section": 10
+          },
+          "s:11": {
+            "kind": "spine",
+            "section": 11
+          },
+          "s:12": {
+            "kind": "spine",
+            "section": 12
+          },
+          "s:13": {
+            "kind": "spine",
+            "section": 13
+          },
+          "s:14": {
+            "kind": "spine",
+            "section": 14
+          },
+          "s:15": {
+            "kind": "spine",
+            "section": 15
+          },
+          "s:16": {
+            "kind": "spine",
+            "section": 16
+          },
+          "s:17": {
+            "kind": "spine",
+            "section": 17
+          },
+          "s:18": {
+            "kind": "spine",
+            "section": 18
+          },
+          "s:19": {
+            "kind": "spine",
+            "section": 19
+          },
+          "s:20": {
+            "kind": "spine",
+            "section": 20
+          },
+          "s:21": {
+            "kind": "spine",
+            "section": 21
+          }
+        }
+      },
+      "graph_digest": "9f367aa3eda539cb4eb76822288501d80f391e42f7a8e095681b69bddd9a2c65",
+      "prefix_labels": {
+        "s:0": 20,
+        "s:1": 0,
+        "s:2": 21
+      },
+      "labels": {
+        "s:0": 20,
+        "s:1": 0,
+        "s:2": 21,
+        "s:3": 2,
+        "s:4": 19,
+        "s:5": 1,
+        "s:6": 17,
+        "s:7": 3,
+        "s:8": 18,
+        "s:9": 5,
+        "s:10": 16,
+        "s:11": 4,
+        "s:12": 14,
+        "s:13": 6,
+        "s:14": 15,
+        "s:15": 8,
+        "s:16": 13,
+        "s:17": 7,
+        "s:18": 11,
+        "s:19": 10,
+        "s:20": 12,
+        "s:21": 9
+      },
+      "original_edge_differences": [
+        20,
+        21,
+        19,
+        17,
+        18,
+        16,
+        14,
+        15,
+        13,
+        11,
+        12,
+        10,
+        8,
+        9,
+        7,
+        5,
+        6,
+        4,
+        1,
+        2,
+        3
+      ],
+      "independent_certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 22,
+        "m": 21,
+        "graph_digest": "9f367aa3eda539cb4eb76822288501d80f391e42f7a8e095681b69bddd9a2c65",
+        "edge_differences": [
+          20,
+          21,
+          19,
+          17,
+          18,
+          16,
+          14,
+          15,
+          13,
+          11,
+          12,
+          10,
+          8,
+          9,
+          7,
+          5,
+          6,
+          4,
+          1,
+          2,
+          3
+        ],
+        "claim": "finite certificate for this exact named target only"
+      }
+    },
+    {
+      "K": 20,
+      "original_graph": {
+        "schema_version": 1,
+        "profile": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "vertices": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11",
+          "s:12",
+          "s:13",
+          "s:14",
+          "s:15",
+          "s:16",
+          "s:17",
+          "s:18",
+          "s:19",
+          "s:20",
+          "s:21",
+          "s:22"
+        ],
+        "edges": [
+          [
+            "s:0",
+            "s:1"
+          ],
+          [
+            "s:1",
+            "s:2"
+          ],
+          [
+            "s:2",
+            "s:3"
+          ],
+          [
+            "s:3",
+            "s:4"
+          ],
+          [
+            "s:4",
+            "s:5"
+          ],
+          [
+            "s:5",
+            "s:6"
+          ],
+          [
+            "s:6",
+            "s:7"
+          ],
+          [
+            "s:7",
+            "s:8"
+          ],
+          [
+            "s:8",
+            "s:9"
+          ],
+          [
+            "s:9",
+            "s:10"
+          ],
+          [
+            "s:10",
+            "s:11"
+          ],
+          [
+            "s:11",
+            "s:12"
+          ],
+          [
+            "s:12",
+            "s:13"
+          ],
+          [
+            "s:13",
+            "s:14"
+          ],
+          [
+            "s:14",
+            "s:15"
+          ],
+          [
+            "s:15",
+            "s:16"
+          ],
+          [
+            "s:16",
+            "s:17"
+          ],
+          [
+            "s:17",
+            "s:18"
+          ],
+          [
+            "s:18",
+            "s:19"
+          ],
+          [
+            "s:19",
+            "s:20"
+          ],
+          [
+            "s:20",
+            "s:21"
+          ],
+          [
+            "s:21",
+            "s:22"
+          ]
+        ],
+        "spine": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11",
+          "s:12",
+          "s:13",
+          "s:14",
+          "s:15",
+          "s:16",
+          "s:17",
+          "s:18",
+          "s:19",
+          "s:20",
+          "s:21",
+          "s:22"
+        ],
+        "roles": {
+          "s:0": {
+            "kind": "spine",
+            "section": 0
+          },
+          "s:1": {
+            "kind": "spine",
+            "section": 1
+          },
+          "s:2": {
+            "kind": "spine",
+            "section": 2
+          },
+          "s:3": {
+            "kind": "spine",
+            "section": 3
+          },
+          "s:4": {
+            "kind": "spine",
+            "section": 4
+          },
+          "s:5": {
+            "kind": "spine",
+            "section": 5
+          },
+          "s:6": {
+            "kind": "spine",
+            "section": 6
+          },
+          "s:7": {
+            "kind": "spine",
+            "section": 7
+          },
+          "s:8": {
+            "kind": "spine",
+            "section": 8
+          },
+          "s:9": {
+            "kind": "spine",
+            "section": 9
+          },
+          "s:10": {
+            "kind": "spine",
+            "section": 10
+          },
+          "s:11": {
+            "kind": "spine",
+            "section": 11
+          },
+          "s:12": {
+            "kind": "spine",
+            "section": 12
+          },
+          "s:13": {
+            "kind": "spine",
+            "section": 13
+          },
+          "s:14": {
+            "kind": "spine",
+            "section": 14
+          },
+          "s:15": {
+            "kind": "spine",
+            "section": 15
+          },
+          "s:16": {
+            "kind": "spine",
+            "section": 16
+          },
+          "s:17": {
+            "kind": "spine",
+            "section": 17
+          },
+          "s:18": {
+            "kind": "spine",
+            "section": 18
+          },
+          "s:19": {
+            "kind": "spine",
+            "section": 19
+          },
+          "s:20": {
+            "kind": "spine",
+            "section": 20
+          },
+          "s:21": {
+            "kind": "spine",
+            "section": 21
+          },
+          "s:22": {
+            "kind": "spine",
+            "section": 22
+          }
+        }
+      },
+      "graph_digest": "948a3154d886d2d9e1ecacf3c957277e2ff7b24a924eaaea1c3a1d7693942242",
+      "prefix_labels": {
+        "s:0": 21,
+        "s:1": 0,
+        "s:2": 22
+      },
+      "labels": {
+        "s:0": 21,
+        "s:1": 0,
+        "s:2": 22,
+        "s:3": 2,
+        "s:4": 20,
+        "s:5": 1,
+        "s:6": 18,
+        "s:7": 3,
+        "s:8": 19,
+        "s:9": 5,
+        "s:10": 17,
+        "s:11": 4,
+        "s:12": 15,
+        "s:13": 6,
+        "s:14": 16,
+        "s:15": 8,
+        "s:16": 14,
+        "s:17": 7,
+        "s:18": 12,
+        "s:19": 9,
+        "s:20": 13,
+        "s:21": 11,
+        "s:22": 10
+      },
+      "original_edge_differences": [
+        21,
+        22,
+        20,
+        18,
+        19,
+        17,
+        15,
+        16,
+        14,
+        12,
+        13,
+        11,
+        9,
+        10,
+        8,
+        6,
+        7,
+        5,
+        3,
+        4,
+        2,
+        1
+      ],
+      "independent_certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 23,
+        "m": 22,
+        "graph_digest": "948a3154d886d2d9e1ecacf3c957277e2ff7b24a924eaaea1c3a1d7693942242",
+        "edge_differences": [
+          21,
+          22,
+          20,
+          18,
+          19,
+          17,
+          15,
+          16,
+          14,
+          12,
+          13,
+          11,
+          9,
+          10,
+          8,
+          6,
+          7,
+          5,
+          3,
+          4,
+          2,
+          1
+        ],
+        "claim": "finite certificate for this exact named target only"
+      }
+    },
+    {
+      "K": 21,
+      "original_graph": {
+        "schema_version": 1,
+        "profile": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "vertices": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11",
+          "s:12",
+          "s:13",
+          "s:14",
+          "s:15",
+          "s:16",
+          "s:17",
+          "s:18",
+          "s:19",
+          "s:20",
+          "s:21",
+          "s:22",
+          "s:23"
+        ],
+        "edges": [
+          [
+            "s:0",
+            "s:1"
+          ],
+          [
+            "s:1",
+            "s:2"
+          ],
+          [
+            "s:2",
+            "s:3"
+          ],
+          [
+            "s:3",
+            "s:4"
+          ],
+          [
+            "s:4",
+            "s:5"
+          ],
+          [
+            "s:5",
+            "s:6"
+          ],
+          [
+            "s:6",
+            "s:7"
+          ],
+          [
+            "s:7",
+            "s:8"
+          ],
+          [
+            "s:8",
+            "s:9"
+          ],
+          [
+            "s:9",
+            "s:10"
+          ],
+          [
+            "s:10",
+            "s:11"
+          ],
+          [
+            "s:11",
+            "s:12"
+          ],
+          [
+            "s:12",
+            "s:13"
+          ],
+          [
+            "s:13",
+            "s:14"
+          ],
+          [
+            "s:14",
+            "s:15"
+          ],
+          [
+            "s:15",
+            "s:16"
+          ],
+          [
+            "s:16",
+            "s:17"
+          ],
+          [
+            "s:17",
+            "s:18"
+          ],
+          [
+            "s:18",
+            "s:19"
+          ],
+          [
+            "s:19",
+            "s:20"
+          ],
+          [
+            "s:20",
+            "s:21"
+          ],
+          [
+            "s:21",
+            "s:22"
+          ],
+          [
+            "s:22",
+            "s:23"
+          ]
+        ],
+        "spine": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11",
+          "s:12",
+          "s:13",
+          "s:14",
+          "s:15",
+          "s:16",
+          "s:17",
+          "s:18",
+          "s:19",
+          "s:20",
+          "s:21",
+          "s:22",
+          "s:23"
+        ],
+        "roles": {
+          "s:0": {
+            "kind": "spine",
+            "section": 0
+          },
+          "s:1": {
+            "kind": "spine",
+            "section": 1
+          },
+          "s:2": {
+            "kind": "spine",
+            "section": 2
+          },
+          "s:3": {
+            "kind": "spine",
+            "section": 3
+          },
+          "s:4": {
+            "kind": "spine",
+            "section": 4
+          },
+          "s:5": {
+            "kind": "spine",
+            "section": 5
+          },
+          "s:6": {
+            "kind": "spine",
+            "section": 6
+          },
+          "s:7": {
+            "kind": "spine",
+            "section": 7
+          },
+          "s:8": {
+            "kind": "spine",
+            "section": 8
+          },
+          "s:9": {
+            "kind": "spine",
+            "section": 9
+          },
+          "s:10": {
+            "kind": "spine",
+            "section": 10
+          },
+          "s:11": {
+            "kind": "spine",
+            "section": 11
+          },
+          "s:12": {
+            "kind": "spine",
+            "section": 12
+          },
+          "s:13": {
+            "kind": "spine",
+            "section": 13
+          },
+          "s:14": {
+            "kind": "spine",
+            "section": 14
+          },
+          "s:15": {
+            "kind": "spine",
+            "section": 15
+          },
+          "s:16": {
+            "kind": "spine",
+            "section": 16
+          },
+          "s:17": {
+            "kind": "spine",
+            "section": 17
+          },
+          "s:18": {
+            "kind": "spine",
+            "section": 18
+          },
+          "s:19": {
+            "kind": "spine",
+            "section": 19
+          },
+          "s:20": {
+            "kind": "spine",
+            "section": 20
+          },
+          "s:21": {
+            "kind": "spine",
+            "section": 21
+          },
+          "s:22": {
+            "kind": "spine",
+            "section": 22
+          },
+          "s:23": {
+            "kind": "spine",
+            "section": 23
+          }
+        }
+      },
+      "graph_digest": "3a774dc1c80f73238e06bf1fe29db0ad91d830d1f3069f664ac9da1d86e001e3",
+      "prefix_labels": {
+        "s:0": 22,
+        "s:1": 0,
+        "s:2": 23
+      },
+      "labels": {
+        "s:0": 22,
+        "s:1": 0,
+        "s:2": 23,
+        "s:3": 2,
+        "s:4": 21,
+        "s:5": 1,
+        "s:6": 19,
+        "s:7": 3,
+        "s:8": 20,
+        "s:9": 5,
+        "s:10": 18,
+        "s:11": 4,
+        "s:12": 16,
+        "s:13": 6,
+        "s:14": 17,
+        "s:15": 8,
+        "s:16": 15,
+        "s:17": 7,
+        "s:18": 13,
+        "s:19": 9,
+        "s:20": 14,
+        "s:21": 11,
+        "s:22": 10,
+        "s:23": 12
+      },
+      "original_edge_differences": [
+        22,
+        23,
+        21,
+        19,
+        20,
+        18,
+        16,
+        17,
+        15,
+        13,
+        14,
+        12,
+        10,
+        11,
+        9,
+        7,
+        8,
+        6,
+        4,
+        5,
+        3,
+        1,
+        2
+      ],
+      "independent_certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 24,
+        "m": 23,
+        "graph_digest": "3a774dc1c80f73238e06bf1fe29db0ad91d830d1f3069f664ac9da1d86e001e3",
+        "edge_differences": [
+          22,
+          23,
+          21,
+          19,
+          20,
+          18,
+          16,
+          17,
+          15,
+          13,
+          14,
+          12,
+          10,
+          11,
+          9,
+          7,
+          8,
+          6,
+          4,
+          5,
+          3,
+          1,
+          2
+        ],
+        "claim": "finite certificate for this exact named target only"
+      }
+    },
+    {
+      "K": 22,
+      "original_graph": {
+        "schema_version": 1,
+        "profile": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "vertices": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11",
+          "s:12",
+          "s:13",
+          "s:14",
+          "s:15",
+          "s:16",
+          "s:17",
+          "s:18",
+          "s:19",
+          "s:20",
+          "s:21",
+          "s:22",
+          "s:23",
+          "s:24"
+        ],
+        "edges": [
+          [
+            "s:0",
+            "s:1"
+          ],
+          [
+            "s:1",
+            "s:2"
+          ],
+          [
+            "s:2",
+            "s:3"
+          ],
+          [
+            "s:3",
+            "s:4"
+          ],
+          [
+            "s:4",
+            "s:5"
+          ],
+          [
+            "s:5",
+            "s:6"
+          ],
+          [
+            "s:6",
+            "s:7"
+          ],
+          [
+            "s:7",
+            "s:8"
+          ],
+          [
+            "s:8",
+            "s:9"
+          ],
+          [
+            "s:9",
+            "s:10"
+          ],
+          [
+            "s:10",
+            "s:11"
+          ],
+          [
+            "s:11",
+            "s:12"
+          ],
+          [
+            "s:12",
+            "s:13"
+          ],
+          [
+            "s:13",
+            "s:14"
+          ],
+          [
+            "s:14",
+            "s:15"
+          ],
+          [
+            "s:15",
+            "s:16"
+          ],
+          [
+            "s:16",
+            "s:17"
+          ],
+          [
+            "s:17",
+            "s:18"
+          ],
+          [
+            "s:18",
+            "s:19"
+          ],
+          [
+            "s:19",
+            "s:20"
+          ],
+          [
+            "s:20",
+            "s:21"
+          ],
+          [
+            "s:21",
+            "s:22"
+          ],
+          [
+            "s:22",
+            "s:23"
+          ],
+          [
+            "s:23",
+            "s:24"
+          ]
+        ],
+        "spine": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11",
+          "s:12",
+          "s:13",
+          "s:14",
+          "s:15",
+          "s:16",
+          "s:17",
+          "s:18",
+          "s:19",
+          "s:20",
+          "s:21",
+          "s:22",
+          "s:23",
+          "s:24"
+        ],
+        "roles": {
+          "s:0": {
+            "kind": "spine",
+            "section": 0
+          },
+          "s:1": {
+            "kind": "spine",
+            "section": 1
+          },
+          "s:2": {
+            "kind": "spine",
+            "section": 2
+          },
+          "s:3": {
+            "kind": "spine",
+            "section": 3
+          },
+          "s:4": {
+            "kind": "spine",
+            "section": 4
+          },
+          "s:5": {
+            "kind": "spine",
+            "section": 5
+          },
+          "s:6": {
+            "kind": "spine",
+            "section": 6
+          },
+          "s:7": {
+            "kind": "spine",
+            "section": 7
+          },
+          "s:8": {
+            "kind": "spine",
+            "section": 8
+          },
+          "s:9": {
+            "kind": "spine",
+            "section": 9
+          },
+          "s:10": {
+            "kind": "spine",
+            "section": 10
+          },
+          "s:11": {
+            "kind": "spine",
+            "section": 11
+          },
+          "s:12": {
+            "kind": "spine",
+            "section": 12
+          },
+          "s:13": {
+            "kind": "spine",
+            "section": 13
+          },
+          "s:14": {
+            "kind": "spine",
+            "section": 14
+          },
+          "s:15": {
+            "kind": "spine",
+            "section": 15
+          },
+          "s:16": {
+            "kind": "spine",
+            "section": 16
+          },
+          "s:17": {
+            "kind": "spine",
+            "section": 17
+          },
+          "s:18": {
+            "kind": "spine",
+            "section": 18
+          },
+          "s:19": {
+            "kind": "spine",
+            "section": 19
+          },
+          "s:20": {
+            "kind": "spine",
+            "section": 20
+          },
+          "s:21": {
+            "kind": "spine",
+            "section": 21
+          },
+          "s:22": {
+            "kind": "spine",
+            "section": 22
+          },
+          "s:23": {
+            "kind": "spine",
+            "section": 23
+          },
+          "s:24": {
+            "kind": "spine",
+            "section": 24
+          }
+        }
+      },
+      "graph_digest": "aa7b92b6bbaa388f211b97918adbbda8eba722ef4659fbd27a5afa54466cc40e",
+      "prefix_labels": {
+        "s:0": 23,
+        "s:1": 0,
+        "s:2": 24
+      },
+      "labels": {
+        "s:0": 23,
+        "s:1": 0,
+        "s:2": 24,
+        "s:3": 2,
+        "s:4": 22,
+        "s:5": 1,
+        "s:6": 20,
+        "s:7": 3,
+        "s:8": 21,
+        "s:9": 5,
+        "s:10": 19,
+        "s:11": 4,
+        "s:12": 17,
+        "s:13": 6,
+        "s:14": 18,
+        "s:15": 8,
+        "s:16": 16,
+        "s:17": 7,
+        "s:18": 14,
+        "s:19": 9,
+        "s:20": 15,
+        "s:21": 11,
+        "s:22": 12,
+        "s:23": 10,
+        "s:24": 13
+      },
+      "original_edge_differences": [
+        23,
+        24,
+        22,
+        20,
+        21,
+        19,
+        17,
+        18,
+        16,
+        14,
+        15,
+        13,
+        11,
+        12,
+        10,
+        8,
+        9,
+        7,
+        5,
+        6,
+        4,
+        1,
+        2,
+        3
+      ],
+      "independent_certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 25,
+        "m": 24,
+        "graph_digest": "aa7b92b6bbaa388f211b97918adbbda8eba722ef4659fbd27a5afa54466cc40e",
+        "edge_differences": [
+          23,
+          24,
+          22,
+          20,
+          21,
+          19,
+          17,
+          18,
+          16,
+          14,
+          15,
+          13,
+          11,
+          12,
+          10,
+          8,
+          9,
+          7,
+          5,
+          6,
+          4,
+          1,
+          2,
+          3
+        ],
+        "claim": "finite certificate for this exact named target only"
+      }
+    },
+    {
+      "K": 23,
+      "original_graph": {
+        "schema_version": 1,
+        "profile": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "vertices": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11",
+          "s:12",
+          "s:13",
+          "s:14",
+          "s:15",
+          "s:16",
+          "s:17",
+          "s:18",
+          "s:19",
+          "s:20",
+          "s:21",
+          "s:22",
+          "s:23",
+          "s:24",
+          "s:25"
+        ],
+        "edges": [
+          [
+            "s:0",
+            "s:1"
+          ],
+          [
+            "s:1",
+            "s:2"
+          ],
+          [
+            "s:2",
+            "s:3"
+          ],
+          [
+            "s:3",
+            "s:4"
+          ],
+          [
+            "s:4",
+            "s:5"
+          ],
+          [
+            "s:5",
+            "s:6"
+          ],
+          [
+            "s:6",
+            "s:7"
+          ],
+          [
+            "s:7",
+            "s:8"
+          ],
+          [
+            "s:8",
+            "s:9"
+          ],
+          [
+            "s:9",
+            "s:10"
+          ],
+          [
+            "s:10",
+            "s:11"
+          ],
+          [
+            "s:11",
+            "s:12"
+          ],
+          [
+            "s:12",
+            "s:13"
+          ],
+          [
+            "s:13",
+            "s:14"
+          ],
+          [
+            "s:14",
+            "s:15"
+          ],
+          [
+            "s:15",
+            "s:16"
+          ],
+          [
+            "s:16",
+            "s:17"
+          ],
+          [
+            "s:17",
+            "s:18"
+          ],
+          [
+            "s:18",
+            "s:19"
+          ],
+          [
+            "s:19",
+            "s:20"
+          ],
+          [
+            "s:20",
+            "s:21"
+          ],
+          [
+            "s:21",
+            "s:22"
+          ],
+          [
+            "s:22",
+            "s:23"
+          ],
+          [
+            "s:23",
+            "s:24"
+          ],
+          [
+            "s:24",
+            "s:25"
+          ]
+        ],
+        "spine": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11",
+          "s:12",
+          "s:13",
+          "s:14",
+          "s:15",
+          "s:16",
+          "s:17",
+          "s:18",
+          "s:19",
+          "s:20",
+          "s:21",
+          "s:22",
+          "s:23",
+          "s:24",
+          "s:25"
+        ],
+        "roles": {
+          "s:0": {
+            "kind": "spine",
+            "section": 0
+          },
+          "s:1": {
+            "kind": "spine",
+            "section": 1
+          },
+          "s:2": {
+            "kind": "spine",
+            "section": 2
+          },
+          "s:3": {
+            "kind": "spine",
+            "section": 3
+          },
+          "s:4": {
+            "kind": "spine",
+            "section": 4
+          },
+          "s:5": {
+            "kind": "spine",
+            "section": 5
+          },
+          "s:6": {
+            "kind": "spine",
+            "section": 6
+          },
+          "s:7": {
+            "kind": "spine",
+            "section": 7
+          },
+          "s:8": {
+            "kind": "spine",
+            "section": 8
+          },
+          "s:9": {
+            "kind": "spine",
+            "section": 9
+          },
+          "s:10": {
+            "kind": "spine",
+            "section": 10
+          },
+          "s:11": {
+            "kind": "spine",
+            "section": 11
+          },
+          "s:12": {
+            "kind": "spine",
+            "section": 12
+          },
+          "s:13": {
+            "kind": "spine",
+            "section": 13
+          },
+          "s:14": {
+            "kind": "spine",
+            "section": 14
+          },
+          "s:15": {
+            "kind": "spine",
+            "section": 15
+          },
+          "s:16": {
+            "kind": "spine",
+            "section": 16
+          },
+          "s:17": {
+            "kind": "spine",
+            "section": 17
+          },
+          "s:18": {
+            "kind": "spine",
+            "section": 18
+          },
+          "s:19": {
+            "kind": "spine",
+            "section": 19
+          },
+          "s:20": {
+            "kind": "spine",
+            "section": 20
+          },
+          "s:21": {
+            "kind": "spine",
+            "section": 21
+          },
+          "s:22": {
+            "kind": "spine",
+            "section": 22
+          },
+          "s:23": {
+            "kind": "spine",
+            "section": 23
+          },
+          "s:24": {
+            "kind": "spine",
+            "section": 24
+          },
+          "s:25": {
+            "kind": "spine",
+            "section": 25
+          }
+        }
+      },
+      "graph_digest": "862ffbecbf71a966a374db7b7bf893143ef7a037c0d77084a297fb60b2f5aeec",
+      "prefix_labels": {
+        "s:0": 24,
+        "s:1": 0,
+        "s:2": 25
+      },
+      "labels": {
+        "s:0": 24,
+        "s:1": 0,
+        "s:2": 25,
+        "s:3": 2,
+        "s:4": 23,
+        "s:5": 1,
+        "s:6": 21,
+        "s:7": 3,
+        "s:8": 22,
+        "s:9": 5,
+        "s:10": 20,
+        "s:11": 4,
+        "s:12": 18,
+        "s:13": 6,
+        "s:14": 19,
+        "s:15": 8,
+        "s:16": 17,
+        "s:17": 7,
+        "s:18": 15,
+        "s:19": 9,
+        "s:20": 16,
+        "s:21": 11,
+        "s:22": 14,
+        "s:23": 10,
+        "s:24": 12,
+        "s:25": 13
+      },
+      "original_edge_differences": [
+        24,
+        25,
+        23,
+        21,
+        22,
+        20,
+        18,
+        19,
+        17,
+        15,
+        16,
+        14,
+        12,
+        13,
+        11,
+        9,
+        10,
+        8,
+        6,
+        7,
+        5,
+        3,
+        4,
+        2,
+        1
+      ],
+      "independent_certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 26,
+        "m": 25,
+        "graph_digest": "862ffbecbf71a966a374db7b7bf893143ef7a037c0d77084a297fb60b2f5aeec",
+        "edge_differences": [
+          24,
+          25,
+          23,
+          21,
+          22,
+          20,
+          18,
+          19,
+          17,
+          15,
+          16,
+          14,
+          12,
+          13,
+          11,
+          9,
+          10,
+          8,
+          6,
+          7,
+          5,
+          3,
+          4,
+          2,
+          1
+        ],
+        "claim": "finite certificate for this exact named target only"
+      }
+    },
+    {
+      "K": 24,
+      "original_graph": {
+        "schema_version": 1,
+        "profile": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "vertices": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11",
+          "s:12",
+          "s:13",
+          "s:14",
+          "s:15",
+          "s:16",
+          "s:17",
+          "s:18",
+          "s:19",
+          "s:20",
+          "s:21",
+          "s:22",
+          "s:23",
+          "s:24",
+          "s:25",
+          "s:26"
+        ],
+        "edges": [
+          [
+            "s:0",
+            "s:1"
+          ],
+          [
+            "s:1",
+            "s:2"
+          ],
+          [
+            "s:2",
+            "s:3"
+          ],
+          [
+            "s:3",
+            "s:4"
+          ],
+          [
+            "s:4",
+            "s:5"
+          ],
+          [
+            "s:5",
+            "s:6"
+          ],
+          [
+            "s:6",
+            "s:7"
+          ],
+          [
+            "s:7",
+            "s:8"
+          ],
+          [
+            "s:8",
+            "s:9"
+          ],
+          [
+            "s:9",
+            "s:10"
+          ],
+          [
+            "s:10",
+            "s:11"
+          ],
+          [
+            "s:11",
+            "s:12"
+          ],
+          [
+            "s:12",
+            "s:13"
+          ],
+          [
+            "s:13",
+            "s:14"
+          ],
+          [
+            "s:14",
+            "s:15"
+          ],
+          [
+            "s:15",
+            "s:16"
+          ],
+          [
+            "s:16",
+            "s:17"
+          ],
+          [
+            "s:17",
+            "s:18"
+          ],
+          [
+            "s:18",
+            "s:19"
+          ],
+          [
+            "s:19",
+            "s:20"
+          ],
+          [
+            "s:20",
+            "s:21"
+          ],
+          [
+            "s:21",
+            "s:22"
+          ],
+          [
+            "s:22",
+            "s:23"
+          ],
+          [
+            "s:23",
+            "s:24"
+          ],
+          [
+            "s:24",
+            "s:25"
+          ],
+          [
+            "s:25",
+            "s:26"
+          ]
+        ],
+        "spine": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11",
+          "s:12",
+          "s:13",
+          "s:14",
+          "s:15",
+          "s:16",
+          "s:17",
+          "s:18",
+          "s:19",
+          "s:20",
+          "s:21",
+          "s:22",
+          "s:23",
+          "s:24",
+          "s:25",
+          "s:26"
+        ],
+        "roles": {
+          "s:0": {
+            "kind": "spine",
+            "section": 0
+          },
+          "s:1": {
+            "kind": "spine",
+            "section": 1
+          },
+          "s:2": {
+            "kind": "spine",
+            "section": 2
+          },
+          "s:3": {
+            "kind": "spine",
+            "section": 3
+          },
+          "s:4": {
+            "kind": "spine",
+            "section": 4
+          },
+          "s:5": {
+            "kind": "spine",
+            "section": 5
+          },
+          "s:6": {
+            "kind": "spine",
+            "section": 6
+          },
+          "s:7": {
+            "kind": "spine",
+            "section": 7
+          },
+          "s:8": {
+            "kind": "spine",
+            "section": 8
+          },
+          "s:9": {
+            "kind": "spine",
+            "section": 9
+          },
+          "s:10": {
+            "kind": "spine",
+            "section": 10
+          },
+          "s:11": {
+            "kind": "spine",
+            "section": 11
+          },
+          "s:12": {
+            "kind": "spine",
+            "section": 12
+          },
+          "s:13": {
+            "kind": "spine",
+            "section": 13
+          },
+          "s:14": {
+            "kind": "spine",
+            "section": 14
+          },
+          "s:15": {
+            "kind": "spine",
+            "section": 15
+          },
+          "s:16": {
+            "kind": "spine",
+            "section": 16
+          },
+          "s:17": {
+            "kind": "spine",
+            "section": 17
+          },
+          "s:18": {
+            "kind": "spine",
+            "section": 18
+          },
+          "s:19": {
+            "kind": "spine",
+            "section": 19
+          },
+          "s:20": {
+            "kind": "spine",
+            "section": 20
+          },
+          "s:21": {
+            "kind": "spine",
+            "section": 21
+          },
+          "s:22": {
+            "kind": "spine",
+            "section": 22
+          },
+          "s:23": {
+            "kind": "spine",
+            "section": 23
+          },
+          "s:24": {
+            "kind": "spine",
+            "section": 24
+          },
+          "s:25": {
+            "kind": "spine",
+            "section": 25
+          },
+          "s:26": {
+            "kind": "spine",
+            "section": 26
+          }
+        }
+      },
+      "graph_digest": "9ba0180bb08e0609a1b1b72a8b25282f34b80d76b7a2e17412d5d5334a55a717",
+      "prefix_labels": {
+        "s:0": 25,
+        "s:1": 0,
+        "s:2": 26
+      },
+      "labels": {
+        "s:0": 25,
+        "s:1": 0,
+        "s:2": 26,
+        "s:3": 2,
+        "s:4": 24,
+        "s:5": 1,
+        "s:6": 22,
+        "s:7": 3,
+        "s:8": 23,
+        "s:9": 5,
+        "s:10": 21,
+        "s:11": 4,
+        "s:12": 19,
+        "s:13": 6,
+        "s:14": 20,
+        "s:15": 8,
+        "s:16": 18,
+        "s:17": 7,
+        "s:18": 16,
+        "s:19": 9,
+        "s:20": 17,
+        "s:21": 11,
+        "s:22": 15,
+        "s:23": 10,
+        "s:24": 13,
+        "s:25": 14,
+        "s:26": 12
+      },
+      "original_edge_differences": [
+        25,
+        26,
+        24,
+        22,
+        23,
+        21,
+        19,
+        20,
+        18,
+        16,
+        17,
+        15,
+        13,
+        14,
+        12,
+        10,
+        11,
+        9,
+        7,
+        8,
+        6,
+        4,
+        5,
+        3,
+        1,
+        2
+      ],
+      "independent_certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 27,
+        "m": 26,
+        "graph_digest": "9ba0180bb08e0609a1b1b72a8b25282f34b80d76b7a2e17412d5d5334a55a717",
+        "edge_differences": [
+          25,
+          26,
+          24,
+          22,
+          23,
+          21,
+          19,
+          20,
+          18,
+          16,
+          17,
+          15,
+          13,
+          14,
+          12,
+          10,
+          11,
+          9,
+          7,
+          8,
+          6,
+          4,
+          5,
+          3,
+          1,
+          2
+        ],
+        "claim": "finite certificate for this exact named target only"
+      }
+    },
+    {
+      "K": 25,
+      "original_graph": {
+        "schema_version": 1,
+        "profile": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "vertices": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11",
+          "s:12",
+          "s:13",
+          "s:14",
+          "s:15",
+          "s:16",
+          "s:17",
+          "s:18",
+          "s:19",
+          "s:20",
+          "s:21",
+          "s:22",
+          "s:23",
+          "s:24",
+          "s:25",
+          "s:26",
+          "s:27"
+        ],
+        "edges": [
+          [
+            "s:0",
+            "s:1"
+          ],
+          [
+            "s:1",
+            "s:2"
+          ],
+          [
+            "s:2",
+            "s:3"
+          ],
+          [
+            "s:3",
+            "s:4"
+          ],
+          [
+            "s:4",
+            "s:5"
+          ],
+          [
+            "s:5",
+            "s:6"
+          ],
+          [
+            "s:6",
+            "s:7"
+          ],
+          [
+            "s:7",
+            "s:8"
+          ],
+          [
+            "s:8",
+            "s:9"
+          ],
+          [
+            "s:9",
+            "s:10"
+          ],
+          [
+            "s:10",
+            "s:11"
+          ],
+          [
+            "s:11",
+            "s:12"
+          ],
+          [
+            "s:12",
+            "s:13"
+          ],
+          [
+            "s:13",
+            "s:14"
+          ],
+          [
+            "s:14",
+            "s:15"
+          ],
+          [
+            "s:15",
+            "s:16"
+          ],
+          [
+            "s:16",
+            "s:17"
+          ],
+          [
+            "s:17",
+            "s:18"
+          ],
+          [
+            "s:18",
+            "s:19"
+          ],
+          [
+            "s:19",
+            "s:20"
+          ],
+          [
+            "s:20",
+            "s:21"
+          ],
+          [
+            "s:21",
+            "s:22"
+          ],
+          [
+            "s:22",
+            "s:23"
+          ],
+          [
+            "s:23",
+            "s:24"
+          ],
+          [
+            "s:24",
+            "s:25"
+          ],
+          [
+            "s:25",
+            "s:26"
+          ],
+          [
+            "s:26",
+            "s:27"
+          ]
+        ],
+        "spine": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11",
+          "s:12",
+          "s:13",
+          "s:14",
+          "s:15",
+          "s:16",
+          "s:17",
+          "s:18",
+          "s:19",
+          "s:20",
+          "s:21",
+          "s:22",
+          "s:23",
+          "s:24",
+          "s:25",
+          "s:26",
+          "s:27"
+        ],
+        "roles": {
+          "s:0": {
+            "kind": "spine",
+            "section": 0
+          },
+          "s:1": {
+            "kind": "spine",
+            "section": 1
+          },
+          "s:2": {
+            "kind": "spine",
+            "section": 2
+          },
+          "s:3": {
+            "kind": "spine",
+            "section": 3
+          },
+          "s:4": {
+            "kind": "spine",
+            "section": 4
+          },
+          "s:5": {
+            "kind": "spine",
+            "section": 5
+          },
+          "s:6": {
+            "kind": "spine",
+            "section": 6
+          },
+          "s:7": {
+            "kind": "spine",
+            "section": 7
+          },
+          "s:8": {
+            "kind": "spine",
+            "section": 8
+          },
+          "s:9": {
+            "kind": "spine",
+            "section": 9
+          },
+          "s:10": {
+            "kind": "spine",
+            "section": 10
+          },
+          "s:11": {
+            "kind": "spine",
+            "section": 11
+          },
+          "s:12": {
+            "kind": "spine",
+            "section": 12
+          },
+          "s:13": {
+            "kind": "spine",
+            "section": 13
+          },
+          "s:14": {
+            "kind": "spine",
+            "section": 14
+          },
+          "s:15": {
+            "kind": "spine",
+            "section": 15
+          },
+          "s:16": {
+            "kind": "spine",
+            "section": 16
+          },
+          "s:17": {
+            "kind": "spine",
+            "section": 17
+          },
+          "s:18": {
+            "kind": "spine",
+            "section": 18
+          },
+          "s:19": {
+            "kind": "spine",
+            "section": 19
+          },
+          "s:20": {
+            "kind": "spine",
+            "section": 20
+          },
+          "s:21": {
+            "kind": "spine",
+            "section": 21
+          },
+          "s:22": {
+            "kind": "spine",
+            "section": 22
+          },
+          "s:23": {
+            "kind": "spine",
+            "section": 23
+          },
+          "s:24": {
+            "kind": "spine",
+            "section": 24
+          },
+          "s:25": {
+            "kind": "spine",
+            "section": 25
+          },
+          "s:26": {
+            "kind": "spine",
+            "section": 26
+          },
+          "s:27": {
+            "kind": "spine",
+            "section": 27
+          }
+        }
+      },
+      "graph_digest": "1d549949ae44ce2dc4e291ec85295a0c498652715bf781b5a99b839a326e0c1a",
+      "prefix_labels": {
+        "s:0": 26,
+        "s:1": 0,
+        "s:2": 27
+      },
+      "labels": {
+        "s:0": 26,
+        "s:1": 0,
+        "s:2": 27,
+        "s:3": 2,
+        "s:4": 25,
+        "s:5": 1,
+        "s:6": 23,
+        "s:7": 3,
+        "s:8": 24,
+        "s:9": 5,
+        "s:10": 22,
+        "s:11": 4,
+        "s:12": 20,
+        "s:13": 6,
+        "s:14": 21,
+        "s:15": 8,
+        "s:16": 19,
+        "s:17": 7,
+        "s:18": 17,
+        "s:19": 9,
+        "s:20": 18,
+        "s:21": 11,
+        "s:22": 16,
+        "s:23": 10,
+        "s:24": 14,
+        "s:25": 13,
+        "s:26": 15,
+        "s:27": 12
+      },
+      "original_edge_differences": [
+        26,
+        27,
+        25,
+        23,
+        24,
+        22,
+        20,
+        21,
+        19,
+        17,
+        18,
+        16,
+        14,
+        15,
+        13,
+        11,
+        12,
+        10,
+        8,
+        9,
+        7,
+        5,
+        6,
+        4,
+        1,
+        2,
+        3
+      ],
+      "independent_certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 28,
+        "m": 27,
+        "graph_digest": "1d549949ae44ce2dc4e291ec85295a0c498652715bf781b5a99b839a326e0c1a",
+        "edge_differences": [
+          26,
+          27,
+          25,
+          23,
+          24,
+          22,
+          20,
+          21,
+          19,
+          17,
+          18,
+          16,
+          14,
+          15,
+          13,
+          11,
+          12,
+          10,
+          8,
+          9,
+          7,
+          5,
+          6,
+          4,
+          1,
+          2,
+          3
+        ],
+        "claim": "finite certificate for this exact named target only"
+      }
+    },
+    {
+      "K": 26,
+      "original_graph": {
+        "schema_version": 1,
+        "profile": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "vertices": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11",
+          "s:12",
+          "s:13",
+          "s:14",
+          "s:15",
+          "s:16",
+          "s:17",
+          "s:18",
+          "s:19",
+          "s:20",
+          "s:21",
+          "s:22",
+          "s:23",
+          "s:24",
+          "s:25",
+          "s:26",
+          "s:27",
+          "s:28"
+        ],
+        "edges": [
+          [
+            "s:0",
+            "s:1"
+          ],
+          [
+            "s:1",
+            "s:2"
+          ],
+          [
+            "s:2",
+            "s:3"
+          ],
+          [
+            "s:3",
+            "s:4"
+          ],
+          [
+            "s:4",
+            "s:5"
+          ],
+          [
+            "s:5",
+            "s:6"
+          ],
+          [
+            "s:6",
+            "s:7"
+          ],
+          [
+            "s:7",
+            "s:8"
+          ],
+          [
+            "s:8",
+            "s:9"
+          ],
+          [
+            "s:9",
+            "s:10"
+          ],
+          [
+            "s:10",
+            "s:11"
+          ],
+          [
+            "s:11",
+            "s:12"
+          ],
+          [
+            "s:12",
+            "s:13"
+          ],
+          [
+            "s:13",
+            "s:14"
+          ],
+          [
+            "s:14",
+            "s:15"
+          ],
+          [
+            "s:15",
+            "s:16"
+          ],
+          [
+            "s:16",
+            "s:17"
+          ],
+          [
+            "s:17",
+            "s:18"
+          ],
+          [
+            "s:18",
+            "s:19"
+          ],
+          [
+            "s:19",
+            "s:20"
+          ],
+          [
+            "s:20",
+            "s:21"
+          ],
+          [
+            "s:21",
+            "s:22"
+          ],
+          [
+            "s:22",
+            "s:23"
+          ],
+          [
+            "s:23",
+            "s:24"
+          ],
+          [
+            "s:24",
+            "s:25"
+          ],
+          [
+            "s:25",
+            "s:26"
+          ],
+          [
+            "s:26",
+            "s:27"
+          ],
+          [
+            "s:27",
+            "s:28"
+          ]
+        ],
+        "spine": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11",
+          "s:12",
+          "s:13",
+          "s:14",
+          "s:15",
+          "s:16",
+          "s:17",
+          "s:18",
+          "s:19",
+          "s:20",
+          "s:21",
+          "s:22",
+          "s:23",
+          "s:24",
+          "s:25",
+          "s:26",
+          "s:27",
+          "s:28"
+        ],
+        "roles": {
+          "s:0": {
+            "kind": "spine",
+            "section": 0
+          },
+          "s:1": {
+            "kind": "spine",
+            "section": 1
+          },
+          "s:2": {
+            "kind": "spine",
+            "section": 2
+          },
+          "s:3": {
+            "kind": "spine",
+            "section": 3
+          },
+          "s:4": {
+            "kind": "spine",
+            "section": 4
+          },
+          "s:5": {
+            "kind": "spine",
+            "section": 5
+          },
+          "s:6": {
+            "kind": "spine",
+            "section": 6
+          },
+          "s:7": {
+            "kind": "spine",
+            "section": 7
+          },
+          "s:8": {
+            "kind": "spine",
+            "section": 8
+          },
+          "s:9": {
+            "kind": "spine",
+            "section": 9
+          },
+          "s:10": {
+            "kind": "spine",
+            "section": 10
+          },
+          "s:11": {
+            "kind": "spine",
+            "section": 11
+          },
+          "s:12": {
+            "kind": "spine",
+            "section": 12
+          },
+          "s:13": {
+            "kind": "spine",
+            "section": 13
+          },
+          "s:14": {
+            "kind": "spine",
+            "section": 14
+          },
+          "s:15": {
+            "kind": "spine",
+            "section": 15
+          },
+          "s:16": {
+            "kind": "spine",
+            "section": 16
+          },
+          "s:17": {
+            "kind": "spine",
+            "section": 17
+          },
+          "s:18": {
+            "kind": "spine",
+            "section": 18
+          },
+          "s:19": {
+            "kind": "spine",
+            "section": 19
+          },
+          "s:20": {
+            "kind": "spine",
+            "section": 20
+          },
+          "s:21": {
+            "kind": "spine",
+            "section": 21
+          },
+          "s:22": {
+            "kind": "spine",
+            "section": 22
+          },
+          "s:23": {
+            "kind": "spine",
+            "section": 23
+          },
+          "s:24": {
+            "kind": "spine",
+            "section": 24
+          },
+          "s:25": {
+            "kind": "spine",
+            "section": 25
+          },
+          "s:26": {
+            "kind": "spine",
+            "section": 26
+          },
+          "s:27": {
+            "kind": "spine",
+            "section": 27
+          },
+          "s:28": {
+            "kind": "spine",
+            "section": 28
+          }
+        }
+      },
+      "graph_digest": "273224fa081e94463c1725469cc06aa494370057976df4c41f5f84d9ba5b5440",
+      "prefix_labels": {
+        "s:0": 27,
+        "s:1": 0,
+        "s:2": 28
+      },
+      "labels": {
+        "s:0": 27,
+        "s:1": 0,
+        "s:2": 28,
+        "s:3": 2,
+        "s:4": 26,
+        "s:5": 1,
+        "s:6": 24,
+        "s:7": 3,
+        "s:8": 25,
+        "s:9": 5,
+        "s:10": 23,
+        "s:11": 4,
+        "s:12": 21,
+        "s:13": 6,
+        "s:14": 22,
+        "s:15": 8,
+        "s:16": 20,
+        "s:17": 7,
+        "s:18": 18,
+        "s:19": 9,
+        "s:20": 19,
+        "s:21": 11,
+        "s:22": 17,
+        "s:23": 10,
+        "s:24": 15,
+        "s:25": 12,
+        "s:26": 16,
+        "s:27": 14,
+        "s:28": 13
+      },
+      "original_edge_differences": [
+        27,
+        28,
+        26,
+        24,
+        25,
+        23,
+        21,
+        22,
+        20,
+        18,
+        19,
+        17,
+        15,
+        16,
+        14,
+        12,
+        13,
+        11,
+        9,
+        10,
+        8,
+        6,
+        7,
+        5,
+        3,
+        4,
+        2,
+        1
+      ],
+      "independent_certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 29,
+        "m": 28,
+        "graph_digest": "273224fa081e94463c1725469cc06aa494370057976df4c41f5f84d9ba5b5440",
+        "edge_differences": [
+          27,
+          28,
+          26,
+          24,
+          25,
+          23,
+          21,
+          22,
+          20,
+          18,
+          19,
+          17,
+          15,
+          16,
+          14,
+          12,
+          13,
+          11,
+          9,
+          10,
+          8,
+          6,
+          7,
+          5,
+          3,
+          4,
+          2,
+          1
+        ],
+        "claim": "finite certificate for this exact named target only"
+      }
+    },
+    {
+      "K": 27,
+      "original_graph": {
+        "schema_version": 1,
+        "profile": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "vertices": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11",
+          "s:12",
+          "s:13",
+          "s:14",
+          "s:15",
+          "s:16",
+          "s:17",
+          "s:18",
+          "s:19",
+          "s:20",
+          "s:21",
+          "s:22",
+          "s:23",
+          "s:24",
+          "s:25",
+          "s:26",
+          "s:27",
+          "s:28",
+          "s:29"
+        ],
+        "edges": [
+          [
+            "s:0",
+            "s:1"
+          ],
+          [
+            "s:1",
+            "s:2"
+          ],
+          [
+            "s:2",
+            "s:3"
+          ],
+          [
+            "s:3",
+            "s:4"
+          ],
+          [
+            "s:4",
+            "s:5"
+          ],
+          [
+            "s:5",
+            "s:6"
+          ],
+          [
+            "s:6",
+            "s:7"
+          ],
+          [
+            "s:7",
+            "s:8"
+          ],
+          [
+            "s:8",
+            "s:9"
+          ],
+          [
+            "s:9",
+            "s:10"
+          ],
+          [
+            "s:10",
+            "s:11"
+          ],
+          [
+            "s:11",
+            "s:12"
+          ],
+          [
+            "s:12",
+            "s:13"
+          ],
+          [
+            "s:13",
+            "s:14"
+          ],
+          [
+            "s:14",
+            "s:15"
+          ],
+          [
+            "s:15",
+            "s:16"
+          ],
+          [
+            "s:16",
+            "s:17"
+          ],
+          [
+            "s:17",
+            "s:18"
+          ],
+          [
+            "s:18",
+            "s:19"
+          ],
+          [
+            "s:19",
+            "s:20"
+          ],
+          [
+            "s:20",
+            "s:21"
+          ],
+          [
+            "s:21",
+            "s:22"
+          ],
+          [
+            "s:22",
+            "s:23"
+          ],
+          [
+            "s:23",
+            "s:24"
+          ],
+          [
+            "s:24",
+            "s:25"
+          ],
+          [
+            "s:25",
+            "s:26"
+          ],
+          [
+            "s:26",
+            "s:27"
+          ],
+          [
+            "s:27",
+            "s:28"
+          ],
+          [
+            "s:28",
+            "s:29"
+          ]
+        ],
+        "spine": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11",
+          "s:12",
+          "s:13",
+          "s:14",
+          "s:15",
+          "s:16",
+          "s:17",
+          "s:18",
+          "s:19",
+          "s:20",
+          "s:21",
+          "s:22",
+          "s:23",
+          "s:24",
+          "s:25",
+          "s:26",
+          "s:27",
+          "s:28",
+          "s:29"
+        ],
+        "roles": {
+          "s:0": {
+            "kind": "spine",
+            "section": 0
+          },
+          "s:1": {
+            "kind": "spine",
+            "section": 1
+          },
+          "s:2": {
+            "kind": "spine",
+            "section": 2
+          },
+          "s:3": {
+            "kind": "spine",
+            "section": 3
+          },
+          "s:4": {
+            "kind": "spine",
+            "section": 4
+          },
+          "s:5": {
+            "kind": "spine",
+            "section": 5
+          },
+          "s:6": {
+            "kind": "spine",
+            "section": 6
+          },
+          "s:7": {
+            "kind": "spine",
+            "section": 7
+          },
+          "s:8": {
+            "kind": "spine",
+            "section": 8
+          },
+          "s:9": {
+            "kind": "spine",
+            "section": 9
+          },
+          "s:10": {
+            "kind": "spine",
+            "section": 10
+          },
+          "s:11": {
+            "kind": "spine",
+            "section": 11
+          },
+          "s:12": {
+            "kind": "spine",
+            "section": 12
+          },
+          "s:13": {
+            "kind": "spine",
+            "section": 13
+          },
+          "s:14": {
+            "kind": "spine",
+            "section": 14
+          },
+          "s:15": {
+            "kind": "spine",
+            "section": 15
+          },
+          "s:16": {
+            "kind": "spine",
+            "section": 16
+          },
+          "s:17": {
+            "kind": "spine",
+            "section": 17
+          },
+          "s:18": {
+            "kind": "spine",
+            "section": 18
+          },
+          "s:19": {
+            "kind": "spine",
+            "section": 19
+          },
+          "s:20": {
+            "kind": "spine",
+            "section": 20
+          },
+          "s:21": {
+            "kind": "spine",
+            "section": 21
+          },
+          "s:22": {
+            "kind": "spine",
+            "section": 22
+          },
+          "s:23": {
+            "kind": "spine",
+            "section": 23
+          },
+          "s:24": {
+            "kind": "spine",
+            "section": 24
+          },
+          "s:25": {
+            "kind": "spine",
+            "section": 25
+          },
+          "s:26": {
+            "kind": "spine",
+            "section": 26
+          },
+          "s:27": {
+            "kind": "spine",
+            "section": 27
+          },
+          "s:28": {
+            "kind": "spine",
+            "section": 28
+          },
+          "s:29": {
+            "kind": "spine",
+            "section": 29
+          }
+        }
+      },
+      "graph_digest": "6000ff049cbbacc5e45606474191ff56cc2395c0a6f396074fc8523789fbe6b6",
+      "prefix_labels": {
+        "s:0": 28,
+        "s:1": 0,
+        "s:2": 29
+      },
+      "labels": {
+        "s:0": 28,
+        "s:1": 0,
+        "s:2": 29,
+        "s:3": 2,
+        "s:4": 27,
+        "s:5": 1,
+        "s:6": 25,
+        "s:7": 3,
+        "s:8": 26,
+        "s:9": 5,
+        "s:10": 24,
+        "s:11": 4,
+        "s:12": 22,
+        "s:13": 6,
+        "s:14": 23,
+        "s:15": 8,
+        "s:16": 21,
+        "s:17": 7,
+        "s:18": 19,
+        "s:19": 9,
+        "s:20": 20,
+        "s:21": 11,
+        "s:22": 18,
+        "s:23": 10,
+        "s:24": 16,
+        "s:25": 12,
+        "s:26": 17,
+        "s:27": 14,
+        "s:28": 13,
+        "s:29": 15
+      },
+      "original_edge_differences": [
+        28,
+        29,
+        27,
+        25,
+        26,
+        24,
+        22,
+        23,
+        21,
+        19,
+        20,
+        18,
+        16,
+        17,
+        15,
+        13,
+        14,
+        12,
+        10,
+        11,
+        9,
+        7,
+        8,
+        6,
+        4,
+        5,
+        3,
+        1,
+        2
+      ],
+      "independent_certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 30,
+        "m": 29,
+        "graph_digest": "6000ff049cbbacc5e45606474191ff56cc2395c0a6f396074fc8523789fbe6b6",
+        "edge_differences": [
+          28,
+          29,
+          27,
+          25,
+          26,
+          24,
+          22,
+          23,
+          21,
+          19,
+          20,
+          18,
+          16,
+          17,
+          15,
+          13,
+          14,
+          12,
+          10,
+          11,
+          9,
+          7,
+          8,
+          6,
+          4,
+          5,
+          3,
+          1,
+          2
+        ],
+        "claim": "finite certificate for this exact named target only"
+      }
+    },
+    {
+      "K": 28,
+      "original_graph": {
+        "schema_version": 1,
+        "profile": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "vertices": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11",
+          "s:12",
+          "s:13",
+          "s:14",
+          "s:15",
+          "s:16",
+          "s:17",
+          "s:18",
+          "s:19",
+          "s:20",
+          "s:21",
+          "s:22",
+          "s:23",
+          "s:24",
+          "s:25",
+          "s:26",
+          "s:27",
+          "s:28",
+          "s:29",
+          "s:30"
+        ],
+        "edges": [
+          [
+            "s:0",
+            "s:1"
+          ],
+          [
+            "s:1",
+            "s:2"
+          ],
+          [
+            "s:2",
+            "s:3"
+          ],
+          [
+            "s:3",
+            "s:4"
+          ],
+          [
+            "s:4",
+            "s:5"
+          ],
+          [
+            "s:5",
+            "s:6"
+          ],
+          [
+            "s:6",
+            "s:7"
+          ],
+          [
+            "s:7",
+            "s:8"
+          ],
+          [
+            "s:8",
+            "s:9"
+          ],
+          [
+            "s:9",
+            "s:10"
+          ],
+          [
+            "s:10",
+            "s:11"
+          ],
+          [
+            "s:11",
+            "s:12"
+          ],
+          [
+            "s:12",
+            "s:13"
+          ],
+          [
+            "s:13",
+            "s:14"
+          ],
+          [
+            "s:14",
+            "s:15"
+          ],
+          [
+            "s:15",
+            "s:16"
+          ],
+          [
+            "s:16",
+            "s:17"
+          ],
+          [
+            "s:17",
+            "s:18"
+          ],
+          [
+            "s:18",
+            "s:19"
+          ],
+          [
+            "s:19",
+            "s:20"
+          ],
+          [
+            "s:20",
+            "s:21"
+          ],
+          [
+            "s:21",
+            "s:22"
+          ],
+          [
+            "s:22",
+            "s:23"
+          ],
+          [
+            "s:23",
+            "s:24"
+          ],
+          [
+            "s:24",
+            "s:25"
+          ],
+          [
+            "s:25",
+            "s:26"
+          ],
+          [
+            "s:26",
+            "s:27"
+          ],
+          [
+            "s:27",
+            "s:28"
+          ],
+          [
+            "s:28",
+            "s:29"
+          ],
+          [
+            "s:29",
+            "s:30"
+          ]
+        ],
+        "spine": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11",
+          "s:12",
+          "s:13",
+          "s:14",
+          "s:15",
+          "s:16",
+          "s:17",
+          "s:18",
+          "s:19",
+          "s:20",
+          "s:21",
+          "s:22",
+          "s:23",
+          "s:24",
+          "s:25",
+          "s:26",
+          "s:27",
+          "s:28",
+          "s:29",
+          "s:30"
+        ],
+        "roles": {
+          "s:0": {
+            "kind": "spine",
+            "section": 0
+          },
+          "s:1": {
+            "kind": "spine",
+            "section": 1
+          },
+          "s:2": {
+            "kind": "spine",
+            "section": 2
+          },
+          "s:3": {
+            "kind": "spine",
+            "section": 3
+          },
+          "s:4": {
+            "kind": "spine",
+            "section": 4
+          },
+          "s:5": {
+            "kind": "spine",
+            "section": 5
+          },
+          "s:6": {
+            "kind": "spine",
+            "section": 6
+          },
+          "s:7": {
+            "kind": "spine",
+            "section": 7
+          },
+          "s:8": {
+            "kind": "spine",
+            "section": 8
+          },
+          "s:9": {
+            "kind": "spine",
+            "section": 9
+          },
+          "s:10": {
+            "kind": "spine",
+            "section": 10
+          },
+          "s:11": {
+            "kind": "spine",
+            "section": 11
+          },
+          "s:12": {
+            "kind": "spine",
+            "section": 12
+          },
+          "s:13": {
+            "kind": "spine",
+            "section": 13
+          },
+          "s:14": {
+            "kind": "spine",
+            "section": 14
+          },
+          "s:15": {
+            "kind": "spine",
+            "section": 15
+          },
+          "s:16": {
+            "kind": "spine",
+            "section": 16
+          },
+          "s:17": {
+            "kind": "spine",
+            "section": 17
+          },
+          "s:18": {
+            "kind": "spine",
+            "section": 18
+          },
+          "s:19": {
+            "kind": "spine",
+            "section": 19
+          },
+          "s:20": {
+            "kind": "spine",
+            "section": 20
+          },
+          "s:21": {
+            "kind": "spine",
+            "section": 21
+          },
+          "s:22": {
+            "kind": "spine",
+            "section": 22
+          },
+          "s:23": {
+            "kind": "spine",
+            "section": 23
+          },
+          "s:24": {
+            "kind": "spine",
+            "section": 24
+          },
+          "s:25": {
+            "kind": "spine",
+            "section": 25
+          },
+          "s:26": {
+            "kind": "spine",
+            "section": 26
+          },
+          "s:27": {
+            "kind": "spine",
+            "section": 27
+          },
+          "s:28": {
+            "kind": "spine",
+            "section": 28
+          },
+          "s:29": {
+            "kind": "spine",
+            "section": 29
+          },
+          "s:30": {
+            "kind": "spine",
+            "section": 30
+          }
+        }
+      },
+      "graph_digest": "66f238d95a6d86c249d9dced2c2557025ed438d1328ad0d1af59e6a09a9e602c",
+      "prefix_labels": {
+        "s:0": 29,
+        "s:1": 0,
+        "s:2": 30
+      },
+      "labels": {
+        "s:0": 29,
+        "s:1": 0,
+        "s:2": 30,
+        "s:3": 2,
+        "s:4": 28,
+        "s:5": 1,
+        "s:6": 26,
+        "s:7": 3,
+        "s:8": 27,
+        "s:9": 5,
+        "s:10": 25,
+        "s:11": 4,
+        "s:12": 23,
+        "s:13": 6,
+        "s:14": 24,
+        "s:15": 8,
+        "s:16": 22,
+        "s:17": 7,
+        "s:18": 20,
+        "s:19": 9,
+        "s:20": 21,
+        "s:21": 11,
+        "s:22": 19,
+        "s:23": 10,
+        "s:24": 17,
+        "s:25": 12,
+        "s:26": 18,
+        "s:27": 14,
+        "s:28": 15,
+        "s:29": 13,
+        "s:30": 16
+      },
+      "original_edge_differences": [
+        29,
+        30,
+        28,
+        26,
+        27,
+        25,
+        23,
+        24,
+        22,
+        20,
+        21,
+        19,
+        17,
+        18,
+        16,
+        14,
+        15,
+        13,
+        11,
+        12,
+        10,
+        8,
+        9,
+        7,
+        5,
+        6,
+        4,
+        1,
+        2,
+        3
+      ],
+      "independent_certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 31,
+        "m": 30,
+        "graph_digest": "66f238d95a6d86c249d9dced2c2557025ed438d1328ad0d1af59e6a09a9e602c",
+        "edge_differences": [
+          29,
+          30,
+          28,
+          26,
+          27,
+          25,
+          23,
+          24,
+          22,
+          20,
+          21,
+          19,
+          17,
+          18,
+          16,
+          14,
+          15,
+          13,
+          11,
+          12,
+          10,
+          8,
+          9,
+          7,
+          5,
+          6,
+          4,
+          1,
+          2,
+          3
+        ],
+        "claim": "finite certificate for this exact named target only"
+      }
+    },
+    {
+      "K": 29,
+      "original_graph": {
+        "schema_version": 1,
+        "profile": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "vertices": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11",
+          "s:12",
+          "s:13",
+          "s:14",
+          "s:15",
+          "s:16",
+          "s:17",
+          "s:18",
+          "s:19",
+          "s:20",
+          "s:21",
+          "s:22",
+          "s:23",
+          "s:24",
+          "s:25",
+          "s:26",
+          "s:27",
+          "s:28",
+          "s:29",
+          "s:30",
+          "s:31"
+        ],
+        "edges": [
+          [
+            "s:0",
+            "s:1"
+          ],
+          [
+            "s:1",
+            "s:2"
+          ],
+          [
+            "s:2",
+            "s:3"
+          ],
+          [
+            "s:3",
+            "s:4"
+          ],
+          [
+            "s:4",
+            "s:5"
+          ],
+          [
+            "s:5",
+            "s:6"
+          ],
+          [
+            "s:6",
+            "s:7"
+          ],
+          [
+            "s:7",
+            "s:8"
+          ],
+          [
+            "s:8",
+            "s:9"
+          ],
+          [
+            "s:9",
+            "s:10"
+          ],
+          [
+            "s:10",
+            "s:11"
+          ],
+          [
+            "s:11",
+            "s:12"
+          ],
+          [
+            "s:12",
+            "s:13"
+          ],
+          [
+            "s:13",
+            "s:14"
+          ],
+          [
+            "s:14",
+            "s:15"
+          ],
+          [
+            "s:15",
+            "s:16"
+          ],
+          [
+            "s:16",
+            "s:17"
+          ],
+          [
+            "s:17",
+            "s:18"
+          ],
+          [
+            "s:18",
+            "s:19"
+          ],
+          [
+            "s:19",
+            "s:20"
+          ],
+          [
+            "s:20",
+            "s:21"
+          ],
+          [
+            "s:21",
+            "s:22"
+          ],
+          [
+            "s:22",
+            "s:23"
+          ],
+          [
+            "s:23",
+            "s:24"
+          ],
+          [
+            "s:24",
+            "s:25"
+          ],
+          [
+            "s:25",
+            "s:26"
+          ],
+          [
+            "s:26",
+            "s:27"
+          ],
+          [
+            "s:27",
+            "s:28"
+          ],
+          [
+            "s:28",
+            "s:29"
+          ],
+          [
+            "s:29",
+            "s:30"
+          ],
+          [
+            "s:30",
+            "s:31"
+          ]
+        ],
+        "spine": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11",
+          "s:12",
+          "s:13",
+          "s:14",
+          "s:15",
+          "s:16",
+          "s:17",
+          "s:18",
+          "s:19",
+          "s:20",
+          "s:21",
+          "s:22",
+          "s:23",
+          "s:24",
+          "s:25",
+          "s:26",
+          "s:27",
+          "s:28",
+          "s:29",
+          "s:30",
+          "s:31"
+        ],
+        "roles": {
+          "s:0": {
+            "kind": "spine",
+            "section": 0
+          },
+          "s:1": {
+            "kind": "spine",
+            "section": 1
+          },
+          "s:2": {
+            "kind": "spine",
+            "section": 2
+          },
+          "s:3": {
+            "kind": "spine",
+            "section": 3
+          },
+          "s:4": {
+            "kind": "spine",
+            "section": 4
+          },
+          "s:5": {
+            "kind": "spine",
+            "section": 5
+          },
+          "s:6": {
+            "kind": "spine",
+            "section": 6
+          },
+          "s:7": {
+            "kind": "spine",
+            "section": 7
+          },
+          "s:8": {
+            "kind": "spine",
+            "section": 8
+          },
+          "s:9": {
+            "kind": "spine",
+            "section": 9
+          },
+          "s:10": {
+            "kind": "spine",
+            "section": 10
+          },
+          "s:11": {
+            "kind": "spine",
+            "section": 11
+          },
+          "s:12": {
+            "kind": "spine",
+            "section": 12
+          },
+          "s:13": {
+            "kind": "spine",
+            "section": 13
+          },
+          "s:14": {
+            "kind": "spine",
+            "section": 14
+          },
+          "s:15": {
+            "kind": "spine",
+            "section": 15
+          },
+          "s:16": {
+            "kind": "spine",
+            "section": 16
+          },
+          "s:17": {
+            "kind": "spine",
+            "section": 17
+          },
+          "s:18": {
+            "kind": "spine",
+            "section": 18
+          },
+          "s:19": {
+            "kind": "spine",
+            "section": 19
+          },
+          "s:20": {
+            "kind": "spine",
+            "section": 20
+          },
+          "s:21": {
+            "kind": "spine",
+            "section": 21
+          },
+          "s:22": {
+            "kind": "spine",
+            "section": 22
+          },
+          "s:23": {
+            "kind": "spine",
+            "section": 23
+          },
+          "s:24": {
+            "kind": "spine",
+            "section": 24
+          },
+          "s:25": {
+            "kind": "spine",
+            "section": 25
+          },
+          "s:26": {
+            "kind": "spine",
+            "section": 26
+          },
+          "s:27": {
+            "kind": "spine",
+            "section": 27
+          },
+          "s:28": {
+            "kind": "spine",
+            "section": 28
+          },
+          "s:29": {
+            "kind": "spine",
+            "section": 29
+          },
+          "s:30": {
+            "kind": "spine",
+            "section": 30
+          },
+          "s:31": {
+            "kind": "spine",
+            "section": 31
+          }
+        }
+      },
+      "graph_digest": "866ca6b50fa69af0d2050c3e71162bdda2985f9c58c1d4fb36677d4110ce35c5",
+      "prefix_labels": {
+        "s:0": 30,
+        "s:1": 0,
+        "s:2": 31
+      },
+      "labels": {
+        "s:0": 30,
+        "s:1": 0,
+        "s:2": 31,
+        "s:3": 2,
+        "s:4": 29,
+        "s:5": 1,
+        "s:6": 27,
+        "s:7": 3,
+        "s:8": 28,
+        "s:9": 5,
+        "s:10": 26,
+        "s:11": 4,
+        "s:12": 24,
+        "s:13": 6,
+        "s:14": 25,
+        "s:15": 8,
+        "s:16": 23,
+        "s:17": 7,
+        "s:18": 21,
+        "s:19": 9,
+        "s:20": 22,
+        "s:21": 11,
+        "s:22": 20,
+        "s:23": 10,
+        "s:24": 18,
+        "s:25": 12,
+        "s:26": 19,
+        "s:27": 14,
+        "s:28": 17,
+        "s:29": 13,
+        "s:30": 15,
+        "s:31": 16
+      },
+      "original_edge_differences": [
+        30,
+        31,
+        29,
+        27,
+        28,
+        26,
+        24,
+        25,
+        23,
+        21,
+        22,
+        20,
+        18,
+        19,
+        17,
+        15,
+        16,
+        14,
+        12,
+        13,
+        11,
+        9,
+        10,
+        8,
+        6,
+        7,
+        5,
+        3,
+        4,
+        2,
+        1
+      ],
+      "independent_certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 32,
+        "m": 31,
+        "graph_digest": "866ca6b50fa69af0d2050c3e71162bdda2985f9c58c1d4fb36677d4110ce35c5",
+        "edge_differences": [
+          30,
+          31,
+          29,
+          27,
+          28,
+          26,
+          24,
+          25,
+          23,
+          21,
+          22,
+          20,
+          18,
+          19,
+          17,
+          15,
+          16,
+          14,
+          12,
+          13,
+          11,
+          9,
+          10,
+          8,
+          6,
+          7,
+          5,
+          3,
+          4,
+          2,
+          1
+        ],
+        "claim": "finite certificate for this exact named target only"
+      }
+    },
+    {
+      "K": 30,
+      "original_graph": {
+        "schema_version": 1,
+        "profile": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "vertices": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11",
+          "s:12",
+          "s:13",
+          "s:14",
+          "s:15",
+          "s:16",
+          "s:17",
+          "s:18",
+          "s:19",
+          "s:20",
+          "s:21",
+          "s:22",
+          "s:23",
+          "s:24",
+          "s:25",
+          "s:26",
+          "s:27",
+          "s:28",
+          "s:29",
+          "s:30",
+          "s:31",
+          "s:32"
+        ],
+        "edges": [
+          [
+            "s:0",
+            "s:1"
+          ],
+          [
+            "s:1",
+            "s:2"
+          ],
+          [
+            "s:2",
+            "s:3"
+          ],
+          [
+            "s:3",
+            "s:4"
+          ],
+          [
+            "s:4",
+            "s:5"
+          ],
+          [
+            "s:5",
+            "s:6"
+          ],
+          [
+            "s:6",
+            "s:7"
+          ],
+          [
+            "s:7",
+            "s:8"
+          ],
+          [
+            "s:8",
+            "s:9"
+          ],
+          [
+            "s:9",
+            "s:10"
+          ],
+          [
+            "s:10",
+            "s:11"
+          ],
+          [
+            "s:11",
+            "s:12"
+          ],
+          [
+            "s:12",
+            "s:13"
+          ],
+          [
+            "s:13",
+            "s:14"
+          ],
+          [
+            "s:14",
+            "s:15"
+          ],
+          [
+            "s:15",
+            "s:16"
+          ],
+          [
+            "s:16",
+            "s:17"
+          ],
+          [
+            "s:17",
+            "s:18"
+          ],
+          [
+            "s:18",
+            "s:19"
+          ],
+          [
+            "s:19",
+            "s:20"
+          ],
+          [
+            "s:20",
+            "s:21"
+          ],
+          [
+            "s:21",
+            "s:22"
+          ],
+          [
+            "s:22",
+            "s:23"
+          ],
+          [
+            "s:23",
+            "s:24"
+          ],
+          [
+            "s:24",
+            "s:25"
+          ],
+          [
+            "s:25",
+            "s:26"
+          ],
+          [
+            "s:26",
+            "s:27"
+          ],
+          [
+            "s:27",
+            "s:28"
+          ],
+          [
+            "s:28",
+            "s:29"
+          ],
+          [
+            "s:29",
+            "s:30"
+          ],
+          [
+            "s:30",
+            "s:31"
+          ],
+          [
+            "s:31",
+            "s:32"
+          ]
+        ],
+        "spine": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11",
+          "s:12",
+          "s:13",
+          "s:14",
+          "s:15",
+          "s:16",
+          "s:17",
+          "s:18",
+          "s:19",
+          "s:20",
+          "s:21",
+          "s:22",
+          "s:23",
+          "s:24",
+          "s:25",
+          "s:26",
+          "s:27",
+          "s:28",
+          "s:29",
+          "s:30",
+          "s:31",
+          "s:32"
+        ],
+        "roles": {
+          "s:0": {
+            "kind": "spine",
+            "section": 0
+          },
+          "s:1": {
+            "kind": "spine",
+            "section": 1
+          },
+          "s:2": {
+            "kind": "spine",
+            "section": 2
+          },
+          "s:3": {
+            "kind": "spine",
+            "section": 3
+          },
+          "s:4": {
+            "kind": "spine",
+            "section": 4
+          },
+          "s:5": {
+            "kind": "spine",
+            "section": 5
+          },
+          "s:6": {
+            "kind": "spine",
+            "section": 6
+          },
+          "s:7": {
+            "kind": "spine",
+            "section": 7
+          },
+          "s:8": {
+            "kind": "spine",
+            "section": 8
+          },
+          "s:9": {
+            "kind": "spine",
+            "section": 9
+          },
+          "s:10": {
+            "kind": "spine",
+            "section": 10
+          },
+          "s:11": {
+            "kind": "spine",
+            "section": 11
+          },
+          "s:12": {
+            "kind": "spine",
+            "section": 12
+          },
+          "s:13": {
+            "kind": "spine",
+            "section": 13
+          },
+          "s:14": {
+            "kind": "spine",
+            "section": 14
+          },
+          "s:15": {
+            "kind": "spine",
+            "section": 15
+          },
+          "s:16": {
+            "kind": "spine",
+            "section": 16
+          },
+          "s:17": {
+            "kind": "spine",
+            "section": 17
+          },
+          "s:18": {
+            "kind": "spine",
+            "section": 18
+          },
+          "s:19": {
+            "kind": "spine",
+            "section": 19
+          },
+          "s:20": {
+            "kind": "spine",
+            "section": 20
+          },
+          "s:21": {
+            "kind": "spine",
+            "section": 21
+          },
+          "s:22": {
+            "kind": "spine",
+            "section": 22
+          },
+          "s:23": {
+            "kind": "spine",
+            "section": 23
+          },
+          "s:24": {
+            "kind": "spine",
+            "section": 24
+          },
+          "s:25": {
+            "kind": "spine",
+            "section": 25
+          },
+          "s:26": {
+            "kind": "spine",
+            "section": 26
+          },
+          "s:27": {
+            "kind": "spine",
+            "section": 27
+          },
+          "s:28": {
+            "kind": "spine",
+            "section": 28
+          },
+          "s:29": {
+            "kind": "spine",
+            "section": 29
+          },
+          "s:30": {
+            "kind": "spine",
+            "section": 30
+          },
+          "s:31": {
+            "kind": "spine",
+            "section": 31
+          },
+          "s:32": {
+            "kind": "spine",
+            "section": 32
+          }
+        }
+      },
+      "graph_digest": "c984db41646354a832f14813265b36957bc5f6919b1ec13811e2aee6f3b61642",
+      "prefix_labels": {
+        "s:0": 31,
+        "s:1": 0,
+        "s:2": 32
+      },
+      "labels": {
+        "s:0": 31,
+        "s:1": 0,
+        "s:2": 32,
+        "s:3": 2,
+        "s:4": 30,
+        "s:5": 1,
+        "s:6": 28,
+        "s:7": 3,
+        "s:8": 29,
+        "s:9": 5,
+        "s:10": 27,
+        "s:11": 4,
+        "s:12": 25,
+        "s:13": 6,
+        "s:14": 26,
+        "s:15": 8,
+        "s:16": 24,
+        "s:17": 7,
+        "s:18": 22,
+        "s:19": 9,
+        "s:20": 23,
+        "s:21": 11,
+        "s:22": 21,
+        "s:23": 10,
+        "s:24": 19,
+        "s:25": 12,
+        "s:26": 20,
+        "s:27": 14,
+        "s:28": 18,
+        "s:29": 13,
+        "s:30": 16,
+        "s:31": 17,
+        "s:32": 15
+      },
+      "original_edge_differences": [
+        31,
+        32,
+        30,
+        28,
+        29,
+        27,
+        25,
+        26,
+        24,
+        22,
+        23,
+        21,
+        19,
+        20,
+        18,
+        16,
+        17,
+        15,
+        13,
+        14,
+        12,
+        10,
+        11,
+        9,
+        7,
+        8,
+        6,
+        4,
+        5,
+        3,
+        1,
+        2
+      ],
+      "independent_certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 33,
+        "m": 32,
+        "graph_digest": "c984db41646354a832f14813265b36957bc5f6919b1ec13811e2aee6f3b61642",
+        "edge_differences": [
+          31,
+          32,
+          30,
+          28,
+          29,
+          27,
+          25,
+          26,
+          24,
+          22,
+          23,
+          21,
+          19,
+          20,
+          18,
+          16,
+          17,
+          15,
+          13,
+          14,
+          12,
+          10,
+          11,
+          9,
+          7,
+          8,
+          6,
+          4,
+          5,
+          3,
+          1,
+          2
+        ],
+        "claim": "finite certificate for this exact named target only"
+      }
+    },
+    {
+      "K": 31,
+      "original_graph": {
+        "schema_version": 1,
+        "profile": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "vertices": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11",
+          "s:12",
+          "s:13",
+          "s:14",
+          "s:15",
+          "s:16",
+          "s:17",
+          "s:18",
+          "s:19",
+          "s:20",
+          "s:21",
+          "s:22",
+          "s:23",
+          "s:24",
+          "s:25",
+          "s:26",
+          "s:27",
+          "s:28",
+          "s:29",
+          "s:30",
+          "s:31",
+          "s:32",
+          "s:33"
+        ],
+        "edges": [
+          [
+            "s:0",
+            "s:1"
+          ],
+          [
+            "s:1",
+            "s:2"
+          ],
+          [
+            "s:2",
+            "s:3"
+          ],
+          [
+            "s:3",
+            "s:4"
+          ],
+          [
+            "s:4",
+            "s:5"
+          ],
+          [
+            "s:5",
+            "s:6"
+          ],
+          [
+            "s:6",
+            "s:7"
+          ],
+          [
+            "s:7",
+            "s:8"
+          ],
+          [
+            "s:8",
+            "s:9"
+          ],
+          [
+            "s:9",
+            "s:10"
+          ],
+          [
+            "s:10",
+            "s:11"
+          ],
+          [
+            "s:11",
+            "s:12"
+          ],
+          [
+            "s:12",
+            "s:13"
+          ],
+          [
+            "s:13",
+            "s:14"
+          ],
+          [
+            "s:14",
+            "s:15"
+          ],
+          [
+            "s:15",
+            "s:16"
+          ],
+          [
+            "s:16",
+            "s:17"
+          ],
+          [
+            "s:17",
+            "s:18"
+          ],
+          [
+            "s:18",
+            "s:19"
+          ],
+          [
+            "s:19",
+            "s:20"
+          ],
+          [
+            "s:20",
+            "s:21"
+          ],
+          [
+            "s:21",
+            "s:22"
+          ],
+          [
+            "s:22",
+            "s:23"
+          ],
+          [
+            "s:23",
+            "s:24"
+          ],
+          [
+            "s:24",
+            "s:25"
+          ],
+          [
+            "s:25",
+            "s:26"
+          ],
+          [
+            "s:26",
+            "s:27"
+          ],
+          [
+            "s:27",
+            "s:28"
+          ],
+          [
+            "s:28",
+            "s:29"
+          ],
+          [
+            "s:29",
+            "s:30"
+          ],
+          [
+            "s:30",
+            "s:31"
+          ],
+          [
+            "s:31",
+            "s:32"
+          ],
+          [
+            "s:32",
+            "s:33"
+          ]
+        ],
+        "spine": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11",
+          "s:12",
+          "s:13",
+          "s:14",
+          "s:15",
+          "s:16",
+          "s:17",
+          "s:18",
+          "s:19",
+          "s:20",
+          "s:21",
+          "s:22",
+          "s:23",
+          "s:24",
+          "s:25",
+          "s:26",
+          "s:27",
+          "s:28",
+          "s:29",
+          "s:30",
+          "s:31",
+          "s:32",
+          "s:33"
+        ],
+        "roles": {
+          "s:0": {
+            "kind": "spine",
+            "section": 0
+          },
+          "s:1": {
+            "kind": "spine",
+            "section": 1
+          },
+          "s:2": {
+            "kind": "spine",
+            "section": 2
+          },
+          "s:3": {
+            "kind": "spine",
+            "section": 3
+          },
+          "s:4": {
+            "kind": "spine",
+            "section": 4
+          },
+          "s:5": {
+            "kind": "spine",
+            "section": 5
+          },
+          "s:6": {
+            "kind": "spine",
+            "section": 6
+          },
+          "s:7": {
+            "kind": "spine",
+            "section": 7
+          },
+          "s:8": {
+            "kind": "spine",
+            "section": 8
+          },
+          "s:9": {
+            "kind": "spine",
+            "section": 9
+          },
+          "s:10": {
+            "kind": "spine",
+            "section": 10
+          },
+          "s:11": {
+            "kind": "spine",
+            "section": 11
+          },
+          "s:12": {
+            "kind": "spine",
+            "section": 12
+          },
+          "s:13": {
+            "kind": "spine",
+            "section": 13
+          },
+          "s:14": {
+            "kind": "spine",
+            "section": 14
+          },
+          "s:15": {
+            "kind": "spine",
+            "section": 15
+          },
+          "s:16": {
+            "kind": "spine",
+            "section": 16
+          },
+          "s:17": {
+            "kind": "spine",
+            "section": 17
+          },
+          "s:18": {
+            "kind": "spine",
+            "section": 18
+          },
+          "s:19": {
+            "kind": "spine",
+            "section": 19
+          },
+          "s:20": {
+            "kind": "spine",
+            "section": 20
+          },
+          "s:21": {
+            "kind": "spine",
+            "section": 21
+          },
+          "s:22": {
+            "kind": "spine",
+            "section": 22
+          },
+          "s:23": {
+            "kind": "spine",
+            "section": 23
+          },
+          "s:24": {
+            "kind": "spine",
+            "section": 24
+          },
+          "s:25": {
+            "kind": "spine",
+            "section": 25
+          },
+          "s:26": {
+            "kind": "spine",
+            "section": 26
+          },
+          "s:27": {
+            "kind": "spine",
+            "section": 27
+          },
+          "s:28": {
+            "kind": "spine",
+            "section": 28
+          },
+          "s:29": {
+            "kind": "spine",
+            "section": 29
+          },
+          "s:30": {
+            "kind": "spine",
+            "section": 30
+          },
+          "s:31": {
+            "kind": "spine",
+            "section": 31
+          },
+          "s:32": {
+            "kind": "spine",
+            "section": 32
+          },
+          "s:33": {
+            "kind": "spine",
+            "section": 33
+          }
+        }
+      },
+      "graph_digest": "1aaf459a459c7371581bc0c9137413f5b73c28ca7ef2f653739bd914ba135419",
+      "prefix_labels": {
+        "s:0": 32,
+        "s:1": 0,
+        "s:2": 33
+      },
+      "labels": {
+        "s:0": 32,
+        "s:1": 0,
+        "s:2": 33,
+        "s:3": 2,
+        "s:4": 31,
+        "s:5": 1,
+        "s:6": 29,
+        "s:7": 3,
+        "s:8": 30,
+        "s:9": 5,
+        "s:10": 28,
+        "s:11": 4,
+        "s:12": 26,
+        "s:13": 6,
+        "s:14": 27,
+        "s:15": 8,
+        "s:16": 25,
+        "s:17": 7,
+        "s:18": 23,
+        "s:19": 9,
+        "s:20": 24,
+        "s:21": 11,
+        "s:22": 22,
+        "s:23": 10,
+        "s:24": 20,
+        "s:25": 12,
+        "s:26": 21,
+        "s:27": 14,
+        "s:28": 19,
+        "s:29": 13,
+        "s:30": 17,
+        "s:31": 16,
+        "s:32": 18,
+        "s:33": 15
+      },
+      "original_edge_differences": [
+        32,
+        33,
+        31,
+        29,
+        30,
+        28,
+        26,
+        27,
+        25,
+        23,
+        24,
+        22,
+        20,
+        21,
+        19,
+        17,
+        18,
+        16,
+        14,
+        15,
+        13,
+        11,
+        12,
+        10,
+        8,
+        9,
+        7,
+        5,
+        6,
+        4,
+        1,
+        2,
+        3
+      ],
+      "independent_certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 34,
+        "m": 33,
+        "graph_digest": "1aaf459a459c7371581bc0c9137413f5b73c28ca7ef2f653739bd914ba135419",
+        "edge_differences": [
+          32,
+          33,
+          31,
+          29,
+          30,
+          28,
+          26,
+          27,
+          25,
+          23,
+          24,
+          22,
+          20,
+          21,
+          19,
+          17,
+          18,
+          16,
+          14,
+          15,
+          13,
+          11,
+          12,
+          10,
+          8,
+          9,
+          7,
+          5,
+          6,
+          4,
+          1,
+          2,
+          3
+        ],
+        "claim": "finite certificate for this exact named target only"
+      }
+    },
+    {
+      "K": 32,
+      "original_graph": {
+        "schema_version": 1,
+        "profile": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "vertices": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11",
+          "s:12",
+          "s:13",
+          "s:14",
+          "s:15",
+          "s:16",
+          "s:17",
+          "s:18",
+          "s:19",
+          "s:20",
+          "s:21",
+          "s:22",
+          "s:23",
+          "s:24",
+          "s:25",
+          "s:26",
+          "s:27",
+          "s:28",
+          "s:29",
+          "s:30",
+          "s:31",
+          "s:32",
+          "s:33",
+          "s:34"
+        ],
+        "edges": [
+          [
+            "s:0",
+            "s:1"
+          ],
+          [
+            "s:1",
+            "s:2"
+          ],
+          [
+            "s:2",
+            "s:3"
+          ],
+          [
+            "s:3",
+            "s:4"
+          ],
+          [
+            "s:4",
+            "s:5"
+          ],
+          [
+            "s:5",
+            "s:6"
+          ],
+          [
+            "s:6",
+            "s:7"
+          ],
+          [
+            "s:7",
+            "s:8"
+          ],
+          [
+            "s:8",
+            "s:9"
+          ],
+          [
+            "s:9",
+            "s:10"
+          ],
+          [
+            "s:10",
+            "s:11"
+          ],
+          [
+            "s:11",
+            "s:12"
+          ],
+          [
+            "s:12",
+            "s:13"
+          ],
+          [
+            "s:13",
+            "s:14"
+          ],
+          [
+            "s:14",
+            "s:15"
+          ],
+          [
+            "s:15",
+            "s:16"
+          ],
+          [
+            "s:16",
+            "s:17"
+          ],
+          [
+            "s:17",
+            "s:18"
+          ],
+          [
+            "s:18",
+            "s:19"
+          ],
+          [
+            "s:19",
+            "s:20"
+          ],
+          [
+            "s:20",
+            "s:21"
+          ],
+          [
+            "s:21",
+            "s:22"
+          ],
+          [
+            "s:22",
+            "s:23"
+          ],
+          [
+            "s:23",
+            "s:24"
+          ],
+          [
+            "s:24",
+            "s:25"
+          ],
+          [
+            "s:25",
+            "s:26"
+          ],
+          [
+            "s:26",
+            "s:27"
+          ],
+          [
+            "s:27",
+            "s:28"
+          ],
+          [
+            "s:28",
+            "s:29"
+          ],
+          [
+            "s:29",
+            "s:30"
+          ],
+          [
+            "s:30",
+            "s:31"
+          ],
+          [
+            "s:31",
+            "s:32"
+          ],
+          [
+            "s:32",
+            "s:33"
+          ],
+          [
+            "s:33",
+            "s:34"
+          ]
+        ],
+        "spine": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11",
+          "s:12",
+          "s:13",
+          "s:14",
+          "s:15",
+          "s:16",
+          "s:17",
+          "s:18",
+          "s:19",
+          "s:20",
+          "s:21",
+          "s:22",
+          "s:23",
+          "s:24",
+          "s:25",
+          "s:26",
+          "s:27",
+          "s:28",
+          "s:29",
+          "s:30",
+          "s:31",
+          "s:32",
+          "s:33",
+          "s:34"
+        ],
+        "roles": {
+          "s:0": {
+            "kind": "spine",
+            "section": 0
+          },
+          "s:1": {
+            "kind": "spine",
+            "section": 1
+          },
+          "s:2": {
+            "kind": "spine",
+            "section": 2
+          },
+          "s:3": {
+            "kind": "spine",
+            "section": 3
+          },
+          "s:4": {
+            "kind": "spine",
+            "section": 4
+          },
+          "s:5": {
+            "kind": "spine",
+            "section": 5
+          },
+          "s:6": {
+            "kind": "spine",
+            "section": 6
+          },
+          "s:7": {
+            "kind": "spine",
+            "section": 7
+          },
+          "s:8": {
+            "kind": "spine",
+            "section": 8
+          },
+          "s:9": {
+            "kind": "spine",
+            "section": 9
+          },
+          "s:10": {
+            "kind": "spine",
+            "section": 10
+          },
+          "s:11": {
+            "kind": "spine",
+            "section": 11
+          },
+          "s:12": {
+            "kind": "spine",
+            "section": 12
+          },
+          "s:13": {
+            "kind": "spine",
+            "section": 13
+          },
+          "s:14": {
+            "kind": "spine",
+            "section": 14
+          },
+          "s:15": {
+            "kind": "spine",
+            "section": 15
+          },
+          "s:16": {
+            "kind": "spine",
+            "section": 16
+          },
+          "s:17": {
+            "kind": "spine",
+            "section": 17
+          },
+          "s:18": {
+            "kind": "spine",
+            "section": 18
+          },
+          "s:19": {
+            "kind": "spine",
+            "section": 19
+          },
+          "s:20": {
+            "kind": "spine",
+            "section": 20
+          },
+          "s:21": {
+            "kind": "spine",
+            "section": 21
+          },
+          "s:22": {
+            "kind": "spine",
+            "section": 22
+          },
+          "s:23": {
+            "kind": "spine",
+            "section": 23
+          },
+          "s:24": {
+            "kind": "spine",
+            "section": 24
+          },
+          "s:25": {
+            "kind": "spine",
+            "section": 25
+          },
+          "s:26": {
+            "kind": "spine",
+            "section": 26
+          },
+          "s:27": {
+            "kind": "spine",
+            "section": 27
+          },
+          "s:28": {
+            "kind": "spine",
+            "section": 28
+          },
+          "s:29": {
+            "kind": "spine",
+            "section": 29
+          },
+          "s:30": {
+            "kind": "spine",
+            "section": 30
+          },
+          "s:31": {
+            "kind": "spine",
+            "section": 31
+          },
+          "s:32": {
+            "kind": "spine",
+            "section": 32
+          },
+          "s:33": {
+            "kind": "spine",
+            "section": 33
+          },
+          "s:34": {
+            "kind": "spine",
+            "section": 34
+          }
+        }
+      },
+      "graph_digest": "329c8cc7ce49ca665892a8db3d09d985f74037d2cf1b022261ea7c1f145427f3",
+      "prefix_labels": {
+        "s:0": 33,
+        "s:1": 0,
+        "s:2": 34
+      },
+      "labels": {
+        "s:0": 33,
+        "s:1": 0,
+        "s:2": 34,
+        "s:3": 2,
+        "s:4": 32,
+        "s:5": 1,
+        "s:6": 30,
+        "s:7": 3,
+        "s:8": 31,
+        "s:9": 5,
+        "s:10": 29,
+        "s:11": 4,
+        "s:12": 27,
+        "s:13": 6,
+        "s:14": 28,
+        "s:15": 8,
+        "s:16": 26,
+        "s:17": 7,
+        "s:18": 24,
+        "s:19": 9,
+        "s:20": 25,
+        "s:21": 11,
+        "s:22": 23,
+        "s:23": 10,
+        "s:24": 21,
+        "s:25": 12,
+        "s:26": 22,
+        "s:27": 14,
+        "s:28": 20,
+        "s:29": 13,
+        "s:30": 18,
+        "s:31": 15,
+        "s:32": 19,
+        "s:33": 17,
+        "s:34": 16
+      },
+      "original_edge_differences": [
+        33,
+        34,
+        32,
+        30,
+        31,
+        29,
+        27,
+        28,
+        26,
+        24,
+        25,
+        23,
+        21,
+        22,
+        20,
+        18,
+        19,
+        17,
+        15,
+        16,
+        14,
+        12,
+        13,
+        11,
+        9,
+        10,
+        8,
+        6,
+        7,
+        5,
+        3,
+        4,
+        2,
+        1
+      ],
+      "independent_certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 35,
+        "m": 34,
+        "graph_digest": "329c8cc7ce49ca665892a8db3d09d985f74037d2cf1b022261ea7c1f145427f3",
+        "edge_differences": [
+          33,
+          34,
+          32,
+          30,
+          31,
+          29,
+          27,
+          28,
+          26,
+          24,
+          25,
+          23,
+          21,
+          22,
+          20,
+          18,
+          19,
+          17,
+          15,
+          16,
+          14,
+          12,
+          13,
+          11,
+          9,
+          10,
+          8,
+          6,
+          7,
+          5,
+          3,
+          4,
+          2,
+          1
+        ],
+        "claim": "finite certificate for this exact named target only"
+      }
+    }
+  ]
+}

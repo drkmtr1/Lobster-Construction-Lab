@@ -1,0 +1,14 @@
+{
+  "run_id": "B2-NONADJACENT-CONSUMER-001-regression-20261121",
+  "case_count": 31,
+  "K_min": 2,
+  "K_max": 32,
+  "ell": 1,
+  "target": "named path s:0--s:1--s:2--...--s:(K+2)",
+  "prefix": {"s:0": "K+1", "s:1": 0, "s:2": "K+2"},
+  "unused_labels": "1..K",
+  "unused_differences": "1..K",
+  "workers": 1,
+  "max_vertices": 35,
+  "scope": "finite conditional-consumer regression; no seed search or universal proof"
+}

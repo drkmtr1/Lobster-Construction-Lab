@@ -1,0 +1,12 @@
+# Codex handoff: B2-NONADJACENT-CONSUMER-001
+
+- **Scope:** one conditional original-path consumer theorem, separate review, minimal helper, tests and bounded evidence; no successor task or superseded pin sweep. Starting `main` was clean and matched remote at `3a7179495c08ae7e79f81e4fb76ee9164310f840`.
+- **Accepted claim:** for integer `K>=2`, a valid already-supplied prefix with actual port `s:2=ell+K+1`, unused label interval `[ell,ell+K-1]`, unused differences `1..K`, and exactly the original named K-edge remaining path can be completed while preserving the prefix. The K−3 recurrence and induction are in `research/B2_NONADJACENT_CONSUMER.md`. At K=1 the unique edge difference is 2, so this exact interface fails.
+- **Review:** fresh separate Codex reviewer sessions rederived and challenged the proof and actual helper. They are AI reviews, not human peer review or formal proof-assistant certification. The old adjacent-port `interval_boundary` and original-target verifier were unchanged. The helper checks the caller's graph and prefix; callers must retain the actual target.
+- **Evidence:** `evidence/validation/B2_NONADJACENT_CONSUMER_001/` includes the complete 31-case original-path regression, exact targets/certificates, config, result, source/test snapshots, standard demo record and reviewer scratch receipts. The test suite ran 115 tests with six optional skips, no failures. The in-memory reviewer fixture search, limited to K=2..4, stopped at first finite positives and did not record attempts or exact runtime identities; it did not execute the superseded pin sweep and proves no supplier.
+- **Outstanding:** a compatible independently supplied unequal prefix is unproved; no p=5 seed is claimed. The finite reflected K=2 test prefix is fixture data only. The K>=6 adjacent-port obstruction remains valid for its original interface. No historical novelty or universal-lobster claim is made.
+- **Commit and synchronization:** the commit containing this handoff is resolved from Git after commit, not embedded here; its SHA and remote ref must be verified and transmitted in the final session report.
+
+## One next action
+
+With a new bounded scope decision, formulate a precise independently supplied unequal-prefix obligation compatible with the nonadjacent consumer, retaining original graph incidence and both resource inventories. No matching seed or supplier is assumed, and the superseded pin sweep remains unexecuted.

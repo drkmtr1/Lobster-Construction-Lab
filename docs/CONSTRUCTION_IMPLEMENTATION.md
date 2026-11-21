@@ -217,3 +217,8 @@ The construction/model and allocation test modules contain 30 test methods, incl
 - Further nonadjacent-host comparisons, the documented N224 obstruction, a graceful labeling of its same target, zero-completion cases, midpoint choices, and forced half-edges.
 
 These finite implementation controls do not prove the retained theorems or extend their domains. The independent verifier has its own graph reconstruction and edge/label checking code; it imports no constructor, allocation routine, or model validation function.
+
+
+## Conditional nonadjacent path consumer
+
+`lcl.consumers.complete_nonadjacent_path(graph, prefix_labels, K, ell)` accepts a caller-supplied original graph supported by `verify_partial` (including its lobster requirement) and a compatible partial labeling, validates the exact named path from `s:2`, inventories and nonadjacent port, and returns a new complete label mapping checked on that original graph. Its domain is integer `K>=2` and an integer `ell` compatible with the graph's final alphabet. The conditional mathematical proof applies to any original tree meeting its assumptions. The helper does not supply the prefix. The separate recurrence, proof and K=1 exclusion are in [B2_NONADJACENT_CONSUMER.md](../research/B2_NONADJACENT_CONSUMER.md); the existing adjacent-port `interval_boundary` is unchanged.
