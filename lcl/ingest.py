@@ -114,6 +114,7 @@ def _parameter_size(method: str, params: Any, limit: int) -> int:
         "two_section_padded": {"q", "r", "z0", "z1", "K"},
         "two_section_unit": {"K"},
         "two_section_balanced": {"q", "K"},
+        "two_section_nonadjacent": {"q", "r", "K"},
     }[method]
     allowed = required | ({"z"} if method == "l007" else set())
     if not required <= set(params) or not set(params) <= allowed:
@@ -127,6 +128,11 @@ def _parameter_size(method: str, params: Any, limit: int) -> int:
         q = _integer(params["q"], "q", 1, limit)
         K = _integer(params["K"], "K", 1, limit)
         count = K + 2 * q + 5
+    elif method == "two_section_nonadjacent":
+        q = _integer(params["q"], "q", 1, limit)
+        r = _integer(params["r"], "r", 1, limit)
+        K = _integer(params["K"], "K", 2, limit)
+        count = q + r + K + 5
     elif method == "l007":
         q = _integer(params["q"], "q", 1, limit)
         r = _integer(params["r"], "r", 1, limit)
@@ -183,7 +189,8 @@ def construction_input(spec: Any, max_vertices: int = MAX_GRAPH_VERTICES) -> tup
                "l010": constructors.l010, "h010": constructors.h010,
                "two_section_padded": constructors.two_section_padded,
                "two_section_unit": constructors.two_section_unit,
-               "two_section_balanced": constructors.two_section_balanced}
+               "two_section_balanced": constructors.two_section_balanced,
+               "two_section_nonadjacent": constructors.two_section_nonadjacent}
     method = spec["method"]
     if not isinstance(method, str) or method not in methods:
         raise ValueError("Unknown implemented constructor")

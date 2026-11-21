@@ -1,0 +1,127 @@
+{
+  "run_id": "B2-UNPADDED-ALL-QR-001-original-target-regression-20261121",
+  "starting_checkpoint": "a7d3c9162d00ff6a487da9ad592be2337f42114f",
+  "scope": "12 fixed q,r,K original-target cases and audit of same saved cases; no K=1 search",
+  "files": {
+    ".gitattributes": {
+      "bytes": 79,
+      "sha256": "4b4e008269ee22646e8e704f69c1bdd6dcd19eab5be9526da2650b273c95c81f"
+    },
+    "config.json": {
+      "bytes": 448,
+      "sha256": "8c2a3343f508f9ef7ffc379d8c97335fb779c21be2c024f540e698d93e96eade"
+    },
+    "independent_audit.py": {
+      "bytes": 4484,
+      "sha256": "5232229e7ee91110c56d3a489a4aa0bae79852e470360ab308027bf235ec1920"
+    },
+    "independent_audit_result.json": {
+      "bytes": 5048,
+      "sha256": "06af211fe897cec254c9816f6ec30f840035321f96fd1d497b8c353febbbc87f"
+    },
+    "README.md": {
+      "bytes": 3369,
+      "sha256": "110bbc8d47db5483f69139cbb0c9d28d5c91036bb40e868ef1f2f822f38d52a4"
+    },
+    "regression.py": {
+      "bytes": 4597,
+      "sha256": "1cd0556e70ea7cf712d2b6cf1830c6a1b18d93af8fbfe0e086c4956aebb71c6c"
+    },
+    "regression_result.json": {
+      "bytes": 65197,
+      "sha256": "3f552db8dd660db5457f9b18b9da1a1d128fbc0f59e19b447c579d0e73de0459"
+    },
+    "source/lcl/__init__.py": {
+      "bytes": 80,
+      "sha256": "134055506d3e9cd4fa538177844d28a44d5ab567ec220cf54048e63d1a8a7374"
+    },
+    "source/lcl/__main__.py": {
+      "bytes": 9654,
+      "sha256": "30782be9a5f5e6bc8b28d2ba189b3dfbf36f24571321d404bec50bd8175f1014"
+    },
+    "source/lcl/allocation.py": {
+      "bytes": 12851,
+      "sha256": "0aab778a6665712d3cd1e35554657cc212fa840d3ce28d32ba79c18f2dcce2b9"
+    },
+    "source/lcl/budget.py": {
+      "bytes": 1884,
+      "sha256": "02145a6b4bc10eda53d2f3736fdf082c1414f96905c71e74a407c0cefd73b16a"
+    },
+    "source/lcl/constructors.py": {
+      "bytes": 17895,
+      "sha256": "0aa0fcce9b93326dd1c3e54b821e98c16f0410a131ef077a1835f0ea0f07712b"
+    },
+    "source/lcl/consumers.py": {
+      "bytes": 3091,
+      "sha256": "2cb688d09c510ca855ba1695d0f89a325ea4fc7882c9e5a8e971c2b506e64560"
+    },
+    "source/lcl/dp.py": {
+      "bytes": 4688,
+      "sha256": "1aa3d2ed888c26b8e5fd65bd74069eb654c60dd336eef5fb33e8fdb7659a14f9"
+    },
+    "source/lcl/engines.py": {
+      "bytes": 5322,
+      "sha256": "8a67ba56d97676b613f9fa89e18e30d8642d74d5c6ada7ec55f97733b0dc7207"
+    },
+    "source/lcl/experiments.py": {
+      "bytes": 11430,
+      "sha256": "0d0f08632397082a2580e250aa7a2a53c5df61aba770e4d2ae0d701b1fe2f714"
+    },
+    "source/lcl/ingest.py": {
+      "bytes": 11001,
+      "sha256": "3aa40f1315473e0414c77af67deeafdc629a9c3683f737c69c634d2088f7d6f4"
+    },
+    "source/lcl/model.py": {
+      "bytes": 10720,
+      "sha256": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6"
+    },
+    "source/lcl/oracle.py": {
+      "bytes": 6603,
+      "sha256": "6d70eca24f9b0c254073ec8d1ffcc769d9beca42ad43b6cf272659aecf58146d"
+    },
+    "source/lcl/records.py": {
+      "bytes": 8291,
+      "sha256": "ba7299dac2b3f2c1907c3cce40e0ba20c603b19fc8dcee2f9b2b0760b925391e"
+    },
+    "source/lcl/search.py": {
+      "bytes": 5318,
+      "sha256": "f8291a3446e04422095131e4d75100ec9bfd3213d039d17ce83c04ec82d671ff"
+    },
+    "source/lcl/states.py": {
+      "bytes": 4812,
+      "sha256": "386a7666da91466d35d17b634ad2e5a69e67581f553e86e9d4e75389dc781e1c"
+    },
+    "source/lcl/verify.py": {
+      "bytes": 14075,
+      "sha256": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909"
+    },
+    "source/pyproject.toml": {
+      "bytes": 474,
+      "sha256": "738f14eba3125ce7f444628adaddaf2e3e30e5aa7f43f10e7035067f6b7072e5"
+    },
+    "source/requirements-graph.txt": {
+      "bytes": 14,
+      "sha256": "63b83d49071ae093c187423c768c6711a3716cda354d3a24e2bb10b0f536d34c"
+    },
+    "source/requirements-optional.txt": {
+      "bytes": 79,
+      "sha256": "5bab117f06ee96a8fa7529e4e08f5125087e6ca42bb5ffee3edfdc6913da9e3b"
+    },
+    "source/requirements-smt.txt": {
+      "bytes": 19,
+      "sha256": "4bb07f85bfdeaabba65e8deb117ecc222d748651ed5526284666f4bb3e6450bd"
+    },
+    "source/requirements-symbolic.txt": {
+      "bytes": 28,
+      "sha256": "47fd19021144e071cc43b6e265aafada0056abe89724ad95bd6e3a8e37995b94"
+    },
+    "source/requirements.txt": {
+      "bytes": 144,
+      "sha256": "60f6e1bd76adf6ed25cf381ca95f67e8a27a0de1e62fb673a7cf5af4b86249ea"
+    },
+    "source/tests/test_unpadded_all_qr.py": {
+      "bytes": 5646,
+      "sha256": "7d783fd265069dc4fa6c03080328b3d2b21ba27c899582a1fed7307be23afa01"
+    }
+  }
+}

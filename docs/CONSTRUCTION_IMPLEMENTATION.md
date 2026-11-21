@@ -12,6 +12,7 @@ The code supplies six direct construction implementations, a unit-size convenien
 | `h010(qs, z, suffix_profile)` | Positive ordered branch sizes, sufficient direct-leaf count, an exact all-direct-leaf suffix | Complete graceful labeling | One branched section; both packed-interval conditions must hold |
 | `two_section_padded(q,r,z0,z1,K)` | Two positive branch sizes, specified direct-leaf counts satisfying both budgets, a positive pure-path suffix length | Complete graceful labeling | A composition corollary of retained L010 prefixes under the stated budgets |
 | `two_section_balanced(q,K)` | Equal positive branch sizes `q`, no direct leaves, positive suffix length `K` | Complete graceful labeling | Project-derived symbolic supplier; unequal sizes are outside its domain |
+| `two_section_nonadjacent(q,r,K)` | Any positive q,r, no direct leaves, K>=2 | Complete graceful labeling | Independent formula supplies a two-above port and exact original path consumer |
 | `two_section_unit(K)` | Positive suffix length `K` | Complete graceful labeling | Alias for `two_section_balanced(q=1,K=K)` |
 | `complete_two_host(graph, core_labels, hosts)` | Original target, connected labeled core, two distinct physical hosts | Exact fixed-core completion or restricted obstruction | Does not supply the core labeling, host choice, or a palette partition |
 
@@ -222,3 +223,8 @@ These finite implementation controls do not prove the retained theorems or exten
 ## Conditional nonadjacent path consumer
 
 `lcl.consumers.complete_nonadjacent_path(graph, prefix_labels, K, ell)` accepts a caller-supplied original graph supported by `verify_partial` (including its lobster requirement) and a compatible partial labeling, validates the exact named path from `s:2`, inventories and nonadjacent port, and returns a new complete label mapping checked on that original graph. Its domain is integer `K>=2` and an integer `ell` compatible with the graph's final alphabet. The conditional mathematical proof applies to any original tree meeting its assumptions. The helper does not supply the prefix. The separate recurrence, proof and K=1 exclusion are in [B2_NONADJACENT_CONSUMER.md](../research/B2_NONADJACENT_CONSUMER.md); the existing adjacent-port `interval_boundary` is unchanged.
+
+
+## All-q,r unpadded two-section supplier
+
+`two_section_nonadjacent(q,r,K)` constructs the exact unpadded two-section graph for positive integer `q,r` and integer `K>=2`. Its prefix trace carries the physical port, prefix labels, and both unused inventories; the unchanged nonadjacent consumer completes the original path. The CLI constructor method of the same name requires an independently declared `profile` and exact `q,r,K` parameters, and rejects oversized targets before expansion. Its algebra, comparisons and K=1 limitation are in [B2_UNPADDED_ALL_QR.md](../research/B2_UNPADDED_ALL_QR.md).

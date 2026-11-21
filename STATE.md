@@ -2,15 +2,15 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 21, 2026, Pacific/Honolulu  
-**Stage:** B2-NONADJACENT-SEED-P5-001 established an explicit independently supplied zero-padding unequal `(q,r)=(1,2)` prefix and original-path completion for all K≥2; the existing K=1 witness is separate.
+**Stage:** B2-UNPADDED-ALL-QR-001 independently reviewed and accepted: explicit zero-padding two-section prefix supply and original path completion for all integers q,r≥1 and K≥2.
 
 ## Current scientific objective
 
-Extend independently supplied original-graph boundaries beyond the proved zero-padding `(q,r)=(1,2)` family while preserving physical incidence and both resource inventories. Universal lobster coverage remains an ultimate goal, not an achieved result.
+Develop independently supplied original-graph boundaries and transitions beyond the proved zero-padding two-section domain, preserving physical incidence and both resource inventories. Universal lobster coverage remains an ultimate goal, not an achieved result.
 
 ## One next action
 
-**With a new bounded scope decision, formulate and review one independently supplied boundary problem for an unequal branch-size pair beyond `(q,r)=(1,2)`**, retaining the original named target and both inventories. No successor task is started by this review.
+**With a new bounded scope decision, formulate a separate proof obligation for K=1 on the same unpadded two-section family**, comparing retained constructions and preserving the original named graph. No successor task or K=1 search is started by this review.
 
 ## What is established in this package
 
@@ -22,6 +22,7 @@ Extend independently supplied original-graph boundaries beyond the proved zero-p
 - The p=4 restricted negative, conditional-only transport, K≥6 interval/adjacent-port obstruction, existing K=1 witness and pin-sweep supersession are **ACCEPTED** within their exact scopes by independent Codex reviewer sessions at reviewed revision `2cfb2df`. The threshold six is sufficient, sharpness is not established, and K=2..5 are not adjudicated. This is an interface obstruction, not nongracefulness. See `research/B2_CODEX_ACCEPTANCE_REVIEW.md`, findings B2-UNEQUAL-SEED-001 and B2-INTERFACE-OBSTRUCTION, and D018.
 - B2-NONADJACENT-CONSUMER-001 supplies a reviewed conditional K-edge path consumer for integer K>=2, interval `[ell,ell+K-1]`, unused differences `1..K`, and physical port `ell+K+1`. K=1 is impossible under this exact interface. Proof and separate review: `research/B2_NONADJACENT_CONSUMER.md`; implementation: `lcl/consumers.py`; bounded evidence: `evidence/validation/B2_NONADJACENT_CONSUMER_001/`. This consumer alone does not supply the prefix; the separate p=5 result below does.
 - B2-NONADJACENT-SEED-P5-001 found and independently checked a fixed port-5 alpha seed. Its explicit high-side shift supplies the nonadjacent consumer on the original zero-padding `q=1,r=2` family for all K>=2; a previously verified adjacent-port witness separately covers K=1. The first-witness DFS was SAT after 9 nodes, not exhausted, with no exact solution count. Proof, reduction and scope: `research/B2_NONADJACENT_SEED_P5.md`; evidence: `evidence/runs/b2-nonadjacent-seed-p5-001-20261121-dfs/`; decision D020.
+- B2-UNPADDED-ALL-QR-001 supplies an explicit independently constructed zero-padding prefix for every integer `q,r>=1,K>=2`, leaving labels `[r+2,K+r+1]`, differences `1..K`, and actual port `K+r+3` for the accepted nonadjacent consumer. The exact named target is completed without a solver input. Proof and source comparison: `research/B2_UNPADDED_ALL_QR.md`; implementation: `lcl/constructors.py`; original-target bounded evidence: `evidence/validation/B2_UNPADDED_ALL_QR_001/`; decision D021. K=1 is outside this theorem.
 - Evidence custody and closeout corrections are accepted within their documented scope: the historical 33 successful entries comprise 31 predicates and two informational hashes, and the later 72/72 check verifies saved custody, not proof or independent provenance authentication. The unchanged solver, original-target verifier, restrictions, pruning and symmetry are inherited from the accepted baseline. Historical OpenChamber handoffs and decisions preserve their then-pending status as history.
 - DFS, full-resource DP, direct enumeration, optional Z3 and evidence/recovery controls passed the release's bounded checks. **110 test methods passed.** The final source identity and complete commands are in `evidence/validation/release_final/summary.json`.
 - Four diagnostic target/interface pairs on three named profiles completed: two checked witnesses and two restricted negatives. The q=r=1,ell=1 negative was independently cross-checked by direct enumeration. Results are in `evidence/validation/VALIDATION_REPORT.md`.
@@ -39,4 +40,4 @@ Research scope/milestones: `docs/RESEARCH_PLAN.md`. Accepted findings: `research
 
 ## Execution limits and delivery boundary
 
-Release execution was Linux x86_64, CPython3.12.14. Windows11 and Python3.13 setup paths were documented, not executed. The designated GitHub synchronization target is `drkmtr1/Lobster-Construction-Lab`; verify actual remote status instead of assuming synchronization. The package has no background campaign, model service or native ChatGPT Project object. Use the manual pack in `chatgpt_project/`; its project instructions occupy 6,454 Unicode characters within an 8,000-character design budget.
+The earlier release executed on Linux x86_64, CPython3.12.14; its Windows11/Python3.13 setup paths had not then been executed. This later task ran targeted checks on Windows with Python 3.13.17; see `evidence/validation/B2_UNPADDED_ALL_QR_001/`. The designated GitHub synchronization target is `drkmtr1/Lobster-Construction-Lab`; verify actual remote status instead of assuming synchronization. The package has no background campaign, model service or native ChatGPT Project object. Use the manual pack in `chatgpt_project/`; its project instructions occupy 6,454 Unicode characters within an 8,000-character design budget.

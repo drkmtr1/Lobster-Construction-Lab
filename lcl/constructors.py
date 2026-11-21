@@ -6,6 +6,7 @@ nothing about ordinary gracefulness of the requested graph.
 
 from __future__ import annotations
 
+from .consumers import complete_nonadjacent_path
 from .model import (_integer, branched_prefix_profile, build_graph, graph_digest,
                     normalize_profile)
 
@@ -299,6 +300,47 @@ def two_section_balanced(q: int, K: int) -> dict:
         "source": "research/B2_BALANCED_SUPPLIER.md",
         "source_scope": "new project derivation; not an additional upstream retained lemma",
         "interval_source": SOURCE_BASE + "MATHEMATICS.md#6-caterpillar-interval-baseline"}, trace)
+    result["evidence_level"] = "project_derived_symbolic_family; independent checking required"
+    return result
+
+
+def two_section_nonadjacent(q: int, r: int, K: int) -> dict:
+    """Supply two unpadded branches and complete their original K-edge path.
+
+    Requires integers q,r>=1 and K>=2. The explicit prefix leaves the
+    nonadjacent-port consumer's two inventories; no full solution is input.
+    """
+    _integer(q, "q", 1)
+    _integer(r, "r", 1)
+    _integer(K, "K", 2)
+    graph = build_graph(branched_prefix_profile(q, r, 0, 0, K))
+    m = q + r + K + 4
+    ell = r + 2
+    prefix = {"s:0": K + r + 4, "s:1": 1, "s:2": K + r + 3,
+              "b:0:0": 0, "b:1:0": K + r + 2}
+    for j in range(q):
+        prefix[f"l:0:0:{j}"] = K + r + 5 + j
+    for j in range(r):
+        prefix[f"l:1:0:{j}"] = 2 + j
+    trace = [{"operation": "supplied_nonadjacent_interval_interface", "stage": 2,
+              "active_vertex": "s:2", "active_label": K + r + 3,
+              "unused_labels": list(range(ell, ell + K)),
+              "unused_differences": list(range(1, K + 1)),
+              "prefix_labels": dict(prefix),
+              "prefix_difference_interval": [K + 1, m]}]
+    labels = complete_nonadjacent_path(graph, prefix, K, ell)
+    result = _result(graph, labels, "two_section_nonadjacent", {
+        "parameters": {"q": q, "r": r, "z0": 0, "z1": 0, "K": K},
+        "family": "two successive positive branches, no direct leaves, and a K-edge path suffix",
+        "independent_input_supply": True, "universal_lobster_claim": False,
+        "mathematical_novelty_claim": False, "arbitrary_branched_suffix": False,
+        "suffix_interface": {"unused_labels": [ell, ell + K - 1],
+                             "unused_differences": [1, K],
+                             "active_vertex": "s:2", "active_label": ell + K + 1,
+                             "notation": "inclusive intervals"},
+        "derivation_status": "project-derived algebraic prefix supplier followed by the nonadjacent path consumer",
+        "source": "research/B2_UNPADDED_ALL_QR.md",
+        "consumer_source": "research/B2_NONADJACENT_CONSUMER.md"}, trace)
     result["evidence_level"] = "project_derived_symbolic_family; independent checking required"
     return result
 
