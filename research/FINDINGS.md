@@ -78,14 +78,20 @@ Scope limits: the threshold 6 is sufficient, not claimed sharp; `K=1` is feasibl
 
 **Disposition: ACCEPT — separate proof and implementation review.** For every integer `K>=2` and integer `ell`, a valid supplied prefix with actual port `s:2=ell+K+1`, unused labels `[ell,ell+K-1]`, unused differences `1..K` and the exact original K-edge path from `s:2` can be completed without changing the prefix. The K−3 recurrence, induction, physical requirements and independent reviewer disposition are in [B2_NONADJACENT_CONSUMER.md](B2_NONADJACENT_CONSUMER.md). For K=1 the sole edge would have difference 2, so this particular interface cannot be consumed.
 
-The separate helper `lcl.consumers.complete_nonadjacent_path` validates the caller-supplied original graph, prefix and exact path, and the unchanged certificate verifier checks the complete result. `interval_boundary` remains the adjacent-port predicate. This is a consumer, not an independent supplier: no compatible unequal prefix or p=5 seed is asserted. No historical novelty, formal verification or universal-lobster claim is made. Decision D019; finite regression and reviewer receipts: `evidence/validation/B2_NONADJACENT_CONSUMER_001/`.
+The separate helper `lcl.consumers.complete_nonadjacent_path` validates the caller-supplied original graph, prefix and exact path, and the unchanged certificate verifier checks the complete result. `interval_boundary` remains the adjacent-port predicate. This consumer is not itself an independent supplier; the separate port-5 seed and supplier are recorded in the next finding. No historical novelty, formal verification or universal-lobster claim is made. Decision D019; finite regression and reviewer receipts: `evidence/validation/B2_NONADJACENT_CONSUMER_001/`.
 
-## 8. Finite validation and current literature
+## 8. B2-NONADJACENT-SEED-P5-001: explicit unequal-family supply
+
+**Disposition: ACCEPT — explicit independent supplier for `q=1,r=2,z0=z1=0` and all integer `K>=2`.** One bounded first-witness DFS found the fixed alpha seed on the original eight-vertex prefix with physical port `s:2=5`; separate original-graph, domain and edge checks verified it. The result is SAT, not exhausted, exact count unknown, lower bound 1; 144 is the total number of domain-admissible named assignments, not the number tested. Fixing the verified finite seed and shifting its high-side labels by K gives direct prefix formulas, exact inventories `[4,K+3]` and `1..K`, and physical port `K+5`; the accepted nonadjacent path consumer completes the original target for all K>=2 without a solver input. The complete proof, exact labels, reduction and reviewers are in [B2_NONADJACENT_SEED_P5.md](B2_NONADJACENT_SEED_P5.md), with preserved run and verification in `evidence/runs/b2-nonadjacent-seed-p5-001-20261121-dfs/`. Decision D020.
+
+For K>=6 the precise nonadjacent interface forces `ell=4` and compresses on original named incidences to a port-5 alpha seed of the declared type; conversely the displayed fixed witness supplies the interface for all K>=2. The separate existing K=1 adjacent-port witness remains a finite checked result, not a new K=1 constructor. Together these establish gracefulness of this exact family for all positive K. The adjacent-port obstruction, p=4 negative, other unequal profiles and broader lobster problem are unaffected; no novelty claim or p=6/7 search is made.
+
+## 9. Finite validation and current literature
 
 The authoritative executed results are in `evidence/validation/VALIDATION_REPORT.md` and its linked JSON records. Positive witnesses are bound to original graphs and requested restrictions. Count controls and the four B2 pairs have only their stated finite meaning. They do not prove a new supplier family.
 
 The [current literature note](../docs/LITERATURE_UPDATE.md) records the author-posted subcubic Lean archive, almost-graceful asymptotics and graceful supertree construction with their exact inspection limits. All three small pilot profiles fall within the subcubic archive's stated ordinary-gracefulness scope; the prescribed interval/port condition is an additional question. The source was inspected, not locally rebuilt in Lean. No exhaustive worldwide novelty or status audit is claimed.
 
-## 9. Promotion criteria
+## 10. Promotion criteria
 
 New findings must name their quantifiers/domain, independent inputs, unchanged original topology, returned physical interface, proof/verification evidence, applicable sources and remaining dependencies. Universal coverage requires a coverage and termination argument, not a large finite record. Keep unproved candidate statements in proof obligations and preserve failed attempts in the failure ledger.

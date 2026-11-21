@@ -1,0 +1,937 @@
+{
+  "task": "B2-NONADJACENT-SEED-P5-001 independent positive verification",
+  "status": "PASS",
+  "scope": "one saved p=5 witness and deterministic construction checks; no search",
+  "python": "3.13.17",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "script_sha256_raw": "d5009993692c459b063e6e693bbf99c57499ccf1a9caed6152938abb6c30d5fd",
+  "input_sha256_raw": {
+    "examples/unequal_seed.json": "486c501581240d0c6aabce3acdb31fa6d205d58d5881b4ac39b37c6648765db8",
+    "examples/unequal_seed_domains.json": "0bd9694a536395db1532a68e02bbae51e501889280a99c9108564af8c72acfec",
+    "examples/nonadjacent_seed_p5_001_pins.json": "ba49ef6c88c0ebc742273c40eaf92d564726d4933524a341f2043f7c1be2f7d2",
+    "configs/unequal_seed_limits.json": "64bb948a40862ce8238bab108fb00915d2ef48d31c8cfe50502cd0ca9cd0388a",
+    "evidence/validation/release_final/pilot/cases/31da62597181ea39545cd89689e591113261ea7c9c7af56e60383894da947a57.attempt-0001.json": "8c956fd5b770d9e3f3f7d433b5477d981dd6805e9fae5577cb8810bfa5a3a021"
+  },
+  "dfs_record_sha256_raw": "c15a506fb6147500b798b9ccd6f8ff2753a4e2467e0a7f8e4ad6341f60a29647",
+  "seed_graph_digest": "9198e106ce33d9b83b8044e385b1599cfe26cd1fe471f4eec841a461868756b2",
+  "seed_labels": {
+    "b:0:0": 0,
+    "b:1:0": 4,
+    "l:0:0:0": 7,
+    "l:1:0:0": 2,
+    "l:1:0:1": 3,
+    "s:0": 6,
+    "s:1": 1,
+    "s:2": 5
+  },
+  "seed_original_edges": [
+    [
+      "s:0",
+      "s:1"
+    ],
+    [
+      "s:0",
+      "b:0:0"
+    ],
+    [
+      "b:0:0",
+      "l:0:0:0"
+    ],
+    [
+      "s:1",
+      "b:1:0"
+    ],
+    [
+      "b:1:0",
+      "l:1:0:0"
+    ],
+    [
+      "b:1:0",
+      "l:1:0:1"
+    ],
+    [
+      "s:1",
+      "s:2"
+    ]
+  ],
+  "seed_edge_differences": [
+    5,
+    6,
+    7,
+    3,
+    2,
+    1,
+    4
+  ],
+  "seed_certificate": {
+    "valid": true,
+    "errors": [],
+    "n": 8,
+    "m": 7,
+    "graph_digest": "9198e106ce33d9b83b8044e385b1599cfe26cd1fe471f4eec841a461868756b2",
+    "edge_differences": [
+      5,
+      4,
+      6,
+      7,
+      3,
+      2,
+      1
+    ],
+    "claim": "finite certificate for this exact named target only"
+  },
+  "deterministic_cases": [
+    {
+      "K": 2,
+      "original_graph": {
+        "schema_version": 1,
+        "profile": [
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [],
+          [],
+          []
+        ],
+        "vertices": [
+          "s:0",
+          "b:0:0",
+          "l:0:0:0",
+          "s:1",
+          "b:1:0",
+          "l:1:0:0",
+          "l:1:0:1",
+          "s:2",
+          "s:3",
+          "s:4"
+        ],
+        "edges": [
+          [
+            "s:0",
+            "s:1"
+          ],
+          [
+            "s:1",
+            "s:2"
+          ],
+          [
+            "s:2",
+            "s:3"
+          ],
+          [
+            "s:3",
+            "s:4"
+          ],
+          [
+            "s:0",
+            "b:0:0"
+          ],
+          [
+            "b:0:0",
+            "l:0:0:0"
+          ],
+          [
+            "s:1",
+            "b:1:0"
+          ],
+          [
+            "b:1:0",
+            "l:1:0:0"
+          ],
+          [
+            "b:1:0",
+            "l:1:0:1"
+          ]
+        ],
+        "spine": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4"
+        ],
+        "roles": {
+          "s:0": {
+            "kind": "spine",
+            "section": 0
+          },
+          "b:0:0": {
+            "kind": "branch",
+            "section": 0,
+            "branch": 0
+          },
+          "l:0:0:0": {
+            "kind": "leaf",
+            "section": 0,
+            "branch": 0,
+            "leaf": 0
+          },
+          "s:1": {
+            "kind": "spine",
+            "section": 1
+          },
+          "b:1:0": {
+            "kind": "branch",
+            "section": 1,
+            "branch": 0
+          },
+          "l:1:0:0": {
+            "kind": "leaf",
+            "section": 1,
+            "branch": 0,
+            "leaf": 0
+          },
+          "l:1:0:1": {
+            "kind": "leaf",
+            "section": 1,
+            "branch": 0,
+            "leaf": 1
+          },
+          "s:2": {
+            "kind": "spine",
+            "section": 2
+          },
+          "s:3": {
+            "kind": "spine",
+            "section": 3
+          },
+          "s:4": {
+            "kind": "spine",
+            "section": 4
+          }
+        }
+      },
+      "original_graph_digest": "802a393826a08cfa59f1b9bf6f3d49c2d1d70f7717965d852872bfd8f605ca3d",
+      "prefix": {
+        "s:0": 8,
+        "s:1": 1,
+        "s:2": 7,
+        "b:0:0": 0,
+        "l:0:0:0": 9,
+        "b:1:0": 6,
+        "l:1:0:0": 2,
+        "l:1:0:1": 3
+      },
+      "labels": {
+        "s:0": 8,
+        "s:1": 1,
+        "s:2": 7,
+        "b:0:0": 0,
+        "l:0:0:0": 9,
+        "b:1:0": 6,
+        "l:1:0:0": 2,
+        "l:1:0:1": 3,
+        "s:3": 5,
+        "s:4": 4
+      },
+      "certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 10,
+        "m": 9,
+        "graph_digest": "802a393826a08cfa59f1b9bf6f3d49c2d1d70f7717965d852872bfd8f605ca3d",
+        "edge_differences": [
+          7,
+          6,
+          2,
+          1,
+          8,
+          9,
+          5,
+          4,
+          3
+        ],
+        "claim": "finite certificate for this exact named target only"
+      }
+    },
+    {
+      "K": 3,
+      "original_graph": {
+        "schema_version": 1,
+        "profile": [
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [],
+          [],
+          [],
+          []
+        ],
+        "vertices": [
+          "s:0",
+          "b:0:0",
+          "l:0:0:0",
+          "s:1",
+          "b:1:0",
+          "l:1:0:0",
+          "l:1:0:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5"
+        ],
+        "edges": [
+          [
+            "s:0",
+            "s:1"
+          ],
+          [
+            "s:1",
+            "s:2"
+          ],
+          [
+            "s:2",
+            "s:3"
+          ],
+          [
+            "s:3",
+            "s:4"
+          ],
+          [
+            "s:4",
+            "s:5"
+          ],
+          [
+            "s:0",
+            "b:0:0"
+          ],
+          [
+            "b:0:0",
+            "l:0:0:0"
+          ],
+          [
+            "s:1",
+            "b:1:0"
+          ],
+          [
+            "b:1:0",
+            "l:1:0:0"
+          ],
+          [
+            "b:1:0",
+            "l:1:0:1"
+          ]
+        ],
+        "spine": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5"
+        ],
+        "roles": {
+          "s:0": {
+            "kind": "spine",
+            "section": 0
+          },
+          "b:0:0": {
+            "kind": "branch",
+            "section": 0,
+            "branch": 0
+          },
+          "l:0:0:0": {
+            "kind": "leaf",
+            "section": 0,
+            "branch": 0,
+            "leaf": 0
+          },
+          "s:1": {
+            "kind": "spine",
+            "section": 1
+          },
+          "b:1:0": {
+            "kind": "branch",
+            "section": 1,
+            "branch": 0
+          },
+          "l:1:0:0": {
+            "kind": "leaf",
+            "section": 1,
+            "branch": 0,
+            "leaf": 0
+          },
+          "l:1:0:1": {
+            "kind": "leaf",
+            "section": 1,
+            "branch": 0,
+            "leaf": 1
+          },
+          "s:2": {
+            "kind": "spine",
+            "section": 2
+          },
+          "s:3": {
+            "kind": "spine",
+            "section": 3
+          },
+          "s:4": {
+            "kind": "spine",
+            "section": 4
+          },
+          "s:5": {
+            "kind": "spine",
+            "section": 5
+          }
+        }
+      },
+      "original_graph_digest": "3ecfe03b305e728e93a94fec51c09f96722a4e1941b1cf583d639aa39835d757",
+      "prefix": {
+        "s:0": 9,
+        "s:1": 1,
+        "s:2": 8,
+        "b:0:0": 0,
+        "l:0:0:0": 10,
+        "b:1:0": 7,
+        "l:1:0:0": 2,
+        "l:1:0:1": 3
+      },
+      "labels": {
+        "s:0": 9,
+        "s:1": 1,
+        "s:2": 8,
+        "b:0:0": 0,
+        "l:0:0:0": 10,
+        "b:1:0": 7,
+        "l:1:0:0": 2,
+        "l:1:0:1": 3,
+        "s:3": 5,
+        "s:4": 4,
+        "s:5": 6
+      },
+      "certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 11,
+        "m": 10,
+        "graph_digest": "3ecfe03b305e728e93a94fec51c09f96722a4e1941b1cf583d639aa39835d757",
+        "edge_differences": [
+          8,
+          7,
+          3,
+          1,
+          2,
+          9,
+          10,
+          6,
+          5,
+          4
+        ],
+        "claim": "finite certificate for this exact named target only"
+      }
+    },
+    {
+      "K": 6,
+      "original_graph": {
+        "schema_version": 1,
+        "profile": [
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "vertices": [
+          "s:0",
+          "b:0:0",
+          "l:0:0:0",
+          "s:1",
+          "b:1:0",
+          "l:1:0:0",
+          "l:1:0:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8"
+        ],
+        "edges": [
+          [
+            "s:0",
+            "s:1"
+          ],
+          [
+            "s:1",
+            "s:2"
+          ],
+          [
+            "s:2",
+            "s:3"
+          ],
+          [
+            "s:3",
+            "s:4"
+          ],
+          [
+            "s:4",
+            "s:5"
+          ],
+          [
+            "s:5",
+            "s:6"
+          ],
+          [
+            "s:6",
+            "s:7"
+          ],
+          [
+            "s:7",
+            "s:8"
+          ],
+          [
+            "s:0",
+            "b:0:0"
+          ],
+          [
+            "b:0:0",
+            "l:0:0:0"
+          ],
+          [
+            "s:1",
+            "b:1:0"
+          ],
+          [
+            "b:1:0",
+            "l:1:0:0"
+          ],
+          [
+            "b:1:0",
+            "l:1:0:1"
+          ]
+        ],
+        "spine": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8"
+        ],
+        "roles": {
+          "s:0": {
+            "kind": "spine",
+            "section": 0
+          },
+          "b:0:0": {
+            "kind": "branch",
+            "section": 0,
+            "branch": 0
+          },
+          "l:0:0:0": {
+            "kind": "leaf",
+            "section": 0,
+            "branch": 0,
+            "leaf": 0
+          },
+          "s:1": {
+            "kind": "spine",
+            "section": 1
+          },
+          "b:1:0": {
+            "kind": "branch",
+            "section": 1,
+            "branch": 0
+          },
+          "l:1:0:0": {
+            "kind": "leaf",
+            "section": 1,
+            "branch": 0,
+            "leaf": 0
+          },
+          "l:1:0:1": {
+            "kind": "leaf",
+            "section": 1,
+            "branch": 0,
+            "leaf": 1
+          },
+          "s:2": {
+            "kind": "spine",
+            "section": 2
+          },
+          "s:3": {
+            "kind": "spine",
+            "section": 3
+          },
+          "s:4": {
+            "kind": "spine",
+            "section": 4
+          },
+          "s:5": {
+            "kind": "spine",
+            "section": 5
+          },
+          "s:6": {
+            "kind": "spine",
+            "section": 6
+          },
+          "s:7": {
+            "kind": "spine",
+            "section": 7
+          },
+          "s:8": {
+            "kind": "spine",
+            "section": 8
+          }
+        }
+      },
+      "original_graph_digest": "c79473b542cc30a08d9f428040692805affc8d1aa0a5ffc05a02a0eff46786ff",
+      "prefix": {
+        "s:0": 12,
+        "s:1": 1,
+        "s:2": 11,
+        "b:0:0": 0,
+        "l:0:0:0": 13,
+        "b:1:0": 10,
+        "l:1:0:0": 2,
+        "l:1:0:1": 3
+      },
+      "labels": {
+        "s:0": 12,
+        "s:1": 1,
+        "s:2": 11,
+        "b:0:0": 0,
+        "l:0:0:0": 13,
+        "b:1:0": 10,
+        "l:1:0:0": 2,
+        "l:1:0:1": 3,
+        "s:3": 5,
+        "s:4": 9,
+        "s:5": 4,
+        "s:6": 7,
+        "s:7": 8,
+        "s:8": 6
+      },
+      "certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 14,
+        "m": 13,
+        "graph_digest": "c79473b542cc30a08d9f428040692805affc8d1aa0a5ffc05a02a0eff46786ff",
+        "edge_differences": [
+          11,
+          10,
+          6,
+          4,
+          5,
+          3,
+          1,
+          2,
+          12,
+          13,
+          9,
+          8,
+          7
+        ],
+        "claim": "finite certificate for this exact named target only"
+      }
+    },
+    {
+      "K": 10,
+      "original_graph": {
+        "schema_version": 1,
+        "profile": [
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "vertices": [
+          "s:0",
+          "b:0:0",
+          "l:0:0:0",
+          "s:1",
+          "b:1:0",
+          "l:1:0:0",
+          "l:1:0:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11",
+          "s:12"
+        ],
+        "edges": [
+          [
+            "s:0",
+            "s:1"
+          ],
+          [
+            "s:1",
+            "s:2"
+          ],
+          [
+            "s:2",
+            "s:3"
+          ],
+          [
+            "s:3",
+            "s:4"
+          ],
+          [
+            "s:4",
+            "s:5"
+          ],
+          [
+            "s:5",
+            "s:6"
+          ],
+          [
+            "s:6",
+            "s:7"
+          ],
+          [
+            "s:7",
+            "s:8"
+          ],
+          [
+            "s:8",
+            "s:9"
+          ],
+          [
+            "s:9",
+            "s:10"
+          ],
+          [
+            "s:10",
+            "s:11"
+          ],
+          [
+            "s:11",
+            "s:12"
+          ],
+          [
+            "s:0",
+            "b:0:0"
+          ],
+          [
+            "b:0:0",
+            "l:0:0:0"
+          ],
+          [
+            "s:1",
+            "b:1:0"
+          ],
+          [
+            "b:1:0",
+            "l:1:0:0"
+          ],
+          [
+            "b:1:0",
+            "l:1:0:1"
+          ]
+        ],
+        "spine": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11",
+          "s:12"
+        ],
+        "roles": {
+          "s:0": {
+            "kind": "spine",
+            "section": 0
+          },
+          "b:0:0": {
+            "kind": "branch",
+            "section": 0,
+            "branch": 0
+          },
+          "l:0:0:0": {
+            "kind": "leaf",
+            "section": 0,
+            "branch": 0,
+            "leaf": 0
+          },
+          "s:1": {
+            "kind": "spine",
+            "section": 1
+          },
+          "b:1:0": {
+            "kind": "branch",
+            "section": 1,
+            "branch": 0
+          },
+          "l:1:0:0": {
+            "kind": "leaf",
+            "section": 1,
+            "branch": 0,
+            "leaf": 0
+          },
+          "l:1:0:1": {
+            "kind": "leaf",
+            "section": 1,
+            "branch": 0,
+            "leaf": 1
+          },
+          "s:2": {
+            "kind": "spine",
+            "section": 2
+          },
+          "s:3": {
+            "kind": "spine",
+            "section": 3
+          },
+          "s:4": {
+            "kind": "spine",
+            "section": 4
+          },
+          "s:5": {
+            "kind": "spine",
+            "section": 5
+          },
+          "s:6": {
+            "kind": "spine",
+            "section": 6
+          },
+          "s:7": {
+            "kind": "spine",
+            "section": 7
+          },
+          "s:8": {
+            "kind": "spine",
+            "section": 8
+          },
+          "s:9": {
+            "kind": "spine",
+            "section": 9
+          },
+          "s:10": {
+            "kind": "spine",
+            "section": 10
+          },
+          "s:11": {
+            "kind": "spine",
+            "section": 11
+          },
+          "s:12": {
+            "kind": "spine",
+            "section": 12
+          }
+        }
+      },
+      "original_graph_digest": "4f67518ccecbc690846fbecc033a68eb5ebb25c604388068b2d7d6f3192298f0",
+      "prefix": {
+        "s:0": 16,
+        "s:1": 1,
+        "s:2": 15,
+        "b:0:0": 0,
+        "l:0:0:0": 17,
+        "b:1:0": 14,
+        "l:1:0:0": 2,
+        "l:1:0:1": 3
+      },
+      "labels": {
+        "s:0": 16,
+        "s:1": 1,
+        "s:2": 15,
+        "b:0:0": 0,
+        "l:0:0:0": 17,
+        "b:1:0": 14,
+        "l:1:0:0": 2,
+        "l:1:0:1": 3,
+        "s:3": 5,
+        "s:4": 13,
+        "s:5": 4,
+        "s:6": 11,
+        "s:7": 6,
+        "s:8": 12,
+        "s:9": 8,
+        "s:10": 9,
+        "s:11": 7,
+        "s:12": 10
+      },
+      "certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 18,
+        "m": 17,
+        "graph_digest": "4f67518ccecbc690846fbecc033a68eb5ebb25c604388068b2d7d6f3192298f0",
+        "edge_differences": [
+          15,
+          14,
+          10,
+          8,
+          9,
+          7,
+          5,
+          6,
+          4,
+          1,
+          2,
+          3,
+          16,
+          17,
+          13,
+          12,
+          11
+        ],
+        "claim": "finite certificate for this exact named target only"
+      }
+    }
+  ],
+  "existing_K1_pilot_sha256_raw": "8c956fd5b770d9e3f3f7d433b5477d981dd6805e9fae5577cb8810bfa5a3a021",
+  "existing_K1_certificate": {
+    "valid": true,
+    "errors": [],
+    "n": 9,
+    "m": 8,
+    "graph_digest": "c43a35002422cfdea7519d644a3ff88d4981e8d4db16d93dcc3ae41cf604d1fd",
+    "edge_differences": [
+      4,
+      6,
+      1,
+      2,
+      3,
+      8,
+      5,
+      7
+    ],
+    "claim": "finite certificate for this exact named target only"
+  }
+}
