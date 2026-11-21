@@ -1,0 +1,68 @@
+{
+  "cwd": "repository root",
+  "environment": {
+    "PYTHONUTF8": "1"
+  },
+  "commands": [
+    {
+      "command": ".venv/Scripts/python.exe -m unittest discover -s tests -p test_b3_unpadded_q1_r2.py -v",
+      "exit_code": 0,
+      "output": "test_cli_preflight_rejects_before_expansion_and_dispatch (test_b3_unpadded_q1_r2.B3Q1R2Tests.test_cli_preflight_rejects_before_expansion_and_dispatch) ... ok\r\ntest_cli_target_binding_and_exact_vertex_limit (test_b3_unpadded_q1_r2.B3Q1R2Tests.test_cli_target_binding_and_exact_vertex_limit) ... ok\r\ntest_direct_domain_rejects_before_building (test_b3_unpadded_q1_r2.B3Q1R2Tests.test_direct_domain_rejects_before_building) ... ok\r\ntest_seed_and_completion_on_declared_original_targets (test_b3_unpadded_q1_r2.B3Q1R2Tests.test_seed_and_completion_on_declared_original_targets) ... ok\r\n\r\n----------------------------------------------------------------------\r\nRan 4 tests in 0.018s\r\n\r\nOK\r\n"
+    },
+    {
+      "command": ".venv/Scripts/python.exe -m unittest discover -s tests -p test_b3_unpadded_qlt_r_large_t.py -v",
+      "exit_code": 0,
+      "output": "test_cli_preflight_rejects_before_expansion_and_dispatch (test_b3_unpadded_qlt_r_large_t.B3LargeThirdBranchTests.test_cli_preflight_rejects_before_expansion_and_dispatch) ... ok\r\ntest_cli_target_binding_and_exact_vertex_limit (test_b3_unpadded_qlt_r_large_t.B3LargeThirdBranchTests.test_cli_target_binding_and_exact_vertex_limit) ... ok\r\ntest_direct_domain_rejects_before_building (test_b3_unpadded_qlt_r_large_t.B3LargeThirdBranchTests.test_direct_domain_rejects_before_building) ... ok\r\ntest_seed_and_completion_on_declared_original_targets (test_b3_unpadded_qlt_r_large_t.B3LargeThirdBranchTests.test_seed_and_completion_on_declared_original_targets) ... ok\r\n\r\n----------------------------------------------------------------------\r\nRan 4 tests in 0.017s\r\n\r\nOK\r\n"
+    },
+    {
+      "command": ".venv/Scripts/python.exe -m unittest discover -s tests -p test_b3_unpadded_qlt_r_adjacent.py -v",
+      "exit_code": 0,
+      "output": "test_cli_preflight_rejects_before_expansion_and_dispatch (test_b3_unpadded_qlt_r_adjacent.B3AdjacentTests.test_cli_preflight_rejects_before_expansion_and_dispatch) ... ok\r\ntest_cli_target_binding_at_singleton_and_exact_limit (test_b3_unpadded_qlt_r_adjacent.B3AdjacentTests.test_cli_target_binding_at_singleton_and_exact_limit) ... ok\r\ntest_direct_domain_rejects_invalid_parameters_before_building (test_b3_unpadded_qlt_r_adjacent.B3AdjacentTests.test_direct_domain_rejects_invalid_parameters_before_building) ... ok\r\ntest_named_prefix_and_stages_on_original_targets (test_b3_unpadded_qlt_r_adjacent.B3AdjacentTests.test_named_prefix_and_stages_on_original_targets) ... ok\r\n\r\n----------------------------------------------------------------------\r\nRan 4 tests in 0.014s\r\n\r\nOK\r\n"
+    },
+    {
+      "command": ".venv/Scripts/python.exe -m unittest discover -s tests -p test_b3_unpadded_qge_r.py -v",
+      "exit_code": 0,
+      "output": "test_cli_preflight_before_expansion_or_dispatch (test_b3_unpadded_qge_r.B3UnpaddedTests.test_cli_preflight_before_expansion_or_dispatch) ... ok\r\ntest_cli_target_binding_and_false_certificate (test_b3_unpadded_qge_r.B3UnpaddedTests.test_cli_target_binding_and_false_certificate) ... ok\r\ntest_declared_original_graphs_and_arithmetic (test_b3_unpadded_qge_r.B3UnpaddedTests.test_declared_original_graphs_and_arithmetic) ... ok\r\ntest_invalid_domain (test_b3_unpadded_qge_r.B3UnpaddedTests.test_invalid_domain) ... ok\r\n\r\n----------------------------------------------------------------------\r\nRan 4 tests in 0.018s\r\n\r\nOK\r\n"
+    },
+    {
+      "command": ".venv/Scripts/python.exe -m unittest discover -s tests -p test_unpadded_all_qr.py -v",
+      "exit_code": 0,
+      "output": "test_caller_declared_cli_target_and_limits (test_unpadded_all_qr.UnpaddedAllQrTests.test_caller_declared_cli_target_and_limits) ... ok\r\ntest_domain_rejections (test_unpadded_all_qr.UnpaddedAllQrTests.test_domain_rejections) ... ok\r\ntest_huge_and_boolean_cli_parameters_do_not_dispatch (test_unpadded_all_qr.UnpaddedAllQrTests.test_huge_and_boolean_cli_parameters_do_not_dispatch) ... ok\r\ntest_parameterized_prefix_and_full_original_certificate (test_unpadded_all_qr.UnpaddedAllQrTests.test_parameterized_prefix_and_full_original_certificate) ... ok\r\ntest_retained_p5_and_balanced_comparison (test_unpadded_all_qr.UnpaddedAllQrTests.test_retained_p5_and_balanced_comparison) ... ok\r\n\r\n----------------------------------------------------------------------\r\nRan 5 tests in 0.010s\r\n\r\nOK\r\n"
+    },
+    {
+      "command": ".venv/Scripts/python.exe -m unittest discover -s tests -p test_unpadded_k1.py -v",
+      "exit_code": 0,
+      "output": "test_cli_original_target_and_false_certificate (test_unpadded_k1.UnpaddedK1Tests.test_cli_original_target_and_false_certificate) ... ok\r\ntest_cli_preflight_rejects_before_dispatch_or_expansion (test_unpadded_k1.UnpaddedK1Tests.test_cli_preflight_rejects_before_dispatch_or_expansion) ... ok\r\ntest_invalid_structural_parameters (test_unpadded_k1.UnpaddedK1Tests.test_invalid_structural_parameters) ... ok\r\ntest_original_named_target_and_arithmetic (test_unpadded_k1.UnpaddedK1Tests.test_original_named_target_and_arithmetic) ... ok\r\n\r\n----------------------------------------------------------------------\r\nRan 4 tests in 0.011s\r\n\r\nOK\r\n"
+    },
+    {
+      "command": ".venv/Scripts/python.exe -m unittest discover -s tests -p test_nonadjacent_consumer.py -v",
+      "exit_code": 0,
+      "output": "test_bases_and_recurrence_inventories (test_nonadjacent_consumer.NonadjacentPathConsumerTests.test_bases_and_recurrence_inventories) ... ok\r\ntest_original_b2_finite_prefix_is_only_a_supplied_fixture (test_nonadjacent_consumer.NonadjacentPathConsumerTests.test_original_b2_finite_prefix_is_only_a_supplied_fixture) ... ok\r\ntest_original_path_certificates_and_prefix_preservation (test_nonadjacent_consumer.NonadjacentPathConsumerTests.test_original_path_certificates_and_prefix_preservation) ... ok\r\ntest_rejects_branched_or_wrong_physical_remaining_path (test_nonadjacent_consumer.NonadjacentPathConsumerTests.test_rejects_branched_or_wrong_physical_remaining_path) ... ok\r\ntest_rejects_invalid_types_prefix_port_and_inventories (test_nonadjacent_consumer.NonadjacentPathConsumerTests.test_rejects_invalid_types_prefix_port_and_inventories) ... ok\r\n\r\n----------------------------------------------------------------------\r\nRan 5 tests in 0.020s\r\n\r\nOK\r\n"
+    },
+    {
+      "command": ".venv/Scripts/python.exe -m unittest discover -s tests -p test_ingest.py -v",
+      "exit_code": 0,
+      "output": "test_all_implemented_constructor_dispatches_are_admitted (test_ingest.IngestTests.test_all_implemented_constructor_dispatches_are_admitted) ... ok\r\ntest_allocation_original_and_host_input_separation (test_ingest.IngestTests.test_allocation_original_and_host_input_separation) ... ok\r\ntest_bad_graph_types_and_conflicting_shortcut_metadata (test_ingest.IngestTests.test_bad_graph_types_and_conflicting_shortcut_metadata) ... ok\r\ntest_boolean_and_malformed_constructor_parameters_never_dispatch (test_ingest.IngestTests.test_boolean_and_malformed_constructor_parameters_never_dispatch) ... ok\r\ntest_exact_vertex_limit_and_explicit_identity_preserved (test_ingest.IngestTests.test_exact_vertex_limit_and_explicit_identity_preserved) ... ok\r\ntest_graph_file_size_rejected_before_json_read (test_ingest.IngestTests.test_graph_file_size_rejected_before_json_read) ... ok\r\ntest_huge_profile_rejected_before_any_graph_expansion (test_ingest.IngestTests.test_huge_profile_rejected_before_any_graph_expansion) ... ok\r\ntest_invalid_l010_budget_rejected_before_growth_or_dispatch (test_ingest.IngestTests.test_invalid_l010_budget_rejected_before_growth_or_dispatch) ... ok\r\ntest_invalid_limits_are_rejected (test_ingest.IngestTests.test_invalid_limits_are_rejected) ... ok\r\ntest_large_constructor_parameters_never_dispatch (test_ingest.IngestTests.test_large_constructor_parameters_never_dispatch) ... ok\r\ntest_same_size_different_target_and_false_claimed_digest_rejected (test_ingest.IngestTests.test_same_size_different_target_and_false_claimed_digest_rejected) ... ok\r\n\r\n----------------------------------------------------------------------\r\nRan 11 tests in 0.072s\r\n\r\nOK\r\n"
+    },
+    {
+      "command": ".venv/Scripts/python.exe -m lcl demo --out evidence/validation/B3_UNPADDED_Q1_R2_001/demo_gate",
+      "exit_code": 0,
+      "output": "{\r\n  \"count\": null,\r\n  \"count_lower_bound\": null,\r\n  \"edges\": 13,\r\n  \"independently_verified\": true,\r\n  \"method\": \"h010\",\r\n  \"next_action\": \"Read STATE.md; inspect this certificate before using the result as evidence\",\r\n  \"original_graph_digest\": \"69242951590e06a24494fed1d3b46a0c05b0e97b7debd82666760bef68378eb6\",\r\n  \"reason\": null,\r\n  \"record\": \"C:\\\\Users\\\\Will\\\\Projects\\\\Lobster_Construction_Lab\\\\evidence\\\\validation\\\\B3_UNPADDED_Q1_R2_001\\\\demo_gate\\\\record.json\",\r\n  \"status\": \"CONSTRUCTED\",\r\n  \"vertices\": 14\r\n}\r\n"
+    },
+    {
+      "command": ".venv/Scripts/python.exe -m lcl construct evidence/validation/B3_UNPADDED_Q1_R2_001/cli_input.json --out evidence/validation/B3_UNPADDED_Q1_R2_001/cli_run",
+      "exit_code": 0,
+      "output": "{\r\n  \"count\": null,\r\n  \"count_lower_bound\": null,\r\n  \"edges\": 17,\r\n  \"independently_verified\": true,\r\n  \"method\": \"three_section_q1_r2\",\r\n  \"next_action\": \"Read STATE.md; inspect this certificate before using the result as evidence\",\r\n  \"original_graph_digest\": \"216851ea3934f687fab1996f4fe92dbca79241770c217606497be8b6b4d2c7b6\",\r\n  \"reason\": null,\r\n  \"record\": \"C:\\\\Users\\\\Will\\\\Projects\\\\Lobster_Construction_Lab\\\\evidence\\\\validation\\\\B3_UNPADDED_Q1_R2_001\\\\cli_run\\\\record.json\",\r\n  \"status\": \"CONSTRUCTED\",\r\n  \"vertices\": 18\r\n}\r\n"
+    },
+    {
+      "command": ".venv/Scripts/python.exe evidence/validation/B3_UNPADDED_Q1_R2_001/regression.py",
+      "exit_code": 0,
+      "output": "{\"status\": \"PASS\", \"cases\": 12, \"base_prefix_certificates\": 1, \"base_prefix_output\": \"C:\\\\Users\\\\Will\\\\Projects\\\\Lobster_Construction_Lab\\\\evidence\\\\validation\\\\B3_UNPADDED_Q1_R2_001\\\\base_prefix_result.json\", \"output\": \"C:\\\\Users\\\\Will\\\\Projects\\\\Lobster_Construction_Lab\\\\evidence\\\\validation\\\\B3_UNPADDED_Q1_R2_001\\\\regression_result.json\"}\r\n"
+    },
+    {
+      "command": ".venv/Scripts/python.exe evidence/validation/B3_UNPADDED_Q1_R2_001/independent_audit.py",
+      "exit_code": 0,
+      "output": "{\"status\": \"PASS\", \"cases\": 12, \"output\": \"C:\\\\Users\\\\Will\\\\Projects\\\\Lobster_Construction_Lab\\\\evidence\\\\validation\\\\B3_UNPADDED_Q1_R2_001\\\\independent_audit_result.json\"}\r\n"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "run_id": "B3-UNPADDED-Q1-R2-001-original-target-regression-20261121",
+  "starting_commit": "e74285d893408b5474319bcfcbe6aad2fd1297a3",
+  "cases": [
+    [3, 2], [3, 3], [3, 4], [3, 5], [4, 2], [4, 6],
+    [5, 3], [5, 7], [8, 4], [8, 8], [13, 11], [21, 14]
+  ],
+  "parameter_order": ["t", "K"],
+  "fixed_parameters": {"q": 1, "r": 2},
+  "padding": [0, 0, 0],
+  "base_prefix_profile": [[1], [2], [1], []],
+  "max_cases": 12,
+  "max_vertices": 45,
+  "max_output_bytes": 2000000,
+  "workers": 1,
+  "scope": "12 fixed completed original targets with t >= 3 and K >= 2, plus one separate t=1 base-prefix certificate"
+}

@@ -580,6 +580,66 @@ def three_section_qltr_large_t(q: int, r: int, t: int, K: int) -> dict:
     return result
 
 
+def three_section_q1_r2(t: int, K: int) -> dict:
+    """Label the original unpadded B3 graph with q=1, r=2, t>=3 and K>=2."""
+    _integer(t, "t", 3)
+    _integer(K, "K", 2)
+
+    graph = build_graph([[1], [2], [t]] + [[] for _ in range(K + 1)])
+    a = t + 4
+    m = t + K + 9
+    seed = {"s:0": 0, "s:1": a + 5, "s:2": 4, "s:3": a + 1,
+            "b:0:0": a + 4, "b:1:0": 3, "b:2:0": a,
+            "l:0:0:0": 1, "l:1:0:0": a + 2, "l:1:0:1": a + 3,
+            "l:2:0:0": 2}
+    for j in range(1, t):
+        seed[f"l:2:0:{j}"] = j + 4
+
+    prefix = {v: x + K if x >= a else x for v, x in seed.items()}
+    partial = verify_partial(graph, prefix)
+    if not partial["valid"]:
+        raise ArithmeticError("q=1,r=2 prefix failed original-target verification: "
+                              + "; ".join(partial["errors"]))
+    suffix = {f"s:{i}" for i in range(4, K + 4)}
+    path = {frozenset((f"s:{i}", f"s:{i + 1}")) for i in range(3, K + 3)}
+    incident = {frozenset(edge) for edge in graph["edges"] if suffix.intersection(edge)}
+    if (set(graph["vertices"]) - set(prefix) != suffix or incident != path
+            or partial["frontier"] != ["s:3"]
+            or partial["unused_labels"] != list(range(a, a + K))
+            or partial["unused_differences"] != list(range(1, K + 1))
+            or prefix["s:3"] != a + K + 1):
+        raise ArithmeticError("q=1,r=2 prefix has a different original-path interface")
+
+    values = _nonadjacent_path_labels(K, a)
+    if values[0] != prefix["s:3"]:
+        raise ArithmeticError("nonadjacent sequence does not start at original s:3")
+    labels = dict(prefix)
+    labels.update({f"s:{i + 3}": values[i] for i in range(1, K + 1)})
+    certificate = verify_certificate(graph, labels, partial["graph_digest"])
+    if not certificate["valid"]:
+        raise ArithmeticError("q=1,r=2 completion failed original-target verification: "
+                              + "; ".join(certificate["errors"]))
+    trace = [{"operation": "supplied_nonadjacent_interval_interface", "stage": 3,
+              "active_vertex": "s:3", "active_label": prefix["s:3"],
+              "unused_labels": partial["unused_labels"],
+              "unused_differences": partial["unused_differences"],
+              "seed_labels": seed, "prefix_labels": prefix,
+              "prefix_difference_interval": [K + 1, m]}]
+    result = _result(graph, labels, "three_section_q1_r2", {
+        "parameters": {"q": 1, "r": 2, "t": t, "K": K, "z0": 0, "z1": 0, "z2": 0},
+        "family": "three successive positive branches of sizes 1, 2, t and a K-edge path suffix",
+        "independent_input_supply": True, "universal_lobster_claim": False,
+        "mathematical_novelty_claim": False, "arbitrary_branched_suffix": False,
+        "suffix_interface": {"unused_labels": [a, a + K - 1], "unused_differences": [1, K],
+                             "active_vertex": "s:3", "active_label": a + K + 1,
+                             "notation": "inclusive intervals"},
+        "derivation_status": "fixed alpha seed with a prescribed leaf extension and high-side shift",
+        "source": "research/B3_UNPADDED_Q1_R2.md",
+        "consumer_source": "research/B2_NONADJACENT_CONSUMER.md"}, trace)
+    result["evidence_level"] = "project_derived_symbolic_family; independent checking required"
+    return result
+
+
 def two_section_unit(K: int) -> dict:
     """Convenience alias for the q=1 zero-padding balanced construction."""
     result = two_section_balanced(1, K)

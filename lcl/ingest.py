@@ -119,6 +119,7 @@ def _parameter_size(method: str, params: Any, limit: int) -> int:
         "three_section_nonadjacent": {"q", "r", "t", "K"},
         "three_section_qltr_adjacent": {"q", "r", "t", "K"},
         "three_section_qltr_large_t": {"q", "r", "t", "K"},
+        "three_section_q1_r2": {"t", "K"},
     }[method]
     allowed = required | ({"z"} if method == "l007" else set())
     if not required <= set(params) or not set(params) <= allowed:
@@ -165,6 +166,10 @@ def _parameter_size(method: str, params: Any, limit: int) -> int:
         if q >= r or t < q + 2:
             raise ValueError("large-third-branch construction requires q < r and t >= q+2")
         count = q + r + t + K + 7
+    elif method == "three_section_q1_r2":
+        t = _integer(params["t"], "t", 3, limit)
+        K = _integer(params["K"], "K", 2, limit)
+        count = t + K + 10
     elif method == "l007":
         q = _integer(params["q"], "q", 1, limit)
         r = _integer(params["r"], "r", 1, limit)
@@ -226,7 +231,8 @@ def construction_input(spec: Any, max_vertices: int = MAX_GRAPH_VERTICES) -> tup
                "two_section_k1": constructors.two_section_k1,
                "three_section_nonadjacent": constructors.three_section_nonadjacent,
                "three_section_qltr_adjacent": constructors.three_section_qltr_adjacent,
-               "three_section_qltr_large_t": constructors.three_section_qltr_large_t}
+               "three_section_qltr_large_t": constructors.three_section_qltr_large_t,
+               "three_section_q1_r2": constructors.three_section_q1_r2}
     method = spec["method"]
     if not isinstance(method, str) or method not in methods:
         raise ValueError("Unknown implemented constructor")

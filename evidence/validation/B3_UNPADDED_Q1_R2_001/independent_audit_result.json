@@ -1,0 +1,262 @@
+{
+  "task": "B3-UNPADDED-Q1-R2-001-original-target-regression-20261121 saved-certificate audit",
+  "status": "PASS",
+  "scope": "same 12 saved completed targets only",
+  "case_count": 12,
+  "cases": [
+    {
+      "parameters": {
+        "t": 3,
+        "K": 2
+      },
+      "original_graph_digest": "cd4aa815c8e20a81e61bcb4687dd6401ab7e0b0c9adb59b4f949d422d747499b",
+      "vertices": 15,
+      "seed_certificate_valid": true,
+      "prefix_certificate_valid": true,
+      "full_certificate_valid": true,
+      "adjacent_predicate_rejected": true,
+      "tail_differences": [
+        2,
+        1
+      ]
+    },
+    {
+      "parameters": {
+        "t": 3,
+        "K": 3
+      },
+      "original_graph_digest": "b0a243d3d8c17a22ca6797a52f806fba0c6f7e3229b4997c20b0a48f26c206f6",
+      "vertices": 16,
+      "seed_certificate_valid": true,
+      "prefix_certificate_valid": true,
+      "full_certificate_valid": true,
+      "adjacent_predicate_rejected": true,
+      "tail_differences": [
+        3,
+        1,
+        2
+      ]
+    },
+    {
+      "parameters": {
+        "t": 3,
+        "K": 4
+      },
+      "original_graph_digest": "49b954638ca117d16b81a7564910ecbf6c909336613221ce620caf6bd8a94edb",
+      "vertices": 17,
+      "seed_certificate_valid": true,
+      "prefix_certificate_valid": true,
+      "full_certificate_valid": true,
+      "adjacent_predicate_rejected": true,
+      "tail_differences": [
+        4,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "parameters": {
+        "t": 3,
+        "K": 5
+      },
+      "original_graph_digest": "216851ea3934f687fab1996f4fe92dbca79241770c217606497be8b6b4d2c7b6",
+      "vertices": 18,
+      "seed_certificate_valid": true,
+      "prefix_certificate_valid": true,
+      "full_certificate_valid": true,
+      "adjacent_predicate_rejected": true,
+      "tail_differences": [
+        5,
+        3,
+        4,
+        2,
+        1
+      ]
+    },
+    {
+      "parameters": {
+        "t": 4,
+        "K": 2
+      },
+      "original_graph_digest": "b8e5b85b01a6dca17c5ea8438c0dfe553a539dd7a7badfb60bf0e7c3be19a843",
+      "vertices": 16,
+      "seed_certificate_valid": true,
+      "prefix_certificate_valid": true,
+      "full_certificate_valid": true,
+      "adjacent_predicate_rejected": true,
+      "tail_differences": [
+        2,
+        1
+      ]
+    },
+    {
+      "parameters": {
+        "t": 4,
+        "K": 6
+      },
+      "original_graph_digest": "0368f8e95b7f00d1362567e05980606aa6bb1728d768136cbe92af1d983d22a3",
+      "vertices": 20,
+      "seed_certificate_valid": true,
+      "prefix_certificate_valid": true,
+      "full_certificate_valid": true,
+      "adjacent_predicate_rejected": true,
+      "tail_differences": [
+        6,
+        4,
+        5,
+        3,
+        1,
+        2
+      ]
+    },
+    {
+      "parameters": {
+        "t": 5,
+        "K": 3
+      },
+      "original_graph_digest": "29bbabf5ee97205b0a6592d9978ea14e549c9f1f9406f002b9abd4319b558b83",
+      "vertices": 18,
+      "seed_certificate_valid": true,
+      "prefix_certificate_valid": true,
+      "full_certificate_valid": true,
+      "adjacent_predicate_rejected": true,
+      "tail_differences": [
+        3,
+        1,
+        2
+      ]
+    },
+    {
+      "parameters": {
+        "t": 5,
+        "K": 7
+      },
+      "original_graph_digest": "fa3b67305ed4588edf73583b76065112cc29e78e3b04417fb3afadd7594eebf2",
+      "vertices": 22,
+      "seed_certificate_valid": true,
+      "prefix_certificate_valid": true,
+      "full_certificate_valid": true,
+      "adjacent_predicate_rejected": true,
+      "tail_differences": [
+        7,
+        5,
+        6,
+        4,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "parameters": {
+        "t": 8,
+        "K": 4
+      },
+      "original_graph_digest": "fde96ae9435701dfc7e4066533da7e4d2eb45a28a623bc12a30865dd29c40be5",
+      "vertices": 22,
+      "seed_certificate_valid": true,
+      "prefix_certificate_valid": true,
+      "full_certificate_valid": true,
+      "adjacent_predicate_rejected": true,
+      "tail_differences": [
+        4,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "parameters": {
+        "t": 8,
+        "K": 8
+      },
+      "original_graph_digest": "962cf22530a4d9da5ef7381202f9a78c67d1e0b064291f332977a44d206b792e",
+      "vertices": 26,
+      "seed_certificate_valid": true,
+      "prefix_certificate_valid": true,
+      "full_certificate_valid": true,
+      "adjacent_predicate_rejected": true,
+      "tail_differences": [
+        8,
+        6,
+        7,
+        5,
+        3,
+        4,
+        2,
+        1
+      ]
+    },
+    {
+      "parameters": {
+        "t": 13,
+        "K": 11
+      },
+      "original_graph_digest": "2c8b9d87d0af428ccceeccfe473105ee55bcbb847fea50cf93e318e79d24d36b",
+      "vertices": 34,
+      "seed_certificate_valid": true,
+      "prefix_certificate_valid": true,
+      "full_certificate_valid": true,
+      "adjacent_predicate_rejected": true,
+      "tail_differences": [
+        11,
+        9,
+        10,
+        8,
+        6,
+        7,
+        5,
+        3,
+        4,
+        2,
+        1
+      ]
+    },
+    {
+      "parameters": {
+        "t": 21,
+        "K": 14
+      },
+      "original_graph_digest": "78088016d404e48b4568102dd8a2a7d7ef66d612f12faca9fcff7bc3315ee5b8",
+      "vertices": 45,
+      "seed_certificate_valid": true,
+      "prefix_certificate_valid": true,
+      "full_certificate_valid": true,
+      "adjacent_predicate_rejected": true,
+      "tail_differences": [
+        14,
+        12,
+        13,
+        11,
+        9,
+        10,
+        8,
+        6,
+        7,
+        5,
+        3,
+        4,
+        2,
+        1
+      ]
+    }
+  ],
+  "config_sha256_raw": "a9b2c5123f39314ca0d4d9cb39c944937d519309e80c55dd5bd9634ac096517a",
+  "saved_regression_sha256_raw": "700461f406c3e6566fcce29916313ebae014b43123c3c43ab3b9ddd046d574bc",
+  "script_sha256_raw": "bcff7b69b6c5faf211c18c294a15f86c862d7273a3b21ecf215199f4be23449d",
+  "environment": {
+    "python": "3.13.17",
+    "implementation": "CPython",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python_optimization_level": 0
+  },
+  "elapsed_seconds": 0.16559320001397282,
+  "limits": {
+    "max_cases": 12,
+    "max_vertices": 45,
+    "max_output_bytes": 2000000,
+    "workers": 1
+  },
+  "starting_commit": "e74285d893408b5474319bcfcbe6aad2fd1297a3"
+}

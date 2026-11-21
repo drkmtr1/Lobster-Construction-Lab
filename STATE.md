@@ -2,7 +2,7 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 21, 2026, Pacific/Honolulu  
-**Stage:** B3-UNPADDED-QLT-R-LARGE-T-001 accepted after separate AI reviews on the original unpadded three-section family for integers 1≤q<r, r≥3, t≥q+2, and K≥2.
+**Stage:** B3-UNPADDED-Q1-R2-001 accepted after separate AI reviews. The four B3 suppliers now cover every original unpadded three-section profile with positive q,r,t and K≥2.
 
 ## Current scientific objective
 
@@ -10,12 +10,13 @@ Develop independently supplied original-graph boundaries beyond the proved zero-
 
 ## One next action
 
-**With a new bounded scope decision, formulate an independent boundary supply question for the original unpadded three-section family with `q=1,r=2,t>=3,K>=2`**, retaining the named graph, physical port, and both resource inventories.
+**With a new bounded scope decision, formulate a `K=1` construction question for the original unpadded three-section family with `q>=r>=1,t>=1`**, retaining the named graph and the original edge from `s:3` to `s:4`.
 
 ## What is established in this package
 
 - Both authenticated upstream main heads match the pinned audit commits. The repositories remain unchanged.
-- B3-UNPADDED-QLT-R-LARGE-T-001 independently supplies an alpha seed for `1<=q<r`, `r>=3`, `t>=q+2`, and `K>=2` at zero padding. The high-side shift leaves `R=[a,a+K-1]`, `D=1..K`, and nonadjacent physical port `s:3=a+K+1` with `a=q+t+3`. The retained recurrence completes the original path. For K>=2, the three B3 suppliers together leave only `q=1,r=2,t>=3` outside their coverage. K=1 outside the adjacent domain, padding, additional branches, further sections, and arbitrary repetition remain separate. See `research/B3_UNPADDED_QLT_R_LARGE_T.md`, D025, and `evidence/validation/B3_UNPADDED_QLT_R_LARGE_T_001/`.
+- B3-UNPADDED-Q1-R2-001 supplies the remaining `q=1,r=2,t>=3,K>=2` cases at zero padding. The fixed alpha seed, prescribed leaf extension and high-side shift supply `R=[a,a+K-1]`, `D=1..K`, and nonadjacent `s:3=a+K+1` with `a=t+4`. With the three earlier branches, the four-case selection rule proves ordinary gracefulness for the exact unpadded `[[q],[r],[t]]+[[]]*(K+1)` family for all positive q,r,t and K>=2. The adjacent branch retains its own consumer and K=1 domain. Other K=1 cases, padding, additional branches, further sections and arbitrary repetition remain separate. See `research/B3_UNPADDED_Q1_R2.md`, D026, and `evidence/validation/B3_UNPADDED_Q1_R2_001/`.
+- B3-UNPADDED-QLT-R-LARGE-T-001 independently supplies an alpha seed for `1<=q<r`, `r>=3`, `t>=q+2`, and `K>=2` at zero padding. The high-side shift leaves `R=[a,a+K-1]`, `D=1..K`, and nonadjacent physical port `s:3=a+K+1` with `a=q+t+3`. The retained recurrence completes the original path. See `research/B3_UNPADDED_QLT_R_LARGE_T.md`, D025, and `evidence/validation/B3_UNPADDED_QLT_R_LARGE_T_001/`.
 - B3-UNPADDED-QLT-R-ADJACENT-001 supplies the original unpadded three-section prefix for integers `1<=q<r`, `1<=t<=q+1`, `K>=1`. With `a=q+t+3`, it leaves labels `[a,a+K-1]`, differences `1..K`, and adjacent port `s:3=a+K`. The adjacent consumer completes the original path, including K=1. The earlier q>=r, K>=2 result retains its own nonadjacent port `a+K+1`. The q<r region with `t>=q+2` remains unresolved by this proof. See `research/B3_UNPADDED_QLT_R_ADJACENT.md`, D024, and `evidence/validation/B3_UNPADDED_QLT_R_ADJACENT_001/`.
 - Caterpillar, L007, L010/H010 and constructive R226 are implemented with exact domains and independent checking.
 - Two L010 prefixes compose under the stated direct-leaf budgets; the reviewed padded construction returns a shifted interval.

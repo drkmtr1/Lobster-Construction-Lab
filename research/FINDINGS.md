@@ -114,6 +114,12 @@ The prior q>=r, K>=2 branch retains the nonadjacent port `a+K+1`. The q<r region
 
 For K>=2, combining this domain with the earlier q>=r nonadjacent branch and the q<r, t<=q+1 adjacent branch leaves exactly `q=1,r=2,t>=3` outside the three suppliers. This is a coverage statement only. K=1 outside the adjacent domain, padding, added branches, further sections, and arbitrary repetition remain separate.
 
+## B3-UNPADDED-Q1-R2-001 and the four-case corollary
+
+**ACCEPT** for `q=1,r=2`, integers `t>=3,K>=2`, zero padding and the exact original profile `[[1],[2],[t]]+[[]]*(K+1)`. The seed assigns `0..M` and uses original prefix differences `1..M` with `M=t+9`. The fixed `t=1` prefix and the prescribed leaf extension at the least-high third center give a second derivation of the seed. The high-side shift supplies unused labels `[a,a+K-1]`, unused differences `1..K`, and nonadjacent physical port `s:3=a+K+1`, with `a=t+4`. The retained recurrence completes the original path. Separate AI reviewers accepted the proof and implementation. One base-prefix certificate is recorded separately from the 12 completed original targets and the audit of those same 12. See [proof](B3_UNPADDED_Q1_R2.md), [evidence](../evidence/validation/B3_UNPADDED_Q1_R2_001/README.md), and D026.
+
+The four disjoint supplier domains exhaust positive integers `q,r,t` and `K>=2` on the original zero-padding profile `[[q],[r],[t]]+[[]]*(K+1)`. Select the first applicable constructor for `q>=r`, for `q<r,t<=q+1`, for `q<r,t>=q+2,r>=3`, or for the remaining `q=1,r=2,t>=3`. This proves ordinary gracefulness for the exact family. Each branch retains its own resource contract and consumer. Remaining K=1 cases outside the adjacent domain, padding, multiple positive branches per section, further sections, and arbitrary repetition require separate results.
+
 ## 10. Finite validation and current literature
 
 The authoritative executed results are in `evidence/validation/VALIDATION_REPORT.md` and its linked JSON records. Positive witnesses are bound to original graphs and requested restrictions. Count controls and the four B2 pairs have only their stated finite meaning. They do not prove a new supplier family.
