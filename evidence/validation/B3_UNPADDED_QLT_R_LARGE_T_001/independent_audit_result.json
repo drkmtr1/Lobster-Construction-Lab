@@ -1,0 +1,286 @@
+{
+  "task": "B3-UNPADDED-QLT-R-LARGE-T-001-original-target-regression-20261121 saved-certificate audit",
+  "status": "PASS",
+  "scope": "same 12 saved targets, with no constructor or solver invocation",
+  "case_count": 12,
+  "cases": [
+    {
+      "parameters": {
+        "q": 1,
+        "r": 3,
+        "t": 3,
+        "K": 2
+      },
+      "original_graph_digest": "3cb0749dcfa09c6163311a572ed5158823a4eefe4cdc6b1a75697231b9bdafe6",
+      "vertices": 16,
+      "seed_certificate_valid": true,
+      "prefix_certificate_valid": true,
+      "full_certificate_valid": true,
+      "adjacent_predicate_rejected": true,
+      "tail_differences": [
+        2,
+        1
+      ]
+    },
+    {
+      "parameters": {
+        "q": 1,
+        "r": 3,
+        "t": 3,
+        "K": 3
+      },
+      "original_graph_digest": "04c88d0097ae3b4b89f0b3e402a6bff718478a7d6437598d3c73e6134e646542",
+      "vertices": 17,
+      "seed_certificate_valid": true,
+      "prefix_certificate_valid": true,
+      "full_certificate_valid": true,
+      "adjacent_predicate_rejected": true,
+      "tail_differences": [
+        3,
+        1,
+        2
+      ]
+    },
+    {
+      "parameters": {
+        "q": 1,
+        "r": 3,
+        "t": 3,
+        "K": 4
+      },
+      "original_graph_digest": "9f48e1326bd84715785471897e789c6215edd0b6c5f938b064734f5fd6f2b2f4",
+      "vertices": 18,
+      "seed_certificate_valid": true,
+      "prefix_certificate_valid": true,
+      "full_certificate_valid": true,
+      "adjacent_predicate_rejected": true,
+      "tail_differences": [
+        4,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "parameters": {
+        "q": 1,
+        "r": 4,
+        "t": 3,
+        "K": 5
+      },
+      "original_graph_digest": "918b38349257c265765268f7f248481db3bca2639af12797be3156760b803c9c",
+      "vertices": 20,
+      "seed_certificate_valid": true,
+      "prefix_certificate_valid": true,
+      "full_certificate_valid": true,
+      "adjacent_predicate_rejected": true,
+      "tail_differences": [
+        5,
+        3,
+        4,
+        2,
+        1
+      ]
+    },
+    {
+      "parameters": {
+        "q": 1,
+        "r": 7,
+        "t": 8,
+        "K": 6
+      },
+      "original_graph_digest": "b42fbfbd5ff1a36050f25ed208d6c89f718b64bd4d719eca963bf0ee3116d135",
+      "vertices": 29,
+      "seed_certificate_valid": true,
+      "prefix_certificate_valid": true,
+      "full_certificate_valid": true,
+      "adjacent_predicate_rejected": true,
+      "tail_differences": [
+        6,
+        4,
+        5,
+        3,
+        1,
+        2
+      ]
+    },
+    {
+      "parameters": {
+        "q": 2,
+        "r": 3,
+        "t": 4,
+        "K": 2
+      },
+      "original_graph_digest": "64ca4cfc22fd381131a8f288b51fe45e248e850f7e0266d1b33b11f4b87e7c09",
+      "vertices": 18,
+      "seed_certificate_valid": true,
+      "prefix_certificate_valid": true,
+      "full_certificate_valid": true,
+      "adjacent_predicate_rejected": true,
+      "tail_differences": [
+        2,
+        1
+      ]
+    },
+    {
+      "parameters": {
+        "q": 2,
+        "r": 6,
+        "t": 7,
+        "K": 7
+      },
+      "original_graph_digest": "fb4f9c2bf84de3e1d3b70345d803375f598a9e87c079d6e3c8fdc840b9697298",
+      "vertices": 29,
+      "seed_certificate_valid": true,
+      "prefix_certificate_valid": true,
+      "full_certificate_valid": true,
+      "adjacent_predicate_rejected": true,
+      "tail_differences": [
+        7,
+        5,
+        6,
+        4,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "parameters": {
+        "q": 3,
+        "r": 4,
+        "t": 5,
+        "K": 3
+      },
+      "original_graph_digest": "0fc94857107e12da3bf6e2e06ceab6fcb4c441e449f7c4873d598c5078fdcdc2",
+      "vertices": 22,
+      "seed_certificate_valid": true,
+      "prefix_certificate_valid": true,
+      "full_certificate_valid": true,
+      "adjacent_predicate_rejected": true,
+      "tail_differences": [
+        3,
+        1,
+        2
+      ]
+    },
+    {
+      "parameters": {
+        "q": 3,
+        "r": 8,
+        "t": 9,
+        "K": 8
+      },
+      "original_graph_digest": "16fd5271c5343cdc2f85dc4b20bb4fe548e3ef1a9bf9ba74beddf72a5eadde93",
+      "vertices": 35,
+      "seed_certificate_valid": true,
+      "prefix_certificate_valid": true,
+      "full_certificate_valid": true,
+      "adjacent_predicate_rejected": true,
+      "tail_differences": [
+        8,
+        6,
+        7,
+        5,
+        3,
+        4,
+        2,
+        1
+      ]
+    },
+    {
+      "parameters": {
+        "q": 4,
+        "r": 5,
+        "t": 6,
+        "K": 4
+      },
+      "original_graph_digest": "19e97da21c6f02e2b17a21c88272eee434fea0b3170a2b0d129c29eee07a6ea7",
+      "vertices": 26,
+      "seed_certificate_valid": true,
+      "prefix_certificate_valid": true,
+      "full_certificate_valid": true,
+      "adjacent_predicate_rejected": true,
+      "tail_differences": [
+        4,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "parameters": {
+        "q": 5,
+        "r": 6,
+        "t": 7,
+        "K": 11
+      },
+      "original_graph_digest": "b2f10576a752d0c0be133ace5d7f323220ff8239971f59c840fe5026ed65e7d5",
+      "vertices": 36,
+      "seed_certificate_valid": true,
+      "prefix_certificate_valid": true,
+      "full_certificate_valid": true,
+      "adjacent_predicate_rejected": true,
+      "tail_differences": [
+        11,
+        9,
+        10,
+        8,
+        6,
+        7,
+        5,
+        3,
+        4,
+        2,
+        1
+      ]
+    },
+    {
+      "parameters": {
+        "q": 8,
+        "r": 13,
+        "t": 12,
+        "K": 14
+      },
+      "original_graph_digest": "2db6bcffd205144f3c7bf9180df50b3e04a4c9b58284604f0c38c6e90c3fbfab",
+      "vertices": 54,
+      "seed_certificate_valid": true,
+      "prefix_certificate_valid": true,
+      "full_certificate_valid": true,
+      "adjacent_predicate_rejected": true,
+      "tail_differences": [
+        14,
+        12,
+        13,
+        11,
+        9,
+        10,
+        8,
+        6,
+        7,
+        5,
+        3,
+        4,
+        2,
+        1
+      ]
+    }
+  ],
+  "config_sha256_raw": "84e55cb4d63873521b5ddb71d757e194e364e6e5519dca7f9a15e07e0ffa63f7",
+  "saved_regression_sha256_raw": "177ab00de267241d3e310b4626bde82644d173b3810178bf87d74791e4c4c4f7",
+  "script_sha256_raw": "2a7968a1f4137d97d1829678586e4d534ce13af3c49dca0eaf5485edf4540a10",
+  "environment": {
+    "python": "3.13.17",
+    "implementation": "CPython",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python_optimization_level": 0
+  },
+  "elapsed_seconds": 0.17479680001270026,
+  "limits": {
+    "max_cases": 12,
+    "max_vertices": 54,
+    "max_output_bytes": 2000000,
+    "workers": 1
+  },
+  "starting_commit": "db72b4dc45510c830c582bc994543d539c223a13"
+}

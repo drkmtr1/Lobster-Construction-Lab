@@ -16,6 +16,7 @@ The code supplies direct constructions, a unit-size convenience alias, and a str
 | `two_section_k1(q,r)` | Any positive integers q,r, no direct leaves, K=1 | Complete graceful labeling | Retained R241 specialization; singleton R={q+4}, D={q+3}, physical port s:2=1 |
 | `three_section_nonadjacent(q,r,t,K)` | Integers q>=r>=1, t>=1, K>=2, no direct leaves | Complete graceful labeling | Three original branches and s:3 path; R241/L008 corollary with independent left supplier |
 | `three_section_qltr_adjacent(q,r,t,K)` | Integers 1<=q<r, 1<=t<=q+1, K>=1, no direct leaves | Complete graceful labeling | Original adjacent port s:3=a+K; R241 with a direct left supplier and class-reversed L008 |
+| `three_section_qltr_large_t(q,r,t,K)` | Integers 1<=q<r, r>=3, t>=q+2, K>=2, no direct leaves | Complete graceful labeling | Explicit parity alpha seed, high-side shift and original nonadjacent port s:3=a+K+1 |
 | `two_section_unit(K)` | Positive suffix length `K` | Complete graceful labeling | Alias for `two_section_balanced(q=1,K=K)` |
 | `complete_two_host(graph, core_labels, hosts)` | Original target, connected labeled core, two distinct physical hosts | Exact fixed-core completion or restricted obstruction | Does not supply the core labeling, host choice, or a palette partition |
 

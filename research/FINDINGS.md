@@ -108,6 +108,12 @@ The domain `q<r` is outside this formula, not proved nongraceful. K=1 requires a
 
 The prior q>=r, K>=2 branch retains the nonadjacent port `a+K+1`. The q<r region with `t>=q+2` lies outside the adjacent construction, with gracefulness unresolved by this result. Padding, extra positive branches, further sections and arbitrary repetition are separate duties. No historical novelty is claimed.
 
+## B3-UNPADDED-QLT-R-LARGE-T-001
+
+**ACCEPT** for the exact original zero-padding profile `[[q],[r],[t]]+[[]]*(K+1)` with integers `1<=q<r`, `r>=3`, `t>=q+2`, and `K>=2`. The direct parity seed has labels `0..M` and original prefix differences `1..M`, where `M=q+r+t+6`. Its high-side shift leaves unused labels `[a,a+K-1]`, differences `1..K`, and nonadjacent physical port `s:3=a+K+1`, where `a=q+t+3`. The retained recurrence completes the original path. Separate AI reviewers accepted the proof and implementation. The seed and full certificates were checked on 12 declared original targets, and a separate arithmetic audit passed on the same saved targets. See [proof](B3_UNPADDED_QLT_R_LARGE_T.md), [evidence](../evidence/validation/B3_UNPADDED_QLT_R_LARGE_T_001/README.md), and D025.
+
+For K>=2, combining this domain with the earlier q>=r nonadjacent branch and the q<r, t<=q+1 adjacent branch leaves exactly `q=1,r=2,t>=3` outside the three suppliers. This is a coverage statement only. K=1 outside the adjacent domain, padding, added branches, further sections, and arbitrary repetition remain separate.
+
 ## 10. Finite validation and current literature
 
 The authoritative executed results are in `evidence/validation/VALIDATION_REPORT.md` and its linked JSON records. Positive witnesses are bound to original graphs and requested restrictions. Count controls and the four B2 pairs have only their stated finite meaning. They do not prove a new supplier family.

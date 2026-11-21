@@ -507,6 +507,79 @@ def three_section_qltr_adjacent(q: int, r: int, t: int, K: int) -> dict:
     return result
 
 
+def three_section_qltr_large_t(q: int, r: int, t: int, K: int) -> dict:
+    """Label the original unpadded B3 graph for 1 <= q < r, r >= 3,
+    t >= q+2, and K >= 2 using its parity-based alpha prefix.
+    """
+    _integer(q, "q", 1)
+    _integer(r, "r", 3)
+    _integer(t, "t", 1)
+    _integer(K, "K", 2)
+    if q >= r or t < q + 2:
+        raise ValueError("large-third-branch construction requires q < r and t >= q+2")
+
+    graph = build_graph([[q], [r], [t]] + [[] for _ in range(K + 1)])
+    H, J = q % 2, q // 2
+    a = q + t + 3
+    m = q + r + t + K + 6
+    seed = {"b:1:0": 0, "s:0": 2 * H + 2, "s:2": 2 * H + 2 * J + 3,
+            "b:2:0": a, "s:3": a + 1, "b:0:0": a + 2, "s:1": a + 2 * H + 4}
+    for j in range(J):
+        seed[f"l:0:0:{j}"] = 2 * j + 1
+    for j in range(J, J + H):
+        seed[f"l:0:0:{j}"] = 2 * (j - J + 1)
+    for j in range(J + H, q):
+        seed[f"l:0:0:{j}"] = 2 * H + 4 + 2 * (j - J - H)
+    for j in range(r):
+        seed[f"l:1:0:{j}"] = a + j + (3 if j < 2 * H + 1 else 4)
+    for j in range(t):
+        seed[f"l:2:0:{j}"] = 2 * J + 1 + 2 * j if j <= H else q + j + 3
+
+    prefix = {v: x + K if x >= a else x for v, x in seed.items()}
+    partial = verify_partial(graph, prefix)
+    if not partial["valid"]:
+        raise ArithmeticError("large-third-branch prefix failed original-target verification: "
+                              + "; ".join(partial["errors"]))
+    suffix = {f"s:{i}" for i in range(4, K + 4)}
+    path = {frozenset((f"s:{i}", f"s:{i + 1}")) for i in range(3, K + 3)}
+    incident = {frozenset(edge) for edge in graph["edges"] if suffix.intersection(edge)}
+    if (set(graph["vertices"]) - set(prefix) != suffix or incident != path
+            or partial["frontier"] != ["s:3"]
+            or partial["unused_labels"] != list(range(a, a + K))
+            or partial["unused_differences"] != list(range(1, K + 1))
+            or prefix["s:3"] != a + K + 1):
+        raise ArithmeticError("large-third-branch prefix has a different original-path interface")
+
+    values = _nonadjacent_path_labels(K, a)
+    if values[0] != prefix["s:3"]:
+        raise ArithmeticError("nonadjacent sequence does not start at original s:3")
+    labels = dict(prefix)
+    labels.update({f"s:{i + 3}": values[i] for i in range(1, K + 1)})
+    certificate = verify_certificate(graph, labels, partial["graph_digest"])
+    if not certificate["valid"]:
+        raise ArithmeticError("large-third-branch completion failed original-target verification: "
+                              + "; ".join(certificate["errors"]))
+    trace = [{"operation": "supplied_nonadjacent_interval_interface", "stage": 3,
+              "active_vertex": "s:3", "active_label": prefix["s:3"],
+              "unused_labels": partial["unused_labels"],
+              "unused_differences": partial["unused_differences"],
+              "seed_labels": seed, "prefix_labels": prefix,
+              "prefix_difference_interval": [K + 1, m]}]
+    result = _result(graph, labels, "three_section_qltr_large_t", {
+        "parameters": {"q": q, "r": r, "t": t, "K": K, "z0": 0, "z1": 0, "z2": 0},
+        "family": "three successive positive branches, no direct leaves, and a K-edge path suffix",
+        "independent_input_supply": True, "universal_lobster_claim": False,
+        "mathematical_novelty_claim": False, "arbitrary_branched_suffix": False,
+        "suffix_interface": {"unused_labels": [a, a + K - 1], "unused_differences": [1, K],
+                             "active_vertex": "s:3", "active_label": a + K + 1,
+                             "notation": "inclusive intervals"},
+        "derivation_status": "direct alpha prefix with high-side shift and retained path recurrence",
+        "source": "research/B3_UNPADDED_QLT_R_LARGE_T.md",
+        "consumer_source": "research/B2_NONADJACENT_CONSUMER.md"}, trace)
+    result["evidence_level"] = "project_derived_symbolic_family; independent checking required"
+    return result
+
+
 def two_section_unit(K: int) -> dict:
     """Convenience alias for the q=1 zero-padding balanced construction."""
     result = two_section_balanced(1, K)
