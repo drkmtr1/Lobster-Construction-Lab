@@ -26,11 +26,18 @@ An independent outside session (CPython 3.12.14, Linux; a different machine from
 | `pack/independent_seed_check.py` / `.json` | The pack's standard-library 144-assignment audit and its observed result |
 | `pack/analysis/` | `math_review.md`, `next_step_review.md` (the two agent challenges of the new proof), `evidence_review.md`, `evidence_audit.json`, `checkpoint.normalized.diff` (recovered UTF-8 patch; the raw exported `checkpoint.diff` is not preserved here — see below) |
 | `pack/supplied/b2_review_scratch.py` | The earlier reviewer scratch, preserved as the diagnostic version (see `research/B2_UNEQUAL_SEED.md` §4) |
-| `verify_b2_review_pack.py` | This integration's read-only verification script (33 checks) |
-| `verification_result.json` | Observed result: 33/33 passed (CPython 3.13.17, Windows-11, 2026-11-21T16:32:41Z; script SHA-256 `448d9bfb3f2d535ff0686a280651ccd811a16268044de8c707c8ef39033fd3b3`) |
+| `verify_b2_review_pack.py` | Historical integration checker; preserved unchanged with its recorded hash; depends on the original Downloads and Temp paths and overwrites its historical output if run |
+| `verify_preserved_b2_evidence.py` | Portable check of the actual tracked raw/pack files and current source inventory; creates a new output only; no solver or labeling enumeration |
+| `.gitattributes` | Prevents line-ending conversion for raw/**, pack/**, the historical integration script, the new checker and its custody-result files |
+| `verification_result.json` | Observed result: 33 successful entries (31 predicates and 2 informational configuration-hash observations; CPython 3.13.17, Windows-11, 2026-11-21T16:32:41Z; script SHA-256 `448d9bfb3f2d535ff0686a280651ccd811a16268044de8c707c8ef39033fd3b3`) |
 | `RAW_FILE_MANIFEST.json` | Raw SHA-256 of every preserved byte copy in this directory |
 
-**Not copied (deliberate):** the pack's `original_upload.zip` (66,234 bytes; preserved by hash only: raw SHA-256 `a2def9c494ff49d7dbe89ca10416b1da804e82052c9a79db773ae50c819e2b97`; the unpacked contents are byte-verified against its MANIFEST, checks F1/F2); the pack's `supplied/` tree other than the scratch (those 21 files are byte-identical to the project's own tracked files at the reviewed checkpoint and are verified per-file, checks A1–A7 and E1–E3); the pack's `context/` (a copy of `docs/RESEARCH_PLAN.md`, already tracked). The original download location `C:\Users\Will\Downloads\LCL_B2_Independent_Review_2026-11-21\` remains the machine-local source for the zip and the full `supplied/` tree.
+**Preservation scope:** this directory contains eight raw input/run files and thirteen selected review-pack files. The original complete returned review ZIP is a distinct 240,684-byte archive with raw SHA-256 `285e37061efb911fd696013c358f682bbbbf9e915a470a113e411f1813075a38`. Its internal `original_upload.zip` is the earlier 66,234-byte input archive, SHA-256 `a2def9c494ff49d7dbe89ca10416b1da804e82052c9a79db773ae50c819e2b97`.
+
+The complete returned pack's 55-entry MANIFEST is preserved as provenance. The local `pack/` directory is a selected subset; it is not expected to satisfy that complete file-set inventory. The new portable checker validates every locally copied member against `RAW_FILE_MANIFEST.json`, and the copied review members against their original manifest entries. The original source snapshot is represented by the unchanged project source and its recorded 21-file inventory.
+
+The omitted earlier `supplied/` tree contained historical Git exports and formerly ignored run records as well as research files; it was not entirely a set of tracked project files. The old raw export, complete original input archive and complete returned archive remain separately identified historical sources. The normalized historical patch, exact run records, inputs, proof, reviewer notes and check output needed for this review are present here.
+
 
 ## Hash schemes (do not conflate)
 
@@ -49,7 +56,7 @@ Canonical values for the two preserved records (also in `RAW_FILE_MANIFEST.json`
 
 ## Verification actually performed
 
-`verify_b2_review_pack.py` (read-only; modifies no source, checker, configuration, or target; runs no solver) executed 33 checks, all passed:
+`verify_b2_review_pack.py` modified no source, checker, configuration, or target, but wrote its result file. Its historical result contains 33 successful entries: 31 predicate checks plus two informational configuration-hash observations (B3/B4). D1/D2 separately validate configuration contents. Its original external-pack verification is preserved; it did not check the curated manifest paths. The original groups were:
 
 - **A1–A7** byte identity, local vs pack: both `record.json`, all four input JSONs, the reviewer scratch.
 - **B1–B10** raw SHA-256 of both records, both configs (reported only), the pack zip, the four inputs, the scratch.
@@ -62,24 +69,19 @@ Canonical values for the two preserved records (also in `RAW_FILE_MANIFEST.json`
 
 No discrepancy was found between the pack, the local records, and the local source.
 
-## Replay commands (optional)
+## Portable custody check (optional)
 
-From the project root, with the project virtual environment:
-
-```powershell
-.\.venv\Scripts\python.exe evidence\reviews\B2_UNEQUAL_SEED_001\verify_b2_review_pack.py
-```
-
-An optional first argument names a different pack root; the default is the local download path. Note: a replay **rewrites** `verification_result.json` (timestamp, platform fields); review the diff before committing any replay.
-
-The pack's own seed audit (standard library only; imports no project code; refuses to overwrite an existing result file) can be replayed from the original download location, which still holds the full `supplied/` tree:
+From the project root, after choosing a new output name:
 
 ```powershell
-cd C:\Users\Will\Downloads\LCL_B2_Independent_Review_2026-11-21\LCL_B2_Independent_Review
-python .\independent_seed_check.py --supplied .\supplied --out .\independent_seed_check_local.json
+.\.venv\Scripts\python.exe evidence\reviews\B2_UNEQUAL_SEED_001\verify_preserved_b2_evidence.py --out evidence\reviews\B2_UNEQUAL_SEED_001\custody_check_NEW.json
 ```
 
-Python 3.12/3.13. The observed output is already preserved at `pack/independent_seed_check.json`; replaying is optional.
+The new checker reads the tracked `raw/` and `pack/` copies directly, validates every manifest path and hash, checks the canonical records/configurations and matching project source, and verifies the preserved scripts' identities. It uses only Python 3.12/3.13's standard library. It needs no Downloads folder, Temp scratch, optional dependency or solver run. `--evidence-root` and `--project-root` can be supplied for an isolated review copy. The output must be new and outside `raw/` and `pack/`; existing files are never overwritten.
+
+Keep `verification_result.json` and the historical script unchanged. A replay of `verify_b2_review_pack.py` would overwrite that historical result and still require external machine-local inputs, so it is not the routine custody command. Its H-loop comment says `x+u+v=3-y`; the unrestricted total is `6-y`. Its executed sum formula `S=a+2b-x-2y+16` is correct. The historical source is retained with its original hash rather than silently corrected.
+
+The previously completed 144-assignment experiment does not need another run to close these metadata corrections. The new custody checker performs no new labeling enumeration.
 
 ## Provenance notes
 

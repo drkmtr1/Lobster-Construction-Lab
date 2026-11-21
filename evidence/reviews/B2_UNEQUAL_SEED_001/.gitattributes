@@ -1,0 +1,6 @@
+# Preserve the exact bytes of the reviewed evidence across checkouts.
+raw/** -text
+pack/** -text
+verify_b2_review_pack.py -text
+verify_preserved_b2_evidence.py -text
+custody_check_*.json -text
