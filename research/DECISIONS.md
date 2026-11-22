@@ -1,6 +1,6 @@
 # Decisions and algorithm-change log
 
-This file owns consequential choices and change proposals. `STATE.md` owns current work; findings and failures own scientific dispositions. Dates below are November 20, 2026, Pacific/Honolulu, except D016 through D043 (November 21, 2026).
+This file owns consequential choices and change proposals. `STATE.md` owns current work; findings and failures own scientific dispositions. Dates below are November 20, 2026, Pacific/Honolulu, except D016 through D044 (November 21, 2026).
 
 | ID | Decision | Reason and review consequence |
 |---|---|---|
@@ -48,6 +48,7 @@ This file owns consequential choices and change proposals. `STATE.md` owns curre
 | D041 | Accept `B4-THIRD-ZERO-HOST-K1-DIRECT-001` at `4aa22d42c1b7c609bfa8d0b691ba16c951383fe6` | **ACCEPT** the reversible terminal-maximum core lift, direct K=1 construction for all t>=1 and exhaustive all-positive-t,K ordinary-gracefulness selector for exact (1,1,t,2). Both separate read-only AI reviews accepted. One auxiliary core, four completed K=1 cases including t=2 once, zero additional cases from audit, review or batch, zero solver queries. D040 remains INCOMPLETE. Preserve the raw proof bytes using an exact Git attribute. |
 | D042 | Accept `B4-UNPADDED-Q1T2-001` at `3da61c39d3444c6286b34033d6ae9fd58b20c547` | **ACCEPT** the conditional general low-host upper-block rule, named agreement with zero-host growth, and exact ordinary-gracefulness construction for q>=1,t>=2,K>=2 on ordered (q,1,t,2). Six new completed targets passed, plus one retained seed recheck and one retained completed control. Twelve exact-domain probes rejected. Both read-only AI reviews and the independent audit accepted, with zero added targets and solver queries. Preserve historical INCOMPLETE receipts and raw proof bytes. No production change. |
 | D043 | Accept B4-Q1T2-K1-ROOTED-CORE-001 at e9842f1caf0ea0005bf9840ae9bfe1f4b2974242 | **ACCEPT** the relabeled ordinary rooted core for q>=2 and its exact K=1 singleton lift for q,t>=2, and the union with retained branches for all positive q,t,K on (q,1,t,2). **REJECT** the single-cut extension on the fixed retained ledger. Four completed targets, three auxiliary cores and ten input rejections passed with a same-record audit and separate AI reviews. No solver, enumeration or production change. |
+| D044 | Accept B4-UNPADDED-1R22-SUPPLIER-001 at 048e5a1d59a2b7a861cc4810b01f42f8baf024c7 | **ACCEPT** the explicit fixed-cut insertion, normalized alpha state A(r+14,r+6;r+4,1), and exact ordinary (1,r,2,2) completion for r,K>=2. **REJECT** the second-center insertion templates on the three examined fixed ledgers. Four completed targets, three prefixes, two retained rechecks and eight rejections passed with a same-record audit and separate AI reviews. No solver, enumeration or production edits. |
 
 ## Proposal template for the next consequential algorithm change
 

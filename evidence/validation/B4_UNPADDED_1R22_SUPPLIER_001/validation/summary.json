@@ -1,0 +1,48 @@
+{
+  "completed_targets": [
+    {
+      "K": 2,
+      "bytes": 5696,
+      "certificate": "target-r2-K2.json",
+      "n": 18,
+      "r": 2,
+      "sha256_raw": "39bd02f099b5aa77feb50b709139ce055fa4fa3744328b76fbb93d971afed5ed"
+    },
+    {
+      "K": 3,
+      "bytes": 5966,
+      "certificate": "target-r2-K3.json",
+      "n": 19,
+      "r": 2,
+      "sha256_raw": "df2e59ab377c0eff7122b708b1bc9086e0736dad06d97f22f138e014478f6e10"
+    },
+    {
+      "K": 4,
+      "bytes": 6497,
+      "certificate": "target-r3-K4.json",
+      "n": 21,
+      "r": 3,
+      "sha256_raw": "6c43bfaa2e23cd5fe0cd94f7d7544fecf96691844f623422893f5718c1530a9f"
+    },
+    {
+      "K": 5,
+      "bytes": 7028,
+      "certificate": "target-r4-K5.json",
+      "n": 23,
+      "r": 4,
+      "sha256_raw": "24b5286db4f7598227a047747ac82102b5d5ba3185e8afd9cff7ed8668e4b928"
+    }
+  ],
+  "domain_rejections": 8,
+  "identity_sha256_raw": "15d8f185b107ce8bef5bfb0d181bb91a85b4c38f4c18084af9f0bf64c67270ea",
+  "labeling_enumeration": 0,
+  "normalized_prefixes": [
+    2,
+    3,
+    4
+  ],
+  "retained_rechecks": 2,
+  "run_id": "B4-UNPADDED-1R22-SUPPLIER-001-20261121",
+  "solver_queries": 0,
+  "status": "PASS"
+}

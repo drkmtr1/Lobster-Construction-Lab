@@ -1,0 +1,471 @@
+{
+  "crossing_edge": [
+    "s:4",
+    "s:5"
+  ],
+  "edge_ledger": [
+    {
+      "difference": 16,
+      "edge": [
+        "s:0",
+        "s:1"
+      ]
+    },
+    {
+      "difference": 15,
+      "edge": [
+        "s:1",
+        "s:2"
+      ]
+    },
+    {
+      "difference": 10,
+      "edge": [
+        "s:2",
+        "s:3"
+      ]
+    },
+    {
+      "difference": 6,
+      "edge": [
+        "s:3",
+        "s:4"
+      ]
+    },
+    {
+      "difference": 4,
+      "edge": [
+        "s:4",
+        "s:5"
+      ]
+    },
+    {
+      "difference": 1,
+      "edge": [
+        "s:5",
+        "s:6"
+      ]
+    },
+    {
+      "difference": 2,
+      "edge": [
+        "s:6",
+        "s:7"
+      ]
+    },
+    {
+      "difference": 3,
+      "edge": [
+        "s:7",
+        "s:8"
+      ]
+    },
+    {
+      "difference": 12,
+      "edge": [
+        "s:0",
+        "b:0:0"
+      ]
+    },
+    {
+      "difference": 9,
+      "edge": [
+        "b:0:0",
+        "l:0:0:0"
+      ]
+    },
+    {
+      "difference": 17,
+      "edge": [
+        "s:1",
+        "b:1:0"
+      ]
+    },
+    {
+      "difference": 20,
+      "edge": [
+        "b:1:0",
+        "l:1:0:0"
+      ]
+    },
+    {
+      "difference": 18,
+      "edge": [
+        "b:1:0",
+        "l:1:0:1"
+      ]
+    },
+    {
+      "difference": 19,
+      "edge": [
+        "b:1:0",
+        "l:1:0:2"
+      ]
+    },
+    {
+      "difference": 14,
+      "edge": [
+        "s:2",
+        "b:2:0"
+      ]
+    },
+    {
+      "difference": 11,
+      "edge": [
+        "b:2:0",
+        "l:2:0:0"
+      ]
+    },
+    {
+      "difference": 13,
+      "edge": [
+        "b:2:0",
+        "l:2:0:1"
+      ]
+    },
+    {
+      "difference": 5,
+      "edge": [
+        "s:3",
+        "b:3:0"
+      ]
+    },
+    {
+      "difference": 8,
+      "edge": [
+        "b:3:0",
+        "l:3:0:0"
+      ]
+    },
+    {
+      "difference": 7,
+      "edge": [
+        "b:3:0",
+        "l:3:0:1"
+      ]
+    }
+  ],
+  "labels": {
+    "b:0:0": 7,
+    "b:1:0": 20,
+    "b:2:0": 4,
+    "b:3:0": 13,
+    "l:0:0:0": 16,
+    "l:1:0:0": 0,
+    "l:1:0:1": 2,
+    "l:1:0:2": 1,
+    "l:2:0:0": 15,
+    "l:2:0:1": 17,
+    "l:3:0:0": 5,
+    "l:3:0:1": 6,
+    "s:0": 19,
+    "s:1": 3,
+    "s:2": 18,
+    "s:3": 8,
+    "s:4": 14,
+    "s:5": 10,
+    "s:6": 11,
+    "s:7": 9,
+    "s:8": 12
+  },
+  "normalized": "normalized-r3.json",
+  "original": {
+    "graph_digest": "57d02489f8f1e44e2a55c27502fcbfa3343be6d564735333770d3ddae478838c",
+    "path": "originals/target-r3-K4.json",
+    "sha256_raw": "af42792e154b617096e298b296252968ef0521daae9b2e92f207940626fbb0d0"
+  },
+  "parameters": {
+    "K": 4,
+    "r": 3
+  },
+  "partial_verification": {
+    "claim": "partial assignment only; no completion or independent-supplier claim",
+    "complete": false,
+    "errors": [],
+    "frontier": [
+      "s:4"
+    ],
+    "graph_digest": "57d02489f8f1e44e2a55c27502fcbfa3343be6d564735333770d3ddae478838c",
+    "m": 20,
+    "n": 21,
+    "unused_differences": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "unused_labels": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "used_differences": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "used_labels": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "valid": true
+  },
+  "path": [
+    "s:4",
+    "s:5",
+    "s:6",
+    "s:7",
+    "s:8"
+  ],
+  "path_labels": [
+    14,
+    10,
+    11,
+    9,
+    12
+  ],
+  "port": {
+    "label": 14,
+    "vertex": "s:4"
+  },
+  "prefix": {
+    "b:0:0": 7,
+    "b:1:0": 20,
+    "b:2:0": 4,
+    "b:3:0": 13,
+    "l:0:0:0": 16,
+    "l:1:0:0": 0,
+    "l:1:0:1": 2,
+    "l:1:0:2": 1,
+    "l:2:0:0": 15,
+    "l:2:0:1": 17,
+    "l:3:0:0": 5,
+    "l:3:0:1": 6,
+    "s:0": 19,
+    "s:1": 3,
+    "s:2": 18,
+    "s:3": 8,
+    "s:4": 14
+  },
+  "prefix_edge_ledger": [
+    {
+      "difference": 16,
+      "edge": [
+        "s:0",
+        "s:1"
+      ]
+    },
+    {
+      "difference": 15,
+      "edge": [
+        "s:1",
+        "s:2"
+      ]
+    },
+    {
+      "difference": 10,
+      "edge": [
+        "s:2",
+        "s:3"
+      ]
+    },
+    {
+      "difference": 6,
+      "edge": [
+        "s:3",
+        "s:4"
+      ]
+    },
+    {
+      "difference": 12,
+      "edge": [
+        "s:0",
+        "b:0:0"
+      ]
+    },
+    {
+      "difference": 9,
+      "edge": [
+        "b:0:0",
+        "l:0:0:0"
+      ]
+    },
+    {
+      "difference": 17,
+      "edge": [
+        "s:1",
+        "b:1:0"
+      ]
+    },
+    {
+      "difference": 20,
+      "edge": [
+        "b:1:0",
+        "l:1:0:0"
+      ]
+    },
+    {
+      "difference": 18,
+      "edge": [
+        "b:1:0",
+        "l:1:0:1"
+      ]
+    },
+    {
+      "difference": 19,
+      "edge": [
+        "b:1:0",
+        "l:1:0:2"
+      ]
+    },
+    {
+      "difference": 14,
+      "edge": [
+        "s:2",
+        "b:2:0"
+      ]
+    },
+    {
+      "difference": 11,
+      "edge": [
+        "b:2:0",
+        "l:2:0:0"
+      ]
+    },
+    {
+      "difference": 13,
+      "edge": [
+        "b:2:0",
+        "l:2:0:1"
+      ]
+    },
+    {
+      "difference": 5,
+      "edge": [
+        "s:3",
+        "b:3:0"
+      ]
+    },
+    {
+      "difference": 8,
+      "edge": [
+        "b:3:0",
+        "l:3:0:0"
+      ]
+    },
+    {
+      "difference": 7,
+      "edge": [
+        "b:3:0",
+        "l:3:0:1"
+      ]
+    }
+  ],
+  "remaining_vertices": [
+    "s:5",
+    "s:6",
+    "s:7",
+    "s:8"
+  ],
+  "suffix_edge_ledger": [
+    {
+      "difference": 4,
+      "edge": [
+        "s:4",
+        "s:5"
+      ]
+    },
+    {
+      "difference": 1,
+      "edge": [
+        "s:5",
+        "s:6"
+      ]
+    },
+    {
+      "difference": 2,
+      "edge": [
+        "s:6",
+        "s:7"
+      ]
+    },
+    {
+      "difference": 3,
+      "edge": [
+        "s:7",
+        "s:8"
+      ]
+    }
+  ],
+  "unused_differences": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "unused_labels": [
+    9,
+    10,
+    11,
+    12
+  ],
+  "verification": {
+    "claim": "finite certificate for this exact named target only",
+    "edge_differences": [
+      16,
+      15,
+      10,
+      6,
+      4,
+      1,
+      2,
+      3,
+      12,
+      9,
+      17,
+      20,
+      18,
+      19,
+      14,
+      11,
+      13,
+      5,
+      8,
+      7
+    ],
+    "errors": [],
+    "graph_digest": "57d02489f8f1e44e2a55c27502fcbfa3343be6d564735333770d3ddae478838c",
+    "m": 20,
+    "n": 21,
+    "valid": true
+  }
+}

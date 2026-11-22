@@ -139,3 +139,15 @@ the retained ledger. This rejects the fixed-label single-cut
 template for the first addition. The relabeled core supplies
 the rooted family through a different crossing spectrum.
 [Analytic restriction and new ledger](B4_Q1T2_K1_ROOTED_CORE.md#exact-core-and-the-retained-comparison)
+
+### F-B4-1R22-FIXED-1122-LOWER-BLOCK
+
+The complete lower incidence multiset at second center b:1:0
+fails on both saved 1122 diagnostic ledgers and the distinct
+third zero-host ledger for every cut c=1,...,7. Only the
+adjacent diagnostic at c=2 has the correct cardinality, but
+its weight 9 replaces the required 10. This rejects the
+specified fixed-ledger insertion templates even with the first
+port allowed to move. A separately supplied max-host and zero
+terminal ledger supports the positive 1R22 construction.
+[Exact comparison](B4_UNPADDED_1R22_SUPPLIER.md#why-the-retained-lower-block-instances-cannot-be-imported)

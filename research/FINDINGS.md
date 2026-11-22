@@ -465,3 +465,35 @@ solver queries and zero enumeration. The original historical
 DFS remains INCOMPLETE.
 [Proof and selector](B4_Q1T2_K1_ROOTED_CORE.md)
 · [Evidence](../evidence/validation/B4_Q1T2_K1_ROOTED_CORE_001/README.md) · D043
+
+## B4-UNPADDED-1R22-SUPPLIER-001
+
+**REJECT** the second-center lower-block template on the two
+saved 1122 diagnostic ledgers and the distinct third zero-host
+ledger. Their complete selected incidence multisets fail for
+every allowed threshold. The failure is specific to those
+fixed labelings and that insertion premise.
+
+**ACCEPT** the independently supplied normalized alpha state
+A(r+14,r+6;r+4,1) on `[[1],[r],[2],[2],[]]` for every exact
+integer r>=2. The explicit base puts the maximum at b:1:0 and
+zero at its original terminal. Fixed-cut growth preserves the
+single maximum incident edge at c=1 and moves the actual low
+port to r+4. Finite insertion preserves all named incidences and
+the actual witness, and keeps the exit at p+1 for p=r+6.
+
+**ACCEPT** ordinary gracefulness for the exact full profile
+`[[1],[r],[2],[2]]+[[]]*(K+1)` for integers r,K>=2. Raising
+the normalized highs by K leaves R=[r+6,r+K+5], D=[1,K],
+and physical s:4=r+K+7. The unchanged nonadjacent sequence
+completes the original K-edge path. The K=1 case remains
+outside this interface. The normalized alpha cut is not
+claimed for the completed labels.
+
+The four completed cases, three distinct prefixes, two retained
+diagnostic rechecks and eight domain rejections passed. The
+same-record audit and separate read-only AI reviews add zero
+cases. No solver calls, labeling enumeration or production
+changes occurred.
+[Proof](B4_UNPADDED_1R22_SUPPLIER.md)
+· [Evidence](../evidence/validation/B4_UNPADDED_1R22_SUPPLIER_001/README.md) · D044

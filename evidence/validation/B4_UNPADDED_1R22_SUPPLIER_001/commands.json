@@ -1,0 +1,28 @@
+{
+  "run_id": "B4-UNPADDED-1R22-SUPPLIER-001-20261121",
+  "shell": "PowerShell",
+  "cwd": "Lobster_Construction_Lab repository root",
+  "steps": [
+    {
+      "name": "Syntax preflight",
+      "command": "& .\\.venv\\Scripts\\python.exe -c \"import ast,pathlib; p=pathlib.Path('evidence/validation/B4_UNPADDED_1R22_SUPPLIER_001'); [ast.parse((p / name).read_text(encoding='utf-8')) for name in ('validate.py','audit.py')]; print('Both evidence scripts parse')\"\nexit $LASTEXITCODE",
+      "exit_code": 0,
+      "elapsed_seconds": 0.4048068,
+      "output": "Both evidence scripts parse\r\n"
+    },
+    {
+      "name": "Declared validation",
+      "command": "$env:PYTHONUTF8='1'\n& .\\.venv\\Scripts\\python.exe 'evidence/validation/B4_UNPADDED_1R22_SUPPLIER_001/validate.py'\nexit $LASTEXITCODE",
+      "exit_code": 0,
+      "elapsed_seconds": 0.6701288,
+      "output": "{\"completed_targets\": [{\"K\": 2, \"bytes\": 5696, \"certificate\": \"target-r2-K2.json\", \"n\": 18, \"r\": 2, \"sha256_raw\": \"39bd02f099b5aa77feb50b709139ce055fa4fa3744328b76fbb93d971afed5ed\"}, {\"K\": 3, \"bytes\": 5966, \"certificate\": \"target-r2-K3.json\", \"n\": 19, \"r\": 2, \"sha256_raw\": \"df2e59ab377c0eff7122b708b1bc9086e0736dad06d97f22f138e014478f6e10\"}, {\"K\": 4, \"bytes\": 6497, \"certificate\": \"target-r3-K4.json\", \"n\": 21, \"r\": 3, \"sha256_raw\": \"6c43bfaa2e23cd5fe0cd94f7d7544fecf96691844f623422893f5718c1530a9f\"}, {\"K\": 5, \"bytes\": 7028, \"certificate\": \"target-r4-K5.json\", \"n\": 23, \"r\": 4, \"sha256_raw\": \"24b5286db4f7598227a047747ac82102b5d5ba3185e8afd9cff7ed8668e4b928\"}], \"domain_rejections\": 8, \"identity_sha256_raw\": \"15d8f185b107ce8bef5bfb0d181bb91a85b4c38f4c18084af9f0bf64c67270ea\", \"labeling_enumeration\": 0, \"normalized_prefixes\": [2, 3, 4], \"retained_rechecks\": 2, \"run_id\": \"B4-UNPADDED-1R22-SUPPLIER-001-20261121\", \"solver_queries\": 0, \"status\": \"PASS\"}\r\n"
+    },
+    {
+      "name": "Independent audit of the same certificates",
+      "command": "$env:PYTHONUTF8='1'\n& .\\.venv\\Scripts\\python.exe 'evidence/validation/B4_UNPADDED_1R22_SUPPLIER_001/audit.py'\nexit $LASTEXITCODE",
+      "exit_code": 0,
+      "elapsed_seconds": 0.4071758,
+      "output": "{\"additional_completed_targets\": 0, \"additional_normalized_prefixes\": 0, \"labeling_enumeration\": 0, \"run_id\": \"B4-UNPADDED-1R22-SUPPLIER-001-20261121\", \"same_completed_targets\": [{\"K\": 2, \"bytes\": 5696, \"certificate\": \"target-r2-K2.json\", \"n\": 18, \"r\": 2, \"sha256_raw\": \"39bd02f099b5aa77feb50b709139ce055fa4fa3744328b76fbb93d971afed5ed\"}, {\"K\": 3, \"bytes\": 5966, \"certificate\": \"target-r2-K3.json\", \"n\": 19, \"r\": 2, \"sha256_raw\": \"df2e59ab377c0eff7122b708b1bc9086e0736dad06d97f22f138e014478f6e10\"}, {\"K\": 4, \"bytes\": 6497, \"certificate\": \"target-r3-K4.json\", \"n\": 21, \"r\": 3, \"sha256_raw\": \"6c43bfaa2e23cd5fe0cd94f7d7544fecf96691844f623422893f5718c1530a9f\"}, {\"K\": 5, \"bytes\": 7028, \"certificate\": \"target-r4-K5.json\", \"n\": 23, \"r\": 4, \"sha256_raw\": \"24b5286db4f7598227a047747ac82102b5d5ba3185e8afd9cff7ed8668e4b928\"}], \"same_domain_rejections\": 8, \"same_normalized_prefixes\": [{\"n\": 16, \"r\": 2, \"sha256_raw\": \"941c895803821494c9e6829795faf1f1102d916a303e8a60daa15455cde09c08\"}, {\"n\": 17, \"r\": 3, \"sha256_raw\": \"24f72f8191bf05de332b190d4e1bc263a91fc26fe3ae4b23acb00c3a695a5a4a\"}, {\"n\": 18, \"r\": 4, \"sha256_raw\": \"f115432d2097b7a797590e04bed486fbc2a33b18736aa03cb627bed382b22704\"}], \"same_retained_rechecks\": 2, \"solver_queries\": 0, \"status\": \"PASS\"}\r\n"
+    }
+  ]
+}

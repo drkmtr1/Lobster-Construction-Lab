@@ -1,0 +1,42 @@
+{
+  "run_id": "B4-UNPADDED-1R22-SUPPLIER-001-20261121",
+  "parent": "048e5a1d59a2b7a861cc4810b01f42f8baf024c7",
+  "workers": 1,
+  "max_vertices": 23,
+  "max_result_bytes": 2000000,
+  "solver_queries": 0,
+  "labeling_enumeration": 0,
+  "normalized_r": [
+    2,
+    3,
+    4
+  ],
+  "completed_r_K": [
+    [
+      2,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      5
+    ]
+  ],
+  "completed_orders": [
+    18,
+    19,
+    21,
+    23
+  ],
+  "retained": [
+    "adjacent",
+    "nonadjacent"
+  ]
+}

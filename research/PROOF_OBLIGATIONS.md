@@ -391,6 +391,22 @@ fails only on its own restrictions.
 For positive integers q,t,K, the new singleton, the retained
 q=1 singleton, Q112 at t=1, and Q1T2 at t,K>=2 exhaust the
 exact original (q,1,t,2) family. This is ordinary gracefulness
-with separate interfaces. A supplier with additional second
-leaves while the third branch has size at least two remains
-open here, as do broader original profiles.
+with separate interfaces. The restricted second-branch
+growth at q=1,t=2 is discharged below for K>=2. Broader
+original profiles remain separate.
+
+### 1R22 normalized supply and nonadjacent completion
+
+The [1R22 proof](B4_UNPADDED_1R22_SUPPLIER.md) discharges
+second-branch supply on the exact normalized `[[1],[r],[2],[2],[]]`
+for integer r>=2. At threshold 1 the supplied original zero
+terminal has one incident edge at the maximum host. The
+growing first-port label is r+4; the high exit offset stays
+one. Both the complete incidence predicate and the same
+original witness persist. This supplies normalized alpha
+labelings independently of finite diagnostics.
+
+After a high shift by K, R=[r+6,r+K+5] and D=[1,K] are
+consumed at physical s:4=r+K+7 on the original nonadjacent
+K-edge path, for integer K>=2. The remaining exact 1R22
+K=1 singleton and broader original profiles remain open.
