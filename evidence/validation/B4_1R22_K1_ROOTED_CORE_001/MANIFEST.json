@@ -1,0 +1,114 @@
+{
+  "files": {
+    ".gitattributes": {
+      "bytes": 65,
+      "sha256": "0efdb1ec2eb4687e3bcff022e57838bf6ff8d6f87924bdc0bf7500044bc54cee"
+    },
+    "README.md": {
+      "bytes": 2728,
+      "sha256": "a225951a8961460aa230a8b8a31c89c0fea67eadfaad5d7f416a5547ba009e85"
+    },
+    "REVIEWS.md": {
+      "bytes": 2407,
+      "sha256": "92de9cef4f457a7ed1257bf734e4f7d4faf4c6e1f469db6be304a3f635f77ced"
+    },
+    "audit.py": {
+      "bytes": 12863,
+      "sha256": "2f70a2033527b0be437386e37b60571d4faad03b7f5ec1cdc0802dfeab7eaf6e"
+    },
+    "audit_result.json": {
+      "bytes": 1337,
+      "sha256": "f87f63ad646f652fefdf8878073c9f365201325fe12ee7e33898f3dc26d3ce1d"
+    },
+    "commands.json": {
+      "bytes": 3627,
+      "sha256": "6b0ee4f0bd47ae65a31f9438dbc1340cac82ff6c021001b5c3c9b17a3821a55c"
+    },
+    "config.json": {
+      "bytes": 501,
+      "sha256": "04e5fdd17a124223b0ef16a7c9c0b9181835f57da18454238d0174f43c7a42a3"
+    },
+    "validate.py": {
+      "bytes": 11585,
+      "sha256": "601d741a906235b01406a78a2060506f79e555234a84c7e2d3bf6335dfb1905a"
+    },
+    "validation/batch_comparison.json": {
+      "bytes": 1511,
+      "sha256": "360c92455dc0bbaa3aaccf2ffaa8a291db530f79512451739fcbdb0257203ebf"
+    },
+    "validation/core.json": {
+      "bytes": 2546,
+      "sha256": "b7f042efa3e270671ecc9163cb67db482f46abde29f4a9f1707755d629caf343"
+    },
+    "validation/domain_rejections.json": {
+      "bytes": 377,
+      "sha256": "c9775045274a6cc7bb7211bbae8edf5eae4b8cef99f222d4d0db9e787a96d26e"
+    },
+    "validation/identity.json": {
+      "bytes": 2208,
+      "sha256": "87d968fef6e56887a3675ff5edde997914bda5ac1fb9d4d628bbd7907317febb"
+    },
+    "validation/originals/core.json": {
+      "bytes": 2539,
+      "sha256": "6b8fd383cd7a6122e3693ae6fd2c71518a3239dc6349c12ea6d1ae3e2e5e7dcf"
+    },
+    "validation/originals/target-r2.json": {
+      "bytes": 3077,
+      "sha256": "2a2e11458683488e884ae3d92eb52470623e012470e12a59cf3eda8c1bb16f7e"
+    },
+    "validation/originals/target-r3.json": {
+      "bytes": 3259,
+      "sha256": "e050d5fe51aa8371a150344754dbb300f340f6659a6f78dacfbb14d75adc3784"
+    },
+    "validation/originals/target-r4.json": {
+      "bytes": 3441,
+      "sha256": "263d221363535dd39b08f43e2664ae966725065676d9d9bd7f2f5d9dd0a74ce0"
+    },
+    "validation/originals/target-r5.json": {
+      "bytes": 3623,
+      "sha256": "f6ba9ad7ef5d27880beb3911789eea43f6f60922163284be74d3a2b5e534468f"
+    },
+    "validation/source/lcl/__init__.py": {
+      "bytes": 80,
+      "sha256": "134055506d3e9cd4fa538177844d28a44d5ab567ec220cf54048e63d1a8a7374"
+    },
+    "validation/source/lcl/model.py": {
+      "bytes": 10720,
+      "sha256": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6"
+    },
+    "validation/source/lcl/verify.py": {
+      "bytes": 14075,
+      "sha256": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909"
+    },
+    "validation/source/pyproject.toml": {
+      "bytes": 474,
+      "sha256": "738f14eba3125ce7f444628adaddaf2e3e30e5aa7f43f10e7035067f6b7072e5"
+    },
+    "validation/source/requirements.txt": {
+      "bytes": 144,
+      "sha256": "60f6e1bd76adf6ed25cf381ca95f67e8a27a0de1e62fb673a7cf5af4b86249ea"
+    },
+    "validation/summary.json": {
+      "bytes": 1338,
+      "sha256": "21e105f66d42b4e3fbd25d0532452f1b949a5d5a0da5e7eeb5cd8ae091d348f9"
+    },
+    "validation/target-r2.json": {
+      "bytes": 5894,
+      "sha256": "6d52d56ae4ea9cf6223efe6287c3903eb25cae3c0c62d29d45797b5a85594614"
+    },
+    "validation/target-r3.json": {
+      "bytes": 6174,
+      "sha256": "df3662b25f5a6746aee2485ca85420cb8fd3c55d61460ed0f93990caa23d4122"
+    },
+    "validation/target-r4.json": {
+      "bytes": 6454,
+      "sha256": "07d35ca12d8f8ae12e38e8c7c222b13fcb4e03adbfdec9e7ee71036af11b825f"
+    },
+    "validation/target-r5.json": {
+      "bytes": 6734,
+      "sha256": "2393f46f673bc63f0c38322f5725af68c106e650f223e3bc500f2b05e4c7d335"
+    }
+  },
+  "hash_scheme": "SHA-256 of raw bytes",
+  "identity": "B4-1R22-K1-ROOTED-CORE-001-20261121"
+}

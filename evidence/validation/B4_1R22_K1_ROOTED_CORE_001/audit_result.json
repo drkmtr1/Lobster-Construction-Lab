@@ -1,0 +1,47 @@
+{
+  "additional_completed_targets": 0,
+  "additional_core_cases": 0,
+  "computational_enumeration": 0,
+  "historical_search_replay": 0,
+  "run_id": "B4-1R22-K1-ROOTED-CORE-001-20261121",
+  "same_auxiliary_cores": 1,
+  "same_batch_comparison_sha256_raw": "360c92455dc0bbaa3aaccf2ffaa8a291db530f79512451739fcbdb0257203ebf",
+  "same_completed_targets": [
+    {
+      "K": 1,
+      "bytes": 5894,
+      "certificate": "target-r2.json",
+      "n": 17,
+      "r": 2,
+      "sha256_raw": "6d52d56ae4ea9cf6223efe6287c3903eb25cae3c0c62d29d45797b5a85594614"
+    },
+    {
+      "K": 1,
+      "bytes": 6174,
+      "certificate": "target-r3.json",
+      "n": 18,
+      "r": 3,
+      "sha256_raw": "df3662b25f5a6746aee2485ca85420cb8fd3c55d61460ed0f93990caa23d4122"
+    },
+    {
+      "K": 1,
+      "bytes": 6454,
+      "certificate": "target-r4.json",
+      "n": 19,
+      "r": 4,
+      "sha256_raw": "07d35ca12d8f8ae12e38e8c7c222b13fcb4e03adbfdec9e7ee71036af11b825f"
+    },
+    {
+      "K": 1,
+      "bytes": 6734,
+      "certificate": "target-r5.json",
+      "n": 20,
+      "r": 5,
+      "sha256_raw": "2393f46f673bc63f0c38322f5725af68c106e650f223e3bc500f2b05e4c7d335"
+    }
+  ],
+  "same_core_sha256_raw": "b7f042efa3e270671ecc9163cb67db482f46abde29f4a9f1707755d629caf343",
+  "same_domain_rejections": 4,
+  "solver_queries": 0,
+  "status": "PASS"
+}

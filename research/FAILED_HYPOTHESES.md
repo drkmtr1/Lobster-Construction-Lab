@@ -151,3 +151,15 @@ specified fixed-ledger insertion templates even with the first
 port allowed to move. A separately supplied max-host and zero
 terminal ledger supports the positive 1R22 construction.
 [Exact comparison](B4_UNPADDED_1R22_SUPPLIER.md#why-the-retained-lower-block-instances-cannot-be-imported)
+
+### F-B4-1R22-K1-DELETED-SECOND-PREFIX-SHIFT
+
+Deleting the second center and its original terminal from the
+retained r=1 normalized 1R22 ledger and subtracting one from
+each surviving label gives the specific 13-vertex alpha
+prefix of the deleted-second core, with p=6, s:1=0 and s:4=7.
+One high shift leaves R={6}, D={1} and s:4=8. Its only
+pending edge would have weight 2. This is a failure of that
+specific retained-prefix transport, rather than a root-pin
+obstruction. The direct full core has its own exact ledger.
+[Core proof and comparison](B4_1R22_K1_ROOTED_CORE.md#exact-core-and-construction)

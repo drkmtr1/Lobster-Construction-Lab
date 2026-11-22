@@ -497,3 +497,36 @@ cases. No solver calls, labeling enumeration or production
 changes occurred.
 [Proof](B4_UNPADDED_1R22_SUPPLIER.md)
 · [Evidence](../evidence/validation/B4_UNPADDED_1R22_SUPPLIER_001/README.md) · D044
+
+## B4-1R22-K1-ROOTED-CORE-001
+
+**ACCEPT** the explicit graceful labeling of the exact
+`[[1],[],[2],[2],[],[]]` auxiliary core with s:1=0. Its
+14 labels and 13 original weights fill their respective
+alphabets. The derived s:4=8 and s:5=3 determine the
+terminal weight 5.
+
+**ACCEPT** the conditional rooted-core lift and its instantiation
+for every exact integer r>=2 on `[[1],[r],[2],[2],[],[]]`.
+Translate the rooted core by r, put the maximum r+14 on b:1:0,
+and use zero and descending positive labels on the second
+terminals. The original attachment has weight 14, followed
+by [15,r+13] on nonzero terminals and r+14 on the zero edge.
+The direct prefix leaves R={r+3}, D={5}, and actual s:4=r+8
+on the sole original edge to s:5.
+
+**ACCEPT** repeatable named second-branch growth and ordinary
+gracefulness of the exact (1,r,2,2) family for all positive
+integers r,K. Keep the retained r=1 constructions and the
+r,K>=2 nonadjacent construction under their own interfaces.
+The separate retained-prefix one-step high-shift restriction
+keeps its original K=1 scope.
+
+One core certificate and four completed cases passed the
+unchanged checker and independent arithmetic audit. Four
+invalid inputs were rejected. The same r=4 named comparison
+adds zero cases. Separate read-only AI reviews accepted.
+There were zero solver queries, computational enumeration
+or historical search replays.
+[Proof and selector](B4_1R22_K1_ROOTED_CORE.md)
+· [Evidence](../evidence/validation/B4_1R22_K1_ROOTED_CORE_001/README.md) · D045

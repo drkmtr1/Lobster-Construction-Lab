@@ -1,0 +1,35 @@
+{
+  "audit_sha256_raw": "2f70a2033527b0be437386e37b60571d4faad03b7f5ec1cdc0802dfeab7eaf6e",
+  "config_sha256_raw": "04e5fdd17a124223b0ef16a7c9c0b9181835f57da18454238d0174f43c7a42a3",
+  "parent": "2920269aeb30e99f0bc36a4559c24c95c7ccce84",
+  "proof": {
+    "path": "research/B4_1R22_K1_ROOTED_CORE.md",
+    "sha256_raw": "9e3b3fc4f8a360981d84a1c3bc6774ff5aba988c6a73fd182fc66d759890b5a0"
+  },
+  "retained_sha256_raw": {
+    "evidence/validation/B4_THIRD_ZERO_HOST_K1_001/query_record.json": "b71cf1dc26700648507e8c2d9769b44e1d4536df6b788438930c2d5585679ff6",
+    "evidence/validation/B4_THIRD_ZERO_HOST_K1_001/raw_result.json": "9901eecb61366cf2329ebd5639e1a8c2cd738a08d5dc48da41126a6cef201b49",
+    "evidence/validation/B4_UNPADDED_1R22_SUPPLIER_001/REVIEWS.md": "2f22e643697fa9233cb13a06f9ade9ca6dd44051ee0e2be24b3406bf684c93f8",
+    "research/B4_Q1T2_K1_ROOTED_CORE.md": "da37b257aede858aefcf73b936341589f92a6e154a7922cdb8713a2d52ea6977",
+    "research/B4_THIRD_ZERO_HOST_K1_DIRECT.md": "7bb26cb4eb7f8d496795cba9743d2793c86cfde82d7d64dd66795dec27fd0a2a",
+    "research/B4_THIRD_ZERO_HOST_NONADJACENT.md": "be959539844c94e4a9c7fdcb59d5f32107e67aceacee1bc336363e51d5d1c886",
+    "research/B4_UNPADDED_1R22_SUPPLIER.md": "f00e75a687e98b6fb6e2b484f0cbee4434dae51c1a69e240e6dd0a6dd7c11026"
+  },
+  "run_id": "B4-1R22-K1-ROOTED-CORE-001-20261121",
+  "runner_sha256_raw": "601d741a906235b01406a78a2060506f79e555234a84c7e2d3bf6335dfb1905a",
+  "runtime": {
+    "executable": ".venv/Scripts/python.exe",
+    "implementation": "cpython",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]",
+    "third_party_imports": [],
+    "utf8_mode": 1
+  },
+  "source_sha256_raw": {
+    "lcl/__init__.py": "134055506d3e9cd4fa538177844d28a44d5ab567ec220cf54048e63d1a8a7374",
+    "lcl/model.py": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6",
+    "lcl/verify.py": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909",
+    "pyproject.toml": "738f14eba3125ce7f444628adaddaf2e3e30e5aa7f43f10e7035067f6b7072e5",
+    "requirements.txt": "60f6e1bd76adf6ed25cf381ca95f67e8a27a0de1e62fb673a7cf5af4b86249ea"
+  }
+}

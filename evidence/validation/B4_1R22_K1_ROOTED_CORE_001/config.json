@@ -1,0 +1,37 @@
+{
+  "run_id": "B4-1R22-K1-ROOTED-CORE-001-20261121",
+  "parent": "2920269aeb30e99f0bc36a4559c24c95c7ccce84",
+  "core_profile": [
+    [
+      1
+    ],
+    [],
+    [
+      2
+    ],
+    [
+      2
+    ],
+    [],
+    []
+  ],
+  "completed_r": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "completed_orders": [
+    17,
+    18,
+    19,
+    20
+  ],
+  "K": 1,
+  "workers": 1,
+  "max_vertices": 20,
+  "max_result_bytes": 2000000,
+  "solver_queries": 0,
+  "computational_enumeration": 0,
+  "historical_search_replay": 0
+}

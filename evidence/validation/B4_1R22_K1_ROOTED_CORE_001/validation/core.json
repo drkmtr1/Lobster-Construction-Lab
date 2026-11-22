@@ -1,0 +1,169 @@
+{
+  "edge_ledger": [
+    {
+      "difference": 13,
+      "edge": [
+        "s:0",
+        "s:1"
+      ]
+    },
+    {
+      "difference": 10,
+      "edge": [
+        "s:1",
+        "s:2"
+      ]
+    },
+    {
+      "difference": 6,
+      "edge": [
+        "s:2",
+        "s:3"
+      ]
+    },
+    {
+      "difference": 4,
+      "edge": [
+        "s:3",
+        "s:4"
+      ]
+    },
+    {
+      "difference": 5,
+      "edge": [
+        "s:4",
+        "s:5"
+      ]
+    },
+    {
+      "difference": 12,
+      "edge": [
+        "s:0",
+        "b:0:0"
+      ]
+    },
+    {
+      "difference": 11,
+      "edge": [
+        "b:0:0",
+        "l:0:0:0"
+      ]
+    },
+    {
+      "difference": 8,
+      "edge": [
+        "s:2",
+        "b:2:0"
+      ]
+    },
+    {
+      "difference": 7,
+      "edge": [
+        "b:2:0",
+        "l:2:0:0"
+      ]
+    },
+    {
+      "difference": 9,
+      "edge": [
+        "b:2:0",
+        "l:2:0:1"
+      ]
+    },
+    {
+      "difference": 3,
+      "edge": [
+        "s:3",
+        "b:3:0"
+      ]
+    },
+    {
+      "difference": 2,
+      "edge": [
+        "b:3:0",
+        "l:3:0:0"
+      ]
+    },
+    {
+      "difference": 1,
+      "edge": [
+        "b:3:0",
+        "l:3:0:1"
+      ]
+    }
+  ],
+  "labels": {
+    "b:0:0": 1,
+    "b:2:0": 2,
+    "b:3:0": 7,
+    "l:0:0:0": 12,
+    "l:2:0:0": 9,
+    "l:2:0:1": 11,
+    "l:3:0:0": 5,
+    "l:3:0:1": 6,
+    "s:0": 13,
+    "s:1": 0,
+    "s:2": 10,
+    "s:3": 4,
+    "s:4": 8,
+    "s:5": 3
+  },
+  "original": {
+    "graph_digest": "75eb1febfa229b5f7dc67e9319bf241be24936088f0c00f67c91a3729deec361",
+    "path": "originals/core.json",
+    "sha256_raw": "6b8fd383cd7a6122e3693ae6fd2c71518a3239dc6349c12ea6d1ae3e2e5e7dcf"
+  },
+  "physical_root": {
+    "label": 0,
+    "vertex": "s:1"
+  },
+  "verification": {
+    "claim": "finite certificate for this exact named target only",
+    "edge_differences": [
+      13,
+      10,
+      6,
+      4,
+      5,
+      12,
+      11,
+      8,
+      7,
+      9,
+      3,
+      2,
+      1
+    ],
+    "errors": [],
+    "graph_digest": "75eb1febfa229b5f7dc67e9319bf241be24936088f0c00f67c91a3729deec361",
+    "m": 13,
+    "n": 14,
+    "valid": true
+  },
+  "witness": {
+    "distances": {
+      "b:0:0": 1,
+      "b:2:0": 1,
+      "b:3:0": 1,
+      "l:0:0:0": 2,
+      "l:2:0:0": 2,
+      "l:2:0:1": 2,
+      "l:3:0:0": 2,
+      "l:3:0:1": 2,
+      "s:0": 0,
+      "s:1": 0,
+      "s:2": 0,
+      "s:3": 0,
+      "s:4": 0,
+      "s:5": 0
+    },
+    "path": [
+      "s:0",
+      "s:1",
+      "s:2",
+      "s:3",
+      "s:4",
+      "s:5"
+    ]
+  }
+}

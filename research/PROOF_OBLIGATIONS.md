@@ -408,5 +408,22 @@ labelings independently of finite diagnostics.
 
 After a high shift by K, R=[r+6,r+K+5] and D=[1,K] are
 consumed at physical s:4=r+K+7 on the original nonadjacent
-K-edge path, for integer K>=2. The remaining exact 1R22
-K=1 singleton and broader original profiles remain open.
+K-edge path, for integer K>=2. The direct K=1 singleton below
+completes the exact 1R22 scope. Broader original profiles
+remain separate.
+
+### Rooted-core 1R22 singleton and exact all-positive coverage
+
+The [1R22 K=1 rooted-core proof](B4_1R22_K1_ROOTED_CORE.md)
+gives the exact 14-vertex deleted-second core with physical
+s:1=0 and realizes the conditional translate-and-restore
+lift for integer r>=2. The resulting direct prefix leaves
+R={r+3}, D={5} at physical s:4=r+8, and the original
+s:4--s:5 consumes both. Finite same-name growth preserves
+the maximum second center and the original zero terminal.
+
+The selector exhausts positive integers r,K using the retained
+r=1 constructions, the preceding r,K>=2 supplier, and this
+K=1 supplier on the exact ordered (1,r,2,2) profile. Third
+branch growth with r>=2 and broader B4 profiles still require
+independent supply.
