@@ -640,6 +640,61 @@ def three_section_q1_r2(t: int, K: int) -> dict:
     return result
 
 
+def three_section_k1(q: int, r: int, t: int) -> dict:
+    """Label the original unpadded B3 graph for positive integers q,r,t and K=1."""
+    _integer(q, "q", 1)
+    _integer(r, "r", 1)
+    _integer(t, "t", 1)
+    graph = build_graph([[q], [r], [t], [], []])
+    P = q + t + 4
+    prefix = {"b:1:0": 0, "s:0": 1, "s:2": q + 3, "b:2:0": P,
+              "s:3": P + 1, "b:0:0": P + 2, "s:1": P + 3}
+    for j in range(q):
+        prefix[f"l:0:0:{j}"] = j + 2
+    for j in range(r):
+        prefix[f"l:1:0:{j}"] = P + 4 + j
+    for j in range(t):
+        prefix[f"l:2:0:{j}"] = q + 4 + j
+
+    partial = verify_partial(graph, prefix)
+    if not partial["valid"]:
+        raise ArithmeticError("three-section singleton prefix failed original-target verification: "
+                              + "; ".join(partial["errors"]))
+    remaining_label = q + 2
+    remaining_difference = t + 3
+    incident = [frozenset(edge) for edge in graph["edges"] if "s:4" in edge]
+    if (set(graph["vertices"]) - set(prefix) != {"s:4"}
+            or incident != [frozenset(("s:3", "s:4"))]
+            or partial["frontier"] != ["s:3"]
+            or partial["unused_labels"] != [remaining_label]
+            or partial["unused_differences"] != [remaining_difference]
+            or abs(prefix["s:3"] - remaining_label) != remaining_difference):
+        raise ArithmeticError("three-section prefix has a different original singleton interface")
+
+    labels = dict(prefix)
+    labels["s:4"] = remaining_label
+    certificate = verify_certificate(graph, labels, partial["graph_digest"])
+    if not certificate["valid"]:
+        raise ArithmeticError("three-section singleton completion failed original-target verification: "
+                              + "; ".join(certificate["errors"]))
+    trace = [{"operation": "supplied_singleton_interface", "stage": 3,
+              "active_vertex": "s:3", "active_label": prefix["s:3"],
+              "unused_labels": [remaining_label], "unused_differences": [remaining_difference],
+              "prefix_labels": prefix}]
+    result = _result(graph, labels, "three_section_k1", {
+        "parameters": {"q": q, "r": r, "t": t, "K": 1, "z0": 0, "z1": 0, "z2": 0},
+        "family": "three successive positive branches, no direct leaves, and a one-edge path suffix",
+        "independent_input_supply": True, "universal_lobster_claim": False,
+        "mathematical_novelty_claim": False, "arbitrary_branched_suffix": False,
+        "suffix_interface": {"unused_labels": [remaining_label],
+                             "unused_differences": [remaining_difference],
+                             "active_vertex": "s:3", "active_label": prefix["s:3"]},
+        "derivation_status": "R241 corollary with a direct left component and an extended L008 component",
+        "source": "research/B3_UNPADDED_K1.md"}, trace)
+    result["evidence_level"] = "project_derived_symbolic_family; independent checking required"
+    return result
+
+
 def two_section_unit(K: int) -> dict:
     """Convenience alias for the q=1 zero-padding balanced construction."""
     result = two_section_balanced(1, K)

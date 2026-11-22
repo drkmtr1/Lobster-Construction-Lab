@@ -1,0 +1,289 @@
+{
+  "task": "B3-UNPADDED-K1-001-original-target-regression-20261121 saved-certificate audit",
+  "status": "PASS",
+  "scope": "same 12 saved completed targets only",
+  "case_count": 12,
+  "cases": [
+    {
+      "parameters": {
+        "q": 1,
+        "r": 1,
+        "t": 1
+      },
+      "original_graph_digest": "bea609384b8d1deee4cc3b515e409e7eb0a6cdd95a81a682789d457831433248",
+      "vertices": 11,
+      "alpha_low_class_size": 6,
+      "unused_labels": [
+        3
+      ],
+      "unused_differences": [
+        4
+      ],
+      "port": "s:3",
+      "port_label": 7,
+      "tail_difference": 4,
+      "prefix_certificate_valid": true,
+      "full_certificate_valid": true,
+      "adjacent_predicate_rejected": true
+    },
+    {
+      "parameters": {
+        "q": 1,
+        "r": 1,
+        "t": 4
+      },
+      "original_graph_digest": "bfc46724fac236e4ee138cf86eb8eac1a7f6b26c4244c0f0c6c4635a642e572e",
+      "vertices": 14,
+      "alpha_low_class_size": 9,
+      "unused_labels": [
+        3
+      ],
+      "unused_differences": [
+        7
+      ],
+      "port": "s:3",
+      "port_label": 10,
+      "tail_difference": 7,
+      "prefix_certificate_valid": true,
+      "full_certificate_valid": true,
+      "adjacent_predicate_rejected": true
+    },
+    {
+      "parameters": {
+        "q": 2,
+        "r": 1,
+        "t": 1
+      },
+      "original_graph_digest": "a9445eb5e18d7cc2b68592432a48a602ab7e30682cda3011e1f8f54a6e42eb76",
+      "vertices": 12,
+      "alpha_low_class_size": 7,
+      "unused_labels": [
+        4
+      ],
+      "unused_differences": [
+        4
+      ],
+      "port": "s:3",
+      "port_label": 8,
+      "tail_difference": 4,
+      "prefix_certificate_valid": true,
+      "full_certificate_valid": true,
+      "adjacent_predicate_rejected": true
+    },
+    {
+      "parameters": {
+        "q": 2,
+        "r": 2,
+        "t": 3
+      },
+      "original_graph_digest": "da0fd411898713e2b8c1e9af9a83b1cf590e357782635544d1f53d09b778e144",
+      "vertices": 15,
+      "alpha_low_class_size": 9,
+      "unused_labels": [
+        4
+      ],
+      "unused_differences": [
+        6
+      ],
+      "port": "s:3",
+      "port_label": 10,
+      "tail_difference": 6,
+      "prefix_certificate_valid": true,
+      "full_certificate_valid": true,
+      "adjacent_predicate_rejected": true
+    },
+    {
+      "parameters": {
+        "q": 3,
+        "r": 1,
+        "t": 5
+      },
+      "original_graph_digest": "4f367804bad5b9cf162140844f6c65eeba8cdf139a2e04d7fa9fe521b49b0a50",
+      "vertices": 17,
+      "alpha_low_class_size": 12,
+      "unused_labels": [
+        5
+      ],
+      "unused_differences": [
+        8
+      ],
+      "port": "s:3",
+      "port_label": 13,
+      "tail_difference": 8,
+      "prefix_certificate_valid": true,
+      "full_certificate_valid": true,
+      "adjacent_predicate_rejected": true
+    },
+    {
+      "parameters": {
+        "q": 5,
+        "r": 3,
+        "t": 2
+      },
+      "original_graph_digest": "21d7369f18474c2366d38ab07fa14af0176f5e1b903238a9358d4cc07184abf3",
+      "vertices": 18,
+      "alpha_low_class_size": 11,
+      "unused_labels": [
+        7
+      ],
+      "unused_differences": [
+        5
+      ],
+      "port": "s:3",
+      "port_label": 12,
+      "tail_difference": 5,
+      "prefix_certificate_valid": true,
+      "full_certificate_valid": true,
+      "adjacent_predicate_rejected": true
+    },
+    {
+      "parameters": {
+        "q": 1,
+        "r": 2,
+        "t": 1
+      },
+      "original_graph_digest": "abce33036eb63bb6c5dde3436aa0e4c80e31cb89a5c256f6581a9610c4579403",
+      "vertices": 12,
+      "alpha_low_class_size": 6,
+      "unused_labels": [
+        3
+      ],
+      "unused_differences": [
+        4
+      ],
+      "port": "s:3",
+      "port_label": 7,
+      "tail_difference": 4,
+      "prefix_certificate_valid": true,
+      "full_certificate_valid": true,
+      "adjacent_predicate_rejected": true
+    },
+    {
+      "parameters": {
+        "q": 1,
+        "r": 2,
+        "t": 3
+      },
+      "original_graph_digest": "e4fcfa1fee2f977d0df482b507d485f2cea3134eeef837ec13de28bb01d5ec07",
+      "vertices": 14,
+      "alpha_low_class_size": 8,
+      "unused_labels": [
+        3
+      ],
+      "unused_differences": [
+        6
+      ],
+      "port": "s:3",
+      "port_label": 9,
+      "tail_difference": 6,
+      "prefix_certificate_valid": true,
+      "full_certificate_valid": true,
+      "adjacent_predicate_rejected": true
+    },
+    {
+      "parameters": {
+        "q": 1,
+        "r": 4,
+        "t": 7
+      },
+      "original_graph_digest": "ed3df689cf66f7976351c2e3b95372c67c82fefd444b3e8c22a1ad9e12567336",
+      "vertices": 20,
+      "alpha_low_class_size": 12,
+      "unused_labels": [
+        3
+      ],
+      "unused_differences": [
+        10
+      ],
+      "port": "s:3",
+      "port_label": 13,
+      "tail_difference": 10,
+      "prefix_certificate_valid": true,
+      "full_certificate_valid": true,
+      "adjacent_predicate_rejected": true
+    },
+    {
+      "parameters": {
+        "q": 2,
+        "r": 5,
+        "t": 1
+      },
+      "original_graph_digest": "4656dd1513126fca3e0ece1c9b7f62e545e6d645365cc67b33010e0c3a351377",
+      "vertices": 16,
+      "alpha_low_class_size": 7,
+      "unused_labels": [
+        4
+      ],
+      "unused_differences": [
+        4
+      ],
+      "port": "s:3",
+      "port_label": 8,
+      "tail_difference": 4,
+      "prefix_certificate_valid": true,
+      "full_certificate_valid": true,
+      "adjacent_predicate_rejected": true
+    },
+    {
+      "parameters": {
+        "q": 3,
+        "r": 5,
+        "t": 6
+      },
+      "original_graph_digest": "0f671fcd0b3dbbac1d56fa35de1c9da1a2ab294bde9faf774036909299b7cd4c",
+      "vertices": 22,
+      "alpha_low_class_size": 13,
+      "unused_labels": [
+        5
+      ],
+      "unused_differences": [
+        9
+      ],
+      "port": "s:3",
+      "port_label": 14,
+      "tail_difference": 9,
+      "prefix_certificate_valid": true,
+      "full_certificate_valid": true,
+      "adjacent_predicate_rejected": true
+    },
+    {
+      "parameters": {
+        "q": 8,
+        "r": 13,
+        "t": 9
+      },
+      "original_graph_digest": "c6a90fc451dffa5fec1df56bc8f10791069ca4161f225450150ee2265c563689",
+      "vertices": 38,
+      "alpha_low_class_size": 21,
+      "unused_labels": [
+        10
+      ],
+      "unused_differences": [
+        12
+      ],
+      "port": "s:3",
+      "port_label": 22,
+      "tail_difference": 12,
+      "prefix_certificate_valid": true,
+      "full_certificate_valid": true,
+      "adjacent_predicate_rejected": true
+    }
+  ],
+  "config_sha256_raw": "fa49b2bce95c19aa2d5d4f761ce938dae3e9e8eeaeebbc95d03c721822abf6e7",
+  "saved_regression_sha256_raw": "4756f002ab97271a17caf528e4c33517354ddde0212e5186a66f790d280e32dc",
+  "script_sha256_raw": "6d77e9c242309d650702e63287da59621ae44e9836766137a82f2a64af1f32a7",
+  "environment": {
+    "python": "3.13.17",
+    "implementation": "CPython",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python_optimization_level": 0
+  },
+  "elapsed_seconds": 0.17279350000899285,
+  "limits": {
+    "max_cases": 12,
+    "max_vertices": 38,
+    "max_output_bytes": 2000000,
+    "workers": 1
+  },
+  "starting_commit": "a1e8a15de2f33c5de877a941612c657a62d48747"
+}

@@ -120,6 +120,12 @@ For K>=2, combining this domain with the earlier q>=r nonadjacent branch and the
 
 The four disjoint supplier domains exhaust positive integers `q,r,t` and `K>=2` on the original zero-padding profile `[[q],[r],[t]]+[[]]*(K+1)`. Select the first applicable constructor for `q>=r`, for `q<r,t<=q+1`, for `q<r,t>=q+2,r>=3`, or for the remaining `q=1,r=2,t>=3`. This proves ordinary gracefulness for the exact family. Each branch retains its own resource contract and consumer. Remaining K=1 cases outside the adjacent domain, padding, multiple positive branches per section, further sections, and arbitrary repetition require separate results.
 
+## B3-UNPADDED-K1-001 and the all-K corollary
+
+**ACCEPT** for all positive integers `q,r,t` on the exact original zero-padding profile `[[q],[r],[t],[],[]]`. The named formula gives an alpha graceful labeling. The prefix supplies `R={q+2}`, `D={t+3}`, and physical `s:3=q+t+5`, and the original `s:3--s:4` edge consumes the singleton resources. The proof is a project corollary of retained R241 and L008 with a directly proved left component and an explicitly proved last-vertex extension of the right component. Separate AI reviewers accepted the mathematics and implementation. [Proof](B3_UNPADDED_K1.md) · [Validation](../evidence/validation/B3_UNPADDED_K1_001/README.md) · D027
+
+For every positive integer `q,r,t,K`, the exact original unpadded profile `[[q],[r],[t]]+[[]]*(K+1)` admits a graceful labeling. Select the direct singleton for K=1 and the accepted four-case rule for K>=2. The branches retain distinct resource contracts and consumers, including the earlier adjacent branch on its original domain. This corollary establishes ordinary gracefulness for the stated family. Padding, multiple positive branches per section, further sections, and arbitrary repetition remain separate.
+
 ## 10. Finite validation and current literature
 
 The authoritative executed results are in `evidence/validation/VALIDATION_REPORT.md` and its linked JSON records. Positive witnesses are bound to original graphs and requested restrictions. Count controls and the four B2 pairs have only their stated finite meaning. They do not prove a new supplier family.

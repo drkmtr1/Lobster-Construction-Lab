@@ -18,12 +18,13 @@ The code supplies direct constructions, a unit-size convenience alias, and a str
 | `three_section_qltr_adjacent(q,r,t,K)` | Integers 1<=q<r, 1<=t<=q+1, K>=1, no direct leaves | Complete graceful labeling | Original adjacent port s:3=a+K; R241 with a direct left supplier and class-reversed L008 |
 | `three_section_qltr_large_t(q,r,t,K)` | Integers 1<=q<r, r>=3, t>=q+2, K>=2, no direct leaves | Complete graceful labeling | Explicit parity alpha seed, high-side shift and original nonadjacent port s:3=a+K+1 |
 | `three_section_q1_r2(t,K)` | Integers t>=3, K>=2, fixed q=1, r=2 and zero padding | Complete graceful labeling | Fixed alpha seed, prescribed leaf extension and original nonadjacent port s:3=t+K+5 |
+| `three_section_k1(q,r,t)` | Positive integers q,r,t, K=1 and zero padding | Complete graceful labeling | Direct singleton R={q+2}, D={t+3} at s:3=q+t+5 |
 | `two_section_unit(K)` | Positive suffix length `K` | Complete graceful labeling | Alias for `two_section_balanced(q=1,K=K)` |
 | `complete_two_host(graph, core_labels, hosts)` | Original target, connected labeled core, two distinct physical hosts | Exact fixed-core completion or restricted obstruction | Does not supply the core labeling, host choice, or a palette partition |
 
 All implementation uses exact Python integers and standard-library containers. No numerical approximation, optimizer tolerance, or solver extraction is part of these APIs. Constructor domain failures raise `ValueError`. They do not establish nongracefulness.
 
-The exceptional B3 CLI method `three_section_q1_r2` admits exactly the keys `t` and `K`. Its independently declared profile must match the original fixed branch counts `1,2,t`. The four B3 constructors cover all positive `q,r,t` with `K>=2` on the zero-padding profile. [Deterministic selection rule](../research/B3_UNPADDED_Q1_R2.md#coverage-and-deterministic-constructor-selection)
+The exceptional B3 CLI method `three_section_q1_r2` admits exactly the keys `t` and `K`. Its independently declared profile must match the original fixed branch counts `1,2,t`. For K=1, `three_section_k1` admits exactly `q,r,t` and the original profile `[[q],[r],[t],[],[]]`. The five constructors cover all positive `q,r,t,K` on the zero-padding B3 profile. [Deterministic selection rule](../research/B3_UNPADDED_K1.md#deterministic-selection-for-every-positive-path-length)
 
 ## The exact target remains part of the input
 
