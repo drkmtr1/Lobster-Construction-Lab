@@ -301,3 +301,17 @@ component is obstructed. The two separate 15-vertex diagnostic
 prefixes have verified first witnesses at each of the declared
 above-side exits. They give finite candidates. An independent
 parameterized supplier for arbitrary (q,r,t,2) remains open.
+
+### QR12 supply and retained lower-block predicate
+
+The [lower-block insertion proof](ALPHA_LOWER_BLOCK_LEAF_INSERTION.md)
+preserves the complete incident spectrum below the fixed threshold c
+with the updated host label. The [QR12 proof](B4_UNPADDED_QR12.md)
+discharges ordered (q,r,1,2) for positive integers q,r,K through
+the directly checked 1212 seed and lower-then-upper growth at r>=2,
+with exact Q112 reuse at r=1. The original adjacent s:4=K+r+6
+has R=[r+6,K+r+5], D=[1,K], and gives completed alpha low size
+r+6+ceil(K/2). Both post-growth predicates are proved in the
+specified order. Third-branch growth with fourth size two, broader
+hosts or topology, mixed-operation repetition and any further
+exported relational state require their own proofs.

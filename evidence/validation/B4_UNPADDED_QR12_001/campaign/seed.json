@@ -1,0 +1,405 @@
+{
+  "alpha": {
+    "cutoff": 7,
+    "high_vertices": [
+      "b:1:0",
+      "b:3:0",
+      "l:0:0:0",
+      "l:2:0:0",
+      "s:0",
+      "s:2",
+      "s:4"
+    ],
+    "low_class_size": 8,
+    "low_vertices": [
+      "b:0:0",
+      "b:2:0",
+      "l:1:0:0",
+      "l:1:0:1",
+      "l:3:0:0",
+      "l:3:0:1",
+      "s:1",
+      "s:3"
+    ]
+  },
+  "completed_target_count": 0,
+  "historical_source": {
+    "path": "evidence/validation/B4_FOURTH_2_SUPPLY_001/diagnostic_results/1212-adjacent.json",
+    "sha256_raw": "16512a483fdf54f7a7b9a726afac319ef3ff21869c3cfd175108350187ee74d6"
+  },
+  "independent_certificate": {
+    "claim": "finite certificate for this exact named target only",
+    "edge_differences": [
+      14,
+      11,
+      4,
+      1,
+      13,
+      12,
+      10,
+      6,
+      5,
+      8,
+      9,
+      2,
+      7,
+      3
+    ],
+    "errors": [],
+    "graph_digest": "fc491cb86c5a5d4e13ace9f9d53e125f6bcf7f2c1cc46ffe90d622d9d59335bb",
+    "m": 14,
+    "n": 15,
+    "valid": true
+  },
+  "kind": "separate_normalized_base",
+  "labels": {
+    "b:0:0": 1,
+    "b:1:0": 10,
+    "b:2:0": 3,
+    "b:3:0": 9,
+    "l:0:0:0": 13,
+    "l:1:0:0": 4,
+    "l:1:0:1": 5,
+    "l:2:0:0": 12,
+    "l:3:0:0": 2,
+    "l:3:0:1": 6,
+    "s:0": 14,
+    "s:1": 0,
+    "s:2": 11,
+    "s:3": 7,
+    "s:4": 8
+  },
+  "original_graph": {
+    "edges": [
+      [
+        "s:0",
+        "s:1"
+      ],
+      [
+        "s:1",
+        "s:2"
+      ],
+      [
+        "s:2",
+        "s:3"
+      ],
+      [
+        "s:3",
+        "s:4"
+      ],
+      [
+        "s:0",
+        "b:0:0"
+      ],
+      [
+        "b:0:0",
+        "l:0:0:0"
+      ],
+      [
+        "s:1",
+        "b:1:0"
+      ],
+      [
+        "b:1:0",
+        "l:1:0:0"
+      ],
+      [
+        "b:1:0",
+        "l:1:0:1"
+      ],
+      [
+        "s:2",
+        "b:2:0"
+      ],
+      [
+        "b:2:0",
+        "l:2:0:0"
+      ],
+      [
+        "s:3",
+        "b:3:0"
+      ],
+      [
+        "b:3:0",
+        "l:3:0:0"
+      ],
+      [
+        "b:3:0",
+        "l:3:0:1"
+      ]
+    ],
+    "profile": [
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      []
+    ],
+    "roles": {
+      "b:0:0": {
+        "branch": 0,
+        "kind": "branch",
+        "section": 0
+      },
+      "b:1:0": {
+        "branch": 0,
+        "kind": "branch",
+        "section": 1
+      },
+      "b:2:0": {
+        "branch": 0,
+        "kind": "branch",
+        "section": 2
+      },
+      "b:3:0": {
+        "branch": 0,
+        "kind": "branch",
+        "section": 3
+      },
+      "l:0:0:0": {
+        "branch": 0,
+        "kind": "leaf",
+        "leaf": 0,
+        "section": 0
+      },
+      "l:1:0:0": {
+        "branch": 0,
+        "kind": "leaf",
+        "leaf": 0,
+        "section": 1
+      },
+      "l:1:0:1": {
+        "branch": 0,
+        "kind": "leaf",
+        "leaf": 1,
+        "section": 1
+      },
+      "l:2:0:0": {
+        "branch": 0,
+        "kind": "leaf",
+        "leaf": 0,
+        "section": 2
+      },
+      "l:3:0:0": {
+        "branch": 0,
+        "kind": "leaf",
+        "leaf": 0,
+        "section": 3
+      },
+      "l:3:0:1": {
+        "branch": 0,
+        "kind": "leaf",
+        "leaf": 1,
+        "section": 3
+      },
+      "s:0": {
+        "kind": "spine",
+        "section": 0
+      },
+      "s:1": {
+        "kind": "spine",
+        "section": 1
+      },
+      "s:2": {
+        "kind": "spine",
+        "section": 2
+      },
+      "s:3": {
+        "kind": "spine",
+        "section": 3
+      },
+      "s:4": {
+        "kind": "spine",
+        "section": 4
+      }
+    },
+    "schema_version": 1,
+    "spine": [
+      "s:0",
+      "s:1",
+      "s:2",
+      "s:3",
+      "s:4"
+    ],
+    "vertices": [
+      "s:0",
+      "b:0:0",
+      "l:0:0:0",
+      "s:1",
+      "b:1:0",
+      "l:1:0:0",
+      "l:1:0:1",
+      "s:2",
+      "b:2:0",
+      "l:2:0:0",
+      "s:3",
+      "b:3:0",
+      "l:3:0:0",
+      "l:3:0:1",
+      "s:4"
+    ]
+  },
+  "original_graph_digest": "fc491cb86c5a5d4e13ace9f9d53e125f6bcf7f2c1cc46ffe90d622d9d59335bb",
+  "port_offsets": [
+    1,
+    0
+  ],
+  "ports": {
+    "b:0:0": 1,
+    "s:4": 8
+  },
+  "predicates": [
+    {
+      "difference_multiset": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "host": "b:1:0",
+      "host_label": 10,
+      "incidences": [
+        {
+          "difference": 14,
+          "edge": [
+            "s:0",
+            "s:1"
+          ]
+        },
+        {
+          "difference": 11,
+          "edge": [
+            "s:1",
+            "s:2"
+          ]
+        },
+        {
+          "difference": 13,
+          "edge": [
+            "s:0",
+            "b:0:0"
+          ]
+        },
+        {
+          "difference": 12,
+          "edge": [
+            "b:0:0",
+            "l:0:0:0"
+          ]
+        },
+        {
+          "difference": 10,
+          "edge": [
+            "s:1",
+            "b:1:0"
+          ]
+        },
+        {
+          "difference": 8,
+          "edge": [
+            "s:2",
+            "b:2:0"
+          ]
+        },
+        {
+          "difference": 9,
+          "edge": [
+            "b:2:0",
+            "l:2:0:0"
+          ]
+        },
+        {
+          "difference": 7,
+          "edge": [
+            "b:3:0",
+            "l:3:0:0"
+          ]
+        }
+      ],
+      "selected_vertices": [
+        "b:0:0",
+        "b:2:0",
+        "l:3:0:0",
+        "s:1"
+      ],
+      "side": "below",
+      "threshold": 4
+    },
+    {
+      "difference_multiset": [
+        12,
+        13,
+        14
+      ],
+      "host": "b:0:0",
+      "host_label": 1,
+      "incidences": [
+        {
+          "difference": 14,
+          "edge": [
+            "s:0",
+            "s:1"
+          ]
+        },
+        {
+          "difference": 13,
+          "edge": [
+            "s:0",
+            "b:0:0"
+          ]
+        },
+        {
+          "difference": 12,
+          "edge": [
+            "b:0:0",
+            "l:0:0:0"
+          ]
+        }
+      ],
+      "selected_vertices": [
+        "l:0:0:0",
+        "s:0"
+      ],
+      "side": "at_or_above",
+      "threshold": 13
+    }
+  ],
+  "status": "PASS",
+  "witness": [
+    "b:0:0",
+    "s:0",
+    "s:1",
+    "s:2",
+    "s:3",
+    "s:4"
+  ],
+  "witness_distances": {
+    "b:0:0": 0,
+    "b:1:0": 1,
+    "b:2:0": 1,
+    "b:3:0": 1,
+    "l:0:0:0": 1,
+    "l:1:0:0": 2,
+    "l:1:0:1": 2,
+    "l:2:0:0": 2,
+    "l:3:0:0": 2,
+    "l:3:0:1": 2,
+    "s:0": 0,
+    "s:1": 0,
+    "s:2": 0,
+    "s:3": 0,
+    "s:4": 0
+  }
+}

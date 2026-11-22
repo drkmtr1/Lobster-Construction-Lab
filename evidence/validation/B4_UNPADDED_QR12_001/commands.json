@@ -1,0 +1,39 @@
+{
+  "cwd": "repository root",
+  "environment": {
+    "PYTHONUTF8": "1"
+  },
+  "commands": [
+    {
+      "command": ".venv/Scripts/python.exe -m unittest discover -s tests -p test_b4_unpadded_qr12.py -v",
+      "exit_code": 0,
+      "output": "test_checker_rejects_false_labels_and_changed_named_incidence (test_b4_unpadded_qr12.QR12Tests.test_checker_rejects_false_labels_and_changed_named_incidence) ... ok\r\ntest_joint_preflight_and_79_vertex_target (test_b4_unpadded_qr12.QR12Tests.test_joint_preflight_and_79_vertex_target) ... ok\r\ntest_minimum_campaign_case_and_empty_bands (test_b4_unpadded_qr12.QR12Tests.test_minimum_campaign_case_and_empty_bands) ... ok\r\ntest_named_second_insertion_batches_and_both_growth_legs (test_b4_unpadded_qr12.QR12Tests.test_named_second_insertion_batches_and_both_growth_legs) ... ok\r\ntest_parameters_and_profile_invalid_before_expansion (test_b4_unpadded_qr12.QR12Tests.test_parameters_and_profile_invalid_before_expansion) ... ok\r\ntest_record_cap_is_separate_from_graph_admission (test_b4_unpadded_qr12.QR12Tests.test_record_cap_is_separate_from_graph_admission) ... ok\r\ntest_retained_r1_exact_labels_trace_and_interface (test_b4_unpadded_qr12.QR12Tests.test_retained_r1_exact_labels_trace_and_interface) ... ok\r\n\r\n----------------------------------------------------------------------\r\nRan 7 tests in 0.215s\r\n\r\nOK\r\n"
+    },
+    {
+      "command": ".venv/Scripts/python.exe -m unittest discover -s tests -p test_ingest.py -v",
+      "exit_code": 0,
+      "output": "test_all_implemented_constructor_dispatches_are_admitted (test_ingest.IngestTests.test_all_implemented_constructor_dispatches_are_admitted) ... ok\r\ntest_allocation_original_and_host_input_separation (test_ingest.IngestTests.test_allocation_original_and_host_input_separation) ... ok\r\ntest_bad_graph_types_and_conflicting_shortcut_metadata (test_ingest.IngestTests.test_bad_graph_types_and_conflicting_shortcut_metadata) ... ok\r\ntest_boolean_and_malformed_constructor_parameters_never_dispatch (test_ingest.IngestTests.test_boolean_and_malformed_constructor_parameters_never_dispatch) ... ok\r\ntest_exact_vertex_limit_and_explicit_identity_preserved (test_ingest.IngestTests.test_exact_vertex_limit_and_explicit_identity_preserved) ... ok\r\ntest_graph_file_size_rejected_before_json_read (test_ingest.IngestTests.test_graph_file_size_rejected_before_json_read) ... ok\r\ntest_huge_profile_rejected_before_any_graph_expansion (test_ingest.IngestTests.test_huge_profile_rejected_before_any_graph_expansion) ... ok\r\ntest_invalid_l010_budget_rejected_before_growth_or_dispatch (test_ingest.IngestTests.test_invalid_l010_budget_rejected_before_growth_or_dispatch) ... ok\r\ntest_invalid_limits_are_rejected (test_ingest.IngestTests.test_invalid_limits_are_rejected) ... ok\r\ntest_large_constructor_parameters_never_dispatch (test_ingest.IngestTests.test_large_constructor_parameters_never_dispatch) ... ok\r\ntest_same_size_different_target_and_false_claimed_digest_rejected (test_ingest.IngestTests.test_same_size_different_target_and_false_claimed_digest_rejected) ... ok\r\n\r\n----------------------------------------------------------------------\r\nRan 11 tests in 0.063s\r\n\r\nOK\r\n"
+    },
+    {
+      "command": ".venv/Scripts/python.exe evidence/validation/B4_UNPADDED_QR12_001/regression.py",
+      "exit_code": 0,
+      "output": "{\"status\": \"PASS\", \"completed_targets\": 12, \"auxiliary_seeds\": 1, \"max_vertices\": 79, \"max_case_bytes\": 32313}\r\n"
+    },
+    {
+      "command": ".venv/Scripts/python.exe evidence/validation/B4_UNPADDED_QR12_001/independent_audit.py",
+      "exit_code": 0,
+      "output": "PASS: audited 12 saved targets and the same auxiliary base; zero added targets\r\n"
+    },
+    {
+      "command": ".venv/Scripts/python.exe -m lcl construct evidence/validation/B4_UNPADDED_QR12_001/cli_input.json --out evidence/validation/B4_UNPADDED_QR12_001/cli_run",
+      "exit_code": 0,
+      "output": "{\r\n  \"count\": null,\r\n  \"count_lower_bound\": null,\r\n  \"edges\": 17,\r\n  \"independently_verified\": true,\r\n  \"method\": \"four_section_qr12\",\r\n  \"next_action\": \"Read STATE.md; inspect this certificate before using the result as evidence\",\r\n  \"original_graph_digest\": \"4e928d0453e386cc06ee6f4a606c01e42d975660043467a3b20391519b76db5d\",\r\n  \"reason\": null,\r\n  \"record\": \"C:\\\\Users\\\\Will\\\\Projects\\\\Lobster_Construction_Lab\\\\evidence\\\\validation\\\\B4_UNPADDED_QR12_001\\\\cli_run\\\\record.json\",\r\n  \"status\": \"CONSTRUCTED\",\r\n  \"vertices\": 18\r\n}\r\n"
+    },
+    {
+      "command": ".venv/Scripts/python.exe -m lcl demo --out evidence/validation/B4_UNPADDED_QR12_001/demo_gate",
+      "exit_code": 0,
+      "output": "{\r\n  \"count\": null,\r\n  \"count_lower_bound\": null,\r\n  \"edges\": 13,\r\n  \"independently_verified\": true,\r\n  \"method\": \"h010\",\r\n  \"next_action\": \"Read STATE.md; inspect this certificate before using the result as evidence\",\r\n  \"original_graph_digest\": \"69242951590e06a24494fed1d3b46a0c05b0e97b7debd82666760bef68378eb6\",\r\n  \"reason\": null,\r\n  \"record\": \"C:\\\\Users\\\\Will\\\\Projects\\\\Lobster_Construction_Lab\\\\evidence\\\\validation\\\\B4_UNPADDED_QR12_001\\\\demo_gate\\\\record.json\",\r\n  \"status\": \"CONSTRUCTED\",\r\n  \"vertices\": 14\r\n}\r\n"
+    }
+  ],
+  "targeted_unittest_methods": 18
+}

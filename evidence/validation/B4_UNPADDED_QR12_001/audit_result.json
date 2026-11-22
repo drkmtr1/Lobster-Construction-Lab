@@ -1,0 +1,131 @@
+{
+  "status": "PASS",
+  "run_id": "B4-UNPADDED-QR12-001-20261121-audit",
+  "campaign_sha256_raw": "f85e7412641116863e78d1ce3fd073c6665cc7557d2520b750188b66f83dc2c8",
+  "same_certificate_count": 12,
+  "additional_completed_targets": 0,
+  "same_auxiliary_seed_graph_digest": "fc491cb86c5a5d4e13ace9f9d53e125f6bcf7f2c1cc46ffe90d622d9d59335bb",
+  "additional_seed_certificates": 0,
+  "cases": [
+    {
+      "parameters": {
+        "K": 1,
+        "q": 1,
+        "r": 2
+      },
+      "original_graph_digest": "f28cd722c4260f151e9da46924fb5d6cb2c87507695b199bdacbf362bdb3572d",
+      "case_sha256_raw": "d3b47cd3142b73984d299dfa3245c8dc26f59e0e9fc0cfe6575fd3d4b7904ba7",
+      "status": "PASS"
+    },
+    {
+      "parameters": {
+        "K": 1,
+        "q": 2,
+        "r": 2
+      },
+      "original_graph_digest": "f88a1ec8f8339f9e3226e5aa9305f38c179b7ed4db2d1c51a67b67d7e764ec78",
+      "case_sha256_raw": "5d389f8c9d7fddd0a85a7121e5b060eb6f1ae650ff2b0a48bacc337f6df6aafc",
+      "status": "PASS"
+    },
+    {
+      "parameters": {
+        "K": 1,
+        "q": 1,
+        "r": 3
+      },
+      "original_graph_digest": "1304af48f885321e84362b593edf96faa4e3ad086a8686dd208e31bf357fd8f8",
+      "case_sha256_raw": "14086a7f8b5809b6d800d61d108ecd198912f72bd50b062954f780ab9247200e",
+      "status": "PASS"
+    },
+    {
+      "parameters": {
+        "K": 1,
+        "q": 2,
+        "r": 3
+      },
+      "original_graph_digest": "4e928d0453e386cc06ee6f4a606c01e42d975660043467a3b20391519b76db5d",
+      "case_sha256_raw": "12b52153f55f55ab6e231f8894c6b7687f328e1cc7bda21b679556d3f492d426",
+      "status": "PASS"
+    },
+    {
+      "parameters": {
+        "K": 2,
+        "q": 1,
+        "r": 2
+      },
+      "original_graph_digest": "be413a929385640b5dcd716ad92bf892c334b82cc83862b287e460368e56c542",
+      "case_sha256_raw": "b5387613454d1e69ecf888b7cda60c6fb177366a55f16b0d63504718d77cb6f1",
+      "status": "PASS"
+    },
+    {
+      "parameters": {
+        "K": 3,
+        "q": 1,
+        "r": 3
+      },
+      "original_graph_digest": "6da09cfd6d32daafecdd03382cfa98c87580410169d3103fd42d8a08b0d611bb",
+      "case_sha256_raw": "48fc2b4899f1824e19e980a72449e628502f0ff578bf6ca308a063da69edd48c",
+      "status": "PASS"
+    },
+    {
+      "parameters": {
+        "K": 4,
+        "q": 3,
+        "r": 2
+      },
+      "original_graph_digest": "17b569f73fbd3f337be383276f030f866f47dd301a0ff586165700cb95ab9fc8",
+      "case_sha256_raw": "0e1fbd61b011b0b58c91d932fffc34023fa1a4a32295598fd1a76bbf7a84966d",
+      "status": "PASS"
+    },
+    {
+      "parameters": {
+        "K": 5,
+        "q": 2,
+        "r": 4
+      },
+      "original_graph_digest": "ab253584db5da7d02188fb8d80de517b737340cc5a5357b28931acc23b337944",
+      "case_sha256_raw": "afb5176a0e09a43cb1e1ef096e8dc87c03603b2b202f61a154164a1395a585ab",
+      "status": "PASS"
+    },
+    {
+      "parameters": {
+        "K": 8,
+        "q": 5,
+        "r": 3
+      },
+      "original_graph_digest": "524eda33497305387cad701e5101a7662df36081d0e46bcf67c1718c4595021e",
+      "case_sha256_raw": "d03f575cbcbcc55b2752a1866659fd0fc4065ece1b8e55976b87b69637dd03c4",
+      "status": "PASS"
+    },
+    {
+      "parameters": {
+        "K": 15,
+        "q": 3,
+        "r": 5
+      },
+      "original_graph_digest": "7957745536bf7c7d78db84241a075cf3a4fae68eb1aa8df611da0699f530ccbe",
+      "case_sha256_raw": "ee7f645a9a179fde0d6e8ce986aee78bd2c4a38d8aeff3acc1d719dd16861ab5",
+      "status": "PASS"
+    },
+    {
+      "parameters": {
+        "K": 16,
+        "q": 5,
+        "r": 8
+      },
+      "original_graph_digest": "e00ac7b1d038d754bb62971e803200b988a9e3eaf2bacd241d11c4042fc4d1e3",
+      "case_sha256_raw": "63e0de0bf798cf108b8cdf6b0d27302f900bd10a9ebe966aee69e51cbc04a0ba",
+      "status": "PASS"
+    },
+    {
+      "parameters": {
+        "K": 64,
+        "q": 1,
+        "r": 2
+      },
+      "original_graph_digest": "7d1a6ac57b65f412eed3e3a05f2992ddb28e333dba0d91d52f62695c2253aeb7",
+      "case_sha256_raw": "afae21e3876cf9cb862515e4ae049513ec577df24e948c3f6b2326b3afe17500",
+      "status": "PASS"
+    }
+  ]
+}

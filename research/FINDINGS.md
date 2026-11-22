@@ -286,3 +286,23 @@ There are two above-side offsets per target and no exact solution
 counts. These diagnostics leave arbitrary (q,r,t,2) supply open.
 [Proof](B4_FOURTH_2_SUPPLY.md) · [Validation](../evidence/validation/B4_FOURTH_2_SUPPLY_001/README.md)
 · [Diagnostics](../evidence/validation/B4_FOURTH_2_SUPPLY_001/DIAGNOSTICS.md) · D036
+
+## B4-UNPADDED-QR12-001
+
+**ACCEPT** the conditional lower-block insertion, including same-host
+finite closure with fixed threshold and descending fresh-name
+assignment. The full supplied incident multiset, physical ports
+and witness are part of its hypotheses.
+
+The explicit 1212 labeling and both incident predicates discharge
+the initial hypotheses. Second-branch growth followed by first-branch
+upper-block growth gives the exact ordered family
+`[[q],[r],[1],[2]]+[[]]*(K+1)` for positive integers q,r,K,
+using Q112 at r=1. Its adjacent s:4 consumes R=[r+6,K+r+5]
+and D=[1,K], with completed alpha low size r+6+ceil(K/2).
+Twelve declared completed targets and the same-target audit passed,
+with one separate 1212 seed. Two separate AI reviews accepted the
+corrected proof and implementation. General (q,r,t,2) remains open.
+[Conditional rule](ALPHA_LOWER_BLOCK_LEAF_INSERTION.md)
+· [Family proof](B4_UNPADDED_QR12.md)
+· [Evidence](../evidence/validation/B4_UNPADDED_QR12_001/README.md) · D037

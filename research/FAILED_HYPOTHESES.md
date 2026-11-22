@@ -80,3 +80,21 @@ classes force these cases. The retained left exit offset one
 requires this entrance under the unchanged R241 connector
 rule. This rules out that join with that left exit and
 right component. [Proof](B4_FOURTH_2_SUPPLY.md#restricted-right-component-compatibility)
+
+### F-QR12-MINIMUM-HIGH-PLACEMENT
+
+The supplied 1212 state has low-class size 8 and actual host
+b:1:0=10. Raising every high by one and giving the fresh leaf
+label 8 makes weight 3 at host label 11, repeated in the
+shifted old spectrum [2,15]. This is failure of the proposed
+minimum-high placement at this particular host. The lower-block
+rule instead uses the supplied full spectrum [7,14] at c=4.
+[Conditional lower-block proof](ALPHA_LOWER_BLOCK_LEAF_INSERTION.md#comparisons-and-limits)
+
+### F-QR12-BASE-UPPER-THRESHOLD-12
+
+The initial 1212 proof draft used upper threshold 12. This
+includes l:2:0:0 along with s:0 and l:0:0:0, and the complete
+incident spectrum is [9,12,13,14]. The proof and certificate
+use threshold 13, whose incident multiset is [12,14].
+[Preserved draft and correction](../evidence/validation/B4_UNPADDED_QR12_001/attempts/base-upper-threshold-draft/README.md)

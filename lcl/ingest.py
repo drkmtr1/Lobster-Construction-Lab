@@ -129,6 +129,7 @@ def _parameter_size(method: str, params: Any, limit: int) -> int:
         "four_section_1311": {"K"},
         "four_section_qr21": {"q", "r", "K"},
         "four_section_q112": {"q", "K"},
+        "four_section_qr12": {"q", "r", "K"},
         "four_section_111t": {"t", "K"},
     }[method]
     allowed = required | ({"z"} if method == "l007" else set())
@@ -194,7 +195,7 @@ def _parameter_size(method: str, params: Any, limit: int) -> int:
     elif method in ("four_section_3111", "four_section_1311"):
         K = _integer(params["K"], "K", 1, limit)
         count = K + 15
-    elif method == "four_section_qr21":
+    elif method in ("four_section_qr21", "four_section_qr12"):
         q = _integer(params["q"], "q", 1, limit)
         r = _integer(params["r"], "r", 1, limit)
         K = _integer(params["K"], "K", 1, limit)
@@ -279,6 +280,7 @@ def construction_input(spec: Any, max_vertices: int = MAX_GRAPH_VERTICES) -> tup
                "four_section_1311": constructors.four_section_1311,
                "four_section_qr21": constructors.four_section_qr21,
                "four_section_q112": constructors.four_section_q112,
+               "four_section_qr12": constructors.four_section_qr12,
                "four_section_111t": constructors.four_section_111t}
     method = spec["method"]
     if not isinstance(method, str) or method not in methods:
@@ -321,6 +323,11 @@ def construction_input(spec: Any, max_vertices: int = MAX_GRAPH_VERTICES) -> tup
         q = spec["parameters"]["q"]
         if profile[:4] != [[q], [1], [1], [2]] or any(profile[4:]):
             raise ValueError("four_section_q112 requires ordered branches q,1,1,2 and empty sections")
+    if method == "four_section_qr12":
+        profile = spec["profile"]
+        q, r = spec["parameters"]["q"], spec["parameters"]["r"]
+        if profile[:4] != [[q], [r], [1], [2]] or any(profile[4:]):
+            raise ValueError("four_section_qr12 requires ordered branches q,r,1,2 and empty sections")
     if method == "four_section_111t":
         profile = spec["profile"]
         t = spec["parameters"]["t"]

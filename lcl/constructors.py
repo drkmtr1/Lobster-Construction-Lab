@@ -1098,6 +1098,74 @@ def four_section_q112(q: int, K: int) -> dict:
     return result
 
 
+def four_section_qr12(q: int, r: int, K: int) -> dict:
+    """Label the exact ordered q,r,1,2 branches and adjacent path."""
+    _integer(q, "q", 1)
+    _integer(r, "r", 1)
+    _integer(K, "K", 1)
+    method = "four_section_qr12"
+    a = r + 6
+    port = a + K
+    scope = {
+        "parameters": {"q": q, "r": r, "K": K},
+        "family": "four successive branches of sizes q,r,1,2, zero padding, and a K-edge path suffix",
+        "independent_input_supply": True, "universal_lobster_claim": False,
+        "mathematical_novelty_claim": False, "arbitrary_branched_suffix": False,
+        "alpha_low_class_size": a + (K + 1) // 2,
+        "suffix_interface": {"unused_labels": [a, port - 1], "unused_differences": [1, K],
+                             "active_vertex": "s:4", "active_label": port,
+                             "side": "above", "notation": "inclusive intervals"},
+        "source": "research/B4_UNPADDED_QR12.md",
+    }
+    if r == 1:
+        return {**four_section_q112(q, K), "method": method, "claim_scope": {
+            **scope, "construction_case": "retained_q112",
+            "case_source": "research/B4_FOURTH_2_SUPPLY.md",
+        }}
+
+    graph = build_graph([[q], [r], [1], [2]] + [[] for _ in range(K + 1)])
+    m = len(graph["edges"])
+    prefix = {"s:0": m, "s:1": 0, "s:2": K + r + 9, "s:3": r + 5, "s:4": port,
+              "b:0:0": 1, "l:0:0:0": m - 1,
+              "b:1:0": K + r + 8, "l:1:0:0": r + 2, "l:1:0:1": r + 3,
+              "b:2:0": 3, "l:2:0:0": K + r + 10,
+              "b:3:0": K + r + 7, "l:3:0:0": 2, "l:3:0:1": r + 4}
+    for j in range(1, q):
+        prefix[f"l:0:0:{j}"] = K + r + 10 + j
+    for j in range(2, r):
+        prefix[f"l:1:0:{j}"] = r + 3 - j
+
+    boundary = interval_boundary(graph, prefix, "s:4")
+    tail = graph["spine"][4:]
+    suffix = set(tail[1:])
+    path = [frozenset(edge) for edge in zip(tail, tail[1:])]
+    incident = [frozenset(edge) for edge in graph["edges"] if suffix.intersection(edge)]
+    if (not boundary["valid"] or boundary["interval"] != [a, port - 1]
+            or boundary["active_label"] != port or boundary["remaining_edges"] != K
+            or set(graph["vertices"]) - set(prefix) != suffix
+            or len(incident) != K or set(incident) != set(path)):
+        raise ArithmeticError("four-section qr12 prefix has a different original-path interface")
+
+    trace = [{"operation": "supplied_interval_interface", "stage": 4,
+              "active_vertex": "s:4", "active_label": port,
+              "unused_labels": boundary["unused_labels"],
+              "unused_differences": boundary["unused_differences"],
+              "prefix_labels": prefix, "prefix_difference_interval": [K + 1, m]}]
+    labels = dict(prefix)
+    _consume_suffix(graph, 4, labels, a, port - 1, trace)
+    certificate = verify_certificate(graph, labels, graph_digest(graph))
+    if not certificate["valid"]:
+        raise ArithmeticError("four-section qr12 failed original-target verification: "
+                              + "; ".join(certificate["errors"]))
+    p = scope["alpha_low_class_size"]
+    if any((labels[u] < p) == (labels[v] < p) for u, v in graph["edges"]):
+        raise ArithmeticError("four-section qr12 does not cross the declared alpha cut")
+    result = _result(graph, labels, method, {**scope, "construction_case": "1212_block_insertions",
+                                           "case_source": "research/B4_UNPADDED_QR12.md"}, trace)
+    result["evidence_level"] = "project_derived_symbolic_family; independent checking required"
+    return result
+
+
 def four_section_111t(t: int, K: int) -> dict:
     """Label three unit branches, a fourth of size t>=2, and a path of length K>=1."""
     _integer(t, "t", 2)
