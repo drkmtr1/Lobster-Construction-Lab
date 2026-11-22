@@ -1,0 +1,546 @@
+{
+  "certificate": {
+    "claim": "finite certificate for this exact named target only",
+    "edge_differences": [
+      4,
+      3,
+      2,
+      1,
+      10,
+      5,
+      13,
+      7,
+      6,
+      8,
+      9,
+      11,
+      12
+    ],
+    "errors": [],
+    "graph_digest": "69242951590e06a24494fed1d3b46a0c05b0e97b7debd82666760bef68378eb6",
+    "m": 13,
+    "n": 14,
+    "valid": true
+  },
+  "classification": "CONSTRUCTED",
+  "config": {
+    "method": "h010",
+    "parameters": {
+      "qs": [
+        1,
+        2
+      ],
+      "suffix_profile": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "z": 4
+    },
+    "profile": [
+      [
+        1,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [],
+      [],
+      [],
+      []
+    ]
+  },
+  "config_sha256": "2799e8f8c004439b81518c51527c9506dc0a7966a413c7d85ac3b85b40519f77",
+  "consistency_errors": [],
+  "created_utc": "2026-11-22T02:34:52.187533+00:00",
+  "environment": {
+    "implementation": "CPython",
+    "machine": "AMD64",
+    "optional_dependencies": {
+      "mpmath": null,
+      "networkx": null,
+      "sympy": null,
+      "z3-solver": null
+    },
+    "package_version": "0.1.0",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.13.17"
+  },
+  "expected_restrictions": {
+    "domains": {},
+    "pins": {}
+  },
+  "original_graph": {
+    "edges": [
+      [
+        "s:0",
+        "s:1"
+      ],
+      [
+        "s:1",
+        "s:2"
+      ],
+      [
+        "s:2",
+        "s:3"
+      ],
+      [
+        "s:3",
+        "s:4"
+      ],
+      [
+        "s:0",
+        "b:0:0"
+      ],
+      [
+        "b:0:0",
+        "l:0:0:0"
+      ],
+      [
+        "s:0",
+        "b:0:1"
+      ],
+      [
+        "b:0:1",
+        "l:0:1:0"
+      ],
+      [
+        "b:0:1",
+        "l:0:1:1"
+      ],
+      [
+        "s:0",
+        "b:0:2"
+      ],
+      [
+        "s:0",
+        "b:0:3"
+      ],
+      [
+        "s:0",
+        "b:0:4"
+      ],
+      [
+        "s:0",
+        "b:0:5"
+      ]
+    ],
+    "profile": [
+      [
+        1,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [],
+      [],
+      [],
+      []
+    ],
+    "roles": {
+      "b:0:0": {
+        "branch": 0,
+        "kind": "branch",
+        "section": 0
+      },
+      "b:0:1": {
+        "branch": 1,
+        "kind": "branch",
+        "section": 0
+      },
+      "b:0:2": {
+        "branch": 2,
+        "kind": "branch",
+        "section": 0
+      },
+      "b:0:3": {
+        "branch": 3,
+        "kind": "branch",
+        "section": 0
+      },
+      "b:0:4": {
+        "branch": 4,
+        "kind": "branch",
+        "section": 0
+      },
+      "b:0:5": {
+        "branch": 5,
+        "kind": "branch",
+        "section": 0
+      },
+      "l:0:0:0": {
+        "branch": 0,
+        "kind": "leaf",
+        "leaf": 0,
+        "section": 0
+      },
+      "l:0:1:0": {
+        "branch": 1,
+        "kind": "leaf",
+        "leaf": 0,
+        "section": 0
+      },
+      "l:0:1:1": {
+        "branch": 1,
+        "kind": "leaf",
+        "leaf": 1,
+        "section": 0
+      },
+      "s:0": {
+        "kind": "spine",
+        "section": 0
+      },
+      "s:1": {
+        "kind": "spine",
+        "section": 1
+      },
+      "s:2": {
+        "kind": "spine",
+        "section": 2
+      },
+      "s:3": {
+        "kind": "spine",
+        "section": 3
+      },
+      "s:4": {
+        "kind": "spine",
+        "section": 4
+      }
+    },
+    "schema_version": 1,
+    "spine": [
+      "s:0",
+      "s:1",
+      "s:2",
+      "s:3",
+      "s:4"
+    ],
+    "vertices": [
+      "s:0",
+      "b:0:0",
+      "l:0:0:0",
+      "b:0:1",
+      "l:0:1:0",
+      "l:0:1:1",
+      "b:0:2",
+      "b:0:3",
+      "b:0:4",
+      "b:0:5",
+      "s:1",
+      "s:2",
+      "s:3",
+      "s:4"
+    ]
+  },
+  "original_graph_digest": "69242951590e06a24494fed1d3b46a0c05b0e97b7debd82666760bef68378eb6",
+  "record_sha256": "caf01f96f532cb9aa9a62b4742e356c526396ca148519854c5131576f1010c16",
+  "result": {
+    "claim_scope": {
+      "arbitrary_branched_suffix": false,
+      "conditions": {
+        "bound_is_necessary_for_all_labelings": false,
+        "required_z": 4,
+        "sum_qs_at_most_K_plus_2": true
+      },
+      "family": "one branched section followed by a supplied all-q=0 caterpillar suffix",
+      "independent_input_supply": true,
+      "parameters": {
+        "K": 3,
+        "qs": [
+          1,
+          2
+        ],
+        "suffix_profile": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "z": 4
+      },
+      "source": "https://github.com/drkmtr1/MDL_Bounded_Search/blob/e48b94eec4091b4fe189e325cab2eda464409943/research/verification/pilot_inputs/H010-proof.txt",
+      "suffix_interface": {
+        "active_label": 4,
+        "notation": "inclusive intervals",
+        "unused_differences": [
+          1,
+          3
+        ],
+        "unused_labels": [
+          1,
+          3
+        ]
+      },
+      "universal_lobster_claim": false
+    },
+    "evidence_level": "retained_construction_implementation; independent checking required",
+    "graph": {
+      "edges": [
+        [
+          "s:0",
+          "s:1"
+        ],
+        [
+          "s:1",
+          "s:2"
+        ],
+        [
+          "s:2",
+          "s:3"
+        ],
+        [
+          "s:3",
+          "s:4"
+        ],
+        [
+          "s:0",
+          "b:0:0"
+        ],
+        [
+          "b:0:0",
+          "l:0:0:0"
+        ],
+        [
+          "s:0",
+          "b:0:1"
+        ],
+        [
+          "b:0:1",
+          "l:0:1:0"
+        ],
+        [
+          "b:0:1",
+          "l:0:1:1"
+        ],
+        [
+          "s:0",
+          "b:0:2"
+        ],
+        [
+          "s:0",
+          "b:0:3"
+        ],
+        [
+          "s:0",
+          "b:0:4"
+        ],
+        [
+          "s:0",
+          "b:0:5"
+        ]
+      ],
+      "profile": [
+        [
+          1,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        [],
+        [],
+        [],
+        []
+      ],
+      "roles": {
+        "b:0:0": {
+          "branch": 0,
+          "kind": "branch",
+          "section": 0
+        },
+        "b:0:1": {
+          "branch": 1,
+          "kind": "branch",
+          "section": 0
+        },
+        "b:0:2": {
+          "branch": 2,
+          "kind": "branch",
+          "section": 0
+        },
+        "b:0:3": {
+          "branch": 3,
+          "kind": "branch",
+          "section": 0
+        },
+        "b:0:4": {
+          "branch": 4,
+          "kind": "branch",
+          "section": 0
+        },
+        "b:0:5": {
+          "branch": 5,
+          "kind": "branch",
+          "section": 0
+        },
+        "l:0:0:0": {
+          "branch": 0,
+          "kind": "leaf",
+          "leaf": 0,
+          "section": 0
+        },
+        "l:0:1:0": {
+          "branch": 1,
+          "kind": "leaf",
+          "leaf": 0,
+          "section": 0
+        },
+        "l:0:1:1": {
+          "branch": 1,
+          "kind": "leaf",
+          "leaf": 1,
+          "section": 0
+        },
+        "s:0": {
+          "kind": "spine",
+          "section": 0
+        },
+        "s:1": {
+          "kind": "spine",
+          "section": 1
+        },
+        "s:2": {
+          "kind": "spine",
+          "section": 2
+        },
+        "s:3": {
+          "kind": "spine",
+          "section": 3
+        },
+        "s:4": {
+          "kind": "spine",
+          "section": 4
+        }
+      },
+      "schema_version": 1,
+      "spine": [
+        "s:0",
+        "s:1",
+        "s:2",
+        "s:3",
+        "s:4"
+      ],
+      "vertices": [
+        "s:0",
+        "b:0:0",
+        "l:0:0:0",
+        "b:0:1",
+        "l:0:1:0",
+        "l:0:1:1",
+        "b:0:2",
+        "b:0:3",
+        "b:0:4",
+        "b:0:5",
+        "s:1",
+        "s:2",
+        "s:3",
+        "s:4"
+      ]
+    },
+    "graph_digest": "69242951590e06a24494fed1d3b46a0c05b0e97b7debd82666760bef68378eb6",
+    "labels": {
+      "b:0:0": 10,
+      "b:0:1": 13,
+      "b:0:2": 8,
+      "b:0:3": 9,
+      "b:0:4": 11,
+      "b:0:5": 12,
+      "l:0:0:0": 5,
+      "l:0:1:0": 6,
+      "l:0:1:1": 7,
+      "s:0": 0,
+      "s:1": 4,
+      "s:2": 1,
+      "s:3": 3,
+      "s:4": 2
+    },
+    "method": "h010",
+    "status": "CONSTRUCTED",
+    "trace": [
+      {
+        "active_label": 4,
+        "active_vertex": "s:1",
+        "operation": "supplied_suffix_interface",
+        "prefix_labels": {
+          "b:0:0": 10,
+          "b:0:1": 13,
+          "b:0:2": 8,
+          "b:0:3": 9,
+          "b:0:4": 11,
+          "b:0:5": 12,
+          "l:0:0:0": 5,
+          "l:0:1:0": 6,
+          "l:0:1:1": 7,
+          "s:0": 0,
+          "s:1": 4
+        },
+        "unused_differences": [
+          1,
+          2,
+          3
+        ],
+        "unused_labels": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "difference": 3,
+        "label": 1,
+        "operation": "next_spine",
+        "parent": "s:1",
+        "vertex": "s:2"
+      },
+      {
+        "difference": 2,
+        "label": 3,
+        "operation": "next_spine",
+        "parent": "s:2",
+        "vertex": "s:3"
+      },
+      {
+        "difference": 1,
+        "label": 2,
+        "operation": "next_spine",
+        "parent": "s:3",
+        "vertex": "s:4"
+      }
+    ]
+  },
+  "schema_version": 1,
+  "source": {
+    "files": {
+      "lcl/__init__.py": "134055506d3e9cd4fa538177844d28a44d5ab567ec220cf54048e63d1a8a7374",
+      "lcl/__main__.py": "30782be9a5f5e6bc8b28d2ba189b3dfbf36f24571321d404bec50bd8175f1014",
+      "lcl/allocation.py": "0aab778a6665712d3cd1e35554657cc212fa840d3ce28d32ba79c18f2dcce2b9",
+      "lcl/budget.py": "02145a6b4bc10eda53d2f3736fdf082c1414f96905c71e74a407c0cefd73b16a",
+      "lcl/constructors.py": "916894184547cec09c2365261140d4381b7d0c686324434e0f82e967a698463d",
+      "lcl/consumers.py": "2cb688d09c510ca855ba1695d0f89a325ea4fc7882c9e5a8e971c2b506e64560",
+      "lcl/dp.py": "1aa3d2ed888c26b8e5fd65bd74069eb654c60dd336eef5fb33e8fdb7659a14f9",
+      "lcl/engines.py": "8a67ba56d97676b613f9fa89e18e30d8642d74d5c6ada7ec55f97733b0dc7207",
+      "lcl/experiments.py": "0d0f08632397082a2580e250aa7a2a53c5df61aba770e4d2ae0d701b1fe2f714",
+      "lcl/ingest.py": "11e4294dd9dbabae87e9f1d774a072ef9ac10b6b33d2b8bf25165915013a1dde",
+      "lcl/model.py": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6",
+      "lcl/oracle.py": "6d70eca24f9b0c254073ec8d1ffcc769d9beca42ad43b6cf272659aecf58146d",
+      "lcl/records.py": "ba7299dac2b3f2c1907c3cce40e0ba20c603b19fc8dcee2f9b2b0760b925391e",
+      "lcl/search.py": "f8291a3446e04422095131e4d75100ec9bfd3213d039d17ce83c04ec82d671ff",
+      "lcl/states.py": "386a7666da91466d35d17b634ad2e5a69e67581f553e86e9d4e75389dc781e1c",
+      "lcl/verify.py": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909",
+      "pyproject.toml": "738f14eba3125ce7f444628adaddaf2e3e30e5aa7f43f10e7035067f6b7072e5",
+      "requirements-graph.txt": "63b83d49071ae093c187423c768c6711a3716cda354d3a24e2bb10b0f536d34c",
+      "requirements-optional.txt": "5bab117f06ee96a8fa7529e4e08f5125087e6ca42bb5ffee3edfdc6913da9e3b",
+      "requirements-smt.txt": "4bb07f85bfdeaabba65e8deb117ecc222d748651ed5526284666f4bb3e6450bd",
+      "requirements-symbolic.txt": "47fd19021144e071cc43b6e265aafada0056abe89724ad95bd6e3a8e37995b94",
+      "requirements.txt": "60f6e1bd76adf6ed25cf381ca95f67e8a27a0de1e62fb673a7cf5af4b86249ea"
+    },
+    "sha256": "ebc6ae48e5f2e54f60d009395bbef03ae98ec9a8bde62b5bddd814561f64cfd9"
+  },
+  "universal_claim": false
+}

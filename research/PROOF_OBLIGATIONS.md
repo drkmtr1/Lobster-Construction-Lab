@@ -247,3 +247,17 @@ is alpha with low-class size `6+(K+1)//2`. The discarded
 has its own restricted obstruction. Other unproved branch sizes,
 padding, multiple branches per section, additional sections and
 arbitrary repetition require separate proofs.
+
+### Zero-port extension and symbolic (q,1,1,1) coverage
+
+The [zero-port lemma](ALPHA_ZERO_PORT_LEAF_EXTENSION.md) discharges
+conditional finite repeated leaf addition at the same supplied
+physical label-zero host. It preserves both ports and offsets.
+With exit offset zero and the exact unfinished K-edge path,
+the high-side shift and adjacent consumer give full alpha
+low-class size p0+ceil(K/2). The retained unit seed establishes
+the exact unpadded `[[q],[1],[1],[1]]+[[]]*(K+1)` family for all
+integers q,K>=1. [3111](B4_UNPADDED_3111.md) is the only new
+executable scope. Supplying label zero at another prescribed host,
+other branch placements or sections, and arbitrary input topology
+remain open. The same-host closure keeps its explicit hypotheses.

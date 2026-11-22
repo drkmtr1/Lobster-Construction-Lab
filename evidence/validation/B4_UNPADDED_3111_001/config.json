@@ -1,0 +1,53 @@
+{
+  "run_id": "B4-UNPADDED-3111-001-original-target-regression-20261121",
+  "starting_commit": "35c26348529a5c78fe08427e14ce6ae6acc80a53",
+  "parameter_order": [
+    "K"
+  ],
+  "cases": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    15,
+    16,
+    31,
+    64
+  ],
+  "fixed_branch_sizes": [
+    3,
+    1,
+    1,
+    1
+  ],
+  "padding": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "seed_profile": [
+    [
+      3
+    ],
+    [
+      1
+    ],
+    [
+      1
+    ],
+    [
+      1
+    ],
+    []
+  ],
+  "max_cases": 12,
+  "max_vertices": 79,
+  "max_output_bytes": 2000000,
+  "workers": 1,
+  "scope": "12 completed original B4 3111 targets plus one separate fixed seed certificate"
+}

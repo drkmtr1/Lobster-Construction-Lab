@@ -37,3 +37,11 @@ unit graph. Any alpha edge of difference 1 at that cut must join labels
 is impossible. The obstruction follows from the required edge difference
 and uses no search. The accepted label-zero extension supplies the
 `2111` seed through a different port state. [Derivation](B4_UNPADDED_2111.md)
+
+### F-ZERO-PORT-FRESH-LABEL
+
+For a graceful seed on n vertices, keeping old labels fixed and
+assigning fresh label n to one new leaf at a host of label c>0
+duplicates the old difference n-c, which lies in 1..n-1. This
+rules out that fixed-label step at that host. It is an arithmetic
+obstruction to the operation. [Zero-port proof](ALPHA_ZERO_PORT_LEAF_EXTENSION.md#host-restriction-and-source-comparison)

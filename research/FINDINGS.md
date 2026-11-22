@@ -199,3 +199,24 @@ with low-class size `6+(K+1)//2` and cutoff one less. Separate AI
 reviews accepted. The 12 original targets, their same-certificate
 audit and one separate fixed seed certificate passed.
 [Proof](B4_UNPADDED_2111.md) · [Validation](../evidence/validation/B4_UNPADDED_2111_001/README.md) · D032
+
+## Conditional zero-port extension and B4-UNPADDED-3111-001
+
+**ACCEPT.** From an independently supplied witnessed alpha state
+A(n,p0;0,y), any finite number h>=0 of prescribed fresh leaves may
+be appended at the same physical label-zero port, preserving old
+labels, both ports, offsets and the witness. Their labels and new
+differences are n..n+h-1. The high-side shift reserves the two
+path inventories. Adjacent completion applies at y=0 on the
+actual original K-edge path and gives low-class size p0+ceil(K/2).
+
+From the retained unit seed this proves the exact zero-padding
+`[[q],[1],[1],[1]]+[[]]*(K+1)` family alpha graceful for all integers
+q,K>=1, with p0=6 and actual port s:4=K+6 after the shift.
+The general-q result is symbolic. The only new executable route
+is the exact q=3 construction, `four_section_3111(K)`, for integers
+K>=1 excluding booleans. The 12 declared targets, audit of those same
+certificates, and one separately recorded seed passed. Separate
+AI mathematics and implementation reviews accepted.
+[Lemma and corollary](ALPHA_ZERO_PORT_LEAF_EXTENSION.md) ·
+[3111 proof](B4_UNPADDED_3111.md) · [Validation](../evidence/validation/B4_UNPADDED_3111_001/README.md) · D033
