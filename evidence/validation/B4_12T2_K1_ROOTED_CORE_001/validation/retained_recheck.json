@@ -1,0 +1,172 @@
+{
+  "certificate": "evidence/validation/B4_THIRD_ZERO_HOST_K1_DIRECT_001/validation/core_certificate.json",
+  "certificate_sha256_raw": "37ef5b35033b5e72ffaaee14283964c60bd4287d24d1f52dcf72216688ad1b34",
+  "cut": {
+    "below": [
+      "s:1",
+      "s:3"
+    ],
+    "c": 2,
+    "crossing": [
+      {
+        "difference": 7,
+        "edge": [
+          "s:0",
+          "s:1"
+        ]
+      },
+      {
+        "difference": 12,
+        "edge": [
+          "s:1",
+          "s:2"
+        ]
+      },
+      {
+        "difference": 11,
+        "edge": [
+          "s:2",
+          "s:3"
+        ]
+      },
+      {
+        "difference": 9,
+        "edge": [
+          "s:3",
+          "s:4"
+        ]
+      },
+      {
+        "difference": 8,
+        "edge": [
+          "s:1",
+          "b:1:0"
+        ]
+      },
+      {
+        "difference": 10,
+        "edge": [
+          "s:3",
+          "b:3:0"
+        ]
+      }
+    ],
+    "crossing_spectrum": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "host": "b:1:0",
+    "host_label": 8,
+    "m": 12,
+    "noncrossing": [
+      {
+        "difference": 6,
+        "edge": [
+          "s:4",
+          "s:5"
+        ]
+      },
+      {
+        "difference": 4,
+        "edge": [
+          "s:0",
+          "b:0:0"
+        ]
+      },
+      {
+        "difference": 1,
+        "edge": [
+          "b:0:0",
+          "l:0:0:0"
+        ]
+      },
+      {
+        "difference": 3,
+        "edge": [
+          "b:1:0",
+          "l:1:0:0"
+        ]
+      },
+      {
+        "difference": 2,
+        "edge": [
+          "b:3:0",
+          "l:3:0:0"
+        ]
+      },
+      {
+        "difference": 5,
+        "edge": [
+          "b:3:0",
+          "l:3:0:1"
+        ]
+      }
+    ],
+    "noncrossing_spectrum": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  "graph_digest": "aa0e6e159d15dd8aa9003403e47f99bcf7607511fb0ea0accf76b505cf3ebe36",
+  "original": "evidence/validation/B4_THIRD_ZERO_HOST_K1_DIRECT_001/validation/originals/core.json",
+  "original_sha256_raw": "4670a5712b59ea08eef8a11691e3d3b76ffd00fad36c190377cb2914d52ccb48",
+  "root": {
+    "label": 12,
+    "vertex": "s:2"
+  },
+  "verification": {
+    "claim": "finite certificate for this exact named target only",
+    "edge_differences": [
+      7,
+      12,
+      11,
+      9,
+      6,
+      4,
+      1,
+      8,
+      3,
+      10,
+      2,
+      5
+    ],
+    "errors": [],
+    "graph_digest": "aa0e6e159d15dd8aa9003403e47f99bcf7607511fb0ea0accf76b505cf3ebe36",
+    "m": 12,
+    "n": 13,
+    "valid": true
+  },
+  "witness": {
+    "distances": {
+      "b:0:0": 1,
+      "b:1:0": 1,
+      "b:3:0": 1,
+      "l:0:0:0": 2,
+      "l:1:0:0": 2,
+      "l:3:0:0": 2,
+      "l:3:0:1": 2,
+      "s:0": 0,
+      "s:1": 0,
+      "s:2": 0,
+      "s:3": 0,
+      "s:4": 0,
+      "s:5": 0
+    },
+    "path": [
+      "s:0",
+      "s:1",
+      "s:2",
+      "s:3",
+      "s:4",
+      "s:5"
+    ]
+  }
+}

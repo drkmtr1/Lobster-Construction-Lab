@@ -174,3 +174,15 @@ incident counts coincide, but the full spectrum is
 count. The rejection is specific to that fixed ledger,
 physical host and port-preserving transition.
 [Exact comparison](B4_12T2_ZERO_HOST_SUPPLIER.md#restricted-comparison-with-the-retained-r2-ledger)
+
+### F-B4-12T2-K1-UPPER-INCIDENCE-AS-CROSSING
+
+On the retained 13-vertex core `[[1],[1],[],[2],[],[]]`,
+all twelve old edges meet the upper side at cut 2. Only six
+cross it. The six same-side upper edges keep their weights
+under the shift, for example the old first terminal edge
+with labels 3 and 2 and difference 1. Substituting all upper
+incidences for the cut-crossing set gives [1,12] instead of
+the required [7,12]. The ordinary crossing-cut insertion
+uses the six actual crossings and succeeds.
+[Exact calculation](B4_12T2_K1_ROOTED_CORE.md#retained-original-and-a-single-ordinary-insertion)

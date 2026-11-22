@@ -442,7 +442,24 @@ High shift and the nonadjacent numerical path give ordinary
 gracefulness for exact t>=3,K>=2, with R=[8,K+7], D=[1,K],
 and physical s:4=K+9 on the original ordered full profile.
 The exact (1,2,t,2) family is covered for all positive t at
-K>=2 after adjoining the retained t=1 and t=2 routes. At
-K=1 only t=1,2 are covered by these results. Simultaneous
-second and third growth and broader profiles require separate
-supply.
+K>=2 after adjoining the retained t=1 and t=2 routes. The
+rooted-core singleton below supplies the remaining K=1 domain.
+Broader original profiles require separate supply.
+
+### 12T2 rooted core and exact all-positive coverage
+
+The [ordinary insertion lemma](ORDINARY_CUT_LEAF_INSERTION.md)
+requires the full cut-crossing multiset and returns an updated
+cut and host label. The [12T2 K=1 proof](B4_12T2_K1_ROOTED_CORE.md)
+checks its one-leaf instantiation and supplies the exact
+14-vertex deleted-third core with physical s:2=13. Thus
+the conditional lift produces ordinary gracefulness at
+t>=3,K=1 and leaves R={6}, D={6} at physical s:4=12.
+The original s:4--s:5 completes both resources and the
+named third-leaf growth preserves all prior labels.
+
+The four disjoint cases of the selector cover all positive
+integers t,K on the exact (1,2,t,2) family. The prior t=1,
+t=2 and nonadjacent t>=3,K>=2 routes retain their individual
+interfaces. Further second-branch growth with third-branch
+size at least three and broader profiles remain separate.

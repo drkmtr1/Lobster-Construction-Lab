@@ -1,0 +1,118 @@
+{
+  "files": {
+    ".gitattributes": {
+      "bytes": 74,
+      "sha256": "612243016cd5e6f83ce4b5e8ee3429ccefe05ea6950fe573c3bd70ff5ae4a040"
+    },
+    "README.md": {
+      "bytes": 2980,
+      "sha256": "f789b5c12f9eea6928a6253f6e841cac4f04220c0788d14f1a449f53e3f17cc7"
+    },
+    "REVIEWS.md": {
+      "bytes": 2736,
+      "sha256": "2838bb0e1fca2c97d7c3e9b12ccaa448530a228278e10f9459290718c26fca66"
+    },
+    "audit.py": {
+      "bytes": 15612,
+      "sha256": "87890ed722db1297fe5b874a64a9242df493fc9317ff82a55cee6b9daac5e09e"
+    },
+    "audit_result.json": {
+      "bytes": 1469,
+      "sha256": "c7e730bd00fa104ec1bb4cdef50b30ca983e36a22dcb91904f2d6c17737776d0"
+    },
+    "commands.json": {
+      "bytes": 3890,
+      "sha256": "f272f4ec0cced843e7eb3754cc8f43c92dc18afccb02a2b5c49dfea4a47e89dc"
+    },
+    "config.json": {
+      "bytes": 662,
+      "sha256": "1b5e237305bc2866782efa572777dc02cfbf414298bd21ecb1a00aa20f558ba4"
+    },
+    "validate.py": {
+      "bytes": 14406,
+      "sha256": "fea6e80a8360ec9e99ddb311a04ea614e5eec30084a41f397102cfee7ab23b17"
+    },
+    "validation/batch_comparison.json": {
+      "bytes": 1587,
+      "sha256": "f7ac4360a10be00273173259d78b08d2266f08134c1e774d64667163880039df"
+    },
+    "validation/core.json": {
+      "bytes": 4552,
+      "sha256": "155539e969f077f3072e3c96651deaf7f0267e67efd74689c244bc2adadc918a"
+    },
+    "validation/domain_rejections.json": {
+      "bytes": 377,
+      "sha256": "0f81226416279de9440f42f0c385393b8c4f4ccdf1d2efee63184ba5b91a9e3a"
+    },
+    "validation/identity.json": {
+      "bytes": 2546,
+      "sha256": "8f6a15d1e45dc8f5a76237f2f657a55ad8cddcc0a7083d18fdf0be382b65e0ec"
+    },
+    "validation/originals/core.json": {
+      "bytes": 2539,
+      "sha256": "027901e893ad6c40796709c113e0c557f5fd57ca4fd07e9c0b6a8992e52093ad"
+    },
+    "validation/originals/target-t3.json": {
+      "bytes": 3259,
+      "sha256": "4a6940122a3ab3182595101552bd6ce4261ce411814d48013d6a0b6592fdefd2"
+    },
+    "validation/originals/target-t4.json": {
+      "bytes": 3441,
+      "sha256": "6ca239ca1fee60e0ce7d317f926b0847f37c473c60183adf9249f606323e052b"
+    },
+    "validation/originals/target-t5.json": {
+      "bytes": 3623,
+      "sha256": "f99ac0eec46eb751f518c312898057327ce5792ee55c70797996856ce5894953"
+    },
+    "validation/originals/target-t6.json": {
+      "bytes": 3805,
+      "sha256": "8f99ca8f77e63bc964e7daa8067b53ad5873d61527c71fb1107a779aa4d732c0"
+    },
+    "validation/retained_recheck.json": {
+      "bytes": 2926,
+      "sha256": "33e7744f9fbae65adbd3627b3f31ce1cc8bed2394ce24be9a7c5249aa3bc5f83"
+    },
+    "validation/source/lcl/__init__.py": {
+      "bytes": 80,
+      "sha256": "134055506d3e9cd4fa538177844d28a44d5ab567ec220cf54048e63d1a8a7374"
+    },
+    "validation/source/lcl/model.py": {
+      "bytes": 10720,
+      "sha256": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6"
+    },
+    "validation/source/lcl/verify.py": {
+      "bytes": 14075,
+      "sha256": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909"
+    },
+    "validation/source/pyproject.toml": {
+      "bytes": 474,
+      "sha256": "738f14eba3125ce7f444628adaddaf2e3e30e5aa7f43f10e7035067f6b7072e5"
+    },
+    "validation/source/requirements.txt": {
+      "bytes": 144,
+      "sha256": "60f6e1bd76adf6ed25cf381ca95f67e8a27a0de1e62fb673a7cf5af4b86249ea"
+    },
+    "validation/summary.json": {
+      "bytes": 1465,
+      "sha256": "54f837e06df08962a95eaa2930cc68bcec6273a224ca025e366c6f66de94bf77"
+    },
+    "validation/target-t3.json": {
+      "bytes": 6622,
+      "sha256": "66dbbf3923cd24ae73502bb12e9e78847eb90af4ba847525cbf0c078cccf3b03"
+    },
+    "validation/target-t4.json": {
+      "bytes": 6922,
+      "sha256": "4324c52b520f4a4d0bb8d47431c62a8f660235d1ffc6689dbbb4aec7179698b4"
+    },
+    "validation/target-t5.json": {
+      "bytes": 7222,
+      "sha256": "11bfd1555569c62cac62749a2ae3b3ef1396aada827dc53585ce9f684b2e2fc1"
+    },
+    "validation/target-t6.json": {
+      "bytes": 7522,
+      "sha256": "c2ac38ba7c9d35cdba6af71c69cd643e3e6a44e0bed27bfe186c2370cbb54ae2"
+    }
+  },
+  "hash_scheme": "SHA-256 of raw bytes",
+  "identity": "B4-12T2-K1-ROOTED-CORE-001-20261121"
+}

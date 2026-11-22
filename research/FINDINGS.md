@@ -561,3 +561,38 @@ two separate read-only AI reviews added zero cases. No
 solver queries, enumeration or historical replay occurred.
 [Proof](B4_12T2_ZERO_HOST_SUPPLIER.md)
 · [Evidence](../evidence/validation/B4_12T2_ZERO_HOST_SUPPLIER_001/README.md) · D046
+
+## B4-12T2-K1-ROOTED-CORE-001
+
+**ACCEPT** the conditional ordinary crossing-cut leaf insertion.
+When the complete crossing spectrum is [b-c+1,m], raising
+the upper labels by h and supplying the named leaves at the
+upper host gives a graceful labeling. The raised cut retains
+old crossing edges and adds precisely the new leaf edges.
+Physical labels follow the actual shift, and ordered finite
+batches agree pointwise.
+
+**ACCEPT** the single insertion on the retained rooted core
+`[[1],[1],[],[2],[],[]]`. Its six crossing edges at cut 2 use
+[7,12]. Adding l:1:0:1 at label 2 yields the exact 14-vertex
+`[[1],[2],[],[2],[],[]]` core with physical s:2=13 and
+complete crossing spectrum [7,13] at cut 3. Counting all
+upper incidences is rejected on the retained core.
+
+**ACCEPT** the conditional and instantiated lift for integer
+t>=3 at K=1 on the exact original `[[1],[2],[t],[2],[],[]]`.
+The translated core and restored third branch leave R={6},
+D={6} at physical s:4=12 and complete with s:5=6. Named
+third-leaf growth preserves every earlier assignment. The
+four-case selector with the retained branches proves ordinary
+gracefulness of the exact (1,2,t,2) family for all positive
+integers t,K.
+
+One retained recheck, one new core and four completed
+targets passed, with four invalid probes rejected. Both
+read-only AI reviews accepted. The same-record audit and
+t=5 batch comparison add zero cases. No solver, enumeration
+or historical replay ran.
+[Insertion lemma](ORDINARY_CUT_LEAF_INSERTION.md)
+· [Lift and selector](B4_12T2_K1_ROOTED_CORE.md)
+· [Evidence](../evidence/validation/B4_12T2_K1_ROOTED_CORE_001/README.md) · D047

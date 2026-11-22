@@ -1,0 +1,28 @@
+{
+  "run_id": "B4-12T2-K1-ROOTED-CORE-001-20261121",
+  "shell": "PowerShell",
+  "cwd": "Lobster_Construction_Lab repository root",
+  "steps": [
+    {
+      "name": "Syntax preflight",
+      "command": "& .\\.venv\\Scripts\\python.exe -c \"import ast,pathlib; p=pathlib.Path('evidence/validation/B4_12T2_K1_ROOTED_CORE_001'); [ast.parse((p / name).read_text(encoding='utf-8')) for name in ('validate.py','audit.py')]; print('Both evidence scripts parse')\"\nexit $LASTEXITCODE",
+      "exit_code": 0,
+      "elapsed_seconds": 0.3868039,
+      "output": "Both evidence scripts parse\r\n"
+    },
+    {
+      "name": "Declared validation",
+      "command": "$env:PYTHONUTF8='1'\n& .\\.venv\\Scripts\\python.exe 'evidence/validation/B4_12T2_K1_ROOTED_CORE_001/validate.py'\nexit $LASTEXITCODE",
+      "exit_code": 0,
+      "elapsed_seconds": 0.6371365,
+      "output": "{\"auxiliary_cores\": 1, \"batch_comparison_sha256_raw\": \"f7ac4360a10be00273173259d78b08d2266f08134c1e774d64667163880039df\", \"completed_targets\": [{\"K\": 1, \"bytes\": 6622, \"certificate\": \"target-t3.json\", \"n\": 18, \"sha256_raw\": \"66dbbf3923cd24ae73502bb12e9e78847eb90af4ba847525cbf0c078cccf3b03\", \"t\": 3}, {\"K\": 1, \"bytes\": 6922, \"certificate\": \"target-t4.json\", \"n\": 19, \"sha256_raw\": \"4324c52b520f4a4d0bb8d47431c62a8f660235d1ffc6689dbbb4aec7179698b4\", \"t\": 4}, {\"K\": 1, \"bytes\": 7222, \"certificate\": \"target-t5.json\", \"n\": 20, \"sha256_raw\": \"11bfd1555569c62cac62749a2ae3b3ef1396aada827dc53585ce9f684b2e2fc1\", \"t\": 5}, {\"K\": 1, \"bytes\": 7522, \"certificate\": \"target-t6.json\", \"n\": 21, \"sha256_raw\": \"c2ac38ba7c9d35cdba6af71c69cd643e3e6a44e0bed27bfe186c2370cbb54ae2\", \"t\": 6}], \"computational_enumeration\": 0, \"core_sha256_raw\": \"155539e969f077f3072e3c96651deaf7f0267e67efd74689c244bc2adadc918a\", \"domain_rejections\": 4, \"historical_search_replay\": 0, \"identity_sha256_raw\": \"8f6a15d1e45dc8f5a76237f2f657a55ad8cddcc0a7083d18fdf0be382b65e0ec\", \"retained_recheck_sha256_raw\": \"33e7744f9fbae65adbd3627b3f31ce1cc8bed2394ce24be9a7c5249aa3bc5f83\", \"retained_rechecks\": 1, \"run_id\": \"B4-12T2-K1-ROOTED-CORE-001-20261121\", \"solver_queries\": 0, \"status\": \"PASS\"}\r\n"
+    },
+    {
+      "name": "Independent audit of the same certificates",
+      "command": "$env:PYTHONUTF8='1'\n& .\\.venv\\Scripts\\python.exe 'evidence/validation/B4_12T2_K1_ROOTED_CORE_001/audit.py'\nexit $LASTEXITCODE",
+      "exit_code": 0,
+      "elapsed_seconds": 0.3892182,
+      "output": "{\"additional_completed_targets\": 0, \"additional_cores\": 0, \"computational_enumeration\": 0, \"historical_search_replay\": 0, \"run_id\": \"B4-12T2-K1-ROOTED-CORE-001-20261121\", \"same_auxiliary_cores\": 1, \"same_batch_comparison_sha256_raw\": \"f7ac4360a10be00273173259d78b08d2266f08134c1e774d64667163880039df\", \"same_completed_targets\": [{\"K\": 1, \"bytes\": 6622, \"certificate\": \"target-t3.json\", \"n\": 18, \"sha256_raw\": \"66dbbf3923cd24ae73502bb12e9e78847eb90af4ba847525cbf0c078cccf3b03\", \"t\": 3}, {\"K\": 1, \"bytes\": 6922, \"certificate\": \"target-t4.json\", \"n\": 19, \"sha256_raw\": \"4324c52b520f4a4d0bb8d47431c62a8f660235d1ffc6689dbbb4aec7179698b4\", \"t\": 4}, {\"K\": 1, \"bytes\": 7222, \"certificate\": \"target-t5.json\", \"n\": 20, \"sha256_raw\": \"11bfd1555569c62cac62749a2ae3b3ef1396aada827dc53585ce9f684b2e2fc1\", \"t\": 5}, {\"K\": 1, \"bytes\": 7522, \"certificate\": \"target-t6.json\", \"n\": 21, \"sha256_raw\": \"c2ac38ba7c9d35cdba6af71c69cd643e3e6a44e0bed27bfe186c2370cbb54ae2\", \"t\": 6}], \"same_core_sha256_raw\": \"155539e969f077f3072e3c96651deaf7f0267e67efd74689c244bc2adadc918a\", \"same_domain_rejections\": 4, \"same_retained_recheck_sha256_raw\": \"33e7744f9fbae65adbd3627b3f31ce1cc8bed2394ce24be9a7c5249aa3bc5f83\", \"same_retained_rechecks\": 1, \"solver_queries\": 0, \"status\": \"PASS\"}\r\n"
+    }
+  ]
+}
