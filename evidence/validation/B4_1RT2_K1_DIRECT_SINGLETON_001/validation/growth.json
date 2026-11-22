@@ -1,0 +1,345 @@
+{
+  "K": 1,
+  "additional_graph_records": 0,
+  "direct": {
+    "path": "target-r3-t5.json",
+    "sha256_raw": "a1a65a47e50735e08c13e12143596583c236b385406accc6c5b6fb72523934f0"
+  },
+  "r": 3,
+  "routes": [
+    {
+      "stages": [
+        {
+          "after": {
+            "path": "target-r3-t5.json",
+            "sha256_raw": "a1a65a47e50735e08c13e12143596583c236b385406accc6c5b6fb72523934f0"
+          },
+          "before": {
+            "path": "recheck-target-r3-t3.json",
+            "sha256_raw": "10ee7f79a553b524304d30da959a5c3e28ad02bd5ad86380bc5de900141fdd3a"
+          },
+          "completion": {
+            "difference": 6,
+            "edge": [
+              "s:4",
+              "s:5"
+            ],
+            "label": 7,
+            "vertex": "s:5"
+          },
+          "crossing_spectrum": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "difference_spectrum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "edges": [
+            [
+              "b:2:0",
+              "l:2:0:3"
+            ],
+            [
+              "b:2:0",
+              "l:2:0:4"
+            ]
+          ],
+          "fresh": {
+            "l:2:0:3": 19,
+            "l:2:0:4": 20
+          },
+          "from_t": 3,
+          "label_spectrum": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "port": {
+            "label": 13,
+            "vertex": "s:4"
+          },
+          "to_t": 5,
+          "unused_differences": [
+            6
+          ],
+          "unused_labels": [
+            7
+          ],
+          "zero_host": {
+            "label": 0,
+            "vertex": "b:2:0"
+          }
+        }
+      ],
+      "t_values": [
+        3,
+        5
+      ]
+    },
+    {
+      "stages": [
+        {
+          "after": {
+            "path": "target-r3-t4.json",
+            "sha256_raw": "d373910e432633c6eb8a7f649ee27454152cda25c8248b610e01d1884237d00b"
+          },
+          "before": {
+            "path": "recheck-target-r3-t3.json",
+            "sha256_raw": "10ee7f79a553b524304d30da959a5c3e28ad02bd5ad86380bc5de900141fdd3a"
+          },
+          "completion": {
+            "difference": 6,
+            "edge": [
+              "s:4",
+              "s:5"
+            ],
+            "label": 7,
+            "vertex": "s:5"
+          },
+          "crossing_spectrum": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "difference_spectrum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "edges": [
+            [
+              "b:2:0",
+              "l:2:0:3"
+            ]
+          ],
+          "fresh": {
+            "l:2:0:3": 19
+          },
+          "from_t": 3,
+          "label_spectrum": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "port": {
+            "label": 13,
+            "vertex": "s:4"
+          },
+          "to_t": 4,
+          "unused_differences": [
+            6
+          ],
+          "unused_labels": [
+            7
+          ],
+          "zero_host": {
+            "label": 0,
+            "vertex": "b:2:0"
+          }
+        },
+        {
+          "after": {
+            "path": "target-r3-t5.json",
+            "sha256_raw": "a1a65a47e50735e08c13e12143596583c236b385406accc6c5b6fb72523934f0"
+          },
+          "before": {
+            "path": "target-r3-t4.json",
+            "sha256_raw": "d373910e432633c6eb8a7f649ee27454152cda25c8248b610e01d1884237d00b"
+          },
+          "completion": {
+            "difference": 6,
+            "edge": [
+              "s:4",
+              "s:5"
+            ],
+            "label": 7,
+            "vertex": "s:5"
+          },
+          "crossing_spectrum": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "difference_spectrum": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "edges": [
+            [
+              "b:2:0",
+              "l:2:0:4"
+            ]
+          ],
+          "fresh": {
+            "l:2:0:4": 20
+          },
+          "from_t": 4,
+          "label_spectrum": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "port": {
+            "label": 13,
+            "vertex": "s:4"
+          },
+          "to_t": 5,
+          "unused_differences": [
+            6
+          ],
+          "unused_labels": [
+            7
+          ],
+          "zero_host": {
+            "label": 0,
+            "vertex": "b:2:0"
+          }
+        }
+      ],
+      "t_values": [
+        3,
+        4,
+        5
+      ]
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 21, 2026, Pacific/Honolulu  
-**Stage:** B4-1RT2-TWO-HOST-COMPATIBILITY-001 accepted after separate read-only AI reviews. The exact ordered (1,r,t,2) family is ordinary graceful for all positive integers r,t at K>=2. The K=1 corner r>=3,t>=4 remains open.
+**Stage:** B4-1RT2-K1-DIRECT-SINGLETON-001 accepted after separate read-only AI reviews. The exact ordered (1,r,t,2) family admits ordinary graceful labelings for all positive integers r,t,K.
 
 ## Current scientific objective
 
@@ -10,11 +10,12 @@ Develop independently supplied original-graph boundaries beyond the proved zero-
 
 ## One next action
 
-**With a new bounded scope decision, prove a direct singleton supplier for `[[1],[r],[t],[2],[],[]]` with exact integers `r>=3,t>=4`**, using the accepted ordinary maximum-rooted cores and preserving physical `s:4` and both inventories.
+**With a new bounded scope decision, test the retained general-host upper-block insertion for first-branch growth on the normalized `[[1],[3],[4],[2],[]]` ledger**, preserving the original `s:4` exit for nonadjacent completion at `K>=2`.
 
 ## What is established in this package
 
 - Both authenticated upstream main heads match the pinned audit commits. The repositories remain unchanged.
+- B4-1RT2-K1-DIRECT-SINGLETON-001 uses the independently supplied C_r core with physical s:2 maximum to complete `[[1],[r],[t],[2],[],[]]` for exact integers r>=3,t>=4. It returns R={r+4}, D={6} at physical s:4=r+10 and assigns s:5=r+4. The complete ordinary crossing cut supports second-host growth compatible with the third zero host. The selector gives ordinary gracefulness of the exact (1,r,t,2) family for every positive r,t,K. Three retained cores, one retained completed control, four new targets, eight invalid pairs and one adverse digest check passed with zero solver calls. See `research/B4_1RT2_K1_DIRECT_SINGLETON.md`, D051 and `evidence/validation/B4_1RT2_K1_DIRECT_SINGLETON_001/`.
 - B4-1RT2-TWO-HOST-COMPATIBILITY-001 proves pointwise compatibility of minimum-high and zero-host growth under finite named interleavings. The explicit 1232 seed supplies A(r+t+12,r+6;1,1) for exact integers r>=3,t>=4 with unchanged physical ports and witness. At K>=2, R=[r+6,r+K+5], D=[1,K] at physical s:4=r+K+7 gives ordinary gracefulness on the original path. The selector covers all positive r,t at K>=2. Four retained controls, three prefixes, four completions and twelve invalid probes passed with zero search. See `research/B4_1RT2_TWO_HOST_COMPATIBILITY.md`, D050 and `evidence/validation/B4_1RT2_TWO_HOST_COMPATIBILITY_001/`. The earlier K=1 campaign's reproduction instructions have an additive erratum in `docs/REPRODUCTION_ERRATA.md`.
 - B4-1R32-K1-ROOTED-CORE-001 supplies a graceful core `[[1],[r],[],[2],[],[]]` with physical s:2=r+11 for exact integers r>=3. The fixed-third-size lift supplies R={r+4}, D={6} at physical s:4=r+10, with original s:5=r+4. The core and completed-target crossing cuts support pointwise named growth in either order with the lift. This gives the remaining r>=3,K=1 supply. One retained recheck, three auxiliary cores, three completed targets and four invalid probes passed with zero solver calls. See `research/B4_1R32_K1_ROOTED_CORE.md`, D049 and `evidence/validation/B4_1R32_K1_ROOTED_CORE_001/`.
 - B4-1R32-MINIMUM-HIGH-SUPPLIER-001 applies the accepted minimum-high extension to the retained 1232 seed at actual b:1:0. It supplies A(r+15,r+6;1,1) for exact integer r>=3 on `[[1],[r],[3],[2],[]]`, retaining the third zero host and the original witness. The shift at p=r+6 leaves R=[r+6,r+K+5], D=[1,K] at s:4=r+K+7 and gives ordinary gracefulness for r,K in the new domain r>=3,K>=2. One retained recheck, three new prefixes, four completions and eight domain rejections passed with no solver. See `research/B4_1R32_MINIMUM_HIGH_SUPPLIER.md`, D048 and `evidence/validation/B4_1R32_MINIMUM_HIGH_SUPPLIER_001/`.

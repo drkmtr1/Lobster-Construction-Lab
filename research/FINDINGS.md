@@ -685,3 +685,33 @@ enumeration, historical replay or production change.
 [Lemma](ALPHA_MINIMUM_HIGH_ZERO_HOST_COMPATIBILITY.md)
 · [Family proof](B4_1RT2_TWO_HOST_COMPATIBILITY.md)
 · [Evidence](../evidence/validation/B4_1RT2_TWO_HOST_COMPATIBILITY_001/README.md) · D050
+
+## B4-1RT2-K1-DIRECT-SINGLETON-001
+
+**ACCEPT** the direct singleton and ordinary gracefulness of
+`[[1],[r],[t],[2],[],[]]` for exact integers r>=3,t>=4. The
+independently supplied maximum-rooted core translates by one.
+The restored third center is zero, its attachment has weight
+r+12, and its terminal edges have weights [r+13,r+t+12].
+The original s:4=r+10 leaves R={r+4}, D={6}, consumed by
+s:5=r+4 on the sole unfinished edge.
+
+**ACCEPT** finite named third growth and restricted ordinary
+two-host compatibility on these completed states. At cut r+2
+the full crossing and noncrossing spectra are [7,r+t+12] and
+[1,6]. Second-host crossing-cut insertion and third zero-host
+growth preserve both premises and agree pointwise under finite
+interleavings with the prescribed leaf orders.
+
+**ACCEPT** the seven-case selector for ordinary gracefulness of
+the exact ordered (1,r,t,2) family for all positive integers r,t,K.
+Its separate cases retain their own boundary contracts.
+
+Three retained cores, one retained completed control and four
+new completed targets passed, with eight pre-expansion domain
+rejections and one wrong-digest rejection. Both read-only AI
+reviews and the same-record audit accepted the bounded checks.
+Batch comparisons and the adverse check add no graph cases. No
+solver, enumeration or replay ran.
+[Proof](B4_1RT2_K1_DIRECT_SINGLETON.md)
+· [Evidence](../evidence/validation/B4_1RT2_K1_DIRECT_SINGLETON_001/README.md) · D051

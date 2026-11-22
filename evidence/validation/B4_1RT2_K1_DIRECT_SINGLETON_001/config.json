@@ -1,0 +1,21 @@
+{
+  "run_id": "B4-1RT2-K1-DIRECT-SINGLETON-001-20261121",
+  "parent": "3e10c022f834cfae053aaef9581697bf6c21002d",
+  "worker_count": 1,
+  "max_vertices": 24,
+  "max_result_bytes": 2000000,
+  "solver_queries": 0,
+  "labeling_enumeration": 0,
+  "historical_replays": 0,
+  "K": 1,
+  "retained_bundle": "evidence/validation/B4_1R32_K1_ROOTED_CORE_001/validation",
+  "retained_cores": [[3, 15], [4, 16], [5, 17]],
+  "retained_control": [3, 3, 1, 19],
+  "targets": [[3, 4, 1, 20], [3, 5, 1, 21], [4, 4, 1, 21], [5, 6, 1, 24]],
+  "growth_routes": [[3, 5], [3, 4, 5]],
+  "invalid": [
+    [true, 4], [3.0, 4], ["3", 4], [2, 4],
+    [3, true], [3, 4.0], [3, "4"], [3, 3]
+  ],
+  "adverse": {"r": 3, "t": 4, "K": 1, "kind": "mismatched original-graph digest"}
+}

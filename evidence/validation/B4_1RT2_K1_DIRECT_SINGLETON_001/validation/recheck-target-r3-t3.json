@@ -1,0 +1,657 @@
+{
+  "completion": {
+    "difference": 6,
+    "edge": [
+      "s:4",
+      "s:5"
+    ],
+    "label": 7,
+    "vertex": "s:5"
+  },
+  "core": {
+    "graph_digest": "a7006e34c707623fa24337eea938c14e143593d91eba35b03820010fafbc110e",
+    "recheck": {
+      "path": "recheck-core-r3.json",
+      "sha256_raw": "fc8777454f5bf148cb1162239be4d7156614edeee7df7e23d4e1995c3a4ddf45"
+    },
+    "saved_certificate": {
+      "path": "evidence/validation/B4_1R32_K1_ROOTED_CORE_001/validation/core-r3.json",
+      "sha256_raw": "d4924ded45f2c2e9cd2e72fc3745531c34a48cc0b694a3825d12406d8286fc04"
+    }
+  },
+  "crossing_edge": [
+    "s:4",
+    "s:5"
+  ],
+  "cut": {
+    "below": [
+      "b:2:0",
+      "l:1:0:1",
+      "l:1:0:2",
+      "s:1",
+      "s:3"
+    ],
+    "c": 5,
+    "crossing": [
+      {
+        "difference": 9,
+        "edge": [
+          "s:0",
+          "s:1"
+        ]
+      },
+      {
+        "difference": 14,
+        "edge": [
+          "s:1",
+          "s:2"
+        ]
+      },
+      {
+        "difference": 13,
+        "edge": [
+          "s:2",
+          "s:3"
+        ]
+      },
+      {
+        "difference": 11,
+        "edge": [
+          "s:3",
+          "s:4"
+        ]
+      },
+      {
+        "difference": 10,
+        "edge": [
+          "s:1",
+          "b:1:0"
+        ]
+      },
+      {
+        "difference": 8,
+        "edge": [
+          "b:1:0",
+          "l:1:0:1"
+        ]
+      },
+      {
+        "difference": 7,
+        "edge": [
+          "b:1:0",
+          "l:1:0:2"
+        ]
+      },
+      {
+        "difference": 15,
+        "edge": [
+          "s:2",
+          "b:2:0"
+        ]
+      },
+      {
+        "difference": 16,
+        "edge": [
+          "b:2:0",
+          "l:2:0:0"
+        ]
+      },
+      {
+        "difference": 17,
+        "edge": [
+          "b:2:0",
+          "l:2:0:1"
+        ]
+      },
+      {
+        "difference": 18,
+        "edge": [
+          "b:2:0",
+          "l:2:0:2"
+        ]
+      },
+      {
+        "difference": 12,
+        "edge": [
+          "s:3",
+          "b:3:0"
+        ]
+      }
+    ],
+    "crossing_spectrum": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "host": "b:1:0",
+    "host_label": 11,
+    "m": 18,
+    "noncrossing": [
+      {
+        "difference": 6,
+        "edge": [
+          "s:4",
+          "s:5"
+        ]
+      },
+      {
+        "difference": 4,
+        "edge": [
+          "s:0",
+          "b:0:0"
+        ]
+      },
+      {
+        "difference": 1,
+        "edge": [
+          "b:0:0",
+          "l:0:0:0"
+        ]
+      },
+      {
+        "difference": 3,
+        "edge": [
+          "b:1:0",
+          "l:1:0:0"
+        ]
+      },
+      {
+        "difference": 2,
+        "edge": [
+          "b:3:0",
+          "l:3:0:0"
+        ]
+      },
+      {
+        "difference": 5,
+        "edge": [
+          "b:3:0",
+          "l:3:0:1"
+        ]
+      }
+    ],
+    "noncrossing_spectrum": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  "edge_ledger": [
+    {
+      "difference": 9,
+      "edge": [
+        "s:0",
+        "s:1"
+      ]
+    },
+    {
+      "difference": 14,
+      "edge": [
+        "s:1",
+        "s:2"
+      ]
+    },
+    {
+      "difference": 13,
+      "edge": [
+        "s:2",
+        "s:3"
+      ]
+    },
+    {
+      "difference": 11,
+      "edge": [
+        "s:3",
+        "s:4"
+      ]
+    },
+    {
+      "difference": 6,
+      "edge": [
+        "s:4",
+        "s:5"
+      ]
+    },
+    {
+      "difference": 4,
+      "edge": [
+        "s:0",
+        "b:0:0"
+      ]
+    },
+    {
+      "difference": 1,
+      "edge": [
+        "b:0:0",
+        "l:0:0:0"
+      ]
+    },
+    {
+      "difference": 10,
+      "edge": [
+        "s:1",
+        "b:1:0"
+      ]
+    },
+    {
+      "difference": 3,
+      "edge": [
+        "b:1:0",
+        "l:1:0:0"
+      ]
+    },
+    {
+      "difference": 8,
+      "edge": [
+        "b:1:0",
+        "l:1:0:1"
+      ]
+    },
+    {
+      "difference": 7,
+      "edge": [
+        "b:1:0",
+        "l:1:0:2"
+      ]
+    },
+    {
+      "difference": 15,
+      "edge": [
+        "s:2",
+        "b:2:0"
+      ]
+    },
+    {
+      "difference": 16,
+      "edge": [
+        "b:2:0",
+        "l:2:0:0"
+      ]
+    },
+    {
+      "difference": 17,
+      "edge": [
+        "b:2:0",
+        "l:2:0:1"
+      ]
+    },
+    {
+      "difference": 18,
+      "edge": [
+        "b:2:0",
+        "l:2:0:2"
+      ]
+    },
+    {
+      "difference": 12,
+      "edge": [
+        "s:3",
+        "b:3:0"
+      ]
+    },
+    {
+      "difference": 2,
+      "edge": [
+        "b:3:0",
+        "l:3:0:0"
+      ]
+    },
+    {
+      "difference": 5,
+      "edge": [
+        "b:3:0",
+        "l:3:0:1"
+      ]
+    }
+  ],
+  "labels": {
+    "b:0:0": 6,
+    "b:1:0": 11,
+    "b:2:0": 0,
+    "b:3:0": 14,
+    "l:0:0:0": 5,
+    "l:1:0:0": 8,
+    "l:1:0:1": 3,
+    "l:1:0:2": 4,
+    "l:2:0:0": 16,
+    "l:2:0:1": 17,
+    "l:2:0:2": 18,
+    "l:3:0:0": 12,
+    "l:3:0:1": 9,
+    "s:0": 10,
+    "s:1": 1,
+    "s:2": 15,
+    "s:3": 2,
+    "s:4": 13,
+    "s:5": 7
+  },
+  "original": {
+    "graph_digest": "c385bf98c2d14aa63fae60374bdc1a56c630538d7e26e8ff2f943893ca29b087",
+    "path": "evidence/validation/B4_1R32_K1_ROOTED_CORE_001/validation/originals/target-r3.json",
+    "sha256_raw": "efda9d642b60620fd8fce3d7ce98ad831ca8d1ba2471297e53ae56b45193261f"
+  },
+  "parameters": {
+    "K": 1,
+    "r": 3,
+    "t": 3
+  },
+  "partial_verification": {
+    "claim": "partial assignment only; no completion or independent-supplier claim",
+    "complete": false,
+    "errors": [],
+    "frontier": [
+      "s:4"
+    ],
+    "graph_digest": "c385bf98c2d14aa63fae60374bdc1a56c630538d7e26e8ff2f943893ca29b087",
+    "m": 18,
+    "n": 19,
+    "unused_differences": [
+      6
+    ],
+    "unused_labels": [
+      7
+    ],
+    "used_differences": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "used_labels": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "valid": true
+  },
+  "port": {
+    "label": 13,
+    "vertex": "s:4"
+  },
+  "prefix": {
+    "b:0:0": 6,
+    "b:1:0": 11,
+    "b:2:0": 0,
+    "b:3:0": 14,
+    "l:0:0:0": 5,
+    "l:1:0:0": 8,
+    "l:1:0:1": 3,
+    "l:1:0:2": 4,
+    "l:2:0:0": 16,
+    "l:2:0:1": 17,
+    "l:2:0:2": 18,
+    "l:3:0:0": 12,
+    "l:3:0:1": 9,
+    "s:0": 10,
+    "s:1": 1,
+    "s:2": 15,
+    "s:3": 2,
+    "s:4": 13
+  },
+  "prefix_edge_ledger": [
+    {
+      "difference": 9,
+      "edge": [
+        "s:0",
+        "s:1"
+      ]
+    },
+    {
+      "difference": 14,
+      "edge": [
+        "s:1",
+        "s:2"
+      ]
+    },
+    {
+      "difference": 13,
+      "edge": [
+        "s:2",
+        "s:3"
+      ]
+    },
+    {
+      "difference": 11,
+      "edge": [
+        "s:3",
+        "s:4"
+      ]
+    },
+    {
+      "difference": 4,
+      "edge": [
+        "s:0",
+        "b:0:0"
+      ]
+    },
+    {
+      "difference": 1,
+      "edge": [
+        "b:0:0",
+        "l:0:0:0"
+      ]
+    },
+    {
+      "difference": 10,
+      "edge": [
+        "s:1",
+        "b:1:0"
+      ]
+    },
+    {
+      "difference": 3,
+      "edge": [
+        "b:1:0",
+        "l:1:0:0"
+      ]
+    },
+    {
+      "difference": 8,
+      "edge": [
+        "b:1:0",
+        "l:1:0:1"
+      ]
+    },
+    {
+      "difference": 7,
+      "edge": [
+        "b:1:0",
+        "l:1:0:2"
+      ]
+    },
+    {
+      "difference": 15,
+      "edge": [
+        "s:2",
+        "b:2:0"
+      ]
+    },
+    {
+      "difference": 16,
+      "edge": [
+        "b:2:0",
+        "l:2:0:0"
+      ]
+    },
+    {
+      "difference": 17,
+      "edge": [
+        "b:2:0",
+        "l:2:0:1"
+      ]
+    },
+    {
+      "difference": 18,
+      "edge": [
+        "b:2:0",
+        "l:2:0:2"
+      ]
+    },
+    {
+      "difference": 12,
+      "edge": [
+        "s:3",
+        "b:3:0"
+      ]
+    },
+    {
+      "difference": 2,
+      "edge": [
+        "b:3:0",
+        "l:3:0:0"
+      ]
+    },
+    {
+      "difference": 5,
+      "edge": [
+        "b:3:0",
+        "l:3:0:1"
+      ]
+    }
+  ],
+  "prefix_witness": {
+    "distances": {
+      "b:0:0": 1,
+      "b:1:0": 1,
+      "b:2:0": 1,
+      "b:3:0": 1,
+      "l:0:0:0": 2,
+      "l:1:0:0": 2,
+      "l:1:0:1": 2,
+      "l:1:0:2": 2,
+      "l:2:0:0": 2,
+      "l:2:0:1": 2,
+      "l:2:0:2": 2,
+      "l:3:0:0": 2,
+      "l:3:0:1": 2,
+      "s:0": 0,
+      "s:1": 0,
+      "s:2": 0,
+      "s:3": 0,
+      "s:4": 0
+    },
+    "path": [
+      "s:0",
+      "s:1",
+      "s:2",
+      "s:3",
+      "s:4"
+    ]
+  },
+  "remaining_vertices": [
+    "s:5"
+  ],
+  "saved_certificate": {
+    "path": "evidence/validation/B4_1R32_K1_ROOTED_CORE_001/validation/target-r3.json",
+    "sha256_raw": "4105dbbcd94515641849cec39096eb5e20fbe16b61f5eca2e76fcbc81673632f"
+  },
+  "unused_differences": [
+    6
+  ],
+  "unused_labels": [
+    7
+  ],
+  "verification": {
+    "claim": "finite certificate for this exact named target only",
+    "edge_differences": [
+      9,
+      14,
+      13,
+      11,
+      6,
+      4,
+      1,
+      10,
+      3,
+      8,
+      7,
+      15,
+      16,
+      17,
+      18,
+      12,
+      2,
+      5
+    ],
+    "errors": [],
+    "graph_digest": "c385bf98c2d14aa63fae60374bdc1a56c630538d7e26e8ff2f943893ca29b087",
+    "m": 18,
+    "n": 19,
+    "valid": true
+  },
+  "witness": {
+    "distances": {
+      "b:0:0": 1,
+      "b:1:0": 1,
+      "b:2:0": 1,
+      "b:3:0": 1,
+      "l:0:0:0": 2,
+      "l:1:0:0": 2,
+      "l:1:0:1": 2,
+      "l:1:0:2": 2,
+      "l:2:0:0": 2,
+      "l:2:0:1": 2,
+      "l:2:0:2": 2,
+      "l:3:0:0": 2,
+      "l:3:0:1": 2,
+      "s:0": 0,
+      "s:1": 0,
+      "s:2": 0,
+      "s:3": 0,
+      "s:4": 0,
+      "s:5": 0
+    },
+    "path": [
+      "s:0",
+      "s:1",
+      "s:2",
+      "s:3",
+      "s:4",
+      "s:5"
+    ]
+  },
+  "zero_host": {
+    "label": 0,
+    "vertex": "b:2:0"
+  }
+}

@@ -1,0 +1,800 @@
+{
+  "completion": {
+    "difference": 6,
+    "edge": [
+      "s:4",
+      "s:5"
+    ],
+    "label": 9,
+    "vertex": "s:5"
+  },
+  "core": {
+    "graph_digest": "eb39e69570cf0f8e6e62b4ad20c7441b2114769e076e4028d47496dc5ddb896b",
+    "recheck": {
+      "path": "recheck-core-r5.json",
+      "sha256_raw": "a913811a2c65bc945936e6983402cf4b04184df5edcda4205e06dcd01a295bda"
+    },
+    "saved_certificate": {
+      "path": "evidence/validation/B4_1R32_K1_ROOTED_CORE_001/validation/core-r5.json",
+      "sha256_raw": "a426d1d5e0abbb9ce693624a64ba6d903143e8f6fd36854909b66a13856f7522"
+    }
+  },
+  "crossing_edge": [
+    "s:4",
+    "s:5"
+  ],
+  "cut": {
+    "below": [
+      "b:2:0",
+      "l:1:0:1",
+      "l:1:0:2",
+      "l:1:0:3",
+      "l:1:0:4",
+      "s:1",
+      "s:3"
+    ],
+    "c": 7,
+    "crossing": [
+      {
+        "difference": 11,
+        "edge": [
+          "s:0",
+          "s:1"
+        ]
+      },
+      {
+        "difference": 16,
+        "edge": [
+          "s:1",
+          "s:2"
+        ]
+      },
+      {
+        "difference": 15,
+        "edge": [
+          "s:2",
+          "s:3"
+        ]
+      },
+      {
+        "difference": 13,
+        "edge": [
+          "s:3",
+          "s:4"
+        ]
+      },
+      {
+        "difference": 12,
+        "edge": [
+          "s:1",
+          "b:1:0"
+        ]
+      },
+      {
+        "difference": 10,
+        "edge": [
+          "b:1:0",
+          "l:1:0:1"
+        ]
+      },
+      {
+        "difference": 9,
+        "edge": [
+          "b:1:0",
+          "l:1:0:2"
+        ]
+      },
+      {
+        "difference": 8,
+        "edge": [
+          "b:1:0",
+          "l:1:0:3"
+        ]
+      },
+      {
+        "difference": 7,
+        "edge": [
+          "b:1:0",
+          "l:1:0:4"
+        ]
+      },
+      {
+        "difference": 17,
+        "edge": [
+          "s:2",
+          "b:2:0"
+        ]
+      },
+      {
+        "difference": 18,
+        "edge": [
+          "b:2:0",
+          "l:2:0:0"
+        ]
+      },
+      {
+        "difference": 19,
+        "edge": [
+          "b:2:0",
+          "l:2:0:1"
+        ]
+      },
+      {
+        "difference": 20,
+        "edge": [
+          "b:2:0",
+          "l:2:0:2"
+        ]
+      },
+      {
+        "difference": 21,
+        "edge": [
+          "b:2:0",
+          "l:2:0:3"
+        ]
+      },
+      {
+        "difference": 22,
+        "edge": [
+          "b:2:0",
+          "l:2:0:4"
+        ]
+      },
+      {
+        "difference": 23,
+        "edge": [
+          "b:2:0",
+          "l:2:0:5"
+        ]
+      },
+      {
+        "difference": 14,
+        "edge": [
+          "s:3",
+          "b:3:0"
+        ]
+      }
+    ],
+    "crossing_spectrum": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "host": "b:1:0",
+    "host_label": 13,
+    "m": 23,
+    "noncrossing": [
+      {
+        "difference": 6,
+        "edge": [
+          "s:4",
+          "s:5"
+        ]
+      },
+      {
+        "difference": 4,
+        "edge": [
+          "s:0",
+          "b:0:0"
+        ]
+      },
+      {
+        "difference": 1,
+        "edge": [
+          "b:0:0",
+          "l:0:0:0"
+        ]
+      },
+      {
+        "difference": 3,
+        "edge": [
+          "b:1:0",
+          "l:1:0:0"
+        ]
+      },
+      {
+        "difference": 2,
+        "edge": [
+          "b:3:0",
+          "l:3:0:0"
+        ]
+      },
+      {
+        "difference": 5,
+        "edge": [
+          "b:3:0",
+          "l:3:0:1"
+        ]
+      }
+    ],
+    "noncrossing_spectrum": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  "edge_ledger": [
+    {
+      "difference": 11,
+      "edge": [
+        "s:0",
+        "s:1"
+      ]
+    },
+    {
+      "difference": 16,
+      "edge": [
+        "s:1",
+        "s:2"
+      ]
+    },
+    {
+      "difference": 15,
+      "edge": [
+        "s:2",
+        "s:3"
+      ]
+    },
+    {
+      "difference": 13,
+      "edge": [
+        "s:3",
+        "s:4"
+      ]
+    },
+    {
+      "difference": 6,
+      "edge": [
+        "s:4",
+        "s:5"
+      ]
+    },
+    {
+      "difference": 4,
+      "edge": [
+        "s:0",
+        "b:0:0"
+      ]
+    },
+    {
+      "difference": 1,
+      "edge": [
+        "b:0:0",
+        "l:0:0:0"
+      ]
+    },
+    {
+      "difference": 12,
+      "edge": [
+        "s:1",
+        "b:1:0"
+      ]
+    },
+    {
+      "difference": 3,
+      "edge": [
+        "b:1:0",
+        "l:1:0:0"
+      ]
+    },
+    {
+      "difference": 10,
+      "edge": [
+        "b:1:0",
+        "l:1:0:1"
+      ]
+    },
+    {
+      "difference": 9,
+      "edge": [
+        "b:1:0",
+        "l:1:0:2"
+      ]
+    },
+    {
+      "difference": 8,
+      "edge": [
+        "b:1:0",
+        "l:1:0:3"
+      ]
+    },
+    {
+      "difference": 7,
+      "edge": [
+        "b:1:0",
+        "l:1:0:4"
+      ]
+    },
+    {
+      "difference": 17,
+      "edge": [
+        "s:2",
+        "b:2:0"
+      ]
+    },
+    {
+      "difference": 18,
+      "edge": [
+        "b:2:0",
+        "l:2:0:0"
+      ]
+    },
+    {
+      "difference": 19,
+      "edge": [
+        "b:2:0",
+        "l:2:0:1"
+      ]
+    },
+    {
+      "difference": 20,
+      "edge": [
+        "b:2:0",
+        "l:2:0:2"
+      ]
+    },
+    {
+      "difference": 21,
+      "edge": [
+        "b:2:0",
+        "l:2:0:3"
+      ]
+    },
+    {
+      "difference": 22,
+      "edge": [
+        "b:2:0",
+        "l:2:0:4"
+      ]
+    },
+    {
+      "difference": 23,
+      "edge": [
+        "b:2:0",
+        "l:2:0:5"
+      ]
+    },
+    {
+      "difference": 14,
+      "edge": [
+        "s:3",
+        "b:3:0"
+      ]
+    },
+    {
+      "difference": 2,
+      "edge": [
+        "b:3:0",
+        "l:3:0:0"
+      ]
+    },
+    {
+      "difference": 5,
+      "edge": [
+        "b:3:0",
+        "l:3:0:1"
+      ]
+    }
+  ],
+  "labels": {
+    "b:0:0": 8,
+    "b:1:0": 13,
+    "b:2:0": 0,
+    "b:3:0": 16,
+    "l:0:0:0": 7,
+    "l:1:0:0": 10,
+    "l:1:0:1": 3,
+    "l:1:0:2": 4,
+    "l:1:0:3": 5,
+    "l:1:0:4": 6,
+    "l:2:0:0": 18,
+    "l:2:0:1": 19,
+    "l:2:0:2": 20,
+    "l:2:0:3": 21,
+    "l:2:0:4": 22,
+    "l:2:0:5": 23,
+    "l:3:0:0": 14,
+    "l:3:0:1": 11,
+    "s:0": 12,
+    "s:1": 1,
+    "s:2": 17,
+    "s:3": 2,
+    "s:4": 15,
+    "s:5": 9
+  },
+  "original": {
+    "graph_digest": "2e4849141c58ea5f20e9e081641932680e28cfe50117555b2fa549b9fe46faf7",
+    "path": "originals/target-r5-t6.json",
+    "sha256_raw": "453674e3e3e84553d24d04c9c658b1503654ba16d4b7860f31345690ea3c193e"
+  },
+  "parameters": {
+    "K": 1,
+    "r": 5,
+    "t": 6
+  },
+  "partial_verification": {
+    "claim": "partial assignment only; no completion or independent-supplier claim",
+    "complete": false,
+    "errors": [],
+    "frontier": [
+      "s:4"
+    ],
+    "graph_digest": "2e4849141c58ea5f20e9e081641932680e28cfe50117555b2fa549b9fe46faf7",
+    "m": 23,
+    "n": 24,
+    "unused_differences": [
+      6
+    ],
+    "unused_labels": [
+      9
+    ],
+    "used_differences": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "used_labels": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "valid": true
+  },
+  "port": {
+    "label": 15,
+    "vertex": "s:4"
+  },
+  "prefix": {
+    "b:0:0": 8,
+    "b:1:0": 13,
+    "b:2:0": 0,
+    "b:3:0": 16,
+    "l:0:0:0": 7,
+    "l:1:0:0": 10,
+    "l:1:0:1": 3,
+    "l:1:0:2": 4,
+    "l:1:0:3": 5,
+    "l:1:0:4": 6,
+    "l:2:0:0": 18,
+    "l:2:0:1": 19,
+    "l:2:0:2": 20,
+    "l:2:0:3": 21,
+    "l:2:0:4": 22,
+    "l:2:0:5": 23,
+    "l:3:0:0": 14,
+    "l:3:0:1": 11,
+    "s:0": 12,
+    "s:1": 1,
+    "s:2": 17,
+    "s:3": 2,
+    "s:4": 15
+  },
+  "prefix_edge_ledger": [
+    {
+      "difference": 11,
+      "edge": [
+        "s:0",
+        "s:1"
+      ]
+    },
+    {
+      "difference": 16,
+      "edge": [
+        "s:1",
+        "s:2"
+      ]
+    },
+    {
+      "difference": 15,
+      "edge": [
+        "s:2",
+        "s:3"
+      ]
+    },
+    {
+      "difference": 13,
+      "edge": [
+        "s:3",
+        "s:4"
+      ]
+    },
+    {
+      "difference": 4,
+      "edge": [
+        "s:0",
+        "b:0:0"
+      ]
+    },
+    {
+      "difference": 1,
+      "edge": [
+        "b:0:0",
+        "l:0:0:0"
+      ]
+    },
+    {
+      "difference": 12,
+      "edge": [
+        "s:1",
+        "b:1:0"
+      ]
+    },
+    {
+      "difference": 3,
+      "edge": [
+        "b:1:0",
+        "l:1:0:0"
+      ]
+    },
+    {
+      "difference": 10,
+      "edge": [
+        "b:1:0",
+        "l:1:0:1"
+      ]
+    },
+    {
+      "difference": 9,
+      "edge": [
+        "b:1:0",
+        "l:1:0:2"
+      ]
+    },
+    {
+      "difference": 8,
+      "edge": [
+        "b:1:0",
+        "l:1:0:3"
+      ]
+    },
+    {
+      "difference": 7,
+      "edge": [
+        "b:1:0",
+        "l:1:0:4"
+      ]
+    },
+    {
+      "difference": 17,
+      "edge": [
+        "s:2",
+        "b:2:0"
+      ]
+    },
+    {
+      "difference": 18,
+      "edge": [
+        "b:2:0",
+        "l:2:0:0"
+      ]
+    },
+    {
+      "difference": 19,
+      "edge": [
+        "b:2:0",
+        "l:2:0:1"
+      ]
+    },
+    {
+      "difference": 20,
+      "edge": [
+        "b:2:0",
+        "l:2:0:2"
+      ]
+    },
+    {
+      "difference": 21,
+      "edge": [
+        "b:2:0",
+        "l:2:0:3"
+      ]
+    },
+    {
+      "difference": 22,
+      "edge": [
+        "b:2:0",
+        "l:2:0:4"
+      ]
+    },
+    {
+      "difference": 23,
+      "edge": [
+        "b:2:0",
+        "l:2:0:5"
+      ]
+    },
+    {
+      "difference": 14,
+      "edge": [
+        "s:3",
+        "b:3:0"
+      ]
+    },
+    {
+      "difference": 2,
+      "edge": [
+        "b:3:0",
+        "l:3:0:0"
+      ]
+    },
+    {
+      "difference": 5,
+      "edge": [
+        "b:3:0",
+        "l:3:0:1"
+      ]
+    }
+  ],
+  "prefix_witness": {
+    "distances": {
+      "b:0:0": 1,
+      "b:1:0": 1,
+      "b:2:0": 1,
+      "b:3:0": 1,
+      "l:0:0:0": 2,
+      "l:1:0:0": 2,
+      "l:1:0:1": 2,
+      "l:1:0:2": 2,
+      "l:1:0:3": 2,
+      "l:1:0:4": 2,
+      "l:2:0:0": 2,
+      "l:2:0:1": 2,
+      "l:2:0:2": 2,
+      "l:2:0:3": 2,
+      "l:2:0:4": 2,
+      "l:2:0:5": 2,
+      "l:3:0:0": 2,
+      "l:3:0:1": 2,
+      "s:0": 0,
+      "s:1": 0,
+      "s:2": 0,
+      "s:3": 0,
+      "s:4": 0
+    },
+    "path": [
+      "s:0",
+      "s:1",
+      "s:2",
+      "s:3",
+      "s:4"
+    ]
+  },
+  "remaining_vertices": [
+    "s:5"
+  ],
+  "unused_differences": [
+    6
+  ],
+  "unused_labels": [
+    9
+  ],
+  "verification": {
+    "claim": "finite certificate for this exact named target only",
+    "edge_differences": [
+      11,
+      16,
+      15,
+      13,
+      6,
+      4,
+      1,
+      12,
+      3,
+      10,
+      9,
+      8,
+      7,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      14,
+      2,
+      5
+    ],
+    "errors": [],
+    "graph_digest": "2e4849141c58ea5f20e9e081641932680e28cfe50117555b2fa549b9fe46faf7",
+    "m": 23,
+    "n": 24,
+    "valid": true
+  },
+  "witness": {
+    "distances": {
+      "b:0:0": 1,
+      "b:1:0": 1,
+      "b:2:0": 1,
+      "b:3:0": 1,
+      "l:0:0:0": 2,
+      "l:1:0:0": 2,
+      "l:1:0:1": 2,
+      "l:1:0:2": 2,
+      "l:1:0:3": 2,
+      "l:1:0:4": 2,
+      "l:2:0:0": 2,
+      "l:2:0:1": 2,
+      "l:2:0:2": 2,
+      "l:2:0:3": 2,
+      "l:2:0:4": 2,
+      "l:2:0:5": 2,
+      "l:3:0:0": 2,
+      "l:3:0:1": 2,
+      "s:0": 0,
+      "s:1": 0,
+      "s:2": 0,
+      "s:3": 0,
+      "s:4": 0,
+      "s:5": 0
+    },
+    "path": [
+      "s:0",
+      "s:1",
+      "s:2",
+      "s:3",
+      "s:4",
+      "s:5"
+    ]
+  },
+  "zero_host": {
+    "label": 0,
+    "vertex": "b:2:0"
+  }
+}

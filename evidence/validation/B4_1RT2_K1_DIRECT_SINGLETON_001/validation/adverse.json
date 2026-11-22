@@ -1,0 +1,47 @@
+{
+  "actual_graph_digest": "7fd6fd27904fac710356aa02102d823e4a6cb0531be753648d9d84225e4b5c65",
+  "additional_graph_records": 0,
+  "certificate": {
+    "path": "target-r3-t4.json",
+    "sha256_raw": "d373910e432633c6eb8a7f649ee27454152cda25c8248b610e01d1884237d00b"
+  },
+  "gist": "Same original named graph and labels with only the expected digest changed",
+  "kind": "mismatched original-graph digest",
+  "parameters": {
+    "K": 1,
+    "r": 3,
+    "t": 4
+  },
+  "supplied_graph_digest": "0fd6fd27904fac710356aa02102d823e4a6cb0531be753648d9d84225e4b5c65",
+  "verification": {
+    "claim": "finite certificate for this exact named target only",
+    "edge_differences": [
+      9,
+      14,
+      13,
+      11,
+      6,
+      4,
+      1,
+      10,
+      3,
+      8,
+      7,
+      15,
+      16,
+      17,
+      18,
+      19,
+      12,
+      2,
+      5
+    ],
+    "errors": [
+      "original graph digest mismatch"
+    ],
+    "graph_digest": "7fd6fd27904fac710356aa02102d823e4a6cb0531be753648d9d84225e4b5c65",
+    "m": 19,
+    "n": 20,
+    "valid": false
+  }
+}

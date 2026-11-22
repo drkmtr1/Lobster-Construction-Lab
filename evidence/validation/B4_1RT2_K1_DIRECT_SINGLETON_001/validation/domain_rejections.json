@@ -1,0 +1,98 @@
+[
+  {
+    "arguments": [
+      true,
+      4
+    ],
+    "error": "r must be an exact integer >= 3",
+    "graph_builder_calls": 0,
+    "types": [
+      "bool",
+      "int"
+    ]
+  },
+  {
+    "arguments": [
+      3.0,
+      4
+    ],
+    "error": "r must be an exact integer >= 3",
+    "graph_builder_calls": 0,
+    "types": [
+      "float",
+      "int"
+    ]
+  },
+  {
+    "arguments": [
+      "3",
+      4
+    ],
+    "error": "r must be an exact integer >= 3",
+    "graph_builder_calls": 0,
+    "types": [
+      "str",
+      "int"
+    ]
+  },
+  {
+    "arguments": [
+      2,
+      4
+    ],
+    "error": "r must be an exact integer >= 3",
+    "graph_builder_calls": 0,
+    "types": [
+      "int",
+      "int"
+    ]
+  },
+  {
+    "arguments": [
+      3,
+      true
+    ],
+    "error": "t must be an exact integer >= 4",
+    "graph_builder_calls": 0,
+    "types": [
+      "int",
+      "bool"
+    ]
+  },
+  {
+    "arguments": [
+      3,
+      4.0
+    ],
+    "error": "t must be an exact integer >= 4",
+    "graph_builder_calls": 0,
+    "types": [
+      "int",
+      "float"
+    ]
+  },
+  {
+    "arguments": [
+      3,
+      "4"
+    ],
+    "error": "t must be an exact integer >= 4",
+    "graph_builder_calls": 0,
+    "types": [
+      "int",
+      "str"
+    ]
+  },
+  {
+    "arguments": [
+      3,
+      3
+    ],
+    "error": "t must be an exact integer >= 4",
+    "graph_builder_calls": 0,
+    "types": [
+      "int",
+      "int"
+    ]
+  }
+]

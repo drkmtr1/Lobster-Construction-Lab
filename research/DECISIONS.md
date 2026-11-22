@@ -1,6 +1,6 @@
 # Decisions and algorithm-change log
 
-This file owns consequential choices and change proposals. `STATE.md` owns current work; findings and failures own scientific dispositions. Dates below are November 20, 2026, Pacific/Honolulu, except D016 through D050 (November 21, 2026).
+This file owns consequential choices and change proposals. `STATE.md` owns current work; findings and failures own scientific dispositions. Dates below are November 20, 2026, Pacific/Honolulu, except D016 through D051 (November 21, 2026).
 
 | ID | Decision | Reason and review consequence |
 |---|---|---|
@@ -55,6 +55,7 @@ This file owns consequential choices and change proposals. `STATE.md` owns curre
 | D048 | Accept B4-1R32-MINIMUM-HIGH-SUPPLIER-001 at 5b8de6e2f6ef1b271311cfa4bfe151b92308e3bf | **ACCEPT** minimum-high application and finite same-name growth at fixed third size three, normalized A(r+15,r+6;1,1) for r>=3, and exact ordinary completion for r>=3,K>=2. **REJECT** reusing cut 8 for the high shift. One retained recheck, three new prefixes, four completions and eight invalid probes passed under separate AI reviews and same-record audit. No solver, enumeration, replay or production edits. |
 | D049 | Accept B4-1R32-K1-ROOTED-CORE-001 at 648ec01f4eaca4a8f71aa162f057a870485dd93c | **ACCEPT** the retained cut premise, exact maximum-rooted core for r>=3, fixed-third lift and K=1 singleton, pointwise named growth and lift agreement, and the exact all-positive (1,r,3,2) selector. **REJECT** substituting all upper-side incidences for cut crossings. One retained recheck, three new cores, three completions and four invalid probes passed with a same-record audit and separate read-only AI reviews. No solver, enumeration, replay or production edits. |
 | D050 | Accept B4-1RT2-TWO-HOST-COMPATIBILITY-001 at eb5745483186287b20bcf155cf4e5265dbfc20a5 | **ACCEPT** the conditional finite-interleaving theorem, its exact normalized supplier for r>=3,t>=4, completion for K>=2, and the exact (1,r,t,2) K>=2 selector for all positive r,t. **REJECT** the flat third-terminal formula. Four retained controls, three prefixes, four completions and twelve invalid probes passed under separate AI reviews and same-record audit. No search, replay or production edits. The additive [reproduction erratum](../docs/REPRODUCTION_ERRATA.md#b4-1r32-k1-rooted-core-001) corrects the prior checkout recipe while preserving its frozen evidence and accepted disposition. |
+| D051 | Accept B4-1RT2-K1-DIRECT-SINGLETON-001 at 3e10c022f834cfae053aaef9581697bf6c21002d | **ACCEPT** the independent core lift and direct singleton for r>=3,t>=4,K=1, ordinary two-host growth on those completed states, and the exact all-positive (1,r,t,2) selector. The normalized nonadjacent interface still fails at K=1 under its own conditions. Three retained core rechecks, one retained completed recheck, four new targets, eight domain rejections and one same-original wrong-digest rejection passed under separate AI reviews and same-record audit. No solver, enumeration, replay or production edits. |
 
 ## Proposal template for the next consequential algorithm change
 

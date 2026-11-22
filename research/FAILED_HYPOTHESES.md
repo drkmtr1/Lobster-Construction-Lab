@@ -218,3 +218,14 @@ physical s:2. The accepted supplier separates the original
 third-terminal names from fresh names, whose labels start
 at r+15. The collision rejects only the flat formula.
 [Exact formula](B4_1RT2_TWO_HOST_COMPATIBILITY.md#named-normalized-formula)
+
+### F-B4-1RT2-K1-INTERVAL-TRANSPORT
+
+The normalized 1RT2 supplier retains its nonadjacent K>=2
+contract. At K=1 the same shift leaves R={r+6}, D={1} and
+physical s:4=r+8. Its single pending edge would have weight
+two. This confirms the previously proved interface restriction
+on this exact family. The new ordinary core lift uses
+R={r+4}, D={6} at physical s:4=r+10 and completes the target.
+[Prior interface](B4_1RT2_TWO_HOST_COMPATIBILITY.md#original-nonadjacent-suffix)
+· [Direct singleton](B4_1RT2_K1_DIRECT_SINGLETON.md#direct-formula-and-exact-singleton)

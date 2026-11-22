@@ -1,0 +1,30 @@
+{
+  "run_id": "B4-1RT2-K1-DIRECT-SINGLETON-001-20261121",
+  "shell": "PowerShell from the LCL repository root, one process per saved command",
+  "commands": [
+    {
+      "cmd": "& .\\.venv\\Scripts\\python.exe -c \"import ast,pathlib; p=pathlib.Path('evidence/validation/B4_1RT2_K1_DIRECT_SINGLETON_001'); [ast.parse((p / n).read_bytes()) for n in ('validate.py','audit.py')]; print('Both evidence scripts parse')\"\nexit $LASTEXITCODE",
+      "chunk_id": "699724",
+      "wall_time_seconds": 0.4468422,
+      "exit_code": 0,
+      "original_token_count": 8,
+      "output": "Both evidence scripts parse\r\n"
+    },
+    {
+      "cmd": "$env:PYTHONUTF8='1'\n& .\\.venv\\Scripts\\python.exe 'evidence/validation/B4_1RT2_K1_DIRECT_SINGLETON_001/validate.py'\nexit $LASTEXITCODE",
+      "chunk_id": "427db9",
+      "wall_time_seconds": 1.1145512,
+      "exit_code": 0,
+      "original_token_count": 451,
+      "output": "{\"adverse\": {\"path\": \"adverse.json\", \"sha256_raw\": \"bc9de4a85d3ccc61d5575c28b81950f7027ec187551cd2277b2547387f843c2c\"}, \"adverse_checks\": 1, \"domain_rejections\": 8, \"graph_records\": 8, \"growth\": {\"path\": \"growth.json\", \"sha256_raw\": \"2e163537ed6f7217f7f388450d9027758e518d24c9a49f100ab6d589da74a2d9\"}, \"historical_replays\": 0, \"identity\": {\"path\": \"identity.json\", \"sha256_raw\": \"da11da602fd8db6e3cbed06de24bcc468b25dddbfeb18010f5ab52015f4b83aa\"}, \"invalid_inputs\": {\"path\": \"domain_rejections.json\", \"sha256_raw\": \"382b9e4dc2e19ebbcde5ad8a7a8a55b0ad436c67e5612d5f2fb3be7d995b91f2\"}, \"labeling_enumeration\": 0, \"new_completed_targets\": [{\"bytes\": 10147, \"n\": 20, \"path\": \"target-r3-t4.json\", \"sha256_raw\": \"d373910e432633c6eb8a7f649ee27454152cda25c8248b610e01d1884237d00b\"}, {\"bytes\": 10567, \"n\": 21, \"path\": \"target-r3-t5.json\", \"sha256_raw\": \"a1a65a47e50735e08c13e12143596583c236b385406accc6c5b6fb72523934f0\"}, {\"bytes\": 10584, \"n\": 21, \"path\": \"target-r4-t4.json\", \"sha256_raw\": \"a422d8b9a7a5637301f820b10939d2920c47ee2f936a92da4c1cd7395e6e3b51\"}, {\"bytes\": 11861, \"n\": 24, \"path\": \"target-r5-t6.json\", \"sha256_raw\": \"3f2f5bf9fc72ce308fccfa8aefd7a2bad130393baf9e2c058aeba6426bec607c\"}], \"retained_completed_control\": {\"path\": \"recheck-target-r3-t3.json\", \"sha256_raw\": \"10ee7f79a553b524304d30da959a5c3e28ad02bd5ad86380bc5de900141fdd3a\"}, \"retained_cores\": [{\"path\": \"recheck-core-r3.json\", \"sha256_raw\": \"fc8777454f5bf148cb1162239be4d7156614edeee7df7e23d4e1995c3a4ddf45\"}, {\"path\": \"recheck-core-r4.json\", \"sha256_raw\": \"0523c75368ce6502eba1e26387df461ce3d1afde23d753fa3d3542d38383b31e\"}, {\"path\": \"recheck-core-r5.json\", \"sha256_raw\": \"a913811a2c65bc945936e6983402cf4b04184df5edcda4205e06dcd01a295bda\"}], \"run_id\": \"B4-1RT2-K1-DIRECT-SINGLETON-001-20261121\", \"solver_queries\": 0, \"status\": \"PASS\"}\r\n"
+    },
+    {
+      "cmd": "$env:PYTHONUTF8='1'\n& .\\.venv\\Scripts\\python.exe 'evidence/validation/B4_1RT2_K1_DIRECT_SINGLETON_001/audit.py'\nexit $LASTEXITCODE",
+      "chunk_id": "1d06db",
+      "wall_time_seconds": 0.6584017,
+      "exit_code": 0,
+      "original_token_count": 389,
+      "output": "{\"additional_graph_records\": 0, \"run_id\": \"B4-1RT2-K1-DIRECT-SINGLETON-001-20261121\", \"same_adverse_digest\": {\"path\": \"adverse.json\", \"sha256_raw\": \"bc9de4a85d3ccc61d5575c28b81950f7027ec187551cd2277b2547387f843c2c\"}, \"same_domain_rejections\": 8, \"same_graph_records\": 8, \"same_growth_routes\": {\"path\": \"growth.json\", \"sha256_raw\": \"2e163537ed6f7217f7f388450d9027758e518d24c9a49f100ab6d589da74a2d9\"}, \"same_new_completed_targets\": [{\"bytes\": 10147, \"n\": 20, \"path\": \"target-r3-t4.json\", \"sha256_raw\": \"d373910e432633c6eb8a7f649ee27454152cda25c8248b610e01d1884237d00b\"}, {\"bytes\": 10567, \"n\": 21, \"path\": \"target-r3-t5.json\", \"sha256_raw\": \"a1a65a47e50735e08c13e12143596583c236b385406accc6c5b6fb72523934f0\"}, {\"bytes\": 10584, \"n\": 21, \"path\": \"target-r4-t4.json\", \"sha256_raw\": \"a422d8b9a7a5637301f820b10939d2920c47ee2f936a92da4c1cd7395e6e3b51\"}, {\"bytes\": 11861, \"n\": 24, \"path\": \"target-r5-t6.json\", \"sha256_raw\": \"3f2f5bf9fc72ce308fccfa8aefd7a2bad130393baf9e2c058aeba6426bec607c\"}], \"same_retained_completed_control\": {\"path\": \"recheck-target-r3-t3.json\", \"sha256_raw\": \"10ee7f79a553b524304d30da959a5c3e28ad02bd5ad86380bc5de900141fdd3a\"}, \"same_retained_cores\": [{\"path\": \"recheck-core-r3.json\", \"sha256_raw\": \"fc8777454f5bf148cb1162239be4d7156614edeee7df7e23d4e1995c3a4ddf45\"}, {\"path\": \"recheck-core-r4.json\", \"sha256_raw\": \"0523c75368ce6502eba1e26387df461ce3d1afde23d753fa3d3542d38383b31e\"}, {\"path\": \"recheck-core-r5.json\", \"sha256_raw\": \"a913811a2c65bc945936e6983402cf4b04184df5edcda4205e06dcd01a295bda\"}], \"solver_queries\": 0, \"status\": \"PASS\"}\r\n"
+    }
+  ]
+}

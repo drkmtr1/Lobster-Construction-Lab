@@ -508,6 +508,21 @@ A(r+t+12,r+6;1,1) on the exact normalized profile for r>=3,t>=4,
 and proves ordinary original-path completion for K>=2. The
 disjoint selector extends that K>=2 coverage to all positive r,t.
 
-For r>=3,t>=4, K=1 remains outside the accepted nonadjacent
-interface. A direct singleton on the same named graph and both
-of its exact resource complements remain a separate obligation.
+K=1 remains outside the accepted nonadjacent interface. The
+direct singleton below meets that case by an ordinary core lift.
+
+### 1RT2 direct singleton and all-positive selection
+
+The [direct 1RT2 proof](B4_1RT2_K1_DIRECT_SINGLETON.md)
+uses the independently supplied core with maximal physical
+s:2 to settle the exact remaining K=1 corner r>=3,t>=4.
+The direct prefix uses R={r+4}, D={6} at physical s:4=r+10.
+The original edge s:4--s:5 consumes both resources.
+The complete ordinary crossing-cut predicate supports finite
+second-host additions pointwise compatible with third zero-host
+additions.
+
+The disjoint selector combines this case with retained K=1
+and K>=2 suppliers to prove ordinary gracefulness on the exact
+ordered (1,r,t,2) family for all positive r,t,K. First-branch
+growth beyond size one is a separate supply obligation.
