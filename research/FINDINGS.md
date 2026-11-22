@@ -171,3 +171,17 @@ mathematical and implementation reviews accepted. The 12 original
 targets passed and their same-certificate audit passed. The left
 component and the fixed seed each have a separate certificate.
 [Proof](B4_UNPADDED_1121.md) · [Validation](../evidence/validation/B4_UNPADDED_1121_001/README.md) · D030
+
+## B4-UNPADDED-1211-001
+
+**ACCEPT** for the exact zero-padding `[[1],[2],[1],[1]]+[[]]*(K+1)`
+profile for integer K>=1, excluding booleans. Two within-class
+exchanges and a prescribed leaf at `b:1:0` supply the left component
+with exit offset one. R241 restores the original `s:2--s:3` edge
+to reflected L008, producing the 14-vertex seed with low-class size
+7. Shifting its highs supplies `R=[7,K+6]`, `D=[1,K]` and actual
+`s:4=K+7`. The retained adjacent completion gives a full alpha
+low-class size `7+(K+1)//2`. Separate AI reviews accepted. The 12
+completed certificates and their same-target audit passed. The
+relabeled and expanded components and the fixed seed have separate
+certificates. [Proof](B4_UNPADDED_1211.md) · [Validation](../evidence/validation/B4_UNPADDED_1211_001/README.md) · D031

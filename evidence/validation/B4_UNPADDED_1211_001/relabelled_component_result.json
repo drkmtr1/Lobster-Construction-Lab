@@ -1,0 +1,223 @@
+{
+  "run_id": "B4-UNPADDED-1211-001-original-target-regression-20261121",
+  "starting_commit": "352048bbd651eaa9285abb15b3584b0382689b9d",
+  "config_sha256_raw": "8e3fdc2ff0f8cb190756ba805acc898b2a79daa86ad3391b724a6b333fdf86b5",
+  "regression_script_sha256_raw": "6e3821acf771a976d4a187508380c2daa4bd6c7cc3f7c384b59ad139feb36f99",
+  "source_sha256_raw": {
+    "lcl/__init__.py": "134055506d3e9cd4fa538177844d28a44d5ab567ec220cf54048e63d1a8a7374",
+    "lcl/__main__.py": "30782be9a5f5e6bc8b28d2ba189b3dfbf36f24571321d404bec50bd8175f1014",
+    "lcl/allocation.py": "0aab778a6665712d3cd1e35554657cc212fa840d3ce28d32ba79c18f2dcce2b9",
+    "lcl/budget.py": "02145a6b4bc10eda53d2f3736fdf082c1414f96905c71e74a407c0cefd73b16a",
+    "lcl/constructors.py": "eaf1859aee7babe1e15b72bf4677476126096d10cb7eb231c16894bce5ca9db5",
+    "lcl/consumers.py": "2cb688d09c510ca855ba1695d0f89a325ea4fc7882c9e5a8e971c2b506e64560",
+    "lcl/dp.py": "1aa3d2ed888c26b8e5fd65bd74069eb654c60dd336eef5fb33e8fdb7659a14f9",
+    "lcl/engines.py": "8a67ba56d97676b613f9fa89e18e30d8642d74d5c6ada7ec55f97733b0dc7207",
+    "lcl/experiments.py": "0d0f08632397082a2580e250aa7a2a53c5df61aba770e4d2ae0d701b1fe2f714",
+    "lcl/ingest.py": "4bd06f0555898aac6762849a616e406c48de8a97a4a6908c14faa38bce036930",
+    "lcl/model.py": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6",
+    "lcl/oracle.py": "6d70eca24f9b0c254073ec8d1ffcc769d9beca42ad43b6cf272659aecf58146d",
+    "lcl/records.py": "ba7299dac2b3f2c1907c3cce40e0ba20c603b19fc8dcee2f9b2b0760b925391e",
+    "lcl/search.py": "f8291a3446e04422095131e4d75100ec9bfd3213d039d17ce83c04ec82d671ff",
+    "lcl/states.py": "386a7666da91466d35d17b634ad2e5a69e67581f553e86e9d4e75389dc781e1c",
+    "lcl/verify.py": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909",
+    "pyproject.toml": "738f14eba3125ce7f444628adaddaf2e3e30e5aa7f43f10e7035067f6b7072e5",
+    "requirements.txt": "60f6e1bd76adf6ed25cf381ca95f67e8a27a0de1e62fb673a7cf5af4b86249ea",
+    "requirements-graph.txt": "63b83d49071ae093c187423c768c6711a3716cda354d3a24e2bb10b0f536d34c",
+    "requirements-optional.txt": "5bab117f06ee96a8fa7529e4e08f5125087e6ca42bb5ffee3edfdc6913da9e3b",
+    "requirements-smt.txt": "4bb07f85bfdeaabba65e8deb117ecc222d748651ed5526284666f4bb3e6450bd",
+    "requirements-symbolic.txt": "47fd19021144e071cc43b6e265aafada0056abe89724ad95bd6e3a8e37995b94",
+    "tests/test_b4_unpadded_1211.py": "72869648916301a09d9a3270c53910b6d75581a413f54f9b449ef4e6836c93a6"
+  },
+  "environment": {
+    "python": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv\\Scripts\\python.exe",
+    "utf8_mode": 1,
+    "implementation": "CPython",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python_optimization_level": 0
+  },
+  "limits": {
+    "max_cases": 12,
+    "max_vertices": 78,
+    "max_output_bytes": 2000000,
+    "workers": 1
+  },
+  "classification": "VERIFIED_RELABELLED_COMPONENT",
+  "status": "PASS",
+  "component_certificate_count": 1,
+  "completed_target_count": 0,
+  "original_component": {
+    "schema_version": 1,
+    "profile": [
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "vertices": [
+      "s:0",
+      "b:0:0",
+      "l:0:0:0",
+      "s:1",
+      "b:1:0",
+      "l:1:0:0",
+      "s:2",
+      "b:2:0",
+      "l:2:0:0"
+    ],
+    "edges": [
+      [
+        "s:0",
+        "s:1"
+      ],
+      [
+        "s:1",
+        "s:2"
+      ],
+      [
+        "s:0",
+        "b:0:0"
+      ],
+      [
+        "b:0:0",
+        "l:0:0:0"
+      ],
+      [
+        "s:1",
+        "b:1:0"
+      ],
+      [
+        "b:1:0",
+        "l:1:0:0"
+      ],
+      [
+        "s:2",
+        "b:2:0"
+      ],
+      [
+        "b:2:0",
+        "l:2:0:0"
+      ]
+    ],
+    "spine": [
+      "s:0",
+      "s:1",
+      "s:2"
+    ],
+    "roles": {
+      "s:0": {
+        "kind": "spine",
+        "section": 0
+      },
+      "b:0:0": {
+        "kind": "branch",
+        "section": 0,
+        "branch": 0
+      },
+      "l:0:0:0": {
+        "kind": "leaf",
+        "section": 0,
+        "branch": 0,
+        "leaf": 0
+      },
+      "s:1": {
+        "kind": "spine",
+        "section": 1
+      },
+      "b:1:0": {
+        "kind": "branch",
+        "section": 1,
+        "branch": 0
+      },
+      "l:1:0:0": {
+        "kind": "leaf",
+        "section": 1,
+        "branch": 0,
+        "leaf": 0
+      },
+      "s:2": {
+        "kind": "spine",
+        "section": 2
+      },
+      "b:2:0": {
+        "kind": "branch",
+        "section": 2,
+        "branch": 0
+      },
+      "l:2:0:0": {
+        "kind": "leaf",
+        "section": 2,
+        "branch": 0,
+        "leaf": 0
+      }
+    }
+  },
+  "graph_digest": "0a266bed01941576eaa116c51817643de59958e61959a93c58c04d82e7a70b37",
+  "before_labels": {
+    "s:0": 8,
+    "s:1": 2,
+    "s:2": 5,
+    "b:0:0": 0,
+    "l:0:0:0": 7,
+    "b:1:0": 6,
+    "l:1:0:0": 1,
+    "b:2:0": 3,
+    "l:2:0:0": 4
+  },
+  "labels": {
+    "s:0": 8,
+    "s:1": 2,
+    "s:2": 5,
+    "b:0:0": 0,
+    "l:0:0:0": 7,
+    "b:1:0": 4,
+    "l:1:0:0": 3,
+    "b:2:0": 1,
+    "l:2:0:0": 6
+  },
+  "before_differences": [
+    6,
+    3,
+    8,
+    7,
+    4,
+    5,
+    2,
+    1
+  ],
+  "after_differences": [
+    6,
+    3,
+    8,
+    7,
+    2,
+    1,
+    4,
+    5
+  ],
+  "alpha_low_class_size": 4,
+  "minimum_high_vertex": "b:1:0",
+  "certificate": {
+    "valid": true,
+    "errors": [],
+    "n": 9,
+    "m": 8,
+    "graph_digest": "0a266bed01941576eaa116c51817643de59958e61959a93c58c04d82e7a70b37",
+    "edge_differences": [
+      6,
+      3,
+      8,
+      7,
+      2,
+      1,
+      4,
+      5
+    ],
+    "claim": "finite certificate for this exact named target only"
+  }
+}

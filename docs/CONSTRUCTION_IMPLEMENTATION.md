@@ -21,6 +21,7 @@ The code supplies direct constructions, a unit-size convenience alias, and a str
 | `three_section_k1(q,r,t)` | Positive integers q,r,t, K=1 and zero padding | Complete graceful labeling | Direct singleton R={q+2}, D={t+3} at s:3=q+t+5 |
 | `four_section_unit(K)` | Positive integer K, four successive unit branches and zero padding | Complete alpha graceful labeling | Adjacent interval R=[6,K+5], D=1..K at s:4=K+6 |
 | `four_section_1121(K)` | Positive integer K, exact ordered branch sizes 1,1,2,1 and zero padding | Complete alpha graceful labeling | Adjacent interval R=[6,K+5], D=1..K at s:4=K+6 |
+| `four_section_1211(K)` | Positive integer K, exact ordered branch sizes 1,2,1,1 and zero padding | Complete alpha graceful labeling | Adjacent interval R=[7,K+6], D=1..K at s:4=K+7 |
 | `four_section_111t(t,K)` | Integers t>=2 and K>=1, original branch sizes 1,1,1,t and zero padding | Complete graceful labeling, alpha for K=1 | At s:4, use the singleton R={4}, D={t+3} for K=1 or the above-side nonadjacent interval for K>=2 |
 | `two_section_unit(K)` | Positive suffix length `K` | Complete graceful labeling | Alias for `two_section_balanced(q=1,K=K)` |
 | `complete_two_host(graph, core_labels, hosts)` | Original target, connected labeled core, two distinct physical hosts | Exact fixed-core completion or restricted obstruction | Does not supply the core labeling, host choice, or a palette partition |
@@ -34,6 +35,8 @@ The B4 CLI method `four_section_unit` admits exactly the parameter `K` and requi
 The B4 CLI method `four_section_111t` admits exactly `t` and `K` on the declared `[[1],[1],[1],[t]]+[[]]*(K+1)` target. Its 10,000-vertex graph limit gives `t+K<=9988`. The inherited result byte cap also applies. Choose `four_section_unit` for t=1 and `four_section_111t` for t>=2. [B4 111t proof](../research/B4_UNPADDED_111T.md)
 
 The B4 CLI method `four_section_1121` admits only parameter `K` and exactly `[[1],[1],[2],[1]]+[[]]*(K+1)`. The original second leaf of branch 2 is `l:2:0:1`. The 10,000-vertex graph ceiling gives `K<=9986`, with the inherited result byte cap applied separately. [B4 1121 proof](../research/B4_UNPADDED_1121.md)
+
+The B4 CLI method `four_section_1211` admits only `K` on the exact original `[[1],[2],[1],[1]]+[[]]*(K+1)` profile. The two original leaves `l:1:0:0` and `l:1:0:1` belong to `b:1:0`. The 10,000-vertex ceiling gives `K<=9986`. The inherited record byte cap applies separately. [B4 1211 proof](../research/B4_UNPADDED_1211.md)
 
 ## The exact target remains part of the input
 

@@ -225,3 +225,13 @@ suffix from `s:4` yield the full alpha low-class size `6+(K+1)//2`.
 This discharges the exact 1121 profile. Other unproved branch
 placements and sizes, padding, multiple branches per section, further
 sections and arbitrary repetition still require independent proofs.
+
+### Four-section 1211 boundary
+
+The [B4 1211 proof](B4_UNPADDED_1211.md) discharges the exact unpadded
+`[[1],[2],[1],[1]]+[[]]*(K+1)` profile for every integer K>=1. Both
+middle leaves remain at `b:1:0`. The original path from `s:4` uses
+the two adjacent resources and completes an alpha labeling with
+low-class size `7+(K+1)//2`. Other unproved placements and sizes,
+padding, multiple branches per section, additional sections and
+arbitrary repetition still require independent proofs.
