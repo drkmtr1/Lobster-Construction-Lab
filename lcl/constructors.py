@@ -1046,6 +1046,58 @@ def four_section_qr21(q: int, r: int, K: int) -> dict:
     return result
 
 
+def four_section_q112(q: int, K: int) -> dict:
+    """Label the original q,1,1,2 branches and adjacent path for positive integers."""
+    _integer(q, "q", 1)
+    _integer(K, "K", 1)
+    graph = build_graph([[q], [1], [1], [2]] + [[] for _ in range(K + 1)])
+    port, m = K + 7, K + q + 12
+    prefix = {"s:0": m, "s:1": 0, "s:2": K + 8, "s:3": 6, "s:4": port,
+              "b:0:0": 1, "l:0:0:0": m - 1,
+              "b:1:0": K + 10, "l:1:0:0": 3,
+              "b:2:0": 2, "l:2:0:0": K + 11,
+              "b:3:0": K + 9, "l:3:0:0": 4, "l:3:0:1": 5}
+    for j in range(1, q):
+        prefix[f"l:0:0:{j}"] = K + 11 + j
+
+    boundary = interval_boundary(graph, prefix, "s:4")
+    suffix = {f"s:{i}" for i in range(5, K + 5)}
+    path = {frozenset((f"s:{i}", f"s:{i + 1}")) for i in range(4, K + 4)}
+    incident = {frozenset(edge) for edge in graph["edges"] if suffix.intersection(edge)}
+    if (not boundary["valid"] or boundary["interval"] != [7, port - 1]
+            or boundary["active_label"] != port or boundary["remaining_edges"] != K
+            or set(graph["vertices"]) - set(prefix) != suffix or incident != path):
+        raise ArithmeticError("four-section q112 prefix has a different original-path interface")
+
+    trace = [{"operation": "supplied_interval_interface", "stage": 4,
+              "active_vertex": "s:4", "active_label": port,
+              "unused_labels": boundary["unused_labels"],
+              "unused_differences": boundary["unused_differences"],
+              "prefix_labels": prefix, "prefix_difference_interval": [K + 1, m]}]
+    labels = dict(prefix)
+    _consume_suffix(graph, 4, labels, 7, port - 1, trace)
+    certificate = verify_certificate(graph, labels, graph_digest(graph))
+    if not certificate["valid"]:
+        raise ArithmeticError("four-section q112 completion failed original-target verification: "
+                              + "; ".join(certificate["errors"]))
+    low_class_size = 7 + (K + 1) // 2
+    if any((labels[u] < low_class_size) == (labels[v] < low_class_size) for u, v in graph["edges"]):
+        raise ArithmeticError("four-section q112 completion does not cross the declared alpha cut")
+    result = _result(graph, labels, "four_section_q112", {
+        "parameters": {"q": q, "K": K},
+        "family": "four successive branches of sizes q,1,1,2, zero padding, and a K-edge path suffix",
+        "independent_input_supply": True, "universal_lobster_claim": False,
+        "mathematical_novelty_claim": False, "arbitrary_branched_suffix": False,
+        "alpha_low_class_size": low_class_size,
+        "suffix_interface": {"unused_labels": [7, port - 1], "unused_differences": [1, K],
+                             "active_vertex": "s:4", "active_label": port,
+                             "side": "above", "notation": "inclusive intervals"},
+        "derivation_status": "Upper-block insertion at the label-one first center of an independent seed",
+        "source": "research/B4_FOURTH_2_SUPPLY.md"}, trace)
+    result["evidence_level"] = "project_derived_symbolic_family; independent checking required"
+    return result
+
+
 def four_section_111t(t: int, K: int) -> dict:
     """Label three unit branches, a fourth of size t>=2, and a path of length K>=1."""
     _integer(t, "t", 2)

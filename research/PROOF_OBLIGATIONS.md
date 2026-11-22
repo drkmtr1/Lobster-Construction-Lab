@@ -289,3 +289,15 @@ D=[1,K], and gives full alpha size r+5+ceil(K/2). Only
 [QR21](B4_UNPADDED_QR21.md) has new executable coverage.
 Fourth-branch growth, other sections, padding, multiple branches
 per section and arbitrary-host or topology supply remain separate.
+
+### Fourth-size-two supply
+
+The [direct Q112 proof](B4_FOURTH_2_SUPPLY.md) discharges the exact
+`[[q],[1],[1],[2]]+[[]]*(K+1)` family for positive integers q,K
+with original adjacent s:4=K+7, R=[7,K+6], D=[1,K], and full
+alpha low size 7+ceil(K/2). Meeting the prescribed R241 join
+with the earlier offset-one left supplier and this right
+component is obstructed. The two separate 15-vertex diagnostic
+prefixes have verified first witnesses at each of the declared
+above-side exits. They give finite candidates. An independent
+parameterized supplier for arbitrary (q,r,t,2) remains open.

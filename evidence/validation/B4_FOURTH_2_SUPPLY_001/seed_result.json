@@ -1,0 +1,297 @@
+{
+  "run_id": "B4-FOURTH-2-SUPPLY-001-q112-20261121-recording-retry",
+  "starting_commit": "18f1961b464ec3aa6537cbdf078a4a21421a8632",
+  "config_sha256_raw": "7b792842ace53f7e5a88ffafb201c2dea0602f69a791958f79d3cbb92d542d46",
+  "regression_script_sha256_raw": "6965deca518e38f1ae3e3a9bfb783efd83628fa22b07e43b42cd1dd1c5f1c5be",
+  "source_sha256_raw": {
+    "lcl/__init__.py": "134055506d3e9cd4fa538177844d28a44d5ab567ec220cf54048e63d1a8a7374",
+    "lcl/__main__.py": "30782be9a5f5e6bc8b28d2ba189b3dfbf36f24571321d404bec50bd8175f1014",
+    "lcl/allocation.py": "0aab778a6665712d3cd1e35554657cc212fa840d3ce28d32ba79c18f2dcce2b9",
+    "lcl/budget.py": "02145a6b4bc10eda53d2f3736fdf082c1414f96905c71e74a407c0cefd73b16a",
+    "lcl/constructors.py": "2cb32d0875685ce6f7a44212f0f92cc2499b96c5cc4261138e1652c849e96fff",
+    "lcl/consumers.py": "2cb688d09c510ca855ba1695d0f89a325ea4fc7882c9e5a8e971c2b506e64560",
+    "lcl/dp.py": "1aa3d2ed888c26b8e5fd65bd74069eb654c60dd336eef5fb33e8fdb7659a14f9",
+    "lcl/engines.py": "8a67ba56d97676b613f9fa89e18e30d8642d74d5c6ada7ec55f97733b0dc7207",
+    "lcl/experiments.py": "0d0f08632397082a2580e250aa7a2a53c5df61aba770e4d2ae0d701b1fe2f714",
+    "lcl/ingest.py": "bded12279a9bdf1c3ae33795b3305c3f1bd4820f7f1f0b455e9d48c0b5f7a696",
+    "lcl/model.py": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6",
+    "lcl/oracle.py": "6d70eca24f9b0c254073ec8d1ffcc769d9beca42ad43b6cf272659aecf58146d",
+    "lcl/records.py": "ba7299dac2b3f2c1907c3cce40e0ba20c603b19fc8dcee2f9b2b0760b925391e",
+    "lcl/search.py": "f8291a3446e04422095131e4d75100ec9bfd3213d039d17ce83c04ec82d671ff",
+    "lcl/states.py": "386a7666da91466d35d17b634ad2e5a69e67581f553e86e9d4e75389dc781e1c",
+    "lcl/verify.py": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909",
+    "pyproject.toml": "738f14eba3125ce7f444628adaddaf2e3e30e5aa7f43f10e7035067f6b7072e5",
+    "requirements.txt": "60f6e1bd76adf6ed25cf381ca95f67e8a27a0de1e62fb673a7cf5af4b86249ea",
+    "requirements-graph.txt": "63b83d49071ae093c187423c768c6711a3716cda354d3a24e2bb10b0f536d34c",
+    "requirements-optional.txt": "5bab117f06ee96a8fa7529e4e08f5125087e6ca42bb5ffee3edfdc6913da9e3b",
+    "requirements-smt.txt": "4bb07f85bfdeaabba65e8deb117ecc222d748651ed5526284666f4bb3e6450bd",
+    "requirements-symbolic.txt": "47fd19021144e071cc43b6e265aafada0056abe89724ad95bd6e3a8e37995b94",
+    "tests/test_b4_fourth_2_supply.py": "b813359b0f4c36130c13fe3913a2459f601ea012aad551fc93c0c9c949717f2e"
+  },
+  "environment": {
+    "python": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv\\Scripts\\python.exe",
+    "utf8_mode": 1,
+    "implementation": "CPython",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python_optimization_level": 0
+  },
+  "limits": {
+    "max_cases": 12,
+    "max_vertices": 79,
+    "max_output_bytes": 2000000,
+    "workers": 1
+  },
+  "graph": {
+    "schema_version": 1,
+    "profile": [
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      []
+    ],
+    "vertices": [
+      "s:0",
+      "b:0:0",
+      "l:0:0:0",
+      "s:1",
+      "b:1:0",
+      "l:1:0:0",
+      "s:2",
+      "b:2:0",
+      "l:2:0:0",
+      "s:3",
+      "b:3:0",
+      "l:3:0:0",
+      "l:3:0:1",
+      "s:4"
+    ],
+    "edges": [
+      [
+        "s:0",
+        "s:1"
+      ],
+      [
+        "s:1",
+        "s:2"
+      ],
+      [
+        "s:2",
+        "s:3"
+      ],
+      [
+        "s:3",
+        "s:4"
+      ],
+      [
+        "s:0",
+        "b:0:0"
+      ],
+      [
+        "b:0:0",
+        "l:0:0:0"
+      ],
+      [
+        "s:1",
+        "b:1:0"
+      ],
+      [
+        "b:1:0",
+        "l:1:0:0"
+      ],
+      [
+        "s:2",
+        "b:2:0"
+      ],
+      [
+        "b:2:0",
+        "l:2:0:0"
+      ],
+      [
+        "s:3",
+        "b:3:0"
+      ],
+      [
+        "b:3:0",
+        "l:3:0:0"
+      ],
+      [
+        "b:3:0",
+        "l:3:0:1"
+      ]
+    ],
+    "spine": [
+      "s:0",
+      "s:1",
+      "s:2",
+      "s:3",
+      "s:4"
+    ],
+    "roles": {
+      "s:0": {
+        "kind": "spine",
+        "section": 0
+      },
+      "b:0:0": {
+        "kind": "branch",
+        "section": 0,
+        "branch": 0
+      },
+      "l:0:0:0": {
+        "kind": "leaf",
+        "section": 0,
+        "branch": 0,
+        "leaf": 0
+      },
+      "s:1": {
+        "kind": "spine",
+        "section": 1
+      },
+      "b:1:0": {
+        "kind": "branch",
+        "section": 1,
+        "branch": 0
+      },
+      "l:1:0:0": {
+        "kind": "leaf",
+        "section": 1,
+        "branch": 0,
+        "leaf": 0
+      },
+      "s:2": {
+        "kind": "spine",
+        "section": 2
+      },
+      "b:2:0": {
+        "kind": "branch",
+        "section": 2,
+        "branch": 0
+      },
+      "l:2:0:0": {
+        "kind": "leaf",
+        "section": 2,
+        "branch": 0,
+        "leaf": 0
+      },
+      "s:3": {
+        "kind": "spine",
+        "section": 3
+      },
+      "b:3:0": {
+        "kind": "branch",
+        "section": 3,
+        "branch": 0
+      },
+      "l:3:0:0": {
+        "kind": "leaf",
+        "section": 3,
+        "branch": 0,
+        "leaf": 0
+      },
+      "l:3:0:1": {
+        "kind": "leaf",
+        "section": 3,
+        "branch": 0,
+        "leaf": 1
+      },
+      "s:4": {
+        "kind": "spine",
+        "section": 4
+      }
+    }
+  },
+  "graph_digest": "637722dfe5aeceac966c762e91fba3d65c120700ec5c81b15f28113a4a7b0fd5",
+  "labels": {
+    "s:0": 13,
+    "s:1": 0,
+    "s:2": 8,
+    "s:3": 6,
+    "s:4": 7,
+    "b:0:0": 1,
+    "l:0:0:0": 12,
+    "b:1:0": 10,
+    "l:1:0:0": 3,
+    "b:2:0": 2,
+    "l:2:0:0": 11,
+    "b:3:0": 9,
+    "l:3:0:0": 4,
+    "l:3:0:1": 5
+  },
+  "certificate": {
+    "valid": true,
+    "errors": [],
+    "n": 14,
+    "m": 13,
+    "graph_digest": "637722dfe5aeceac966c762e91fba3d65c120700ec5c81b15f28113a4a7b0fd5",
+    "edge_differences": [
+      13,
+      8,
+      2,
+      1,
+      12,
+      11,
+      10,
+      7,
+      6,
+      9,
+      3,
+      5,
+      4
+    ],
+    "claim": "finite certificate for this exact named target only"
+  },
+  "alpha_low_class_size": 7,
+  "witness_path": [
+    "b:0:0",
+    "s:0",
+    "s:1",
+    "s:2",
+    "s:3",
+    "s:4"
+  ],
+  "ports": {
+    "b:0:0": 1,
+    "s:4": 7
+  },
+  "status": "PASS",
+  "classification": "VERIFIED_FIXED_SEED",
+  "threshold": 12,
+  "selected_upper_vertices": [
+    "l:0:0:0",
+    "s:0"
+  ],
+  "upper_incident_edges": [
+    [
+      "s:0",
+      "s:1"
+    ],
+    [
+      "s:0",
+      "b:0:0"
+    ],
+    [
+      "b:0:0",
+      "l:0:0:0"
+    ]
+  ],
+  "upper_incident_differences": [
+    11,
+    12,
+    13
+  ],
+  "port_offsets": [
+    1,
+    0
+  ],
+  "seed_certificate_count": 1,
+  "completed_target_count": 0
+}

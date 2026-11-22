@@ -1,0 +1,78 @@
+{
+  "run_id": "B4-FOURTH-2-SUPPLY-001-q112-20261121-recording-retry",
+  "starting_commit": "18f1961b464ec3aa6537cbdf078a4a21421a8632",
+  "parameter_order": [
+    "q",
+    "K"
+  ],
+  "cases": [
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      5,
+      5
+    ],
+    [
+      8,
+      8
+    ],
+    [
+      13,
+      16
+    ],
+    [
+      5,
+      31
+    ],
+    [
+      2,
+      64
+    ]
+  ],
+  "max_cases": 12,
+  "max_vertices": 79,
+  "max_output_bytes": 2000000,
+  "workers": 1,
+  "seed_profile": [
+    [
+      1
+    ],
+    [
+      1
+    ],
+    [
+      1
+    ],
+    [
+      2
+    ],
+    []
+  ],
+  "scope": "12 declared original Q112 targets and one separate normalized seed"
+}

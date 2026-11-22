@@ -1,0 +1,19 @@
+{
+  "cwd": "repository root",
+  "environment": {
+    "PYTHONUTF8": "1"
+  },
+  "command_receipt": {
+    "command": ".venv/Scripts/python.exe evidence/validation/B4_FOURTH_2_SUPPLY_001/regression.py",
+    "exit_code": 1,
+    "output": "Traceback (most recent call last):\r\n  File \"C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\evidence\\validation\\B4_FOURTH_2_SUPPLY_001\\regression.py\", line 190, in <module>\r\n    main()\r\n    ~~~~^^\r\n  File \"C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\evidence\\validation\\B4_FOURTH_2_SUPPLY_001\\regression.py\", line 183, in main\r\n    \"elapsed_seconds\": time.perf_counter() - started, \"scope\": config[\"scope\"], \"cases\": cases}\r\n                                                               ~~~~~~^^^^^^^^^\r\nKeyError: 'scope'\r\n"
+  },
+  "classification": "INCOMPLETE_RECORD_ASSEMBLY",
+  "checked_in_memory": 12,
+  "completed_certificates_saved": 0,
+  "diagnostic_queries_started": 0,
+  "seed_certificates_saved": 1,
+  "reason": "KeyError: scope during result dictionary assembly after the case loop",
+  "config_sha256_raw": "15d416b5d32d6547d8a75907cb4e64d9b1d5d1d1a920ed1429524b6f5e68412f",
+  "regression_sha256_raw": "6965deca518e38f1ae3e3a9bfb783efd83628fa22b07e43b42cd1dd1c5f1c5be"
+}

@@ -2,7 +2,7 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 21, 2026, Pacific/Honolulu  
-**Stage:** B4-UNPADDED-QR21-001 accepted after separate AI reviews. The conditional upper-block insertion and exact symbolic (q,r,t,1) family are proved. New executable coverage is QR21 only.
+**Stage:** B4-FOURTH-2-SUPPLY-001 accepted after separate AI reviews. The prescribed entrance-one R241 join is obstructed, Q112 is proved and implemented, and four bounded fourth-branch diagnostic witnesses are retained.
 
 ## Current scientific objective
 
@@ -10,11 +10,12 @@ Develop independently supplied original-graph boundaries beyond the proved zero-
 
 ## One next action
 
-**With a new bounded scope decision, frame a supplier question for the exact unpadded `[[q],[r],[t],[2]]+[[]]*(K+1)` family for positive integers q,r,t,K**, to examine whether a larger right component can retain the original join and adjacent exit.
+**With a new bounded scope decision, frame an independent supplier proof question for second-branch growth in `[[q],[r],[1],[2]]+[[]]*(K+1)`**, using the finite 1212 adjacent witness as a comparison and retaining the physical exit and both inventories.
 
 ## What is established in this package
 
 - Both authenticated upstream main heads match the pinned audit commits. The repositories remain unchanged.
+- B4-FOURTH-2-SUPPLY-001 proves the five-vertex right component cannot match entrance offset one under the retained R241 join. The direct 14-vertex seed and upper-block growth supply alpha gracefulness for `[[q],[1],[1],[2]]+[[]]*(K+1)` for positive integers q,K, with physical `s:4=K+7` and low-class size `7+(K+1)//2`. Only `four_section_q112(q,K)` was added. Four separate first-witness DFS queries on the 1212 and 1122 prefixes found finite candidates at both exit offsets. Arbitrary (q,r,t,2) supply remains open. See `research/B4_FOURTH_2_SUPPLY.md`, D036, and `evidence/validation/B4_FOURTH_2_SUPPLY_001/`.
 - B4-UNPADDED-QR21-001 proves finite upper-block insertion at a supplied label-one host with the complete incident multiset and updated threshold. The retained left base, minimum-high extension, original R241/L008 join, and zero-port extension supply alpha gracefulness on `[[q],[r],[t],[1]]+[[]]*(K+1)` for positive integers q,r,t,K. The original adjacent exit is `s:4=K+r+5` and the completed low-class size is `r+5+(K+1)//2`. Only `four_section_qr21(q,r,K)` was added and finitely validated. See `research/ALPHA_UPPER_BLOCK_LEAF_INSERTION.md`, `research/B4_UNPADDED_QR21.md`, D035, and `evidence/validation/B4_UNPADDED_QR21_001/`.
 - B4-UNPADDED-1311-001 proves a conditional finite leaf extension at a supplied minimum-high host within one edge of its witness. Expansion inside the left component, retained R241/L008, and zero-port growth after the join prove alpha gracefulness of `[[q],[r],[1],[1]]+[[]]*(K+1)` for positive integers q,r,K. The completed low-class size is `r+5+(K+1)//2`. Only `four_section_1311(K)` was added and validated. See `research/ALPHA_MINIMUM_HIGH_LEAF_EXTENSION.md`, `research/B4_UNPADDED_1311.md`, D034, and `evidence/validation/B4_UNPADDED_1311_001/`.
 - B4-UNPADDED-3111-001 proves conditional finite extension at the same supplied label-zero port, preserving the witness and offsets. The independently supplied unit seed gives alpha gracefulness of `[[q],[1],[1],[1]]+[[]]*(K+1)` for integers q,K>=1, with physical `s:4=K+6` and completed low-class size `6+(K+1)//2`. Only `four_section_3111(K)` was added and validated. See `research/ALPHA_ZERO_PORT_LEAF_EXTENSION.md`, `research/B4_UNPADDED_3111.md`, D033, and `evidence/validation/B4_UNPADDED_3111_001/`.

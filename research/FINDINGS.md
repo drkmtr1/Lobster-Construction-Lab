@@ -262,3 +262,27 @@ All 12 declared targets, their same-certificate audit, and three
 separate auxiliary certificates passed. Separate AI reviews accepted.
 [Insertion and symbolic proof](ALPHA_UPPER_BLOCK_LEAF_INSERTION.md)
 · [QR21 proof](B4_UNPADDED_QR21.md) · [Validation](../evidence/validation/B4_UNPADDED_QR21_001/README.md) · D035
+
+## B4-FOURTH-2-SUPPLY-001
+
+**ACCEPT.** With low entrance s:3=1 the exact five-vertex right
+component cannot supply either allowed high exit. States
+A(5,3;2,0) and A(5,3;0,1) exist on the same original graph.
+The retained left exit offset one is incompatible with this
+right component under the unchanged R241 rule.
+
+The direct witnessed A(14,7;1,0) seed supplies the complete
+upper-block predicate at c=12. Prescribed first leaves at the
+label-one center preserve that predicate and port offsets.
+The original adjacent suffix gives alpha gracefulness for
+`[[q],[1],[1],[2]]+[[]]*(K+1)` for positive integers q,K.
+The only new executable route is `four_section_q112(q,K)`.
+Twelve original certificates and their same-target audit
+passed, with one separate 14-vertex seed in the completed run.
+
+The four restricted first-witness DFS queries on the exact
+1212 and 1122 prefixes each found a verified finite candidate.
+There are two above-side offsets per target and no exact solution
+counts. These diagnostics leave arbitrary (q,r,t,2) supply open.
+[Proof](B4_FOURTH_2_SUPPLY.md) · [Validation](../evidence/validation/B4_FOURTH_2_SUPPLY_001/README.md)
+· [Diagnostics](../evidence/validation/B4_FOURTH_2_SUPPLY_001/DIAGNOSTICS.md) · D036

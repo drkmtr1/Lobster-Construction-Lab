@@ -70,3 +70,13 @@ The unaffected first terminal edge already supplies 7, and
 difference 6 is missing. This is a failure of that placement.
 The supplied c=7 selects the full required block.
 [Proof](ALPHA_UPPER_BLOCK_LEAF_INSERTION.md#independent-base-on-the-original-left-graph)
+
+### F-B4-FOURTH-2-R241-ENTRANCE-ONE
+
+With s:3=1 in the low class of the five-vertex original
+right component, fixing s:4=3 repeats difference 2 and
+fixing s:4=4 repeats difference 3. The low and high physical
+classes force these cases. The retained left exit offset one
+requires this entrance under the unchanged R241 connector
+rule. This rules out that join with that left exit and
+right component. [Proof](B4_FOURTH_2_SUPPLY.md#restricted-right-component-compatibility)
