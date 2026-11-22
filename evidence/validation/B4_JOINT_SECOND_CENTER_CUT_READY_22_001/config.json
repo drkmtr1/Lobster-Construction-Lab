@@ -1,0 +1,78 @@
+{
+  "id": "B4-JOINT-SECOND-CENTER-CUT-READY-22-001-20261122",
+  "parent": "ea444f9ae68505596fc3cc84dbdb2e848eeec446",
+  "limits": {
+    "workers": 1,
+    "authorized_dfs_queries": 1,
+    "dfs_attempted_assignments": 100000,
+    "dfs_seconds": 6,
+    "max_cpu_seconds": 30,
+    "max_order": 20,
+    "max_new_originals": 2,
+    "max_record_bytes": 2000000,
+    "max_total_bytes": 10000000,
+    "automatic_retries": 0
+  },
+  "execution": {
+    "method": "direct structural ledger",
+    "queries": 0,
+    "enumeration_nodes": 0,
+    "root_pin": {
+      "s:2": 14
+    },
+    "alpha": false,
+    "terminal_order": false,
+    "pinned_zero_side": false
+  },
+  "controls": [
+    {
+      "id": "C22",
+      "r": 2,
+      "original": "evidence/validation/B4_JOINT_22_DIRECT_LEDGER_001/validation/core_original.json",
+      "certificate": "evidence/validation/B4_JOINT_22_DIRECT_LEDGER_001/validation/candidate_B.json"
+    },
+    {
+      "id": "C23",
+      "r": 3,
+      "original": "evidence/validation/B4_JOINT_23_MAX_ROOTED_CORE_001/validation/core-original.json",
+      "certificate": "evidence/validation/B4_JOINT_23_MAX_ROOTED_CORE_001/validation/core.json"
+    }
+  ],
+  "retained_D059": {
+    "audit": "evidence/validation/B4_JOINT_22_CUT_COMPAT_001/audit_result.json",
+    "manifest": "evidence/validation/B4_JOINT_22_CUT_COMPAT_001/MANIFEST.json"
+  },
+  "seed": {
+    "s:0": 13,
+    "s:1": 0,
+    "s:2": 14,
+    "s:3": 3,
+    "s:4": 9,
+    "s:5": 10,
+    "b:0:0": 1,
+    "l:0:0:0": 11,
+    "l:0:0:1": 8,
+    "b:1:0": 2,
+    "l:1:0:0": 5,
+    "l:1:0:1": 6,
+    "b:3:0": 12,
+    "l:3:0:0": 4,
+    "l:3:0:1": 7
+  },
+  "cut": 13,
+  "host": "b:1:0",
+  "new_cases": [
+    {
+      "id": "r4",
+      "r": 4,
+      "t": null,
+      "order": 17
+    },
+    {
+      "id": "r4-t2",
+      "r": 4,
+      "t": 2,
+      "order": 20
+    }
+  ]
+}

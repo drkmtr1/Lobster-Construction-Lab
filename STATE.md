@@ -2,7 +2,7 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 22, 2026, Pacific/Honolulu<br>
-**Stage:** B4-JOINT-23-MAX-ROOTED-CORE-001 reviewed. Independent maximum-rooted C(2,3) supplies its all-positive-t K=1 lift and a repeatable first-host cut. CONTINUE on second growth before Construction Synthesis catalog promotion.
+**Stage:** B4-JOINT-SECOND-CENTER-CUT-READY-22-001 reviewed. Independent c=13 second growth supplies all r>=2 at q=2. ADVANCE a narrow Construction Synthesis catalog pilot; shared growth compatibility remains open.
 
 ## Current scientific objective
 
@@ -10,11 +10,12 @@ Develop independently supplied original-graph boundaries beyond the proved zero-
 
 ## One next action
 
-**With a new bounded scope decision, test whether an independent repeatable second-center transition can connect the maximum-rooted `C(2,2)` and `C(2,3)` supplies.** Prefer this structural test over promoting the Construction Synthesis catalog pilot while second growth lacks a validated interface.
+**With a new bounded scope decision, advance a read-only Construction Synthesis catalog pilot for the verified joint-core seeds, named cut transitions, and K=1 lifts.** Record the distinct ledgers that currently supply each growth direction and leave joint compatibility open.
 
 ## What is established in this package
 
 - Both authenticated upstream main heads match the pinned audit commits. The repositories remain unchanged.
+- B4-JOINT-SECOND-CENTER-CUT-READY-22-001 supplies an alternative maximum-rooted C(2,2) with second-center cut 13, then all C(2,r) at fixed q=2. The K=1 lift for r>=2,t>=1 has R={11}, D={1}, s:4=10. The retained r=3 first-growth lift separately covers q>=2,t>=1,K=1 with R=D={4}, s:4=8. Two new originals and the retained controls passed independent audit with zero queries. See `research/B4_JOINT_SECOND_CENTER_CUT_READY_22.md`, D061 and `evidence/validation/B4_JOINT_SECOND_CENTER_CUT_READY_22_001/`.
 - B4-JOINT-23-MAX-ROOTED-CORE-001 supplies the named C(2,3) core with s:2=15 and s:3=0. The K=1 lift for fixed q=2,r=3 and every integer t>=1 uses R=D={4} at physical s:4=8. First cuts 6,12,13,14 match on the new ledger and c=12 is repeatable. No second cut matches it. Three new graphs, two retained positive controls and one preserved D059 negative passed the audit without DFS. See `research/B4_JOINT_23_MAX_ROOTED_CORE.md`, D060 and `evidence/validation/B4_JOINT_23_MAX_ROOTED_CORE_001/`.
 - B4-JOINT-22-CUT-COMPAT-001 proves repeatable first-center c=11 growth for `[[q],[2],[],[2],[],[]]` with q>=2 and maximum q+12 at physical s:2. The K=1 lift at t>=1 has R={6}, D={2}, s:4=8. No second-center cut matches on the fixed seed or its c=11 one-leaf output. Forty-nine threshold rows and four new named graphs passed independent arithmetic with zero search. See `research/B4_JOINT_22_CUT_COMPAT.md`, D059 and `evidence/validation/B4_JOINT_22_CUT_COMPAT_001/`.
 - B4-JOINT-22-DIRECT-LEDGER-001 supplies an ordinary graceful ledger on `[[2],[2],[],[2],[],[]]` with s:2=14 and s:3=0. The displayed Case A ledger repeats 2 and omits 6. The accepted Case B lift covers all exact integers t>=1 for fixed q=r=2,K=1, with R={6}, D={2}, s:4=8. Four graph records, two candidates, and one adverse checker rejection passed independent audit with zero queries or enumeration. See `research/B4_JOINT_22_DIRECT_LEDGER.md`, D058 and `evidence/validation/B4_JOINT_22_DIRECT_LEDGER_001/`.

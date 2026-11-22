@@ -1,0 +1,33 @@
+{
+  "id": "B4-JOINT-SECOND-CENTER-CUT-READY-22-001-20261122",
+  "inputs_sha256": {
+    "evidence/validation/B4_JOINT_SECOND_CENTER_CUT_READY_22_001/audit.py": "c5ea909fee2565bfef6bb87b868e20c36ac283d419e5d9a232b2b8a6e9a72092",
+    "evidence/validation/B4_JOINT_SECOND_CENTER_CUT_READY_22_001/commands.json": "496cfa28cb22e91f2485a66d42481c32412aa76377b93feb9a6e6cd065132162",
+    "evidence/validation/B4_JOINT_SECOND_CENTER_CUT_READY_22_001/config.json": "a1956af54917db51118e8c81c475bd4f2358f0241101db47fe6884d9fbaf7aa5",
+    "evidence/validation/B4_JOINT_SECOND_CENTER_CUT_READY_22_001/validate.py": "b79f6603bf23af25ff7404d00ce2bd14c1332a7bf0a3b1bc8ed88ce969736a16",
+    "research/B4_JOINT_SECOND_CENTER_CUT_READY_22.md": "80c5fd4af49b194e2c7ec58df57eda0fd84a26abb435294995dcc48a2a31ebb2"
+  },
+  "parent": "ea444f9ae68505596fc3cc84dbdb2e848eeec446",
+  "retained_sha256": {
+    "evidence/validation/B4_JOINT_22_CUT_COMPAT_001/MANIFEST.json": "281ebd4bf50304b39ff986cd37b5e6b9554e14e7174d51ac8c7a187ba1c6286f",
+    "evidence/validation/B4_JOINT_22_CUT_COMPAT_001/audit_result.json": "cc3af88dc2e84148a43572d247f0fd99b8d74cd2583749c73a195f43cf80e7a7",
+    "evidence/validation/B4_JOINT_22_DIRECT_LEDGER_001/validation/candidate_B.json": "1fa92a64e4ebfe92ef58fe1bec6c34c461e61d5a67eb08c6ed2788f77d53f032",
+    "evidence/validation/B4_JOINT_22_DIRECT_LEDGER_001/validation/core_original.json": "a11c0daeeb58457ec1824f6507c958c2809ffc01fd06d059f1db69807fe2b764",
+    "evidence/validation/B4_JOINT_23_MAX_ROOTED_CORE_001/validation/core-original.json": "193d7b8530f81b0080add7697641a972a8890dbca9a9455b65b5ee981a5fb911",
+    "evidence/validation/B4_JOINT_23_MAX_ROOTED_CORE_001/validation/core.json": "4783ca5ce7bba333e5373a8b6c51aceb40ff0959a727259680b3dc00adc5c07b"
+  },
+  "runtime": {
+    "implementation": "cpython",
+    "optional_dependencies": [],
+    "platform": "Windows-11-10.0.26200-SP0",
+    "utf8_mode": 1,
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "source_sha256": {
+    "lcl/__init__.py": "134055506d3e9cd4fa538177844d28a44d5ab567ec220cf54048e63d1a8a7374",
+    "lcl/model.py": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6",
+    "lcl/verify.py": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909",
+    "pyproject.toml": "738f14eba3125ce7f444628adaddaf2e3e30e5aa7f43f10e7035067f6b7072e5",
+    "requirements.txt": "60f6e1bd76adf6ed25cf381ca95f67e8a27a0de1e62fb673a7cf5af4b86249ea"
+  }
+}

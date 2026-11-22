@@ -595,7 +595,12 @@ on the seed and first one-leaf output. The
 [C(2,3) supplier](B4_JOINT_23_MAX_ROOTED_CORE.md)
 now gives the exact maximum-rooted ledger and fixed q=2,r=3
 all-t K=1 lift. First growth is repeatable at its c=12 cut.
-Its second-host cut fails. The selected open obligation
-is to test an independent repeatable second-center
-transition connecting C(2,2) and C(2,3). Joint supply and
-K>=2 continuation remain separate.
+Its second-host cut fails. The
+[alternative C(2,2) ledger](B4_JOINT_SECOND_CENTER_CUT_READY_22.md)
+now supplies all second growth at q=2 and its exact K=1
+lift for all r>=2,t>=1. Composition of the distinct
+retained r=3 first-growth ledger gives all q>=2,t>=1 at
+r=3,K=1. A shared growth state, simultaneous q>=3,r>=4,
+and K>=2 continuation remain open. The selected next
+action is the scoped read-only Construction Synthesis
+catalog pilot.

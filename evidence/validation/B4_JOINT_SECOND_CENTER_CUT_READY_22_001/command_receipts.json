@@ -1,0 +1,18 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "exit_code": 0,
+      "elapsed_command_seconds": 0.9686884,
+      "stdout": "PASS: cut-ready seed, distinct r3 on retained original, r4 core and r4,t2 lift (0.125000 CPU seconds)\n",
+      "stderr": ""
+    },
+    {
+      "step": 2,
+      "exit_code": 0,
+      "elapsed_command_seconds": 1.1261574,
+      "stdout": "PASS: cut 13 alone; updated cuts 14,15; two new originals and zero searches (0.171875 total CPU seconds)\n",
+      "stderr": ""
+    }
+  ]
+}

@@ -928,3 +928,25 @@ positive controls, the preserved D059 negative, 34 host/cut
 rows and one adverse digest rejection. No solver, enumeration
 or replay. [Proof](B4_JOINT_23_MAX_ROOTED_CORE.md)
 · [Evidence](../evidence/validation/B4_JOINT_23_MAX_ROOTED_CORE_001/README.md) · D060
+
+## B4-JOINT-SECOND-CENTER-CUT-READY-22-001
+
+**ACCEPT** an independent alternative ledger on exact
+C(2,2), with s:2=14, s:1=0 and second center b:1:0=2.
+Exactly cut 13 supplies the complete tail [11,14] at
+this host. **REJECT** the s:3=0 branch of the displayed
+top-two cut plan only.
+
+**ACCEPT** repeatable second growth to every C(2,r),
+r>=2, with maximum r+12 at s:2 and updated cut r+11.
+Its all-r,t K=1 lift at q=2, r>=2,t>=1 has R={11},
+D={1}, s:4=10, s:5=11. **ACCEPT** the distinct r=3
+symbolic first-growth lift for q>=2,t>=1,K=1 with
+R=D={4} at s:4=8. Joint growth and K>=2 remain open.
+
+The audit rechecks two retained original controls,
+the alternative r=3 ledger on a retained original,
+two new originals, the D059 negative without replay,
+and one adverse digest rejection. Zero search and
+labeling enumeration. [Proof](B4_JOINT_SECOND_CENTER_CUT_READY_22.md)
+· [Evidence](../evidence/validation/B4_JOINT_SECOND_CENTER_CUT_READY_22_001/README.md) · D061

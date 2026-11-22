@@ -336,3 +336,14 @@ crossing tail. Thus the specified positive batch fails
 on this fixed ledger. The result gives no obstruction
 to a relabeled core or other second-host transition.
 [Scoped falsifiers](B4_JOINT_23_MAX_ROOTED_CORE.md)
+
+### F-B4-JOINT-22-CUT-13-TOP-PAIR-ZERO-RIGHT
+
+The specific second-host plan with s:0=13, s:2=14,
+c=13 and s:3=0 cannot supply the required tail on
+C(2,2). Its four crossings force b:1:0=2. Choosing
+s:1=1 then needs b:0:0=2, choosing s:1=2 repeats
+the host label, and s:1>=3 yields a weight at most
+10. Other upper selections and right-zero ledgers
+remain open. An alternative with s:1=0 succeeds.
+[Scoped proof](B4_JOINT_SECOND_CENTER_CUT_READY_22.md)

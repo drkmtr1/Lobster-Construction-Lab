@@ -1,0 +1,1450 @@
+{
+  "adverse_tests": 1,
+  "audited_sha256": {
+    "adverse.json": "4658645514975c57c399747128b8dabaeffb5b099723312d59697cd4ea190086",
+    "alternative-r2.json": "b9ee257136562722956bd94c395b0d98da124d8eaa7707ac218c54dac92f5ada",
+    "alternative-r3.json": "fc9a93656e1f3c37b0d0e63f8af948bfa53f4584788e773ff77e662f1c8320c8",
+    "batches.json": "123b1df893bbdf8804979432ededa9bdc14e9160bf91257d8d07fa8571ea5329",
+    "controls.json": "5a6dc64f9a686242d838823bccc790e963665e52d0597f8e139552f8a74d8c1f",
+    "identity.json": "bc80b566107a6f0ddbc67e13365110fe3516bc302e05cfee9db3326da4e2a647",
+    "r4-original.json": "7e7f4592b7408933595d4dc253a57318ce3f094de803c16215263d2b050681ed",
+    "r4-t2-original.json": "022e82b646626207f231395c1b12438cfe5a5742554a6d343a008afdcef79591",
+    "r4-t2.json": "64fa366f00f61866cc3bd53119178490697461f93cde6b2a4c4bf7d8a5ce5dd0",
+    "r4.json": "33d418fddf71187a5af0c1c81f430c42a53e583d8a37c41893546465bc45d903",
+    "source/lcl/__init__.py": "134055506d3e9cd4fa538177844d28a44d5ab567ec220cf54048e63d1a8a7374",
+    "source/lcl/model.py": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6",
+    "source/lcl/verify.py": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909",
+    "source/pyproject.toml": "738f14eba3125ce7f444628adaddaf2e3e30e5aa7f43f10e7035067f6b7072e5",
+    "source/requirements.txt": "60f6e1bd76adf6ed25cf381ca95f67e8a27a0de1e62fb673a7cf5af4b86249ea",
+    "summary.json": "70335d0c94e85c05709bdd404e987bf241c8776235c3358651a120b7bd6858e0"
+  },
+  "continued_cuts": {
+    "r3": {
+      "b": 2,
+      "c": 14,
+      "crossing_edges": [
+        {
+          "difference": 14,
+          "edge": [
+            "s:0",
+            "s:1"
+          ]
+        },
+        {
+          "difference": 15,
+          "edge": [
+            "s:1",
+            "s:2"
+          ]
+        },
+        {
+          "difference": 12,
+          "edge": [
+            "s:2",
+            "s:3"
+          ]
+        },
+        {
+          "difference": 13,
+          "edge": [
+            "s:0",
+            "b:0:0"
+          ]
+        }
+      ],
+      "d0": 12,
+      "excess": [],
+      "host": "b:1:0",
+      "host_side": "below",
+      "matches": true,
+      "missing": [],
+      "required": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "spectrum": [
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    "r4": {
+      "b": 2,
+      "c": 15,
+      "crossing_edges": [
+        {
+          "difference": 15,
+          "edge": [
+            "s:0",
+            "s:1"
+          ]
+        },
+        {
+          "difference": 16,
+          "edge": [
+            "s:1",
+            "s:2"
+          ]
+        },
+        {
+          "difference": 13,
+          "edge": [
+            "s:2",
+            "s:3"
+          ]
+        },
+        {
+          "difference": 14,
+          "edge": [
+            "s:0",
+            "b:0:0"
+          ]
+        }
+      ],
+      "d0": 13,
+      "excess": [],
+      "host": "b:1:0",
+      "host_side": "below",
+      "matches": true,
+      "missing": [],
+      "required": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "spectrum": [
+        13,
+        14,
+        15,
+        16
+      ]
+    }
+  },
+  "cpu_seconds_total": 0.171875,
+  "dfs_queries": 0,
+  "labeling_enumeration_nodes": 0,
+  "new_originals": 2,
+  "retained_D059_replays": 0,
+  "retained_originals": 2,
+  "seed_cuts": [
+    {
+      "b": 2,
+      "c": 0,
+      "crossing_edges": [],
+      "d0": 3,
+      "excess": [],
+      "host": "b:1:0",
+      "host_side": "at_or_above",
+      "matches": false,
+      "missing": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "required": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "spectrum": []
+    },
+    {
+      "b": 2,
+      "c": 1,
+      "crossing_edges": [
+        {
+          "difference": 13,
+          "edge": [
+            "s:0",
+            "s:1"
+          ]
+        },
+        {
+          "difference": 14,
+          "edge": [
+            "s:1",
+            "s:2"
+          ]
+        },
+        {
+          "difference": 2,
+          "edge": [
+            "s:1",
+            "b:1:0"
+          ]
+        }
+      ],
+      "d0": 2,
+      "excess": [],
+      "host": "b:1:0",
+      "host_side": "at_or_above",
+      "matches": false,
+      "missing": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "required": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "spectrum": [
+        2,
+        13,
+        14
+      ]
+    },
+    {
+      "b": 2,
+      "c": 2,
+      "crossing_edges": [
+        {
+          "difference": 13,
+          "edge": [
+            "s:0",
+            "s:1"
+          ]
+        },
+        {
+          "difference": 14,
+          "edge": [
+            "s:1",
+            "s:2"
+          ]
+        },
+        {
+          "difference": 12,
+          "edge": [
+            "s:0",
+            "b:0:0"
+          ]
+        },
+        {
+          "difference": 10,
+          "edge": [
+            "b:0:0",
+            "l:0:0:0"
+          ]
+        },
+        {
+          "difference": 7,
+          "edge": [
+            "b:0:0",
+            "l:0:0:1"
+          ]
+        },
+        {
+          "difference": 2,
+          "edge": [
+            "s:1",
+            "b:1:0"
+          ]
+        }
+      ],
+      "d0": 1,
+      "excess": [],
+      "host": "b:1:0",
+      "host_side": "at_or_above",
+      "matches": false,
+      "missing": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        11
+      ],
+      "required": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "spectrum": [
+        2,
+        7,
+        10,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "b": 2,
+      "c": 3,
+      "crossing_edges": [
+        {
+          "difference": 13,
+          "edge": [
+            "s:0",
+            "s:1"
+          ]
+        },
+        {
+          "difference": 14,
+          "edge": [
+            "s:1",
+            "s:2"
+          ]
+        },
+        {
+          "difference": 12,
+          "edge": [
+            "s:0",
+            "b:0:0"
+          ]
+        },
+        {
+          "difference": 10,
+          "edge": [
+            "b:0:0",
+            "l:0:0:0"
+          ]
+        },
+        {
+          "difference": 7,
+          "edge": [
+            "b:0:0",
+            "l:0:0:1"
+          ]
+        },
+        {
+          "difference": 3,
+          "edge": [
+            "b:1:0",
+            "l:1:0:0"
+          ]
+        },
+        {
+          "difference": 4,
+          "edge": [
+            "b:1:0",
+            "l:1:0:1"
+          ]
+        }
+      ],
+      "d0": 1,
+      "excess": [],
+      "host": "b:1:0",
+      "host_side": "below",
+      "matches": false,
+      "missing": [
+        1,
+        2,
+        5,
+        6,
+        8,
+        9,
+        11
+      ],
+      "required": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "spectrum": [
+        3,
+        4,
+        7,
+        10,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "b": 2,
+      "c": 4,
+      "crossing_edges": [
+        {
+          "difference": 13,
+          "edge": [
+            "s:0",
+            "s:1"
+          ]
+        },
+        {
+          "difference": 14,
+          "edge": [
+            "s:1",
+            "s:2"
+          ]
+        },
+        {
+          "difference": 11,
+          "edge": [
+            "s:2",
+            "s:3"
+          ]
+        },
+        {
+          "difference": 6,
+          "edge": [
+            "s:3",
+            "s:4"
+          ]
+        },
+        {
+          "difference": 12,
+          "edge": [
+            "s:0",
+            "b:0:0"
+          ]
+        },
+        {
+          "difference": 10,
+          "edge": [
+            "b:0:0",
+            "l:0:0:0"
+          ]
+        },
+        {
+          "difference": 7,
+          "edge": [
+            "b:0:0",
+            "l:0:0:1"
+          ]
+        },
+        {
+          "difference": 3,
+          "edge": [
+            "b:1:0",
+            "l:1:0:0"
+          ]
+        },
+        {
+          "difference": 4,
+          "edge": [
+            "b:1:0",
+            "l:1:0:1"
+          ]
+        },
+        {
+          "difference": 9,
+          "edge": [
+            "s:3",
+            "b:3:0"
+          ]
+        }
+      ],
+      "d0": 2,
+      "excess": [],
+      "host": "b:1:0",
+      "host_side": "below",
+      "matches": false,
+      "missing": [
+        2,
+        5,
+        8
+      ],
+      "required": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "spectrum": [
+        3,
+        4,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "b": 2,
+      "c": 5,
+      "crossing_edges": [
+        {
+          "difference": 13,
+          "edge": [
+            "s:0",
+            "s:1"
+          ]
+        },
+        {
+          "difference": 14,
+          "edge": [
+            "s:1",
+            "s:2"
+          ]
+        },
+        {
+          "difference": 11,
+          "edge": [
+            "s:2",
+            "s:3"
+          ]
+        },
+        {
+          "difference": 6,
+          "edge": [
+            "s:3",
+            "s:4"
+          ]
+        },
+        {
+          "difference": 12,
+          "edge": [
+            "s:0",
+            "b:0:0"
+          ]
+        },
+        {
+          "difference": 10,
+          "edge": [
+            "b:0:0",
+            "l:0:0:0"
+          ]
+        },
+        {
+          "difference": 7,
+          "edge": [
+            "b:0:0",
+            "l:0:0:1"
+          ]
+        },
+        {
+          "difference": 3,
+          "edge": [
+            "b:1:0",
+            "l:1:0:0"
+          ]
+        },
+        {
+          "difference": 4,
+          "edge": [
+            "b:1:0",
+            "l:1:0:1"
+          ]
+        },
+        {
+          "difference": 9,
+          "edge": [
+            "s:3",
+            "b:3:0"
+          ]
+        },
+        {
+          "difference": 8,
+          "edge": [
+            "b:3:0",
+            "l:3:0:0"
+          ]
+        }
+      ],
+      "d0": 3,
+      "excess": [],
+      "host": "b:1:0",
+      "host_side": "below",
+      "matches": false,
+      "missing": [
+        5
+      ],
+      "required": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "spectrum": [
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "b": 2,
+      "c": 6,
+      "crossing_edges": [
+        {
+          "difference": 13,
+          "edge": [
+            "s:0",
+            "s:1"
+          ]
+        },
+        {
+          "difference": 14,
+          "edge": [
+            "s:1",
+            "s:2"
+          ]
+        },
+        {
+          "difference": 11,
+          "edge": [
+            "s:2",
+            "s:3"
+          ]
+        },
+        {
+          "difference": 6,
+          "edge": [
+            "s:3",
+            "s:4"
+          ]
+        },
+        {
+          "difference": 12,
+          "edge": [
+            "s:0",
+            "b:0:0"
+          ]
+        },
+        {
+          "difference": 10,
+          "edge": [
+            "b:0:0",
+            "l:0:0:0"
+          ]
+        },
+        {
+          "difference": 7,
+          "edge": [
+            "b:0:0",
+            "l:0:0:1"
+          ]
+        },
+        {
+          "difference": 4,
+          "edge": [
+            "b:1:0",
+            "l:1:0:1"
+          ]
+        },
+        {
+          "difference": 9,
+          "edge": [
+            "s:3",
+            "b:3:0"
+          ]
+        },
+        {
+          "difference": 8,
+          "edge": [
+            "b:3:0",
+            "l:3:0:0"
+          ]
+        }
+      ],
+      "d0": 4,
+      "excess": [],
+      "host": "b:1:0",
+      "host_side": "below",
+      "matches": false,
+      "missing": [
+        5
+      ],
+      "required": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "spectrum": [
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "b": 2,
+      "c": 7,
+      "crossing_edges": [
+        {
+          "difference": 13,
+          "edge": [
+            "s:0",
+            "s:1"
+          ]
+        },
+        {
+          "difference": 14,
+          "edge": [
+            "s:1",
+            "s:2"
+          ]
+        },
+        {
+          "difference": 11,
+          "edge": [
+            "s:2",
+            "s:3"
+          ]
+        },
+        {
+          "difference": 6,
+          "edge": [
+            "s:3",
+            "s:4"
+          ]
+        },
+        {
+          "difference": 12,
+          "edge": [
+            "s:0",
+            "b:0:0"
+          ]
+        },
+        {
+          "difference": 10,
+          "edge": [
+            "b:0:0",
+            "l:0:0:0"
+          ]
+        },
+        {
+          "difference": 7,
+          "edge": [
+            "b:0:0",
+            "l:0:0:1"
+          ]
+        },
+        {
+          "difference": 9,
+          "edge": [
+            "s:3",
+            "b:3:0"
+          ]
+        },
+        {
+          "difference": 8,
+          "edge": [
+            "b:3:0",
+            "l:3:0:0"
+          ]
+        }
+      ],
+      "d0": 5,
+      "excess": [],
+      "host": "b:1:0",
+      "host_side": "below",
+      "matches": false,
+      "missing": [
+        5
+      ],
+      "required": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "spectrum": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "b": 2,
+      "c": 8,
+      "crossing_edges": [
+        {
+          "difference": 13,
+          "edge": [
+            "s:0",
+            "s:1"
+          ]
+        },
+        {
+          "difference": 14,
+          "edge": [
+            "s:1",
+            "s:2"
+          ]
+        },
+        {
+          "difference": 11,
+          "edge": [
+            "s:2",
+            "s:3"
+          ]
+        },
+        {
+          "difference": 6,
+          "edge": [
+            "s:3",
+            "s:4"
+          ]
+        },
+        {
+          "difference": 12,
+          "edge": [
+            "s:0",
+            "b:0:0"
+          ]
+        },
+        {
+          "difference": 10,
+          "edge": [
+            "b:0:0",
+            "l:0:0:0"
+          ]
+        },
+        {
+          "difference": 7,
+          "edge": [
+            "b:0:0",
+            "l:0:0:1"
+          ]
+        },
+        {
+          "difference": 9,
+          "edge": [
+            "s:3",
+            "b:3:0"
+          ]
+        },
+        {
+          "difference": 8,
+          "edge": [
+            "b:3:0",
+            "l:3:0:0"
+          ]
+        },
+        {
+          "difference": 5,
+          "edge": [
+            "b:3:0",
+            "l:3:0:1"
+          ]
+        }
+      ],
+      "d0": 6,
+      "excess": [
+        5
+      ],
+      "host": "b:1:0",
+      "host_side": "below",
+      "matches": false,
+      "missing": [],
+      "required": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "spectrum": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "b": 2,
+      "c": 9,
+      "crossing_edges": [
+        {
+          "difference": 13,
+          "edge": [
+            "s:0",
+            "s:1"
+          ]
+        },
+        {
+          "difference": 14,
+          "edge": [
+            "s:1",
+            "s:2"
+          ]
+        },
+        {
+          "difference": 11,
+          "edge": [
+            "s:2",
+            "s:3"
+          ]
+        },
+        {
+          "difference": 6,
+          "edge": [
+            "s:3",
+            "s:4"
+          ]
+        },
+        {
+          "difference": 12,
+          "edge": [
+            "s:0",
+            "b:0:0"
+          ]
+        },
+        {
+          "difference": 10,
+          "edge": [
+            "b:0:0",
+            "l:0:0:0"
+          ]
+        },
+        {
+          "difference": 9,
+          "edge": [
+            "s:3",
+            "b:3:0"
+          ]
+        },
+        {
+          "difference": 8,
+          "edge": [
+            "b:3:0",
+            "l:3:0:0"
+          ]
+        },
+        {
+          "difference": 5,
+          "edge": [
+            "b:3:0",
+            "l:3:0:1"
+          ]
+        }
+      ],
+      "d0": 7,
+      "excess": [
+        5,
+        6
+      ],
+      "host": "b:1:0",
+      "host_side": "below",
+      "matches": false,
+      "missing": [
+        7
+      ],
+      "required": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "spectrum": [
+        5,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "b": 2,
+      "c": 10,
+      "crossing_edges": [
+        {
+          "difference": 13,
+          "edge": [
+            "s:0",
+            "s:1"
+          ]
+        },
+        {
+          "difference": 14,
+          "edge": [
+            "s:1",
+            "s:2"
+          ]
+        },
+        {
+          "difference": 11,
+          "edge": [
+            "s:2",
+            "s:3"
+          ]
+        },
+        {
+          "difference": 1,
+          "edge": [
+            "s:4",
+            "s:5"
+          ]
+        },
+        {
+          "difference": 12,
+          "edge": [
+            "s:0",
+            "b:0:0"
+          ]
+        },
+        {
+          "difference": 10,
+          "edge": [
+            "b:0:0",
+            "l:0:0:0"
+          ]
+        },
+        {
+          "difference": 9,
+          "edge": [
+            "s:3",
+            "b:3:0"
+          ]
+        },
+        {
+          "difference": 8,
+          "edge": [
+            "b:3:0",
+            "l:3:0:0"
+          ]
+        },
+        {
+          "difference": 5,
+          "edge": [
+            "b:3:0",
+            "l:3:0:1"
+          ]
+        }
+      ],
+      "d0": 8,
+      "excess": [
+        1,
+        5
+      ],
+      "host": "b:1:0",
+      "host_side": "below",
+      "matches": false,
+      "missing": [],
+      "required": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "spectrum": [
+        1,
+        5,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "b": 2,
+      "c": 11,
+      "crossing_edges": [
+        {
+          "difference": 13,
+          "edge": [
+            "s:0",
+            "s:1"
+          ]
+        },
+        {
+          "difference": 14,
+          "edge": [
+            "s:1",
+            "s:2"
+          ]
+        },
+        {
+          "difference": 11,
+          "edge": [
+            "s:2",
+            "s:3"
+          ]
+        },
+        {
+          "difference": 12,
+          "edge": [
+            "s:0",
+            "b:0:0"
+          ]
+        },
+        {
+          "difference": 10,
+          "edge": [
+            "b:0:0",
+            "l:0:0:0"
+          ]
+        },
+        {
+          "difference": 9,
+          "edge": [
+            "s:3",
+            "b:3:0"
+          ]
+        },
+        {
+          "difference": 8,
+          "edge": [
+            "b:3:0",
+            "l:3:0:0"
+          ]
+        },
+        {
+          "difference": 5,
+          "edge": [
+            "b:3:0",
+            "l:3:0:1"
+          ]
+        }
+      ],
+      "d0": 9,
+      "excess": [
+        5,
+        8
+      ],
+      "host": "b:1:0",
+      "host_side": "below",
+      "matches": false,
+      "missing": [],
+      "required": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "spectrum": [
+        5,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "b": 2,
+      "c": 12,
+      "crossing_edges": [
+        {
+          "difference": 13,
+          "edge": [
+            "s:0",
+            "s:1"
+          ]
+        },
+        {
+          "difference": 14,
+          "edge": [
+            "s:1",
+            "s:2"
+          ]
+        },
+        {
+          "difference": 11,
+          "edge": [
+            "s:2",
+            "s:3"
+          ]
+        },
+        {
+          "difference": 12,
+          "edge": [
+            "s:0",
+            "b:0:0"
+          ]
+        },
+        {
+          "difference": 9,
+          "edge": [
+            "s:3",
+            "b:3:0"
+          ]
+        },
+        {
+          "difference": 8,
+          "edge": [
+            "b:3:0",
+            "l:3:0:0"
+          ]
+        },
+        {
+          "difference": 5,
+          "edge": [
+            "b:3:0",
+            "l:3:0:1"
+          ]
+        }
+      ],
+      "d0": 10,
+      "excess": [
+        5,
+        8,
+        9
+      ],
+      "host": "b:1:0",
+      "host_side": "below",
+      "matches": false,
+      "missing": [
+        10
+      ],
+      "required": [
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "spectrum": [
+        5,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "b": 2,
+      "c": 13,
+      "crossing_edges": [
+        {
+          "difference": 13,
+          "edge": [
+            "s:0",
+            "s:1"
+          ]
+        },
+        {
+          "difference": 14,
+          "edge": [
+            "s:1",
+            "s:2"
+          ]
+        },
+        {
+          "difference": 11,
+          "edge": [
+            "s:2",
+            "s:3"
+          ]
+        },
+        {
+          "difference": 12,
+          "edge": [
+            "s:0",
+            "b:0:0"
+          ]
+        }
+      ],
+      "d0": 11,
+      "excess": [],
+      "host": "b:1:0",
+      "host_side": "below",
+      "matches": true,
+      "missing": [],
+      "required": [
+        11,
+        12,
+        13,
+        14
+      ],
+      "spectrum": [
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "b": 2,
+      "c": 14,
+      "crossing_edges": [
+        {
+          "difference": 14,
+          "edge": [
+            "s:1",
+            "s:2"
+          ]
+        },
+        {
+          "difference": 11,
+          "edge": [
+            "s:2",
+            "s:3"
+          ]
+        }
+      ],
+      "d0": 12,
+      "excess": [
+        11
+      ],
+      "host": "b:1:0",
+      "host_side": "below",
+      "matches": false,
+      "missing": [
+        12,
+        13
+      ],
+      "required": [
+        12,
+        13,
+        14
+      ],
+      "spectrum": [
+        11,
+        14
+      ]
+    },
+    {
+      "b": 2,
+      "c": 15,
+      "crossing_edges": [],
+      "d0": 13,
+      "excess": [],
+      "host": "b:1:0",
+      "host_side": "below",
+      "matches": false,
+      "missing": [
+        13,
+        14
+      ],
+      "required": [
+        13,
+        14
+      ],
+      "spectrum": []
+    }
+  ],
+  "status": "PASS",
+  "threshold_rows": 18
+}

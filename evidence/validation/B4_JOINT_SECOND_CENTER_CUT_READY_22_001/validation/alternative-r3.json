@@ -1,0 +1,161 @@
+{
+  "checker": {
+    "claim": "finite certificate for this exact named target only",
+    "edge_differences": [
+      14,
+      15,
+      12,
+      6,
+      1,
+      13,
+      10,
+      7,
+      2,
+      3,
+      4,
+      11,
+      9,
+      8,
+      5
+    ],
+    "errors": [],
+    "graph_digest": "d166a6e913bb80ba0872e937bde952cebbbd81c5bcd0d3f8dc20ed2865456f93",
+    "m": 15,
+    "n": 16,
+    "valid": true
+  },
+  "graph_digest": "d166a6e913bb80ba0872e937bde952cebbbd81c5bcd0d3f8dc20ed2865456f93",
+  "labels": {
+    "b:0:0": 1,
+    "b:1:0": 2,
+    "b:3:0": 12,
+    "l:0:0:0": 11,
+    "l:0:0:1": 8,
+    "l:1:0:0": 5,
+    "l:1:0:1": 6,
+    "l:1:0:2": 13,
+    "l:3:0:0": 4,
+    "l:3:0:1": 7,
+    "s:0": 14,
+    "s:1": 0,
+    "s:2": 15,
+    "s:3": 3,
+    "s:4": 9,
+    "s:5": 10
+  },
+  "ledger": [
+    {
+      "difference": 14,
+      "edge": [
+        "s:0",
+        "s:1"
+      ]
+    },
+    {
+      "difference": 15,
+      "edge": [
+        "s:1",
+        "s:2"
+      ]
+    },
+    {
+      "difference": 12,
+      "edge": [
+        "s:2",
+        "s:3"
+      ]
+    },
+    {
+      "difference": 6,
+      "edge": [
+        "s:3",
+        "s:4"
+      ]
+    },
+    {
+      "difference": 1,
+      "edge": [
+        "s:4",
+        "s:5"
+      ]
+    },
+    {
+      "difference": 13,
+      "edge": [
+        "s:0",
+        "b:0:0"
+      ]
+    },
+    {
+      "difference": 10,
+      "edge": [
+        "b:0:0",
+        "l:0:0:0"
+      ]
+    },
+    {
+      "difference": 7,
+      "edge": [
+        "b:0:0",
+        "l:0:0:1"
+      ]
+    },
+    {
+      "difference": 2,
+      "edge": [
+        "s:1",
+        "b:1:0"
+      ]
+    },
+    {
+      "difference": 3,
+      "edge": [
+        "b:1:0",
+        "l:1:0:0"
+      ]
+    },
+    {
+      "difference": 4,
+      "edge": [
+        "b:1:0",
+        "l:1:0:1"
+      ]
+    },
+    {
+      "difference": 11,
+      "edge": [
+        "b:1:0",
+        "l:1:0:2"
+      ]
+    },
+    {
+      "difference": 9,
+      "edge": [
+        "s:3",
+        "b:3:0"
+      ]
+    },
+    {
+      "difference": 8,
+      "edge": [
+        "b:3:0",
+        "l:3:0:0"
+      ]
+    },
+    {
+      "difference": 5,
+      "edge": [
+        "b:3:0",
+        "l:3:0:1"
+      ]
+    }
+  ],
+  "witness": [
+    "s:0",
+    "s:1",
+    "s:2",
+    "s:3",
+    "s:4",
+    "s:5"
+  ]
+}
