@@ -1,0 +1,207 @@
+{
+  "run_id": "B4-1RT2-TWO-HOST-COMPATIBILITY-001-20261121",
+  "parent": "eb5745483186287b20bcf155cf4e5265dbfc20a5",
+  "workers": 1,
+  "max_vertices": 27,
+  "max_result_bytes": 2000000,
+  "solver_queries": 0,
+  "computational_enumeration": 0,
+  "historical_search_replay": 0,
+  "controls": [
+    {
+      "r": 2,
+      "t": 3,
+      "n": 17,
+      "certificate": "evidence/validation/B4_12T2_ZERO_HOST_SUPPLIER_001/validation/normalized-t3.json",
+      "original": "evidence/validation/B4_12T2_ZERO_HOST_SUPPLIER_001/validation/originals/normalized-t3.json"
+    },
+    {
+      "r": 5,
+      "t": 3,
+      "n": 20,
+      "certificate": "evidence/validation/B4_1R32_MINIMUM_HIGH_SUPPLIER_001/validation/normalized-r5.json",
+      "original": "evidence/validation/B4_1R32_MINIMUM_HIGH_SUPPLIER_001/validation/originals/normalized-r5.json"
+    },
+    {
+      "r": 2,
+      "t": 4,
+      "n": 18,
+      "certificate": "evidence/validation/B4_12T2_ZERO_HOST_SUPPLIER_001/validation/normalized-t4.json",
+      "original": "evidence/validation/B4_12T2_ZERO_HOST_SUPPLIER_001/validation/originals/normalized-t4.json"
+    },
+    {
+      "r": 2,
+      "t": 5,
+      "n": 19,
+      "certificate": "evidence/validation/B4_12T2_ZERO_HOST_SUPPLIER_001/validation/normalized-t5.json",
+      "original": "evidence/validation/B4_12T2_ZERO_HOST_SUPPLIER_001/validation/originals/normalized-t5.json"
+    }
+  ],
+  "prefixes": [
+    [
+      3,
+      4,
+      19
+    ],
+    [
+      3,
+      5,
+      20
+    ],
+    [
+      5,
+      5,
+      22
+    ]
+  ],
+  "targets": [
+    [
+      3,
+      4,
+      2,
+      21
+    ],
+    [
+      3,
+      4,
+      3,
+      22
+    ],
+    [
+      3,
+      5,
+      4,
+      24
+    ],
+    [
+      5,
+      5,
+      5,
+      27
+    ]
+  ],
+  "invalid": [
+    [true, 4, 2], [3.0, 4, 2], ["3", 4, 2], [2, 4, 2],
+    [3, true, 2], [3, 4.0, 2], [3, "4", 2], [3, 3, 2],
+    [3, 4, true], [3, 4, 2.0], [3, 4, "2"], [3, 4, 1]
+  ],
+  "routes": [
+    {
+      "name": "H3,Z2",
+      "start": [
+        2,
+        3
+      ],
+      "steps": [
+        [
+          "H",
+          3,
+          5,
+          3
+        ],
+        [
+          "Z",
+          2,
+          5,
+          5
+        ]
+      ]
+    },
+    {
+      "name": "Z2,H3",
+      "start": [
+        2,
+        3
+      ],
+      "steps": [
+        [
+          "Z",
+          2,
+          2,
+          5
+        ],
+        [
+          "H",
+          3,
+          5,
+          5
+        ]
+      ]
+    },
+    {
+      "name": "Z1,H1,Z1,H2",
+      "start": [
+        2,
+        3
+      ],
+      "steps": [
+        [
+          "Z",
+          1,
+          2,
+          4
+        ],
+        [
+          "H",
+          1,
+          3,
+          4
+        ],
+        [
+          "Z",
+          1,
+          3,
+          5
+        ],
+        [
+          "H",
+          2,
+          5,
+          5
+        ]
+      ]
+    },
+    {
+      "name": "H subdivision",
+      "start": [
+        2,
+        5
+      ],
+      "steps": [
+        [
+          "H",
+          1,
+          3,
+          5
+        ],
+        [
+          "H",
+          2,
+          5,
+          5
+        ]
+      ]
+    },
+    {
+      "name": "Z subdivision",
+      "start": [
+        2,
+        3
+      ],
+      "steps": [
+        [
+          "Z",
+          1,
+          2,
+          4
+        ],
+        [
+          "Z",
+          1,
+          2,
+          5
+        ]
+      ]
+    }
+  ]
+}

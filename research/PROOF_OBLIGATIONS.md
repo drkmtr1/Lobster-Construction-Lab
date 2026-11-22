@@ -492,6 +492,22 @@ and the original third-branch lift commutes pointwise with it.
 
 The selector combines the new singleton with the retained r=1
 and r=2 singleton cases and the earlier K>=2 cases to cover
-positive r,K on the exact ordered (1,r,3,2) profile. Compatibility
-of minimum-high second growth with zero-host third growth for
-r>=3,t>=4 remains a separate obligation.
+positive r,K on the exact ordered (1,r,3,2) profile. The next
+result addresses the normalized r>=3,t>=4 case and its K>=2 completion.
+
+### 1RT2 two-host compatibility and nonadjacent completion
+
+The [conditional compatibility lemma](ALPHA_MINIMUM_HIGH_ZERO_HOST_COMPATIBILITY.md)
+preserves the supplied physical minimum-high and zero hosts,
+both actual ports and offsets, the witness, and the ordered
+leaf-name lists under every finite interleaving.
+
+The [1RT2 construction](B4_1RT2_TWO_HOST_COMPATIBILITY.md)
+discharges both host premises on the explicit 1232 seed, gives
+A(r+t+12,r+6;1,1) on the exact normalized profile for r>=3,t>=4,
+and proves ordinary original-path completion for K>=2. The
+disjoint selector extends that K>=2 coverage to all positive r,t.
+
+For r>=3,t>=4, K=1 remains outside the accepted nonadjacent
+interface. A direct singleton on the same named graph and both
+of its exact resource complements remain a separate obligation.

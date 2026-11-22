@@ -1,0 +1,274 @@
+{
+  "alpha": {
+    "high": [
+      "b:1:0",
+      "b:3:0",
+      "l:0:0:0",
+      "l:2:0:0",
+      "l:2:0:1",
+      "l:2:0:2",
+      "s:0",
+      "s:2",
+      "s:4"
+    ],
+    "low": [
+      "b:0:0",
+      "b:2:0",
+      "l:1:0:0",
+      "l:1:0:1",
+      "l:1:0:2",
+      "l:1:0:3",
+      "l:1:0:4",
+      "l:3:0:0",
+      "l:3:0:1",
+      "s:1",
+      "s:3"
+    ],
+    "low_size": 11
+  },
+  "anchors": {
+    "b:0:0": 1,
+    "b:1:0": 11,
+    "b:2:0": 0,
+    "s:4": 12
+  },
+  "edge_ledger": [
+    {
+      "difference": 7,
+      "edge": [
+        "s:0",
+        "s:1"
+      ]
+    },
+    {
+      "difference": 12,
+      "edge": [
+        "s:1",
+        "s:2"
+      ]
+    },
+    {
+      "difference": 15,
+      "edge": [
+        "s:2",
+        "s:3"
+      ]
+    },
+    {
+      "difference": 8,
+      "edge": [
+        "s:3",
+        "s:4"
+      ]
+    },
+    {
+      "difference": 13,
+      "edge": [
+        "s:0",
+        "b:0:0"
+      ]
+    },
+    {
+      "difference": 14,
+      "edge": [
+        "b:0:0",
+        "l:0:0:0"
+      ]
+    },
+    {
+      "difference": 4,
+      "edge": [
+        "s:1",
+        "b:1:0"
+      ]
+    },
+    {
+      "difference": 5,
+      "edge": [
+        "b:1:0",
+        "l:1:0:0"
+      ]
+    },
+    {
+      "difference": 6,
+      "edge": [
+        "b:1:0",
+        "l:1:0:1"
+      ]
+    },
+    {
+      "difference": 3,
+      "edge": [
+        "b:1:0",
+        "l:1:0:2"
+      ]
+    },
+    {
+      "difference": 2,
+      "edge": [
+        "b:1:0",
+        "l:1:0:3"
+      ]
+    },
+    {
+      "difference": 1,
+      "edge": [
+        "b:1:0",
+        "l:1:0:4"
+      ]
+    },
+    {
+      "difference": 19,
+      "edge": [
+        "s:2",
+        "b:2:0"
+      ]
+    },
+    {
+      "difference": 16,
+      "edge": [
+        "b:2:0",
+        "l:2:0:0"
+      ]
+    },
+    {
+      "difference": 17,
+      "edge": [
+        "b:2:0",
+        "l:2:0:1"
+      ]
+    },
+    {
+      "difference": 18,
+      "edge": [
+        "b:2:0",
+        "l:2:0:2"
+      ]
+    },
+    {
+      "difference": 9,
+      "edge": [
+        "s:3",
+        "b:3:0"
+      ]
+    },
+    {
+      "difference": 11,
+      "edge": [
+        "b:3:0",
+        "l:3:0:0"
+      ]
+    },
+    {
+      "difference": 10,
+      "edge": [
+        "b:3:0",
+        "l:3:0:1"
+      ]
+    }
+  ],
+  "labels": {
+    "b:0:0": 1,
+    "b:1:0": 11,
+    "b:2:0": 0,
+    "b:3:0": 13,
+    "l:0:0:0": 15,
+    "l:1:0:0": 6,
+    "l:1:0:1": 5,
+    "l:1:0:2": 8,
+    "l:1:0:3": 9,
+    "l:1:0:4": 10,
+    "l:2:0:0": 16,
+    "l:2:0:1": 17,
+    "l:2:0:2": 18,
+    "l:3:0:0": 2,
+    "l:3:0:1": 3,
+    "s:0": 14,
+    "s:1": 7,
+    "s:2": 19,
+    "s:3": 4,
+    "s:4": 12
+  },
+  "original": {
+    "graph_digest": "c679ab7dd55c22224073bcd322874b81c7548e0b12f287648d1f653d12fa2ae0",
+    "path": "evidence/validation/B4_1R32_MINIMUM_HIGH_SUPPLIER_001/validation/originals/normalized-r5.json",
+    "sha256_raw": "063df142242ba24f79e5d2211e2f6974e45a8c4f5271c73beee7c9be443c5a71"
+  },
+  "parameters": {
+    "r": 5,
+    "t": 3
+  },
+  "retained": {
+    "certificate": "evidence/validation/B4_1R32_MINIMUM_HIGH_SUPPLIER_001/validation/normalized-r5.json",
+    "sha256_raw": "f378e54d96ec37be33c2f7bb8e6c90c3937a85b88f948f382249b04196174ce6"
+  },
+  "state": {
+    "H": "b:1:0",
+    "L": "b:0:0",
+    "U": "s:4",
+    "Z": "b:2:0",
+    "n": 20,
+    "p": 11,
+    "x": 1,
+    "y": 1
+  },
+  "verification": {
+    "claim": "finite certificate for this exact named target only",
+    "edge_differences": [
+      7,
+      12,
+      15,
+      8,
+      13,
+      14,
+      4,
+      5,
+      6,
+      3,
+      2,
+      1,
+      19,
+      16,
+      17,
+      18,
+      9,
+      11,
+      10
+    ],
+    "errors": [],
+    "graph_digest": "c679ab7dd55c22224073bcd322874b81c7548e0b12f287648d1f653d12fa2ae0",
+    "m": 19,
+    "n": 20,
+    "valid": true
+  },
+  "witness": [
+    "b:0:0",
+    "s:0",
+    "s:1",
+    "s:2",
+    "s:3",
+    "s:4"
+  ],
+  "witness_distances": {
+    "b:0:0": 0,
+    "b:1:0": 1,
+    "b:2:0": 1,
+    "b:3:0": 1,
+    "l:0:0:0": 1,
+    "l:1:0:0": 2,
+    "l:1:0:1": 2,
+    "l:1:0:2": 2,
+    "l:1:0:3": 2,
+    "l:1:0:4": 2,
+    "l:2:0:0": 2,
+    "l:2:0:1": 2,
+    "l:2:0:2": 2,
+    "l:3:0:0": 2,
+    "l:3:0:1": 2,
+    "s:0": 0,
+    "s:1": 0,
+    "s:2": 0,
+    "s:3": 0,
+    "s:4": 0
+  }
+}

@@ -1,0 +1,4 @@
+# Preserve the raw evidence bytes recorded in the manifest.
+* -text
+# The parent source ends with a blank line. Preserve the snapshot exactly.
+validation/source/lcl/states.py whitespace=-blank-at-eof

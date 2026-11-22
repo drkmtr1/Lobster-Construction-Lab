@@ -658,3 +658,30 @@ the audit and two read-only AI reviews added zero cases.
 No solver, enumeration, replay or production edits.
 [Proof](B4_1R32_K1_ROOTED_CORE.md)
 · [Evidence](../evidence/validation/B4_1R32_K1_ROOTED_CORE_001/README.md) · D049
+
+## B4-1RT2-TWO-HOST-COMPATIBILITY-001
+
+**ACCEPT** conditional compatibility of minimum-high and zero-host
+leaf growth on one supplied witnessed alpha state. Every finite
+interleaving with prescribed names yields the same named labeling
+and incidences and preserves both host predicates, actual ports,
+offsets and witness.
+
+**ACCEPT** A(r+t+12,r+6;1,1) on the exact normalized (1,r,t,2)
+prefix for exact integers r>=3,t>=4, and ordinary original-path
+completion for K>=2. The shifted prefix leaves R=[r+6,r+K+5]
+and D=[1,K] at physical s:4=r+K+7. The disjoint selector gives
+ordinary gracefulness of the exact family for all positive r,t
+at K>=2. The K=1 corner r>=3,t>=4 requires separate supply.
+
+**REJECT** extending the old third-terminal formula to index 3,
+because it duplicates s:2. Use the proved piecewise formula.
+
+Four retained normalized controls, three new normalized prefixes,
+four new completed targets and twelve invalid-input probes passed.
+Both separate AI reviews accepted. The same-record audit and five
+route and subdivision comparisons add zero graph cases. No solver,
+enumeration, historical replay or production change.
+[Lemma](ALPHA_MINIMUM_HIGH_ZERO_HOST_COMPATIBILITY.md)
+· [Family proof](B4_1RT2_TWO_HOST_COMPATIBILITY.md)
+· [Evidence](../evidence/validation/B4_1RT2_TWO_HOST_COMPATIBILITY_001/README.md) · D050

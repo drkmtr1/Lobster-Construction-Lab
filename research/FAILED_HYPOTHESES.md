@@ -209,3 +209,12 @@ spectrum [1,13] fails the ordinary cut hypothesis. This
 rejects the substitution on this ledger. Using the actual
 crossing set gives the accepted growth.
 [Exact calculation](B4_1R32_K1_ROOTED_CORE.md#retained-ordinary-core-and-complete-cut-premise)
+
+### F-B4-1RT2-FLAT-THIRD-TERMINAL-LABELS
+
+Continuing the original-third-terminal formula r+11+j at
+fresh terminal index j=3 gives r+14, already the label at
+physical s:2. The accepted supplier separates the original
+third-terminal names from fresh names, whose labels start
+at r+15. The collision rejects only the flat formula.
+[Exact formula](B4_1RT2_TWO_HOST_COMPATIBILITY.md#named-normalized-formula)

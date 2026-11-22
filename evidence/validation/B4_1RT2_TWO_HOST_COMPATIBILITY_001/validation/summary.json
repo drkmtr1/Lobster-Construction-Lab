@@ -1,0 +1,71 @@
+{
+  "checked_graph_records": 11,
+  "computational_enumeration": 0,
+  "controls": [
+    {
+      "path": "retained-r2-t3.json",
+      "sha256_raw": "c6e70716f8dc47e0617dfd2256a63115dc699025c3f6b7b5ac2133abcac2c0db"
+    },
+    {
+      "path": "retained-r5-t3.json",
+      "sha256_raw": "0f2855e9118d413a135a6711ca7824f1ec25ab3eb93428da6dc057c8a5af50de"
+    },
+    {
+      "path": "retained-r2-t4.json",
+      "sha256_raw": "a94b435371f20e6ccabc76cfc3da1b1eebb41836b535525e2b6ec2833b97f962"
+    },
+    {
+      "path": "retained-r2-t5.json",
+      "sha256_raw": "aa7561e667d0ae3ea2c5f67a79d90d33666e386ddf52788e1ea7c8c7d54fc8f0"
+    }
+  ],
+  "domain_rejections": 12,
+  "domain_rejections_sha256_raw": "1815e21aab37b5549dd53bb7e8d219e0ee94b386ef105454e18ce5a0386877d2",
+  "historical_search_replay": 0,
+  "identity_sha256_raw": "a698c0c197e95eeb74307eb2233a80abb6f9ab7fec8e6d6af7b58de4514b16f6",
+  "new_graph_records": 7,
+  "prefixes": [
+    {
+      "path": "normalized-r3-t4.json",
+      "sha256_raw": "efda3869ee246071c3966297714362843f92b69ee39a1112b3eed24a9220e73e"
+    },
+    {
+      "path": "normalized-r3-t5.json",
+      "sha256_raw": "3b6fe1257dfb569cb784982b4228ab9438262412c61a8352e2c00433c1600171"
+    },
+    {
+      "path": "normalized-r5-t5.json",
+      "sha256_raw": "827b1b519dfd68a947acc3a7be5c6fcd5010253c1c45ceeab72e181f2d90d131"
+    }
+  ],
+  "routes_sha256_raw": "e552fc1597f6113eb5f15e02cf98e964a08a97ffcebbb55b7eb16ebe47d48e14",
+  "run_id": "B4-1RT2-TWO-HOST-COMPATIBILITY-001-20261121",
+  "solver_queries": 0,
+  "status": "PASS",
+  "targets": [
+    {
+      "bytes": 5442,
+      "n": 21,
+      "path": "target-r3-t4-k2.json",
+      "sha256_raw": "870f20367e01c828ea361650c1a95b650a600685381de1dbf84ae500ae8b0543"
+    },
+    {
+      "bytes": 5759,
+      "n": 22,
+      "path": "target-r3-t4-k3.json",
+      "sha256_raw": "1b0cc1965c88e29d1741cef672c76364d9b309b67b669b02335f31e2da3c851b"
+    },
+    {
+      "bytes": 6258,
+      "n": 24,
+      "path": "target-r3-t5-k4.json",
+      "sha256_raw": "4f98808b821a61d6cec4d8f6b4c0f43144fd53829fb9530d66d144a7cd6be1ef"
+    },
+    {
+      "bytes": 6940,
+      "n": 27,
+      "path": "target-r5-t5-k5.json",
+      "sha256_raw": "04e0a219960a0ec4cb192de22f9c6529878914362af6be24b72d15ff2db39096"
+    }
+  ]
+}
