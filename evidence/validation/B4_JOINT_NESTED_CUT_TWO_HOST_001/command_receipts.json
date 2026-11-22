@@ -1,0 +1,20 @@
+{
+  "commands": [
+    {
+      "command": "& .venv/Scripts/python.exe -B -X utf8 evidence/validation/B4_JOINT_NESTED_CUT_TWO_HOST_001/validate.py\nexit $LASTEXITCODE",
+      "chunk_id": "29934f",
+      "wall_time_seconds": 1.6728683,
+      "exit_code": 0,
+      "original_token_count": 25,
+      "output": "PASS: both retained controls, three named batch routes, core and t=1 lift (0.171875 CPU seconds)\r\n"
+    },
+    {
+      "command": "& .venv/Scripts/python.exe -B -X utf8 evidence/validation/B4_JOINT_NESTED_CUT_TWO_HOST_001/audit.py\nexit $LASTEXITCODE",
+      "chunk_id": "f94a10",
+      "wall_time_seconds": 3.1717546,
+      "exit_code": 0,
+      "original_token_count": 28,
+      "output": "PASS: 12 cut checks, three pointwise routes, two new originals and zero searches (0.437500 total CPU seconds)\r\n"
+    }
+  ]
+}

@@ -1,0 +1,1011 @@
+{
+  "adverse_tests": 1,
+  "audited_sha256": {
+    "adverse.json": "4658645514975c57c399747128b8dabaeffb5b099723312d59697cd4ea190086",
+    "batch-routes.json": "39d8b01787c95635d754b5ec507c68b44b993dc222bcc7814df96945d01d7e9a",
+    "controls.json": "2b842a6f75c7ef18f68f771f82e429f6b178ea706083561134113dafaa443d79",
+    "core-q3-r4-original.json": "618ea03cd2a8eac6da3066bf2670bca999d41a653dc2186e0e8abbdbdea58f9c",
+    "core-q3-r4.json": "7b579cf38aa8846af8ec9f6acdd11bc6d0f2f33602f56483f3322ad44a75facb",
+    "identity.json": "835e400bc09bde6c87ad8028dc201d77a64e6bd9e08b8dc1dead299b67b83a31",
+    "lift-q3-r4-t1-original.json": "2bbedd23e74b23656b285d1bed14d44511c864fdf2b9dbf1c8d179a5c98c6eaa",
+    "lift-q3-r4-t1.json": "db1302835afbee58e8437c3eb77d121f5dc13368b6dbb5c406d68aad8f46ce92",
+    "seed-binding.json": "54196afa54bc8ab262e73470eccc280e7a3b428c31227e884de36a6d054c7521",
+    "source/lcl/__init__.py": "134055506d3e9cd4fa538177844d28a44d5ab567ec220cf54048e63d1a8a7374",
+    "source/lcl/model.py": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6",
+    "source/lcl/verify.py": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909",
+    "source/pyproject.toml": "738f14eba3125ce7f444628adaddaf2e3e30e5aa7f43f10e7035067f6b7072e5",
+    "source/requirements.txt": "60f6e1bd76adf6ed25cf381ca95f67e8a27a0de1e62fb673a7cf5af4b86249ea",
+    "summary.json": "1426cd261ed3f482ad72bfa51eed898870c50c95963973d6665dee9cdf025777"
+  },
+  "cpu_seconds_total": 0.4375,
+  "cut_checks": 12,
+  "labeling_enumeration_nodes": 0,
+  "new_originals": 2,
+  "retained_originals": 2,
+  "solver_queries": 0,
+  "states": {
+    "final": {
+      "cuts": [
+        {
+          "c": 8,
+          "edges": [
+            {
+              "difference": 16,
+              "edge": [
+                "s:0",
+                "s:1"
+              ]
+            },
+            {
+              "difference": 17,
+              "edge": [
+                "s:1",
+                "s:2"
+              ]
+            },
+            {
+              "difference": 14,
+              "edge": [
+                "s:2",
+                "s:3"
+              ]
+            },
+            {
+              "difference": 7,
+              "edge": [
+                "s:3",
+                "s:4"
+              ]
+            },
+            {
+              "difference": 15,
+              "edge": [
+                "s:0",
+                "b:0:0"
+              ]
+            },
+            {
+              "difference": 11,
+              "edge": [
+                "b:0:0",
+                "l:0:0:0"
+              ]
+            },
+            {
+              "difference": 8,
+              "edge": [
+                "b:0:0",
+                "l:0:0:1"
+              ]
+            },
+            {
+              "difference": 12,
+              "edge": [
+                "b:1:0",
+                "l:1:0:2"
+              ]
+            },
+            {
+              "difference": 13,
+              "edge": [
+                "b:1:0",
+                "l:1:0:3"
+              ]
+            },
+            {
+              "difference": 10,
+              "edge": [
+                "s:3",
+                "b:3:0"
+              ]
+            },
+            {
+              "difference": 9,
+              "edge": [
+                "b:3:0",
+                "l:3:0:0"
+              ]
+            }
+          ],
+          "host": "b:0:0",
+          "host_label": 1,
+          "weights": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ]
+        },
+        {
+          "c": 16,
+          "edges": [
+            {
+              "difference": 16,
+              "edge": [
+                "s:0",
+                "s:1"
+              ]
+            },
+            {
+              "difference": 17,
+              "edge": [
+                "s:1",
+                "s:2"
+              ]
+            },
+            {
+              "difference": 14,
+              "edge": [
+                "s:2",
+                "s:3"
+              ]
+            },
+            {
+              "difference": 15,
+              "edge": [
+                "s:0",
+                "b:0:0"
+              ]
+            }
+          ],
+          "host": "b:1:0",
+          "host_label": 2,
+          "weights": [
+            14,
+            15,
+            16,
+            17
+          ]
+        }
+      ],
+      "difference_bands": {
+        "first": [
+          6
+        ],
+        "old_high": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "old_middle": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "old_same": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "second": [
+          12,
+          13
+        ]
+      },
+      "h": 1,
+      "k": 2,
+      "m": 17
+    },
+    "first_only": {
+      "cuts": [
+        {
+          "c": 8,
+          "edges": [
+            {
+              "difference": 14,
+              "edge": [
+                "s:0",
+                "s:1"
+              ]
+            },
+            {
+              "difference": 15,
+              "edge": [
+                "s:1",
+                "s:2"
+              ]
+            },
+            {
+              "difference": 12,
+              "edge": [
+                "s:2",
+                "s:3"
+              ]
+            },
+            {
+              "difference": 7,
+              "edge": [
+                "s:3",
+                "s:4"
+              ]
+            },
+            {
+              "difference": 13,
+              "edge": [
+                "s:0",
+                "b:0:0"
+              ]
+            },
+            {
+              "difference": 11,
+              "edge": [
+                "b:0:0",
+                "l:0:0:0"
+              ]
+            },
+            {
+              "difference": 8,
+              "edge": [
+                "b:0:0",
+                "l:0:0:1"
+              ]
+            },
+            {
+              "difference": 10,
+              "edge": [
+                "s:3",
+                "b:3:0"
+              ]
+            },
+            {
+              "difference": 9,
+              "edge": [
+                "b:3:0",
+                "l:3:0:0"
+              ]
+            }
+          ],
+          "host": "b:0:0",
+          "host_label": 1,
+          "weights": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        },
+        {
+          "c": 14,
+          "edges": [
+            {
+              "difference": 14,
+              "edge": [
+                "s:0",
+                "s:1"
+              ]
+            },
+            {
+              "difference": 15,
+              "edge": [
+                "s:1",
+                "s:2"
+              ]
+            },
+            {
+              "difference": 12,
+              "edge": [
+                "s:2",
+                "s:3"
+              ]
+            },
+            {
+              "difference": 13,
+              "edge": [
+                "s:0",
+                "b:0:0"
+              ]
+            }
+          ],
+          "host": "b:1:0",
+          "host_label": 2,
+          "weights": [
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      ],
+      "difference_bands": {
+        "first": [
+          6
+        ],
+        "old_high": [
+          12,
+          13,
+          14,
+          15
+        ],
+        "old_middle": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "old_same": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "second": []
+      },
+      "h": 1,
+      "k": 0,
+      "m": 15
+    },
+    "mixed_prefix": {
+      "cuts": [
+        {
+          "c": 8,
+          "edges": [
+            {
+              "difference": 15,
+              "edge": [
+                "s:0",
+                "s:1"
+              ]
+            },
+            {
+              "difference": 16,
+              "edge": [
+                "s:1",
+                "s:2"
+              ]
+            },
+            {
+              "difference": 13,
+              "edge": [
+                "s:2",
+                "s:3"
+              ]
+            },
+            {
+              "difference": 7,
+              "edge": [
+                "s:3",
+                "s:4"
+              ]
+            },
+            {
+              "difference": 14,
+              "edge": [
+                "s:0",
+                "b:0:0"
+              ]
+            },
+            {
+              "difference": 11,
+              "edge": [
+                "b:0:0",
+                "l:0:0:0"
+              ]
+            },
+            {
+              "difference": 8,
+              "edge": [
+                "b:0:0",
+                "l:0:0:1"
+              ]
+            },
+            {
+              "difference": 12,
+              "edge": [
+                "b:1:0",
+                "l:1:0:2"
+              ]
+            },
+            {
+              "difference": 10,
+              "edge": [
+                "s:3",
+                "b:3:0"
+              ]
+            },
+            {
+              "difference": 9,
+              "edge": [
+                "b:3:0",
+                "l:3:0:0"
+              ]
+            }
+          ],
+          "host": "b:0:0",
+          "host_label": 1,
+          "weights": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ]
+        },
+        {
+          "c": 15,
+          "edges": [
+            {
+              "difference": 15,
+              "edge": [
+                "s:0",
+                "s:1"
+              ]
+            },
+            {
+              "difference": 16,
+              "edge": [
+                "s:1",
+                "s:2"
+              ]
+            },
+            {
+              "difference": 13,
+              "edge": [
+                "s:2",
+                "s:3"
+              ]
+            },
+            {
+              "difference": 14,
+              "edge": [
+                "s:0",
+                "b:0:0"
+              ]
+            }
+          ],
+          "host": "b:1:0",
+          "host_label": 2,
+          "weights": [
+            13,
+            14,
+            15,
+            16
+          ]
+        }
+      ],
+      "difference_bands": {
+        "first": [
+          6
+        ],
+        "old_high": [
+          13,
+          14,
+          15,
+          16
+        ],
+        "old_middle": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "old_same": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "second": [
+          12
+        ]
+      },
+      "h": 1,
+      "k": 1,
+      "m": 16
+    },
+    "one_second": {
+      "cuts": [
+        {
+          "c": 7,
+          "edges": [
+            {
+              "difference": 14,
+              "edge": [
+                "s:0",
+                "s:1"
+              ]
+            },
+            {
+              "difference": 15,
+              "edge": [
+                "s:1",
+                "s:2"
+              ]
+            },
+            {
+              "difference": 12,
+              "edge": [
+                "s:2",
+                "s:3"
+              ]
+            },
+            {
+              "difference": 6,
+              "edge": [
+                "s:3",
+                "s:4"
+              ]
+            },
+            {
+              "difference": 13,
+              "edge": [
+                "s:0",
+                "b:0:0"
+              ]
+            },
+            {
+              "difference": 10,
+              "edge": [
+                "b:0:0",
+                "l:0:0:0"
+              ]
+            },
+            {
+              "difference": 7,
+              "edge": [
+                "b:0:0",
+                "l:0:0:1"
+              ]
+            },
+            {
+              "difference": 11,
+              "edge": [
+                "b:1:0",
+                "l:1:0:2"
+              ]
+            },
+            {
+              "difference": 9,
+              "edge": [
+                "s:3",
+                "b:3:0"
+              ]
+            },
+            {
+              "difference": 8,
+              "edge": [
+                "b:3:0",
+                "l:3:0:0"
+              ]
+            }
+          ],
+          "host": "b:0:0",
+          "host_label": 1,
+          "weights": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        },
+        {
+          "c": 14,
+          "edges": [
+            {
+              "difference": 14,
+              "edge": [
+                "s:0",
+                "s:1"
+              ]
+            },
+            {
+              "difference": 15,
+              "edge": [
+                "s:1",
+                "s:2"
+              ]
+            },
+            {
+              "difference": 12,
+              "edge": [
+                "s:2",
+                "s:3"
+              ]
+            },
+            {
+              "difference": 13,
+              "edge": [
+                "s:0",
+                "b:0:0"
+              ]
+            }
+          ],
+          "host": "b:1:0",
+          "host_label": 2,
+          "weights": [
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      ],
+      "difference_bands": {
+        "first": [],
+        "old_high": [
+          12,
+          13,
+          14,
+          15
+        ],
+        "old_middle": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "old_same": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "second": [
+          11
+        ]
+      },
+      "h": 0,
+      "k": 1,
+      "m": 15
+    },
+    "second_only": {
+      "cuts": [
+        {
+          "c": 7,
+          "edges": [
+            {
+              "difference": 15,
+              "edge": [
+                "s:0",
+                "s:1"
+              ]
+            },
+            {
+              "difference": 16,
+              "edge": [
+                "s:1",
+                "s:2"
+              ]
+            },
+            {
+              "difference": 13,
+              "edge": [
+                "s:2",
+                "s:3"
+              ]
+            },
+            {
+              "difference": 6,
+              "edge": [
+                "s:3",
+                "s:4"
+              ]
+            },
+            {
+              "difference": 14,
+              "edge": [
+                "s:0",
+                "b:0:0"
+              ]
+            },
+            {
+              "difference": 10,
+              "edge": [
+                "b:0:0",
+                "l:0:0:0"
+              ]
+            },
+            {
+              "difference": 7,
+              "edge": [
+                "b:0:0",
+                "l:0:0:1"
+              ]
+            },
+            {
+              "difference": 11,
+              "edge": [
+                "b:1:0",
+                "l:1:0:2"
+              ]
+            },
+            {
+              "difference": 12,
+              "edge": [
+                "b:1:0",
+                "l:1:0:3"
+              ]
+            },
+            {
+              "difference": 9,
+              "edge": [
+                "s:3",
+                "b:3:0"
+              ]
+            },
+            {
+              "difference": 8,
+              "edge": [
+                "b:3:0",
+                "l:3:0:0"
+              ]
+            }
+          ],
+          "host": "b:0:0",
+          "host_label": 1,
+          "weights": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ]
+        },
+        {
+          "c": 15,
+          "edges": [
+            {
+              "difference": 15,
+              "edge": [
+                "s:0",
+                "s:1"
+              ]
+            },
+            {
+              "difference": 16,
+              "edge": [
+                "s:1",
+                "s:2"
+              ]
+            },
+            {
+              "difference": 13,
+              "edge": [
+                "s:2",
+                "s:3"
+              ]
+            },
+            {
+              "difference": 14,
+              "edge": [
+                "s:0",
+                "b:0:0"
+              ]
+            }
+          ],
+          "host": "b:1:0",
+          "host_label": 2,
+          "weights": [
+            13,
+            14,
+            15,
+            16
+          ]
+        }
+      ],
+      "difference_bands": {
+        "first": [],
+        "old_high": [
+          13,
+          14,
+          15,
+          16
+        ],
+        "old_middle": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "old_same": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "second": [
+          11,
+          12
+        ]
+      },
+      "h": 0,
+      "k": 2,
+      "m": 16
+    },
+    "seed": {
+      "cuts": [
+        {
+          "c": 7,
+          "edges": [
+            {
+              "difference": 13,
+              "edge": [
+                "s:0",
+                "s:1"
+              ]
+            },
+            {
+              "difference": 14,
+              "edge": [
+                "s:1",
+                "s:2"
+              ]
+            },
+            {
+              "difference": 11,
+              "edge": [
+                "s:2",
+                "s:3"
+              ]
+            },
+            {
+              "difference": 6,
+              "edge": [
+                "s:3",
+                "s:4"
+              ]
+            },
+            {
+              "difference": 12,
+              "edge": [
+                "s:0",
+                "b:0:0"
+              ]
+            },
+            {
+              "difference": 10,
+              "edge": [
+                "b:0:0",
+                "l:0:0:0"
+              ]
+            },
+            {
+              "difference": 7,
+              "edge": [
+                "b:0:0",
+                "l:0:0:1"
+              ]
+            },
+            {
+              "difference": 9,
+              "edge": [
+                "s:3",
+                "b:3:0"
+              ]
+            },
+            {
+              "difference": 8,
+              "edge": [
+                "b:3:0",
+                "l:3:0:0"
+              ]
+            }
+          ],
+          "host": "b:0:0",
+          "host_label": 1,
+          "weights": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "c": 13,
+          "edges": [
+            {
+              "difference": 13,
+              "edge": [
+                "s:0",
+                "s:1"
+              ]
+            },
+            {
+              "difference": 14,
+              "edge": [
+                "s:1",
+                "s:2"
+              ]
+            },
+            {
+              "difference": 11,
+              "edge": [
+                "s:2",
+                "s:3"
+              ]
+            },
+            {
+              "difference": 12,
+              "edge": [
+                "s:0",
+                "b:0:0"
+              ]
+            }
+          ],
+          "host": "b:1:0",
+          "host_label": 2,
+          "weights": [
+            11,
+            12,
+            13,
+            14
+          ]
+        }
+      ],
+      "difference_bands": {
+        "first": [],
+        "old_high": [
+          11,
+          12,
+          13,
+          14
+        ],
+        "old_middle": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "old_same": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "second": []
+      },
+      "h": 0,
+      "k": 0,
+      "m": 14
+    }
+  },
+  "status": "PASS"
+}

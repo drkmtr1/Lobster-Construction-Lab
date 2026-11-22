@@ -1,0 +1,57 @@
+{
+  "id": "B4-JOINT-NESTED-CUT-TWO-HOST-001-20261122",
+  "parent": "67130f845fe327175a9d6d1821ec54652f55fe70",
+  "task_attachment_sha256": "3e090d4f25ae486db5384448e2ba26620cd570162b1daac72d5da20cd1b5d7e7",
+  "limits": {
+    "workers": 1,
+    "solver_queries": 0,
+    "labeling_enumeration_nodes": 0,
+    "max_cut_checks": 64,
+    "max_process_cpu_seconds": 30,
+    "max_new_originals": 2,
+    "max_order": 20,
+    "max_record_bytes": 2000000,
+    "max_total_bytes": 10000000,
+    "automatic_retries": 0
+  },
+  "seed": {
+    "original": "evidence/validation/B4_JOINT_22_DIRECT_LEDGER_001/validation/core_original.json",
+    "certificate": "evidence/validation/B4_JOINT_SECOND_CENTER_CUT_READY_22_001/validation/alternative-r2.json",
+    "cuts": [
+      7,
+      13
+    ],
+    "hosts": [
+      "b:0:0",
+      "b:1:0"
+    ],
+    "host_labels": [
+      1,
+      2
+    ]
+  },
+  "control": {
+    "original": "evidence/validation/B4_JOINT_23_MAX_ROOTED_CORE_001/validation/core-original.json",
+    "certificate": "evidence/validation/B4_JOINT_23_MAX_ROOTED_CORE_001/validation/core.json"
+  },
+  "negative": {
+    "audit": "evidence/validation/B4_JOINT_22_CUT_COMPAT_001/audit_result.json",
+    "manifest": "evidence/validation/B4_JOINT_22_CUT_COMPAT_001/MANIFEST.json"
+  },
+  "cases": [
+    {
+      "id": "core-q3-r4",
+      "q": 3,
+      "r": 4,
+      "t": null,
+      "order": 18
+    },
+    {
+      "id": "lift-q3-r4-t1",
+      "q": 3,
+      "r": 4,
+      "t": 1,
+      "order": 20
+    }
+  ]
+}

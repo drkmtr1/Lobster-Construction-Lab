@@ -600,7 +600,9 @@ Its second-host cut fails. The
 now supplies all second growth at q=2 and its exact K=1
 lift for all r>=2,t>=1. Composition of the distinct
 retained r=3 first-growth ledger gives all q>=2,t>=1 at
-r=3,K=1. A shared growth state, simultaneous q>=3,r>=4,
-and K>=2 continuation remain open. The selected next
-action is the scoped read-only Construction Synthesis
-catalog pilot.
+r=3,K=1. The [nested-cut proof](B4_JOINT_NESTED_CUT_TWO_HOST.md)
+now discharges shared growth and joint maximum-rooted supply for
+all exact q,r>=2, with named labels preserved under finite batch
+interleavings. Its lift covers all positive t at K=1. The retained
+q=1 and r=1 routes complete the all-positive q,r,t coverage at K=1.
+Continuation for q,r,t>=2,K>=2 remains open.

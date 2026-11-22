@@ -950,3 +950,22 @@ two new originals, the D059 negative without replay,
 and one adverse digest rejection. Zero search and
 labeling enumeration. [Proof](B4_JOINT_SECOND_CENTER_CUT_READY_22.md)
 · [Evidence](../evidence/validation/B4_JOINT_SECOND_CENTER_CUT_READY_22_001/README.md) · D061
+
+## B4-JOINT-NESTED-CUT-TWO-HOST-001
+
+**ACCEPT** both full crossing spectra on the same retained
+D061 C(2,2) ledger and their returned predicates after any
+finite named interleaving. For exact q,r>=2 the resulting
+ordinary graceful original core has maximum q+r+10 at physical
+s:2. **ACCEPT** its K=1 original lift for every exact t>=1,
+with R={q+9}, D={1} at s:4=q+8 and completion s:5=q+9.
+The retained q=1 and r=1 routes give all positive q,r,t at
+K=1. At K>=2, retained routes cover q=1, r=1, or t=1.
+The q,r,t>=2,K>=2 continuation remains open. The earlier
+D059 and D060 growth failures retain their fixed-ledger scope.
+
+Two new originals, two retained positives, twelve cut checks
+and one wrong-digest rejection passed the independent audit.
+The archived D059 negative was bound without replay. No
+solver or labeling enumeration ran.
+[Proof](B4_JOINT_NESTED_CUT_TWO_HOST.md) · [Evidence](../evidence/validation/B4_JOINT_NESTED_CUT_TWO_HOST_001/README.md) · D062
