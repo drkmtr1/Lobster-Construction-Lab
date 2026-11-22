@@ -1,0 +1,763 @@
+{
+  "task": "B4-UNPADDED-UNIT-001-original-target-regression-20261121 saved-certificate audit",
+  "status": "PASS",
+  "scope": "same 12 saved completed targets only",
+  "case_count": 12,
+  "cases": [
+    {
+      "parameters": {
+        "K": 1
+      },
+      "original_graph_digest": "368139428e4f22d7eedc3d535faeed61e58ab94519a57671672517f6e29695b0",
+      "vertices": 14,
+      "alpha_low_class_size": 7,
+      "prefix_trace": {
+        "active_vertex": "s:4",
+        "active_label": 7,
+        "unused_labels": [
+          6
+        ],
+        "unused_differences": [
+          1
+        ]
+      },
+      "tail_differences": [
+        1
+      ],
+      "prefix_certificate_valid": true,
+      "full_certificate_valid": true,
+      "adjacent_boundary_valid": true
+    },
+    {
+      "parameters": {
+        "K": 2
+      },
+      "original_graph_digest": "7b2501d466e6a311ecd6d22a5f475bf8003326109377603191aa1613fb9a3c49",
+      "vertices": 15,
+      "alpha_low_class_size": 7,
+      "prefix_trace": {
+        "active_vertex": "s:4",
+        "active_label": 8,
+        "unused_labels": [
+          6,
+          7
+        ],
+        "unused_differences": [
+          1,
+          2
+        ]
+      },
+      "tail_differences": [
+        2,
+        1
+      ],
+      "prefix_certificate_valid": true,
+      "full_certificate_valid": true,
+      "adjacent_boundary_valid": true
+    },
+    {
+      "parameters": {
+        "K": 3
+      },
+      "original_graph_digest": "a53051c396ae951719d8e646d03519547a37c5ad4ddc9fc5826a9c0d95d2a66e",
+      "vertices": 16,
+      "alpha_low_class_size": 8,
+      "prefix_trace": {
+        "active_vertex": "s:4",
+        "active_label": 9,
+        "unused_labels": [
+          6,
+          7,
+          8
+        ],
+        "unused_differences": [
+          1,
+          2,
+          3
+        ]
+      },
+      "tail_differences": [
+        3,
+        2,
+        1
+      ],
+      "prefix_certificate_valid": true,
+      "full_certificate_valid": true,
+      "adjacent_boundary_valid": true
+    },
+    {
+      "parameters": {
+        "K": 4
+      },
+      "original_graph_digest": "2fbcfbebc86e471ad83860acf41c9b6187d333b5788bdc5a989e7c849632660d",
+      "vertices": 17,
+      "alpha_low_class_size": 8,
+      "prefix_trace": {
+        "active_vertex": "s:4",
+        "active_label": 10,
+        "unused_labels": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "unused_differences": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "tail_differences": [
+        4,
+        3,
+        2,
+        1
+      ],
+      "prefix_certificate_valid": true,
+      "full_certificate_valid": true,
+      "adjacent_boundary_valid": true
+    },
+    {
+      "parameters": {
+        "K": 5
+      },
+      "original_graph_digest": "1754535ffdd9d37afa8f302e5af1498206a004cbf21025d77c0181f8d33a3117",
+      "vertices": 18,
+      "alpha_low_class_size": 9,
+      "prefix_trace": {
+        "active_vertex": "s:4",
+        "active_label": 11,
+        "unused_labels": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "unused_differences": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "tail_differences": [
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "prefix_certificate_valid": true,
+      "full_certificate_valid": true,
+      "adjacent_boundary_valid": true
+    },
+    {
+      "parameters": {
+        "K": 6
+      },
+      "original_graph_digest": "ab0b15deaeeee87f918981fd2085b8d4709d062e1946632ac468e4f1a3517225",
+      "vertices": 19,
+      "alpha_low_class_size": 9,
+      "prefix_trace": {
+        "active_vertex": "s:4",
+        "active_label": 12,
+        "unused_labels": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "unused_differences": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "tail_differences": [
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "prefix_certificate_valid": true,
+      "full_certificate_valid": true,
+      "adjacent_boundary_valid": true
+    },
+    {
+      "parameters": {
+        "K": 7
+      },
+      "original_graph_digest": "3a236796836e95638876646bfceca717c2e2dfae2db1c721b1e070288eeb108f",
+      "vertices": 20,
+      "alpha_low_class_size": 10,
+      "prefix_trace": {
+        "active_vertex": "s:4",
+        "active_label": 13,
+        "unused_labels": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "unused_differences": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "tail_differences": [
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "prefix_certificate_valid": true,
+      "full_certificate_valid": true,
+      "adjacent_boundary_valid": true
+    },
+    {
+      "parameters": {
+        "K": 8
+      },
+      "original_graph_digest": "41ce8a05a8693052e061b76e40a42b3f837857678b8fb61f9bfdbf3ef81c1b86",
+      "vertices": 21,
+      "alpha_low_class_size": 10,
+      "prefix_trace": {
+        "active_vertex": "s:4",
+        "active_label": 14,
+        "unused_labels": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "unused_differences": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "tail_differences": [
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "prefix_certificate_valid": true,
+      "full_certificate_valid": true,
+      "adjacent_boundary_valid": true
+    },
+    {
+      "parameters": {
+        "K": 15
+      },
+      "original_graph_digest": "37ef3a38401d0f0069c2671b38bcfefe88176530ff901257224aaca59e695d56",
+      "vertices": 28,
+      "alpha_low_class_size": 14,
+      "prefix_trace": {
+        "active_vertex": "s:4",
+        "active_label": 21,
+        "unused_labels": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "unused_differences": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      "tail_differences": [
+        15,
+        14,
+        13,
+        12,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "prefix_certificate_valid": true,
+      "full_certificate_valid": true,
+      "adjacent_boundary_valid": true
+    },
+    {
+      "parameters": {
+        "K": 16
+      },
+      "original_graph_digest": "fe5f1518d1d2aab30eec68a7e09424d3a7f96a4526e807a5daab585cc8156161",
+      "vertices": 29,
+      "alpha_low_class_size": 14,
+      "prefix_trace": {
+        "active_vertex": "s:4",
+        "active_label": 22,
+        "unused_labels": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ],
+        "unused_differences": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      "tail_differences": [
+        16,
+        15,
+        14,
+        13,
+        12,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "prefix_certificate_valid": true,
+      "full_certificate_valid": true,
+      "adjacent_boundary_valid": true
+    },
+    {
+      "parameters": {
+        "K": 31
+      },
+      "original_graph_digest": "51e8fae67b2d15b1086ef8814120ee80d0dda0084d75f83934393c49af4fa15e",
+      "vertices": 44,
+      "alpha_low_class_size": 22,
+      "prefix_trace": {
+        "active_vertex": "s:4",
+        "active_label": 37,
+        "unused_labels": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36
+        ],
+        "unused_differences": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31
+        ]
+      },
+      "tail_differences": [
+        31,
+        30,
+        29,
+        28,
+        27,
+        26,
+        25,
+        24,
+        23,
+        22,
+        21,
+        20,
+        19,
+        18,
+        17,
+        16,
+        15,
+        14,
+        13,
+        12,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "prefix_certificate_valid": true,
+      "full_certificate_valid": true,
+      "adjacent_boundary_valid": true
+    },
+    {
+      "parameters": {
+        "K": 64
+      },
+      "original_graph_digest": "48892d9f311c841999ed484e84207333d74633211cbdfcd0f2d355a309c547c0",
+      "vertices": 77,
+      "alpha_low_class_size": 38,
+      "prefix_trace": {
+        "active_vertex": "s:4",
+        "active_label": 70,
+        "unused_labels": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69
+        ],
+        "unused_differences": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64
+        ]
+      },
+      "tail_differences": [
+        64,
+        63,
+        62,
+        61,
+        60,
+        59,
+        58,
+        57,
+        56,
+        55,
+        54,
+        53,
+        52,
+        51,
+        50,
+        49,
+        48,
+        47,
+        46,
+        45,
+        44,
+        43,
+        42,
+        41,
+        40,
+        39,
+        38,
+        37,
+        36,
+        35,
+        34,
+        33,
+        32,
+        31,
+        30,
+        29,
+        28,
+        27,
+        26,
+        25,
+        24,
+        23,
+        22,
+        21,
+        20,
+        19,
+        18,
+        17,
+        16,
+        15,
+        14,
+        13,
+        12,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "prefix_certificate_valid": true,
+      "full_certificate_valid": true,
+      "adjacent_boundary_valid": true
+    }
+  ],
+  "config_sha256_raw": "2c05dd655cf363bef1e161d4b30197e18a0988fec7afc7e734456759ed9abc7e",
+  "saved_regression_sha256_raw": "7b32fb27907a03ef58d3dd352eac6a9e6bbafdd0a47ffc582864a966c2598312",
+  "script_sha256_raw": "9997864239006ac1658d865d90abf3dede488d3437d8e6290b0bb923327c058c",
+  "environment": {
+    "python": "3.13.17",
+    "implementation": "CPython",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python_optimization_level": 0
+  },
+  "elapsed_seconds": 0.17684990001725964,
+  "limits": {
+    "max_cases": 12,
+    "max_vertices": 77,
+    "max_output_bytes": 2000000,
+    "workers": 1
+  },
+  "starting_commit": "a5a58fe1ad2b58e93ea1a4dc9a74d956973adcad"
+}

@@ -121,6 +121,7 @@ def _parameter_size(method: str, params: Any, limit: int) -> int:
         "three_section_qltr_large_t": {"q", "r", "t", "K"},
         "three_section_q1_r2": {"t", "K"},
         "three_section_k1": {"q", "r", "t"},
+        "four_section_unit": {"K"},
     }[method]
     allowed = required | ({"z"} if method == "l007" else set())
     if not required <= set(params) or not set(params) <= allowed:
@@ -176,6 +177,9 @@ def _parameter_size(method: str, params: Any, limit: int) -> int:
         r = _integer(params["r"], "r", 1, limit)
         t = _integer(params["t"], "t", 1, limit)
         count = q + r + t + 8
+    elif method == "four_section_unit":
+        K = _integer(params["K"], "K", 1, limit)
+        count = K + 13
     elif method == "l007":
         q = _integer(params["q"], "q", 1, limit)
         r = _integer(params["r"], "r", 1, limit)
@@ -239,7 +243,8 @@ def construction_input(spec: Any, max_vertices: int = MAX_GRAPH_VERTICES) -> tup
                "three_section_qltr_adjacent": constructors.three_section_qltr_adjacent,
                "three_section_qltr_large_t": constructors.three_section_qltr_large_t,
                "three_section_q1_r2": constructors.three_section_q1_r2,
-               "three_section_k1": constructors.three_section_k1}
+               "three_section_k1": constructors.three_section_k1,
+               "four_section_unit": constructors.four_section_unit}
     method = spec["method"]
     if not isinstance(method, str) or method not in methods:
         raise ValueError("Unknown implemented constructor")
@@ -247,6 +252,10 @@ def construction_input(spec: Any, max_vertices: int = MAX_GRAPH_VERTICES) -> tup
     parameter_size = _parameter_size(method, spec["parameters"], limit)
     if parameter_size != declared_size:
         raise ValueError("constructor parameters describe a different vertex count from the declared original")
+    if method == "four_section_unit":
+        profile = spec["profile"]
+        if profile[:4] != [[1], [1], [1], [1]] or any(profile[4:]):
+            raise ValueError("four_section_unit requires four unit branches followed only by empty sections")
     original = _graph_value({"profile": spec["profile"]}, limit)
     result = methods[method](**spec["parameters"])
     if not isinstance(result, dict) or not isinstance(result.get("graph"), dict):

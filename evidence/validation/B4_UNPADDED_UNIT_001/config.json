@@ -1,0 +1,14 @@
+{
+  "run_id": "B4-UNPADDED-UNIT-001-original-target-regression-20261121",
+  "starting_commit": "a5a58fe1ad2b58e93ea1a4dc9a74d956973adcad",
+  "parameter_order": ["K"],
+  "cases": [1, 2, 3, 4, 5, 6, 7, 8, 15, 16, 31, 64],
+  "fixed_branch_sizes": [1, 1, 1, 1],
+  "padding": [0, 0, 0, 0],
+  "seed_profile": [[1], [1], [1], [1], []],
+  "max_cases": 12,
+  "max_vertices": 77,
+  "max_output_bytes": 2000000,
+  "workers": 1,
+  "scope": "12 declared completed original B4 unit targets plus a separate fixed seed"
+}

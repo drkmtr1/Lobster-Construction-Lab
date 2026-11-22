@@ -2,19 +2,20 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 21, 2026, Pacific/Honolulu  
-**Stage:** B3-UNPADDED-K1-001 accepted after separate AI reviews. The B3 selection rule now covers every original unpadded three-section profile with positive q,r,t,K.
+**Stage:** B4-UNPADDED-UNIT-001 accepted after separate AI reviews. The exact unpadded four-unit-branch profile has an alpha construction for every integer K≥1.
 
 ## Current scientific objective
 
-Develop independently supplied original-graph boundaries beyond the proved zero-padding two- and three-section domains, preserving physical incidence and both resource inventories. Universal lobster coverage remains an ultimate goal, not an achieved result.
+Develop independently supplied original-graph boundaries beyond the proved zero-padding families, preserving physical incidence and both resource inventories. Universal lobster coverage remains an ultimate goal.
 
 ## One next action
 
-**With a new bounded scope decision, formulate a construction question for four consecutive unit branches and a path of length `K>=2`**, preserving the exact unpadded profile `[[1],[1],[1],[1]]+[[]]*(K+1)` and its named incidences.
+**With a new bounded scope decision, formulate a construction question for `[[1],[1],[1],[t]]+[[]]*(K+1)` with `t>=2,K>=1`**, preserving the named incidences, physical port and both resource inventories.
 
 ## What is established in this package
 
 - Both authenticated upstream main heads match the pinned audit commits. The repositories remain unchanged.
+- B4-UNPADDED-UNIT-001 supplies `R=[6,K+5]`, `D=1..K`, and physical `s:4=K+6` on the exact unpadded `[[1],[1],[1],[1]]+[[]]*(K+1)` profile for integer K>=1. The adjacent consumer completes the original path and gives an alpha low class of size `6+(K+1)//2`. The R241/L008 seed has low-class size 6. See `research/B4_UNPADDED_UNIT.md`, D028, and `evidence/validation/B4_UNPADDED_UNIT_001/`.
 - B3-UNPADDED-K1-001 supplies the exact `[[q],[r],[t],[],[]]` target for all positive q,r,t. Its direct singleton has `R={q+2}`, `D={t+3}`, and `s:3=q+t+5`. Together with the accepted four cases for K>=2 it proves ordinary gracefulness for every positive q,r,t,K on the exact unpadded `[[q],[r],[t]]+[[]]*(K+1)` family. Each branch retains its own resource contract. Padding, multiple positive branches per section, further sections, and arbitrary repetition remain separate. See `research/B3_UNPADDED_K1.md`, D027, and `evidence/validation/B3_UNPADDED_K1_001/`.
 - B3-UNPADDED-Q1-R2-001 supplies the remaining `q=1,r=2,t>=3,K>=2` cases at zero padding. The fixed alpha seed, prescribed leaf extension and high-side shift supply `R=[a,a+K-1]`, `D=1..K`, and nonadjacent `s:3=a+K+1` with `a=t+4`. With the three earlier branches, the four-case selection rule covers K>=2 for all positive q,r,t. The adjacent branch also retains its earlier K=1 domain. See `research/B3_UNPADDED_Q1_R2.md`, D026, and `evidence/validation/B3_UNPADDED_Q1_R2_001/`.
 - B3-UNPADDED-QLT-R-LARGE-T-001 independently supplies an alpha seed for `1<=q<r`, `r>=3`, `t>=q+2`, and `K>=2` at zero padding. The high-side shift leaves `R=[a,a+K-1]`, `D=1..K`, and nonadjacent physical port `s:3=a+K+1` with `a=q+t+3`. The retained recurrence completes the original path. See `research/B3_UNPADDED_QLT_R_LARGE_T.md`, D025, and `evidence/validation/B3_UNPADDED_QLT_R_LARGE_T_001/`.

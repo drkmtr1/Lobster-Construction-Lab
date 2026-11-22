@@ -126,6 +126,10 @@ The four disjoint supplier domains exhaust positive integers `q,r,t` and `K>=2` 
 
 For every positive integer `q,r,t,K`, the exact original unpadded profile `[[q],[r],[t]]+[[]]*(K+1)` admits a graceful labeling. Select the direct singleton for K=1 and the accepted four-case rule for K>=2. The branches retain distinct resource contracts and consumers, including the earlier adjacent branch on its original domain. This corollary establishes ordinary gracefulness for the stated family. Padding, multiple positive branches per section, further sections, and arbitrary repetition remain separate.
 
+## B4-UNPADDED-UNIT-001
+
+**ACCEPT** for the exact original `[[1],[1],[1],[1]]+[[]]*(K+1)` profile with integer K>=1, excluding booleans. A fixed R241 seed with a directly proved left component and class-reflected L008 right component supplies the shifted prefix. Its unused labels and differences are `[6,K+5]` and `1..K`, with the actual above-side adjacent port `s:4=K+6`. The retained consumer completes the named path. The full labeling is alpha with low-class size `6+(K+1)//2`. Separate AI reviewers accepted the proof and implementation. Evidence includes one separate fixed seed and 12 completed targets, audited on those same saved targets. Other branch sizes on four sections, padding, extra branches, further sections and arbitrary repetition remain separate proof duties. [Proof](B4_UNPADDED_UNIT.md) · [Validation](../evidence/validation/B4_UNPADDED_UNIT_001/README.md) · D028
+
 ## 10. Finite validation and current literature
 
 The authoritative executed results are in `evidence/validation/VALIDATION_REPORT.md` and its linked JSON records. Positive witnesses are bound to original graphs and requested restrictions. Count controls and the four B2 pairs have only their stated finite meaning. They do not prove a new supplier family.

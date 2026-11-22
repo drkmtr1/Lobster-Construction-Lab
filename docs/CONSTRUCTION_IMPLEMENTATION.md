@@ -19,12 +19,15 @@ The code supplies direct constructions, a unit-size convenience alias, and a str
 | `three_section_qltr_large_t(q,r,t,K)` | Integers 1<=q<r, r>=3, t>=q+2, K>=2, no direct leaves | Complete graceful labeling | Explicit parity alpha seed, high-side shift and original nonadjacent port s:3=a+K+1 |
 | `three_section_q1_r2(t,K)` | Integers t>=3, K>=2, fixed q=1, r=2 and zero padding | Complete graceful labeling | Fixed alpha seed, prescribed leaf extension and original nonadjacent port s:3=t+K+5 |
 | `three_section_k1(q,r,t)` | Positive integers q,r,t, K=1 and zero padding | Complete graceful labeling | Direct singleton R={q+2}, D={t+3} at s:3=q+t+5 |
+| `four_section_unit(K)` | Positive integer K, four successive unit branches and zero padding | Complete alpha graceful labeling | Adjacent interval R=[6,K+5], D=1..K at s:4=K+6 |
 | `two_section_unit(K)` | Positive suffix length `K` | Complete graceful labeling | Alias for `two_section_balanced(q=1,K=K)` |
 | `complete_two_host(graph, core_labels, hosts)` | Original target, connected labeled core, two distinct physical hosts | Exact fixed-core completion or restricted obstruction | Does not supply the core labeling, host choice, or a palette partition |
 
 All implementation uses exact Python integers and standard-library containers. No numerical approximation, optimizer tolerance, or solver extraction is part of these APIs. Constructor domain failures raise `ValueError`. They do not establish nongracefulness.
 
 The exceptional B3 CLI method `three_section_q1_r2` admits exactly the keys `t` and `K`. Its independently declared profile must match the original fixed branch counts `1,2,t`. For K=1, `three_section_k1` admits exactly `q,r,t` and the original profile `[[q],[r],[t],[],[]]`. The five constructors cover all positive `q,r,t,K` on the zero-padding B3 profile. [Deterministic selection rule](../research/B3_UNPADDED_K1.md#deterministic-selection-for-every-positive-path-length)
+
+The B4 CLI method `four_section_unit` admits exactly the parameter `K` and requires the caller's original `[[1],[1],[1],[1]]+[[]]*(K+1)` profile. The existing 10,000-vertex CLI limit gives `K<=9987`; the direct constructor has no such preflight cap. [B4 proof](../research/B4_UNPADDED_UNIT.md)
 
 ## The exact target remains part of the input
 
