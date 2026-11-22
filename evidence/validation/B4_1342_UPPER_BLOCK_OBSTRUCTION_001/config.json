@@ -1,0 +1,83 @@
+{
+  "run_id": "B4-1342-UPPER-BLOCK-OBSTRUCTION-001-20261122",
+  "parent": "c83ae3b11a6bc03189dc44653881137fc014c72a",
+  "workers": 1,
+  "max_vertices": 20,
+  "max_result_bytes": 2000000,
+  "solver_queries": 0,
+  "labeling_enumeration": 0,
+  "historical_replay": 0,
+  "negative": {
+    "certificate": "evidence/validation/B4_1RT2_TWO_HOST_COMPATIBILITY_001/validation/normalized-r3-t4.json",
+    "original": "evidence/validation/B4_1RT2_TWO_HOST_COMPATIBILITY_001/validation/originals/normalized-r3-t4.json",
+    "profile": [
+      [
+        1
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ],
+      [
+        2
+      ],
+      []
+    ],
+    "p": 9,
+    "host_label": 1,
+    "exit_label": 10
+  },
+  "positive": {
+    "certificate": "evidence/validation/B4_UNPADDED_Q1T2_001/validation/retained_seed.json",
+    "original": "evidence/validation/B4_THIRD_ZERO_HOST_NONADJACENT_001/original_graph.json",
+    "bound_query": "evidence/validation/B4_THIRD_ZERO_HOST_NONADJACENT_001/query_record.json",
+    "profile": [
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        2
+      ],
+      []
+    ],
+    "p": 7,
+    "host_label": 4,
+    "exit_label": 8,
+    "threshold": 9
+  },
+  "expanded_profile": [
+    [
+      2
+    ],
+    [
+      3
+    ],
+    [
+      4
+    ],
+    [
+      2
+    ],
+    []
+  ],
+  "thresholds": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "batch": 1,
+  "invalid_thresholds": [true, 10, 19, 12.0, "12"]
+}

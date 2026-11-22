@@ -229,3 +229,16 @@ on this exact family. The new ordinary core lift uses
 R={r+4}, D={6} at physical s:4=r+10 and completes the target.
 [Prior interface](B4_1RT2_TWO_HOST_COMPATIBILITY.md#original-nonadjacent-suffix)
 · [Direct singleton](B4_1RT2_K1_DIRECT_SINGLETON.md#direct-formula-and-exact-singleton)
+
+### F-B4-1342-PORT-PRESERVING-UPPER-BLOCK
+
+On the retained normalized `[[1],[3],[4],[2],[]]` alpha
+labeling, require H=b:0:0=1 and unchanged physical s:4=10.
+Shift all old labels at least c by h and give the prescribed
+fresh first terminals c through c+h-1 at H. For c=11..18,
+the signed excess difference sum per unit h is
+4,2,1,1,1,1,1,-1. Hence this exact template fails for every
+positive batch, including attempts that bypass the lemma's
+complete incidence premise. The failure leaves other
+labelings and insertion interfaces open.
+[Complete ledgers and proof](B4_1342_FIXED_LEDGER_UPPER_BLOCK_OBSTRUCTION.md)

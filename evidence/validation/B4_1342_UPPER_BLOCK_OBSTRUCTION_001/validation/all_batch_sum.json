@@ -1,0 +1,59 @@
+{
+  "common_quadratic_term": "h*(h-1)/2",
+  "difference": "h*(s_c+c-20)",
+  "domain": "exact integer h>=1",
+  "inserted_linear_coefficient": "c-1",
+  "necessary_count": "20-c",
+  "old_difference_sum": 171,
+  "required_linear_coefficient": 19,
+  "thresholds": [
+    {
+      "actual_selected_edges": 13,
+      "c": 11,
+      "coefficient_of_h": 4,
+      "necessary_selected_edges": 9
+    },
+    {
+      "actual_selected_edges": 10,
+      "c": 12,
+      "coefficient_of_h": 2,
+      "necessary_selected_edges": 8
+    },
+    {
+      "actual_selected_edges": 8,
+      "c": 13,
+      "coefficient_of_h": 1,
+      "necessary_selected_edges": 7
+    },
+    {
+      "actual_selected_edges": 7,
+      "c": 14,
+      "coefficient_of_h": 1,
+      "necessary_selected_edges": 6
+    },
+    {
+      "actual_selected_edges": 6,
+      "c": 15,
+      "coefficient_of_h": 1,
+      "necessary_selected_edges": 5
+    },
+    {
+      "actual_selected_edges": 5,
+      "c": 16,
+      "coefficient_of_h": 1,
+      "necessary_selected_edges": 4
+    },
+    {
+      "actual_selected_edges": 4,
+      "c": 17,
+      "coefficient_of_h": 1,
+      "necessary_selected_edges": 3
+    },
+    {
+      "actual_selected_edges": 1,
+      "c": 18,
+      "coefficient_of_h": -1,
+      "necessary_selected_edges": 2
+    }
+  ]
+}

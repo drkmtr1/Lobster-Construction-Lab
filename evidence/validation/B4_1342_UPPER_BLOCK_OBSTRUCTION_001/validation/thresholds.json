@@ -1,0 +1,626 @@
+[
+  {
+    "actual_count": 13,
+    "c": 11,
+    "matches": false,
+    "required_count": 9,
+    "required_multiset": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "selected_edges": [
+      {
+        "difference": 5,
+        "edge": [
+          "s:0",
+          "s:1"
+        ]
+      },
+      {
+        "difference": 10,
+        "edge": [
+          "s:1",
+          "s:2"
+        ]
+      },
+      {
+        "difference": 13,
+        "edge": [
+          "s:2",
+          "s:3"
+        ]
+      },
+      {
+        "difference": 11,
+        "edge": [
+          "s:0",
+          "b:0:0"
+        ]
+      },
+      {
+        "difference": 12,
+        "edge": [
+          "b:0:0",
+          "l:0:0:0"
+        ]
+      },
+      {
+        "difference": 17,
+        "edge": [
+          "s:2",
+          "b:2:0"
+        ]
+      },
+      {
+        "difference": 14,
+        "edge": [
+          "b:2:0",
+          "l:2:0:0"
+        ]
+      },
+      {
+        "difference": 15,
+        "edge": [
+          "b:2:0",
+          "l:2:0:1"
+        ]
+      },
+      {
+        "difference": 16,
+        "edge": [
+          "b:2:0",
+          "l:2:0:2"
+        ]
+      },
+      {
+        "difference": 18,
+        "edge": [
+          "b:2:0",
+          "l:2:0:3"
+        ]
+      },
+      {
+        "difference": 7,
+        "edge": [
+          "s:3",
+          "b:3:0"
+        ]
+      },
+      {
+        "difference": 9,
+        "edge": [
+          "b:3:0",
+          "l:3:0:0"
+        ]
+      },
+      {
+        "difference": 8,
+        "edge": [
+          "b:3:0",
+          "l:3:0:1"
+        ]
+      }
+    ],
+    "selected_multiset": [
+      5,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "selected_vertices": {
+      "b:3:0": 11,
+      "l:0:0:0": 13,
+      "l:2:0:0": 14,
+      "l:2:0:1": 15,
+      "l:2:0:2": 16,
+      "l:2:0:3": 18,
+      "s:0": 12,
+      "s:2": 17
+    }
+  },
+  {
+    "actual_count": 10,
+    "c": 12,
+    "matches": false,
+    "required_count": 8,
+    "required_multiset": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "selected_edges": [
+      {
+        "difference": 5,
+        "edge": [
+          "s:0",
+          "s:1"
+        ]
+      },
+      {
+        "difference": 10,
+        "edge": [
+          "s:1",
+          "s:2"
+        ]
+      },
+      {
+        "difference": 13,
+        "edge": [
+          "s:2",
+          "s:3"
+        ]
+      },
+      {
+        "difference": 11,
+        "edge": [
+          "s:0",
+          "b:0:0"
+        ]
+      },
+      {
+        "difference": 12,
+        "edge": [
+          "b:0:0",
+          "l:0:0:0"
+        ]
+      },
+      {
+        "difference": 17,
+        "edge": [
+          "s:2",
+          "b:2:0"
+        ]
+      },
+      {
+        "difference": 14,
+        "edge": [
+          "b:2:0",
+          "l:2:0:0"
+        ]
+      },
+      {
+        "difference": 15,
+        "edge": [
+          "b:2:0",
+          "l:2:0:1"
+        ]
+      },
+      {
+        "difference": 16,
+        "edge": [
+          "b:2:0",
+          "l:2:0:2"
+        ]
+      },
+      {
+        "difference": 18,
+        "edge": [
+          "b:2:0",
+          "l:2:0:3"
+        ]
+      }
+    ],
+    "selected_multiset": [
+      5,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "selected_vertices": {
+      "l:0:0:0": 13,
+      "l:2:0:0": 14,
+      "l:2:0:1": 15,
+      "l:2:0:2": 16,
+      "l:2:0:3": 18,
+      "s:0": 12,
+      "s:2": 17
+    }
+  },
+  {
+    "actual_count": 8,
+    "c": 13,
+    "matches": false,
+    "required_count": 7,
+    "required_multiset": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "selected_edges": [
+      {
+        "difference": 10,
+        "edge": [
+          "s:1",
+          "s:2"
+        ]
+      },
+      {
+        "difference": 13,
+        "edge": [
+          "s:2",
+          "s:3"
+        ]
+      },
+      {
+        "difference": 12,
+        "edge": [
+          "b:0:0",
+          "l:0:0:0"
+        ]
+      },
+      {
+        "difference": 17,
+        "edge": [
+          "s:2",
+          "b:2:0"
+        ]
+      },
+      {
+        "difference": 14,
+        "edge": [
+          "b:2:0",
+          "l:2:0:0"
+        ]
+      },
+      {
+        "difference": 15,
+        "edge": [
+          "b:2:0",
+          "l:2:0:1"
+        ]
+      },
+      {
+        "difference": 16,
+        "edge": [
+          "b:2:0",
+          "l:2:0:2"
+        ]
+      },
+      {
+        "difference": 18,
+        "edge": [
+          "b:2:0",
+          "l:2:0:3"
+        ]
+      }
+    ],
+    "selected_multiset": [
+      10,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "selected_vertices": {
+      "l:0:0:0": 13,
+      "l:2:0:0": 14,
+      "l:2:0:1": 15,
+      "l:2:0:2": 16,
+      "l:2:0:3": 18,
+      "s:2": 17
+    }
+  },
+  {
+    "actual_count": 7,
+    "c": 14,
+    "matches": false,
+    "required_count": 6,
+    "required_multiset": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "selected_edges": [
+      {
+        "difference": 10,
+        "edge": [
+          "s:1",
+          "s:2"
+        ]
+      },
+      {
+        "difference": 13,
+        "edge": [
+          "s:2",
+          "s:3"
+        ]
+      },
+      {
+        "difference": 17,
+        "edge": [
+          "s:2",
+          "b:2:0"
+        ]
+      },
+      {
+        "difference": 14,
+        "edge": [
+          "b:2:0",
+          "l:2:0:0"
+        ]
+      },
+      {
+        "difference": 15,
+        "edge": [
+          "b:2:0",
+          "l:2:0:1"
+        ]
+      },
+      {
+        "difference": 16,
+        "edge": [
+          "b:2:0",
+          "l:2:0:2"
+        ]
+      },
+      {
+        "difference": 18,
+        "edge": [
+          "b:2:0",
+          "l:2:0:3"
+        ]
+      }
+    ],
+    "selected_multiset": [
+      10,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "selected_vertices": {
+      "l:2:0:0": 14,
+      "l:2:0:1": 15,
+      "l:2:0:2": 16,
+      "l:2:0:3": 18,
+      "s:2": 17
+    }
+  },
+  {
+    "actual_count": 6,
+    "c": 15,
+    "matches": false,
+    "required_count": 5,
+    "required_multiset": [
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "selected_edges": [
+      {
+        "difference": 10,
+        "edge": [
+          "s:1",
+          "s:2"
+        ]
+      },
+      {
+        "difference": 13,
+        "edge": [
+          "s:2",
+          "s:3"
+        ]
+      },
+      {
+        "difference": 17,
+        "edge": [
+          "s:2",
+          "b:2:0"
+        ]
+      },
+      {
+        "difference": 15,
+        "edge": [
+          "b:2:0",
+          "l:2:0:1"
+        ]
+      },
+      {
+        "difference": 16,
+        "edge": [
+          "b:2:0",
+          "l:2:0:2"
+        ]
+      },
+      {
+        "difference": 18,
+        "edge": [
+          "b:2:0",
+          "l:2:0:3"
+        ]
+      }
+    ],
+    "selected_multiset": [
+      10,
+      13,
+      15,
+      16,
+      17,
+      18
+    ],
+    "selected_vertices": {
+      "l:2:0:1": 15,
+      "l:2:0:2": 16,
+      "l:2:0:3": 18,
+      "s:2": 17
+    }
+  },
+  {
+    "actual_count": 5,
+    "c": 16,
+    "matches": false,
+    "required_count": 4,
+    "required_multiset": [
+      15,
+      16,
+      17,
+      18
+    ],
+    "selected_edges": [
+      {
+        "difference": 10,
+        "edge": [
+          "s:1",
+          "s:2"
+        ]
+      },
+      {
+        "difference": 13,
+        "edge": [
+          "s:2",
+          "s:3"
+        ]
+      },
+      {
+        "difference": 17,
+        "edge": [
+          "s:2",
+          "b:2:0"
+        ]
+      },
+      {
+        "difference": 16,
+        "edge": [
+          "b:2:0",
+          "l:2:0:2"
+        ]
+      },
+      {
+        "difference": 18,
+        "edge": [
+          "b:2:0",
+          "l:2:0:3"
+        ]
+      }
+    ],
+    "selected_multiset": [
+      10,
+      13,
+      16,
+      17,
+      18
+    ],
+    "selected_vertices": {
+      "l:2:0:2": 16,
+      "l:2:0:3": 18,
+      "s:2": 17
+    }
+  },
+  {
+    "actual_count": 4,
+    "c": 17,
+    "matches": false,
+    "required_count": 3,
+    "required_multiset": [
+      16,
+      17,
+      18
+    ],
+    "selected_edges": [
+      {
+        "difference": 10,
+        "edge": [
+          "s:1",
+          "s:2"
+        ]
+      },
+      {
+        "difference": 13,
+        "edge": [
+          "s:2",
+          "s:3"
+        ]
+      },
+      {
+        "difference": 17,
+        "edge": [
+          "s:2",
+          "b:2:0"
+        ]
+      },
+      {
+        "difference": 18,
+        "edge": [
+          "b:2:0",
+          "l:2:0:3"
+        ]
+      }
+    ],
+    "selected_multiset": [
+      10,
+      13,
+      17,
+      18
+    ],
+    "selected_vertices": {
+      "l:2:0:3": 18,
+      "s:2": 17
+    }
+  },
+  {
+    "actual_count": 1,
+    "c": 18,
+    "matches": false,
+    "required_count": 2,
+    "required_multiset": [
+      17,
+      18
+    ],
+    "selected_edges": [
+      {
+        "difference": 18,
+        "edge": [
+          "b:2:0",
+          "l:2:0:3"
+        ]
+      }
+    ],
+    "selected_multiset": [
+      18
+    ],
+    "selected_vertices": {
+      "l:2:0:3": 18
+    }
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "audit_sha256_raw": "8e39a2d6322ee6ea3da287c49e36335c42a698b3e2d6c9e74d822a2909f0def1",
+  "config_sha256_raw": "1c9bfde1aceb1fc0ecbbe3e09e7697f9f362e8e7b000ebc99380bf8c46249f05",
+  "parent": "c83ae3b11a6bc03189dc44653881137fc014c72a",
+  "proof": {
+    "path": "research/B4_1342_FIXED_LEDGER_UPPER_BLOCK_OBSTRUCTION.md",
+    "sha256_raw": "8c102aaa52226fe96018f58df876196ad1d2a36d5c616676620f35273fda00a0"
+  },
+  "retained_sha256_raw": {
+    "evidence/validation/B4_1RT2_TWO_HOST_COMPATIBILITY_001/validation/normalized-r3-t4.json": "efda3869ee246071c3966297714362843f92b69ee39a1112b3eed24a9220e73e",
+    "evidence/validation/B4_1RT2_TWO_HOST_COMPATIBILITY_001/validation/originals/normalized-r3-t4.json": "d23ebdbd4e70ea0d413cb87f09a165737c21b7d095dcb49669d882c6b0496113",
+    "evidence/validation/B4_THIRD_ZERO_HOST_NONADJACENT_001/original_graph.json": "16da85d76bcac473e093c6979f62881e1e63c08b519a0b30ba0ca653b8527f91",
+    "evidence/validation/B4_THIRD_ZERO_HOST_NONADJACENT_001/query_record.json": "4b9019e5c7cd6ef68ba5ebd07b45b1b15e0ded61398b5a7d2e8d7a7b684ea744",
+    "evidence/validation/B4_UNPADDED_Q1T2_001/validation/retained_seed.json": "bf2b865a61eb0b6f155ccd28c20ad8bdb7e738a50edb9650737c9ee4613a15d8"
+  },
+  "run_id": "B4-1342-UPPER-BLOCK-OBSTRUCTION-001-20261122",
+  "runner_sha256_raw": "607fc1c75fdcb5340f6de8afe31dc54a9acfadf6497183c942bebebbe3c1f041",
+  "runtime": {
+    "implementation": "cpython",
+    "optional_dependencies": [],
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]",
+    "python_executable": ".venv/Scripts/python.exe",
+    "utf8_mode": 1
+  },
+  "source_sha256_raw": {
+    "lcl/__init__.py": "134055506d3e9cd4fa538177844d28a44d5ab567ec220cf54048e63d1a8a7374",
+    "lcl/model.py": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6",
+    "lcl/verify.py": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909",
+    "pyproject.toml": "738f14eba3125ce7f444628adaddaf2e3e30e5aa7f43f10e7035067f6b7072e5",
+    "requirements.txt": "60f6e1bd76adf6ed25cf381ca95f67e8a27a0de1e62fb673a7cf5af4b86249ea"
+  }
+}

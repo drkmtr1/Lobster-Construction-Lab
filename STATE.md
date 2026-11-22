@@ -1,8 +1,8 @@
 # Current project state
 
 **Project:** Lobster Construction Lab v0.1.0  
-**Updated:** November 21, 2026, Pacific/Honolulu  
-**Stage:** B4-1RT2-K1-DIRECT-SINGLETON-001 accepted after separate read-only AI reviews. The exact ordered (1,r,t,2) family admits ordinary graceful labelings for all positive integers r,t,K.
+**Updated:** November 22, 2026, Pacific/Honolulu<br>
+**Stage:** B4-1342-UPPER-BLOCK-OBSTRUCTION-001 reviewed. The exact port-preserving upper-block operation on the fixed 1342 ledger is rejected for every positive batch. The exact ordered (1,r,t,2) family retains ordinary graceful coverage for all positive integers r,t,K.
 
 ## Current scientific objective
 
@@ -10,11 +10,12 @@ Develop independently supplied original-graph boundaries beyond the proved zero-
 
 ## One next action
 
-**With a new bounded scope decision, test the retained general-host upper-block insertion for first-branch growth on the normalized `[[1],[3],[4],[2],[]]` ledger**, preserving the original `s:4` exit for nonadjacent completion at `K>=2`.
+**With a new bounded scope decision, seek a differently labeled normalized `[[1],[3],[4],[2],[]]` seed**, keeping `b:0:0=1`, `b:2:0=0`, and physical `s:4=10`, and supplying the full upper-block incidence spectrum at one permitted threshold.
 
 ## What is established in this package
 
 - Both authenticated upstream main heads match the pinned audit commits. The repositories remain unchanged.
+- B4-1342-UPPER-BLOCK-OBSTRUCTION-001 exhausts the exact thresholds 11..18 on the fixed normalized 1342 ledger with b:0:0=1 and physical s:4=10. All eight counts miss 20-c, so the sum discrepancy h*(s_c+c-20) rules out every positive batch of the prescribed first-leaf insertion. The retained 1122 positive control supplies [5,14]. The checker rejected eight one-leaf assignments on a single new original, with zero solver calls. See `research/B4_1342_FIXED_LEDGER_UPPER_BLOCK_OBSTRUCTION.md`, D052 and `evidence/validation/B4_1342_UPPER_BLOCK_OBSTRUCTION_001/`.
 - B4-1RT2-K1-DIRECT-SINGLETON-001 uses the independently supplied C_r core with physical s:2 maximum to complete `[[1],[r],[t],[2],[],[]]` for exact integers r>=3,t>=4. It returns R={r+4}, D={6} at physical s:4=r+10 and assigns s:5=r+4. The complete ordinary crossing cut supports second-host growth compatible with the third zero host. The selector gives ordinary gracefulness of the exact (1,r,t,2) family for every positive r,t,K. Three retained cores, one retained completed control, four new targets, eight invalid pairs and one adverse digest check passed with zero solver calls. See `research/B4_1RT2_K1_DIRECT_SINGLETON.md`, D051 and `evidence/validation/B4_1RT2_K1_DIRECT_SINGLETON_001/`.
 - B4-1RT2-TWO-HOST-COMPATIBILITY-001 proves pointwise compatibility of minimum-high and zero-host growth under finite named interleavings. The explicit 1232 seed supplies A(r+t+12,r+6;1,1) for exact integers r>=3,t>=4 with unchanged physical ports and witness. At K>=2, R=[r+6,r+K+5], D=[1,K] at physical s:4=r+K+7 gives ordinary gracefulness on the original path. The selector covers all positive r,t at K>=2. Four retained controls, three prefixes, four completions and twelve invalid probes passed with zero search. See `research/B4_1RT2_TWO_HOST_COMPATIBILITY.md`, D050 and `evidence/validation/B4_1RT2_TWO_HOST_COMPATIBILITY_001/`. The earlier K=1 campaign's reproduction instructions have an additive erratum in `docs/REPRODUCTION_ERRATA.md`.
 - B4-1R32-K1-ROOTED-CORE-001 supplies a graceful core `[[1],[r],[],[2],[],[]]` with physical s:2=r+11 for exact integers r>=3. The fixed-third-size lift supplies R={r+4}, D={6} at physical s:4=r+10, with original s:5=r+4. The core and completed-target crossing cuts support pointwise named growth in either order with the lift. This gives the remaining r>=3,K=1 supply. One retained recheck, three auxiliary cores, three completed targets and four invalid probes passed with zero solver calls. See `research/B4_1R32_K1_ROOTED_CORE.md`, D049 and `evidence/validation/B4_1R32_K1_ROOTED_CORE_001/`.

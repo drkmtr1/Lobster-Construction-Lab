@@ -1,0 +1,35 @@
+{
+  "run_id": "B4-1342-UPPER-BLOCK-OBSTRUCTION-001-20261122",
+  "shell": "PowerShell from the LCL root, one process per saved command",
+  "commands": [
+    {
+      "cmd": "& .\\.venv\\Scripts\\python.exe -c \"import ast,pathlib; d=pathlib.Path('evidence/validation/B4_1342_UPPER_BLOCK_OBSTRUCTION_001'); [ast.parse((d / n).read_bytes()) for n in ('validate.py','audit.py')]; print('Both evidence scripts parse')\"\nexit $LASTEXITCODE",
+      "chunk_id": "b673c4",
+      "wall_time_seconds": 0.5647352,
+      "exit_code": 0,
+      "original_token_count": 8,
+      "output": "Both evidence scripts parse\r\n"
+    },
+    {
+      "cmd": "$env:PYTHONUTF8='1'\n& .\\.venv\\Scripts\\python.exe 'evidence/validation/B4_1342_UPPER_BLOCK_OBSTRUCTION_001/validate.py'\nexit $LASTEXITCODE",
+      "chunk_id": "a36df4",
+      "wall_time_seconds": 1.4538633,
+      "exit_code": 0,
+      "original_token_count": 357,
+      "output": "{\"all_batch_sum\": {\"path\": \"all_batch_sum.json\", \"sha256_raw\": \"61eba66ee3f4367b7058e70e8b6d23e96d3b2a3dbb0a44a22e369776fef43eac\"}, \"attempted_labelings\": 8, \"attempted_original\": {\"graph_digest\": \"f50df2d1344ac406d4fb719c626a6764a838855b9bc94e4f57e5eafa2f61c52d\", \"path\": \"originals/2342.json\", \"sha256_raw\": \"5cd78ca586e58d769f49b065c677002e07a4565edb988c25c172c36e67b49cde\"}, \"attempts\": {\"path\": \"one_leaf_attempts.json\", \"sha256_raw\": \"d9d66bd29075b4444705eded5ebaa34cc6cc4bf9f553e8fc840d4275fc660ce8\"}, \"distinct_graph_records\": 3, \"historical_replay\": 0, \"identity\": {\"path\": \"identity.json\", \"sha256_raw\": \"c86e42ab8eb688a24c4712237b48a677fd74f6fb225d671b8c13eb4f058fe8de\"}, \"invalid_probes\": 5, \"invalid_thresholds\": {\"path\": \"invalid_thresholds.json\", \"sha256_raw\": \"a6933ea5b719309cf9311adea818e162cbbc611a4d3461a4e192e4dc66e809c0\"}, \"labeling_enumeration\": 0, \"new_graceful_targets\": 0, \"rejected_labelings\": 8, \"retained_controls\": [{\"path\": \"negative_1342.json\", \"sha256_raw\": \"ff3017dcacc37f8f1b01bf63bd069424068766bafbe2832e0658ed4a81d8c414\"}, {\"path\": \"positive_1122.json\", \"sha256_raw\": \"412d84f9273d531825b042f2194f38c96b0c739548484d7dc87cf3342095549b\"}], \"run_id\": \"B4-1342-UPPER-BLOCK-OBSTRUCTION-001-20261122\", \"solver_queries\": 0, \"status\": \"PASS\", \"threshold_evaluations\": 8, \"thresholds\": {\"path\": \"thresholds.json\", \"sha256_raw\": \"228af5f19505fe943f898696b413ef29542dd3b7a6e9adf3fe1dbf19a08511fa\"}}\r\n"
+    },
+    {
+      "cmd": "$env:PYTHONUTF8='1'\n& .\\.venv\\Scripts\\python.exe 'evidence/validation/B4_1342_UPPER_BLOCK_OBSTRUCTION_001/audit.py'\nexit $LASTEXITCODE",
+      "chunk_id": "b5ccf5",
+      "wall_time_seconds": 0.6519143,
+      "exit_code": 0,
+      "original_token_count": 142,
+      "output": "{\"additional_graph_records\": 0, \"positive_selected_count\": 10, \"run_id\": \"B4-1342-UPPER-BLOCK-OBSTRUCTION-001-20261122\", \"same_attempts\": {\"path\": \"one_leaf_attempts.json\", \"sha256_raw\": \"d9d66bd29075b4444705eded5ebaa34cc6cc4bf9f553e8fc840d4275fc660ce8\"}, \"same_graph_records\": 3, \"same_invalid_thresholds\": 5, \"same_rejected_labelings\": 8, \"same_thresholds\": {\"path\": \"thresholds.json\", \"sha256_raw\": \"228af5f19505fe943f898696b413ef29542dd3b7a6e9adf3fe1dbf19a08511fa\"}, \"signed_batch_coefficients\": [4, 2, 1, 1, 1, 1, 1, -1], \"solver_queries\": 0, \"status\": \"PASS\"}\r\n"
+    }
+  ],
+  "protected_github_main_refs": {
+    "Math Discovery Lab": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+    "MDL Bounded Search": "e48b94eec4091b4fe189e325cab2eda464409943"
+  },
+  "protected_checkout_note": "The local Bounded Search checkout was on an existing recovery branch with untracked files. The task read its local and remote references and did not change that checkout."
+}

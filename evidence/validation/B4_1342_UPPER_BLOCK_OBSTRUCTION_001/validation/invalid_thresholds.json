@@ -1,0 +1,32 @@
+[
+  {
+    "c": true,
+    "error": "c must be an exact integer from 11 through 18",
+    "incidence_calls": 0,
+    "type": "bool"
+  },
+  {
+    "c": 10,
+    "error": "c must be an exact integer from 11 through 18",
+    "incidence_calls": 0,
+    "type": "int"
+  },
+  {
+    "c": 19,
+    "error": "c must be an exact integer from 11 through 18",
+    "incidence_calls": 0,
+    "type": "int"
+  },
+  {
+    "c": 12.0,
+    "error": "c must be an exact integer from 11 through 18",
+    "incidence_calls": 0,
+    "type": "float"
+  },
+  {
+    "c": "12",
+    "error": "c must be an exact integer from 11 through 18",
+    "incidence_calls": 0,
+    "type": "str"
+  }
+]

@@ -715,3 +715,28 @@ Batch comparisons and the adverse check add no graph cases. No
 solver, enumeration or replay ran.
 [Proof](B4_1RT2_K1_DIRECT_SINGLETON.md)
 · [Evidence](../evidence/validation/B4_1RT2_K1_DIRECT_SINGLETON_001/README.md) · D051
+
+## B4-1342-UPPER-BLOCK-OBSTRUCTION-001
+
+**ACCEPT** the retained named alpha states and complete incidence
+checks. With H=b:0:0=1 and U=s:4=10, the fixed 1342 thresholds
+11..18 have selected-edge counts 13,10,8,7,6,5,4,1 against
+required 9,8,7,6,5,4,3,2. The retained 1122 positive control
+with H=4, U=8 and c=9 supplies the ten weights [5,14].
+
+**ACCEPT** the necessary difference-sum condition. Every
+affected original edge gains h and the new edges run from
+c-1 through c+h-2. The excess sum is h*(s_c+c-20).
+**REJECT** the exact fixed-ledger first-branch operation at
+all permitted thresholds and every positive integer h.
+Supply by another labeling or interface remains open.
+The existing all-positive (1,r,t,2) theorem stays in scope.
+
+Two retained rechecks and one new attempted original give
+three distinct graph records. Eight one-leaf assignments on
+the same original were correctly rejected. Five invalid
+threshold values were rejected before evaluating incidences.
+Independent audit and separate AI reviews added zero cases.
+No solver, labeling enumeration or historical replay ran.
+[Proof](B4_1342_FIXED_LEDGER_UPPER_BLOCK_OBSTRUCTION.md)
+· [Evidence](../evidence/validation/B4_1342_UPPER_BLOCK_OBSTRUCTION_001/README.md) · D052

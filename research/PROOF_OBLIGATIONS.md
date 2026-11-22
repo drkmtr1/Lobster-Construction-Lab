@@ -526,3 +526,17 @@ The disjoint selector combines this case with retained K=1
 and K>=2 suppliers to prove ordinary gracefulness on the exact
 ordered (1,r,t,2) family for all positive r,t,K. First-branch
 growth beyond size one is a separate supply obligation.
+
+### 1342 fixed-ledger obstruction and remaining first-host supply
+
+The [fixed-ledger result](B4_1342_FIXED_LEDGER_UPPER_BLOCK_OBSTRUCTION.md)
+rejects first-branch general-host upper-block insertion on
+the retained 1342 state with the prescribed anchors.
+All permitted thresholds fail the necessary difference-sum
+test for any positive batch. The retained 1122 positive
+control confirms the conditional lemma on its own state.
+
+First-branch growth on 1342 needs a fresh supplied ledger
+or a different proved interface. The selected next obligation
+tests supply on the same original and keeps the existing
+host, zero anchor and exit conditions.

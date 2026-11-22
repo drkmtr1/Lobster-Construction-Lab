@@ -1,0 +1,48 @@
+{
+  "all_batch_sum": {
+    "path": "all_batch_sum.json",
+    "sha256_raw": "61eba66ee3f4367b7058e70e8b6d23e96d3b2a3dbb0a44a22e369776fef43eac"
+  },
+  "attempted_labelings": 8,
+  "attempted_original": {
+    "graph_digest": "f50df2d1344ac406d4fb719c626a6764a838855b9bc94e4f57e5eafa2f61c52d",
+    "path": "originals/2342.json",
+    "sha256_raw": "5cd78ca586e58d769f49b065c677002e07a4565edb988c25c172c36e67b49cde"
+  },
+  "attempts": {
+    "path": "one_leaf_attempts.json",
+    "sha256_raw": "d9d66bd29075b4444705eded5ebaa34cc6cc4bf9f553e8fc840d4275fc660ce8"
+  },
+  "distinct_graph_records": 3,
+  "historical_replay": 0,
+  "identity": {
+    "path": "identity.json",
+    "sha256_raw": "c86e42ab8eb688a24c4712237b48a677fd74f6fb225d671b8c13eb4f058fe8de"
+  },
+  "invalid_probes": 5,
+  "invalid_thresholds": {
+    "path": "invalid_thresholds.json",
+    "sha256_raw": "a6933ea5b719309cf9311adea818e162cbbc611a4d3461a4e192e4dc66e809c0"
+  },
+  "labeling_enumeration": 0,
+  "new_graceful_targets": 0,
+  "rejected_labelings": 8,
+  "retained_controls": [
+    {
+      "path": "negative_1342.json",
+      "sha256_raw": "ff3017dcacc37f8f1b01bf63bd069424068766bafbe2832e0658ed4a81d8c414"
+    },
+    {
+      "path": "positive_1122.json",
+      "sha256_raw": "412d84f9273d531825b042f2194f38c96b0c739548484d7dc87cf3342095549b"
+    }
+  ],
+  "run_id": "B4-1342-UPPER-BLOCK-OBSTRUCTION-001-20261122",
+  "solver_queries": 0,
+  "status": "PASS",
+  "threshold_evaluations": 8,
+  "thresholds": {
+    "path": "thresholds.json",
+    "sha256_raw": "228af5f19505fe943f898696b413ef29542dd3b7a6e9adf3fe1dbf19a08511fa"
+  }
+}

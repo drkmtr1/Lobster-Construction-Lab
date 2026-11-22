@@ -1,0 +1,28 @@
+{
+  "additional_graph_records": 0,
+  "positive_selected_count": 10,
+  "run_id": "B4-1342-UPPER-BLOCK-OBSTRUCTION-001-20261122",
+  "same_attempts": {
+    "path": "one_leaf_attempts.json",
+    "sha256_raw": "d9d66bd29075b4444705eded5ebaa34cc6cc4bf9f553e8fc840d4275fc660ce8"
+  },
+  "same_graph_records": 3,
+  "same_invalid_thresholds": 5,
+  "same_rejected_labelings": 8,
+  "same_thresholds": {
+    "path": "thresholds.json",
+    "sha256_raw": "228af5f19505fe943f898696b413ef29542dd3b7a6e9adf3fe1dbf19a08511fa"
+  },
+  "signed_batch_coefficients": [
+    4,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    -1
+  ],
+  "solver_queries": 0,
+  "status": "PASS"
+}
