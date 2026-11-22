@@ -261,3 +261,17 @@ integers q,K>=1. [3111](B4_UNPADDED_3111.md) is the only new
 executable scope. Supplying label zero at another prescribed host,
 other branch placements or sections, and arbitrary input topology
 remain open. The same-host closure keeps its explicit hypotheses.
+
+### Minimum-high extension and symbolic (q,r,1,1) coverage
+
+The [minimum-high proof](ALPHA_MINIMUM_HIGH_LEAF_EXTENSION.md)
+establishes conditional same-host finite closure with the supplied
+minimum-high label and distance-one witness hypothesis. It discharges
+the exact unpadded `[[q],[r],[1],[1]]+[[]]*(K+1)` family for positive
+integers q,r,K. The original path from `s:4=K+r+5` consumes
+`R=[r+5,K+r+4]` and `D=[1,K]`, giving completed alpha size
+r+5+ceil(K/2). Extension of the topology witness along that path
+is valid. Exporting a further relational state, supplying arbitrary
+hosts, other unproved branch placements or sections, padding,
+and arbitrary topology remain separate obligations. The only new
+executable route is [1311](B4_UNPADDED_1311.md).

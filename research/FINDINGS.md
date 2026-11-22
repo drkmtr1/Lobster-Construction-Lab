@@ -220,3 +220,23 @@ certificates, and one separately recorded seed passed. Separate
 AI mathematics and implementation reviews accepted.
 [Lemma and corollary](ALPHA_ZERO_PORT_LEAF_EXTENSION.md) ·
 [3111 proof](B4_UNPADDED_3111.md) · [Validation](../evidence/validation/B4_UNPADDED_3111_001/README.md) · D033
+
+## Conditional minimum-high extension and B4-UNPADDED-1311-001
+
+**ACCEPT.** For a supplied witnessed alpha state A(n,p;x,y), prescribed
+fresh leaves at the same actual minimum-high host within one edge of
+the witness give A(n+h,p+h;x,y) for each integer h>=0. The ports and
+witness are preserved, including under finite ordered batches.
+The h=1 insertion appears in the retained 1211 left component.
+
+Minimum-high extension in the left component before R241 and
+zero-port extension at the returned first center after composition
+prove alpha gracefulness of `[[q],[r],[1],[1]]+[[]]*(K+1)` for
+all positive integers q,r,K. The actual adjacent port is
+`s:4=K+r+5` and completed low-class size is r+5+ceil(K/2).
+New executable coverage is only `four_section_1311(K)` for
+positive integer K, excluding booleans. Twelve original targets
+and their same-certificate audit passed. One expanded left component
+and one fixed prefix seed passed separately. Separate AI reviews accepted.
+[Proofs](ALPHA_MINIMUM_HIGH_LEAF_EXTENSION.md) · [1311 proof](B4_UNPADDED_1311.md)
+· [Validation](../evidence/validation/B4_UNPADDED_1311_001/README.md) · D034

@@ -45,3 +45,15 @@ assigning fresh label n to one new leaf at a host of label c>0
 duplicates the old difference n-c, which lies in 1..n-1. This
 rules out that fixed-label step at that host. It is an arithmetic
 obstruction to the operation. [Zero-port proof](ALPHA_ZERO_PORT_LEAF_EXTENSION.md#host-restriction-and-source-comparison)
+
+### F-MINIMUM-HIGH-WRONG-HOST
+
+For an alpha seed on n vertices with low size p, raising old highs
+by one and giving a fresh leaf label p at an old high host p+c with
+c>0 gives difference c+1. That difference occurs in the shifted
+old spectrum 2..n. This rules out that placement. In the composed
+(q,r,1,1) seed the second center is two above the minimum high,
+so the insertion belongs in the left component before R241.
+A host at distance two from a supplied witness also puts the
+new leaf at distance three from that same path.
+[Minimum-high proof](ALPHA_MINIMUM_HIGH_LEAF_EXTENSION.md#scope-and-source-comparison)

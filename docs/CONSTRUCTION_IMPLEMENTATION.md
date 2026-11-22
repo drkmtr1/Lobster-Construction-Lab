@@ -24,6 +24,7 @@ The code supplies direct constructions, a unit-size convenience alias, and a str
 | `four_section_1211(K)` | Positive integer K, exact ordered branch sizes 1,2,1,1 and zero padding | Complete alpha graceful labeling | Adjacent interval R=[7,K+6], D=1..K at s:4=K+7 |
 | `four_section_2111(K)` | Positive integer K, exact ordered branch sizes 2,1,1,1 and zero padding | Complete alpha graceful labeling | Adjacent interval R=[6,K+5], D=1..K at s:4=K+6 |
 | `four_section_3111(K)` | Positive integer K, exact ordered branch sizes 3,1,1,1 and zero padding | Complete alpha graceful labeling | Adjacent interval R=[6,K+5], D=1..K at s:4=K+6 |
+| `four_section_1311(K)` | Positive integer K, exact ordered branch sizes 1,3,1,1 and zero padding | Complete alpha graceful labeling | Adjacent interval R=[8,K+7], D=1..K at s:4=K+8 |
 | `four_section_111t(t,K)` | Integers t>=2 and K>=1, original branch sizes 1,1,1,t and zero padding | Complete graceful labeling, alpha for K=1 | At s:4, use the singleton R={4}, D={t+3} for K=1 or the above-side nonadjacent interval for K>=2 |
 | `two_section_unit(K)` | Positive suffix length `K` | Complete graceful labeling | Alias for `two_section_balanced(q=1,K=K)` |
 | `complete_two_host(graph, core_labels, hosts)` | Original target, connected labeled core, two distinct physical hosts | Exact fixed-core completion or restricted obstruction | Does not supply the core labeling, host choice, or a palette partition |
@@ -43,6 +44,8 @@ The B4 CLI method `four_section_1211` admits only `K` on the exact original `[[1
 The B4 CLI method `four_section_2111` admits only `K` on the exact original `[[2],[1],[1],[1]]+[[]]*(K+1)` profile. The two first-branch leaves remain at `b:0:0`. The 10,000-vertex ceiling gives `K<=9986`, with the inherited record byte cap applied separately. [B4 2111 proof](../research/B4_UNPADDED_2111.md)
 
 The B4 CLI method `four_section_3111` admits only `K` on the exact `[[3],[1],[1],[1]]+[[]]*(K+1)` profile. The graph ceiling gives `K<=9985` and the inherited 2,000,000-byte record cap applies separately. The symbolic `[[q],[1],[1],[1]]` result does not add a general-q CLI route. [B4 3111 proof](../research/B4_UNPADDED_3111.md)
+
+The B4 CLI method `four_section_1311` admits only `K` on the exact `[[1],[3],[1],[1]]+[[]]*(K+1)` profile. Its graph ceiling gives `K<=9985` and the 2,000,000-byte record cap applies separately. The broader ordered (q,r,1,1) theorem is symbolic. [B4 1311 proof](../research/B4_UNPADDED_1311.md)
 
 ## The exact target remains part of the input
 

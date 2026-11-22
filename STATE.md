@@ -2,7 +2,7 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 21, 2026, Pacific/Honolulu  
-**Stage:** B4-UNPADDED-3111-001 accepted after separate AI reviews. The conditional zero-port extension and symbolic ordered (q,1,1,1) family are proved. New executable coverage is the exact 3111 profile.
+**Stage:** B4-UNPADDED-1311-001 accepted after separate AI reviews. The conditional minimum-high rule and exact symbolic (q,r,1,1) family are proved. New executable coverage is exact 1311.
 
 ## Current scientific objective
 
@@ -10,11 +10,12 @@ Develop independently supplied original-graph boundaries beyond the proved zero-
 
 ## One next action
 
-**With a new bounded scope decision, frame a supplier question for the exact unpadded `[[1],[3],[1],[1]]+[[]]*(K+1)` profile with integer `K>=1`**, because the zero-port extension does not move the attachment host to the second branch.
+**With a new bounded scope decision, formulate a supplier question for the unpadded `[[q],[r],[2],[1]]+[[]]*(K+1)` family for positive integers q,r,K**, to check whether third-branch growth can preserve the original join and path port.
 
 ## What is established in this package
 
 - Both authenticated upstream main heads match the pinned audit commits. The repositories remain unchanged.
+- B4-UNPADDED-1311-001 proves a conditional finite leaf extension at a supplied minimum-high host within one edge of its witness. Expansion inside the left component, retained R241/L008, and zero-port growth after the join prove alpha gracefulness of `[[q],[r],[1],[1]]+[[]]*(K+1)` for positive integers q,r,K. The completed low-class size is `r+5+(K+1)//2`. Only `four_section_1311(K)` was added and validated. See `research/ALPHA_MINIMUM_HIGH_LEAF_EXTENSION.md`, `research/B4_UNPADDED_1311.md`, D034, and `evidence/validation/B4_UNPADDED_1311_001/`.
 - B4-UNPADDED-3111-001 proves conditional finite extension at the same supplied label-zero port, preserving the witness and offsets. The independently supplied unit seed gives alpha gracefulness of `[[q],[1],[1],[1]]+[[]]*(K+1)` for integers q,K>=1, with physical `s:4=K+6` and completed low-class size `6+(K+1)//2`. Only `four_section_3111(K)` was added and validated. See `research/ALPHA_ZERO_PORT_LEAF_EXTENSION.md`, `research/B4_UNPADDED_3111.md`, D033, and `evidence/validation/B4_UNPADDED_3111_001/`.
 - B4-UNPADDED-2111-001 covers the exact unpadded `[[2],[1],[1],[1]]+[[]]*(K+1)` profile for integer K>=1. The unit skeleton plus a leaf at the original label-zero `b:0:0` gives the fixed seed with low-class size 6. The shifted prefix leaves `R=[6,K+5]`, `D=[1,K]`, and physical `s:4=K+6`. The adjacent completion has low-class size `6+(K+1)//2` and cutoff one less. See `research/B4_UNPADDED_2111.md`, D032, and `evidence/validation/B4_UNPADDED_2111_001/`.
 - B4-UNPADDED-1211-001 covers the exact unpadded `[[1],[2],[1],[1]]+[[]]*(K+1)` profile for integer K>=1. The prescribed second leaf `l:1:0:1` remains at `b:1:0`. The shifted R241/L008 seed supplies `R=[7,K+6]`, `D=[1,K]`, and original `s:4=K+7`. The retained adjacent path gives a full alpha labeling with low-class size `7+(K+1)//2`. See `research/B4_UNPADDED_1211.md`, D031, and `evidence/validation/B4_UNPADDED_1211_001/`.

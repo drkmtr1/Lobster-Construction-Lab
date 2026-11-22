@@ -126,6 +126,7 @@ def _parameter_size(method: str, params: Any, limit: int) -> int:
         "four_section_1211": {"K"},
         "four_section_2111": {"K"},
         "four_section_3111": {"K"},
+        "four_section_1311": {"K"},
         "four_section_111t": {"t", "K"},
     }[method]
     allowed = required | ({"z"} if method == "l007" else set())
@@ -188,7 +189,7 @@ def _parameter_size(method: str, params: Any, limit: int) -> int:
     elif method in ("four_section_1121", "four_section_1211", "four_section_2111"):
         K = _integer(params["K"], "K", 1, limit)
         count = K + 14
-    elif method == "four_section_3111":
+    elif method in ("four_section_3111", "four_section_1311"):
         K = _integer(params["K"], "K", 1, limit)
         count = K + 15
     elif method == "four_section_111t":
@@ -264,6 +265,7 @@ def construction_input(spec: Any, max_vertices: int = MAX_GRAPH_VERTICES) -> tup
                "four_section_1211": constructors.four_section_1211,
                "four_section_2111": constructors.four_section_2111,
                "four_section_3111": constructors.four_section_3111,
+               "four_section_1311": constructors.four_section_1311,
                "four_section_111t": constructors.four_section_111t}
     method = spec["method"]
     if not isinstance(method, str) or method not in methods:
@@ -292,6 +294,10 @@ def construction_input(spec: Any, max_vertices: int = MAX_GRAPH_VERTICES) -> tup
         profile = spec["profile"]
         if profile[:4] != [[3], [1], [1], [1]] or any(profile[4:]):
             raise ValueError("four_section_3111 requires ordered branches 3,1,1,1 and empty sections")
+    if method == "four_section_1311":
+        profile = spec["profile"]
+        if profile[:4] != [[1], [3], [1], [1]] or any(profile[4:]):
+            raise ValueError("four_section_1311 requires ordered branches 1,3,1,1 and empty sections")
     if method == "four_section_111t":
         profile = spec["profile"]
         t = spec["parameters"]["t"]
