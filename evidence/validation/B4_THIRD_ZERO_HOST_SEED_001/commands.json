@@ -1,0 +1,27 @@
+{
+  "cwd": "repository root",
+  "environment": {
+    "PYTHONUTF8": "1"
+  },
+  "commands": [
+    {
+      "command": ".venv/Scripts/python.exe evidence/validation/B4_THIRD_ZERO_HOST_SEED_001/query.py --preflight",
+      "exit_code": 0,
+      "output": "{\"status\": \"READY\", \"queries_executed\": 0, \"pins\": {\"b:2:0\": 0, \"s:4\": 7}, \"low\": [\"s:1\", \"s:3\", \"b:0:0\", \"b:2:0\", \"l:1:0:0\", \"l:3:0:0\", \"l:3:0:1\"], \"high\": [\"s:0\", \"s:2\", \"s:4\", \"b:1:0\", \"b:3:0\", \"l:0:0:0\", \"l:2:0:0\", \"l:2:0:1\"], \"limits\": {\"max_nodes\": 100000, \"time_limit\": 5, \"max_vertices\": 15, \"max_states\": 20000}, \"control_matches_new_pins\": false}\r\n"
+    },
+    {
+      "command": ".venv/Scripts/python.exe evidence/validation/B4_THIRD_ZERO_HOST_SEED_001/query.py --execute",
+      "exit_code": 0,
+      "output": "{\"status\": \"EXHAUSTED_NO_SOLUTION\", \"nodes\": 17514, \"elapsed_seconds\": 0.15197850001277402, \"exhausted\": true, \"exact_count\": 0, \"witness\": null}\r\n"
+    },
+    {
+      "command": ".venv/Scripts/python.exe evidence/validation/B4_THIRD_ZERO_HOST_SEED_001/audit.py",
+      "exit_code": 0,
+      "output": "PASS: 1 retained control, 1 restricted negative receipt, 0 seeds or completed targets, 0 new queries\r\n"
+    }
+  ],
+  "new_search_invocations": 1,
+  "retained_control_rechecks": 1,
+  "new_seed_certificates": 0,
+  "direct_completed_targets": 0
+}

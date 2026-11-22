@@ -315,3 +315,17 @@ r+6+ceil(K/2). Both post-growth predicates are proved in the
 specified order. Third-branch growth with fourth size two, broader
 hosts or topology, mixed-operation repetition and any further
 exported relational state require their own proofs.
+
+### Third-branch growth with a supplied zero host
+
+The [conditional insertion](ALPHA_ZERO_HOST_LEAF_EXTENSION.md)
+preserves a supplied normalized alpha state and both named ports
+when the zero host lies within one edge of the supplied witness.
+The exact fixed-low adjacent extension fails for t>=3 and the
+relabeled zero-host adjacent 1122 seed query exhausted with
+zero solutions. [Proof and restricted outcome](B4_THIRD_ZERO_HOST_SEED.md)
+
+The all-t,K supplier for `[[1],[1],[t],[2]]+[[]]*(K+1)` remains
+an open obligation beyond the retained t=1 construction and
+t=2 adjacent seed. Other alpha offsets, low placements and
+supplier designs remain open under their own exact hypotheses.

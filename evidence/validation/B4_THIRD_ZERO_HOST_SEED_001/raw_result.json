@@ -1,0 +1,171 @@
+{
+  "count": 0,
+  "count_lower_bound": 0,
+  "elapsed_seconds": 0.15197850001277402,
+  "exhausted": true,
+  "limits": {
+    "max_nodes": 100000,
+    "max_states": 20000,
+    "max_vertices": 15,
+    "time_limit": 5
+  },
+  "method": "dfs",
+  "negative_evidence": "implementation exhaustion on declared scope; no formal negative certificate",
+  "nodes": 17514,
+  "restrictions": {
+    "count_convention": "bijections on named physical vertices; no symmetry quotient",
+    "domains": {
+      "b:0:0": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "b:1:0": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "b:2:0": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "b:3:0": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "l:0:0:0": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "l:1:0:0": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "l:2:0:0": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "l:2:0:1": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "l:3:0:0": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "l:3:0:1": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "s:0": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "s:1": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "s:2": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "s:3": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "s:4": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    "hidden_symmetry_reduction": false,
+    "pins": {
+      "b:2:0": 0,
+      "s:4": 7
+    },
+    "scope": "restricted"
+  },
+  "status": "EXHAUSTED_NO_SOLUTION",
+  "witness": null
+}

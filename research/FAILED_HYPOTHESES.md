@@ -98,3 +98,22 @@ includes l:2:0:0 along with s:0 and l:0:0:0, and the complete
 incident spectrum is [9,12,13,14]. The proof and certificate
 use threshold 13, whose incident multiset is [12,14].
 [Preserved draft and correction](../evidence/validation/B4_UNPADDED_QR12_001/attempts/base-upper-threshold-draft/README.md)
+
+### F-B4-1122-FIXED-LOW-ADJACENT-GROWTH
+
+For integer t>=3 the exact prefix `[[1],[1],[t],[2],[]]` with
+the retained seven named low pins and physical s:4=7 cannot
+supply all alpha differences. High labels remain free apart
+from the exit. The spectrum forces s:0=M and the fixed
+non-third-terminal differences omit M-2. A third terminal at
+center label 2 would require the already used M to supply it.
+[Restricted proof](B4_THIRD_ZERO_HOST_SEED.md#restricted-obstruction-with-all-seven-named-lows-fixed)
+
+### F-B4-1122-ZERO-HOST-ADJACENT-SEED
+
+On the exact normalized 1122 prefix the one first-witness
+DFS query with full [0,6]/[7,14] alpha domains and only
+b:2:0=0,s:4=7 exhausted after 17,514 nodes with count zero.
+This is a computational negative for the stated physical
+host and exit. The retained adjacent seed has b:2:0=2.
+[Original-bound query record](../evidence/validation/B4_THIRD_ZERO_HOST_SEED_001/query_record.json)

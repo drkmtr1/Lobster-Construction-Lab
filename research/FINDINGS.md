@@ -306,3 +306,28 @@ corrected proof and implementation. General (q,r,t,2) remains open.
 [Conditional rule](ALPHA_LOWER_BLOCK_LEAF_INSERTION.md)
 · [Family proof](B4_UNPADDED_QR12.md)
 · [Evidence](../evidence/validation/B4_UNPADDED_QR12_001/README.md) · D037
+
+## B4-THIRD-ZERO-HOST-SEED-001
+
+**ACCEPT** the fixed-low obstruction on the exact original
+`[[1],[1],[t],[2],[]]` prefix for all integers t>=3 with the
+retained seven named lows, the alpha cut, and adjacent physical
+s:4=7. The other highs start free. The spectrum forces the root
+and rules out difference M-2, where M=t+12.
+
+**ACCEPT, conditional** the arithmetic of maximum-label leaf
+extension at a supplied zero host within one edge of the actual
+witness. The two physical ports and offsets are preserved whether
+or not the host is the low port. Ordered batches agree pointwise.
+
+**ACCEPT, restricted computation** the zero count for one
+exhausted named 1122 alpha DFS at b:2:0=0 and s:4=7. All other
+labels were free within their classes. The run visited 17,514
+nodes without reaching a limit. The independent audit checked
+the original, retained control and receipt. It added zero
+queries. The query supplied no new seed, so there is no new
+all-t,K theorem or direct completed target. Other suppliers
+remain open.
+[Proof and scope](B4_THIRD_ZERO_HOST_SEED.md)
+· [Conditional extension](ALPHA_ZERO_HOST_LEAF_EXTENSION.md)
+· [Evidence](../evidence/validation/B4_THIRD_ZERO_HOST_SEED_001/README.md) · D038
