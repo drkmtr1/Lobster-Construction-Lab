@@ -278,3 +278,15 @@ this spectrum for every positive h, so it is rejected across
 that domain. The two-pin alpha existence question without
 the insertion predicate is outside the obstruction.
 [Structural proof](B4_1342_U9_STRUCTURAL_OBSTRUCTION.md)
+
+### F-B4-1342-TWO-EXITS-UPPER-BLOCK-CLOSEOUT
+
+The new label-one proof rejects the complete selected
+spectrum on named 1342 at b:2:0=0 and physical s:4=9 for
+c=10..18 and every prescribed positive batch. Together with
+the retained results, the exact upper-block interface is
+rejected throughout host labels a=1..8 at exits 9 and 10,
+subject to c strictly above the actual exit and c<=18, and
+the alpha bands [0,8] and [9,18]. Prior results retain their
+individual proof or reviewed computational evidence.
+[Closeout and scope](B4_1342_U9_A1_ANALYTIC_CLOSEOUT.md)

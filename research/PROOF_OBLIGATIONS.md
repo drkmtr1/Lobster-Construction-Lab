@@ -572,7 +572,19 @@ The [structural proof](B4_1342_U9_STRUCTURAL_OBSTRUCTION.md)
 discharges the relaxed-host incidence supply negatively at
 physical s:4=9, b:2:0=0, a=2..8 and c=10..18. The same
 argument rejects every positive batch because the operation
-needs the exact selected spectrum. The label-one host case
-at U=9 lies outside this result and is the selected next
-structural question. The earlier U=10 label-one result has
-its own pin scope.
+needs the exact selected spectrum. The subsequent
+[label-one closeout](B4_1342_U9_A1_ANALYTIC_CLOSEOUT.md)
+discharges the remaining U=9, a=1 case negatively. The
+same proof records the complete two-exit disposition and
+preserves the evidence basis of each row.
+
+### Joint maximum-rooted ordinary core supply
+
+The proposed named core `[[q],[r],[],[2],[],[]]` for q,r>=2
+requires an independent graceful labeling with the maximum
+at original physical s:2. The first open obligation is
+q=r=2, to be compared with the retained q-only and r-only
+constructions. Conditional on supply, translating by one
+and restoring the third zero host and its terminals fills
+both enlarged inventories on the K=1 target. Joint supply
+and K>=2 continuation remain open.

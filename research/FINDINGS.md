@@ -816,3 +816,27 @@ There were zero new graphs, insertion attempts, solver
 queries, graceful-labeling enumerations or historical replays.
 [Proof](B4_1342_U9_STRUCTURAL_OBSTRUCTION.md)
 · [Evidence](../evidence/validation/B4_1342_U9_STRUCTURAL_OBSTRUCTION_001/README.md) · D055
+
+## B4-1342-U9-A1-ANALYTIC-CLOSEOUT-001
+
+**ACCEPT Claims A and B.** For the exact named 1342 graceful
+alpha domain with bands [0,8] and [9,18], physical b:2:0=0,
+b:0:0=1 and s:4=9, the selected incidence count cannot be
+20-c at any integer c=10..18. The first three thresholds
+fail the degree bound. All later ones force s:0 and exclude
+s:2, contradicting the descent through the original zero-host
+differences. The necessary spectrum [c-1,18] therefore fails
+and the prescribed operation fails for every positive batch.
+
+The combined rejected domain has exact host labels a=1..8
+at physical s:4=9 (analytic) and s:4=10 (analytic at a=1,
+reviewed predicate exhaustion at a=2..8 with analytic batch
+necessity). This disposition concerns the specified operation
+and pins. The ordinary all-positive (1,r,t,2) construction
+remains accepted.
+
+Nine thresholds and both retained originals passed the
+independent arithmetic audit and separate AI reviews. Zero
+new profiles, queries, labeling enumeration or historical
+replay. [Proof](B4_1342_U9_A1_ANALYTIC_CLOSEOUT.md)
+· [Evidence](../evidence/validation/B4_1342_U9_A1_CLOSEOUT_001/README.md) · D056

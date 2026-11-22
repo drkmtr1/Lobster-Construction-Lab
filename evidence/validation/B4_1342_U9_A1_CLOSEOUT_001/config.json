@@ -1,0 +1,20 @@
+{
+  "id": "B4-1342-U9-A1-ANALYTIC-CLOSEOUT-001-20261122",
+  "parent": "86d3d1cf7ab140b23a9aace81c654b43b26b65af",
+  "limits": {
+    "workers": 1,
+    "max_order": 19,
+    "max_result_bytes": 2000000,
+    "threshold_cases": 9,
+    "solver_queries": 0,
+    "labeling_enumeration": 0,
+    "historical_replay": 0,
+    "new_graph_profiles": 0
+  },
+  "retained": {
+    "original_1342": "evidence/validation/B4_1342_UPPER_BLOCK_OBSTRUCTION_001/validation/originals/1342.json",
+    "original_1122": "evidence/validation/B4_THIRD_ZERO_HOST_NONADJACENT_001/original_graph.json",
+    "bound_1122": "evidence/validation/B4_THIRD_ZERO_HOST_NONADJACENT_001/query_record.json",
+    "certificate_1122": "evidence/validation/B4_UNPADDED_Q1T2_001/validation/retained_seed.json"
+  }
+}

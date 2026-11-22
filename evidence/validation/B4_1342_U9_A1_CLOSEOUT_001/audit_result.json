@@ -1,0 +1,460 @@
+{
+  "id": "B4-1342-U9-A1-ANALYTIC-CLOSEOUT-001-20261122",
+  "input_sha256_raw": {
+    "evidence/validation/B4_1342_U9_A1_CLOSEOUT_001/audit.py": "fce52c52ff39dad259b5ff50215d879aaa36422a67e27f384f920f9e98aff60f",
+    "evidence/validation/B4_1342_U9_A1_CLOSEOUT_001/commands.json": "f81fc635180d3f22b83f8005e4be38f8c21425bbf0c317511a228a3fdf435acb",
+    "evidence/validation/B4_1342_U9_A1_CLOSEOUT_001/config.json": "28301377ea7ecda5ac7cd4ecb51e38dda8b279ff1409c559866a16bc4a18198b",
+    "research/B4_1342_U9_A1_ANALYTIC_CLOSEOUT.md": "0f41f955761edca7c2ef8d0e509fc2b06a00c056cd56ca1e251e885d70ac16a9"
+  },
+  "limits": {
+    "historical_replay": 0,
+    "labeling_enumeration": 0,
+    "max_order": 19,
+    "max_result_bytes": 2000000,
+    "new_graph_profiles": 0,
+    "solver_queries": 0,
+    "threshold_cases": 9,
+    "workers": 1
+  },
+  "original_1342": {
+    "degrees": {
+      "b:1:0": 4,
+      "b:3:0": 3,
+      "l:0:0:0": 1,
+      "l:2:0:0": 1,
+      "l:2:0:1": 1,
+      "l:2:0:2": 1,
+      "l:2:0:3": 1,
+      "s:0": 2,
+      "s:2": 3,
+      "s:4": 1
+    },
+    "eligible_degrees_sorted": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      3,
+      3,
+      4
+    ],
+    "graph_digest": "025a32fe013aa21dee6a6f448ac572be79833d994c5ec392bf7b47cc0cd37ea1",
+    "high": [
+      "b:1:0",
+      "b:3:0",
+      "l:0:0:0",
+      "l:2:0:0",
+      "l:2:0:1",
+      "l:2:0:2",
+      "l:2:0:3",
+      "s:0",
+      "s:2",
+      "s:4"
+    ],
+    "high_incidence": {
+      "b:1:0": [
+        "l:1:0:0",
+        "l:1:0:1",
+        "l:1:0:2",
+        "s:1"
+      ],
+      "b:3:0": [
+        "l:3:0:0",
+        "l:3:0:1",
+        "s:3"
+      ],
+      "l:0:0:0": [
+        "b:0:0"
+      ],
+      "l:2:0:0": [
+        "b:2:0"
+      ],
+      "l:2:0:1": [
+        "b:2:0"
+      ],
+      "l:2:0:2": [
+        "b:2:0"
+      ],
+      "l:2:0:3": [
+        "b:2:0"
+      ],
+      "s:0": [
+        "b:0:0",
+        "s:1"
+      ],
+      "s:2": [
+        "b:2:0",
+        "s:1",
+        "s:3"
+      ],
+      "s:4": [
+        "s:3"
+      ]
+    },
+    "low": [
+      "b:0:0",
+      "b:2:0",
+      "l:1:0:0",
+      "l:1:0:1",
+      "l:1:0:2",
+      "l:3:0:0",
+      "l:3:0:1",
+      "s:1",
+      "s:3"
+    ],
+    "thresholds": [
+      {
+        "c": 10,
+        "minimum_edges": 17,
+        "reason": "minimum exceeds required",
+        "required_differences": [
+          9,
+          18
+        ],
+        "required_edges": 10,
+        "selected_vertices": 9
+      },
+      {
+        "c": 11,
+        "minimum_edges": 13,
+        "reason": "minimum exceeds required",
+        "required_differences": [
+          10,
+          18
+        ],
+        "required_edges": 9,
+        "selected_vertices": 8
+      },
+      {
+        "c": 12,
+        "minimum_edges": 10,
+        "reason": "minimum exceeds required",
+        "required_differences": [
+          11,
+          18
+        ],
+        "required_edges": 8,
+        "selected_vertices": 7
+      },
+      {
+        "c": 13,
+        "descending_weights": [
+          18,
+          17,
+          16,
+          15,
+          14,
+          13
+        ],
+        "hypothetical_degree_one_count": 5,
+        "hypothetical_degree_two_vertex": "s:0",
+        "minimum_edges": 7,
+        "reason": "excess one forces s:0 and excludes s:2; descending weights force only third terminals",
+        "required_differences": [
+          12,
+          18
+        ],
+        "required_edges": 7,
+        "selected_vertices": 6
+      },
+      {
+        "c": 14,
+        "descending_weights": [
+          18,
+          17,
+          16,
+          15,
+          14
+        ],
+        "hypothetical_degree_one_count": 4,
+        "hypothetical_degree_two_vertex": "s:0",
+        "minimum_edges": 5,
+        "reason": "excess one forces s:0 and excludes s:2; descending weights force only third terminals",
+        "required_differences": [
+          13,
+          18
+        ],
+        "required_edges": 6,
+        "selected_vertices": 5
+      },
+      {
+        "c": 15,
+        "descending_weights": [
+          18,
+          17,
+          16,
+          15
+        ],
+        "hypothetical_degree_one_count": 3,
+        "hypothetical_degree_two_vertex": "s:0",
+        "minimum_edges": 4,
+        "reason": "excess one forces s:0 and excludes s:2; descending weights force only third terminals",
+        "required_differences": [
+          14,
+          18
+        ],
+        "required_edges": 5,
+        "selected_vertices": 4
+      },
+      {
+        "c": 16,
+        "descending_weights": [
+          18,
+          17,
+          16
+        ],
+        "hypothetical_degree_one_count": 2,
+        "hypothetical_degree_two_vertex": "s:0",
+        "minimum_edges": 3,
+        "reason": "excess one forces s:0 and excludes s:2; descending weights force only third terminals",
+        "required_differences": [
+          15,
+          18
+        ],
+        "required_edges": 4,
+        "selected_vertices": 3
+      },
+      {
+        "c": 17,
+        "descending_weights": [
+          18,
+          17
+        ],
+        "hypothetical_degree_one_count": 1,
+        "hypothetical_degree_two_vertex": "s:0",
+        "minimum_edges": 2,
+        "reason": "excess one forces s:0 and excludes s:2; descending weights force only third terminals",
+        "required_differences": [
+          16,
+          18
+        ],
+        "required_edges": 3,
+        "selected_vertices": 2
+      },
+      {
+        "c": 18,
+        "descending_weights": [
+          18
+        ],
+        "hypothetical_degree_one_count": 0,
+        "hypothetical_degree_two_vertex": "s:0",
+        "minimum_edges": 1,
+        "reason": "excess one forces s:0 and excludes s:2; descending weights force only third terminals",
+        "required_differences": [
+          17,
+          18
+        ],
+        "required_edges": 2,
+        "selected_vertices": 1
+      }
+    ],
+    "zero_neighbors": [
+      "l:2:0:0",
+      "l:2:0:1",
+      "l:2:0:2",
+      "l:2:0:3",
+      "s:2"
+    ]
+  },
+  "parent": "86d3d1cf7ab140b23a9aace81c654b43b26b65af",
+  "positive_1122": {
+    "edge_ledger": [
+      {
+        "difference": 8,
+        "edge": [
+          "s:0",
+          "s:1"
+        ]
+      },
+      {
+        "difference": 11,
+        "edge": [
+          "s:1",
+          "s:2"
+        ]
+      },
+      {
+        "difference": 7,
+        "edge": [
+          "s:2",
+          "s:3"
+        ]
+      },
+      {
+        "difference": 3,
+        "edge": [
+          "s:3",
+          "s:4"
+        ]
+      },
+      {
+        "difference": 5,
+        "edge": [
+          "s:0",
+          "b:0:0"
+        ]
+      },
+      {
+        "difference": 6,
+        "edge": [
+          "b:0:0",
+          "l:0:0:0"
+        ]
+      },
+      {
+        "difference": 10,
+        "edge": [
+          "s:1",
+          "b:1:0"
+        ]
+      },
+      {
+        "difference": 9,
+        "edge": [
+          "b:1:0",
+          "l:1:0:0"
+        ]
+      },
+      {
+        "difference": 12,
+        "edge": [
+          "s:2",
+          "b:2:0"
+        ]
+      },
+      {
+        "difference": 13,
+        "edge": [
+          "b:2:0",
+          "l:2:0:0"
+        ]
+      },
+      {
+        "difference": 14,
+        "edge": [
+          "b:2:0",
+          "l:2:0:1"
+        ]
+      },
+      {
+        "difference": 2,
+        "edge": [
+          "s:3",
+          "b:3:0"
+        ]
+      },
+      {
+        "difference": 4,
+        "edge": [
+          "b:3:0",
+          "l:3:0:0"
+        ]
+      },
+      {
+        "difference": 1,
+        "edge": [
+          "b:3:0",
+          "l:3:0:1"
+        ]
+      }
+    ],
+    "graph_digest": "a8fc14f45ba08e88fb3c53ce0611b2886c5cc0250dcc0985070e92de804595dc",
+    "inventories": {
+      "unused_differences": [],
+      "unused_labels": [],
+      "used_differences": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "used_labels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    "labels": {
+      "b:0:0": 4,
+      "b:1:0": 11,
+      "b:2:0": 0,
+      "b:3:0": 7,
+      "l:0:0:0": 10,
+      "l:1:0:0": 2,
+      "l:2:0:0": 13,
+      "l:2:0:1": 14,
+      "l:3:0:0": 3,
+      "l:3:0:1": 6,
+      "s:0": 9,
+      "s:1": 1,
+      "s:2": 12,
+      "s:3": 5,
+      "s:4": 8
+    },
+    "predicate": {
+      "c": 9,
+      "selected": [
+        "b:1:0",
+        "l:0:0:0",
+        "l:2:0:0",
+        "l:2:0:1",
+        "s:0",
+        "s:2"
+      ],
+      "selected_differences": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "unselected_differences": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  "retained_sha256_raw": {
+    "evidence/validation/B4_1342_UPPER_BLOCK_OBSTRUCTION_001/validation/originals/1342.json": "d23ebdbd4e70ea0d413cb87f09a165737c21b7d095dcb49669d882c6b0496113",
+    "evidence/validation/B4_THIRD_ZERO_HOST_NONADJACENT_001/original_graph.json": "16da85d76bcac473e093c6979f62881e1e63c08b519a0b30ba0ca653b8527f91",
+    "evidence/validation/B4_THIRD_ZERO_HOST_NONADJACENT_001/query_record.json": "4b9019e5c7cd6ef68ba5ebd07b45b1b15e0ded61398b5a7d2e8d7a7b684ea744",
+    "evidence/validation/B4_UNPADDED_Q1T2_001/validation/retained_seed.json": "bf2b865a61eb0b6f155ccd28c20ad8bdb7e738a50edb9650737c9ee4613a15d8"
+  },
+  "runtime": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "utf8_mode": 1,
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "status": "PASS"
+}

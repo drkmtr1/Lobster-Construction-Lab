@@ -1,0 +1,5 @@
+{
+  "shell": "PowerShell",
+  "cwd": "LCL repository root",
+  "command": "& .venv/Scripts/python.exe -X utf8 evidence/validation/B4_1342_U9_A1_CLOSEOUT_001/audit.py\nexit $LASTEXITCODE"
+}
