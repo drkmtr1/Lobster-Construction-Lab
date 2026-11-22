@@ -2,7 +2,7 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 22, 2026, Pacific/Honolulu<br>
-**Stage:** B4-JOINT-MAX-ROOTED-CORE-PILOT-001 reviewed. The joint (2,2) core query is INCOMPLETE. Both retained crossing-cut transfers are rejected under their exact fixed ledgers.
+**Stage:** B4-JOINT-22-DIRECT-LEDGER-001 reviewed. A direct ledger supplies the maximum-rooted joint (2,2) core and the all-positive-t lift at K=1. The earlier DFS remains INCOMPLETE.
 
 ## Current scientific objective
 
@@ -10,11 +10,12 @@ Develop independently supplied original-graph boundaries beyond the proved zero-
 
 ## One next action
 
-**With a new bounded scope decision, investigate a direct named construction for `[[2],[2],[],[2],[],[]]` with physical `s:2=14`.** Use the two possible zero-neighbor cases `s:1=0` and `s:3=0` as structural cases.
+**With a new bounded scope decision, assess branch-growth compatibility starting from the verified named `[[2],[2],[],[2],[],[]]` ledger.** Check full ordinary crossing-cut premises at the actual first and second centers.
 
 ## What is established in this package
 
 - Both authenticated upstream main heads match the pinned audit commits. The repositories remain unchanged.
+- B4-JOINT-22-DIRECT-LEDGER-001 supplies an ordinary graceful ledger on `[[2],[2],[],[2],[],[]]` with s:2=14 and s:3=0. The displayed Case A ledger repeats 2 and omits 6. The accepted Case B lift covers all exact integers t>=1 for fixed q=r=2,K=1, with R={6}, D={2}, s:4=8. Four graph records, two candidates, and one adverse checker rejection passed independent audit with zero queries or enumeration. See `research/B4_JOINT_22_DIRECT_LEDGER.md`, D058 and `evidence/validation/B4_JOINT_22_DIRECT_LEDGER_001/`.
 - B4-JOINT-MAX-ROOTED-CORE-PILOT-001 independently checks both retained 14-vertex maximum-rooted cores and rejects the exact one-cut transfer at each other host. One original-bound DFS with sole pin s:2=14 stopped INCOMPLETE at 100,000 nodes on `[[2],[2],[],[2],[],[]]`. The three graph records passed audit. Joint feasibility remains open and no t=2 lift was instantiated. See `research/B4_JOINT_MAX_ROOTED_CORE_PILOT.md`, D057 and `evidence/validation/B4_JOINT_MAX_ROOTED_CORE_PILOT_001/`.
 - B4-1342-U9-A1-ANALYTIC-CLOSEOUT-001 rejects the label-one upper-block predicate at physical s:4=9 on exact named 1342, c=10..18, with b:2:0=0 and the fixed alpha orientation. Complete spectrum necessity rejects every positive batch. The combined results close this interface at s:4=9 and s:4=10 for a=1..8, with analytic evidence at 9 and analytic plus reviewed computational evidence at 10. Nine thresholds and two retained originals passed independent audit. See `research/B4_1342_U9_A1_ANALYTIC_CLOSEOUT.md`, D056 and `evidence/validation/B4_1342_U9_A1_CLOSEOUT_001/`.
 - B4-1342-U9-STRUCTURAL-OBSTRUCTION-001 proves the full selected spectrum [c-a,18] impossible on the exact named 1342 alpha domain with b:2:0=0, physical s:4=9, a=2..8 and c=10..18. Forced degrees and labels reduce 63 pairs to six named cases, each contradicted on original incidences. The selected spectrum is necessary for every positive batch of the prescribed operation. Two retained controls and 15 invalid probes passed independent audit with zero solver calls or new graphs. See `research/B4_1342_U9_STRUCTURAL_OBSTRUCTION.md`, D055 and `evidence/validation/B4_1342_U9_STRUCTURAL_OBSTRUCTION_001/`.

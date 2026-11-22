@@ -1,0 +1,200 @@
+{
+  "case": "A",
+  "checker": {
+    "claim": "finite certificate for this exact named target only",
+    "edge_differences": [
+      7,
+      14,
+      13,
+      12,
+      11,
+      3,
+      1,
+      5,
+      10,
+      4,
+      2,
+      2,
+      9,
+      8
+    ],
+    "errors": [
+      "edge differences repeat",
+      "edge differences are not exactly 1..m"
+    ],
+    "graph_digest": "0de66c6b0db0331b1798bbb1b5e6f563ee10b8cd614635445ce73efbd7f57a03",
+    "m": 14,
+    "n": 15,
+    "valid": false
+  },
+  "choices": "Use 13 on the other root edge, 12 at s:3--s:4 and 11 at s:4--s:5. Allocate the right branch weights 2,9,8; then choose left centers 4 and 10 and their named terminals.",
+  "first_repeated_edge": {
+    "difference": 2,
+    "edge": [
+      "s:3",
+      "b:3:0"
+    ]
+  },
+  "graph_digest": "0de66c6b0db0331b1798bbb1b5e6f563ee10b8cd614635445ce73efbd7f57a03",
+  "inventories": {
+    "repeated_differences": {
+      "2": 2
+    },
+    "unused_differences": [
+      6
+    ],
+    "unused_labels": [],
+    "used_differences": [
+      1,
+      2,
+      2,
+      3,
+      4,
+      5,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "used_labels": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  "labels": {
+    "b:0:0": 4,
+    "b:1:0": 10,
+    "b:3:0": 3,
+    "l:0:0:0": 5,
+    "l:0:0:1": 9,
+    "l:1:0:0": 6,
+    "l:1:0:1": 8,
+    "l:3:0:0": 12,
+    "l:3:0:1": 11,
+    "s:0": 7,
+    "s:1": 0,
+    "s:2": 14,
+    "s:3": 1,
+    "s:4": 13,
+    "s:5": 2
+  },
+  "ledger": [
+    {
+      "difference": 7,
+      "edge": [
+        "s:0",
+        "s:1"
+      ]
+    },
+    {
+      "difference": 14,
+      "edge": [
+        "s:1",
+        "s:2"
+      ]
+    },
+    {
+      "difference": 13,
+      "edge": [
+        "s:2",
+        "s:3"
+      ]
+    },
+    {
+      "difference": 12,
+      "edge": [
+        "s:3",
+        "s:4"
+      ]
+    },
+    {
+      "difference": 11,
+      "edge": [
+        "s:4",
+        "s:5"
+      ]
+    },
+    {
+      "difference": 3,
+      "edge": [
+        "s:0",
+        "b:0:0"
+      ]
+    },
+    {
+      "difference": 1,
+      "edge": [
+        "b:0:0",
+        "l:0:0:0"
+      ]
+    },
+    {
+      "difference": 5,
+      "edge": [
+        "b:0:0",
+        "l:0:0:1"
+      ]
+    },
+    {
+      "difference": 10,
+      "edge": [
+        "s:1",
+        "b:1:0"
+      ]
+    },
+    {
+      "difference": 4,
+      "edge": [
+        "b:1:0",
+        "l:1:0:0"
+      ]
+    },
+    {
+      "difference": 2,
+      "edge": [
+        "b:1:0",
+        "l:1:0:1"
+      ]
+    },
+    {
+      "difference": 2,
+      "edge": [
+        "s:3",
+        "b:3:0"
+      ]
+    },
+    {
+      "difference": 9,
+      "edge": [
+        "b:3:0",
+        "l:3:0:0"
+      ]
+    },
+    {
+      "difference": 8,
+      "edge": [
+        "b:3:0",
+        "l:3:0:1"
+      ]
+    }
+  ],
+  "physical_s2": 14,
+  "zero": "s:1"
+}

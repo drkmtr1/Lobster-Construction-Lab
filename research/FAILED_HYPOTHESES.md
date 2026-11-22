@@ -301,3 +301,13 @@ endpoint arithmetic comparisons fail on each ledger. The
 single separate joint maximum-rooted search is INCOMPLETE,
 with no feasibility verdict.
 [Proof and bounded outcome](B4_JOINT_MAX_ROOTED_CORE_PILOT.md)
+
+### F-B4-JOINT-22-DIRECT-LEDGER-A
+
+The displayed Case A choices on named `[[2],[2],[],[2],[],[]]`
+with s:1=0 and physical s:2=14 give two copies of difference 2
+and omit 6. The latter is already impossible in its remaining
+terminal assignment because labels 4 and 10 are occupied by the
+first and second centers. This rejects the stated arrangement.
+The direct Case B ledger supplies the exact rooted core.
+[Candidate construction and ledger](B4_JOINT_22_DIRECT_LEDGER.md)

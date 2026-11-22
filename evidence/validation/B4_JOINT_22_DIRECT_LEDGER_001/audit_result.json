@@ -1,0 +1,26 @@
+{
+  "adverse_checks": 1,
+  "audited_sha256": {
+    "adverse.json": "f4c5c54d97dd8c3c9cb88326101a37d39d737f654f6b718b90d2d2888baa4a4c",
+    "candidate_A.json": "066b7bdcbd2680d12d0cbf55da0d41ed2a2b4cefa79272163f052075c5a8a525",
+    "candidate_B.json": "1fa92a64e4ebfe92ef58fe1bec6c34c461e61d5a67eb08c6ed2788f77d53f032",
+    "controls.json": "06fe18542ca35caa27a01965f5669509fc60bfdf9a70c508fd0712878f54af5d",
+    "core_original.json": "a11c0daeeb58457ec1824f6507c958c2809ffc01fd06d059f1db69807fe2b764",
+    "identity.json": "4e31a58c7b1069bef6e90bb354a0258da25b188c45d2200980f43265b3df877a",
+    "lift.json": "2910247885df435ab43126e524408453e38a7a651d915eb9f1acb6fca42a65bb",
+    "lift_original.json": "032d6ea17f4054312799914346a601db0f14fc34d5933799ba65bbc5298e20b8",
+    "source/lcl/__init__.py": "134055506d3e9cd4fa538177844d28a44d5ab567ec220cf54048e63d1a8a7374",
+    "source/lcl/model.py": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6",
+    "source/lcl/verify.py": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909",
+    "source/pyproject.toml": "738f14eba3125ce7f444628adaddaf2e3e30e5aa7f43f10e7035067f6b7072e5",
+    "source/requirements.txt": "60f6e1bd76adf6ed25cf381ca95f67e8a27a0de1e62fb673a7cf5af4b86249ea",
+    "summary.json": "2fddaf495a8a7aa66c4e911669c9ea30d70220726f239d61fac208bf4524f1b9"
+  },
+  "candidates": 2,
+  "graphs": 4,
+  "invalid_t_checks": 4,
+  "labeling_enumeration_nodes": 0,
+  "shared_cpu_seconds": 0.1875,
+  "solver_queries": 0,
+  "status": "PASS"
+}

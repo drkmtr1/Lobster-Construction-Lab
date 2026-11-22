@@ -584,10 +584,10 @@ The proposed named core `[[q],[r],[],[2],[],[]]` for q,r>=2
 requires an independent graceful labeling with the maximum
 at original physical s:2. The [joint pilot](B4_JOINT_MAX_ROOTED_CORE_PILOT.md)
 rejects transfer from both retained fixed ledgers and records
-the sole q=r=2 query as INCOMPLETE. Direct named supply with
-maximum 14 at s:2 is the selected open obligation, with zero
-at s:1 or s:3 as its two structural cases. Conditional on
-supply, translating by one
-and restoring the third zero host and its terminals fills
-both enlarged inventories on the K=1 target. Joint supply
-and K>=2 continuation remain open.
+the sole q=r=2 query as INCOMPLETE. The
+[direct-ledger proof](B4_JOINT_22_DIRECT_LEDGER.md) supplies
+the fixed q=r=2 core with maximum 14 at physical s:2 and zero
+at s:3. Its lift supplies the K=1 target for every positive
+integer t. Compatibility of branch growth from this seed is
+the selected open obligation. General joint supply and K>=2
+continuation remain separate.

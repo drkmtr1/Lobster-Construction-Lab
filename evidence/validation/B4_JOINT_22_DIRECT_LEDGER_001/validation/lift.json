@@ -1,0 +1,269 @@
+{
+  "checker": {
+    "claim": "finite certificate for this exact named target only",
+    "edge_differences": [
+      12,
+      13,
+      14,
+      7,
+      2,
+      11,
+      10,
+      9,
+      8,
+      5,
+      1,
+      15,
+      16,
+      17,
+      6,
+      3,
+      4
+    ],
+    "errors": [],
+    "graph_digest": "1e9734225ebec5d92882fa276792b21af7abd8142652472fc9daf772b5431495",
+    "m": 17,
+    "n": 18,
+    "valid": true
+  },
+  "graph_digest": "1e9734225ebec5d92882fa276792b21af7abd8142652472fc9daf772b5431495",
+  "invalid_t_inputs": [
+    {
+      "input": true,
+      "rejected": true,
+      "type": "bool"
+    },
+    {
+      "input": 0,
+      "rejected": true,
+      "type": "int"
+    },
+    {
+      "input": 2.0,
+      "rejected": true,
+      "type": "float"
+    },
+    {
+      "input": "2",
+      "rejected": true,
+      "type": "str"
+    }
+  ],
+  "labels": {
+    "b:0:0": 3,
+    "b:1:0": 10,
+    "b:2:0": 0,
+    "b:3:0": 7,
+    "l:0:0:0": 13,
+    "l:0:0:1": 12,
+    "l:1:0:0": 5,
+    "l:1:0:1": 9,
+    "l:2:0:0": 16,
+    "l:2:0:1": 17,
+    "l:3:0:0": 4,
+    "l:3:0:1": 11,
+    "s:0": 14,
+    "s:1": 2,
+    "s:2": 15,
+    "s:3": 1,
+    "s:4": 8,
+    "s:5": 6
+  },
+  "ledger": [
+    {
+      "difference": 12,
+      "edge": [
+        "s:0",
+        "s:1"
+      ]
+    },
+    {
+      "difference": 13,
+      "edge": [
+        "s:1",
+        "s:2"
+      ]
+    },
+    {
+      "difference": 14,
+      "edge": [
+        "s:2",
+        "s:3"
+      ]
+    },
+    {
+      "difference": 7,
+      "edge": [
+        "s:3",
+        "s:4"
+      ]
+    },
+    {
+      "difference": 2,
+      "edge": [
+        "s:4",
+        "s:5"
+      ]
+    },
+    {
+      "difference": 11,
+      "edge": [
+        "s:0",
+        "b:0:0"
+      ]
+    },
+    {
+      "difference": 10,
+      "edge": [
+        "b:0:0",
+        "l:0:0:0"
+      ]
+    },
+    {
+      "difference": 9,
+      "edge": [
+        "b:0:0",
+        "l:0:0:1"
+      ]
+    },
+    {
+      "difference": 8,
+      "edge": [
+        "s:1",
+        "b:1:0"
+      ]
+    },
+    {
+      "difference": 5,
+      "edge": [
+        "b:1:0",
+        "l:1:0:0"
+      ]
+    },
+    {
+      "difference": 1,
+      "edge": [
+        "b:1:0",
+        "l:1:0:1"
+      ]
+    },
+    {
+      "difference": 15,
+      "edge": [
+        "s:2",
+        "b:2:0"
+      ]
+    },
+    {
+      "difference": 16,
+      "edge": [
+        "b:2:0",
+        "l:2:0:0"
+      ]
+    },
+    {
+      "difference": 17,
+      "edge": [
+        "b:2:0",
+        "l:2:0:1"
+      ]
+    },
+    {
+      "difference": 6,
+      "edge": [
+        "s:3",
+        "b:3:0"
+      ]
+    },
+    {
+      "difference": 3,
+      "edge": [
+        "b:3:0",
+        "l:3:0:0"
+      ]
+    },
+    {
+      "difference": 4,
+      "edge": [
+        "b:3:0",
+        "l:3:0:1"
+      ]
+    }
+  ],
+  "pending_edges": [
+    [
+      "s:4",
+      "s:5"
+    ]
+  ],
+  "port": {
+    "label": 8,
+    "vertex": "s:4"
+  },
+  "prefix": {
+    "b:0:0": 3,
+    "b:1:0": 10,
+    "b:2:0": 0,
+    "b:3:0": 7,
+    "l:0:0:0": 13,
+    "l:0:0:1": 12,
+    "l:1:0:0": 5,
+    "l:1:0:1": 9,
+    "l:2:0:0": 16,
+    "l:2:0:1": 17,
+    "l:3:0:0": 4,
+    "l:3:0:1": 11,
+    "s:0": 14,
+    "s:1": 2,
+    "s:2": 15,
+    "s:3": 1,
+    "s:4": 8
+  },
+  "prefix_inventories": {
+    "repeated_differences": {},
+    "unused_differences": [
+      2
+    ],
+    "unused_labels": [
+      6
+    ],
+    "used_differences": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "used_labels": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  "t": 2
+}

@@ -861,3 +861,26 @@ The independent arithmetic audit checked three graph records
 and added no query. No repeat or historical replay occurred.
 [Proof](B4_JOINT_MAX_ROOTED_CORE_PILOT.md)
 · [Evidence](../evidence/validation/B4_JOINT_MAX_ROOTED_CORE_PILOT_001/README.md) · D057
+
+## B4-JOINT-22-DIRECT-LEDGER-001
+
+**ACCEPT** the direct Case B ledger on the exact named
+`[[2],[2],[],[2],[],[]]` core. It has physical s:2=14,
+s:3=0, label bijection [0,14] and actual-edge spectrum [1,14].
+**REJECT** the displayed Case A candidate, which repeats 2
+and omits 6. Other Case A labelings remain open.
+
+**ACCEPT** the ordinary all-positive-t lift for fixed
+q=r=2,K=1. Translating by one and restoring the third
+zero center separates the old [1,14], attachment 15,
+and terminal weights [16,t+15]. The original prefix
+uses physical s:4=8 with R={6}, D={2}, completed by
+s:5=6. Arbitrary q,r supply and K>=2 remain separate.
+
+Two retained cores, one joint core and one completed t=2
+original passed the independent audit, including the two
+candidate ledgers and an adverse digest rejection.
+Zero solver queries or labeling enumeration nodes.
+The previous DFS remains historically INCOMPLETE.
+[Proof](B4_JOINT_22_DIRECT_LEDGER.md)
+· [Evidence](../evidence/validation/B4_JOINT_22_DIRECT_LEDGER_001/README.md) · D058

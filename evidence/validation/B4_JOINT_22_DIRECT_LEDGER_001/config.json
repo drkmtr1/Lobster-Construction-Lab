@@ -1,0 +1,105 @@
+{
+  "id": "B4-JOINT-22-DIRECT-LEDGER-001-20261122",
+  "parent": "e3138ed2804883396fb548f824316155fc859974",
+  "limits": {
+    "workers": 1,
+    "solver_queries": 0,
+    "labeling_enumeration_nodes": 0,
+    "candidates_max": 4,
+    "per_case_max": 2,
+    "max_order": 18,
+    "max_bytes": 2000000,
+    "cpu_seconds": 30,
+    "max_graph_records": 4,
+    "automatic_retries": 0
+  },
+  "controls": [
+    {
+      "id": "q2",
+      "profile": [
+        [
+          2
+        ],
+        [
+          1
+        ],
+        [],
+        [
+          2
+        ],
+        [],
+        []
+      ],
+      "original": "evidence/validation/B4_Q1T2_K1_ROOTED_CORE_001/validation/originals/core-q2.json",
+      "certificate": "evidence/validation/B4_Q1T2_K1_ROOTED_CORE_001/validation/core-q2.json"
+    },
+    {
+      "id": "r2",
+      "profile": [
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [],
+        [
+          2
+        ],
+        [],
+        []
+      ],
+      "original": "evidence/validation/B4_12T2_K1_ROOTED_CORE_001/validation/originals/core.json",
+      "certificate": "evidence/validation/B4_12T2_K1_ROOTED_CORE_001/validation/core.json"
+    }
+  ],
+  "pilot_original": "evidence/validation/B4_JOINT_MAX_ROOTED_CORE_PILOT_001/validation/core_original.json",
+  "historical_incomplete": "evidence/validation/B4_JOINT_MAX_ROOTED_CORE_PILOT_001/validation/raw_query.json",
+  "candidates": [
+    {
+      "case": "A",
+      "zero": "s:1",
+      "choices": "Use 13 on the other root edge, 12 at s:3--s:4 and 11 at s:4--s:5. Allocate the right branch weights 2,9,8; then choose left centers 4 and 10 and their named terminals.",
+      "labels": {
+        "s:0": 7,
+        "s:1": 0,
+        "s:2": 14,
+        "s:3": 1,
+        "s:4": 13,
+        "s:5": 2,
+        "b:0:0": 4,
+        "l:0:0:0": 5,
+        "l:0:0:1": 9,
+        "b:1:0": 10,
+        "l:1:0:0": 6,
+        "l:1:0:1": 8,
+        "b:3:0": 3,
+        "l:3:0:0": 12,
+        "l:3:0:1": 11
+      }
+    },
+    {
+      "case": "B",
+      "zero": "s:3",
+      "choices": "Use 13 on the other root edge and 12 at s:1--s:0. First branch consumes 11,10,9; allocate attachments 8,6,7 and finish by the five remaining named edge weights.",
+      "labels": {
+        "s:0": 13,
+        "s:1": 1,
+        "s:2": 14,
+        "s:3": 0,
+        "s:4": 7,
+        "s:5": 5,
+        "b:0:0": 2,
+        "l:0:0:0": 12,
+        "l:0:0:1": 11,
+        "b:1:0": 9,
+        "l:1:0:0": 4,
+        "l:1:0:1": 8,
+        "b:3:0": 6,
+        "l:3:0:0": 3,
+        "l:3:0:1": 10
+      }
+    }
+  ],
+  "lift_t": 2
+}
