@@ -1,6 +1,6 @@
 # Decisions and algorithm-change log
 
-This file owns consequential choices and change proposals. `STATE.md` owns current work; findings and failures own scientific dispositions. Dates below are November 20, 2026, Pacific/Honolulu, except D016 through D041 (November 21, 2026).
+This file owns consequential choices and change proposals. `STATE.md` owns current work; findings and failures own scientific dispositions. Dates below are November 20, 2026, Pacific/Honolulu, except D016 through D042 (November 21, 2026).
 
 | ID | Decision | Reason and review consequence |
 |---|---|---|
@@ -46,6 +46,7 @@ This file owns consequential choices and change proposals. `STATE.md` owns curre
 | D039 | Accept `B4-THIRD-ZERO-HOST-NONADJACENT-001` at `533f87793bb0dec19936bf888639e91f0e2cdf31` | **ACCEPT** the single first-witness 1122 SAT seed with b:2:0=0 and s:4=8, state A(15,7;4,1), and the fixed-ledger ordinary-gracefulness construction for exact (1,1,t,2), t>=2,K>=2. Both AI reviews accepted. One retained control, one query, one verified seed, four direct completed targets, and audits adding zero. Exact count remains unknown. Preserve the K=1 interface restriction and K=2 alpha-threshold counterexample. No public route. |
 | D040 | Close `B4-THIRD-ZERO-HOST-K1-001` at `70664759ca1c3a6e5a6049aaff179e2a7e2990ec` | **ACCEPT** one derived complete control and the conditional ordinary extension and singleton transport. **INCOMPLETE** the sole first-witness DFS at only b:2:0=0, max_nodes after 100,000 nodes, no witness or exact count. Audit and separate read-only AI reviews added zero cases or queries. One complete certificate on one profile, zero query seeds and zero growth checks. No combined theorem or public route. |
 | D041 | Accept `B4-THIRD-ZERO-HOST-K1-DIRECT-001` at `4aa22d42c1b7c609bfa8d0b691ba16c951383fe6` | **ACCEPT** the reversible terminal-maximum core lift, direct K=1 construction for all t>=1 and exhaustive all-positive-t,K ordinary-gracefulness selector for exact (1,1,t,2). Both separate read-only AI reviews accepted. One auxiliary core, four completed K=1 cases including t=2 once, zero additional cases from audit, review or batch, zero solver queries. D040 remains INCOMPLETE. Preserve the raw proof bytes using an exact Git attribute. |
+| D042 | Accept `B4-UNPADDED-Q1T2-001` at `3da61c39d3444c6286b34033d6ae9fd58b20c547` | **ACCEPT** the conditional general low-host upper-block rule, named agreement with zero-host growth, and exact ordinary-gracefulness construction for q>=1,t>=2,K>=2 on ordered (q,1,t,2). Six new completed targets passed, plus one retained seed recheck and one retained completed control. Twelve exact-domain probes rejected. Both read-only AI reviews and the independent audit accepted, with zero added targets and solver queries. Preserve historical INCOMPLETE receipts and raw proof bytes. No production change. |
 
 ## Proposal template for the next consequential algorithm change
 

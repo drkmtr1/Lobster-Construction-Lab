@@ -1,0 +1,24 @@
+{
+  "cwd": "repository root",
+  "environment": {
+    "PYTHONUTF8": "1"
+  },
+  "commands": [
+    {
+      "command": ".venv/Scripts/python.exe evidence/validation/B4_UNPADDED_Q1T2_001/validate.py",
+      "exit_code": 0,
+      "output": "{\"status\": \"PASS\", \"new_completed_targets\": 6, \"retained_seed_rechecks\": 1, \"retained_completed_controls\": 1, \"domain_rejections\": 12, \"new_solver_queries\": 0, \"vertices\": [18, 20, 21, 23, 23, 26]}\r\n"
+    },
+    {
+      "command": ".venv/Scripts/python.exe evidence/validation/B4_UNPADDED_Q1T2_001/audit.py",
+      "exit_code": 0,
+      "output": "PASS: same 6 completed targets, retained seed and control, comparisons and 12 rejections; 0 added targets or queries\r\n"
+    }
+  ],
+  "new_completed_targets": 6,
+  "retained_seed_rechecks": 1,
+  "retained_completed_controls": 1,
+  "exact_domain_rejections": 12,
+  "additional_targets_from_comparisons_or_audit": 0,
+  "new_solver_queries": 0
+}

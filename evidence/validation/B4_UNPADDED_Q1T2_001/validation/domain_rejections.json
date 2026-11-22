@@ -1,0 +1,126 @@
+{
+  "completed_targets": 0,
+  "new_solver_queries": 0,
+  "rejections": [
+    {
+      "arguments": [
+        true,
+        2,
+        2
+      ],
+      "invalid_index": 0,
+      "reason": "q,t,K must be exact integers with q>=1, t>=2, K>=2",
+      "type": "bool"
+    },
+    {
+      "arguments": [
+        2.0,
+        2,
+        2
+      ],
+      "invalid_index": 0,
+      "reason": "q,t,K must be exact integers with q>=1, t>=2, K>=2",
+      "type": "float"
+    },
+    {
+      "arguments": [
+        "2",
+        2,
+        2
+      ],
+      "invalid_index": 0,
+      "reason": "q,t,K must be exact integers with q>=1, t>=2, K>=2",
+      "type": "str"
+    },
+    {
+      "arguments": [
+        0,
+        2,
+        2
+      ],
+      "invalid_index": 0,
+      "reason": "q,t,K must be exact integers with q>=1, t>=2, K>=2",
+      "type": "int"
+    },
+    {
+      "arguments": [
+        2,
+        true,
+        2
+      ],
+      "invalid_index": 1,
+      "reason": "q,t,K must be exact integers with q>=1, t>=2, K>=2",
+      "type": "bool"
+    },
+    {
+      "arguments": [
+        2,
+        2.0,
+        2
+      ],
+      "invalid_index": 1,
+      "reason": "q,t,K must be exact integers with q>=1, t>=2, K>=2",
+      "type": "float"
+    },
+    {
+      "arguments": [
+        2,
+        "2",
+        2
+      ],
+      "invalid_index": 1,
+      "reason": "q,t,K must be exact integers with q>=1, t>=2, K>=2",
+      "type": "str"
+    },
+    {
+      "arguments": [
+        2,
+        1,
+        2
+      ],
+      "invalid_index": 1,
+      "reason": "q,t,K must be exact integers with q>=1, t>=2, K>=2",
+      "type": "int"
+    },
+    {
+      "arguments": [
+        2,
+        2,
+        true
+      ],
+      "invalid_index": 2,
+      "reason": "q,t,K must be exact integers with q>=1, t>=2, K>=2",
+      "type": "bool"
+    },
+    {
+      "arguments": [
+        2,
+        2,
+        2.0
+      ],
+      "invalid_index": 2,
+      "reason": "q,t,K must be exact integers with q>=1, t>=2, K>=2",
+      "type": "float"
+    },
+    {
+      "arguments": [
+        2,
+        2,
+        "2"
+      ],
+      "invalid_index": 2,
+      "reason": "q,t,K must be exact integers with q>=1, t>=2, K>=2",
+      "type": "str"
+    },
+    {
+      "arguments": [
+        2,
+        2,
+        1
+      ],
+      "invalid_index": 2,
+      "reason": "q,t,K must be exact integers with q>=1, t>=2, K>=2",
+      "type": "int"
+    }
+  ]
+}

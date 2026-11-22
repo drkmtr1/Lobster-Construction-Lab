@@ -3,3 +3,6 @@ evidence/runs/** -text
 examples/nonadjacent_seed_p5_001_pins.json -text
 # The direct K1 audit binds the proof's raw bytes.
 research/B4_THIRD_ZERO_HOST_K1_DIRECT.md -text
+# The Q1T2 audit binds both proof files by raw bytes.
+research/ALPHA_UPPER_BLOCK_GENERAL_HOST.md -text
+research/B4_UNPADDED_Q1T2.md -text

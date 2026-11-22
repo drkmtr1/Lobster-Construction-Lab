@@ -401,3 +401,34 @@ The historical original-bound DFS stays INCOMPLETE at the
 node cap. This result is independent direct evidence.
 [Proof and selector](B4_THIRD_ZERO_HOST_K1_DIRECT.md)
 · [Evidence](../evidence/validation/B4_THIRD_ZERO_HOST_K1_DIRECT_001/README.md) · D041
+
+## B4-UNPADDED-Q1T2-001
+
+**ACCEPT** conditional general low-host upper-block insertion
+with the full incident difference multiset [c-a,n-1].
+It preserves the actual ports, witness and low size, and
+returns threshold c+h and the corresponding full predicate.
+Repeated batches in the same name order agree pointwise.
+
+**ACCEPT** pointwise compatibility with growth at a distinct
+supplied zero host. In the zero-first order the new zero
+leaves join the selected set before the upper shift. In the
+upper-first order they enter above the returned threshold.
+The final named graphs, labels and incident spectrum agree.
+
+**ACCEPT** ordinary gracefulness of the exact original
+`[[q],[1],[t],[2]]+[[]]*(K+1)` for exact integers q>=1,t>=2,K>=2.
+The normalized state is A(q+t+12,7;4,1), with threshold q+8
+and selected spectrum [q+4,q+t+11]. Its high shift supplies
+R=[7,K+6], D=[1,K] at physical s:4=K+8. The actual path
+uses the retained recurrence. The K=1 interface restriction
+and K=2 alpha-threshold counterexample continue to apply.
+
+Six new completed targets passed. One retained seed recheck,
+one retained completed q=1 control and 12 domain rejections
+are separate. The same-target comparisons, independent audit,
+and two separate read-only AI reviews added zero targets or
+solver queries. The historical K1 receipts remain INCOMPLETE.
+[Insertion proof](ALPHA_UPPER_BLOCK_GENERAL_HOST.md)
+· [Family proof](B4_UNPADDED_Q1T2.md)
+· [Evidence](../evidence/validation/B4_UNPADDED_Q1T2_001/README.md) · D042

@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools==80.9.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lobster-construction-lab"
+version = "0.1.0"
+description = "Exact retained constructions and bounded research tools for graceful lobster trees"
+requires-python = ">=3.12,<3.14"
+dependencies = []
+
+[project.optional-dependencies]
+graph = ["networkx==3.7"]
+symbolic = ["sympy==1.14.0", "mpmath==1.3.0"]
+smt = ["z3-solver==5.4.1.0"]
+
+[tool.setuptools]
+packages = ["lcl"]

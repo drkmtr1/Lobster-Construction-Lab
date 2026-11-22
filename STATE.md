@@ -2,7 +2,7 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 21, 2026, Pacific/Honolulu  
-**Stage:** B4-THIRD-ZERO-HOST-K1-DIRECT-001 accepted after separate AI reviews. The explicit K=1 singleton completes ordinary-gracefulness coverage of the exact (1,1,t,2) family for all positive integers t,K.
+**Stage:** B4-UNPADDED-Q1T2-001 accepted after separate AI reviews. The conditional general-host upper insertion and its named agreement with zero-host growth give the exact ordinary-graceful (q,1,t,2) family for integer q>=1,t>=2,K>=2.
 
 ## Current scientific objective
 
@@ -10,11 +10,12 @@ Develop independently supplied original-graph boundaries beyond the proved zero-
 
 ## One next action
 
-**With a new bounded scope decision, analyze first-branch insertion into the retained 1122 nonadjacent seed**, preserving the third zero host and physical `s:4` offset for `[[q],[1],[t],[2]]+[[]]*(K+1)` at `t,K>=2`.
+**With a new bounded scope decision, seek an explicit `K=1` singleton supplier for `[[q],[1],[t],[2],[],[]]` with `q,t>=2`**, preserving the original branch incidences and both returned resources.
 
 ## What is established in this package
 
 - Both authenticated upstream main heads match the pinned audit commits. The repositories remain unchanged.
+- B4-UNPADDED-Q1T2-001 proves general low-host upper-block insertion with the full selected incident multiset, and pointwise agreement with third zero-host growth in either order. On the retained 1122 seed it gives ordinary gracefulness of `[[q],[1],[t],[2]]+[[]]*(K+1)` for exact integers q>=1,t>=2,K>=2, leaving `R=[7,K+6]`, `D=[1,K]` at physical `s:4=K+8`. Six new originals, one retained seed and one retained completed control passed with zero solver calls. See `research/ALPHA_UPPER_BLOCK_GENERAL_HOST.md`, `research/B4_UNPADDED_Q1T2.md`, D042, and `evidence/validation/B4_UNPADDED_Q1T2_001/`.
 - B4-THIRD-ZERO-HOST-K1-DIRECT-001 uses the supplied rooted core and reversible terminal-case lift to give ordinary gracefulness on `[[1],[1],[t],[2],[],[]]` for every positive integer t. Physical `s:4=11` leaves `R={5}`, `D={6}`. With retained Q112 for t=1,K>=2 and the nonadjacent supplier for t,K>=2, this proves the exact all-positive-t,K family. One auxiliary core and four completed K=1 targets passed with zero solver calls. The separate historical DFS remains INCOMPLETE. See `research/B4_THIRD_ZERO_HOST_K1_DIRECT.md`, D041 and `evidence/validation/B4_THIRD_ZERO_HOST_K1_DIRECT_001/`.
 - B4-THIRD-ZERO-HOST-K1-001 derived one graceful complete `[[1],[1],[2],[2],[],[]]` control with `b:2:0=2`. Its sole new first-witness query, with only `b:2:0=0`, returned `INCOMPLETE` at 100,000 nodes. The ordinary zero-host extension and singleton reduction are conditional. That run supplied no seed or growth target. The separate direct result above now supplies K=1. See `research/B4_THIRD_ZERO_HOST_K1.md`, D040 and `evidence/validation/B4_THIRD_ZERO_HOST_K1_001/`.
 - B4-THIRD-ZERO-HOST-NONADJACENT-001 found a first verified 1122 seed with `b:2:0=0,s:4=8` and state `A(15,7;4,1)`. The fixed ledger, zero-host extension and retained recurrence prove ordinary gracefulness for `[[1],[1],[t],[2]]+[[]]*(K+1)` at integers t>=2,K>=2, with physical `s:4=K+8`, `R=[7,K+6]` and `D=[1,K]`. Four direct targets passed with a same-certificate audit. The K=1 nonadjacent interface fails. The separate direct result above gives the K=1 singleton. See `research/B4_THIRD_ZERO_HOST_NONADJACENT.md`, D039 and `evidence/validation/B4_THIRD_ZERO_HOST_NONADJACENT_001/`.

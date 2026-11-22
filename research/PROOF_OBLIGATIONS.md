@@ -364,3 +364,16 @@ interface. Separate obligations include larger first or
 second branches with growing third branch, padding, multiple
 branches per section and extra sections. The unselected
 spine-maximum and C=14 placements were left open.
+
+### First-branch insertion and (q,1,t,2) coverage
+
+The [general-host proof](ALPHA_UPPER_BLOCK_GENERAL_HOST.md)
+requires the full incident multiset and supplies its updated
+predicate. The named compatibility proof keeps both physical
+hosts and both offsets. The [Q1T2 proof](B4_UNPADDED_Q1T2.md)
+discharges ordinary gracefulness on the exact (q,1,t,2) family
+for integers q>=1,t>=2,K>=2. Its nonadjacent physical s:4 path
+uses R=[7,K+6] and D=[1,K] after the high shift.
+The retained t=1 and q=1 singleton results remain in force.
+For q,t>=2, direct K=1 supply remains open. Broader second-branch
+growth and broader original profiles require separate supply.

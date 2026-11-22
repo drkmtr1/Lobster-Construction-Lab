@@ -1,0 +1,78 @@
+{
+  "status": "PASS",
+  "run_id": "B4-UNPADDED-Q1T2-001-20261121-arithmetic-audit",
+  "audit_source_sha256_raw": "3f2a733bde235c7379d4e5fc98692a16dccd6ede48c0cfc6eac97891c71e0f0a",
+  "summary_sha256_raw": "f4c37be754d7bbb6d6a4d0e6e2179327d6070757223d500c53d3c6163dd386ff",
+  "same_new_completed_targets": 6,
+  "same_retained_seed": 1,
+  "same_retained_completed_control": 1,
+  "same_domain_rejections": 12,
+  "additional_targets": 0,
+  "additional_queries": 0,
+  "runtime": {
+    "python": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "cases": [
+    {
+      "parameters": {
+        "K": 2,
+        "q": 2,
+        "t": 2
+      },
+      "graph_digest": "bb5d0910d3a5fce81241e39bbbe74a1e735f2d7afd189a9e7fb6338ed43d6fee",
+      "certificate_sha256_raw": "b5f30bd1062e5b85c8776990e85a5869fbeabe788b22e18d09815dd111cbdf4d",
+      "status": "PASS"
+    },
+    {
+      "parameters": {
+        "K": 3,
+        "q": 2,
+        "t": 3
+      },
+      "graph_digest": "6266301240b3352fde63ff37cd4e3e5563f8919b98302834488ab9731dc7ab1b",
+      "certificate_sha256_raw": "281fa612d9d15fb3cfaf49d8f6b4358c3431290540f9ef80f3d566056d5ae169",
+      "status": "PASS"
+    },
+    {
+      "parameters": {
+        "K": 4,
+        "q": 3,
+        "t": 2
+      },
+      "graph_digest": "12e17e4d6db80e600aa6d27ad6af596e8d2d2f9b0e24e99636b72f3210cbc40c",
+      "certificate_sha256_raw": "c10ac6f12e2b9e1d34334734e630810703daa13f6921d3251a1cab2ff15ae349",
+      "status": "PASS"
+    },
+    {
+      "parameters": {
+        "K": 5,
+        "q": 3,
+        "t": 3
+      },
+      "graph_digest": "fc0477ff57e34d33104b389b4060252f0ecbc9032405c04db458c10c195e1498",
+      "certificate_sha256_raw": "2f3207b5007fdd6110c94cb2e67d4f6c813c9a9f7109d3cab833fe868a425d0d",
+      "status": "PASS"
+    },
+    {
+      "parameters": {
+        "K": 2,
+        "q": 4,
+        "t": 5
+      },
+      "graph_digest": "b95977c9e45ae92fb56cc60a04b121e5a6e38fd157ab3fef026c3be3bfad9a63",
+      "certificate_sha256_raw": "681803d7b61b889d4e5bf09c4b9ce05f10153bc066bc49060f1aa99214c3d26b",
+      "status": "PASS"
+    },
+    {
+      "parameters": {
+        "K": 5,
+        "q": 5,
+        "t": 4
+      },
+      "graph_digest": "1e41608657caf2ef9cb3d462d53c09102cf47bafb626d3593887eaa64cc766f3",
+      "certificate_sha256_raw": "4d2c546393edc4723819dbb632328ef2b2702469f8848d6a3b2904a0c5cb5bb7",
+      "status": "PASS"
+    }
+  ]
+}

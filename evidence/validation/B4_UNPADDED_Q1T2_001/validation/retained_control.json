@@ -1,0 +1,45 @@
+{
+  "certificate": {
+    "claim": "finite certificate for this exact named target only",
+    "edge_differences": [
+      13,
+      16,
+      12,
+      8,
+      5,
+      3,
+      4,
+      2,
+      1,
+      10,
+      11,
+      15,
+      14,
+      17,
+      18,
+      19,
+      20,
+      7,
+      9,
+      6
+    ],
+    "errors": [],
+    "graph_digest": "403b2b7ecc455234b4c918105ca5e1a0c7239a6f3aa333f4f34050e9c7f392ac",
+    "m": 20,
+    "n": 21,
+    "valid": true
+  },
+  "kind": "retained_completed_control_recheck",
+  "new_solver_queries": 0,
+  "new_targets": 0,
+  "pointwise_agreement": true,
+  "source": {
+    "parameters": [
+      1,
+      3,
+      5
+    ],
+    "path": "evidence/validation/B4_THIRD_ZERO_HOST_NONADJACENT_001/direct_checks/case-04.json",
+    "sha256_raw": "b54a14ee2b12d66ae6ce44935ba03f3a1ec445a60c9d42ed4a49e7f4a2f57ac9"
+  }
+}
