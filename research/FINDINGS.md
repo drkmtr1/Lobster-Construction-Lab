@@ -884,3 +884,26 @@ Zero solver queries or labeling enumeration nodes.
 The previous DFS remains historically INCOMPLETE.
 [Proof](B4_JOINT_22_DIRECT_LEDGER.md)
 · [Evidence](../evidence/validation/B4_JOINT_22_DIRECT_LEDGER_001/README.md) · D058
+
+## B4-JOINT-22-CUT-COMPAT-001
+
+**ACCEPT** full first-center crossing tails at c=11,12,13
+on the exact Case B ledger. The c=11 operation has a closed
+named batch rule supplying `C(q,2)=[[q],[2],[],[2],[],[]]`
+for every exact integer q>=2 with maximum q+12 at physical
+s:2. Its zero-host lift at K=1 supplies the original
+`[[q],[2],[t],[2],[],[]]` for every exact t>=1, with R={6},
+D={2} and s:4=8. The final original edge uses label 6 and
+weight 2.
+
+**REJECT** the prescribed positive second-center cut
+operation on the Case B seed and its c=11 one-leaf output.
+The complete required crossing tail fails at every
+applicable threshold. The result concerns these two fixed
+ledgers and leaves joint compatibility and K>=2 open.
+
+The audit records 49 full host/threshold ledgers, two
+retained control certificates on one original, four new
+originals and one adverse digest rejection. No search or
+enumeration. [Proof](B4_JOINT_22_CUT_COMPAT.md)
+· [Evidence](../evidence/validation/B4_JOINT_22_CUT_COMPAT_001/README.md) · D059

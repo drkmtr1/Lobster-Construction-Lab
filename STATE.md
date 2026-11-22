@@ -2,7 +2,7 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 22, 2026, Pacific/Honolulu<br>
-**Stage:** B4-JOINT-22-DIRECT-LEDGER-001 reviewed. A direct ledger supplies the maximum-rooted joint (2,2) core and the all-positive-t lift at K=1. The earlier DFS remains INCOMPLETE.
+**Stage:** B4-JOINT-22-CUT-COMPAT-001 reviewed. First growth at c=11 supplies all q>=2 at r=2. The second-center cut fails on the two tested ledgers. The earlier DFS remains INCOMPLETE.
 
 ## Current scientific objective
 
@@ -10,11 +10,12 @@ Develop independently supplied original-graph boundaries beyond the proved zero-
 
 ## One next action
 
-**With a new bounded scope decision, assess branch-growth compatibility starting from the verified named `[[2],[2],[],[2],[],[]]` ledger.** Check full ordinary crossing-cut premises at the actual first and second centers.
+**With a new bounded scope decision, seek an independent maximum-rooted named core `[[2],[3],[],[2],[],[]]`.** Use the accepted `C(2,2)` and `C(3,2)` ledgers as comparisons while allowing relabeling.
 
 ## What is established in this package
 
 - Both authenticated upstream main heads match the pinned audit commits. The repositories remain unchanged.
+- B4-JOINT-22-CUT-COMPAT-001 proves repeatable first-center c=11 growth for `[[q],[2],[],[2],[],[]]` with q>=2 and maximum q+12 at physical s:2. The K=1 lift at t>=1 has R={6}, D={2}, s:4=8. No second-center cut matches on the fixed seed or its c=11 one-leaf output. Forty-nine threshold rows and four new named graphs passed independent arithmetic with zero search. See `research/B4_JOINT_22_CUT_COMPAT.md`, D059 and `evidence/validation/B4_JOINT_22_CUT_COMPAT_001/`.
 - B4-JOINT-22-DIRECT-LEDGER-001 supplies an ordinary graceful ledger on `[[2],[2],[],[2],[],[]]` with s:2=14 and s:3=0. The displayed Case A ledger repeats 2 and omits 6. The accepted Case B lift covers all exact integers t>=1 for fixed q=r=2,K=1, with R={6}, D={2}, s:4=8. Four graph records, two candidates, and one adverse checker rejection passed independent audit with zero queries or enumeration. See `research/B4_JOINT_22_DIRECT_LEDGER.md`, D058 and `evidence/validation/B4_JOINT_22_DIRECT_LEDGER_001/`.
 - B4-JOINT-MAX-ROOTED-CORE-PILOT-001 independently checks both retained 14-vertex maximum-rooted cores and rejects the exact one-cut transfer at each other host. One original-bound DFS with sole pin s:2=14 stopped INCOMPLETE at 100,000 nodes on `[[2],[2],[],[2],[],[]]`. The three graph records passed audit. Joint feasibility remains open and no t=2 lift was instantiated. See `research/B4_JOINT_MAX_ROOTED_CORE_PILOT.md`, D057 and `evidence/validation/B4_JOINT_MAX_ROOTED_CORE_PILOT_001/`.
 - B4-1342-U9-A1-ANALYTIC-CLOSEOUT-001 rejects the label-one upper-block predicate at physical s:4=9 on exact named 1342, c=10..18, with b:2:0=0 and the fixed alpha orientation. Complete spectrum necessity rejects every positive batch. The combined results close this interface at s:4=9 and s:4=10 for a=1..8, with analytic evidence at 9 and analytic plus reviewed computational evidence at 10. Nine thresholds and two retained originals passed independent audit. See `research/B4_1342_U9_A1_ANALYTIC_CLOSEOUT.md`, D056 and `evidence/validation/B4_1342_U9_A1_CLOSEOUT_001/`.

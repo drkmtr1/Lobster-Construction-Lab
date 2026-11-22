@@ -588,6 +588,10 @@ the sole q=r=2 query as INCOMPLETE. The
 [direct-ledger proof](B4_JOINT_22_DIRECT_LEDGER.md) supplies
 the fixed q=r=2 core with maximum 14 at physical s:2 and zero
 at s:3. Its lift supplies the K=1 target for every positive
-integer t. Compatibility of branch growth from this seed is
-the selected open obligation. General joint supply and K>=2
-continuation remain separate.
+integer t. The [cut proof](B4_JOINT_22_CUT_COMPAT.md)
+supplies repeatable first growth, extending this to all q>=2
+at r=2 and K=1. It rejects the exact second-host operation
+on the seed and first one-leaf output. Independent maximum-
+rooted supply on the named q=2,r=3 core is the selected
+open obligation. General joint supply, compatibility and
+K>=2 continuation remain separate.

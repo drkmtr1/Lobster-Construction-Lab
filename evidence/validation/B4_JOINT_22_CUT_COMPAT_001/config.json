@@ -1,0 +1,41 @@
+{
+  "id": "B4-JOINT-22-CUT-COMPAT-001-20261122",
+  "parent": "2d9eb76ea59155a0cfb68b7441dd778467bf475c",
+  "limits": {
+    "workers": 1,
+    "max_threshold_evaluations": 64,
+    "max_new_named_graphs": 4,
+    "max_cpu_seconds": 30,
+    "max_record_bytes": 2000000,
+    "max_total_bytes": 10000000,
+    "solver_queries": 0,
+    "labeling_enumeration_nodes": 0
+  },
+  "original": "evidence/validation/B4_JOINT_22_DIRECT_LEDGER_001/validation/core_original.json",
+  "controls": {
+    "A": "evidence/validation/B4_JOINT_22_DIRECT_LEDGER_001/validation/candidate_A.json",
+    "B": "evidence/validation/B4_JOINT_22_DIRECT_LEDGER_001/validation/candidate_B.json"
+  },
+  "cases": [
+    {
+      "q": 3,
+      "t": null,
+      "order": 16
+    },
+    {
+      "q": 4,
+      "t": null,
+      "order": 17
+    },
+    {
+      "q": 3,
+      "t": 1,
+      "order": 18
+    },
+    {
+      "q": 4,
+      "t": 2,
+      "order": 20
+    }
+  ]
+}

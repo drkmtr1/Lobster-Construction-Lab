@@ -1,0 +1,18 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "exit_code": 0,
+      "elapsed_command_seconds": 1.0340913,
+      "stdout": "PASS: two controls, four new named graphs, wrong-digest rejection (0.062500 CPU seconds)\n",
+      "stderr": ""
+    },
+    {
+      "step": 2,
+      "exit_code": 0,
+      "elapsed_command_seconds": 0.9887489,
+      "stdout": "PASS: 49 host/threshold rows, four new originals, second-host failures on q2 and q3 (0.171875 total CPU seconds)\n",
+      "stderr": ""
+    }
+  ]
+}

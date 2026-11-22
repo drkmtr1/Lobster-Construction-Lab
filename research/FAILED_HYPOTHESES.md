@@ -311,3 +311,14 @@ terminal assignment because labels 4 and 10 are occupied by the
 first and second centers. This rejects the stated arrangement.
 The direct Case B ledger supplies the exact rooted core.
 [Candidate construction and ledger](B4_JOINT_22_DIRECT_LEDGER.md)
+
+### F-B4-JOINT-22-SECOND-HOST-FIXED-LEDGERS
+
+At physical b:1:0=9, the accepted Case B q=r=2 ledger and
+its q=3,r=2 output from first cut 11 both lack the full
+ordinary crossing tail at every threshold. The ranges
+are 0..15 and 0..16, including endpoint comparisons.
+This rejects the exact prescribed second-host shift and
+insertion for any positive batch on either fixed ledger.
+Other graceful labelings and transitions remain open.
+[Full spectra and proof](B4_JOINT_22_CUT_COMPAT.md)
