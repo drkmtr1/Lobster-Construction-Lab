@@ -1,0 +1,96 @@
+{
+  "alpha": {
+    "high": [
+      "b:1:0",
+      "b:3:0",
+      "l:0:0:0",
+      "l:2:0:0",
+      "l:2:0:1",
+      "l:2:0:2",
+      "s:0",
+      "s:2",
+      "s:4"
+    ],
+    "low": [
+      "b:0:0",
+      "b:2:0",
+      "l:1:0:0",
+      "l:1:0:1",
+      "l:3:0:0",
+      "l:3:0:1",
+      "s:1",
+      "s:3"
+    ],
+    "low_size": 8
+  },
+  "certificate": "evidence/validation/B4_12T2_ZERO_HOST_SUPPLIER_001/validation/normalized-t3.json",
+  "certificate_sha256_raw": "8df3d93668849de4adba8e640511ff5047e7b4bfdacf167c48a69c4d2c6fdae8",
+  "graph_digest": "c06449ff81b7130c313e1ef608cfab0e9cda4a95398a603791e7cdaa1b51fac7",
+  "original": "evidence/validation/B4_12T2_ZERO_HOST_SUPPLIER_001/validation/originals/normalized-t3.json",
+  "original_sha256_raw": "c312ed85e1e5911acc906fce9eed9a2011ff71534ac6be6a70e55ed8468fe5e8",
+  "state": {
+    "H": "b:1:0",
+    "L": "b:0:0",
+    "U": "s:4",
+    "Z": "b:2:0",
+    "minimum_high_label": 8,
+    "n": 17,
+    "p": 8,
+    "x": 1,
+    "y": 1,
+    "zero_label": 0
+  },
+  "verification": {
+    "claim": "finite certificate for this exact named target only",
+    "edge_differences": [
+      4,
+      9,
+      12,
+      5,
+      10,
+      11,
+      1,
+      2,
+      3,
+      16,
+      13,
+      14,
+      15,
+      6,
+      8,
+      7
+    ],
+    "errors": [],
+    "graph_digest": "c06449ff81b7130c313e1ef608cfab0e9cda4a95398a603791e7cdaa1b51fac7",
+    "m": 16,
+    "n": 17,
+    "valid": true
+  },
+  "witness": [
+    "b:0:0",
+    "s:0",
+    "s:1",
+    "s:2",
+    "s:3",
+    "s:4"
+  ],
+  "witness_distances": {
+    "b:0:0": 0,
+    "b:1:0": 1,
+    "b:2:0": 1,
+    "b:3:0": 1,
+    "l:0:0:0": 1,
+    "l:1:0:0": 2,
+    "l:1:0:1": 2,
+    "l:2:0:0": 2,
+    "l:2:0:1": 2,
+    "l:2:0:2": 2,
+    "l:3:0:0": 2,
+    "l:3:0:1": 2,
+    "s:0": 0,
+    "s:1": 0,
+    "s:2": 0,
+    "s:3": 0,
+    "s:4": 0
+  }
+}

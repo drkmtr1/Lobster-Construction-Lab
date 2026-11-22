@@ -1,0 +1,39 @@
+{
+  "audit_sha256_raw": "aea8605d8f02bf600dcd55de899f1f326884e7267583b2f3cc5050f56ebc10a2",
+  "config_sha256_raw": "d85cf937b66afd7f106e0c252054a0231ab4b69837dea9b2698400679bc0d41c",
+  "parent": "5b8de6e2f6ef1b271311cfa4bfe151b92308e3bf",
+  "proof": {
+    "path": "research/B4_1R32_MINIMUM_HIGH_SUPPLIER.md",
+    "sha256_raw": "f77d45272285012e4dd4933ebcb6d1e7407e5487b8bbf16d1ac52516e2167234"
+  },
+  "retained_sha256_raw": {
+    "evidence/validation/B4_12T2_ZERO_HOST_SUPPLIER_001/validation/normalized-t3.json": "8df3d93668849de4adba8e640511ff5047e7b4bfdacf167c48a69c4d2c6fdae8",
+    "evidence/validation/B4_12T2_ZERO_HOST_SUPPLIER_001/validation/originals/normalized-t3.json": "c312ed85e1e5911acc906fce9eed9a2011ff71534ac6be6a70e55ed8468fe5e8",
+    "evidence/validation/B4_THIRD_ZERO_HOST_K1_001/query_record.json": "b71cf1dc26700648507e8c2d9769b44e1d4536df6b788438930c2d5585679ff6",
+    "evidence/validation/B4_THIRD_ZERO_HOST_K1_001/raw_result.json": "9901eecb61366cf2329ebd5639e1a8c2cd738a08d5dc48da41126a6cef201b49",
+    "research/ALPHA_MINIMUM_HIGH_LEAF_EXTENSION.md": "77238d717601b8c25cfc6432e33639f129d40ba27f40bc21fd546ada57283c21",
+    "research/ALPHA_ZERO_HOST_LEAF_EXTENSION.md": "a85dcf5941c44783ab7d0337b1ef577b4d4cbda59fe393fbe73eb5b47295ffeb",
+    "research/B2_NONADJACENT_CONSUMER.md": "fa7b58c0b42cb73f01d62153f8de36e6cc4e6315b1db4b4da59ac9e54a4c92fb",
+    "research/B4_12T2_K1_ROOTED_CORE.md": "abcc9f6ac1aa9641ba109932e9f9796767b31cadc34bf15ae74284b802fc8685",
+    "research/B4_12T2_ZERO_HOST_SUPPLIER.md": "776844580f4ad4a5f8c2f4a5ba0716cd95f13a91ff129840513f4f4915f88a37",
+    "research/B4_UNPADDED_Q1T2.md": "5ff3dcd3067565bb573ca7f24a2fb687761d1cdf54713a4bdf88ad0c89ab313e"
+  },
+  "run_id": "B4-1R32-MINIMUM-HIGH-SUPPLIER-001-20261121",
+  "runner_sha256_raw": "ced85ec399e4b1a3e0b1264854ff2730e38cb4c08b79b146eb1c1ed746202869",
+  "runtime": {
+    "executable": ".venv/Scripts/python.exe",
+    "implementation": "cpython",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]",
+    "third_party_imports": [],
+    "utf8_mode": 1
+  },
+  "source_sha256_raw": {
+    "lcl/__init__.py": "134055506d3e9cd4fa538177844d28a44d5ab567ec220cf54048e63d1a8a7374",
+    "lcl/consumers.py": "2cb688d09c510ca855ba1695d0f89a325ea4fc7882c9e5a8e971c2b506e64560",
+    "lcl/model.py": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6",
+    "lcl/verify.py": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909",
+    "pyproject.toml": "738f14eba3125ce7f444628adaddaf2e3e30e5aa7f43f10e7035067f6b7072e5",
+    "requirements.txt": "60f6e1bd76adf6ed25cf381ca95f67e8a27a0de1e62fb673a7cf5af4b86249ea"
+  }
+}

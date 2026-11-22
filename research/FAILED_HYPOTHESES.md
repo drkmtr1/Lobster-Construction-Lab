@@ -186,3 +186,14 @@ incidences for the cut-crossing set gives [1,12] instead of
 the required [7,12]. The ordinary crossing-cut insertion
 uses the six actual crossings and succeeds.
 [Exact calculation](B4_12T2_K1_ROOTED_CORE.md#retained-original-and-a-single-ordinary-insertion)
+
+### F-B4-1R32-SHIFT-AT-SEED-CUT
+
+After minimum-high insertion at the second center in
+the exact (1,r,3,2) prefix, using the original cut 8 for
+the final high shift moves H and the new leaves together.
+Their differences [1,r-2] stay assigned, including 1 for
+all r>=3, and the missing labels start at 8. This rejects
+that fixed transformation as a supplier for the required
+inventories. The proved shift uses the updated cut r+6.
+[Exact shift calculation](B4_1R32_MINIMUM_HIGH_SUPPLIER.md#updated-high-shift-and-original-suffix)

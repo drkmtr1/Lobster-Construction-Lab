@@ -1,6 +1,6 @@
 # Decisions and algorithm-change log
 
-This file owns consequential choices and change proposals. `STATE.md` owns current work; findings and failures own scientific dispositions. Dates below are November 20, 2026, Pacific/Honolulu, except D016 through D047 (November 21, 2026).
+This file owns consequential choices and change proposals. `STATE.md` owns current work; findings and failures own scientific dispositions. Dates below are November 20, 2026, Pacific/Honolulu, except D016 through D048 (November 21, 2026).
 
 | ID | Decision | Reason and review consequence |
 |---|---|---|
@@ -52,6 +52,7 @@ This file owns consequential choices and change proposals. `STATE.md` owns curre
 | D045 | Accept B4-1R22-K1-ROOTED-CORE-001 at 2920269aeb30e99f0bc36a4559c24c95c7ccce84 | **ACCEPT** the fixed s:1=0 core ledger, conditional and instantiated lift for r>=2,K=1, direct singleton, finite named growth, and exact all-positive (1,r,2,2) selector. The prior one-step shift fails only for its specified boundary. One core, four completions and four domain rejections passed. The same-case audit and two separate AI reviews added no cases. No solver, enumeration or production change. |
 | D046 | Accept B4-12T2-ZERO-HOST-SUPPLIER-001 at 2ac6611d8051d944a4d6723fbc271ddc6935ae07 | **ACCEPT** the explicit seed A(17,8;1,1), named zero-host growth and exact ordinary (1,2,t,2) completion for t>=3,K>=2. **REJECT** the same-port upper insertion on the one retained 1222 ledger. Three normalized prefixes, four completions, one retained recheck and eight input rejections passed. Same-record audit and separate AI reviews added no cases. No solver, enumeration, replay or production edit. |
 | D047 | Accept B4-12T2-K1-ROOTED-CORE-001 at 78b20e7687ad7c414ada38a60d4b69996dc14829 | **ACCEPT** ordinary crossing-cut insertion, the one-leaf maximum-rooted core, the conditional and instantiated singleton lift, finite named third growth and the exact all-positive (1,2,t,2) selector. Counting all upper-side incidences fails on the retained core. One retained recheck, one new core, four completions and four invalid probes passed under separate AI review and same-record audit. No solver, enumeration, replay or production edit. |
+| D048 | Accept B4-1R32-MINIMUM-HIGH-SUPPLIER-001 at 5b8de6e2f6ef1b271311cfa4bfe151b92308e3bf | **ACCEPT** minimum-high application and finite same-name growth at fixed third size three, normalized A(r+15,r+6;1,1) for r>=3, and exact ordinary completion for r>=3,K>=2. **REJECT** reusing cut 8 for the high shift. One retained recheck, three new prefixes, four completions and eight invalid probes passed under separate AI reviews and same-record audit. No solver, enumeration, replay or production edits. |
 
 ## Proposal template for the next consequential algorithm change
 

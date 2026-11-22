@@ -1,0 +1,42 @@
+{
+  "run_id": "B4-1R32-MINIMUM-HIGH-SUPPLIER-001-20261121",
+  "parent": "5b8de6e2f6ef1b271311cfa4bfe151b92308e3bf",
+  "workers": 1,
+  "max_vertices": 25,
+  "max_result_bytes": 2000000,
+  "solver_queries": 0,
+  "computational_enumeration": 0,
+  "historical_search_replay": 0,
+  "fixed_third": 3,
+  "normalized_r": [
+    3,
+    4,
+    5
+  ],
+  "completed_r_K": [
+    [
+      3,
+      2
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      5,
+      5
+    ]
+  ],
+  "completed_orders": [
+    20,
+    21,
+    23,
+    25
+  ],
+  "retained": "evidence/validation/B4_12T2_ZERO_HOST_SUPPLIER_001/validation/normalized-t3.json",
+  "exit_offset": 1
+}

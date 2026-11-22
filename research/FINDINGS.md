@@ -596,3 +596,35 @@ or historical replay ran.
 [Insertion lemma](ORDINARY_CUT_LEAF_INSERTION.md)
 · [Lift and selector](B4_12T2_K1_ROOTED_CORE.md)
 · [Evidence](../evidence/validation/B4_12T2_K1_ROOTED_CORE_001/README.md) · D047
+
+## B4-1R32-MINIMUM-HIGH-SUPPLIER-001
+
+**ACCEPT** the retained 1232 seed as a supplied
+minimum-high instance at actual b:1:0=8, one edge from
+the witness. Its third center stays zero. The extension
+adds only the named second leaves, keeping the old lows
+and shifting the old highs. At fixed third size three,
+the normalized state is A(r+15,r+6;1,1) for exact integer
+r>=3, with finite named batch closure at the same host.
+
+**ACCEPT** the updated shift and original nonadjacent
+path completion for exact r>=3,K>=2 on
+`[[1],[r],[3],[2]]+[[]]*(K+1)`. The resources are
+R=[r+6,r+K+5], D=[1,K] and physical s:4=r+K+7.
+Together with the retained r=1 and r=2 routes this
+gives ordinary gracefulness for the exact (1,r,3,2)
+family over all positive r at K>=2. The r>=3,K=1
+singleton is outside this route.
+
+**REJECT** using the seed's cut 8 in the final shift.
+That fixed transformation keeps the fresh edge weights
+[1,r-2] assigned and violates the required inventories.
+
+One retained recheck, three new normalized prefixes,
+four completed targets and eight invalid-input probes
+passed. The audit and same-prefix comparison add zero
+cases. Separate read-only AI reviews accepted, with
+zero solver calls, labeling enumeration or historical
+search replays.
+[Proof](B4_1R32_MINIMUM_HIGH_SUPPLIER.md)
+· [Evidence](../evidence/validation/B4_1R32_MINIMUM_HIGH_SUPPLIER_001/README.md) · D048

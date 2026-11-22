@@ -461,5 +461,22 @@ named third-leaf growth preserves all prior labels.
 The four disjoint cases of the selector cover all positive
 integers t,K on the exact (1,2,t,2) family. The prior t=1,
 t=2 and nonadjacent t>=3,K>=2 routes retain their individual
-interfaces. Further second-branch growth with third-branch
-size at least three and broader profiles remain separate.
+interfaces. The fixed third size three
+and K>=2 case is supplied below. Broader profiles remain
+separate.
+
+### 1R32 minimum-high supply and original nonadjacent completion
+
+The [1R32 proof](B4_1R32_MINIMUM_HIGH_SUPPLIER.md) discharges
+normalized alpha supply on the exact `[[1],[r],[3],[2],[]]`
+for integer r>=3. The retained 1232 seed supplies a minimum-high
+second center, so the ordered extension gives A(r+15,r+6;1,1)
+with the same witness and the third center still zero.
+
+Shifting at the updated cut r+6 leaves R=[r+6,r+K+5] and
+D=[1,K] at physical s:4=r+K+7. The original nonadjacent
+path gives ordinary gracefulness for r>=3,K>=2. With the
+retained r=1 and r=2 branches the exact (1,r,3,2) family
+is covered for every positive r at K>=2. Its r>=3,K=1
+singleton and simultaneous arbitrary second/third growth
+remain separate obligations.
