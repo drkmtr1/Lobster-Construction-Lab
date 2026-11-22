@@ -1,0 +1,43 @@
+{
+  "auxiliary_cores": [
+    3,
+    4,
+    5
+  ],
+  "completed_targets": [
+    {
+      "K": 1,
+      "bytes": 9336,
+      "certificate": "target-r3.json",
+      "n": 19,
+      "r": 3,
+      "sha256_raw": "4105dbbcd94515641849cec39096eb5e20fbe16b61f5eca2e76fcbc81673632f"
+    },
+    {
+      "K": 1,
+      "bytes": 9773,
+      "certificate": "target-r4.json",
+      "n": 20,
+      "r": 4,
+      "sha256_raw": "11f2d998088fe0ec6c9ddb61738c817d9a15c2544a821ae6bc163221abca8ab1"
+    },
+    {
+      "K": 1,
+      "bytes": 10210,
+      "certificate": "target-r5.json",
+      "n": 21,
+      "r": 5,
+      "sha256_raw": "9da7a938eb019b4916ad437ed4a1f3c0242ac816905597d8dfb95802b2191a9d"
+    }
+  ],
+  "computational_enumeration": 0,
+  "domain_rejections": 4,
+  "growth_comparison_sha256_raw": "d04cd765133e99c04a44392bdce072b47f4c5044a0cb4371eef132b9be6a84b8",
+  "historical_search_replay": 0,
+  "identity_sha256_raw": "9034be61094266c036ad8e34dcad488e11ed9e5c3009e30c8af16fb12636f11e",
+  "retained_recheck_sha256_raw": "fffc30dfdf00cb0a629d416ef162cefc31c1c0f692d4e5e3eb8cfa7334cc396c",
+  "retained_rechecks": 1,
+  "run_id": "B4-1R32-K1-ROOTED-CORE-001-20261121",
+  "solver_queries": 0,
+  "status": "PASS"
+}

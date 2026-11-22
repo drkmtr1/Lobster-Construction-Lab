@@ -628,3 +628,33 @@ zero solver calls, labeling enumeration or historical
 search replays.
 [Proof](B4_1R32_MINIMUM_HIGH_SUPPLIER.md)
 · [Evidence](../evidence/validation/B4_1R32_MINIMUM_HIGH_SUPPLIER_001/README.md) · D048
+
+## B4-1R32-K1-ROOTED-CORE-001
+
+**ACCEPT** the ordinary core `[[1],[r],[],[2],[],[]]`
+for exact integer r>=3, with physical s:2=r+11.
+The retained 14-vertex core supplies the complete
+crossing premise at cut 3. The new core returns cut
+r+1 with crossings [7,r+11] and noncrossings [1,6].
+
+**ACCEPT** the fixed-third-size-three lift and direct
+K=1 singleton on `[[1],[r],[3],[2],[],[]]`. It leaves
+R={r+4}, D={6} at physical s:4=r+10 and assigns
+s:5=r+4 on the sole crossing edge. The full graceful
+labeling returns cut r+2 with crossings [7,r+15]
+and noncrossings [1,6]. Finite same-host growth on
+the core and the full target agrees pointwise in either
+order with the lift, including the prescribed leaf names.
+
+**ACCEPT** the exact ordinary-gracefulness selector
+for (1,r,3,2) over all positive integers r,K. The
+retained r=1 and r=2 singletons and three K>=2
+nonadjacent cases retain their own interfaces.
+Simultaneous arbitrary second and third sizes remain open.
+
+One retained core, three new cores, three completed targets
+and four invalid-input probes passed. Same-record comparisons,
+the audit and two read-only AI reviews added zero cases.
+No solver, enumeration, replay or production edits.
+[Proof](B4_1R32_K1_ROOTED_CORE.md)
+· [Evidence](../evidence/validation/B4_1R32_K1_ROOTED_CORE_001/README.md) · D049

@@ -1,0 +1,38 @@
+{
+  "shell": "PowerShell from the LCL repository root",
+  "run_id": "B4-1R32-K1-ROOTED-CORE-001-20261121",
+  "commands": [
+    {
+      "cmd": "& .\\.venv\\Scripts\\python.exe -c \"import ast,pathlib; p=pathlib.Path('evidence/validation/B4_1R32_K1_ROOTED_CORE_001'); [ast.parse((p / name).read_text(encoding='utf-8')) for name in ('validate.py','audit.py')]; print('Both evidence scripts parse')\"\nexit $LASTEXITCODE",
+      "chunk_id": "8b0f08",
+      "wall_time_seconds": 0.6538551,
+      "exit_code": 0,
+      "original_token_count": 8,
+      "output": "Both evidence scripts parse\r\n"
+    },
+    {
+      "cmd": "$env:PYTHONUTF8='1'\n& .\\.venv\\Scripts\\python.exe 'evidence/validation/B4_1R32_K1_ROOTED_CORE_001/validate.py'\nexit $LASTEXITCODE",
+      "chunk_id": "e73c02",
+      "wall_time_seconds": 0.9273143,
+      "exit_code": 0,
+      "original_token_count": 254,
+      "output": "{\"auxiliary_cores\": [3, 4, 5], \"completed_targets\": [{\"K\": 1, \"bytes\": 9336, \"certificate\": \"target-r3.json\", \"n\": 19, \"r\": 3, \"sha256_raw\": \"4105dbbcd94515641849cec39096eb5e20fbe16b61f5eca2e76fcbc81673632f\"}, {\"K\": 1, \"bytes\": 9773, \"certificate\": \"target-r4.json\", \"n\": 20, \"r\": 4, \"sha256_raw\": \"11f2d998088fe0ec6c9ddb61738c817d9a15c2544a821ae6bc163221abca8ab1\"}, {\"K\": 1, \"bytes\": 10210, \"certificate\": \"target-r5.json\", \"n\": 21, \"r\": 5, \"sha256_raw\": \"9da7a938eb019b4916ad437ed4a1f3c0242ac816905597d8dfb95802b2191a9d\"}], \"computational_enumeration\": 0, \"domain_rejections\": 4, \"growth_comparison_sha256_raw\": \"d04cd765133e99c04a44392bdce072b47f4c5044a0cb4371eef132b9be6a84b8\", \"historical_search_replay\": 0, \"identity_sha256_raw\": \"9034be61094266c036ad8e34dcad488e11ed9e5c3009e30c8af16fb12636f11e\", \"retained_recheck_sha256_raw\": \"fffc30dfdf00cb0a629d416ef162cefc31c1c0f692d4e5e3eb8cfa7334cc396c\", \"retained_rechecks\": 1, \"run_id\": \"B4-1R32-K1-ROOTED-CORE-001-20261121\", \"solver_queries\": 0, \"status\": \"PASS\"}\r\n"
+    },
+    {
+      "cmd": "$env:PYTHONUTF8='1'\n& .\\.venv\\Scripts\\python.exe 'evidence/validation/B4_1R32_K1_ROOTED_CORE_001/audit.py'\nexit $LASTEXITCODE",
+      "chunk_id": "86a271",
+      "wall_time_seconds": 0.7517852,
+      "exit_code": 0,
+      "original_token_count": 327,
+      "output": "{\"additional_completed_targets\": 0, \"additional_cores\": 0, \"computational_enumeration\": 0, \"historical_search_replay\": 0, \"run_id\": \"B4-1R32-K1-ROOTED-CORE-001-20261121\", \"same_auxiliary_cores\": [{\"n\": 15, \"r\": 3, \"sha256_raw\": \"d4924ded45f2c2e9cd2e72fc3745531c34a48cc0b694a3825d12406d8286fc04\"}, {\"n\": 16, \"r\": 4, \"sha256_raw\": \"c84ea844f17007e9e2c42379de04516e65bf4f2ccbfda55b4e5b82cfa6e6df98\"}, {\"n\": 17, \"r\": 5, \"sha256_raw\": \"a426d1d5e0abbb9ce693624a64ba6d903143e8f6fd36854909b66a13856f7522\"}], \"same_completed_targets\": [{\"K\": 1, \"bytes\": 9336, \"certificate\": \"target-r3.json\", \"n\": 19, \"r\": 3, \"sha256_raw\": \"4105dbbcd94515641849cec39096eb5e20fbe16b61f5eca2e76fcbc81673632f\"}, {\"K\": 1, \"bytes\": 9773, \"certificate\": \"target-r4.json\", \"n\": 20, \"r\": 4, \"sha256_raw\": \"11f2d998088fe0ec6c9ddb61738c817d9a15c2544a821ae6bc163221abca8ab1\"}, {\"K\": 1, \"bytes\": 10210, \"certificate\": \"target-r5.json\", \"n\": 21, \"r\": 5, \"sha256_raw\": \"9da7a938eb019b4916ad437ed4a1f3c0242ac816905597d8dfb95802b2191a9d\"}], \"same_domain_rejections\": 4, \"same_growth_comparison_sha256_raw\": \"d04cd765133e99c04a44392bdce072b47f4c5044a0cb4371eef132b9be6a84b8\", \"same_retained_recheck_sha256_raw\": \"fffc30dfdf00cb0a629d416ef162cefc31c1c0f692d4e5e3eb8cfa7334cc396c\", \"same_retained_rechecks\": 1, \"solver_queries\": 0, \"status\": \"PASS\"}\r\n"
+    }
+  ],
+  "publication_screen_correction": {
+    "first_attempt_exit_code": 1,
+    "first_attempt_error": "KeyError: 'status' while reading the historical bound query record",
+    "cause": "The historical bound record uses classification at its top level. Its raw and nested search results use status.",
+    "correction": "Check bound classification and equality of bound result and raw receipt, then inspect the unchanged raw termination fields.",
+    "receipt_recheck": "INCOMPLETE True INCOMPLETE max_nodes 100000",
+    "scope": "Read-only publication check. No historical receipt, scientific result, construction or validation attempt changed."
+  }
+}

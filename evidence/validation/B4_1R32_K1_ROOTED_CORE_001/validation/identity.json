@@ -1,0 +1,38 @@
+{
+  "audit_sha256_raw": "f756d237f4b3d4fcd7768cc8cff513374a5eb8161af7f3e3ae7eaa108e527528",
+  "config_sha256_raw": "92f2c9a1622375cd89c559788c42eb065c7bb2dd233fb21fb902052370070f29",
+  "parent": "648ec01f4eaca4a8f71aa162f057a870485dd93c",
+  "proof": {
+    "path": "research/B4_1R32_K1_ROOTED_CORE.md",
+    "sha256_raw": "90039ab36b4fb124177a046daad9994b7b6c6e89282b276651c2daca92d457d8"
+  },
+  "retained_sha256_raw": {
+    "evidence/validation/B4_12T2_K1_ROOTED_CORE_001/validation/core.json": "155539e969f077f3072e3c96651deaf7f0267e67efd74689c244bc2adadc918a",
+    "evidence/validation/B4_12T2_K1_ROOTED_CORE_001/validation/originals/core.json": "027901e893ad6c40796709c113e0c557f5fd57ca4fd07e9c0b6a8992e52093ad",
+    "evidence/validation/B4_THIRD_ZERO_HOST_K1_001/query_record.json": "b71cf1dc26700648507e8c2d9769b44e1d4536df6b788438930c2d5585679ff6",
+    "evidence/validation/B4_THIRD_ZERO_HOST_K1_001/raw_result.json": "9901eecb61366cf2329ebd5639e1a8c2cd738a08d5dc48da41126a6cef201b49",
+    "research/B4_12T2_K1_ROOTED_CORE.md": "abcc9f6ac1aa9641ba109932e9f9796767b31cadc34bf15ae74284b802fc8685",
+    "research/B4_12T2_ZERO_HOST_SUPPLIER.md": "776844580f4ad4a5f8c2f4a5ba0716cd95f13a91ff129840513f4f4915f88a37",
+    "research/B4_1R32_MINIMUM_HIGH_SUPPLIER.md": "f77d45272285012e4dd4933ebcb6d1e7407e5487b8bbf16d1ac52516e2167234",
+    "research/B4_THIRD_ZERO_HOST_K1_DIRECT.md": "7bb26cb4eb7f8d496795cba9743d2793c86cfde82d7d64dd66795dec27fd0a2a",
+    "research/B4_UNPADDED_Q1T2.md": "5ff3dcd3067565bb573ca7f24a2fb687761d1cdf54713a4bdf88ad0c89ab313e",
+    "research/ORDINARY_CUT_LEAF_INSERTION.md": "483935ee08512a68c0e2e016791bbb482449e22b1ebb799706cef3f8c019876c"
+  },
+  "run_id": "B4-1R32-K1-ROOTED-CORE-001-20261121",
+  "runner_sha256_raw": "748ebb250eb80b25aa621dfd9fffca2874684acaa6406d8d5d4eba325f053c36",
+  "runtime": {
+    "executable": ".venv/Scripts/python.exe",
+    "implementation": "cpython",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]",
+    "third_party_imports": [],
+    "utf8_mode": 1
+  },
+  "source_sha256_raw": {
+    "lcl/__init__.py": "134055506d3e9cd4fa538177844d28a44d5ab567ec220cf54048e63d1a8a7374",
+    "lcl/model.py": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6",
+    "lcl/verify.py": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909",
+    "pyproject.toml": "738f14eba3125ce7f444628adaddaf2e3e30e5aa7f43f10e7035067f6b7072e5",
+    "requirements.txt": "60f6e1bd76adf6ed25cf381ca95f67e8a27a0de1e62fb673a7cf5af4b86249ea"
+  }
+}

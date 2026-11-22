@@ -477,6 +477,21 @@ Shifting at the updated cut r+6 leaves R=[r+6,r+K+5] and
 D=[1,K] at physical s:4=r+K+7. The original nonadjacent
 path gives ordinary gracefulness for r>=3,K>=2. With the
 retained r=1 and r=2 branches the exact (1,r,3,2) family
-is covered for every positive r at K>=2. Its r>=3,K=1
-singleton and simultaneous arbitrary second/third growth
-remain separate obligations.
+is covered for every positive r at K>=2. The singleton
+below discharges the remaining fixed-third K=1 obligation.
+
+### 1R32 rooted core and exact all-positive coverage
+
+The [1R32 rooted core proof](B4_1R32_K1_ROOTED_CORE.md) checks
+the retained core at cut 3 and uses its full crossing spectrum
+[7,13] to supply the graceful core with physical s:2=r+11 for
+each exact r>=3. It discharges the direct K=1 singleton at
+physical s:4=r+10 with R={r+4}, D={6} for fixed third size three.
+The returned core and completed cuts support finite named growth,
+and the original third-branch lift commutes pointwise with it.
+
+The selector combines the new singleton with the retained r=1
+and r=2 singleton cases and the earlier K>=2 cases to cover
+positive r,K on the exact ordered (1,r,3,2) profile. Compatibility
+of minimum-high second growth with zero-host third growth for
+r>=3,t>=4 remains a separate obligation.

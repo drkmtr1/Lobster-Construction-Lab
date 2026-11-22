@@ -1,0 +1,33 @@
+{
+  "run_id": "B4-1R32-K1-ROOTED-CORE-001-20261121",
+  "parent": "648ec01f4eaca4a8f71aa162f057a870485dd93c",
+  "workers": 1,
+  "max_vertices": 21,
+  "max_result_bytes": 2000000,
+  "solver_queries": 0,
+  "computational_enumeration": 0,
+  "historical_search_replay": 0,
+  "retained": "evidence/validation/B4_12T2_K1_ROOTED_CORE_001/validation/core.json",
+  "core_r": [
+    3,
+    4,
+    5
+  ],
+  "core_orders": [
+    15,
+    16,
+    17
+  ],
+  "completed_r": [
+    3,
+    4,
+    5
+  ],
+  "completed_orders": [
+    19,
+    20,
+    21
+  ],
+  "fixed_third": 3,
+  "K": 1
+}

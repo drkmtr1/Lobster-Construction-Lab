@@ -1,0 +1,183 @@
+{
+  "certificate": "evidence/validation/B4_12T2_K1_ROOTED_CORE_001/validation/core.json",
+  "certificate_sha256_raw": "155539e969f077f3072e3c96651deaf7f0267e67efd74689c244bc2adadc918a",
+  "cut": {
+    "below": [
+      "l:1:0:1",
+      "s:1",
+      "s:3"
+    ],
+    "c": 3,
+    "crossing": [
+      {
+        "difference": 8,
+        "edge": [
+          "s:0",
+          "s:1"
+        ]
+      },
+      {
+        "difference": 13,
+        "edge": [
+          "s:1",
+          "s:2"
+        ]
+      },
+      {
+        "difference": 12,
+        "edge": [
+          "s:2",
+          "s:3"
+        ]
+      },
+      {
+        "difference": 10,
+        "edge": [
+          "s:3",
+          "s:4"
+        ]
+      },
+      {
+        "difference": 9,
+        "edge": [
+          "s:1",
+          "b:1:0"
+        ]
+      },
+      {
+        "difference": 7,
+        "edge": [
+          "b:1:0",
+          "l:1:0:1"
+        ]
+      },
+      {
+        "difference": 11,
+        "edge": [
+          "s:3",
+          "b:3:0"
+        ]
+      }
+    ],
+    "crossing_spectrum": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "host": "b:1:0",
+    "host_label": 9,
+    "m": 13,
+    "noncrossing": [
+      {
+        "difference": 6,
+        "edge": [
+          "s:4",
+          "s:5"
+        ]
+      },
+      {
+        "difference": 4,
+        "edge": [
+          "s:0",
+          "b:0:0"
+        ]
+      },
+      {
+        "difference": 1,
+        "edge": [
+          "b:0:0",
+          "l:0:0:0"
+        ]
+      },
+      {
+        "difference": 3,
+        "edge": [
+          "b:1:0",
+          "l:1:0:0"
+        ]
+      },
+      {
+        "difference": 2,
+        "edge": [
+          "b:3:0",
+          "l:3:0:0"
+        ]
+      },
+      {
+        "difference": 5,
+        "edge": [
+          "b:3:0",
+          "l:3:0:1"
+        ]
+      }
+    ],
+    "noncrossing_spectrum": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  "graph_digest": "bc1d534221809ec665279ecbab9fb87276fbcf87d3915c7d0656bd2cc7518e48",
+  "original": "evidence/validation/B4_12T2_K1_ROOTED_CORE_001/validation/originals/core.json",
+  "original_sha256_raw": "027901e893ad6c40796709c113e0c557f5fd57ca4fd07e9c0b6a8992e52093ad",
+  "root": {
+    "label": 13,
+    "vertex": "s:2"
+  },
+  "verification": {
+    "claim": "finite certificate for this exact named target only",
+    "edge_differences": [
+      8,
+      13,
+      12,
+      10,
+      6,
+      4,
+      1,
+      9,
+      3,
+      7,
+      11,
+      2,
+      5
+    ],
+    "errors": [],
+    "graph_digest": "bc1d534221809ec665279ecbab9fb87276fbcf87d3915c7d0656bd2cc7518e48",
+    "m": 13,
+    "n": 14,
+    "valid": true
+  },
+  "witness": {
+    "distances": {
+      "b:0:0": 1,
+      "b:1:0": 1,
+      "b:3:0": 1,
+      "l:0:0:0": 2,
+      "l:1:0:0": 2,
+      "l:1:0:1": 2,
+      "l:3:0:0": 2,
+      "l:3:0:1": 2,
+      "s:0": 0,
+      "s:1": 0,
+      "s:2": 0,
+      "s:3": 0,
+      "s:4": 0,
+      "s:5": 0
+    },
+    "path": [
+      "s:0",
+      "s:1",
+      "s:2",
+      "s:3",
+      "s:4",
+      "s:5"
+    ]
+  }
+}

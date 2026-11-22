@@ -1,0 +1,22 @@
+[
+  {
+    "error": "r must be an exact integer >= 3",
+    "type": "bool",
+    "value": true
+  },
+  {
+    "error": "r must be an exact integer >= 3",
+    "type": "float",
+    "value": 3.0
+  },
+  {
+    "error": "r must be an exact integer >= 3",
+    "type": "str",
+    "value": "3"
+  },
+  {
+    "error": "r must be an exact integer >= 3",
+    "type": "int",
+    "value": 2
+  }
+]

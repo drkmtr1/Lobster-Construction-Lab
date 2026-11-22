@@ -1,0 +1,126 @@
+{
+  "files": {
+    ".gitattributes": {
+      "bytes": 74,
+      "sha256": "612243016cd5e6f83ce4b5e8ee3429ccefe05ea6950fe573c3bd70ff5ae4a040"
+    },
+    "README.md": {
+      "bytes": 2213,
+      "sha256": "6a471f3dec77ebd57c37460058ff54a6c8f1275d481cdcaed5d18bc2b56796a3"
+    },
+    "REVIEWS.md": {
+      "bytes": 2491,
+      "sha256": "48be2154010b683cfed43398a957afcbc9538c0e0bc34b4b172f936c04cc620f"
+    },
+    "audit.py": {
+      "bytes": 16969,
+      "sha256": "f756d237f4b3d4fcd7768cc8cff513374a5eb8161af7f3e3ae7eaa108e527528"
+    },
+    "audit_result.json": {
+      "bytes": 1564,
+      "sha256": "ae08ee53e698e35dac5ce7ec9c3e870fff4d387d32e419052bd8bec6316998be"
+    },
+    "commands.json": {
+      "bytes": 4370,
+      "sha256": "4fb01111b0a02b00756c9c324034efab92c9e9efacc5b1e5905b47020eb09b4b"
+    },
+    "config.json": {
+      "bytes": 566,
+      "sha256": "92f2c9a1622375cd89c559788c42eb065c7bb2dd233fb21fb902052370070f29"
+    },
+    "validate.py": {
+      "bytes": 15171,
+      "sha256": "748ebb250eb80b25aa621dfd9fffca2874684acaa6406d8d5d4eba325f053c36"
+    },
+    "validation/core-r3.json": {
+      "bytes": 4701,
+      "sha256": "d4924ded45f2c2e9cd2e72fc3745531c34a48cc0b694a3825d12406d8286fc04"
+    },
+    "validation/core-r4.json": {
+      "bytes": 4983,
+      "sha256": "c84ea844f17007e9e2c42379de04516e65bf4f2ccbfda55b4e5b82cfa6e6df98"
+    },
+    "validation/core-r5.json": {
+      "bytes": 5265,
+      "sha256": "a426d1d5e0abbb9ce693624a64ba6d903143e8f6fd36854909b66a13856f7522"
+    },
+    "validation/domain_rejections.json": {
+      "bytes": 377,
+      "sha256": "39f5ffbfbbd9d685f3bfa9d95b696b1c49333a864b0409a9712dffea6aa217e2"
+    },
+    "validation/growth_comparison.json": {
+      "bytes": 27590,
+      "sha256": "d04cd765133e99c04a44392bdce072b47f4c5044a0cb4371eef132b9be6a84b8"
+    },
+    "validation/identity.json": {
+      "bytes": 2587,
+      "sha256": "9034be61094266c036ad8e34dcad488e11ed9e5c3009e30c8af16fb12636f11e"
+    },
+    "validation/originals/core-r3.json": {
+      "bytes": 2721,
+      "sha256": "eafa3b88cbc0aefc6c26dcaae59384821f568a3674134af58b381e767ee87d01"
+    },
+    "validation/originals/core-r4.json": {
+      "bytes": 2903,
+      "sha256": "5bbef30827cabc33d73591a8a9489c54dc26e1ec444430f2fc866e6abb9b849f"
+    },
+    "validation/originals/core-r5.json": {
+      "bytes": 3085,
+      "sha256": "71009f011354443339a8a0a9948085a19d541e2549e43a8b2cf20cf547f51a2a"
+    },
+    "validation/originals/target-r3.json": {
+      "bytes": 3441,
+      "sha256": "efda9d642b60620fd8fce3d7ce98ad831ca8d1ba2471297e53ae56b45193261f"
+    },
+    "validation/originals/target-r4.json": {
+      "bytes": 3623,
+      "sha256": "cce1b0739fa2cd08f3d1df8e6b3a905768d111f5dd72d48ab118199f28c98f9e"
+    },
+    "validation/originals/target-r5.json": {
+      "bytes": 3805,
+      "sha256": "e20acf82fa8baf135d94750a4e318c46398e6d736f53f93279b2581b7fd70e48"
+    },
+    "validation/retained_recheck.json": {
+      "bytes": 3069,
+      "sha256": "fffc30dfdf00cb0a629d416ef162cefc31c1c0f692d4e5e3eb8cfa7334cc396c"
+    },
+    "validation/source/lcl/__init__.py": {
+      "bytes": 80,
+      "sha256": "134055506d3e9cd4fa538177844d28a44d5ab567ec220cf54048e63d1a8a7374"
+    },
+    "validation/source/lcl/model.py": {
+      "bytes": 10720,
+      "sha256": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6"
+    },
+    "validation/source/lcl/verify.py": {
+      "bytes": 14075,
+      "sha256": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909"
+    },
+    "validation/source/pyproject.toml": {
+      "bytes": 474,
+      "sha256": "738f14eba3125ce7f444628adaddaf2e3e30e5aa7f43f10e7035067f6b7072e5"
+    },
+    "validation/source/requirements.txt": {
+      "bytes": 144,
+      "sha256": "60f6e1bd76adf6ed25cf381ca95f67e8a27a0de1e62fb673a7cf5af4b86249ea"
+    },
+    "validation/summary.json": {
+      "bytes": 1199,
+      "sha256": "84acc658d2a68402386a441dbfffa9ca3f38447ef8eb7bf5cc7d79a020e067d9"
+    },
+    "validation/target-r3.json": {
+      "bytes": 9336,
+      "sha256": "4105dbbcd94515641849cec39096eb5e20fbe16b61f5eca2e76fcbc81673632f"
+    },
+    "validation/target-r4.json": {
+      "bytes": 9773,
+      "sha256": "11f2d998088fe0ec6c9ddb61738c817d9a15c2544a821ae6bc163221abca8ab1"
+    },
+    "validation/target-r5.json": {
+      "bytes": 10210,
+      "sha256": "9da7a938eb019b4916ad437ed4a1f3c0242ac816905597d8dfb95802b2191a9d"
+    }
+  },
+  "hash_scheme": "SHA-256 of raw bytes",
+  "run_id": "B4-1R32-K1-ROOTED-CORE-001-20261121"
+}

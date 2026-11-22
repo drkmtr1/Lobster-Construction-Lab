@@ -197,3 +197,15 @@ all r>=3, and the missing labels start at 8. This rejects
 that fixed transformation as a supplier for the required
 inventories. The proved shift uses the updated cut r+6.
 [Exact shift calculation](B4_1R32_MINIMUM_HIGH_SUPPLIER.md#updated-high-shift-and-original-suffix)
+
+### F-B4-1R32-K1-UPPER-INCIDENCE-AS-CROSSING
+
+On the retained 14-vertex core `[[1],[2],[],[2],[],[]]` at
+cut 3, all thirteen edges meet an upper-side vertex. The
+seven crossings have differences [7,13]. The six same-side
+upper edges have differences [1,6], all preserved by a
+shift of that side. Using the full upper-side incidence
+spectrum [1,13] fails the ordinary cut hypothesis. This
+rejects the substitution on this ledger. Using the actual
+crossing set gives the accepted growth.
+[Exact calculation](B4_1R32_K1_ROOTED_CORE.md#retained-ordinary-core-and-complete-cut-premise)
