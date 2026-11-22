@@ -1,0 +1,30 @@
+{
+  "cwd": "repository root",
+  "environment": {
+    "PYTHONUTF8": "1"
+  },
+  "commands": [
+    {
+      "command": ".venv/Scripts/python.exe evidence/validation/B4_THIRD_ZERO_HOST_K1_001/query.py --preflight",
+      "exit_code": 0,
+      "output": "{\"status\": \"READY\", \"queries_executed\": 0, \"derived_controls\": 1, \"original_digest\": \"fce6e5676ab825e344c5f217ace9855e4f1e5dc4c88f8a71e9563093daae1a9c\", \"pins\": {\"b:2:0\": 0}, \"domains\": {}, \"effective_domains\": {\"s:0\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], \"b:0:0\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], \"l:0:0:0\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], \"s:1\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], \"b:1:0\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], \"l:1:0:0\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], \"s:2\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], \"b:2:0\": [0], \"l:2:0:0\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], \"l:2:0:1\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], \"s:3\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], \"b:3:0\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], \"l:3:0:0\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], \"l:3:0:1\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], \"s:4\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], \"s:5\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]}, \"schema_probes\": {\"synthetic_only\": true, \"solver_calls\": 0, \"checked\": [\"incomplete\", \"exhausted_zero\", \"pin_mismatch_quarantine\"]}, \"limits\": {\"max_nodes\": 100000, \"time_limit\": 5, \"max_vertices\": 16, \"max_states\": 20000}}\r\n"
+    },
+    {
+      "command": ".venv/Scripts/python.exe evidence/validation/B4_THIRD_ZERO_HOST_K1_001/query.py --execute",
+      "exit_code": 0,
+      "output": "{\"status\": \"INCOMPLETE\", \"nodes\": 100000, \"elapsed_seconds\": 0.8123459999915212, \"exhausted\": false, \"count\": null, \"count_lower_bound\": 0, \"witness\": null}\r\n"
+    },
+    {
+      "command": ".venv/Scripts/python.exe evidence/validation/B4_THIRD_ZERO_HOST_K1_001/audit.py",
+      "exit_code": 0,
+      "output": "PASS: one derived control and one incomplete receipt; 0 added queries or target profiles\r\n"
+    }
+  ],
+  "derived_complete_controls": 1,
+  "new_search_invocations": 1,
+  "new_verified_seeds": 0,
+  "growth_targets": 0,
+  "complete_certificates": 1,
+  "distinct_complete_profiles": 1,
+  "additional_queries_or_targets_from_audit": 0
+}

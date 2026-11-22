@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "run_id": "B4-THIRD-ZERO-HOST-K1-001-20261121-custody-audit",
+  "original_graph_digest": "fce6e5676ab825e344c5f217ace9855e4f1e5dc4c88f8a71e9563093daae1a9c",
+  "input_sha256_raw": {
+    "config.json": "534e372166a39ee6663251af9b50fdf76016cc8732e12f6fe64434ec9cc4cbd2",
+    "original_graph.json": "5d09b9fe00942695ece9466edd8a8f65299d670675525ebac48678a4f4de848b",
+    "preflight.json": "617ac30ede2b41c29c17e6a2b03eeeb5dde40ff1b44ec1afa73cf3fbd31898dd",
+    "control.json": "dad2b9211c3600c429d0c5d460628cd2f017b7b5cda2aee926005bb427fd96e2",
+    "query_start.json": "60a4e642c78834ae02ead0fc2163a749292c8a41502da6cd39cecbf193ed051f",
+    "raw_result.json": "9901eecb61366cf2329ebd5639e1a8c2cd738a08d5dc48da41126a6cef201b49",
+    "query_record.json": "b71cf1dc26700648507e8c2d9769b44e1d4536df6b788438930c2d5585679ff6"
+  },
+  "audit_source_sha256_raw": "62515ac04631c98893d8dfae2573f35f4b0eccb3fc4ce5193a9d4dbd890b6130",
+  "runtime": {
+    "python": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "utf8_mode": 1
+  },
+  "derived_complete_controls_audited": 1,
+  "saved_query_records_audited": 1,
+  "distinct_complete_profiles_audited": 1,
+  "new_verified_seeds": 0,
+  "growth_targets": 0,
+  "additional_queries": 0,
+  "additional_target_profiles": 0,
+  "scope": "Arithmetic and original-identity verification of the same saved control and incomplete receipt"
+}

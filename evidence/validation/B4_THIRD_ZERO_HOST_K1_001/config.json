@@ -1,0 +1,63 @@
+{
+  "run_id": "B4-THIRD-ZERO-HOST-K1-001-20261121",
+  "starting_commit": "70664759ca1c3a6e5a6049aaff179e2a7e2990ec",
+  "profile": [
+    [
+      1
+    ],
+    [
+      1
+    ],
+    [
+      2
+    ],
+    [
+      2
+    ],
+    [],
+    []
+  ],
+  "original_graph_digest": "fce6e5676ab825e344c5f217ace9855e4f1e5dc4c88f8a71e9563093daae1a9c",
+  "engine": "dfs",
+  "count": false,
+  "workers": 1,
+  "new_queries": 1,
+  "max_result_bytes": 2000000,
+  "limits": {
+    "max_nodes": 100000,
+    "time_limit": 5,
+    "max_vertices": 16,
+    "max_states": 20000
+  },
+  "dfs_uses_max_states": false,
+  "pins": {
+    "b:2:0": 0
+  },
+  "domains": {},
+  "historical_prefix": {
+    "path": "evidence/validation/B4_FOURTH_2_SUPPLY_001/diagnostic_results/1122-adjacent.json",
+    "sha256_raw": "ccdf06602ee9b3f1b59b89be02adbe2e39188b11e8d0945331350994e45c0488",
+    "graph_digest": "a8fc14f45ba08e88fb3c53ce0611b2886c5cc0250dcc0985070e92de804595dc"
+  },
+  "conditional_growth_checks": {
+    "cases": [
+      [
+        3,
+        1
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "parameter_order": [
+      "t",
+      "K"
+    ],
+    "workers": 1,
+    "max_vertices": 18,
+    "max_result_bytes": 2000000,
+    "search": false,
+    "compare_same_t4_batch": true
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "count": null,
+  "count_lower_bound": 0,
+  "elapsed_seconds": 0.8123459999915212,
+  "exhausted": false,
+  "limits": {
+    "max_nodes": 100000,
+    "max_states": 20000,
+    "max_vertices": 16,
+    "time_limit": 5
+  },
+  "method": "dfs",
+  "nodes": 100000,
+  "reason": "max_nodes",
+  "restrictions": {
+    "count_convention": "bijections on named physical vertices; no symmetry quotient",
+    "domains": {},
+    "hidden_symmetry_reduction": false,
+    "pins": {
+      "b:2:0": 0
+    },
+    "scope": "restricted"
+  },
+  "status": "INCOMPLETE",
+  "witness": null
+}

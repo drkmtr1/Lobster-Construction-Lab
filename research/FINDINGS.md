@@ -355,3 +355,27 @@ four added zero targets or queries. Separate AI reviews
 accepted. No public route was added.
 [Proof and scope](B4_THIRD_ZERO_HOST_NONADJACENT.md)
 · [Evidence](../evidence/validation/B4_THIRD_ZERO_HOST_NONADJACENT_001/README.md) · D039
+
+## B4-THIRD-ZERO-HOST-K1-001
+
+**ACCEPT** the single derived complete control on the original
+`[[1],[1],[2],[2],[],[]]`. The retained adjacent prefix was
+lifted by shifting its highs by one and assigning the actual
+s:5=7. The control is graceful and has b:2:0=2.
+
+**ACCEPT, conditional** the ordinary zero-host extension
+arithmetic, including the named K=1 leaf formula 14+j and
+singleton resource transport if a complete zero-host seed
+is supplied. The alpha zero-host theorem keeps its own
+hypotheses.
+
+**INCOMPLETE** the only complete-target first-witness DFS
+with sole pin b:2:0=0. It reached max_nodes at 100,000
+nodes with no witness, no exhaustion and no exact count.
+The control and receipt passed the arithmetic/custody audit.
+It added zero targets or queries. Separate AI reviews
+accepted this scope. The one full control certificate
+represents one distinct parameter case. There is no
+new seed, growth check or combined all-positive theorem.
+[Proof and scope](B4_THIRD_ZERO_HOST_K1.md)
+· [Evidence](../evidence/validation/B4_THIRD_ZERO_HOST_K1_001/README.md) · D040

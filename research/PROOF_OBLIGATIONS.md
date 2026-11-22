@@ -341,3 +341,14 @@ The actual K-edge path then consumes both inventories.
 The K=1 interface fails, leaving a direct K=1 supplier for
 t>=3 open. The earlier adjacent restriction and t=1 coverage
 are separate results.
+
+### Direct K=1 zero-host supplier
+
+The [ordinary extension and resource reduction](B4_THIRD_ZERO_HOST_K1.md)
+would carry a complete 16-vertex zero-host seed to every t>=2
+at K=1 on the exact (1,1,t,2) family. The complete derived
+control for t=2 has host label 2. The separate first-witness
+query with sole b:2:0=0 reached its declared node cap and
+left the seed and actual singleton resources undetermined.
+The direct K=1 supplier for t>=3 and thus the combined
+all-positive-t,K theorem remain open.
