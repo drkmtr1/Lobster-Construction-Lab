@@ -582,9 +582,12 @@ preserves the evidence basis of each row.
 
 The proposed named core `[[q],[r],[],[2],[],[]]` for q,r>=2
 requires an independent graceful labeling with the maximum
-at original physical s:2. The first open obligation is
-q=r=2, to be compared with the retained q-only and r-only
-constructions. Conditional on supply, translating by one
+at original physical s:2. The [joint pilot](B4_JOINT_MAX_ROOTED_CORE_PILOT.md)
+rejects transfer from both retained fixed ledgers and records
+the sole q=r=2 query as INCOMPLETE. Direct named supply with
+maximum 14 at s:2 is the selected open obligation, with zero
+at s:1 or s:3 as its two structural cases. Conditional on
+supply, translating by one
 and restoring the third zero host and its terminals fills
 both enlarged inventories on the K=1 target. Joint supply
 and K>=2 continuation remain open.

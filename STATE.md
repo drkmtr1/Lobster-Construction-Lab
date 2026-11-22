@@ -2,7 +2,7 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 22, 2026, Pacific/Honolulu<br>
-**Stage:** B4-1342-U9-A1-ANALYTIC-CLOSEOUT-001 reviewed. PIVOT from the two closed 1342 upper-block exit interfaces to conditional maximum-rooted core supply.
+**Stage:** B4-JOINT-MAX-ROOTED-CORE-PILOT-001 reviewed. The joint (2,2) core query is INCOMPLETE. Both retained crossing-cut transfers are rejected under their exact fixed ledgers.
 
 ## Current scientific objective
 
@@ -10,11 +10,12 @@ Develop independently supplied original-graph boundaries beyond the proved zero-
 
 ## One next action
 
-**With a new bounded scope decision, investigate an independently supplied maximum-rooted ordinary graceful core `[[q],[r],[],[2],[],[]]` for `q,r>=2`, starting at `q=r=2`.** Compare the accepted `q`-only and `r`-only constructions and require the maximum at the original physical `s:2`.
+**With a new bounded scope decision, investigate a direct named construction for `[[2],[2],[],[2],[],[]]` with physical `s:2=14`.** Use the two possible zero-neighbor cases `s:1=0` and `s:3=0` as structural cases.
 
 ## What is established in this package
 
 - Both authenticated upstream main heads match the pinned audit commits. The repositories remain unchanged.
+- B4-JOINT-MAX-ROOTED-CORE-PILOT-001 independently checks both retained 14-vertex maximum-rooted cores and rejects the exact one-cut transfer at each other host. One original-bound DFS with sole pin s:2=14 stopped INCOMPLETE at 100,000 nodes on `[[2],[2],[],[2],[],[]]`. The three graph records passed audit. Joint feasibility remains open and no t=2 lift was instantiated. See `research/B4_JOINT_MAX_ROOTED_CORE_PILOT.md`, D057 and `evidence/validation/B4_JOINT_MAX_ROOTED_CORE_PILOT_001/`.
 - B4-1342-U9-A1-ANALYTIC-CLOSEOUT-001 rejects the label-one upper-block predicate at physical s:4=9 on exact named 1342, c=10..18, with b:2:0=0 and the fixed alpha orientation. Complete spectrum necessity rejects every positive batch. The combined results close this interface at s:4=9 and s:4=10 for a=1..8, with analytic evidence at 9 and analytic plus reviewed computational evidence at 10. Nine thresholds and two retained originals passed independent audit. See `research/B4_1342_U9_A1_ANALYTIC_CLOSEOUT.md`, D056 and `evidence/validation/B4_1342_U9_A1_CLOSEOUT_001/`.
 - B4-1342-U9-STRUCTURAL-OBSTRUCTION-001 proves the full selected spectrum [c-a,18] impossible on the exact named 1342 alpha domain with b:2:0=0, physical s:4=9, a=2..8 and c=10..18. Forced degrees and labels reduce 63 pairs to six named cases, each contradicted on original incidences. The selected spectrum is necessary for every positive batch of the prescribed operation. Two retained controls and 15 invalid probes passed independent audit with zero solver calls or new graphs. See `research/B4_1342_U9_STRUCTURAL_OBSTRUCTION.md`, D055 and `evidence/validation/B4_1342_U9_STRUCTURAL_OBSTRUCTION_001/`.
 - B4-1342-RELAXED-HOST-SEED-001 proves the necessary 56-pair prefilter and records a reviewed EXHAUSTED RESTRICTED NEGATIVE at b:2:0=0 and physical s:4=10, with a=2..8, c=11..18 and full upper-block predicate [c-a,18]. Thirty-three pairs were analytically excluded and all 23 admitted pairs exhausted in 13,171 assignment nodes. Two retained controls were rechecked, with zero new graphs or graceful targets. See `research/B4_1342_RELAXED_HOST_SEED_RESULT.md`, D054 and `evidence/validation/B4_1342_RELAXED_HOST_SEED_001/`.

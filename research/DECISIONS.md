@@ -1,6 +1,6 @@
 # Decisions and algorithm-change log
 
-This file owns consequential choices and change proposals. `STATE.md` owns current work; findings and failures own scientific dispositions. Dates below are November 20, 2026, Pacific/Honolulu, except D016 through D051 (November 21, 2026) and D052 through D056 (November 22, 2026).
+This file owns consequential choices and change proposals. `STATE.md` owns current work; findings and failures own scientific dispositions. Dates below are November 20, 2026, Pacific/Honolulu, except D016 through D051 (November 21, 2026) and D052 through D057 (November 22, 2026).
 
 | ID | Decision | Reason and review consequence |
 |---|---|---|
@@ -61,6 +61,7 @@ This file owns consequential choices and change proposals. `STATE.md` owns curre
 | D054 | Close B4-1342-RELAXED-HOST-SEED-001 at bb7927bcf85d6d32b9bde5b1904c6b43ec6b6a8e | **ACCEPT** the necessary prefilter, exact edge-band equivalence and implementation-level EXHAUSTED RESTRICTED NEGATIVE for the precise pin and predicate domain. Thirty-three pairs excluded, 23 exhausted, 68 named subsets, 13,171 assignment nodes, 1.109 seconds. Two retained controls, ten invalid probes, separate AI reviews and independent audit. No optional graphs, positive transport, replay or production changes. |
 | D055 | Close B4-1342-U9-STRUCTURAL-OBSTRUCTION-001 at 3ac2ccc91d28063e89ebd21bf3ec5bf525f72992 | **ACCEPT** the forced orientation, six-case structural obstruction and the necessity of the complete selected spectrum for every positive batch. **REJECT** the exact prescribed operation at Z=0, U=9, a=2..8 and c=10..18. Use a symbolic proof with two retained controls, 512 physical subsets, 63 pairs, six residual contradictions and 15 invalid probes. Independent audit and separate AI reviews. Zero solver, labeling enumeration, replay, new graph or production change. |
 | D056 | Close B4-1342-U9-A1-ANALYTIC-CLOSEOUT-001 at 86d3d1cf7ab140b23a9aace81c654b43b26b65af and PIVOT | **ACCEPT** the label-one obstruction and positive-batch necessity at U=9. **REJECT** the prescribed two-exit interface for all a=1..8 under the stated pins. Use nine threshold calculations and two retained originals, with independent audit and separate reviews. Retire the two interfaces unless new mathematics warrants reopening. The proposed joint maximum-rooted core uses a different ordinary interface and would conditionally supply third-branch restoration on K=1. No successor execution, solver, labeling enumeration, replay or production edits. |
+| D057 | Close B4-JOINT-MAX-ROOTED-CORE-PILOT-001 at f67418a57906f4f37b3d20d12a800373db571e0a | **ACCEPT** the controls and **REJECT** their two exact one-cut transfers. Use one bounded original-bound DFS with physical maximum at s:2 on q=r=2. **INCOMPLETE** at 100,000 nodes with no witness and no feasibility verdict. Three graph records, no conditional lift, retry or historical replay. Keep joint growth and K>=2 separate. |
 
 ## Proposal template for the next consequential algorithm change
 

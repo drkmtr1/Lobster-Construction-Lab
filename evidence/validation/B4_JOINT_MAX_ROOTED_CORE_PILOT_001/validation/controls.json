@@ -1,0 +1,1012 @@
+[
+  {
+    "checker": {
+      "claim": "finite certificate for this exact named target only",
+      "edge_differences": [
+        11,
+        12,
+        13,
+        5,
+        1,
+        10,
+        8,
+        9,
+        7,
+        2,
+        3,
+        6,
+        4
+      ],
+      "errors": [],
+      "graph_digest": "d048f521c753dacdbc7939adbbe5949dc7063d4849c4eb341c7084c1bbdadab9",
+      "m": 13,
+      "n": 14,
+      "valid": true
+    },
+    "cuts": [
+      {
+        "c": 0,
+        "crossing": [],
+        "host_side": "at_or_above",
+        "matches": false,
+        "required": [
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "c": 1,
+        "crossing": [
+          3,
+          5,
+          13
+        ],
+        "host_side": "at_or_above",
+        "matches": false,
+        "required": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "c": 2,
+        "crossing": [
+          3,
+          5,
+          7,
+          11,
+          12,
+          13
+        ],
+        "host_side": "at_or_above",
+        "matches": false,
+        "required": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "c": 3,
+        "crossing": [
+          3,
+          5,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "host_side": "at_or_above",
+        "matches": false,
+        "required": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "c": 4,
+        "crossing": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "host_side": "at_or_above",
+        "matches": false,
+        "required": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "c": 5,
+        "crossing": [
+          1,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "host_side": "at_or_above",
+        "matches": false,
+        "required": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "c": 6,
+        "crossing": [
+          4,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "host_side": "at_or_above",
+        "matches": false,
+        "required": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "c": 7,
+        "crossing": [
+          2,
+          4,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "host_side": "at_or_above",
+        "matches": false,
+        "required": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "c": 8,
+        "crossing": [
+          2,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "host_side": "at_or_above",
+        "matches": false,
+        "required": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "c": 9,
+        "crossing": [
+          6,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "host_side": "below",
+        "matches": false,
+        "required": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "c": 10,
+        "crossing": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "host_side": "below",
+        "matches": false,
+        "required": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "c": 11,
+        "crossing": [
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "host_side": "below",
+        "matches": false,
+        "required": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "c": 12,
+        "crossing": [
+          10,
+          11,
+          12,
+          13
+        ],
+        "host_side": "below",
+        "matches": false,
+        "required": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "c": 13,
+        "crossing": [
+          12,
+          13
+        ],
+        "host_side": "below",
+        "matches": false,
+        "required": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "c": 14,
+        "crossing": [],
+        "host_side": "below",
+        "matches": false,
+        "required": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    ],
+    "graph_digest": "d048f521c753dacdbc7939adbbe5949dc7063d4849c4eb341c7084c1bbdadab9",
+    "host": "b:1:0",
+    "id": "q2",
+    "labels": {
+      "b:0:0": 2,
+      "b:1:0": 8,
+      "b:3:0": 3,
+      "l:0:0:0": 10,
+      "l:0:0:1": 11,
+      "l:1:0:0": 6,
+      "l:3:0:0": 9,
+      "l:3:0:1": 7,
+      "s:0": 12,
+      "s:1": 1,
+      "s:2": 13,
+      "s:3": 0,
+      "s:4": 5,
+      "s:5": 4
+    },
+    "ledger": [
+      {
+        "difference": 11,
+        "edge": [
+          "s:0",
+          "s:1"
+        ]
+      },
+      {
+        "difference": 12,
+        "edge": [
+          "s:1",
+          "s:2"
+        ]
+      },
+      {
+        "difference": 13,
+        "edge": [
+          "s:2",
+          "s:3"
+        ]
+      },
+      {
+        "difference": 5,
+        "edge": [
+          "s:3",
+          "s:4"
+        ]
+      },
+      {
+        "difference": 1,
+        "edge": [
+          "s:4",
+          "s:5"
+        ]
+      },
+      {
+        "difference": 10,
+        "edge": [
+          "s:0",
+          "b:0:0"
+        ]
+      },
+      {
+        "difference": 8,
+        "edge": [
+          "b:0:0",
+          "l:0:0:0"
+        ]
+      },
+      {
+        "difference": 9,
+        "edge": [
+          "b:0:0",
+          "l:0:0:1"
+        ]
+      },
+      {
+        "difference": 7,
+        "edge": [
+          "s:1",
+          "b:1:0"
+        ]
+      },
+      {
+        "difference": 2,
+        "edge": [
+          "b:1:0",
+          "l:1:0:0"
+        ]
+      },
+      {
+        "difference": 3,
+        "edge": [
+          "s:3",
+          "b:3:0"
+        ]
+      },
+      {
+        "difference": 6,
+        "edge": [
+          "b:3:0",
+          "l:3:0:0"
+        ]
+      },
+      {
+        "difference": 4,
+        "edge": [
+          "b:3:0",
+          "l:3:0:1"
+        ]
+      }
+    ]
+  },
+  {
+    "checker": {
+      "claim": "finite certificate for this exact named target only",
+      "edge_differences": [
+        8,
+        13,
+        12,
+        10,
+        6,
+        4,
+        1,
+        9,
+        3,
+        7,
+        11,
+        2,
+        5
+      ],
+      "errors": [],
+      "graph_digest": "bc1d534221809ec665279ecbab9fb87276fbcf87d3915c7d0656bd2cc7518e48",
+      "m": 13,
+      "n": 14,
+      "valid": true
+    },
+    "cuts": [
+      {
+        "c": 0,
+        "crossing": [],
+        "host_side": "at_or_above",
+        "matches": false,
+        "required": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "c": 1,
+        "crossing": [
+          8,
+          9,
+          13
+        ],
+        "host_side": "at_or_above",
+        "matches": false,
+        "required": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "c": 2,
+        "crossing": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "host_side": "at_or_above",
+        "matches": false,
+        "required": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "c": 3,
+        "crossing": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "host_side": "at_or_above",
+        "matches": false,
+        "required": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "c": 4,
+        "crossing": [
+          1,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "host_side": "at_or_above",
+        "matches": false,
+        "required": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "c": 5,
+        "crossing": [
+          4,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "host_side": "below",
+        "matches": false,
+        "required": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "c": 6,
+        "crossing": [
+          4,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "host_side": "below",
+        "matches": false,
+        "required": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "c": 7,
+        "crossing": [
+          3,
+          4,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "host_side": "below",
+        "matches": false,
+        "required": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "c": 8,
+        "crossing": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "host_side": "below",
+        "matches": false,
+        "required": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "c": 9,
+        "crossing": [
+          3,
+          5,
+          6,
+          7,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "host_side": "below",
+        "matches": false,
+        "required": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "c": 10,
+        "crossing": [
+          5,
+          6,
+          10,
+          11,
+          12,
+          13
+        ],
+        "host_side": "below",
+        "matches": false,
+        "required": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "c": 11,
+        "crossing": [
+          2,
+          5,
+          6,
+          10,
+          11,
+          12,
+          13
+        ],
+        "host_side": "below",
+        "matches": false,
+        "required": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "c": 12,
+        "crossing": [
+          2,
+          5,
+          11,
+          12,
+          13
+        ],
+        "host_side": "below",
+        "matches": false,
+        "required": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "c": 13,
+        "crossing": [
+          12,
+          13
+        ],
+        "host_side": "below",
+        "matches": false,
+        "required": [
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "c": 14,
+        "crossing": [],
+        "host_side": "below",
+        "matches": false,
+        "required": [
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    ],
+    "graph_digest": "bc1d534221809ec665279ecbab9fb87276fbcf87d3915c7d0656bd2cc7518e48",
+    "host": "b:0:0",
+    "id": "r2",
+    "labels": {
+      "b:0:0": 4,
+      "b:1:0": 9,
+      "b:3:0": 12,
+      "l:0:0:0": 3,
+      "l:1:0:0": 6,
+      "l:1:0:1": 2,
+      "l:3:0:0": 10,
+      "l:3:0:1": 7,
+      "s:0": 8,
+      "s:1": 0,
+      "s:2": 13,
+      "s:3": 1,
+      "s:4": 11,
+      "s:5": 5
+    },
+    "ledger": [
+      {
+        "difference": 8,
+        "edge": [
+          "s:0",
+          "s:1"
+        ]
+      },
+      {
+        "difference": 13,
+        "edge": [
+          "s:1",
+          "s:2"
+        ]
+      },
+      {
+        "difference": 12,
+        "edge": [
+          "s:2",
+          "s:3"
+        ]
+      },
+      {
+        "difference": 10,
+        "edge": [
+          "s:3",
+          "s:4"
+        ]
+      },
+      {
+        "difference": 6,
+        "edge": [
+          "s:4",
+          "s:5"
+        ]
+      },
+      {
+        "difference": 4,
+        "edge": [
+          "s:0",
+          "b:0:0"
+        ]
+      },
+      {
+        "difference": 1,
+        "edge": [
+          "b:0:0",
+          "l:0:0:0"
+        ]
+      },
+      {
+        "difference": 9,
+        "edge": [
+          "s:1",
+          "b:1:0"
+        ]
+      },
+      {
+        "difference": 3,
+        "edge": [
+          "b:1:0",
+          "l:1:0:0"
+        ]
+      },
+      {
+        "difference": 7,
+        "edge": [
+          "b:1:0",
+          "l:1:0:1"
+        ]
+      },
+      {
+        "difference": 11,
+        "edge": [
+          "s:3",
+          "b:3:0"
+        ]
+      },
+      {
+        "difference": 2,
+        "edge": [
+          "b:3:0",
+          "l:3:0:0"
+        ]
+      },
+      {
+        "difference": 5,
+        "edge": [
+          "b:3:0",
+          "l:3:0:1"
+        ]
+      }
+    ]
+  }
+]

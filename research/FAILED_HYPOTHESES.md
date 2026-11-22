@@ -290,3 +290,14 @@ subject to c strictly above the actual exit and c<=18, and
 the alpha bands [0,8] and [9,18]. Prior results retain their
 individual proof or reviewed computational evidence.
 [Closeout and scope](B4_1342_U9_A1_ANALYTIC_CLOSEOUT.md)
+
+### F-B4-JOINT-MAX-ROOTED-CORE-RETAINED-CUT-TRANSFERS
+
+The retained q=2,r=1 ledger at physical b:1:0=8 and the
+retained q=1,r=2 ledger at physical b:0:0=4 have no complete
+crossing tail required for adding the missing named terminal
+by the exact one-cut shift. All proper cuts 1..13 and both
+endpoint arithmetic comparisons fail on each ledger. The
+single separate joint maximum-rooted search is INCOMPLETE,
+with no feasibility verdict.
+[Proof and bounded outcome](B4_JOINT_MAX_ROOTED_CORE_PILOT.md)

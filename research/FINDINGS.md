@@ -840,3 +840,24 @@ independent arithmetic audit and separate AI reviews. Zero
 new profiles, queries, labeling enumeration or historical
 replay. [Proof](B4_1342_U9_A1_ANALYTIC_CLOSEOUT.md)
 · [Evidence](../evidence/validation/B4_1342_U9_A1_CLOSEOUT_001/README.md) · D056
+
+## B4-JOINT-MAX-ROOTED-CORE-PILOT-001
+
+**ACCEPT** the two retained comparison cores and their
+complete original-edge ledgers. Neither fixed labeling
+supplies one-leaf crossing-cut insertion at its other
+physical branch center at any cut. **REJECT** those two
+exact transfers. Their failure concerns the stated operation.
+
+**INCOMPLETE** for the exact named `[[2],[2],[],[2],[],[]]`
+core with sole pin s:2=14 and ordinary graceful differences.
+The sole first-witness DFS stopped at max_nodes=100,000
+after about 0.774 seconds, with no witness and no exhaustion.
+The two possible zero neighbors s:1 and s:3 remained in the
+query. Feasibility is open. The conditional t=2 lift and
+joint-growth assessment were not activated.
+
+The independent arithmetic audit checked three graph records
+and added no query. No repeat or historical replay occurred.
+[Proof](B4_JOINT_MAX_ROOTED_CORE_PILOT.md)
+· [Evidence](../evidence/validation/B4_JOINT_MAX_ROOTED_CORE_PILOT_001/README.md) · D057

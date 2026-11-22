@@ -1,0 +1,18 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "exit_code": 0,
+      "elapsed_command_seconds": 2.1353718,
+      "stdout": "{\"elapsed_seconds\": 0.7740053000161424, \"nodes\": 100000, \"reason\": \"max_nodes\", \"status\": \"INCOMPLETE\"}\n",
+      "stderr": ""
+    },
+    {
+      "step": 2,
+      "exit_code": 0,
+      "elapsed_command_seconds": 1.1306723,
+      "stdout": "PASS: INCOMPLETE; two retained controls, one joint original, 0 completed lift\n",
+      "stderr": ""
+    }
+  ]
+}

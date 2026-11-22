@@ -1,0 +1,77 @@
+{
+  "id": "B4-JOINT-MAX-ROOTED-CORE-PILOT-001-20261122",
+  "parent": "f67418a57906f4f37b3d20d12a800373db571e0a",
+  "profile": [
+    [
+      2
+    ],
+    [
+      2
+    ],
+    [],
+    [
+      2
+    ],
+    [],
+    []
+  ],
+  "pins": {
+    "s:2": 14
+  },
+  "domains": {},
+  "count": false,
+  "workers": 1,
+  "limits": {
+    "max_vertices": 15,
+    "max_nodes": 100000,
+    "time_limit": 6,
+    "max_states": 20000
+  },
+  "max_lift_order": 18,
+  "max_bytes": 2000000,
+  "searches_max": 1,
+  "automatic_retries": 0,
+  "historical_replays": 0,
+  "controls": [
+    {
+      "id": "q2",
+      "profile": [
+        [
+          2
+        ],
+        [
+          1
+        ],
+        [],
+        [
+          2
+        ],
+        [],
+        []
+      ],
+      "original": "evidence/validation/B4_Q1T2_K1_ROOTED_CORE_001/validation/originals/core-q2.json",
+      "certificate": "evidence/validation/B4_Q1T2_K1_ROOTED_CORE_001/validation/core-q2.json",
+      "host": "b:1:0"
+    },
+    {
+      "id": "r2",
+      "profile": [
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [],
+        [
+          2
+        ],
+        [],
+        []
+      ],
+      "original": "evidence/validation/B4_12T2_K1_ROOTED_CORE_001/validation/originals/core.json",
+      "certificate": "evidence/validation/B4_12T2_K1_ROOTED_CORE_001/validation/core.json",
+      "host": "b:0:0"
+    }
+  ]
+}

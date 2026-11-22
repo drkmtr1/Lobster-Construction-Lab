@@ -1,0 +1,24 @@
+{
+  "audited_files": {
+    "controls.json": "e692668aa1a092edc26b02055734a861221f12286c14b532d4bf8aa45719b4df",
+    "core_original.json": "a11c0daeeb58457ec1824f6507c958c2809ffc01fd06d059f1db69807fe2b764",
+    "identity.json": "003ce24b9aad19ecf1b7863f5c07de1a4e24b32a5437cd1c1ca8aa963062a177",
+    "query_started.json": "5d691ffc84b19f944c1143fffce81bb43fdf8d1324e019bedb62e7303b7b6af5",
+    "raw_query.json": "2f399449c5712cf0a2c2d21242ed91a49cd19c0074d08bfd341ff416b014753f",
+    "result.json": "865d2833ad0ea62f3fa02406e5ece9e66f75e084228a08d21dcda47cb1a3d311",
+    "source/lcl/__init__.py": "134055506d3e9cd4fa538177844d28a44d5ab567ec220cf54048e63d1a8a7374",
+    "source/lcl/budget.py": "02145a6b4bc10eda53d2f3736fdf082c1414f96905c71e74a407c0cefd73b16a",
+    "source/lcl/model.py": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6",
+    "source/lcl/search.py": "f8291a3446e04422095131e4d75100ec9bfd3213d039d17ce83c04ec82d671ff",
+    "source/lcl/verify.py": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909",
+    "source/pyproject.toml": "738f14eba3125ce7f444628adaddaf2e3e30e5aa7f43f10e7035067f6b7072e5",
+    "source/requirements.txt": "60f6e1bd76adf6ed25cf381ca95f67e8a27a0de1e62fb673a7cf5af4b86249ea"
+  },
+  "completed_t2_records": 0,
+  "joint_core_records": 1,
+  "nodes": 100000,
+  "query_status": "INCOMPLETE",
+  "retained_graphs": 2,
+  "solver_calls_in_audit": 0,
+  "status": "PASS"
+}

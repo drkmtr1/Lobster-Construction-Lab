@@ -1,0 +1,5 @@
+# Preserve the raw pilot evidence.
+* -text
+# Preserve inherited trailing blank lines in the exact runtime snapshots.
+validation/source/lcl/budget.py whitespace=-blank-at-eof
+validation/source/lcl/search.py whitespace=-blank-at-eof

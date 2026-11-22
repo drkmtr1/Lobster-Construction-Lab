@@ -1,0 +1,30 @@
+{
+  "auditor_sha256": "5c46445b3ab13a31cec68ebc8f463177048d37af2166f443455e135293033372",
+  "commands_sha256": "299a30ac4774d197076015e6f7e9de136200ba7dc2e033854b72c6ed9a87e078",
+  "config_sha256": "af1f06a131c39eba6632c1830a006dceaa40b5f0628c2a743c3fbf4c000dc254",
+  "id": "B4-JOINT-MAX-ROOTED-CORE-PILOT-001-20261122",
+  "parent": "f67418a57906f4f37b3d20d12a800373db571e0a",
+  "retained_sha256": {
+    "evidence/validation/B4_12T2_K1_ROOTED_CORE_001/validation/core.json": "155539e969f077f3072e3c96651deaf7f0267e67efd74689c244bc2adadc918a",
+    "evidence/validation/B4_12T2_K1_ROOTED_CORE_001/validation/originals/core.json": "027901e893ad6c40796709c113e0c557f5fd57ca4fd07e9c0b6a8992e52093ad",
+    "evidence/validation/B4_Q1T2_K1_ROOTED_CORE_001/validation/core-q2.json": "81ddf539fa13276500e1983ba8140bab2030399ed81a77b0eec77768751fad7a",
+    "evidence/validation/B4_Q1T2_K1_ROOTED_CORE_001/validation/originals/core-q2.json": "7acd7dc810e1095bc1745eb10344319e08779cdaa04519b90dd638f4e3e6daac"
+  },
+  "runner_sha256": "152ed93e9de3db969abfb236f796a638605c2fb51a3c8fdeece8f5fff0cd8652",
+  "runtime": {
+    "implementation": "cpython",
+    "optional_dependencies": [],
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]",
+    "utf8_mode": 1
+  },
+  "source_sha256": {
+    "lcl/__init__.py": "134055506d3e9cd4fa538177844d28a44d5ab567ec220cf54048e63d1a8a7374",
+    "lcl/budget.py": "02145a6b4bc10eda53d2f3736fdf082c1414f96905c71e74a407c0cefd73b16a",
+    "lcl/model.py": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6",
+    "lcl/search.py": "f8291a3446e04422095131e4d75100ec9bfd3213d039d17ce83c04ec82d671ff",
+    "lcl/verify.py": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909",
+    "pyproject.toml": "738f14eba3125ce7f444628adaddaf2e3e30e5aa7f43f10e7035067f6b7072e5",
+    "requirements.txt": "60f6e1bd76adf6ed25cf381ca95f67e8a27a0de1e62fb673a7cf5af4b86249ea"
+  }
+}
