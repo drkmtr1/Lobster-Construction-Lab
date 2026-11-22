@@ -1,0 +1,27 @@
+{
+  "run_id": "B4-1342-ALL-LEDGER-PINNED-OBSTRUCTION-001-20261122",
+  "parent": "41f4e42fb73ab87a93abe1f7c348e8442fdd47b7",
+  "workers": 1,
+  "max_vertices": 19,
+  "max_result_bytes": 2000000,
+  "solver_queries": 0,
+  "labeling_enumeration": 0,
+  "historical_replay": 0,
+  "new_graph_records": 0,
+  "new_graceful_targets": 0,
+  "new_attempted_enlarged_graphs": 0,
+  "pins": {"b:0:0": 1, "b:2:0": 0, "s:4": 10},
+  "thresholds": [11, 12, 13, 14, 15, 16, 17, 18],
+  "invalid_thresholds": [true, 10, 19, 12.0, "12"],
+  "1342": {
+    "original": "evidence/validation/B4_1342_UPPER_BLOCK_OBSTRUCTION_001/validation/originals/1342.json",
+    "source_original": "evidence/validation/B4_1RT2_TWO_HOST_COMPATIBILITY_001/validation/originals/normalized-r3-t4.json",
+    "certificate": "evidence/validation/B4_1RT2_TWO_HOST_COMPATIBILITY_001/validation/normalized-r3-t4.json"
+  },
+  "1122": {
+    "original": "evidence/validation/B4_THIRD_ZERO_HOST_NONADJACENT_001/original_graph.json",
+    "bound_query": "evidence/validation/B4_THIRD_ZERO_HOST_NONADJACENT_001/query_record.json",
+    "certificate": "evidence/validation/B4_UNPADDED_Q1T2_001/validation/retained_seed.json",
+    "threshold": 9
+  }
+}

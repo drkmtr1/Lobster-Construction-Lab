@@ -2,7 +2,7 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 22, 2026, Pacific/Honolulu<br>
-**Stage:** B4-1342-UPPER-BLOCK-OBSTRUCTION-001 reviewed. The exact port-preserving upper-block operation on the fixed 1342 ledger is rejected for every positive batch. The exact ordered (1,r,t,2) family retains ordinary graceful coverage for all positive integers r,t,K.
+**Stage:** B4-1342-ALL-LEDGER-PINNED-OBSTRUCTION-001 reviewed. The prescribed upper-block first insertion is rejected for every normalized alpha labeling under the three 1342 pins. The all-positive (1,r,t,2) theorem is unchanged.
 
 ## Current scientific objective
 
@@ -10,11 +10,12 @@ Develop independently supplied original-graph boundaries beyond the proved zero-
 
 ## One next action
 
-**With a new bounded scope decision, seek a differently labeled normalized `[[1],[3],[4],[2],[]]` seed**, keeping `b:0:0=1`, `b:2:0=0`, and physical `s:4=10`, and supplying the full upper-block incidence spectrum at one permitted threshold.
+**With a new bounded scope decision, seek a normalized alpha labeling of `[[1],[3],[4],[2],[]]` with `b:2:0=0` and physical `s:4=10`**, returning `a=g(b:0:0)` in `2..8` and `c` in `11..18` with complete selected incidence spectrum `[c-a,18]`.
 
 ## What is established in this package
 
 - Both authenticated upstream main heads match the pinned audit commits. The repositories remain unchanged.
+- B4-1342-ALL-LEDGER-PINNED-OBSTRUCTION-001 proves s_c differs from 20-c for every normalized alpha labeling of exact 1342 with b:0:0=1, b:2:0=0 and physical s:4=10, for c=11..18. The high-degree lower bounds handle c=11,12, and descending original differences contradict the required degree-two selected vertex at c>=13. The nonzero edge-sum defect rejects every positive batch of the prescribed operation. Two retained certificates and five guards passed, with zero new graphs, assignments or solver queries. See `research/B4_1342_ALL_LEDGER_PINNED_OBSTRUCTION.md`, D053 and `evidence/validation/B4_1342_ALL_LEDGER_PINNED_OBSTRUCTION_001/`.
 - B4-1342-UPPER-BLOCK-OBSTRUCTION-001 exhausts the exact thresholds 11..18 on the fixed normalized 1342 ledger with b:0:0=1 and physical s:4=10. All eight counts miss 20-c, so the sum discrepancy h*(s_c+c-20) rules out every positive batch of the prescribed first-leaf insertion. The retained 1122 positive control supplies [5,14]. The checker rejected eight one-leaf assignments on a single new original, with zero solver calls. See `research/B4_1342_FIXED_LEDGER_UPPER_BLOCK_OBSTRUCTION.md`, D052 and `evidence/validation/B4_1342_UPPER_BLOCK_OBSTRUCTION_001/`.
 - B4-1RT2-K1-DIRECT-SINGLETON-001 uses the independently supplied C_r core with physical s:2 maximum to complete `[[1],[r],[t],[2],[],[]]` for exact integers r>=3,t>=4. It returns R={r+4}, D={6} at physical s:4=r+10 and assigns s:5=r+4. The complete ordinary crossing cut supports second-host growth compatible with the third zero host. The selector gives ordinary gracefulness of the exact (1,r,t,2) family for every positive r,t,K. Three retained cores, one retained completed control, four new targets, eight invalid pairs and one adverse digest check passed with zero solver calls. See `research/B4_1RT2_K1_DIRECT_SINGLETON.md`, D051 and `evidence/validation/B4_1RT2_K1_DIRECT_SINGLETON_001/`.
 - B4-1RT2-TWO-HOST-COMPATIBILITY-001 proves pointwise compatibility of minimum-high and zero-host growth under finite named interleavings. The explicit 1232 seed supplies A(r+t+12,r+6;1,1) for exact integers r>=3,t>=4 with unchanged physical ports and witness. At K>=2, R=[r+6,r+K+5], D=[1,K] at physical s:4=r+K+7 gives ordinary gracefulness on the original path. The selector covers all positive r,t at K>=2. Four retained controls, three prefixes, four completions and twelve invalid probes passed with zero search. See `research/B4_1RT2_TWO_HOST_COMPATIBILITY.md`, D050 and `evidence/validation/B4_1RT2_TWO_HOST_COMPATIBILITY_001/`. The earlier K=1 campaign's reproduction instructions have an additive erratum in `docs/REPRODUCTION_ERRATA.md`.

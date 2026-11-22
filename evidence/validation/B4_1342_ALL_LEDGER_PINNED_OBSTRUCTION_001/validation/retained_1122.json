@@ -1,0 +1,312 @@
+{
+  "bipartition": {
+    "high": [
+      "b:1:0",
+      "b:3:0",
+      "l:0:0:0",
+      "l:2:0:0",
+      "l:2:0:1",
+      "s:0",
+      "s:2",
+      "s:4"
+    ],
+    "low": [
+      "b:0:0",
+      "b:2:0",
+      "l:1:0:0",
+      "l:3:0:0",
+      "l:3:0:1",
+      "s:1",
+      "s:3"
+    ]
+  },
+  "edge_ledger": [
+    {
+      "difference": 8,
+      "edge": [
+        "s:0",
+        "s:1"
+      ]
+    },
+    {
+      "difference": 11,
+      "edge": [
+        "s:1",
+        "s:2"
+      ]
+    },
+    {
+      "difference": 7,
+      "edge": [
+        "s:2",
+        "s:3"
+      ]
+    },
+    {
+      "difference": 3,
+      "edge": [
+        "s:3",
+        "s:4"
+      ]
+    },
+    {
+      "difference": 5,
+      "edge": [
+        "s:0",
+        "b:0:0"
+      ]
+    },
+    {
+      "difference": 6,
+      "edge": [
+        "b:0:0",
+        "l:0:0:0"
+      ]
+    },
+    {
+      "difference": 10,
+      "edge": [
+        "s:1",
+        "b:1:0"
+      ]
+    },
+    {
+      "difference": 9,
+      "edge": [
+        "b:1:0",
+        "l:1:0:0"
+      ]
+    },
+    {
+      "difference": 12,
+      "edge": [
+        "s:2",
+        "b:2:0"
+      ]
+    },
+    {
+      "difference": 13,
+      "edge": [
+        "b:2:0",
+        "l:2:0:0"
+      ]
+    },
+    {
+      "difference": 14,
+      "edge": [
+        "b:2:0",
+        "l:2:0:1"
+      ]
+    },
+    {
+      "difference": 2,
+      "edge": [
+        "s:3",
+        "b:3:0"
+      ]
+    },
+    {
+      "difference": 4,
+      "edge": [
+        "b:3:0",
+        "l:3:0:0"
+      ]
+    },
+    {
+      "difference": 1,
+      "edge": [
+        "b:3:0",
+        "l:3:0:1"
+      ]
+    }
+  ],
+  "labels": {
+    "b:0:0": 4,
+    "b:1:0": 11,
+    "b:2:0": 0,
+    "b:3:0": 7,
+    "l:0:0:0": 10,
+    "l:1:0:0": 2,
+    "l:2:0:0": 13,
+    "l:2:0:1": 14,
+    "l:3:0:0": 3,
+    "l:3:0:1": 6,
+    "s:0": 9,
+    "s:1": 1,
+    "s:2": 12,
+    "s:3": 5,
+    "s:4": 8
+  },
+  "original": {
+    "graph_digest": "a8fc14f45ba08e88fb3c53ce0611b2886c5cc0250dcc0985070e92de804595dc",
+    "path": "evidence/validation/B4_THIRD_ZERO_HOST_NONADJACENT_001/original_graph.json",
+    "sha256_raw": "16da85d76bcac473e093c6979f62881e1e63c08b519a0b30ba0ca653b8527f91"
+  },
+  "pins": {
+    "b:0:0": 4,
+    "b:2:0": 0,
+    "s:4": 8
+  },
+  "predicate": {
+    "c": 9,
+    "selected_ledger": [
+      {
+        "difference": 8,
+        "edge": [
+          "s:0",
+          "s:1"
+        ]
+      },
+      {
+        "difference": 11,
+        "edge": [
+          "s:1",
+          "s:2"
+        ]
+      },
+      {
+        "difference": 7,
+        "edge": [
+          "s:2",
+          "s:3"
+        ]
+      },
+      {
+        "difference": 5,
+        "edge": [
+          "s:0",
+          "b:0:0"
+        ]
+      },
+      {
+        "difference": 6,
+        "edge": [
+          "b:0:0",
+          "l:0:0:0"
+        ]
+      },
+      {
+        "difference": 10,
+        "edge": [
+          "s:1",
+          "b:1:0"
+        ]
+      },
+      {
+        "difference": 9,
+        "edge": [
+          "b:1:0",
+          "l:1:0:0"
+        ]
+      },
+      {
+        "difference": 12,
+        "edge": [
+          "s:2",
+          "b:2:0"
+        ]
+      },
+      {
+        "difference": 13,
+        "edge": [
+          "b:2:0",
+          "l:2:0:0"
+        ]
+      },
+      {
+        "difference": 14,
+        "edge": [
+          "b:2:0",
+          "l:2:0:1"
+        ]
+      }
+    ],
+    "selected_spectrum": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "selected_vertices": [
+      "b:1:0",
+      "l:0:0:0",
+      "l:2:0:0",
+      "l:2:0:1",
+      "s:0",
+      "s:2"
+    ]
+  },
+  "source_certificate": {
+    "path": "evidence/validation/B4_UNPADDED_Q1T2_001/validation/retained_seed.json",
+    "sha256_raw": "bf2b865a61eb0b6f155ccd28c20ad8bdb7e738a50edb9650737c9ee4613a15d8"
+  },
+  "source_query_record": {
+    "path": "evidence/validation/B4_THIRD_ZERO_HOST_NONADJACENT_001/query_record.json",
+    "sha256_raw": "4b9019e5c7cd6ef68ba5ebd07b45b1b15e0ded61398b5a7d2e8d7a7b684ea744"
+  },
+  "state": {
+    "L": "b:0:0",
+    "U": "s:4",
+    "n": 15,
+    "p": 7,
+    "x": 4,
+    "y": 1
+  },
+  "verification": {
+    "claim": "finite certificate for this exact named target only",
+    "edge_differences": [
+      8,
+      11,
+      7,
+      3,
+      5,
+      6,
+      10,
+      9,
+      12,
+      13,
+      14,
+      2,
+      4,
+      1
+    ],
+    "errors": [],
+    "graph_digest": "a8fc14f45ba08e88fb3c53ce0611b2886c5cc0250dcc0985070e92de804595dc",
+    "m": 14,
+    "n": 15,
+    "valid": true
+  },
+  "witness": {
+    "distances": {
+      "b:0:0": 0,
+      "b:1:0": 1,
+      "b:2:0": 1,
+      "b:3:0": 1,
+      "l:0:0:0": 1,
+      "l:1:0:0": 2,
+      "l:2:0:0": 2,
+      "l:2:0:1": 2,
+      "l:3:0:0": 2,
+      "l:3:0:1": 2,
+      "s:0": 0,
+      "s:1": 0,
+      "s:2": 0,
+      "s:3": 0,
+      "s:4": 0
+    },
+    "path": [
+      "b:0:0",
+      "s:0",
+      "s:1",
+      "s:2",
+      "s:3",
+      "s:4"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "run_id": "B4-1342-ALL-LEDGER-PINNED-OBSTRUCTION-001-20261122",
+  "shell": "PowerShell from the LCL root, one process per saved command",
+  "commands": [
+    {
+      "cmd": "& .\\.venv\\Scripts\\python.exe -c \"import ast,pathlib; d=pathlib.Path('evidence/validation/B4_1342_ALL_LEDGER_PINNED_OBSTRUCTION_001'); [ast.parse((d / n).read_bytes()) for n in ('validate.py','audit.py')]; print('Both evidence scripts parse')\"\nexit $LASTEXITCODE",
+      "chunk_id": "edbad2",
+      "wall_time_seconds": 0.5476935,
+      "exit_code": 0,
+      "original_token_count": 8,
+      "output": "Both evidence scripts parse\r\n"
+    },
+    {
+      "cmd": "$env:PYTHONUTF8='1'\n& .\\.venv\\Scripts\\python.exe 'evidence/validation/B4_1342_ALL_LEDGER_PINNED_OBSTRUCTION_001/validate.py'\nexit $LASTEXITCODE",
+      "chunk_id": "631f01",
+      "wall_time_seconds": 1.1876074,
+      "exit_code": 0,
+      "original_token_count": 239,
+      "output": "{\"distinct_graph_records\": 2, \"historical_replay\": 0, \"identity\": {\"path\": \"identity.json\", \"sha256_raw\": \"03f43eeb6c5e9b1e92aa52316e59af766786dd8e2f3d9e02a5e9087ec3df795a\"}, \"input_rejections\": 5, \"invalid_thresholds\": {\"path\": \"invalid_thresholds.json\", \"sha256_raw\": \"5ef611ac7e3fc6486b7c414f9f6ab402ecd8f99ee986c58974b1d014d1f9be0c\"}, \"labeling_enumeration\": 0, \"new_attempted_enlarged_graphs\": 0, \"new_graceful_targets\": 0, \"new_graph_records\": 0, \"retained_controls\": [{\"path\": \"retained_1342.json\", \"sha256_raw\": \"f9edddb92775e740266a3f7b1768f5109569a29b1a851b479c95e15a752bcfb4\"}, {\"path\": \"retained_1122.json\", \"sha256_raw\": \"63312edd4c3f05a7af1e911467252aaddcb84b4968c46745f839f0e8f360b9b5\"}], \"run_id\": \"B4-1342-ALL-LEDGER-PINNED-OBSTRUCTION-001-20261122\", \"solver_queries\": 0, \"status\": \"PASS\", \"structural\": {\"path\": \"structural.json\", \"sha256_raw\": \"fc1ae2807e2e86b48e2ec9fc8aa4d245400640038f6b0eebb5c0e52ae1916aa2\"}, \"threshold_cases\": 8}\r\n"
+    },
+    {
+      "cmd": "$env:PYTHONUTF8='1'\n& .\\.venv\\Scripts\\python.exe 'evidence/validation/B4_1342_ALL_LEDGER_PINNED_OBSTRUCTION_001/audit.py'\nexit $LASTEXITCODE",
+      "chunk_id": "1b1d5f",
+      "wall_time_seconds": 0.6470645,
+      "exit_code": 0,
+      "original_token_count": 117,
+      "output": "{\"guard_rejections\": 5, \"labeling_enumeration\": 0, \"minimum_counts\": {\"11\": 13, \"12\": 10}, \"new_attempted_assignments\": 0, \"new_graph_records\": 0, \"positive_selected_count\": 10, \"run_id\": \"B4-1342-ALL-LEDGER-PINNED-OBSTRUCTION-001-20261122\", \"same_retained_graphs\": 2, \"same_structural_data\": {\"path\": \"structural.json\", \"sha256_raw\": \"fc1ae2807e2e86b48e2ec9fc8aa4d245400640038f6b0eebb5c0e52ae1916aa2\"}, \"solver_queries\": 0, \"status\": \"PASS\", \"threshold_cases\": 8}\r\n"
+    }
+  ],
+  "protected_github_main_refs": {
+    "Math Discovery Lab": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+    "MDL Bounded Search": "e48b94eec4091b4fe189e325cab2eda464409943"
+  }
+}

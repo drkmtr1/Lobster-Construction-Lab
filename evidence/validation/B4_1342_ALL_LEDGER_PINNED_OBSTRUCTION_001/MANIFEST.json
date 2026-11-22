@@ -1,0 +1,78 @@
+{
+  "files": {
+    ".gitattributes": {
+      "bytes": 56,
+      "sha256": "9a776f807af1a50ad9e5f8043da798e69e63a090631d096ea0e3f0bbb376814e"
+    },
+    "README.md": {
+      "bytes": 3106,
+      "sha256": "5d5401c979334852359d66762eee05cf93ba64cfca3b668b32ac5f3e536d8bd0"
+    },
+    "REVIEWS.md": {
+      "bytes": 2321,
+      "sha256": "bc483845e5769683951808650964c90500b7ee997cdc24674fd26933bb673c77"
+    },
+    "audit.py": {
+      "bytes": 17526,
+      "sha256": "0c287100e20938af34fb3bdf13ff76a9f67bd4f8ff6dfa0ccc050e10a0939f7d"
+    },
+    "audit_result.json": {
+      "bytes": 515,
+      "sha256": "03ae75b6a25a69e3dc183aeef8d05da085288874f7b8e940cd5e401cb13779b9"
+    },
+    "commands.json": {
+      "bytes": 2985,
+      "sha256": "a4cba6cb48827e72dbfe03f78342e3ead8adbfb064d1ea3e630e9386d267ff3d"
+    },
+    "config.json": {
+      "bytes": 1188,
+      "sha256": "8de13db48922a321820644543d10f0a92500c22df00c007eb19f9dc42167eed1"
+    },
+    "validate.py": {
+      "bytes": 13465,
+      "sha256": "c79dfa9a5d4a0f6505d2fe289d11e151bd539b85a6e435d3f5e897b412d0fe00"
+    },
+    "validation/identity.json": {
+      "bytes": 2232,
+      "sha256": "03f43eeb6c5e9b1e92aa52316e59af766786dd8e2f3d9e02a5e9087ec3df795a"
+    },
+    "validation/invalid_thresholds.json": {
+      "bytes": 677,
+      "sha256": "5ef611ac7e3fc6486b7c414f9f6ab402ecd8f99ee986c58974b1d014d1f9be0c"
+    },
+    "validation/retained_1122.json": {
+      "bytes": 4932,
+      "sha256": "63312edd4c3f05a7af1e911467252aaddcb84b4968c46745f839f0e8f360b9b5"
+    },
+    "validation/retained_1342.json": {
+      "bytes": 4249,
+      "sha256": "f9edddb92775e740266a3f7b1768f5109569a29b1a851b479c95e15a752bcfb4"
+    },
+    "validation/source/lcl/__init__.py": {
+      "bytes": 80,
+      "sha256": "134055506d3e9cd4fa538177844d28a44d5ab567ec220cf54048e63d1a8a7374"
+    },
+    "validation/source/lcl/verify.py": {
+      "bytes": 14075,
+      "sha256": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909"
+    },
+    "validation/source/pyproject.toml": {
+      "bytes": 474,
+      "sha256": "738f14eba3125ce7f444628adaddaf2e3e30e5aa7f43f10e7035067f6b7072e5"
+    },
+    "validation/source/requirements.txt": {
+      "bytes": 144,
+      "sha256": "60f6e1bd76adf6ed25cf381ca95f67e8a27a0de1e62fb673a7cf5af4b86249ea"
+    },
+    "validation/structural.json": {
+      "bytes": 7194,
+      "sha256": "fc1ae2807e2e86b48e2ec9fc8aa4d245400640038f6b0eebb5c0e52ae1916aa2"
+    },
+    "validation/summary.json": {
+      "bytes": 1070,
+      "sha256": "a3c37be56b3a364bc94b6070979e2adc5776b03b396d147c24be1053da475dfa"
+    }
+  },
+  "hash_scheme": "SHA-256 of raw bytes",
+  "run_id": "B4-1342-ALL-LEDGER-PINNED-OBSTRUCTION-001-20261122"
+}

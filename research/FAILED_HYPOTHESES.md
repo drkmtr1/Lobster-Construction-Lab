@@ -242,3 +242,16 @@ positive batch, including attempts that bypass the lemma's
 complete incidence premise. The failure leaves other
 labelings and insertion interfaces open.
 [Complete ledgers and proof](B4_1342_FIXED_LEDGER_UPPER_BLOCK_OBSTRUCTION.md)
+
+### F-B4-1342-ALL-LEDGER-PINNED-UPPER-BLOCK
+
+The operation now fails for all normalized graceful alpha
+labelings of the exact named 1342 original with [0,8] low,
+[9,18] high and b:0:0=1, b:2:0=0, s:4=10. For each
+c=11..18 the selected count differs from 20-c by the
+degree and descending-difference proof, so no positive
+batch of the exact upper-block shift and insertion can
+succeed. The pinned alpha class is nonempty. This is a
+transition obstruction with the stated pins and retains
+the preceding fixed-ledger failure as separate evidence.
+[Quantified proof](B4_1342_ALL_LEDGER_PINNED_OBSTRUCTION.md)

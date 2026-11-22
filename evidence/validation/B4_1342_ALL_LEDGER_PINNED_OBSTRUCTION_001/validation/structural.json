@@ -1,0 +1,380 @@
+{
+  "alpha_labels": {
+    "high": [
+      9,
+      18
+    ],
+    "low": [
+      0,
+      8
+    ]
+  },
+  "census": {
+    "degree_above_two_vertices": [
+      "b:1:0",
+      "b:3:0",
+      "s:2"
+    ],
+    "degree_one_vertices": [
+      "l:0:0:0",
+      "l:2:0:0",
+      "l:2:0:1",
+      "l:2:0:2",
+      "l:2:0:3"
+    ],
+    "degree_two_vertex": "s:0",
+    "eligible_degree": {
+      "b:1:0": 4,
+      "b:3:0": 3,
+      "l:0:0:0": 1,
+      "l:2:0:0": 1,
+      "l:2:0:1": 1,
+      "l:2:0:2": 1,
+      "l:2:0:3": 1,
+      "s:0": 2,
+      "s:2": 3
+    },
+    "high_degree": {
+      "b:1:0": 4,
+      "b:3:0": 3,
+      "l:0:0:0": 1,
+      "l:2:0:0": 1,
+      "l:2:0:1": 1,
+      "l:2:0:2": 1,
+      "l:2:0:3": 1,
+      "s:0": 2,
+      "s:2": 3,
+      "s:4": 1
+    },
+    "high_incidence": {
+      "b:1:0": [
+        "l:1:0:0",
+        "l:1:0:1",
+        "l:1:0:2",
+        "s:1"
+      ],
+      "b:3:0": [
+        "l:3:0:0",
+        "l:3:0:1",
+        "s:3"
+      ],
+      "l:0:0:0": [
+        "b:0:0"
+      ],
+      "l:2:0:0": [
+        "b:2:0"
+      ],
+      "l:2:0:1": [
+        "b:2:0"
+      ],
+      "l:2:0:2": [
+        "b:2:0"
+      ],
+      "l:2:0:3": [
+        "b:2:0"
+      ],
+      "s:0": [
+        "b:0:0",
+        "s:1"
+      ],
+      "s:2": [
+        "b:2:0",
+        "s:1",
+        "s:3"
+      ],
+      "s:4": [
+        "s:3"
+      ]
+    },
+    "sorted_eligible_degrees": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      3,
+      3,
+      4
+    ],
+    "unselected_exit": "s:4",
+    "zero_neighbors": [
+      "l:2:0:0",
+      "l:2:0:1",
+      "l:2:0:2",
+      "l:2:0:3",
+      "s:2"
+    ],
+    "zero_terminal_neighbors": [
+      "l:2:0:0",
+      "l:2:0:1",
+      "l:2:0:2",
+      "l:2:0:3"
+    ]
+  },
+  "descending": {
+    "base_difference": 18,
+    "base_pair": [
+      0,
+      18
+    ],
+    "contradicts_required_vertex": "s:0",
+    "equal_endpoint_rule": "high label j is required for difference j and forces low label zero",
+    "excluded_nonterminal_zero_neighbor": "s:2",
+    "higher_endpoint_rule": "larger forced terminals contribute only their own differences to zero",
+    "zero_host": "b:2:0"
+  },
+  "original": {
+    "graph_digest": "025a32fe013aa21dee6a6f448ac572be79833d994c5ec392bf7b47cc0cd37ea1",
+    "path": "evidence/validation/B4_1342_UPPER_BLOCK_OBSTRUCTION_001/validation/originals/1342.json",
+    "sha256_raw": "d23ebdbd4e70ea0d413cb87f09a165737c21b7d095dcb49669d882c6b0496113"
+  },
+  "pin_scope": {
+    "b:0:0": 1,
+    "b:2:0": 0,
+    "s:4": 10
+  },
+  "sum_identity": {
+    "actual_coefficients": [
+      171,
+      "s_c+c-1",
+      1
+    ],
+    "basis": [
+      "1",
+      "h",
+      "h*(h-1)/2"
+    ],
+    "difference": "h*(s_c+c-20)",
+    "domain": "integer h>=1",
+    "old_sum": 171,
+    "required_coefficients": [
+      171,
+      19,
+      1
+    ]
+  },
+  "threshold_cases": [
+    {
+      "c": 11,
+      "least_degree_sum": 13,
+      "reason": "degree lower bound",
+      "required_edge_count": 9,
+      "required_spectrum": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "selected_vertex_count": 8
+    },
+    {
+      "c": 12,
+      "least_degree_sum": 10,
+      "reason": "degree lower bound",
+      "required_edge_count": 8,
+      "required_spectrum": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "selected_vertex_count": 7
+    },
+    {
+      "c": 13,
+      "descending_differences": [
+        18,
+        17,
+        16,
+        15,
+        14,
+        13
+      ],
+      "excluded_degree_above_two": [
+        "b:1:0",
+        "b:3:0",
+        "s:2"
+      ],
+      "forced_terminal_neighbors": [
+        "l:2:0:0",
+        "l:2:0:1",
+        "l:2:0:2",
+        "l:2:0:3"
+      ],
+      "reason": "degree pattern contradicts descending differences",
+      "required_degree_two": "s:0",
+      "required_edge_count": 7,
+      "required_number_degree_one": 5,
+      "required_spectrum": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "selected_vertex_count": 6
+    },
+    {
+      "c": 14,
+      "descending_differences": [
+        18,
+        17,
+        16,
+        15,
+        14
+      ],
+      "excluded_degree_above_two": [
+        "b:1:0",
+        "b:3:0",
+        "s:2"
+      ],
+      "forced_terminal_neighbors": [
+        "l:2:0:0",
+        "l:2:0:1",
+        "l:2:0:2",
+        "l:2:0:3"
+      ],
+      "reason": "degree pattern contradicts descending differences",
+      "required_degree_two": "s:0",
+      "required_edge_count": 6,
+      "required_number_degree_one": 4,
+      "required_spectrum": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "selected_vertex_count": 5
+    },
+    {
+      "c": 15,
+      "descending_differences": [
+        18,
+        17,
+        16,
+        15
+      ],
+      "excluded_degree_above_two": [
+        "b:1:0",
+        "b:3:0",
+        "s:2"
+      ],
+      "forced_terminal_neighbors": [
+        "l:2:0:0",
+        "l:2:0:1",
+        "l:2:0:2",
+        "l:2:0:3"
+      ],
+      "reason": "degree pattern contradicts descending differences",
+      "required_degree_two": "s:0",
+      "required_edge_count": 5,
+      "required_number_degree_one": 3,
+      "required_spectrum": [
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "selected_vertex_count": 4
+    },
+    {
+      "c": 16,
+      "descending_differences": [
+        18,
+        17,
+        16
+      ],
+      "excluded_degree_above_two": [
+        "b:1:0",
+        "b:3:0",
+        "s:2"
+      ],
+      "forced_terminal_neighbors": [
+        "l:2:0:0",
+        "l:2:0:1",
+        "l:2:0:2",
+        "l:2:0:3"
+      ],
+      "reason": "degree pattern contradicts descending differences",
+      "required_degree_two": "s:0",
+      "required_edge_count": 4,
+      "required_number_degree_one": 2,
+      "required_spectrum": [
+        15,
+        16,
+        17,
+        18
+      ],
+      "selected_vertex_count": 3
+    },
+    {
+      "c": 17,
+      "descending_differences": [
+        18,
+        17
+      ],
+      "excluded_degree_above_two": [
+        "b:1:0",
+        "b:3:0",
+        "s:2"
+      ],
+      "forced_terminal_neighbors": [
+        "l:2:0:0",
+        "l:2:0:1",
+        "l:2:0:2",
+        "l:2:0:3"
+      ],
+      "reason": "degree pattern contradicts descending differences",
+      "required_degree_two": "s:0",
+      "required_edge_count": 3,
+      "required_number_degree_one": 1,
+      "required_spectrum": [
+        16,
+        17,
+        18
+      ],
+      "selected_vertex_count": 2
+    },
+    {
+      "c": 18,
+      "descending_differences": [
+        18
+      ],
+      "excluded_degree_above_two": [
+        "b:1:0",
+        "b:3:0",
+        "s:2"
+      ],
+      "forced_terminal_neighbors": [
+        "l:2:0:0",
+        "l:2:0:1",
+        "l:2:0:2",
+        "l:2:0:3"
+      ],
+      "reason": "degree pattern contradicts descending differences",
+      "required_degree_two": "s:0",
+      "required_edge_count": 2,
+      "required_number_degree_one": 0,
+      "required_spectrum": [
+        17,
+        18
+      ],
+      "selected_vertex_count": 1
+    }
+  ]
+}

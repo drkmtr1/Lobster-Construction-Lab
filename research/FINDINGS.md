@@ -740,3 +740,31 @@ Independent audit and separate AI reviews added zero cases.
 No solver, labeling enumeration or historical replay ran.
 [Proof](B4_1342_FIXED_LEDGER_UPPER_BLOCK_OBSTRUCTION.md)
 · [Evidence](../evidence/validation/B4_1342_UPPER_BLOCK_OBSTRUCTION_001/README.md) · D052
+
+## B4-1342-ALL-LEDGER-PINNED-OBSTRUCTION-001
+
+**ACCEPT A.** For any normalized graceful alpha labeling of
+`[[1],[3],[4],[2],[]]` with low labels [0,8], high labels
+[9,18] and b:0:0=1, b:2:0=0, s:4=10, the complete selected
+edge count s_c differs from 20-c at every c=11..18.
+The first two thresholds have minimum degrees 13 and 10.
+At c>=13 equality would select degree-two s:0 and exclude
+s:2. Descending from the maximum difference then forces
+every selected high vertex to be a terminal at the pinned
+zero. That contradicts selection of s:0.
+
+**ACCEPT B.** The signed edge-sum defect h*(s_c+c-20) is
+nonzero for every exact integer h>=1. **REJECT** the exact
+prescribed port-preserving insertion throughout this pinned
+class. The class contains the retained 1342 certificate.
+This supersedes the proposed three-pin relabeling direction,
+while preserving the separate fixed-ledger evidence and
+the accepted all-positive (1,r,t,2) theorem.
+
+The two retained originals, including the 1122 positive
+spectrum [5,14], passed. The same-record audit verified
+eight structural threshold cases and five guard rejections.
+No new graphs, assignments, solver queries, labeling
+enumeration or historical replay occurred.
+[Proof](B4_1342_ALL_LEDGER_PINNED_OBSTRUCTION.md)
+· [Evidence](../evidence/validation/B4_1342_ALL_LEDGER_PINNED_OBSTRUCTION_001/README.md) · D053

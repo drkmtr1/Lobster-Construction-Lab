@@ -536,7 +536,21 @@ All permitted thresholds fail the necessary difference-sum
 test for any positive batch. The retained 1122 positive
 control confirms the conditional lemma on its own state.
 
-First-branch growth on 1342 needs a fresh supplied ledger
-or a different proved interface. The selected next obligation
-tests supply on the same original and keeps the existing
-host, zero anchor and exit conditions.
+The fixed-ledger result led to the three-pin supply question
+on the same original. The next proof discharges that question.
+
+### 1342 all-ledger obstruction at three fixed pins
+
+The [all-ledger proof](B4_1342_ALL_LEDGER_PINNED_OBSTRUCTION.md)
+discharges the exact three-pin supply question negatively
+for the prescribed port-preserving operation. At every
+permitted threshold the selected edge count misses the
+necessary count, and every positive batch has a nonzero
+sum defect. A relabeling with all three numerical pins
+therefore cannot supply the transition.
+
+The next obligation relaxes only the numerical first-host
+label. The original b:2:0=0, physical s:4=10, named graph
+and alpha orientation remain. The required selected spectrum
+would be [c-a,18] for a in [2,8], c in [11,18].
+The all-positive (1,r,t,2) result remains accepted.
