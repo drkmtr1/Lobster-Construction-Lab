@@ -156,3 +156,18 @@ Separate AI mathematical and implementation reviews accepted. There are
 12 completed original targets and an audit of those same 12, with two
 left-component certificates counted separately. [Proof](B4_UNPADDED_111T.md)
 · [Validation](../evidence/validation/B4_UNPADDED_111T_001/README.md) · D029
+
+## B4-UNPADDED-1121-001
+
+**ACCEPT** for the exact unpadded `[[1],[1],[2],[1]]+[[]]*(K+1)` profile
+with integer K>=1, excluding booleans. An explicit extension of the
+B4-111T left component puts `l:2:0:1` at the original `b:2:0`.
+R241 restores the original `s:2--s:3` edge to the reflected L008
+right component and yields a 14-vertex seed with low-class size 6.
+Shifting its eight highs leaves `R=[6,K+5]`, `D=[1,K]`, and actual
+`s:4=K+6`. The adjacent consumer labels the original suffix and the
+complete alpha low-class size is `6+(K+1)//2`. Separate AI
+mathematical and implementation reviews accepted. The 12 original
+targets passed and their same-certificate audit passed. The left
+component and the fixed seed each have a separate certificate.
+[Proof](B4_UNPADDED_1121.md) · [Validation](../evidence/validation/B4_UNPADDED_1121_001/README.md) · D030

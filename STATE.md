@@ -2,7 +2,7 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 21, 2026, Pacific/Honolulu  
-**Stage:** B4-UNPADDED-111T-001 accepted after separate AI reviews. The exact unpadded four-section profile with first three branches of size one is graceful for every positive integer t,K.
+**Stage:** B4-UNPADDED-1121-001 accepted after separate AI reviews. The exact unpadded four-section profile with branch sizes 1,1,2,1 has an alpha construction for every integer K>=1.
 
 ## Current scientific objective
 
@@ -10,11 +10,12 @@ Develop independently supplied original-graph boundaries beyond the proved zero-
 
 ## One next action
 
-**With a new bounded scope decision, formulate a construction question for the exact unpadded `[[1],[1],[2],[1]]+[[]]*(K+1)` profile with integer `K>=1`**, retaining the physical `s:4` and both resource inventories.
+**With a new bounded scope decision, formulate a construction question for the exact unpadded `[[1],[2],[1],[1]]+[[]]*(K+1)` profile with integer `K>=1`**, retaining the physical `s:4` and both resource inventories.
 
 ## What is established in this package
 
 - Both authenticated upstream main heads match the pinned audit commits. The repositories remain unchanged.
+- B4-UNPADDED-1121-001 supplies the exact unpadded `[[1],[1],[2],[1]]+[[]]*(K+1)` profile for integer K>=1. Its prescribed extension attaches `l:2:0:1` to the original `b:2:0`. The shifted R241/L008 seed leaves `R=[6,K+5]`, `D=[1,K]`, and original `s:4=K+6`. The retained adjacent path gives a full alpha labeling with low-class size `6+(K+1)//2`. See `research/B4_UNPADDED_1121.md`, D030, and `evidence/validation/B4_UNPADDED_1121_001/`.
 - B4-UNPADDED-111T-001 covers integers `t>=2,K>=1` on the exact unpadded `[[1],[1],[1],[t]]+[[]]*(K+1)` profile. Its K=1 singleton is `R={4}`, `D={t+3}`, `s:4=t+7`, giving completed alpha low-class size t+6. Its K>=2 nonadjacent boundary is `R=[t+5,t+K+4]`, `D=[1,K]`, `s:4=t+K+6`, giving ordinary gracefulness. Together with the unit route at t=1, these contracts cover the exact family for all positive t,K. See `research/B4_UNPADDED_111T.md`, D029, and `evidence/validation/B4_UNPADDED_111T_001/`.
 - B4-UNPADDED-UNIT-001 supplies `R=[6,K+5]`, `D=1..K`, and physical `s:4=K+6` on the exact unpadded `[[1],[1],[1],[1]]+[[]]*(K+1)` profile for integer K>=1. The adjacent consumer completes the original path and gives an alpha low class of size `6+(K+1)//2`. The R241/L008 seed has low-class size 6. See `research/B4_UNPADDED_UNIT.md`, D028, and `evidence/validation/B4_UNPADDED_UNIT_001/`.
 - B3-UNPADDED-K1-001 supplies the exact `[[q],[r],[t],[],[]]` target for all positive q,r,t. Its direct singleton has `R={q+2}`, `D={t+3}`, and `s:3=q+t+5`. Together with the accepted four cases for K>=2 it proves ordinary gracefulness for every positive q,r,t,K on the exact unpadded `[[q],[r],[t]]+[[]]*(K+1)` family. Each branch retains its own resource contract. Padding, multiple positive branches per section, further sections, and arbitrary repetition remain separate. See `research/B3_UNPADDED_K1.md`, D027, and `evidence/validation/B3_UNPADDED_K1_001/`.

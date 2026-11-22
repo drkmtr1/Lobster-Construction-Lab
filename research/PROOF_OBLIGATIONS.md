@@ -214,3 +214,14 @@ the adjacent alpha branch for t=1. Thus the exact family is graceful for
 all positive t,K through these three contracts. Varying any of the
 first three branch sizes, padding, multiple branches in a section, further
 sections, and arbitrary repetition still require independent proofs.
+
+### Four-section 1121 boundary
+
+The [B4 1121 proof](B4_UNPADDED_1121.md) supplies an above-side adjacent
+interval for every integer K>=1 on exactly
+`[[1],[1],[2],[1]]+[[]]*(K+1)`. The prescribed second third-branch leaf
+attaches to physical `b:2:0`. Both inventories and the exact original
+suffix from `s:4` yield the full alpha low-class size `6+(K+1)//2`.
+This discharges the exact 1121 profile. Other unproved branch
+placements and sizes, padding, multiple branches per section, further
+sections and arbitrary repetition still require independent proofs.
