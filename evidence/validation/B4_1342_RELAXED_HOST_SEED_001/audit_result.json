@@ -1,0 +1,26 @@
+{
+  "assignment_nodes_in_saved_run": 13171,
+  "audit_labeling_replays": 0,
+  "audit_solver_calls": 0,
+  "audited_exhausted_named_subsets": 68,
+  "audited_pairs": 56,
+  "audited_retained_graph_records": 2,
+  "auditor": {
+    "path": "audit.py",
+    "sha256_raw": "2ad4447f61f40bf54cd4b8d34a3f68624d46592979dfee981040361bd635424d"
+  },
+  "excluded_pairs": 33,
+  "exhausted_pairs": 23,
+  "input_rejections": 10,
+  "new_graph_records": 0,
+  "positive_control_selected_count": 10,
+  "result_proof": {
+    "path": "research/B4_1342_RELAXED_HOST_SEED_RESULT.md",
+    "sha256_raw": "d36a86e31b51eac46c1a0c4e69d658300b2d0607ba6dc4de1e5ec7c08b0239ca"
+  },
+  "search_summary": {
+    "path": "search_summary.json",
+    "sha256_raw": "5ac55e3d0c2ef3d988eb0758b8805f7eecedb2e4feb40c17bf6457537b0b3753"
+  },
+  "status": "PASS"
+}

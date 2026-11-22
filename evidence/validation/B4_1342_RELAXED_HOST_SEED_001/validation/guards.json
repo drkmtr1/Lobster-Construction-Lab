@@ -1,0 +1,92 @@
+[
+  {
+    "a": true,
+    "c": 18,
+    "error": "a must be an exact integer in 2..8",
+    "types": [
+      "bool",
+      "int"
+    ]
+  },
+  {
+    "a": 2.0,
+    "c": 18,
+    "error": "a must be an exact integer in 2..8",
+    "types": [
+      "float",
+      "int"
+    ]
+  },
+  {
+    "a": "2",
+    "c": 18,
+    "error": "a must be an exact integer in 2..8",
+    "types": [
+      "str",
+      "int"
+    ]
+  },
+  {
+    "a": 1,
+    "c": 18,
+    "error": "a must be an exact integer in 2..8",
+    "types": [
+      "int",
+      "int"
+    ]
+  },
+  {
+    "a": 9,
+    "c": 18,
+    "error": "a must be an exact integer in 2..8",
+    "types": [
+      "int",
+      "int"
+    ]
+  },
+  {
+    "a": 2,
+    "c": true,
+    "error": "c must be an exact integer in 11..18",
+    "types": [
+      "int",
+      "bool"
+    ]
+  },
+  {
+    "a": 2,
+    "c": 18.0,
+    "error": "c must be an exact integer in 11..18",
+    "types": [
+      "int",
+      "float"
+    ]
+  },
+  {
+    "a": 2,
+    "c": "18",
+    "error": "c must be an exact integer in 11..18",
+    "types": [
+      "int",
+      "str"
+    ]
+  },
+  {
+    "a": 2,
+    "c": 10,
+    "error": "c must be an exact integer in 11..18",
+    "types": [
+      "int",
+      "int"
+    ]
+  },
+  {
+    "a": 2,
+    "c": 19,
+    "error": "c must be an exact integer in 11..18",
+    "types": [
+      "int",
+      "int"
+    ]
+  }
+]

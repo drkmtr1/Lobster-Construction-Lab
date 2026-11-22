@@ -255,3 +255,14 @@ succeed. The pinned alpha class is nonempty. This is a
 transition obstruction with the stated pins and retains
 the preceding fixed-ledger failure as separate evidence.
 [Quantified proof](B4_1342_ALL_LEDGER_PINNED_OBSTRUCTION.md)
+
+### F-B4-1342-RELAXED-FIRST-HOST-FIXED-EXIT
+
+For the exact named 1342 graph with low labels [0,8], high
+labels [9,18], physical b:2:0=0 and s:4=10, relaxing the
+first host to any a in [2,8] did not supply the general-host
+upper-block predicate [c-a,18] at any c in [11,18].
+Thirty-three pairs fail proved necessary tests, and all
+23 admitted pairs are exhausted by reviewed exact DFS.
+The conclusion covers this exact domain and predicate.
+[Scope and evidence](B4_1342_RELAXED_HOST_SEED_RESULT.md)

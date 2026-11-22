@@ -1,0 +1,16 @@
+{
+  "limits": {
+    "max_assignment_nodes": 200000,
+    "max_pairs": 23,
+    "max_result_bytes": 2000000,
+    "max_search_seconds": 20,
+    "max_vertices": 22,
+    "workers": 1
+  },
+  "original_digest": "025a32fe013aa21dee6a6f448ac572be79833d994c5ec392bf7b47cc0cd37ea1",
+  "prefilter": {
+    "path": "prefilter.json",
+    "sha256_raw": "5ee03276dafa3abb9defe043dbb2820a72a317bcd4abc4abf103c336d3cb1185"
+  },
+  "run_id": "B4-1342-RELAXED-HOST-SEED-001-20261122"
+}

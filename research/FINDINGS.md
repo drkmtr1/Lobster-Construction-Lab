@@ -768,3 +768,29 @@ No new graphs, assignments, solver queries, labeling
 enumeration or historical replay occurred.
 [Proof](B4_1342_ALL_LEDGER_PINNED_OBSTRUCTION.md)
 · [Evidence](../evidence/validation/B4_1342_ALL_LEDGER_PINNED_OBSTRUCTION_001/README.md) · D053
+
+## B4-1342-RELAXED-HOST-SEED-001
+
+**ACCEPT** the necessary structural prefilter and exact edge-band
+equivalence. The degree excess is a, s:2 must be selected, and
+unselected zero-neighbor labels fit below c-a with 10 unavailable.
+The three checks exclude 33 of the 56 a=2..8,c=11..18 pairs.
+
+**EXHAUSTED RESTRICTED NEGATIVE.** One exact task-local DFS
+exhausted all 23 survivors and 68 named subsets on the original
+1342 graph at b:2:0=0 and s:4=10, with low classes [0,8] and
+high classes [9,18] and full selected spectrum [c-a,18].
+It used 13,171 assignment nodes and 1.109 cooperative seconds
+without hitting either cap. This is a reviewed implementation
+exhaustion result for the exact predicate under those pins.
+No witness exists within that scope. The prior label-one
+obstruction and all-positive (1,r,t,2) construction are preserved.
+
+Both retained controls rechecked, including [5,14] on 1122.
+Ten invalid inputs were rejected before search. Two separate
+AI reviews and the independent audit added no graph cases or
+searches. With no seed, the conditional transport and the
+two optional graph checks did not run.
+[Prefilter proof](B4_1342_RELAXED_HOST_SEED.md)
+· [Result and coverage](B4_1342_RELAXED_HOST_SEED_RESULT.md)
+· [Evidence](../evidence/validation/B4_1342_RELAXED_HOST_SEED_001/README.md) · D054

@@ -1,0 +1,58 @@
+{
+  "disposition": "ACCEPT",
+  "eligible_pairs": 23,
+  "excluded_pairs": 33,
+  "independent_subset_counts_by_c_a": {
+    "11": {
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1
+    },
+    "12": {
+      "3": 1,
+      "4": 1,
+      "5": 2,
+      "6": 1,
+      "7": 1
+    },
+    "13": {
+      "2": 1,
+      "3": 5,
+      "4": 1,
+      "5": 1
+    },
+    "14": {
+      "2": 5,
+      "3": 4,
+      "4": 4
+    },
+    "15": {
+      "2": 10,
+      "3": 6
+    },
+    "16": {
+      "2": 10,
+      "3": 4
+    },
+    "17": {
+      "2": 5,
+      "3": 1
+    },
+    "18": {
+      "2": 1
+    }
+  },
+  "original_sha256_raw": "d23ebdbd4e70ea0d413cb87f09a165737c21b7d095dcb49669d882c6b0496113",
+  "phase": "before labeling search",
+  "proof_sha256_raw": "1dc0e578a63fa72c87b780a1e6980ae54deb35519cb7a5ab77e10c382d079313",
+  "review_solver_queries": 0,
+  "reviewed_conditions": [
+    "exact degree excess a over 19-c selected physical highs",
+    "s:2 selected by descending differences at pinned zero",
+    "unselected zero-neighbor labels below c-a, omitting pinned 10",
+    "complete 56-pair classification",
+    "edge-band equivalence under graceful alpha"
+  ],
+  "reviewer": "read-only Codex AI subagent relmath"
+}

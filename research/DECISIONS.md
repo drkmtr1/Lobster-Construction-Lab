@@ -1,6 +1,6 @@
 # Decisions and algorithm-change log
 
-This file owns consequential choices and change proposals. `STATE.md` owns current work; findings and failures own scientific dispositions. Dates below are November 20, 2026, Pacific/Honolulu, except D016 through D051 (November 21, 2026) and D052 through D053 (November 22, 2026).
+This file owns consequential choices and change proposals. `STATE.md` owns current work; findings and failures own scientific dispositions. Dates below are November 20, 2026, Pacific/Honolulu, except D016 through D051 (November 21, 2026) and D052 through D054 (November 22, 2026).
 
 | ID | Decision | Reason and review consequence |
 |---|---|---|
@@ -58,6 +58,7 @@ This file owns consequential choices and change proposals. `STATE.md` owns curre
 | D051 | Accept B4-1RT2-K1-DIRECT-SINGLETON-001 at 3e10c022f834cfae053aaef9581697bf6c21002d | **ACCEPT** the independent core lift and direct singleton for r>=3,t>=4,K=1, ordinary two-host growth on those completed states, and the exact all-positive (1,r,t,2) selector. The normalized nonadjacent interface still fails at K=1 under its own conditions. Three retained core rechecks, one retained completed recheck, four new targets, eight domain rejections and one same-original wrong-digest rejection passed under separate AI reviews and same-record audit. No solver, enumeration, replay or production edits. |
 | D052 | Close B4-1342-UPPER-BLOCK-OBSTRUCTION-001 at c83ae3b11a6bc03189dc44653881137fc014c72a | **ACCEPT** the full threshold ledgers, the all-positive-batch edge-sum proof, and the retained 1122 premise. **REJECT** the port-preserving first-branch upper shift on the fixed 1342 ledger for c=11..18 and every positive batch. Three distinct graph records, eight thresholds, eight rejected one-leaf assignments on one original and five invalid probes passed under separate AI reviews and same-record audit. No solver, enumeration, replay or production changes. |
 | D053 | Close B4-1342-ALL-LEDGER-PINNED-OBSTRUCTION-001 at 41f4e42fb73ab87a93abe1f7c348e8442fdd47b7 | **ACCEPT** the universal selected-cardinality contradiction and all-positive batch result. **REJECT** the prescribed upper-block operation on every normalized 1342 alpha labeling with the exact three pins. Two retained original rechecks, eight structural thresholds and five invalid inputs passed with independent audit and two AI reviews. No new graph or assignment, solver, enumeration, replay or production edits. Keep the fixed-ledger result as separate evidence. |
+| D054 | Close B4-1342-RELAXED-HOST-SEED-001 at bb7927bcf85d6d32b9bde5b1904c6b43ec6b6a8e | **ACCEPT** the necessary prefilter, exact edge-band equivalence and implementation-level EXHAUSTED RESTRICTED NEGATIVE for the precise pin and predicate domain. Thirty-three pairs excluded, 23 exhausted, 68 named subsets, 13,171 assignment nodes, 1.109 seconds. Two retained controls, ten invalid probes, separate AI reviews and independent audit. No optional graphs, positive transport, replay or production changes. |
 
 ## Proposal template for the next consequential algorithm change
 

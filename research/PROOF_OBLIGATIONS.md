@@ -549,8 +549,19 @@ necessary count, and every positive batch has a nonzero
 sum defect. A relabeling with all three numerical pins
 therefore cannot supply the transition.
 
-The next obligation relaxes only the numerical first-host
-label. The original b:2:0=0, physical s:4=10, named graph
-and alpha orientation remain. The required selected spectrum
-would be [c-a,18] for a in [2,8], c in [11,18].
-The all-positive (1,r,t,2) result remains accepted.
+The next experiment relaxed only the first-host numerical
+label. Its reviewed outcome is recorded below.
+
+### Relaxed first host on the original 1342 graph
+
+The [restricted exhaustion](B4_1342_RELAXED_HOST_SEED_RESULT.md)
+discharges seed existence negatively with b:2:0=0, s:4=10,
+a in [2,8], c in [11,18], the forced alpha orientation and
+full selected spectrum [c-a,18]. The necessary prefilter
+accounts for all 56 pairs. The positive transport therefore
+has no supplied fixed seed. The all-positive (1,r,t,2) result
+remains accepted.
+
+The selected next question changes the physical exit label
+to 9 and keeps the named graph, zero host, relaxed host domain
+and alpha orientation. Its threshold range would be [10,18].

@@ -1,0 +1,1179 @@
+{
+  "eligible_pairs": 23,
+  "excluded_pairs": 33,
+  "initial_pairs": 56,
+  "pairs": [
+    {
+      "a": 2,
+      "c": 18,
+      "exclusion": null,
+      "k": 1,
+      "slots_for_unselected_zero_neighbors": [
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "subsets": [
+        [
+          "s:2"
+        ]
+      ],
+      "subsets_of_size_k": 9,
+      "subsets_with_required_excess": 1,
+      "subsets_with_s2": 1
+    },
+    {
+      "a": 3,
+      "c": 18,
+      "exclusion": "no size-k subset containing s:2 has the required excess degree",
+      "k": 1,
+      "slots_for_unselected_zero_neighbors": [
+        9,
+        11,
+        12,
+        13,
+        14
+      ],
+      "subsets": [],
+      "subsets_of_size_k": 9,
+      "subsets_with_required_excess": 0,
+      "subsets_with_s2": 1
+    },
+    {
+      "a": 4,
+      "c": 18,
+      "exclusion": "no size-k subset containing s:2 has the required excess degree",
+      "k": 1,
+      "slots_for_unselected_zero_neighbors": [
+        9,
+        11,
+        12,
+        13
+      ],
+      "subsets": [],
+      "subsets_of_size_k": 9,
+      "subsets_with_required_excess": 0,
+      "subsets_with_s2": 1
+    },
+    {
+      "a": 5,
+      "c": 18,
+      "exclusion": "no size-k subset containing s:2 has the required excess degree",
+      "k": 1,
+      "slots_for_unselected_zero_neighbors": [
+        9,
+        11,
+        12
+      ],
+      "subsets": [],
+      "subsets_of_size_k": 9,
+      "subsets_with_required_excess": 0,
+      "subsets_with_s2": 1
+    },
+    {
+      "a": 6,
+      "c": 18,
+      "exclusion": "no size-k subset containing s:2 has the required excess degree",
+      "k": 1,
+      "slots_for_unselected_zero_neighbors": [
+        9,
+        11
+      ],
+      "subsets": [],
+      "subsets_of_size_k": 9,
+      "subsets_with_required_excess": 0,
+      "subsets_with_s2": 1
+    },
+    {
+      "a": 7,
+      "c": 18,
+      "exclusion": "no size-k subset containing s:2 has the required excess degree",
+      "k": 1,
+      "slots_for_unselected_zero_neighbors": [
+        9
+      ],
+      "subsets": [],
+      "subsets_of_size_k": 9,
+      "subsets_with_required_excess": 0,
+      "subsets_with_s2": 1
+    },
+    {
+      "a": 8,
+      "c": 18,
+      "exclusion": "no size-k subset containing s:2 has the required excess degree",
+      "k": 1,
+      "slots_for_unselected_zero_neighbors": [
+        9
+      ],
+      "subsets": [],
+      "subsets_of_size_k": 9,
+      "subsets_with_required_excess": 0,
+      "subsets_with_s2": 1
+    },
+    {
+      "a": 2,
+      "c": 17,
+      "exclusion": null,
+      "k": 2,
+      "slots_for_unselected_zero_neighbors": [
+        9,
+        11,
+        12,
+        13,
+        14
+      ],
+      "subsets": [
+        [
+          "l:0:0:0",
+          "s:2"
+        ],
+        [
+          "l:2:0:0",
+          "s:2"
+        ],
+        [
+          "l:2:0:1",
+          "s:2"
+        ],
+        [
+          "l:2:0:2",
+          "s:2"
+        ],
+        [
+          "l:2:0:3",
+          "s:2"
+        ]
+      ],
+      "subsets_of_size_k": 36,
+      "subsets_with_required_excess": 5,
+      "subsets_with_s2": 8
+    },
+    {
+      "a": 3,
+      "c": 17,
+      "exclusion": null,
+      "k": 2,
+      "slots_for_unselected_zero_neighbors": [
+        9,
+        11,
+        12,
+        13
+      ],
+      "subsets": [
+        [
+          "s:0",
+          "s:2"
+        ]
+      ],
+      "subsets_of_size_k": 36,
+      "subsets_with_required_excess": 1,
+      "subsets_with_s2": 8
+    },
+    {
+      "a": 4,
+      "c": 17,
+      "exclusion": "all size-and-excess subsets lack slots for unselected Z neighbors",
+      "k": 2,
+      "slots_for_unselected_zero_neighbors": [
+        9,
+        11,
+        12
+      ],
+      "subsets": [],
+      "subsets_of_size_k": 36,
+      "subsets_with_required_excess": 1,
+      "subsets_with_s2": 8
+    },
+    {
+      "a": 5,
+      "c": 17,
+      "exclusion": "all size-and-excess subsets lack slots for unselected Z neighbors",
+      "k": 2,
+      "slots_for_unselected_zero_neighbors": [
+        9,
+        11
+      ],
+      "subsets": [],
+      "subsets_of_size_k": 36,
+      "subsets_with_required_excess": 1,
+      "subsets_with_s2": 8
+    },
+    {
+      "a": 6,
+      "c": 17,
+      "exclusion": "no size-k subset containing s:2 has the required excess degree",
+      "k": 2,
+      "slots_for_unselected_zero_neighbors": [
+        9
+      ],
+      "subsets": [],
+      "subsets_of_size_k": 36,
+      "subsets_with_required_excess": 0,
+      "subsets_with_s2": 8
+    },
+    {
+      "a": 7,
+      "c": 17,
+      "exclusion": "no size-k subset containing s:2 has the required excess degree",
+      "k": 2,
+      "slots_for_unselected_zero_neighbors": [
+        9
+      ],
+      "subsets": [],
+      "subsets_of_size_k": 36,
+      "subsets_with_required_excess": 0,
+      "subsets_with_s2": 8
+    },
+    {
+      "a": 8,
+      "c": 17,
+      "exclusion": "no size-k subset containing s:2 has the required excess degree",
+      "k": 2,
+      "slots_for_unselected_zero_neighbors": [],
+      "subsets": [],
+      "subsets_of_size_k": 36,
+      "subsets_with_required_excess": 0,
+      "subsets_with_s2": 8
+    },
+    {
+      "a": 2,
+      "c": 16,
+      "exclusion": null,
+      "k": 3,
+      "slots_for_unselected_zero_neighbors": [
+        9,
+        11,
+        12,
+        13
+      ],
+      "subsets": [
+        [
+          "l:0:0:0",
+          "l:2:0:0",
+          "s:2"
+        ],
+        [
+          "l:0:0:0",
+          "l:2:0:1",
+          "s:2"
+        ],
+        [
+          "l:0:0:0",
+          "l:2:0:2",
+          "s:2"
+        ],
+        [
+          "l:0:0:0",
+          "l:2:0:3",
+          "s:2"
+        ],
+        [
+          "l:2:0:0",
+          "l:2:0:1",
+          "s:2"
+        ],
+        [
+          "l:2:0:0",
+          "l:2:0:2",
+          "s:2"
+        ],
+        [
+          "l:2:0:0",
+          "l:2:0:3",
+          "s:2"
+        ],
+        [
+          "l:2:0:1",
+          "l:2:0:2",
+          "s:2"
+        ],
+        [
+          "l:2:0:1",
+          "l:2:0:3",
+          "s:2"
+        ],
+        [
+          "l:2:0:2",
+          "l:2:0:3",
+          "s:2"
+        ]
+      ],
+      "subsets_of_size_k": 84,
+      "subsets_with_required_excess": 10,
+      "subsets_with_s2": 28
+    },
+    {
+      "a": 3,
+      "c": 16,
+      "exclusion": null,
+      "k": 3,
+      "slots_for_unselected_zero_neighbors": [
+        9,
+        11,
+        12
+      ],
+      "subsets": [
+        [
+          "l:2:0:0",
+          "s:0",
+          "s:2"
+        ],
+        [
+          "l:2:0:1",
+          "s:0",
+          "s:2"
+        ],
+        [
+          "l:2:0:2",
+          "s:0",
+          "s:2"
+        ],
+        [
+          "l:2:0:3",
+          "s:0",
+          "s:2"
+        ]
+      ],
+      "subsets_of_size_k": 84,
+      "subsets_with_required_excess": 5,
+      "subsets_with_s2": 28
+    },
+    {
+      "a": 4,
+      "c": 16,
+      "exclusion": "all size-and-excess subsets lack slots for unselected Z neighbors",
+      "k": 3,
+      "slots_for_unselected_zero_neighbors": [
+        9,
+        11
+      ],
+      "subsets": [],
+      "subsets_of_size_k": 84,
+      "subsets_with_required_excess": 5,
+      "subsets_with_s2": 28
+    },
+    {
+      "a": 5,
+      "c": 16,
+      "exclusion": "all size-and-excess subsets lack slots for unselected Z neighbors",
+      "k": 3,
+      "slots_for_unselected_zero_neighbors": [
+        9
+      ],
+      "subsets": [],
+      "subsets_of_size_k": 84,
+      "subsets_with_required_excess": 6,
+      "subsets_with_s2": 28
+    },
+    {
+      "a": 6,
+      "c": 16,
+      "exclusion": "all size-and-excess subsets lack slots for unselected Z neighbors",
+      "k": 3,
+      "slots_for_unselected_zero_neighbors": [
+        9
+      ],
+      "subsets": [],
+      "subsets_of_size_k": 84,
+      "subsets_with_required_excess": 1,
+      "subsets_with_s2": 28
+    },
+    {
+      "a": 7,
+      "c": 16,
+      "exclusion": "all size-and-excess subsets lack slots for unselected Z neighbors",
+      "k": 3,
+      "slots_for_unselected_zero_neighbors": [],
+      "subsets": [],
+      "subsets_of_size_k": 84,
+      "subsets_with_required_excess": 1,
+      "subsets_with_s2": 28
+    },
+    {
+      "a": 8,
+      "c": 16,
+      "exclusion": "no size-k subset containing s:2 has the required excess degree",
+      "k": 3,
+      "slots_for_unselected_zero_neighbors": [],
+      "subsets": [],
+      "subsets_of_size_k": 84,
+      "subsets_with_required_excess": 0,
+      "subsets_with_s2": 28
+    },
+    {
+      "a": 2,
+      "c": 15,
+      "exclusion": null,
+      "k": 4,
+      "slots_for_unselected_zero_neighbors": [
+        9,
+        11,
+        12
+      ],
+      "subsets": [
+        [
+          "l:0:0:0",
+          "l:2:0:0",
+          "l:2:0:1",
+          "s:2"
+        ],
+        [
+          "l:0:0:0",
+          "l:2:0:0",
+          "l:2:0:2",
+          "s:2"
+        ],
+        [
+          "l:0:0:0",
+          "l:2:0:0",
+          "l:2:0:3",
+          "s:2"
+        ],
+        [
+          "l:0:0:0",
+          "l:2:0:1",
+          "l:2:0:2",
+          "s:2"
+        ],
+        [
+          "l:0:0:0",
+          "l:2:0:1",
+          "l:2:0:3",
+          "s:2"
+        ],
+        [
+          "l:0:0:0",
+          "l:2:0:2",
+          "l:2:0:3",
+          "s:2"
+        ],
+        [
+          "l:2:0:0",
+          "l:2:0:1",
+          "l:2:0:2",
+          "s:2"
+        ],
+        [
+          "l:2:0:0",
+          "l:2:0:1",
+          "l:2:0:3",
+          "s:2"
+        ],
+        [
+          "l:2:0:0",
+          "l:2:0:2",
+          "l:2:0:3",
+          "s:2"
+        ],
+        [
+          "l:2:0:1",
+          "l:2:0:2",
+          "l:2:0:3",
+          "s:2"
+        ]
+      ],
+      "subsets_of_size_k": 126,
+      "subsets_with_required_excess": 10,
+      "subsets_with_s2": 56
+    },
+    {
+      "a": 3,
+      "c": 15,
+      "exclusion": null,
+      "k": 4,
+      "slots_for_unselected_zero_neighbors": [
+        9,
+        11
+      ],
+      "subsets": [
+        [
+          "l:2:0:0",
+          "l:2:0:1",
+          "s:0",
+          "s:2"
+        ],
+        [
+          "l:2:0:0",
+          "l:2:0:2",
+          "s:0",
+          "s:2"
+        ],
+        [
+          "l:2:0:0",
+          "l:2:0:3",
+          "s:0",
+          "s:2"
+        ],
+        [
+          "l:2:0:1",
+          "l:2:0:2",
+          "s:0",
+          "s:2"
+        ],
+        [
+          "l:2:0:1",
+          "l:2:0:3",
+          "s:0",
+          "s:2"
+        ],
+        [
+          "l:2:0:2",
+          "l:2:0:3",
+          "s:0",
+          "s:2"
+        ]
+      ],
+      "subsets_of_size_k": 126,
+      "subsets_with_required_excess": 10,
+      "subsets_with_s2": 56
+    },
+    {
+      "a": 4,
+      "c": 15,
+      "exclusion": "all size-and-excess subsets lack slots for unselected Z neighbors",
+      "k": 4,
+      "slots_for_unselected_zero_neighbors": [
+        9
+      ],
+      "subsets": [],
+      "subsets_of_size_k": 126,
+      "subsets_with_required_excess": 10,
+      "subsets_with_s2": 56
+    },
+    {
+      "a": 5,
+      "c": 15,
+      "exclusion": "all size-and-excess subsets lack slots for unselected Z neighbors",
+      "k": 4,
+      "slots_for_unselected_zero_neighbors": [
+        9
+      ],
+      "subsets": [],
+      "subsets_of_size_k": 126,
+      "subsets_with_required_excess": 15,
+      "subsets_with_s2": 56
+    },
+    {
+      "a": 6,
+      "c": 15,
+      "exclusion": "all size-and-excess subsets lack slots for unselected Z neighbors",
+      "k": 4,
+      "slots_for_unselected_zero_neighbors": [],
+      "subsets": [],
+      "subsets_of_size_k": 126,
+      "subsets_with_required_excess": 5,
+      "subsets_with_s2": 56
+    },
+    {
+      "a": 7,
+      "c": 15,
+      "exclusion": "all size-and-excess subsets lack slots for unselected Z neighbors",
+      "k": 4,
+      "slots_for_unselected_zero_neighbors": [],
+      "subsets": [],
+      "subsets_of_size_k": 126,
+      "subsets_with_required_excess": 5,
+      "subsets_with_s2": 56
+    },
+    {
+      "a": 8,
+      "c": 15,
+      "exclusion": "all size-and-excess subsets lack slots for unselected Z neighbors",
+      "k": 4,
+      "slots_for_unselected_zero_neighbors": [],
+      "subsets": [],
+      "subsets_of_size_k": 126,
+      "subsets_with_required_excess": 1,
+      "subsets_with_s2": 56
+    },
+    {
+      "a": 2,
+      "c": 14,
+      "exclusion": null,
+      "k": 5,
+      "slots_for_unselected_zero_neighbors": [
+        9,
+        11
+      ],
+      "subsets": [
+        [
+          "l:0:0:0",
+          "l:2:0:0",
+          "l:2:0:1",
+          "l:2:0:2",
+          "s:2"
+        ],
+        [
+          "l:0:0:0",
+          "l:2:0:0",
+          "l:2:0:1",
+          "l:2:0:3",
+          "s:2"
+        ],
+        [
+          "l:0:0:0",
+          "l:2:0:0",
+          "l:2:0:2",
+          "l:2:0:3",
+          "s:2"
+        ],
+        [
+          "l:0:0:0",
+          "l:2:0:1",
+          "l:2:0:2",
+          "l:2:0:3",
+          "s:2"
+        ],
+        [
+          "l:2:0:0",
+          "l:2:0:1",
+          "l:2:0:2",
+          "l:2:0:3",
+          "s:2"
+        ]
+      ],
+      "subsets_of_size_k": 126,
+      "subsets_with_required_excess": 5,
+      "subsets_with_s2": 70
+    },
+    {
+      "a": 3,
+      "c": 14,
+      "exclusion": null,
+      "k": 5,
+      "slots_for_unselected_zero_neighbors": [
+        9
+      ],
+      "subsets": [
+        [
+          "l:2:0:0",
+          "l:2:0:1",
+          "l:2:0:2",
+          "s:0",
+          "s:2"
+        ],
+        [
+          "l:2:0:0",
+          "l:2:0:1",
+          "l:2:0:3",
+          "s:0",
+          "s:2"
+        ],
+        [
+          "l:2:0:0",
+          "l:2:0:2",
+          "l:2:0:3",
+          "s:0",
+          "s:2"
+        ],
+        [
+          "l:2:0:1",
+          "l:2:0:2",
+          "l:2:0:3",
+          "s:0",
+          "s:2"
+        ]
+      ],
+      "subsets_of_size_k": 126,
+      "subsets_with_required_excess": 10,
+      "subsets_with_s2": 70
+    },
+    {
+      "a": 4,
+      "c": 14,
+      "exclusion": null,
+      "k": 5,
+      "slots_for_unselected_zero_neighbors": [
+        9
+      ],
+      "subsets": [
+        [
+          "b:3:0",
+          "l:2:0:0",
+          "l:2:0:1",
+          "l:2:0:2",
+          "s:2"
+        ],
+        [
+          "b:3:0",
+          "l:2:0:0",
+          "l:2:0:1",
+          "l:2:0:3",
+          "s:2"
+        ],
+        [
+          "b:3:0",
+          "l:2:0:0",
+          "l:2:0:2",
+          "l:2:0:3",
+          "s:2"
+        ],
+        [
+          "b:3:0",
+          "l:2:0:1",
+          "l:2:0:2",
+          "l:2:0:3",
+          "s:2"
+        ]
+      ],
+      "subsets_of_size_k": 126,
+      "subsets_with_required_excess": 10,
+      "subsets_with_s2": 70
+    },
+    {
+      "a": 5,
+      "c": 14,
+      "exclusion": "all size-and-excess subsets lack slots for unselected Z neighbors",
+      "k": 5,
+      "slots_for_unselected_zero_neighbors": [],
+      "subsets": [],
+      "subsets_of_size_k": 126,
+      "subsets_with_required_excess": 20,
+      "subsets_with_s2": 70
+    },
+    {
+      "a": 6,
+      "c": 14,
+      "exclusion": "all size-and-excess subsets lack slots for unselected Z neighbors",
+      "k": 5,
+      "slots_for_unselected_zero_neighbors": [],
+      "subsets": [],
+      "subsets_of_size_k": 126,
+      "subsets_with_required_excess": 10,
+      "subsets_with_s2": 70
+    },
+    {
+      "a": 7,
+      "c": 14,
+      "exclusion": "all size-and-excess subsets lack slots for unselected Z neighbors",
+      "k": 5,
+      "slots_for_unselected_zero_neighbors": [],
+      "subsets": [],
+      "subsets_of_size_k": 126,
+      "subsets_with_required_excess": 10,
+      "subsets_with_s2": 70
+    },
+    {
+      "a": 8,
+      "c": 14,
+      "exclusion": "all size-and-excess subsets lack slots for unselected Z neighbors",
+      "k": 5,
+      "slots_for_unselected_zero_neighbors": [],
+      "subsets": [],
+      "subsets_of_size_k": 126,
+      "subsets_with_required_excess": 5,
+      "subsets_with_s2": 70
+    },
+    {
+      "a": 2,
+      "c": 13,
+      "exclusion": null,
+      "k": 6,
+      "slots_for_unselected_zero_neighbors": [
+        9
+      ],
+      "subsets": [
+        [
+          "l:0:0:0",
+          "l:2:0:0",
+          "l:2:0:1",
+          "l:2:0:2",
+          "l:2:0:3",
+          "s:2"
+        ]
+      ],
+      "subsets_of_size_k": 84,
+      "subsets_with_required_excess": 1,
+      "subsets_with_s2": 56
+    },
+    {
+      "a": 3,
+      "c": 13,
+      "exclusion": null,
+      "k": 6,
+      "slots_for_unselected_zero_neighbors": [
+        9
+      ],
+      "subsets": [
+        [
+          "l:0:0:0",
+          "l:2:0:0",
+          "l:2:0:1",
+          "l:2:0:2",
+          "s:0",
+          "s:2"
+        ],
+        [
+          "l:0:0:0",
+          "l:2:0:0",
+          "l:2:0:1",
+          "l:2:0:3",
+          "s:0",
+          "s:2"
+        ],
+        [
+          "l:0:0:0",
+          "l:2:0:0",
+          "l:2:0:2",
+          "l:2:0:3",
+          "s:0",
+          "s:2"
+        ],
+        [
+          "l:0:0:0",
+          "l:2:0:1",
+          "l:2:0:2",
+          "l:2:0:3",
+          "s:0",
+          "s:2"
+        ],
+        [
+          "l:2:0:0",
+          "l:2:0:1",
+          "l:2:0:2",
+          "l:2:0:3",
+          "s:0",
+          "s:2"
+        ]
+      ],
+      "subsets_of_size_k": 84,
+      "subsets_with_required_excess": 5,
+      "subsets_with_s2": 56
+    },
+    {
+      "a": 4,
+      "c": 13,
+      "exclusion": null,
+      "k": 6,
+      "slots_for_unselected_zero_neighbors": [],
+      "subsets": [
+        [
+          "b:3:0",
+          "l:2:0:0",
+          "l:2:0:1",
+          "l:2:0:2",
+          "l:2:0:3",
+          "s:2"
+        ]
+      ],
+      "subsets_of_size_k": 84,
+      "subsets_with_required_excess": 5,
+      "subsets_with_s2": 56
+    },
+    {
+      "a": 5,
+      "c": 13,
+      "exclusion": null,
+      "k": 6,
+      "slots_for_unselected_zero_neighbors": [],
+      "subsets": [
+        [
+          "b:1:0",
+          "l:2:0:0",
+          "l:2:0:1",
+          "l:2:0:2",
+          "l:2:0:3",
+          "s:2"
+        ]
+      ],
+      "subsets_of_size_k": 84,
+      "subsets_with_required_excess": 15,
+      "subsets_with_s2": 56
+    },
+    {
+      "a": 6,
+      "c": 13,
+      "exclusion": "all size-and-excess subsets lack slots for unselected Z neighbors",
+      "k": 6,
+      "slots_for_unselected_zero_neighbors": [],
+      "subsets": [],
+      "subsets_of_size_k": 84,
+      "subsets_with_required_excess": 10,
+      "subsets_with_s2": 56
+    },
+    {
+      "a": 7,
+      "c": 13,
+      "exclusion": "all size-and-excess subsets lack slots for unselected Z neighbors",
+      "k": 6,
+      "slots_for_unselected_zero_neighbors": [],
+      "subsets": [],
+      "subsets_of_size_k": 84,
+      "subsets_with_required_excess": 10,
+      "subsets_with_s2": 56
+    },
+    {
+      "a": 8,
+      "c": 13,
+      "exclusion": "all size-and-excess subsets lack slots for unselected Z neighbors",
+      "k": 6,
+      "slots_for_unselected_zero_neighbors": [],
+      "subsets": [],
+      "subsets_of_size_k": 84,
+      "subsets_with_required_excess": 10,
+      "subsets_with_s2": 56
+    },
+    {
+      "a": 2,
+      "c": 12,
+      "exclusion": "no size-k subset containing s:2 has the required excess degree",
+      "k": 7,
+      "slots_for_unselected_zero_neighbors": [
+        9
+      ],
+      "subsets": [],
+      "subsets_of_size_k": 36,
+      "subsets_with_required_excess": 0,
+      "subsets_with_s2": 28
+    },
+    {
+      "a": 3,
+      "c": 12,
+      "exclusion": null,
+      "k": 7,
+      "slots_for_unselected_zero_neighbors": [],
+      "subsets": [
+        [
+          "l:0:0:0",
+          "l:2:0:0",
+          "l:2:0:1",
+          "l:2:0:2",
+          "l:2:0:3",
+          "s:0",
+          "s:2"
+        ]
+      ],
+      "subsets_of_size_k": 36,
+      "subsets_with_required_excess": 1,
+      "subsets_with_s2": 28
+    },
+    {
+      "a": 4,
+      "c": 12,
+      "exclusion": null,
+      "k": 7,
+      "slots_for_unselected_zero_neighbors": [],
+      "subsets": [
+        [
+          "b:3:0",
+          "l:0:0:0",
+          "l:2:0:0",
+          "l:2:0:1",
+          "l:2:0:2",
+          "l:2:0:3",
+          "s:2"
+        ]
+      ],
+      "subsets_of_size_k": 36,
+      "subsets_with_required_excess": 1,
+      "subsets_with_s2": 28
+    },
+    {
+      "a": 5,
+      "c": 12,
+      "exclusion": null,
+      "k": 7,
+      "slots_for_unselected_zero_neighbors": [],
+      "subsets": [
+        [
+          "b:1:0",
+          "l:0:0:0",
+          "l:2:0:0",
+          "l:2:0:1",
+          "l:2:0:2",
+          "l:2:0:3",
+          "s:2"
+        ],
+        [
+          "b:3:0",
+          "l:2:0:0",
+          "l:2:0:1",
+          "l:2:0:2",
+          "l:2:0:3",
+          "s:0",
+          "s:2"
+        ]
+      ],
+      "subsets_of_size_k": 36,
+      "subsets_with_required_excess": 6,
+      "subsets_with_s2": 28
+    },
+    {
+      "a": 6,
+      "c": 12,
+      "exclusion": null,
+      "k": 7,
+      "slots_for_unselected_zero_neighbors": [],
+      "subsets": [
+        [
+          "b:1:0",
+          "l:2:0:0",
+          "l:2:0:1",
+          "l:2:0:2",
+          "l:2:0:3",
+          "s:0",
+          "s:2"
+        ]
+      ],
+      "subsets_of_size_k": 36,
+      "subsets_with_required_excess": 5,
+      "subsets_with_s2": 28
+    },
+    {
+      "a": 7,
+      "c": 12,
+      "exclusion": null,
+      "k": 7,
+      "slots_for_unselected_zero_neighbors": [],
+      "subsets": [
+        [
+          "b:1:0",
+          "b:3:0",
+          "l:2:0:0",
+          "l:2:0:1",
+          "l:2:0:2",
+          "l:2:0:3",
+          "s:2"
+        ]
+      ],
+      "subsets_of_size_k": 36,
+      "subsets_with_required_excess": 5,
+      "subsets_with_s2": 28
+    },
+    {
+      "a": 8,
+      "c": 12,
+      "exclusion": "all size-and-excess subsets lack slots for unselected Z neighbors",
+      "k": 7,
+      "slots_for_unselected_zero_neighbors": [],
+      "subsets": [],
+      "subsets_of_size_k": 36,
+      "subsets_with_required_excess": 10,
+      "subsets_with_s2": 28
+    },
+    {
+      "a": 2,
+      "c": 11,
+      "exclusion": "no size-k subset containing s:2 has the required excess degree",
+      "k": 8,
+      "slots_for_unselected_zero_neighbors": [],
+      "subsets": [],
+      "subsets_of_size_k": 9,
+      "subsets_with_required_excess": 0,
+      "subsets_with_s2": 8
+    },
+    {
+      "a": 3,
+      "c": 11,
+      "exclusion": "no size-k subset containing s:2 has the required excess degree",
+      "k": 8,
+      "slots_for_unselected_zero_neighbors": [],
+      "subsets": [],
+      "subsets_of_size_k": 9,
+      "subsets_with_required_excess": 0,
+      "subsets_with_s2": 8
+    },
+    {
+      "a": 4,
+      "c": 11,
+      "exclusion": "no size-k subset containing s:2 has the required excess degree",
+      "k": 8,
+      "slots_for_unselected_zero_neighbors": [],
+      "subsets": [],
+      "subsets_of_size_k": 9,
+      "subsets_with_required_excess": 0,
+      "subsets_with_s2": 8
+    },
+    {
+      "a": 5,
+      "c": 11,
+      "exclusion": null,
+      "k": 8,
+      "slots_for_unselected_zero_neighbors": [],
+      "subsets": [
+        [
+          "b:3:0",
+          "l:0:0:0",
+          "l:2:0:0",
+          "l:2:0:1",
+          "l:2:0:2",
+          "l:2:0:3",
+          "s:0",
+          "s:2"
+        ]
+      ],
+      "subsets_of_size_k": 9,
+      "subsets_with_required_excess": 1,
+      "subsets_with_s2": 8
+    },
+    {
+      "a": 6,
+      "c": 11,
+      "exclusion": null,
+      "k": 8,
+      "slots_for_unselected_zero_neighbors": [],
+      "subsets": [
+        [
+          "b:1:0",
+          "l:0:0:0",
+          "l:2:0:0",
+          "l:2:0:1",
+          "l:2:0:2",
+          "l:2:0:3",
+          "s:0",
+          "s:2"
+        ]
+      ],
+      "subsets_of_size_k": 9,
+      "subsets_with_required_excess": 1,
+      "subsets_with_s2": 8
+    },
+    {
+      "a": 7,
+      "c": 11,
+      "exclusion": null,
+      "k": 8,
+      "slots_for_unselected_zero_neighbors": [],
+      "subsets": [
+        [
+          "b:1:0",
+          "b:3:0",
+          "l:0:0:0",
+          "l:2:0:0",
+          "l:2:0:1",
+          "l:2:0:2",
+          "l:2:0:3",
+          "s:2"
+        ]
+      ],
+      "subsets_of_size_k": 9,
+      "subsets_with_required_excess": 1,
+      "subsets_with_s2": 8
+    },
+    {
+      "a": 8,
+      "c": 11,
+      "exclusion": null,
+      "k": 8,
+      "slots_for_unselected_zero_neighbors": [],
+      "subsets": [
+        [
+          "b:1:0",
+          "b:3:0",
+          "l:2:0:0",
+          "l:2:0:1",
+          "l:2:0:2",
+          "l:2:0:3",
+          "s:0",
+          "s:2"
+        ]
+      ],
+      "subsets_of_size_k": 9,
+      "subsets_with_required_excess": 5,
+      "subsets_with_s2": 8
+    }
+  ]
+}

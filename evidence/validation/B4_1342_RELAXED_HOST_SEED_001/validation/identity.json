@@ -1,0 +1,71 @@
+{
+  "configuration": {
+    "path": "config.json",
+    "sha256_raw": "50347aa091dd9b8ef0ebeae843d5ff9d616451989185d8fcb7c68a47470a3863"
+  },
+  "limits": {
+    "max_assignment_nodes": 200000,
+    "max_pairs": 23,
+    "max_result_bytes": 2000000,
+    "max_search_seconds": 20,
+    "max_vertices": 22,
+    "workers": 1
+  },
+  "parent": "bb7927bcf85d6d32b9bde5b1904c6b43ec6b6a8e",
+  "presearch_proof": {
+    "path": "research/B4_1342_RELAXED_HOST_SEED.md",
+    "sha256_raw": "1dc0e578a63fa72c87b780a1e6980ae54deb35519cb7a5ab77e10c382d079313"
+  },
+  "presearch_review": {
+    "path": "presearch_review.json",
+    "sha256_raw": "31f41829c8ade57e5b5b6d4070f42cc5b06dade80f3bb9162bf668ad3a6acb67"
+  },
+  "retained": [
+    {
+      "path": "evidence/validation/B4_1342_UPPER_BLOCK_OBSTRUCTION_001/validation/originals/1342.json",
+      "sha256_raw": "d23ebdbd4e70ea0d413cb87f09a165737c21b7d095dcb49669d882c6b0496113"
+    },
+    {
+      "path": "evidence/validation/B4_1RT2_TWO_HOST_COMPATIBILITY_001/validation/normalized-r3-t4.json",
+      "sha256_raw": "efda3869ee246071c3966297714362843f92b69ee39a1112b3eed24a9220e73e"
+    },
+    {
+      "path": "evidence/validation/B4_THIRD_ZERO_HOST_NONADJACENT_001/original_graph.json",
+      "sha256_raw": "16da85d76bcac473e093c6979f62881e1e63c08b519a0b30ba0ca653b8527f91"
+    },
+    {
+      "path": "evidence/validation/B4_THIRD_ZERO_HOST_NONADJACENT_001/query_record.json",
+      "sha256_raw": "4b9019e5c7cd6ef68ba5ebd07b45b1b15e0ded61398b5a7d2e8d7a7b684ea744"
+    },
+    {
+      "path": "evidence/validation/B4_UNPADDED_Q1T2_001/validation/retained_seed.json",
+      "sha256_raw": "bf2b865a61eb0b6f155ccd28c20ad8bdb7e738a50edb9650737c9ee4613a15d8"
+    }
+  ],
+  "run_id": "B4-1342-RELAXED-HOST-SEED-001-20261122",
+  "runtime": {
+    "implementation": "cpython",
+    "optional_dependencies": [],
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]",
+    "python_executable": ".venv/Scripts/python.exe",
+    "utf8_mode": 1
+  },
+  "sources_sha256_raw": {
+    "lcl/__init__.py": "134055506d3e9cd4fa538177844d28a44d5ab567ec220cf54048e63d1a8a7374",
+    "lcl/model.py": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6",
+    "lcl/verify.py": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909",
+    "pyproject.toml": "738f14eba3125ce7f444628adaddaf2e3e30e5aa7f43f10e7035067f6b7072e5",
+    "requirements.txt": "60f6e1bd76adf6ed25cf381ca95f67e8a27a0de1e62fb673a7cf5af4b86249ea"
+  },
+  "task_files": [
+    {
+      "path": "run.py",
+      "sha256_raw": "71e4589e814cbe6ed94ca4058ba4fbfe90aae578fa5494bbf538c9857c2765c0"
+    },
+    {
+      "path": "seed_search.py",
+      "sha256_raw": "710067459ccd1e876621f716b00e6df4e112b74e45590229690b0a2a1cd7aae0"
+    }
+  ]
+}

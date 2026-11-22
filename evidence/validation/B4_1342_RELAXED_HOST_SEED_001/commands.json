@@ -1,0 +1,30 @@
+{
+  "run_id": "B4-1342-RELAXED-HOST-SEED-001-20261122",
+  "shell": "PowerShell from the LCL root, one process per command",
+  "commands": [
+    {
+      "cmd": "& .\\.venv\\Scripts\\python.exe -B -c \"import ast,pathlib; p=pathlib.Path('evidence/validation/B4_1342_RELAXED_HOST_SEED_001'); [ast.parse((p / n).read_bytes()) for n in ('run.py','seed_search.py')]; print('Search scripts parse')\"\nexit $LASTEXITCODE",
+      "chunk_id": "e74034",
+      "wall_time_seconds": 0.5089375,
+      "exit_code": 0,
+      "original_token_count": 6,
+      "output": "Search scripts parse\r\n"
+    },
+    {
+      "cmd": "$env:PYTHONUTF8='1'\n& .\\.venv\\Scripts\\python.exe -B 'evidence/validation/B4_1342_RELAXED_HOST_SEED_001/run.py'\nexit $LASTEXITCODE",
+      "chunk_id": "700384",
+      "wall_time_seconds": 2.1825356,
+      "exit_code": 0,
+      "original_token_count": 445,
+      "output": "{\"assignment_nodes\": 13171, \"controls\": {\"path\": \"controls.json\", \"sha256_raw\": \"a1ec96ec21221397b01553eafeb60612829a959df3f1ee3efcfc030b19d17ca8\"}, \"elapsed_seconds\": 1.1086707999929786, \"exact_solution_count\": null, \"guards\": {\"path\": \"guards.json\", \"sha256_raw\": \"96ae4ed1e0eda364ca7202e431fe544b66cbba3e80c19444a9e069e27ab6a5e7\"}, \"historical_replays\": 0, \"identity\": {\"path\": \"identity.json\", \"sha256_raw\": \"84df9405e482f3596135c67387c1de44fe513a55842e734300d1b714e437f780\"}, \"limits\": {\"max_assignment_nodes\": 200000, \"max_pairs\": 23, \"max_result_bytes\": 2000000, \"max_search_seconds\": 20, \"max_vertices\": 22, \"workers\": 1}, \"original\": {\"path\": \"evidence/validation/B4_1342_UPPER_BLOCK_OBSTRUCTION_001/validation/originals/1342.json\", \"sha256_raw\": \"d23ebdbd4e70ea0d413cb87f09a165737c21b7d095dcb49669d882c6b0496113\"}, \"original_digest\": \"025a32fe013aa21dee6a6f448ac572be79833d994c5ec392bf7b47cc0cd37ea1\", \"pair_states\": [[18, 2, \"EXHAUSTED\", 2], [17, 2, \"EXHAUSTED\", 25], [17, 3, \"EXHAUSTED\", 26], [16, 2, \"EXHAUSTED\", 1272], [16, 3, \"EXHAUSTED\", 96], [15, 2, \"EXHAUSTED\", 2070], [15, 3, \"EXHAUSTED\", 192], [14, 2, \"EXHAUSTED\", 1418], [14, 3, \"EXHAUSTED\", 400], [14, 4, \"EXHAUSTED\", 72], [13, 2, \"EXHAUSTED\", 650], [13, 3, \"EXHAUSTED\", 1325], [13, 4, \"EXHAUSTED\", 686], [13, 5, \"EXHAUSTED\", 280], [12, 3, \"EXHAUSTED\", 969], [12, 4, \"EXHAUSTED\", 491], [12, 5, \"EXHAUSTED\", 706], [12, 6, \"EXHAUSTED\", 823], [12, 7, \"EXHAUSTED\", 4], [11, 5, \"EXHAUSTED\", 27], [11, 6, \"EXHAUSTED\", 1636], [11, 7, \"EXHAUSTED\", 1], [11, 8, \"EXHAUSTED\", 0]], \"prefilter\": {\"path\": \"prefilter.json\", \"sha256_raw\": \"5ee03276dafa3abb9defe043dbb2820a72a317bcd4abc4abf103c336d3cb1185\"}, \"run_id\": \"B4-1342-RELAXED-HOST-SEED-001-20261122\", \"search_runs\": 1, \"status\": \"EXHAUSTED_RESTRICTED_NEGATIVE\"}\r\n"
+    },
+    {
+      "cmd": "$env:PYTHONUTF8='1'\n& .\\.venv\\Scripts\\python.exe -B 'evidence/validation/B4_1342_RELAXED_HOST_SEED_001/audit.py'\nexit $LASTEXITCODE",
+      "chunk_id": "dc6b03",
+      "wall_time_seconds": 0.652383,
+      "exit_code": 0,
+      "original_token_count": 187,
+      "output": "{\"assignment_nodes_in_saved_run\": 13171, \"audit_labeling_replays\": 0, \"audit_solver_calls\": 0, \"audited_exhausted_named_subsets\": 68, \"audited_pairs\": 56, \"audited_retained_graph_records\": 2, \"auditor\": {\"path\": \"audit.py\", \"sha256_raw\": \"2ad4447f61f40bf54cd4b8d34a3f68624d46592979dfee981040361bd635424d\"}, \"excluded_pairs\": 33, \"exhausted_pairs\": 23, \"input_rejections\": 10, \"new_graph_records\": 0, \"positive_control_selected_count\": 10, \"result_proof\": {\"path\": \"research/B4_1342_RELAXED_HOST_SEED_RESULT.md\", \"sha256_raw\": \"d36a86e31b51eac46c1a0c4e69d658300b2d0607ba6dc4de1e5ec7c08b0239ca\"}, \"search_summary\": {\"path\": \"search_summary.json\", \"sha256_raw\": \"5ac55e3d0c2ef3d988eb0758b8805f7eecedb2e4feb40c17bf6457537b0b3753\"}, \"status\": \"PASS\"}\r\n"
+    }
+  ]
+}
