@@ -2,7 +2,7 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 21, 2026, Pacific/Honolulu  
-**Stage:** B4-1R22-K1-ROOTED-CORE-001 accepted after separate AI reviews. The explicit root-zero core gives the K=1 singleton and completes ordinary-gracefulness coverage for the exact (1,r,2,2) family over all positive integers r,K.
+**Stage:** B4-12T2-ZERO-HOST-SUPPLIER-001 accepted after separate AI reviews. The explicit 1232 zero-host seed and nonadjacent completion close the exact (1,2,t,2) family for t>=3,K>=2. Its K=1 singleton remains open.
 
 ## Current scientific objective
 
@@ -10,11 +10,12 @@ Develop independently supplied original-graph boundaries beyond the proved zero-
 
 ## One next action
 
-**With a new bounded scope decision, seek an explicit normalized supplier for `[[1],[2],[t],[2],[]]` with integer `t>=3`**, preserving the physical `s:4` exit and both inventories for an existing original-path consumer at `K>=2`.
+**With a new bounded scope decision, seek an explicit `K=1` singleton supplier for `[[1],[2],[t],[2],[],[]]` with integer `t>=3`**, preserving the physical `s:4` port and both inventories.
 
 ## What is established in this package
 
 - Both authenticated upstream main heads match the pinned audit commits. The repositories remain unchanged.
+- B4-12T2-ZERO-HOST-SUPPLIER-001 supplies explicit A(17,8;1,1) on the exact 1232 prefix, then extends at the original third zero host to A(t+14,8;1,1) for exact integer t>=3. The original nonadjacent path completes the full (1,2,t,2) target at K>=2 from R=[8,K+7], D=[1,K], and physical s:4=K+9. The retained t=1 and t=2 routes give all positive t at K>=2. Three normalized prefixes, four completed targets, one retained recheck and eight invalid-input probes passed with zero solver calls. See `research/B4_12T2_ZERO_HOST_SUPPLIER.md`, D046 and `evidence/validation/B4_12T2_ZERO_HOST_SUPPLIER_001/`.
 - B4-1R22-K1-ROOTED-CORE-001 supplies a graceful fixed core `[[1],[],[2],[2],[],[]]` with physical s:1=0. Translating it by r and restoring the second branch gives R={r+3}, D={5} at physical s:4=r+8 on every exact r>=2,K=1 target. With the retained r=1 and r,K>=2 branches this proves ordinary gracefulness on `[[1],[r],[2],[2]]+[[]]*(K+1)` for all positive integers r,K. One core and four completions passed with zero solver calls. See `research/B4_1R22_K1_ROOTED_CORE.md`, D045 and `evidence/validation/B4_1R22_K1_ROOTED_CORE_001/`.
 - B4-UNPADDED-1R22-SUPPLIER-001 supplies A(r+14,r+6;r+4,1) on `[[1],[r],[2],[2],[]]` for integer r>=2. The independently supplied maximum second center and its original zero leaf permit fixed-cut growth with a moving low port. With a high shift by K, R=[r+6,r+K+5], D=[1,K] and physical s:4=r+K+7 supply ordinary gracefulness of the full exact (1,r,2,2) profile for r,K>=2. Four completed cases, three normalized prefixes, two retained diagnostic rechecks and eight rejections passed with zero solver calls. See `research/B4_UNPADDED_1R22_SUPPLIER.md`, D044, and `evidence/validation/B4_UNPADDED_1R22_SUPPLIER_001/`.
 - B4-Q1T2-K1-ROOTED-CORE-001 supplies a graceful core `[[q],[1],[],[2],[],[]]` with physical s:2=q+11 for every exact integer q>=2. Its translated lift supplies `R={5}`, `D={1}` at physical s:4=6 and completes the original s:4--s:5 at s:5=5 for every q,t>=2 at K=1. Combined with the retained branches, this gives ordinary gracefulness of `[[q],[1],[t],[2]]+[[]]*(K+1)` for all positive q,t,K. Four completed targets and three auxiliary cores passed with zero solver calls. See `research/B4_Q1T2_K1_ROOTED_CORE.md`, D043, and `evidence/validation/B4_Q1T2_K1_ROOTED_CORE_001/`.

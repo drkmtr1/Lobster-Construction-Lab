@@ -1,0 +1,64 @@
+{
+  "additional_completed_targets": 0,
+  "additional_prefixes": 0,
+  "computational_enumeration": 0,
+  "historical_search_replay": 0,
+  "run_id": "B4-12T2-ZERO-HOST-SUPPLIER-001-20261121",
+  "same_batch_comparison_sha256_raw": "87bc937c772d39b57586f481cf0c527eb0901d1fa35b7b03a665c80e42a10910",
+  "same_completed_targets": [
+    {
+      "K": 2,
+      "bytes": 6060,
+      "certificate": "target-t3-K2.json",
+      "n": 19,
+      "sha256_raw": "2b5fde75db1be2531610e30248d09f7cc7baf0d22cb3fac4e9b5876053d8b1a9",
+      "t": 3
+    },
+    {
+      "K": 3,
+      "bytes": 6330,
+      "certificate": "target-t3-K3.json",
+      "n": 20,
+      "sha256_raw": "069ddd7e9bb8e7bfde87d883d9597dd3d3a53fcec1dc37374a9839d7e7a543b2",
+      "t": 3
+    },
+    {
+      "K": 4,
+      "bytes": 6860,
+      "certificate": "target-t4-K4.json",
+      "n": 22,
+      "sha256_raw": "6c2310c90965367ec30c08253a4c15930b843f8c2bb0b9be08c084b1c1fc8e88",
+      "t": 4
+    },
+    {
+      "K": 5,
+      "bytes": 7390,
+      "certificate": "target-t5-K5.json",
+      "n": 24,
+      "sha256_raw": "b99e104251f496280eda2bb571b1aa8804104b220d38d9ab5e6862e286e5efba",
+      "t": 5
+    }
+  ],
+  "same_domain_rejections": 8,
+  "same_normalized_prefixes": [
+    {
+      "n": 17,
+      "sha256_raw": "8df3d93668849de4adba8e640511ff5047e7b4bfdacf167c48a69c4d2c6fdae8",
+      "t": 3
+    },
+    {
+      "n": 18,
+      "sha256_raw": "c050236bca02d38ac85ac7b55299d1e3052ab70a59cb2f0fda27879382ef0a58",
+      "t": 4
+    },
+    {
+      "n": 19,
+      "sha256_raw": "07c999273fdcb7eed6b4b480022e43812eef24df4fb294b21e4bdba22e3829e0",
+      "t": 5
+    }
+  ],
+  "same_retained_control_sha256_raw": "3162f0f02f6aca53b0a143ca1dc1276e3d40774139f54037dde5c551cc2273cf",
+  "same_retained_rechecks": 1,
+  "solver_queries": 0,
+  "status": "PASS"
+}

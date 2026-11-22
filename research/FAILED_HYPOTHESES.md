@@ -163,3 +163,14 @@ pending edge would have weight 2. This is a failure of that
 specific retained-prefix transport, rather than a root-pin
 obstruction. The direct full core has its own exact ledger.
 [Core proof and comparison](B4_1R22_K1_ROOTED_CORE.md#exact-core-and-construction)
+
+### F-B4-12T2-RETAINED-1222-UPPER-BLOCK
+
+For the specified retained 16-vertex 1222 ledger at
+b:2:0=3, preserving s:4=9 under upper-block insertion
+requires c=10,...,15. At c=14 the actual and required
+incident counts coincide, but the full spectrum is
+{8,12,13,14,15} instead of [11,15]. Other cuts fail the
+count. The rejection is specific to that fixed ledger,
+physical host and port-preserving transition.
+[Exact comparison](B4_12T2_ZERO_HOST_SUPPLIER.md#restricted-comparison-with-the-retained-r2-ledger)

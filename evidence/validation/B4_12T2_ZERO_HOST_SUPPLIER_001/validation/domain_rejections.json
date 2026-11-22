@@ -1,0 +1,50 @@
+[
+  {
+    "error": "t must be an exact integer >= 3",
+    "parameter": "t",
+    "type": "bool",
+    "value": true
+  },
+  {
+    "error": "t must be an exact integer >= 3",
+    "parameter": "t",
+    "type": "float",
+    "value": 3.0
+  },
+  {
+    "error": "t must be an exact integer >= 3",
+    "parameter": "t",
+    "type": "str",
+    "value": "3"
+  },
+  {
+    "error": "t must be an exact integer >= 3",
+    "parameter": "t",
+    "type": "int",
+    "value": 2
+  },
+  {
+    "error": "K must be an exact integer >= 2",
+    "parameter": "K",
+    "type": "bool",
+    "value": true
+  },
+  {
+    "error": "K must be an exact integer >= 2",
+    "parameter": "K",
+    "type": "float",
+    "value": 2.0
+  },
+  {
+    "error": "K must be an exact integer >= 2",
+    "parameter": "K",
+    "type": "str",
+    "value": "2"
+  },
+  {
+    "error": "K must be an exact integer >= 2",
+    "parameter": "K",
+    "type": "int",
+    "value": 1
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "run_id": "B4-12T2-ZERO-HOST-SUPPLIER-001-20261121",
+  "parent": "2ac6611d8051d944a4d6723fbc271ddc6935ae07",
+  "workers": 1,
+  "max_vertices": 24,
+  "max_result_bytes": 2000000,
+  "solver_queries": 0,
+  "computational_enumeration": 0,
+  "historical_search_replay": 0,
+  "normalized_t": [
+    3,
+    4,
+    5
+  ],
+  "completed_t_K": [
+    [
+      3,
+      2
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      5,
+      5
+    ]
+  ],
+  "completed_orders": [
+    19,
+    20,
+    22,
+    24
+  ],
+  "retained": "evidence/validation/B4_UNPADDED_1R22_SUPPLIER_001/validation/normalized-r2.json",
+  "exit_offset": 1
+}

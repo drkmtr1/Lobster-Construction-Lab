@@ -530,3 +530,34 @@ There were zero solver queries, computational enumeration
 or historical search replays.
 [Proof and selector](B4_1R22_K1_ROOTED_CORE.md)
 · [Evidence](../evidence/validation/B4_1R22_K1_ROOTED_CORE_001/README.md) · D045
+
+## B4-12T2-ZERO-HOST-SUPPLIER-001
+
+**ACCEPT** the explicit 17-vertex alpha seed on
+`[[1],[2],[3],[2],[]]` with Z=b:2:0 at zero. The physical
+L=b:0:0 has label 1, U=s:4 has label 9, and the witness
+passes through L and the whole prefix spine. The exact
+seed state is A(17,8;1,1).
+
+**ACCEPT** the retained zero-host lemma application for
+exact integer t>=3, giving A(t+14,8;1,1) with all original
+labels preserved and pointwise ordered-batch closure.
+For exact t>=3,K>=2 the high shift leaves R=[8,K+7],
+D=[1,K] and physical s:4=K+9. The nonadjacent numeric
+path sequence proves ordinary gracefulness on the exact
+ordered (1,2,t,2) family. Together with the separate
+retained t=1 and t=2 interfaces this covers all positive
+t at K>=2. The t>=3,K=1 case remains open.
+
+**REJECT** the port-preserving upper-block premise only
+on the specified retained 1222 ledger at the actual
+third host. At c=14 the counts agree but the spectrum is
+{8,12,13,14,15} instead of [11,15].
+
+Three normalized prefixes, four completed targets, one
+retained recheck and eight invalid-input probes passed.
+The same-record audit, normalized batch comparison and
+two separate read-only AI reviews added zero cases. No
+solver queries, enumeration or historical replay occurred.
+[Proof](B4_12T2_ZERO_HOST_SUPPLIER.md)
+· [Evidence](../evidence/validation/B4_12T2_ZERO_HOST_SUPPLIER_001/README.md) · D046

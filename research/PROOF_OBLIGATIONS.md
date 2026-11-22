@@ -424,6 +424,25 @@ the maximum second center and the original zero terminal.
 
 The selector exhausts positive integers r,K using the retained
 r=1 constructions, the preceding r,K>=2 supplier, and this
-K=1 supplier on the exact ordered (1,r,2,2) profile. Third
-branch growth with r>=2 and broader B4 profiles still require
-independent supply.
+K=1 supplier on the exact ordered (1,r,2,2) profile. The restricted additional
+third-branch growth at r=2 is supplied below for K>=2.
+Broader profiles require separate supply.
+
+### 12T2 independent zero-host supply and nonadjacent completion
+
+The [12T2 proof](B4_12T2_ZERO_HOST_SUPPLIER.md) discharges
+the explicit A(17,8;1,1) seed on the exact normalized 1232
+prefix with zero at the original third center. The old
+witness, physical ports and complete alpha spectrum meet
+the retained zero-host lemma's hypotheses. Its application
+discharges normalized alpha supply A(t+14,8;1,1) for exact
+integer t>=3, with finite pointwise named closure.
+
+High shift and the nonadjacent numerical path give ordinary
+gracefulness for exact t>=3,K>=2, with R=[8,K+7], D=[1,K],
+and physical s:4=K+9 on the original ordered full profile.
+The exact (1,2,t,2) family is covered for all positive t at
+K>=2 after adjoining the retained t=1 and t=2 routes. At
+K=1 only t=1,2 are covered by these results. Simultaneous
+second and third growth and broader profiles require separate
+supply.

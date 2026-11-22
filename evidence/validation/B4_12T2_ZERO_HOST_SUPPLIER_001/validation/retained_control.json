@@ -1,0 +1,537 @@
+{
+  "certificate": "evidence/validation/B4_UNPADDED_1R22_SUPPLIER_001/validation/normalized-r2.json",
+  "certificate_sha256_raw": "941c895803821494c9e6829795faf1f1102d916a303e8a60daa15455cde09c08",
+  "check": {
+    "claim": "finite certificate for this exact named target only",
+    "edge_differences": [
+      12,
+      11,
+      6,
+      2,
+      8,
+      5,
+      13,
+      15,
+      14,
+      10,
+      7,
+      9,
+      1,
+      4,
+      3
+    ],
+    "errors": [],
+    "graph_digest": "06458a5bfd31614a27c6e1e5203ef4d9144e02812ba85b9e6f38e163544e15f1",
+    "m": 15,
+    "n": 16,
+    "valid": true
+  },
+  "cuts": [
+    {
+      "c": 10,
+      "incident": [
+        {
+          "difference": 12,
+          "edge": [
+            "s:0",
+            "s:1"
+          ]
+        },
+        {
+          "difference": 11,
+          "edge": [
+            "s:1",
+            "s:2"
+          ]
+        },
+        {
+          "difference": 6,
+          "edge": [
+            "s:2",
+            "s:3"
+          ]
+        },
+        {
+          "difference": 8,
+          "edge": [
+            "s:0",
+            "b:0:0"
+          ]
+        },
+        {
+          "difference": 5,
+          "edge": [
+            "b:0:0",
+            "l:0:0:0"
+          ]
+        },
+        {
+          "difference": 13,
+          "edge": [
+            "s:1",
+            "b:1:0"
+          ]
+        },
+        {
+          "difference": 15,
+          "edge": [
+            "b:1:0",
+            "l:1:0:0"
+          ]
+        },
+        {
+          "difference": 14,
+          "edge": [
+            "b:1:0",
+            "l:1:0:1"
+          ]
+        },
+        {
+          "difference": 10,
+          "edge": [
+            "s:2",
+            "b:2:0"
+          ]
+        },
+        {
+          "difference": 7,
+          "edge": [
+            "b:2:0",
+            "l:2:0:0"
+          ]
+        },
+        {
+          "difference": 9,
+          "edge": [
+            "b:2:0",
+            "l:2:0:1"
+          ]
+        }
+      ],
+      "required": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "selected": [
+        "b:1:0",
+        "l:0:0:0",
+        "l:2:0:0",
+        "l:2:0:1",
+        "s:0",
+        "s:2"
+      ],
+      "spectrum": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "c": 11,
+      "incident": [
+        {
+          "difference": 12,
+          "edge": [
+            "s:0",
+            "s:1"
+          ]
+        },
+        {
+          "difference": 11,
+          "edge": [
+            "s:1",
+            "s:2"
+          ]
+        },
+        {
+          "difference": 6,
+          "edge": [
+            "s:2",
+            "s:3"
+          ]
+        },
+        {
+          "difference": 8,
+          "edge": [
+            "s:0",
+            "b:0:0"
+          ]
+        },
+        {
+          "difference": 5,
+          "edge": [
+            "b:0:0",
+            "l:0:0:0"
+          ]
+        },
+        {
+          "difference": 13,
+          "edge": [
+            "s:1",
+            "b:1:0"
+          ]
+        },
+        {
+          "difference": 15,
+          "edge": [
+            "b:1:0",
+            "l:1:0:0"
+          ]
+        },
+        {
+          "difference": 14,
+          "edge": [
+            "b:1:0",
+            "l:1:0:1"
+          ]
+        },
+        {
+          "difference": 10,
+          "edge": [
+            "s:2",
+            "b:2:0"
+          ]
+        },
+        {
+          "difference": 9,
+          "edge": [
+            "b:2:0",
+            "l:2:0:1"
+          ]
+        }
+      ],
+      "required": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "selected": [
+        "b:1:0",
+        "l:0:0:0",
+        "l:2:0:1",
+        "s:0",
+        "s:2"
+      ],
+      "spectrum": [
+        5,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "c": 12,
+      "incident": [
+        {
+          "difference": 12,
+          "edge": [
+            "s:0",
+            "s:1"
+          ]
+        },
+        {
+          "difference": 11,
+          "edge": [
+            "s:1",
+            "s:2"
+          ]
+        },
+        {
+          "difference": 6,
+          "edge": [
+            "s:2",
+            "s:3"
+          ]
+        },
+        {
+          "difference": 8,
+          "edge": [
+            "s:0",
+            "b:0:0"
+          ]
+        },
+        {
+          "difference": 13,
+          "edge": [
+            "s:1",
+            "b:1:0"
+          ]
+        },
+        {
+          "difference": 15,
+          "edge": [
+            "b:1:0",
+            "l:1:0:0"
+          ]
+        },
+        {
+          "difference": 14,
+          "edge": [
+            "b:1:0",
+            "l:1:0:1"
+          ]
+        },
+        {
+          "difference": 10,
+          "edge": [
+            "s:2",
+            "b:2:0"
+          ]
+        },
+        {
+          "difference": 9,
+          "edge": [
+            "b:2:0",
+            "l:2:0:1"
+          ]
+        }
+      ],
+      "required": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "selected": [
+        "b:1:0",
+        "l:2:0:1",
+        "s:0",
+        "s:2"
+      ],
+      "spectrum": [
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "c": 13,
+      "incident": [
+        {
+          "difference": 12,
+          "edge": [
+            "s:0",
+            "s:1"
+          ]
+        },
+        {
+          "difference": 11,
+          "edge": [
+            "s:1",
+            "s:2"
+          ]
+        },
+        {
+          "difference": 6,
+          "edge": [
+            "s:2",
+            "s:3"
+          ]
+        },
+        {
+          "difference": 8,
+          "edge": [
+            "s:0",
+            "b:0:0"
+          ]
+        },
+        {
+          "difference": 13,
+          "edge": [
+            "s:1",
+            "b:1:0"
+          ]
+        },
+        {
+          "difference": 15,
+          "edge": [
+            "b:1:0",
+            "l:1:0:0"
+          ]
+        },
+        {
+          "difference": 14,
+          "edge": [
+            "b:1:0",
+            "l:1:0:1"
+          ]
+        },
+        {
+          "difference": 10,
+          "edge": [
+            "s:2",
+            "b:2:0"
+          ]
+        }
+      ],
+      "required": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "selected": [
+        "b:1:0",
+        "s:0",
+        "s:2"
+      ],
+      "spectrum": [
+        6,
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "c": 14,
+      "incident": [
+        {
+          "difference": 12,
+          "edge": [
+            "s:0",
+            "s:1"
+          ]
+        },
+        {
+          "difference": 8,
+          "edge": [
+            "s:0",
+            "b:0:0"
+          ]
+        },
+        {
+          "difference": 13,
+          "edge": [
+            "s:1",
+            "b:1:0"
+          ]
+        },
+        {
+          "difference": 15,
+          "edge": [
+            "b:1:0",
+            "l:1:0:0"
+          ]
+        },
+        {
+          "difference": 14,
+          "edge": [
+            "b:1:0",
+            "l:1:0:1"
+          ]
+        }
+      ],
+      "required": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "selected": [
+        "b:1:0",
+        "s:0"
+      ],
+      "spectrum": [
+        8,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "c": 15,
+      "incident": [
+        {
+          "difference": 13,
+          "edge": [
+            "s:1",
+            "b:1:0"
+          ]
+        },
+        {
+          "difference": 15,
+          "edge": [
+            "b:1:0",
+            "l:1:0:0"
+          ]
+        },
+        {
+          "difference": 14,
+          "edge": [
+            "b:1:0",
+            "l:1:0:1"
+          ]
+        }
+      ],
+      "required": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "selected": [
+        "b:1:0"
+      ],
+      "spectrum": [
+        13,
+        14,
+        15
+      ]
+    }
+  ],
+  "graph_digest": "06458a5bfd31614a27c6e1e5203ef4d9144e02812ba85b9e6f38e163544e15f1",
+  "host": {
+    "label": 3,
+    "vertex": "b:2:0"
+  },
+  "original": "evidence/validation/B4_UNPADDED_1R22_SUPPLIER_001/validation/originals/normalized-r2.json",
+  "original_sha256_raw": "428ec11269d3d120f4cc850e903cb6302f5a63e365367b517aa64e6a6bdd9b61",
+  "p": 8,
+  "port": {
+    "label": 9,
+    "vertex": "s:4"
+  }
+}
