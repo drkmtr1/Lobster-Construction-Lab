@@ -432,3 +432,36 @@ solver queries. The historical K1 receipts remain INCOMPLETE.
 [Insertion proof](ALPHA_UPPER_BLOCK_GENERAL_HOST.md)
 · [Family proof](B4_UNPADDED_Q1T2.md)
 · [Evidence](../evidence/validation/B4_UNPADDED_Q1T2_001/README.md) · D042
+
+## B4-Q1T2-K1-ROOTED-CORE-001
+
+**REJECT** the fixed retained q=1 labeling's one-leaf single-cut
+template at b:0:0=3. Every candidate cut fails its necessary
+crossing spectrum. Zero-host growth by fresh maxima is also
+unavailable with the original s:2 pinned to the maximum, since
+zero must be at a physical neighbor of s:2. These restrictions
+leave other graceful relabelings available.
+
+**ACCEPT** the explicit rooted core for each exact integer q>=2
+on `[[q],[1],[],[2],[],[]]`. Relabel the retained topology, then
+increase the labels of s:0 and s:2 by q-1. Prescribed first
+leaves fill between the fixed labels and those two vertices.
+The edge partition [1,8], [9,q+7], [q+8,q+11] realizes all
+core differences and puts q+11 at the original s:2.
+
+**ACCEPT** the translated core and zero third host for all exact
+integers q,t>=2 at K=1 on `[[q],[1],[t],[2],[],[]]`. The
+original final edge completes R={5}, D={1} at physical s:4=6
+by s:5=5. The singleton difference is derived. With the retained
+t=1, q=1 and K>=2 constructions, ordinary gracefulness now
+holds on the exact (q,1,t,2) family for all positive q,t,K,
+each case with its own interface. The new construction has no
+alpha claim.
+
+Four completed originals, three distinct auxiliary cores and
+ten domain rejections passed. The same-record independent audit
+and two read-only AI reviews added no cases. There were zero
+solver queries and zero enumeration. The original historical
+DFS remains INCOMPLETE.
+[Proof and selector](B4_Q1T2_K1_ROOTED_CORE.md)
+· [Evidence](../evidence/validation/B4_Q1T2_K1_ROOTED_CORE_001/README.md) · D043

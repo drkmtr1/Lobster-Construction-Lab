@@ -1,0 +1,39 @@
+{
+  "run_id": "B4-Q1T2-K1-ROOTED-CORE-001-20261121",
+  "parent": "e9842f1caf0ea0005bf9840ae9bfe1f4b2974242",
+  "workers": 1,
+  "max_vertices": 20,
+  "max_result_bytes": 2000000,
+  "solver_queries": 0,
+  "enumeration": 0,
+  "auxiliary_core_q": [
+    2,
+    3,
+    4
+  ],
+  "completed_q_t": [
+    [
+      2,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      4,
+      3
+    ]
+  ],
+  "completed_orders": [
+    17,
+    18,
+    18,
+    20
+  ],
+  "K": 1
+}

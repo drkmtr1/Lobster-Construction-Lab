@@ -128,3 +128,14 @@ the class of the middle vertex and prevent alpha threshold
 separation for that labeling. The [later direct singleton](B4_THIRD_ZERO_HOST_K1_DIRECT.md)
 supplies K=1 using a different resource contract.
 [Precise scope](B4_THIRD_ZERO_HOST_NONADJACENT.md#original-path-completion-and-scope)
+
+### F-B4-Q1T2-K1-RETAINED-CORE-SINGLE-CUT
+
+On the retained q=1 core with first center label 3, appending
+a leaf at label c while raising every old label at or above c
+by one would require the exact cut-crossing difference set
+[c-3,12]. Each possible integer c in [4,13] fails that set on
+the retained ledger. This rejects the fixed-label single-cut
+template for the first addition. The relabeled core supplies
+the rooted family through a different crossing spectrum.
+[Analytic restriction and new ledger](B4_Q1T2_K1_ROOTED_CORE.md#exact-core-and-the-retained-comparison)

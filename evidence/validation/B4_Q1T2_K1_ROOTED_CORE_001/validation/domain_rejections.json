@@ -1,0 +1,62 @@
+[
+  {
+    "error": "q must be an exact integer >= 2",
+    "parameter": "q",
+    "type": "bool",
+    "value": true
+  },
+  {
+    "error": "q must be an exact integer >= 2",
+    "parameter": "q",
+    "type": "float",
+    "value": 2.0
+  },
+  {
+    "error": "q must be an exact integer >= 2",
+    "parameter": "q",
+    "type": "str",
+    "value": "2"
+  },
+  {
+    "error": "q must be an exact integer >= 2",
+    "parameter": "q",
+    "type": "int",
+    "value": 1
+  },
+  {
+    "error": "q must be an exact integer >= 2",
+    "parameter": "q",
+    "type": "int",
+    "value": -2
+  },
+  {
+    "error": "t must be an exact integer >= 2",
+    "parameter": "t",
+    "type": "bool",
+    "value": true
+  },
+  {
+    "error": "t must be an exact integer >= 2",
+    "parameter": "t",
+    "type": "float",
+    "value": 2.0
+  },
+  {
+    "error": "t must be an exact integer >= 2",
+    "parameter": "t",
+    "type": "str",
+    "value": "2"
+  },
+  {
+    "error": "t must be an exact integer >= 2",
+    "parameter": "t",
+    "type": "int",
+    "value": 1
+  },
+  {
+    "error": "t must be an exact integer >= 2",
+    "parameter": "t",
+    "type": "int",
+    "value": -2
+  }
+]

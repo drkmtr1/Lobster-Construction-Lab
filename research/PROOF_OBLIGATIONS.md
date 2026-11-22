@@ -375,5 +375,22 @@ discharges ordinary gracefulness on the exact (q,1,t,2) family
 for integers q>=1,t>=2,K>=2. Its nonadjacent physical s:4 path
 uses R=[7,K+6] and D=[1,K] after the high shift.
 The retained t=1 and q=1 singleton results remain in force.
-For q,t>=2, direct K=1 supply remains open. Broader second-branch
-growth and broader original profiles require separate supply.
+The rooted-core construction below discharges the remaining K=1
+domain.
+
+### Rooted-core K=1 supply and complete (q,1,t,2) coverage
+
+The [rooted-core proof](B4_Q1T2_K1_ROOTED_CORE.md) discharges
+gracefulness with physical s:2=q+11 on the exact deleted-third
+core for integer q>=2. Translating that core and restoring
+the original third center at zero gives a singleton at s:4=6
+with R={5} and D={1} on every original t>=2 at K=1. The
+previously proposed fixed retained-label single-cut extension
+fails only on its own restrictions.
+
+For positive integers q,t,K, the new singleton, the retained
+q=1 singleton, Q112 at t=1, and Q1T2 at t,K>=2 exhaust the
+exact original (q,1,t,2) family. This is ordinary gracefulness
+with separate interfaces. A supplier with additional second
+leaves while the third branch has size at least two remains
+open here, as do broader original profiles.

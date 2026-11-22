@@ -1,0 +1,162 @@
+{
+  "edge_ledger": [
+    {
+      "difference": 13,
+      "edge": [
+        "s:0",
+        "s:1"
+      ]
+    },
+    {
+      "difference": 14,
+      "edge": [
+        "s:1",
+        "s:2"
+      ]
+    },
+    {
+      "difference": 15,
+      "edge": [
+        "s:2",
+        "s:3"
+      ]
+    },
+    {
+      "difference": 5,
+      "edge": [
+        "s:3",
+        "s:4"
+      ]
+    },
+    {
+      "difference": 1,
+      "edge": [
+        "s:4",
+        "s:5"
+      ]
+    },
+    {
+      "difference": 12,
+      "edge": [
+        "s:0",
+        "b:0:0"
+      ]
+    },
+    {
+      "difference": 8,
+      "edge": [
+        "b:0:0",
+        "l:0:0:0"
+      ]
+    },
+    {
+      "difference": 9,
+      "edge": [
+        "b:0:0",
+        "l:0:0:1"
+      ]
+    },
+    {
+      "difference": 10,
+      "edge": [
+        "b:0:0",
+        "l:0:0:2"
+      ]
+    },
+    {
+      "difference": 11,
+      "edge": [
+        "b:0:0",
+        "l:0:0:3"
+      ]
+    },
+    {
+      "difference": 7,
+      "edge": [
+        "s:1",
+        "b:1:0"
+      ]
+    },
+    {
+      "difference": 2,
+      "edge": [
+        "b:1:0",
+        "l:1:0:0"
+      ]
+    },
+    {
+      "difference": 3,
+      "edge": [
+        "s:3",
+        "b:3:0"
+      ]
+    },
+    {
+      "difference": 6,
+      "edge": [
+        "b:3:0",
+        "l:3:0:0"
+      ]
+    },
+    {
+      "difference": 4,
+      "edge": [
+        "b:3:0",
+        "l:3:0:1"
+      ]
+    }
+  ],
+  "labels": {
+    "b:0:0": 2,
+    "b:1:0": 8,
+    "b:3:0": 3,
+    "l:0:0:0": 10,
+    "l:0:0:1": 11,
+    "l:0:0:2": 12,
+    "l:0:0:3": 13,
+    "l:1:0:0": 6,
+    "l:3:0:0": 9,
+    "l:3:0:1": 7,
+    "s:0": 14,
+    "s:1": 1,
+    "s:2": 15,
+    "s:3": 0,
+    "s:4": 5,
+    "s:5": 4
+  },
+  "original": {
+    "graph_digest": "b9363e9a202c48eeffaf725ba94ed6e9e71c11a7a9a15184bf6caad4148de553",
+    "path": "originals/core-q4.json",
+    "sha256_raw": "a2afb083023d23851f6a67cccc55f6ccb2e50a04141617885f04217149dfd269"
+  },
+  "physical_root": {
+    "label": 15,
+    "vertex": "s:2"
+  },
+  "q": 4,
+  "verification": {
+    "claim": "finite certificate for this exact named target only",
+    "edge_differences": [
+      13,
+      14,
+      15,
+      5,
+      1,
+      12,
+      8,
+      9,
+      10,
+      11,
+      7,
+      2,
+      3,
+      6,
+      4
+    ],
+    "errors": [],
+    "graph_digest": "b9363e9a202c48eeffaf725ba94ed6e9e71c11a7a9a15184bf6caad4148de553",
+    "m": 15,
+    "n": 16,
+    "valid": true
+  }
+}

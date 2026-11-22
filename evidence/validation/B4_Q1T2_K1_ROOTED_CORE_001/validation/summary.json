@@ -1,0 +1,55 @@
+{
+  "auxiliary_cores": [
+    2,
+    3,
+    4
+  ],
+  "completed_targets": [
+    {
+      "bytes": 5369,
+      "certificate": "target-q2-t2.json",
+      "n": 17,
+      "parameters": [
+        2,
+        2
+      ],
+      "sha256_raw": "9aece717d0775b13bc12e5016931d308edac3fb54e6667a34a0737326e35db6b"
+    },
+    {
+      "bytes": 5629,
+      "certificate": "target-q2-t3.json",
+      "n": 18,
+      "parameters": [
+        2,
+        3
+      ],
+      "sha256_raw": "09f6e998e4b7dc01108133408e2dfbb3863f30c1d86735fa78e32f85dbb31d3e"
+    },
+    {
+      "bytes": 5629,
+      "certificate": "target-q3-t2.json",
+      "n": 18,
+      "parameters": [
+        3,
+        2
+      ],
+      "sha256_raw": "dd9f38ddb1c1a4dad4cedf869dfdb7bbe62b708446cf4ddbeb158d5920463aab"
+    },
+    {
+      "bytes": 6149,
+      "certificate": "target-q4-t3.json",
+      "n": 20,
+      "parameters": [
+        4,
+        3
+      ],
+      "sha256_raw": "4547ab0fc8a1221dbf14c4a55b01b9a2024b5cc541e871ef61b38a49dbd0263f"
+    }
+  ],
+  "domain_rejections": 10,
+  "enumeration": 0,
+  "identity_sha256_raw": "360422097abf0451589e8ccd649a647290130d2cea3b959b5fe8aa2a7a17f82f",
+  "run_id": "B4-Q1T2-K1-ROOTED-CORE-001-20261121",
+  "solver_queries": 0,
+  "status": "PASS"
+}
