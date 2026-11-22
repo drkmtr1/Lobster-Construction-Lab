@@ -1,0 +1,54 @@
+{
+  "cases": [
+    {
+      "bytes": 6549,
+      "file": "case-01.json",
+      "original_graph_digest": "c773b626b04f829305860b3c49a09bf9b285a042374c8d16bd8d4304d09b2ca4",
+      "parameters": {
+        "K": 2,
+        "t": 2
+      },
+      "sha256_raw": "3301a390ef8db1c9bbbe937e1ccd70b04057a56b6f59b28a4a7ab71114f75574",
+      "vertices": 17
+    },
+    {
+      "bytes": 7214,
+      "file": "case-02.json",
+      "original_graph_digest": "d97cb85e8067ee70a23275d6e2255ff6b84008b7fecca79b5dfb737e295db06a",
+      "parameters": {
+        "K": 3,
+        "t": 3
+      },
+      "sha256_raw": "c5ff17978b23efcf949633613bd9413b8bedc23f64b2c803d8feeb5f3c27b2e8",
+      "vertices": 19
+    },
+    {
+      "bytes": 7881,
+      "file": "case-03.json",
+      "original_graph_digest": "6b5edfb5e300c3261f3cd15f2330ed9aea32082749f85543205675743db190bd",
+      "parameters": {
+        "K": 4,
+        "t": 4
+      },
+      "sha256_raw": "53c905226007fabbc968efcc582a47f7a8692dd2861cfb5e2a01a854b3ac8fc6",
+      "vertices": 21
+    },
+    {
+      "bytes": 7958,
+      "file": "case-04.json",
+      "original_graph_digest": "403b2b7ecc455234b4c918105ca5e1a0c7239a6f3aa333f4f34050e9c7f392ac",
+      "parameters": {
+        "K": 5,
+        "t": 3
+      },
+      "sha256_raw": "b54a14ee2b12d66ae6ce44935ba03f3a1ec445a60c9d42ed4a49e7f4a2f57ac9",
+      "vertices": 21
+    }
+  ],
+  "completed_targets": 4,
+  "completed_utc": "2026-11-22T05:04:50.075236+00:00",
+  "identity_sha256_raw": "4c930e27dea2f0efdb9801b8b9c3213745f8f2e02ef8fb9f96b0180a0932e5b4",
+  "new_queries": 0,
+  "run_id": "B4-THIRD-ZERO-HOST-NONADJACENT-001-20261121-direct",
+  "status": "PASS"
+}

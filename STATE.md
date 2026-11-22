@@ -2,7 +2,7 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 21, 2026, Pacific/Honolulu  
-**Stage:** B4-THIRD-ZERO-HOST-SEED-001 closed after separate AI reviews. The fixed-low obstruction and conditional zero-host extension are accepted. The single specified zero-host adjacent seed query exhausted with no solution.
+**Stage:** B4-THIRD-ZERO-HOST-NONADJACENT-001 accepted after separate AI reviews. The one nonadjacent zero-host query supplied a verified fixed seed. Its explicit construction proves ordinary gracefulness for (1,1,t,2) at integers t>=2,K>=2.
 
 ## Current scientific objective
 
@@ -10,11 +10,12 @@ Develop independently supplied original-graph boundaries beyond the proved zero-
 
 ## One next action
 
-**With a new bounded scope decision, run one first-witness query for the same normalized 1122 alpha seed with `b:2:0=0` and `s:4=8`**, to test the nonadjacent interface for `K>=2`.
+**With a new bounded scope decision, run one first-witness query on the exact `[[1],[1],[2],[2],[],[]]` target with the single pin `b:2:0=0`**, to test for a direct `K=1` seed for third-leaf growth.
 
 ## What is established in this package
 
 - Both authenticated upstream main heads match the pinned audit commits. The repositories remain unchanged.
+- B4-THIRD-ZERO-HOST-NONADJACENT-001 found a first verified 1122 seed with `b:2:0=0,s:4=8` and state `A(15,7;4,1)`. The fixed ledger, zero-host extension and retained recurrence prove ordinary gracefulness for `[[1],[1],[t],[2]]+[[]]*(K+1)` at integers t>=2,K>=2, with physical `s:4=K+8`, `R=[7,K+6]` and `D=[1,K]`. Four direct targets passed with a same-certificate audit. The K=1 nonadjacent interface fails; this leaves other K=1 suppliers for t>=3 open. See `research/B4_THIRD_ZERO_HOST_NONADJACENT.md`, D039 and `evidence/validation/B4_THIRD_ZERO_HOST_NONADJACENT_001/`.
 - B4-THIRD-ZERO-HOST-SEED-001 proves the retained seven named lows cannot extend to `[[1],[1],[t],[2],[]]` at adjacent physical `s:4=7` for integer t>=3, with all remaining highs free. The conditional zero-host extension preserves distinct physical ports when the supplied host is at distance at most one from the witness. The sole 1122 first-witness query at `b:2:0=0,s:4=7` exhausted with zero solutions after 17,514 nodes. There was one retained control recheck, no new seed, and no direct completed target. See `research/B4_THIRD_ZERO_HOST_SEED.md`, `research/ALPHA_ZERO_HOST_LEAF_EXTENSION.md`, D038 and `evidence/validation/B4_THIRD_ZERO_HOST_SEED_001/`. Other suppliers for t>=3 remain open.
 - B4-UNPADDED-QR12-001 applies the conditional lower-block rule to the direct 1212 seed, then uses the retained upper-block rule at the first center. This proves alpha gracefulness for `[[q],[r],[1],[2]]+[[]]*(K+1)` for positive integers q,r,K, using the accepted Q112 labels when r=1. The original adjacent port is `s:4=K+r+6` and the completed low size is `r+6+(K+1)//2`. See `research/ALPHA_LOWER_BLOCK_LEAF_INSERTION.md`, `research/B4_UNPADDED_QR12.md`, D037, and `evidence/validation/B4_UNPADDED_QR12_001/`. Arbitrary (q,r,t,2) supply remains open.
 - B4-FOURTH-2-SUPPLY-001 proves the five-vertex right component cannot match entrance offset one under the retained R241 join. The direct 14-vertex seed and upper-block growth supply alpha gracefulness for `[[q],[1],[1],[2]]+[[]]*(K+1)` for positive integers q,K, with physical `s:4=K+7` and low-class size `7+(K+1)//2`. Only `four_section_q112(q,K)` was added. Four separate first-witness DFS queries on the 1212 and 1122 prefixes found finite candidates at both exit offsets. Arbitrary (q,r,t,2) supply remains open. See `research/B4_FOURTH_2_SUPPLY.md`, D036, and `evidence/validation/B4_FOURTH_2_SUPPLY_001/`.

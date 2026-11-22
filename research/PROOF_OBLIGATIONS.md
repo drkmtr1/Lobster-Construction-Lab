@@ -329,3 +329,15 @@ The all-t,K supplier for `[[1],[1],[t],[2]]+[[]]*(K+1)` remains
 an open obligation beyond the retained t=1 construction and
 t=2 adjacent seed. Other alpha offsets, low placements and
 supplier designs remain open under their own exact hypotheses.
+
+### Nonadjacent zero-host supply for third-branch growth
+
+The [fixed nonadjacent seed and composition](B4_THIRD_ZERO_HOST_NONADJACENT.md)
+discharge ordinary gracefulness on the exact (1,1,t,2) family
+for integers t>=2,K>=2. Zero-host growth preserves the supplied
+normalized alpha state with exit offset one, and the high shift
+returns physical s:4=K+8, R=[7,K+6], D=[1,K].
+The actual K-edge path then consumes both inventories.
+The K=1 interface fails, leaving a direct K=1 supplier for
+t>=3 open. The earlier adjacent restriction and t=1 coverage
+are separate results.

@@ -1,0 +1,58 @@
+{
+  "alpha_low_class_size": 7,
+  "certificate": {
+    "claim": "finite certificate for this exact named target only",
+    "edge_differences": [
+      13,
+      7,
+      1,
+      2,
+      10,
+      8,
+      14,
+      12,
+      6,
+      9,
+      11,
+      3,
+      5,
+      4
+    ],
+    "errors": [],
+    "graph_digest": "a8fc14f45ba08e88fb3c53ce0611b2886c5cc0250dcc0985070e92de804595dc",
+    "m": 14,
+    "n": 15,
+    "valid": true
+  },
+  "historical_dfs_rerun": false,
+  "historical_source": {
+    "path": "evidence/validation/B4_FOURTH_2_SUPPLY_001/diagnostic_results/1122-nonadjacent.json",
+    "sha256_raw": "ea65c74546009bda6bf4728d03017f0975d2b42d84b890fc5aae7ad358189677"
+  },
+  "kind": "retained_1122_control",
+  "labels": {
+    "b:0:0": 3,
+    "b:1:0": 14,
+    "b:2:0": 1,
+    "b:3:0": 9,
+    "l:0:0:0": 11,
+    "l:1:0:0": 2,
+    "l:2:0:0": 10,
+    "l:2:0:1": 12,
+    "l:3:0:0": 4,
+    "l:3:0:1": 5,
+    "s:0": 13,
+    "s:1": 0,
+    "s:2": 7,
+    "s:3": 6,
+    "s:4": 8
+  },
+  "new_pin_mismatches": {
+    "b:2:0": {
+      "actual": 1,
+      "required": 0
+    }
+  },
+  "new_search_queries": 0,
+  "original_graph_digest": "a8fc14f45ba08e88fb3c53ce0611b2886c5cc0250dcc0985070e92de804595dc"
+}

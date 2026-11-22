@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "run_id": "B4-THIRD-ZERO-HOST-NONADJACENT-001-20261121-direct-audit",
+  "summary_sha256_raw": "773e81c1a260bf067a9e0d8b8ee3ae880cb8ff3129d3fdc5245548c45900687b",
+  "audit_sha256_raw": "b3a9968226cf7f6af36829b335260d687502e6faee5a30f0de8ad7ff1e22db60",
+  "same_completed_targets": 4,
+  "additional_completed_targets": 0,
+  "new_queries": 0,
+  "runtime": {
+    "python": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "cases": [
+    {
+      "parameters": {
+        "K": 2,
+        "t": 2
+      },
+      "original_graph_digest": "c773b626b04f829305860b3c49a09bf9b285a042374c8d16bd8d4304d09b2ca4",
+      "case_sha256_raw": "3301a390ef8db1c9bbbe937e1ccd70b04057a56b6f59b28a4a7ab71114f75574",
+      "status": "PASS"
+    },
+    {
+      "parameters": {
+        "K": 3,
+        "t": 3
+      },
+      "original_graph_digest": "d97cb85e8067ee70a23275d6e2255ff6b84008b7fecca79b5dfb737e295db06a",
+      "case_sha256_raw": "c5ff17978b23efcf949633613bd9413b8bedc23f64b2c803d8feeb5f3c27b2e8",
+      "status": "PASS"
+    },
+    {
+      "parameters": {
+        "K": 4,
+        "t": 4
+      },
+      "original_graph_digest": "6b5edfb5e300c3261f3cd15f2330ed9aea32082749f85543205675743db190bd",
+      "case_sha256_raw": "53c905226007fabbc968efcc582a47f7a8692dd2861cfb5e2a01a854b3ac8fc6",
+      "status": "PASS"
+    },
+    {
+      "parameters": {
+        "K": 5,
+        "t": 3
+      },
+      "original_graph_digest": "403b2b7ecc455234b4c918105ca5e1a0c7239a6f3aa333f4f34050e9c7f392ac",
+      "case_sha256_raw": "b54a14ee2b12d66ae6ce44935ba03f3a1ec445a60c9d42ed4a49e7f4a2f57ac9",
+      "status": "PASS"
+    }
+  ]
+}

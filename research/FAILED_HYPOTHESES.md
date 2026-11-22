@@ -117,3 +117,13 @@ b:2:0=0,s:4=7 exhausted after 17,514 nodes with count zero.
 This is a computational negative for the stated physical
 host and exit. The retained adjacent seed has b:2:0=2.
 [Original-bound query record](../evidence/validation/B4_THIRD_ZERO_HOST_SEED_001/query_record.json)
+
+### F-B4-1122-ZERO-HOST-NONADJACENT-K1-INTERFACE
+
+The high-shifted zero-host seed with normalized s:4=8 leaves
+R={7} and D={1} at K=1. The actual port is 9, so the sole
+s:4--s:5 edge has difference 2. This rules out that singleton
+interface. At K=2 the completed path labels (10,8,7) straddle
+the class of the middle vertex and prevent alpha threshold
+separation for that labeling. Other K=1 suppliers remain open.
+[Precise scope](B4_THIRD_ZERO_HOST_NONADJACENT.md#original-path-completion-and-scope)

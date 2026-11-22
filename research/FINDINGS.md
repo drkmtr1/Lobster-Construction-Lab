@@ -331,3 +331,27 @@ remain open.
 [Proof and scope](B4_THIRD_ZERO_HOST_SEED.md)
 · [Conditional extension](ALPHA_ZERO_HOST_LEAF_EXTENSION.md)
 · [Evidence](../evidence/validation/B4_THIRD_ZERO_HOST_SEED_001/README.md) · D038
+
+## B4-THIRD-ZERO-HOST-NONADJACENT-001
+
+**ACCEPT** the fixed explicit 1122 seed and its original-edge
+ledger. One exact first-witness DFS at b:2:0=0 and s:4=8
+returned SAT after 2,368 nodes, with count null and lower bound
+one. The normalized seed gives A(15,7;4,1) at physical
+b:0:0 and s:4. Its zero host is distinct from its low port
+and one edge from the supplied witness.
+
+**ACCEPT** ordinary gracefulness for the exact original
+`[[1],[1],[t],[2]]+[[]]*(K+1)` for integers t>=2,K>=2.
+The zero-host extension, high shift and retained recurrence
+use the actual s:4 path and both inventories. The K=2
+suffix (10,8,7) rules out a blanket alpha claim. This exact
+resource interface fails at K=1. The retained t=1 and
+adjacent t=2 evidence keep their existing scope.
+
+One retained control was rechecked. Four declared direct
+targets passed and the independent audit of those same
+four added zero targets or queries. Separate AI reviews
+accepted. No public route was added.
+[Proof and scope](B4_THIRD_ZERO_HOST_NONADJACENT.md)
+· [Evidence](../evidence/validation/B4_THIRD_ZERO_HOST_NONADJACENT_001/README.md) · D039

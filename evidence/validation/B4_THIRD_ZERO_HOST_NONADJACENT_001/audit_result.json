@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "run_id": "B4-THIRD-ZERO-HOST-NONADJACENT-001-20261121-arithmetic-custody-audit",
+  "original_graph_digest": "a8fc14f45ba08e88fb3c53ce0611b2886c5cc0250dcc0985070e92de804595dc",
+  "input_sha256_raw": {
+    "config.json": "02be50004580a2bb690a58a85f88078a370f1a3b1e00c0b2649515bd75a2a8fd",
+    "original_graph.json": "16da85d76bcac473e093c6979f62881e1e63c08b519a0b30ba0ca653b8527f91",
+    "control.json": "ac4ad0ccc09e9e711fe4dc51c921dd23d9d63b2e9d2e24fef18256469473c64f",
+    "preflight.json": "c668e1ae364dd0d1c8944afd8ceed6967508d8b4c645460fc0a648805f6dfe92",
+    "query_start.json": "781d50ba1dbd39804e27ea478fcd1929d7abd24c0e37a37ec411b0ac524a603f",
+    "raw_result.json": "0f6ef3514b3c350ec33a31970e831ef2650d88848666c35fe554b1c18d7ce56a",
+    "query_record.json": "4b9019e5c7cd6ef68ba5ebd07b45b1b15e0ded61398b5a7d2e8d7a7b684ea744"
+  },
+  "audit_source_sha256_raw": "b90076562b5974caab3df2f24127cba3d215775619580e1b50c9d0e8358cdf03",
+  "environment": {
+    "python": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "utf8_mode": 1
+  },
+  "retained_control_certificates_audited": 1,
+  "saved_query_records_audited": 1,
+  "new_seed_certificates_audited": 1,
+  "additional_seed_certificates": 0,
+  "completed_targets": 0,
+  "additional_queries": 0,
+  "scope": "Arithmetic audit of the same retained control, named query and verified seed; no search replay"
+}

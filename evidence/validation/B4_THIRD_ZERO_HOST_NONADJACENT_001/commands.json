@@ -1,0 +1,38 @@
+{
+  "cwd": "repository root",
+  "environment": {
+    "PYTHONUTF8": "1"
+  },
+  "commands": [
+    {
+      "command": ".venv/Scripts/python.exe evidence/validation/B4_THIRD_ZERO_HOST_NONADJACENT_001/query.py --preflight",
+      "exit_code": 0,
+      "output": "{\"status\": \"READY\", \"queries_executed\": 0, \"pins\": {\"b:2:0\": 0, \"s:4\": 8}, \"low\": [\"s:1\", \"s:3\", \"b:0:0\", \"b:2:0\", \"l:1:0:0\", \"l:3:0:0\", \"l:3:0:1\"], \"high\": [\"s:0\", \"s:2\", \"s:4\", \"b:1:0\", \"b:3:0\", \"l:0:0:0\", \"l:2:0:0\", \"l:2:0:1\"], \"limits\": {\"max_nodes\": 100000, \"time_limit\": 5, \"max_vertices\": 15, \"max_states\": 20000}, \"control_matches_new_pins\": false}\r\n"
+    },
+    {
+      "command": ".venv/Scripts/python.exe evidence/validation/B4_THIRD_ZERO_HOST_NONADJACENT_001/query.py --execute",
+      "exit_code": 0,
+      "output": "{\"status\": \"SAT\", \"nodes\": 2368, \"elapsed_seconds\": 0.020261199999367818, \"exhausted\": false, \"exact_count\": null, \"witness\": {\"b:2:0\": 0, \"s:4\": 8, \"s:1\": 1, \"s:3\": 5, \"b:0:0\": 4, \"l:1:0:0\": 2, \"l:3:0:0\": 3, \"l:3:0:1\": 6, \"b:3:0\": 7, \"s:2\": 12, \"b:1:0\": 11, \"s:0\": 9, \"l:0:0:0\": 10, \"l:2:0:0\": 13, \"l:2:0:1\": 14}}\r\n"
+    },
+    {
+      "command": ".venv/Scripts/python.exe evidence/validation/B4_THIRD_ZERO_HOST_NONADJACENT_001/audit.py",
+      "exit_code": 0,
+      "output": "PASS: 1 retained control and the same 1 verified seed, 0 added seeds, targets or queries\r\n"
+    },
+    {
+      "command": ".venv/Scripts/python.exe evidence/validation/B4_THIRD_ZERO_HOST_NONADJACENT_001/direct.py",
+      "exit_code": 0,
+      "output": "{\"status\": \"PASS\", \"completed_targets\": 4, \"new_queries\": 0, \"max_vertices\": 21, \"max_case_bytes\": 7958}\r\n"
+    },
+    {
+      "command": ".venv/Scripts/python.exe evidence/validation/B4_THIRD_ZERO_HOST_NONADJACENT_001/direct_audit.py",
+      "exit_code": 0,
+      "output": "PASS: same 4 saved completed targets; 0 additional targets or queries\r\n"
+    }
+  ],
+  "retained_control_rechecks": 1,
+  "new_search_invocations": 1,
+  "new_verified_seeds": 1,
+  "direct_completed_targets": 4,
+  "additional_queries_or_targets_from_audits": 0
+}
