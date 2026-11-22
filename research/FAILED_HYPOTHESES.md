@@ -27,3 +27,13 @@ Thus the rule "always return the above interval starting at 1" already fails on 
 The C009 source filename and early header say provisional; the later retained counterexample index adopts the obstruction. Likewise use the corrected N246 count review rather than reviving the earlier H229-C claim. The archive preserves both context and correction so a fresh agent can see why the disposition changed.
 
 For new failures, retain the exact original graph, parameters, declared restrictions, source/config identity, witness or scope of exhaustion, and the claim actually falsified. A smaller counterexample must still falsify that same claim; deleting a vertex changes the target and requires recomputing labels/domains.
+
+### F-B4-2111-PORT-TEMPLATE
+
+A discarded nine-vertex left-component template required alpha low-class
+size 4, with `b:0:0=3` and `s:2=4` on the original first-three-section
+unit graph. Any alpha edge of difference 1 at that cut must join labels
+3 and 4. The two named vertices are nonadjacent, so this exact template
+is impossible. The obstruction follows from the required edge difference
+and uses no search. The accepted label-zero extension supplies the
+`2111` seed through a different port state. [Derivation](B4_UNPADDED_2111.md)

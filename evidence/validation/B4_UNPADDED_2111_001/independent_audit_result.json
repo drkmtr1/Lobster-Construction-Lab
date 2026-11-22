@@ -1,0 +1,86 @@
+{
+  "run_id": "B4-UNPADDED-2111-001-original-target-regression-20261121-arithmetic-audit",
+  "status": "PASS",
+  "regression_sha256_raw": "6e556e48c7ecbc7af2ba57b48d83cca696fc95b9bb313b2088afb5dc11f3b082",
+  "audit_script_sha256_raw": "995af0be0fa20643718c4ef3382e4c8b68e4a5342e47b9d9facbeeddb51e4148",
+  "same_certificate_count": 12,
+  "additional_completed_targets": 0,
+  "environment": {
+    "python": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "cases": [
+    {
+      "K": 1,
+      "original_graph_digest": "8f97c5f2549036ecdf5ed5995ba65f80dfbb83b73c24ee6845de9aee152b5dc1",
+      "alpha_low_class_size": 7,
+      "status": "PASS"
+    },
+    {
+      "K": 2,
+      "original_graph_digest": "a01617791abf29eab2635f7656360698bfab1b5ee676f6b4efc47defdf0060cc",
+      "alpha_low_class_size": 7,
+      "status": "PASS"
+    },
+    {
+      "K": 3,
+      "original_graph_digest": "9dbcb35bc20d2300745e321c254556c3803dcf321ab781e0314371ce980c73c4",
+      "alpha_low_class_size": 8,
+      "status": "PASS"
+    },
+    {
+      "K": 4,
+      "original_graph_digest": "b4da99d51489091f06b26b7bf164ab096f30f85603a6dad31f99f2b7290eed9a",
+      "alpha_low_class_size": 8,
+      "status": "PASS"
+    },
+    {
+      "K": 5,
+      "original_graph_digest": "c555645b7744f08c76de89ea113ff03c4a03cd35cb8723beaa10a9f0d961ca43",
+      "alpha_low_class_size": 9,
+      "status": "PASS"
+    },
+    {
+      "K": 6,
+      "original_graph_digest": "17c33466928919c1a948c5f824d928b4800b50416fadf6e0503c6b51014dffa0",
+      "alpha_low_class_size": 9,
+      "status": "PASS"
+    },
+    {
+      "K": 7,
+      "original_graph_digest": "e5d60eecd566eb297f69dfe2839715639f7819c9d813bdaa05df14297e4d5e61",
+      "alpha_low_class_size": 10,
+      "status": "PASS"
+    },
+    {
+      "K": 8,
+      "original_graph_digest": "925458a952f6f32ed2480f29ef4ef8cf2cfb9a798c7962f3b7f48f0e900810ec",
+      "alpha_low_class_size": 10,
+      "status": "PASS"
+    },
+    {
+      "K": 15,
+      "original_graph_digest": "657429aa52c685a2166f74c111641fef1fc05c6808a23606c8fd347cea966546",
+      "alpha_low_class_size": 14,
+      "status": "PASS"
+    },
+    {
+      "K": 16,
+      "original_graph_digest": "d8fdcd88a138e8716fb4ce9fea26fbfce330e99dfd812b39f09d59087ed76602",
+      "alpha_low_class_size": 14,
+      "status": "PASS"
+    },
+    {
+      "K": 31,
+      "original_graph_digest": "930616f74814b4e13197654fda4abe4e6d5f77dbbc5f8d58257d87369f9a327c",
+      "alpha_low_class_size": 22,
+      "status": "PASS"
+    },
+    {
+      "K": 64,
+      "original_graph_digest": "6e42227cd5c7553ee395876b53960eb06786b6be4f5b46b855934ef09358d576",
+      "alpha_low_class_size": 38,
+      "status": "PASS"
+    }
+  ]
+}

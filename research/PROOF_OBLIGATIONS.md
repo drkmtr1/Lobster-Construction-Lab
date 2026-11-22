@@ -235,3 +235,15 @@ the two adjacent resources and completes an alpha labeling with
 low-class size `7+(K+1)//2`. Other unproved placements and sizes,
 padding, multiple branches per section, additional sections and
 arbitrary repetition still require independent proofs.
+
+### Four-section 2111 boundary
+
+The [B4 2111 proof](B4_UNPADDED_2111.md) discharges the exact
+`[[2],[1],[1],[1]]+[[]]*(K+1)` profile for integer K>=1. The second
+first-branch leaf stays at `b:0:0`; the checked original suffix
+starts at `s:4` and consumes both adjacent resources. The result
+is alpha with low-class size `6+(K+1)//2`. The discarded
+[exact port template](FAILED_HYPOTHESES.md#f-b4-2111-port-template)
+has its own restricted obstruction. Other unproved branch sizes,
+padding, multiple branches per section, additional sections and
+arbitrary repetition require separate proofs.

@@ -185,3 +185,17 @@ low-class size `7+(K+1)//2`. Separate AI reviews accepted. The 12
 completed certificates and their same-target audit passed. The
 relabeled and expanded components and the fixed seed have separate
 certificates. [Proof](B4_UNPADDED_1211.md) · [Validation](../evidence/validation/B4_UNPADDED_1211_001/README.md) · D031
+
+## B4-UNPADDED-2111-001
+
+**ACCEPT** for integer K>=1, excluding booleans, on the exact
+ordered zero-padding profile `[[2],[1],[1],[1]]+[[]]*(K+1)`.
+Extending the fixed R241/L008 unit skeleton at physical `b:0:0=0`
+adds the edge to `l:0:0:1=13` and leaves both port identities
+intact. The shifted prefix distinguishes root label m-1 and
+new leaf label m. It supplies `R=[6,K+5]`, `D=[1,K]`, and physical
+`s:4=K+6`. The retained adjacent consumer gives an alpha completion
+with low-class size `6+(K+1)//2` and cutoff one less. Separate AI
+reviews accepted. The 12 original targets, their same-certificate
+audit and one separate fixed seed certificate passed.
+[Proof](B4_UNPADDED_2111.md) · [Validation](../evidence/validation/B4_UNPADDED_2111_001/README.md) · D032
