@@ -794,3 +794,25 @@ two optional graph checks did not run.
 [Prefilter proof](B4_1342_RELAXED_HOST_SEED.md)
 · [Result and coverage](B4_1342_RELAXED_HOST_SEED_RESULT.md)
 · [Evidence](../evidence/validation/B4_1342_RELAXED_HOST_SEED_001/README.md) · D054
+
+## B4-1342-U9-STRUCTURAL-OBSTRUCTION-001
+
+**ACCEPT** the analytic obstruction on exact named 1342 with
+alpha labels [0,8] and [9,18], b:2:0=0, physical s:4=9,
+host a=2..8 and c=10..18. The degree excess, forced labels
+and zero-neighbor edges reduce 63 pairs to six unique named
+selected sets. Each contradicts its required difference band.
+
+**ACCEPT** that the operation requires the complete selected
+spectrum [c-a,18] for every positive h, including a fresh band
+extending above 18. **REJECT** the prescribed first-host
+upper-block insertion throughout this exact domain. Alpha
+existence without the insertion predicate remains outside the
+proof. The all-positive (1,r,t,2) theorem remains accepted.
+
+The two retained controls, all six residual cases and 15
+invalid-input probes passed independent arithmetic audit.
+There were zero new graphs, insertion attempts, solver
+queries, graceful-labeling enumerations or historical replays.
+[Proof](B4_1342_U9_STRUCTURAL_OBSTRUCTION.md)
+· [Evidence](../evidence/validation/B4_1342_U9_STRUCTURAL_OBSTRUCTION_001/README.md) · D055

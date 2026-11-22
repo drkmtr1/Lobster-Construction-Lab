@@ -2,7 +2,7 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 22, 2026, Pacific/Honolulu<br>
-**Stage:** B4-1342-RELAXED-HOST-SEED-001 exhausted the exact relaxed-host 1342 predicate domain with physical s:4=10. The all-positive (1,r,t,2) theorem and prior label-one obstruction remain accepted.
+**Stage:** B4-1342-U9-STRUCTURAL-OBSTRUCTION-001 analytically rejects the prescribed relaxed-host insertion at physical s:4=9 for every positive batch. The all-positive (1,r,t,2) theorem and previous s:4=10 results remain accepted.
 
 ## Current scientific objective
 
@@ -10,11 +10,12 @@ Develop independently supplied original-graph boundaries beyond the proved zero-
 
 ## One next action
 
-**With a new bounded scope decision, test the same named `[[1],[3],[4],[2],[]]` seed question with physical `s:4=9` and `b:2:0=0`**, seeking `a=g(b:0:0)` in `2..8` and `c` in `10..18` with complete selected spectrum `[c-a,18]` for adjacent completion.
+**With a new bounded scope decision, resolve the remaining label-one host case on the same named `[[1],[3],[4],[2],[]]` original**, with physical `s:4=9`, `b:2:0=0`, `b:0:0=1`, and complete selected spectrum `[c-1,18]` for `c` in `10..18`.
 
 ## What is established in this package
 
 - Both authenticated upstream main heads match the pinned audit commits. The repositories remain unchanged.
+- B4-1342-U9-STRUCTURAL-OBSTRUCTION-001 proves the full selected spectrum [c-a,18] impossible on the exact named 1342 alpha domain with b:2:0=0, physical s:4=9, a=2..8 and c=10..18. Forced degrees and labels reduce 63 pairs to six named cases, each contradicted on original incidences. The selected spectrum is necessary for every positive batch of the prescribed operation. Two retained controls and 15 invalid probes passed independent audit with zero solver calls or new graphs. See `research/B4_1342_U9_STRUCTURAL_OBSTRUCTION.md`, D055 and `evidence/validation/B4_1342_U9_STRUCTURAL_OBSTRUCTION_001/`.
 - B4-1342-RELAXED-HOST-SEED-001 proves the necessary 56-pair prefilter and records a reviewed EXHAUSTED RESTRICTED NEGATIVE at b:2:0=0 and physical s:4=10, with a=2..8, c=11..18 and full upper-block predicate [c-a,18]. Thirty-three pairs were analytically excluded and all 23 admitted pairs exhausted in 13,171 assignment nodes. Two retained controls were rechecked, with zero new graphs or graceful targets. See `research/B4_1342_RELAXED_HOST_SEED_RESULT.md`, D054 and `evidence/validation/B4_1342_RELAXED_HOST_SEED_001/`.
 - B4-1342-ALL-LEDGER-PINNED-OBSTRUCTION-001 proves s_c differs from 20-c for every normalized alpha labeling of exact 1342 with b:0:0=1, b:2:0=0 and physical s:4=10, for c=11..18. The high-degree lower bounds handle c=11,12, and descending original differences contradict the required degree-two selected vertex at c>=13. The nonzero edge-sum defect rejects every positive batch of the prescribed operation. Two retained certificates and five guards passed, with zero new graphs, assignments or solver queries. See `research/B4_1342_ALL_LEDGER_PINNED_OBSTRUCTION.md`, D053 and `evidence/validation/B4_1342_ALL_LEDGER_PINNED_OBSTRUCTION_001/`.
 - B4-1342-UPPER-BLOCK-OBSTRUCTION-001 exhausts the exact thresholds 11..18 on the fixed normalized 1342 ledger with b:0:0=1 and physical s:4=10. All eight counts miss 20-c, so the sum discrepancy h*(s_c+c-20) rules out every positive batch of the prescribed first-leaf insertion. The retained 1122 positive control supplies [5,14]. The checker rejected eight one-leaf assignments on a single new original, with zero solver calls. See `research/B4_1342_FIXED_LEDGER_UPPER_BLOCK_OBSTRUCTION.md`, D052 and `evidence/validation/B4_1342_UPPER_BLOCK_OBSTRUCTION_001/`.

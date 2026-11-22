@@ -1,0 +1,40 @@
+{
+  "id": "B4-1342-U9-STRUCTURAL-OBSTRUCTION-001-20261122",
+  "parent": "3ac2ccc91d28063e89ebd21bf3ec5bf525f72992",
+  "limits": {
+    "workers": 1,
+    "max_order": 19,
+    "max_bytes": 2000000,
+    "max_named_subsets": 512,
+    "solver_queries": 0,
+    "graceful_labeling_enumeration": 0,
+    "historical_search_replay": 0,
+    "new_graphs": 0,
+    "new_enlarged_attempts": 0
+  },
+  "domain": {
+    "a": [
+      2,
+      8
+    ],
+    "c": [
+      10,
+      18
+    ],
+    "h_min": 1
+  },
+  "retained": [
+    "evidence/validation/B4_1342_UPPER_BLOCK_OBSTRUCTION_001/validation/originals/1342.json",
+    "evidence/validation/B4_1RT2_TWO_HOST_COMPATIBILITY_001/validation/originals/normalized-r3-t4.json",
+    "evidence/validation/B4_1RT2_TWO_HOST_COMPATIBILITY_001/validation/normalized-r3-t4.json",
+    "evidence/validation/B4_THIRD_ZERO_HOST_NONADJACENT_001/original_graph.json",
+    "evidence/validation/B4_THIRD_ZERO_HOST_NONADJACENT_001/query_record.json",
+    "evidence/validation/B4_UNPADDED_Q1T2_001/validation/retained_seed.json"
+  ],
+  "sources": [
+    "lcl/__init__.py",
+    "lcl/verify.py",
+    "pyproject.toml",
+    "requirements.txt"
+  ]
+}

@@ -1,0 +1,152 @@
+[
+  {
+    "evaluation_calls": 0,
+    "input": [
+      true,
+      10,
+      1
+    ],
+    "parameter": "a",
+    "type": "bool"
+  },
+  {
+    "evaluation_calls": 0,
+    "input": [
+      1,
+      10,
+      1
+    ],
+    "parameter": "a",
+    "type": "int"
+  },
+  {
+    "evaluation_calls": 0,
+    "input": [
+      9,
+      10,
+      1
+    ],
+    "parameter": "a",
+    "type": "int"
+  },
+  {
+    "evaluation_calls": 0,
+    "input": [
+      2.0,
+      10,
+      1
+    ],
+    "parameter": "a",
+    "type": "float"
+  },
+  {
+    "evaluation_calls": 0,
+    "input": [
+      "2",
+      10,
+      1
+    ],
+    "parameter": "a",
+    "type": "str"
+  },
+  {
+    "evaluation_calls": 0,
+    "input": [
+      2,
+      true,
+      1
+    ],
+    "parameter": "c",
+    "type": "bool"
+  },
+  {
+    "evaluation_calls": 0,
+    "input": [
+      2,
+      9,
+      1
+    ],
+    "parameter": "c",
+    "type": "int"
+  },
+  {
+    "evaluation_calls": 0,
+    "input": [
+      2,
+      19,
+      1
+    ],
+    "parameter": "c",
+    "type": "int"
+  },
+  {
+    "evaluation_calls": 0,
+    "input": [
+      2,
+      10.0,
+      1
+    ],
+    "parameter": "c",
+    "type": "float"
+  },
+  {
+    "evaluation_calls": 0,
+    "input": [
+      2,
+      "10",
+      1
+    ],
+    "parameter": "c",
+    "type": "str"
+  },
+  {
+    "evaluation_calls": 0,
+    "input": [
+      2,
+      10,
+      true
+    ],
+    "parameter": "h",
+    "type": "bool"
+  },
+  {
+    "evaluation_calls": 0,
+    "input": [
+      2,
+      10,
+      0
+    ],
+    "parameter": "h",
+    "type": "int"
+  },
+  {
+    "evaluation_calls": 0,
+    "input": [
+      2,
+      10,
+      -1
+    ],
+    "parameter": "h",
+    "type": "int"
+  },
+  {
+    "evaluation_calls": 0,
+    "input": [
+      2,
+      10,
+      1.0
+    ],
+    "parameter": "h",
+    "type": "float"
+  },
+  {
+    "evaluation_calls": 0,
+    "input": [
+      2,
+      10,
+      "1"
+    ],
+    "parameter": "h",
+    "type": "str"
+  }
+]

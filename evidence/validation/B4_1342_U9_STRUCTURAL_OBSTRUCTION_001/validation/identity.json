@@ -1,0 +1,33 @@
+{
+  "id": "B4-1342-U9-STRUCTURAL-OBSTRUCTION-001-20261122",
+  "inputs_sha256": {
+    "evidence/validation/B4_1342_U9_STRUCTURAL_OBSTRUCTION_001/audit.py": "01aa1a123818d0b5621171ffa4fa648b1f7af4d988cda6a9c85ba53676199429",
+    "evidence/validation/B4_1342_U9_STRUCTURAL_OBSTRUCTION_001/commands.json": "c723e281decc4b4360843fc8eb8370c8a2ac6cb4fc7d2bf18e48954f547d657c",
+    "evidence/validation/B4_1342_U9_STRUCTURAL_OBSTRUCTION_001/config.json": "c2d452d4cbe81697dbafdb2b917849b0983c4fce63a31498cf0fa48186858af0",
+    "evidence/validation/B4_1342_U9_STRUCTURAL_OBSTRUCTION_001/validate.py": "38f1ff2cf9b5c23bd39c92c0a86208253a899b0d9b57f7495d7803605d88a194",
+    "research/B4_1342_U9_STRUCTURAL_OBSTRUCTION.md": "7b0571b86c5cf56a8a6fc83e07c9bc7ad4c18fed04bc884980482fb95b5daed7"
+  },
+  "parent": "3ac2ccc91d28063e89ebd21bf3ec5bf525f72992",
+  "retained_sha256": {
+    "evidence/validation/B4_1342_UPPER_BLOCK_OBSTRUCTION_001/validation/originals/1342.json": "d23ebdbd4e70ea0d413cb87f09a165737c21b7d095dcb49669d882c6b0496113",
+    "evidence/validation/B4_1RT2_TWO_HOST_COMPATIBILITY_001/validation/normalized-r3-t4.json": "efda3869ee246071c3966297714362843f92b69ee39a1112b3eed24a9220e73e",
+    "evidence/validation/B4_1RT2_TWO_HOST_COMPATIBILITY_001/validation/originals/normalized-r3-t4.json": "d23ebdbd4e70ea0d413cb87f09a165737c21b7d095dcb49669d882c6b0496113",
+    "evidence/validation/B4_THIRD_ZERO_HOST_NONADJACENT_001/original_graph.json": "16da85d76bcac473e093c6979f62881e1e63c08b519a0b30ba0ca653b8527f91",
+    "evidence/validation/B4_THIRD_ZERO_HOST_NONADJACENT_001/query_record.json": "4b9019e5c7cd6ef68ba5ebd07b45b1b15e0ded61398b5a7d2e8d7a7b684ea744",
+    "evidence/validation/B4_UNPADDED_Q1T2_001/validation/retained_seed.json": "bf2b865a61eb0b6f155ccd28c20ad8bdb7e738a50edb9650737c9ee4613a15d8"
+  },
+  "runtime": {
+    "implementation": "cpython",
+    "optional_dependencies": [],
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": ".venv/Scripts/python.exe",
+    "utf8_mode": 1,
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "sources_sha256": {
+    "lcl/__init__.py": "134055506d3e9cd4fa538177844d28a44d5ab567ec220cf54048e63d1a8a7374",
+    "lcl/verify.py": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909",
+    "pyproject.toml": "738f14eba3125ce7f444628adaddaf2e3e30e5aa7f43f10e7035067f6b7072e5",
+    "requirements.txt": "60f6e1bd76adf6ed25cf381ca95f67e8a27a0de1e62fb673a7cf5af4b86249ea"
+  }
+}

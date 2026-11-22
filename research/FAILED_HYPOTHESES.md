@@ -266,3 +266,15 @@ Thirty-three pairs fail proved necessary tests, and all
 23 admitted pairs are exhausted by reviewed exact DFS.
 The conclusion covers this exact domain and predicate.
 [Scope and evidence](B4_1342_RELAXED_HOST_SEED_RESULT.md)
+
+### F-B4-1342-U9-RELAXED-HOST-UPPER-BLOCK
+
+On exact named 1342 with physical b:2:0=0 and s:4=9, alpha
+classes [0,8] and [9,18], host a=2..8 and c=10..18, no
+candidate supplies the complete spectrum [c-a,18]. The six
+structurally admissible selected sets fail by actual incidence
+and label constraints. The prescribed operation requires
+this spectrum for every positive h, so it is rejected across
+that domain. The two-pin alpha existence question without
+the insertion predicate is outside the obstruction.
+[Structural proof](B4_1342_U9_STRUCTURAL_OBSTRUCTION.md)

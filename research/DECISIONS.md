@@ -1,6 +1,6 @@
 # Decisions and algorithm-change log
 
-This file owns consequential choices and change proposals. `STATE.md` owns current work; findings and failures own scientific dispositions. Dates below are November 20, 2026, Pacific/Honolulu, except D016 through D051 (November 21, 2026) and D052 through D054 (November 22, 2026).
+This file owns consequential choices and change proposals. `STATE.md` owns current work; findings and failures own scientific dispositions. Dates below are November 20, 2026, Pacific/Honolulu, except D016 through D051 (November 21, 2026) and D052 through D055 (November 22, 2026).
 
 | ID | Decision | Reason and review consequence |
 |---|---|---|
@@ -59,6 +59,7 @@ This file owns consequential choices and change proposals. `STATE.md` owns curre
 | D052 | Close B4-1342-UPPER-BLOCK-OBSTRUCTION-001 at c83ae3b11a6bc03189dc44653881137fc014c72a | **ACCEPT** the full threshold ledgers, the all-positive-batch edge-sum proof, and the retained 1122 premise. **REJECT** the port-preserving first-branch upper shift on the fixed 1342 ledger for c=11..18 and every positive batch. Three distinct graph records, eight thresholds, eight rejected one-leaf assignments on one original and five invalid probes passed under separate AI reviews and same-record audit. No solver, enumeration, replay or production changes. |
 | D053 | Close B4-1342-ALL-LEDGER-PINNED-OBSTRUCTION-001 at 41f4e42fb73ab87a93abe1f7c348e8442fdd47b7 | **ACCEPT** the universal selected-cardinality contradiction and all-positive batch result. **REJECT** the prescribed upper-block operation on every normalized 1342 alpha labeling with the exact three pins. Two retained original rechecks, eight structural thresholds and five invalid inputs passed with independent audit and two AI reviews. No new graph or assignment, solver, enumeration, replay or production edits. Keep the fixed-ledger result as separate evidence. |
 | D054 | Close B4-1342-RELAXED-HOST-SEED-001 at bb7927bcf85d6d32b9bde5b1904c6b43ec6b6a8e | **ACCEPT** the necessary prefilter, exact edge-band equivalence and implementation-level EXHAUSTED RESTRICTED NEGATIVE for the precise pin and predicate domain. Thirty-three pairs excluded, 23 exhausted, 68 named subsets, 13,171 assignment nodes, 1.109 seconds. Two retained controls, ten invalid probes, separate AI reviews and independent audit. No optional graphs, positive transport, replay or production changes. |
+| D055 | Close B4-1342-U9-STRUCTURAL-OBSTRUCTION-001 at 3ac2ccc91d28063e89ebd21bf3ec5bf525f72992 | **ACCEPT** the forced orientation, six-case structural obstruction and the necessity of the complete selected spectrum for every positive batch. **REJECT** the exact prescribed operation at Z=0, U=9, a=2..8 and c=10..18. Use a symbolic proof with two retained controls, 512 physical subsets, 63 pairs, six residual contradictions and 15 invalid probes. Independent audit and separate AI reviews. Zero solver, labeling enumeration, replay, new graph or production change. |
 
 ## Proposal template for the next consequential algorithm change
 

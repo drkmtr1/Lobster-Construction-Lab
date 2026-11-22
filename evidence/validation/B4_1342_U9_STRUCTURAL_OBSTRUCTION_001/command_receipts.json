@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "steps": [
+    {
+      "step": 1,
+      "exit_code": 0,
+      "elapsed_command_seconds": 1.4102972999999999,
+      "stdout": "{\"id\": \"B4-1342-U9-STRUCTURAL-OBSTRUCTION-001-20261122\", \"input_rejections\": 15, \"limits\": {\"graceful_labeling_enumeration\": 0, \"historical_search_replay\": 0, \"max_bytes\": 2000000, \"max_named_subsets\": 512, \"max_order\": 19, \"new_enlarged_attempts\": 0, \"new_graphs\": 0, \"solver_queries\": 0, \"workers\": 1}, \"pairs\": 63, \"pairs_excluded_by_reduction\": 57, \"residual_cases\": 6, \"retained_graph_records\": 2, \"status\": \"PASS\", \"subsets_visited\": 512}\n",
+      "stderr": ""
+    },
+    {
+      "step": 2,
+      "exit_code": 0,
+      "elapsed_command_seconds": 1.2094918,
+      "stdout": "{\"batch_arithmetic_probes\": 45, \"historical_search_replay\": 0, \"id\": \"B4-1342-U9-STRUCTURAL-OBSTRUCTION-001-20261122\", \"labeling_enumeration\": 0, \"new_graph_records\": 0, \"pairs\": 63, \"rechecked_guards\": 15, \"residual_cases\": 6, \"retained_graph_records\": 2, \"solver_queries\": 0, \"status\": \"PASS\"}\n",
+      "stderr": ""
+    }
+  ]
+}

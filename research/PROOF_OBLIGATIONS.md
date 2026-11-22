@@ -562,6 +562,17 @@ accounts for all 56 pairs. The positive transport therefore
 has no supplied fixed seed. The all-positive (1,r,t,2) result
 remains accepted.
 
-The selected next question changes the physical exit label
-to 9 and keeps the named graph, zero host, relaxed host domain
-and alpha orientation. Its threshold range would be [10,18].
+The subsequent adjacent-exit question kept the named graph,
+zero host, relaxed host domain and alpha orientation. Its
+disposition is below.
+
+### Adjacent exit on the original 1342 graph
+
+The [structural proof](B4_1342_U9_STRUCTURAL_OBSTRUCTION.md)
+discharges the relaxed-host incidence supply negatively at
+physical s:4=9, b:2:0=0, a=2..8 and c=10..18. The same
+argument rejects every positive batch because the operation
+needs the exact selected spectrum. The label-one host case
+at U=9 lies outside this result and is the selected next
+structural question. The earlier U=10 label-one result has
+its own pin scope.

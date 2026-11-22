@@ -1,0 +1,24 @@
+{
+  "audited_sha256": {
+    "controls.json": "4e692cd5ec5b3c934ab6184e2b8086abc57878c38a9d6c7af2f2ce5cb46c921a",
+    "identity.json": "0af827d858cfa1bffc58850061bc9111415f526fbd5cd3d252152e1d86477074",
+    "invalid_inputs.json": "f07214f59cd4be536f85eda51e3ebe5980ed76390396149e870f9be7056f5ad1",
+    "source/lcl/__init__.py": "134055506d3e9cd4fa538177844d28a44d5ab567ec220cf54048e63d1a8a7374",
+    "source/lcl/verify.py": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909",
+    "source/pyproject.toml": "738f14eba3125ce7f444628adaddaf2e3e30e5aa7f43f10e7035067f6b7072e5",
+    "source/requirements.txt": "60f6e1bd76adf6ed25cf381ca95f67e8a27a0de1e62fb673a7cf5af4b86249ea",
+    "structural.json": "71569031a29d7d25b0290007d9fc668e049e936604a3ecff56cb8f2a9e9ba142",
+    "summary.json": "96efed0fac0534cbc02f870ae84fdfd38b064378c56deee9acc2d0f9f012f0dd"
+  },
+  "batch_arithmetic_probes": 45,
+  "historical_search_replay": 0,
+  "id": "B4-1342-U9-STRUCTURAL-OBSTRUCTION-001-20261122",
+  "labeling_enumeration": 0,
+  "new_graph_records": 0,
+  "pairs": 63,
+  "rechecked_guards": 15,
+  "residual_cases": 6,
+  "retained_graph_records": 2,
+  "solver_queries": 0,
+  "status": "PASS"
+}
