@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "run_id": "B4-THIRD-ZERO-HOST-K1-DIRECT-001-20261121-arithmetic-audit",
+  "audit_source_sha256_raw": "452d93b246e01fb2c3cea756591e93d564d8c7331e99c48ae28e9fb97d8b59ca",
+  "summary_sha256_raw": "eb3cf516af9bcd7460b8ee71b85313736f4360892492b76f18541e169bad5a0b",
+  "core_certificate_sha256_raw": "37ef5b35033b5e72ffaaee14283964c60bd4287d24d1f52dcf72216688ad1b34",
+  "same_auxiliary_cores": 1,
+  "same_completed_cases": 4,
+  "additional_targets": 0,
+  "additional_queries": 0,
+  "runtime": {
+    "python": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "cases": [
+    {
+      "t": 1,
+      "K": 1,
+      "graph_digest": "4fa1a544059dac192a26266d463c7caded7a606da095a8547cbb8ed42a7d6936",
+      "certificate_sha256_raw": "39da9e96c828ec4253189a90ad5d24a25c11abf84d9e673df18298d166e92c75",
+      "status": "PASS"
+    },
+    {
+      "t": 2,
+      "K": 1,
+      "graph_digest": "fce6e5676ab825e344c5f217ace9855e4f1e5dc4c88f8a71e9563093daae1a9c",
+      "certificate_sha256_raw": "51506e7c39e77dce5dcfd25336dfb832a2ad1a81800211b5a9a66735d5deb230",
+      "status": "PASS"
+    },
+    {
+      "t": 3,
+      "K": 1,
+      "graph_digest": "e690ada606de5cfb798b0c93e04232cb76984139b6e9141f0c6f2bf3484c8cd6",
+      "certificate_sha256_raw": "10e4600c503af578f252e8e80224411e6f76430521b78ef98284d6e42661cc0f",
+      "status": "PASS"
+    },
+    {
+      "t": 4,
+      "K": 1,
+      "graph_digest": "45672e9fb8a6a11efc8d5ec0b22c40b47376d81c95871268f08e3d54ce27ac37",
+      "certificate_sha256_raw": "7b59f58f6e92d146367212f9cbf798931e4a64263d65e0196056891dac6e5be0",
+      "status": "PASS"
+    }
+  ]
+}

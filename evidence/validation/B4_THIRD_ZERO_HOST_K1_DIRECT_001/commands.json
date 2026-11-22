@@ -1,0 +1,24 @@
+{
+  "cwd": "repository root",
+  "environment": {
+    "PYTHONUTF8": "1"
+  },
+  "commands": [
+    {
+      "command": ".venv/Scripts/python.exe evidence/validation/B4_THIRD_ZERO_HOST_K1_DIRECT_001/validate.py",
+      "exit_code": 0,
+      "output": "{\"status\": \"PASS\", \"auxiliary_cores\": 1, \"completed_K1_cases\": 4, \"max_vertices\": 18, \"new_solver_queries\": 0}\r\n"
+    },
+    {
+      "command": ".venv/Scripts/python.exe evidence/validation/B4_THIRD_ZERO_HOST_K1_DIRECT_001/audit.py",
+      "exit_code": 0,
+      "output": "PASS: same 1 core and 4 completed targets, 0 new cases or queries\r\n"
+    }
+  ],
+  "new_solver_queries": 0,
+  "auxiliary_cores": 1,
+  "completed_K1_cases": 4,
+  "t2_seed_included_in_completed_cases": true,
+  "additional_targets_from_audit_or_batch": 0,
+  "terminal_swap_proof": "algebraic, no saved transported certificate"
+}

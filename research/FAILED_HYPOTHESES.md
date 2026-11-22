@@ -125,5 +125,6 @@ R={7} and D={1} at K=1. The actual port is 9, so the sole
 s:4--s:5 edge has difference 2. This rules out that singleton
 interface. At K=2 the completed path labels (10,8,7) straddle
 the class of the middle vertex and prevent alpha threshold
-separation for that labeling. Other K=1 suppliers remain open.
+separation for that labeling. The [later direct singleton](B4_THIRD_ZERO_HOST_K1_DIRECT.md)
+supplies K=1 using a different resource contract.
 [Precise scope](B4_THIRD_ZERO_HOST_NONADJACENT.md#original-path-completion-and-scope)

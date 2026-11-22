@@ -1,6 +1,6 @@
 # Decisions and algorithm-change log
 
-This file owns consequential choices and change proposals. `STATE.md` owns current work; findings and failures own scientific dispositions. Dates below are November 20, 2026, Pacific/Honolulu, except D016 through D040 (November 21, 2026).
+This file owns consequential choices and change proposals. `STATE.md` owns current work; findings and failures own scientific dispositions. Dates below are November 20, 2026, Pacific/Honolulu, except D016 through D041 (November 21, 2026).
 
 | ID | Decision | Reason and review consequence |
 |---|---|---|
@@ -45,6 +45,7 @@ This file owns consequential choices and change proposals. `STATE.md` owns curre
 | D038 | Close `B4-THIRD-ZERO-HOST-SEED-001` at `e95f6f9b07fd57df4f5dedce43e60381838c4577` | **ACCEPT** the named fixed-low adjacent obstruction for all t>=3 and the conditional zero-host extension with actual witness and unchanged ports. Accept the sole restricted 1122 first-witness DFS exhaustion at b:2:0=0,s:4=7, 17,514 nodes, exact zero, with no limits reached. Recheck the retained control without DFS. The independent audit adds zero queries. Separate read-only AI math and evidence reviews accepted these scopes. No new seed, four-case run, all-t,K theorem, public constructor or CLI route. |
 | D039 | Accept `B4-THIRD-ZERO-HOST-NONADJACENT-001` at `533f87793bb0dec19936bf888639e91f0e2cdf31` | **ACCEPT** the single first-witness 1122 SAT seed with b:2:0=0 and s:4=8, state A(15,7;4,1), and the fixed-ledger ordinary-gracefulness construction for exact (1,1,t,2), t>=2,K>=2. Both AI reviews accepted. One retained control, one query, one verified seed, four direct completed targets, and audits adding zero. Exact count remains unknown. Preserve the K=1 interface restriction and K=2 alpha-threshold counterexample. No public route. |
 | D040 | Close `B4-THIRD-ZERO-HOST-K1-001` at `70664759ca1c3a6e5a6049aaff179e2a7e2990ec` | **ACCEPT** one derived complete control and the conditional ordinary extension and singleton transport. **INCOMPLETE** the sole first-witness DFS at only b:2:0=0, max_nodes after 100,000 nodes, no witness or exact count. Audit and separate read-only AI reviews added zero cases or queries. One complete certificate on one profile, zero query seeds and zero growth checks. No combined theorem or public route. |
+| D041 | Accept `B4-THIRD-ZERO-HOST-K1-DIRECT-001` at `4aa22d42c1b7c609bfa8d0b691ba16c951383fe6` | **ACCEPT** the reversible terminal-maximum core lift, direct K=1 construction for all t>=1 and exhaustive all-positive-t,K ordinary-gracefulness selector for exact (1,1,t,2). Both separate read-only AI reviews accepted. One auxiliary core, four completed K=1 cases including t=2 once, zero additional cases from audit, review or batch, zero solver queries. D040 remains INCOMPLETE. Preserve the raw proof bytes using an exact Git attribute. |
 
 ## Proposal template for the next consequential algorithm change
 

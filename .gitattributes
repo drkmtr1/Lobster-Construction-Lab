@@ -1,3 +1,5 @@
 # Run evidence is byte-addressed in its manifest; preserve it across platforms.
 evidence/runs/** -text
 examples/nonadjacent_seed_p5_001_pins.json -text
+# The direct K1 audit binds the proof's raw bytes.
+research/B4_THIRD_ZERO_HOST_K1_DIRECT.md -text

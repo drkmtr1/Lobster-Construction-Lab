@@ -325,10 +325,10 @@ The exact fixed-low adjacent extension fails for t>=3 and the
 relabeled zero-host adjacent 1122 seed query exhausted with
 zero solutions. [Proof and restricted outcome](B4_THIRD_ZERO_HOST_SEED.md)
 
-The all-t,K supplier for `[[1],[1],[t],[2]]+[[]]*(K+1)` remains
-an open obligation beyond the retained t=1 construction and
-t=2 adjacent seed. Other alpha offsets, low placements and
-supplier designs remain open under their own exact hypotheses.
+The later nonadjacent and direct suppliers below discharge the
+ordinary (1,1,t,2) family with their own interfaces. The
+fixed-low result and exact zero-host adjacent restriction retain
+their original scopes.
 
 ### Nonadjacent zero-host supply for third-branch growth
 
@@ -338,9 +338,8 @@ for integers t>=2,K>=2. Zero-host growth preserves the supplied
 normalized alpha state with exit offset one, and the high shift
 returns physical s:4=K+8, R=[7,K+6], D=[1,K].
 The actual K-edge path then consumes both inventories.
-The K=1 interface fails, leaving a direct K=1 supplier for
-t>=3 open. The earlier adjacent restriction and t=1 coverage
-are separate results.
+This K=1 interface fails. The separate direct singleton
+below supplies all positive t at K=1.
 
 ### Direct K=1 zero-host supplier
 
@@ -350,5 +349,18 @@ at K=1 on the exact (1,1,t,2) family. The complete derived
 control for t=2 has host label 2. The separate first-witness
 query with sole b:2:0=0 reached its declared node cap and
 left the seed and actual singleton resources undetermined.
-The direct K=1 supplier for t>=3 and thus the combined
-all-positive-t,K theorem remain open.
+The later direct construction below supplies this case independently
+of that incomplete query.
+
+### Direct K=1 supply and combined (1,1,t,2) coverage
+
+The [direct proof](B4_THIRD_ZERO_HOST_K1_DIRECT.md) discharges
+the named K=1 supplier for all positive t, with R={5}, D={6}
+and physical s:4=11. The exhaustive parameter split with
+the retained t=1 adjacent and t,K>=2 nonadjacent branches
+discharges ordinary gracefulness for the exact (1,1,t,2)
+family at all positive t,K. Each branch retains its own
+interface. Separate obligations include larger first or
+second branches with growing third branch, padding, multiple
+branches per section and extra sections. The unselected
+spine-maximum and C=14 placements were left open.

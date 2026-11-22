@@ -1,0 +1,75 @@
+{
+  "additional_targets_from_batch_comparison": 0,
+  "additional_terminal_swap_checks": 0,
+  "auxiliary_cores": 1,
+  "cases": [
+    {
+      "certificate": "t1-k1-certificate.json",
+      "original": {
+        "edges": 14,
+        "graph_digest": "4fa1a544059dac192a26266d463c7caded7a606da095a8547cbb8ed42a7d6936",
+        "path": "originals/t1-k1.json",
+        "sha256_raw": "d6e45cbeb8deb0289009eb515e006369152dc593f7debe6f618846995466f5b1",
+        "vertices": 15
+      },
+      "parameters": {
+        "K": 1,
+        "t": 1
+      },
+      "sha256_raw": "39da9e96c828ec4253189a90ad5d24a25c11abf84d9e673df18298d166e92c75"
+    },
+    {
+      "certificate": "t2-k1-certificate.json",
+      "original": {
+        "edges": 15,
+        "graph_digest": "fce6e5676ab825e344c5f217ace9855e4f1e5dc4c88f8a71e9563093daae1a9c",
+        "path": "originals/t2-k1.json",
+        "sha256_raw": "5d09b9fe00942695ece9466edd8a8f65299d670675525ebac48678a4f4de848b",
+        "vertices": 16
+      },
+      "parameters": {
+        "K": 1,
+        "t": 2
+      },
+      "sha256_raw": "51506e7c39e77dce5dcfd25336dfb832a2ad1a81800211b5a9a66735d5deb230"
+    },
+    {
+      "certificate": "t3-k1-certificate.json",
+      "original": {
+        "edges": 16,
+        "graph_digest": "e690ada606de5cfb798b0c93e04232cb76984139b6e9141f0c6f2bf3484c8cd6",
+        "path": "originals/t3-k1.json",
+        "sha256_raw": "1226971701d402313fb5360b7ebbcc7b854782e6c77521a75f00d2795123b09b",
+        "vertices": 17
+      },
+      "parameters": {
+        "K": 1,
+        "t": 3
+      },
+      "sha256_raw": "10e4600c503af578f252e8e80224411e6f76430521b78ef98284d6e42661cc0f"
+    },
+    {
+      "certificate": "t4-k1-certificate.json",
+      "original": {
+        "edges": 17,
+        "graph_digest": "45672e9fb8a6a11efc8d5ec0b22c40b47376d81c95871268f08e3d54ce27ac37",
+        "path": "originals/t4-k1.json",
+        "sha256_raw": "94a43612971a573f89e26293badc625db21f944d03b7bee105357f8850eb7591",
+        "vertices": 18
+      },
+      "parameters": {
+        "K": 1,
+        "t": 4
+      },
+      "sha256_raw": "7b59f58f6e92d146367212f9cbf798931e4a64263d65e0196056891dac6e5be0"
+    }
+  ],
+  "completed_cases": 4,
+  "completed_utc": "2026-11-22T05:49:17.828980+00:00",
+  "core_certificate_sha256_raw": "37ef5b35033b5e72ffaaee14283964c60bd4287d24d1f52dcf72216688ad1b34",
+  "identity_sha256_raw": "eed1e7e3349d824be789e633602db756827747c35a91c2d3a58044ae53157e94",
+  "new_solver_queries": 0,
+  "run_id": "B4-THIRD-ZERO-HOST-K1-DIRECT-001-20261121",
+  "status": "PASS",
+  "t2_seed_included_in_completed_cases": true
+}

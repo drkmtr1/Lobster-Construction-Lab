@@ -379,3 +379,25 @@ represents one distinct parameter case. There is no
 new seed, growth check or combined all-positive theorem.
 [Proof and scope](B4_THIRD_ZERO_HOST_K1.md)
 · [Evidence](../evidence/validation/B4_THIRD_ZERO_HOST_K1_001/README.md) · D040
+
+## B4-THIRD-ZERO-HOST-K1-DIRECT-001
+
+**ACCEPT** the exact terminal-maximum reduction, physical leaf
+transport and reversible 13-vertex core lift. The explicit
+supplier gives ordinary gracefulness on `[[1],[1],[t],[2],[],[]]`
+for every positive integer t. The singleton is R={5}, D={6}
+at s:4=11 and assigning original s:5=5 completes it. The path
+(3,4,8) excludes an alpha threshold for this particular labeling.
+
+**ACCEPT** the exhaustive ordinary-gracefulness case split
+for `[[1],[1],[t],[2]]+[[]]*(K+1)` at all positive integers t,K.
+Use the direct singleton for K=1, Q112 at q=1 for t=1,K>=2,
+and the retained nonadjacent zero-host construction for t,K>=2.
+
+One auxiliary core and four completed K=1 originals passed,
+including t=2 counted once. The audit, same-target batch and
+both separate AI reviews added zero targets or solver queries.
+The historical original-bound DFS stays INCOMPLETE at the
+node cap. This result is independent direct evidence.
+[Proof and selector](B4_THIRD_ZERO_HOST_K1_DIRECT.md)
+· [Evidence](../evidence/validation/B4_THIRD_ZERO_HOST_K1_DIRECT_001/README.md) · D041
