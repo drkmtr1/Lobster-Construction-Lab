@@ -1,0 +1,8 @@
+{
+  "shell": "PowerShell",
+  "cwd": "LCL root",
+  "steps": [
+    "& .venv/Scripts/python.exe -B -X utf8 evidence/validation/B4_JOINT_23_MAX_ROOTED_CORE_001/validate.py\nexit $LASTEXITCODE",
+    "& .venv/Scripts/python.exe -B -X utf8 evidence/validation/B4_JOINT_23_MAX_ROOTED_CORE_001/audit.py\nexit $LASTEXITCODE"
+  ]
+}

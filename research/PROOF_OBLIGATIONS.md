@@ -591,7 +591,11 @@ at s:3. Its lift supplies the K=1 target for every positive
 integer t. The [cut proof](B4_JOINT_22_CUT_COMPAT.md)
 supplies repeatable first growth, extending this to all q>=2
 at r=2 and K=1. It rejects the exact second-host operation
-on the seed and first one-leaf output. Independent maximum-
-rooted supply on the named q=2,r=3 core is the selected
-open obligation. General joint supply, compatibility and
+on the seed and first one-leaf output. The
+[C(2,3) supplier](B4_JOINT_23_MAX_ROOTED_CORE.md)
+now gives the exact maximum-rooted ledger and fixed q=2,r=3
+all-t K=1 lift. First growth is repeatable at its c=12 cut.
+Its second-host cut fails. The selected open obligation
+is to test an independent repeatable second-center
+transition connecting C(2,2) and C(2,3). Joint supply and
 K>=2 continuation remain separate.

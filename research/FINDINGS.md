@@ -907,3 +907,24 @@ retained control certificates on one original, four new
 originals and one adverse digest rejection. No search or
 enumeration. [Proof](B4_JOINT_22_CUT_COMPAT.md)
 · [Evidence](../evidence/validation/B4_JOINT_22_CUT_COMPAT_001/README.md) · D059
+
+## B4-JOINT-23-MAX-ROOTED-CORE-001
+
+**ACCEPT** an independent graceful ledger on the exact
+named `[[2],[3],[],[2],[],[]]` core with physical s:2=15
+and s:3=0. **REJECT** the specified Case A partial
+allocation only. Its pending weight 7 requires the
+nonadjacent centers labeled 4 and 11.
+
+**ACCEPT** the K=1 lift for q=2,r=3 and every exact integer
+t>=1. It gives R=D={4} at s:4=8 and consumes both on the
+original s:4--s:5 by assigning s:5=4. **ACCEPT** first-host
+cuts 6,12,13,14 on the new ledger and repeatable first
+growth at c=12 with r=3 fixed. **REJECT** the specified
+second-host operation on this exact ledger only.
+
+The independent audit covers three new originals, two retained
+positive controls, the preserved D059 negative, 34 host/cut
+rows and one adverse digest rejection. No solver, enumeration
+or replay. [Proof](B4_JOINT_23_MAX_ROOTED_CORE.md)
+· [Evidence](../evidence/validation/B4_JOINT_23_MAX_ROOTED_CORE_001/README.md) · D060

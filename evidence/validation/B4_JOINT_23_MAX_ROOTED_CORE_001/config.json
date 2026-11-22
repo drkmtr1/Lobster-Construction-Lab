@@ -1,0 +1,79 @@
+{
+  "id": "B4-JOINT-23-MAX-ROOTED-CORE-001-20261122",
+  "parent": "98ae0ee75b5afedfd6019a2f79c5da7c9d40c99c",
+  "limits": {
+    "workers": 1,
+    "authorized_dfs_queries": 1,
+    "dfs_nodes": 100000,
+    "dfs_cooperative_seconds": 6,
+    "max_cpu_seconds": 30,
+    "max_order": 20,
+    "max_new_graphs": 3,
+    "max_record_bytes": 2000000,
+    "max_total_bytes": 10000000,
+    "automatic_retries": 0
+  },
+  "execution": {
+    "method": "direct structural ledger",
+    "dfs_queries": 0,
+    "labeling_enumeration_nodes": 0,
+    "only_root_pin": {
+      "s:2": 15
+    }
+  },
+  "controls": [
+    {
+      "id": "C22",
+      "q": 2,
+      "r": 2,
+      "original": "evidence/validation/B4_JOINT_22_DIRECT_LEDGER_001/validation/core_original.json",
+      "certificate": "evidence/validation/B4_JOINT_22_DIRECT_LEDGER_001/validation/candidate_B.json"
+    },
+    {
+      "id": "C32",
+      "q": 3,
+      "r": 2,
+      "original": "evidence/validation/B4_JOINT_22_CUT_COMPAT_001/validation/q3-original.json",
+      "certificate": "evidence/validation/B4_JOINT_22_CUT_COMPAT_001/validation/q3.json"
+    }
+  ],
+  "retained_negative": {
+    "audit": "evidence/validation/B4_JOINT_22_CUT_COMPAT_001/audit_result.json",
+    "manifest": "evidence/validation/B4_JOINT_22_CUT_COMPAT_001/MANIFEST.json"
+  },
+  "cases": [
+    {
+      "id": "core",
+      "t": null,
+      "order": 16
+    },
+    {
+      "id": "lift-t1",
+      "t": 1,
+      "order": 18
+    },
+    {
+      "id": "lift-t2",
+      "t": 2,
+      "order": 19
+    }
+  ],
+  "seed": {
+    "s:0": 14,
+    "s:1": 1,
+    "s:2": 15,
+    "s:3": 0,
+    "s:4": 7,
+    "s:5": 3,
+    "b:0:0": 2,
+    "l:0:0:0": 13,
+    "l:0:0:1": 12,
+    "b:1:0": 10,
+    "l:1:0:0": 4,
+    "l:1:0:1": 5,
+    "l:1:0:2": 9,
+    "b:3:0": 8,
+    "l:3:0:0": 6,
+    "l:3:0:1": 11
+  }
+}

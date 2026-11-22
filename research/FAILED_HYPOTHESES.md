@@ -322,3 +322,17 @@ This rejects the exact prescribed second-host shift and
 insertion for any positive batch on either fixed ledger.
 Other graceful labelings and transitions remain open.
 [Full spectra and proof](B4_JOINT_22_CUT_COMPAT.md)
+
+### F-B4-JOINT-23-CASE-A-AND-SECOND-HOST
+
+The displayed s:1=0 partial allocation on C(2,3) cannot
+place pending weight 7 after assigning labels 4 and 11
+to the nonadjacent left centers. Other Case A choices
+remain open. The supplied Case B ledger is graceful.
+
+At physical b:1:0=10 in that Case B ledger, every proper
+cut and both endpoint comparisons fail the necessary
+crossing tail. Thus the specified positive batch fails
+on this fixed ledger. The result gives no obstruction
+to a relabeled core or other second-host transition.
+[Scoped falsifiers](B4_JOINT_23_MAX_ROOTED_CORE.md)

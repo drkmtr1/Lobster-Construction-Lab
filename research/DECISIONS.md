@@ -1,6 +1,6 @@
 # Decisions and algorithm-change log
 
-This file owns consequential choices and change proposals. `STATE.md` owns current work; findings and failures own scientific dispositions. Dates below are November 20, 2026, Pacific/Honolulu, except D016 through D051 (November 21, 2026) and D052 through D059 (November 22, 2026).
+This file owns consequential choices and change proposals. `STATE.md` owns current work; findings and failures own scientific dispositions. Dates below are November 20, 2026, Pacific/Honolulu, except D016 through D051 (November 21, 2026) and D052 through D060 (November 22, 2026).
 
 | ID | Decision | Reason and review consequence |
 |---|---|---|
@@ -64,6 +64,7 @@ This file owns consequential choices and change proposals. `STATE.md` owns curre
 | D057 | Close B4-JOINT-MAX-ROOTED-CORE-PILOT-001 at f67418a57906f4f37b3d20d12a800373db571e0a | **ACCEPT** the controls and **REJECT** their two exact one-cut transfers. Use one bounded original-bound DFS with physical maximum at s:2 on q=r=2. **INCOMPLETE** at 100,000 nodes with no witness and no feasibility verdict. Three graph records, no conditional lift, retry or historical replay. Keep joint growth and K>=2 separate. |
 | D058 | Close B4-JOINT-22-DIRECT-LEDGER-001 at e3138ed2804883396fb548f824316155fc859974 | **ACCEPT** independent direct Case B supply and the all-positive-t K=1 lift for fixed q=r=2. **REJECT** the exact Case A ledger with duplicate 2 and missing 6. Four exact graph records, two candidate ledgers and one adverse checker check passed the audit. No queries, enumeration or prior replay. Keep joint growth and K>=2 separate. |
 | D059 | Close B4-JOINT-22-CUT-COMPAT-001 at 2d9eb76ea59155a0cfb68b7441dd778467bf475c | **ACCEPT** the complete cut criterion, first-center cuts 11,12,13 on Case B, the named c=11 batch construction for all q>=2 at r=2, and its K=1 lift for all t>=1. **REJECT** the second-host operation on Case B and its c=11 one-leaf output. Forty-nine threshold rows, four new graphs, and separate reviews support the bounded check. No searches or enumeration. Keep general compatibility and K>=2 open. |
+| D060 | Close B4-JOINT-23-MAX-ROOTED-CORE-001 at 98ae0ee75b5afedfd6019a2f79c5da7c9d40c99c and CONTINUE | **ACCEPT** the direct C(2,3) core, its all-t K=1 lift at fixed q=2,r=3 and the repeatable first-host c=12 interface on this seed. **REJECT** its exact Case A partial choices and positive second-host cut batches on the new ledger. Three new original graphs, two retained positive controls, the retained D059 negative and separate reviews. No DFS or replay. Prefer one structural second-growth test over catalog promotion. The eventual registry and atlas can record the new supplied seed, first-host transition instance and fixed-parameter lift. |
 
 ## Proposal template for the next consequential algorithm change
 

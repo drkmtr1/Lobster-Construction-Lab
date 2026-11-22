@@ -1,0 +1,18 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "exit_code": 0,
+      "elapsed_command_seconds": 0.9651771,
+      "stdout": "PASS: direct C(2,3), two exact lifts, two retained positive controls and one wrong digest (0.125000 CPU seconds)\n",
+      "stderr": ""
+    },
+    {
+      "step": 2,
+      "exit_code": 0,
+      "elapsed_command_seconds": 1.0659938,
+      "stdout": "PASS: three new graphs, both named interfaces, 34 cut rows, zero searches (0.234375 total CPU seconds)\n",
+      "stderr": ""
+    }
+  ]
+}

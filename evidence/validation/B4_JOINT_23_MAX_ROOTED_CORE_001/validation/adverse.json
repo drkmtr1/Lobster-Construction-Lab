@@ -1,0 +1,30 @@
+{
+  "checker": {
+    "claim": "finite certificate for this exact named target only",
+    "edge_differences": [
+      13,
+      14,
+      15,
+      7,
+      4,
+      12,
+      11,
+      10,
+      9,
+      6,
+      5,
+      1,
+      8,
+      2,
+      3
+    ],
+    "errors": [
+      "original graph digest mismatch"
+    ],
+    "graph_digest": "d166a6e913bb80ba0872e937bde952cebbbd81c5bcd0d3f8dc20ed2865456f93",
+    "m": 15,
+    "n": 16,
+    "valid": false
+  },
+  "expected_digest": "0000000000000000000000000000000000000000000000000000000000000000"
+}
