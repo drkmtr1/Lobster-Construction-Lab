@@ -57,3 +57,16 @@ so the insertion belongs in the left component before R241.
 A host at distance two from a supplied witness also puts the
 new leaf at distance three from that same path.
 [Minimum-high proof](ALPHA_MINIMUM_HIGH_LEAF_EXTENSION.md#scope-and-source-comparison)
+
+### F-UPPER-BLOCK-WRONG-THRESHOLD
+
+The retained relabeled nine-vertex alpha left state has p=4,
+actual high exit 5, and the third center at 1, one edge from its
+witness. Threshold c=8 meets the numerical bounds but selects only
+s:0, whose full incident spectrum is {6,8}. It lacks the required
+{7,8}. A single insertion at c=8 shifts those two differences
+to 7 and 9 and creates a new difference 7 at the label-one host.
+The unaffected first terminal edge already supplies 7, and
+difference 6 is missing. This is a failure of that placement.
+The supplied c=7 selects the full required block.
+[Proof](ALPHA_UPPER_BLOCK_LEAF_INSERTION.md#independent-base-on-the-original-left-graph)

@@ -2,7 +2,7 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 21, 2026, Pacific/Honolulu  
-**Stage:** B4-UNPADDED-1311-001 accepted after separate AI reviews. The conditional minimum-high rule and exact symbolic (q,r,1,1) family are proved. New executable coverage is exact 1311.
+**Stage:** B4-UNPADDED-QR21-001 accepted after separate AI reviews. The conditional upper-block insertion and exact symbolic (q,r,t,1) family are proved. New executable coverage is QR21 only.
 
 ## Current scientific objective
 
@@ -10,11 +10,12 @@ Develop independently supplied original-graph boundaries beyond the proved zero-
 
 ## One next action
 
-**With a new bounded scope decision, formulate a supplier question for the unpadded `[[q],[r],[2],[1]]+[[]]*(K+1)` family for positive integers q,r,K**, to check whether third-branch growth can preserve the original join and path port.
+**With a new bounded scope decision, frame a supplier question for the exact unpadded `[[q],[r],[t],[2]]+[[]]*(K+1)` family for positive integers q,r,t,K**, to examine whether a larger right component can retain the original join and adjacent exit.
 
 ## What is established in this package
 
 - Both authenticated upstream main heads match the pinned audit commits. The repositories remain unchanged.
+- B4-UNPADDED-QR21-001 proves finite upper-block insertion at a supplied label-one host with the complete incident multiset and updated threshold. The retained left base, minimum-high extension, original R241/L008 join, and zero-port extension supply alpha gracefulness on `[[q],[r],[t],[1]]+[[]]*(K+1)` for positive integers q,r,t,K. The original adjacent exit is `s:4=K+r+5` and the completed low-class size is `r+5+(K+1)//2`. Only `four_section_qr21(q,r,K)` was added and finitely validated. See `research/ALPHA_UPPER_BLOCK_LEAF_INSERTION.md`, `research/B4_UNPADDED_QR21.md`, D035, and `evidence/validation/B4_UNPADDED_QR21_001/`.
 - B4-UNPADDED-1311-001 proves a conditional finite leaf extension at a supplied minimum-high host within one edge of its witness. Expansion inside the left component, retained R241/L008, and zero-port growth after the join prove alpha gracefulness of `[[q],[r],[1],[1]]+[[]]*(K+1)` for positive integers q,r,K. The completed low-class size is `r+5+(K+1)//2`. Only `four_section_1311(K)` was added and validated. See `research/ALPHA_MINIMUM_HIGH_LEAF_EXTENSION.md`, `research/B4_UNPADDED_1311.md`, D034, and `evidence/validation/B4_UNPADDED_1311_001/`.
 - B4-UNPADDED-3111-001 proves conditional finite extension at the same supplied label-zero port, preserving the witness and offsets. The independently supplied unit seed gives alpha gracefulness of `[[q],[1],[1],[1]]+[[]]*(K+1)` for integers q,K>=1, with physical `s:4=K+6` and completed low-class size `6+(K+1)//2`. Only `four_section_3111(K)` was added and validated. See `research/ALPHA_ZERO_PORT_LEAF_EXTENSION.md`, `research/B4_UNPADDED_3111.md`, D033, and `evidence/validation/B4_UNPADDED_3111_001/`.
 - B4-UNPADDED-2111-001 covers the exact unpadded `[[2],[1],[1],[1]]+[[]]*(K+1)` profile for integer K>=1. The unit skeleton plus a leaf at the original label-zero `b:0:0` gives the fixed seed with low-class size 6. The shifted prefix leaves `R=[6,K+5]`, `D=[1,K]`, and physical `s:4=K+6`. The adjacent completion has low-class size `6+(K+1)//2` and cutoff one less. See `research/B4_UNPADDED_2111.md`, D032, and `evidence/validation/B4_UNPADDED_2111_001/`.

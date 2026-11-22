@@ -240,3 +240,25 @@ and their same-certificate audit passed. One expanded left component
 and one fixed prefix seed passed separately. Separate AI reviews accepted.
 [Proofs](ALPHA_MINIMUM_HIGH_LEAF_EXTENSION.md) · [1311 proof](B4_UNPADDED_1311.md)
 · [Validation](../evidence/validation/B4_UNPADDED_1311_001/README.md) · D034
+
+## Conditional upper-block insertion and B4-UNPADDED-QR21-001
+
+**ACCEPT.** At a supplied label-one host within one edge of the
+witness, the upper-block insertion preserves both ports and their
+offsets. It requires all incident differences on the selected
+high block to be [c-1,n-1] with multiplicity one. After h prescribed
+additions the threshold is c+h, selecting the same physical block with
+the updated complete incident multiset. This gives finite same-host
+closure with the extra predicate retained.
+
+The original relabeled nine-vertex left graph supplies the
+predicate at c=7. Upper-block growth, minimum-high extension,
+the original R241/L008 join and zero-port extension in that order
+prove the exact unpadded `[[q],[r],[t],[1]]+[[]]*(K+1)` family
+alpha graceful for positive integers q,r,t,K. Completed low-class
+size is r+5+ceil(K/2). Only the t=2 route
+`four_section_qr21(q,r,K)` was added and finitely validated.
+All 12 declared targets, their same-certificate audit, and three
+separate auxiliary certificates passed. Separate AI reviews accepted.
+[Insertion and symbolic proof](ALPHA_UPPER_BLOCK_LEAF_INSERTION.md)
+· [QR21 proof](B4_UNPADDED_QR21.md) · [Validation](../evidence/validation/B4_UNPADDED_QR21_001/README.md) · D035

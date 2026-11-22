@@ -275,3 +275,17 @@ is valid. Exporting a further relational state, supplying arbitrary
 hosts, other unproved branch placements or sections, padding,
 and arbitrary topology remain separate obligations. The only new
 executable route is [1311](B4_UNPADDED_1311.md).
+
+### Upper-block insertion and symbolic (q,r,t,1) coverage
+
+The [upper-block proof](ALPHA_UPPER_BLOCK_LEAF_INSERTION.md) preserves
+the extra incident-edge multiset at the updated threshold c+h.
+The retained base supplies it at c=7 and keeps the minimum-high
+second host, the zero first center, and exit offset one. The
+fixed order of extensions and composition supplies the exact
+`[[q],[r],[t],[1]]+[[]]*(K+1)` family for positive integers q,r,t,K.
+The original path starts at s:4=K+r+5 with R=[r+5,K+r+4] and
+D=[1,K], and gives full alpha size r+5+ceil(K/2). Only
+[QR21](B4_UNPADDED_QR21.md) has new executable coverage.
+Fourth-branch growth, other sections, padding, multiple branches
+per section and arbitrary-host or topology supply remain separate.
