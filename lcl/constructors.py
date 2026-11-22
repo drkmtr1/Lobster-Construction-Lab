@@ -744,6 +744,81 @@ def four_section_unit(K: int) -> dict:
     return result
 
 
+def four_section_111t(t: int, K: int) -> dict:
+    """Label three unit branches, a fourth of size t>=2, and a path of length K>=1."""
+    _integer(t, "t", 2)
+    _integer(K, "K", 1)
+    graph = build_graph([[1], [1], [1], [t]] + [[] for _ in range(K + 1)])
+    m = t + K + 11
+    if K == 1:
+        port = t + 7
+        prefix = {"s:0": m, "s:1": 2, "s:2": t + 9, "s:3": 5, "s:4": port,
+                  "b:0:0": 0, "l:0:0:0": t + 11,
+                  "b:1:0": t + 10, "l:1:0:0": 1,
+                  "b:2:0": 3, "l:2:0:0": t + 8, "b:3:0": t + 6}
+        leaf_start = 6
+        unused_labels, unused_differences = [4], [t + 3]
+        operation = "supplied_singleton_interface"
+    else:
+        a = t + 5
+        port = a + K + 1
+        prefix = {"s:0": m - 1, "s:1": 1, "s:2": port + 1, "s:3": 4, "s:4": port,
+                  "b:0:0": 2, "l:0:0:0": m - 2,
+                  "b:1:0": m, "l:1:0:0": 0,
+                  "b:2:0": 3, "l:2:0:0": port + 2, "b:3:0": port - 1}
+        leaf_start = 5
+        unused_labels = list(range(a, a + K))
+        unused_differences = list(range(1, K + 1))
+        operation = "supplied_nonadjacent_interval_interface"
+    for j in range(t):
+        prefix[f"l:3:0:{j}"] = leaf_start + j
+
+    partial = verify_partial(graph, prefix)
+    suffix = {f"s:{i}" for i in range(5, K + 5)}
+    path = {frozenset((f"s:{i}", f"s:{i + 1}")) for i in range(4, K + 4)}
+    incident = {frozenset(edge) for edge in graph["edges"] if suffix.intersection(edge)}
+    if (not partial["valid"] or partial["frontier"] != ["s:4"]
+            or partial["unused_labels"] != unused_labels
+            or partial["unused_differences"] != unused_differences
+            or set(graph["vertices"]) - set(prefix) != suffix or incident != path):
+        raise ArithmeticError("four-section 111t prefix has a different original-path interface")
+
+    labels = dict(prefix)
+    if K == 1:
+        if abs(port - unused_labels[0]) != unused_differences[0]:
+            raise ArithmeticError("four-section 111t singleton edge has the wrong difference")
+        labels["s:5"] = unused_labels[0]
+    else:
+        path_labels = _nonadjacent_path_labels(K, a)
+        if path_labels[0] != port:
+            raise ArithmeticError("four-section 111t path does not start at the supplied port")
+        for i, label in enumerate(path_labels[1:], start=5):
+            labels[f"s:{i}"] = label
+    certificate = verify_certificate(graph, labels, partial["graph_digest"])
+    if not certificate["valid"]:
+        raise ArithmeticError("four-section 111t completion failed original-target verification: "
+                              + "; ".join(certificate["errors"]))
+
+    interface = {"unused_labels": unused_labels, "unused_differences": unused_differences,
+                 "active_vertex": "s:4", "active_label": port}
+    trace = [{"operation": operation, "stage": 4, "prefix_labels": prefix, **interface}]
+    scope = {"parameters": {"t": t, "K": K},
+             "family": "three unit branches, a fourth branch of size t, and a K-edge path, zero padding",
+             "independent_input_supply": True, "universal_lobster_claim": False,
+             "mathematical_novelty_claim": False, "arbitrary_branched_suffix": False,
+             "suffix_interface": interface,
+             "derivation_status": "R241 with a direct left component and an L008 right component",
+             "source": "research/B4_UNPADDED_111T.md"}
+    if K == 1:
+        cut = t + 6
+        if any((labels[u] < cut) == (labels[v] < cut) for u, v in graph["edges"]):
+            raise ArithmeticError("four-section 111t singleton does not cross the declared alpha cut")
+        scope["alpha_low_class_size"] = cut
+    result = _result(graph, labels, "four_section_111t", scope, trace)
+    result["evidence_level"] = "project_derived_symbolic_family; independent checking required"
+    return result
+
+
 def two_section_unit(K: int) -> dict:
     """Convenience alias for the q=1 zero-padding balanced construction."""
     result = two_section_balanced(1, K)

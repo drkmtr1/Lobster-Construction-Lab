@@ -1,0 +1,240 @@
+{
+  "run_id": "B4-UNPADDED-111T-001-original-target-regression-20261121",
+  "starting_commit": "294f415df2a53f13161b56d5888ed4b0c118f7a0",
+  "limits": {
+    "workers": 1,
+    "max_vertices": 75,
+    "max_output_bytes": 2000000
+  },
+  "config_sha256_raw": "39790a2996004475d42981fde93e28f22f0c37be35a2f228d3687cfcffa8dc3c",
+  "regression_script_sha256_raw": "f9c58cca8278f13fe8e92dadaa7273a930dccbdc3d3d854e67f39eba59b23f38",
+  "source_sha256_raw": {
+    "lcl/__init__.py": "134055506d3e9cd4fa538177844d28a44d5ab567ec220cf54048e63d1a8a7374",
+    "lcl/__main__.py": "30782be9a5f5e6bc8b28d2ba189b3dfbf36f24571321d404bec50bd8175f1014",
+    "lcl/allocation.py": "0aab778a6665712d3cd1e35554657cc212fa840d3ce28d32ba79c18f2dcce2b9",
+    "lcl/budget.py": "02145a6b4bc10eda53d2f3736fdf082c1414f96905c71e74a407c0cefd73b16a",
+    "lcl/constructors.py": "ecb5b82f4bfe227595de7b77801df83250f8e15fe38dd312ac33452b4eadf9b5",
+    "lcl/consumers.py": "2cb688d09c510ca855ba1695d0f89a325ea4fc7882c9e5a8e971c2b506e64560",
+    "lcl/dp.py": "1aa3d2ed888c26b8e5fd65bd74069eb654c60dd336eef5fb33e8fdb7659a14f9",
+    "lcl/engines.py": "8a67ba56d97676b613f9fa89e18e30d8642d74d5c6ada7ec55f97733b0dc7207",
+    "lcl/experiments.py": "0d0f08632397082a2580e250aa7a2a53c5df61aba770e4d2ae0d701b1fe2f714",
+    "lcl/ingest.py": "41e72b2d6e61a03602f9695495d1bcfa76e86ecfd138177f93d74750fd98ab34",
+    "lcl/model.py": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6",
+    "lcl/oracle.py": "6d70eca24f9b0c254073ec8d1ffcc769d9beca42ad43b6cf272659aecf58146d",
+    "lcl/records.py": "ba7299dac2b3f2c1907c3cce40e0ba20c603b19fc8dcee2f9b2b0760b925391e",
+    "lcl/search.py": "f8291a3446e04422095131e4d75100ec9bfd3213d039d17ce83c04ec82d671ff",
+    "lcl/states.py": "386a7666da91466d35d17b634ad2e5a69e67581f553e86e9d4e75389dc781e1c",
+    "lcl/verify.py": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909",
+    "requirements-graph.txt": "63b83d49071ae093c187423c768c6711a3716cda354d3a24e2bb10b0f536d34c",
+    "requirements-optional.txt": "5bab117f06ee96a8fa7529e4e08f5125087e6ca42bb5ffee3edfdc6913da9e3b",
+    "requirements-smt.txt": "4bb07f85bfdeaabba65e8deb117ecc222d748651ed5526284666f4bb3e6450bd",
+    "requirements-symbolic.txt": "47fd19021144e071cc43b6e265aafada0056abe89724ad95bd6e3a8e37995b94",
+    "requirements.txt": "60f6e1bd76adf6ed25cf381ca95f67e8a27a0de1e62fb673a7cf5af4b86249ea",
+    "pyproject.toml": "738f14eba3125ce7f444628adaddaf2e3e30e5aa7f43f10e7035067f6b7072e5",
+    "tests/test_b4_unpadded_111t.py": "e3a06e9a891631af2fa9db748dd6cde2e015a5b9072b35368ee9e55224f5c16f"
+  },
+  "environment": {
+    "python": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv\\Scripts\\python.exe",
+    "implementation": "CPython",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "optimization_level": 0,
+    "utf8_mode": 1
+  },
+  "status": "PASS",
+  "completed_target_count": 0,
+  "left_component_certificate_count": 2,
+  "original_component": {
+    "schema_version": 1,
+    "profile": [
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "vertices": [
+      "s:0",
+      "b:0:0",
+      "l:0:0:0",
+      "s:1",
+      "b:1:0",
+      "l:1:0:0",
+      "s:2",
+      "b:2:0",
+      "l:2:0:0"
+    ],
+    "edges": [
+      [
+        "s:0",
+        "s:1"
+      ],
+      [
+        "s:1",
+        "s:2"
+      ],
+      [
+        "s:0",
+        "b:0:0"
+      ],
+      [
+        "b:0:0",
+        "l:0:0:0"
+      ],
+      [
+        "s:1",
+        "b:1:0"
+      ],
+      [
+        "b:1:0",
+        "l:1:0:0"
+      ],
+      [
+        "s:2",
+        "b:2:0"
+      ],
+      [
+        "b:2:0",
+        "l:2:0:0"
+      ]
+    ],
+    "spine": [
+      "s:0",
+      "s:1",
+      "s:2"
+    ],
+    "roles": {
+      "s:0": {
+        "kind": "spine",
+        "section": 0
+      },
+      "b:0:0": {
+        "kind": "branch",
+        "section": 0,
+        "branch": 0
+      },
+      "l:0:0:0": {
+        "kind": "leaf",
+        "section": 0,
+        "branch": 0,
+        "leaf": 0
+      },
+      "s:1": {
+        "kind": "spine",
+        "section": 1
+      },
+      "b:1:0": {
+        "kind": "branch",
+        "section": 1,
+        "branch": 0
+      },
+      "l:1:0:0": {
+        "kind": "leaf",
+        "section": 1,
+        "branch": 0,
+        "leaf": 0
+      },
+      "s:2": {
+        "kind": "spine",
+        "section": 2
+      },
+      "b:2:0": {
+        "kind": "branch",
+        "section": 2,
+        "branch": 0
+      },
+      "l:2:0:0": {
+        "kind": "leaf",
+        "section": 2,
+        "branch": 0,
+        "leaf": 0
+      }
+    }
+  },
+  "port_path": [
+    "b:0:0",
+    "s:0",
+    "s:1",
+    "s:2"
+  ],
+  "cases": [
+    {
+      "branch": "K>=2",
+      "labels": {
+        "s:0": 7,
+        "s:1": 1,
+        "s:2": 4,
+        "b:0:0": 2,
+        "l:0:0:0": 6,
+        "b:1:0": 8,
+        "l:1:0:0": 0,
+        "b:2:0": 3,
+        "l:2:0:0": 5
+      },
+      "certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 9,
+        "m": 8,
+        "graph_digest": "0a266bed01941576eaa116c51817643de59958e61959a93c58c04d82e7a70b37",
+        "edge_differences": [
+          6,
+          3,
+          5,
+          4,
+          7,
+          8,
+          1,
+          2
+        ],
+        "claim": "finite certificate for this exact named target only"
+      },
+      "alpha_low_class_size": 4,
+      "port_offsets": [
+        2,
+        0
+      ]
+    },
+    {
+      "branch": "K=1",
+      "labels": {
+        "s:0": 8,
+        "s:1": 2,
+        "s:2": 5,
+        "b:0:0": 0,
+        "l:0:0:0": 7,
+        "b:1:0": 6,
+        "l:1:0:0": 1,
+        "b:2:0": 3,
+        "l:2:0:0": 4
+      },
+      "certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 9,
+        "m": 8,
+        "graph_digest": "0a266bed01941576eaa116c51817643de59958e61959a93c58c04d82e7a70b37",
+        "edge_differences": [
+          6,
+          3,
+          8,
+          7,
+          4,
+          5,
+          2,
+          1
+        ],
+        "claim": "finite certificate for this exact named target only"
+      },
+      "alpha_low_class_size": 4,
+      "port_offsets": [
+        0,
+        1
+      ]
+    }
+  ]
+}

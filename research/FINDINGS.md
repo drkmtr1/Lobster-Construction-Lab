@@ -139,3 +139,20 @@ The [current literature note](../docs/LITERATURE_UPDATE.md) records the author-p
 ## 11. Promotion criteria
 
 New findings must name their quantifiers/domain, independent inputs, unchanged original topology, returned physical interface, proof/verification evidence, applicable sources and remaining dependencies. Universal coverage requires a coverage and termination argument, not a large finite record. Keep unproved candidate statements in proof obligations and preserve failed attempts in the failure ledger.
+
+## B4-UNPADDED-111T-001
+
+**ACCEPT** for the exact zero-padding profile `[[1],[1],[1],[t]]+[[]]*(K+1)`
+with integers `t>=2,K>=1`, excluding booleans. At K=1 the direct singleton
+uses `R={4}`, `D={t+3}`, and `s:4=t+7`; the complete labeling is alpha
+with low-class size t+6. For K>=2 set a=t+5. The shifted seed supplies
+`R=[a,a+K-1]` and `D=[1,K]` at physical `s:4=a+K+1`. The retained
+nonadjacent consumer completes the original path. The full K>=2 claim is
+ordinary gracefulness. The R241 and L008 derivations use the actual
+`s:2--s:3` join with two directly verified left components. The unit
+route retains its adjacent contract and alpha conclusion for t=1, giving
+ordinary-gracefulness coverage for all positive t,K on this exact profile.
+Separate AI mathematical and implementation reviews accepted. There are
+12 completed original targets and an audit of those same 12, with two
+left-component certificates counted separately. [Proof](B4_UNPADDED_111T.md)
+· [Validation](../evidence/validation/B4_UNPADDED_111T_001/README.md) · D029

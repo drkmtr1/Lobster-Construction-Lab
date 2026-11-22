@@ -1,0 +1,111 @@
+{
+  "run_id": "B4-UNPADDED-111T-001-original-target-regression-20261121-same-certificate-audit",
+  "regression_sha256_raw": "0059eaf46dead77a14f4351dd66161e49d6a4ede926c9bc570f0c51e292ead20",
+  "script_sha256_raw": "e19308ac093150d5e173f1941aee6f17e5c97f3c6d1d878fc669f5dcdff7812d",
+  "replaces_audit_sha256_raw": "87120e60785f05475df3787602053d1b22c23b7f53dd55ea3ab4d6ee3e959aeb",
+  "environment": {
+    "python": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "status": "PASS",
+  "same_certificate_count": 12,
+  "additional_completed_targets": 0,
+  "cases": [
+    {
+      "parameters": {
+        "t": 2,
+        "K": 1
+      },
+      "original_graph_digest": "4fa1a544059dac192a26266d463c7caded7a606da095a8547cbb8ed42a7d6936",
+      "status": "PASS"
+    },
+    {
+      "parameters": {
+        "t": 3,
+        "K": 1
+      },
+      "original_graph_digest": "8708814b4feb7b961ed4e4522ff859b975b3530b0b7ff5b50f2060492bca94c5",
+      "status": "PASS"
+    },
+    {
+      "parameters": {
+        "t": 8,
+        "K": 1
+      },
+      "original_graph_digest": "f923f747d5f945a60e91efd5d0de6e0f3caea6ebc7d2d662bcc9171b758e20ab",
+      "status": "PASS"
+    },
+    {
+      "parameters": {
+        "t": 17,
+        "K": 1
+      },
+      "original_graph_digest": "950c9d06dbcee6d6764deb74f0987882124162b7af4d93416e335557956ca118",
+      "status": "PASS"
+    },
+    {
+      "parameters": {
+        "t": 2,
+        "K": 2
+      },
+      "original_graph_digest": "8abbfce3c757b9643cb04f924b62a9016dc7a36c8550860de79a72016b70773e",
+      "status": "PASS"
+    },
+    {
+      "parameters": {
+        "t": 2,
+        "K": 3
+      },
+      "original_graph_digest": "154ce155400cd2a529a1e0f6b2d680a497b76fd987e78d3d374eb504472f7c41",
+      "status": "PASS"
+    },
+    {
+      "parameters": {
+        "t": 2,
+        "K": 4
+      },
+      "original_graph_digest": "e0561b8c8051c2adbcf9789dbd31e82979f264f1302ec908cf1e03964c2e90b2",
+      "status": "PASS"
+    },
+    {
+      "parameters": {
+        "t": 3,
+        "K": 5
+      },
+      "original_graph_digest": "d7cac9ec1169ca40203c523e673ee945b06dfc77c577356e5d8b4a137430fa49",
+      "status": "PASS"
+    },
+    {
+      "parameters": {
+        "t": 4,
+        "K": 6
+      },
+      "original_graph_digest": "84d66bd9a713794e06bda37bcb38826aed08d5293bfb2d3b6b2cef3ac872f1f3",
+      "status": "PASS"
+    },
+    {
+      "parameters": {
+        "t": 5,
+        "K": 7
+      },
+      "original_graph_digest": "8003e0a643077a967f69981b7870bba922c53d00103e0892bb9942b55af2d27c",
+      "status": "PASS"
+    },
+    {
+      "parameters": {
+        "t": 8,
+        "K": 8
+      },
+      "original_graph_digest": "753516ee140d8c9dc9998f7fdeccd066dcf9b8452a2db89c6a9fa1e94c705452",
+      "status": "PASS"
+    },
+    {
+      "parameters": {
+        "t": 31,
+        "K": 32
+      },
+      "original_graph_digest": "2b84377218931bda7f535cb6f81c8585ee8e2e821460df56439a0cfa2c8832d6",
+      "status": "PASS"
+    }
+  ]
+}

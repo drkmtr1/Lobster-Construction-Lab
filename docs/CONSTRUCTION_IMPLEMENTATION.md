@@ -20,6 +20,7 @@ The code supplies direct constructions, a unit-size convenience alias, and a str
 | `three_section_q1_r2(t,K)` | Integers t>=3, K>=2, fixed q=1, r=2 and zero padding | Complete graceful labeling | Fixed alpha seed, prescribed leaf extension and original nonadjacent port s:3=t+K+5 |
 | `three_section_k1(q,r,t)` | Positive integers q,r,t, K=1 and zero padding | Complete graceful labeling | Direct singleton R={q+2}, D={t+3} at s:3=q+t+5 |
 | `four_section_unit(K)` | Positive integer K, four successive unit branches and zero padding | Complete alpha graceful labeling | Adjacent interval R=[6,K+5], D=1..K at s:4=K+6 |
+| `four_section_111t(t,K)` | Integers t>=2 and K>=1, original branch sizes 1,1,1,t and zero padding | Complete graceful labeling, alpha for K=1 | At s:4, use the singleton R={4}, D={t+3} for K=1 or the above-side nonadjacent interval for K>=2 |
 | `two_section_unit(K)` | Positive suffix length `K` | Complete graceful labeling | Alias for `two_section_balanced(q=1,K=K)` |
 | `complete_two_host(graph, core_labels, hosts)` | Original target, connected labeled core, two distinct physical hosts | Exact fixed-core completion or restricted obstruction | Does not supply the core labeling, host choice, or a palette partition |
 
@@ -28,6 +29,8 @@ All implementation uses exact Python integers and standard-library containers. N
 The exceptional B3 CLI method `three_section_q1_r2` admits exactly the keys `t` and `K`. Its independently declared profile must match the original fixed branch counts `1,2,t`. For K=1, `three_section_k1` admits exactly `q,r,t` and the original profile `[[q],[r],[t],[],[]]`. The five constructors cover all positive `q,r,t,K` on the zero-padding B3 profile. [Deterministic selection rule](../research/B3_UNPADDED_K1.md#deterministic-selection-for-every-positive-path-length)
 
 The B4 CLI method `four_section_unit` admits exactly the parameter `K` and requires the caller's original `[[1],[1],[1],[1]]+[[]]*(K+1)` profile. The existing 10,000-vertex CLI limit gives `K<=9987`; the direct constructor has no such preflight cap. [B4 proof](../research/B4_UNPADDED_UNIT.md)
+
+The B4 CLI method `four_section_111t` admits exactly `t` and `K` on the declared `[[1],[1],[1],[t]]+[[]]*(K+1)` target. Its 10,000-vertex graph limit gives `t+K<=9988`. The inherited result byte cap also applies. Choose `four_section_unit` for t=1 and `four_section_111t` for t>=2. [B4 111t proof](../research/B4_UNPADDED_111T.md)
 
 ## The exact target remains part of the input
 

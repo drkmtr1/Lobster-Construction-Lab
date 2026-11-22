@@ -201,3 +201,16 @@ To promote a two-section supplier into a repeated construction, specify a state 
 The state must carry the physical port, actual label or normalization map, both resource inventories, remaining topology, and any quota constraints needed later. A compact normalized representation is acceptable only after its equivalence to those facts is proved. A transfer-state transition valid for one parity or capacity regime does not automatically cover another. [U06]
 
 The project can instead find a useful global reconstruction theorem. That alternative must recover the exact requested target and quantify source reachability; it need not preserve the earlier prefix labels. The repeated-prefix route is a research choice, not an additional condition imposed on the lobster problem itself.
+
+### Four-section 111t boundary
+
+The [B4 111t proof](B4_UNPADDED_111T.md) and separate AI reviews discharge
+ordinary gracefulness for the exact `[[1],[1],[1],[t]]+[[]]*(K+1)`
+profile for integers `t>=2,K>=1`. For K=1 the actual terminal
+`s:5=4` consumes `R={4}`, `D={t+3}` at `s:4=t+7`, and the full
+low-class size is t+6. For K>=2 the nonadjacent path at `s:4=t+K+6`
+consumes `R=[t+5,t+K+4]`, `D=[1,K]`. The earlier unit constructor gives
+the adjacent alpha branch for t=1. Thus the exact family is graceful for
+all positive t,K through these three contracts. Varying any of the
+first three branch sizes, padding, multiple branches in a section, further
+sections, and arbitrary repetition still require independent proofs.

@@ -1,0 +1,6508 @@
+{
+  "run_id": "B4-UNPADDED-111T-001-original-target-regression-20261121",
+  "starting_commit": "294f415df2a53f13161b56d5888ed4b0c118f7a0",
+  "limits": {
+    "workers": 1,
+    "max_vertices": 75,
+    "max_output_bytes": 2000000
+  },
+  "config_sha256_raw": "39790a2996004475d42981fde93e28f22f0c37be35a2f228d3687cfcffa8dc3c",
+  "regression_script_sha256_raw": "f9c58cca8278f13fe8e92dadaa7273a930dccbdc3d3d854e67f39eba59b23f38",
+  "source_sha256_raw": {
+    "lcl/__init__.py": "134055506d3e9cd4fa538177844d28a44d5ab567ec220cf54048e63d1a8a7374",
+    "lcl/__main__.py": "30782be9a5f5e6bc8b28d2ba189b3dfbf36f24571321d404bec50bd8175f1014",
+    "lcl/allocation.py": "0aab778a6665712d3cd1e35554657cc212fa840d3ce28d32ba79c18f2dcce2b9",
+    "lcl/budget.py": "02145a6b4bc10eda53d2f3736fdf082c1414f96905c71e74a407c0cefd73b16a",
+    "lcl/constructors.py": "ecb5b82f4bfe227595de7b77801df83250f8e15fe38dd312ac33452b4eadf9b5",
+    "lcl/consumers.py": "2cb688d09c510ca855ba1695d0f89a325ea4fc7882c9e5a8e971c2b506e64560",
+    "lcl/dp.py": "1aa3d2ed888c26b8e5fd65bd74069eb654c60dd336eef5fb33e8fdb7659a14f9",
+    "lcl/engines.py": "8a67ba56d97676b613f9fa89e18e30d8642d74d5c6ada7ec55f97733b0dc7207",
+    "lcl/experiments.py": "0d0f08632397082a2580e250aa7a2a53c5df61aba770e4d2ae0d701b1fe2f714",
+    "lcl/ingest.py": "41e72b2d6e61a03602f9695495d1bcfa76e86ecfd138177f93d74750fd98ab34",
+    "lcl/model.py": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6",
+    "lcl/oracle.py": "6d70eca24f9b0c254073ec8d1ffcc769d9beca42ad43b6cf272659aecf58146d",
+    "lcl/records.py": "ba7299dac2b3f2c1907c3cce40e0ba20c603b19fc8dcee2f9b2b0760b925391e",
+    "lcl/search.py": "f8291a3446e04422095131e4d75100ec9bfd3213d039d17ce83c04ec82d671ff",
+    "lcl/states.py": "386a7666da91466d35d17b634ad2e5a69e67581f553e86e9d4e75389dc781e1c",
+    "lcl/verify.py": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909",
+    "requirements-graph.txt": "63b83d49071ae093c187423c768c6711a3716cda354d3a24e2bb10b0f536d34c",
+    "requirements-optional.txt": "5bab117f06ee96a8fa7529e4e08f5125087e6ca42bb5ffee3edfdc6913da9e3b",
+    "requirements-smt.txt": "4bb07f85bfdeaabba65e8deb117ecc222d748651ed5526284666f4bb3e6450bd",
+    "requirements-symbolic.txt": "47fd19021144e071cc43b6e265aafada0056abe89724ad95bd6e3a8e37995b94",
+    "requirements.txt": "60f6e1bd76adf6ed25cf381ca95f67e8a27a0de1e62fb673a7cf5af4b86249ea",
+    "pyproject.toml": "738f14eba3125ce7f444628adaddaf2e3e30e5aa7f43f10e7035067f6b7072e5",
+    "tests/test_b4_unpadded_111t.py": "e3a06e9a891631af2fa9db748dd6cde2e015a5b9072b35368ee9e55224f5c16f"
+  },
+  "environment": {
+    "python": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv\\Scripts\\python.exe",
+    "implementation": "CPython",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "optimization_level": 0,
+    "utf8_mode": 1
+  },
+  "status": "PASS",
+  "classification": "COMPLETE",
+  "case_count": 12,
+  "cases": [
+    {
+      "parameters": {
+        "t": 2,
+        "K": 1
+      },
+      "original_graph": {
+        "schema_version": 1,
+        "profile": [
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [],
+          []
+        ],
+        "vertices": [
+          "s:0",
+          "b:0:0",
+          "l:0:0:0",
+          "s:1",
+          "b:1:0",
+          "l:1:0:0",
+          "s:2",
+          "b:2:0",
+          "l:2:0:0",
+          "s:3",
+          "b:3:0",
+          "l:3:0:0",
+          "l:3:0:1",
+          "s:4",
+          "s:5"
+        ],
+        "edges": [
+          [
+            "s:0",
+            "s:1"
+          ],
+          [
+            "s:1",
+            "s:2"
+          ],
+          [
+            "s:2",
+            "s:3"
+          ],
+          [
+            "s:3",
+            "s:4"
+          ],
+          [
+            "s:4",
+            "s:5"
+          ],
+          [
+            "s:0",
+            "b:0:0"
+          ],
+          [
+            "b:0:0",
+            "l:0:0:0"
+          ],
+          [
+            "s:1",
+            "b:1:0"
+          ],
+          [
+            "b:1:0",
+            "l:1:0:0"
+          ],
+          [
+            "s:2",
+            "b:2:0"
+          ],
+          [
+            "b:2:0",
+            "l:2:0:0"
+          ],
+          [
+            "s:3",
+            "b:3:0"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:0"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:1"
+          ]
+        ],
+        "spine": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5"
+        ],
+        "roles": {
+          "s:0": {
+            "kind": "spine",
+            "section": 0
+          },
+          "b:0:0": {
+            "kind": "branch",
+            "section": 0,
+            "branch": 0
+          },
+          "l:0:0:0": {
+            "kind": "leaf",
+            "section": 0,
+            "branch": 0,
+            "leaf": 0
+          },
+          "s:1": {
+            "kind": "spine",
+            "section": 1
+          },
+          "b:1:0": {
+            "kind": "branch",
+            "section": 1,
+            "branch": 0
+          },
+          "l:1:0:0": {
+            "kind": "leaf",
+            "section": 1,
+            "branch": 0,
+            "leaf": 0
+          },
+          "s:2": {
+            "kind": "spine",
+            "section": 2
+          },
+          "b:2:0": {
+            "kind": "branch",
+            "section": 2,
+            "branch": 0
+          },
+          "l:2:0:0": {
+            "kind": "leaf",
+            "section": 2,
+            "branch": 0,
+            "leaf": 0
+          },
+          "s:3": {
+            "kind": "spine",
+            "section": 3
+          },
+          "b:3:0": {
+            "kind": "branch",
+            "section": 3,
+            "branch": 0
+          },
+          "l:3:0:0": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 0
+          },
+          "l:3:0:1": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 1
+          },
+          "s:4": {
+            "kind": "spine",
+            "section": 4
+          },
+          "s:5": {
+            "kind": "spine",
+            "section": 5
+          }
+        }
+      },
+      "original_graph_digest": "4fa1a544059dac192a26266d463c7caded7a606da095a8547cbb8ed42a7d6936",
+      "prefix_labels": {
+        "s:0": 14,
+        "s:1": 2,
+        "s:2": 11,
+        "s:3": 5,
+        "s:4": 9,
+        "b:0:0": 0,
+        "l:0:0:0": 13,
+        "b:1:0": 12,
+        "l:1:0:0": 1,
+        "b:2:0": 3,
+        "l:2:0:0": 10,
+        "b:3:0": 8,
+        "l:3:0:0": 6,
+        "l:3:0:1": 7
+      },
+      "prefix_interface": {
+        "active_vertex": "s:4",
+        "active_label": 9,
+        "unused_labels": [
+          4
+        ],
+        "unused_differences": [
+          5
+        ]
+      },
+      "partial_certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 15,
+        "m": 14,
+        "graph_digest": "4fa1a544059dac192a26266d463c7caded7a606da095a8547cbb8ed42a7d6936",
+        "used_labels": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "used_differences": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "unused_labels": [
+          4
+        ],
+        "unused_differences": [
+          5
+        ],
+        "frontier": [
+          "s:4"
+        ],
+        "complete": false,
+        "claim": "partial assignment only; no completion or independent-supplier claim"
+      },
+      "adjacent_boundary_check": {
+        "valid": false,
+        "active_vertex": "s:4",
+        "active_label": 9,
+        "unused_labels": [
+          4
+        ],
+        "unused_differences": [
+          5
+        ],
+        "interval": [
+          4,
+          4
+        ],
+        "remaining_edges": 1,
+        "all_unfinished_incidence_at_port": true,
+        "supplier_status": "not_established_by_boundary_check",
+        "errors": [
+          "Not the declared interval/physical-port interface"
+        ]
+      },
+      "unfinished_edges": [
+        [
+          "s:4",
+          "s:5"
+        ]
+      ],
+      "crossing_edge": [
+        "s:4",
+        "s:5"
+      ],
+      "full_labels": {
+        "s:0": 14,
+        "s:1": 2,
+        "s:2": 11,
+        "s:3": 5,
+        "s:4": 9,
+        "b:0:0": 0,
+        "l:0:0:0": 13,
+        "b:1:0": 12,
+        "l:1:0:0": 1,
+        "b:2:0": 3,
+        "l:2:0:0": 10,
+        "b:3:0": 8,
+        "l:3:0:0": 6,
+        "l:3:0:1": 7,
+        "s:5": 4
+      },
+      "tail_differences": [
+        5
+      ],
+      "alpha_low_class_size": 8,
+      "independent_certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 15,
+        "m": 14,
+        "graph_digest": "4fa1a544059dac192a26266d463c7caded7a606da095a8547cbb8ed42a7d6936",
+        "edge_differences": [
+          12,
+          9,
+          6,
+          4,
+          5,
+          14,
+          13,
+          10,
+          11,
+          8,
+          7,
+          3,
+          2,
+          1
+        ],
+        "claim": "finite certificate for this exact named target only"
+      }
+    },
+    {
+      "parameters": {
+        "t": 3,
+        "K": 1
+      },
+      "original_graph": {
+        "schema_version": 1,
+        "profile": [
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [
+            3
+          ],
+          [],
+          []
+        ],
+        "vertices": [
+          "s:0",
+          "b:0:0",
+          "l:0:0:0",
+          "s:1",
+          "b:1:0",
+          "l:1:0:0",
+          "s:2",
+          "b:2:0",
+          "l:2:0:0",
+          "s:3",
+          "b:3:0",
+          "l:3:0:0",
+          "l:3:0:1",
+          "l:3:0:2",
+          "s:4",
+          "s:5"
+        ],
+        "edges": [
+          [
+            "s:0",
+            "s:1"
+          ],
+          [
+            "s:1",
+            "s:2"
+          ],
+          [
+            "s:2",
+            "s:3"
+          ],
+          [
+            "s:3",
+            "s:4"
+          ],
+          [
+            "s:4",
+            "s:5"
+          ],
+          [
+            "s:0",
+            "b:0:0"
+          ],
+          [
+            "b:0:0",
+            "l:0:0:0"
+          ],
+          [
+            "s:1",
+            "b:1:0"
+          ],
+          [
+            "b:1:0",
+            "l:1:0:0"
+          ],
+          [
+            "s:2",
+            "b:2:0"
+          ],
+          [
+            "b:2:0",
+            "l:2:0:0"
+          ],
+          [
+            "s:3",
+            "b:3:0"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:0"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:1"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:2"
+          ]
+        ],
+        "spine": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5"
+        ],
+        "roles": {
+          "s:0": {
+            "kind": "spine",
+            "section": 0
+          },
+          "b:0:0": {
+            "kind": "branch",
+            "section": 0,
+            "branch": 0
+          },
+          "l:0:0:0": {
+            "kind": "leaf",
+            "section": 0,
+            "branch": 0,
+            "leaf": 0
+          },
+          "s:1": {
+            "kind": "spine",
+            "section": 1
+          },
+          "b:1:0": {
+            "kind": "branch",
+            "section": 1,
+            "branch": 0
+          },
+          "l:1:0:0": {
+            "kind": "leaf",
+            "section": 1,
+            "branch": 0,
+            "leaf": 0
+          },
+          "s:2": {
+            "kind": "spine",
+            "section": 2
+          },
+          "b:2:0": {
+            "kind": "branch",
+            "section": 2,
+            "branch": 0
+          },
+          "l:2:0:0": {
+            "kind": "leaf",
+            "section": 2,
+            "branch": 0,
+            "leaf": 0
+          },
+          "s:3": {
+            "kind": "spine",
+            "section": 3
+          },
+          "b:3:0": {
+            "kind": "branch",
+            "section": 3,
+            "branch": 0
+          },
+          "l:3:0:0": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 0
+          },
+          "l:3:0:1": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 1
+          },
+          "l:3:0:2": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 2
+          },
+          "s:4": {
+            "kind": "spine",
+            "section": 4
+          },
+          "s:5": {
+            "kind": "spine",
+            "section": 5
+          }
+        }
+      },
+      "original_graph_digest": "8708814b4feb7b961ed4e4522ff859b975b3530b0b7ff5b50f2060492bca94c5",
+      "prefix_labels": {
+        "s:0": 15,
+        "s:1": 2,
+        "s:2": 12,
+        "s:3": 5,
+        "s:4": 10,
+        "b:0:0": 0,
+        "l:0:0:0": 14,
+        "b:1:0": 13,
+        "l:1:0:0": 1,
+        "b:2:0": 3,
+        "l:2:0:0": 11,
+        "b:3:0": 9,
+        "l:3:0:0": 6,
+        "l:3:0:1": 7,
+        "l:3:0:2": 8
+      },
+      "prefix_interface": {
+        "active_vertex": "s:4",
+        "active_label": 10,
+        "unused_labels": [
+          4
+        ],
+        "unused_differences": [
+          6
+        ]
+      },
+      "partial_certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 16,
+        "m": 15,
+        "graph_digest": "8708814b4feb7b961ed4e4522ff859b975b3530b0b7ff5b50f2060492bca94c5",
+        "used_labels": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "used_differences": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "unused_labels": [
+          4
+        ],
+        "unused_differences": [
+          6
+        ],
+        "frontier": [
+          "s:4"
+        ],
+        "complete": false,
+        "claim": "partial assignment only; no completion or independent-supplier claim"
+      },
+      "adjacent_boundary_check": {
+        "valid": false,
+        "active_vertex": "s:4",
+        "active_label": 10,
+        "unused_labels": [
+          4
+        ],
+        "unused_differences": [
+          6
+        ],
+        "interval": [
+          4,
+          4
+        ],
+        "remaining_edges": 1,
+        "all_unfinished_incidence_at_port": true,
+        "supplier_status": "not_established_by_boundary_check",
+        "errors": [
+          "Not the declared interval/physical-port interface"
+        ]
+      },
+      "unfinished_edges": [
+        [
+          "s:4",
+          "s:5"
+        ]
+      ],
+      "crossing_edge": [
+        "s:4",
+        "s:5"
+      ],
+      "full_labels": {
+        "s:0": 15,
+        "s:1": 2,
+        "s:2": 12,
+        "s:3": 5,
+        "s:4": 10,
+        "b:0:0": 0,
+        "l:0:0:0": 14,
+        "b:1:0": 13,
+        "l:1:0:0": 1,
+        "b:2:0": 3,
+        "l:2:0:0": 11,
+        "b:3:0": 9,
+        "l:3:0:0": 6,
+        "l:3:0:1": 7,
+        "l:3:0:2": 8,
+        "s:5": 4
+      },
+      "tail_differences": [
+        6
+      ],
+      "alpha_low_class_size": 9,
+      "independent_certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 16,
+        "m": 15,
+        "graph_digest": "8708814b4feb7b961ed4e4522ff859b975b3530b0b7ff5b50f2060492bca94c5",
+        "edge_differences": [
+          13,
+          10,
+          7,
+          5,
+          6,
+          15,
+          14,
+          11,
+          12,
+          9,
+          8,
+          4,
+          3,
+          2,
+          1
+        ],
+        "claim": "finite certificate for this exact named target only"
+      }
+    },
+    {
+      "parameters": {
+        "t": 8,
+        "K": 1
+      },
+      "original_graph": {
+        "schema_version": 1,
+        "profile": [
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [
+            8
+          ],
+          [],
+          []
+        ],
+        "vertices": [
+          "s:0",
+          "b:0:0",
+          "l:0:0:0",
+          "s:1",
+          "b:1:0",
+          "l:1:0:0",
+          "s:2",
+          "b:2:0",
+          "l:2:0:0",
+          "s:3",
+          "b:3:0",
+          "l:3:0:0",
+          "l:3:0:1",
+          "l:3:0:2",
+          "l:3:0:3",
+          "l:3:0:4",
+          "l:3:0:5",
+          "l:3:0:6",
+          "l:3:0:7",
+          "s:4",
+          "s:5"
+        ],
+        "edges": [
+          [
+            "s:0",
+            "s:1"
+          ],
+          [
+            "s:1",
+            "s:2"
+          ],
+          [
+            "s:2",
+            "s:3"
+          ],
+          [
+            "s:3",
+            "s:4"
+          ],
+          [
+            "s:4",
+            "s:5"
+          ],
+          [
+            "s:0",
+            "b:0:0"
+          ],
+          [
+            "b:0:0",
+            "l:0:0:0"
+          ],
+          [
+            "s:1",
+            "b:1:0"
+          ],
+          [
+            "b:1:0",
+            "l:1:0:0"
+          ],
+          [
+            "s:2",
+            "b:2:0"
+          ],
+          [
+            "b:2:0",
+            "l:2:0:0"
+          ],
+          [
+            "s:3",
+            "b:3:0"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:0"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:1"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:2"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:3"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:4"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:5"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:6"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:7"
+          ]
+        ],
+        "spine": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5"
+        ],
+        "roles": {
+          "s:0": {
+            "kind": "spine",
+            "section": 0
+          },
+          "b:0:0": {
+            "kind": "branch",
+            "section": 0,
+            "branch": 0
+          },
+          "l:0:0:0": {
+            "kind": "leaf",
+            "section": 0,
+            "branch": 0,
+            "leaf": 0
+          },
+          "s:1": {
+            "kind": "spine",
+            "section": 1
+          },
+          "b:1:0": {
+            "kind": "branch",
+            "section": 1,
+            "branch": 0
+          },
+          "l:1:0:0": {
+            "kind": "leaf",
+            "section": 1,
+            "branch": 0,
+            "leaf": 0
+          },
+          "s:2": {
+            "kind": "spine",
+            "section": 2
+          },
+          "b:2:0": {
+            "kind": "branch",
+            "section": 2,
+            "branch": 0
+          },
+          "l:2:0:0": {
+            "kind": "leaf",
+            "section": 2,
+            "branch": 0,
+            "leaf": 0
+          },
+          "s:3": {
+            "kind": "spine",
+            "section": 3
+          },
+          "b:3:0": {
+            "kind": "branch",
+            "section": 3,
+            "branch": 0
+          },
+          "l:3:0:0": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 0
+          },
+          "l:3:0:1": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 1
+          },
+          "l:3:0:2": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 2
+          },
+          "l:3:0:3": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 3
+          },
+          "l:3:0:4": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 4
+          },
+          "l:3:0:5": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 5
+          },
+          "l:3:0:6": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 6
+          },
+          "l:3:0:7": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 7
+          },
+          "s:4": {
+            "kind": "spine",
+            "section": 4
+          },
+          "s:5": {
+            "kind": "spine",
+            "section": 5
+          }
+        }
+      },
+      "original_graph_digest": "f923f747d5f945a60e91efd5d0de6e0f3caea6ebc7d2d662bcc9171b758e20ab",
+      "prefix_labels": {
+        "s:0": 20,
+        "s:1": 2,
+        "s:2": 17,
+        "s:3": 5,
+        "s:4": 15,
+        "b:0:0": 0,
+        "l:0:0:0": 19,
+        "b:1:0": 18,
+        "l:1:0:0": 1,
+        "b:2:0": 3,
+        "l:2:0:0": 16,
+        "b:3:0": 14,
+        "l:3:0:0": 6,
+        "l:3:0:1": 7,
+        "l:3:0:2": 8,
+        "l:3:0:3": 9,
+        "l:3:0:4": 10,
+        "l:3:0:5": 11,
+        "l:3:0:6": 12,
+        "l:3:0:7": 13
+      },
+      "prefix_interface": {
+        "active_vertex": "s:4",
+        "active_label": 15,
+        "unused_labels": [
+          4
+        ],
+        "unused_differences": [
+          11
+        ]
+      },
+      "partial_certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 21,
+        "m": 20,
+        "graph_digest": "f923f747d5f945a60e91efd5d0de6e0f3caea6ebc7d2d662bcc9171b758e20ab",
+        "used_labels": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "used_differences": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "unused_labels": [
+          4
+        ],
+        "unused_differences": [
+          11
+        ],
+        "frontier": [
+          "s:4"
+        ],
+        "complete": false,
+        "claim": "partial assignment only; no completion or independent-supplier claim"
+      },
+      "adjacent_boundary_check": {
+        "valid": false,
+        "active_vertex": "s:4",
+        "active_label": 15,
+        "unused_labels": [
+          4
+        ],
+        "unused_differences": [
+          11
+        ],
+        "interval": [
+          4,
+          4
+        ],
+        "remaining_edges": 1,
+        "all_unfinished_incidence_at_port": true,
+        "supplier_status": "not_established_by_boundary_check",
+        "errors": [
+          "Not the declared interval/physical-port interface"
+        ]
+      },
+      "unfinished_edges": [
+        [
+          "s:4",
+          "s:5"
+        ]
+      ],
+      "crossing_edge": [
+        "s:4",
+        "s:5"
+      ],
+      "full_labels": {
+        "s:0": 20,
+        "s:1": 2,
+        "s:2": 17,
+        "s:3": 5,
+        "s:4": 15,
+        "b:0:0": 0,
+        "l:0:0:0": 19,
+        "b:1:0": 18,
+        "l:1:0:0": 1,
+        "b:2:0": 3,
+        "l:2:0:0": 16,
+        "b:3:0": 14,
+        "l:3:0:0": 6,
+        "l:3:0:1": 7,
+        "l:3:0:2": 8,
+        "l:3:0:3": 9,
+        "l:3:0:4": 10,
+        "l:3:0:5": 11,
+        "l:3:0:6": 12,
+        "l:3:0:7": 13,
+        "s:5": 4
+      },
+      "tail_differences": [
+        11
+      ],
+      "alpha_low_class_size": 14,
+      "independent_certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 21,
+        "m": 20,
+        "graph_digest": "f923f747d5f945a60e91efd5d0de6e0f3caea6ebc7d2d662bcc9171b758e20ab",
+        "edge_differences": [
+          18,
+          15,
+          12,
+          10,
+          11,
+          20,
+          19,
+          16,
+          17,
+          14,
+          13,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "claim": "finite certificate for this exact named target only"
+      }
+    },
+    {
+      "parameters": {
+        "t": 17,
+        "K": 1
+      },
+      "original_graph": {
+        "schema_version": 1,
+        "profile": [
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [
+            17
+          ],
+          [],
+          []
+        ],
+        "vertices": [
+          "s:0",
+          "b:0:0",
+          "l:0:0:0",
+          "s:1",
+          "b:1:0",
+          "l:1:0:0",
+          "s:2",
+          "b:2:0",
+          "l:2:0:0",
+          "s:3",
+          "b:3:0",
+          "l:3:0:0",
+          "l:3:0:1",
+          "l:3:0:2",
+          "l:3:0:3",
+          "l:3:0:4",
+          "l:3:0:5",
+          "l:3:0:6",
+          "l:3:0:7",
+          "l:3:0:8",
+          "l:3:0:9",
+          "l:3:0:10",
+          "l:3:0:11",
+          "l:3:0:12",
+          "l:3:0:13",
+          "l:3:0:14",
+          "l:3:0:15",
+          "l:3:0:16",
+          "s:4",
+          "s:5"
+        ],
+        "edges": [
+          [
+            "s:0",
+            "s:1"
+          ],
+          [
+            "s:1",
+            "s:2"
+          ],
+          [
+            "s:2",
+            "s:3"
+          ],
+          [
+            "s:3",
+            "s:4"
+          ],
+          [
+            "s:4",
+            "s:5"
+          ],
+          [
+            "s:0",
+            "b:0:0"
+          ],
+          [
+            "b:0:0",
+            "l:0:0:0"
+          ],
+          [
+            "s:1",
+            "b:1:0"
+          ],
+          [
+            "b:1:0",
+            "l:1:0:0"
+          ],
+          [
+            "s:2",
+            "b:2:0"
+          ],
+          [
+            "b:2:0",
+            "l:2:0:0"
+          ],
+          [
+            "s:3",
+            "b:3:0"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:0"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:1"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:2"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:3"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:4"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:5"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:6"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:7"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:8"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:9"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:10"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:11"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:12"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:13"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:14"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:15"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:16"
+          ]
+        ],
+        "spine": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5"
+        ],
+        "roles": {
+          "s:0": {
+            "kind": "spine",
+            "section": 0
+          },
+          "b:0:0": {
+            "kind": "branch",
+            "section": 0,
+            "branch": 0
+          },
+          "l:0:0:0": {
+            "kind": "leaf",
+            "section": 0,
+            "branch": 0,
+            "leaf": 0
+          },
+          "s:1": {
+            "kind": "spine",
+            "section": 1
+          },
+          "b:1:0": {
+            "kind": "branch",
+            "section": 1,
+            "branch": 0
+          },
+          "l:1:0:0": {
+            "kind": "leaf",
+            "section": 1,
+            "branch": 0,
+            "leaf": 0
+          },
+          "s:2": {
+            "kind": "spine",
+            "section": 2
+          },
+          "b:2:0": {
+            "kind": "branch",
+            "section": 2,
+            "branch": 0
+          },
+          "l:2:0:0": {
+            "kind": "leaf",
+            "section": 2,
+            "branch": 0,
+            "leaf": 0
+          },
+          "s:3": {
+            "kind": "spine",
+            "section": 3
+          },
+          "b:3:0": {
+            "kind": "branch",
+            "section": 3,
+            "branch": 0
+          },
+          "l:3:0:0": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 0
+          },
+          "l:3:0:1": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 1
+          },
+          "l:3:0:2": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 2
+          },
+          "l:3:0:3": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 3
+          },
+          "l:3:0:4": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 4
+          },
+          "l:3:0:5": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 5
+          },
+          "l:3:0:6": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 6
+          },
+          "l:3:0:7": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 7
+          },
+          "l:3:0:8": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 8
+          },
+          "l:3:0:9": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 9
+          },
+          "l:3:0:10": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 10
+          },
+          "l:3:0:11": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 11
+          },
+          "l:3:0:12": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 12
+          },
+          "l:3:0:13": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 13
+          },
+          "l:3:0:14": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 14
+          },
+          "l:3:0:15": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 15
+          },
+          "l:3:0:16": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 16
+          },
+          "s:4": {
+            "kind": "spine",
+            "section": 4
+          },
+          "s:5": {
+            "kind": "spine",
+            "section": 5
+          }
+        }
+      },
+      "original_graph_digest": "950c9d06dbcee6d6764deb74f0987882124162b7af4d93416e335557956ca118",
+      "prefix_labels": {
+        "s:0": 29,
+        "s:1": 2,
+        "s:2": 26,
+        "s:3": 5,
+        "s:4": 24,
+        "b:0:0": 0,
+        "l:0:0:0": 28,
+        "b:1:0": 27,
+        "l:1:0:0": 1,
+        "b:2:0": 3,
+        "l:2:0:0": 25,
+        "b:3:0": 23,
+        "l:3:0:0": 6,
+        "l:3:0:1": 7,
+        "l:3:0:2": 8,
+        "l:3:0:3": 9,
+        "l:3:0:4": 10,
+        "l:3:0:5": 11,
+        "l:3:0:6": 12,
+        "l:3:0:7": 13,
+        "l:3:0:8": 14,
+        "l:3:0:9": 15,
+        "l:3:0:10": 16,
+        "l:3:0:11": 17,
+        "l:3:0:12": 18,
+        "l:3:0:13": 19,
+        "l:3:0:14": 20,
+        "l:3:0:15": 21,
+        "l:3:0:16": 22
+      },
+      "prefix_interface": {
+        "active_vertex": "s:4",
+        "active_label": 24,
+        "unused_labels": [
+          4
+        ],
+        "unused_differences": [
+          20
+        ]
+      },
+      "partial_certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 30,
+        "m": 29,
+        "graph_digest": "950c9d06dbcee6d6764deb74f0987882124162b7af4d93416e335557956ca118",
+        "used_labels": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ],
+        "used_differences": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ],
+        "unused_labels": [
+          4
+        ],
+        "unused_differences": [
+          20
+        ],
+        "frontier": [
+          "s:4"
+        ],
+        "complete": false,
+        "claim": "partial assignment only; no completion or independent-supplier claim"
+      },
+      "adjacent_boundary_check": {
+        "valid": false,
+        "active_vertex": "s:4",
+        "active_label": 24,
+        "unused_labels": [
+          4
+        ],
+        "unused_differences": [
+          20
+        ],
+        "interval": [
+          4,
+          4
+        ],
+        "remaining_edges": 1,
+        "all_unfinished_incidence_at_port": true,
+        "supplier_status": "not_established_by_boundary_check",
+        "errors": [
+          "Not the declared interval/physical-port interface"
+        ]
+      },
+      "unfinished_edges": [
+        [
+          "s:4",
+          "s:5"
+        ]
+      ],
+      "crossing_edge": [
+        "s:4",
+        "s:5"
+      ],
+      "full_labels": {
+        "s:0": 29,
+        "s:1": 2,
+        "s:2": 26,
+        "s:3": 5,
+        "s:4": 24,
+        "b:0:0": 0,
+        "l:0:0:0": 28,
+        "b:1:0": 27,
+        "l:1:0:0": 1,
+        "b:2:0": 3,
+        "l:2:0:0": 25,
+        "b:3:0": 23,
+        "l:3:0:0": 6,
+        "l:3:0:1": 7,
+        "l:3:0:2": 8,
+        "l:3:0:3": 9,
+        "l:3:0:4": 10,
+        "l:3:0:5": 11,
+        "l:3:0:6": 12,
+        "l:3:0:7": 13,
+        "l:3:0:8": 14,
+        "l:3:0:9": 15,
+        "l:3:0:10": 16,
+        "l:3:0:11": 17,
+        "l:3:0:12": 18,
+        "l:3:0:13": 19,
+        "l:3:0:14": 20,
+        "l:3:0:15": 21,
+        "l:3:0:16": 22,
+        "s:5": 4
+      },
+      "tail_differences": [
+        20
+      ],
+      "alpha_low_class_size": 23,
+      "independent_certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 30,
+        "m": 29,
+        "graph_digest": "950c9d06dbcee6d6764deb74f0987882124162b7af4d93416e335557956ca118",
+        "edge_differences": [
+          27,
+          24,
+          21,
+          19,
+          20,
+          29,
+          28,
+          25,
+          26,
+          23,
+          22,
+          18,
+          17,
+          16,
+          15,
+          14,
+          13,
+          12,
+          11,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "claim": "finite certificate for this exact named target only"
+      }
+    },
+    {
+      "parameters": {
+        "t": 2,
+        "K": 2
+      },
+      "original_graph": {
+        "schema_version": 1,
+        "profile": [
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [],
+          [],
+          []
+        ],
+        "vertices": [
+          "s:0",
+          "b:0:0",
+          "l:0:0:0",
+          "s:1",
+          "b:1:0",
+          "l:1:0:0",
+          "s:2",
+          "b:2:0",
+          "l:2:0:0",
+          "s:3",
+          "b:3:0",
+          "l:3:0:0",
+          "l:3:0:1",
+          "s:4",
+          "s:5",
+          "s:6"
+        ],
+        "edges": [
+          [
+            "s:0",
+            "s:1"
+          ],
+          [
+            "s:1",
+            "s:2"
+          ],
+          [
+            "s:2",
+            "s:3"
+          ],
+          [
+            "s:3",
+            "s:4"
+          ],
+          [
+            "s:4",
+            "s:5"
+          ],
+          [
+            "s:5",
+            "s:6"
+          ],
+          [
+            "s:0",
+            "b:0:0"
+          ],
+          [
+            "b:0:0",
+            "l:0:0:0"
+          ],
+          [
+            "s:1",
+            "b:1:0"
+          ],
+          [
+            "b:1:0",
+            "l:1:0:0"
+          ],
+          [
+            "s:2",
+            "b:2:0"
+          ],
+          [
+            "b:2:0",
+            "l:2:0:0"
+          ],
+          [
+            "s:3",
+            "b:3:0"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:0"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:1"
+          ]
+        ],
+        "spine": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6"
+        ],
+        "roles": {
+          "s:0": {
+            "kind": "spine",
+            "section": 0
+          },
+          "b:0:0": {
+            "kind": "branch",
+            "section": 0,
+            "branch": 0
+          },
+          "l:0:0:0": {
+            "kind": "leaf",
+            "section": 0,
+            "branch": 0,
+            "leaf": 0
+          },
+          "s:1": {
+            "kind": "spine",
+            "section": 1
+          },
+          "b:1:0": {
+            "kind": "branch",
+            "section": 1,
+            "branch": 0
+          },
+          "l:1:0:0": {
+            "kind": "leaf",
+            "section": 1,
+            "branch": 0,
+            "leaf": 0
+          },
+          "s:2": {
+            "kind": "spine",
+            "section": 2
+          },
+          "b:2:0": {
+            "kind": "branch",
+            "section": 2,
+            "branch": 0
+          },
+          "l:2:0:0": {
+            "kind": "leaf",
+            "section": 2,
+            "branch": 0,
+            "leaf": 0
+          },
+          "s:3": {
+            "kind": "spine",
+            "section": 3
+          },
+          "b:3:0": {
+            "kind": "branch",
+            "section": 3,
+            "branch": 0
+          },
+          "l:3:0:0": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 0
+          },
+          "l:3:0:1": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 1
+          },
+          "s:4": {
+            "kind": "spine",
+            "section": 4
+          },
+          "s:5": {
+            "kind": "spine",
+            "section": 5
+          },
+          "s:6": {
+            "kind": "spine",
+            "section": 6
+          }
+        }
+      },
+      "original_graph_digest": "8abbfce3c757b9643cb04f924b62a9016dc7a36c8550860de79a72016b70773e",
+      "prefix_labels": {
+        "s:0": 14,
+        "s:1": 1,
+        "s:2": 11,
+        "s:3": 4,
+        "s:4": 10,
+        "b:0:0": 2,
+        "l:0:0:0": 13,
+        "b:1:0": 15,
+        "l:1:0:0": 0,
+        "b:2:0": 3,
+        "l:2:0:0": 12,
+        "b:3:0": 9,
+        "l:3:0:0": 5,
+        "l:3:0:1": 6
+      },
+      "prefix_interface": {
+        "active_vertex": "s:4",
+        "active_label": 10,
+        "unused_labels": [
+          7,
+          8
+        ],
+        "unused_differences": [
+          1,
+          2
+        ]
+      },
+      "partial_certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 16,
+        "m": 15,
+        "graph_digest": "8abbfce3c757b9643cb04f924b62a9016dc7a36c8550860de79a72016b70773e",
+        "used_labels": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "used_differences": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "unused_labels": [
+          7,
+          8
+        ],
+        "unused_differences": [
+          1,
+          2
+        ],
+        "frontier": [
+          "s:4"
+        ],
+        "complete": false,
+        "claim": "partial assignment only; no completion or independent-supplier claim"
+      },
+      "adjacent_boundary_check": {
+        "valid": false,
+        "active_vertex": "s:4",
+        "active_label": 10,
+        "unused_labels": [
+          7,
+          8
+        ],
+        "unused_differences": [
+          1,
+          2
+        ],
+        "interval": [
+          7,
+          8
+        ],
+        "remaining_edges": 2,
+        "all_unfinished_incidence_at_port": true,
+        "supplier_status": "not_established_by_boundary_check",
+        "errors": [
+          "Not the declared interval/physical-port interface"
+        ]
+      },
+      "unfinished_edges": [
+        [
+          "s:4",
+          "s:5"
+        ],
+        [
+          "s:5",
+          "s:6"
+        ]
+      ],
+      "crossing_edge": [
+        "s:4",
+        "s:5"
+      ],
+      "full_labels": {
+        "s:0": 14,
+        "s:1": 1,
+        "s:2": 11,
+        "s:3": 4,
+        "s:4": 10,
+        "b:0:0": 2,
+        "l:0:0:0": 13,
+        "b:1:0": 15,
+        "l:1:0:0": 0,
+        "b:2:0": 3,
+        "l:2:0:0": 12,
+        "b:3:0": 9,
+        "l:3:0:0": 5,
+        "l:3:0:1": 6,
+        "s:5": 8,
+        "s:6": 7
+      },
+      "tail_differences": [
+        2,
+        1
+      ],
+      "alpha_low_class_size": null,
+      "independent_certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 16,
+        "m": 15,
+        "graph_digest": "8abbfce3c757b9643cb04f924b62a9016dc7a36c8550860de79a72016b70773e",
+        "edge_differences": [
+          13,
+          10,
+          7,
+          6,
+          2,
+          1,
+          12,
+          11,
+          14,
+          15,
+          8,
+          9,
+          5,
+          4,
+          3
+        ],
+        "claim": "finite certificate for this exact named target only"
+      }
+    },
+    {
+      "parameters": {
+        "t": 2,
+        "K": 3
+      },
+      "original_graph": {
+        "schema_version": 1,
+        "profile": [
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [],
+          [],
+          [],
+          []
+        ],
+        "vertices": [
+          "s:0",
+          "b:0:0",
+          "l:0:0:0",
+          "s:1",
+          "b:1:0",
+          "l:1:0:0",
+          "s:2",
+          "b:2:0",
+          "l:2:0:0",
+          "s:3",
+          "b:3:0",
+          "l:3:0:0",
+          "l:3:0:1",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7"
+        ],
+        "edges": [
+          [
+            "s:0",
+            "s:1"
+          ],
+          [
+            "s:1",
+            "s:2"
+          ],
+          [
+            "s:2",
+            "s:3"
+          ],
+          [
+            "s:3",
+            "s:4"
+          ],
+          [
+            "s:4",
+            "s:5"
+          ],
+          [
+            "s:5",
+            "s:6"
+          ],
+          [
+            "s:6",
+            "s:7"
+          ],
+          [
+            "s:0",
+            "b:0:0"
+          ],
+          [
+            "b:0:0",
+            "l:0:0:0"
+          ],
+          [
+            "s:1",
+            "b:1:0"
+          ],
+          [
+            "b:1:0",
+            "l:1:0:0"
+          ],
+          [
+            "s:2",
+            "b:2:0"
+          ],
+          [
+            "b:2:0",
+            "l:2:0:0"
+          ],
+          [
+            "s:3",
+            "b:3:0"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:0"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:1"
+          ]
+        ],
+        "spine": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7"
+        ],
+        "roles": {
+          "s:0": {
+            "kind": "spine",
+            "section": 0
+          },
+          "b:0:0": {
+            "kind": "branch",
+            "section": 0,
+            "branch": 0
+          },
+          "l:0:0:0": {
+            "kind": "leaf",
+            "section": 0,
+            "branch": 0,
+            "leaf": 0
+          },
+          "s:1": {
+            "kind": "spine",
+            "section": 1
+          },
+          "b:1:0": {
+            "kind": "branch",
+            "section": 1,
+            "branch": 0
+          },
+          "l:1:0:0": {
+            "kind": "leaf",
+            "section": 1,
+            "branch": 0,
+            "leaf": 0
+          },
+          "s:2": {
+            "kind": "spine",
+            "section": 2
+          },
+          "b:2:0": {
+            "kind": "branch",
+            "section": 2,
+            "branch": 0
+          },
+          "l:2:0:0": {
+            "kind": "leaf",
+            "section": 2,
+            "branch": 0,
+            "leaf": 0
+          },
+          "s:3": {
+            "kind": "spine",
+            "section": 3
+          },
+          "b:3:0": {
+            "kind": "branch",
+            "section": 3,
+            "branch": 0
+          },
+          "l:3:0:0": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 0
+          },
+          "l:3:0:1": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 1
+          },
+          "s:4": {
+            "kind": "spine",
+            "section": 4
+          },
+          "s:5": {
+            "kind": "spine",
+            "section": 5
+          },
+          "s:6": {
+            "kind": "spine",
+            "section": 6
+          },
+          "s:7": {
+            "kind": "spine",
+            "section": 7
+          }
+        }
+      },
+      "original_graph_digest": "154ce155400cd2a529a1e0f6b2d680a497b76fd987e78d3d374eb504472f7c41",
+      "prefix_labels": {
+        "s:0": 15,
+        "s:1": 1,
+        "s:2": 12,
+        "s:3": 4,
+        "s:4": 11,
+        "b:0:0": 2,
+        "l:0:0:0": 14,
+        "b:1:0": 16,
+        "l:1:0:0": 0,
+        "b:2:0": 3,
+        "l:2:0:0": 13,
+        "b:3:0": 10,
+        "l:3:0:0": 5,
+        "l:3:0:1": 6
+      },
+      "prefix_interface": {
+        "active_vertex": "s:4",
+        "active_label": 11,
+        "unused_labels": [
+          7,
+          8,
+          9
+        ],
+        "unused_differences": [
+          1,
+          2,
+          3
+        ]
+      },
+      "partial_certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 17,
+        "m": 16,
+        "graph_digest": "154ce155400cd2a529a1e0f6b2d680a497b76fd987e78d3d374eb504472f7c41",
+        "used_labels": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "used_differences": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "unused_labels": [
+          7,
+          8,
+          9
+        ],
+        "unused_differences": [
+          1,
+          2,
+          3
+        ],
+        "frontier": [
+          "s:4"
+        ],
+        "complete": false,
+        "claim": "partial assignment only; no completion or independent-supplier claim"
+      },
+      "adjacent_boundary_check": {
+        "valid": false,
+        "active_vertex": "s:4",
+        "active_label": 11,
+        "unused_labels": [
+          7,
+          8,
+          9
+        ],
+        "unused_differences": [
+          1,
+          2,
+          3
+        ],
+        "interval": [
+          7,
+          9
+        ],
+        "remaining_edges": 3,
+        "all_unfinished_incidence_at_port": true,
+        "supplier_status": "not_established_by_boundary_check",
+        "errors": [
+          "Not the declared interval/physical-port interface"
+        ]
+      },
+      "unfinished_edges": [
+        [
+          "s:4",
+          "s:5"
+        ],
+        [
+          "s:5",
+          "s:6"
+        ],
+        [
+          "s:6",
+          "s:7"
+        ]
+      ],
+      "crossing_edge": [
+        "s:4",
+        "s:5"
+      ],
+      "full_labels": {
+        "s:0": 15,
+        "s:1": 1,
+        "s:2": 12,
+        "s:3": 4,
+        "s:4": 11,
+        "b:0:0": 2,
+        "l:0:0:0": 14,
+        "b:1:0": 16,
+        "l:1:0:0": 0,
+        "b:2:0": 3,
+        "l:2:0:0": 13,
+        "b:3:0": 10,
+        "l:3:0:0": 5,
+        "l:3:0:1": 6,
+        "s:5": 8,
+        "s:6": 7,
+        "s:7": 9
+      },
+      "tail_differences": [
+        3,
+        1,
+        2
+      ],
+      "alpha_low_class_size": null,
+      "independent_certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 17,
+        "m": 16,
+        "graph_digest": "154ce155400cd2a529a1e0f6b2d680a497b76fd987e78d3d374eb504472f7c41",
+        "edge_differences": [
+          14,
+          11,
+          8,
+          7,
+          3,
+          1,
+          2,
+          13,
+          12,
+          15,
+          16,
+          9,
+          10,
+          6,
+          5,
+          4
+        ],
+        "claim": "finite certificate for this exact named target only"
+      }
+    },
+    {
+      "parameters": {
+        "t": 2,
+        "K": 4
+      },
+      "original_graph": {
+        "schema_version": 1,
+        "profile": [
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "vertices": [
+          "s:0",
+          "b:0:0",
+          "l:0:0:0",
+          "s:1",
+          "b:1:0",
+          "l:1:0:0",
+          "s:2",
+          "b:2:0",
+          "l:2:0:0",
+          "s:3",
+          "b:3:0",
+          "l:3:0:0",
+          "l:3:0:1",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8"
+        ],
+        "edges": [
+          [
+            "s:0",
+            "s:1"
+          ],
+          [
+            "s:1",
+            "s:2"
+          ],
+          [
+            "s:2",
+            "s:3"
+          ],
+          [
+            "s:3",
+            "s:4"
+          ],
+          [
+            "s:4",
+            "s:5"
+          ],
+          [
+            "s:5",
+            "s:6"
+          ],
+          [
+            "s:6",
+            "s:7"
+          ],
+          [
+            "s:7",
+            "s:8"
+          ],
+          [
+            "s:0",
+            "b:0:0"
+          ],
+          [
+            "b:0:0",
+            "l:0:0:0"
+          ],
+          [
+            "s:1",
+            "b:1:0"
+          ],
+          [
+            "b:1:0",
+            "l:1:0:0"
+          ],
+          [
+            "s:2",
+            "b:2:0"
+          ],
+          [
+            "b:2:0",
+            "l:2:0:0"
+          ],
+          [
+            "s:3",
+            "b:3:0"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:0"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:1"
+          ]
+        ],
+        "spine": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8"
+        ],
+        "roles": {
+          "s:0": {
+            "kind": "spine",
+            "section": 0
+          },
+          "b:0:0": {
+            "kind": "branch",
+            "section": 0,
+            "branch": 0
+          },
+          "l:0:0:0": {
+            "kind": "leaf",
+            "section": 0,
+            "branch": 0,
+            "leaf": 0
+          },
+          "s:1": {
+            "kind": "spine",
+            "section": 1
+          },
+          "b:1:0": {
+            "kind": "branch",
+            "section": 1,
+            "branch": 0
+          },
+          "l:1:0:0": {
+            "kind": "leaf",
+            "section": 1,
+            "branch": 0,
+            "leaf": 0
+          },
+          "s:2": {
+            "kind": "spine",
+            "section": 2
+          },
+          "b:2:0": {
+            "kind": "branch",
+            "section": 2,
+            "branch": 0
+          },
+          "l:2:0:0": {
+            "kind": "leaf",
+            "section": 2,
+            "branch": 0,
+            "leaf": 0
+          },
+          "s:3": {
+            "kind": "spine",
+            "section": 3
+          },
+          "b:3:0": {
+            "kind": "branch",
+            "section": 3,
+            "branch": 0
+          },
+          "l:3:0:0": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 0
+          },
+          "l:3:0:1": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 1
+          },
+          "s:4": {
+            "kind": "spine",
+            "section": 4
+          },
+          "s:5": {
+            "kind": "spine",
+            "section": 5
+          },
+          "s:6": {
+            "kind": "spine",
+            "section": 6
+          },
+          "s:7": {
+            "kind": "spine",
+            "section": 7
+          },
+          "s:8": {
+            "kind": "spine",
+            "section": 8
+          }
+        }
+      },
+      "original_graph_digest": "e0561b8c8051c2adbcf9789dbd31e82979f264f1302ec908cf1e03964c2e90b2",
+      "prefix_labels": {
+        "s:0": 16,
+        "s:1": 1,
+        "s:2": 13,
+        "s:3": 4,
+        "s:4": 12,
+        "b:0:0": 2,
+        "l:0:0:0": 15,
+        "b:1:0": 17,
+        "l:1:0:0": 0,
+        "b:2:0": 3,
+        "l:2:0:0": 14,
+        "b:3:0": 11,
+        "l:3:0:0": 5,
+        "l:3:0:1": 6
+      },
+      "prefix_interface": {
+        "active_vertex": "s:4",
+        "active_label": 12,
+        "unused_labels": [
+          7,
+          8,
+          9,
+          10
+        ],
+        "unused_differences": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "partial_certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 18,
+        "m": 17,
+        "graph_digest": "e0561b8c8051c2adbcf9789dbd31e82979f264f1302ec908cf1e03964c2e90b2",
+        "used_labels": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "used_differences": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "unused_labels": [
+          7,
+          8,
+          9,
+          10
+        ],
+        "unused_differences": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "frontier": [
+          "s:4"
+        ],
+        "complete": false,
+        "claim": "partial assignment only; no completion or independent-supplier claim"
+      },
+      "adjacent_boundary_check": {
+        "valid": false,
+        "active_vertex": "s:4",
+        "active_label": 12,
+        "unused_labels": [
+          7,
+          8,
+          9,
+          10
+        ],
+        "unused_differences": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "interval": [
+          7,
+          10
+        ],
+        "remaining_edges": 4,
+        "all_unfinished_incidence_at_port": true,
+        "supplier_status": "not_established_by_boundary_check",
+        "errors": [
+          "Not the declared interval/physical-port interface"
+        ]
+      },
+      "unfinished_edges": [
+        [
+          "s:4",
+          "s:5"
+        ],
+        [
+          "s:5",
+          "s:6"
+        ],
+        [
+          "s:6",
+          "s:7"
+        ],
+        [
+          "s:7",
+          "s:8"
+        ]
+      ],
+      "crossing_edge": [
+        "s:4",
+        "s:5"
+      ],
+      "full_labels": {
+        "s:0": 16,
+        "s:1": 1,
+        "s:2": 13,
+        "s:3": 4,
+        "s:4": 12,
+        "b:0:0": 2,
+        "l:0:0:0": 15,
+        "b:1:0": 17,
+        "l:1:0:0": 0,
+        "b:2:0": 3,
+        "l:2:0:0": 14,
+        "b:3:0": 11,
+        "l:3:0:0": 5,
+        "l:3:0:1": 6,
+        "s:5": 8,
+        "s:6": 9,
+        "s:7": 7,
+        "s:8": 10
+      },
+      "tail_differences": [
+        4,
+        1,
+        2,
+        3
+      ],
+      "alpha_low_class_size": null,
+      "independent_certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 18,
+        "m": 17,
+        "graph_digest": "e0561b8c8051c2adbcf9789dbd31e82979f264f1302ec908cf1e03964c2e90b2",
+        "edge_differences": [
+          15,
+          12,
+          9,
+          8,
+          4,
+          1,
+          2,
+          3,
+          14,
+          13,
+          16,
+          17,
+          10,
+          11,
+          7,
+          6,
+          5
+        ],
+        "claim": "finite certificate for this exact named target only"
+      }
+    },
+    {
+      "parameters": {
+        "t": 3,
+        "K": 5
+      },
+      "original_graph": {
+        "schema_version": 1,
+        "profile": [
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [
+            3
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "vertices": [
+          "s:0",
+          "b:0:0",
+          "l:0:0:0",
+          "s:1",
+          "b:1:0",
+          "l:1:0:0",
+          "s:2",
+          "b:2:0",
+          "l:2:0:0",
+          "s:3",
+          "b:3:0",
+          "l:3:0:0",
+          "l:3:0:1",
+          "l:3:0:2",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9"
+        ],
+        "edges": [
+          [
+            "s:0",
+            "s:1"
+          ],
+          [
+            "s:1",
+            "s:2"
+          ],
+          [
+            "s:2",
+            "s:3"
+          ],
+          [
+            "s:3",
+            "s:4"
+          ],
+          [
+            "s:4",
+            "s:5"
+          ],
+          [
+            "s:5",
+            "s:6"
+          ],
+          [
+            "s:6",
+            "s:7"
+          ],
+          [
+            "s:7",
+            "s:8"
+          ],
+          [
+            "s:8",
+            "s:9"
+          ],
+          [
+            "s:0",
+            "b:0:0"
+          ],
+          [
+            "b:0:0",
+            "l:0:0:0"
+          ],
+          [
+            "s:1",
+            "b:1:0"
+          ],
+          [
+            "b:1:0",
+            "l:1:0:0"
+          ],
+          [
+            "s:2",
+            "b:2:0"
+          ],
+          [
+            "b:2:0",
+            "l:2:0:0"
+          ],
+          [
+            "s:3",
+            "b:3:0"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:0"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:1"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:2"
+          ]
+        ],
+        "spine": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9"
+        ],
+        "roles": {
+          "s:0": {
+            "kind": "spine",
+            "section": 0
+          },
+          "b:0:0": {
+            "kind": "branch",
+            "section": 0,
+            "branch": 0
+          },
+          "l:0:0:0": {
+            "kind": "leaf",
+            "section": 0,
+            "branch": 0,
+            "leaf": 0
+          },
+          "s:1": {
+            "kind": "spine",
+            "section": 1
+          },
+          "b:1:0": {
+            "kind": "branch",
+            "section": 1,
+            "branch": 0
+          },
+          "l:1:0:0": {
+            "kind": "leaf",
+            "section": 1,
+            "branch": 0,
+            "leaf": 0
+          },
+          "s:2": {
+            "kind": "spine",
+            "section": 2
+          },
+          "b:2:0": {
+            "kind": "branch",
+            "section": 2,
+            "branch": 0
+          },
+          "l:2:0:0": {
+            "kind": "leaf",
+            "section": 2,
+            "branch": 0,
+            "leaf": 0
+          },
+          "s:3": {
+            "kind": "spine",
+            "section": 3
+          },
+          "b:3:0": {
+            "kind": "branch",
+            "section": 3,
+            "branch": 0
+          },
+          "l:3:0:0": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 0
+          },
+          "l:3:0:1": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 1
+          },
+          "l:3:0:2": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 2
+          },
+          "s:4": {
+            "kind": "spine",
+            "section": 4
+          },
+          "s:5": {
+            "kind": "spine",
+            "section": 5
+          },
+          "s:6": {
+            "kind": "spine",
+            "section": 6
+          },
+          "s:7": {
+            "kind": "spine",
+            "section": 7
+          },
+          "s:8": {
+            "kind": "spine",
+            "section": 8
+          },
+          "s:9": {
+            "kind": "spine",
+            "section": 9
+          }
+        }
+      },
+      "original_graph_digest": "d7cac9ec1169ca40203c523e673ee945b06dfc77c577356e5d8b4a137430fa49",
+      "prefix_labels": {
+        "s:0": 18,
+        "s:1": 1,
+        "s:2": 15,
+        "s:3": 4,
+        "s:4": 14,
+        "b:0:0": 2,
+        "l:0:0:0": 17,
+        "b:1:0": 19,
+        "l:1:0:0": 0,
+        "b:2:0": 3,
+        "l:2:0:0": 16,
+        "b:3:0": 13,
+        "l:3:0:0": 5,
+        "l:3:0:1": 6,
+        "l:3:0:2": 7
+      },
+      "prefix_interface": {
+        "active_vertex": "s:4",
+        "active_label": 14,
+        "unused_labels": [
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "unused_differences": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "partial_certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 20,
+        "m": 19,
+        "graph_digest": "d7cac9ec1169ca40203c523e673ee945b06dfc77c577356e5d8b4a137430fa49",
+        "used_labels": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "used_differences": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "unused_labels": [
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "unused_differences": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "frontier": [
+          "s:4"
+        ],
+        "complete": false,
+        "claim": "partial assignment only; no completion or independent-supplier claim"
+      },
+      "adjacent_boundary_check": {
+        "valid": false,
+        "active_vertex": "s:4",
+        "active_label": 14,
+        "unused_labels": [
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "unused_differences": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "interval": [
+          8,
+          12
+        ],
+        "remaining_edges": 5,
+        "all_unfinished_incidence_at_port": true,
+        "supplier_status": "not_established_by_boundary_check",
+        "errors": [
+          "Not the declared interval/physical-port interface"
+        ]
+      },
+      "unfinished_edges": [
+        [
+          "s:4",
+          "s:5"
+        ],
+        [
+          "s:5",
+          "s:6"
+        ],
+        [
+          "s:6",
+          "s:7"
+        ],
+        [
+          "s:7",
+          "s:8"
+        ],
+        [
+          "s:8",
+          "s:9"
+        ]
+      ],
+      "crossing_edge": [
+        "s:4",
+        "s:5"
+      ],
+      "full_labels": {
+        "s:0": 18,
+        "s:1": 1,
+        "s:2": 15,
+        "s:3": 4,
+        "s:4": 14,
+        "b:0:0": 2,
+        "l:0:0:0": 17,
+        "b:1:0": 19,
+        "l:1:0:0": 0,
+        "b:2:0": 3,
+        "l:2:0:0": 16,
+        "b:3:0": 13,
+        "l:3:0:0": 5,
+        "l:3:0:1": 6,
+        "l:3:0:2": 7,
+        "s:5": 9,
+        "s:6": 12,
+        "s:7": 8,
+        "s:8": 10,
+        "s:9": 11
+      },
+      "tail_differences": [
+        5,
+        3,
+        4,
+        2,
+        1
+      ],
+      "alpha_low_class_size": null,
+      "independent_certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 20,
+        "m": 19,
+        "graph_digest": "d7cac9ec1169ca40203c523e673ee945b06dfc77c577356e5d8b4a137430fa49",
+        "edge_differences": [
+          17,
+          14,
+          11,
+          10,
+          5,
+          3,
+          4,
+          2,
+          1,
+          16,
+          15,
+          18,
+          19,
+          12,
+          13,
+          9,
+          8,
+          7,
+          6
+        ],
+        "claim": "finite certificate for this exact named target only"
+      }
+    },
+    {
+      "parameters": {
+        "t": 4,
+        "K": 6
+      },
+      "original_graph": {
+        "schema_version": 1,
+        "profile": [
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [
+            4
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "vertices": [
+          "s:0",
+          "b:0:0",
+          "l:0:0:0",
+          "s:1",
+          "b:1:0",
+          "l:1:0:0",
+          "s:2",
+          "b:2:0",
+          "l:2:0:0",
+          "s:3",
+          "b:3:0",
+          "l:3:0:0",
+          "l:3:0:1",
+          "l:3:0:2",
+          "l:3:0:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10"
+        ],
+        "edges": [
+          [
+            "s:0",
+            "s:1"
+          ],
+          [
+            "s:1",
+            "s:2"
+          ],
+          [
+            "s:2",
+            "s:3"
+          ],
+          [
+            "s:3",
+            "s:4"
+          ],
+          [
+            "s:4",
+            "s:5"
+          ],
+          [
+            "s:5",
+            "s:6"
+          ],
+          [
+            "s:6",
+            "s:7"
+          ],
+          [
+            "s:7",
+            "s:8"
+          ],
+          [
+            "s:8",
+            "s:9"
+          ],
+          [
+            "s:9",
+            "s:10"
+          ],
+          [
+            "s:0",
+            "b:0:0"
+          ],
+          [
+            "b:0:0",
+            "l:0:0:0"
+          ],
+          [
+            "s:1",
+            "b:1:0"
+          ],
+          [
+            "b:1:0",
+            "l:1:0:0"
+          ],
+          [
+            "s:2",
+            "b:2:0"
+          ],
+          [
+            "b:2:0",
+            "l:2:0:0"
+          ],
+          [
+            "s:3",
+            "b:3:0"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:0"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:1"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:2"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:3"
+          ]
+        ],
+        "spine": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10"
+        ],
+        "roles": {
+          "s:0": {
+            "kind": "spine",
+            "section": 0
+          },
+          "b:0:0": {
+            "kind": "branch",
+            "section": 0,
+            "branch": 0
+          },
+          "l:0:0:0": {
+            "kind": "leaf",
+            "section": 0,
+            "branch": 0,
+            "leaf": 0
+          },
+          "s:1": {
+            "kind": "spine",
+            "section": 1
+          },
+          "b:1:0": {
+            "kind": "branch",
+            "section": 1,
+            "branch": 0
+          },
+          "l:1:0:0": {
+            "kind": "leaf",
+            "section": 1,
+            "branch": 0,
+            "leaf": 0
+          },
+          "s:2": {
+            "kind": "spine",
+            "section": 2
+          },
+          "b:2:0": {
+            "kind": "branch",
+            "section": 2,
+            "branch": 0
+          },
+          "l:2:0:0": {
+            "kind": "leaf",
+            "section": 2,
+            "branch": 0,
+            "leaf": 0
+          },
+          "s:3": {
+            "kind": "spine",
+            "section": 3
+          },
+          "b:3:0": {
+            "kind": "branch",
+            "section": 3,
+            "branch": 0
+          },
+          "l:3:0:0": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 0
+          },
+          "l:3:0:1": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 1
+          },
+          "l:3:0:2": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 2
+          },
+          "l:3:0:3": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 3
+          },
+          "s:4": {
+            "kind": "spine",
+            "section": 4
+          },
+          "s:5": {
+            "kind": "spine",
+            "section": 5
+          },
+          "s:6": {
+            "kind": "spine",
+            "section": 6
+          },
+          "s:7": {
+            "kind": "spine",
+            "section": 7
+          },
+          "s:8": {
+            "kind": "spine",
+            "section": 8
+          },
+          "s:9": {
+            "kind": "spine",
+            "section": 9
+          },
+          "s:10": {
+            "kind": "spine",
+            "section": 10
+          }
+        }
+      },
+      "original_graph_digest": "84d66bd9a713794e06bda37bcb38826aed08d5293bfb2d3b6b2cef3ac872f1f3",
+      "prefix_labels": {
+        "s:0": 20,
+        "s:1": 1,
+        "s:2": 17,
+        "s:3": 4,
+        "s:4": 16,
+        "b:0:0": 2,
+        "l:0:0:0": 19,
+        "b:1:0": 21,
+        "l:1:0:0": 0,
+        "b:2:0": 3,
+        "l:2:0:0": 18,
+        "b:3:0": 15,
+        "l:3:0:0": 5,
+        "l:3:0:1": 6,
+        "l:3:0:2": 7,
+        "l:3:0:3": 8
+      },
+      "prefix_interface": {
+        "active_vertex": "s:4",
+        "active_label": 16,
+        "unused_labels": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "unused_differences": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "partial_certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 22,
+        "m": 21,
+        "graph_digest": "84d66bd9a713794e06bda37bcb38826aed08d5293bfb2d3b6b2cef3ac872f1f3",
+        "used_labels": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ],
+        "used_differences": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ],
+        "unused_labels": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "unused_differences": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "frontier": [
+          "s:4"
+        ],
+        "complete": false,
+        "claim": "partial assignment only; no completion or independent-supplier claim"
+      },
+      "adjacent_boundary_check": {
+        "valid": false,
+        "active_vertex": "s:4",
+        "active_label": 16,
+        "unused_labels": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "unused_differences": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "interval": [
+          9,
+          14
+        ],
+        "remaining_edges": 6,
+        "all_unfinished_incidence_at_port": true,
+        "supplier_status": "not_established_by_boundary_check",
+        "errors": [
+          "Not the declared interval/physical-port interface"
+        ]
+      },
+      "unfinished_edges": [
+        [
+          "s:4",
+          "s:5"
+        ],
+        [
+          "s:5",
+          "s:6"
+        ],
+        [
+          "s:6",
+          "s:7"
+        ],
+        [
+          "s:7",
+          "s:8"
+        ],
+        [
+          "s:8",
+          "s:9"
+        ],
+        [
+          "s:9",
+          "s:10"
+        ]
+      ],
+      "crossing_edge": [
+        "s:4",
+        "s:5"
+      ],
+      "full_labels": {
+        "s:0": 20,
+        "s:1": 1,
+        "s:2": 17,
+        "s:3": 4,
+        "s:4": 16,
+        "b:0:0": 2,
+        "l:0:0:0": 19,
+        "b:1:0": 21,
+        "l:1:0:0": 0,
+        "b:2:0": 3,
+        "l:2:0:0": 18,
+        "b:3:0": 15,
+        "l:3:0:0": 5,
+        "l:3:0:1": 6,
+        "l:3:0:2": 7,
+        "l:3:0:3": 8,
+        "s:5": 10,
+        "s:6": 14,
+        "s:7": 9,
+        "s:8": 12,
+        "s:9": 13,
+        "s:10": 11
+      },
+      "tail_differences": [
+        6,
+        4,
+        5,
+        3,
+        1,
+        2
+      ],
+      "alpha_low_class_size": null,
+      "independent_certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 22,
+        "m": 21,
+        "graph_digest": "84d66bd9a713794e06bda37bcb38826aed08d5293bfb2d3b6b2cef3ac872f1f3",
+        "edge_differences": [
+          19,
+          16,
+          13,
+          12,
+          6,
+          4,
+          5,
+          3,
+          1,
+          2,
+          18,
+          17,
+          20,
+          21,
+          14,
+          15,
+          11,
+          10,
+          9,
+          8,
+          7
+        ],
+        "claim": "finite certificate for this exact named target only"
+      }
+    },
+    {
+      "parameters": {
+        "t": 5,
+        "K": 7
+      },
+      "original_graph": {
+        "schema_version": 1,
+        "profile": [
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [
+            5
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "vertices": [
+          "s:0",
+          "b:0:0",
+          "l:0:0:0",
+          "s:1",
+          "b:1:0",
+          "l:1:0:0",
+          "s:2",
+          "b:2:0",
+          "l:2:0:0",
+          "s:3",
+          "b:3:0",
+          "l:3:0:0",
+          "l:3:0:1",
+          "l:3:0:2",
+          "l:3:0:3",
+          "l:3:0:4",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11"
+        ],
+        "edges": [
+          [
+            "s:0",
+            "s:1"
+          ],
+          [
+            "s:1",
+            "s:2"
+          ],
+          [
+            "s:2",
+            "s:3"
+          ],
+          [
+            "s:3",
+            "s:4"
+          ],
+          [
+            "s:4",
+            "s:5"
+          ],
+          [
+            "s:5",
+            "s:6"
+          ],
+          [
+            "s:6",
+            "s:7"
+          ],
+          [
+            "s:7",
+            "s:8"
+          ],
+          [
+            "s:8",
+            "s:9"
+          ],
+          [
+            "s:9",
+            "s:10"
+          ],
+          [
+            "s:10",
+            "s:11"
+          ],
+          [
+            "s:0",
+            "b:0:0"
+          ],
+          [
+            "b:0:0",
+            "l:0:0:0"
+          ],
+          [
+            "s:1",
+            "b:1:0"
+          ],
+          [
+            "b:1:0",
+            "l:1:0:0"
+          ],
+          [
+            "s:2",
+            "b:2:0"
+          ],
+          [
+            "b:2:0",
+            "l:2:0:0"
+          ],
+          [
+            "s:3",
+            "b:3:0"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:0"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:1"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:2"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:3"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:4"
+          ]
+        ],
+        "spine": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11"
+        ],
+        "roles": {
+          "s:0": {
+            "kind": "spine",
+            "section": 0
+          },
+          "b:0:0": {
+            "kind": "branch",
+            "section": 0,
+            "branch": 0
+          },
+          "l:0:0:0": {
+            "kind": "leaf",
+            "section": 0,
+            "branch": 0,
+            "leaf": 0
+          },
+          "s:1": {
+            "kind": "spine",
+            "section": 1
+          },
+          "b:1:0": {
+            "kind": "branch",
+            "section": 1,
+            "branch": 0
+          },
+          "l:1:0:0": {
+            "kind": "leaf",
+            "section": 1,
+            "branch": 0,
+            "leaf": 0
+          },
+          "s:2": {
+            "kind": "spine",
+            "section": 2
+          },
+          "b:2:0": {
+            "kind": "branch",
+            "section": 2,
+            "branch": 0
+          },
+          "l:2:0:0": {
+            "kind": "leaf",
+            "section": 2,
+            "branch": 0,
+            "leaf": 0
+          },
+          "s:3": {
+            "kind": "spine",
+            "section": 3
+          },
+          "b:3:0": {
+            "kind": "branch",
+            "section": 3,
+            "branch": 0
+          },
+          "l:3:0:0": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 0
+          },
+          "l:3:0:1": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 1
+          },
+          "l:3:0:2": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 2
+          },
+          "l:3:0:3": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 3
+          },
+          "l:3:0:4": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 4
+          },
+          "s:4": {
+            "kind": "spine",
+            "section": 4
+          },
+          "s:5": {
+            "kind": "spine",
+            "section": 5
+          },
+          "s:6": {
+            "kind": "spine",
+            "section": 6
+          },
+          "s:7": {
+            "kind": "spine",
+            "section": 7
+          },
+          "s:8": {
+            "kind": "spine",
+            "section": 8
+          },
+          "s:9": {
+            "kind": "spine",
+            "section": 9
+          },
+          "s:10": {
+            "kind": "spine",
+            "section": 10
+          },
+          "s:11": {
+            "kind": "spine",
+            "section": 11
+          }
+        }
+      },
+      "original_graph_digest": "8003e0a643077a967f69981b7870bba922c53d00103e0892bb9942b55af2d27c",
+      "prefix_labels": {
+        "s:0": 22,
+        "s:1": 1,
+        "s:2": 19,
+        "s:3": 4,
+        "s:4": 18,
+        "b:0:0": 2,
+        "l:0:0:0": 21,
+        "b:1:0": 23,
+        "l:1:0:0": 0,
+        "b:2:0": 3,
+        "l:2:0:0": 20,
+        "b:3:0": 17,
+        "l:3:0:0": 5,
+        "l:3:0:1": 6,
+        "l:3:0:2": 7,
+        "l:3:0:3": 8,
+        "l:3:0:4": 9
+      },
+      "prefix_interface": {
+        "active_vertex": "s:4",
+        "active_label": 18,
+        "unused_labels": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "unused_differences": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "partial_certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 24,
+        "m": 23,
+        "graph_digest": "8003e0a643077a967f69981b7870bba922c53d00103e0892bb9942b55af2d27c",
+        "used_labels": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ],
+        "used_differences": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ],
+        "unused_labels": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "unused_differences": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "frontier": [
+          "s:4"
+        ],
+        "complete": false,
+        "claim": "partial assignment only; no completion or independent-supplier claim"
+      },
+      "adjacent_boundary_check": {
+        "valid": false,
+        "active_vertex": "s:4",
+        "active_label": 18,
+        "unused_labels": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "unused_differences": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "interval": [
+          10,
+          16
+        ],
+        "remaining_edges": 7,
+        "all_unfinished_incidence_at_port": true,
+        "supplier_status": "not_established_by_boundary_check",
+        "errors": [
+          "Not the declared interval/physical-port interface"
+        ]
+      },
+      "unfinished_edges": [
+        [
+          "s:4",
+          "s:5"
+        ],
+        [
+          "s:5",
+          "s:6"
+        ],
+        [
+          "s:6",
+          "s:7"
+        ],
+        [
+          "s:7",
+          "s:8"
+        ],
+        [
+          "s:8",
+          "s:9"
+        ],
+        [
+          "s:9",
+          "s:10"
+        ],
+        [
+          "s:10",
+          "s:11"
+        ]
+      ],
+      "crossing_edge": [
+        "s:4",
+        "s:5"
+      ],
+      "full_labels": {
+        "s:0": 22,
+        "s:1": 1,
+        "s:2": 19,
+        "s:3": 4,
+        "s:4": 18,
+        "b:0:0": 2,
+        "l:0:0:0": 21,
+        "b:1:0": 23,
+        "l:1:0:0": 0,
+        "b:2:0": 3,
+        "l:2:0:0": 20,
+        "b:3:0": 17,
+        "l:3:0:0": 5,
+        "l:3:0:1": 6,
+        "l:3:0:2": 7,
+        "l:3:0:3": 8,
+        "l:3:0:4": 9,
+        "s:5": 11,
+        "s:6": 16,
+        "s:7": 10,
+        "s:8": 14,
+        "s:9": 13,
+        "s:10": 15,
+        "s:11": 12
+      },
+      "tail_differences": [
+        7,
+        5,
+        6,
+        4,
+        1,
+        2,
+        3
+      ],
+      "alpha_low_class_size": null,
+      "independent_certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 24,
+        "m": 23,
+        "graph_digest": "8003e0a643077a967f69981b7870bba922c53d00103e0892bb9942b55af2d27c",
+        "edge_differences": [
+          21,
+          18,
+          15,
+          14,
+          7,
+          5,
+          6,
+          4,
+          1,
+          2,
+          3,
+          20,
+          19,
+          22,
+          23,
+          16,
+          17,
+          13,
+          12,
+          11,
+          10,
+          9,
+          8
+        ],
+        "claim": "finite certificate for this exact named target only"
+      }
+    },
+    {
+      "parameters": {
+        "t": 8,
+        "K": 8
+      },
+      "original_graph": {
+        "schema_version": 1,
+        "profile": [
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [
+            8
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "vertices": [
+          "s:0",
+          "b:0:0",
+          "l:0:0:0",
+          "s:1",
+          "b:1:0",
+          "l:1:0:0",
+          "s:2",
+          "b:2:0",
+          "l:2:0:0",
+          "s:3",
+          "b:3:0",
+          "l:3:0:0",
+          "l:3:0:1",
+          "l:3:0:2",
+          "l:3:0:3",
+          "l:3:0:4",
+          "l:3:0:5",
+          "l:3:0:6",
+          "l:3:0:7",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11",
+          "s:12"
+        ],
+        "edges": [
+          [
+            "s:0",
+            "s:1"
+          ],
+          [
+            "s:1",
+            "s:2"
+          ],
+          [
+            "s:2",
+            "s:3"
+          ],
+          [
+            "s:3",
+            "s:4"
+          ],
+          [
+            "s:4",
+            "s:5"
+          ],
+          [
+            "s:5",
+            "s:6"
+          ],
+          [
+            "s:6",
+            "s:7"
+          ],
+          [
+            "s:7",
+            "s:8"
+          ],
+          [
+            "s:8",
+            "s:9"
+          ],
+          [
+            "s:9",
+            "s:10"
+          ],
+          [
+            "s:10",
+            "s:11"
+          ],
+          [
+            "s:11",
+            "s:12"
+          ],
+          [
+            "s:0",
+            "b:0:0"
+          ],
+          [
+            "b:0:0",
+            "l:0:0:0"
+          ],
+          [
+            "s:1",
+            "b:1:0"
+          ],
+          [
+            "b:1:0",
+            "l:1:0:0"
+          ],
+          [
+            "s:2",
+            "b:2:0"
+          ],
+          [
+            "b:2:0",
+            "l:2:0:0"
+          ],
+          [
+            "s:3",
+            "b:3:0"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:0"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:1"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:2"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:3"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:4"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:5"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:6"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:7"
+          ]
+        ],
+        "spine": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11",
+          "s:12"
+        ],
+        "roles": {
+          "s:0": {
+            "kind": "spine",
+            "section": 0
+          },
+          "b:0:0": {
+            "kind": "branch",
+            "section": 0,
+            "branch": 0
+          },
+          "l:0:0:0": {
+            "kind": "leaf",
+            "section": 0,
+            "branch": 0,
+            "leaf": 0
+          },
+          "s:1": {
+            "kind": "spine",
+            "section": 1
+          },
+          "b:1:0": {
+            "kind": "branch",
+            "section": 1,
+            "branch": 0
+          },
+          "l:1:0:0": {
+            "kind": "leaf",
+            "section": 1,
+            "branch": 0,
+            "leaf": 0
+          },
+          "s:2": {
+            "kind": "spine",
+            "section": 2
+          },
+          "b:2:0": {
+            "kind": "branch",
+            "section": 2,
+            "branch": 0
+          },
+          "l:2:0:0": {
+            "kind": "leaf",
+            "section": 2,
+            "branch": 0,
+            "leaf": 0
+          },
+          "s:3": {
+            "kind": "spine",
+            "section": 3
+          },
+          "b:3:0": {
+            "kind": "branch",
+            "section": 3,
+            "branch": 0
+          },
+          "l:3:0:0": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 0
+          },
+          "l:3:0:1": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 1
+          },
+          "l:3:0:2": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 2
+          },
+          "l:3:0:3": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 3
+          },
+          "l:3:0:4": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 4
+          },
+          "l:3:0:5": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 5
+          },
+          "l:3:0:6": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 6
+          },
+          "l:3:0:7": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 7
+          },
+          "s:4": {
+            "kind": "spine",
+            "section": 4
+          },
+          "s:5": {
+            "kind": "spine",
+            "section": 5
+          },
+          "s:6": {
+            "kind": "spine",
+            "section": 6
+          },
+          "s:7": {
+            "kind": "spine",
+            "section": 7
+          },
+          "s:8": {
+            "kind": "spine",
+            "section": 8
+          },
+          "s:9": {
+            "kind": "spine",
+            "section": 9
+          },
+          "s:10": {
+            "kind": "spine",
+            "section": 10
+          },
+          "s:11": {
+            "kind": "spine",
+            "section": 11
+          },
+          "s:12": {
+            "kind": "spine",
+            "section": 12
+          }
+        }
+      },
+      "original_graph_digest": "753516ee140d8c9dc9998f7fdeccd066dcf9b8452a2db89c6a9fa1e94c705452",
+      "prefix_labels": {
+        "s:0": 26,
+        "s:1": 1,
+        "s:2": 23,
+        "s:3": 4,
+        "s:4": 22,
+        "b:0:0": 2,
+        "l:0:0:0": 25,
+        "b:1:0": 27,
+        "l:1:0:0": 0,
+        "b:2:0": 3,
+        "l:2:0:0": 24,
+        "b:3:0": 21,
+        "l:3:0:0": 5,
+        "l:3:0:1": 6,
+        "l:3:0:2": 7,
+        "l:3:0:3": 8,
+        "l:3:0:4": 9,
+        "l:3:0:5": 10,
+        "l:3:0:6": 11,
+        "l:3:0:7": 12
+      },
+      "prefix_interface": {
+        "active_vertex": "s:4",
+        "active_label": 22,
+        "unused_labels": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "unused_differences": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "partial_certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 28,
+        "m": 27,
+        "graph_digest": "753516ee140d8c9dc9998f7fdeccd066dcf9b8452a2db89c6a9fa1e94c705452",
+        "used_labels": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27
+        ],
+        "used_differences": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27
+        ],
+        "unused_labels": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "unused_differences": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "frontier": [
+          "s:4"
+        ],
+        "complete": false,
+        "claim": "partial assignment only; no completion or independent-supplier claim"
+      },
+      "adjacent_boundary_check": {
+        "valid": false,
+        "active_vertex": "s:4",
+        "active_label": 22,
+        "unused_labels": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "unused_differences": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "interval": [
+          13,
+          20
+        ],
+        "remaining_edges": 8,
+        "all_unfinished_incidence_at_port": true,
+        "supplier_status": "not_established_by_boundary_check",
+        "errors": [
+          "Not the declared interval/physical-port interface"
+        ]
+      },
+      "unfinished_edges": [
+        [
+          "s:4",
+          "s:5"
+        ],
+        [
+          "s:5",
+          "s:6"
+        ],
+        [
+          "s:6",
+          "s:7"
+        ],
+        [
+          "s:7",
+          "s:8"
+        ],
+        [
+          "s:8",
+          "s:9"
+        ],
+        [
+          "s:9",
+          "s:10"
+        ],
+        [
+          "s:10",
+          "s:11"
+        ],
+        [
+          "s:11",
+          "s:12"
+        ]
+      ],
+      "crossing_edge": [
+        "s:4",
+        "s:5"
+      ],
+      "full_labels": {
+        "s:0": 26,
+        "s:1": 1,
+        "s:2": 23,
+        "s:3": 4,
+        "s:4": 22,
+        "b:0:0": 2,
+        "l:0:0:0": 25,
+        "b:1:0": 27,
+        "l:1:0:0": 0,
+        "b:2:0": 3,
+        "l:2:0:0": 24,
+        "b:3:0": 21,
+        "l:3:0:0": 5,
+        "l:3:0:1": 6,
+        "l:3:0:2": 7,
+        "l:3:0:3": 8,
+        "l:3:0:4": 9,
+        "l:3:0:5": 10,
+        "l:3:0:6": 11,
+        "l:3:0:7": 12,
+        "s:5": 14,
+        "s:6": 20,
+        "s:7": 13,
+        "s:8": 18,
+        "s:9": 15,
+        "s:10": 19,
+        "s:11": 17,
+        "s:12": 16
+      },
+      "tail_differences": [
+        8,
+        6,
+        7,
+        5,
+        3,
+        4,
+        2,
+        1
+      ],
+      "alpha_low_class_size": null,
+      "independent_certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 28,
+        "m": 27,
+        "graph_digest": "753516ee140d8c9dc9998f7fdeccd066dcf9b8452a2db89c6a9fa1e94c705452",
+        "edge_differences": [
+          25,
+          22,
+          19,
+          18,
+          8,
+          6,
+          7,
+          5,
+          3,
+          4,
+          2,
+          1,
+          24,
+          23,
+          26,
+          27,
+          20,
+          21,
+          17,
+          16,
+          15,
+          14,
+          13,
+          12,
+          11,
+          10,
+          9
+        ],
+        "claim": "finite certificate for this exact named target only"
+      }
+    },
+    {
+      "parameters": {
+        "t": 31,
+        "K": 32
+      },
+      "original_graph": {
+        "schema_version": 1,
+        "profile": [
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [
+            31
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "vertices": [
+          "s:0",
+          "b:0:0",
+          "l:0:0:0",
+          "s:1",
+          "b:1:0",
+          "l:1:0:0",
+          "s:2",
+          "b:2:0",
+          "l:2:0:0",
+          "s:3",
+          "b:3:0",
+          "l:3:0:0",
+          "l:3:0:1",
+          "l:3:0:2",
+          "l:3:0:3",
+          "l:3:0:4",
+          "l:3:0:5",
+          "l:3:0:6",
+          "l:3:0:7",
+          "l:3:0:8",
+          "l:3:0:9",
+          "l:3:0:10",
+          "l:3:0:11",
+          "l:3:0:12",
+          "l:3:0:13",
+          "l:3:0:14",
+          "l:3:0:15",
+          "l:3:0:16",
+          "l:3:0:17",
+          "l:3:0:18",
+          "l:3:0:19",
+          "l:3:0:20",
+          "l:3:0:21",
+          "l:3:0:22",
+          "l:3:0:23",
+          "l:3:0:24",
+          "l:3:0:25",
+          "l:3:0:26",
+          "l:3:0:27",
+          "l:3:0:28",
+          "l:3:0:29",
+          "l:3:0:30",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11",
+          "s:12",
+          "s:13",
+          "s:14",
+          "s:15",
+          "s:16",
+          "s:17",
+          "s:18",
+          "s:19",
+          "s:20",
+          "s:21",
+          "s:22",
+          "s:23",
+          "s:24",
+          "s:25",
+          "s:26",
+          "s:27",
+          "s:28",
+          "s:29",
+          "s:30",
+          "s:31",
+          "s:32",
+          "s:33",
+          "s:34",
+          "s:35",
+          "s:36"
+        ],
+        "edges": [
+          [
+            "s:0",
+            "s:1"
+          ],
+          [
+            "s:1",
+            "s:2"
+          ],
+          [
+            "s:2",
+            "s:3"
+          ],
+          [
+            "s:3",
+            "s:4"
+          ],
+          [
+            "s:4",
+            "s:5"
+          ],
+          [
+            "s:5",
+            "s:6"
+          ],
+          [
+            "s:6",
+            "s:7"
+          ],
+          [
+            "s:7",
+            "s:8"
+          ],
+          [
+            "s:8",
+            "s:9"
+          ],
+          [
+            "s:9",
+            "s:10"
+          ],
+          [
+            "s:10",
+            "s:11"
+          ],
+          [
+            "s:11",
+            "s:12"
+          ],
+          [
+            "s:12",
+            "s:13"
+          ],
+          [
+            "s:13",
+            "s:14"
+          ],
+          [
+            "s:14",
+            "s:15"
+          ],
+          [
+            "s:15",
+            "s:16"
+          ],
+          [
+            "s:16",
+            "s:17"
+          ],
+          [
+            "s:17",
+            "s:18"
+          ],
+          [
+            "s:18",
+            "s:19"
+          ],
+          [
+            "s:19",
+            "s:20"
+          ],
+          [
+            "s:20",
+            "s:21"
+          ],
+          [
+            "s:21",
+            "s:22"
+          ],
+          [
+            "s:22",
+            "s:23"
+          ],
+          [
+            "s:23",
+            "s:24"
+          ],
+          [
+            "s:24",
+            "s:25"
+          ],
+          [
+            "s:25",
+            "s:26"
+          ],
+          [
+            "s:26",
+            "s:27"
+          ],
+          [
+            "s:27",
+            "s:28"
+          ],
+          [
+            "s:28",
+            "s:29"
+          ],
+          [
+            "s:29",
+            "s:30"
+          ],
+          [
+            "s:30",
+            "s:31"
+          ],
+          [
+            "s:31",
+            "s:32"
+          ],
+          [
+            "s:32",
+            "s:33"
+          ],
+          [
+            "s:33",
+            "s:34"
+          ],
+          [
+            "s:34",
+            "s:35"
+          ],
+          [
+            "s:35",
+            "s:36"
+          ],
+          [
+            "s:0",
+            "b:0:0"
+          ],
+          [
+            "b:0:0",
+            "l:0:0:0"
+          ],
+          [
+            "s:1",
+            "b:1:0"
+          ],
+          [
+            "b:1:0",
+            "l:1:0:0"
+          ],
+          [
+            "s:2",
+            "b:2:0"
+          ],
+          [
+            "b:2:0",
+            "l:2:0:0"
+          ],
+          [
+            "s:3",
+            "b:3:0"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:0"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:1"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:2"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:3"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:4"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:5"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:6"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:7"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:8"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:9"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:10"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:11"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:12"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:13"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:14"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:15"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:16"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:17"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:18"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:19"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:20"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:21"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:22"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:23"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:24"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:25"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:26"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:27"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:28"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:29"
+          ],
+          [
+            "b:3:0",
+            "l:3:0:30"
+          ]
+        ],
+        "spine": [
+          "s:0",
+          "s:1",
+          "s:2",
+          "s:3",
+          "s:4",
+          "s:5",
+          "s:6",
+          "s:7",
+          "s:8",
+          "s:9",
+          "s:10",
+          "s:11",
+          "s:12",
+          "s:13",
+          "s:14",
+          "s:15",
+          "s:16",
+          "s:17",
+          "s:18",
+          "s:19",
+          "s:20",
+          "s:21",
+          "s:22",
+          "s:23",
+          "s:24",
+          "s:25",
+          "s:26",
+          "s:27",
+          "s:28",
+          "s:29",
+          "s:30",
+          "s:31",
+          "s:32",
+          "s:33",
+          "s:34",
+          "s:35",
+          "s:36"
+        ],
+        "roles": {
+          "s:0": {
+            "kind": "spine",
+            "section": 0
+          },
+          "b:0:0": {
+            "kind": "branch",
+            "section": 0,
+            "branch": 0
+          },
+          "l:0:0:0": {
+            "kind": "leaf",
+            "section": 0,
+            "branch": 0,
+            "leaf": 0
+          },
+          "s:1": {
+            "kind": "spine",
+            "section": 1
+          },
+          "b:1:0": {
+            "kind": "branch",
+            "section": 1,
+            "branch": 0
+          },
+          "l:1:0:0": {
+            "kind": "leaf",
+            "section": 1,
+            "branch": 0,
+            "leaf": 0
+          },
+          "s:2": {
+            "kind": "spine",
+            "section": 2
+          },
+          "b:2:0": {
+            "kind": "branch",
+            "section": 2,
+            "branch": 0
+          },
+          "l:2:0:0": {
+            "kind": "leaf",
+            "section": 2,
+            "branch": 0,
+            "leaf": 0
+          },
+          "s:3": {
+            "kind": "spine",
+            "section": 3
+          },
+          "b:3:0": {
+            "kind": "branch",
+            "section": 3,
+            "branch": 0
+          },
+          "l:3:0:0": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 0
+          },
+          "l:3:0:1": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 1
+          },
+          "l:3:0:2": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 2
+          },
+          "l:3:0:3": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 3
+          },
+          "l:3:0:4": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 4
+          },
+          "l:3:0:5": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 5
+          },
+          "l:3:0:6": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 6
+          },
+          "l:3:0:7": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 7
+          },
+          "l:3:0:8": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 8
+          },
+          "l:3:0:9": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 9
+          },
+          "l:3:0:10": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 10
+          },
+          "l:3:0:11": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 11
+          },
+          "l:3:0:12": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 12
+          },
+          "l:3:0:13": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 13
+          },
+          "l:3:0:14": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 14
+          },
+          "l:3:0:15": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 15
+          },
+          "l:3:0:16": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 16
+          },
+          "l:3:0:17": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 17
+          },
+          "l:3:0:18": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 18
+          },
+          "l:3:0:19": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 19
+          },
+          "l:3:0:20": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 20
+          },
+          "l:3:0:21": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 21
+          },
+          "l:3:0:22": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 22
+          },
+          "l:3:0:23": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 23
+          },
+          "l:3:0:24": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 24
+          },
+          "l:3:0:25": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 25
+          },
+          "l:3:0:26": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 26
+          },
+          "l:3:0:27": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 27
+          },
+          "l:3:0:28": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 28
+          },
+          "l:3:0:29": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 29
+          },
+          "l:3:0:30": {
+            "kind": "leaf",
+            "section": 3,
+            "branch": 0,
+            "leaf": 30
+          },
+          "s:4": {
+            "kind": "spine",
+            "section": 4
+          },
+          "s:5": {
+            "kind": "spine",
+            "section": 5
+          },
+          "s:6": {
+            "kind": "spine",
+            "section": 6
+          },
+          "s:7": {
+            "kind": "spine",
+            "section": 7
+          },
+          "s:8": {
+            "kind": "spine",
+            "section": 8
+          },
+          "s:9": {
+            "kind": "spine",
+            "section": 9
+          },
+          "s:10": {
+            "kind": "spine",
+            "section": 10
+          },
+          "s:11": {
+            "kind": "spine",
+            "section": 11
+          },
+          "s:12": {
+            "kind": "spine",
+            "section": 12
+          },
+          "s:13": {
+            "kind": "spine",
+            "section": 13
+          },
+          "s:14": {
+            "kind": "spine",
+            "section": 14
+          },
+          "s:15": {
+            "kind": "spine",
+            "section": 15
+          },
+          "s:16": {
+            "kind": "spine",
+            "section": 16
+          },
+          "s:17": {
+            "kind": "spine",
+            "section": 17
+          },
+          "s:18": {
+            "kind": "spine",
+            "section": 18
+          },
+          "s:19": {
+            "kind": "spine",
+            "section": 19
+          },
+          "s:20": {
+            "kind": "spine",
+            "section": 20
+          },
+          "s:21": {
+            "kind": "spine",
+            "section": 21
+          },
+          "s:22": {
+            "kind": "spine",
+            "section": 22
+          },
+          "s:23": {
+            "kind": "spine",
+            "section": 23
+          },
+          "s:24": {
+            "kind": "spine",
+            "section": 24
+          },
+          "s:25": {
+            "kind": "spine",
+            "section": 25
+          },
+          "s:26": {
+            "kind": "spine",
+            "section": 26
+          },
+          "s:27": {
+            "kind": "spine",
+            "section": 27
+          },
+          "s:28": {
+            "kind": "spine",
+            "section": 28
+          },
+          "s:29": {
+            "kind": "spine",
+            "section": 29
+          },
+          "s:30": {
+            "kind": "spine",
+            "section": 30
+          },
+          "s:31": {
+            "kind": "spine",
+            "section": 31
+          },
+          "s:32": {
+            "kind": "spine",
+            "section": 32
+          },
+          "s:33": {
+            "kind": "spine",
+            "section": 33
+          },
+          "s:34": {
+            "kind": "spine",
+            "section": 34
+          },
+          "s:35": {
+            "kind": "spine",
+            "section": 35
+          },
+          "s:36": {
+            "kind": "spine",
+            "section": 36
+          }
+        }
+      },
+      "original_graph_digest": "2b84377218931bda7f535cb6f81c8585ee8e2e821460df56439a0cfa2c8832d6",
+      "prefix_labels": {
+        "s:0": 73,
+        "s:1": 1,
+        "s:2": 70,
+        "s:3": 4,
+        "s:4": 69,
+        "b:0:0": 2,
+        "l:0:0:0": 72,
+        "b:1:0": 74,
+        "l:1:0:0": 0,
+        "b:2:0": 3,
+        "l:2:0:0": 71,
+        "b:3:0": 68,
+        "l:3:0:0": 5,
+        "l:3:0:1": 6,
+        "l:3:0:2": 7,
+        "l:3:0:3": 8,
+        "l:3:0:4": 9,
+        "l:3:0:5": 10,
+        "l:3:0:6": 11,
+        "l:3:0:7": 12,
+        "l:3:0:8": 13,
+        "l:3:0:9": 14,
+        "l:3:0:10": 15,
+        "l:3:0:11": 16,
+        "l:3:0:12": 17,
+        "l:3:0:13": 18,
+        "l:3:0:14": 19,
+        "l:3:0:15": 20,
+        "l:3:0:16": 21,
+        "l:3:0:17": 22,
+        "l:3:0:18": 23,
+        "l:3:0:19": 24,
+        "l:3:0:20": 25,
+        "l:3:0:21": 26,
+        "l:3:0:22": 27,
+        "l:3:0:23": 28,
+        "l:3:0:24": 29,
+        "l:3:0:25": 30,
+        "l:3:0:26": 31,
+        "l:3:0:27": 32,
+        "l:3:0:28": 33,
+        "l:3:0:29": 34,
+        "l:3:0:30": 35
+      },
+      "prefix_interface": {
+        "active_vertex": "s:4",
+        "active_label": 69,
+        "unused_labels": [
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67
+        ],
+        "unused_differences": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32
+        ]
+      },
+      "partial_certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 75,
+        "m": 74,
+        "graph_digest": "2b84377218931bda7f535cb6f81c8585ee8e2e821460df56439a0cfa2c8832d6",
+        "used_labels": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74
+        ],
+        "used_differences": [
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74
+        ],
+        "unused_labels": [
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67
+        ],
+        "unused_differences": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32
+        ],
+        "frontier": [
+          "s:4"
+        ],
+        "complete": false,
+        "claim": "partial assignment only; no completion or independent-supplier claim"
+      },
+      "adjacent_boundary_check": {
+        "valid": false,
+        "active_vertex": "s:4",
+        "active_label": 69,
+        "unused_labels": [
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67
+        ],
+        "unused_differences": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32
+        ],
+        "interval": [
+          36,
+          67
+        ],
+        "remaining_edges": 32,
+        "all_unfinished_incidence_at_port": true,
+        "supplier_status": "not_established_by_boundary_check",
+        "errors": [
+          "Not the declared interval/physical-port interface"
+        ]
+      },
+      "unfinished_edges": [
+        [
+          "s:4",
+          "s:5"
+        ],
+        [
+          "s:5",
+          "s:6"
+        ],
+        [
+          "s:6",
+          "s:7"
+        ],
+        [
+          "s:7",
+          "s:8"
+        ],
+        [
+          "s:8",
+          "s:9"
+        ],
+        [
+          "s:9",
+          "s:10"
+        ],
+        [
+          "s:10",
+          "s:11"
+        ],
+        [
+          "s:11",
+          "s:12"
+        ],
+        [
+          "s:12",
+          "s:13"
+        ],
+        [
+          "s:13",
+          "s:14"
+        ],
+        [
+          "s:14",
+          "s:15"
+        ],
+        [
+          "s:15",
+          "s:16"
+        ],
+        [
+          "s:16",
+          "s:17"
+        ],
+        [
+          "s:17",
+          "s:18"
+        ],
+        [
+          "s:18",
+          "s:19"
+        ],
+        [
+          "s:19",
+          "s:20"
+        ],
+        [
+          "s:20",
+          "s:21"
+        ],
+        [
+          "s:21",
+          "s:22"
+        ],
+        [
+          "s:22",
+          "s:23"
+        ],
+        [
+          "s:23",
+          "s:24"
+        ],
+        [
+          "s:24",
+          "s:25"
+        ],
+        [
+          "s:25",
+          "s:26"
+        ],
+        [
+          "s:26",
+          "s:27"
+        ],
+        [
+          "s:27",
+          "s:28"
+        ],
+        [
+          "s:28",
+          "s:29"
+        ],
+        [
+          "s:29",
+          "s:30"
+        ],
+        [
+          "s:30",
+          "s:31"
+        ],
+        [
+          "s:31",
+          "s:32"
+        ],
+        [
+          "s:32",
+          "s:33"
+        ],
+        [
+          "s:33",
+          "s:34"
+        ],
+        [
+          "s:34",
+          "s:35"
+        ],
+        [
+          "s:35",
+          "s:36"
+        ]
+      ],
+      "crossing_edge": [
+        "s:4",
+        "s:5"
+      ],
+      "full_labels": {
+        "s:0": 73,
+        "s:1": 1,
+        "s:2": 70,
+        "s:3": 4,
+        "s:4": 69,
+        "b:0:0": 2,
+        "l:0:0:0": 72,
+        "b:1:0": 74,
+        "l:1:0:0": 0,
+        "b:2:0": 3,
+        "l:2:0:0": 71,
+        "b:3:0": 68,
+        "l:3:0:0": 5,
+        "l:3:0:1": 6,
+        "l:3:0:2": 7,
+        "l:3:0:3": 8,
+        "l:3:0:4": 9,
+        "l:3:0:5": 10,
+        "l:3:0:6": 11,
+        "l:3:0:7": 12,
+        "l:3:0:8": 13,
+        "l:3:0:9": 14,
+        "l:3:0:10": 15,
+        "l:3:0:11": 16,
+        "l:3:0:12": 17,
+        "l:3:0:13": 18,
+        "l:3:0:14": 19,
+        "l:3:0:15": 20,
+        "l:3:0:16": 21,
+        "l:3:0:17": 22,
+        "l:3:0:18": 23,
+        "l:3:0:19": 24,
+        "l:3:0:20": 25,
+        "l:3:0:21": 26,
+        "l:3:0:22": 27,
+        "l:3:0:23": 28,
+        "l:3:0:24": 29,
+        "l:3:0:25": 30,
+        "l:3:0:26": 31,
+        "l:3:0:27": 32,
+        "l:3:0:28": 33,
+        "l:3:0:29": 34,
+        "l:3:0:30": 35,
+        "s:5": 37,
+        "s:6": 67,
+        "s:7": 36,
+        "s:8": 65,
+        "s:9": 38,
+        "s:10": 66,
+        "s:11": 40,
+        "s:12": 64,
+        "s:13": 39,
+        "s:14": 62,
+        "s:15": 41,
+        "s:16": 63,
+        "s:17": 43,
+        "s:18": 61,
+        "s:19": 42,
+        "s:20": 59,
+        "s:21": 44,
+        "s:22": 60,
+        "s:23": 46,
+        "s:24": 58,
+        "s:25": 45,
+        "s:26": 56,
+        "s:27": 47,
+        "s:28": 57,
+        "s:29": 49,
+        "s:30": 55,
+        "s:31": 48,
+        "s:32": 53,
+        "s:33": 50,
+        "s:34": 54,
+        "s:35": 52,
+        "s:36": 51
+      },
+      "tail_differences": [
+        32,
+        30,
+        31,
+        29,
+        27,
+        28,
+        26,
+        24,
+        25,
+        23,
+        21,
+        22,
+        20,
+        18,
+        19,
+        17,
+        15,
+        16,
+        14,
+        12,
+        13,
+        11,
+        9,
+        10,
+        8,
+        6,
+        7,
+        5,
+        3,
+        4,
+        2,
+        1
+      ],
+      "alpha_low_class_size": null,
+      "independent_certificate": {
+        "valid": true,
+        "errors": [],
+        "n": 75,
+        "m": 74,
+        "graph_digest": "2b84377218931bda7f535cb6f81c8585ee8e2e821460df56439a0cfa2c8832d6",
+        "edge_differences": [
+          72,
+          69,
+          66,
+          65,
+          32,
+          30,
+          31,
+          29,
+          27,
+          28,
+          26,
+          24,
+          25,
+          23,
+          21,
+          22,
+          20,
+          18,
+          19,
+          17,
+          15,
+          16,
+          14,
+          12,
+          13,
+          11,
+          9,
+          10,
+          8,
+          6,
+          7,
+          5,
+          3,
+          4,
+          2,
+          1,
+          71,
+          70,
+          73,
+          74,
+          67,
+          68,
+          64,
+          63,
+          62,
+          61,
+          60,
+          59,
+          58,
+          57,
+          56,
+          55,
+          54,
+          53,
+          52,
+          51,
+          50,
+          49,
+          48,
+          47,
+          46,
+          45,
+          44,
+          43,
+          42,
+          41,
+          40,
+          39,
+          38,
+          37,
+          36,
+          35,
+          34,
+          33
+        ],
+        "claim": "finite certificate for this exact named target only"
+      }
+    }
+  ],
+  "elapsed_seconds": 0.00958589999936521,
+  "components_sha256_raw": "48130b01e4aa9b4a4c25170de1773c178978d4ec5663961c51d7a12f63723051",
+  "audit_script_sha256_raw": "87120e60785f05475df3787602053d1b22c23b7f53dd55ea3ab4d6ee3e959aeb"
+}
