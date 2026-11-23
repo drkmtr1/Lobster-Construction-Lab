@@ -1,0 +1,40 @@
+{
+  "algorithm": "SHA-256",
+  "files": [
+    {
+      "bytes": 8,
+      "path": ".gitattributes",
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "bytes": 22132,
+      "path": "audit.py",
+      "sha256": "12492472f65755eb851f0ee9bd5b5d916e94b8c1309d45359cc0e164bc1b9d6e"
+    },
+    {
+      "bytes": 27294,
+      "path": "audit_result.json",
+      "sha256": "6093e8bf25fde3e1a432a9e22e3787831d451a55a02f1fd52b64917df85015bd"
+    },
+    {
+      "bytes": 361,
+      "path": "command_receipt.json",
+      "sha256": "46fb4d0b93c47463f1f6ca20d967513a927f18e3cef5f83d555d7571167a9cbc"
+    },
+    {
+      "bytes": 42175,
+      "path": "index.json",
+      "sha256": "09ff09eb22dcc6c355afef158f60d0ecb326dff682275be3a75d8ab4b38cd6f7"
+    },
+    {
+      "bytes": 7928,
+      "path": "README.md",
+      "sha256": "e66ae4cff58455d754ddae528410b8149ed21c0396c95051ac8ef1fe861d2341"
+    },
+    {
+      "bytes": 2062,
+      "path": "REVIEWS.md",
+      "sha256": "f32b0a93d71edf9fdd25577ef8493f34318a4e26bc5fcbb224a3ecc887578037"
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 22, 2026, Pacific/Honolulu<br>
-**Stage:** B4-JOINT-NESTED-CUT-TWO-HOST-001 complete and independently reviewed. Shared two-host growth and the exact K=1 lift are accepted.
+**Stage:** SYNTH-CATALOG-JOINT-CORE-PILOT-001 complete and independently reviewed. The source-backed pilot index is accepted as a catalog. The interior K>=2 continuation remains open.
 
 ## Current scientific objective
 
@@ -10,10 +10,11 @@ Develop independently supplied original-graph boundaries beyond the proved zero-
 
 ## One next action
 
-**With a new bounded scope decision, advance the read-only Construction Synthesis catalog pilot for the reviewed joint-core supplies.** Record the same-ledger nested-cut invariant, the exact K=1 coverage and the retained scoped failures, with K>=2 continuation kept open.
+**With a new bounded scope decision, investigate the smallest interior two-edge continuation, q=r=t=K=2.** Test whether the D062 construction can supply a usable original `s:4` port and both exact resource inventories for the original `s:4--s:5--s:6` suffix. Record a proved construction or a failure restricted to the tested interface.
 
 ## What is established in this package
 
+- The read-only Construction Synthesis pilot indexes six distinct named ledgers on four retained core originals, eight sourced rules or selectors, four scoped failures, and an exact coverage atlas. It preserves both co-original ledger pairs and the separate prior verification evidence. See `research/construction_synthesis/pilot_001/README.md`.
 - B4-JOINT-NESTED-CUT-TWO-HOST-001 proves compatible, repeatable two-host growth on the single D061 ledger. The named core has maximum q+r+10 at physical s:2 for all exact q,r>=2. Its K=1 lift at every exact t>=1 has R={q+9}, D={1}, s:4=q+8 and s:5=q+9. Together with retained boundary families this covers the exact ordered fourth-size-two family at K=1 for all positive q,r,t. The q,r,t>=2,K>=2 interior remains open. Two new originals, two retained positives, twelve cut checks and one adverse digest passed with zero queries, enumeration or replay. See `research/B4_JOINT_NESTED_CUT_TWO_HOST.md`, D062 and `evidence/validation/B4_JOINT_NESTED_CUT_TWO_HOST_001/`.
 - Both authenticated upstream main heads match the pinned audit commits. The repositories remain unchanged.
 - B4-JOINT-SECOND-CENTER-CUT-READY-22-001 supplies an alternative maximum-rooted C(2,2) with second-center cut 13, then all C(2,r) at fixed q=2. The K=1 lift for r>=2,t>=1 has R={11}, D={1}, s:4=10. The retained r=3 first-growth lift separately covers q>=2,t>=1,K=1 with R=D={4}, s:4=8. Two new originals and the retained controls passed independent audit with zero queries. See `research/B4_JOINT_SECOND_CENTER_CUT_READY_22.md`, D061 and `evidence/validation/B4_JOINT_SECOND_CENTER_CUT_READY_22_001/`.

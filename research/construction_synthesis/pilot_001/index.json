@@ -1,0 +1,1530 @@
+{
+  "schema_version": 1,
+  "task": "SYNTH-CATALOG-JOINT-CORE-PILOT-001",
+  "starting_commit": "38686d24850c63f5c92baa3ecf116c53d5f83577",
+  "attachment_sha256": "1106b89fbbbb4fc5eff17f297196e68c2a361ee201fe42753bbe6fa81a1f84a3",
+  "limits": {
+    "workers": 1,
+    "ledger_records": 6,
+    "rule_records": 8,
+    "failure_records": 4,
+    "atlas_rows": 20,
+    "cut_checks": 64,
+    "process_cpu_seconds": 30,
+    "bytes_per_record": 1000000,
+    "total_new_bytes": 5000000,
+    "solver_queries": 0,
+    "labeling_enumeration": 0,
+    "new_graphs": 0
+  },
+  "provenance": {
+    "D058": {
+      "proof": {
+        "path": "research/B4_JOINT_22_DIRECT_LEDGER.md",
+        "sha256": "40838832fdb947d777bd5a3106bbdc4ccde39c38dd2ff81109aa8878f2d8b4a1"
+      },
+      "review": {
+        "path": "evidence/validation/B4_JOINT_22_DIRECT_LEDGER_001/REVIEWS.md",
+        "sha256": "984a069f2f531c557f2f80c9c95ebf01722416585ca91f2d4282ac6728a1faf2"
+      },
+      "manifest": {
+        "path": "evidence/validation/B4_JOINT_22_DIRECT_LEDGER_001/MANIFEST.json",
+        "sha256": "2440fd6c3ff0e727ec433941ab80d8386aabc7c08211d9e9af503f523edf0c1b"
+      },
+      "audit": {
+        "path": "evidence/validation/B4_JOINT_22_DIRECT_LEDGER_001/audit_result.json",
+        "sha256": "54a28ff98c4e50f25416d8c35c17c419fd5d28932fbd198501488b4fa8118bfc"
+      }
+    },
+    "D059": {
+      "proof": {
+        "path": "research/B4_JOINT_22_CUT_COMPAT.md",
+        "sha256": "8450828438f71d12ea59793c3512bc204a44526414a765d8771d1442033c18a1"
+      },
+      "review": {
+        "path": "evidence/validation/B4_JOINT_22_CUT_COMPAT_001/REVIEWS.md",
+        "sha256": "1d474cb7b1e6a1db219b442ca886a8e41c53579ecd1b751491266773b1ae6095"
+      },
+      "manifest": {
+        "path": "evidence/validation/B4_JOINT_22_CUT_COMPAT_001/MANIFEST.json",
+        "sha256": "281ebd4bf50304b39ff986cd37b5e6b9554e14e7174d51ac8c7a187ba1c6286f"
+      },
+      "audit": {
+        "path": "evidence/validation/B4_JOINT_22_CUT_COMPAT_001/audit_result.json",
+        "sha256": "cc3af88dc2e84148a43572d247f0fd99b8d74cd2583749c73a195f43cf80e7a7"
+      }
+    },
+    "D060": {
+      "proof": {
+        "path": "research/B4_JOINT_23_MAX_ROOTED_CORE.md",
+        "sha256": "3b21623694d3d5d364630b9e5193797a691970ad1720fe4ad25b000b7f7f7dce"
+      },
+      "review": {
+        "path": "evidence/validation/B4_JOINT_23_MAX_ROOTED_CORE_001/REVIEWS.md",
+        "sha256": "3e6e844292c0f8bc110729cf7e67c0581c0d4c60a5a7e43debbf51eaf4732f93"
+      },
+      "manifest": {
+        "path": "evidence/validation/B4_JOINT_23_MAX_ROOTED_CORE_001/MANIFEST.json",
+        "sha256": "506320f3f5c6f0638a9fa378c75556c5882ba958e1f7b4fe7d3ca7672edb8cdf"
+      },
+      "audit": {
+        "path": "evidence/validation/B4_JOINT_23_MAX_ROOTED_CORE_001/audit_result.json",
+        "sha256": "1a56a6da1a06792021576fa600fdc5835d8001c1892d728f7b65fd9b72a60128"
+      }
+    },
+    "D061": {
+      "proof": {
+        "path": "research/B4_JOINT_SECOND_CENTER_CUT_READY_22.md",
+        "sha256": "80c5fd4af49b194e2c7ec58df57eda0fd84a26abb435294995dcc48a2a31ebb2"
+      },
+      "review": {
+        "path": "evidence/validation/B4_JOINT_SECOND_CENTER_CUT_READY_22_001/REVIEWS.md",
+        "sha256": "f76d76e6055763d72b1da2333335e4ffc656aa1ce9f715d70cd5414242cb19f2"
+      },
+      "manifest": {
+        "path": "evidence/validation/B4_JOINT_SECOND_CENTER_CUT_READY_22_001/MANIFEST.json",
+        "sha256": "1ab1213e157cfb7e02ce027c4349cab23fff26f3546e07f3aeebcc787854d173"
+      },
+      "audit": {
+        "path": "evidence/validation/B4_JOINT_SECOND_CENTER_CUT_READY_22_001/audit_result.json",
+        "sha256": "2d5521bfd359f1b09404b527468e1f1976c4827bf0282fcfc47cd745d8e4cf20"
+      }
+    },
+    "D062": {
+      "proof": {
+        "path": "research/B4_JOINT_NESTED_CUT_TWO_HOST.md",
+        "sha256": "3d2f4f25b83753f334ccb5754e780c48e3d3084bef4fe492c3382f85423f8158"
+      },
+      "review": {
+        "path": "evidence/validation/B4_JOINT_NESTED_CUT_TWO_HOST_001/REVIEWS.md",
+        "sha256": "2658b7021d131aa9aa06b2977239a1986a6ad982c97ba46f3c6f3bf6a3cdb2a3"
+      },
+      "manifest": {
+        "path": "evidence/validation/B4_JOINT_NESTED_CUT_TWO_HOST_001/MANIFEST.json",
+        "sha256": "a562abbc783805d7deb5ae39d17a08427b1d48ceda55b40bd7972578671dd09b"
+      },
+      "audit": {
+        "path": "evidence/validation/B4_JOINT_NESTED_CUT_TWO_HOST_001/audit_result.json",
+        "sha256": "3b979bfafcb221075768cbd6c0d3f95011c34ac996207cbaa62362c24a5676ce"
+      }
+    },
+    "D051": {
+      "proof": {
+        "path": "research/B4_1RT2_K1_DIRECT_SINGLETON.md",
+        "sha256": "4070f4999689dd017e4681836916931af6d2735d03ce467067b3112e5afbfa91"
+      },
+      "review": {
+        "path": "evidence/validation/B4_1RT2_K1_DIRECT_SINGLETON_001/REVIEWS.md",
+        "sha256": "e1910eddf52e2230d57c895c2370b499dec1b4189294c3677b032a7849471c00"
+      }
+    },
+    "D043": {
+      "proof": {
+        "path": "research/B4_Q1T2_K1_ROOTED_CORE.md",
+        "sha256": "da37b257aede858aefcf73b936341589f92a6e154a7922cdb8713a2d52ea6977"
+      },
+      "review": {
+        "path": "evidence/validation/B4_Q1T2_K1_ROOTED_CORE_001/REVIEWS.md",
+        "sha256": "475ed8f3d7c8af9ff62bca6c1732316bc9aa2eed0425b2bd3069af57caadbb48"
+      }
+    },
+    "D037": {
+      "proof": {
+        "path": "research/B4_UNPADDED_QR12.md",
+        "sha256": "4f34842d4f59ce2c4bdf859c9f2ed0c9a66e5b0246efd0e2291ea6ac84445ec6"
+      },
+      "review": {
+        "path": "evidence/validation/B4_UNPADDED_QR12_001/REVIEWS.md",
+        "sha256": "c2e7050e6e41762210b85396412b45d6cc2e15d61165c372125053897a8208b5"
+      }
+    }
+  },
+  "other_sources": [
+    {
+      "path": "research/DECISIONS.md",
+      "sha256": "2d8c0139a623fec7913aaae85f568723986daa30bc59bbd5f6c805def93b003d"
+    },
+    {
+      "path": "lcl/model.py",
+      "sha256": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6"
+    },
+    {
+      "path": "lcl/verify.py",
+      "sha256": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "60f6e1bd76adf6ed25cf381ca95f67e8a27a0de1e62fb673a7cf5af4b86249ea"
+    },
+    {
+      "path": "evidence/validation/B4_JOINT_NESTED_CUT_TWO_HOST_001/validation/lift-q3-r4-t1-original.json",
+      "sha256": "2bbedd23e74b23656b285d1bed14d44511c864fdf2b9dbf1c8d179a5c98c6eaa"
+    },
+    {
+      "path": "evidence/validation/B4_JOINT_NESTED_CUT_TWO_HOST_001/validation/lift-q3-r4-t1.json",
+      "sha256": "db1302835afbee58e8437c3eb77d121f5dc13368b6dbb5c406d68aad8f46ce92"
+    },
+    {
+      "path": "evidence/validation/B4_JOINT_MAX_ROOTED_CORE_PILOT_001/validation/raw_query.json",
+      "sha256": "2f399449c5712cf0a2c2d21242ed91a49cd19c0074d08bfd341ff416b014753f"
+    },
+    {
+      "path": "evidence/validation/B4_THIRD_ZERO_HOST_K1_001/raw_result.json",
+      "sha256": "9901eecb61366cf2329ebd5639e1a8c2cd738a08d5dc48da41126a6cef201b49"
+    }
+  ],
+  "ledgers": [
+    {
+      "profile": [
+        [
+          2
+        ],
+        [
+          2
+        ],
+        [],
+        [
+          2
+        ],
+        [],
+        []
+      ],
+      "graph_digest": "0de66c6b0db0331b1798bbb1b5e6f563ee10b8cd614635445ce73efbd7f57a03",
+      "labels": {
+        "b:0:0": 2,
+        "b:1:0": 9,
+        "b:3:0": 6,
+        "l:0:0:0": 12,
+        "l:0:0:1": 11,
+        "l:1:0:0": 4,
+        "l:1:0:1": 8,
+        "l:3:0:0": 3,
+        "l:3:0:1": 10,
+        "s:0": 13,
+        "s:1": 1,
+        "s:2": 14,
+        "s:3": 0,
+        "s:4": 7,
+        "s:5": 5
+      },
+      "spine": [
+        "s:0",
+        "s:1",
+        "s:2",
+        "s:3",
+        "s:4",
+        "s:5"
+      ],
+      "original": {
+        "path": "evidence/validation/B4_JOINT_22_DIRECT_LEDGER_001/validation/core_original.json",
+        "sha256": "a11c0daeeb58457ec1824f6507c958c2809ffc01fd06d059f1db69807fe2b764"
+      },
+      "certificate": {
+        "path": "evidence/validation/B4_JOINT_22_DIRECT_LEDGER_001/validation/candidate_B.json",
+        "sha256": "1fa92a64e4ebfe92ef58fe1bec6c34c461e61d5a67eb08c6ed2788f77d53f032"
+      },
+      "verification": {
+        "path": "evidence/validation/B4_JOINT_22_DIRECT_LEDGER_001/audit_result.json",
+        "sha256": "54a28ff98c4e50f25416d8c35c17c419fd5d28932fbd198501488b4fa8118bfc"
+      },
+      "manifest": {
+        "path": "evidence/validation/B4_JOINT_22_DIRECT_LEDGER_001/MANIFEST.json",
+        "sha256": "2440fd6c3ff0e727ec433941ab80d8386aabc7c08211d9e9af503f523edf0c1b"
+      },
+      "decision": "D058",
+      "key": "case-b-22",
+      "zero": "s:3",
+      "root": {
+        "vertex": "s:2",
+        "label": 14
+      },
+      "hosts": {
+        "b:0:0": 2,
+        "b:1:0": 9,
+        "b:3:0": 6
+      },
+      "cuts": [
+        {
+          "host": "b:0:0",
+          "threshold": 11,
+          "spectrum": [
+            9,
+            14
+          ],
+          "source": "D059",
+          "ledger_id": "951d99277bd2a4dbc3494bed536ef9aa2fb900965e4876549210dd94b4eb43d3"
+        },
+        {
+          "host": "b:0:0",
+          "threshold": 12,
+          "spectrum": [
+            10,
+            14
+          ],
+          "source": "D059",
+          "ledger_id": "951d99277bd2a4dbc3494bed536ef9aa2fb900965e4876549210dd94b4eb43d3"
+        },
+        {
+          "host": "b:0:0",
+          "threshold": 13,
+          "spectrum": [
+            11,
+            14
+          ],
+          "source": "D059",
+          "ledger_id": "951d99277bd2a4dbc3494bed536ef9aa2fb900965e4876549210dd94b4eb43d3"
+        }
+      ],
+      "ledger_id": "951d99277bd2a4dbc3494bed536ef9aa2fb900965e4876549210dd94b4eb43d3"
+    },
+    {
+      "profile": [
+        [
+          3
+        ],
+        [
+          2
+        ],
+        [],
+        [
+          2
+        ],
+        [],
+        []
+      ],
+      "graph_digest": "a3dc96fd5b217750e67e530719b9fec8b9e2543cbb498ed06a6ff1002f28236b",
+      "labels": {
+        "b:0:0": 2,
+        "b:1:0": 9,
+        "b:3:0": 6,
+        "l:0:0:0": 13,
+        "l:0:0:1": 12,
+        "l:0:0:2": 11,
+        "l:1:0:0": 4,
+        "l:1:0:1": 8,
+        "l:3:0:0": 3,
+        "l:3:0:1": 10,
+        "s:0": 14,
+        "s:1": 1,
+        "s:2": 15,
+        "s:3": 0,
+        "s:4": 7,
+        "s:5": 5
+      },
+      "spine": [
+        "s:0",
+        "s:1",
+        "s:2",
+        "s:3",
+        "s:4",
+        "s:5"
+      ],
+      "original": {
+        "path": "evidence/validation/B4_JOINT_22_CUT_COMPAT_001/validation/q3-original.json",
+        "sha256": "160619e263f5e2e30540d0a2f46e3e49ba087319ab49a04715ee996e3e2f0c1c"
+      },
+      "certificate": {
+        "path": "evidence/validation/B4_JOINT_22_CUT_COMPAT_001/validation/q3.json",
+        "sha256": "7fd1d3be9cf7e6e7ab043ddf59f7dc230729adccc66f0ffc1106f8bd3ac51773"
+      },
+      "verification": {
+        "path": "evidence/validation/B4_JOINT_22_CUT_COMPAT_001/audit_result.json",
+        "sha256": "cc3af88dc2e84148a43572d247f0fd99b8d74cd2583749c73a195f43cf80e7a7"
+      },
+      "manifest": {
+        "path": "evidence/validation/B4_JOINT_22_CUT_COMPAT_001/MANIFEST.json",
+        "sha256": "281ebd4bf50304b39ff986cd37b5e6b9554e14e7174d51ac8c7a187ba1c6286f"
+      },
+      "decision": "D059",
+      "key": "case-b-grown-32",
+      "zero": "s:3",
+      "root": {
+        "vertex": "s:2",
+        "label": 15
+      },
+      "hosts": {
+        "b:0:0": 2,
+        "b:1:0": 9,
+        "b:3:0": 6
+      },
+      "cuts": [
+        {
+          "host": "b:0:0",
+          "threshold": 12,
+          "spectrum": [
+            10,
+            15
+          ],
+          "source": "D059",
+          "ledger_id": "36e61c75ddeebdec3ed59876940e72302e6210a1f96ba8e00796853b4c5fdeaf"
+        }
+      ],
+      "ledger_id": "36e61c75ddeebdec3ed59876940e72302e6210a1f96ba8e00796853b4c5fdeaf"
+    },
+    {
+      "profile": [
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [],
+        [
+          2
+        ],
+        [],
+        []
+      ],
+      "graph_digest": "d166a6e913bb80ba0872e937bde952cebbbd81c5bcd0d3f8dc20ed2865456f93",
+      "labels": {
+        "b:0:0": 2,
+        "b:1:0": 10,
+        "b:3:0": 8,
+        "l:0:0:0": 13,
+        "l:0:0:1": 12,
+        "l:1:0:0": 4,
+        "l:1:0:1": 5,
+        "l:1:0:2": 9,
+        "l:3:0:0": 6,
+        "l:3:0:1": 11,
+        "s:0": 14,
+        "s:1": 1,
+        "s:2": 15,
+        "s:3": 0,
+        "s:4": 7,
+        "s:5": 3
+      },
+      "spine": [
+        "s:0",
+        "s:1",
+        "s:2",
+        "s:3",
+        "s:4",
+        "s:5"
+      ],
+      "original": {
+        "path": "evidence/validation/B4_JOINT_23_MAX_ROOTED_CORE_001/validation/core-original.json",
+        "sha256": "193d7b8530f81b0080add7697641a972a8890dbca9a9455b65b5ee981a5fb911"
+      },
+      "certificate": {
+        "path": "evidence/validation/B4_JOINT_23_MAX_ROOTED_CORE_001/validation/core.json",
+        "sha256": "4783ca5ce7bba333e5373a8b6c51aceb40ff0959a727259680b3dc00adc5c07b"
+      },
+      "verification": {
+        "path": "evidence/validation/B4_JOINT_23_MAX_ROOTED_CORE_001/audit_result.json",
+        "sha256": "1a56a6da1a06792021576fa600fdc5835d8001c1892d728f7b65fd9b72a60128"
+      },
+      "manifest": {
+        "path": "evidence/validation/B4_JOINT_23_MAX_ROOTED_CORE_001/MANIFEST.json",
+        "sha256": "506320f3f5c6f0638a9fa378c75556c5882ba958e1f7b4fe7d3ca7672edb8cdf"
+      },
+      "decision": "D060",
+      "key": "direct-23",
+      "zero": "s:3",
+      "root": {
+        "vertex": "s:2",
+        "label": 15
+      },
+      "hosts": {
+        "b:0:0": 2,
+        "b:1:0": 10,
+        "b:3:0": 8
+      },
+      "cuts": [
+        {
+          "host": "b:0:0",
+          "threshold": 6,
+          "spectrum": [
+            4,
+            15
+          ],
+          "source": "D060",
+          "ledger_id": "9d5490e665ce0b5d2c5bbb153ba8dac5ae73752d8039ecf233d8710385a30da5"
+        },
+        {
+          "host": "b:0:0",
+          "threshold": 12,
+          "spectrum": [
+            10,
+            15
+          ],
+          "source": "D060",
+          "ledger_id": "9d5490e665ce0b5d2c5bbb153ba8dac5ae73752d8039ecf233d8710385a30da5"
+        },
+        {
+          "host": "b:0:0",
+          "threshold": 13,
+          "spectrum": [
+            11,
+            15
+          ],
+          "source": "D060",
+          "ledger_id": "9d5490e665ce0b5d2c5bbb153ba8dac5ae73752d8039ecf233d8710385a30da5"
+        },
+        {
+          "host": "b:0:0",
+          "threshold": 14,
+          "spectrum": [
+            12,
+            15
+          ],
+          "source": "D060",
+          "ledger_id": "9d5490e665ce0b5d2c5bbb153ba8dac5ae73752d8039ecf233d8710385a30da5"
+        }
+      ],
+      "ledger_id": "9d5490e665ce0b5d2c5bbb153ba8dac5ae73752d8039ecf233d8710385a30da5"
+    },
+    {
+      "profile": [
+        [
+          2
+        ],
+        [
+          2
+        ],
+        [],
+        [
+          2
+        ],
+        [],
+        []
+      ],
+      "graph_digest": "0de66c6b0db0331b1798bbb1b5e6f563ee10b8cd614635445ce73efbd7f57a03",
+      "labels": {
+        "b:0:0": 1,
+        "b:1:0": 2,
+        "b:3:0": 12,
+        "l:0:0:0": 11,
+        "l:0:0:1": 8,
+        "l:1:0:0": 5,
+        "l:1:0:1": 6,
+        "l:3:0:0": 4,
+        "l:3:0:1": 7,
+        "s:0": 13,
+        "s:1": 0,
+        "s:2": 14,
+        "s:3": 3,
+        "s:4": 9,
+        "s:5": 10
+      },
+      "spine": [
+        "s:0",
+        "s:1",
+        "s:2",
+        "s:3",
+        "s:4",
+        "s:5"
+      ],
+      "original": {
+        "path": "evidence/validation/B4_JOINT_22_DIRECT_LEDGER_001/validation/core_original.json",
+        "sha256": "a11c0daeeb58457ec1824f6507c958c2809ffc01fd06d059f1db69807fe2b764"
+      },
+      "certificate": {
+        "path": "evidence/validation/B4_JOINT_SECOND_CENTER_CUT_READY_22_001/validation/alternative-r2.json",
+        "sha256": "b9ee257136562722956bd94c395b0d98da124d8eaa7707ac218c54dac92f5ada"
+      },
+      "verification": {
+        "path": "evidence/validation/B4_JOINT_SECOND_CENTER_CUT_READY_22_001/audit_result.json",
+        "sha256": "2d5521bfd359f1b09404b527468e1f1976c4827bf0282fcfc47cd745d8e4cf20"
+      },
+      "manifest": {
+        "path": "evidence/validation/B4_JOINT_SECOND_CENTER_CUT_READY_22_001/MANIFEST.json",
+        "sha256": "1ab1213e157cfb7e02ce027c4349cab23fff26f3546e07f3aeebcc787854d173"
+      },
+      "decision": "D061",
+      "key": "alternative-22",
+      "zero": "s:1",
+      "root": {
+        "vertex": "s:2",
+        "label": 14
+      },
+      "hosts": {
+        "b:0:0": 1,
+        "b:1:0": 2,
+        "b:3:0": 12
+      },
+      "cuts": [
+        {
+          "host": "b:0:0",
+          "threshold": 7,
+          "spectrum": [
+            6,
+            14
+          ],
+          "source": "D062",
+          "ledger_id": "ba8a76ca7fc02559b7cc8cfe7b7bf452abba792fd6e6556290fbc86ebc9e627f"
+        },
+        {
+          "host": "b:1:0",
+          "threshold": 13,
+          "spectrum": [
+            11,
+            14
+          ],
+          "source": "D061",
+          "ledger_id": "ba8a76ca7fc02559b7cc8cfe7b7bf452abba792fd6e6556290fbc86ebc9e627f"
+        }
+      ],
+      "ledger_id": "ba8a76ca7fc02559b7cc8cfe7b7bf452abba792fd6e6556290fbc86ebc9e627f"
+    },
+    {
+      "profile": [
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [],
+        [
+          2
+        ],
+        [],
+        []
+      ],
+      "graph_digest": "d166a6e913bb80ba0872e937bde952cebbbd81c5bcd0d3f8dc20ed2865456f93",
+      "labels": {
+        "b:0:0": 1,
+        "b:1:0": 2,
+        "b:3:0": 12,
+        "l:0:0:0": 11,
+        "l:0:0:1": 8,
+        "l:1:0:0": 5,
+        "l:1:0:1": 6,
+        "l:1:0:2": 13,
+        "l:3:0:0": 4,
+        "l:3:0:1": 7,
+        "s:0": 14,
+        "s:1": 0,
+        "s:2": 15,
+        "s:3": 3,
+        "s:4": 9,
+        "s:5": 10
+      },
+      "spine": [
+        "s:0",
+        "s:1",
+        "s:2",
+        "s:3",
+        "s:4",
+        "s:5"
+      ],
+      "original": {
+        "path": "evidence/validation/B4_JOINT_23_MAX_ROOTED_CORE_001/validation/core-original.json",
+        "sha256": "193d7b8530f81b0080add7697641a972a8890dbca9a9455b65b5ee981a5fb911"
+      },
+      "certificate": {
+        "path": "evidence/validation/B4_JOINT_SECOND_CENTER_CUT_READY_22_001/validation/alternative-r3.json",
+        "sha256": "fc9a93656e1f3c37b0d0e63f8af948bfa53f4584788e773ff77e662f1c8320c8"
+      },
+      "verification": {
+        "path": "evidence/validation/B4_JOINT_SECOND_CENTER_CUT_READY_22_001/audit_result.json",
+        "sha256": "2d5521bfd359f1b09404b527468e1f1976c4827bf0282fcfc47cd745d8e4cf20"
+      },
+      "manifest": {
+        "path": "evidence/validation/B4_JOINT_SECOND_CENTER_CUT_READY_22_001/MANIFEST.json",
+        "sha256": "1ab1213e157cfb7e02ce027c4349cab23fff26f3546e07f3aeebcc787854d173"
+      },
+      "decision": "D061",
+      "key": "alternative-grown-23",
+      "zero": "s:1",
+      "root": {
+        "vertex": "s:2",
+        "label": 15
+      },
+      "hosts": {
+        "b:0:0": 1,
+        "b:1:0": 2,
+        "b:3:0": 12
+      },
+      "cuts": [
+        {
+          "host": "b:1:0",
+          "threshold": 14,
+          "spectrum": [
+            12,
+            15
+          ],
+          "source": "D061",
+          "ledger_id": "3b0ec4a07f230fc21c5da801dda16c7edcef18be1ca12d6a2cb750d36a62312c"
+        }
+      ],
+      "ledger_id": "3b0ec4a07f230fc21c5da801dda16c7edcef18be1ca12d6a2cb750d36a62312c"
+    },
+    {
+      "profile": [
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [],
+        [
+          2
+        ],
+        [],
+        []
+      ],
+      "graph_digest": "bda0c178041d8c6610968addddb95654aea21f8e455c6c694d3321ae50fe2ca5",
+      "labels": {
+        "b:0:0": 1,
+        "b:1:0": 2,
+        "b:3:0": 13,
+        "l:0:0:0": 12,
+        "l:0:0:1": 9,
+        "l:0:0:2": 7,
+        "l:1:0:0": 5,
+        "l:1:0:1": 6,
+        "l:1:0:2": 14,
+        "l:1:0:3": 15,
+        "l:3:0:0": 4,
+        "l:3:0:1": 8,
+        "s:0": 16,
+        "s:1": 0,
+        "s:2": 17,
+        "s:3": 3,
+        "s:4": 10,
+        "s:5": 11
+      },
+      "spine": [
+        "s:0",
+        "s:1",
+        "s:2",
+        "s:3",
+        "s:4",
+        "s:5"
+      ],
+      "original": {
+        "path": "evidence/validation/B4_JOINT_NESTED_CUT_TWO_HOST_001/validation/core-q3-r4-original.json",
+        "sha256": "618ea03cd2a8eac6da3066bf2670bca999d41a653dc2186e0e8abbdbdea58f9c"
+      },
+      "certificate": {
+        "path": "evidence/validation/B4_JOINT_NESTED_CUT_TWO_HOST_001/validation/core-q3-r4.json",
+        "sha256": "7b579cf38aa8846af8ec9f6acdd11bc6d0f2f33602f56483f3322ad44a75facb"
+      },
+      "verification": {
+        "path": "evidence/validation/B4_JOINT_NESTED_CUT_TWO_HOST_001/audit_result.json",
+        "sha256": "3b979bfafcb221075768cbd6c0d3f95011c34ac996207cbaa62362c24a5676ce"
+      },
+      "manifest": {
+        "path": "evidence/validation/B4_JOINT_NESTED_CUT_TWO_HOST_001/MANIFEST.json",
+        "sha256": "a562abbc783805d7deb5ae39d17a08427b1d48ceda55b40bd7972578671dd09b"
+      },
+      "decision": "D062",
+      "key": "nested-34",
+      "zero": "s:1",
+      "root": {
+        "vertex": "s:2",
+        "label": 17
+      },
+      "hosts": {
+        "b:0:0": 1,
+        "b:1:0": 2,
+        "b:3:0": 13
+      },
+      "cuts": [
+        {
+          "host": "b:0:0",
+          "threshold": 8,
+          "spectrum": [
+            7,
+            17
+          ],
+          "source": "D062",
+          "ledger_id": "a37f0a29fa2bf92a3bd443abb19a7f9a58477f43882b412284a798b02f534c99"
+        },
+        {
+          "host": "b:1:0",
+          "threshold": 16,
+          "spectrum": [
+            14,
+            17
+          ],
+          "source": "D062",
+          "ledger_id": "a37f0a29fa2bf92a3bd443abb19a7f9a58477f43882b412284a798b02f534c99"
+        }
+      ],
+      "ledger_id": "a37f0a29fa2bf92a3bd443abb19a7f9a58477f43882b412284a798b02f534c99"
+    }
+  ],
+  "rules": [
+    {
+      "key": "first-case-b",
+      "sources": [
+        "D059"
+      ],
+      "domain": "q=2+h; r=2; integer h>=0",
+      "input_state": {
+        "ledger_id": "951d99277bd2a4dbc3494bed536ef9aa2fb900965e4876549210dd94b4eb43d3"
+      },
+      "premise": {
+        "host": "b:0:0",
+        "label": 2,
+        "cut": 11,
+        "spectrum": [
+          9,
+          14
+        ]
+      },
+      "formula": "Add h to old labels >=11; l:0:0:j=j+9 for 2<=j<q.",
+      "updated_cut": "11+h with [9+h,14+h]",
+      "output_state": "C(q,2) with s:2=14+h; h=1 is ledger 36e61c75ddeebdec3ed59876940e72302e6210a1f96ba8e00796853b4c5fdeaf",
+      "resources": null,
+      "incidences": "All existing named edges and the physical spine witness are preserved. Each new terminal attaches once, at its stated original center.",
+      "closure": "The returned threshold retains the same shifted original vertices. Insertion is closed under finite ordered batches, including the empty batch. Concatenating prescribed names gives pointwise batch agreement.",
+      "nonapplicability": "D059 rejects the second-host rule on the seed and the exact h=1 ledger."
+    },
+    {
+      "key": "first-direct-23",
+      "sources": [
+        "D060"
+      ],
+      "domain": "q=2+h; r=3; integer h>=0",
+      "input_state": {
+        "ledger_id": "9d5490e665ce0b5d2c5bbb153ba8dac5ae73752d8039ecf233d8710385a30da5"
+      },
+      "premise": {
+        "host": "b:0:0",
+        "label": 2,
+        "cut": 12,
+        "spectrum": [
+          10,
+          15
+        ]
+      },
+      "formula": "Add h to old labels >=12; l:0:0:j=10+j for 2<=j<q.",
+      "updated_cut": "12+h with [10+h,15+h]",
+      "output_state": "C(q,3) with s:2=15+h",
+      "resources": null,
+      "incidences": "All existing named edges and the physical spine witness are preserved. Each new terminal attaches once, at its stated original center.",
+      "closure": "The returned threshold retains the same shifted original vertices. Insertion is closed under finite ordered batches, including the empty batch. Concatenating prescribed names gives pointwise batch agreement.",
+      "nonapplicability": "The second-host operation fails on this input. D061's r-grown C(2,3) is a different ledger."
+    },
+    {
+      "key": "second-alternative",
+      "sources": [
+        "D061"
+      ],
+      "domain": "q=2; r=2+h; integer h>=0",
+      "input_state": {
+        "ledger_id": "ba8a76ca7fc02559b7cc8cfe7b7bf452abba792fd6e6556290fbc86ebc9e627f"
+      },
+      "premise": {
+        "host": "b:1:0",
+        "label": 2,
+        "cut": 13,
+        "spectrum": [
+          11,
+          14
+        ]
+      },
+      "formula": "Add h to old s:0 and s:2; l:1:0:j=11+j for 2<=j<r.",
+      "updated_cut": "13+h with [11+h,14+h]",
+      "output_state": "C(2,r) with s:2=14+h; h=1 is ledger 3b0ec4a07f230fc21c5da801dda16c7edcef18be1ca12d6a2cb750d36a62312c",
+      "resources": null,
+      "incidences": "All existing named edges and the physical spine witness are preserved. Each new terminal attaches once, at its stated original center.",
+      "closure": "The returned threshold retains the same shifted original vertices. Insertion is closed under finite ordered batches, including the empty batch. Concatenating prescribed names gives pointwise batch agreement.",
+      "nonapplicability": "No transfer to Case B or the direct D060 C(2,3) ledger. The D061 right-zero failure is specific to its top-pair plan."
+    },
+    {
+      "key": "nested-cuts",
+      "sources": [
+        "D062",
+        "D061"
+      ],
+      "domain": "q=2+h; r=2+k; integers h,k>=0",
+      "input_state": {
+        "ledger_id": "ba8a76ca7fc02559b7cc8cfe7b7bf452abba792fd6e6556290fbc86ebc9e627f"
+      },
+      "premise": {
+        "h": "q-2",
+        "k": "r-2",
+        "initial": [
+          {
+            "host": "b:0:0",
+            "label": 1,
+            "cut": 7,
+            "spectrum": [
+              6,
+              14
+            ]
+          },
+          {
+            "host": "b:1:0",
+            "label": 2,
+            "cut": 13,
+            "spectrum": [
+              11,
+              14
+            ]
+          }
+        ]
+      },
+      "formula": "For each old vertex use f0(v)+h*I[f0(v)>=7]+k*I[f0(v)>=13]. Use j+5 for l:0:0:j (2<=j<q), and h+11+j for l:1:0:j (2<=j<r).",
+      "updated_cut": {
+        "first": {
+          "cut": "7+h",
+          "spectrum": [
+            "6+h",
+            "m"
+          ]
+        },
+        "second": {
+          "cut": "13+h+k",
+          "spectrum": [
+            "11+h+k",
+            "m"
+          ]
+        }
+      },
+      "output_state": "C(q,r); m=q+r+10 at physical s:2; (h,k)=(1,2) is ledger a37f0a29fa2bf92a3bd443abb19a7f9a58477f43882b412284a798b02f534c99",
+      "resources": null,
+      "incidences": "All existing named edges and the physical spine witness are preserved. Each new terminal attaches once, at its stated original center.",
+      "closure": "Each further first batch shifts old middle and high vertices and existing new second leaves; each further second batch shifts only the original high vertices. Both predicates persist, and finite interleavings commute pointwise in per-host name order.",
+      "nonapplicability": "Uses the exact alternative seed and its invariant. It does not give a cut rule for other ledgers or supply the interior K>=2 suffix.",
+      "difference_blocks": [
+        [
+          "1",
+          "5"
+        ],
+        [
+          "6",
+          "5+h"
+        ],
+        [
+          "6+h",
+          "10+h"
+        ],
+        [
+          "11+h",
+          "10+h+k"
+        ],
+        [
+          "11+h+k",
+          "14+h+k"
+        ]
+      ],
+      "label_blocks": [
+        [
+          "0",
+          "6"
+        ],
+        [
+          "7",
+          "6+h"
+        ],
+        [
+          "7+h",
+          "12+h"
+        ],
+        [
+          "13+h",
+          "12+h+k"
+        ],
+        [
+          "13+h+k",
+          "14+h+k"
+        ]
+      ]
+    },
+    {
+      "key": "zero-host-lift",
+      "sources": [
+        "D058",
+        "D059",
+        "D060",
+        "D061",
+        "D062"
+      ],
+      "domain": "t>=1 exact integer; K=1; q,r restricted to the supplied core family",
+      "input_state": {
+        "ledger_ids": [
+          "951d99277bd2a4dbc3494bed536ef9aa2fb900965e4876549210dd94b4eb43d3",
+          "36e61c75ddeebdec3ed59876940e72302e6210a1f96ba8e00796853b4c5fdeaf",
+          "9d5490e665ce0b5d2c5bbb153ba8dac5ae73752d8039ecf233d8710385a30da5",
+          "ba8a76ca7fc02559b7cc8cfe7b7bf452abba792fd6e6556290fbc86ebc9e627f",
+          "3b0ec4a07f230fc21c5da801dda16c7edcef18be1ca12d6a2cb750d36a62312c",
+          "a37f0a29fa2bf92a3bd443abb19a7f9a58477f43882b412284a798b02f534c99"
+        ],
+        "rule_keys": [
+          "first-case-b",
+          "first-direct-23",
+          "second-alternative",
+          "nested-cuts"
+        ]
+      },
+      "premise": "Graceful named C(q,r) on 0..m with maximum m at physical s:2 and no section-2 branch.",
+      "formula": "Translate old labels by +1; restore b:2:0=0 at s:2 and l:2:0:j=m+2+j for 0<=j<t.",
+      "updated_cut": null,
+      "output_state": "The original [[q],[r],[t],[2],[],[]] with label bands {0},[1,m+1],[m+2,m+t+1] and difference bands [1,m],{m+1},[m+2,m+t+1].",
+      "resources": null,
+      "incidences": "All existing named edges and the physical spine witness are preserved. Each new terminal attaches once, at its stated original center. Only s:2--b:2:0 and the prescribed third-terminal edges are restored.",
+      "closure": "Finite t leaf assignments; each extra terminal uses the next maximum label and difference at zero.",
+      "nonapplicability": "Requires the physical maximum and the original section-2 attachment. K>=2 is outside these supplied compositions."
+    },
+    {
+      "key": "physical-singleton",
+      "sources": [
+        "D058",
+        "D059",
+        "D060",
+        "D061",
+        "D062"
+      ],
+      "domain": "K=1 on the supplied lifted core families",
+      "input_state": {
+        "rule_keys": [
+          "zero-host-lift"
+        ]
+      },
+      "premise": "Omit only s:5; its sole remaining incidence is s:4--s:5.",
+      "formula": "With f the core ledger, assign s:5=f(s:5)+1 after forming the translated prefix.",
+      "updated_cut": null,
+      "output_state": "Complete original named target with no unused labels or differences.",
+      "resources": {
+        "general": {
+          "R": [
+            "f(s:5)+1"
+          ],
+          "D": [
+            "abs(f(s:4)-f(s:5))"
+          ],
+          "port": [
+            "s:4",
+            "f(s:4)+1"
+          ],
+          "completion": [
+            "s:5",
+            "f(s:5)+1"
+          ],
+          "pending_edge": [
+            "s:4",
+            "s:5"
+          ]
+        },
+        "by_core_supply": {
+          "first-case-b": {
+            "R": [
+              6
+            ],
+            "D": [
+              2
+            ],
+            "port": [
+              "s:4",
+              8
+            ],
+            "completion": [
+              "s:5",
+              6
+            ],
+            "pending_edge": [
+              "s:4",
+              "s:5"
+            ]
+          },
+          "first-direct-23": {
+            "R": [
+              4
+            ],
+            "D": [
+              4
+            ],
+            "port": [
+              "s:4",
+              8
+            ],
+            "completion": [
+              "s:5",
+              4
+            ],
+            "pending_edge": [
+              "s:4",
+              "s:5"
+            ]
+          },
+          "second-alternative": {
+            "R": [
+              11
+            ],
+            "D": [
+              1
+            ],
+            "port": [
+              "s:4",
+              10
+            ],
+            "completion": [
+              "s:5",
+              11
+            ],
+            "pending_edge": [
+              "s:4",
+              "s:5"
+            ]
+          },
+          "nested-cuts": {
+            "R": [
+              "q+9"
+            ],
+            "D": [
+              1
+            ],
+            "port": [
+              "s:4",
+              "q+8"
+            ],
+            "completion": [
+              "s:5",
+              "q+9"
+            ],
+            "pending_edge": [
+              "s:4",
+              "s:5"
+            ]
+          }
+        }
+      },
+      "incidences": "All existing named edges and the physical spine witness are preserved. Each new terminal attaches once, at its stated original center.",
+      "closure": "One assignment consumes both inventories on the stated edge.",
+      "nonapplicability": "The exit value and resources are ledger-dependent. This consumer does not apply to a longer suffix."
+    },
+    {
+      "key": "retained-q-one",
+      "sources": [
+        "D051",
+        "D037"
+      ],
+      "domain": "q=1; all positive r,t,K",
+      "input_state": {
+        "proof_selector": "D051 selection-for-all-positive-rtk"
+      },
+      "premise": "Use the source's independently supplied branch for the actual input parameters.",
+      "formula": "Apply the named source selector and its own singleton, adjacent or nonadjacent suffix construction.",
+      "updated_cut": null,
+      "output_state": "The exact ordered q=1 original, fourth size 2.",
+      "resources": {
+        "K1": [
+          {
+            "condition": "t=1",
+            "R": [
+              "r+6"
+            ],
+            "D": [
+              1
+            ],
+            "port": [
+              "s:4",
+              "r+7"
+            ],
+            "completion": [
+              "s:5",
+              "r+6"
+            ]
+          },
+          {
+            "condition": "t>=2, r=1",
+            "R": [
+              5
+            ],
+            "D": [
+              6
+            ],
+            "port": [
+              "s:4",
+              11
+            ],
+            "completion": [
+              "s:5",
+              5
+            ]
+          },
+          {
+            "condition": "t=2, r>=2",
+            "R": [
+              "r+3"
+            ],
+            "D": [
+              5
+            ],
+            "port": [
+              "s:4",
+              "r+8"
+            ],
+            "completion": [
+              "s:5",
+              "r+3"
+            ]
+          },
+          {
+            "condition": "t>=3, r=2",
+            "R": [
+              6
+            ],
+            "D": [
+              6
+            ],
+            "port": [
+              "s:4",
+              12
+            ],
+            "completion": [
+              "s:5",
+              6
+            ]
+          },
+          {
+            "condition": "t>=3, r>=3",
+            "R": [
+              "r+4"
+            ],
+            "D": [
+              6
+            ],
+            "port": [
+              "s:4",
+              "r+10"
+            ],
+            "completion": [
+              "s:5",
+              "r+4"
+            ]
+          }
+        ],
+        "K2": "R=[r+6,r+K+5], D=[1,K]; s:4=r+K+6 at t=1 and r+K+7 at t>=2"
+      },
+      "incidences": "All existing named edges and the physical spine witness are preserved. Each new terminal attaches once, at its stated original center.",
+      "closure": "The source selector is exhaustive; each branch finishes the finite original suffix.",
+      "nonapplicability": "No supply when q>1 is inferred from this route."
+    },
+    {
+      "key": "retained-r-one",
+      "sources": [
+        "D043",
+        "D037"
+      ],
+      "domain": "r=1; all positive q,t,K",
+      "input_state": {
+        "proof_selector": "D043 family-coverage-and-validation-scope"
+      },
+      "premise": "Use Q112 at t=1, the direct q=1 route at t>=2,K=1,q=1, the rooted-core lift at t>=2,K=1,q>=2, or Q1T2 at t>=2,K>=2.",
+      "formula": "Keep the original physical exit and use the named source construction on its own suffix.",
+      "updated_cut": null,
+      "output_state": "The exact ordered r=1 original, fourth size 2.",
+      "resources": {
+        "t1": "R=[7,K+6], D=[1,K], s:4=K+7",
+        "tAtLeast2K1q1": {
+          "R": [
+            5
+          ],
+          "D": [
+            6
+          ],
+          "port": [
+            "s:4",
+            11
+          ],
+          "completion": [
+            "s:5",
+            5
+          ],
+          "pending_edge": [
+            "s:4",
+            "s:5"
+          ]
+        },
+        "tAtLeast2K1qAtLeast2": {
+          "R": [
+            5
+          ],
+          "D": [
+            1
+          ],
+          "port": [
+            "s:4",
+            6
+          ],
+          "completion": [
+            "s:5",
+            5
+          ],
+          "pending_edge": [
+            "s:4",
+            "s:5"
+          ]
+        },
+        "tAtLeast2KAtLeast2": "R=[7,K+6], D=[1,K], s:4=K+8"
+      },
+      "incidences": "All existing named edges and the physical spine witness are preserved. Each new terminal attaches once, at its stated original center.",
+      "closure": "The source selector is exhaustive; each branch finishes the finite original suffix.",
+      "nonapplicability": "No supply when r>1 is inferred from this route."
+    }
+  ],
+  "failures": [
+    {
+      "key": "D059-case-b-second",
+      "source": "D059",
+      "ledger_id": "951d99277bd2a4dbc3494bed536ef9aa2fb900965e4876549210dd94b4eb43d3",
+      "host": "b:1:0",
+      "host_label": 9,
+      "cuts": [
+        0,
+        15
+      ],
+      "scope": "Exact D058 Case B C(2,2), every positive second-host batch under the complete crossing criterion."
+    },
+    {
+      "key": "D059-grown-second",
+      "source": "D059",
+      "ledger_id": "36e61c75ddeebdec3ed59876940e72302e6210a1f96ba8e00796853b4c5fdeaf",
+      "host": "b:1:0",
+      "host_label": 9,
+      "cuts": [
+        0,
+        16
+      ],
+      "scope": "Exact D059 c=11 one-leaf C(3,2) result, every positive second-host batch under the same criterion."
+    },
+    {
+      "key": "D060-direct-second",
+      "source": "D060",
+      "ledger_id": "9d5490e665ce0b5d2c5bbb153ba8dac5ae73752d8039ecf233d8710385a30da5",
+      "host": "b:1:0",
+      "host_label": 10,
+      "cuts": [
+        0,
+        16
+      ],
+      "scope": "Exact independent D060 direct C(2,3), every positive second-host batch under the same criterion."
+    },
+    {
+      "key": "D061-right-zero-top-pair",
+      "source": "D061",
+      "ledger_id": null,
+      "scope": "Rejected partial plan only: C(2,2), s:0=13, s:2=14, c=13 and s:3=0. Four crossings force b:1:0=2. Then s:1=1 requires b:0:0=2, s:1=2 repeats 2, and s:1>=3 gives a crossing weight at most 10. Other right-zero plans are outside the rejection."
+    }
+  ],
+  "atlas": {
+    "profile": "[[q],[r],[t],[2]] + [[]]*(K+1)",
+    "parameter_type": "positive exact integers",
+    "rows": [
+      {
+        "domain": {
+          "q": [
+            1,
+            1
+          ],
+          "r": [
+            1,
+            null
+          ],
+          "t": [
+            1,
+            null
+          ],
+          "K": [
+            1,
+            1
+          ]
+        },
+        "status": "proved",
+        "source": "D051",
+        "route": [
+          "retained-q-one"
+        ]
+      },
+      {
+        "domain": {
+          "q": [
+            2,
+            null
+          ],
+          "r": [
+            1,
+            1
+          ],
+          "t": [
+            1,
+            null
+          ],
+          "K": [
+            1,
+            1
+          ]
+        },
+        "status": "proved",
+        "source": "D043",
+        "route": [
+          "retained-r-one"
+        ]
+      },
+      {
+        "domain": {
+          "q": [
+            2,
+            null
+          ],
+          "r": [
+            2,
+            null
+          ],
+          "t": [
+            2,
+            null
+          ],
+          "K": [
+            1,
+            1
+          ]
+        },
+        "status": "proved",
+        "source": "D062",
+        "route": [
+          "nested-cuts",
+          "zero-host-lift",
+          "physical-singleton"
+        ]
+      },
+      {
+        "domain": {
+          "q": [
+            2,
+            null
+          ],
+          "r": [
+            2,
+            null
+          ],
+          "t": [
+            1,
+            1
+          ],
+          "K": [
+            1,
+            1
+          ]
+        },
+        "status": "proved",
+        "source": "D062",
+        "route": [
+          "nested-cuts",
+          "zero-host-lift",
+          "physical-singleton"
+        ]
+      },
+      {
+        "domain": {
+          "q": [
+            1,
+            1
+          ],
+          "r": [
+            1,
+            null
+          ],
+          "t": [
+            1,
+            null
+          ],
+          "K": [
+            2,
+            null
+          ]
+        },
+        "status": "proved",
+        "source": "D051",
+        "route": [
+          "retained-q-one"
+        ]
+      },
+      {
+        "domain": {
+          "q": [
+            2,
+            null
+          ],
+          "r": [
+            1,
+            1
+          ],
+          "t": [
+            1,
+            null
+          ],
+          "K": [
+            2,
+            null
+          ]
+        },
+        "status": "proved",
+        "source": "D043",
+        "route": [
+          "retained-r-one"
+        ]
+      },
+      {
+        "domain": {
+          "q": [
+            2,
+            null
+          ],
+          "r": [
+            2,
+            null
+          ],
+          "t": [
+            1,
+            1
+          ],
+          "K": [
+            2,
+            null
+          ]
+        },
+        "status": "proved",
+        "source": "D037",
+        "route": [],
+        "resource_contract": {
+          "R": [
+            "r+6",
+            "K+r+5"
+          ],
+          "D": [
+            1,
+            "K"
+          ],
+          "port": [
+            "s:4",
+            "K+r+6"
+          ],
+          "consumer": "D037 adjacent original path"
+        }
+      },
+      {
+        "domain": {
+          "q": [
+            2,
+            null
+          ],
+          "r": [
+            2,
+            null
+          ],
+          "t": [
+            2,
+            null
+          ],
+          "K": [
+            2,
+            null
+          ]
+        },
+        "status": "unproved",
+        "source": null,
+        "route": []
+      }
+    ]
+  }
+}

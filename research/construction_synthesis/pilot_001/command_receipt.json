@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "command": "& .venv/Scripts/python.exe -B -X utf8 research/construction_synthesis/pilot_001/audit.py",
+  "shell": "PowerShell",
+  "working_directory": "LCL repository root",
+  "exit_code": 0,
+  "stdout": "PASS: 6 ledgers, 8 rules, 4 scoped failures, 8 atlas rows, 55 cut checks.\r\n",
+  "wall_seconds": 6.7534401,
+  "official_runs": 1
+}
