@@ -1,0 +1,36 @@
+{
+  "commands": [
+    {
+      "argv": [
+        ".venv/Scripts/python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "evidence/validation/B4_D068_FIRST_HOST_UPPER_BLOCK_001/produce.py"
+      ],
+      "exit_code": 0,
+      "started_utc": "2026-11-23T02:27:26.415238+00:00",
+      "stderr": "",
+      "stdout": "Producer PASS: seven cut receipts and one checker rejection\r\n",
+      "wall_seconds": 4.217528400011361
+    },
+    {
+      "argv": [
+        ".venv/Scripts/python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "evidence/validation/B4_D068_FIRST_HOST_UPPER_BLOCK_001/audit.py"
+      ],
+      "exit_code": 0,
+      "started_utc": "2026-11-23T02:27:30.632830+00:00",
+      "stderr": "",
+      "stdout": "Audit PASS: two original incidences, seven cut receipts and symbolic sum coefficients\r\n",
+      "wall_seconds": 4.326650400005747
+    }
+  ],
+  "formal_runs": 1,
+  "one_worker": true,
+  "retries": 0,
+  "status": "PASS"
+}

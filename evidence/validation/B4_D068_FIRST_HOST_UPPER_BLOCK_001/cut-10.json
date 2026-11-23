@@ -1,0 +1,149 @@
+{
+  "actual": [
+    4,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "c": 10,
+  "crossings": [
+    {
+      "difference": 6,
+      "edge": [
+        "b:0:0",
+        "l:0:0:0"
+      ]
+    },
+    {
+      "difference": 7,
+      "edge": [
+        "b:0:0",
+        "l:0:0:1"
+      ]
+    },
+    {
+      "difference": 4,
+      "edge": [
+        "b:0:0",
+        "s:0"
+      ]
+    },
+    {
+      "difference": 13,
+      "edge": [
+        "b:1:0",
+        "l:1:0:0"
+      ]
+    },
+    {
+      "difference": 10,
+      "edge": [
+        "b:1:0",
+        "l:1:0:1"
+      ]
+    },
+    {
+      "difference": 12,
+      "edge": [
+        "b:1:0",
+        "s:1"
+      ]
+    },
+    {
+      "difference": 15,
+      "edge": [
+        "b:2:0",
+        "l:2:0:0"
+      ]
+    },
+    {
+      "difference": 11,
+      "edge": [
+        "b:2:0",
+        "l:2:0:1"
+      ]
+    },
+    {
+      "difference": 16,
+      "edge": [
+        "b:2:0",
+        "s:2"
+      ]
+    },
+    {
+      "difference": 8,
+      "edge": [
+        "s:0",
+        "s:1"
+      ]
+    },
+    {
+      "difference": 14,
+      "edge": [
+        "s:1",
+        "s:2"
+      ]
+    },
+    {
+      "difference": 9,
+      "edge": [
+        "s:2",
+        "s:3"
+      ]
+    }
+  ],
+  "deficit": 1,
+  "excess": [],
+  "missing": [
+    5
+  ],
+  "required": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "required_count": 13,
+  "selected": [
+    "b:1:0",
+    "l:0:0:0",
+    "l:0:0:1",
+    "l:2:0:0",
+    "l:2:0:1",
+    "s:0",
+    "s:2"
+  ],
+  "selected_count": 12,
+  "twice_actual_sum": [
+    272,
+    31,
+    1
+  ],
+  "twice_required_sum": [
+    272,
+    33,
+    1
+  ],
+  "twice_sum_deficit": [
+    0,
+    2,
+    0
+  ]
+}

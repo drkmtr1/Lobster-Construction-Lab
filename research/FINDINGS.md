@@ -1087,3 +1087,21 @@ controls. All ten certificates, two batch partitions on P5 and six
 adverse rejections passed independent audit. Zero queries or nodes.
 [Proof](B4_22T2_ZERO_HOST_ALL_TK.md) ·
 [Evidence](../evidence/validation/B4_22T2_ZERO_HOST_ALL_TK_001/README.md) · D068
+
+## B4-D068-FIRST-HOST-UPPER-BLOCK-001
+
+**ACCEPT — EXHAUSTED RESTRICTED NEGATIVE.** On the exact D066
+named 2222 ledger with physical first host b:0:0=6 and exit
+s:4=9, the complete selected-edge counts at c=10,…,16 are
+12,10,9,8,7,4,3. The required counts are 13,12,11,10,9,8,7.
+The full named incidence spectra and missing/excess weights were audited.
+The required-minus-actual edge-difference sum for the prescribed
+operation is h times the corresponding positive deficit. This
+rules out every positive batch. The zero batch is the D066 identity.
+
+Seven cuts, two retained positives and one actual wrong-digest
+rejection passed independent audit and separate AI reviews.
+Zero new originals, queries, labeling enumeration or replay.
+The result preserves D067 and D068 and leaves alternative prefix
+supply open. [Proof](B4_D068_FIRST_HOST_UPPER_BLOCK.md) ·
+[Evidence](../evidence/validation/B4_D068_FIRST_HOST_UPPER_BLOCK_001/README.md) · D069

@@ -387,3 +387,15 @@ The second exchange necessarily repeats an assigned difference
 by the exact named rank-gap argument. The 684-map negative
 leaves other rank changes and independent suppliers open.
 [Proof and exact scope](B4_K2_D062_S4_ADJACENT_RANK.md)
+
+### F-B4-D068-FIRST-HOST-UPPER-BLOCK
+
+**REJECT** prescribed first-host upper-block insertion on the
+exact D066 normalized `[[2],[2],[2],[2],[]]` ledger at
+b:0:0=6 with physical s:4=9 held fixed. All seven admissible
+cuts c=10,…,16 fail the full incidence predicate. For any
+positive batch h the edge-difference sum falls short by h
+times the corresponding strictly positive selected-count deficit.
+The zero batch is the identity. Other ledgers and insertion
+rules remain outside this failure.
+[Proof and exact scope](B4_D068_FIRST_HOST_UPPER_BLOCK.md)

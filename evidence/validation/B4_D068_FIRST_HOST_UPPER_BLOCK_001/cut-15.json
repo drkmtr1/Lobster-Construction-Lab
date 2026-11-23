@@ -1,0 +1,78 @@
+{
+  "actual": [
+    9,
+    14,
+    15,
+    16
+  ],
+  "c": 15,
+  "crossings": [
+    {
+      "difference": 15,
+      "edge": [
+        "b:2:0",
+        "l:2:0:0"
+      ]
+    },
+    {
+      "difference": 16,
+      "edge": [
+        "b:2:0",
+        "s:2"
+      ]
+    },
+    {
+      "difference": 14,
+      "edge": [
+        "s:1",
+        "s:2"
+      ]
+    },
+    {
+      "difference": 9,
+      "edge": [
+        "s:2",
+        "s:3"
+      ]
+    }
+  ],
+  "deficit": 4,
+  "excess": [],
+  "missing": [
+    10,
+    11,
+    12,
+    13
+  ],
+  "required": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "required_count": 8,
+  "selected": [
+    "l:2:0:0",
+    "s:2"
+  ],
+  "selected_count": 4,
+  "twice_actual_sum": [
+    272,
+    25,
+    1
+  ],
+  "twice_required_sum": [
+    272,
+    33,
+    1
+  ],
+  "twice_sum_deficit": [
+    0,
+    8,
+    0
+  ]
+}

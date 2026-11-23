@@ -2,7 +2,7 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 22, 2026, Pacific/Honolulu<br>
-**Stage:** B4-22T2-ZERO-HOST-ALL-TK-001 complete and independently reviewed. The exact fixed-q=r=2 profile is ordinarily graceful for every positive t,K by a three-case selector.
+**Stage:** B4-D068-FIRST-HOST-UPPER-BLOCK-001 complete and independently reviewed. The original D066 ledger cannot supply the prescribed first-host insertion at any admissible cut for any positive batch.
 
 ## Current scientific objective
 
@@ -10,10 +10,11 @@ Develop independently supplied original-graph boundaries beyond the proved zero-
 
 ## One next action
 
-**With a new bounded scope decision, test first-branch growth on the D066 alpha prefix at fixed r=t=2.** Check the complete general-host upper-block incidence predicate at physical `b:0:0` with the existing exit held fixed.
+**With a new bounded scope decision, investigate an independently supplied alternative alpha labeling of the same named 2222 prefix.** Keep physical `s:4=9` and `b:2:0=0`, and require the complete general-host upper-block spectrum at the original `b:0:0`.
 
 ## What is established in this package
 
+- B4-D068-FIRST-HOST-UPPER-BLOCK-001 exhausts all seven first-host upper-block cuts on the exact D066 prefix ledger with b:0:0=6 and s:4=9. Each prescribed positive batch misses the required edge-difference sum by h times a positive deficit. The rejection is restricted to this ledger and operation. Two retained positives, seven cut receipts, one adverse digest rejection and an independent audit passed without a solver. See `research/B4_D068_FIRST_HOST_UPPER_BLOCK.md`, D069 and `evidence/validation/B4_D068_FIRST_HOST_UPPER_BLOCK_001/`.
 - B4-22T2-ZERO-HOST-ALL-TK-001 proves ordinary gracefulness of `[[2],[2],[t],[2]]+[[]]*(K+1)` for exact integers t,K>=2. Indexed third terminals extend D066 to A(t+15,8;6,1) while retaining physical s:4=9, the zero host and the original witness. The high shift gives R=[8,K+7], D=[1,K] and s:4=K+9 for the D067 recurrence. D037 at t=1 and D062 at K=1 complete the positive t,K selector at fixed q=r=2. Four new prefixes, four new full originals and two retained checks passed, with six adverse rejections and no queries. See `research/B4_22T2_ZERO_HOST_ALL_TK.md`, D068 and `evidence/validation/B4_22T2_ZERO_HOST_ALL_TK_001/`.
 - B4-2222-NONADJACENT-ALL-K-001 proves ordinary gracefulness for the exact ordered fourth-size-two family at q=r=t=2 and every exact integer K>=2. D066's high shift supplies R=[8,K+7], D=[1,K], and physical s:4=K+9. Strong induction on the retained recurrence, including the reflected bridge, consumes the actual named suffix. Retained K=2 and new K=3,4,5,8 passed independently. The public B2 wrapper retains its s:2 scope. See `research/B4_2222_NONADJACENT_ALL_K.md`, D067 and `evidence/validation/B4_2222_NONADJACENT_ALL_K_001/`.
 - B4-K2-ALPHA-PREFIX-S4-9-001 supplies the exact original alpha prefix with s:4=9 directly by named-edge arithmetic. Shifting the high labels by two gives R={8,9}, D={1,2}, s:4=11. The actual suffix 9,8 completes the retained original at q=r=t=K=2. Both certificates passed independent audit and reviews, with one new prefix original, zero new full originals, and zero queries or visited nodes. General interior continuation remains open. See `research/B4_K2_ALPHA_PREFIX_S4_9.md`, D066 and `evidence/validation/B4_K2_ALPHA_PREFIX_S4_9_001/`.

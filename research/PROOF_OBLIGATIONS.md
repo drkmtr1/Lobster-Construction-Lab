@@ -636,6 +636,9 @@ discharges the fixed q=r=2 case for all exact t,K>=2 while
 retaining the D066 physical port, witness and D067 consumer.
 D037 and D062 cover its remaining positive boundary cases.
 The joint supply for arbitrary q,r,t>=2 and K>=2 remains open.
-The next bounded question is whether the D066 seed supplies
-the complete first-host upper-block incidence predicate while
-fixing its physical exit at r=t=2.
+The [first-host obstruction](B4_D068_FIRST_HOST_UPPER_BLOCK.md)
+discharges the proposed upper-block premise negatively on the
+exact D066 ledger at fixed r=t=2 and s:4=9. Its sum proof rejects
+all positive batches on that ledger for the seven admissible cuts.
+An independently supplied alternative alpha ledger on the same
+original with the fixed exit and a valid first-host premise remains open.
