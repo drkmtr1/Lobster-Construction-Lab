@@ -697,3 +697,5 @@ The [D084 menu](R241_222_OFFSET_MENU.md) now settles every physical offset on th
 
 
 [D089](R241_3B3_PORT45_SYMBOLIC.md) discharges independent entrance-four supply on exact `[[3,b],[3]]` for all integers b≥2, with returned offset five. D087 and D089 have the required numerical equality at offset four. The first quantified composition of these particular suppliers still requires the actual original connector, joint label and difference partitions and returned physical ports on the concatenated spine. Independently varying the other quotas and proving reusable transitions also remain open.
+
+[D090](R241_2B2_3B3_JOINT.md) discharges the first exact quantified D087–D089 composition, for independently variable a,b≥2 on `[[2,a],[2],[3,b],[3]]`. The original connector s:1–s:2 realizes b+11 and the returned physical offsets are (3,5). A module accepting physical entrance five and returning exit three would address the next port-supply gap for reuse. That supply, any repeatable sequence using it, and arbitrary variation of the other quotas each require their own proofs.

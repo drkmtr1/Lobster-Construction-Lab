@@ -2,19 +2,21 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 23, 2026, Pacific/Honolulu<br>
-**Stage:** D089 closed. A(b+11,b+5;4,5) is **ACCEPTED** on exact `[[3,b],[3]]` for integers b≥2. [Proof](research/R241_3B3_PORT45_SYMBOLIC.md).
+**Stage:** D090 closed. A(a+b+20,a+b+9;3,5) is **ACCEPTED** on exact `[[2,a],[2],[3,b],[3]]` for integers a,b≥2. [Proof](research/R241_2B2_3B3_JOINT.md).
 
 ## Current scientific objective
 
-Supply multi-center modules with independently variable quotas and usable physical offsets. D087 supplies (3,4), and D089 now supplies (4,5) on a different quota family. The [latest handoff](handoffs/CODEX-20261123-r241-3b3-port45-symbolic.md) records the proved supplier and the numerical offset match. A quantified join still needs its original connector and exact inventories.
+Supply multi-center modules with independently variable quotas and usable physical offsets. D090 composes two independent suppliers on the actual four-section spine. The [latest handoff](handoffs/CODEX-20261123-r241-2b2-3b3-joint.md) records the proof and its returned offset five. Supply of a compatible return toward entrance three remains open.
 
 ## One next action
 
-Under separate authorization, prove or refute normalized alpha supply A(a+b+20,a+b+9;3,5) on the exact named four-section original `[[2,a],[2],[3,b],[3]]` for integers a,b≥2 using the D087 and D089 suppliers and the retained R241 rule. Verify the actual spine connector, joint label and difference partitions, and returned physical ports without solvers or assignment enumeration.
+Under separate authorization, prove or refute the normalized physical state A(10,6;5,3) on the exact named original `[[4],[2]]`. Its prescribed spine labels are s:0=5 and s:1=9. Determine by direct construction or a structural obstruction whether this fixed module could supply the offset-five entrance and offset-three exit needed to return to D090's entrance. Use zero solvers, assignment enumeration or joins.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
+
+- D090 proves A(a+b+20,a+b+9;3,5) on exact named `[[2,a],[2],[3,b],[3]]` for every integer pair a,b≥2. The actual s:1–s:2 edge supplies the sole intervening weight b+11 between the preserved D089 and shifted D087 spectra. One boundary original and certificate, two retained positives and three adverse rejections passed independent audit and separate reviews. See [proof](research/R241_2B2_3B3_JOINT.md) and [evidence](evidence/validation/LCL_R241_2B2_3B3_JOINT_001/README.md).
 
 - D089 proves A(b+11,b+5;4,5) on exact named `[[3,b],[3]]` for every integer b≥2. The variable terminal edges give [1,b], and the ten remaining original edges give [b+1,b+10]. One new b=2 original and certificate, two retained positive rechecks and three adverse rejections passed independent audit and separate reviews. See [proof](research/R241_3B3_PORT45_SYMBOLIC.md) and [evidence](evidence/validation/LCL_R241_3B3_PORT45_SYMBOLIC_001/README.md).
 

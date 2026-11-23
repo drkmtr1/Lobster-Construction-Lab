@@ -1,0 +1,101 @@
+{
+  "task": "LCL-R241-2B2-3B3-JOINT-001",
+  "starting_checkpoint": "830c36b931b02a03e99e8b3ba4b4f778f178db38",
+  "evidence_hash_convention": "SHA-256 of raw file bytes. File paths are relative to this manifest. The manifest excludes itself.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": "audit.py",
+      "bytes": 12399,
+      "sha256": "6d8020214827e99ec127ddd28a88fa20169a2a8b941f14980488e002b655a173"
+    },
+    {
+      "path": "command_receipt.json",
+      "bytes": 1754,
+      "sha256": "2821b0792fd0447be87808c4580f6364bb175b25a0018ba03b13c3cb0b9d192d"
+    },
+    {
+      "path": "config.json",
+      "bytes": 3963,
+      "sha256": "27cb771cd22ad0a1d1414196e490e955daec8e65fa4e1015ffa8c50968afbc80"
+    },
+    {
+      "path": "original.json",
+      "bytes": 4383,
+      "sha256": "e43104da5cdc33ab6fcd9f19f731d981f4d8e9da5d573a1dfe6f446ce553d479"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3092,
+      "sha256": "4168ddafd1617cd55910008b4b090fa701dfc25664aa59ca3960ca39a918efea"
+    },
+    {
+      "path": "result.json",
+      "bytes": 14334,
+      "sha256": "ba5d15061a0dcda9807756b32e8ff0c87aaf4fff6ddeb5eaff43b8a4c51564a3"
+    },
+    {
+      "path": "REVIEWS.md",
+      "bytes": 3186,
+      "sha256": "ea18b30b34afcb006694057161e3a8d0e72e744f9b26bc7350d018cbdabd04ef"
+    },
+    {
+      "path": "run.py",
+      "bytes": 13724,
+      "sha256": "9ad1261598b17e58b0ac7f8847273465e34cc9fb0c09b1730057638e8849ea50"
+    }
+  ],
+  "source_hashes": {
+    "lcl/model.py": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6",
+    "lcl/verify.py": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909",
+    "references/PROVENANCE.json": "aef6f71ab460265291366041a4144cd119a15a48c22398b6e535e9c5c73b0ace",
+    "references/upstream/mdl/N241_relational_ports.md": "53ac2c8bf13457ae5630dd0c1c6e19b785d3b568b67d932e86d331901ee82e9e",
+    "research/R241_2B2_3B3_JOINT.md": "8848b22665db7af226d465126b3a958ccbba1b55198b2798df479d91ce537a4c",
+    "research/R241_2B2_SYMBOLIC_PORT34.md": "1be502b5d04bade20864642df717dbc71fec705ea06b8ded02e3fcfc43ddbe1f",
+    "research/R241_3B3_PORT45_SYMBOLIC.md": "c32ac3712af434f1d25ffe1283a0488473ac09d7d98362a113fe83d2a3c301ef",
+    "research/R241_3B2_PORT44_SYMBOLIC.md": "3f4225dbdf07710d5dc841e3ec582b22b8e9c176f4205ef847ecae0119bd2a11",
+    "evidence/validation/LCL_R241_2B2_SYMBOLIC_PORT34_001/original.json": "8e680702c32b34481e3b4e81b726443a147d883a866e36117a777876e1d27685",
+    "evidence/validation/LCL_R241_2B2_SYMBOLIC_PORT34_001/result.json": "4ce73dba4691e3c3f54161e50de28db13802306350703a6c936f6fa01b143273",
+    "evidence/validation/LCL_R241_2B2_SYMBOLIC_PORT34_001/MANIFEST.json": "c75ae91b9681afccf6f45c19876367d9dadcf7190cf6fdf49bb51d3142bfca38",
+    "evidence/validation/LCL_R241_2B2_SYMBOLIC_PORT34_001/command_receipt.json": "89c139590bb851d335e28ded95c6a40b6d6fa4daa3db2e80e3d9f8ff67276f70",
+    "evidence/validation/LCL_R241_3B3_PORT45_SYMBOLIC_001/original.json": "15f395dfe8ea4bc38fe2354190bd9ea2776b80d4d9ababb9219c34b07025d763",
+    "evidence/validation/LCL_R241_3B3_PORT45_SYMBOLIC_001/result.json": "bec62362ccfd7ccf856908b4c61ee383a024d047d193b533cfefb45b183743af",
+    "evidence/validation/LCL_R241_3B3_PORT45_SYMBOLIC_001/MANIFEST.json": "5f76b8e4e305aa42f98fc0b70636ebefdec81e5cf41b679cb73c441b5509ecc3",
+    "evidence/validation/LCL_R241_3B3_PORT45_SYMBOLIC_001/command_receipt.json": "b8eb962aed75ca45c35e0c936bf2645688b7e97515f3a559ea523ea3fb5b06eb",
+    "evidence/validation/LCL_R241_3B2_PORT44_SYMBOLIC_001/original.json": "f8cf4b71b353809e036d361c8e214bf58a455e163458447e305f102ecf82ba51",
+    "evidence/validation/LCL_R241_3B2_PORT44_SYMBOLIC_001/result.json": "d94f46b596a2f5bf9eeb28bef587ad348c84155082dda82c74369521e5a9e4a5",
+    "evidence/validation/LCL_R241_3B2_PORT44_SYMBOLIC_001/MANIFEST.json": "127c31fb401417e3984ca53503fe9b095e55135ce7164cd560c14893ebcb3fb1",
+    "evidence/validation/LCL_R241_3B2_PORT44_SYMBOLIC_001/command_receipt.json": "f94875b21f579fb0559c3a47506555305e7f37f9ae822d359410a3d5b3869dc8",
+    "evidence/validation/LCL_R241_223_STRICT_RETURN_001/command_receipts.json": "0cf2e399d699013fe18f2847cab0e97012c24b959e2a61a2187e0cad2cdb2527",
+    "evidence/validation/LCL_R241_223_AUDIT_CLOSEOUT_001/MANIFEST.json": "ae834752c9417656d4afc2aa88d5dd37bea347eada803cbc0ec6b0563296904b"
+  },
+  "runtime": {
+    "path": ".venv/Scripts/python.exe",
+    "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "graph_digest": "ff3c03a17863bbf33bdd2e7d4cc452310740f967198d97045bcc3158b9683786",
+  "ledger_id": "66f5cb9407d61b85705675c509ed6b3bd3defa84408668f3b6a166f029558b06",
+  "connector": {
+    "edge": [
+      "s:1",
+      "s:2"
+    ],
+    "weight": 13
+  },
+  "baseline_tag": {
+    "ref": "refs/tags/lcl-v0.1.0-baseline",
+    "object": "fddfc1dd9541324b2ed2de2505bc750b3e3f0b9d",
+    "peeled_commit": "36ea1603602491bf3c1c5b81ed4c23aaa2210e70"
+  },
+  "upstream_main_pins": {
+    "MDL": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+    "MDL Bounded Search": "e48b94eec4091b4fe189e325cab2eda464409943"
+  },
+  "execution_status": "PASS",
+  "combined_process_cpu_seconds": 0.203125
+}

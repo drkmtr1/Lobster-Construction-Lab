@@ -1,0 +1,670 @@
+{
+  "audit": {
+    "adverse": {
+      "false_connector_is_original_edge": false,
+      "missing_connector_weight": 13,
+      "valid_digest_bound": "ff3c03a17863bbf33bdd2e7d4cc452310740f967198d97045bcc3158b9683786"
+    },
+    "archived_controls": {
+      "positive_archives": [
+        "D087",
+        "D089"
+      ],
+      "scoped_negative_archive": "D088"
+    },
+    "connector": {
+      "edge": [
+        "s:1",
+        "s:2"
+      ],
+      "weight": 13
+    },
+    "cut": 13,
+    "enumeration_visits": 0,
+    "graph_digest": "ff3c03a17863bbf33bdd2e7d4cc452310740f967198d97045bcc3158b9683786",
+    "input_offsets": {
+      "A": [
+        4,
+        5
+      ],
+      "B": [
+        3,
+        4
+      ]
+    },
+    "inventories": {
+      "differences": {
+        "A_internal": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "B_internal": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ],
+        "connector": [
+          13
+        ]
+      },
+      "labels": {
+        "A_high": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "A_low": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "B_high": [
+          19,
+          20,
+          21,
+          22,
+          23
+        ],
+        "B_low": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "unused_differences": [],
+      "unused_labels": []
+    },
+    "ledger_id": "66f5cb9407d61b85705675c509ed6b3bd3defa84408668f3b6a166f029558b06",
+    "new_graph_identities": 0,
+    "physical_witness": [
+      "s:0",
+      "s:1",
+      "s:2",
+      "s:3"
+    ],
+    "solver_calls": 0,
+    "spine_labels": [
+      3,
+      23,
+      10,
+      18
+    ],
+    "status": "PASS",
+    "weights_in_original_order": [
+      20,
+      13,
+      8,
+      17,
+      19,
+      18,
+      16,
+      15,
+      14,
+      23,
+      21,
+      22,
+      4,
+      7,
+      6,
+      5,
+      3,
+      2,
+      1,
+      12,
+      9,
+      10,
+      11
+    ]
+  },
+  "boundary": [
+    2,
+    2
+  ],
+  "certificate": {
+    "blocks": {
+      "A": {
+        "cut": 7,
+        "labels": {
+          "b:2:0": 8,
+          "b:2:1": 7,
+          "b:3:0": 0,
+          "l:2:0:0": 1,
+          "l:2:0:1": 2,
+          "l:2:0:2": 3,
+          "l:2:1:0": 5,
+          "l:2:1:1": 6,
+          "l:3:0:0": 9,
+          "l:3:0:1": 10,
+          "l:3:0:2": 11,
+          "s:2": 4,
+          "s:3": 12
+        },
+        "ports": [
+          "s:2",
+          "s:3"
+        ],
+        "source": "D089"
+      },
+      "B": {
+        "cut": 6,
+        "labels": {
+          "b:0:0": 7,
+          "b:0:1": 6,
+          "b:1:0": 0,
+          "l:0:0:0": 1,
+          "l:0:0:1": 2,
+          "l:0:1:0": 4,
+          "l:0:1:1": 5,
+          "l:1:0:0": 8,
+          "l:1:0:1": 9,
+          "s:0": 3,
+          "s:1": 10
+        },
+        "ports": [
+          "s:0",
+          "s:1"
+        ],
+        "source": "D087"
+      }
+    },
+    "checker": {
+      "claim": "finite certificate for this exact named target only",
+      "edge_differences": [
+        20,
+        13,
+        8,
+        17,
+        19,
+        18,
+        16,
+        15,
+        14,
+        23,
+        21,
+        22,
+        4,
+        7,
+        6,
+        5,
+        3,
+        2,
+        1,
+        12,
+        9,
+        10,
+        11
+      ],
+      "errors": [],
+      "graph_digest": "ff3c03a17863bbf33bdd2e7d4cc452310740f967198d97045bcc3158b9683786",
+      "m": 23,
+      "n": 24,
+      "valid": true
+    },
+    "connector": {
+      "edge": [
+        "s:1",
+        "s:2"
+      ],
+      "weight": 13
+    },
+    "cut": 13,
+    "edge_rows": [
+      [
+        "s:0",
+        "s:1",
+        20
+      ],
+      [
+        "s:1",
+        "s:2",
+        13
+      ],
+      [
+        "s:2",
+        "s:3",
+        8
+      ],
+      [
+        "s:0",
+        "b:0:0",
+        17
+      ],
+      [
+        "b:0:0",
+        "l:0:0:0",
+        19
+      ],
+      [
+        "b:0:0",
+        "l:0:0:1",
+        18
+      ],
+      [
+        "s:0",
+        "b:0:1",
+        16
+      ],
+      [
+        "b:0:1",
+        "l:0:1:0",
+        15
+      ],
+      [
+        "b:0:1",
+        "l:0:1:1",
+        14
+      ],
+      [
+        "s:1",
+        "b:1:0",
+        23
+      ],
+      [
+        "b:1:0",
+        "l:1:0:0",
+        21
+      ],
+      [
+        "b:1:0",
+        "l:1:0:1",
+        22
+      ],
+      [
+        "s:2",
+        "b:2:0",
+        4
+      ],
+      [
+        "b:2:0",
+        "l:2:0:0",
+        7
+      ],
+      [
+        "b:2:0",
+        "l:2:0:1",
+        6
+      ],
+      [
+        "b:2:0",
+        "l:2:0:2",
+        5
+      ],
+      [
+        "s:2",
+        "b:2:1",
+        3
+      ],
+      [
+        "b:2:1",
+        "l:2:1:0",
+        2
+      ],
+      [
+        "b:2:1",
+        "l:2:1:1",
+        1
+      ],
+      [
+        "s:3",
+        "b:3:0",
+        12
+      ],
+      [
+        "b:3:0",
+        "l:3:0:0",
+        9
+      ],
+      [
+        "b:3:0",
+        "l:3:0:1",
+        10
+      ],
+      [
+        "b:3:0",
+        "l:3:0:2",
+        11
+      ]
+    ],
+    "graph_digest": "ff3c03a17863bbf33bdd2e7d4cc452310740f967198d97045bcc3158b9683786",
+    "inventories": {
+      "differences": {
+        "A_internal": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "B_internal": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ],
+        "connector": [
+          13
+        ]
+      },
+      "labels": {
+        "A_high": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "A_low": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "B_high": [
+          19,
+          20,
+          21,
+          22,
+          23
+        ],
+        "B_low": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "unused_differences": [],
+      "unused_labels": []
+    },
+    "labels": {
+      "b:0:0": 20,
+      "b:0:1": 19,
+      "b:1:0": 0,
+      "b:2:0": 14,
+      "b:2:1": 13,
+      "b:3:0": 6,
+      "l:0:0:0": 1,
+      "l:0:0:1": 2,
+      "l:0:1:0": 4,
+      "l:0:1:1": 5,
+      "l:1:0:0": 21,
+      "l:1:0:1": 22,
+      "l:2:0:0": 7,
+      "l:2:0:1": 8,
+      "l:2:0:2": 9,
+      "l:2:1:0": 11,
+      "l:2:1:1": 12,
+      "l:3:0:0": 15,
+      "l:3:0:1": 16,
+      "l:3:0:2": 17,
+      "s:0": 3,
+      "s:1": 23,
+      "s:2": 10,
+      "s:3": 18
+    },
+    "ledger_id": "66f5cb9407d61b85705675c509ed6b3bd3defa84408668f3b6a166f029558b06",
+    "offsets": [
+      3,
+      5
+    ],
+    "ports": [
+      "s:0",
+      "s:3"
+    ],
+    "spine_labels": [
+      3,
+      23,
+      10,
+      18
+    ],
+    "witness": [
+      "s:0",
+      "s:1",
+      "s:2",
+      "s:3"
+    ]
+  },
+  "controls": {
+    "D088": {
+      "domain": {
+        "exact_integer": true,
+        "min_b": 2,
+        "offsets": [
+          4,
+          4
+        ]
+      },
+      "graph_digest": "870a840435d074dcc62c3c26357a01f2f032859632df87cad843a42c5989a43a",
+      "receipt_sha256": "f94875b21f579fb0559c3a47506555305e7f37f9ae822d359410a3d5b3869dc8",
+      "replay_visits": 0
+    },
+    "adverse": {
+      "difference_inventory": {
+        "declared": {
+          "A_internal": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "B_internal": [
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "connector": []
+        },
+        "error": "claimed difference inventory disagrees with the original edges",
+        "valid": false
+      },
+      "digest": {
+        "checker": {
+          "claim": "finite certificate for this exact named target only",
+          "edge_differences": [
+            20,
+            13,
+            8,
+            17,
+            19,
+            18,
+            16,
+            15,
+            14,
+            23,
+            21,
+            22,
+            4,
+            7,
+            6,
+            5,
+            3,
+            2,
+            1,
+            12,
+            9,
+            10,
+            11
+          ],
+          "errors": [
+            "original graph digest mismatch"
+          ],
+          "graph_digest": "ff3c03a17863bbf33bdd2e7d4cc452310740f967198d97045bcc3158b9683786",
+          "m": 23,
+          "n": 24,
+          "valid": false
+        },
+        "expected_digest": "0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "physical_connector": {
+        "declared": [
+          "s:1",
+          "s:3"
+        ],
+        "error": "connector must be the actual U_B--L_A spine edge",
+        "valid": false
+      }
+    },
+    "positives": {
+      "D087": {
+        "checker": {
+          "claim": "finite certificate for this exact named target only",
+          "edge_differences": [
+            10,
+            7,
+            9,
+            8,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            13,
+            11,
+            12
+          ],
+          "errors": [],
+          "graph_digest": "ccb523e1bd406c19fe080e111589c6d5a340b8277590ef0f427a943a199dd520",
+          "m": 13,
+          "n": 14,
+          "valid": true
+        },
+        "graph_digest": "ccb523e1bd406c19fe080e111589c6d5a340b8277590ef0f427a943a199dd520",
+        "ledger_id": "9a81b7d472fec9ae756b2a8019d3f149199d44405cd3e76477930980fa5bd3c3",
+        "offsets": [
+          3,
+          4
+        ]
+      },
+      "D089": {
+        "checker": {
+          "claim": "finite certificate for this exact named target only",
+          "edge_differences": [
+            8,
+            4,
+            7,
+            6,
+            5,
+            3,
+            2,
+            1,
+            12,
+            9,
+            10,
+            11
+          ],
+          "errors": [],
+          "graph_digest": "b23da76e59640ebf2259fe83b04c1b67df992df785519f79e6c4bb0f470d267a",
+          "m": 12,
+          "n": 13,
+          "valid": true
+        },
+        "graph_digest": "b23da76e59640ebf2259fe83b04c1b67df992df785519f79e6c4bb0f470d267a",
+        "ledger_id": "ea5f7023ab16e35c974077a26ace977dc78d2f0b9886d797c048f99fc10ece3e",
+        "offsets": [
+          4,
+          5
+        ]
+      }
+    }
+  },
+  "domain": {
+    "exact_integers": true,
+    "min_a": 2,
+    "min_b": 2
+  },
+  "original_sha256": "e43104da5cdc33ab6fcd9f19f731d981f4d8e9da5d573a1dfe6f446ce553d479",
+  "parent": "830c36b931b02a03e99e8b3ba4b4f778f178db38",
+  "runtime": {
+    "path": ".venv/Scripts/python.exe",
+    "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "source_hashes": {
+    "evidence/validation/LCL_R241_223_AUDIT_CLOSEOUT_001/MANIFEST.json": "ae834752c9417656d4afc2aa88d5dd37bea347eada803cbc0ec6b0563296904b",
+    "evidence/validation/LCL_R241_223_STRICT_RETURN_001/command_receipts.json": "0cf2e399d699013fe18f2847cab0e97012c24b959e2a61a2187e0cad2cdb2527",
+    "evidence/validation/LCL_R241_2B2_SYMBOLIC_PORT34_001/MANIFEST.json": "c75ae91b9681afccf6f45c19876367d9dadcf7190cf6fdf49bb51d3142bfca38",
+    "evidence/validation/LCL_R241_2B2_SYMBOLIC_PORT34_001/command_receipt.json": "89c139590bb851d335e28ded95c6a40b6d6fa4daa3db2e80e3d9f8ff67276f70",
+    "evidence/validation/LCL_R241_2B2_SYMBOLIC_PORT34_001/original.json": "8e680702c32b34481e3b4e81b726443a147d883a866e36117a777876e1d27685",
+    "evidence/validation/LCL_R241_2B2_SYMBOLIC_PORT34_001/result.json": "4ce73dba4691e3c3f54161e50de28db13802306350703a6c936f6fa01b143273",
+    "evidence/validation/LCL_R241_3B2_PORT44_SYMBOLIC_001/MANIFEST.json": "127c31fb401417e3984ca53503fe9b095e55135ce7164cd560c14893ebcb3fb1",
+    "evidence/validation/LCL_R241_3B2_PORT44_SYMBOLIC_001/command_receipt.json": "f94875b21f579fb0559c3a47506555305e7f37f9ae822d359410a3d5b3869dc8",
+    "evidence/validation/LCL_R241_3B2_PORT44_SYMBOLIC_001/original.json": "f8cf4b71b353809e036d361c8e214bf58a455e163458447e305f102ecf82ba51",
+    "evidence/validation/LCL_R241_3B2_PORT44_SYMBOLIC_001/result.json": "d94f46b596a2f5bf9eeb28bef587ad348c84155082dda82c74369521e5a9e4a5",
+    "evidence/validation/LCL_R241_3B3_PORT45_SYMBOLIC_001/MANIFEST.json": "5f76b8e4e305aa42f98fc0b70636ebefdec81e5cf41b679cb73c441b5509ecc3",
+    "evidence/validation/LCL_R241_3B3_PORT45_SYMBOLIC_001/command_receipt.json": "b8eb962aed75ca45c35e0c936bf2645688b7e97515f3a559ea523ea3fb5b06eb",
+    "evidence/validation/LCL_R241_3B3_PORT45_SYMBOLIC_001/original.json": "15f395dfe8ea4bc38fe2354190bd9ea2776b80d4d9ababb9219c34b07025d763",
+    "evidence/validation/LCL_R241_3B3_PORT45_SYMBOLIC_001/result.json": "bec62362ccfd7ccf856908b4c61ee383a024d047d193b533cfefb45b183743af",
+    "lcl/model.py": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6",
+    "lcl/verify.py": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909",
+    "references/PROVENANCE.json": "aef6f71ab460265291366041a4144cd119a15a48c22398b6e535e9c5c73b0ace",
+    "references/upstream/mdl/N241_relational_ports.md": "53ac2c8bf13457ae5630dd0c1c6e19b785d3b568b67d932e86d331901ee82e9e",
+    "research/R241_2B2_3B3_JOINT.md": "8848b22665db7af226d465126b3a958ccbba1b55198b2798df479d91ce537a4c",
+    "research/R241_2B2_SYMBOLIC_PORT34.md": "1be502b5d04bade20864642df717dbc71fec705ea06b8ded02e3fcfc43ddbe1f",
+    "research/R241_3B2_PORT44_SYMBOLIC.md": "3f4225dbdf07710d5dc841e3ec582b22b8e9c176f4205ef847ecae0119bd2a11",
+    "research/R241_3B3_PORT45_SYMBOLIC.md": "c32ac3712af434f1d25ffe1283a0488473ac09d7d98362a113fe83d2a3c301ef"
+  },
+  "status": "PASS",
+  "task": "LCL-R241-2B2-3B3-JOINT-001"
+}
