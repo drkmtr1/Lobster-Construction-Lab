@@ -657,7 +657,11 @@ rules out the same joint premise for all allowed a=1..7
 with physical s:4=9 and b:2:0=0. The
 [exit-eight obstruction](B4_D073_U8_DUAL_BLOCK_STRUCTURAL.md)
 rules out the same premises at s:4=8, keeping the zero-host pin
-and the first-host label free. The next proposed seed question
-uses physical s:4=10. Compatibility, both joint inventories and
-the matching original-path consumer remain separate proof
-obligations for any future simultaneous supplier.
+and the first-host label free. The
+[exit-ten result](B4_D074_U10_DUAL_BLOCK_FEASIBILITY.md)
+rules out simultaneous supply at s:4=10 under the same zero-host
+pin and free first-host label. Its hypothetical high-shift gate at
+K=2 fails independently. The next obligation pivots to direct
+normalized supply on named 2322, at low size 9 and s:4=10,
+to target the retained nonadjacent K=2 original-path interface.
+Variable interior r and joint continuation remain open.

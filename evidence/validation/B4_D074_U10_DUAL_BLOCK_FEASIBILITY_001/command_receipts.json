@@ -1,0 +1,38 @@
+{
+  "combined_process_cpu_seconds_with_driver": 2.25,
+  "formal_runs": 1,
+  "retries": 0,
+  "setup_process_cpu_seconds": 0.71875,
+  "stages": [
+    {
+      "argv": [
+        ".venv/Scripts/python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "evidence/validation/B4_D074_U10_DUAL_BLOCK_FEASIBILITY_001/verify_controls.py"
+      ],
+      "exit_code": 0,
+      "started_utc": "2026-11-23T04:17:49.180728+00:00",
+      "stderr": "",
+      "stdout": "PASS: two original-bound controls and one actual wrong-digest rejection\r\n",
+      "wall_seconds": 5.277633700054139
+    },
+    {
+      "argv": [
+        ".venv/Scripts/python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "evidence/validation/B4_D074_U10_DUAL_BLOCK_FEASIBILITY_001/audit.py"
+      ],
+      "exit_code": 0,
+      "started_utc": "2026-11-23T04:17:54.458448+00:00",
+      "stderr": "",
+      "stdout": "PASS: named original, 19 necessary pairs, local arithmetic, archived controls, and K=2 gate\r\n",
+      "wall_seconds": 5.319496500014793
+    }
+  ],
+  "status": "PASS",
+  "workers": 1
+}

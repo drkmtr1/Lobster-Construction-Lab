@@ -1206,3 +1206,23 @@ accepted. D066–D070 and D073 keep their scopes. An adjacent original-path
 consumer remains a separate obligation for any future supplier.
 [Proof](B4_D073_U8_DUAL_BLOCK_STRUCTURAL.md) ·
 [Evidence](../evidence/validation/B4_D073_U8_DUAL_BLOCK_STRUCTURAL_001/README.md) · D074
+
+## B4-D074-U10-DUAL-BLOCK-FEASIBILITY-001
+
+**ACCEPT — EXHAUSTED RESTRICTED NEGATIVE by structural proof.**
+On the exact named 2222 alpha original with s:4=10 and b:2:0=0,
+no a=1..7 supplies both complete spectra on one ledger. The lower
+count and named edge containment exclude B=10 and B=12, leaving
+minimum-high B=8 with d=8. Mandatory upper-selected s:2 gives
+19 necessary (a,u) count pairs. All fail by parity, the weighted
+degree identity or the residual weights on actual named edges.
+
+**REJECT** the distinct proposed high-shift interface at K=2.
+Its physical port 12 and R={8,9} give first edge weights 4 or 3
+against D={1,2}. The same difference obstruction persists with
+low size p=8+j after hypothetical second-host growth. No joint
+growth or all-K theorem follows. Two retained controls, one
+wrong-digest rejection and an independent arithmetic audit passed
+separate read-only reviews with zero queries, nodes or new graphs.
+[Proof](B4_D074_U10_DUAL_BLOCK_FEASIBILITY.md) ·
+[Evidence](../evidence/validation/B4_D074_U10_DUAL_BLOCK_FEASIBILITY_001/README.md) · D075

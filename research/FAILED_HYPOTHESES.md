@@ -438,3 +438,15 @@ by count equality and actual original incidence contradictions.
 Other exits, labelings outside this orientation, and growth methods
 with different premises remain distinct.
 [Proof and exact scope](B4_D073_U8_DUAL_BLOCK_STRUCTURAL.md)
+
+### F-B4-D074-U10-DUAL-BLOCK
+
+**REJECT** same-ledger upper and lower complete block supply
+on normalized named 2222 with physical s:4=10, b:2:0=0 and free
+first-host a=1..7. The structural proof covers all retained cuts.
+
+**REJECT** K=2 completion of the specified high-shift interface
+at offset three above max(R). Its first pending original edge
+cannot realize either unused difference, independently of seed
+existence. Other labelings and interfaces have separate scope.
+[Proof and exact scope](B4_D074_U10_DUAL_BLOCK_FEASIBILITY.md)

@@ -1,0 +1,70 @@
+{
+  "algorithm": "SHA-256",
+  "external_proof": {
+    "bytes": 10789,
+    "path": "research/B4_D074_U10_DUAL_BLOCK_FEASIBILITY.md",
+    "sha256": "ea0be5f7609f435d13d2fc751bfc333241f0425b9e1f18911c741e44724d4bd2"
+  },
+  "files": [
+    {
+      "bytes": 8,
+      "path": ".gitattributes",
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "bytes": 11696,
+      "path": "audit.py",
+      "sha256": "05f3869dda514febd8e46acc89c23c5523dfbbbc3bbdecaaa4101677a42b1435"
+    },
+    {
+      "bytes": 5087,
+      "path": "audit_result.json",
+      "sha256": "7099ced34bf9a5bcd1640b38aa4457b63495c86bb1b924f72aecc978e7564968"
+    },
+    {
+      "bytes": 1075,
+      "path": "command_receipts.json",
+      "sha256": "76fea71da3d24a867dc2ed874313b164dcd6909074157986793cc7ac28d543f3"
+    },
+    {
+      "bytes": 508,
+      "path": "commands.json",
+      "sha256": "5168a453699fdcd1a35ee7c21bbd54e8597dab3597d3fe85447a0f001fcd2202"
+    },
+    {
+      "bytes": 14941,
+      "path": "config.json",
+      "sha256": "1640f2ccd7af20579a7661a296361c462b11503cbd14d5cc3cfe45028c9b79f0"
+    },
+    {
+      "bytes": 2219,
+      "path": "controls.json",
+      "sha256": "4bbebfacd1100bb149445dc2f022dee0828397ddf8a26b3911a1fce377d6f084"
+    },
+    {
+      "bytes": 1390,
+      "path": "INTAKE.md",
+      "sha256": "bdd0421e0b0f318fd1f520000d0d6ae03372dd3917d37464f7258eb34123031e"
+    },
+    {
+      "bytes": 1744,
+      "path": "README.md",
+      "sha256": "5e7c45f6ec6a7823bf810ba9c7fe8f6f5addd32fa69396318c3f9cd46ccca9bb"
+    },
+    {
+      "bytes": 2222,
+      "path": "REVIEWS.md",
+      "sha256": "203759c816ba40b23ea07ab2692e297181de176e4f78f7e58414a102b8163c43"
+    },
+    {
+      "bytes": 2619,
+      "path": "run.py",
+      "sha256": "68ba02dd109d554dfc321008b7c0b9c82f04e85e299afe39e2bf9aedfdfbd553"
+    },
+    {
+      "bytes": 3489,
+      "path": "verify_controls.py",
+      "sha256": "efc14df43e968c371b0e5f7ccb510c3270cf4053cda74a1a3b098c425305a1ae"
+    }
+  ]
+}

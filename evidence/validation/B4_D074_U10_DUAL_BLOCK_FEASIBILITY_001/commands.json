@@ -1,0 +1,25 @@
+{
+  "driver": [
+    ".venv/Scripts/python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "evidence/validation/B4_D074_U10_DUAL_BLOCK_FEASIBILITY_001/run.py"
+  ],
+  "stages": [
+    [
+      ".venv/Scripts/python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "evidence/validation/B4_D074_U10_DUAL_BLOCK_FEASIBILITY_001/verify_controls.py"
+    ],
+    [
+      ".venv/Scripts/python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "evidence/validation/B4_D074_U10_DUAL_BLOCK_FEASIBILITY_001/audit.py"
+    ]
+  ]
+}
