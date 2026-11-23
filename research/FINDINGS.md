@@ -1045,3 +1045,24 @@ D063–D065 retain their restricted negatives. A quantified interior
 K>=2 supplier remains open.
 [Proof](B4_K2_ALPHA_PREFIX_S4_9.md) ·
 [Evidence](../evidence/validation/B4_K2_ALPHA_PREFIX_S4_9_001/README.md) · D066
+
+## B4-2222-NONADJACENT-ALL-K-001
+
+**ACCEPT** ordinary gracefulness of the exact named
+`[[2],[2],[2],[2]]+[[]]*(K+1)` for every exact integer K>=2.
+The independent D066 alpha supplier at physical s:4=9
+gives R=[8,K+7], D=[1,K] and s:4=K+9 after shifting
+only the high class by K. The translated nonadjacent
+recurrence consumes the actual original suffix. The
+strong induction accounts for its bridge as the first
+difference of the reflected smaller path. The unchanged
+public B2 wrapper retains its physical s:2 interface.
+
+Retained K=2 and new K=3,4,5,8 passed the unchanged
+full checker and independent audit. Four new originals,
+five full certificate calls, zero queries and nodes.
+The K=1 nonadjacent interface fails on its only edge.
+D062's separate K=1 supplier and all earlier restricted
+negatives stand. Arbitrary interior q,r,t remain open.
+[Proof](B4_2222_NONADJACENT_ALL_K.md) ·
+[Evidence](../evidence/validation/B4_2222_NONADJACENT_ALL_K_001/README.md) · D067

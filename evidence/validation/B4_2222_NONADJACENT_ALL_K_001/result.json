@@ -1,0 +1,31 @@
+{
+  "cases": {
+    "2": {
+      "certificate_sha256": "e4cbd7c5076796d439b8dd003974c4d15d32a6b82ee878662b53c51de210df02",
+      "origin": "retained"
+    },
+    "3": {
+      "certificate_sha256": "c1292be64087ded6040c379f61d67ff055a0274d01a9569b10eb2e42767c01e4",
+      "origin": "new"
+    },
+    "4": {
+      "certificate_sha256": "18a79944d5d86f2323679bc28190e6a95806824ea4a3372feb190975ee16915c",
+      "origin": "new"
+    },
+    "5": {
+      "certificate_sha256": "55532d33e1d7cc53d033b09fdae0e7f53f3ff7765e2300e7fc25442abde927ed",
+      "origin": "new"
+    },
+    "8": {
+      "certificate_sha256": "572e429c9848322dd62fe36fd01d4a6a2f2a71bd6cb081acba4377fe3c3a5ce4",
+      "origin": "new"
+    }
+  },
+  "cpu_seconds": 0.09375,
+  "enumeration_nodes": 0,
+  "full_certificates": 5,
+  "new_originals": 4,
+  "retained_K": 2,
+  "solver_queries": 0,
+  "status": "PASS_PENDING_INDEPENDENT_AUDIT"
+}

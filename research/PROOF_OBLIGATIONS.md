@@ -625,6 +625,11 @@ The [analytic alpha supplier](B4_K2_ALPHA_PREFIX_S4_9.md)
 now supplies the exact smallest interior original at q=r=t=K=2.
 Its independently verified two-edge interface has R={8,9},
 D={1,2}, and physical s:4=11 after the high shift. The finite
-result discharges that target. Continuation for the fixed
-profile at arbitrary K>=2 and joint arbitrary q,r,t supply
-remain separate proof obligations.
+result discharges that target.
+The [fixed-profile continuation proof](B4_2222_NONADJACENT_ALL_K.md)
+now discharges all exact K>=2 at q=r=t=2. It shifts only
+D066's high labels and composes the numerical nonadjacent
+consumer on the actual path from s:4, with both exact
+inventories proved. The D062 K=1 supplier stays separate.
+Supplying the joint family for arbitrary q,r,t>=2 and
+K>=2 remains a proof obligation.

@@ -1,0 +1,199 @@
+{
+  "adverse": "PASS",
+  "cases": {
+    "2": {
+      "C_K": [
+        3,
+        1,
+        0
+      ],
+      "D": [
+        1,
+        2
+      ],
+      "R": [
+        8,
+        9
+      ],
+      "graph_digest": "c5fd852e27ca85602e9a5a2cb39e3b14434b2783272c57523c2c1b7a317859f4",
+      "kind": "retained",
+      "m": 18,
+      "n": 19,
+      "pending_weights": [
+        2,
+        1
+      ],
+      "port": 11
+    },
+    "3": {
+      "C_K": [
+        4,
+        1,
+        0,
+        2
+      ],
+      "D": [
+        1,
+        2,
+        3
+      ],
+      "R": [
+        8,
+        9,
+        10
+      ],
+      "graph_digest": "c580237675f2c8270711f775ece27e238d28bcf760f1e565b7d5c965a5401a41",
+      "kind": "new",
+      "m": 19,
+      "n": 20,
+      "pending_weights": [
+        3,
+        1,
+        2
+      ],
+      "port": 12
+    },
+    "4": {
+      "C_K": [
+        5,
+        1,
+        2,
+        0,
+        3
+      ],
+      "D": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "R": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "graph_digest": "d47688986d549025b4b0a796d0d5410264872f0e4dd1fe61a6880a5fe2e4cc7a",
+      "kind": "new",
+      "m": 20,
+      "n": 21,
+      "pending_weights": [
+        4,
+        1,
+        2,
+        3
+      ],
+      "port": 13
+    },
+    "5": {
+      "C_K": [
+        6,
+        1,
+        4,
+        0,
+        2,
+        3
+      ],
+      "D": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "R": [
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "graph_digest": "5c8e1e8056e3c9c0bd758eff81e291879dc8eaf90bf7be84c3b5f30c92f11521",
+      "kind": "new",
+      "m": 21,
+      "n": 22,
+      "pending_weights": [
+        5,
+        3,
+        4,
+        2,
+        1
+      ],
+      "port": 14
+    },
+    "8": {
+      "C_K": [
+        9,
+        1,
+        7,
+        0,
+        5,
+        2,
+        6,
+        4,
+        3
+      ],
+      "D": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "R": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "graph_digest": "4af365845d9808228a4335c8cba57a17a0d595c50585a66f4122d80025be54af",
+      "kind": "new",
+      "m": 24,
+      "n": 25,
+      "pending_weights": [
+        8,
+        6,
+        7,
+        5,
+        3,
+        4,
+        2,
+        1
+      ],
+      "port": 17
+    }
+  },
+  "combined_cpu_seconds": 0.171875,
+  "enumeration_nodes": 0,
+  "full_certificates_checked": 5,
+  "new_audit_cases": 0,
+  "new_originals": 4,
+  "prefix_digest": "35c75a93573720212045e5dedb66a0d5ccfd5a09900ea12b791ec900938ea4f4",
+  "prefix_ledger_id": "a84d6183c8a6f97aa0a8d5aed6efb6122ed8029c7526e9fefd8bb242f0d108be",
+  "retained_originals": 1,
+  "runtime": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]",
+  "sha256": {
+    "adverse.json": "87d9b769ad718c8ad475e49e0de218dab7a86279ba42e506578c70688795c69c",
+    "freeze.json": "0ab7dafd57615358d028fae871286eae51dd68713c684c3b2118e86dc6c0936b",
+    "k2_certificate.json": "e4cbd7c5076796d439b8dd003974c4d15d32a6b82ee878662b53c51de210df02",
+    "k3_certificate.json": "c1292be64087ded6040c379f61d67ff055a0274d01a9569b10eb2e42767c01e4",
+    "k3_original.json": "ef4d893f1cdc66b5cb50923342d95ab0c4f32d5b00baf38bc3c9e18cb16848d4",
+    "k4_certificate.json": "18a79944d5d86f2323679bc28190e6a95806824ea4a3372feb190975ee16915c",
+    "k4_original.json": "1ac8fa649ab366ef67106a38743800038176c8e80293c98de407eaea2d8fee16",
+    "k5_certificate.json": "55532d33e1d7cc53d033b09fdae0e7f53f3ff7765e2300e7fc25442abde927ed",
+    "k5_original.json": "5a19ad4da4e8f464a68625c88b04912bec0aa6a97b678bbe9aa676fc5dea4645",
+    "k8_certificate.json": "572e429c9848322dd62fe36fd01d4a6a2f2a71bd6cb081acba4377fe3c3a5ce4",
+    "k8_original.json": "786a2e5b47e1e0a988fcda244fb53f12228d36f9e407d496c0c307c998bebd58",
+    "prefix_control.json": "a788fd07ac33ed531111048d630488ef4c02dfd2ef6b3a312681a1c99d6c7713",
+    "result.json": "9536074d97d5906088d75e6919702fec50cfc86168e88a72c54b04410688a341"
+  },
+  "solver_queries": 0,
+  "status": "PASS"
+}

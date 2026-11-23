@@ -1,0 +1,52 @@
+{
+  "k1": {
+    "D": [
+      1
+    ],
+    "R": [
+      8
+    ],
+    "forced_weight": 2,
+    "graph_generated": false,
+    "port": 10,
+    "rejection": "nonadjacent consumer requires exact integer K>=2"
+  },
+  "wrong_D": {
+    "D": [
+      1,
+      3
+    ],
+    "R": [
+      8,
+      9
+    ],
+    "port": 11,
+    "rejection": "incorrect original nonadjacent inventories or port"
+  },
+  "wrong_digest": {
+    "checker": {
+      "claim": "finite certificate for this exact named target only",
+      "edge_differences": [],
+      "errors": [
+        "complete certificate must label every original vertex exactly once",
+        "not every original edge has two valid labeled endpoints",
+        "edge differences are not exactly 1..m",
+        "original graph digest mismatch"
+      ],
+      "graph_digest": "c5fd852e27ca85602e9a5a2cb39e3b14434b2783272c57523c2c1b7a317859f4",
+      "m": 18,
+      "n": 19,
+      "valid": false
+    },
+    "expected": "0000000000000000000000000000000000000000000000000000000000000000",
+    "labels": {}
+  },
+  "wrong_path": {
+    "attempt": [
+      "s:2",
+      "s:5",
+      "s:6"
+    ],
+    "rejection": "expected original named path after s:4"
+  }
+}

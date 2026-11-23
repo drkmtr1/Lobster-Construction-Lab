@@ -1,6 +1,6 @@
 # Decisions and algorithm-change log
 
-This file owns consequential choices and change proposals. `STATE.md` owns current work; findings and failures own scientific dispositions. Dates below are November 20, 2026, Pacific/Honolulu, except D016 through D051 (November 21, 2026) and D052 through D066 (November 22, 2026).
+This file owns consequential choices and change proposals. `STATE.md` owns current work; findings and failures own scientific dispositions. Dates below are November 20, 2026, Pacific/Honolulu, except D016 through D051 (November 21, 2026) and D052 through D067 (November 22, 2026).
 
 | ID | Decision | Reason and review consequence |
 |---|---|---|
@@ -71,6 +71,7 @@ This file owns consequential choices and change proposals. `STATE.md` owns curre
 | D064 | Close B4-K2-D062-TWO-GAP-ORDER-PRESERVING-001 at parent b0303b9be3ba70de0936e9b942f8044c70a49938 and PIVOT | **ACCEPT** the 171-pair rank-map model, original-bound audit and 18/17 deduction on 51 hole pairs without pruning. **REJECT** all 342 named maps for this fixed rank order at q=r=t=K=2. The ten valid prefixes fail both suffix orders. Zero new graph identities, solver queries or historical replays. The sole proposed successor changes a rank at the actual port while keeping the original and a complete bounded grid. |
 | D065 | Close B4-K2-D062-S4-ADJACENT-RANK-001 at parent af9077e17bb720fb9da268d4dcb72f801ea41ccf and PIVOT | **ACCEPT** exact 684-map coverage, the retained 18/17 deduction for both changed ports, and the named rank-gap obstruction for R. **REJECT** both exact adjacent exit rank exchanges at q=r=t=K=2. L has one valid prefix and both suffix orders fail. Zero new graphs, solver queries, or historical replays. Propose independent normalized alpha prefix supply at the same target as the sole successor. |
 | D066 | Close B4-K2-ALPHA-PREFIX-S4-9-001 at parent dbb63fbe99d9aa21e3893b60e7aa633f81997571 and ADVANCE | **ACCEPT** the analytic alpha supplier on the named induced original, the conditional consumer, and the exact completed q=r=t=K=2 witness. One new P original, zero new T originals, zero queries or visited nodes. Separate read-only reviews and independent arithmetic audit accepted. Preserve D063–D065 restrictions and historical incomplete receipts. Propose testing the retained consumer on the fixed alpha prefix for arbitrary K>=2 as the sole subsequent task. |
+| D067 | Close B4-2222-NONADJACENT-ALL-K-001 at parent c0dc9245616eb5b43dca14af2605473ead1a99d5 and ADVANCE | **ACCEPT** the D066 shift, exact original B4 resource contract, strong recurrence induction including its bridge, and ordinary gracefulness at fixed q=r=t=2 for every exact K>=2. Recheck K=2 and check four new originals at K=3,4,5,8. Separate read-only reviews and independent arithmetic audit passed. Zero solver and enumeration. Preserve the B2 wrapper scope and D062 K=1. Propose a bounded fixed-q/r third-branch supply test as the sole successor. |
 
 ## Proposal template for the next consequential algorithm change
 
