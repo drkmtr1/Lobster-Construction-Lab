@@ -1,0 +1,146 @@
+{
+  "graph": {
+    "edges": [
+      [
+        "s:0",
+        "s:1"
+      ],
+      [
+        "s:0",
+        "b:0:0"
+      ],
+      [
+        "b:0:0",
+        "l:0:0:0"
+      ],
+      [
+        "b:0:0",
+        "l:0:0:1"
+      ],
+      [
+        "s:0",
+        "b:0:1"
+      ],
+      [
+        "b:0:1",
+        "l:0:1:0"
+      ],
+      [
+        "b:0:1",
+        "l:0:1:1"
+      ],
+      [
+        "b:0:1",
+        "l:0:1:2"
+      ],
+      [
+        "s:1",
+        "b:1:0"
+      ],
+      [
+        "b:1:0",
+        "l:1:0:0"
+      ],
+      [
+        "b:1:0",
+        "l:1:0:1"
+      ]
+    ],
+    "profile": [
+      [
+        2,
+        3
+      ],
+      [
+        2
+      ]
+    ],
+    "roles": {
+      "b:0:0": {
+        "branch": 0,
+        "kind": "branch",
+        "section": 0
+      },
+      "b:0:1": {
+        "branch": 1,
+        "kind": "branch",
+        "section": 0
+      },
+      "b:1:0": {
+        "branch": 0,
+        "kind": "branch",
+        "section": 1
+      },
+      "l:0:0:0": {
+        "branch": 0,
+        "kind": "leaf",
+        "leaf": 0,
+        "section": 0
+      },
+      "l:0:0:1": {
+        "branch": 0,
+        "kind": "leaf",
+        "leaf": 1,
+        "section": 0
+      },
+      "l:0:1:0": {
+        "branch": 1,
+        "kind": "leaf",
+        "leaf": 0,
+        "section": 0
+      },
+      "l:0:1:1": {
+        "branch": 1,
+        "kind": "leaf",
+        "leaf": 1,
+        "section": 0
+      },
+      "l:0:1:2": {
+        "branch": 1,
+        "kind": "leaf",
+        "leaf": 2,
+        "section": 0
+      },
+      "l:1:0:0": {
+        "branch": 0,
+        "kind": "leaf",
+        "leaf": 0,
+        "section": 1
+      },
+      "l:1:0:1": {
+        "branch": 0,
+        "kind": "leaf",
+        "leaf": 1,
+        "section": 1
+      },
+      "s:0": {
+        "kind": "spine",
+        "section": 0
+      },
+      "s:1": {
+        "kind": "spine",
+        "section": 1
+      }
+    },
+    "schema_version": 1,
+    "spine": [
+      "s:0",
+      "s:1"
+    ],
+    "vertices": [
+      "s:0",
+      "b:0:0",
+      "l:0:0:0",
+      "l:0:0:1",
+      "b:0:1",
+      "l:0:1:0",
+      "l:0:1:1",
+      "l:0:1:2",
+      "s:1",
+      "b:1:0",
+      "l:1:0:0",
+      "l:1:0:1"
+    ]
+  },
+  "graph_digest": "935716942dfcf80c9b0f0c323872d83772ca870eaae173ba053978468a336174"
+}

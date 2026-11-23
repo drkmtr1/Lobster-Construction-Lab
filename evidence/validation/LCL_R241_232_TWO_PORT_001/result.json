@@ -1,0 +1,670 @@
+{
+  "audit": {
+    "alphabet_difference_sum": 24,
+    "degrees": {
+      "b:0:0": 3,
+      "b:0:1": 4,
+      "b:1:0": 3,
+      "l:0:0:0": 1,
+      "l:0:0:1": 1,
+      "l:0:1:0": 1,
+      "l:0:1:1": 1,
+      "l:0:1:2": 1,
+      "l:1:0:0": 1,
+      "l:1:0:1": 1,
+      "s:0": 3,
+      "s:1": 2
+    },
+    "distance_to_spine": {
+      "b:0:0": 1,
+      "b:0:1": 1,
+      "b:1:0": 1,
+      "l:0:0:0": 2,
+      "l:0:0:1": 2,
+      "l:0:1:0": 2,
+      "l:0:1:1": 2,
+      "l:0:1:2": 2,
+      "l:1:0:0": 2,
+      "l:1:0:1": 2,
+      "s:0": 0,
+      "s:1": 0
+    },
+    "high_vertices": [
+      "b:0:0",
+      "b:0:1",
+      "l:1:0:0",
+      "l:1:0:1",
+      "s:1"
+    ],
+    "low_vertices": [
+      "b:1:0",
+      "l:0:0:0",
+      "l:0:0:1",
+      "l:0:1:0",
+      "l:0:1:1",
+      "l:0:1:2",
+      "s:0"
+    ],
+    "named_assignment_visits": 0,
+    "offset_states": 2,
+    "ordered_center_cases": {
+      "2,0": [
+        {
+          "centers": [
+            8,
+            9
+          ],
+          "code": "L",
+          "forced_z": 2
+        },
+        {
+          "centers": [
+            8,
+            10
+          ],
+          "code": "P"
+        },
+        {
+          "centers": [
+            8,
+            11
+          ],
+          "code": "R5",
+          "forced_z": 5,
+          "mandatory": [
+            5,
+            6,
+            9,
+            2,
+            4,
+            5
+          ]
+        },
+        {
+          "centers": [
+            9,
+            8
+          ],
+          "code": "P"
+        },
+        {
+          "centers": [
+            9,
+            10
+          ],
+          "code": "P"
+        },
+        {
+          "centers": [
+            9,
+            11
+          ],
+          "code": "M3",
+          "forced_z": 6,
+          "free_lows": [
+            0,
+            1,
+            3,
+            4,
+            5
+          ],
+          "mandatory": [
+            5,
+            7,
+            9,
+            1,
+            2,
+            4
+          ],
+          "residual": [
+            3,
+            6,
+            8,
+            10,
+            11
+          ]
+        },
+        {
+          "centers": [
+            10,
+            8
+          ],
+          "code": "P"
+        },
+        {
+          "centers": [
+            10,
+            9
+          ],
+          "code": "R7",
+          "forced_z": 4,
+          "mandatory": [
+            5,
+            8,
+            7,
+            3,
+            4,
+            7
+          ]
+        },
+        {
+          "centers": [
+            10,
+            11
+          ],
+          "code": "L",
+          "forced_z": 7
+        },
+        {
+          "centers": [
+            11,
+            8
+          ],
+          "code": "P"
+        },
+        {
+          "centers": [
+            11,
+            9
+          ],
+          "code": "R5",
+          "forced_z": 5,
+          "mandatory": [
+            5,
+            9,
+            7,
+            2,
+            3,
+            5
+          ]
+        },
+        {
+          "centers": [
+            11,
+            10
+          ],
+          "code": "P"
+        }
+      ],
+      "3,4": [
+        {
+          "centers": [
+            7,
+            8
+          ],
+          "code": "P"
+        },
+        {
+          "centers": [
+            7,
+            9
+          ],
+          "code": "R6",
+          "forced_z": 2,
+          "mandatory": [
+            8,
+            4,
+            6,
+            9,
+            6,
+            8
+          ]
+        },
+        {
+          "centers": [
+            7,
+            10
+          ],
+          "code": "P"
+        },
+        {
+          "centers": [
+            8,
+            7
+          ],
+          "code": "S",
+          "forced_z": 0,
+          "free_lows": [
+            1,
+            2,
+            4,
+            5,
+            6
+          ],
+          "mandatory": [
+            8,
+            5,
+            4,
+            11,
+            9,
+            10
+          ],
+          "residual": [
+            1,
+            2,
+            3,
+            6,
+            7
+          ]
+        },
+        {
+          "centers": [
+            8,
+            9
+          ],
+          "code": "L",
+          "forced_z": 3
+        },
+        {
+          "centers": [
+            8,
+            10
+          ],
+          "code": "P"
+        },
+        {
+          "centers": [
+            9,
+            7
+          ],
+          "code": "M11",
+          "forced_z": 1,
+          "free_lows": [
+            0,
+            2,
+            4,
+            5,
+            6
+          ],
+          "mandatory": [
+            8,
+            6,
+            4,
+            10,
+            7,
+            9
+          ],
+          "residual": [
+            1,
+            2,
+            3,
+            5,
+            11
+          ]
+        },
+        {
+          "centers": [
+            9,
+            8
+          ],
+          "code": "P"
+        },
+        {
+          "centers": [
+            9,
+            10
+          ],
+          "code": "P"
+        },
+        {
+          "centers": [
+            10,
+            7
+          ],
+          "code": "R7",
+          "forced_z": 2,
+          "mandatory": [
+            8,
+            7,
+            4,
+            9,
+            6,
+            7
+          ]
+        },
+        {
+          "centers": [
+            10,
+            8
+          ],
+          "code": "P"
+        },
+        {
+          "centers": [
+            10,
+            9
+          ],
+          "code": "R6",
+          "forced_z": 5,
+          "mandatory": [
+            8,
+            7,
+            6,
+            6,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    "ordered_center_cases_checked": 24,
+    "required_difference_sum": 66,
+    "retained_replay_visits": 0,
+    "signed_corrections": {
+      "b:0:0": 2,
+      "b:0:1": 3,
+      "b:1:0": -2,
+      "s:0": -2,
+      "s:1": 1
+    },
+    "status": "PASS",
+    "verified_adverse_rejections": 3
+  },
+  "controls": {
+    "adverse": {
+      "difference": {
+        "checker": {
+          "claim": "finite certificate for this exact named target only",
+          "edge_differences": [
+            8,
+            5,
+            4,
+            6,
+            4,
+            1,
+            2,
+            6,
+            11,
+            9,
+            10
+          ],
+          "errors": [
+            "edge differences repeat",
+            "edge differences are not exactly 1..m"
+          ],
+          "graph_digest": "935716942dfcf80c9b0f0c323872d83772ca870eaae173ba053978468a336174",
+          "m": 11,
+          "n": 12,
+          "valid": false
+        },
+        "swap": [
+          "l:0:0:0",
+          "l:0:1:2"
+        ]
+      },
+      "digest": {
+        "checker": {
+          "claim": "finite certificate for this exact named target only",
+          "edge_differences": [
+            8,
+            5,
+            7,
+            6,
+            4,
+            1,
+            2,
+            3,
+            11,
+            9,
+            10
+          ],
+          "errors": [
+            "original graph digest mismatch"
+          ],
+          "graph_digest": "935716942dfcf80c9b0f0c323872d83772ca870eaae173ba053978468a336174",
+          "m": 11,
+          "n": 12,
+          "valid": false
+        },
+        "expected": "0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "port": {
+        "actual": [
+          3,
+          4
+        ],
+        "declared": [
+          2,
+          0
+        ],
+        "reason": "physical offset mismatch",
+        "valid": false
+      }
+    },
+    "d082_negative": {
+      "graph_digest": "aeab9d0451058925b074e17bf57eeb76e9ac843b7e8e4ba5daca8c02d7e23801",
+      "historical_receipt_sha256": "e4680a029e8c44c45d81581c86311aae570d570833412027ed34d7670eaab497",
+      "historical_visits": 2880,
+      "new_replay_visits": 0,
+      "pair": [
+        1,
+        0
+      ],
+      "positive_certificates": 0
+    },
+    "d084_positives": [
+      {
+        "checker": {
+          "claim": "finite certificate for this exact named target only",
+          "edge_differences": [
+            4,
+            7,
+            5,
+            6,
+            8,
+            10,
+            9,
+            1,
+            2,
+            3
+          ],
+          "errors": [],
+          "graph_digest": "aeab9d0451058925b074e17bf57eeb76e9ac843b7e8e4ba5daca8c02d7e23801",
+          "m": 10,
+          "n": 11,
+          "valid": true
+        },
+        "ledger_id": "2391a9ebbaafc8999a5bcc27639e5258d016a9495428dd26098d58ea23ff0594",
+        "pair": [
+          2,
+          0
+        ]
+      },
+      {
+        "checker": {
+          "claim": "finite certificate for this exact named target only",
+          "edge_differences": [
+            7,
+            4,
+            6,
+            5,
+            3,
+            1,
+            2,
+            10,
+            9,
+            8
+          ],
+          "errors": [],
+          "graph_digest": "aeab9d0451058925b074e17bf57eeb76e9ac843b7e8e4ba5daca8c02d7e23801",
+          "m": 10,
+          "n": 11,
+          "valid": true
+        },
+        "ledger_id": "b761f02893f902d8b95f4afb00c0e508441b9a2a7ff84ed15188b1b5bcdcc584",
+        "pair": [
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  "graph_digest": "935716942dfcf80c9b0f0c323872d83772ca870eaae173ba053978468a336174",
+  "original_sha256": "f161f512aaf8b21f0fa20322af3330318217fedd30a6482ca7e46afa871e8e3b",
+  "pairs": [
+    {
+      "graph_digest": "935716942dfcf80c9b0f0c323872d83772ca870eaae173ba053978468a336174",
+      "pair": [
+        2,
+        0
+      ],
+      "port_labels": [
+        2,
+        7
+      ],
+      "proof": "ordered center contradictions",
+      "status": "EXCLUDED"
+    },
+    {
+      "certificate": {
+        "checker": {
+          "claim": "finite certificate for this exact named target only",
+          "edge_differences": [
+            8,
+            5,
+            7,
+            6,
+            4,
+            1,
+            2,
+            3,
+            11,
+            9,
+            10
+          ],
+          "errors": [],
+          "graph_digest": "935716942dfcf80c9b0f0c323872d83772ca870eaae173ba053978468a336174",
+          "m": 11,
+          "n": 12,
+          "valid": true
+        },
+        "cut": 7,
+        "edge_rows": [
+          [
+            "s:0",
+            "s:1",
+            8
+          ],
+          [
+            "s:0",
+            "b:0:0",
+            5
+          ],
+          [
+            "b:0:0",
+            "l:0:0:0",
+            7
+          ],
+          [
+            "b:0:0",
+            "l:0:0:1",
+            6
+          ],
+          [
+            "s:0",
+            "b:0:1",
+            4
+          ],
+          [
+            "b:0:1",
+            "l:0:1:0",
+            1
+          ],
+          [
+            "b:0:1",
+            "l:0:1:1",
+            2
+          ],
+          [
+            "b:0:1",
+            "l:0:1:2",
+            3
+          ],
+          [
+            "s:1",
+            "b:1:0",
+            11
+          ],
+          [
+            "b:1:0",
+            "l:1:0:0",
+            9
+          ],
+          [
+            "b:1:0",
+            "l:1:0:1",
+            10
+          ]
+        ],
+        "graph_digest": "935716942dfcf80c9b0f0c323872d83772ca870eaae173ba053978468a336174",
+        "labels": {
+          "b:0:0": 8,
+          "b:0:1": 7,
+          "b:1:0": 0,
+          "l:0:0:0": 1,
+          "l:0:0:1": 2,
+          "l:0:1:0": 6,
+          "l:0:1:1": 5,
+          "l:0:1:2": 4,
+          "l:1:0:0": 9,
+          "l:1:0:1": 10,
+          "s:0": 3,
+          "s:1": 11
+        },
+        "ledger_id": "c021941534f6ac250ad77fdf1fca7d6c21cfae619c6498fca22f66dc7f8114fa",
+        "physical_ports": [
+          "s:0",
+          "s:1"
+        ],
+        "port_labels": [
+          3,
+          11
+        ],
+        "witness": [
+          "s:0",
+          "s:1"
+        ]
+      },
+      "graph_digest": "935716942dfcf80c9b0f0c323872d83772ca870eaae173ba053978468a336174",
+      "pair": [
+        3,
+        4
+      ],
+      "port_labels": [
+        3,
+        11
+      ],
+      "proof": "explicit named ledger",
+      "status": "WITNESSED"
+    }
+  ],
+  "parent": "8c8dc2abbca0a2ba3c2615c4b42410c7383b9ee3",
+  "runtime": {
+    "path": ".venv/Scripts/python.exe",
+    "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "source_hashes": {
+    "evidence/validation/LCL_R241_222_OFFSET_MENU_001/MANIFEST.json": "9372e5b07fae85ef67819d1b592185c36ac9e8708075ec68b38455a7d1d5cd0f",
+    "evidence/validation/LCL_R241_222_OFFSET_MENU_001/result.json": "d667507493df288fd0e13fdb51a5a82a622805f103b144dfed7c04721182b974",
+    "evidence/validation/LCL_R241_222_STRICT_RETURN_001/MANIFEST.json": "ab6f259f2fa19b79f2bab53dab1f9abe71ca9d62aeb22ca08fa12726e68c9c8e",
+    "evidence/validation/LCL_R241_222_STRICT_RETURN_001/audit_result.json": "bbae06541d4950553a88beff1c9d0797c0ae6a9bbe8090d1263bed448ccc4461",
+    "evidence/validation/LCL_R241_222_STRICT_RETURN_001/config.json": "dd0d6a2d54120560524ce349ca1488b706b1664234d859277e63f63dc08d7149",
+    "evidence/validation/LCL_R241_222_STRICT_RETURN_001/enumeration.json": "e4680a029e8c44c45d81581c86311aae570d570833412027ed34d7670eaab497",
+    "evidence/validation/LCL_R241_222_STRICT_RETURN_001/strict_original.json": "e6ffffcb6985e907748a42ca1ee91e83aa453c6ebbbae047e966a2b3115ee5d5",
+    "evidence/validation/LCL_R241_223_AUDIT_CLOSEOUT_001/MANIFEST.json": "ae834752c9417656d4afc2aa88d5dd37bea347eada803cbc0ec6b0563296904b",
+    "evidence/validation/LCL_R241_223_STRICT_RETURN_001/command_receipts.json": "0cf2e399d699013fe18f2847cab0e97012c24b959e2a61a2187e0cad2cdb2527",
+    "evidence/validation/LCL_R241_TWO_CENTER_PORT_001/audit_result.json": "b14a0bdbcd8e922e8c576031407316cb6401ba92c6bed96e2781154e09411f85",
+    "lcl/model.py": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6",
+    "lcl/verify.py": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909",
+    "references/upstream/mdl/N241_relational_ports.md": "53ac2c8bf13457ae5630dd0c1c6e19b785d3b568b67d932e86d331901ee82e9e",
+    "research/R241_222_OFFSET_MENU.md": "432b2bb6dbc5f0a27cd4d078eba63d7225d88055d081050f39fe15036c93f7a4",
+    "research/R241_222_STRICT_RETURN.md": "0ce6bf579227edbae6e2f333059a70c1c39ac639c766a3f783d94c19a15b07df",
+    "research/R241_223_STRICT_RETURN.md": "4a39ef4e58ec3537b64e627728733c7348603a2be8eaf297a517027096278b98",
+    "research/R241_232_TWO_PORT.md": "1e7f7ba97a9e80fdd4a090e77bf94bb607b0db58bdd4a8eb9636ca997fa2e97b",
+    "research/R241_UNEQUAL_TWO_CENTER_RETURN.md": "ab36239c40636a27b42a320a573db8b61042641485f6315acdf606d3f2e0f64f",
+    "research/R241_ZERO_TO_ONE_BRIDGE.md": "eafec3678065e07a7ce8b868d9a475883679846df22df350f5dd585cfbf233e5"
+  },
+  "status": "PASS",
+  "task": "LCL-R241-232-TWO-PORT-001"
+}

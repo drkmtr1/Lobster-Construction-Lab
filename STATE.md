@@ -1,20 +1,22 @@
 # Current project state
 
 **Project:** Lobster Construction Lab v0.1.0  
-**Updated:** November 22, 2026, Pacific/Honolulu<br>
-**Stage:** D084 physical offset menu **ACCEPTED**. Two states witnessed, 28 excluded and zero unresolved. [Proof and matrix](research/R241_222_OFFSET_MENU.md).
+**Updated:** November 23, 2026, Pacific/Honolulu<br>
+**Stage:** D085 closed. On exact `[[2,3],[2]]` at cut seven, (2,0) is **EXCLUDED** and (3,4) is **WITNESSED**. [Proof](research/R241_232_TWO_PORT.md).
 
 ## Current scientific objective
 
-Develop independently supplied multi-center modules with usable physical offsets. D084 establishes two exact states on the retained `[[2,2],[2]]` original. Its (2,0) witness can feed the spine entrance of H(a) under R241. The second witness returns offset four and has a distinct conditional match at the retained R212 entrance. The [latest handoff](handoffs/CODEX-20261122-r241-222-offset-menu.md) records the results and limits.
+Supply multi-center modules across independently variable quotas with usable physical offsets. D085 keeps the witnessed (3,4) offset on one exact unequal-quota neighbor and excludes its prescribed (2,0) state. The [latest handoff](handoffs/CODEX-20261123-r241-232-two-port.md) records the conditional R241 matches and the bounded result.
 
 ## One next action
 
-Under separate authorization, assess the two physical offset states (2,0) and (3,4) on the single exact named neighboring `[[2,3],[2]]` original at cut seven. For each state, supply one explicit ledger, a structural exclusion, or an unresolved disposition. Use zero solver calls, zero complete-assignment enumeration and no joins.
+Under separate authorization, assess only the physical offset state (3,4) on exact named `[[2,4],[2]]` at cut eight. Use the D085 witness as a structural comparison and supply one explicit ledger, a structural exclusion, or an unresolved disposition, with zero solver calls, complete-assignment enumeration or joins.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
+
+- D085 excludes A(12,7;2,0) and independently supplies A(12,7;3,4) on the exact named `[[2,3],[2]]` original. The proof distinguishes both first centers and covers all 24 ordered numerical cases. One new original, one witness, two retained positive checks and three adverse rejections passed independent verification. No assignment enumeration, solver, replays or joins. See [proof](research/R241_232_TWO_PORT.md) and [evidence](evidence/validation/LCL_R241_232_TWO_PORT_001/README.md).
 
 - D084 completes the 30-state physical offset menu on exact original `[[2,2],[2]]` with cut six. Witnessed pairs are (2,0) and (3,4). The signed degree sum and mandatory original-edge differences exclude all 28 others. Both named ledgers, the independent arithmetic and all three adverse controls passed verification and separate reviews. Zero new graph identities, assignment visits, searches, replays or joins. See [proof and matrix](research/R241_222_OFFSET_MENU.md) and [evidence](evidence/validation/LCL_R241_222_OFFSET_MENU_001/README.md).
 

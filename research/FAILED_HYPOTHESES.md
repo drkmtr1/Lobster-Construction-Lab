@@ -485,3 +485,7 @@ edge would have weight 2. The separate K=1 construction is unaffected.
 ### F-R241-222-EXCLUDED-OFFSETS
 
 **REJECT** the 28 individual physical alpha offset states marked E in the [D084 menu](R241_222_OFFSET_MENU.md#the-complete-menu) for the exact named `[[2,2],[2]]` original at cut six. The signed degree sum excludes odd exit offsets. The remaining excluded states fail a mandatory incidence or residual-weight condition for every numerical center possibility. D082's (1,0) exclusion retains its historical evidence without replay. The same original has witnessed states (2,0) and (3,4). D084
+
+### F-R241-232-OFFSET-20
+
+**REJECT** A(12,7;2,0) on exact named `[[2,3],[2]]` at prescribed s:0=2 and s:1=7. The two unequal first-center roles have distinct signed-degree coefficients. All 12 ordered choices fail parity, the low inventory, a mandatory repeated weight or missing weight 3. The same original supplies A(12,7;3,4). [Proof](R241_232_TWO_PORT.md) · D085
