@@ -1,0 +1,7 @@
+# Verified intake
+
+November 22, 2026 Pacific/Honolulu. LCL-R241-TWO-CENTER-PORT-001. Local HEAD, origin tracking and actual GitHub main agree at `abd43466e1333e8c3f792a7e2109fa6cbaed418c`; the working tree was clean. The local and remote baseline tag object `fddfc1dd9541324b2ed2de2505bc750b3e3f0b9d` peels to `36ea1603602491bf3c1c5b81ed4c23aaa2210e70`. Protected remote main refs match MDL `858a8c1fcfda87ba40bb1adee498a6131504a803` and Bounded Search `e48b94eec4091b4fe189e325cab2eda464409943`. The pinned original MDL theorem was read by Git blob `faca17cfa4c484127413762adc0c36b771a18f71`. D078's raw evidence manifest and external proof verified.
+
+[Task packet](../../../tasks/LCL_Codex_D079_TwoCenter_R241_Port_Falsifier_2026-11-22.md) SHA-256 `14764778b026adf5db1eee72ed1f64abf1270dc91aae845fd2ae14eb056bda2f`. The accompanying v8 Project charter was read as context only, SHA-256 `a66d8711dd1131258c1f16e62ff597429919583922096dfa97ec1a9b094bcd6c`. Project settings are owner-managed. The selected D078 action is the exact normalized pair `[[a,b],[c]]` with physical offsets (1,1). The older D076 zero-host action remains deferred and unstarted.
+
+Two exact originals, two positive controls, a wrong-digest verifier check and a separate R241 offset rejection. Three named enumeration products of 36, 576 and 144 visits, cap 800. One Python 3.13 CPU worker, cap 30 combined process-CPU seconds, 2,000,000 bytes per record and 6,000,000 bytes total. No other profiles, solver calls, replay, retries or successor execution.

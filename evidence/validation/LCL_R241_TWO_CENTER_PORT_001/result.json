@@ -1,0 +1,24 @@
+{
+  "adverse_controls": 2,
+  "assignments": 756,
+  "counts": {
+    "neighbor_strict": {
+      "positive": 4,
+      "visits": 144
+    },
+    "small_orientation": {
+      "positive": 4,
+      "visits": 576
+    },
+    "small_strict": {
+      "positive": 0,
+      "visits": 36
+    }
+  },
+  "originals": 2,
+  "positive_controls": 2,
+  "producer_process_cpu_seconds": 0.03125,
+  "replays": 0,
+  "solver_calls": 0,
+  "status": "COMPLETE"
+}

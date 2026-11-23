@@ -461,3 +461,7 @@ edge would have weight 2. The separate K=1 construction is unaffected.
 ### F-R241-PAIRED-SPINE-L1
 
 **REJECT** the exact high-shift suffix interface for one trailing empty section. At L=1 it leaves only vertex label P and difference 1 at physical exit s:(n−1)=P+2. The sole original pending edge would use difference 2. This result concerns that interface. [Proof](R241_PAIRED_BRANCHED_SPINE.md#exact-suffix-resources-and-termination) · D078
+
+### F-R241-TWO-CENTER-STRICT-PORT
+
+**REJECT** universal fixed physical offsets (1,1) for positive quotas on `[[a,b],[c]]`. On original `[[1,1],[1]]` the cut of size four and pins s:0=1, s:1=5 force a repeated original difference. This same graph has graceful alternate-port states. The verified (1,0) state also cannot directly precede an entrance of offset 1 under the prescribed R241 placement. [Proof](R241_TWO_CENTER_PORT_FALSIFIER.md) · D079

@@ -2,20 +2,21 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 22, 2026, Pacific/Honolulu<br>
-**Stage:** LCL-R241-PAIRED-BRANCHED-SPINE-001 complete. D078 accepts paired supply and exact suffix completion on the stated original family.
+**Stage:** LCL-R241-TWO-CENTER-PORT-001 complete. D079 rejects the universal fixed-offset two-center pair and verifies finite alternate states.
 
 ## Current scientific objective
 
-Extend the accepted one-center-per-section construction toward original sections with multiple centers. The [roadmap](docs/strategy/LCL_Branched_Spine_Research_Roadmap_2026-11-22.md) gives strategic context. The [final handoff](handoffs/CODEX-20261122-r241-paired-branched-spine.md) records the selected obligation and the reviewed result. The [task authorization](tasks/LCL_Codex_R241_Arbitrary_Branched_Spine_2026-11-22.md) governed only the completed R241 task.
+Extend the accepted one-center-per-section construction toward multiple centers using compatible physical offsets. The [roadmap](docs/strategy/LCL_Branched_Spine_Research_Roadmap_2026-11-22.md) gives strategic context. The [D079 handoff](handoffs/CODEX-20261122-r241-two-center-port.md) records the fixed-port falsifier and finite controls. The [D079 authorization](tasks/LCL_Codex_D079_TwoCenter_R241_Port_Falsifier_2026-11-22.md) governed only the completed task.
 
 ## One next action
 
-Investigate an independently supplied R241 pair on the exact original profile [[a,b],[c]] for positive integers a,b,c, with low entrance s:0 of label 1 and high exit s:1 of label P+1, so the proposed pair can replace M at an existing spine join.
+Investigate whether the exact original one-center pair [[1],[1]] independently supplies physical ports (0,1), with low entrance s:0 and high exit s:1, as a possible R241 bridge from the verified two-center (1,0) state back to the D078 offset-one chain.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
 
+- D079 rejects universal fixed-offset (1,1) supply on positive-quota `[[a,b],[c]]` by the analytic contradiction on `[[1,1],[1]]`. Exact named counts are 0/36 strict and 4/576 orientation-only on that original, with two ledgers each at (1,0) and (2,3), and 4/144 strict on `[[1,1],[2]]`. Positive controls and adverse checks passed independent audit and separate reviews. See [proof](research/R241_TWO_CENTER_PORT_FALSIFIER.md) and [evidence](evidence/validation/LCL_R241_TWO_CENTER_PORT_001/README.md).
 - D078 supplies the original one-center-per-section prefix for any finite number of initial sections and positive quotas, even n with nonnegative quotas, and odd n with first quota positive and the others nonnegative. Its normalized high exit is P+1 at s:(n−1). The high shift by L leaves R=[P,P+L−1], D=[1,L] and physical port P+L+1 for the original suffix, proving ordinary gracefulness for L≥2. The normalized L=0 prefix is already alpha graceful. Nine certificates, seven new originals, two exact archive originals, thirteen joins and three adverse rejections passed independent audit and reviews. See [proof](research/R241_PAIRED_BRANCHED_SPINE.md) and [evidence](evidence/validation/LCL_R241_PAIRED_BRANCHED_SPINE_001/README.md).
 - B4-D075-DIRECT-2322-ALPHA-S4-10-001 supplies A(18,9;4,1) on the exact named 2322 prefix. Its high shift and original nonadjacent suffix give ordinary gracefulness for exact K≥2 at these fixed branch sizes. The port is s:4=K+10 with R=[9,K+8] and D=[1,K]. This ledger has neither optional host predicate. One new prefix, two completions, two archived control rechecks and two adverse rejections passed independent audit and reviews with no search. See `research/B4_D075_DIRECT_2322_ALPHA_S4_10.md`, D076 and `evidence/validation/B4_D075_DIRECT_2322_ALPHA_S4_10_001/`.
 - B4-D074-U10-DUAL-BLOCK-FEASIBILITY-001 rejects same-ledger dual supply on exact named 2222 with s:4=10, b:2:0=0 and any a=1..7. Named containment leaves only B=8, and the 19 necessary upper count pairs fail by parity, weighted degrees or exact residual weights. Even a hypothetical offset-three shifted exit cannot close K=2. Independent arithmetic and separate reviews passed with zero search. See `research/B4_D074_U10_DUAL_BLOCK_FEASIBILITY.md`, D075 and `evidence/validation/B4_D074_U10_DUAL_BLOCK_FEASIBILITY_001/`.

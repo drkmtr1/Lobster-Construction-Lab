@@ -1,0 +1,38 @@
+{
+  "combined_process_cpu_seconds": 0.078125,
+  "retries": 0,
+  "runs": 1,
+  "stages": [
+    {
+      "argv": [
+        ".venv/Scripts/python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "evidence.validation.LCL_R241_TWO_CENTER_PORT_001.run"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "",
+      "utc": "2026-11-23T05:48:07.602572+00:00",
+      "wall_seconds": 0.16025549999903888
+    },
+    {
+      "argv": [
+        ".venv/Scripts/python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "evidence/validation/LCL_R241_TWO_CENTER_PORT_001/audit.py"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "",
+      "utc": "2026-11-23T05:48:07.762851+00:00",
+      "wall_seconds": 0.11296569998376071
+    }
+  ],
+  "status": "COMPLETE",
+  "workers": 1
+}

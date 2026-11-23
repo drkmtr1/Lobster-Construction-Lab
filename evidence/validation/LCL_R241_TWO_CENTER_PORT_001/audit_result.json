@@ -1,0 +1,62 @@
+{
+  "audit_cpu_seconds": 0.015625,
+  "audited_cases": {
+    "neighbor_strict": {
+      "negative_receipts": 140,
+      "port_histogram": [
+        [
+          1,
+          1,
+          4
+        ]
+      ],
+      "positive": 4,
+      "visits": 144
+    },
+    "small_orientation": {
+      "negative_receipts": 572,
+      "port_histogram": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ]
+      ],
+      "positive": 4,
+      "visits": 576
+    },
+    "small_strict": {
+      "negative_receipts": 36,
+      "port_histogram": [],
+      "positive": 0,
+      "visits": 36
+    }
+  },
+  "expected_counts": {
+    "neighbor_strict": 4,
+    "small_orientation": 4,
+    "small_strict": 0
+  },
+  "new_enumerated_assignments": 0,
+  "observed_matches_expected": true,
+  "producer_and_audit_cpu_seconds": 0.046875,
+  "rank_and_falsifier_checks": 756,
+  "raw_receipts": {
+    "certificates.json": "d699995efa1ad1fc58c3b746afa460baf2798a119deadafbb9110f0310c487cb",
+    "commands.json": "8c550a22eb0ad4ddf28039f800d1eadbef159ccd1e23b97385a1dae65c4f6723",
+    "config.json": "bf61095820b7fce6305a39b51efd3805e6c637d755acded7e68b3c654d729505",
+    "identity.json": "533f966ae5e457712ae7589f871044e7b657d0f6db5d3012df74a7875f1c5571",
+    "neighbor_original.json": "156d59039500a950a0a075bacc4bd6a86d24488f6c91490eda2f5f567b0a3f76",
+    "neighbor_strict.json": "ec4c37c5b8d3bf0e5edf26584e234bda47e6f36d1eb399f1147a91cbee1578d2",
+    "result.json": "250cecdd585b17bfef8eb72ee337ebc6ed95d5532da7e044a5ea32274e9b921c",
+    "small_orientation.json": "40fb91fdd845e3e050eff783b6803db784980f5eb87e2a80dd59d5e294a1e08e",
+    "small_original.json": "652bc33b59f136df7e36225b94303d5aa3d1631980f1ee4a70db8fdeb027458a",
+    "small_strict.json": "8301a4dc0827bdabd75180918689cd1bb395c098cbb3b1f0c90c7fc99ad1496d"
+  },
+  "status": "PASS"
+}

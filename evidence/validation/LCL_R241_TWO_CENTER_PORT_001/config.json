@@ -1,0 +1,106 @@
+{
+  "task": "LCL-R241-TWO-CENTER-PORT-001",
+  "parent": "abd43466e1333e8c3f792a7e2109fa6cbaed418c",
+  "proof": "research/R241_TWO_CENTER_PORT_FALSIFIER.md",
+  "authorization": {
+    "path": "tasks/LCL_Codex_D079_TwoCenter_R241_Port_Falsifier_2026-11-22.md",
+    "sha256": "14764778b026adf5db1eee72ed1f64abf1270dc91aae845fd2ae14eb056bda2f"
+  },
+  "project_charter_read_only_sha256": "a66d8711dd1131258c1f16e62ff597429919583922096dfa97ec1a9b094bcd6c",
+  "profiles": {
+    "small": [
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "neighbor": [
+      [
+        1,
+        1
+      ],
+      [
+        2
+      ]
+    ]
+  },
+  "cases": [
+    [
+      "small_strict",
+      "small",
+      {
+        "s:0": 1,
+        "s:1": 5
+      },
+      36
+    ],
+    [
+      "small_orientation",
+      "small",
+      {},
+      576
+    ],
+    [
+      "neighbor_strict",
+      "neighbor",
+      {
+        "s:0": 1,
+        "s:1": 5
+      },
+      144
+    ]
+  ],
+  "controls": {
+    "small": {
+      "s:0": 1,
+      "s:1": 4,
+      "b:0:0": 7,
+      "l:0:0:0": 0,
+      "b:0:1": 6,
+      "l:0:1:0": 2,
+      "b:1:0": 3,
+      "l:1:0:0": 5
+    },
+    "neighbor": {
+      "s:0": 1,
+      "s:1": 5,
+      "b:0:0": 8,
+      "l:0:0:0": 0,
+      "b:0:1": 7,
+      "l:0:1:0": 2,
+      "b:1:0": 3,
+      "l:1:0:0": 4,
+      "l:1:0:1": 6
+    }
+  },
+  "limits": {
+    "workers": 1,
+    "assignments": 800,
+    "combined_process_cpu_seconds": 30,
+    "bytes_per_record": 2000000,
+    "bytes_total": 6000000,
+    "solver_calls": 0,
+    "retries": 0,
+    "history_replays": 0
+  },
+  "sources": [
+    "lcl/model.py",
+    "lcl/verify.py",
+    "research/R241_TWO_CENTER_PORT_FALSIFIER.md",
+    "tasks/LCL_Codex_D079_TwoCenter_R241_Port_Falsifier_2026-11-22.md",
+    "references/upstream/mdl/N241_relational_ports.md",
+    "docs/strategy/LCL_Branched_Spine_Research_Roadmap_2026-11-22.md",
+    "research/R241_PAIRED_BRANCHED_SPINE.md",
+    "evidence/validation/LCL_R241_PAIRED_BRANCHED_SPINE_001/REVIEWS.md",
+    "evidence/validation/LCL_R241_PAIRED_BRANCHED_SPINE_001/MANIFEST.json",
+    "handoffs/CODEX-20261122-r241-paired-branched-spine.md"
+  ],
+  "upstream": {
+    "MDL": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+    "bounded_search": "e48b94eec4091b4fe189e325cab2eda464409943",
+    "r241_blob": "faca17cfa4c484127413762adc0c36b771a18f71"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "parent": "abd43466e1333e8c3f792a7e2109fa6cbaed418c",
+  "runtime": {
+    "path": ".venv/Scripts/python.exe",
+    "python": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]",
+    "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664"
+  },
+  "sources": {
+    "docs/strategy/LCL_Branched_Spine_Research_Roadmap_2026-11-22.md": "fa4f5565cabc0001911f7566f9ca9430826a71d5bd02a01a2191c896af8b6a98",
+    "evidence/validation/LCL_R241_PAIRED_BRANCHED_SPINE_001/MANIFEST.json": "ccd1efc422a5acf75bc4a5732ebf35f82d230f84700ccaf6a00f893f8b090f67",
+    "evidence/validation/LCL_R241_PAIRED_BRANCHED_SPINE_001/REVIEWS.md": "4c73ea3bd3344b41fd585645686a01ec385089f81fd8ab7e9d1fa32bdb9a9f54",
+    "evidence/validation/LCL_R241_TWO_CENTER_PORT_001/INTAKE.md": "53e1e814070747a03a49934b7b9697a36667cadbf8b6d3701217a1c04f1a757b",
+    "evidence/validation/LCL_R241_TWO_CENTER_PORT_001/audit.py": "25a02f5f50a477c4e3327cad88ba5c754ff1e7f329059eac41fcb72d9aab5eca",
+    "evidence/validation/LCL_R241_TWO_CENTER_PORT_001/commands.json": "8c550a22eb0ad4ddf28039f800d1eadbef159ccd1e23b97385a1dae65c4f6723",
+    "evidence/validation/LCL_R241_TWO_CENTER_PORT_001/config.json": "bf61095820b7fce6305a39b51efd3805e6c637d755acded7e68b3c654d729505",
+    "evidence/validation/LCL_R241_TWO_CENTER_PORT_001/driver.py": "e12490665e749f0cbaff8ac1eb7147c8692aac2db4336b6dfa2bd8aad380469b",
+    "evidence/validation/LCL_R241_TWO_CENTER_PORT_001/run.py": "661f5a9cf3cface56cc6be02089c166e964cdab9b0264919f540aaf9d6bd9730",
+    "handoffs/CODEX-20261122-r241-paired-branched-spine.md": "45685fff3c804fe385674fef2de777a668346c7914a250a54efcd14e793b3f58",
+    "lcl/model.py": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6",
+    "lcl/verify.py": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909",
+    "references/upstream/mdl/N241_relational_ports.md": "53ac2c8bf13457ae5630dd0c1c6e19b785d3b568b67d932e86d331901ee82e9e",
+    "research/R241_PAIRED_BRANCHED_SPINE.md": "5a73a215baca0feaa378e80fa1c30b1d27602258f7a4175873287da9cdb086ed",
+    "research/R241_TWO_CENTER_PORT_FALSIFIER.md": "2c54ba4140cd4354a7d599eded4d6d841ec02d685e987b10de5c9802fac005ba",
+    "tasks/LCL_Codex_D079_TwoCenter_R241_Port_Falsifier_2026-11-22.md": "14764778b026adf5db1eee72ed1f64abf1270dc91aae845fd2ae14eb056bda2f"
+  }
+}

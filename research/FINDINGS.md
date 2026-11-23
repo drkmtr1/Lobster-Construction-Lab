@@ -1242,3 +1242,11 @@ One new prefix, two completions at K=2 and K=5, two retained co-original control
 **ACCEPT** ordinary gracefulness of those exact originals with L≥2 trailing empty sections. The prefix shift produces R=[P,P+L−1], D=[1,L] and physical s:(n−1)=P+L+1. The retained recurrence uses both inventories on the actual suffix. In the B4 convention L=K+1 the all-positive case now covers the entire four-section, one-center-per-section family for K≥1, including varying fourth quotas. D076 and its other ledger remain preserved.
 
 **REJECT** the specified shifted interface at L=1. The odd first-zero regime, arbitrary numbers of centers, and interior empty sections remain outside this construction. Nine certificates, thirteen joins, seven new original records, two reused originals and three in-memory adverse checks passed separate review and independent audit. Zero search, enumeration or replay. [Proof](R241_PAIRED_BRANCHED_SPINE.md) · [Evidence](../evidence/validation/LCL_R241_PAIRED_BRANCHED_SPINE_001/README.md) · D078
+
+## LCL-R241-TWO-CENTER-PORT-001
+
+**ACCEPT** the analytic obstruction on original `[[1,1],[1]]` at normalized cut P=4 and physical pins s:0=1, s:1=5. The largest required difference forces a repeated weight on two actual edges in every case. **REJECT** the universal fixed-(1,1) positive-quota supplier on `[[a,b],[c]]`.
+
+**ACCEPT** the finite controls A(8,4;1,0) on that same original and A(9,4;1,1) on `[[1,1],[2]]`. The completed counts are 0/36 strict and 4/576 orientation-only on the smaller original, and 4/144 strict on the neighbor. The smaller graph has two ledgers each at (1,0) and (2,3). Its entering and outgoing offset sets are disjoint in that physical orientation, excluding a direct R241 join of two such copies by the same placement. A compatible return transition remains open.
+
+Two originals, two explicit certificates and two adverse rejections passed independent audit and separate reviews. The three products used 756 visits including 36 shared rows, with no fresh audit enumeration, solver calls, retries or replays. [Proof](R241_TWO_CENTER_PORT_FALSIFIER.md) · [Evidence](../evidence/validation/LCL_R241_TWO_CENTER_PORT_001/README.md) · D079

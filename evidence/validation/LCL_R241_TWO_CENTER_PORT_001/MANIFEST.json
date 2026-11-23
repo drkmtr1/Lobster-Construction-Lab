@@ -1,0 +1,112 @@
+{
+  "algorithm": "SHA-256",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": "audit_result.json",
+      "bytes": 1873,
+      "sha256": "b14a0bdbcd8e922e8c576031407316cb6401ba92c6bed96e2781154e09411f85"
+    },
+    {
+      "path": "audit.py",
+      "bytes": 10564,
+      "sha256": "25a02f5f50a477c4e3327cad88ba5c754ff1e7f329059eac41fcb72d9aab5eca"
+    },
+    {
+      "path": "certificates.json",
+      "bytes": 3913,
+      "sha256": "d699995efa1ad1fc58c3b746afa460baf2798a119deadafbb9110f0310c487cb"
+    },
+    {
+      "path": "command_receipts.json",
+      "bytes": 821,
+      "sha256": "c40c8ea2c756352e1c2059ca180438b9347d0a41af2cbd706d348b639991a141"
+    },
+    {
+      "path": "commands.json",
+      "bytes": 478,
+      "sha256": "8c550a22eb0ad4ddf28039f800d1eadbef159ccd1e23b97385a1dae65c4f6723"
+    },
+    {
+      "path": "config.json",
+      "bytes": 2339,
+      "sha256": "bf61095820b7fce6305a39b51efd3805e6c637d755acded7e68b3c654d729505"
+    },
+    {
+      "path": "driver.py",
+      "bytes": 2722,
+      "sha256": "e12490665e749f0cbaff8ac1eb7147c8692aac2db4336b6dfa2bd8aad380469b"
+    },
+    {
+      "path": "identity.json",
+      "bytes": 2351,
+      "sha256": "533f966ae5e457712ae7589f871044e7b657d0f6db5d3012df74a7875f1c5571"
+    },
+    {
+      "path": "INTAKE.md",
+      "bytes": 1527,
+      "sha256": "53e1e814070747a03a49934b7b9697a36667cadbf8b6d3701217a1c04f1a757b"
+    },
+    {
+      "path": "neighbor_original.json",
+      "bytes": 1925,
+      "sha256": "156d59039500a950a0a075bacc4bd6a86d24488f6c91490eda2f5f567b0a3f76"
+    },
+    {
+      "path": "neighbor_strict.json",
+      "bytes": 24900,
+      "sha256": "ec4c37c5b8d3bf0e5edf26584e234bda47e6f36d1eb399f1147a91cbee1578d2"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2745,
+      "sha256": "888f8936e43efdfc5f2d813149307931a346941f8f0ca484dfe40c6cbfb131c8"
+    },
+    {
+      "path": "result.json",
+      "bytes": 433,
+      "sha256": "250cecdd585b17bfef8eb72ee337ebc6ed95d5532da7e044a5ea32274e9b921c"
+    },
+    {
+      "path": "REVIEWS.md",
+      "bytes": 2150,
+      "sha256": "9ab452cd5da14adbed2e1bc015de42e404dff68a37025305bab08d52968344c8"
+    },
+    {
+      "path": "run.py",
+      "bytes": 7902,
+      "sha256": "661f5a9cf3cface56cc6be02089c166e964cdab9b0264919f540aaf9d6bd9730"
+    },
+    {
+      "path": "small_orientation.json",
+      "bytes": 104700,
+      "sha256": "40fb91fdd845e3e050eff783b6803db784980f5eb87e2a80dd59d5e294a1e08e"
+    },
+    {
+      "path": "small_original.json",
+      "bytes": 1726,
+      "sha256": "652bc33b59f136df7e36225b94303d5aa3d1631980f1ee4a70db8fdeb027458a"
+    },
+    {
+      "path": "small_strict.json",
+      "bytes": 6221,
+      "sha256": "8301a4dc0827bdabd75180918689cd1bb395c098cbb3b1f0c90c7fc99ad1496d"
+    }
+  ],
+  "external": [
+    {
+      "path": "research/R241_TWO_CENTER_PORT_FALSIFIER.md",
+      "bytes": 5829,
+      "sha256": "2c54ba4140cd4354a7d599eded4d6d841ec02d685e987b10de5c9802fac005ba"
+    },
+    {
+      "path": "tasks/LCL_Codex_D079_TwoCenter_R241_Port_Falsifier_2026-11-22.md",
+      "bytes": 8024,
+      "sha256": "14764778b026adf5db1eee72ed1f64abf1270dc91aae845fd2ae14eb056bda2f"
+    }
+  ]
+}
