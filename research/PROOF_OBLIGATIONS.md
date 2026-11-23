@@ -613,5 +613,11 @@ The [two-gap test](B4_K2_D062_TWO_GAP_ORDER_PRESERVING.md)
 also exhausts all hole pairs and both suffix orders for the fixed
 D062 prefix ranking on the same exact target. It reaches two
 additional valid prefixes and neither supplies a two-edge
-completion. A different rank order, original-bound supplier,
-or structural continuation remains a separate obligation.
+completion.
+The [adjacent-exit test](B4_K2_D062_S4_ADJACENT_RANK.md)
+rejects the two exact adjacent exchanges of the D062 port's
+rank at the same target. The second exchange also has a
+structural repeated-difference obstruction. A structurally
+independent supplier or continuation is still needed for
+the interior. These finite rank restrictions do not settle
+ordinary gracefulness of the smallest interior original.

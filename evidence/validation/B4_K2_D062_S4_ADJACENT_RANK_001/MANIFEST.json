@@ -1,0 +1,85 @@
+{
+  "algorithm": "SHA-256",
+  "external_proof": {
+    "bytes": 3784,
+    "path": "research/B4_K2_D062_S4_ADJACENT_RANK.md",
+    "sha256": "819e0208ce28b04487ed89f3d1dc8039612b9a2d125ce823121d39fcea1c4fef"
+  },
+  "files": [
+    {
+      "bytes": 8,
+      "path": ".gitattributes",
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "bytes": 17997,
+      "path": "audit.py",
+      "sha256": "793a89424f2e853f40d2b78f321344006a184491376c93fa0c4a9b2320b4d78f"
+    },
+    {
+      "bytes": 1936,
+      "path": "audit_result.json",
+      "sha256": "44a09c88201ee1a4074944e231bbad30cfa7d7a9afe7cac273de6871761066b4"
+    },
+    {
+      "bytes": 217993,
+      "path": "cases-L.jsonl",
+      "sha256": "5f79ba8feeb47788e0e5f965400e9f29771693803508df578ba6bfb9ce401f4e"
+    },
+    {
+      "bytes": 220342,
+      "path": "cases-R.jsonl",
+      "sha256": "3d0f4284cb7c48971a441590994583b257e9933b8442dad3626c8a3ce4ec98e1"
+    },
+    {
+      "bytes": 932,
+      "path": "command_receipts.json",
+      "sha256": "6ed642f05da81a5b5c31c4456b37d414fc501cdc004a4e006b3c86677b10038d"
+    },
+    {
+      "bytes": 414,
+      "path": "commands.json",
+      "sha256": "365869e312a33ea7850cfd85633b8c1cf941d63ad8579518ebf775378692ef1a"
+    },
+    {
+      "bytes": 7289,
+      "path": "config.json",
+      "sha256": "4d7db001f12193ae3113bc74dcb4711132c83330695bba6c810a637d87f3fac2"
+    },
+    {
+      "bytes": 6536,
+      "path": "controls.json",
+      "sha256": "8eaff0dd8ec91513f482df44001fe0b7d4641a2535fdc5176ea91fb310c4d859"
+    },
+    {
+      "bytes": 5628,
+      "path": "freeze.json",
+      "sha256": "9240936ffb5f5059c9a258423af60130e23d80e25d10b07464a6af6bb2f4b62c"
+    },
+    {
+      "bytes": 3404,
+      "path": "pre-run.md",
+      "sha256": "6a799f1715862f71ef0ac99f570f55077b43d6672c6791262558cdca2bf4cad5"
+    },
+    {
+      "bytes": 3074,
+      "path": "README.md",
+      "sha256": "29fbdfc38d7f52c66102c18caa29d110187d4b46fbca1ba251698f0c22b01da9"
+    },
+    {
+      "bytes": 613,
+      "path": "result.json",
+      "sha256": "7b0e91f6432ad2953dc09a56ba5bbd6581bfd14faa875dd385b89163ec564be7"
+    },
+    {
+      "bytes": 1637,
+      "path": "REVIEWS.md",
+      "sha256": "e4cce380cec6d74c4c2eb9d816e7af091a3348c4375364961f1dcf9fcf02bed0"
+    },
+    {
+      "bytes": 12436,
+      "path": "validate.py",
+      "sha256": "463b6511ac289c65e67fa7cbe1f93cd800a7df2e0bc835330e35fede51e06a3e"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "added_cases": 0,
+  "added_graph_identities": 0,
+  "combined_cpu_seconds": 0.296875,
+  "cpu_seconds": 0.046875,
+  "distinct_full_maps": 684,
+  "full_cases": 684,
+  "prefilter_used": false,
+  "raw_sha256": {
+    "audit.py": "793a89424f2e853f40d2b78f321344006a184491376c93fa0c4a9b2320b4d78f",
+    "cases-L.jsonl": "5f79ba8feeb47788e0e5f965400e9f29771693803508df578ba6bfb9ce401f4e",
+    "cases-R.jsonl": "3d0f4284cb7c48971a441590994583b257e9933b8442dad3626c8a3ce4ec98e1",
+    "controls.json": "8eaff0dd8ec91513f482df44001fe0b7d4641a2535fdc5176ea91fb310c4d859",
+    "freeze.json": "9240936ffb5f5059c9a258423af60130e23d80e25d10b07464a6af6bb2f4b62c",
+    "result.json": "7b0e91f6432ad2953dc09a56ba5bbd6581bfd14faa875dd385b89163ec564be7"
+  },
+  "runtime": {
+    "platform": "win32",
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "scientific_status": "EXHAUSTED_RESTRICTED_NEGATIVE",
+  "solver_queries": 0,
+  "status": "PASS",
+  "target_digest": "c5fd852e27ca85602e9a5a2cb39e3b14434b2783272c57523c2c1b7a317859f4",
+  "templates": {
+    "L": {
+      "duplicate_prefix_count": 170,
+      "extreme_pairs_missing_required_difference": {
+        "17": 17,
+        "18": 34
+      },
+      "pairs_outside_extreme_obstruction": 120,
+      "valid_prefixes": [
+        {
+          "D": [
+            1,
+            7
+          ],
+          "R": [
+            11,
+            12
+          ],
+          "port": 9,
+          "suffix_weights": {
+            "A": [
+              2,
+              1
+            ],
+            "B": [
+              3,
+              1
+            ]
+          }
+        }
+      ],
+      "witnesses": []
+    },
+    "R": {
+      "duplicate_prefix_count": 171,
+      "extreme_pairs_missing_required_difference": {
+        "17": 17,
+        "18": 34
+      },
+      "pairs_outside_extreme_obstruction": 120,
+      "valid_prefixes": [],
+      "witnesses": []
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "cpu_seconds": 0.234375,
+  "distinct_full_maps": 684,
+  "full_cases": 684,
+  "grid_complete": true,
+  "new_graph_identities": 0,
+  "solver_queries": 0,
+  "status": "EXHAUSTED_RESTRICTED_NEGATIVE",
+  "templates": {
+    "L": {
+      "cases": 342,
+      "log_sha256": "5f79ba8feeb47788e0e5f965400e9f29771693803508df578ba6bfb9ce401f4e",
+      "pairs": 171,
+      "valid_prefixes": 1,
+      "witnesses": []
+    },
+    "R": {
+      "cases": 342,
+      "log_sha256": "3d0f4284cb7c48971a441590994583b257e9933b8442dad3626c8a3ce4ec98e1",
+      "pairs": 171,
+      "valid_prefixes": 0,
+      "witnesses": []
+    }
+  }
+}

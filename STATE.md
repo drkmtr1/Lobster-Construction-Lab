@@ -2,7 +2,7 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 22, 2026, Pacific/Honolulu<br>
-**Stage:** B4-K2-D062-TWO-GAP-ORDER-PRESERVING-001 complete and independently reviewed. All two-gap completions preserving the fixed D062 prefix order are rejected at q=r=t=K=2.
+**Stage:** B4-K2-D062-S4-ADJACENT-RANK-001 complete and independently reviewed. Both exact adjacent rank exchanges fail at q=r=t=K=2.
 
 ## Current scientific objective
 
@@ -10,10 +10,11 @@ Develop independently supplied original-graph boundaries beyond the proved zero-
 
 ## One next action
 
-**With a new bounded scope decision, test one adjacent rank exchange at physical `s:4` on the same original with q=r=t=K=2.** Exchange its D062 prefix rank with either neighboring first-terminal rank (`l:0:0:1` or `l:0:0:0`), then check the 171 hole pairs and both suffix orders for each of the two rank orders, up to 684 cases.
+**With a new bounded scope decision, seek an independently supplied normalized alpha prefix on `[[2],[2],[2],[2],[]]` with low labels `0..7`, high labels `8..16`, and physical `s:4=9`.** Check it against the exact named original and, if supplied, shift the highs by two to test `R={8,9}`, `D={1,2}`, and `s:4=11` on the original two-edge suffix at q=r=t=K=2.
 
 ## What is established in this package
 
+- B4-K2-D062-S4-ADJACENT-RANK-001 rejects both exact adjacent exchanges of the physical exit in the D062 prefix rank at q=r=t=K=2. All 684 named maps were checked and independently audited. L has one valid prefix with R={11,12}, D={1,7}, s:4=9 and neither order closes. R has no valid prefix by a named gap obstruction. The 18/17 deduction excludes 51 hole pairs per template without pruning. See `research/B4_K2_D062_S4_ADJACENT_RANK.md`, D065 and `evidence/validation/B4_K2_D062_S4_ADJACENT_RANK_001/`.
 - B4-K2-D062-TWO-GAP-ORDER-PRESERVING-001 rejects all 342 distinct named completions of the fixed D062 prefix rank order at q=r=t=K=2. Of the 171 hole pairs, 161 repeat a prefix difference and neither suffix order succeeds at the ten valid prefixes. The 18/17 incidence deduction excludes 51 pairs but pruned none. The broader continuation remains open. See `research/B4_K2_D062_TWO_GAP_ORDER_PRESERVING.md`, D064 and `evidence/validation/B4_K2_D062_TWO_GAP_ORDER_PRESERVING_001/`.
 - B4-K2-D062-TWO-EDGE-TRANSPORT-001 rejects all 38 single-gap transports of the exact D062 K=1 ledger at q=r=t=K=2. Eleven prefixes repeat differences and both suffix orders fail at the other eight. One original, 19 thresholds, 26 control assertions and an independent audit with no solver or replay. The broader K>=2 obligation remains open. See `research/B4_K2_D062_TWO_EDGE_TRANSPORT.md`, D063 and `evidence/validation/B4_K2_D062_TWO_EDGE_TRANSPORT_001/`.
 - The read-only Construction Synthesis pilot indexes six distinct named ledgers on four retained core originals, eight sourced rules or selectors, four scoped failures, and an exact coverage atlas. It preserves both co-original ledger pairs and the separate prior verification evidence. See `research/construction_synthesis/pilot_001/README.md`.

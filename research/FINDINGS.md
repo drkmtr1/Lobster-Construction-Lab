@@ -1005,3 +1005,23 @@ or historical replays. The negative concerns this fixed prefix
 order and leaves other orders and broader K>=2 supply open.
 [Proof](B4_K2_D062_TWO_GAP_ORDER_PRESERVING.md) ·
 [Evidence](../evidence/validation/B4_K2_D062_TWO_GAP_ORDER_PRESERVING_001/README.md) · D064
+
+## B4-K2-D062-S4-ADJACENT-RANK-001
+
+**ACCEPT** the original-bound model, named incidence audit,
+18/17 deduction and structural repetition argument for R.
+**REJECT** both prescribed physical s:4 adjacent rank exchanges
+at q=r=t=K=2. All 684 distinct full maps were checked. L has
+170 repeating prefixes and one valid prefix at R={11,12},
+D={1,7}, s:4=9. Its suffix weights (2,1) and (3,1) both miss 7.
+R repeats an assigned difference at all 171 pairs. Three named
+rank-span-seven edges and two further named incidences explain
+the R obstruction for all hole placements in that template.
+
+Both templates retain the 51 extreme-hole exclusions proved for
+their actual ports. All excluded pairs still received full checks.
+Zero new graph identities, solver queries, historical replays, or
+additional cases. The result leaves other rank orders and wider
+K>=2 continuation open.
+[Proof](B4_K2_D062_S4_ADJACENT_RANK.md) ·
+[Evidence](../evidence/validation/B4_K2_D062_S4_ADJACENT_RANK_001/README.md) · D065

@@ -375,3 +375,15 @@ prefixes with unusable suffix inventories. This exhausts the
 specified order-preserving transport and preserves the separate
 single-gap failure. Other prefix rank orders remain open.
 [Proof and exact scope](B4_K2_D062_TWO_GAP_ORDER_PRESERVING.md)
+
+### F-B4-K2-D062-S4-ADJACENT-RANK-EXCHANGES
+
+On the exact retained original `[[2],[2],[2],[2],[],[],[]]`,
+the two tested D062 prefix rank exchanges (9,10) and (10,11)
+give no graceful completion under any of the 171 two-gap pairs
+and two physical suffix orders per rank. The first exchange has
+one valid prefix, but its two suffix weights cannot supply D={1,7}.
+The second exchange necessarily repeats an assigned difference
+by the exact named rank-gap argument. The 684-map negative
+leaves other rank changes and independent suppliers open.
+[Proof and exact scope](B4_K2_D062_S4_ADJACENT_RANK.md)

@@ -1,0 +1,23 @@
+{
+  "official_runs": 1,
+  "steps": [
+    {
+      "command": "& .venv/Scripts/python.exe -B -X utf8 evidence/validation/B4_K2_D062_S4_ADJACENT_RANK_001/validate.py freeze",
+      "exit_code": 0,
+      "stdout": "Bound the existing 19-vertex original and both adjacent-rank templates.\r\n",
+      "wall_seconds": 1.0540087
+    },
+    {
+      "command": "& .venv/Scripts/python.exe -B -X utf8 evidence/validation/B4_K2_D062_S4_ADJACENT_RANK_001/validate.py check",
+      "exit_code": 0,
+      "stdout": "Checked 342 pairs across L and R, all 684 distinct cases. EXHAUSTED_RESTRICTED_NEGATIVE.\r\n",
+      "wall_seconds": 1.5112869
+    },
+    {
+      "command": "& .venv/Scripts/python.exe -B -X utf8 evidence/validation/B4_K2_D062_S4_ADJACENT_RANK_001/audit.py",
+      "exit_code": 0,
+      "stdout": "PASS: 684 distinct maps across two exact templates. EXHAUSTED_RESTRICTED_NEGATIVE.\r\n",
+      "wall_seconds": 0.6647387
+    }
+  ]
+}

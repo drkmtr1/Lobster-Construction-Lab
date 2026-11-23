@@ -1,0 +1,67 @@
+{
+  "cpu_seconds": 0.015625,
+  "graph": {
+    "errors": [],
+    "graph_digest": "c5fd852e27ca85602e9a5a2cb39e3b14434b2783272c57523c2c1b7a317859f4",
+    "m": 18,
+    "n": 19,
+    "valid": true
+  },
+  "inputs": {
+    "archive": {
+      "evidence/validation/B4_JOINT_22_CUT_COMPAT_001/audit_result.json": "cc3af88dc2e84148a43572d247f0fd99b8d74cd2583749c73a195f43cf80e7a7",
+      "evidence/validation/B4_JOINT_22_DIRECT_LEDGER_001/validation/core_original.json": "a11c0daeeb58457ec1824f6507c958c2809ffc01fd06d059f1db69807fe2b764",
+      "evidence/validation/B4_JOINT_22_DIRECT_LEDGER_001/validation/lift_original.json": "032d6ea17f4054312799914346a601db0f14fc34d5933799ba65bbc5298e20b8",
+      "evidence/validation/B4_JOINT_23_MAX_ROOTED_CORE_001/audit_result.json": "1a56a6da1a06792021576fa600fdc5835d8001c1892d728f7b65fd9b72a60128",
+      "evidence/validation/B4_JOINT_MAX_ROOTED_CORE_PILOT_001/validation/raw_query.json": "2f399449c5712cf0a2c2d21242ed91a49cd19c0074d08bfd341ff416b014753f",
+      "evidence/validation/B4_JOINT_NESTED_CUT_TWO_HOST_001/MANIFEST.json": "a562abbc783805d7deb5ae39d17a08427b1d48ceda55b40bd7972578671dd09b",
+      "evidence/validation/B4_JOINT_NESTED_CUT_TWO_HOST_001/audit_result.json": "3b979bfafcb221075768cbd6c0d3f95011c34ac996207cbaa62362c24a5676ce",
+      "evidence/validation/B4_JOINT_NESTED_CUT_TWO_HOST_001/validation/core-q3-r4-original.json": "618ea03cd2a8eac6da3066bf2670bca999d41a653dc2186e0e8abbdbdea58f9c",
+      "evidence/validation/B4_JOINT_NESTED_CUT_TWO_HOST_001/validation/core-q3-r4.json": "7b579cf38aa8846af8ec9f6acdd11bc6d0f2f33602f56483f3322ad44a75facb",
+      "evidence/validation/B4_JOINT_NESTED_CUT_TWO_HOST_001/validation/identity.json": "835e400bc09bde6c87ad8028dc201d77a64e6bd9e08b8dc1dead299b67b83a31",
+      "evidence/validation/B4_JOINT_SECOND_CENTER_CUT_READY_22_001/validation/alternative-r2.json": "b9ee257136562722956bd94c395b0d98da124d8eaa7707ac218c54dac92f5ada",
+      "evidence/validation/B4_K2_D062_TWO_EDGE_TRANSPORT_001/MANIFEST.json": "62cdbac82d81e0b1f212b1471045d099ae70a10611d122795203b0991cd97d9c",
+      "evidence/validation/B4_K2_D062_TWO_EDGE_TRANSPORT_001/audit_result.json": "19e6cf44529b04ffbcfa6411a7e119c3e6adbaa65aa2d5c68e76b6196f1f45a7",
+      "evidence/validation/B4_K2_D062_TWO_EDGE_TRANSPORT_001/candidates.jsonl": "ba21bd995958ee574386b1eb2753431817318538f1e4f048101238405fc1b064",
+      "evidence/validation/B4_K2_D062_TWO_EDGE_TRANSPORT_001/controls.json": "05db60d07edbfbdf071fd99b4ae2483857e938f635f78299e2ce0b6b8efcd078",
+      "evidence/validation/B4_K2_D062_TWO_EDGE_TRANSPORT_001/result.json": "16d9617871a5d8d8dffc527bd7432da953a600c84f7adcd446b87d3256b26acf",
+      "evidence/validation/B4_K2_D062_TWO_EDGE_TRANSPORT_001/target_original.json": "13e891a06a4fc9a7ab1f3a78d58bd2594161ccf14c24c32e0159784692d32be2",
+      "evidence/validation/B4_K2_D062_TWO_GAP_ORDER_PRESERVING_001/MANIFEST.json": "84f2d75e9c2f21016e305d121f80c0ad642577a61da4aee20aa69cfcd97249d3",
+      "evidence/validation/B4_K2_D062_TWO_GAP_ORDER_PRESERVING_001/audit_result.json": "1097f1cd8a6a2e76f7385ef6190aaa3bf8e496baa2025a00249c89a337577cfe",
+      "evidence/validation/B4_K2_D062_TWO_GAP_ORDER_PRESERVING_001/cases.jsonl": "73b6a02b51a25a3ddad37b6edd30ecc33ddabcfdf041ca12b31a33ea98b9b96f",
+      "evidence/validation/B4_K2_D062_TWO_GAP_ORDER_PRESERVING_001/controls.json": "69e2761712f54fd7991889b05ad432b5341eb7c30e2c1c3a5d95f6c0e7926851",
+      "evidence/validation/B4_K2_D062_TWO_GAP_ORDER_PRESERVING_001/result.json": "c6f41d00f3005ca3347bd88e2052d2da3a81084949ddc6ca2c5b8cbb46e5f7a8",
+      "evidence/validation/B4_THIRD_ZERO_HOST_K1_001/raw_result.json": "9901eecb61366cf2329ebd5639e1a8c2cd738a08d5dc48da41126a6cef201b49",
+      "research/B4_JOINT_NESTED_CUT_TWO_HOST.md": "3d2f4f25b83753f334ccb5754e780c48e3d3084bef4fe492c3382f85423f8158",
+      "research/B4_K2_D062_TWO_EDGE_TRANSPORT.md": "47eb1b337d1f8852d15b730bd039fc6a791d57e06422af48d48fdc09be2ff779",
+      "research/B4_K2_D062_TWO_GAP_ORDER_PRESERVING.md": "2c4da42827bb7b808e8290d0b6968108d785cfad378e23d854e5faaa6fd5435b",
+      "research/construction_synthesis/pilot_001/index.json": "09ff09eb22dcc6c355afef158f60d0ecb326dff682275be3a75d8ab4b38cd6f7"
+    },
+    "production": {
+      "lcl/__init__.py": "134055506d3e9cd4fa538177844d28a44d5ab567ec220cf54048e63d1a8a7374",
+      "lcl/model.py": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6",
+      "lcl/verify.py": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909",
+      "pyproject.toml": "738f14eba3125ce7f444628adaddaf2e3e30e5aa7f43f10e7035067f6b7072e5",
+      "requirements.txt": "60f6e1bd76adf6ed25cf381ca95f67e8a27a0de1e62fb673a7cf5af4b86249ea"
+    },
+    "task": {
+      "audit.py": "793a89424f2e853f40d2b78f321344006a184491376c93fa0c4a9b2320b4d78f",
+      "commands.json": "365869e312a33ea7850cfd85633b8c1cf941d63ad8579518ebf775378692ef1a",
+      "config.json": "4d7db001f12193ae3113bc74dcb4711132c83330695bba6c810a637d87f3fac2",
+      "pre-run.md": "6a799f1715862f71ef0ac99f570f55077b43d6672c6791262558cdca2bf4cad5",
+      "validate.py": "463b6511ac289c65e67fa7cbe1f93cd800a7df2e0bc835330e35fede51e06a3e"
+    }
+  },
+  "new_graph_identities": 0,
+  "parent": "af9077e17bb720fb9da268d4dcb72f801ea41ccf",
+  "runtime": {
+    "implementation": "cpython",
+    "platform": "win32",
+    "utf8_mode": 1,
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "target": {
+    "path": "evidence/validation/B4_K2_D062_TWO_EDGE_TRANSPORT_001/target_original.json",
+    "sha256": "13e891a06a4fc9a7ab1f3a78d58bd2594161ccf14c24c32e0159784692d32be2"
+  }
+}
