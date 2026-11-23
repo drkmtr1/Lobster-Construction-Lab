@@ -694,3 +694,6 @@ The [D084 menu](R241_222_OFFSET_MENU.md) now settles every physical offset on th
 [D087](R241_2B2_SYMBOLIC_PORT34.md) discharges the D086 palette proposal on exact `[[2,b],[2]]` for all integers b≥2. It fixes the other two quotas and supplies a component with physical return (3,4). Independently varying additional quotas and proving repeatable original-graph transitions with compatible ports remain open.
 
 [D088](R241_3B2_PORT44_SYMBOLIC.md) closes the proposed fixed-port supplier for exact `[[3,b],[2]]` at (4,4) and the stated normalization for all integers b≥2. D087 still supplies exit four. An independently supplied continuation with actual entrance four and a useful high exit, plus separate original-graph repeatability, remains open.
+
+
+[D089](R241_3B3_PORT45_SYMBOLIC.md) discharges independent entrance-four supply on exact `[[3,b],[3]]` for all integers b≥2, with returned offset five. D087 and D089 have the required numerical equality at offset four. The first quantified composition of these particular suppliers still requires the actual original connector, joint label and difference partitions and returned physical ports on the concatenated spine. Independently varying the other quotas and proving reusable transitions also remain open.

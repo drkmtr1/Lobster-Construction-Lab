@@ -1,0 +1,14 @@
+{
+  "stage": "PowerShell input-hash preflight before the official Python invocation",
+  "shell_chunk_id": "e7259b",
+  "shell_exit_code": 1,
+  "actual_python_invocations": 0,
+  "expected_hashes_passed_by_wrapper": {
+    "run.py": "56f893a06a1415a054fb10900c6b57364f77d52838370f7c92540ab711ddd518",
+    "audit.py": "",
+    "config.json": "2f27bdc73a991c1bd009f1b3d40b15d7e4cdbd14e575f29079bbb98ab5814686"
+  },
+  "diagnostic": "Exception:\r\nLine |\r\n  21 |  … variant() -cne $pins[$name]) { throw \"Task input mismatch: $name\" }\r\n     |                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n     | Task input mismatch: audit.py\r\n",
+  "cause": "Splitting the CRLF-delimited hash output at each whitespace character introduced empty entries and misindexed the three hashes.",
+  "correction": "Extracted exactly the three 64-character lowercase hexadecimal strings, checked each unchanged file digest, and confirmed all three official output paths were absent before invoking Python once."
+}
