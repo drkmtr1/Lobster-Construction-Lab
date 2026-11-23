@@ -1,0 +1,178 @@
+{
+  "task": "LCL-R241-ZERO-TO-ONE-BRIDGE-001",
+  "parent": "eb75d7a31cc240cec4d4cc90e432286e6de319e1",
+  "authorization": {
+    "path": "tasks/LCL_Codex_D080_Zero_To_One_R241_Bridge_2026-11-22.md",
+    "sha256": "561190e99cac3ed2721a20308489cede18a05c13322337ef34803330668ed702"
+  },
+  "profiles": {
+    "equal": [
+      [
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "h1": [
+      [
+        1
+      ],
+      [
+        2
+      ]
+    ],
+    "h2": [
+      [
+        2
+      ],
+      [
+        3
+      ]
+    ],
+    "q1": [
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ]
+    ],
+    "q1_l2": [
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [],
+      []
+    ],
+    "q12_l5": [
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [],
+      [],
+      [],
+      [],
+      []
+    ]
+  },
+  "enumerations": [
+    [
+      "equal",
+      4,
+      0
+    ],
+    [
+      "h1",
+      12,
+      2
+    ],
+    [
+      "h2",
+      144,
+      12
+    ]
+  ],
+  "macro_cases": [
+    [
+      "q1",
+      [
+        1
+      ],
+      0
+    ],
+    [
+      "q1_l2",
+      [
+        1
+      ],
+      2
+    ],
+    [
+      "q12_l5",
+      [
+        1,
+        2
+      ],
+      5
+    ]
+  ],
+  "retained": {
+    "original": "evidence/validation/LCL_R241_TWO_CENTER_PORT_001/small_original.json",
+    "certificate": "evidence/validation/LCL_R241_TWO_CENTER_PORT_001/certificates.json",
+    "manifest": "evidence/validation/LCL_R241_TWO_CENTER_PORT_001/MANIFEST.json"
+  },
+  "limits": {
+    "workers": 1,
+    "assignments": 160,
+    "new_originals": 6,
+    "retained_originals": 1,
+    "adverse": 3,
+    "cpu_seconds": 30,
+    "bytes_per_record": 2000000,
+    "bytes_total": 8000000,
+    "solver_calls": 0,
+    "retries": 0,
+    "replays": 0
+  },
+  "sources": [
+    "lcl/model.py",
+    "lcl/verify.py",
+    "lcl/consumers.py",
+    "research/R241_ZERO_TO_ONE_BRIDGE.md",
+    "tasks/LCL_Codex_D080_Zero_To_One_R241_Bridge_2026-11-22.md",
+    "docs/strategy/LCL_Branched_Spine_Research_Roadmap_2026-11-22.md",
+    "references/upstream/mdl/N241_relational_ports.md",
+    "research/R241_PAIRED_BRANCHED_SPINE.md",
+    "research/R241_TWO_CENTER_PORT_FALSIFIER.md",
+    "handoffs/CODEX-20261122-r241-two-center-port.md",
+    "research/B2_NONADJACENT_CONSUMER.md",
+    "evidence/validation/LCL_R241_PAIRED_BRANCHED_SPINE_001/REVIEWS.md",
+    "evidence/validation/LCL_R241_TWO_CENTER_PORT_001/REVIEWS.md"
+  ],
+  "upstream": {
+    "MDL": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+    "bounded_search": "e48b94eec4091b4fe189e325cab2eda464409943",
+    "r241_blob": "faca17cfa4c484127413762adc0c36b771a18f71"
+  }
+}

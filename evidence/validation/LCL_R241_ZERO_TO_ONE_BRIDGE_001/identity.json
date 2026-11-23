@@ -1,0 +1,32 @@
+{
+  "parent": "eb75d7a31cc240cec4d4cc90e432286e6de319e1",
+  "runtime": {
+    "path": ".venv/Scripts/python.exe",
+    "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "sources": {
+    "docs/strategy/LCL_Branched_Spine_Research_Roadmap_2026-11-22.md": "fa4f5565cabc0001911f7566f9ca9430826a71d5bd02a01a2191c896af8b6a98",
+    "evidence/validation/LCL_R241_PAIRED_BRANCHED_SPINE_001/REVIEWS.md": "4c73ea3bd3344b41fd585645686a01ec385089f81fd8ab7e9d1fa32bdb9a9f54",
+    "evidence/validation/LCL_R241_TWO_CENTER_PORT_001/MANIFEST.json": "7280ba7054133e9e8381b1e7e2c058e81804f79a04322ddc565a8a756d3482f5",
+    "evidence/validation/LCL_R241_TWO_CENTER_PORT_001/REVIEWS.md": "9ab452cd5da14adbed2e1bc015de42e404dff68a37025305bab08d52968344c8",
+    "evidence/validation/LCL_R241_TWO_CENTER_PORT_001/certificates.json": "d699995efa1ad1fc58c3b746afa460baf2798a119deadafbb9110f0310c487cb",
+    "evidence/validation/LCL_R241_TWO_CENTER_PORT_001/small_original.json": "652bc33b59f136df7e36225b94303d5aa3d1631980f1ee4a70db8fdeb027458a",
+    "evidence/validation/LCL_R241_ZERO_TO_ONE_BRIDGE_001/INTAKE.md": "0bdf18c30a24059ad69c8bb2a95cb6f78ca2d95ea7339b263de0b11050b9909d",
+    "evidence/validation/LCL_R241_ZERO_TO_ONE_BRIDGE_001/audit.py": "24c20c94bbdc34f2f12042a7d149966e46f32ce10636aa23e9c4e0d3034039cd",
+    "evidence/validation/LCL_R241_ZERO_TO_ONE_BRIDGE_001/commands.json": "5b16c223d069f8ec5d71787e3a498add79294ab757f90abe9865e058253a53c8",
+    "evidence/validation/LCL_R241_ZERO_TO_ONE_BRIDGE_001/config.json": "39ae1cb803c4f4bf8b3863e59a0d36d4c1e08f4ca8c87e8afefbcb0c8bd1aacc",
+    "evidence/validation/LCL_R241_ZERO_TO_ONE_BRIDGE_001/driver.py": "e8ece2195eac2bf81692401a79cbcafe4527b2adb0f170627de922acb97dbed7",
+    "evidence/validation/LCL_R241_ZERO_TO_ONE_BRIDGE_001/run.py": "4cc8b4ec1942ef449bd19a578fa43067cc4648b116033fe7a975811a13443be7",
+    "handoffs/CODEX-20261122-r241-two-center-port.md": "4bc046154cb43e78614316037f2fb4a9d7094f8a753fecc3a6a24997162c0f40",
+    "lcl/consumers.py": "2cb688d09c510ca855ba1695d0f89a325ea4fc7882c9e5a8e971c2b506e64560",
+    "lcl/model.py": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6",
+    "lcl/verify.py": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909",
+    "references/upstream/mdl/N241_relational_ports.md": "53ac2c8bf13457ae5630dd0c1c6e19b785d3b568b67d932e86d331901ee82e9e",
+    "research/B2_NONADJACENT_CONSUMER.md": "fa7b58c0b42cb73f01d62153f8de36e6cc4e6315b1db4b4da59ac9e54a4c92fb",
+    "research/R241_PAIRED_BRANCHED_SPINE.md": "5a73a215baca0feaa378e80fa1c30b1d27602258f7a4175873287da9cdb086ed",
+    "research/R241_TWO_CENTER_PORT_FALSIFIER.md": "2c54ba4140cd4354a7d599eded4d6d841ec02d685e987b10de5c9802fac005ba",
+    "research/R241_ZERO_TO_ONE_BRIDGE.md": "eafec3678065e07a7ce8b868d9a475883679846df22df350f5dd585cfbf233e5",
+    "tasks/LCL_Codex_D080_Zero_To_One_R241_Bridge_2026-11-22.md": "561190e99cac3ed2721a20308489cede18a05c13322337ef34803330668ed702"
+  }
+}

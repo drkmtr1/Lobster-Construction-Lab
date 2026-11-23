@@ -465,3 +465,7 @@ edge would have weight 2. The separate K=1 construction is unaffected.
 ### F-R241-TWO-CENTER-STRICT-PORT
 
 **REJECT** universal fixed physical offsets (1,1) for positive quotas on `[[a,b],[c]]`. On original `[[1,1],[1]]` the cut of size four and pins s:0=1, s:1=5 force a repeated original difference. This same graph has graceful alternate-port states. The verified (1,0) state also cannot directly precede an entrance of offset 1 under the prescribed R241 placement. [Proof](R241_TWO_CENTER_PORT_FALSIFIER.md) · D079
+
+### F-R241-EQUAL-ONE-PAIR-ZERO-TO-ONE
+
+**REJECT** offsets (0,1) on the original `[[1],[1]]`, at cut P=3 with s:0=0 and s:1=4. The required weight five forces b:0:0=5, and the only two remaining first terminal values duplicate an original weight. The same original supplies (0,0). The replacement `[[a],[a+1]]` has different original quotas and supplies (0,1). [Proof](R241_ZERO_TO_ONE_BRIDGE.md) · D080

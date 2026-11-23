@@ -1,0 +1,113 @@
+{
+  "graph": {
+    "edges": [
+      [
+        "s:0",
+        "s:1"
+      ],
+      [
+        "s:0",
+        "b:0:0"
+      ],
+      [
+        "b:0:0",
+        "l:0:0:0"
+      ],
+      [
+        "b:0:0",
+        "l:0:0:1"
+      ],
+      [
+        "s:1",
+        "b:1:0"
+      ],
+      [
+        "b:1:0",
+        "l:1:0:0"
+      ],
+      [
+        "b:1:0",
+        "l:1:0:1"
+      ],
+      [
+        "b:1:0",
+        "l:1:0:2"
+      ]
+    ],
+    "profile": [
+      [
+        2
+      ],
+      [
+        3
+      ]
+    ],
+    "roles": {
+      "b:0:0": {
+        "branch": 0,
+        "kind": "branch",
+        "section": 0
+      },
+      "b:1:0": {
+        "branch": 0,
+        "kind": "branch",
+        "section": 1
+      },
+      "l:0:0:0": {
+        "branch": 0,
+        "kind": "leaf",
+        "leaf": 0,
+        "section": 0
+      },
+      "l:0:0:1": {
+        "branch": 0,
+        "kind": "leaf",
+        "leaf": 1,
+        "section": 0
+      },
+      "l:1:0:0": {
+        "branch": 0,
+        "kind": "leaf",
+        "leaf": 0,
+        "section": 1
+      },
+      "l:1:0:1": {
+        "branch": 0,
+        "kind": "leaf",
+        "leaf": 1,
+        "section": 1
+      },
+      "l:1:0:2": {
+        "branch": 0,
+        "kind": "leaf",
+        "leaf": 2,
+        "section": 1
+      },
+      "s:0": {
+        "kind": "spine",
+        "section": 0
+      },
+      "s:1": {
+        "kind": "spine",
+        "section": 1
+      }
+    },
+    "schema_version": 1,
+    "spine": [
+      "s:0",
+      "s:1"
+    ],
+    "vertices": [
+      "s:0",
+      "b:0:0",
+      "l:0:0:0",
+      "l:0:0:1",
+      "s:1",
+      "b:1:0",
+      "l:1:0:0",
+      "l:1:0:1",
+      "l:1:0:2"
+    ]
+  },
+  "graph_digest": "eb480fb467adc2854a6118d32b1d587ffa48708b987982f997987bcfa7f2871e"
+}

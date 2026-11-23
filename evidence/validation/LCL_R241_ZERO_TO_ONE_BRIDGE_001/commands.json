@@ -1,0 +1,26 @@
+{
+  "driver": [
+    ".venv/Scripts/python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "evidence/validation/LCL_R241_ZERO_TO_ONE_BRIDGE_001/driver.py"
+  ],
+  "stages": [
+    [
+      ".venv/Scripts/python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "-m",
+      "evidence.validation.LCL_R241_ZERO_TO_ONE_BRIDGE_001.run"
+    ],
+    [
+      ".venv/Scripts/python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "evidence/validation/LCL_R241_ZERO_TO_ONE_BRIDGE_001/audit.py"
+    ]
+  ]
+}

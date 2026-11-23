@@ -1250,3 +1250,13 @@ One new prefix, two completions at K=2 and K=5, two retained co-original control
 **ACCEPT** the finite controls A(8,4;1,0) on that same original and A(9,4;1,1) on `[[1,1],[2]]`. The completed counts are 0/36 strict and 4/576 orientation-only on the smaller original, and 4/144 strict on the neighbor. The smaller graph has two ledgers each at (1,0) and (2,3). Its entering and outgoing offset sets are disjoint in that physical orientation, excluding a direct R241 join of two such copies by the same placement. A compatible return transition remains open.
 
 Two originals, two explicit certificates and two adverse rejections passed independent audit and separate reviews. The three products used 756 visits including 36 shared rows, with no fresh audit enumeration, solver calls, retries or replays. [Proof](R241_TWO_CENTER_PORT_FALSIFIER.md) · [Evidence](../evidence/validation/LCL_R241_TWO_CENTER_PORT_001/README.md) · D079
+
+## LCL-R241-ZERO-TO-ONE-BRIDGE-001
+
+**ACCEPT** the analytic obstruction to physical offsets (0,1) on the original `[[1],[1]]` under the stated alpha orientation. Difference 5 forces the first center label and either remaining terminal value repeats an original weight. **REJECT** that exact bridge interface. The same original has the verified (0,0) state.
+
+**ACCEPT** independent H(a)=`[[a],[a+1]]` for every exact integer a≥1, with state A(2a+5,a+2;0,1). **ACCEPT** its original R241 join to D079 B at physical s:1–s:2, giving Q(a)=`[[1,1],[1],[a],[a+1]]` with state A(2a+13,a+6;1,1). The actual connector weighs 2a+5 and the two original vertex sets remain disjoint.
+
+**ACCEPT** alpha supply for any finite nonempty sequence of Q blocks with freely chosen positive parameters and zero trailing sections, plus ordinary gracefulness for L≥2 trailing empty sections. For prefix low size P the shifted physical port is P+L+1 and the exact remaining inventories are R=[P,P+L−1], D=[1,L]. L=1 fails only the prescribed suffix interface. This supplies a repeatable two-center pattern. Arbitrary center numbers, arbitrary independent quotas and interior empty sections remain open.
+
+Seven positive certificates on six new originals and retained D079 B, three adverse rejections, and 160 pinned visits with counts 0/4, 2/12, 12/144 passed independent audit and separate reviews. No additional audit visits, solver calls, replays or retries. [Proof](R241_ZERO_TO_ONE_BRIDGE.md) · [Evidence](../evidence/validation/LCL_R241_ZERO_TO_ONE_BRIDGE_001/README.md) · D080

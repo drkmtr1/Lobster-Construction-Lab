@@ -1,0 +1,52 @@
+{
+  "adverse_rejections": 3,
+  "checked_certificates": 7,
+  "counts": {
+    "equal": [
+      0,
+      4
+    ],
+    "h1": [
+      2,
+      12
+    ],
+    "h2": [
+      12,
+      144
+    ]
+  },
+  "expected_counts": {
+    "equal": [
+      0,
+      4
+    ],
+    "h1": [
+      2,
+      12
+    ],
+    "h2": [
+      12,
+      144
+    ]
+  },
+  "new_audit_visits": 0,
+  "producer_and_audit_cpu_seconds": 0.3125,
+  "rank_and_receipt_checks": 160,
+  "raw_receipts": {
+    "certificates.json": "10a0b081ab68d78a62dbfe6fec0b31c041b30d90a54051bffd82416225c18b26",
+    "commands.json": "5b16c223d069f8ec5d71787e3a498add79294ab757f90abe9865e058253a53c8",
+    "config.json": "39ae1cb803c4f4bf8b3863e59a0d36d4c1e08f4ca8c87e8afefbcb0c8bd1aacc",
+    "equal_enumeration.json": "67dc3f95d946929e50bffe28d2df9d87db7c43886c8b342442473f021d067fc5",
+    "equal_original.json": "9f48c62534b17bb2c3596acc726d42e7cca6de3871a311604cfb66687e0ea830",
+    "h1_enumeration.json": "b8209c327c366af40bc27ccf1e5ff248ed862c67d7a53e197e62f44b30c465b6",
+    "h1_original.json": "7db3bde9af6875b4de9b0f71ead7f2f5006375c8c3f8c1c5fb69900568b0f589",
+    "h2_enumeration.json": "2709b6cebabc735fecf5564636996eb2a7b8680d3a618a92524c6517456be498",
+    "h2_original.json": "c88ced9653afe66abc887b69009289c419be39f7c9f75dff6c3ac5521b0fb2e5",
+    "identity.json": "500145bf319eb6af2d9343b3eb8cd8b1ab77cdec9829e32e1783421731f45a84",
+    "q12_l5_original.json": "c6341cd47ce880bc2a9c114b5e102e9f29e866ce14910b4397e73557e57abc21",
+    "q1_l2_original.json": "8a5b49c90b8934945c1741e395a5aa37385ade6b071a3045bc19db891e08c9f4",
+    "q1_original.json": "332167a3379bf3ab21ed99cc5e0e31bb12074a42deed3af7bd660144a504de04",
+    "result.json": "ea07eeb68d5e0963c4a53610b4bf6b7ff3fc18fd41da7f83a3cc2fcb3ea0d4e5"
+  },
+  "status": "PASS"
+}

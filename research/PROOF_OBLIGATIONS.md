@@ -675,4 +675,6 @@ The [reviewed proof](R241_PAIRED_BRANCHED_SPINE.md) discharges the [authorized t
 
 The [D079 obstruction](R241_TWO_CENTER_PORT_FALSIFIER.md) closes the universal fixed-offset version negatively. The smallest positive `[[a,b],[c]]` pair cannot supply s:0=1 and s:1=P+1, although it has (1,0) and (2,3) states in the required physical orientation. The neighboring strict witness is finite. General multi-center supply still needs independently labeled modules, compatible actual spine ports and a returned state for continuation.
 
-The sole proposed unstarted step tests whether `[[1],[1]]` supplies physical ports (0,1) for a return from the verified two-center (1,0) state to the D078 offset-one chain.
+The [D080 proof](R241_ZERO_TO_ONE_BRIDGE.md) resolves `[[1],[1]]` negatively for (0,1), then supplies the replacement H(a)=`[[a],[a+1]]` directly for every exact a≥1. Its zero entrance matches the D079 B exit on the actual connector. The Q(a) return has (1,1), so the proved finite repetitions allow a positive number of genuinely two-center sections at fixed original positions and quotas. The established suffix domain is L=0 for alpha supply and L≥2 for the ordinary gracefulness construction. Arbitrary multiple-center sections still require independently supplied modules with compatible physical offsets.
+
+The sole proposed unstarted step is a `[[1,2],[1]]` supplier with physical (1,0) to test the unequal-quota case for D080's first pair.
