@@ -1226,3 +1226,11 @@ wrong-digest rejection and an independent arithmetic audit passed
 separate read-only reviews with zero queries, nodes or new graphs.
 [Proof](B4_D074_U10_DUAL_BLOCK_FEASIBILITY.md) ·
 [Evidence](../evidence/validation/B4_D074_U10_DUAL_BLOCK_FEASIBILITY_001/README.md) · D075
+
+## B4-D075-DIRECT-2322-ALPHA-S4-10-001
+
+**ACCEPT** the independent explicit alpha supplier A(18,9;4,1) on the named `[[2],[3],[2],[2],[]]` with physical s:4=10. Large and small weight bands, a signed degree sum and a forced weight 13 yield the complete ledger on the prefix itself.
+
+**ACCEPT** ordinary gracefulness of the exact `[[2],[3],[2],[2]]+[[]]*(K+1)` for every exact integer K≥2. The high shift gives R=[9,K+8], D=[1,K] and physical s:4=K+10. The retained recurrence uses exactly those inventories on the actual suffix. **REJECT** K=1 under this interface only. The third and second centers carry 7 and 17, so this ledger supplies neither optional growth predicate.
+
+One new prefix, two completions at K=2 and K=5, two retained co-original controls and two adverse rejections passed the independent arithmetic audit and separate reviews. There were zero feasibility calls or assignment nodes. [Proof](B4_D075_DIRECT_2322_ALPHA_S4_10.md) · [Evidence](../evidence/validation/B4_D075_DIRECT_2322_ALPHA_S4_10_001/README.md) · D076

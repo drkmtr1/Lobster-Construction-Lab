@@ -661,7 +661,11 @@ and the first-host label free. The
 [exit-ten result](B4_D074_U10_DUAL_BLOCK_FEASIBILITY.md)
 rules out simultaneous supply at s:4=10 under the same zero-host
 pin and free first-host label. Its hypothetical high-shift gate at
-K=2 fails independently. The next obligation pivots to direct
-normalized supply on named 2322, at low size 9 and s:4=10,
-to target the retained nonadjacent K=2 original-path interface.
-Variable interior r and joint continuation remain open.
+K=2 fails independently. The [direct 2322 supplier](B4_D075_DIRECT_2322_ALPHA_S4_10.md)
+discharges normalized supply at low size 9 and physical s:4=10.
+It also discharges the original nonadjacent continuation at fixed
+ordered 2322 for all exact K≥2. Its ledger places 7 at b:2:0 and
+17 at b:1:0, so third-host zero extension and minimum-high second-host
+extension cannot be invoked on that ledger. The selected obligation is
+an independent zero-host 2322 seed preserving the same physical exit
+and low size. Variable interior r and joint continuation remain open.

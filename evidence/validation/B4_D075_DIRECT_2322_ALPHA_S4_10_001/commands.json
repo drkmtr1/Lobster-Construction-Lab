@@ -1,0 +1,35 @@
+{
+  "freeze": [
+    ".venv/Scripts/python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "-m",
+    "evidence.validation.B4_D075_DIRECT_2322_ALPHA_S4_10_001.run",
+    "--freeze"
+  ],
+  "driver": [
+    ".venv/Scripts/python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "evidence/validation/B4_D075_DIRECT_2322_ALPHA_S4_10_001/driver.py"
+  ],
+  "stages": [
+    [
+      ".venv/Scripts/python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "-m",
+      "evidence.validation.B4_D075_DIRECT_2322_ALPHA_S4_10_001.run"
+    ],
+    [
+      ".venv/Scripts/python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "evidence/validation/B4_D075_DIRECT_2322_ALPHA_S4_10_001/audit.py"
+    ]
+  ]
+}

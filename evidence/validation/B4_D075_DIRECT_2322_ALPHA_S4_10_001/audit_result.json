@@ -1,0 +1,22 @@
+{
+  "audit_process_cpu_seconds": 0.046875,
+  "audited_raw_sha256": {
+    "certificates.json": "a71242db8b86dac428c5ff2063143c41dbb1ff73f87517bed9b41e86270f8634",
+    "commands.json": "1af6390160cc72c4011e6d23384dd4d7eb06140b87d46af82d1eb894e3ec4fd8",
+    "config.json": "b3209e8f679eb6f42a075ff4d087d6eb7e87a58a2bbe36c4a14b6b08d97a358b",
+    "controls.json": "e80d6cf7c67e1955acf1025057fe8c75460528198b7b8f4ab8f9a5021d2f29b0",
+    "k2_original.json": "04e9af0d4bacbc5da875ff3a44417666d77016540ed2be31a053164b4f57fa06",
+    "k5_original.json": "ab2076d2d1bd072c6f3e6f6dcfe30f5fd79add73f41fa4318a7beca1e4a65366",
+    "prefix_original.json": "972d81f9f8307a29099b13294075e08835d1467044f35c99d3e123f2797b6f85",
+    "run_result.json": "5f39cb972984cd75cdbaaf2a845a49b604eec55fb45644a9fcf00a11d510a730"
+  },
+  "combined_process_cpu_seconds": 0.25,
+  "historical_controls": 2,
+  "negative_receipts_rechecked": 2,
+  "new_audit_originals": 0,
+  "new_originals_rechecked": 3,
+  "search_calls": 0,
+  "status": "PASS",
+  "supply_status": "SUPPLIED",
+  "witness_checked": true
+}

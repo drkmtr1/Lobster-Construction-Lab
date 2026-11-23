@@ -1,0 +1,76 @@
+{
+  "attachment_sha256": "0dbd5f2a934424135ae9fb32495a409afed5ee62632be8f618785f0e68e80fb0",
+  "automatic_retries": 0,
+  "freeze_process_cpu_seconds": 0.140625,
+  "historical_replays": 0,
+  "limits": {
+    "assignment_nodes": 0,
+    "bytes_per_record": 2000000,
+    "bytes_total": 10000000,
+    "combined_process_cpu_seconds": 30,
+    "feasibility_invocations": 0,
+    "maximum_order": 23,
+    "new_graphs": 3,
+    "new_maps": 3,
+    "workers": 1
+  },
+  "low_names": [
+    "s:1",
+    "s:3",
+    "b:0:0",
+    "b:2:0",
+    "l:1:0:0",
+    "l:1:0:1",
+    "l:1:0:2",
+    "l:3:0:0",
+    "l:3:0:1"
+  ],
+  "method": "explicit ledger from signed weight sum and extreme weight bands on P",
+  "optional_host_tests": {
+    "b:1:0": 9,
+    "b:2:0": 0
+  },
+  "parent": "3edcdbc3ee793aa3a9a6d12fcda6a5b0e5916670",
+  "pin": {
+    "s:4": 10
+  },
+  "prefix_profile": [
+    [
+      2
+    ],
+    [
+      3
+    ],
+    [
+      2
+    ],
+    [
+      2
+    ],
+    []
+  ],
+  "runtime": {
+    "relative_executable": ".venv/Scripts/python.exe",
+    "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "sources": {
+    "evidence/validation/B4_D069_ALT_ALPHA_FIRST_HOST_001/seed.json": "1d51ec98385a3096a5f5ec75f1cd879fd0024480853a78bdcb1eac2b181fe787",
+    "evidence/validation/B4_D075_DIRECT_2322_ALPHA_S4_10_001/INTAKE.md": "29ec5482c5f96c5b532ed0fe544c9d5a52e6f17f2bf9559c2802cdf05cf3d70f",
+    "evidence/validation/B4_D075_DIRECT_2322_ALPHA_S4_10_001/audit.py": "4b45f669bb8fc22e456add8c47a41471ad082de01495771647af7f9d6d648036",
+    "evidence/validation/B4_D075_DIRECT_2322_ALPHA_S4_10_001/commands.json": "1af6390160cc72c4011e6d23384dd4d7eb06140b87d46af82d1eb894e3ec4fd8",
+    "evidence/validation/B4_D075_DIRECT_2322_ALPHA_S4_10_001/driver.py": "d0d33db5bc134efb7eaa6f2f1c1fce94390454f25643144114597d686dee1990",
+    "evidence/validation/B4_D075_DIRECT_2322_ALPHA_S4_10_001/run.py": "adc14e0865208980efaabc081c01dcab9fe2a897c55f30a7b832f3f355c8826e",
+    "evidence/validation/B4_K2_ALPHA_PREFIX_S4_9_001/certificates.json": "2d5836b93adc9a4d2cc00947d70aa739bd62ad4fae09349db8820c26769e6b7a",
+    "evidence/validation/B4_K2_ALPHA_PREFIX_S4_9_001/prefix_original.json": "be7c273ab10cca88c220daf4bbb3baf5a637640c937e5df01c1d4867616fb781",
+    "lcl/model.py": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6",
+    "lcl/verify.py": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909",
+    "research/B2_NONADJACENT_CONSUMER.md": "fa7b58c0b42cb73f01d62153f8de36e6cc4e6315b1db4b4da59ac9e54a4c92fb",
+    "research/B4_2222_NONADJACENT_ALL_K.md": "989980882b25cab1a603d5dda0116d1e592d01b8cd463e83304f963588b6340c",
+    "research/B4_D075_DIRECT_2322_ALPHA_S4_10.md": "757c7fc1540387cff974b9634f93d70b42a1f5806620bbff7079f178370801c8"
+  },
+  "targets_on_success": [
+    2,
+    5
+  ]
+}

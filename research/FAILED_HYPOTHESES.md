@@ -450,3 +450,10 @@ at offset three above max(R). Its first pending original edge
 cannot realize either unused difference, independently of seed
 existence. Other labelings and interfaces have separate scope.
 [Proof and exact scope](B4_D074_U10_DUAL_BLOCK_FEASIBILITY.md)
+
+### F-B4-D075-DIRECT-2322-K1-INTERFACE
+
+**REJECT** completing K=1 by the direct 2322 seed's high-shift interface.
+It leaves R={9} and D={1} at physical s:4=11, so the only pending
+edge would have weight 2. The separate K=1 construction is unaffected.
+[Proof](B4_D075_DIRECT_2322_ALPHA_S4_10.md) · D076
