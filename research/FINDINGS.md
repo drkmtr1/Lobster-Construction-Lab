@@ -1105,3 +1105,25 @@ Zero new originals, queries, labeling enumeration or replay.
 The result preserves D067 and D068 and leaves alternative prefix
 supply open. [Proof](B4_D068_FIRST_HOST_UPPER_BLOCK.md) ·
 [Evidence](../evidence/validation/B4_D068_FIRST_HOST_UPPER_BLOCK_001/README.md) · D069
+
+## B4-D069-ALT-ALPHA-FIRST-HOST-001
+
+**ACCEPT** an independently supplied alpha certificate on the exact
+original D066 2222 prefix with a distinct named ledger ID. The
+first host b:0:0=5, zero host b:2:0=0 and physical exit s:4=9
+give A(17,8;5,1). At c=10 the complete selected spectrum is
+[5,16]. The sound degree-count prefilter admits 34 of 49 pairs.
+
+**ACCEPT** pointwise compatibility and finite repeatability of
+first-host upper insertion and third zero-host growth, then
+ordinary gracefulness on the original `[[q],[2],[t],[2]]+[[]]*(K+1)`
+for all exact integers q,t,K>=2. High shifting leaves
+R=[8,K+7], D=[1,K] and physical s:4=K+9 for the numerical
+nonadjacent sequence. The second and fourth branch sizes remain two.
+The D069 negative remains scoped to the earlier D066 ledger.
+
+The two retained controls, new ledger on the retained original,
+three new named originals and two adverse rejections passed
+independent verification. Both growth orders agree on P(3,3).
+No search or assignment nodes. [Proof](B4_D069_ALT_ALPHA_FIRST_HOST.md) ·
+[Evidence](../evidence/validation/B4_D069_ALT_ALPHA_FIRST_HOST_001/README.md) · D070

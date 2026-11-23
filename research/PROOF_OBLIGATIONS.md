@@ -640,5 +640,10 @@ The [first-host obstruction](B4_D068_FIRST_HOST_UPPER_BLOCK.md)
 discharges the proposed upper-block premise negatively on the
 exact D066 ledger at fixed r=t=2 and s:4=9. Its sum proof rejects
 all positive batches on that ledger for the seven admissible cuts.
-An independently supplied alternative alpha ledger on the same
-original with the fixed exit and a valid first-host premise remains open.
+The [alternative first-host supply](B4_D069_ALT_ALPHA_FIRST_HOST.md)
+now discharges the same-original seed question with s:4=9,
+b:2:0=0, a=5 and c=10. Its proved two-host composition supplies
+q,t,K>=2 at fixed r=2, with the fourth branch fixed at size two.
+The supply for variable interior r remains open. Testing the
+second-host lower-block premise on the D070 seed is the next
+bounded question.

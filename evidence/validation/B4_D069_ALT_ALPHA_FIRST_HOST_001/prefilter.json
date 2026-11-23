@@ -1,0 +1,721 @@
+{
+  "degree_excess": {
+    "b:1:0": 2,
+    "b:3:0": 2,
+    "l:0:0:0": 0,
+    "l:0:0:1": 0,
+    "l:2:0:0": 0,
+    "l:2:0:1": 0,
+    "s:0": 1,
+    "s:2": 2
+  },
+  "pairs": [
+    {
+      "a": 1,
+      "admitted": false,
+      "c": 10,
+      "k": 7,
+      "possible_excess": [
+        5,
+        6,
+        7
+      ],
+      "reason": "degree excess cannot equal a"
+    },
+    {
+      "a": 2,
+      "admitted": false,
+      "c": 10,
+      "k": 7,
+      "possible_excess": [
+        5,
+        6,
+        7
+      ],
+      "reason": "degree excess cannot equal a"
+    },
+    {
+      "a": 3,
+      "admitted": false,
+      "c": 10,
+      "k": 7,
+      "possible_excess": [
+        5,
+        6,
+        7
+      ],
+      "reason": "degree excess cannot equal a"
+    },
+    {
+      "a": 4,
+      "admitted": false,
+      "c": 10,
+      "k": 7,
+      "possible_excess": [
+        5,
+        6,
+        7
+      ],
+      "reason": "degree excess cannot equal a"
+    },
+    {
+      "a": 5,
+      "admitted": true,
+      "c": 10,
+      "k": 7,
+      "possible_excess": [
+        5,
+        6,
+        7
+      ],
+      "reason": "degree excess can equal a"
+    },
+    {
+      "a": 6,
+      "admitted": true,
+      "c": 10,
+      "k": 7,
+      "possible_excess": [
+        5,
+        6,
+        7
+      ],
+      "reason": "degree excess can equal a"
+    },
+    {
+      "a": 7,
+      "admitted": true,
+      "c": 10,
+      "k": 7,
+      "possible_excess": [
+        5,
+        6,
+        7
+      ],
+      "reason": "degree excess can equal a"
+    },
+    {
+      "a": 1,
+      "admitted": false,
+      "c": 11,
+      "k": 6,
+      "possible_excess": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "reason": "degree excess cannot equal a"
+    },
+    {
+      "a": 2,
+      "admitted": false,
+      "c": 11,
+      "k": 6,
+      "possible_excess": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "reason": "degree excess cannot equal a"
+    },
+    {
+      "a": 3,
+      "admitted": true,
+      "c": 11,
+      "k": 6,
+      "possible_excess": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "reason": "degree excess can equal a"
+    },
+    {
+      "a": 4,
+      "admitted": true,
+      "c": 11,
+      "k": 6,
+      "possible_excess": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "reason": "degree excess can equal a"
+    },
+    {
+      "a": 5,
+      "admitted": true,
+      "c": 11,
+      "k": 6,
+      "possible_excess": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "reason": "degree excess can equal a"
+    },
+    {
+      "a": 6,
+      "admitted": true,
+      "c": 11,
+      "k": 6,
+      "possible_excess": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "reason": "degree excess can equal a"
+    },
+    {
+      "a": 7,
+      "admitted": true,
+      "c": 11,
+      "k": 6,
+      "possible_excess": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "reason": "degree excess can equal a"
+    },
+    {
+      "a": 1,
+      "admitted": true,
+      "c": 12,
+      "k": 5,
+      "possible_excess": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "reason": "degree excess can equal a"
+    },
+    {
+      "a": 2,
+      "admitted": true,
+      "c": 12,
+      "k": 5,
+      "possible_excess": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "reason": "degree excess can equal a"
+    },
+    {
+      "a": 3,
+      "admitted": true,
+      "c": 12,
+      "k": 5,
+      "possible_excess": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "reason": "degree excess can equal a"
+    },
+    {
+      "a": 4,
+      "admitted": true,
+      "c": 12,
+      "k": 5,
+      "possible_excess": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "reason": "degree excess can equal a"
+    },
+    {
+      "a": 5,
+      "admitted": true,
+      "c": 12,
+      "k": 5,
+      "possible_excess": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "reason": "degree excess can equal a"
+    },
+    {
+      "a": 6,
+      "admitted": true,
+      "c": 12,
+      "k": 5,
+      "possible_excess": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "reason": "degree excess can equal a"
+    },
+    {
+      "a": 7,
+      "admitted": true,
+      "c": 12,
+      "k": 5,
+      "possible_excess": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "reason": "degree excess can equal a"
+    },
+    {
+      "a": 1,
+      "admitted": true,
+      "c": 13,
+      "k": 4,
+      "possible_excess": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "reason": "degree excess can equal a"
+    },
+    {
+      "a": 2,
+      "admitted": true,
+      "c": 13,
+      "k": 4,
+      "possible_excess": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "reason": "degree excess can equal a"
+    },
+    {
+      "a": 3,
+      "admitted": true,
+      "c": 13,
+      "k": 4,
+      "possible_excess": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "reason": "degree excess can equal a"
+    },
+    {
+      "a": 4,
+      "admitted": true,
+      "c": 13,
+      "k": 4,
+      "possible_excess": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "reason": "degree excess can equal a"
+    },
+    {
+      "a": 5,
+      "admitted": true,
+      "c": 13,
+      "k": 4,
+      "possible_excess": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "reason": "degree excess can equal a"
+    },
+    {
+      "a": 6,
+      "admitted": true,
+      "c": 13,
+      "k": 4,
+      "possible_excess": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "reason": "degree excess can equal a"
+    },
+    {
+      "a": 7,
+      "admitted": true,
+      "c": 13,
+      "k": 4,
+      "possible_excess": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "reason": "degree excess can equal a"
+    },
+    {
+      "a": 1,
+      "admitted": true,
+      "c": 14,
+      "k": 3,
+      "possible_excess": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "reason": "degree excess can equal a"
+    },
+    {
+      "a": 2,
+      "admitted": true,
+      "c": 14,
+      "k": 3,
+      "possible_excess": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "reason": "degree excess can equal a"
+    },
+    {
+      "a": 3,
+      "admitted": true,
+      "c": 14,
+      "k": 3,
+      "possible_excess": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "reason": "degree excess can equal a"
+    },
+    {
+      "a": 4,
+      "admitted": true,
+      "c": 14,
+      "k": 3,
+      "possible_excess": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "reason": "degree excess can equal a"
+    },
+    {
+      "a": 5,
+      "admitted": true,
+      "c": 14,
+      "k": 3,
+      "possible_excess": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "reason": "degree excess can equal a"
+    },
+    {
+      "a": 6,
+      "admitted": true,
+      "c": 14,
+      "k": 3,
+      "possible_excess": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "reason": "degree excess can equal a"
+    },
+    {
+      "a": 7,
+      "admitted": false,
+      "c": 14,
+      "k": 3,
+      "possible_excess": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "reason": "degree excess cannot equal a"
+    },
+    {
+      "a": 1,
+      "admitted": true,
+      "c": 15,
+      "k": 2,
+      "possible_excess": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "reason": "degree excess can equal a"
+    },
+    {
+      "a": 2,
+      "admitted": true,
+      "c": 15,
+      "k": 2,
+      "possible_excess": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "reason": "degree excess can equal a"
+    },
+    {
+      "a": 3,
+      "admitted": true,
+      "c": 15,
+      "k": 2,
+      "possible_excess": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "reason": "degree excess can equal a"
+    },
+    {
+      "a": 4,
+      "admitted": true,
+      "c": 15,
+      "k": 2,
+      "possible_excess": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "reason": "degree excess can equal a"
+    },
+    {
+      "a": 5,
+      "admitted": false,
+      "c": 15,
+      "k": 2,
+      "possible_excess": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "reason": "degree excess cannot equal a"
+    },
+    {
+      "a": 6,
+      "admitted": false,
+      "c": 15,
+      "k": 2,
+      "possible_excess": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "reason": "degree excess cannot equal a"
+    },
+    {
+      "a": 7,
+      "admitted": false,
+      "c": 15,
+      "k": 2,
+      "possible_excess": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "reason": "degree excess cannot equal a"
+    },
+    {
+      "a": 1,
+      "admitted": true,
+      "c": 16,
+      "k": 1,
+      "possible_excess": [
+        0,
+        1,
+        2
+      ],
+      "reason": "degree excess can equal a"
+    },
+    {
+      "a": 2,
+      "admitted": true,
+      "c": 16,
+      "k": 1,
+      "possible_excess": [
+        0,
+        1,
+        2
+      ],
+      "reason": "degree excess can equal a"
+    },
+    {
+      "a": 3,
+      "admitted": false,
+      "c": 16,
+      "k": 1,
+      "possible_excess": [
+        0,
+        1,
+        2
+      ],
+      "reason": "degree excess cannot equal a"
+    },
+    {
+      "a": 4,
+      "admitted": false,
+      "c": 16,
+      "k": 1,
+      "possible_excess": [
+        0,
+        1,
+        2
+      ],
+      "reason": "degree excess cannot equal a"
+    },
+    {
+      "a": 5,
+      "admitted": false,
+      "c": 16,
+      "k": 1,
+      "possible_excess": [
+        0,
+        1,
+        2
+      ],
+      "reason": "degree excess cannot equal a"
+    },
+    {
+      "a": 6,
+      "admitted": false,
+      "c": 16,
+      "k": 1,
+      "possible_excess": [
+        0,
+        1,
+        2
+      ],
+      "reason": "degree excess cannot equal a"
+    },
+    {
+      "a": 7,
+      "admitted": false,
+      "c": 16,
+      "k": 1,
+      "possible_excess": [
+        0,
+        1,
+        2
+      ],
+      "reason": "degree excess cannot equal a"
+    }
+  ]
+}

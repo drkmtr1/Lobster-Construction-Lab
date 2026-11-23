@@ -1,0 +1,16 @@
+[
+  [
+    ".venv/Scripts/python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "evidence/validation/B4_D069_ALT_ALPHA_FIRST_HOST_001/validate.py"
+  ],
+  [
+    ".venv/Scripts/python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "evidence/validation/B4_D069_ALT_ALPHA_FIRST_HOST_001/audit.py"
+  ]
+]

@@ -1,0 +1,36 @@
+{
+  "commands": [
+    {
+      "argv": [
+        ".venv/Scripts/python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "evidence/validation/B4_D069_ALT_ALPHA_FIRST_HOST_001/validate.py"
+      ],
+      "exit_code": 0,
+      "started_utc": "2026-11-23T02:42:36.037005+00:00",
+      "stderr": "",
+      "stdout": "PASS: explicit seed, geometric scope, both routes, and original K=2 completion\r\n",
+      "wall_seconds": 1.6940690000192262
+    },
+    {
+      "argv": [
+        ".venv/Scripts/python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "evidence/validation/B4_D069_ALT_ALPHA_FIRST_HOST_001/audit.py"
+      ],
+      "exit_code": 0,
+      "started_utc": "2026-11-23T02:42:37.731100+00:00",
+      "stderr": "",
+      "stdout": "PASS: original-bound independent audit, exact spectra, prefilter, and named routes\r\n",
+      "wall_seconds": 1.662525599997025
+    }
+  ],
+  "formal_runs": 1,
+  "one_worker": true,
+  "retries": 0,
+  "status": "PASS"
+}
