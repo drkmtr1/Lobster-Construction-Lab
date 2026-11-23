@@ -1,0 +1,145 @@
+{
+  "task": "LCL-R241-PAIRED-BRANCHED-SPINE-001",
+  "strategy_parent": "18ba80ea8b271164a6ba7d7a6c92329c53e3dd6a",
+  "accepted_base": "39d4387c32f7b01e0b8b09d72e6bf1ee85ae3001",
+  "grid": [
+    [
+      "T1",
+      [
+        1
+      ],
+      2
+    ],
+    [
+      "T2",
+      [
+        2,
+        3
+      ],
+      2
+    ],
+    [
+      "T3",
+      [
+        1,
+        3,
+        2
+      ],
+      2
+    ],
+    [
+      "T4",
+      [
+        2,
+        3,
+        2,
+        2
+      ],
+      2
+    ],
+    [
+      "T5",
+      [
+        2,
+        3,
+        2,
+        2
+      ],
+      3
+    ],
+    [
+      "T6",
+      [
+        2,
+        3,
+        1,
+        4,
+        2
+      ],
+      2
+    ],
+    [
+      "T7",
+      [
+        2,
+        4,
+        1,
+        3,
+        5,
+        2
+      ],
+      3
+    ],
+    [
+      "T8",
+      [
+        7,
+        1,
+        2,
+        4,
+        3,
+        1,
+        5
+      ],
+      5
+    ],
+    [
+      "T9",
+      [
+        0,
+        2,
+        3,
+        0,
+        1,
+        4,
+        0,
+        5
+      ],
+      4
+    ]
+  ],
+  "limits": {
+    "workers": 1,
+    "full_targets": 9,
+    "adverse": 3,
+    "process_cpu_seconds": 30,
+    "bytes_per_file": 2000000,
+    "bytes_total": 10000000,
+    "search_calls": 0,
+    "assignment_nodes": 0,
+    "replays": 0,
+    "retries": 0
+  },
+  "retained": {
+    "t4_original": "evidence/validation/B4_JOINT_23_MAX_ROOTED_CORE_001/validation/lift-t2-original.json",
+    "t4_manifest": "evidence/validation/B4_JOINT_23_MAX_ROOTED_CORE_001/MANIFEST.json",
+    "original": "evidence/validation/B4_D075_DIRECT_2322_ALPHA_S4_10_001/k2_original.json",
+    "certificates": "evidence/validation/B4_D075_DIRECT_2322_ALPHA_S4_10_001/certificates.json",
+    "manifest": "evidence/validation/B4_D075_DIRECT_2322_ALPHA_S4_10_001/MANIFEST.json"
+  },
+  "documents": {
+    "roadmap": {
+      "path": "docs/strategy/LCL_Branched_Spine_Research_Roadmap_2026-11-22.md",
+      "sha256": "fa4f5565cabc0001911f7566f9ca9430826a71d5bd02a01a2191c896af8b6a98"
+    },
+    "task": {
+      "path": "tasks/LCL_Codex_R241_Arbitrary_Branched_Spine_2026-11-22.md",
+      "sha256": "ea5f654803d45eab156b533d43a69a5b6ef3840bb137dfcacffa09f389b5c9d8"
+    },
+    "proof": "research/R241_PAIRED_BRANCHED_SPINE.md",
+    "preliminary_handoff": "handoffs/CODEX-20261122-r241-paired-branched-spine-intake.md"
+  },
+  "sources": [
+    "lcl/model.py",
+    "lcl/verify.py",
+    "research/B2_NONADJACENT_CONSUMER.md",
+    "research/B4_2222_NONADJACENT_ALL_K.md",
+    "references/upstream/mdl/N241_relational_ports.md",
+    "research/B4_JOINT_NESTED_CUT_TWO_HOST.md"
+  ],
+  "upstream": {
+    "MDL": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+    "bounded_search": "e48b94eec4091b4fe189e325cab2eda464409943",
+    "r241_original_blob": "faca17cfa4c484127413762adc0c36b771a18f71"
+  }
+}

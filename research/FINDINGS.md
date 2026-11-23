@@ -1234,3 +1234,11 @@ separate read-only reviews with zero queries, nodes or new graphs.
 **ACCEPT** ordinary gracefulness of the exact `[[2],[3],[2],[2]]+[[]]*(K+1)` for every exact integer K≥2. The high shift gives R=[9,K+8], D=[1,K] and physical s:4=K+10. The retained recurrence uses exactly those inventories on the actual suffix. **REJECT** K=1 under this interface only. The third and second centers carry 7 and 17, so this ledger supplies neither optional growth predicate.
 
 One new prefix, two completions at K=2 and K=5, two retained co-original controls and two adverse rejections passed the independent arithmetic audit and separate reviews. There were zero feasibility calls or assignment nodes. [Proof](B4_D075_DIRECT_2322_ALPHA_S4_10.md) · [Evidence](../evidence/validation/B4_D075_DIRECT_2322_ALPHA_S4_10_001/README.md) · D076
+
+## LCL-R241-PAIRED-BRANCHED-SPINE-001
+
+**ACCEPT** the independent S/M normalized suppliers and R241 original-connector induction. They label an arbitrary finite number of consecutive original sections with one center each and all positive quotas. The disjoint extensions are even n with nonnegative quotas and at least one zero, and odd n with positive first quota and nonnegative later quotas including a zero. Zero denotes a retained direct-leaf center. The prefix is alpha graceful at L=0.
+
+**ACCEPT** ordinary gracefulness of those exact originals with L≥2 trailing empty sections. The prefix shift produces R=[P,P+L−1], D=[1,L] and physical s:(n−1)=P+L+1. The retained recurrence uses both inventories on the actual suffix. In the B4 convention L=K+1 the all-positive case now covers the entire four-section, one-center-per-section family for K≥1, including varying fourth quotas. D076 and its other ledger remain preserved.
+
+**REJECT** the specified shifted interface at L=1. The odd first-zero regime, arbitrary numbers of centers, and interior empty sections remain outside this construction. Nine certificates, thirteen joins, seven new original records, two reused originals and three in-memory adverse checks passed separate review and independent audit. Zero search, enumeration or replay. [Proof](R241_PAIRED_BRANCHED_SPINE.md) · [Evidence](../evidence/validation/LCL_R241_PAIRED_BRANCHED_SPINE_001/README.md) · D078

@@ -1,0 +1,208 @@
+{
+  "checker": {
+    "claim": "finite certificate for this exact named target only",
+    "edge_differences": [
+      2,
+      1,
+      4,
+      3
+    ],
+    "errors": [],
+    "graph_digest": "ca9b849e7b60d535e832e873b46ed686fe32271e996829038ae53f64873703b6",
+    "m": 4,
+    "n": 5,
+    "valid": true
+  },
+  "edge_rows": [
+    [
+      "s:0",
+      "s:1",
+      2
+    ],
+    [
+      "s:1",
+      "s:2",
+      1
+    ],
+    [
+      "s:0",
+      "b:0:0",
+      4
+    ],
+    [
+      "b:0:0",
+      "l:0:0:0",
+      3
+    ]
+  ],
+  "graph_digest": "ca9b849e7b60d535e832e873b46ed686fe32271e996829038ae53f64873703b6",
+  "labels": {
+    "b:0:0": 0,
+    "l:0:0:0": 3,
+    "s:0": 4,
+    "s:1": 2,
+    "s:2": 1
+  },
+  "ledger_id": "087669f1898dfd8c397ae740052af939dd31a74f46ca93c54e067c1f78fe4e6a",
+  "original": {
+    "path": "evidence/validation/LCL_R241_PAIRED_BRANCHED_SPINE_001/T1_original.json",
+    "sha256": "d112ad18074c17feb69ea87c56c726166128d92a8c6c53887448a7821cb659d5"
+  },
+  "sequence": [
+    4,
+    2,
+    1
+  ],
+  "shifted": {
+    "b:0:0": 0,
+    "l:0:0:0": 3,
+    "s:0": 4
+  },
+  "suffix": {
+    "crossing": [
+      [
+        "s:0",
+        "s:1"
+      ]
+    ],
+    "partial": {
+      "claim": "partial assignment only; no completion or independent-supplier claim",
+      "complete": false,
+      "errors": [],
+      "frontier": [
+        "s:0"
+      ],
+      "graph_digest": "ca9b849e7b60d535e832e873b46ed686fe32271e996829038ae53f64873703b6",
+      "m": 4,
+      "n": 5,
+      "unused_differences": [
+        1,
+        2
+      ],
+      "unused_labels": [
+        1,
+        2
+      ],
+      "used_differences": [
+        3,
+        4
+      ],
+      "used_labels": [
+        0,
+        3,
+        4
+      ],
+      "valid": true
+    },
+    "path": [
+      "s:0",
+      "s:1",
+      "s:2"
+    ],
+    "pending_edges": [
+      [
+        "s:0",
+        "s:1"
+      ],
+      [
+        "s:1",
+        "s:2"
+      ]
+    ],
+    "port": [
+      "s:0",
+      4
+    ]
+  },
+  "trace": [
+    {
+      "aggregate": {
+        "N": 3,
+        "P": 1,
+        "distance": {
+          "b:0:0": 0,
+          "l:0:0:0": 1,
+          "s:0": 0
+        },
+        "edge_rows": [
+          [
+            "s:0",
+            "b:0:0",
+            2
+          ],
+          [
+            "b:0:0",
+            "l:0:0:0",
+            1
+          ]
+        ],
+        "entrance": "b:0:0",
+        "entrance_label": 0,
+        "exit": "s:0",
+        "exit_label": 2,
+        "high": [
+          "l:0:0:0",
+          "s:0"
+        ],
+        "labels": {
+          "b:0:0": 0,
+          "l:0:0:0": 1,
+          "s:0": 2
+        },
+        "low": [
+          "b:0:0"
+        ],
+        "witness": [
+          "b:0:0",
+          "s:0"
+        ],
+        "x": 0,
+        "y": 1
+      },
+      "connector": null,
+      "module": {
+        "N": 3,
+        "P": 1,
+        "distance": {
+          "b:0:0": 0,
+          "l:0:0:0": 1,
+          "s:0": 0
+        },
+        "edge_rows": [
+          [
+            "s:0",
+            "b:0:0",
+            2
+          ],
+          [
+            "b:0:0",
+            "l:0:0:0",
+            1
+          ]
+        ],
+        "entrance": "b:0:0",
+        "entrance_label": 0,
+        "exit": "s:0",
+        "exit_label": 2,
+        "high": [
+          "l:0:0:0",
+          "s:0"
+        ],
+        "labels": {
+          "b:0:0": 0,
+          "l:0:0:0": 1,
+          "s:0": 2
+        },
+        "low": [
+          "b:0:0"
+        ],
+        "witness": [
+          "b:0:0",
+          "s:0"
+        ],
+        "x": 0,
+        "y": 1
+      }
+    }
+  ]
+}

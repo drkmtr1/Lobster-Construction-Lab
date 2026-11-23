@@ -1,0 +1,67 @@
+{
+  "connector": {
+    "checker": {
+      "claim": "finite certificate for this exact named target only",
+      "edge_differences": [
+        14,
+        4,
+        6,
+        2,
+        1,
+        13,
+        12,
+        11,
+        15,
+        16,
+        17,
+        18,
+        5,
+        4,
+        3,
+        7,
+        8,
+        9
+      ],
+      "errors": [
+        "actual named edges do not match the original profile",
+        "consecutive spine vertices must be adjacent",
+        "edge differences repeat",
+        "edge differences are not exactly 1..m",
+        "original graph digest mismatch"
+      ],
+      "graph_digest": "aa11cb7b9f591ca905417a070b8c750a04fcafe2d87377c83ea536ff82f7c421",
+      "m": 18,
+      "n": 19,
+      "valid": false
+    },
+    "expected_graph_digest": "7fca510cf6646fa59d527450cc98e98ed3d00c297f5107c3caae5f760a0f962e",
+    "removed": [
+      "s:1",
+      "s:2"
+    ],
+    "substituted": [
+      "s:0",
+      "s:2"
+    ]
+  },
+  "differences": {
+    "actual": [
+      1,
+      2
+    ],
+    "declared": [
+      2
+    ],
+    "reason": "exact suffix difference inventory",
+    "rejected": true
+  },
+  "port": {
+    "exit": "s:1",
+    "incoming": "s:2",
+    "reason": "R241 offset mismatch",
+    "rejected": true,
+    "swapped_with": "b:3:0",
+    "x_A": 0,
+    "y_B": 1
+  }
+}

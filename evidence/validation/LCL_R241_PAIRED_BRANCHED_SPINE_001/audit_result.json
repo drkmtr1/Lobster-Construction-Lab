@@ -1,0 +1,236 @@
+{
+  "adverse_receipts": 3,
+  "audit_process_cpu_seconds": 0.046875,
+  "cases": [
+    {
+      "D": [
+        1,
+        2
+      ],
+      "P": 1,
+      "R": [
+        1,
+        2
+      ],
+      "case": "T1",
+      "graph_digest": "ca9b849e7b60d535e832e873b46ed686fe32271e996829038ae53f64873703b6",
+      "joins": 0,
+      "ledger_id": "087669f1898dfd8c397ae740052af939dd31a74f46ca93c54e067c1f78fe4e6a",
+      "m": 4,
+      "n": 5,
+      "port": [
+        "s:0",
+        4
+      ]
+    },
+    {
+      "D": [
+        1,
+        2
+      ],
+      "P": 4,
+      "R": [
+        4,
+        5
+      ],
+      "case": "T2",
+      "graph_digest": "abdb17a9e6db9058df92c81b4f70a078521e01b6e956a1f2585870f10667054a",
+      "joins": 0,
+      "ledger_id": "aae78e789f6fd5fc40b0ad8ff6b18b3aea513394293f6d23da89ffa823cd0685",
+      "m": 10,
+      "n": 11,
+      "port": [
+        "s:1",
+        7
+      ]
+    },
+    {
+      "D": [
+        1,
+        2
+      ],
+      "P": 6,
+      "R": [
+        6,
+        7
+      ],
+      "case": "T3",
+      "graph_digest": "9a0882221d0fa2536e0ca8479b4367dfc0c853c1fca2cd92c5a529fa689c6539",
+      "joins": 1,
+      "ledger_id": "2eb76ca1b5dae9c2e76c4dfc49b1eec0bcb24e72ef6b5df36e574db740fc712a",
+      "m": 13,
+      "n": 14,
+      "port": [
+        "s:2",
+        9
+      ]
+    },
+    {
+      "D": [
+        1,
+        2
+      ],
+      "P": 8,
+      "R": [
+        8,
+        9
+      ],
+      "case": "T4",
+      "graph_digest": "7fca510cf6646fa59d527450cc98e98ed3d00c297f5107c3caae5f760a0f962e",
+      "joins": 1,
+      "ledger_id": "f3020069cb3c8eb11a224fd84136beb79f4b6823a3e60827156a734bf882b6b4",
+      "m": 18,
+      "n": 19,
+      "port": [
+        "s:3",
+        11
+      ]
+    },
+    {
+      "D": [
+        1,
+        2,
+        3
+      ],
+      "P": 8,
+      "R": [
+        8,
+        9,
+        10
+      ],
+      "case": "T5",
+      "graph_digest": "751b848eb04b35197f0990ae68a5f231090956c275bd7552ae6d79b7e48851c9",
+      "joins": 1,
+      "ledger_id": "c47cb9fd9d2c8da40956052a3d08f44e0fb8262836c1955eac5f80d56445b124",
+      "m": 19,
+      "n": 20,
+      "port": [
+        "s:3",
+        12
+      ]
+    },
+    {
+      "D": [
+        1,
+        2
+      ],
+      "P": 12,
+      "R": [
+        12,
+        13
+      ],
+      "case": "T6",
+      "graph_digest": "1526d6fcd3924bd3a15d4e1e3638fae303629a52e43c243965d4cd1dd048f2e0",
+      "joins": 2,
+      "ledger_id": "7a18ccfddeacca375942ac087cacb39cecc96994ce68875fca9fc7f26d445f18",
+      "m": 23,
+      "n": 24,
+      "port": [
+        "s:4",
+        15
+      ]
+    },
+    {
+      "D": [
+        1,
+        2,
+        3
+      ],
+      "P": 14,
+      "R": [
+        14,
+        15,
+        16
+      ],
+      "case": "T7",
+      "graph_digest": "58c2fbe4b787d28c3757a97dfce42570e5a55c856020e23d73ff532aa9b03539",
+      "joins": 2,
+      "ledger_id": "21492c880c45c4f23dd60f4aa0ba7915c0ff6598f6686c98c8f15b7b3e93024c",
+      "m": 31,
+      "n": 32,
+      "port": [
+        "s:5",
+        18
+      ]
+    },
+    {
+      "D": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "P": 13,
+      "R": [
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "case": "T8",
+      "graph_digest": "b08e084c69a18992067fbf2f0982bbaae51cbdd74eee5bb70ac4d32e2332474c",
+      "joins": 3,
+      "ledger_id": "a3edc736bc93cc86e385a69890e3ad1dbc488bb63447840876cdaa25881c6cc6",
+      "m": 41,
+      "n": 42,
+      "port": [
+        "s:6",
+        19
+      ]
+    },
+    {
+      "D": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "P": 12,
+      "R": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "case": "T9",
+      "graph_digest": "d0d92100291bfa9acc25bdb288c6fb74cbe4d7dbf4325b0f12920c17c520ea9b",
+      "joins": 3,
+      "ledger_id": "7093f278aab3b07928de83a3feb68ecd85320ea1f0bc716b3e67ed0b9f07105c",
+      "m": 34,
+      "n": 35,
+      "port": [
+        "s:7",
+        17
+      ]
+    }
+  ],
+  "full_certificates": 9,
+  "new_audit_originals": 0,
+  "producer_and_audit_cpu_seconds": 0.203125,
+  "raw_receipts": {
+    "T1_certificate.json": "6f6707430b7768c05cb0e33501eb80b4877e8dd46ed3703bd025669ed662c14d",
+    "T1_original.json": "d112ad18074c17feb69ea87c56c726166128d92a8c6c53887448a7821cb659d5",
+    "T2_certificate.json": "60b44f2be881ac26ca15133f8ab85b15d8248f2f39659969a8e16297cd3ca178",
+    "T2_original.json": "d0c56eaab733967e6cd23a288de1a7dc0eb73a222f0dfffc8d542bef5506affb",
+    "T3_certificate.json": "bfbf03c63f5dd977d667fed31a360d0caed4f2b9508212d25f0f209b93f312fa",
+    "T3_original.json": "ee545eb1b30b62c3966130bcac7eed563714f0e4a5df57c26d0c1abde13f7c00",
+    "T4_certificate.json": "a49f686a8b4a4919c625c14301a35ddcba2148c4ad5881b339a68f2c3fd11571",
+    "T5_certificate.json": "1029976abb8f11f987257e05efcbc549e43722c6d3cf0c011ad5cd8118197229",
+    "T6_certificate.json": "71a810ab46b79179fc0a5ccc41aa27910b1d50ef11c9e8a09812fe2e245c038d",
+    "T6_original.json": "1b073c4f74d2d4bced1b9c4502d4b540d616094f4060ab403aec6687241b8009",
+    "T7_certificate.json": "4be58dfbce3c8cd072de21008fc7ab9f7275b7a1a4a32638daf0851bc8488f4b",
+    "T7_original.json": "aa6943ce4b325a1373be6bee78c5d4ed0158ccc3298d782cf285a625dc815ef9",
+    "T8_certificate.json": "040377bce9edd7df2a452dfdbabdc357a83e372da952fee09cdebdd257611e91",
+    "T8_original.json": "3285d5bd511a43bf48f27c572d73548b8449e2b793867b804a1cd23807b46e02",
+    "T9_certificate.json": "a80f460d13f8f02afaf9607a6fa4c9bc7b2e11d0ebbe69c44c15e403840716fd",
+    "T9_original.json": "7ed95bdbbd5820d46cd55eeb51292803f916921eb8c1246ce7fa8c14c5006c25",
+    "adverse.json": "28a6a5e80e4f45623820f3ca3fa559faf53ff694bef8212f1cb290119a4a1b4c",
+    "commands.json": "e224c1451deb6f53b56f3ede7c443d90dcdefbe33005b2d15b6289c379f65578",
+    "config.json": "bbc12472966059943bca34f09fea6b85734a6571bfbb37dcd07df750555a798c",
+    "identity.json": "f22b28a0c04c01499a0942b1e88c254ae62d4e8ea86a6f7b480f02a0507a8e82",
+    "result.json": "75e1b4e79c0fc5cfe8430a02f3b36c7f18168a32d520f4456db223241df2cc49"
+  },
+  "status": "PASS"
+}

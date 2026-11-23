@@ -457,3 +457,7 @@ existence. Other labelings and interfaces have separate scope.
 It leaves R={9} and D={1} at physical s:4=11, so the only pending
 edge would have weight 2. The separate K=1 construction is unaffected.
 [Proof](B4_D075_DIRECT_2322_ALPHA_S4_10.md) · D076
+
+### F-R241-PAIRED-SPINE-L1
+
+**REJECT** the exact high-shift suffix interface for one trailing empty section. At L=1 it leaves only vertex label P and difference 1 at physical exit s:(n−1)=P+2. The sole original pending edge would use difference 2. This result concerns that interface. [Proof](R241_PAIRED_BRANCHED_SPINE.md#exact-suffix-resources-and-termination) · D078

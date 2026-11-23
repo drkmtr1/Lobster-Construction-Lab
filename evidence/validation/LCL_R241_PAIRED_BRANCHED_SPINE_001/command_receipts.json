@@ -1,0 +1,38 @@
+{
+  "combined_process_cpu_seconds": 0.234375,
+  "retries": 0,
+  "runs": 1,
+  "stages": [
+    {
+      "argv": [
+        ".venv/Scripts/python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "evidence.validation.LCL_R241_PAIRED_BRANCHED_SPINE_001.run"
+      ],
+      "exit_code": 0,
+      "started_utc": "2026-11-23T05:25:09.509076+00:00",
+      "stderr": "",
+      "stdout": "",
+      "wall_seconds": 0.452297699986957
+    },
+    {
+      "argv": [
+        ".venv/Scripts/python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "evidence/validation/LCL_R241_PAIRED_BRANCHED_SPINE_001/audit.py"
+      ],
+      "exit_code": 0,
+      "started_utc": "2026-11-23T05:25:09.961407+00:00",
+      "stderr": "",
+      "stdout": "",
+      "wall_seconds": 0.2917206999845803
+    }
+  ],
+  "status": "PASS",
+  "workers": 1
+}

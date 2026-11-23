@@ -1,0 +1,135 @@
+{
+  "graph": {
+    "edges": [
+      [
+        "s:0",
+        "s:1"
+      ],
+      [
+        "s:1",
+        "s:2"
+      ],
+      [
+        "s:2",
+        "s:3"
+      ],
+      [
+        "s:0",
+        "b:0:0"
+      ],
+      [
+        "b:0:0",
+        "l:0:0:0"
+      ],
+      [
+        "b:0:0",
+        "l:0:0:1"
+      ],
+      [
+        "s:1",
+        "b:1:0"
+      ],
+      [
+        "b:1:0",
+        "l:1:0:0"
+      ],
+      [
+        "b:1:0",
+        "l:1:0:1"
+      ],
+      [
+        "b:1:0",
+        "l:1:0:2"
+      ]
+    ],
+    "profile": [
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [],
+      []
+    ],
+    "roles": {
+      "b:0:0": {
+        "branch": 0,
+        "kind": "branch",
+        "section": 0
+      },
+      "b:1:0": {
+        "branch": 0,
+        "kind": "branch",
+        "section": 1
+      },
+      "l:0:0:0": {
+        "branch": 0,
+        "kind": "leaf",
+        "leaf": 0,
+        "section": 0
+      },
+      "l:0:0:1": {
+        "branch": 0,
+        "kind": "leaf",
+        "leaf": 1,
+        "section": 0
+      },
+      "l:1:0:0": {
+        "branch": 0,
+        "kind": "leaf",
+        "leaf": 0,
+        "section": 1
+      },
+      "l:1:0:1": {
+        "branch": 0,
+        "kind": "leaf",
+        "leaf": 1,
+        "section": 1
+      },
+      "l:1:0:2": {
+        "branch": 0,
+        "kind": "leaf",
+        "leaf": 2,
+        "section": 1
+      },
+      "s:0": {
+        "kind": "spine",
+        "section": 0
+      },
+      "s:1": {
+        "kind": "spine",
+        "section": 1
+      },
+      "s:2": {
+        "kind": "spine",
+        "section": 2
+      },
+      "s:3": {
+        "kind": "spine",
+        "section": 3
+      }
+    },
+    "schema_version": 1,
+    "spine": [
+      "s:0",
+      "s:1",
+      "s:2",
+      "s:3"
+    ],
+    "vertices": [
+      "s:0",
+      "b:0:0",
+      "l:0:0:0",
+      "l:0:0:1",
+      "s:1",
+      "b:1:0",
+      "l:1:0:0",
+      "l:1:0:1",
+      "l:1:0:2",
+      "s:2",
+      "s:3"
+    ]
+  },
+  "graph_digest": "abdb17a9e6db9058df92c81b4f70a078521e01b6e956a1f2585870f10667054a"
+}

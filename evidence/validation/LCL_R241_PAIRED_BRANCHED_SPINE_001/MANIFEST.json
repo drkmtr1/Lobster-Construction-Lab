@@ -1,0 +1,155 @@
+{
+  "algorithm": "SHA-256",
+  "external_proof": {
+    "path": "research/R241_PAIRED_BRANCHED_SPINE.md",
+    "bytes": 10289,
+    "sha256": "5a73a215baca0feaa378e80fa1c30b1d27602258f7a4175873287da9cdb086ed"
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": "adverse.json",
+      "bytes": 1315,
+      "sha256": "28a6a5e80e4f45623820f3ca3fa559faf53ff694bef8212f1cb290119a4a1b4c"
+    },
+    {
+      "path": "audit_result.json",
+      "bytes": 6009,
+      "sha256": "d48ca5ec76376facd8c428203a39af2816c8e9246145dad86d5960353217e5a4"
+    },
+    {
+      "path": "audit.py",
+      "bytes": 16795,
+      "sha256": "7af386e85aca47d770fa98f99e5d743e6456314cb9d5765614b12f6b2e3e085c"
+    },
+    {
+      "path": "command_receipts.json",
+      "bytes": 842,
+      "sha256": "2197d5155197a484fdb302cf17db1490580809a2c63e02abc7157e82cdf7e1bd"
+    },
+    {
+      "path": "commands.json",
+      "bytes": 496,
+      "sha256": "e224c1451deb6f53b56f3ede7c443d90dcdefbe33005b2d15b6289c379f65578"
+    },
+    {
+      "path": "config.json",
+      "bytes": 2822,
+      "sha256": "bbc12472966059943bca34f09fea6b85734a6571bfbb37dcd07df750555a798c"
+    },
+    {
+      "path": "driver.py",
+      "bytes": 2754,
+      "sha256": "e47021c23e609d69a6d98d692af2599d7b5d1171582f9e2b13446dad1441c465"
+    },
+    {
+      "path": "identity.json",
+      "bytes": 2943,
+      "sha256": "f22b28a0c04c01499a0942b1e88c254ae62d4e8ea86a6f7b480f02a0507a8e82"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2901,
+      "sha256": "be04a9fb41cbe579304a231eca47327436ef15bb54568e0ab67b394ec4242cdd"
+    },
+    {
+      "path": "result.json",
+      "bytes": 225,
+      "sha256": "75e1b4e79c0fc5cfe8430a02f3b36c7f18168a32d520f4456db223241df2cc49"
+    },
+    {
+      "path": "REVIEWS.md",
+      "bytes": 2934,
+      "sha256": "4c73ea3bd3344b41fd585645686a01ec385089f81fd8ab7e9d1fa32bdb9a9f54"
+    },
+    {
+      "path": "run.py",
+      "bytes": 13833,
+      "sha256": "94bc68ff3310ec5c135679d60310d68e5f144e4065891aaeb676cfc44fbeb1e1"
+    },
+    {
+      "path": "T1_certificate.json",
+      "bytes": 3553,
+      "sha256": "6f6707430b7768c05cb0e33501eb80b4877e8dd46ed3703bd025669ed662c14d"
+    },
+    {
+      "path": "T1_original.json",
+      "bytes": 1007,
+      "sha256": "d112ad18074c17feb69ea87c56c726166128d92a8c6c53887448a7821cb659d5"
+    },
+    {
+      "path": "T2_certificate.json",
+      "bytes": 6021,
+      "sha256": "60b44f2be881ac26ca15133f8ab85b15d8248f2f39659969a8e16297cd3ca178"
+    },
+    {
+      "path": "T2_original.json",
+      "bytes": 2061,
+      "sha256": "d0c56eaab733967e6cd23a288de1a7dc0eb73a222f0dfffc8d542bef5506affb"
+    },
+    {
+      "path": "T3_certificate.json",
+      "bytes": 8720,
+      "sha256": "bfbf03c63f5dd977d667fed31a360d0caed4f2b9508212d25f0f209b93f312fa"
+    },
+    {
+      "path": "T3_original.json",
+      "bytes": 2569,
+      "sha256": "ee545eb1b30b62c3966130bcac7eed563714f0e4a5df57c26d0c1abde13f7c00"
+    },
+    {
+      "path": "T4_certificate.json",
+      "bytes": 11689,
+      "sha256": "a49f686a8b4a4919c625c14301a35ddcba2148c4ad5881b339a68f2c3fd11571"
+    },
+    {
+      "path": "T5_certificate.json",
+      "bytes": 12049,
+      "sha256": "1029976abb8f11f987257e05efcbc549e43722c6d3cf0c011ad5cd8118197229"
+    },
+    {
+      "path": "T6_certificate.json",
+      "bytes": 15868,
+      "sha256": "71a810ab46b79179fc0a5ccc41aa27910b1d50ef11c9e8a09812fe2e245c038d"
+    },
+    {
+      "path": "T6_original.json",
+      "bytes": 4313,
+      "sha256": "1b073c4f74d2d4bced1b9c4502d4b540d616094f4060ab403aec6687241b8009"
+    },
+    {
+      "path": "T7_certificate.json",
+      "bytes": 20746,
+      "sha256": "4be58dfbce3c8cd072de21008fc7ab9f7275b7a1a4a32638daf0851bc8488f4b"
+    },
+    {
+      "path": "T7_original.json",
+      "bytes": 5701,
+      "sha256": "aa6943ce4b325a1373be6bee78c5d4ed0158ccc3298d782cf285a625dc815ef9"
+    },
+    {
+      "path": "T8_certificate.json",
+      "bytes": 29192,
+      "sha256": "040377bce9edd7df2a452dfdbabdc357a83e372da952fee09cdebdd257611e91"
+    },
+    {
+      "path": "T8_original.json",
+      "bytes": 7434,
+      "sha256": "3285d5bd511a43bf48f27c572d73548b8449e2b793867b804a1cd23807b46e02"
+    },
+    {
+      "path": "T9_certificate.json",
+      "bytes": 24559,
+      "sha256": "a80f460d13f8f02afaf9607a6fa4c9bc7b2e11d0ebbe69c44c15e403840716fd"
+    },
+    {
+      "path": "T9_original.json",
+      "bytes": 6152,
+      "sha256": "7ed95bdbbd5820d46cd55eeb51292803f916921eb8c1246ce7fa8c14c5006c25"
+    }
+  ]
+}
