@@ -987,3 +987,21 @@ One new named original, 19 cut thresholds, 38 saved assignments,
 queries or replay. The negative is confined to the tested
 transport. [Proof](B4_K2_D062_TWO_EDGE_TRANSPORT.md) ·
 [Evidence](../evidence/validation/B4_K2_D062_TWO_EDGE_TRANSPORT_001/README.md) · D063
+
+## B4-K2-D062-TWO-GAP-ORDER-PRESERVING-001
+
+**ACCEPT** the original-bound rank-map model, complete 171-pair
+audit, independent source controls and 18/17 incidence deduction.
+**REJECT** both suffix orders for every two-gap embedding of the
+17 fixed D062 prefix ranks on the exact q=r=t=K=2 original.
+The 342 cases give 342 distinct full maps. In 161 pairs an
+assigned difference repeats. Neither suffix order supplies D
+on the remaining ten, which include two new valid prefixes with
+R={5,6} and R={10,11}. The top two differences exclude 51 pairs
+by named incidences. All of them were checked as part of the grid.
+
+One retained target, zero new graph identities, solver queries
+or historical replays. The negative concerns this fixed prefix
+order and leaves other orders and broader K>=2 supply open.
+[Proof](B4_K2_D062_TWO_GAP_ORDER_PRESERVING.md) ·
+[Evidence](../evidence/validation/B4_K2_D062_TWO_GAP_ORDER_PRESERVING_001/README.md) · D064

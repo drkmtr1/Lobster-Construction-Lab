@@ -362,3 +362,16 @@ orders fail to use the exact missing difference multiset.
 The 38-case grid was exhausted. Other named labelings and
 other suffix interfaces are outside this negative.
 [Proof and full scope](B4_K2_D062_TWO_EDGE_TRANSPORT.md)
+
+### F-B4-K2-D062-TWO-GAP-ORDER-PRESERVING
+
+On the exact original `[[2],[2],[2],[2],[],[],[]]`, retain the
+17 D062 K=1 labels in their relative order after withholding old
+s:5. Map them to the increasing complement of any two holes
+from [0,18], then place those holes on the original s:5 and s:6
+in either order. All 342 distinct cases fail. There are 161
+prefixes with repeated assigned differences and ten valid
+prefixes with unusable suffix inventories. This exhausts the
+specified order-preserving transport and preserves the separate
+single-gap failure. Other prefix rank orders remain open.
+[Proof and exact scope](B4_K2_D062_TWO_GAP_ORDER_PRESERVING.md)

@@ -609,5 +609,9 @@ Continuation for q,r,t>=2,K>=2 remains open. The
 [single-gap test](B4_K2_D062_TWO_EDGE_TRANSPORT.md)
 exhausts only the exact D062 transport with both suffix orders
 at q=r=t=K=2. It supplies no valid two-edge consumer state.
-An alternative original-bound supplier or a different
-structural continuation remains a separate obligation.
+The [two-gap test](B4_K2_D062_TWO_GAP_ORDER_PRESERVING.md)
+also exhausts all hole pairs and both suffix orders for the fixed
+D062 prefix ranking on the same exact target. It reaches two
+additional valid prefixes and neither supplies a two-edge
+completion. A different rank order, original-bound supplier,
+or structural continuation remains a separate obligation.

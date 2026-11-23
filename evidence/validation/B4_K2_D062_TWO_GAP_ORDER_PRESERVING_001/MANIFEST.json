@@ -1,0 +1,75 @@
+{
+  "algorithm": "SHA-256",
+  "external_proof": {
+    "bytes": 5495,
+    "path": "research/B4_K2_D062_TWO_GAP_ORDER_PRESERVING.md",
+    "sha256": "2c4da42827bb7b808e8290d0b6968108d785cfad378e23d854e5faaa6fd5435b"
+  },
+  "files": [
+    {
+      "bytes": 8,
+      "path": ".gitattributes",
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "bytes": 14709,
+      "path": "audit.py",
+      "sha256": "63e030bcd33bc544f5cee79634dd37863bd29dab9fc333126261784e4c9c2857"
+    },
+    {
+      "bytes": 3733,
+      "path": "audit_result.json",
+      "sha256": "1097f1cd8a6a2e76f7385ef6190aaa3bf8e496baa2025a00249c89a337577cfe"
+    },
+    {
+      "bytes": 214658,
+      "path": "cases.jsonl",
+      "sha256": "73b6a02b51a25a3ddad37b6edd30ecc33ddabcfdf041ca12b31a33ea98b9b96f"
+    },
+    {
+      "bytes": 918,
+      "path": "command_receipts.json",
+      "sha256": "340c3b2c9f6dcbaeeb443a1b559783a1ae078ef059fed911e0d01065d50bcb99"
+    },
+    {
+      "bytes": 438,
+      "path": "commands.json",
+      "sha256": "cb9c844bb0a63041267e3525355e61564f9b0b908292747dfbf5be19debadcea"
+    },
+    {
+      "bytes": 5733,
+      "path": "config.json",
+      "sha256": "184b1bf3561dbe848fec22a4494d3202029457e0ed67e76ea299f13dd5e74ef9"
+    },
+    {
+      "bytes": 4579,
+      "path": "controls.json",
+      "sha256": "69e2761712f54fd7991889b05ad432b5341eb7c30e2c1c3a5d95f6c0e7926851"
+    },
+    {
+      "bytes": 4660,
+      "path": "freeze.json",
+      "sha256": "efeae7dddb0d4bcdea321d48b98bac06befcda8787beabdc0bd6e253cb960080"
+    },
+    {
+      "bytes": 3184,
+      "path": "README.md",
+      "sha256": "dfcfa4d5e95b0b7c0825f53093aeae545c2b9b58d4e0a54fff0f6a8110c63f56"
+    },
+    {
+      "bytes": 344,
+      "path": "result.json",
+      "sha256": "c6f41d00f3005ca3347bd88e2052d2da3a81084949ddc6ca2c5b8cbb46e5f7a8"
+    },
+    {
+      "bytes": 1611,
+      "path": "REVIEWS.md",
+      "sha256": "9d5a0336e66141201db79d39b48ea63ac05c3896bc74585e755d69097a5b5d90"
+    },
+    {
+      "bytes": 10476,
+      "path": "validate.py",
+      "sha256": "b6117ca9e39a77aef59a90a38e22835675f02ed81039cf38f538965a0603cfae"
+    }
+  ]
+}
