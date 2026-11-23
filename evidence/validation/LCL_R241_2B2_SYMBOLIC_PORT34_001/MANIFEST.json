@@ -1,0 +1,187 @@
+{
+  "algorithm": "SHA-256",
+  "starting_checkpoint": "98749555fb483ef258fa9cf040f092f2520d6636",
+  "regression_b": 5,
+  "graph_digest": "ccb523e1bd406c19fe080e111589c6d5a340b8277590ef0f427a943a199dd520",
+  "ledger_id": "9a81b7d472fec9ae756b2a8019d3f149199d44405cd3e76477930980fa5bd3c3",
+  "baseline_annotated_tag": "fddfc1dd9541324b2ed2de2505bc750b3e3f0b9d",
+  "baseline_peeled_commit": "36ea1603602491bf3c1c5b81ed4c23aaa2210e70",
+  "protected_upstream": {
+    "MDL": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+    "bounded_search": "e48b94eec4091b4fe189e325cab2eda464409943"
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": "audit.py",
+      "bytes": 11252,
+      "sha256": "aa489d608cdb26c87bf9310caf3dea96d21adfa3afc5efd4065a536430a450a1"
+    },
+    {
+      "path": "command_receipt.json",
+      "bytes": 1768,
+      "sha256": "89c139590bb851d335e28ded95c6a40b6d6fa4daa3db2e80e3d9f8ff67276f70"
+    },
+    {
+      "path": "config.json",
+      "bytes": 4448,
+      "sha256": "ccae410e1809c31a01e705052e528abe0a7c800045fb5d57d8818c440a33012c"
+    },
+    {
+      "path": "original.json",
+      "bytes": 2653,
+      "sha256": "8e680702c32b34481e3b4e81b726443a147d883a866e36117a777876e1d27685"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3039,
+      "sha256": "67110ae26918bcc97aae789e712491d8747cf21b5f699b2b8caa23c654f41c3d"
+    },
+    {
+      "path": "result.json",
+      "bytes": 12661,
+      "sha256": "4ce73dba4691e3c3f54161e50de28db13802306350703a6c936f6fa01b143273"
+    },
+    {
+      "path": "REVIEWS.md",
+      "bytes": 2677,
+      "sha256": "683963090e44f970e70800651f6790b167e5127a45057e303818b65679707ea5"
+    },
+    {
+      "path": "run.py",
+      "bytes": 8961,
+      "sha256": "fe54bbd80da862a6a9f189b29a35752faf08ae83ce23c78b02e8dbd2bd0716e4"
+    }
+  ],
+  "external_files": [
+    {
+      "path": "evidence/validation/LCL_R241_222_OFFSET_MENU_001/MANIFEST.json",
+      "bytes": 6530,
+      "sha256": "9372e5b07fae85ef67819d1b592185c36ac9e8708075ec68b38455a7d1d5cd0f"
+    },
+    {
+      "path": "evidence/validation/LCL_R241_222_OFFSET_MENU_001/result.json",
+      "bytes": 54078,
+      "sha256": "d667507493df288fd0e13fdb51a5a82a622805f103b144dfed7c04721182b974"
+    },
+    {
+      "path": "evidence/validation/LCL_R241_222_STRICT_RETURN_001/audit_result.json",
+      "bytes": 898,
+      "sha256": "bbae06541d4950553a88beff1c9d0797c0ae6a9bbe8090d1263bed448ccc4461"
+    },
+    {
+      "path": "evidence/validation/LCL_R241_222_STRICT_RETURN_001/config.json",
+      "bytes": 3446,
+      "sha256": "dd0d6a2d54120560524ce349ca1488b706b1664234d859277e63f63dc08d7149"
+    },
+    {
+      "path": "evidence/validation/LCL_R241_222_STRICT_RETURN_001/enumeration.json",
+      "bytes": 589833,
+      "sha256": "e4680a029e8c44c45d81581c86311aae570d570833412027ed34d7670eaab497"
+    },
+    {
+      "path": "evidence/validation/LCL_R241_222_STRICT_RETURN_001/MANIFEST.json",
+      "bytes": 2779,
+      "sha256": "ab6f259f2fa19b79f2bab53dab1f9abe71ca9d62aeb22ca08fa12726e68c9c8e"
+    },
+    {
+      "path": "evidence/validation/LCL_R241_222_STRICT_RETURN_001/strict_original.json",
+      "bytes": 2107,
+      "sha256": "e6ffffcb6985e907748a42ca1ee91e83aa453c6ebbbae047e966a2b3115ee5d5"
+    },
+    {
+      "path": "evidence/validation/LCL_R241_223_AUDIT_CLOSEOUT_001/MANIFEST.json",
+      "bytes": 8417,
+      "sha256": "ae834752c9417656d4afc2aa88d5dd37bea347eada803cbc0ec6b0563296904b"
+    },
+    {
+      "path": "evidence/validation/LCL_R241_223_STRICT_RETURN_001/command_receipts.json",
+      "bytes": 1483,
+      "sha256": "0cf2e399d699013fe18f2847cab0e97012c24b959e2a61a2187e0cad2cdb2527"
+    },
+    {
+      "path": "evidence/validation/LCL_R241_232_TWO_PORT_001/MANIFEST.json",
+      "bytes": 5651,
+      "sha256": "bf16e768da6ab58edc2e86cb0af9ac8626dc49bdc3c4a946f1d69193f65f1e30"
+    },
+    {
+      "path": "evidence/validation/LCL_R241_232_TWO_PORT_001/original.json",
+      "bytes": 2289,
+      "sha256": "f161f512aaf8b21f0fa20322af3330318217fedd30a6482ca7e46afa871e8e3b"
+    },
+    {
+      "path": "evidence/validation/LCL_R241_232_TWO_PORT_001/result.json",
+      "bytes": 14935,
+      "sha256": "91b91616e7722470f643ca282d2e0f03a252f1ecacf13b556c24b3615aedef80"
+    },
+    {
+      "path": "evidence/validation/LCL_R241_242_PORT_34_001/MANIFEST.json",
+      "bytes": 5934,
+      "sha256": "b67d30a1bafa8f53bbe0e2a5dc1cb3f46334c5bf88d334fbe5e5a0f66815ca1f"
+    },
+    {
+      "path": "evidence/validation/LCL_R241_242_PORT_34_001/original.json",
+      "bytes": 2471,
+      "sha256": "2c5cc3d08348fd7aca083b221ca2f794407c43bb9bb8523ac5d69eeb85fed502"
+    },
+    {
+      "path": "evidence/validation/LCL_R241_242_PORT_34_001/result.json",
+      "bytes": 11374,
+      "sha256": "0f4fd775186545ff85c41e5a16c08713eb1dc124aa5dbb00a616c355852424df"
+    },
+    {
+      "path": "lcl/model.py",
+      "bytes": 10720,
+      "sha256": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6"
+    },
+    {
+      "path": "lcl/verify.py",
+      "bytes": 14075,
+      "sha256": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909"
+    },
+    {
+      "path": "references/upstream/mdl/N241_relational_ports.md",
+      "bytes": 25890,
+      "sha256": "53ac2c8bf13457ae5630dd0c1c6e19b785d3b568b67d932e86d331901ee82e9e"
+    },
+    {
+      "path": "research/R241_222_OFFSET_MENU.md",
+      "bytes": 8672,
+      "sha256": "432b2bb6dbc5f0a27cd4d078eba63d7225d88055d081050f39fe15036c93f7a4"
+    },
+    {
+      "path": "research/R241_222_STRICT_RETURN.md",
+      "bytes": 4718,
+      "sha256": "0ce6bf579227edbae6e2f333059a70c1c39ac639c766a3f783d94c19a15b07df"
+    },
+    {
+      "path": "research/R241_232_TWO_PORT.md",
+      "bytes": 6485,
+      "sha256": "1e7f7ba97a9e80fdd4a090e77bf94bb607b0db58bdd4a8eb9636ca997fa2e97b"
+    },
+    {
+      "path": "research/R241_242_PORT_34.md",
+      "bytes": 4255,
+      "sha256": "59f3c8de26e822ed70ff3797e768b4e35a3eb68a92a2e255aa04f7b84c6e89d5"
+    },
+    {
+      "path": "research/R241_2B2_SYMBOLIC_PORT34.md",
+      "bytes": 5802,
+      "sha256": "1be502b5d04bade20864642df717dbc71fec705ea06b8ded02e3fcfc43ddbe1f"
+    },
+    {
+      "path": "research/R241_ZERO_TO_ONE_BRIDGE.md",
+      "bytes": 8636,
+      "sha256": "eafec3678065e07a7ce8b868d9a475883679846df22df350f5dd585cfbf233e5"
+    }
+  ],
+  "runtime": {
+    "path": ".venv/Scripts/python.exe",
+    "bytes": 255200,
+    "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664"
+  }
+}

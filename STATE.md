@@ -2,19 +2,21 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 23, 2026, Pacific/Honolulu<br>
-**Stage:** D086 closed. A(13,8;3,4) is **WITNESSED** on exact `[[2,4],[2]]`. [Proof](research/R241_242_PORT_34.md).
+**Stage:** D087 closed. The symbolic A(b+9,b+4;3,4) supplier is **ACCEPTED** on exact `[[2,b],[2]]` for integers b≥2. [Proof](research/R241_2B2_SYMBOLIC_PORT34.md).
 
 ## Current scientific objective
 
-Supply multi-center modules across independently variable quotas with usable physical offsets. D084–D086 now witness (3,4) on three exact first-section quota choices with the other quotas fixed. The new finite comparison motivates a symbolic palette test. The [latest handoff](handoffs/CODEX-20261123-r241-242-port-34.md) records the result and scope.
+Supply multi-center modules across independently variable quotas with usable physical offsets. D087 establishes one variable terminal quota on exact `[[2,b],[2]]` with physical (3,4). Next, test a different first-center quota and a compatible entrance. The [latest handoff](handoffs/CODEX-20261123-r241-2b2-symbolic-port34.md) records the result and bounded proposal.
 
 ## One next action
 
-Under separate authorization, prove or refute the direct terminal-palette candidate for exact `[[2,b],[2]]`, integer b≥2, at physical state A(b+9,b+4;3,4). Verify the original incidences and full label and difference partitions symbolically. Use no solvers, assignment enumeration or R241 joins.
+Under separate authorization, prove or refute a direct alpha palette supplier on the single next family `[[3,b],[2]]`, integers b≥2, at physical state A(b+10,b+5;4,4). Require exact named incidences and symbolic label and difference partitions. Use zero solver calls, complete assignment enumeration or R241 joins.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
+
+- D087 proves A(b+9,b+4;3,4) on the exact named `[[2,b],[2]]` original for all integers b≥2. The original-edge differences split as [1,b] at the variable terminals and [b+1,b+8] on the eight other edges. The checker and independent audit passed the one new b=5 certificate, the three retained controls and three adverse rejections. See [proof](research/R241_2B2_SYMBOLIC_PORT34.md) and [evidence](evidence/validation/LCL_R241_2B2_SYMBOLIC_PORT34_001/README.md).
 
 - D086 independently verifies A(13,8;3,4) on exact named `[[2,4],[2]]`. The signed degree sum and actual maximum edge force (A,B,z)=(9,8,0), and the explicit terminal palettes exhaust the remaining labels and differences. The checker, independent audit and separate reviews passed the one new original and certificate and all controls. No enumeration, solver, replay or joins. See [proof](research/R241_242_PORT_34.md) and [evidence](evidence/validation/LCL_R241_242_PORT_34_001/README.md).
 
