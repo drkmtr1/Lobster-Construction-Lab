@@ -2,19 +2,21 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 23, 2026, Pacific/Honolulu<br>
-**Stage:** D085 closed. On exact `[[2,3],[2]]` at cut seven, (2,0) is **EXCLUDED** and (3,4) is **WITNESSED**. [Proof](research/R241_232_TWO_PORT.md).
+**Stage:** D086 closed. A(13,8;3,4) is **WITNESSED** on exact `[[2,4],[2]]`. [Proof](research/R241_242_PORT_34.md).
 
 ## Current scientific objective
 
-Supply multi-center modules across independently variable quotas with usable physical offsets. D085 keeps the witnessed (3,4) offset on one exact unequal-quota neighbor and excludes its prescribed (2,0) state. The [latest handoff](handoffs/CODEX-20261123-r241-232-two-port.md) records the conditional R241 matches and the bounded result.
+Supply multi-center modules across independently variable quotas with usable physical offsets. D084–D086 now witness (3,4) on three exact first-section quota choices with the other quotas fixed. The new finite comparison motivates a symbolic palette test. The [latest handoff](handoffs/CODEX-20261123-r241-242-port-34.md) records the result and scope.
 
 ## One next action
 
-Under separate authorization, assess only the physical offset state (3,4) on exact named `[[2,4],[2]]` at cut eight. Use the D085 witness as a structural comparison and supply one explicit ledger, a structural exclusion, or an unresolved disposition, with zero solver calls, complete-assignment enumeration or joins.
+Under separate authorization, prove or refute the direct terminal-palette candidate for exact `[[2,b],[2]]`, integer b≥2, at physical state A(b+9,b+4;3,4). Verify the original incidences and full label and difference partitions symbolically. Use no solvers, assignment enumeration or R241 joins.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
+
+- D086 independently verifies A(13,8;3,4) on exact named `[[2,4],[2]]`. The signed degree sum and actual maximum edge force (A,B,z)=(9,8,0), and the explicit terminal palettes exhaust the remaining labels and differences. The checker, independent audit and separate reviews passed the one new original and certificate and all controls. No enumeration, solver, replay or joins. See [proof](research/R241_242_PORT_34.md) and [evidence](evidence/validation/LCL_R241_242_PORT_34_001/README.md).
 
 - D085 excludes A(12,7;2,0) and independently supplies A(12,7;3,4) on the exact named `[[2,3],[2]]` original. The proof distinguishes both first centers and covers all 24 ordered numerical cases. One new original, one witness, two retained positive checks and three adverse rejections passed independent verification. No assignment enumeration, solver, replays or joins. See [proof](research/R241_232_TWO_PORT.md) and [evidence](evidence/validation/LCL_R241_232_TWO_PORT_001/README.md).
 
