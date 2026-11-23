@@ -1186,3 +1186,23 @@ Zero new originals, seed ledgers, searches or assignment nodes.
 D070's positive theorem and D071–D072 remain scoped as before.
 [Proof](B4_D072_UNPIN_FIRST_HOST_DUAL_BLOCK.md) ·
 [Evidence](../evidence/validation/B4_D072_UNPIN_FIRST_HOST_DUAL_BLOCK_001/README.md) · D073
+
+## B4-D073-U8-DUAL-BLOCK-STRUCTURAL-001
+
+**ACCEPT a structural obstruction.** No normalized alpha-graceful
+labeling of the exact named 2222 original with s:4=8 and b:2:0=0
+supplies both complete block spectra on one ledger for any a=1..7,
+9≤u≤16 and a<d≤8. Lower counting leaves B=10 or 12. At u=9
+the counts require B=8, already occupied by the exit. For u≥10
+the descending weight argument forces upper-selected s:2.
+Containment then forces conflicting named incidences for both
+remaining B values.
+
+The unchanged checker revalidated two archived maps on their shared
+original and rejected the wrong digest. The independent arithmetic
+audit checks the structural premises with no numerical tuple sweep,
+new original, solver call or label enumeration. Separate AI reviews
+accepted. D066–D070 and D073 keep their scopes. An adjacent original-path
+consumer remains a separate obligation for any future supplier.
+[Proof](B4_D073_U8_DUAL_BLOCK_STRUCTURAL.md) ·
+[Evidence](../evidence/validation/B4_D073_U8_DUAL_BLOCK_STRUCTURAL_001/README.md) · D074

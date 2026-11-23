@@ -428,3 +428,13 @@ s:4=9, b:2:0=0 and any first-host label a=1..7. The structural
 proof covers u=10..16 and a<d<=8. Other exits and other growth
 rules remain distinct proof obligations.
 [Proof and exact scope](B4_D072_UNPIN_FIRST_HOST_DUAL_BLOCK.md)
+
+### F-B4-D073-U8-DUAL-BLOCK
+
+**REJECT** the same-ledger complete upper and lower block premises
+on the exact named normalized 2222 original at physical s:4=8,
+b:2:0=0 and any a=1..7. The proof covers 9≤u≤16 and a<d≤8
+by count equality and actual original incidence contradictions.
+Other exits, labelings outside this orientation, and growth methods
+with different premises remain distinct.
+[Proof and exact scope](B4_D073_U8_DUAL_BLOCK_STRUCTURAL.md)

@@ -654,7 +654,10 @@ rejects the simultaneous complete premises on the same named
 normalized alpha orientation. The
 [unpinned first-host obstruction](B4_D072_UNPIN_FIRST_HOST_DUAL_BLOCK.md)
 rules out the same joint premise for all allowed a=1..7
-with physical s:4=9 and b:2:0=0. The next proposed seed question
-changes the label at the same physical exit to 8. Compatibility
-and both joint inventories remain separate proof obligations
-for any future simultaneous supplier.
+with physical s:4=9 and b:2:0=0. The
+[exit-eight obstruction](B4_D073_U8_DUAL_BLOCK_STRUCTURAL.md)
+rules out the same premises at s:4=8, keeping the zero-host pin
+and the first-host label free. The next proposed seed question
+uses physical s:4=10. Compatibility, both joint inventories and
+the matching original-path consumer remain separate proof
+obligations for any future simultaneous supplier.

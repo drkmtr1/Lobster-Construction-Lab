@@ -1,0 +1,37 @@
+{
+  "commands": [
+    {
+      "argv": [
+        ".venv/Scripts/python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "evidence/validation/B4_D073_U8_DUAL_BLOCK_STRUCTURAL_001/verify_controls.py"
+      ],
+      "exit_code": 0,
+      "started_utc": "2026-11-23T04:03:22.768296+00:00",
+      "stderr": "",
+      "stdout": "PASS: two original-bound controls and one actual wrong-digest rejection\r\n",
+      "wall_seconds": 4.886176900006831
+    },
+    {
+      "argv": [
+        ".venv/Scripts/python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "evidence/validation/B4_D073_U8_DUAL_BLOCK_STRUCTURAL_001/audit.py"
+      ],
+      "exit_code": 0,
+      "started_utc": "2026-11-23T04:03:27.654629+00:00",
+      "stderr": "",
+      "stdout": "PASS: independent named incidences, count and containment boundaries, and archive controls\r\n",
+      "wall_seconds": 4.96707959997002
+    }
+  ],
+  "formal_runs": 1,
+  "one_worker": true,
+  "retries": 0,
+  "setup_process_cpu_seconds": 0.640625,
+  "status": "PASS"
+}

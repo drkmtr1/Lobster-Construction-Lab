@@ -2,7 +2,7 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 22, 2026, Pacific/Honolulu<br>
-**Stage:** B4-D072-UNPIN-FIRST-HOST-DUAL-BLOCK-001 complete and independently reviewed. Both block premises cannot coexist on the exact 2222 alpha original with s:4=9 and b:2:0=0, for any first-host label.
+**Stage:** B4-D073-U8-DUAL-BLOCK-STRUCTURAL-001 complete and independently reviewed. Joint block supply is impossible on the exact 2222 alpha original at s:4=8 and b:2:0=0 for every first-host label.
 
 ## Current scientific objective
 
@@ -10,10 +10,11 @@ Develop independently supplied original-graph boundaries beyond the proved zero-
 
 ## One next action
 
-**With a new bounded scope decision, investigate the dual-block seed question on the same named 2222 original with physical `s:4=8`.** Keep `b:2:0=0`, the first-host label free and both complete incidence predicates.
+**With a new bounded scope decision, investigate the dual-block seed question on the same named 2222 original with physical `s:4=10`.** Keep `b:2:0=0`, the first-host label free and both complete incidence predicates.
 
 ## What is established in this package
 
+- B4-D073-U8-DUAL-BLOCK-STRUCTURAL-001 rejects same-ledger dual supply on named 2222 with s:4=8, b:2:0=0 and any a=1..7. Lower counting leaves B=10 or 12. The upper cut 9 forces a label collision. For higher cuts, descending weights force upper-selected s:2 and actual incidence containment excludes both host labels. Independent audit and separate reviews passed with no numerical tuple sweep or labeling search. See `research/B4_D073_U8_DUAL_BLOCK_STRUCTURAL.md`, D074 and `evidence/validation/B4_D073_U8_DUAL_BLOCK_STRUCTURAL_001/`.
 - B4-D072-UNPIN-FIRST-HOST-DUAL-BLOCK-001 rejects same-ledger dual supply on named 2222 with s:4=9, b:2:0=0 and any a=1..7. Count equality leaves B=8,10,12. A descending argument forces upper-selected s:2. Edge containment rules out B=10,12, and the residual named weights exclude B=8 across the remaining a values. The structural proof and independent audit of 1,568 numerical tuples passed without a search. See `research/B4_D072_UNPIN_FIRST_HOST_DUAL_BLOCK.md`, D073 and `evidence/validation/B4_D072_UNPIN_FIRST_HOST_DUAL_BLOCK_001/`.
 - B4-D071-PINNED-DUAL-BLOCK-OBSTRUCTION-001 proves no single normalized alpha labeling of the exact named 2222 original with b:0:0=5, s:4=9 and b:2:0=0 supplies both retained complete incidence tails. Lower counting leaves B=8,10,12 and the upper degree requirement and named edge contradictions exclude all three. One arithmetic audit of 168 numerical triples and separate reviews passed with zero label enumeration. See `research/B4_D071_PINNED_DUAL_BLOCK_OBSTRUCTION.md`, D072 and `evidence/validation/B4_D071_PINNED_DUAL_BLOCK_OBSTRUCTION_001/`.
 - B4-D070-SECOND-HOST-LOWER-BLOCK-001 rejects the prescribed lower-block insertion at physical b:1:0 on the supplied D070 q,t maps at cuts 6,7,8. For every h=q−2, k=t−2 and positive batch j, the actual difference sum exceeds the required sum by j(h+3), j(h+5) and j(h+5) respectively. Two retained original maps, six spectra and one adverse checker rejection passed separate audit and reviews with zero new originals or queries. See `research/B4_D070_SECOND_HOST_LOWER_BLOCK.md`, D071 and `evidence/validation/B4_D070_SECOND_HOST_LOWER_BLOCK_001/`.

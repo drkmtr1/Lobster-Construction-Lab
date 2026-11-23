@@ -1,0 +1,16 @@
+[
+  [
+    ".venv/Scripts/python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "evidence/validation/B4_D073_U8_DUAL_BLOCK_STRUCTURAL_001/verify_controls.py"
+  ],
+  [
+    ".venv/Scripts/python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "evidence/validation/B4_D073_U8_DUAL_BLOCK_STRUCTURAL_001/audit.py"
+  ]
+]

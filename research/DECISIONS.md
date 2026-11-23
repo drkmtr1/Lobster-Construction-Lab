@@ -1,6 +1,6 @@
 # Decisions and algorithm-change log
 
-This file owns consequential choices and change proposals. `STATE.md` owns current work; findings and failures own scientific dispositions. Dates below are November 20, 2026, Pacific/Honolulu, except D016 through D051 (November 21, 2026) and D052 through D073 (November 22, 2026).
+This file owns consequential choices and change proposals. `STATE.md` owns current work; findings and failures own scientific dispositions. Dates below are November 20, 2026, Pacific/Honolulu, except D016 through D051 (November 21, 2026) and D052 through D074 (November 22, 2026).
 
 | ID | Decision | Reason and review consequence |
 |---|---|---|
@@ -78,6 +78,7 @@ This file owns consequential choices and change proposals. `STATE.md` owns curre
 | D071 | Close B4-D070-SECOND-HOST-LOWER-BLOCK-001 at parent 6f34b3ee1ea65d608daa0706ba50617fae391996 and PIVOT | **ACCEPT** the six complete named spectra and quantified difference-sum obstruction at c=6,7,8. **REJECT** positive batches of the specified second-host insertion on the D070 q,t maps. Two retained originals and one actual wrong-digest rejection passed independent audit and reviews without new originals, solver or enumeration. Preserve D070 and its accepted theorem. Propose an alternative alpha seed supplying both blocks on the same original. |
 | D072 | Close B4-D071-PINNED-DUAL-BLOCK-OBSTRUCTION-001 at parent 3fe0eec398a5d11afd34e8d365f41f72776e6851 and PIVOT | **ACCEPT** the symbolic pinned obstruction and **REJECT** the same-ledger dual-block supplier for these pins and cuts. Independent arithmetic and separate reviews accepted. Two co-original ledgers, six retained D071 receipt checks, one adverse digest and 168 numerical parameter triples. No labeling search, new originals or replay. Propose the dual-block question with only the first-host numerical pin released. |
 | D073 | Close B4-D072-UNPIN-FIRST-HOST-DUAL-BLOCK-001 at parent 2743854581108fb1c015710a79fec135fb558c85 and PIVOT | **ACCEPT** structural obstruction and **REJECT** joint block supply for every a=1..7 at fixed physical s:4=9 and b:2:0=0. Correct the draft residual row before execution and preserve its record. Two retained ledgers, one adverse digest, and 1,568 numerical audit rows with zero solver and assignment nodes. Propose the distinct exit-label-eight seed question only. |
+| D074 | Close B4-D073-U8-DUAL-BLOCK-STRUCTURAL-001 at parent 8bf03ba3a2e3df850e893b153f5d5a6384820986 and PIVOT | **ACCEPT** the structural obstruction and **REJECT** joint complete block supply for every a=1..7 at fixed physical s:4=8 and b:2:0=0. Two retained maps, one wrong digest and independent named-premise arithmetic passed without numeric tuples or label search. Preserve all earlier results and propose only the distinct exit-label-ten seed question. |
 
 ## Proposal template for the next consequential algorithm change
 
