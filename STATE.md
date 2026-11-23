@@ -2,15 +2,17 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 22, 2026, Pacific/Honolulu<br>
-**Stage:** B4-D075-DIRECT-2322-ALPHA-S4-10-001 complete. Direct 2322 alpha supply and fixed-profile K≥2 completion accepted in D076.
+**Stage:** LCL-R241-PAIRED-BRANCHED-SPINE-001 selected by the owner. Strategy checkpoint before mathematical execution.
 
 ## Current scientific objective
 
-Develop independently supplied original-graph boundaries beyond the proved zero-padding families, preserving physical incidence and both resource inventories. Universal lobster coverage remains an ultimate goal.
+Test an independently supplied module construction for an unbounded number of successively branched spine sections. The [roadmap](docs/strategy/LCL_Branched_Spine_Research_Roadmap_2026-11-22.md) gives strategic context and the [preliminary handoff](handoffs/CODEX-20261122-r241-paired-branched-spine-intake.md) records the verified pivot.
 
 ## One next action
 
-Investigate direct normalized alpha supply on the exact named 2322 prefix with low size 9, physical s:4=10 and b:2:0=0, as a candidate premise for the retained third-host extension.
+Verify the independently supplied single-section and paired alpha modules, their R241 composition on the original branched spine, and the nonadjacent suffix consumer under [LCL-R241-PAIRED-BRANCHED-SPINE-001](tasks/LCL_Codex_R241_Arbitrary_Branched_Spine_2026-11-22.md).
+
+The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
 

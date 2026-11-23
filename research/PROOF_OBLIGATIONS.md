@@ -666,6 +666,9 @@ discharges normalized supply at low size 9 and physical s:4=10.
 It also discharges the original nonadjacent continuation at fixed
 ordered 2322 for all exact K≥2. Its ledger places 7 at b:2:0 and
 17 at b:1:0, so third-host zero extension and minimum-high second-host
-extension cannot be invoked on that ledger. The selected obligation is
-an independent zero-host 2322 seed preserving the same physical exit
-and low size. Variable interior r and joint continuation remain open.
+extension cannot be invoked on that ledger. The former independent
+zero-host 2322 seed question is **DEFERRED / UNSTARTED** under D077.
+
+### R241 paired branched-spine supply
+
+The owner selected [LCL-R241-PAIRED-BRANCHED-SPINE-001](../tasks/LCL_Codex_R241_Arbitrary_Branched_Spine_2026-11-22.md). Prove the independent single-section and paired suppliers, verify the R241 connector on the actual spine and the returned offset at every join, induct over any finite number of modules, and account for the label and difference complements on the original suffix. The direct-leaf variants require one actual center per section. Zero quota denotes `[0]`, distinct from `[]`. This is a candidate pending execution and separate reviews.
