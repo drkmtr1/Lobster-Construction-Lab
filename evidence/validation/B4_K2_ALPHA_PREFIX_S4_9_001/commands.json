@@ -1,0 +1,9 @@
+{
+  "cwd": "LCL repository root",
+  "shell": "PowerShell",
+  "steps": [
+    "& .venv/Scripts/python.exe -B -X utf8 evidence/validation/B4_K2_ALPHA_PREFIX_S4_9_001/validate.py freeze",
+    "& .venv/Scripts/python.exe -B -X utf8 evidence/validation/B4_K2_ALPHA_PREFIX_S4_9_001/validate.py check",
+    "& .venv/Scripts/python.exe -B -X utf8 evidence/validation/B4_K2_ALPHA_PREFIX_S4_9_001/audit.py"
+  ]
+}

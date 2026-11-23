@@ -1,0 +1,194 @@
+{
+  "P": {
+    "H": [
+      "b:1:0",
+      "b:3:0",
+      "l:0:0:0",
+      "l:0:0:1",
+      "l:2:0:0",
+      "l:2:0:1",
+      "s:0",
+      "s:2",
+      "s:4"
+    ],
+    "L": [
+      "b:0:0",
+      "b:2:0",
+      "l:1:0:0",
+      "l:1:0:1",
+      "l:3:0:0",
+      "l:3:0:1",
+      "s:1",
+      "s:3"
+    ],
+    "named_weights": [
+      {
+        "difference": 8,
+        "edge": [
+          "s:0",
+          "s:1"
+        ]
+      },
+      {
+        "difference": 14,
+        "edge": [
+          "s:1",
+          "s:2"
+        ]
+      },
+      {
+        "difference": 9,
+        "edge": [
+          "s:2",
+          "s:3"
+        ]
+      },
+      {
+        "difference": 2,
+        "edge": [
+          "s:3",
+          "s:4"
+        ]
+      },
+      {
+        "difference": 4,
+        "edge": [
+          "s:0",
+          "b:0:0"
+        ]
+      },
+      {
+        "difference": 6,
+        "edge": [
+          "b:0:0",
+          "l:0:0:0"
+        ]
+      },
+      {
+        "difference": 7,
+        "edge": [
+          "b:0:0",
+          "l:0:0:1"
+        ]
+      },
+      {
+        "difference": 12,
+        "edge": [
+          "s:1",
+          "b:1:0"
+        ]
+      },
+      {
+        "difference": 13,
+        "edge": [
+          "b:1:0",
+          "l:1:0:0"
+        ]
+      },
+      {
+        "difference": 10,
+        "edge": [
+          "b:1:0",
+          "l:1:0:1"
+        ]
+      },
+      {
+        "difference": 16,
+        "edge": [
+          "s:2",
+          "b:2:0"
+        ]
+      },
+      {
+        "difference": 15,
+        "edge": [
+          "b:2:0",
+          "l:2:0:0"
+        ]
+      },
+      {
+        "difference": 11,
+        "edge": [
+          "b:2:0",
+          "l:2:0:1"
+        ]
+      },
+      {
+        "difference": 1,
+        "edge": [
+          "s:3",
+          "b:3:0"
+        ]
+      },
+      {
+        "difference": 5,
+        "edge": [
+          "b:3:0",
+          "l:3:0:0"
+        ]
+      },
+      {
+        "difference": 3,
+        "edge": [
+          "b:3:0",
+          "l:3:0:1"
+        ]
+      }
+    ],
+    "port": 9
+  },
+  "T_prefix": {
+    "D": [
+      1,
+      2
+    ],
+    "R": [
+      8,
+      9
+    ],
+    "pending": [
+      {
+        "difference": 2,
+        "edge": [
+          "s:4",
+          "s:5"
+        ]
+      },
+      {
+        "difference": 1,
+        "edge": [
+          "s:5",
+          "s:6"
+        ]
+      }
+    ],
+    "port": 11
+  },
+  "combined_cpu_seconds": 0.109375,
+  "controls": "PASS",
+  "new_prefix_originals": 1,
+  "new_target_originals": 0,
+  "prefix_digest": "35c75a93573720212045e5dedb66a0d5ccfd5a09900ea12b791ec900938ea4f4",
+  "prefix_ledger_id": "a84d6183c8a6f97aa0a8d5aed6efb6122ed8029c7526e9fefd8bb242f0d108be",
+  "query": {
+    "calls": 0,
+    "reason": "analytic seed supplied",
+    "status": "NOT_RUN",
+    "visited_nodes": 0
+  },
+  "raw_sha256": {
+    "audit.py": "0f804de42cd9845d9ad7d6ea553172d384df45c9f58e5a1d973c7e5ca23b057c",
+    "certificates.json": "2d5836b93adc9a4d2cc00947d70aa739bd62ad4fae09349db8820c26769e6b7a",
+    "freeze.json": "894a776bdf0e3b6fba2371852371acc0ad25ccd1b30ad96b1575706fe40446f8",
+    "prefix_original.json": "be7c273ab10cca88c220daf4bbb3baf5a637640c937e5df01c1d4867616fb781",
+    "result.json": "6a487216e183f85b1c86788b1a08abb07a3f08ceba492e757ec2112a9ef9612c"
+  },
+  "runtime": {
+    "platform": "win32",
+    "python": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "scientific_status": "SUPPLIED_EXACT_FINITE_WITNESS",
+  "status": "PASS",
+  "target_digest": "c5fd852e27ca85602e9a5a2cb39e3b14434b2783272c57523c2c1b7a317859f4",
+  "target_ledger_id": "cda8f5bd9d1aee6daccfedf77a5a1d980c9a77f7d12cdb515bd3e4fb33ccc744"
+}

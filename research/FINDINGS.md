@@ -1025,3 +1025,23 @@ additional cases. The result leaves other rank orders and wider
 K>=2 continuation open.
 [Proof](B4_K2_D062_S4_ADJACENT_RANK.md) ·
 [Evidence](../evidence/validation/B4_K2_D062_S4_ADJACENT_RANK_001/README.md) · D065
+
+## B4-K2-ALPHA-PREFIX-S4-9-001
+
+**ACCEPT — SUPPLIED EXACT FINITE WITNESS.** On the named induced
+original P=`[[2],[2],[2],[2],[]]`, the direct analytic construction
+gives all 16 required differences using the prescribed alpha classes
+and physical s:4=9. The proof supplies this prefix from its named
+incidences and weighted degree identity. Its high shift by two
+leaves R={8,9}, D={1,2}, physical s:4=11. The actual s:5=9 and s:6=8
+supply weights 2 and 1, proving ordinary gracefulness of the retained
+full original at q=r=t=K=2.
+
+The unchanged checker and independent arithmetic audit accepted both
+complete certificates and their distinct graph/ledger identities.
+One new P original, zero new T originals, zero feasibility calls,
+zero visited nodes, and both positive/adverse controls passed.
+D063–D065 retain their restricted negatives. A quantified interior
+K>=2 supplier remains open.
+[Proof](B4_K2_ALPHA_PREFIX_S4_9.md) ·
+[Evidence](../evidence/validation/B4_K2_ALPHA_PREFIX_S4_9_001/README.md) · D066

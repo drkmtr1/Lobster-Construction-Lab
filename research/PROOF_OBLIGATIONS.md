@@ -621,3 +621,10 @@ structural repeated-difference obstruction. A structurally
 independent supplier or continuation is still needed for
 the interior. These finite rank restrictions do not settle
 ordinary gracefulness of the smallest interior original.
+The [analytic alpha supplier](B4_K2_ALPHA_PREFIX_S4_9.md)
+now supplies the exact smallest interior original at q=r=t=K=2.
+Its independently verified two-edge interface has R={8,9},
+D={1,2}, and physical s:4=11 after the high shift. The finite
+result discharges that target. Continuation for the fixed
+profile at arbitrary K>=2 and joint arbitrary q,r,t supply
+remain separate proof obligations.
