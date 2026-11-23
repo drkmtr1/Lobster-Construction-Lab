@@ -1,0 +1,36 @@
+{
+  "argv": [
+    "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "evidence/validation/LCL_R241_223_AUDIT_CLOSEOUT_001/audit.py"
+  ],
+  "arithmetic_completed": true,
+  "audit_process_cpu_seconds": 0.125,
+  "audit_result_sha256": "6e2ec885519a480efeb71ea1da10fee992ae44006a6f57c359b9e1274ece3ad6",
+  "auditor_sha256": "0bc011436797c073cb56e1ce245e1015dd7db9d7dec2c688bb884ec3acf41d13",
+  "counts": {
+    "audit_invocations": 1,
+    "automatic_restarts": 0,
+    "historical_replays": 0,
+    "named_assignment_visits": 0,
+    "new_original_graph_identities": 0,
+    "producer_reruns": 0,
+    "recorded_assignment_states": 0,
+    "retries": 0,
+    "solver_calls": 0
+  },
+  "exit_code": 0,
+  "finished_utc": "2026-11-23T07:24:18.119976+00:00",
+  "limits": {
+    "max_bytes_per_record": 2000000,
+    "max_process_cpu_seconds": 30,
+    "max_total_bytes": 8000000,
+    "workers": 1
+  },
+  "started_utc": "2026-11-23T07:24:18.070244+00:00",
+  "status": "PASS",
+  "task": "LCL-R241-223-AUDIT-CLOSEOUT-001",
+  "wall_seconds": 0.049689400009810925
+}

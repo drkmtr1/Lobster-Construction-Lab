@@ -1,0 +1,13 @@
+# D083 audit-only separate read-only reviews
+
+## Mathematical review
+
+Independent AI reviewer `adj_math` — **ACCEPT**. The reviewer inspected the actual revised arithmetic, saved result and receipt, the frozen named original and proof, and the original failed receipt. All 11 original incidences yield degree 3 at s:0, degree 2 at s:1, degree 3 at each first center, degree 4 at the right center and degree 1 at each of seven terminals. The original orientation and pins give alphabet sums 51 and 15, a fixed correction of 6−2, and thus `40+2(A+B)-3z=66`. Parity and distinct available high labels give exactly the three recorded cases. The weight-11 edge needs an actual first center labeled 11 and its own terminal labeled 0, since the right center is positive and s:1 is fixed at 6. The remaining case has right center 4 and right-terminal labels 7, 9 and 10. The edge to 9 repeats the actual spine's weight 5 in either named center order. The ten numerical pairs were arithmetic checks. The reviewed proof keeps its exact pins, topology and scope. No correction was requested.
+
+## Implementation review
+
+Independent AI reviewer `u9_impl` — **PASS**. The reviewer compared the actual frozen and revised files before execution, then inspected the saved result and receipt. The binding repair names the archived topology `d082_topology` and uses that name at both digest references. The ordered-topology reconstruction, certificate checks and proof-arithmetic function are identical. Other edits separate the frozen input paths and versioned output paths, bind the input bytes and historical failure, and record the invocation and its resource use. The reviewer confirmed enabled assertions, exclusive output creation and the actual archive and path handling.
+
+All 39 raw input lengths and hashes matched, including the exact archived D081 and D082 bindings. The receipt's auditor and result hashes matched the saved files. The original failed receipt is still **INCOMPLETE** with stage exits 0 and 1 and no original audit result. The new receipt reports exit 0, `arithmetic_completed=true` and one audit invocation. It reports zero new original identities, named assignments or states, solver calls, producer reruns, historical replays, retries or restarts. The 0.125 process-CPU second measurement starts before most imports. The wall interval starts in the execution wrapper after imports. Both are sampled before writing the final receipt. This does not recover the original failed run's combined CPU measurement. No correction was requested.
+
+The two reviewers used read-only inspection. Neither invoked Python, reran an audit or added a graph or assignment.

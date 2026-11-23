@@ -1,0 +1,273 @@
+{
+  "archived_adverse_rejections": 3,
+  "frozen_attempt_status": "INCOMPLETE",
+  "inputs": {
+    ".venv/Scripts/python.exe": {
+      "bytes": 255200,
+      "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664"
+    },
+    "docs/strategy/LCL_Branched_Spine_Research_Roadmap_2026-11-22.md": {
+      "bytes": 15742,
+      "sha256": "fa4f5565cabc0001911f7566f9ca9430826a71d5bd02a01a2191c896af8b6a98"
+    },
+    "evidence/validation/LCL_R241_222_STRICT_RETURN_001/MANIFEST.json": {
+      "bytes": 2779,
+      "sha256": "ab6f259f2fa19b79f2bab53dab1f9abe71ca9d62aeb22ca08fa12726e68c9c8e"
+    },
+    "evidence/validation/LCL_R241_222_STRICT_RETURN_001/audit_result.json": {
+      "bytes": 898,
+      "sha256": "bbae06541d4950553a88beff1c9d0797c0ae6a9bbe8090d1263bed448ccc4461"
+    },
+    "evidence/validation/LCL_R241_222_STRICT_RETURN_001/config.json": {
+      "bytes": 3446,
+      "sha256": "dd0d6a2d54120560524ce349ca1488b706b1664234d859277e63f63dc08d7149"
+    },
+    "evidence/validation/LCL_R241_222_STRICT_RETURN_001/enumeration.json": {
+      "bytes": 589833,
+      "sha256": "e4680a029e8c44c45d81581c86311aae570d570833412027ed34d7670eaab497"
+    },
+    "evidence/validation/LCL_R241_222_STRICT_RETURN_001/strict_original.json": {
+      "bytes": 2107,
+      "sha256": "e6ffffcb6985e907748a42ca1ee91e83aa453c6ebbbae047e966a2b3115ee5d5"
+    },
+    "evidence/validation/LCL_R241_223_STRICT_RETURN_001/.gitattributes": {
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    "evidence/validation/LCL_R241_223_STRICT_RETURN_001/INTAKE.md": {
+      "bytes": 1591,
+      "sha256": "35447699783946c016296113d212819e676dbe80d1dc1f0039912507e439298d"
+    },
+    "evidence/validation/LCL_R241_223_STRICT_RETURN_001/MANIFEST.json": {
+      "bytes": 2481,
+      "sha256": "796f76530a2ad925f2e31a5d21a3eb60db184c279f8bab08f9d289109f495c0d"
+    },
+    "evidence/validation/LCL_R241_223_STRICT_RETURN_001/README.md": {
+      "bytes": 3698,
+      "sha256": "152b9f27dbe09e1ae990b0e1c00ffef6c5e074bd50a490a25d8808806440c860"
+    },
+    "evidence/validation/LCL_R241_223_STRICT_RETURN_001/REVIEWS.md": {
+      "bytes": 3312,
+      "sha256": "f1c1d0d7bcdbe2be76207fcf7afae0d26f54dcc15e93d9ab4d234e6de8655eec"
+    },
+    "evidence/validation/LCL_R241_223_STRICT_RETURN_001/audit.py": {
+      "bytes": 14690,
+      "sha256": "847a5ec636688cf93275229f22d753cbe250472be9485fdf127addee69c875ff"
+    },
+    "evidence/validation/LCL_R241_223_STRICT_RETURN_001/command_receipts.json": {
+      "bytes": 1483,
+      "sha256": "0cf2e399d699013fe18f2847cab0e97012c24b959e2a61a2187e0cad2cdb2527"
+    },
+    "evidence/validation/LCL_R241_223_STRICT_RETURN_001/commands.json": {
+      "bytes": 484,
+      "sha256": "4d98af48155ab2aaab15562bab6b6519dc0ab33f07ae5995ecae536bf244315a"
+    },
+    "evidence/validation/LCL_R241_223_STRICT_RETURN_001/config.json": {
+      "bytes": 4037,
+      "sha256": "bd3f981b735031157cc653cbc527dccae8b51fc811afc94b0599bf65f1c55473"
+    },
+    "evidence/validation/LCL_R241_223_STRICT_RETURN_001/controls.json": {
+      "bytes": 3212,
+      "sha256": "3b30ec762f041668f7389a1df9438cbf89821ee5d60a4818abb03f34ff681096"
+    },
+    "evidence/validation/LCL_R241_223_STRICT_RETURN_001/driver.py": {
+      "bytes": 2722,
+      "sha256": "b2fd1522087a6e062404d5a88cf75d3fa928268b380834459ce0eb9cbf2249e4"
+    },
+    "evidence/validation/LCL_R241_223_STRICT_RETURN_001/identity.json": {
+      "bytes": 4042,
+      "sha256": "d712a51283a6e7339db2ec5b6646551cfa9592008d864af72cd83435591f6669"
+    },
+    "evidence/validation/LCL_R241_223_STRICT_RETURN_001/result.json": {
+      "bytes": 224,
+      "sha256": "3212af8710755451b4f0bfff1f2b06c25ee93870ca38baf0cfb36340cadf2e81"
+    },
+    "evidence/validation/LCL_R241_223_STRICT_RETURN_001/run.py": {
+      "bytes": 9033,
+      "sha256": "a2e68e12b117ec37a215ce8f213ab9844ed619de5528f497e0fa437603457993"
+    },
+    "evidence/validation/LCL_R241_223_STRICT_RETURN_001/strict_original.json": {
+      "bytes": 2289,
+      "sha256": "d61f6409b0ccd380c8c576cf3d37e061170dc796403590db3f6eb8535c558ecb"
+    },
+    "evidence/validation/LCL_R241_UNEQUAL_TWO_CENTER_RETURN_001/MANIFEST.json": {
+      "bytes": 4075,
+      "sha256": "dd3d29112431c7442a8e79bf6f393801a8e502783034d2adf9ef1a87341f0ce3"
+    },
+    "evidence/validation/LCL_R241_UNEQUAL_TWO_CENTER_RETURN_001/certificates.json": {
+      "bytes": 77267,
+      "sha256": "91c39d63cc3b191ea258e3b17002cd9229c4eec63a420d88ddfa7a2b651d2c10"
+    },
+    "evidence/validation/LCL_R241_UNEQUAL_TWO_CENTER_RETURN_001/f2_original.json": {
+      "bytes": 1925,
+      "sha256": "132c93da3b2f49fc5bee2b215ee598db9c4ad5e3546cb13be9d3bb16ad050246"
+    },
+    "evidence/validation/LCL_R241_UNEQUAL_TWO_CENTER_RETURN_001/repeat_l5_original.json": {
+      "bytes": 7556,
+      "sha256": "892ef28fa70e45f565656c5dfe5905908e6ee9655637641e0d59f65784118ae4"
+    },
+    "handoffs/CODEX-20261122-r241-222-strict-return.md": {
+      "bytes": 2463,
+      "sha256": "bde6d46f29677d9ea9edfc5272f36ad9e0877a8357f74aac43d20322ba703c15"
+    },
+    "lcl/consumers.py": {
+      "bytes": 3091,
+      "sha256": "2cb688d09c510ca855ba1695d0f89a325ea4fc7882c9e5a8e971c2b506e64560"
+    },
+    "lcl/model.py": {
+      "bytes": 10720,
+      "sha256": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6"
+    },
+    "lcl/verify.py": {
+      "bytes": 14075,
+      "sha256": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909"
+    },
+    "references/upstream/mdl/N241_relational_ports.md": {
+      "bytes": 25890,
+      "sha256": "53ac2c8bf13457ae5630dd0c1c6e19b785d3b568b67d932e86d331901ee82e9e"
+    },
+    "research/B2_NONADJACENT_CONSUMER.md": {
+      "bytes": 6108,
+      "sha256": "fa7b58c0b42cb73f01d62153f8de36e6cc4e6315b1db4b4da59ac9e54a4c92fb"
+    },
+    "research/R241_222_STRICT_RETURN.md": {
+      "bytes": 4718,
+      "sha256": "0ce6bf579227edbae6e2f333059a70c1c39ac639c766a3f783d94c19a15b07df"
+    },
+    "research/R241_223_STRICT_RETURN.md": {
+      "bytes": 4441,
+      "sha256": "4a39ef4e58ec3537b64e627728733c7348603a2be8eaf297a517027096278b98"
+    },
+    "research/R241_PAIRED_BRANCHED_SPINE.md": {
+      "bytes": 10289,
+      "sha256": "5a73a215baca0feaa378e80fa1c30b1d27602258f7a4175873287da9cdb086ed"
+    },
+    "research/R241_TWO_CENTER_PORT_FALSIFIER.md": {
+      "bytes": 5829,
+      "sha256": "2c54ba4140cd4354a7d599eded4d6d841ec02d685e987b10de5c9802fac005ba"
+    },
+    "research/R241_UNEQUAL_TWO_CENTER_RETURN.md": {
+      "bytes": 9943,
+      "sha256": "ab36239c40636a27b42a320a573db8b61042641485f6315acdf606d3f2e0f64f"
+    },
+    "research/R241_ZERO_TO_ONE_BRIDGE.md": {
+      "bytes": 8636,
+      "sha256": "eafec3678065e07a7ce8b868d9a475883679846df22df350f5dd585cfbf233e5"
+    },
+    "tasks/LCL_Codex_D083_223_Strict_Return_2026-11-22.md": {
+      "bytes": 2936,
+      "sha256": "b94f94c64fea9b4c882147a84a6867b230ae5068ff8c8d50c9a37ef6bb69527a"
+    }
+  },
+  "proof_arithmetic": {
+    "correction_coefficients": {
+      "b:0:0": 2,
+      "b:0:1": 2,
+      "b:1:0": -3,
+      "s:0": -2,
+      "s:1": 1
+    },
+    "degree_by_name": {
+      "b:0:0": 3,
+      "b:0:1": 3,
+      "b:1:0": 4,
+      "l:0:0:0": 1,
+      "l:0:0:1": 1,
+      "l:0:1:0": 1,
+      "l:0:1:1": 1,
+      "l:1:0:0": 1,
+      "l:1:0:1": 1,
+      "l:1:0:2": 1,
+      "s:0": 3,
+      "s:1": 2
+    },
+    "fixed_constant": 40,
+    "graph_digest": "fce38d9f3d5130467a183191f999d24ec93312d1ae4846f2a34fffd8c420974e",
+    "high_alphabet_sum": 51,
+    "high_names": [
+      "b:0:0",
+      "b:0:1",
+      "l:1:0:0",
+      "l:1:0:1",
+      "l:1:0:2",
+      "s:1"
+    ],
+    "low_alphabet_sum": 15,
+    "low_names": [
+      "b:1:0",
+      "l:0:0:0",
+      "l:0:0:1",
+      "l:0:1:0",
+      "l:0:1:1",
+      "s:0"
+    ],
+    "named_assignment_visits": 0,
+    "necessary_cases": [
+      {
+        "center_pair": [
+          7,
+          9
+        ],
+        "z": 2
+      },
+      {
+        "center_pair": [
+          8,
+          11
+        ],
+        "z": 4
+      },
+      {
+        "center_pair": [
+          9,
+          10
+        ],
+        "z": 4
+      }
+    ],
+    "numerical_pairs_checked": 10,
+    "repeated_weight": 5,
+    "required_sum": 66,
+    "right_terminal_edge_names": [
+      [
+        "b:1:0",
+        "l:1:0:0"
+      ],
+      [
+        "b:1:0",
+        "l:1:0:1"
+      ],
+      [
+        "b:1:0",
+        "l:1:0:2"
+      ]
+    ],
+    "right_terminal_labels": [
+      7,
+      9,
+      10
+    ],
+    "right_terminal_weights": [
+      3,
+      5,
+      6
+    ],
+    "spine_edge": [
+      "s:0",
+      "s:1"
+    ],
+    "surviving_after_max_weight": {
+      "center_pair": [
+        8,
+        11
+      ],
+      "z": 4
+    }
+  },
+  "retained_graph_digests": [
+    "29cc4fc4bb4a297bbaeb7848f5205c2ed3218035c4a4a5cda0044e62671657d0",
+    "aeab9d0451058925b074e17bf57eeb76e9ac843b7e8e4ba5daca8c02d7e23801",
+    "e72fda430e3d374e9b14c191e7078c89f2c1dc6097ef6d0805389bf74c2892dc"
+  ],
+  "status": "PASS"
+}
