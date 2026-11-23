@@ -493,3 +493,7 @@ edge would have weight 2. The separate K=1 construction is unaffected.
 ### F-R241-3B2-PORT44
 
 **REJECT** the simultaneous prescribed (4,4) physical state A(b+10,b+5;4,4) on exact named `[[3,b],[2]]` for every integer b≥2. With actual s:0=4 and s:1 equal to m, the three largest weights occupy the right attachment and the two right terminal edges. Every representation of m−3 lacks its actual required incidence. This closes the prescribed module at these ports. [Proof](R241_3B2_PORT44_SYMBOLIC.md) · D088
+
+### F-R241-42-PORT53
+
+**REJECT** A(10,6;5,3) on exact named `[[4],[2]]`, with entrance s:0 low at label 5 and exit s:1 at label 9. The realized incidences of weights 9, 8 and 7 prohibit every weight-six incidence. The separate signed-degree argument requires 2A=13 after forcing the right center to zero. This is an exclusion of the simultaneous prescribed physical state. D078 supplies this original at (1,1). [Proof](R241_42_PORT53_RETURN.md) · D091

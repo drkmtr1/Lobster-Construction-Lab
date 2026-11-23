@@ -2,19 +2,21 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 23, 2026, Pacific/Honolulu<br>
-**Stage:** D090 closed. A(a+b+20,a+b+9;3,5) is **ACCEPTED** on exact `[[2,a],[2],[3,b],[3]]` for integers a,b≥2. [Proof](research/R241_2B2_3B3_JOINT.md).
+**Stage:** D091 closed. A(10,6;5,3) is **EXCLUDED** on exact `[[4],[2]]` with physical s:0=5 and s:1=9. [Proof](research/R241_42_PORT53_RETURN.md).
 
 ## Current scientific objective
 
-Supply multi-center modules with independently variable quotas and usable physical offsets. D090 composes two independent suppliers on the actual four-section spine. The [latest handoff](handoffs/CODEX-20261123-r241-2b2-3b3-joint.md) records the proof and its returned offset five. Supply of a compatible return toward entrance three remains open.
+Supply multi-center modules with independently variable quotas and usable physical offsets. D090 returns offset five on its four-section original. D091 excludes the tested return at the maximum-exit pin on `[[4],[2]]`. The [latest handoff](handoffs/CODEX-20261123-r241-42-port53-return.md) records the exact scope and a bounded nonmaximum-exit test.
 
 ## One next action
 
-Under separate authorization, prove or refute the normalized physical state A(10,6;5,3) on the exact named original `[[4],[2]]`. Its prescribed spine labels are s:0=5 and s:1=9. Determine by direct construction or a structural obstruction whether this fixed module could supply the offset-five entrance and offset-three exit needed to return to D090's entrance. Use zero solvers, assignment enumeration or joins.
+Under separate authorization, prove or refute the normalized physical state A(11,6;5,3) on the exact named original `[[4],[3]]`, with s:0=5 and s:1=9. The extra right terminal makes label ten available away from the exit. Determine whether a return to D090's entrance is supplied by a direct ledger or excluded by a structural proof, with no solvers, assignment enumeration or joins.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
+
+- D091 excludes A(10,6;5,3) on exact named `[[4],[2]]`. The three largest weights occupy the right attachment and both right-terminal edges, leaving no incidence for weight six. The separate signed-degree contradiction at the forced zero center requires 2A=13. One original and one prescribed state, ten numerical representations, the retained D090 positive and three adverse rejections passed independent audit and separate reviews. D078's exact (1,1) supply remains valid. See [proof](research/R241_42_PORT53_RETURN.md) and [evidence](evidence/validation/LCL_R241_42_PORT53_RETURN_001/README.md).
 
 - D090 proves A(a+b+20,a+b+9;3,5) on exact named `[[2,a],[2],[3,b],[3]]` for every integer pair a,b≥2. The actual s:1–s:2 edge supplies the sole intervening weight b+11 between the preserved D089 and shifted D087 spectra. One boundary original and certificate, two retained positives and three adverse rejections passed independent audit and separate reviews. See [proof](research/R241_2B2_3B3_JOINT.md) and [evidence](evidence/validation/LCL_R241_2B2_3B3_JOINT_001/README.md).
 
