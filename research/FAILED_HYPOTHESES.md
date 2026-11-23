@@ -477,3 +477,7 @@ edge would have weight 2. The separate K=1 construction is unaffected.
 ### F-R241-222-STRICT-RETURN
 
 **REJECT** `A(11,6;1,0)` on the original `[[2,2],[2]]` at physical s:0=1 and s:1=6. The signed-degree identity and extremal edge leave two actual branches: duplicate weight 5 or absent weight 3. This rejects the specified R241 starting state only. [Proof](R241_222_STRICT_RETURN.md) · D082
+
+### F-R241-223-STRICT-RETURN
+
+**REJECT** `A(12,6;1,0)` on exact original `[[2,2],[3]]` at physical s:0=1 and s:1=6. Signed-degree and maximum-weight constraints force right center 4 with a right terminal labeled 9. That actual edge duplicates the physical spine's weight 5. The obstruction applies to this state and its proposed use as B for the D080 bridge. [Proof](R241_223_STRICT_RETURN.md) · D083

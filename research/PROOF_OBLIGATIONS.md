@@ -681,4 +681,6 @@ The [D081 proof](R241_UNEQUAL_TWO_CENTER_RETURN.md) closes the exact `[[1,2],[1]
 
 The [D082 proof](R241_222_STRICT_RETURN.md) resolves the exact original `[[2,2],[2]]` at physical offsets (1,0) negatively. The J(a) construction using that seed is blocked by the unavailable B state. The adopted conditional join and existing H(a) preserve their own proof domains.
 
-The unstarted obligation is the exact neighboring `[[2,2],[3]]` original at (1,0), testing whether both first-section centers can exceed unit terminal quota in a supplier for H(a).
+The [D083 proof](R241_223_STRICT_RETURN.md) resolves the exact neighboring `[[2,2],[3]]` question at physical offsets (1,0) negatively. Under the fixed cut and spine pins, the signed-degree and required weight-11 constraints force a right terminal edge repeating spine weight 5. That prescribed input to H(a) is unavailable. The adopted conditional R241 join and the supplied H(a) remain valid on their accepted domains.
+
+Broader multiple-center supply still needs independently labeled original modules with compatible physical offsets. D082 and D083 address two exact quota choices at (1,0). The [D083 executable audit](../evidence/validation/LCL_R241_223_STRICT_RETURN_001/README.md) remains incomplete after a variable-binding error.

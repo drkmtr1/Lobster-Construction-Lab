@@ -1,0 +1,37 @@
+{
+  "retries": 0,
+  "runs": 1,
+  "stages": [
+    {
+      "argv": [
+        ".venv/Scripts/python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "evidence.validation.LCL_R241_223_STRICT_RETURN_001.run"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "",
+      "utc": "2026-11-23T07:10:52.969699+00:00",
+      "wall_seconds": 0.3004138999967836
+    },
+    {
+      "argv": [
+        ".venv/Scripts/python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "evidence/validation/LCL_R241_223_STRICT_RETURN_001/audit.py"
+      ],
+      "exit_code": 1,
+      "stderr": "Traceback (most recent call last):\r\n  File \"C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\evidence\\validation\\LCL_R241_223_STRICT_RETURN_001\\audit.py\", line 276, in <module>\r\n    main()\r\n    ~~~~^^\r\n  File \"C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\evidence\\validation\\LCL_R241_223_STRICT_RETURN_001\\audit.py\", line 255, in main\r\n    retained = audit_controls(config)\r\n  File \"C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\evidence\\validation\\LCL_R241_223_STRICT_RETURN_001\\audit.py\", line 160, in audit_controls\r\n    return [f2[\"digest\"], old[\"digest\"], target[\"digest\"]]\r\n                          ~~~^^^^^^^^^^\r\nKeyError: 'digest'\r\n",
+      "stdout": "",
+      "utc": "2026-11-23T07:10:53.270150+00:00",
+      "wall_seconds": 0.17359780002152547
+    }
+  ],
+  "status": "INCOMPLETE",
+  "workers": 1
+}

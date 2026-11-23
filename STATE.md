@@ -2,19 +2,21 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 22, 2026, Pacific/Honolulu<br>
-**Stage:** LCL-R241-222-STRICT-RETURN-001 complete. D082 rejects the exact (1,0) state on `[[2,2],[2]]`.
+**Stage:** D083 analytic obstruction accepted. The executable audit is **INCOMPLETE**. [Verified scope](evidence/validation/LCL_R241_223_STRICT_RETURN_001/INTAKE.md).
 
 ## Current scientific objective
 
-Extend the accepted two-center pattern toward independent multiple-center quotas while preserving actual port compatibility. The [D082 handoff](handoffs/CODEX-20261122-r241-222-strict-return.md) records the scoped obstruction and proposed next obligation. The [roadmap](docs/strategy/LCL_Branched_Spine_Research_Roadmap_2026-11-22.md) gives strategic context.
+Preserve the exact D083 obstruction and close its outstanding executable audit under separate authorization. D082 and D083 exclude the specified (1,0) state on two exact adjacent quota profiles. Future mathematical work should prioritize independently supplied multi-center modules with useful physical offsets. The [D083 handoff](handoffs/CODEX-20261122-r241-223-strict-return.md) records the disposition. The [roadmap](docs/strategy/LCL_Branched_Spine_Research_Roadmap_2026-11-22.md) gives strategic context.
 
 ## One next action
 
-Investigate whether the exact original [[2,2],[3]] independently supplies physical offsets (1,0) for the D080 H(a) bridge, starting with a structural proof or explicit named ledger.
+Under separate authorization, repair the D083 audit’s shadowed D082 topology binding and run an audit-only closeout against the frozen D083 records, with zero new original graphs or assignment visits.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
+
+- D083 excludes A(12,6;1,0) on the exact original `[[2,2],[3]]` at s:0=1 and s:1=6. The signed-degree identity and required weight 11 force a right terminal edge repeating the spine's weight 5. The specific J(a) route lacks its B premise. The separate mathematical reviewer confirmed the proof on the saved original. One new original, the retained D081 positive, the archived D082 negative binding and three adverse rejections were saved with no assignment visits. The executable audit stopped at a variable-binding error and is **INCOMPLETE**. Preserve that failed receipt with no retry. See [proof](research/R241_223_STRICT_RETURN.md) and [evidence](evidence/validation/LCL_R241_223_STRICT_RETURN_001/README.md).
 
 - D082 excludes A(11,6;1,0) on exact original `[[2,2],[2]]` at s:0=1 and s:1=6 by a signed-degree and original-edge contradiction. The full named visit count is 0/2,880 with every failure independently audited. The proposed J(a) route lacks its B state. One new original, retained controls and three adverse rejections passed separate reviews. No alternate port, solver, or historical replay. See [proof](research/R241_222_STRICT_RETURN.md) and [evidence](evidence/validation/LCL_R241_222_STRICT_RETURN_001/README.md).
 - D081 rejects only (1,0) on the exact `[[1,2],[1]]` original and verifies its alternate (2,0) state and neighboring (1,0) control. Direct F(b)=`[[1,b],[b]]` supplies (1,0) for every exact b≥0. Joining to D080 H(a) with a≥1 gives (1,1) on the actual four-section R(b,a). Finite repetitions and symbolic lists with D078 M supply normalized alpha at L=0 and ordinary gracefulness at L≥2 via the exact original suffix resources. Eight fixed certificates, six successful diagnostic certificates, 864 visits and three adverse rejections passed independent audit and reviews. See [proof](research/R241_UNEQUAL_TWO_CENTER_RETURN.md) and [evidence](evidence/validation/LCL_R241_UNEQUAL_TWO_CENTER_RETURN_001/README.md).
