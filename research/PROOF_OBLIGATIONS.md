@@ -644,6 +644,10 @@ The [alternative first-host supply](B4_D069_ALT_ALPHA_FIRST_HOST.md)
 now discharges the same-original seed question with s:4=9,
 b:2:0=0, a=5 and c=10. Its proved two-host composition supplies
 q,t,K>=2 at fixed r=2, with the fourth branch fixed at size two.
-The supply for variable interior r remains open. Testing the
-second-host lower-block premise on the D070 seed is the next
-bounded question.
+The [second-host obstruction](B4_D070_SECOND_HOST_LOWER_BLOCK.md)
+rejects the lower-block premise and every positive batch at
+the original b:1:0 on every D070 map for q,t>=2. Supply for
+variable interior r remains open. The next proposed obligation
+is a different independent alpha seed on named 2222 preserving
+the ports and zero host while providing compatible first- and
+second-host incidence spectra.

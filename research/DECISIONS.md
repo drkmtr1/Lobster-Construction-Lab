@@ -1,6 +1,6 @@
 # Decisions and algorithm-change log
 
-This file owns consequential choices and change proposals. `STATE.md` owns current work; findings and failures own scientific dispositions. Dates below are November 20, 2026, Pacific/Honolulu, except D016 through D051 (November 21, 2026) and D052 through D070 (November 22, 2026).
+This file owns consequential choices and change proposals. `STATE.md` owns current work; findings and failures own scientific dispositions. Dates below are November 20, 2026, Pacific/Honolulu, except D016 through D051 (November 21, 2026) and D052 through D071 (November 22, 2026).
 
 | ID | Decision | Reason and review consequence |
 |---|---|---|
@@ -75,6 +75,7 @@ This file owns consequential choices and change proposals. `STATE.md` owns curre
 | D068 | Close B4-22T2-ZERO-HOST-ALL-TK-001 at parent ee8b19fd268dcd84ff5c2f655bb4d6ffe4f58143 and ADVANCE | **ACCEPT** the indexed zero-host extension of D066, physical s:4 contract and D067 sequence for fixed q=r=2 and exact t,K>=2, and the separate D037/D062/D068 selector for positive t,K. Ten complete positives, two batch partitions and six adverse rejections passed independent audit, with zero queries or nodes. Separate AI reviews accepted scope and evidence. Preserve the K=1 interface limitation and historical negatives. Propose only a bounded first-host upper-block premise test on D066. |
 | D069 | Close B4-D068-FIRST-HOST-UPPER-BLOCK-001 at parent 10af7560e7ca3e48d656cc9539d6c2f8dba05e31 and PIVOT | **ACCEPT** the exhaustive seven-cut arithmetic and all-positive-batch sum obstruction. **REJECT** only this exact D066 first-host upper-block interface. Two retained positives and one adverse digest passed independent reconstruction and reviews. No new graph, solver, enumeration or replay. Propose independently supplying an alternative alpha ledger on the same original under the fixed exit and original host premise. |
 | D070 | Close B4-D069-ALT-ALPHA-FIRST-HOST-001 at parent b728de431ce12507072039c4a5d4762283667dd4 and ADVANCE | **ACCEPT** the 34-pair necessary prefilter, direct named alpha supply at a=5,c=10, finite pointwise two-host growth, and original-suffix completion for exact q,t,K>=2 at r=2 with fourth size two. Three new originals, two retained controls, two adverse rejections, no search or assignment nodes. Preserve D069 at the original ledger. Propose only the second-host lower-block premise test on D070. |
+| D071 | Close B4-D070-SECOND-HOST-LOWER-BLOCK-001 at parent 6f34b3ee1ea65d608daa0706ba50617fae391996 and PIVOT | **ACCEPT** the six complete named spectra and quantified difference-sum obstruction at c=6,7,8. **REJECT** positive batches of the specified second-host insertion on the D070 q,t maps. Two retained originals and one actual wrong-digest rejection passed independent audit and reviews without new originals, solver or enumeration. Preserve D070 and its accepted theorem. Propose an alternative alpha seed supplying both blocks on the same original. |
 
 ## Proposal template for the next consequential algorithm change
 

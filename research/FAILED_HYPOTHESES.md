@@ -399,3 +399,13 @@ times the corresponding strictly positive selected-count deficit.
 The zero batch is the identity. Other ledgers and insertion
 rules remain outside this failure.
 [Proof and exact scope](B4_D068_FIRST_HOST_UPPER_BLOCK.md)
+
+### F-B4-D070-SECOND-HOST-LOWER-BLOCK
+
+**REJECT** the prescribed lower-block insertion at physical
+b:1:0 on the D070 supplied normalized `[[q],[2],[t],[2],[]]` maps.
+For exact q,t>=2 and c=6,7,8, the count surplus is q−2 plus
+3,5,5 respectively. Each positive batch has a positive
+difference-sum surplus equal to its size times that surplus.
+No other suppliers or second-host rules are excluded.
+[Proof and exact scope](B4_D070_SECOND_HOST_LOWER_BLOCK.md)

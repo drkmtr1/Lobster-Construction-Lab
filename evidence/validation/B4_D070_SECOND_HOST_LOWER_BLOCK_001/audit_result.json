@@ -1,0 +1,1098 @@
+{
+  "adverse_rejections": 1,
+  "combined_cut_checks": 12,
+  "combined_process_cpu_seconds": 0.515625,
+  "cut_checks": 6,
+  "cuts": {
+    "p33-c6": {
+      "B": 14,
+      "actual": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "actual_count": 14,
+      "c": 6,
+      "count_surplus": 4,
+      "crossings": [
+        {
+          "difference": 9,
+          "edge": [
+            "s:0",
+            "s:1"
+          ]
+        },
+        {
+          "difference": 14,
+          "edge": [
+            "s:1",
+            "s:2"
+          ]
+        },
+        {
+          "difference": 6,
+          "edge": [
+            "s:0",
+            "b:0:0"
+          ]
+        },
+        {
+          "difference": 7,
+          "edge": [
+            "b:0:0",
+            "l:0:0:0"
+          ]
+        },
+        {
+          "difference": 8,
+          "edge": [
+            "b:0:0",
+            "l:0:0:1"
+          ]
+        },
+        {
+          "difference": 5,
+          "edge": [
+            "b:0:0",
+            "l:0:0:2"
+          ]
+        },
+        {
+          "difference": 12,
+          "edge": [
+            "s:1",
+            "b:1:0"
+          ]
+        },
+        {
+          "difference": 13,
+          "edge": [
+            "b:1:0",
+            "l:1:0:0"
+          ]
+        },
+        {
+          "difference": 11,
+          "edge": [
+            "b:1:0",
+            "l:1:0:1"
+          ]
+        },
+        {
+          "difference": 16,
+          "edge": [
+            "s:2",
+            "b:2:0"
+          ]
+        },
+        {
+          "difference": 17,
+          "edge": [
+            "b:2:0",
+            "l:2:0:0"
+          ]
+        },
+        {
+          "difference": 15,
+          "edge": [
+            "b:2:0",
+            "l:2:0:1"
+          ]
+        },
+        {
+          "difference": 18,
+          "edge": [
+            "b:2:0",
+            "l:2:0:2"
+          ]
+        },
+        {
+          "difference": 4,
+          "edge": [
+            "b:3:0",
+            "l:3:0:1"
+          ]
+        }
+      ],
+      "excess_weights": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "graph_digest": "bf377a3da4c91efef206db0dadf8bad5ca92a4cc532f9f631676fd41064dfbe3",
+      "ledger_id": "306396a2d34185e4fc52ac27c73153116b6de990752065f70a535be52262d460",
+      "missing": [
+        10
+      ],
+      "required": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "required_count": 10,
+      "selected": [
+        "b:0:0",
+        "b:2:0",
+        "l:1:0:0",
+        "l:1:0:1",
+        "l:3:0:1",
+        "s:1"
+      ],
+      "twice_actual_sum": [
+        342,
+        45,
+        1
+      ],
+      "twice_required_sum": [
+        342,
+        37,
+        1
+      ],
+      "twice_sum_surplus": [
+        0,
+        8,
+        0
+      ]
+    },
+    "p33-c7": {
+      "B": 14,
+      "actual": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "actual_count": 17,
+      "c": 7,
+      "count_surplus": 6,
+      "crossings": [
+        {
+          "difference": 9,
+          "edge": [
+            "s:0",
+            "s:1"
+          ]
+        },
+        {
+          "difference": 14,
+          "edge": [
+            "s:1",
+            "s:2"
+          ]
+        },
+        {
+          "difference": 10,
+          "edge": [
+            "s:2",
+            "s:3"
+          ]
+        },
+        {
+          "difference": 3,
+          "edge": [
+            "s:3",
+            "s:4"
+          ]
+        },
+        {
+          "difference": 6,
+          "edge": [
+            "s:0",
+            "b:0:0"
+          ]
+        },
+        {
+          "difference": 7,
+          "edge": [
+            "b:0:0",
+            "l:0:0:0"
+          ]
+        },
+        {
+          "difference": 8,
+          "edge": [
+            "b:0:0",
+            "l:0:0:1"
+          ]
+        },
+        {
+          "difference": 5,
+          "edge": [
+            "b:0:0",
+            "l:0:0:2"
+          ]
+        },
+        {
+          "difference": 12,
+          "edge": [
+            "s:1",
+            "b:1:0"
+          ]
+        },
+        {
+          "difference": 13,
+          "edge": [
+            "b:1:0",
+            "l:1:0:0"
+          ]
+        },
+        {
+          "difference": 11,
+          "edge": [
+            "b:1:0",
+            "l:1:0:1"
+          ]
+        },
+        {
+          "difference": 16,
+          "edge": [
+            "s:2",
+            "b:2:0"
+          ]
+        },
+        {
+          "difference": 17,
+          "edge": [
+            "b:2:0",
+            "l:2:0:0"
+          ]
+        },
+        {
+          "difference": 15,
+          "edge": [
+            "b:2:0",
+            "l:2:0:1"
+          ]
+        },
+        {
+          "difference": 18,
+          "edge": [
+            "b:2:0",
+            "l:2:0:2"
+          ]
+        },
+        {
+          "difference": 2,
+          "edge": [
+            "s:3",
+            "b:3:0"
+          ]
+        },
+        {
+          "difference": 4,
+          "edge": [
+            "b:3:0",
+            "l:3:0:1"
+          ]
+        }
+      ],
+      "excess_weights": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "graph_digest": "bf377a3da4c91efef206db0dadf8bad5ca92a4cc532f9f631676fd41064dfbe3",
+      "ledger_id": "306396a2d34185e4fc52ac27c73153116b6de990752065f70a535be52262d460",
+      "missing": [],
+      "required": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "required_count": 11,
+      "selected": [
+        "b:0:0",
+        "b:2:0",
+        "l:1:0:0",
+        "l:1:0:1",
+        "l:3:0:1",
+        "s:1",
+        "s:3"
+      ],
+      "twice_actual_sum": [
+        342,
+        49,
+        1
+      ],
+      "twice_required_sum": [
+        342,
+        37,
+        1
+      ],
+      "twice_sum_surplus": [
+        0,
+        12,
+        0
+      ]
+    },
+    "p33-c8": {
+      "B": 14,
+      "actual": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "actual_count": 18,
+      "c": 8,
+      "count_surplus": 6,
+      "crossings": [
+        {
+          "difference": 9,
+          "edge": [
+            "s:0",
+            "s:1"
+          ]
+        },
+        {
+          "difference": 14,
+          "edge": [
+            "s:1",
+            "s:2"
+          ]
+        },
+        {
+          "difference": 10,
+          "edge": [
+            "s:2",
+            "s:3"
+          ]
+        },
+        {
+          "difference": 3,
+          "edge": [
+            "s:3",
+            "s:4"
+          ]
+        },
+        {
+          "difference": 6,
+          "edge": [
+            "s:0",
+            "b:0:0"
+          ]
+        },
+        {
+          "difference": 7,
+          "edge": [
+            "b:0:0",
+            "l:0:0:0"
+          ]
+        },
+        {
+          "difference": 8,
+          "edge": [
+            "b:0:0",
+            "l:0:0:1"
+          ]
+        },
+        {
+          "difference": 5,
+          "edge": [
+            "b:0:0",
+            "l:0:0:2"
+          ]
+        },
+        {
+          "difference": 12,
+          "edge": [
+            "s:1",
+            "b:1:0"
+          ]
+        },
+        {
+          "difference": 13,
+          "edge": [
+            "b:1:0",
+            "l:1:0:0"
+          ]
+        },
+        {
+          "difference": 11,
+          "edge": [
+            "b:1:0",
+            "l:1:0:1"
+          ]
+        },
+        {
+          "difference": 16,
+          "edge": [
+            "s:2",
+            "b:2:0"
+          ]
+        },
+        {
+          "difference": 17,
+          "edge": [
+            "b:2:0",
+            "l:2:0:0"
+          ]
+        },
+        {
+          "difference": 15,
+          "edge": [
+            "b:2:0",
+            "l:2:0:1"
+          ]
+        },
+        {
+          "difference": 18,
+          "edge": [
+            "b:2:0",
+            "l:2:0:2"
+          ]
+        },
+        {
+          "difference": 2,
+          "edge": [
+            "s:3",
+            "b:3:0"
+          ]
+        },
+        {
+          "difference": 1,
+          "edge": [
+            "b:3:0",
+            "l:3:0:0"
+          ]
+        },
+        {
+          "difference": 4,
+          "edge": [
+            "b:3:0",
+            "l:3:0:1"
+          ]
+        }
+      ],
+      "excess_weights": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "graph_digest": "bf377a3da4c91efef206db0dadf8bad5ca92a4cc532f9f631676fd41064dfbe3",
+      "ledger_id": "306396a2d34185e4fc52ac27c73153116b6de990752065f70a535be52262d460",
+      "missing": [],
+      "required": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "required_count": 12,
+      "selected": [
+        "b:0:0",
+        "b:2:0",
+        "l:1:0:0",
+        "l:1:0:1",
+        "l:3:0:0",
+        "l:3:0:1",
+        "s:1",
+        "s:3"
+      ],
+      "twice_actual_sum": [
+        342,
+        49,
+        1
+      ],
+      "twice_required_sum": [
+        342,
+        37,
+        1
+      ],
+      "twice_sum_surplus": [
+        0,
+        12,
+        0
+      ]
+    },
+    "seed-c6": {
+      "B": 13,
+      "actual": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "actual_count": 12,
+      "c": 6,
+      "count_surplus": 3,
+      "crossings": [
+        {
+          "difference": 8,
+          "edge": [
+            "s:0",
+            "s:1"
+          ]
+        },
+        {
+          "difference": 13,
+          "edge": [
+            "s:1",
+            "s:2"
+          ]
+        },
+        {
+          "difference": 5,
+          "edge": [
+            "s:0",
+            "b:0:0"
+          ]
+        },
+        {
+          "difference": 6,
+          "edge": [
+            "b:0:0",
+            "l:0:0:0"
+          ]
+        },
+        {
+          "difference": 7,
+          "edge": [
+            "b:0:0",
+            "l:0:0:1"
+          ]
+        },
+        {
+          "difference": 11,
+          "edge": [
+            "s:1",
+            "b:1:0"
+          ]
+        },
+        {
+          "difference": 12,
+          "edge": [
+            "b:1:0",
+            "l:1:0:0"
+          ]
+        },
+        {
+          "difference": 10,
+          "edge": [
+            "b:1:0",
+            "l:1:0:1"
+          ]
+        },
+        {
+          "difference": 15,
+          "edge": [
+            "s:2",
+            "b:2:0"
+          ]
+        },
+        {
+          "difference": 16,
+          "edge": [
+            "b:2:0",
+            "l:2:0:0"
+          ]
+        },
+        {
+          "difference": 14,
+          "edge": [
+            "b:2:0",
+            "l:2:0:1"
+          ]
+        },
+        {
+          "difference": 4,
+          "edge": [
+            "b:3:0",
+            "l:3:0:1"
+          ]
+        }
+      ],
+      "excess_weights": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "graph_digest": "35c75a93573720212045e5dedb66a0d5ccfd5a09900ea12b791ec900938ea4f4",
+      "ledger_id": "1082f21587d2efc147336fde7d2b5696bb37ff984166140cfb2b0bb2a3408b37",
+      "missing": [
+        9
+      ],
+      "required": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "required_count": 9,
+      "selected": [
+        "b:0:0",
+        "b:2:0",
+        "l:1:0:0",
+        "l:1:0:1",
+        "l:3:0:1",
+        "s:1"
+      ],
+      "twice_actual_sum": [
+        272,
+        39,
+        1
+      ],
+      "twice_required_sum": [
+        272,
+        33,
+        1
+      ],
+      "twice_sum_surplus": [
+        0,
+        6,
+        0
+      ]
+    },
+    "seed-c7": {
+      "B": 13,
+      "actual": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "actual_count": 15,
+      "c": 7,
+      "count_surplus": 5,
+      "crossings": [
+        {
+          "difference": 8,
+          "edge": [
+            "s:0",
+            "s:1"
+          ]
+        },
+        {
+          "difference": 13,
+          "edge": [
+            "s:1",
+            "s:2"
+          ]
+        },
+        {
+          "difference": 9,
+          "edge": [
+            "s:2",
+            "s:3"
+          ]
+        },
+        {
+          "difference": 3,
+          "edge": [
+            "s:3",
+            "s:4"
+          ]
+        },
+        {
+          "difference": 5,
+          "edge": [
+            "s:0",
+            "b:0:0"
+          ]
+        },
+        {
+          "difference": 6,
+          "edge": [
+            "b:0:0",
+            "l:0:0:0"
+          ]
+        },
+        {
+          "difference": 7,
+          "edge": [
+            "b:0:0",
+            "l:0:0:1"
+          ]
+        },
+        {
+          "difference": 11,
+          "edge": [
+            "s:1",
+            "b:1:0"
+          ]
+        },
+        {
+          "difference": 12,
+          "edge": [
+            "b:1:0",
+            "l:1:0:0"
+          ]
+        },
+        {
+          "difference": 10,
+          "edge": [
+            "b:1:0",
+            "l:1:0:1"
+          ]
+        },
+        {
+          "difference": 15,
+          "edge": [
+            "s:2",
+            "b:2:0"
+          ]
+        },
+        {
+          "difference": 16,
+          "edge": [
+            "b:2:0",
+            "l:2:0:0"
+          ]
+        },
+        {
+          "difference": 14,
+          "edge": [
+            "b:2:0",
+            "l:2:0:1"
+          ]
+        },
+        {
+          "difference": 2,
+          "edge": [
+            "s:3",
+            "b:3:0"
+          ]
+        },
+        {
+          "difference": 4,
+          "edge": [
+            "b:3:0",
+            "l:3:0:1"
+          ]
+        }
+      ],
+      "excess_weights": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "graph_digest": "35c75a93573720212045e5dedb66a0d5ccfd5a09900ea12b791ec900938ea4f4",
+      "ledger_id": "1082f21587d2efc147336fde7d2b5696bb37ff984166140cfb2b0bb2a3408b37",
+      "missing": [],
+      "required": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "required_count": 10,
+      "selected": [
+        "b:0:0",
+        "b:2:0",
+        "l:1:0:0",
+        "l:1:0:1",
+        "l:3:0:1",
+        "s:1",
+        "s:3"
+      ],
+      "twice_actual_sum": [
+        272,
+        43,
+        1
+      ],
+      "twice_required_sum": [
+        272,
+        33,
+        1
+      ],
+      "twice_sum_surplus": [
+        0,
+        10,
+        0
+      ]
+    },
+    "seed-c8": {
+      "B": 13,
+      "actual": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "actual_count": 16,
+      "c": 8,
+      "count_surplus": 5,
+      "crossings": [
+        {
+          "difference": 8,
+          "edge": [
+            "s:0",
+            "s:1"
+          ]
+        },
+        {
+          "difference": 13,
+          "edge": [
+            "s:1",
+            "s:2"
+          ]
+        },
+        {
+          "difference": 9,
+          "edge": [
+            "s:2",
+            "s:3"
+          ]
+        },
+        {
+          "difference": 3,
+          "edge": [
+            "s:3",
+            "s:4"
+          ]
+        },
+        {
+          "difference": 5,
+          "edge": [
+            "s:0",
+            "b:0:0"
+          ]
+        },
+        {
+          "difference": 6,
+          "edge": [
+            "b:0:0",
+            "l:0:0:0"
+          ]
+        },
+        {
+          "difference": 7,
+          "edge": [
+            "b:0:0",
+            "l:0:0:1"
+          ]
+        },
+        {
+          "difference": 11,
+          "edge": [
+            "s:1",
+            "b:1:0"
+          ]
+        },
+        {
+          "difference": 12,
+          "edge": [
+            "b:1:0",
+            "l:1:0:0"
+          ]
+        },
+        {
+          "difference": 10,
+          "edge": [
+            "b:1:0",
+            "l:1:0:1"
+          ]
+        },
+        {
+          "difference": 15,
+          "edge": [
+            "s:2",
+            "b:2:0"
+          ]
+        },
+        {
+          "difference": 16,
+          "edge": [
+            "b:2:0",
+            "l:2:0:0"
+          ]
+        },
+        {
+          "difference": 14,
+          "edge": [
+            "b:2:0",
+            "l:2:0:1"
+          ]
+        },
+        {
+          "difference": 2,
+          "edge": [
+            "s:3",
+            "b:3:0"
+          ]
+        },
+        {
+          "difference": 1,
+          "edge": [
+            "b:3:0",
+            "l:3:0:0"
+          ]
+        },
+        {
+          "difference": 4,
+          "edge": [
+            "b:3:0",
+            "l:3:0:1"
+          ]
+        }
+      ],
+      "excess_weights": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "graph_digest": "35c75a93573720212045e5dedb66a0d5ccfd5a09900ea12b791ec900938ea4f4",
+      "ledger_id": "1082f21587d2efc147336fde7d2b5696bb37ff984166140cfb2b0bb2a3408b37",
+      "missing": [],
+      "required": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "required_count": 11,
+      "selected": [
+        "b:0:0",
+        "b:2:0",
+        "l:1:0:0",
+        "l:1:0:1",
+        "l:3:0:0",
+        "l:3:0:1",
+        "s:1",
+        "s:3"
+      ],
+      "twice_actual_sum": [
+        272,
+        43,
+        1
+      ],
+      "twice_required_sum": [
+        272,
+        33,
+        1
+      ],
+      "twice_sum_surplus": [
+        0,
+        10,
+        0
+      ]
+    }
+  },
+  "new_originals": 0,
+  "queries": 0,
+  "retained_originals": 2,
+  "status": "PASS"
+}

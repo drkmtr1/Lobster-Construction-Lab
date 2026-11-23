@@ -2,7 +2,7 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 22, 2026, Pacific/Honolulu<br>
-**Stage:** B4-D069-ALT-ALPHA-FIRST-HOST-001 complete and independently reviewed. The exact ordered profile (q,2,t,2) is ordinarily graceful for all exact integers q,t,K>=2.
+**Stage:** B4-D070-SECOND-HOST-LOWER-BLOCK-001 complete and independently reviewed. All positive second-host lower-block batches fail on the exact supplied D070 q,t family.
 
 ## Current scientific objective
 
@@ -10,10 +10,11 @@ Develop independently supplied original-graph boundaries beyond the proved zero-
 
 ## One next action
 
-**With a new bounded scope decision, test second-host lower-block growth on the D070 alpha seed.** Check the full incidence premise at original `b:1:0` with the physical ports and third zero host retained, and record the exact scope of any failed cut.
+**With a new bounded scope decision, investigate an independently supplied alternative 2222 alpha seed for second-branch growth.** Retain physical `b:0:0=5`, `s:4=9`, and `b:2:0=0`, and require compatible complete first- and second-host incidence spectra on the same named original.
 
 ## What is established in this package
 
+- B4-D070-SECOND-HOST-LOWER-BLOCK-001 rejects the prescribed lower-block insertion at physical b:1:0 on the supplied D070 q,t maps at cuts 6,7,8. For every h=q−2, k=t−2 and positive batch j, the actual difference sum exceeds the required sum by j(h+3), j(h+5) and j(h+5) respectively. Two retained original maps, six spectra and one adverse checker rejection passed separate audit and reviews with zero new originals or queries. See `research/B4_D070_SECOND_HOST_LOWER_BLOCK.md`, D071 and `evidence/validation/B4_D070_SECOND_HOST_LOWER_BLOCK_001/`.
 - B4-D069-ALT-ALPHA-FIRST-HOST-001 supplies a distinct D066-original alpha ledger with b:0:0=5, s:4=9 and b:2:0=0. At c=10 its complete selected spectrum is [5,16]. Pointwise first-host and third-zero-host growth supplies the exact ordered family `[[q],[2],[t],[2]]+[[]]*(K+1)` for exact q,t,K>=2 by the original nonadjacent suffix. Three new originals, two retained controls, two adverse rejections and both growth orders passed independent audit and reviews with no search. See `research/B4_D069_ALT_ALPHA_FIRST_HOST.md`, D070 and `evidence/validation/B4_D069_ALT_ALPHA_FIRST_HOST_001/`.
 - B4-D068-FIRST-HOST-UPPER-BLOCK-001 exhausts all seven first-host upper-block cuts on the exact D066 prefix ledger with b:0:0=6 and s:4=9. Each prescribed positive batch misses the required edge-difference sum by h times a positive deficit. The rejection is restricted to this ledger and operation. Two retained positives, seven cut receipts, one adverse digest rejection and an independent audit passed without a solver. See `research/B4_D068_FIRST_HOST_UPPER_BLOCK.md`, D069 and `evidence/validation/B4_D068_FIRST_HOST_UPPER_BLOCK_001/`.
 - B4-22T2-ZERO-HOST-ALL-TK-001 proves ordinary gracefulness of `[[2],[2],[t],[2]]+[[]]*(K+1)` for exact integers t,K>=2. Indexed third terminals extend D066 to A(t+15,8;6,1) while retaining physical s:4=9, the zero host and the original witness. The high shift gives R=[8,K+7], D=[1,K] and s:4=K+9 for the D067 recurrence. D037 at t=1 and D062 at K=1 complete the positive t,K selector at fixed q=r=2. Four new prefixes, four new full originals and two retained checks passed, with six adverse rejections and no queries. See `research/B4_22T2_ZERO_HOST_ALL_TK.md`, D068 and `evidence/validation/B4_22T2_ZERO_HOST_ALL_TK_001/`.

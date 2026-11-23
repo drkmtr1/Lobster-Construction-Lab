@@ -1127,3 +1127,22 @@ three new named originals and two adverse rejections passed
 independent verification. Both growth orders agree on P(3,3).
 No search or assignment nodes. [Proof](B4_D069_ALT_ALPHA_FIRST_HOST.md) ·
 [Evidence](../evidence/validation/B4_D069_ALT_ALPHA_FIRST_HOST_001/README.md) · D070
+
+## B4-D070-SECOND-HOST-LOWER-BLOCK-001
+
+**ACCEPT** a quantified restricted obstruction on the supplied
+D070 `[[q],[2],[t],[2],[]]` maps for exact q,t>=2. At physical
+b:1:0 with label B=13+h, h=q−2 and k=t−2, all three admissible
+cuts have surplus selected edges. Their counts are 12+h+k,
+15+h+k and 16+h+k at c=6,7,8, with required length c+k+3.
+A positive batch j of the prescribed lower-block insertion
+gives a correct named graph and label bijection but its difference
+sum exceeds gracefulness by j(h+3), j(h+5) and j(h+5),
+respectively. The zero batch returns the input.
+
+Two retained originals, six complete spectra and one wrong-digest
+rejection passed the independent audit and separate read-only
+AI reviews. Zero new originals or solver queries. The D070
+positive theorem remains accepted. Other suppliers stay open.
+[Proof](B4_D070_SECOND_HOST_LOWER_BLOCK.md) ·
+[Evidence](../evidence/validation/B4_D070_SECOND_HOST_LOWER_BLOCK_001/README.md) · D071

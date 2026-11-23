@@ -1,0 +1,36 @@
+{
+  "commands": [
+    {
+      "argv": [
+        ".venv/Scripts/python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "evidence/validation/B4_D070_SECOND_HOST_LOWER_BLOCK_001/produce.py"
+      ],
+      "exit_code": 0,
+      "started_utc": "2026-11-23T02:54:58.264620+00:00",
+      "stderr": "",
+      "stdout": "PASS: two retained originals, six full cut spectra, one actual digest rejection\r\n",
+      "wall_seconds": 1.740233399963472
+    },
+    {
+      "argv": [
+        ".venv/Scripts/python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "evidence/validation/B4_D070_SECOND_HOST_LOWER_BLOCK_001/audit.py"
+      ],
+      "exit_code": 0,
+      "started_utc": "2026-11-23T02:55:00.004886+00:00",
+      "stderr": "",
+      "stdout": "PASS: six independently reconstructed cuts and signed sum coefficients\r\n",
+      "wall_seconds": 1.730267199978698
+    }
+  ],
+  "formal_runs": 1,
+  "one_worker": true,
+  "retries": 0,
+  "status": "PASS"
+}

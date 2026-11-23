@@ -1,0 +1,195 @@
+{
+  "B": 14,
+  "actual": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "actual_count": 17,
+  "c": 7,
+  "count_surplus": 6,
+  "crossings": [
+    {
+      "difference": 9,
+      "edge": [
+        "s:0",
+        "s:1"
+      ]
+    },
+    {
+      "difference": 14,
+      "edge": [
+        "s:1",
+        "s:2"
+      ]
+    },
+    {
+      "difference": 10,
+      "edge": [
+        "s:2",
+        "s:3"
+      ]
+    },
+    {
+      "difference": 3,
+      "edge": [
+        "s:3",
+        "s:4"
+      ]
+    },
+    {
+      "difference": 6,
+      "edge": [
+        "s:0",
+        "b:0:0"
+      ]
+    },
+    {
+      "difference": 7,
+      "edge": [
+        "b:0:0",
+        "l:0:0:0"
+      ]
+    },
+    {
+      "difference": 8,
+      "edge": [
+        "b:0:0",
+        "l:0:0:1"
+      ]
+    },
+    {
+      "difference": 5,
+      "edge": [
+        "b:0:0",
+        "l:0:0:2"
+      ]
+    },
+    {
+      "difference": 12,
+      "edge": [
+        "s:1",
+        "b:1:0"
+      ]
+    },
+    {
+      "difference": 13,
+      "edge": [
+        "b:1:0",
+        "l:1:0:0"
+      ]
+    },
+    {
+      "difference": 11,
+      "edge": [
+        "b:1:0",
+        "l:1:0:1"
+      ]
+    },
+    {
+      "difference": 16,
+      "edge": [
+        "s:2",
+        "b:2:0"
+      ]
+    },
+    {
+      "difference": 17,
+      "edge": [
+        "b:2:0",
+        "l:2:0:0"
+      ]
+    },
+    {
+      "difference": 15,
+      "edge": [
+        "b:2:0",
+        "l:2:0:1"
+      ]
+    },
+    {
+      "difference": 18,
+      "edge": [
+        "b:2:0",
+        "l:2:0:2"
+      ]
+    },
+    {
+      "difference": 2,
+      "edge": [
+        "s:3",
+        "b:3:0"
+      ]
+    },
+    {
+      "difference": 4,
+      "edge": [
+        "b:3:0",
+        "l:3:0:1"
+      ]
+    }
+  ],
+  "excess_weights": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "graph_digest": "bf377a3da4c91efef206db0dadf8bad5ca92a4cc532f9f631676fd41064dfbe3",
+  "ledger_id": "306396a2d34185e4fc52ac27c73153116b6de990752065f70a535be52262d460",
+  "missing": [],
+  "required": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "required_count": 11,
+  "selected": [
+    "b:0:0",
+    "b:2:0",
+    "l:1:0:0",
+    "l:1:0:1",
+    "l:3:0:1",
+    "s:1",
+    "s:3"
+  ],
+  "twice_actual_sum": [
+    342,
+    49,
+    1
+  ],
+  "twice_required_sum": [
+    342,
+    37,
+    1
+  ],
+  "twice_sum_surplus": [
+    0,
+    12,
+    0
+  ]
+}
