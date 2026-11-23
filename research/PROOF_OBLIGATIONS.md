@@ -647,7 +647,11 @@ q,t,K>=2 at fixed r=2, with the fourth branch fixed at size two.
 The [second-host obstruction](B4_D070_SECOND_HOST_LOWER_BLOCK.md)
 rejects the lower-block premise and every positive batch at
 the original b:1:0 on every D070 map for q,t>=2. Supply for
-variable interior r remains open. The next proposed obligation
-is a different independent alpha seed on named 2222 preserving
-the ports and zero host while providing compatible first- and
-second-host incidence spectra.
+variable interior r remains open. The
+[pinned dual-block obstruction](B4_D071_PINNED_DUAL_BLOCK_OBSTRUCTION.md)
+rejects the simultaneous complete premises on the same named
+2222 original whenever b:0:0=5, b:2:0=0 and s:4=9 under the
+normalized alpha orientation. The next proposed question
+leaves only the first-host label free. Even if a simultaneous
+supplier exists in that domain, compatibility and both joint
+inventories require separate proof.

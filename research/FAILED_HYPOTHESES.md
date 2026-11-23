@@ -409,3 +409,13 @@ For exact q,t>=2 and c=6,7,8, the count surplus is q−2 plus
 difference-sum surplus equal to its size times that surplus.
 No other suppliers or second-host rules are excluded.
 [Proof and exact scope](B4_D070_SECOND_HOST_LOWER_BLOCK.md)
+
+### F-B4-D071-PINNED-DUAL-BLOCK
+
+**REJECT** simultaneous upper-block supply at b:0:0 and lower-block
+supply at b:1:0 on a single normalized alpha-graceful labeling of
+named 2222 with b:0:0=5, b:2:0=0 and s:4=9. All port-admissible
+cuts u=10..16 and d=6..8 are covered by the symbolic degree,
+containment and named-incidence contradictions. This concerns
+these two complete predicates under these pins.
+[Proof and exact scope](B4_D071_PINNED_DUAL_BLOCK_OBSTRUCTION.md)

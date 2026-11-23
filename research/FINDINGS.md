@@ -1146,3 +1146,23 @@ AI reviews. Zero new originals or solver queries. The D070
 positive theorem remains accepted. Other suppliers stay open.
 [Proof](B4_D070_SECOND_HOST_LOWER_BLOCK.md) ·
 [Evidence](../evidence/validation/B4_D070_SECOND_HOST_LOWER_BLOCK_001/README.md) · D071
+
+## B4-D071-PINNED-DUAL-BLOCK-OBSTRUCTION-001
+
+**ACCEPT — PINNED DUAL-BLOCK STRUCTURAL OBSTRUCTION.**
+No single normalized alpha-graceful labeling of the exact named
+`[[2],[2],[2],[2],[]]` with b:0:0=5, b:2:0=0 and s:4=9 supplies
+both retained complete incidence spectra. The upper selection uses
+u=10..16 and the lower d=6..8. Lower counting forces the second
+host label B into {8,10,12}. Upper excess five forces s:0 and
+exactly two degree-three highs. Nested tails rule out B=10 and
+B=12 on named incidences. For B=8 the unselected weight range
+forces a forbidden zero-terminal weight or leaves no source for
+weight 2. This is a symbolic obstruction on the pinned interface.
+
+The independent audit rechecked two distinct co-original ledgers,
+all six archived D071 receipts, one wrong-digest rejection and
+168 numerical triples. There were no new originals, labelings,
+queries or replay. Separate AI reviews accepted. D070 and D071
+retain their distinct scopes. [Proof](B4_D071_PINNED_DUAL_BLOCK_OBSTRUCTION.md) ·
+[Evidence](../evidence/validation/B4_D071_PINNED_DUAL_BLOCK_OBSTRUCTION_001/README.md) · D072

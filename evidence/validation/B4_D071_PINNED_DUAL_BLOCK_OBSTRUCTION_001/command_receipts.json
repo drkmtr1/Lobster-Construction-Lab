@@ -1,0 +1,36 @@
+{
+  "commands": [
+    {
+      "argv": [
+        ".venv/Scripts/python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "evidence/validation/B4_D071_PINNED_DUAL_BLOCK_OBSTRUCTION_001/verify_controls.py"
+      ],
+      "exit_code": 0,
+      "started_utc": "2026-11-23T03:15:42.966184+00:00",
+      "stderr": "",
+      "stdout": "PASS: both co-original identities and one genuine wrong-digest rejection\r\n",
+      "wall_seconds": 3.5480512999929488
+    },
+    {
+      "argv": [
+        ".venv/Scripts/python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "evidence/validation/B4_D071_PINNED_DUAL_BLOCK_OBSTRUCTION_001/audit.py"
+      ],
+      "exit_code": 0,
+      "started_utc": "2026-11-23T03:15:46.514284+00:00",
+      "stderr": "",
+      "stdout": "PASS: original incidence proof premises, six retained receipts and 168 numerical cases\r\n",
+      "wall_seconds": 4.420488899981137
+    }
+  ],
+  "formal_runs": 1,
+  "one_worker": true,
+  "retries": 0,
+  "status": "PASS"
+}

@@ -1,0 +1,7 @@
+# Verified bounded intake
+
+November 22, 2026 Pacific/Honolulu. Task B4-D071-PINNED-DUAL-BLOCK-OBSTRUCTION-001. The supplied attachment's SHA-256 is `e465e199bc17dcc1a4e00f87d8a3b917967ae600b1e41ef112a06024f2bb95d5`. The attached download has a local duplicate-name suffix and carries the requested task ID.
+
+The clean local main, tracking ref and actual LCL GitHub main matched `3fe0eec398a5d11afd34e8d365f41f72776e6851`; live STATE and latest D071 handoff select the exact pinned dual-block question. The baseline annotated tag object `fddfc1dd9541324b2ed2de2505bc750b3e3f0b9d` and peeled commit `36ea1603602491bf3c1c5b81ed4c23aaa2210e70` agreed locally and remotely. Read-only upstream main refs matched MDL `858a8c1fcfda87ba40bb1adee498a6131504a803` and Bounded Search `e48b94eec4091b4fe189e325cab2eda464409943`.
+
+Only the named 2222 original and its D066/D070 ledgers are rechecked by the unchanged checker. The already archived D071 cut receipts are checked against their supplied seed and P(3,3) originals. No new originals or label assignments are created. One deliberately wrong digest is the adverse control. The independent audit may tabulate at most 168 numeric (u,d,B) combinations, with u=10..16, d=6..8 and B in [8,16] except the exit label 9. This arithmetic is a diagnostic for the structural proof. Use no rank-neighbor microcheck sweep. One project-local Python 3.13 worker, 30 combined process-CPU seconds, 2,000,000 bytes per record, 8,000,000 evidence bytes, zero searches, labeling enumeration, replays and retries. No successor execution.

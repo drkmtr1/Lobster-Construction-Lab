@@ -1,6 +1,6 @@
 # Decisions and algorithm-change log
 
-This file owns consequential choices and change proposals. `STATE.md` owns current work; findings and failures own scientific dispositions. Dates below are November 20, 2026, Pacific/Honolulu, except D016 through D051 (November 21, 2026) and D052 through D071 (November 22, 2026).
+This file owns consequential choices and change proposals. `STATE.md` owns current work; findings and failures own scientific dispositions. Dates below are November 20, 2026, Pacific/Honolulu, except D016 through D051 (November 21, 2026) and D052 through D072 (November 22, 2026).
 
 | ID | Decision | Reason and review consequence |
 |---|---|---|
@@ -76,6 +76,7 @@ This file owns consequential choices and change proposals. `STATE.md` owns curre
 | D069 | Close B4-D068-FIRST-HOST-UPPER-BLOCK-001 at parent 10af7560e7ca3e48d656cc9539d6c2f8dba05e31 and PIVOT | **ACCEPT** the exhaustive seven-cut arithmetic and all-positive-batch sum obstruction. **REJECT** only this exact D066 first-host upper-block interface. Two retained positives and one adverse digest passed independent reconstruction and reviews. No new graph, solver, enumeration or replay. Propose independently supplying an alternative alpha ledger on the same original under the fixed exit and original host premise. |
 | D070 | Close B4-D069-ALT-ALPHA-FIRST-HOST-001 at parent b728de431ce12507072039c4a5d4762283667dd4 and ADVANCE | **ACCEPT** the 34-pair necessary prefilter, direct named alpha supply at a=5,c=10, finite pointwise two-host growth, and original-suffix completion for exact q,t,K>=2 at r=2 with fourth size two. Three new originals, two retained controls, two adverse rejections, no search or assignment nodes. Preserve D069 at the original ledger. Propose only the second-host lower-block premise test on D070. |
 | D071 | Close B4-D070-SECOND-HOST-LOWER-BLOCK-001 at parent 6f34b3ee1ea65d608daa0706ba50617fae391996 and PIVOT | **ACCEPT** the six complete named spectra and quantified difference-sum obstruction at c=6,7,8. **REJECT** positive batches of the specified second-host insertion on the D070 q,t maps. Two retained originals and one actual wrong-digest rejection passed independent audit and reviews without new originals, solver or enumeration. Preserve D070 and its accepted theorem. Propose an alternative alpha seed supplying both blocks on the same original. |
+| D072 | Close B4-D071-PINNED-DUAL-BLOCK-OBSTRUCTION-001 at parent 3fe0eec398a5d11afd34e8d365f41f72776e6851 and PIVOT | **ACCEPT** the symbolic pinned obstruction and **REJECT** the same-ledger dual-block supplier for these pins and cuts. Independent arithmetic and separate reviews accepted. Two co-original ledgers, six retained D071 receipt checks, one adverse digest and 168 numerical parameter triples. No labeling search, new originals or replay. Propose the dual-block question with only the first-host numerical pin released. |
 
 ## Proposal template for the next consequential algorithm change
 

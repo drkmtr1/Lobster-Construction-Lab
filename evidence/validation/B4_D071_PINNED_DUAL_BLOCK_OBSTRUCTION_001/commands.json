@@ -1,0 +1,16 @@
+[
+  [
+    ".venv/Scripts/python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "evidence/validation/B4_D071_PINNED_DUAL_BLOCK_OBSTRUCTION_001/verify_controls.py"
+  ],
+  [
+    ".venv/Scripts/python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "evidence/validation/B4_D071_PINNED_DUAL_BLOCK_OBSTRUCTION_001/audit.py"
+  ]
+]
