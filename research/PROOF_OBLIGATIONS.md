@@ -631,5 +631,11 @@ now discharges all exact K>=2 at q=r=t=2. It shifts only
 D066's high labels and composes the numerical nonadjacent
 consumer on the actual path from s:4, with both exact
 inventories proved. The D062 K=1 supplier stays separate.
-Supplying the joint family for arbitrary q,r,t>=2 and
-K>=2 remains a proof obligation.
+The [third-center extension](B4_22T2_ZERO_HOST_ALL_TK.md)
+discharges the fixed q=r=2 case for all exact t,K>=2 while
+retaining the D066 physical port, witness and D067 consumer.
+D037 and D062 cover its remaining positive boundary cases.
+The joint supply for arbitrary q,r,t>=2 and K>=2 remains open.
+The next bounded question is whether the D066 seed supplies
+the complete first-host upper-block incidence predicate while
+fixing its physical exit at r=t=2.

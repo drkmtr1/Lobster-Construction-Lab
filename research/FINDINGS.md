@@ -1066,3 +1066,24 @@ D062's separate K=1 supplier and all earlier restricted
 negatives stand. Arbitrary interior q,r,t remain open.
 [Proof](B4_2222_NONADJACENT_ALL_K.md) ·
 [Evidence](../evidence/validation/B4_2222_NONADJACENT_ALL_K_001/README.md) · D067
+
+## B4-22T2-ZERO-HOST-ALL-TK-001
+
+**ACCEPT** ordinary gracefulness of the exact named
+`[[2],[2],[t],[2]]+[[]]*(K+1)` for exact integers t,K>=2.
+The independently supplied D066 alpha state extends at physical
+b:2:0=0 by assigning 15+j to each added original third terminal.
+All finite partitions in name order produce the same named labeling.
+The normalized state A(t+15,8;6,1) retains both ports and its witness.
+High shift supplies R=[8,K+7], D=[1,K] and physical s:4=K+9.
+D067's numerical recurrence consumes both inventories on the
+original suffix. The K=1 failure stays confined to this interface.
+
+D037 at t=1, D062 at t>=2 and K=1, and the new t,K>=2 construction
+form an exhaustive disjoint selector for fixed first, second and
+fourth sizes two and all positive integer t,K. The bounded grid
+contains four new prefixes, four new full originals and two retained
+controls. All ten certificates, two batch partitions on P5 and six
+adverse rejections passed independent audit. Zero queries or nodes.
+[Proof](B4_22T2_ZERO_HOST_ALL_TK.md) ·
+[Evidence](../evidence/validation/B4_22T2_ZERO_HOST_ALL_TK_001/README.md) · D068

@@ -1,0 +1,95 @@
+{
+  "K1": {
+    "actual_edge_weight": 2,
+    "error": "nonadjacent contract needs K>=2",
+    "rejected": true
+  },
+  "missing_D": {
+    "error": "nonadjacent inventories or physical port",
+    "rejected": true
+  },
+  "missing_terminal": {
+    "claim": "finite certificate for this exact named target only",
+    "edge_differences": [
+      8,
+      14,
+      9,
+      2,
+      4,
+      6,
+      7,
+      12,
+      13,
+      10,
+      16,
+      15,
+      11,
+      1,
+      5,
+      3
+    ],
+    "errors": [
+      "complete certificate must label every original vertex exactly once",
+      "not every original edge has two valid labeled endpoints",
+      "edge differences are not exactly 1..m"
+    ],
+    "graph_digest": "497673bc378a98db173a51baf9963c3a4802391c743f4fb76e68a50604b1ec02",
+    "m": 17,
+    "n": 18,
+    "valid": false
+  },
+  "wrong_digest": {
+    "claim": "finite certificate for this exact named target only",
+    "edge_differences": [
+      8,
+      14,
+      9,
+      2,
+      4,
+      6,
+      7,
+      12,
+      13,
+      10,
+      16,
+      15,
+      11,
+      17,
+      1,
+      5,
+      3
+    ],
+    "errors": [
+      "original graph digest mismatch"
+    ],
+    "graph_digest": "497673bc378a98db173a51baf9963c3a4802391c743f4fb76e68a50604b1ec02",
+    "m": 17,
+    "n": 18,
+    "valid": false
+  },
+  "wrong_exit": {
+    "error": "nonadjacent inventories or physical port",
+    "rejected": true
+  },
+  "wrong_host": {
+    "add": [
+      "s:2",
+      "l:2:0:2"
+    ],
+    "checker": {
+      "errors": [
+        "actual named edges do not match the original profile"
+      ],
+      "graph_digest": "8a9f550d67e46e99436a48487406548a2ee7fba4d43c25b0162463ef3f0886b5",
+      "m": 17,
+      "n": 18,
+      "valid": false
+    },
+    "error": "fresh incidences must attach only to b:2:0",
+    "rejected": true,
+    "remove": [
+      "b:2:0",
+      "l:2:0:2"
+    ]
+  }
+}

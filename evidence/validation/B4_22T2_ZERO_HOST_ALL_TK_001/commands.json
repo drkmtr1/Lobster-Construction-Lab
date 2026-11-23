@@ -1,0 +1,25 @@
+[
+  [
+    ".venv/Scripts/python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "evidence/validation/B4_22T2_ZERO_HOST_ALL_TK_001/validate.py",
+    "freeze"
+  ],
+  [
+    ".venv/Scripts/python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "evidence/validation/B4_22T2_ZERO_HOST_ALL_TK_001/validate.py",
+    "validate"
+  ],
+  [
+    ".venv/Scripts/python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "evidence/validation/B4_22T2_ZERO_HOST_ALL_TK_001/audit.py"
+  ]
+]

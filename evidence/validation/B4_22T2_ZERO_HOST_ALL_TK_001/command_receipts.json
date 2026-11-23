@@ -1,0 +1,52 @@
+{
+  "workers": 1,
+  "formal_runs": 1,
+  "retries": 0,
+  "status": "PASS",
+  "commands": [
+    {
+      "argv": [
+        ".venv/Scripts/python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "evidence/validation/B4_22T2_ZERO_HOST_ALL_TK_001/validate.py",
+        "freeze"
+      ],
+      "started_utc": "2026-11-23T01:56:50.893938+00:00",
+      "exit_code": 0,
+      "wall_seconds": 4.2556351000093855,
+      "stdout": "freeze PASS\r\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        ".venv/Scripts/python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "evidence/validation/B4_22T2_ZERO_HOST_ALL_TK_001/validate.py",
+        "validate"
+      ],
+      "started_utc": "2026-11-23T01:56:55.155616+00:00",
+      "exit_code": 0,
+      "wall_seconds": 4.977982600044925,
+      "stdout": "validate PASS\r\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        ".venv/Scripts/python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "evidence/validation/B4_22T2_ZERO_HOST_ALL_TK_001/audit.py"
+      ],
+      "started_utc": "2026-11-23T01:57:00.133714+00:00",
+      "exit_code": 0,
+      "wall_seconds": 4.803054300020449,
+      "stdout": "audit PASS\r\n",
+      "stderr": ""
+    }
+  ]
+}
