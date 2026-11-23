@@ -1,0 +1,61 @@
+{
+  "task": "LCL-R241-222-OFFSET-MENU-001",
+  "parent": "b29a443b2d20a270aa3bb62afb27b9fa9b72643c",
+  "profile": [
+    [
+      2,
+      2
+    ],
+    [
+      2
+    ]
+  ],
+  "cut": 6,
+  "original": "evidence/validation/LCL_R241_222_STRICT_RETURN_001/strict_original.json",
+  "negative_archive": "evidence/validation/LCL_R241_222_STRICT_RETURN_001",
+  "control_archive": "evidence/validation/LCL_R241_UNEQUAL_TWO_CENTER_RETURN_001",
+  "limits": {
+    "workers": 1,
+    "new_original_identities": 0,
+    "offset_states": 30,
+    "assignment_visits": 0,
+    "recorded_assignment_states": 0,
+    "search_nodes": 0,
+    "solver_calls": 0,
+    "max_ledgers": 30,
+    "adverse_checks": 3,
+    "cpu_seconds": 30,
+    "bytes_per_record": 2000000,
+    "bytes_total": 8000000,
+    "official_sequences": 1,
+    "retries": 0,
+    "replays": 0
+  },
+  "source_hashes": {
+    "lcl/verify.py": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909",
+    "lcl/model.py": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6",
+    "references/upstream/mdl/N241_relational_ports.md": "53ac2c8bf13457ae5630dd0c1c6e19b785d3b568b67d932e86d331901ee82e9e",
+    "research/R241_222_STRICT_RETURN.md": "0ce6bf579227edbae6e2f333059a70c1c39ac639c766a3f783d94c19a15b07df",
+    "research/R241_223_STRICT_RETURN.md": "4a39ef4e58ec3537b64e627728733c7348603a2be8eaf297a517027096278b98",
+    "research/R241_PAIRED_BRANCHED_SPINE.md": "5a73a215baca0feaa378e80fa1c30b1d27602258f7a4175873287da9cdb086ed",
+    "research/R241_TWO_CENTER_PORT_FALSIFIER.md": "2c54ba4140cd4354a7d599eded4d6d841ec02d685e987b10de5c9802fac005ba",
+    "research/R241_ZERO_TO_ONE_BRIDGE.md": "eafec3678065e07a7ce8b868d9a475883679846df22df350f5dd585cfbf233e5",
+    "research/R241_UNEQUAL_TWO_CENTER_RETURN.md": "ab36239c40636a27b42a320a573db8b61042641485f6315acdf606d3f2e0f64f",
+    "evidence/validation/LCL_R241_222_STRICT_RETURN_001/strict_original.json": "e6ffffcb6985e907748a42ca1ee91e83aa453c6ebbbae047e966a2b3115ee5d5",
+    "evidence/validation/LCL_R241_222_STRICT_RETURN_001/config.json": "dd0d6a2d54120560524ce349ca1488b706b1664234d859277e63f63dc08d7149",
+    "evidence/validation/LCL_R241_222_STRICT_RETURN_001/enumeration.json": "e4680a029e8c44c45d81581c86311aae570d570833412027ed34d7670eaab497",
+    "evidence/validation/LCL_R241_222_STRICT_RETURN_001/audit_result.json": "bbae06541d4950553a88beff1c9d0797c0ae6a9bbe8090d1263bed448ccc4461",
+    "evidence/validation/LCL_R241_222_STRICT_RETURN_001/MANIFEST.json": "ab6f259f2fa19b79f2bab53dab1f9abe71ca9d62aeb22ca08fa12726e68c9c8e",
+    "evidence/validation/LCL_R241_UNEQUAL_TWO_CENTER_RETURN_001/f2_original.json": "132c93da3b2f49fc5bee2b215ee598db9c4ad5e3546cb13be9d3bb16ad050246",
+    "evidence/validation/LCL_R241_UNEQUAL_TWO_CENTER_RETURN_001/certificates.json": "91c39d63cc3b191ea258e3b17002cd9229c4eec63a420d88ddfa7a2b651d2c10",
+    "evidence/validation/LCL_R241_UNEQUAL_TWO_CENTER_RETURN_001/MANIFEST.json": "dd3d29112431c7442a8e79bf6f393801a8e502783034d2adf9ef1a87341f0ce3",
+    "evidence/validation/LCL_R241_223_AUDIT_CLOSEOUT_001/MANIFEST.json": "ae834752c9417656d4afc2aa88d5dd37bea347eada803cbc0ec6b0563296904b",
+    "evidence/validation/LCL_R241_223_STRICT_RETURN_001/command_receipts.json": "0cf2e399d699013fe18f2847cab0e97012c24b959e2a61a2187e0cad2cdb2527",
+    "evidence/validation/LCL_R241_223_STRICT_RETURN_001/MANIFEST.json": "796f76530a2ad925f2e31a5d21a3eb60db184c279f8bab08f9d289109f495c0d",
+    "evidence/validation/LCL_R241_TWO_CENTER_PORT_001/README.md": "888f8936e43efdfc5f2d813149307931a346941f8f0ca484dfe40c6cbfb131c8",
+    "evidence/validation/LCL_R241_TWO_CENTER_PORT_001/audit_result.json": "b14a0bdbcd8e922e8c576031407316cb6401ba92c6bed96e2781154e09411f85",
+    "evidence/validation/LCL_R241_TWO_CENTER_PORT_001/MANIFEST.json": "7280ba7054133e9e8381b1e7e2c058e81804f79a04322ddc565a8a756d3482f5",
+    "research/R241_222_OFFSET_MENU.md": "432b2bb6dbc5f0a27cd4d078eba63d7225d88055d081050f39fe15036c93f7a4"
+  },
+  "runtime_sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664"
+}

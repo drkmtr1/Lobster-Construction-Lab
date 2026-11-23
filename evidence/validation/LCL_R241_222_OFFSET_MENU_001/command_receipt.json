@@ -1,0 +1,55 @@
+{
+  "argv": [
+    "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "evidence/validation/LCL_R241_222_OFFSET_MENU_001/run.py"
+  ],
+  "combined_process_cpu_seconds": 0.09375,
+  "counts": {
+    "adverse_checks": 3,
+    "checked_ledgers": 2,
+    "named_assignment_visits": 0,
+    "new_original_identities": 0,
+    "official_sequences": 1,
+    "offset_records": 30,
+    "recorded_assignment_states": 0,
+    "replays": 0,
+    "retries": 0,
+    "search_nodes": 0,
+    "solver_calls": 0,
+    "workers": 1
+  },
+  "exit_code": 0,
+  "finished_utc": "2026-11-23T07:40:46.506919+00:00",
+  "limits": {
+    "adverse_checks": 3,
+    "assignment_visits": 0,
+    "bytes_per_record": 2000000,
+    "bytes_total": 8000000,
+    "cpu_seconds": 30,
+    "max_ledgers": 30,
+    "new_original_identities": 0,
+    "official_sequences": 1,
+    "offset_states": 30,
+    "recorded_assignment_states": 0,
+    "replays": 0,
+    "retries": 0,
+    "search_nodes": 0,
+    "solver_calls": 0,
+    "workers": 1
+  },
+  "local_inputs": {
+    "audit.py": "ee79de992cdb0db4984ff7aa13f79b4cc28bfd9cc71dd2d77514db7eb7e7dfb6",
+    "config.json": "aa6856410e11992cf9f9c70cb3f93b2a22872754313a11c923554f7a677ba712",
+    "menu_source.json": "a2061608a521e79a92a886c50645ef6dcdbb6ed7008a07d35aa6f190a0e62a33",
+    "run.py": "2500addafd6e269ecf9d7f59ef0be36519463aff88d7555515140ecb2f9e7854"
+  },
+  "parent": "b29a443b2d20a270aa3bb62afb27b9fa9b72643c",
+  "result_sha256": "d667507493df288fd0e13fdb51a5a82a622805f103b144dfed7c04721182b974",
+  "started_utc": "2026-11-23T07:40:46.484959+00:00",
+  "status": "PASS",
+  "task": "LCL-R241-222-OFFSET-MENU-001",
+  "wall_seconds": 0.021916400000918657
+}

@@ -1,0 +1,185 @@
+{
+  "algorithm": "SHA-256",
+  "starting_checkpoint": "b29a443b2d20a270aa3bb62afb27b9fa9b72643c",
+  "original_graph_digest": "aeab9d0451058925b074e17bf57eeb76e9ac843b7e8e4ba5daca8c02d7e23801",
+  "baseline_annotated_tag": "fddfc1dd9541324b2ed2de2505bc750b3e3f0b9d",
+  "baseline_peeled_commit": "36ea1603602491bf3c1c5b81ed4c23aaa2210e70",
+  "protected_upstream": {
+    "MDL": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+    "bounded_search": "e48b94eec4091b4fe189e325cab2eda464409943"
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": "audit.py",
+      "bytes": 11359,
+      "sha256": "ee79de992cdb0db4984ff7aa13f79b4cc28bfd9cc71dd2d77514db7eb7e7dfb6"
+    },
+    {
+      "path": "command_receipt.json",
+      "bytes": 1715,
+      "sha256": "d3032fc50f57169a539cfae4ff2dae90501328737f578b677c58bd6296ad0a02"
+    },
+    {
+      "path": "config.json",
+      "bytes": 4043,
+      "sha256": "aa6856410e11992cf9f9c70cb3f93b2a22872754313a11c923554f7a677ba712"
+    },
+    {
+      "path": "menu_source.json",
+      "bytes": 2108,
+      "sha256": "a2061608a521e79a92a886c50645ef6dcdbb6ed7008a07d35aa6f190a0e62a33"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3126,
+      "sha256": "e35c428c36245545616915071bf03d1b07a16e0920c00d8ed8a163b4a39546cd"
+    },
+    {
+      "path": "result.json",
+      "bytes": 54078,
+      "sha256": "d667507493df288fd0e13fdb51a5a82a622805f103b144dfed7c04721182b974"
+    },
+    {
+      "path": "REVIEWS.md",
+      "bytes": 2697,
+      "sha256": "2570cb2fb10103d493ffe85e3a21f93b8ff680cf08e8a023e7b9eff7fc5640eb"
+    },
+    {
+      "path": "run.py",
+      "bytes": 8356,
+      "sha256": "2500addafd6e269ecf9d7f59ef0be36519463aff88d7555515140ecb2f9e7854"
+    }
+  ],
+  "external_files": [
+    {
+      "path": "evidence/validation/LCL_R241_222_STRICT_RETURN_001/audit_result.json",
+      "bytes": 898,
+      "sha256": "bbae06541d4950553a88beff1c9d0797c0ae6a9bbe8090d1263bed448ccc4461"
+    },
+    {
+      "path": "evidence/validation/LCL_R241_222_STRICT_RETURN_001/config.json",
+      "bytes": 3446,
+      "sha256": "dd0d6a2d54120560524ce349ca1488b706b1664234d859277e63f63dc08d7149"
+    },
+    {
+      "path": "evidence/validation/LCL_R241_222_STRICT_RETURN_001/enumeration.json",
+      "bytes": 589833,
+      "sha256": "e4680a029e8c44c45d81581c86311aae570d570833412027ed34d7670eaab497"
+    },
+    {
+      "path": "evidence/validation/LCL_R241_222_STRICT_RETURN_001/MANIFEST.json",
+      "bytes": 2779,
+      "sha256": "ab6f259f2fa19b79f2bab53dab1f9abe71ca9d62aeb22ca08fa12726e68c9c8e"
+    },
+    {
+      "path": "evidence/validation/LCL_R241_222_STRICT_RETURN_001/strict_original.json",
+      "bytes": 2107,
+      "sha256": "e6ffffcb6985e907748a42ca1ee91e83aa453c6ebbbae047e966a2b3115ee5d5"
+    },
+    {
+      "path": "evidence/validation/LCL_R241_223_AUDIT_CLOSEOUT_001/MANIFEST.json",
+      "bytes": 8417,
+      "sha256": "ae834752c9417656d4afc2aa88d5dd37bea347eada803cbc0ec6b0563296904b"
+    },
+    {
+      "path": "evidence/validation/LCL_R241_223_STRICT_RETURN_001/command_receipts.json",
+      "bytes": 1483,
+      "sha256": "0cf2e399d699013fe18f2847cab0e97012c24b959e2a61a2187e0cad2cdb2527"
+    },
+    {
+      "path": "evidence/validation/LCL_R241_223_STRICT_RETURN_001/MANIFEST.json",
+      "bytes": 2481,
+      "sha256": "796f76530a2ad925f2e31a5d21a3eb60db184c279f8bab08f9d289109f495c0d"
+    },
+    {
+      "path": "evidence/validation/LCL_R241_TWO_CENTER_PORT_001/audit_result.json",
+      "bytes": 1873,
+      "sha256": "b14a0bdbcd8e922e8c576031407316cb6401ba92c6bed96e2781154e09411f85"
+    },
+    {
+      "path": "evidence/validation/LCL_R241_TWO_CENTER_PORT_001/MANIFEST.json",
+      "bytes": 3273,
+      "sha256": "7280ba7054133e9e8381b1e7e2c058e81804f79a04322ddc565a8a756d3482f5"
+    },
+    {
+      "path": "evidence/validation/LCL_R241_TWO_CENTER_PORT_001/README.md",
+      "bytes": 2745,
+      "sha256": "888f8936e43efdfc5f2d813149307931a346941f8f0ca484dfe40c6cbfb131c8"
+    },
+    {
+      "path": "evidence/validation/LCL_R241_UNEQUAL_TWO_CENTER_RETURN_001/certificates.json",
+      "bytes": 77267,
+      "sha256": "91c39d63cc3b191ea258e3b17002cd9229c4eec63a420d88ddfa7a2b651d2c10"
+    },
+    {
+      "path": "evidence/validation/LCL_R241_UNEQUAL_TWO_CENTER_RETURN_001/f2_original.json",
+      "bytes": 1925,
+      "sha256": "132c93da3b2f49fc5bee2b215ee598db9c4ad5e3546cb13be9d3bb16ad050246"
+    },
+    {
+      "path": "evidence/validation/LCL_R241_UNEQUAL_TWO_CENTER_RETURN_001/MANIFEST.json",
+      "bytes": 4075,
+      "sha256": "dd3d29112431c7442a8e79bf6f393801a8e502783034d2adf9ef1a87341f0ce3"
+    },
+    {
+      "path": "lcl/model.py",
+      "bytes": 10720,
+      "sha256": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6"
+    },
+    {
+      "path": "lcl/verify.py",
+      "bytes": 14075,
+      "sha256": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909"
+    },
+    {
+      "path": "references/upstream/mdl/N241_relational_ports.md",
+      "bytes": 25890,
+      "sha256": "53ac2c8bf13457ae5630dd0c1c6e19b785d3b568b67d932e86d331901ee82e9e"
+    },
+    {
+      "path": "research/R241_222_OFFSET_MENU.md",
+      "bytes": 8672,
+      "sha256": "432b2bb6dbc5f0a27cd4d078eba63d7225d88055d081050f39fe15036c93f7a4"
+    },
+    {
+      "path": "research/R241_222_STRICT_RETURN.md",
+      "bytes": 4718,
+      "sha256": "0ce6bf579227edbae6e2f333059a70c1c39ac639c766a3f783d94c19a15b07df"
+    },
+    {
+      "path": "research/R241_223_STRICT_RETURN.md",
+      "bytes": 4441,
+      "sha256": "4a39ef4e58ec3537b64e627728733c7348603a2be8eaf297a517027096278b98"
+    },
+    {
+      "path": "research/R241_PAIRED_BRANCHED_SPINE.md",
+      "bytes": 10289,
+      "sha256": "5a73a215baca0feaa378e80fa1c30b1d27602258f7a4175873287da9cdb086ed"
+    },
+    {
+      "path": "research/R241_TWO_CENTER_PORT_FALSIFIER.md",
+      "bytes": 5829,
+      "sha256": "2c54ba4140cd4354a7d599eded4d6d841ec02d685e987b10de5c9802fac005ba"
+    },
+    {
+      "path": "research/R241_UNEQUAL_TWO_CENTER_RETURN.md",
+      "bytes": 9943,
+      "sha256": "ab36239c40636a27b42a320a573db8b61042641485f6315acdf606d3f2e0f64f"
+    },
+    {
+      "path": "research/R241_ZERO_TO_ONE_BRIDGE.md",
+      "bytes": 8636,
+      "sha256": "eafec3678065e07a7ce8b868d9a475883679846df22df350f5dd585cfbf233e5"
+    }
+  ],
+  "runtime": {
+    "path": ".venv/Scripts/python.exe",
+    "bytes": 255200,
+    "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664"
+  }
+}

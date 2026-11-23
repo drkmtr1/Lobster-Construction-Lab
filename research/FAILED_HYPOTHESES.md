@@ -481,3 +481,7 @@ edge would have weight 2. The separate K=1 construction is unaffected.
 ### F-R241-223-STRICT-RETURN
 
 **REJECT** `A(12,6;1,0)` on exact original `[[2,2],[3]]` at physical s:0=1 and s:1=6. Signed-degree and maximum-weight constraints force right center 4 with a right terminal labeled 9. That actual edge duplicates the physical spine's weight 5. The obstruction applies to this state and its proposed use as B for the D080 bridge. [Proof](R241_223_STRICT_RETURN.md) · D083
+
+### F-R241-222-EXCLUDED-OFFSETS
+
+**REJECT** the 28 individual physical alpha offset states marked E in the [D084 menu](R241_222_OFFSET_MENU.md#the-complete-menu) for the exact named `[[2,2],[2]]` original at cut six. The signed degree sum excludes odd exit offsets. The remaining excluded states fail a mandatory incidence or residual-weight condition for every numerical center possibility. D082's (1,0) exclusion retains its historical evidence without replay. The same original has witnessed states (2,0) and (3,4). D084

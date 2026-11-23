@@ -2,19 +2,21 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 22, 2026, Pacific/Honolulu<br>
-**Stage:** D083 audit-only closeout **PASS**. The original D083 execution remains **INCOMPLETE**. [Versioned evidence](evidence/validation/LCL_R241_223_AUDIT_CLOSEOUT_001/README.md).
+**Stage:** D084 physical offset menu **ACCEPTED**. Two states witnessed, 28 excluded and zero unresolved. [Proof and matrix](research/R241_222_OFFSET_MENU.md).
 
 ## Current scientific objective
 
-Develop independently supplied multi-center modules with usable physical offsets. Retain the strategic **PIVOT** away from successive fixed (1,0) quota tests. D082 and D083 exclude two exact pinned states. The D083 audit-only closeout corroborates its accepted obstruction. The [latest handoff](handoffs/CODEX-20261122-r241-223-audit-closeout.md) records this verification. The [roadmap](docs/strategy/LCL_Branched_Spine_Research_Roadmap_2026-11-22.md) gives strategic context.
+Develop independently supplied multi-center modules with usable physical offsets. D084 establishes two exact states on the retained `[[2,2],[2]]` original. Its (2,0) witness can feed the spine entrance of H(a) under R241. The second witness returns offset four and has a distinct conditional match at the retained R212 entrance. The [latest handoff](handoffs/CODEX-20261122-r241-222-offset-menu.md) records the results and limits.
 
 ## One next action
 
-Under separate authorization, assess the 30 physical R241 offset pairs of the single named `[[2,2],[2]]` original in its six-low, five-high alpha orientation. Record each pair as witnessed by an explicit ledger, excluded by proof, or unresolved. Use zero solver calls and zero assignment enumeration.
+Under separate authorization, assess the two physical offset states (2,0) and (3,4) on the single exact named neighboring `[[2,3],[2]]` original at cut seven. For each state, supply one explicit ledger, a structural exclusion, or an unresolved disposition. Use zero solver calls, zero complete-assignment enumeration and no joins.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
+
+- D084 completes the 30-state physical offset menu on exact original `[[2,2],[2]]` with cut six. Witnessed pairs are (2,0) and (3,4). The signed degree sum and mandatory original-edge differences exclude all 28 others. Both named ledgers, the independent arithmetic and all three adverse controls passed verification and separate reviews. Zero new graph identities, assignment visits, searches, replays or joins. See [proof and matrix](research/R241_222_OFFSET_MENU.md) and [evidence](evidence/validation/LCL_R241_222_OFFSET_MENU_001/README.md).
 
 - The D083 versioned audit independently reproduced the signed-degree cases and repeated weight 5. The single audit matched 39 input bindings with zero new graph identities, named assignments, producer executions or replays. Separate reviews confirmed the scoped proof and evidence. The original execution remains **INCOMPLETE**. See [audit-only closeout](evidence/validation/LCL_R241_223_AUDIT_CLOSEOUT_001/README.md).
 

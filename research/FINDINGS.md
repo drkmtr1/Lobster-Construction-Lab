@@ -1286,3 +1286,9 @@ One new original, the retained D081 positive, the archived D082 negative binding
 ### D083 audit-only closeout
 
 **PASS** for the separately versioned audit. It verified 39 input bindings, independently reconstructed the exact named incidences and reached the proof-arithmetic contradiction. The historical execution remains **INCOMPLETE**. The accepted scoped obstruction and missing J(a) premise retain their original dispositions. One invocation used 0.125 process-CPU seconds and added zero graphs, named assignments or solver calls. [Versioned evidence](../evidence/validation/LCL_R241_223_AUDIT_CLOSEOUT_001/README.md)
+
+## LCL-R241-222-OFFSET-MENU-001
+
+**ACCEPT** the complete physical offset menu on the retained named `[[2,2],[2]]` original at cut six with actual low s:0 and high s:1. Explicit independent ledgers witness (2,0) and (3,4). The signed-degree sum and mandatory original-edge weights exclude the other 28 pairs, leaving zero unresolved. These exclusions concern the prescribed alpha states. The menu supplies exit zero to the physical H(a) entrance and a separate conditional exit-four match at the designated R212 entrance. No new join, suffix or repeat family was constructed.
+
+The unchanged checker, independent arithmetic audit and separate reviews passed two new ledgers, all 30 offset records, 108 numerical center cases, retained D081 and D082 controls, and three adverse rejections. One worker used 0.09375 combined process-CPU seconds with zero new graph identities, assignment enumeration, solver calls or replays. [Proof and matrix](R241_222_OFFSET_MENU.md) · [Evidence](../evidence/validation/LCL_R241_222_OFFSET_MENU_001/README.md) · D084
