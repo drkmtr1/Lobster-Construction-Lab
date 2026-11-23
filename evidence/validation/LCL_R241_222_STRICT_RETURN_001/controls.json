@@ -1,0 +1,165 @@
+{
+  "adverse": {
+    "difference": {
+      "actual_d": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "declared_d": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "graph_digest": "e72fda430e3d374e9b14c191e7078c89f2c1dc6097ef6d0805389bf74c2892dc",
+      "port": [
+        "s:7",
+        24
+      ],
+      "reason": "wrong suffix difference inventory",
+      "valid": false
+    },
+    "digest": {
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          4,
+          8,
+          9,
+          7,
+          6,
+          5,
+          1,
+          2,
+          3
+        ],
+        "errors": [
+          "original graph digest mismatch"
+        ],
+        "graph_digest": "29cc4fc4bb4a297bbaeb7848f5205c2ed3218035c4a4a5cda0044e62671657d0",
+        "m": 9,
+        "n": 10,
+        "valid": false
+      },
+      "expected": "0000000000000000000000000000000000000000000000000000000000000000",
+      "graph_id": "f2"
+    },
+    "offset": {
+      "connector": [
+        "s:1",
+        "s:2"
+      ],
+      "graph_digest": "e72fda430e3d374e9b14c191e7078c89f2c1dc6097ef6d0805389bf74c2892dc",
+      "new_entrance_label": 1,
+      "old_exit_offset": 0,
+      "reason": "R241 physical offset mismatch",
+      "swap": [
+        "s:2",
+        "l:2:0:0"
+      ],
+      "valid": false
+    }
+  },
+  "negative": {
+    "auditor": "audit_result.json",
+    "graph_digest": "c308b9ac0743611d85c585b9c56ab10239f3564f773c4574d969a77b35958bb9",
+    "historical_visits": 144,
+    "new_visits": 0,
+    "pins": {
+      "s:0": 1,
+      "s:1": 5
+    },
+    "positive": 0,
+    "source": "unequal_strict_enumeration.json"
+  },
+  "positive": {
+    "checker": {
+      "claim": "finite certificate for this exact named target only",
+      "edge_differences": [
+        4,
+        8,
+        9,
+        7,
+        6,
+        5,
+        1,
+        2,
+        3
+      ],
+      "errors": [],
+      "graph_digest": "29cc4fc4bb4a297bbaeb7848f5205c2ed3218035c4a4a5cda0044e62671657d0",
+      "m": 9,
+      "n": 10,
+      "valid": true
+    },
+    "edge_rows": [
+      [
+        "s:0",
+        "s:1",
+        4
+      ],
+      [
+        "s:0",
+        "b:0:0",
+        8
+      ],
+      [
+        "b:0:0",
+        "l:0:0:0",
+        9
+      ],
+      [
+        "s:0",
+        "b:0:1",
+        7
+      ],
+      [
+        "b:0:1",
+        "l:0:1:0",
+        6
+      ],
+      [
+        "b:0:1",
+        "l:0:1:1",
+        5
+      ],
+      [
+        "s:1",
+        "b:1:0",
+        1
+      ],
+      [
+        "b:1:0",
+        "l:1:0:0",
+        2
+      ],
+      [
+        "b:1:0",
+        "l:1:0:1",
+        3
+      ]
+    ],
+    "graph_digest": "29cc4fc4bb4a297bbaeb7848f5205c2ed3218035c4a4a5cda0044e62671657d0",
+    "labels": {
+      "b:0:0": 9,
+      "b:0:1": 8,
+      "b:1:0": 4,
+      "l:0:0:0": 0,
+      "l:0:1:0": 2,
+      "l:0:1:1": 3,
+      "l:1:0:0": 6,
+      "l:1:0:1": 7,
+      "s:0": 1,
+      "s:1": 5
+    },
+    "ledger_id": "dad4a0ce6601db35fce976cad72fc8acebea1d11c4dba494a021c68c81fd08be",
+    "offsets": [
+      1,
+      0
+    ],
+    "source": "f2_original.json"
+  }
+}

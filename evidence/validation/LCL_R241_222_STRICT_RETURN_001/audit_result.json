@@ -1,0 +1,19 @@
+{
+  "adverse_rejections": 3,
+  "duplicate_edge_receipts": 2880,
+  "new_audit_visits": 0,
+  "positive_certificates": 0,
+  "producer_and_audit_cpu_seconds": 0.234375,
+  "raw_receipts": {
+    "commands.json": "95c3e9876acd5b9dee03fc8df82829498d402b9eca55b8b791724e2149c1e9eb",
+    "config.json": "dd0d6a2d54120560524ce349ca1488b706b1664234d859277e63f63dc08d7149",
+    "controls.json": "f8cc094863f8a4f2066e0d1c33c6495f646e3fa9583362ce97be824dc23822fb",
+    "enumeration.json": "e4680a029e8c44c45d81581c86311aae570d570833412027ed34d7670eaab497",
+    "identity.json": "658524d04c5e161cf75c8b91a212b816c7e965da2e5f9469bd70f864e856995d",
+    "result.json": "502a5fb18b63114be154f00f8dba400e87511133bf29f4d7a11c657b55fd0ab9",
+    "strict_original.json": "e6ffffcb6985e907748a42ca1ee91e83aa453c6ebbbae047e966a2b3115ee5d5"
+  },
+  "retained_replay_visits": 0,
+  "status": "PASS",
+  "visits_certified": 2880
+}

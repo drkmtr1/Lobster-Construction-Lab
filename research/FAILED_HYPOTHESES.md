@@ -473,3 +473,7 @@ edge would have weight 2. The separate K=1 construction is unaffected.
 ### F-R241-UNEQUAL-FIRST-PAIR-ONE-ZERO
 
 **REJECT** the original `[[1,2],[1]]` supplier at physical offsets (1,0). With P=5, the edge-weight sum forces one of three center-label triples, each missing weight 8 or duplicating weight 4. The same original is graceful at offsets (2,0). The tied-quota replacement `[[1,b],[b]]` is a different domain and supplies (1,0). [Proof](R241_UNEQUAL_TWO_CENTER_RETURN.md) · D081
+
+### F-R241-222-STRICT-RETURN
+
+**REJECT** `A(11,6;1,0)` on the original `[[2,2],[2]]` at physical s:0=1 and s:1=6. The signed-degree identity and extremal edge leave two actual branches: duplicate weight 5 or absent weight 3. This rejects the specified R241 starting state only. [Proof](R241_222_STRICT_RETURN.md) · D082

@@ -1,0 +1,65 @@
+{
+  "task": "LCL-R241-222-STRICT-RETURN-001",
+  "parent": "ec058da9fe0c834978cc5de927cd96f5b0ca2e68",
+  "specification": {
+    "path": "tasks/LCL_Codex_D082_222_Strict_Return_2026-11-22.md",
+    "sha256": "f3254aded3c2a1e907ae28caf37a5e75ac07dc78a68c056d8871f4b5c6c11714"
+  },
+  "profile": [
+    [
+      2,
+      2
+    ],
+    [
+      2
+    ]
+  ],
+  "cut": 6,
+  "pins": {
+    "s:0": 1,
+    "s:1": 6
+  },
+  "limits": {
+    "workers": 1,
+    "visits": 2880,
+    "new_original_cap": 8,
+    "planned_new_originals": 1,
+    "adverse": 3,
+    "combined_cpu_seconds": 30,
+    "bytes_per_record": 2000000,
+    "bytes_total": 8000000,
+    "solver_calls": 0,
+    "retries": 0,
+    "replays": 0
+  },
+  "archive": "evidence/validation/LCL_R241_UNEQUAL_TWO_CENTER_RETURN_001",
+  "intake_sources": {
+    "lcl/model.py": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6",
+    "lcl/verify.py": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909",
+    "lcl/consumers.py": "2cb688d09c510ca855ba1695d0f89a325ea4fc7882c9e5a8e971c2b506e64560",
+    "research/R241_PAIRED_BRANCHED_SPINE.md": "5a73a215baca0feaa378e80fa1c30b1d27602258f7a4175873287da9cdb086ed",
+    "research/R241_TWO_CENTER_PORT_FALSIFIER.md": "2c54ba4140cd4354a7d599eded4d6d841ec02d685e987b10de5c9802fac005ba",
+    "research/R241_ZERO_TO_ONE_BRIDGE.md": "eafec3678065e07a7ce8b868d9a475883679846df22df350f5dd585cfbf233e5",
+    "research/R241_UNEQUAL_TWO_CENTER_RETURN.md": "ab36239c40636a27b42a320a573db8b61042641485f6315acdf606d3f2e0f64f",
+    "references/upstream/mdl/N241_relational_ports.md": "53ac2c8bf13457ae5630dd0c1c6e19b785d3b568b67d932e86d331901ee82e9e",
+    "research/B2_NONADJACENT_CONSUMER.md": "fa7b58c0b42cb73f01d62153f8de36e6cc4e6315b1db4b4da59ac9e54a4c92fb",
+    "docs/strategy/LCL_Branched_Spine_Research_Roadmap_2026-11-22.md": "fa4f5565cabc0001911f7566f9ca9430826a71d5bd02a01a2191c896af8b6a98",
+    "handoffs/CODEX-20261122-r241-unequal-two-center-return.md": "fffca31de2421526fe4e90f5aade8880d0ebef6370800e253caee75e9f70e6fe",
+    "evidence/validation/LCL_R241_UNEQUAL_TWO_CENTER_RETURN_001/f2_original.json": "132c93da3b2f49fc5bee2b215ee598db9c4ad5e3546cb13be9d3bb16ad050246",
+    "evidence/validation/LCL_R241_UNEQUAL_TWO_CENTER_RETURN_001/unequal_original.json": "715311e1af7701c1c7a257d61f44473661d9abe2391c3e0cb241fd61cb9111f2",
+    "evidence/validation/LCL_R241_UNEQUAL_TWO_CENTER_RETURN_001/repeat_l5_original.json": "892ef28fa70e45f565656c5dfe5905908e6ee9655637641e0d59f65784118ae4",
+    "evidence/validation/LCL_R241_UNEQUAL_TWO_CENTER_RETURN_001/certificates.json": "91c39d63cc3b191ea258e3b17002cd9229c4eec63a420d88ddfa7a2b651d2c10",
+    "evidence/validation/LCL_R241_UNEQUAL_TWO_CENTER_RETURN_001/unequal_strict_enumeration.json": "6a5f88425f508b913f9ed209c3b50fc9d4053756c5db17be51402e9df62d93a3",
+    "evidence/validation/LCL_R241_UNEQUAL_TWO_CENTER_RETURN_001/audit_result.json": "9f5c415f5a5f85b6e4c569496c1786e333754675072218b29ad293666b3552d1",
+    "evidence/validation/LCL_R241_UNEQUAL_TWO_CENTER_RETURN_001/MANIFEST.json": "dd3d29112431c7442a8e79bf6f393801a8e502783034d2adf9ef1a87341f0ce3"
+  },
+  "new_sources": [
+    "research/R241_222_STRICT_RETURN.md",
+    "tasks/LCL_Codex_D082_222_Strict_Return_2026-11-22.md"
+  ],
+  "upstream": {
+    "MDL": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+    "bounded_search": "e48b94eec4091b4fe189e325cab2eda464409943",
+    "original_r241_blob": "faca17cfa4c484127413762adc0c36b771a18f71"
+  }
+}

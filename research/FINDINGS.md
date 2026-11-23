@@ -1270,3 +1270,9 @@ Seven positive certificates on six new originals and retained D079 B, three adve
 **ACCEPT** finite nonempty repetitions with independently chosen b_i≥0 and a_i≥1, normalized alpha at L=0 and ordinary gracefulness with L≥2 empty trailing sections. Physical high exit P+L+1 and inventories R=[P,P+L−1], D=[1,L] fit the exact original path. L=1 fails this suffix interface. The same equality proves the exact symbolic mixed-list consequence with independently supplied D078 M(c,d), c,d≥0, without numerical expansion. Arbitrary multiple-center profiles remain open.
 
 Seven new originals and one retained F(1), eight fixed certificates, six successful diagnostic certificates (two duplicate the corresponding controls), 864 diagnostic visits and three adverse rejections passed independent audit and separate review. No fresh audit visits, solvers, replays or retries. [Proof](R241_UNEQUAL_TWO_CENTER_RETURN.md) · [Evidence](../evidence/validation/LCL_R241_UNEQUAL_TWO_CENTER_RETURN_001/README.md) · D081
+
+## LCL-R241-222-STRICT-RETURN-001
+
+**ACCEPT** the signed-degree and actual-edge proof that original `[[2,2],[2]]` cannot supply A(11,6;1,0) at s:0=1 and s:1=6. Weight 10 forces a center placement, and the only two surviving alternatives repeat weight 5 or omit weight 3. **REJECT** the specified fixed-port state and its J(a) route at the missing B premise. No J(a) original or repeat/suffix family from that seed was evaluated. Other ports and ordinary gracefulness remain outside the obstruction.
+
+The strict 2,880 named visits are complete with zero successes and 2,880 checked duplicate-edge receipts. There was one new original. The D081 positive recheck, archived negative and three adverse rejections passed independent audit and separate read-only reviews. No new audit visits, historic replay, solver, retry, or alternative-port search. [Proof](R241_222_STRICT_RETURN.md) · [Evidence](../evidence/validation/LCL_R241_222_STRICT_RETURN_001/README.md) · D082

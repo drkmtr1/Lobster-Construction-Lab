@@ -1,0 +1,38 @@
+{
+  "combined_process_cpu_seconds": 0.296875,
+  "retries": 0,
+  "runs": 1,
+  "stages": [
+    {
+      "argv": [
+        ".venv/Scripts/python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "evidence.validation.LCL_R241_222_STRICT_RETURN_001.run"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "",
+      "utc": "2026-11-23T06:57:14.131737+00:00",
+      "wall_seconds": 0.268459300044924
+    },
+    {
+      "argv": [
+        ".venv/Scripts/python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "evidence/validation/LCL_R241_222_STRICT_RETURN_001/audit.py"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "",
+      "utc": "2026-11-23T06:57:14.400242+00:00",
+      "wall_seconds": 0.33328809996601194
+    }
+  ],
+  "status": "COMPLETE",
+  "workers": 1
+}

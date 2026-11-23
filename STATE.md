@@ -2,20 +2,21 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 22, 2026, Pacific/Honolulu<br>
-**Stage:** LCL-R241-UNEQUAL-TWO-CENTER-RETURN-001 complete. D081 accepts the tied-quota F family and its repeatable R241 return.
+**Stage:** LCL-R241-222-STRICT-RETURN-001 complete. D082 rejects the exact (1,0) state on `[[2,2],[2]]`.
 
 ## Current scientific objective
 
-Extend the accepted repeatable two-center pattern toward independent multiple-center quotas while retaining compatible physical offsets. The [roadmap](docs/strategy/LCL_Branched_Spine_Research_Roadmap_2026-11-22.md) gives strategic context. The [D081 handoff](handoffs/CODEX-20261122-r241-unequal-two-center-return.md) records the verified result and one proposed next obligation.
+Extend the accepted two-center pattern toward independent multiple-center quotas while preserving actual port compatibility. The [D082 handoff](handoffs/CODEX-20261122-r241-222-strict-return.md) records the scoped obstruction and proposed next obligation. The [roadmap](docs/strategy/LCL_Branched_Spine_Research_Roadmap_2026-11-22.md) gives strategic context.
 
 ## One next action
 
-Investigate the exact original [[2,2],[2]] at physical offsets (1,0) as a candidate first pair for D081’s R241 return, allowing both first-section centers to have more than one terminal.
+Investigate whether the exact original [[2,2],[3]] independently supplies physical offsets (1,0) for the D080 H(a) bridge, starting with a structural proof or explicit named ledger.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
 
+- D082 excludes A(11,6;1,0) on exact original `[[2,2],[2]]` at s:0=1 and s:1=6 by a signed-degree and original-edge contradiction. The full named visit count is 0/2,880 with every failure independently audited. The proposed J(a) route lacks its B state. One new original, retained controls and three adverse rejections passed separate reviews. No alternate port, solver, or historical replay. See [proof](research/R241_222_STRICT_RETURN.md) and [evidence](evidence/validation/LCL_R241_222_STRICT_RETURN_001/README.md).
 - D081 rejects only (1,0) on the exact `[[1,2],[1]]` original and verifies its alternate (2,0) state and neighboring (1,0) control. Direct F(b)=`[[1,b],[b]]` supplies (1,0) for every exact b≥0. Joining to D080 H(a) with a≥1 gives (1,1) on the actual four-section R(b,a). Finite repetitions and symbolic lists with D078 M supply normalized alpha at L=0 and ordinary gracefulness at L≥2 via the exact original suffix resources. Eight fixed certificates, six successful diagnostic certificates, 864 visits and three adverse rejections passed independent audit and reviews. See [proof](research/R241_UNEQUAL_TWO_CENTER_RETURN.md) and [evidence](evidence/validation/LCL_R241_UNEQUAL_TWO_CENTER_RETURN_001/README.md).
 - D080 rejects the physical (0,1) bridge on original `[[1],[1]]` and supplies H(a)=`[[a],[a+1]]` for every exact a≥1. Joining the retained D079 two-center pair to H(a) at the actual zero-offset spine edge yields Q(a)=`[[1,1],[1],[a],[a+1]]` with offsets (1,1). Any finite nonempty sequence of these macros is alpha graceful without a tail. The exact original with L≥2 empty sections is ordinarily graceful, using R=[P,P+L−1], D=[1,L] at physical port P+L+1. Seven certificates, 160 diagnostic visits and three adverse rejections passed independent audit and separate reviews. See [proof](research/R241_ZERO_TO_ONE_BRIDGE.md) and [evidence](evidence/validation/LCL_R241_ZERO_TO_ONE_BRIDGE_001/README.md).
 - D079 rejects universal fixed-offset (1,1) supply on positive-quota `[[a,b],[c]]` by the analytic contradiction on `[[1,1],[1]]`. Exact named counts are 0/36 strict and 4/576 orientation-only on that original, with two ledgers each at (1,0) and (2,3), and 4/144 strict on `[[1,1],[2]]`. Positive controls and adverse checks passed independent audit and separate reviews. See [proof](research/R241_TWO_CENTER_PORT_FALSIFIER.md) and [evidence](evidence/validation/LCL_R241_TWO_CENTER_PORT_001/README.md).

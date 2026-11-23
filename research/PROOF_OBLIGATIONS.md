@@ -679,4 +679,6 @@ The [D080 proof](R241_ZERO_TO_ONE_BRIDGE.md) resolves `[[1],[1]]` negatively for
 
 The [D081 proof](R241_UNEQUAL_TWO_CENTER_RETURN.md) closes the exact `[[1,2],[1]]` (1,0) question negatively and supplies F(b)=`[[1,b],[b]]` for b≥0, with zero-quota centers preserved. Combining it with H(a) gives the original (1,1) return for R(b,a) and all finite nonempty ordered repetitions. D078 M blocks can occur in the same symbolic list because every actual port equality is 1=1. The no-tail and L≥2 cases follow from the exact normalization and suffix partitions. The new first-pair quotas remain tied and the first center still has one terminal.
 
-The proposed unstarted obligation relaxes that last constraint on exact original `[[2,2],[2]]`, at physical offsets (1,0), as a candidate input to D081's return.
+The [D082 proof](R241_222_STRICT_RETURN.md) resolves the exact original `[[2,2],[2]]` at physical offsets (1,0) negatively. The J(a) construction using that seed is blocked by the unavailable B state. The adopted conditional join and existing H(a) preserve their own proof domains.
+
+The unstarted obligation is the exact neighboring `[[2,2],[3]]` original at (1,0), testing whether both first-section centers can exceed unit terminal quota in a supplier for H(a).

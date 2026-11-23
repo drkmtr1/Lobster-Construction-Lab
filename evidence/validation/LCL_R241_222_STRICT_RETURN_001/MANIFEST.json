@@ -1,0 +1,97 @@
+{
+  "algorithm": "SHA-256",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": "audit_result.json",
+      "bytes": 898,
+      "sha256": "bbae06541d4950553a88beff1c9d0797c0ae6a9bbe8090d1263bed448ccc4461"
+    },
+    {
+      "path": "audit.py",
+      "bytes": 13256,
+      "sha256": "a55e8ad4a666e0ac25398a02e7d0553751966445b2891ac28430a3fa7b28e59c"
+    },
+    {
+      "path": "command_receipts.json",
+      "bytes": 823,
+      "sha256": "495e18794ee8eeb965ffa0fb66182122f0cb7ff2ee6816254cee03e444921cae"
+    },
+    {
+      "path": "commands.json",
+      "bytes": 484,
+      "sha256": "95c3e9876acd5b9dee03fc8df82829498d402b9eca55b8b791724e2149c1e9eb"
+    },
+    {
+      "path": "config.json",
+      "bytes": 3446,
+      "sha256": "dd0d6a2d54120560524ce349ca1488b706b1664234d859277e63f63dc08d7149"
+    },
+    {
+      "path": "controls.json",
+      "bytes": 3144,
+      "sha256": "f8cc094863f8a4f2066e0d1c33c6495f646e3fa9583362ce97be824dc23822fb"
+    },
+    {
+      "path": "driver.py",
+      "bytes": 2722,
+      "sha256": "92d7ede781222e3806a1b1a13f7050535f81922dcf13978e18126cee83d3a19e"
+    },
+    {
+      "path": "enumeration.json",
+      "bytes": 589833,
+      "sha256": "e4680a029e8c44c45d81581c86311aae570d570833412027ed34d7670eaab497"
+    },
+    {
+      "path": "identity.json",
+      "bytes": 3702,
+      "sha256": "658524d04c5e161cf75c8b91a212b816c7e965da2e5f9469bd70f864e856995d"
+    },
+    {
+      "path": "INTAKE.md",
+      "bytes": 1596,
+      "sha256": "873fe8e76a4f80afbf6f0f639a9a11b9971cf04fdde3a75a7aebacf7f659d793"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2893,
+      "sha256": "1d80fa8520d7cdcfb87abfaad8a2ed8852b21f6072dbe4976b96b3e700bd0a8c"
+    },
+    {
+      "path": "result.json",
+      "bytes": 197,
+      "sha256": "502a5fb18b63114be154f00f8dba400e87511133bf29f4d7a11c657b55fd0ab9"
+    },
+    {
+      "path": "REVIEWS.md",
+      "bytes": 2030,
+      "sha256": "e5946bafa04814fb53a60d6c0a7af17344ecae91b9a09e452e78193c6155d9ac"
+    },
+    {
+      "path": "run.py",
+      "bytes": 10941,
+      "sha256": "4cfbaa21682fc0c2fc4b24f8d90e5e1e8a4b3e5ea3edae6df3ea9a95ea956a5a"
+    },
+    {
+      "path": "strict_original.json",
+      "bytes": 2107,
+      "sha256": "e6ffffcb6985e907748a42ca1ee91e83aa453c6ebbbae047e966a2b3115ee5d5"
+    }
+  ],
+  "external": [
+    {
+      "path": "research/R241_222_STRICT_RETURN.md",
+      "bytes": 4718,
+      "sha256": "0ce6bf579227edbae6e2f333059a70c1c39ac639c766a3f783d94c19a15b07df"
+    },
+    {
+      "path": "tasks/LCL_Codex_D082_222_Strict_Return_2026-11-22.md",
+      "bytes": 8475,
+      "sha256": "f3254aded3c2a1e907ae28caf37a5e75ac07dc78a68c056d8871f4b5c6c11714"
+    }
+  ]
+}
