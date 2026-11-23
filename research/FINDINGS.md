@@ -1166,3 +1166,23 @@ all six archived D071 receipts, one wrong-digest rejection and
 queries or replay. Separate AI reviews accepted. D070 and D071
 retain their distinct scopes. [Proof](B4_D071_PINNED_DUAL_BLOCK_OBSTRUCTION.md) ·
 [Evidence](../evidence/validation/B4_D071_PINNED_DUAL_BLOCK_OBSTRUCTION_001/README.md) · D072
+
+## B4-D072-UNPIN-FIRST-HOST-DUAL-BLOCK-001
+
+**ACCEPT a structural obstruction.** No normalized alpha-graceful
+labeling of the exact named 2222 original with s:4=9 and b:2:0=0
+simultaneously supplies both retained complete incidence spectra
+for any a=f(b:0:0)=1..7. The cuts are 10≤u≤16 and a<d≤8.
+Lower counting leaves B=8,10,12. A descending weight argument
+forces upper-selected s:2. Named edge containment rules out
+B=10 and B=12. The residual weight contradictions and the
+retained D072 case rule out B=8.
+
+The separate audit accounts for 1,568 numerical tuples and rechecks
+two archived ledgers on their shared original. One wrong-digest
+probe rejected. A draft residual-weight omission was corrected
+before execution and recorded in the bundle. Both reviews accepted.
+Zero new originals, seed ledgers, searches or assignment nodes.
+D070's positive theorem and D071–D072 remain scoped as before.
+[Proof](B4_D072_UNPIN_FIRST_HOST_DUAL_BLOCK.md) ·
+[Evidence](../evidence/validation/B4_D072_UNPIN_FIRST_HOST_DUAL_BLOCK_001/README.md) · D073

@@ -419,3 +419,12 @@ cuts u=10..16 and d=6..8 are covered by the symbolic degree,
 containment and named-incidence contradictions. This concerns
 these two complete predicates under these pins.
 [Proof and exact scope](B4_D071_PINNED_DUAL_BLOCK_OBSTRUCTION.md)
+
+### F-B4-D072-UNPIN-FIRST-HOST-DUAL-BLOCK
+
+**REJECT** simultaneous complete upper and lower incidence
+premises on the exact named normalized 2222 original with
+s:4=9, b:2:0=0 and any first-host label a=1..7. The structural
+proof covers u=10..16 and a<d<=8. Other exits and other growth
+rules remain distinct proof obligations.
+[Proof and exact scope](B4_D072_UNPIN_FIRST_HOST_DUAL_BLOCK.md)

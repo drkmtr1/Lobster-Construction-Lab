@@ -1,0 +1,37 @@
+{
+  "commands": [
+    {
+      "argv": [
+        ".venv/Scripts/python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "evidence/validation/B4_D072_UNPIN_FIRST_HOST_DUAL_BLOCK_001/verify_controls.py"
+      ],
+      "exit_code": 0,
+      "started_utc": "2026-11-23T03:36:36.003319+00:00",
+      "stderr": "",
+      "stdout": "PASS: two original-bound controls and one actual wrong-digest rejection\r\n",
+      "wall_seconds": 4.485440299962647
+    },
+    {
+      "argv": [
+        ".venv/Scripts/python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "evidence/validation/B4_D072_UNPIN_FIRST_HOST_DUAL_BLOCK_001/audit.py"
+      ],
+      "exit_code": 0,
+      "started_utc": "2026-11-23T03:36:40.488823+00:00",
+      "stderr": "",
+      "stdout": "PASS: named incidences, retained controls, residual arithmetic, and 1,568 numerical rows\r\n",
+      "wall_seconds": 4.849885399977211
+    }
+  ],
+  "formal_runs": 1,
+  "one_worker": true,
+  "retries": 0,
+  "setup_process_cpu_seconds": 0.640625,
+  "status": "PASS"
+}

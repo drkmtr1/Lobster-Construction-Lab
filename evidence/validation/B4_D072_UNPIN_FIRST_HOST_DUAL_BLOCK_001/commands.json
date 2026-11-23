@@ -1,0 +1,16 @@
+[
+  [
+    ".venv/Scripts/python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "evidence/validation/B4_D072_UNPIN_FIRST_HOST_DUAL_BLOCK_001/verify_controls.py"
+  ],
+  [
+    ".venv/Scripts/python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "evidence/validation/B4_D072_UNPIN_FIRST_HOST_DUAL_BLOCK_001/audit.py"
+  ]
+]

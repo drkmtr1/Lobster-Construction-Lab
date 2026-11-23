@@ -1,0 +1,75 @@
+{
+  "algorithm": "SHA-256",
+  "external_proof": {
+    "bytes": 11148,
+    "path": "research/B4_D072_UNPIN_FIRST_HOST_DUAL_BLOCK.md",
+    "sha256": "9a4777fa588acab7cf4131f97ae81aba75728d8544fe9ca7d8136b9df93da487"
+  },
+  "files": [
+    {
+      "bytes": 8,
+      "path": ".gitattributes",
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "bytes": 13333,
+      "path": "audit.py",
+      "sha256": "9ef2cc3f207d2bdb7e2d668a48ddf29fa20f8551097a61c2473fa361bc66804f"
+    },
+    {
+      "bytes": 481120,
+      "path": "audit_result.json",
+      "sha256": "9efef07ea7057cbd4afd7e1dced79d99e3092a7eea5633d50dad1f9c2bb8458c"
+    },
+    {
+      "bytes": 1031,
+      "path": "command_receipts.json",
+      "sha256": "8fa3cd7cc9a62fc71a6a1b985428dd860d5f4ed47ef36d70a8635ce2e21e2e17"
+    },
+    {
+      "bytes": 309,
+      "path": "commands.json",
+      "sha256": "29502bea9c4d8c2514021c0a836fa54187373df8856d317d7a6205a1f0196b95"
+    },
+    {
+      "bytes": 12857,
+      "path": "config.json",
+      "sha256": "6ee4146f7a4680e881b7714f50cf98ec8b3870b9fe9a1e3b61e9749bd20d38e4"
+    },
+    {
+      "bytes": 2219,
+      "path": "controls.json",
+      "sha256": "b73fc5b8cc2edc72972df6e17963b7bec1207ff0d403cd333b1c58923a527b63"
+    },
+    {
+      "bytes": 841,
+      "path": "CORRECTIONS.md",
+      "sha256": "b87642ff34f5a09faab2314f7895a570e92394724890ad9bb426f990434b29bc"
+    },
+    {
+      "bytes": 1340,
+      "path": "INTAKE.md",
+      "sha256": "225b9b1ae089e7f9e59081d01cef790a1164e7e8463ea2f07187793185496767"
+    },
+    {
+      "bytes": 1687,
+      "path": "README.md",
+      "sha256": "00bdb8628b3d9276da236a886e9124168e556e1650228945fdaceec28a37c240"
+    },
+    {
+      "bytes": 2451,
+      "path": "REVIEWS.md",
+      "sha256": "640137b2c73e7da1cd5cdfe9952bf0c9e1f5e9c91e889b6344e5f8922e66e2d4"
+    },
+    {
+      "bytes": 1024,
+      "path": "TRUTH_TABLE.md",
+      "sha256": "a1b554363e31c0aca8658dc30e0fe9d1c00aada8c81e8d703f349f97122fb914"
+    },
+    {
+      "bytes": 3489,
+      "path": "verify_controls.py",
+      "sha256": "efc14df43e968c371b0e5f7ccb510c3270cf4053cda74a1a3b098c425305a1ae"
+    }
+  ]
+}

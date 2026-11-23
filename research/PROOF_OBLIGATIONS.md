@@ -651,7 +651,10 @@ variable interior r remains open. The
 [pinned dual-block obstruction](B4_D071_PINNED_DUAL_BLOCK_OBSTRUCTION.md)
 rejects the simultaneous complete premises on the same named
 2222 original whenever b:0:0=5, b:2:0=0 and s:4=9 under the
-normalized alpha orientation. The next proposed question
-leaves only the first-host label free. Even if a simultaneous
-supplier exists in that domain, compatibility and both joint
-inventories require separate proof.
+normalized alpha orientation. The
+[unpinned first-host obstruction](B4_D072_UNPIN_FIRST_HOST_DUAL_BLOCK.md)
+rules out the same joint premise for all allowed a=1..7
+with physical s:4=9 and b:2:0=0. The next proposed seed question
+changes the label at the same physical exit to 8. Compatibility
+and both joint inventories remain separate proof obligations
+for any future simultaneous supplier.

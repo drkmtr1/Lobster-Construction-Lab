@@ -1,0 +1,100 @@
+{
+  "assignment_nodes": 0,
+  "new_originals": 0,
+  "process_cpu_seconds": 0.53125,
+  "retained": {
+    "D066": {
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          8,
+          14,
+          9,
+          2,
+          4,
+          6,
+          7,
+          12,
+          13,
+          10,
+          16,
+          15,
+          11,
+          1,
+          5,
+          3
+        ],
+        "errors": [],
+        "graph_digest": "35c75a93573720212045e5dedb66a0d5ccfd5a09900ea12b791ec900938ea4f4",
+        "m": 16,
+        "n": 17,
+        "valid": true
+      },
+      "graph_digest": "35c75a93573720212045e5dedb66a0d5ccfd5a09900ea12b791ec900938ea4f4",
+      "ledger_id": "a84d6183c8a6f97aa0a8d5aed6efb6122ed8029c7526e9fefd8bb242f0d108be"
+    },
+    "D070": {
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          8,
+          13,
+          9,
+          3,
+          5,
+          6,
+          7,
+          11,
+          12,
+          10,
+          15,
+          16,
+          14,
+          2,
+          1,
+          4
+        ],
+        "errors": [],
+        "graph_digest": "35c75a93573720212045e5dedb66a0d5ccfd5a09900ea12b791ec900938ea4f4",
+        "m": 16,
+        "n": 17,
+        "valid": true
+      },
+      "graph_digest": "35c75a93573720212045e5dedb66a0d5ccfd5a09900ea12b791ec900938ea4f4",
+      "ledger_id": "1082f21587d2efc147336fde7d2b5696bb37ff984166140cfb2b0bb2a3408b37"
+    }
+  },
+  "solver_calls": 0,
+  "status": "PASS",
+  "wrong_digest": {
+    "checker": {
+      "claim": "finite certificate for this exact named target only",
+      "edge_differences": [
+        8,
+        13,
+        9,
+        3,
+        5,
+        6,
+        7,
+        11,
+        12,
+        10,
+        15,
+        16,
+        14,
+        2,
+        1,
+        4
+      ],
+      "errors": [
+        "original graph digest mismatch"
+      ],
+      "graph_digest": "35c75a93573720212045e5dedb66a0d5ccfd5a09900ea12b791ec900938ea4f4",
+      "m": 16,
+      "n": 17,
+      "valid": false
+    },
+    "expected": "0000000000000000000000000000000000000000000000000000000000000000"
+  }
+}
