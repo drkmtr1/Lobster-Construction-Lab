@@ -347,3 +347,18 @@ the host label, and s:1>=3 yields a weight at most
 10. Other upper selections and right-zero ledgers
 remain open. An alternative with s:1=0 succeeds.
 [Scoped proof](B4_JOINT_SECOND_CENTER_CUT_READY_22.md)
+
+### F-B4-K2-D062-SINGLE-GAP-TRANSPORT
+
+On the exact named target `[[2],[2],[2],[2],[],[],[]]`,
+the D062 K=1 labeling F with q=r=t=2 gives no graceful
+extension under the tested single-gap model. Embed each
+old label as x + I[x>=c] for c=0..18. Assign only the 17
+names through the original s:4 boundary, then place c
+and the embedded old s:5 label on physical s:5 and s:6
+in either order. Eleven cuts repeat a prefix difference.
+At each of the eight valid prefixes the two available
+orders fail to use the exact missing difference multiset.
+The 38-case grid was exhausted. Other named labelings and
+other suffix interfaces are outside this negative.
+[Proof and full scope](B4_K2_D062_TWO_EDGE_TRANSPORT.md)

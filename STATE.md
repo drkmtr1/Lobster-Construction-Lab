@@ -2,7 +2,7 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 22, 2026, Pacific/Honolulu<br>
-**Stage:** SYNTH-CATALOG-JOINT-CORE-PILOT-001 complete and independently reviewed. The source-backed pilot index is accepted as a catalog. The interior K>=2 continuation remains open.
+**Stage:** B4-K2-D062-TWO-EDGE-TRANSPORT-001 complete and independently reviewed. The exact single-gap transport is rejected at q=r=t=K=2.
 
 ## Current scientific objective
 
@@ -10,10 +10,11 @@ Develop independently supplied original-graph boundaries beyond the proved zero-
 
 ## One next action
 
-**With a new bounded scope decision, investigate the smallest interior two-edge continuation, q=r=t=K=2.** Test whether the D062 construction can supply a usable original `s:4` port and both exact resource inventories for the original `s:4--s:5--s:6` suffix. Record a proved construction or a failure restricted to the tested interface.
+**With a new bounded scope decision, test the two-gap order-preserving model on the same original with q=r=t=K=2.** Retain the relative order of the 17 assigned D062 labels, allow any two omitted labels from 0..18, and check both physical suffix orders on the frozen original. Keep the 171 label pairs and 342 ordered cases as the complete proposed scope.
 
 ## What is established in this package
 
+- B4-K2-D062-TWO-EDGE-TRANSPORT-001 rejects all 38 single-gap transports of the exact D062 K=1 ledger at q=r=t=K=2. Eleven prefixes repeat differences and both suffix orders fail at the other eight. One original, 19 thresholds, 26 control assertions and an independent audit with no solver or replay. The broader K>=2 obligation remains open. See `research/B4_K2_D062_TWO_EDGE_TRANSPORT.md`, D063 and `evidence/validation/B4_K2_D062_TWO_EDGE_TRANSPORT_001/`.
 - The read-only Construction Synthesis pilot indexes six distinct named ledgers on four retained core originals, eight sourced rules or selectors, four scoped failures, and an exact coverage atlas. It preserves both co-original ledger pairs and the separate prior verification evidence. See `research/construction_synthesis/pilot_001/README.md`.
 - B4-JOINT-NESTED-CUT-TWO-HOST-001 proves compatible, repeatable two-host growth on the single D061 ledger. The named core has maximum q+r+10 at physical s:2 for all exact q,r>=2. Its K=1 lift at every exact t>=1 has R={q+9}, D={1}, s:4=q+8 and s:5=q+9. Together with retained boundary families this covers the exact ordered fourth-size-two family at K=1 for all positive q,r,t. The q,r,t>=2,K>=2 interior remains open. Two new originals, two retained positives, twelve cut checks and one adverse digest passed with zero queries, enumeration or replay. See `research/B4_JOINT_NESTED_CUT_TWO_HOST.md`, D062 and `evidence/validation/B4_JOINT_NESTED_CUT_TWO_HOST_001/`.
 - Both authenticated upstream main heads match the pinned audit commits. The repositories remain unchanged.

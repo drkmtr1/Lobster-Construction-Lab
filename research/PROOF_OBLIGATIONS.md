@@ -605,4 +605,9 @@ now discharges shared growth and joint maximum-rooted supply for
 all exact q,r>=2, with named labels preserved under finite batch
 interleavings. Its lift covers all positive t at K=1. The retained
 q=1 and r=1 routes complete the all-positive q,r,t coverage at K=1.
-Continuation for q,r,t>=2,K>=2 remains open.
+Continuation for q,r,t>=2,K>=2 remains open. The
+[single-gap test](B4_K2_D062_TWO_EDGE_TRANSPORT.md)
+exhausts only the exact D062 transport with both suffix orders
+at q=r=t=K=2. It supplies no valid two-edge consumer state.
+An alternative original-bound supplier or a different
+structural continuation remains a separate obligation.

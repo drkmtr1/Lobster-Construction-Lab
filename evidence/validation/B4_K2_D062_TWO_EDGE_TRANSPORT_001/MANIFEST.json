@@ -1,0 +1,80 @@
+{
+  "algorithm": "SHA-256",
+  "external_proof": {
+    "bytes": 7068,
+    "path": "research/B4_K2_D062_TWO_EDGE_TRANSPORT.md",
+    "sha256": "47eb1b337d1f8852d15b730bd039fc6a791d57e06422af48d48fdc09be2ff779"
+  },
+  "files": [
+    {
+      "bytes": 8,
+      "path": ".gitattributes",
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "bytes": 17611,
+      "path": "audit.py",
+      "sha256": "d5fb380ec915a2efda5fb67535de2bce5bfc217e73edba3d333c3ee23ed5a74b"
+    },
+    {
+      "bytes": 25896,
+      "path": "audit_result.json",
+      "sha256": "19e6cf44529b04ffbcfa6411a7e119c3e6adbaa65aa2d5c68e76b6196f1f45a7"
+    },
+    {
+      "bytes": 89451,
+      "path": "candidates.jsonl",
+      "sha256": "ba21bd995958ee574386b1eb2753431817318538f1e4f048101238405fc1b064"
+    },
+    {
+      "bytes": 897,
+      "path": "command_receipts.json",
+      "sha256": "2bfe275ddf128ac258e8f6e678efef2d491a24284e60d2ae6ace87e377a6784e"
+    },
+    {
+      "bytes": 420,
+      "path": "commands.json",
+      "sha256": "0a82483de877eaa8fff47f814968a2ab5328edb630064cd21d05948ed536719d"
+    },
+    {
+      "bytes": 4498,
+      "path": "config.json",
+      "sha256": "8c82c7ee29a96853fa58eb5471b1f689149fb13071d91fc1423e1bff164bf892"
+    },
+    {
+      "bytes": 8927,
+      "path": "controls.json",
+      "sha256": "05db60d07edbfbdf071fd99b4ae2483857e938f635f78299e2ce0b6b8efcd078"
+    },
+    {
+      "bytes": 3383,
+      "path": "freeze.json",
+      "sha256": "16e8b02154a4152a94e5770c5ff1364b624c3156271cc521818b2b85b7edb969"
+    },
+    {
+      "bytes": 3302,
+      "path": "README.md",
+      "sha256": "725a8994185345ab757e9d4ce7864ff8fa17d9d5b2bd5f2cb973ce47e139bc5e"
+    },
+    {
+      "bytes": 324,
+      "path": "result.json",
+      "sha256": "16d9617871a5d8d8dffc527bd7432da953a600c84f7adcd446b87d3256b26acf"
+    },
+    {
+      "bytes": 1920,
+      "path": "REVIEWS.md",
+      "sha256": "38758f2c5c0d956cb4604a6b46f81f6433e5393c967dfe90ad1588366988f391"
+    },
+    {
+      "bytes": 3411,
+      "path": "target_original.json",
+      "sha256": "13e891a06a4fc9a7ab1f3a78d58bd2594161ccf14c24c32e0159784692d32be2"
+    },
+    {
+      "bytes": 13882,
+      "path": "validate.py",
+      "sha256": "6ac1558da6515217be72b624bb0d0e09735a6ed78d7035b2fb72f91053ae277e"
+    }
+  ]
+}

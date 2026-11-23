@@ -969,3 +969,21 @@ and one wrong-digest rejection passed the independent audit.
 The archived D059 negative was bound without replay. No
 solver or labeling enumeration ran.
 [Proof](B4_JOINT_NESTED_CUT_TWO_HOST.md) · [Evidence](../evidence/validation/B4_JOINT_NESTED_CUT_TWO_HOST_001/README.md) · D062
+
+## B4-K2-D062-TWO-EDGE-TRANSPORT-001
+
+**ACCEPT** the D062 K=1 control on the archived original and
+the complete original-bound arithmetic audit. **REJECT** the
+single-gap embedding of that exact F for q=r=t=K=2, under
+either placement of the two leftover labels on s:5 and s:6.
+All 38 prescribed cases were checked. Eleven thresholds repeat
+an assigned difference. The other eight supply distinct prefix
+weights, but neither order consumes their actual difference
+complements. The fixed prefix has R={11,18} and D={1,18} at
+physical s:4=10, and both orders fail there too.
+
+One new named original, 19 cut thresholds, 38 saved assignments,
+26 control assertions and an independent audit. Zero solver
+queries or replay. The negative is confined to the tested
+transport. [Proof](B4_K2_D062_TWO_EDGE_TRANSPORT.md) ·
+[Evidence](../evidence/validation/B4_K2_D062_TWO_EDGE_TRANSPORT_001/README.md) · D063

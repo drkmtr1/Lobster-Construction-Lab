@@ -1,0 +1,23 @@
+{
+  "steps": [
+    {
+      "command": "& .venv/Scripts/python.exe -B -X utf8 evidence/validation/B4_K2_D062_TWO_EDGE_TRANSPORT_001/validate.py freeze",
+      "exit_code": 0,
+      "stdout": "Frozen one exact named target, 19 vertices and 18 edges.\r\n",
+      "wall_seconds": 1.2387628
+    },
+    {
+      "command": "& .venv/Scripts/python.exe -B -X utf8 evidence/validation/B4_K2_D062_TWO_EDGE_TRANSPORT_001/validate.py check",
+      "exit_code": 0,
+      "stdout": "Checked 19 thresholds and 38 candidates. Verified witnesses: [].\r\n",
+      "wall_seconds": 0.7447015
+    },
+    {
+      "command": "& .venv/Scripts/python.exe -B -X utf8 evidence/validation/B4_K2_D062_TWO_EDGE_TRANSPORT_001/audit.py",
+      "exit_code": 0,
+      "stdout": "PASS: same 19 thresholds and 38 saved candidates. EXHAUSTED_RESTRICTED_NEGATIVE.\r\n",
+      "wall_seconds": 0.8679133
+    }
+  ],
+  "official_runs": 1
+}
