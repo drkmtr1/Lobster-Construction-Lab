@@ -1260,3 +1260,13 @@ Two originals, two explicit certificates and two adverse rejections passed indep
 **ACCEPT** alpha supply for any finite nonempty sequence of Q blocks with freely chosen positive parameters and zero trailing sections, plus ordinary gracefulness for L≥2 trailing empty sections. For prefix low size P the shifted physical port is P+L+1 and the exact remaining inventories are R=[P,P+L−1], D=[1,L]. L=1 fails only the prescribed suffix interface. This supplies a repeatable two-center pattern. Arbitrary center numbers, arbitrary independent quotas and interior empty sections remain open.
 
 Seven positive certificates on six new originals and retained D079 B, three adverse rejections, and 160 pinned visits with counts 0/4, 2/12, 12/144 passed independent audit and separate reviews. No additional audit visits, solver calls, replays or retries. [Proof](R241_ZERO_TO_ONE_BRIDGE.md) · [Evidence](../evidence/validation/LCL_R241_ZERO_TO_ONE_BRIDGE_001/README.md) · D080
+
+## LCL-R241-UNEQUAL-TWO-CENTER-RETURN-001
+
+**ACCEPT** the signed-degree and named-edge proof excluding offsets (1,0) on exact `[[1,2],[1]]` under its physical alpha orientation. **REJECT** only that pinned supplier on this original. The same graph supplies (2,0), and neighbor `[[1,2],[2]]` supplies (1,0). The audited exact counts are 0/144, 2/144 and 4/576 in the three pinned domains.
+
+**ACCEPT** independent supply of F(b)=`[[1,b],[b]]` for each exact integer b≥0 with state A(2b+6,b+3;1,0). The b=0 centers remain attached direct leaves. F(1) matches the retained D079 original ledger exactly. **ACCEPT** the actual R241 join to D080 H(a) for every exact a≥1, giving the four-section R(b,a)=`[[1,b],[b],[a],[a+1]]` with state A(2a+2b+11,a+b+5;1,1).
+
+**ACCEPT** finite nonempty repetitions with independently chosen b_i≥0 and a_i≥1, normalized alpha at L=0 and ordinary gracefulness with L≥2 empty trailing sections. Physical high exit P+L+1 and inventories R=[P,P+L−1], D=[1,L] fit the exact original path. L=1 fails this suffix interface. The same equality proves the exact symbolic mixed-list consequence with independently supplied D078 M(c,d), c,d≥0, without numerical expansion. Arbitrary multiple-center profiles remain open.
+
+Seven new originals and one retained F(1), eight fixed certificates, six successful diagnostic certificates (two duplicate the corresponding controls), 864 diagnostic visits and three adverse rejections passed independent audit and separate review. No fresh audit visits, solvers, replays or retries. [Proof](R241_UNEQUAL_TWO_CENTER_RETURN.md) · [Evidence](../evidence/validation/LCL_R241_UNEQUAL_TWO_CENTER_RETURN_001/README.md) · D081

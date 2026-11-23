@@ -2,20 +2,21 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 22, 2026, Pacific/Honolulu<br>
-**Stage:** LCL-R241-ZERO-TO-ONE-BRIDGE-001 complete. D080 accepts the replacement bridge, four-section macro and restricted repeated family.
+**Stage:** LCL-R241-UNEQUAL-TWO-CENTER-RETURN-001 complete. D081 accepts the tied-quota F family and its repeatable R241 return.
 
 ## Current scientific objective
 
-Extend the accepted repeatable two-center pattern toward independent multiple-center quotas using compatible physical offsets. The [roadmap](docs/strategy/LCL_Branched_Spine_Research_Roadmap_2026-11-22.md) gives strategic context. The [D080 handoff](handoffs/CODEX-20261122-r241-zero-to-one-bridge.md) records the result and exact next obligation.
+Extend the accepted repeatable two-center pattern toward independent multiple-center quotas while retaining compatible physical offsets. The [roadmap](docs/strategy/LCL_Branched_Spine_Research_Roadmap_2026-11-22.md) gives strategic context. The [D081 handoff](handoffs/CODEX-20261122-r241-unequal-two-center-return.md) records the verified result and one proposed next obligation.
 
 ## One next action
 
-Investigate the exact original two-center pair [[1,2],[1]] at physical offsets (1,0) as a possible replacement for D080’s fixed first pair, preserving the actual R241 interface to H(a).
+Investigate the exact original [[2,2],[2]] at physical offsets (1,0) as a candidate first pair for D081’s R241 return, allowing both first-section centers to have more than one terminal.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
 
+- D081 rejects only (1,0) on the exact `[[1,2],[1]]` original and verifies its alternate (2,0) state and neighboring (1,0) control. Direct F(b)=`[[1,b],[b]]` supplies (1,0) for every exact b≥0. Joining to D080 H(a) with a≥1 gives (1,1) on the actual four-section R(b,a). Finite repetitions and symbolic lists with D078 M supply normalized alpha at L=0 and ordinary gracefulness at L≥2 via the exact original suffix resources. Eight fixed certificates, six successful diagnostic certificates, 864 visits and three adverse rejections passed independent audit and reviews. See [proof](research/R241_UNEQUAL_TWO_CENTER_RETURN.md) and [evidence](evidence/validation/LCL_R241_UNEQUAL_TWO_CENTER_RETURN_001/README.md).
 - D080 rejects the physical (0,1) bridge on original `[[1],[1]]` and supplies H(a)=`[[a],[a+1]]` for every exact a≥1. Joining the retained D079 two-center pair to H(a) at the actual zero-offset spine edge yields Q(a)=`[[1,1],[1],[a],[a+1]]` with offsets (1,1). Any finite nonempty sequence of these macros is alpha graceful without a tail. The exact original with L≥2 empty sections is ordinarily graceful, using R=[P,P+L−1], D=[1,L] at physical port P+L+1. Seven certificates, 160 diagnostic visits and three adverse rejections passed independent audit and separate reviews. See [proof](research/R241_ZERO_TO_ONE_BRIDGE.md) and [evidence](evidence/validation/LCL_R241_ZERO_TO_ONE_BRIDGE_001/README.md).
 - D079 rejects universal fixed-offset (1,1) supply on positive-quota `[[a,b],[c]]` by the analytic contradiction on `[[1,1],[1]]`. Exact named counts are 0/36 strict and 4/576 orientation-only on that original, with two ledgers each at (1,0) and (2,3), and 4/144 strict on `[[1,1],[2]]`. Positive controls and adverse checks passed independent audit and separate reviews. See [proof](research/R241_TWO_CENTER_PORT_FALSIFIER.md) and [evidence](evidence/validation/LCL_R241_TWO_CENTER_PORT_001/README.md).
 - D078 supplies the original one-center-per-section prefix for any finite number of initial sections and positive quotas, even n with nonnegative quotas, and odd n with first quota positive and the others nonnegative. Its normalized high exit is P+1 at s:(n−1). The high shift by L leaves R=[P,P+L−1], D=[1,L] and physical port P+L+1 for the original suffix, proving ordinary gracefulness for L≥2. The normalized L=0 prefix is already alpha graceful. Nine certificates, seven new originals, two exact archive originals, thirteen joins and three adverse rejections passed independent audit and reviews. See [proof](research/R241_PAIRED_BRANCHED_SPINE.md) and [evidence](evidence/validation/LCL_R241_PAIRED_BRANCHED_SPINE_001/README.md).

@@ -1,0 +1,38 @@
+{
+  "combined_process_cpu_seconds": 0.546875,
+  "retries": 0,
+  "runs": 1,
+  "stages": [
+    {
+      "argv": [
+        ".venv/Scripts/python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "evidence.validation.LCL_R241_UNEQUAL_TWO_CENTER_RETURN_001.run"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "",
+      "utc": "2026-11-23T06:26:47.428145+00:00",
+      "wall_seconds": 0.6843622000305913
+    },
+    {
+      "argv": [
+        ".venv/Scripts/python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "evidence/validation/LCL_R241_UNEQUAL_TWO_CENTER_RETURN_001/audit.py"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "",
+      "utc": "2026-11-23T06:26:48.112572+00:00",
+      "wall_seconds": 0.4100931999855675
+    }
+  ],
+  "status": "COMPLETE",
+  "workers": 1
+}

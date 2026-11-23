@@ -1,0 +1,26 @@
+{
+  "adverse": 3,
+  "control_certificates": 8,
+  "counts": {
+    "neighbor_strict": [
+      4,
+      576
+    ],
+    "unequal_alternate": [
+      2,
+      144
+    ],
+    "unequal_strict": [
+      0,
+      144
+    ]
+  },
+  "diagnostic_positive_certificates": 6,
+  "diagnostic_visits": 864,
+  "new_originals": 7,
+  "process_cpu_seconds": 0.296875,
+  "replays": 0,
+  "retained_originals": 1,
+  "solver_calls": 0,
+  "status": "COMPLETE"
+}

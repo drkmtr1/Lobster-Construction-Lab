@@ -1,0 +1,137 @@
+{
+  "algorithm": "SHA-256",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": "audit_result.json",
+      "bytes": 1864,
+      "sha256": "9f5c415f5a5f85b6e4c569496c1786e333754675072218b29ad293666b3552d1"
+    },
+    {
+      "path": "audit.py",
+      "bytes": 19652,
+      "sha256": "33c8881e7e5e7f87634e5d44a982c0f11ea64fc46abb9642a6b7d511f3fa6300"
+    },
+    {
+      "path": "certificates.json",
+      "bytes": 77267,
+      "sha256": "91c39d63cc3b191ea258e3b17002cd9229c4eec63a420d88ddfa7a2b651d2c10"
+    },
+    {
+      "path": "command_receipts.json",
+      "bytes": 839,
+      "sha256": "569f88b0a89c5bf2c96e95c079aa6a4263e88ea21e410940697de0e370d4090a"
+    },
+    {
+      "path": "commands.json",
+      "bytes": 508,
+      "sha256": "222f7650a9773244a8d8e7b57aa5c4be554c57aa1bf4b05568562080a62ebba3"
+    },
+    {
+      "path": "config.json",
+      "bytes": 4510,
+      "sha256": "7c640db36c04eb7353618a3d63bbc0c240fb50b7d8170dcc5729cb3cd5b3e0ea"
+    },
+    {
+      "path": "driver.py",
+      "bytes": 2722,
+      "sha256": "9c523965124aae2540338f5beaafe295f43427d35cc97d8bb092259f54e268c8"
+    },
+    {
+      "path": "f0_original.json",
+      "bytes": 1197,
+      "sha256": "1cd03d914f6961d57e9cc658c66b4bc2c6a4c06096fb19d597a41582ee3ff35b"
+    },
+    {
+      "path": "f2_original.json",
+      "bytes": 1925,
+      "sha256": "132c93da3b2f49fc5bee2b215ee598db9c4ad5e3546cb13be9d3bb16ad050246"
+    },
+    {
+      "path": "f4_original.json",
+      "bytes": 2653,
+      "sha256": "399a3cc2822dc8bde35a6fd1a3c2efc7714eec5e74f45b3c2daa3139cf76df1f"
+    },
+    {
+      "path": "identity.json",
+      "bytes": 3394,
+      "sha256": "7377c6ba53561ae197be1fd645d2c4987dcb9c4a2e3cbfe39f6bc185a0290914"
+    },
+    {
+      "path": "INTAKE.md",
+      "bytes": 1790,
+      "sha256": "52775549492bb28018272425a11e029890601a364f4b48283fcf7c01666a9e91"
+    },
+    {
+      "path": "neighbor_strict_enumeration.json",
+      "bytes": 117759,
+      "sha256": "53b4255cc0e279a65419990e70566393cd8fd2bcc74830ee3c927dd02aa4ba09"
+    },
+    {
+      "path": "r21_original.json",
+      "bytes": 3123,
+      "sha256": "205f7488c938de1794f85200e0de4a30f74315a2f74f6bc0ad6bc673355c7ca7"
+    },
+    {
+      "path": "r32_original.json",
+      "bytes": 3851,
+      "sha256": "d8143699f348b5c2ebe68427e109f9e35fbf29b3173156f161c889b658e015ad"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3150,
+      "sha256": "7434ef2a3805166700783b1bfd7a76b9eec6bc4c90b3ed6e9f053cd745236ed6"
+    },
+    {
+      "path": "repeat_l5_original.json",
+      "bytes": 7556,
+      "sha256": "892ef28fa70e45f565656c5dfe5905908e6ee9655637641e0d59f65784118ae4"
+    },
+    {
+      "path": "result.json",
+      "bytes": 434,
+      "sha256": "1a0806044bbeff4e27b743ec4357c1a5387ff451ab442c5f8cba0353991d7a60"
+    },
+    {
+      "path": "REVIEWS.md",
+      "bytes": 2218,
+      "sha256": "c7be614db27be98aae812981de8fd1cbe1fc31056f68e9f68ae87e16552f85fa"
+    },
+    {
+      "path": "run.py",
+      "bytes": 14540,
+      "sha256": "4fb40c0753b50f13ee192d749bb8f1dd8d8c9c270d418e679f59f2cef1cdde5f"
+    },
+    {
+      "path": "unequal_alternate_enumeration.json",
+      "bytes": 29588,
+      "sha256": "0ed3fa908d25fced8ab80c88513a480254ed3a0276d0fb0a2f57566d196c2a0a"
+    },
+    {
+      "path": "unequal_original.json",
+      "bytes": 1743,
+      "sha256": "715311e1af7701c1c7a257d61f44473661d9abe2391c3e0cb241fd61cb9111f2"
+    },
+    {
+      "path": "unequal_strict_enumeration.json",
+      "bytes": 26456,
+      "sha256": "6a5f88425f508b913f9ed209c3b50fc9d4053756c5db17be51402e9df62d93a3"
+    }
+  ],
+  "external": [
+    {
+      "path": "research/R241_UNEQUAL_TWO_CENTER_RETURN.md",
+      "bytes": 9943,
+      "sha256": "ab36239c40636a27b42a320a573db8b61042641485f6315acdf606d3f2e0f64f"
+    },
+    {
+      "path": "tasks/LCL_Codex_D081_Unequal_TwoCenter_R241_Return_2026-11-22.md",
+      "bytes": 10525,
+      "sha256": "bf5e0c74013019ca233464bbdc02104da7a587f6a834bede7efe4116580db692"
+    }
+  ]
+}

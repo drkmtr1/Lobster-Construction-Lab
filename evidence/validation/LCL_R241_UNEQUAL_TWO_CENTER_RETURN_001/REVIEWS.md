@@ -1,0 +1,11 @@
+# Separate read-only AI reviews
+
+## Mathematics
+
+**ACCEPT** by `adj_math` after inspection of the actual proof, the adopted R241 formula, D078 M, retained D079 and D080 H, and the saved original evidence. The reviewer checked the signed-degree sum, all six forced z values, every actual edge obstruction and both positive controls. The F bands cover b=0 and its two named degree-one centers. F(1) matches the retained ledger exactly and F(2) agrees with the neighbor. The R241 order, cuts, both within- and across-block connectors, physical witnesses, arbitrary finite closure and symbolic R/M interleaving all check. The L≥2 recurrence consumes precisely both complements on the original path. At L=1 only the stated interface fails. The actual repeated prefix has (N,P)=(38,18), and the weight-two edge in the completed suffix is the reflected first smaller edge. No proof correction was required.
+
+## Implementation and evidence
+
+**ACCEPT** by `u9_impl` after inspection of the actual scripts, exact config and frozen inputs, unchanged checker, all eight originals, complete certificates and raw rows, independent audit and command receipt. The auditor independently reconstructs original names and incidences including both direct leaves, verifies separate graph and ledger IDs, factorial ranks, the two actual edges of each of 858 rejected rows, and all six diagnostic positive certificates. It generates no new visits. The two corresponding explicit controls agree with their diagnostic certificates. The wrong digest and both physical-state probes reached and were rejected by their respective guards. The closed-form reconstruction checks the original joins and both physical suffix resources.
+
+All 24 frozen source hashes, 15 audited raw files, the runtime and 71 historical D078–D080 manifest members matched on read-only checks. The one official run used 0.546875 combined process-CPU seconds with zero solver calls, retries or replays. No protected file changed. The reproduction recipe matches the parent, exact input and fresh-output guards. No consequential correction was required. Both reviewers read only and reran no validation. This is AI review of the written proof and reproducible evidence.

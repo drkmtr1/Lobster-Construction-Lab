@@ -469,3 +469,7 @@ edge would have weight 2. The separate K=1 construction is unaffected.
 ### F-R241-EQUAL-ONE-PAIR-ZERO-TO-ONE
 
 **REJECT** offsets (0,1) on the original `[[1],[1]]`, at cut P=3 with s:0=0 and s:1=4. The required weight five forces b:0:0=5, and the only two remaining first terminal values duplicate an original weight. The same original supplies (0,0). The replacement `[[a],[a+1]]` has different original quotas and supplies (0,1). [Proof](R241_ZERO_TO_ONE_BRIDGE.md) · D080
+
+### F-R241-UNEQUAL-FIRST-PAIR-ONE-ZERO
+
+**REJECT** the original `[[1,2],[1]]` supplier at physical offsets (1,0). With P=5, the edge-weight sum forces one of three center-label triples, each missing weight 8 or duplicating weight 4. The same original is graceful at offsets (2,0). The tied-quota replacement `[[1,b],[b]]` is a different domain and supplies (1,0). [Proof](R241_UNEQUAL_TWO_CENTER_RETURN.md) · D081

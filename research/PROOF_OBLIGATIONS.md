@@ -677,4 +677,6 @@ The [D079 obstruction](R241_TWO_CENTER_PORT_FALSIFIER.md) closes the universal f
 
 The [D080 proof](R241_ZERO_TO_ONE_BRIDGE.md) resolves `[[1],[1]]` negatively for (0,1), then supplies the replacement H(a)=`[[a],[a+1]]` directly for every exact a≥1. Its zero entrance matches the D079 B exit on the actual connector. The Q(a) return has (1,1), so the proved finite repetitions allow a positive number of genuinely two-center sections at fixed original positions and quotas. The established suffix domain is L=0 for alpha supply and L≥2 for the ordinary gracefulness construction. Arbitrary multiple-center sections still require independently supplied modules with compatible physical offsets.
 
-The sole proposed unstarted step is a `[[1,2],[1]]` supplier with physical (1,0) to test the unequal-quota case for D080's first pair.
+The [D081 proof](R241_UNEQUAL_TWO_CENTER_RETURN.md) closes the exact `[[1,2],[1]]` (1,0) question negatively and supplies F(b)=`[[1,b],[b]]` for b≥0, with zero-quota centers preserved. Combining it with H(a) gives the original (1,1) return for R(b,a) and all finite nonempty ordered repetitions. D078 M blocks can occur in the same symbolic list because every actual port equality is 1=1. The no-tail and L≥2 cases follow from the exact normalization and suffix partitions. The new first-pair quotas remain tied and the first center still has one terminal.
+
+The proposed unstarted obligation relaxes that last constraint on exact original `[[2,2],[2]]`, at physical offsets (1,0), as a candidate input to D081's return.
