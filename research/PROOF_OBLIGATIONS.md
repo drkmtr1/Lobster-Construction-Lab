@@ -692,3 +692,5 @@ The [D084 menu](R241_222_OFFSET_MENU.md) now settles every physical offset on th
 [D086](R241_242_PORT_34.md) supplies a third exact (3,4) witness, at `[[2,4],[2]]`. The candidate keeps s:0=3 and b:1:0=0. It pairs the first centers A=b+5 and B=b+4 with terminal palettes {1,2} and [4,b+3], respectively. It proposes s:1=b+8 and right-terminal labels b+6 and b+7. This is an unproved successor proposal introduced by the comparison, with no additional instance or parameterized claim accepted in D086.
 
 [D087](R241_2B2_SYMBOLIC_PORT34.md) discharges the D086 palette proposal on exact `[[2,b],[2]]` for all integers b≥2. It fixes the other two quotas and supplies a component with physical return (3,4). Independently varying additional quotas and proving repeatable original-graph transitions with compatible ports remain open.
+
+[D088](R241_3B2_PORT44_SYMBOLIC.md) closes the proposed fixed-port supplier for exact `[[3,b],[2]]` at (4,4) and the stated normalization for all integers b≥2. D087 still supplies exit four. An independently supplied continuation with actual entrance four and a useful high exit, plus separate original-graph repeatability, remains open.

@@ -1,0 +1,61 @@
+{
+  "task": "LCL-R241-3B2-PORT44-SYMBOLIC-001",
+  "parent": "5e34dd43d46ef239ef837c6042dd650b78c98b22",
+  "domain": {
+    "min_b": 2,
+    "exact_integer": true,
+    "offsets": [
+      4,
+      4
+    ]
+  },
+  "boundary_b": 2,
+  "positive_d087": "evidence/validation/LCL_R241_2B2_SYMBOLIC_PORT34_001",
+  "positive_d086": "evidence/validation/LCL_R241_242_PORT_34_001",
+  "negative_d082": "evidence/validation/LCL_R241_222_STRICT_RETURN_001",
+  "limits": {
+    "workers": 1,
+    "symbolic_families": 1,
+    "max_new_original_identities": 1,
+    "max_new_certificates": 0,
+    "max_extremal_representations": 10,
+    "assignment_visits": 0,
+    "recorded_assignment_states": 0,
+    "search_nodes": 0,
+    "solver_calls": 0,
+    "joins": 0,
+    "adverse_checks": 3,
+    "cpu_seconds": 30,
+    "bytes_per_record": 2000000,
+    "bytes_total": 8000000,
+    "official_sequences": 1,
+    "retries": 0,
+    "restarts": 0,
+    "replays": 0
+  },
+  "source_hashes": {
+    "lcl/model.py": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6",
+    "lcl/verify.py": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909",
+    "research/R241_3B2_PORT44_SYMBOLIC.md": "3f4225dbdf07710d5dc841e3ec582b22b8e9c176f4205ef847ecae0119bd2a11",
+    "references/upstream/mdl/N241_relational_ports.md": "53ac2c8bf13457ae5630dd0c1c6e19b785d3b568b67d932e86d331901ee82e9e",
+    "research/R241_2B2_SYMBOLIC_PORT34.md": "1be502b5d04bade20864642df717dbc71fec705ea06b8ded02e3fcfc43ddbe1f",
+    "research/R241_242_PORT_34.md": "59f3c8de26e822ed70ff3797e768b4e35a3eb68a92a2e255aa04f7b84c6e89d5",
+    "research/R241_232_TWO_PORT.md": "1e7f7ba97a9e80fdd4a090e77bf94bb607b0db58bdd4a8eb9636ca997fa2e97b",
+    "research/R241_222_OFFSET_MENU.md": "432b2bb6dbc5f0a27cd4d078eba63d7225d88055d081050f39fe15036c93f7a4",
+    "research/R241_222_STRICT_RETURN.md": "0ce6bf579227edbae6e2f333059a70c1c39ac639c766a3f783d94c19a15b07df",
+    "evidence/validation/LCL_R241_2B2_SYMBOLIC_PORT34_001/original.json": "8e680702c32b34481e3b4e81b726443a147d883a866e36117a777876e1d27685",
+    "evidence/validation/LCL_R241_2B2_SYMBOLIC_PORT34_001/result.json": "4ce73dba4691e3c3f54161e50de28db13802306350703a6c936f6fa01b143273",
+    "evidence/validation/LCL_R241_2B2_SYMBOLIC_PORT34_001/MANIFEST.json": "c75ae91b9681afccf6f45c19876367d9dadcf7190cf6fdf49bb51d3142bfca38",
+    "evidence/validation/LCL_R241_242_PORT_34_001/original.json": "2c5cc3d08348fd7aca083b221ca2f794407c43bb9bb8523ac5d69eeb85fed502",
+    "evidence/validation/LCL_R241_242_PORT_34_001/result.json": "0f4fd775186545ff85c41e5a16c08713eb1dc124aa5dbb00a616c355852424df",
+    "evidence/validation/LCL_R241_242_PORT_34_001/MANIFEST.json": "b67d30a1bafa8f53bbe0e2a5dc1cb3f46334c5bf88d334fbe5e5a0f66815ca1f",
+    "evidence/validation/LCL_R241_222_STRICT_RETURN_001/audit_result.json": "bbae06541d4950553a88beff1c9d0797c0ae6a9bbe8090d1263bed448ccc4461",
+    "evidence/validation/LCL_R241_222_STRICT_RETURN_001/config.json": "dd0d6a2d54120560524ce349ca1488b706b1664234d859277e63f63dc08d7149",
+    "evidence/validation/LCL_R241_222_STRICT_RETURN_001/strict_original.json": "e6ffffcb6985e907748a42ca1ee91e83aa453c6ebbbae047e966a2b3115ee5d5",
+    "evidence/validation/LCL_R241_222_STRICT_RETURN_001/enumeration.json": "e4680a029e8c44c45d81581c86311aae570d570833412027ed34d7670eaab497",
+    "evidence/validation/LCL_R241_222_STRICT_RETURN_001/MANIFEST.json": "ab6f259f2fa19b79f2bab53dab1f9abe71ca9d62aeb22ca08fa12726e68c9c8e",
+    "evidence/validation/LCL_R241_223_STRICT_RETURN_001/command_receipts.json": "0cf2e399d699013fe18f2847cab0e97012c24b959e2a61a2187e0cad2cdb2527",
+    "evidence/validation/LCL_R241_223_AUDIT_CLOSEOUT_001/MANIFEST.json": "ae834752c9417656d4afc2aa88d5dd37bea347eada803cbc0ec6b0563296904b"
+  },
+  "runtime_sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664"
+}

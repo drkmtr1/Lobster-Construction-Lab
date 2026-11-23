@@ -489,3 +489,7 @@ edge would have weight 2. The separate K=1 construction is unaffected.
 ### F-R241-232-OFFSET-20
 
 **REJECT** A(12,7;2,0) on exact named `[[2,3],[2]]` at prescribed s:0=2 and s:1=7. The two unequal first-center roles have distinct signed-degree coefficients. All 12 ordered choices fail parity, the low inventory, a mandatory repeated weight or missing weight 3. The same original supplies A(12,7;3,4). [Proof](R241_232_TWO_PORT.md) · D085
+
+### F-R241-3B2-PORT44
+
+**REJECT** the simultaneous prescribed (4,4) physical state A(b+10,b+5;4,4) on exact named `[[3,b],[2]]` for every integer b≥2. With actual s:0=4 and s:1 equal to m, the three largest weights occupy the right attachment and the two right terminal edges. Every representation of m−3 lacks its actual required incidence. This closes the prescribed module at these ports. [Proof](R241_3B2_PORT44_SYMBOLIC.md) · D088

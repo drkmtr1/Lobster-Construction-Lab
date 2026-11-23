@@ -2,19 +2,21 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 23, 2026, Pacific/Honolulu<br>
-**Stage:** D087 closed. The symbolic A(b+9,b+4;3,4) supplier is **ACCEPTED** on exact `[[2,b],[2]]` for integers b≥2. [Proof](research/R241_2B2_SYMBOLIC_PORT34.md).
+**Stage:** D088 closed. A(b+10,b+5;4,4) is **EXCLUDED** on exact `[[3,b],[2]]` for integers b≥2. [Proof](research/R241_3B2_PORT44_SYMBOLIC.md).
 
 ## Current scientific objective
 
-Supply multi-center modules across independently variable quotas with usable physical offsets. D087 establishes one variable terminal quota on exact `[[2,b],[2]]` with physical (3,4). Next, test a different first-center quota and a compatible entrance. The [latest handoff](handoffs/CODEX-20261123-r241-2b2-symbolic-port34.md) records the result and bounded proposal.
+Supply multi-center modules with independently variable quotas and usable physical offsets. D087 proves an exit-four supply, and D088 excludes the proposed continuation at simultaneous (4,4) on the selected original family. The [latest handoff](handoffs/CODEX-20261123-r241-3b2-port44-symbolic.md) records the scoped obstruction and a right-terminal capacity proposal.
 
 ## One next action
 
-Under separate authorization, prove or refute a direct alpha palette supplier on the single next family `[[3,b],[2]]`, integers b≥2, at physical state A(b+10,b+5;4,4). Require exact named incidences and symbolic label and difference partitions. Use zero solver calls, complete assignment enumeration or R241 joins.
+Under separate authorization, prove or refute independent normalized alpha supply A(b+11,b+5;4,5) on exact named `[[3,b],[3]]` for integers b≥2. Test whether the third right-terminal position permits the required largest weights at the fixed entrance four and maximum exit. Use zero solver calls, complete-assignment enumeration or R241 joins.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
+
+- D088 excludes A(b+10,b+5;4,4) on exact named `[[3,b],[2]]` for all integers b≥2. The top three weights force the right attachment and both right terminals, and all four representations of m−3 fail the actual incidences. A separate signed-degree route closes b=2 and b=4 after the shared maximum-edge deduction. One boundary original, ten numerical representations, two retained controls and three adverse rejections passed independent verification. See [proof](research/R241_3B2_PORT44_SYMBOLIC.md) and [evidence](evidence/validation/LCL_R241_3B2_PORT44_SYMBOLIC_001/README.md).
 
 - D087 proves A(b+9,b+4;3,4) on the exact named `[[2,b],[2]]` original for all integers b≥2. The original-edge differences split as [1,b] at the variable terminals and [b+1,b+8] on the eight other edges. The checker and independent audit passed the one new b=5 certificate, the three retained controls and three adverse rejections. See [proof](research/R241_2B2_SYMBOLIC_PORT34.md) and [evidence](evidence/validation/LCL_R241_2B2_SYMBOLIC_PORT34_001/README.md).
 

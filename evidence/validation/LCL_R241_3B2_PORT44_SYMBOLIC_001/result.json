@@ -1,0 +1,389 @@
+{
+  "audit": {
+    "adverse_duplicate_weights": {
+      "6": 2,
+      "8": 2
+    },
+    "boundary_b": 2,
+    "boundary_cut": 7,
+    "boundary_graph_digest": "870a840435d074dcc62c3c26357a01f2f032859632df87cad843a42c5989a43a",
+    "boundary_m": 11,
+    "boundary_missing_difference": 8,
+    "boundary_n": 12,
+    "extremal_representations": [
+      {
+        "boundary_high_label": 11,
+        "boundary_weight": 11,
+        "high_label_deficit": 0,
+        "low_label": 0,
+        "possible_named_edges": [
+          [
+            "s:1",
+            "b:1:0"
+          ]
+        ],
+        "required_weight_deficit": 0
+      },
+      {
+        "boundary_high_label": 10,
+        "boundary_weight": 10,
+        "high_label_deficit": 1,
+        "low_label": 0,
+        "possible_named_edges": [
+          [
+            "l:1:0:0",
+            "b:1:0"
+          ],
+          [
+            "l:1:0:1",
+            "b:1:0"
+          ]
+        ],
+        "required_weight_deficit": 1
+      },
+      {
+        "boundary_high_label": 11,
+        "boundary_weight": 10,
+        "high_label_deficit": 0,
+        "low_label": 1,
+        "possible_named_edges": [],
+        "required_weight_deficit": 1
+      },
+      {
+        "boundary_high_label": 9,
+        "boundary_weight": 9,
+        "high_label_deficit": 2,
+        "low_label": 0,
+        "possible_named_edges": [
+          [
+            "l:1:0:0",
+            "b:1:0"
+          ],
+          [
+            "l:1:0:1",
+            "b:1:0"
+          ]
+        ],
+        "required_weight_deficit": 2
+      },
+      {
+        "boundary_high_label": 10,
+        "boundary_weight": 9,
+        "high_label_deficit": 1,
+        "low_label": 1,
+        "possible_named_edges": [],
+        "required_weight_deficit": 2
+      },
+      {
+        "boundary_high_label": 11,
+        "boundary_weight": 9,
+        "high_label_deficit": 0,
+        "low_label": 2,
+        "possible_named_edges": [],
+        "required_weight_deficit": 2
+      },
+      {
+        "boundary_high_label": 8,
+        "boundary_weight": 8,
+        "high_label_deficit": 3,
+        "low_label": 0,
+        "possible_named_edges": [],
+        "required_weight_deficit": 3
+      },
+      {
+        "boundary_high_label": 9,
+        "boundary_weight": 8,
+        "high_label_deficit": 2,
+        "low_label": 1,
+        "possible_named_edges": [],
+        "required_weight_deficit": 3
+      },
+      {
+        "boundary_high_label": 10,
+        "boundary_weight": 8,
+        "high_label_deficit": 1,
+        "low_label": 2,
+        "possible_named_edges": [],
+        "required_weight_deficit": 3
+      },
+      {
+        "boundary_high_label": 11,
+        "boundary_weight": 8,
+        "high_label_deficit": 0,
+        "low_label": 3,
+        "possible_named_edges": [],
+        "required_weight_deficit": 3
+      }
+    ],
+    "named_assignment_visits": 0,
+    "physical_ports": {
+      "s:0": 4,
+      "s:1": 11
+    },
+    "retained_replay_visits": 0,
+    "signed_degree": {
+      "boundary_center_equation_rhs": 39,
+      "boundary_signed_corrections": {
+        "b:0:0": 3,
+        "b:0:1": 2,
+        "b:1:0": -2,
+        "s:0": -2,
+        "s:1": 1
+      },
+      "center_equation_coefficients": [
+        19,
+        8,
+        1
+      ],
+      "residual_cases": [
+        {
+          "A": 7,
+          "B": 9,
+          "a": 0,
+          "absent_weight": 9,
+          "b": 2,
+          "d": 2,
+          "left_terminal_upper_bound": 8,
+          "mandatory_weights": [
+            3,
+            5,
+            7,
+            8,
+            10,
+            11
+          ],
+          "right_labels": [
+            8,
+            10
+          ]
+        },
+        {
+          "A": 9,
+          "B": 10,
+          "a": 0,
+          "absent_weight": 10,
+          "b": 4,
+          "d": 1,
+          "left_terminal_upper_bound": 9,
+          "mandatory_weights": [
+            5,
+            6,
+            9,
+            11,
+            12,
+            13
+          ],
+          "right_labels": [
+            11,
+            12
+          ]
+        }
+      ],
+      "shared_premise": "b:1:0=0 from the maximum edge"
+    },
+    "spine_witness": [
+      "s:0",
+      "s:1"
+    ],
+    "status": "PASS",
+    "symbolic_missing_weight_deficit": 3,
+    "verified_adverse_rejections": 3
+  },
+  "boundary_b": 2,
+  "boundary_graph_digest": "870a840435d074dcc62c3c26357a01f2f032859632df87cad843a42c5989a43a",
+  "controls": {
+    "adverse": {
+      "difference": {
+        "checker": {
+          "claim": "finite certificate for this exact named target only",
+          "edge_differences": [
+            10,
+            7,
+            6,
+            8,
+            6,
+            8,
+            4,
+            3,
+            2,
+            1,
+            13,
+            11,
+            12
+          ],
+          "errors": [
+            "edge differences repeat",
+            "edge differences are not exactly 1..m"
+          ],
+          "graph_digest": "ccb523e1bd406c19fe080e111589c6d5a340b8277590ef0f427a943a199dd520",
+          "m": 13,
+          "n": 14,
+          "valid": false
+        },
+        "swap": [
+          "l:0:0:0",
+          "l:0:1:0"
+        ]
+      },
+      "digest": {
+        "checker": {
+          "claim": "finite certificate for this exact named target only",
+          "edge_differences": [
+            10,
+            7,
+            9,
+            8,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            13,
+            11,
+            12
+          ],
+          "errors": [
+            "original graph digest mismatch"
+          ],
+          "graph_digest": "ccb523e1bd406c19fe080e111589c6d5a340b8277590ef0f427a943a199dd520",
+          "m": 13,
+          "n": 14,
+          "valid": false
+        },
+        "expected": "0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "port": {
+        "actual": [
+          3,
+          4
+        ],
+        "declared": [
+          3,
+          3
+        ],
+        "reason": "physical offset mismatch",
+        "valid": false
+      }
+    },
+    "adverse_original_digest": "ccb523e1bd406c19fe080e111589c6d5a340b8277590ef0f427a943a199dd520",
+    "d082_negative": {
+      "graph_digest": "aeab9d0451058925b074e17bf57eeb76e9ac843b7e8e4ba5daca8c02d7e23801",
+      "historical_receipt_sha256": "e4680a029e8c44c45d81581c86311aae570d570833412027ed34d7670eaab497",
+      "historical_visits": 2880,
+      "new_replay_visits": 0,
+      "pair": [
+        1,
+        0
+      ],
+      "positive_certificates": 0
+    },
+    "retained_positives": [
+      {
+        "checker": {
+          "claim": "finite certificate for this exact named target only",
+          "edge_differences": [
+            10,
+            7,
+            9,
+            8,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            13,
+            11,
+            12
+          ],
+          "errors": [],
+          "graph_digest": "ccb523e1bd406c19fe080e111589c6d5a340b8277590ef0f427a943a199dd520",
+          "m": 13,
+          "n": 14,
+          "valid": true
+        },
+        "decision": 87,
+        "graph_digest": "ccb523e1bd406c19fe080e111589c6d5a340b8277590ef0f427a943a199dd520",
+        "ledger_id": "9a81b7d472fec9ae756b2a8019d3f149199d44405cd3e76477930980fa5bd3c3",
+        "pair": [
+          3,
+          4
+        ]
+      },
+      {
+        "checker": {
+          "claim": "finite certificate for this exact named target only",
+          "edge_differences": [
+            9,
+            6,
+            8,
+            7,
+            5,
+            4,
+            3,
+            2,
+            1,
+            12,
+            10,
+            11
+          ],
+          "errors": [],
+          "graph_digest": "7b10b6b54067ddd72ab79eb80eaaa8be69a0e40dd5d7fd0c31f8c41cb68ef2bf",
+          "m": 12,
+          "n": 13,
+          "valid": true
+        },
+        "decision": 86,
+        "graph_digest": "7b10b6b54067ddd72ab79eb80eaaa8be69a0e40dd5d7fd0c31f8c41cb68ef2bf",
+        "ledger_id": "6946174e3601f4be7f4993515d316a4c92b5cdf86549b2afe8c6013e56bf64fe",
+        "pair": [
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  "disposition": "EXCLUDED",
+  "domain": {
+    "exact_integer": true,
+    "min_b": 2,
+    "offsets": [
+      4,
+      4
+    ]
+  },
+  "original_sha256": "f8cf4b71b353809e036d361c8e214bf58a455e163458447e305f102ecf82ba51",
+  "parent": "5e34dd43d46ef239ef837c6042dd650b78c98b22",
+  "runtime": {
+    "path": ".venv/Scripts/python.exe",
+    "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "source_hashes": {
+    "evidence/validation/LCL_R241_222_STRICT_RETURN_001/MANIFEST.json": "ab6f259f2fa19b79f2bab53dab1f9abe71ca9d62aeb22ca08fa12726e68c9c8e",
+    "evidence/validation/LCL_R241_222_STRICT_RETURN_001/audit_result.json": "bbae06541d4950553a88beff1c9d0797c0ae6a9bbe8090d1263bed448ccc4461",
+    "evidence/validation/LCL_R241_222_STRICT_RETURN_001/config.json": "dd0d6a2d54120560524ce349ca1488b706b1664234d859277e63f63dc08d7149",
+    "evidence/validation/LCL_R241_222_STRICT_RETURN_001/enumeration.json": "e4680a029e8c44c45d81581c86311aae570d570833412027ed34d7670eaab497",
+    "evidence/validation/LCL_R241_222_STRICT_RETURN_001/strict_original.json": "e6ffffcb6985e907748a42ca1ee91e83aa453c6ebbbae047e966a2b3115ee5d5",
+    "evidence/validation/LCL_R241_223_AUDIT_CLOSEOUT_001/MANIFEST.json": "ae834752c9417656d4afc2aa88d5dd37bea347eada803cbc0ec6b0563296904b",
+    "evidence/validation/LCL_R241_223_STRICT_RETURN_001/command_receipts.json": "0cf2e399d699013fe18f2847cab0e97012c24b959e2a61a2187e0cad2cdb2527",
+    "evidence/validation/LCL_R241_242_PORT_34_001/MANIFEST.json": "b67d30a1bafa8f53bbe0e2a5dc1cb3f46334c5bf88d334fbe5e5a0f66815ca1f",
+    "evidence/validation/LCL_R241_242_PORT_34_001/original.json": "2c5cc3d08348fd7aca083b221ca2f794407c43bb9bb8523ac5d69eeb85fed502",
+    "evidence/validation/LCL_R241_242_PORT_34_001/result.json": "0f4fd775186545ff85c41e5a16c08713eb1dc124aa5dbb00a616c355852424df",
+    "evidence/validation/LCL_R241_2B2_SYMBOLIC_PORT34_001/MANIFEST.json": "c75ae91b9681afccf6f45c19876367d9dadcf7190cf6fdf49bb51d3142bfca38",
+    "evidence/validation/LCL_R241_2B2_SYMBOLIC_PORT34_001/original.json": "8e680702c32b34481e3b4e81b726443a147d883a866e36117a777876e1d27685",
+    "evidence/validation/LCL_R241_2B2_SYMBOLIC_PORT34_001/result.json": "4ce73dba4691e3c3f54161e50de28db13802306350703a6c936f6fa01b143273",
+    "lcl/model.py": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6",
+    "lcl/verify.py": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909",
+    "references/upstream/mdl/N241_relational_ports.md": "53ac2c8bf13457ae5630dd0c1c6e19b785d3b568b67d932e86d331901ee82e9e",
+    "research/R241_222_OFFSET_MENU.md": "432b2bb6dbc5f0a27cd4d078eba63d7225d88055d081050f39fe15036c93f7a4",
+    "research/R241_222_STRICT_RETURN.md": "0ce6bf579227edbae6e2f333059a70c1c39ac639c766a3f783d94c19a15b07df",
+    "research/R241_232_TWO_PORT.md": "1e7f7ba97a9e80fdd4a090e77bf94bb607b0db58bdd4a8eb9636ca997fa2e97b",
+    "research/R241_242_PORT_34.md": "59f3c8de26e822ed70ff3797e768b4e35a3eb68a92a2e255aa04f7b84c6e89d5",
+    "research/R241_2B2_SYMBOLIC_PORT34.md": "1be502b5d04bade20864642df717dbc71fec705ea06b8ded02e3fcfc43ddbe1f",
+    "research/R241_3B2_PORT44_SYMBOLIC.md": "3f4225dbdf07710d5dc841e3ec582b22b8e9c176f4205ef847ecae0119bd2a11"
+  },
+  "status": "PASS",
+  "task": "LCL-R241-3B2-PORT44-SYMBOLIC-001"
+}
