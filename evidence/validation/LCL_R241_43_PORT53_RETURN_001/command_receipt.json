@@ -1,0 +1,61 @@
+{
+  "argv": [
+    "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "evidence/validation/LCL_R241_43_PORT53_RETURN_001/run.py"
+  ],
+  "combined_process_cpu_seconds": 0.03125,
+  "counts": {
+    "adverse_checks": 3,
+    "first_center_cases": 4,
+    "joins": 0,
+    "named_assignment_visits": 0,
+    "new_certificates": 0,
+    "new_original_identities": 1,
+    "official_sequences": 1,
+    "prescribed_offset_pairs": 1,
+    "recorded_assignment_states": 0,
+    "replays": 0,
+    "restarts": 0,
+    "retained_positive_rechecks": 1,
+    "retries": 0,
+    "search_nodes": 0,
+    "solver_calls": 0,
+    "workers": 1
+  },
+  "exit_code": 0,
+  "finished_utc": "2026-11-23T22:15:16.128480+00:00",
+  "limits": {
+    "adverse_checks": 3,
+    "assignment_visits": 0,
+    "bytes_per_record": 2000000,
+    "bytes_total": 8000000,
+    "cpu_seconds": 30,
+    "joins": 0,
+    "max_first_center_cases": 4,
+    "max_new_certificates": 1,
+    "max_new_original_identities": 1,
+    "official_sequences": 1,
+    "prescribed_offset_pairs": 1,
+    "recorded_assignment_states": 0,
+    "replays": 0,
+    "restarts": 0,
+    "retries": 0,
+    "search_nodes": 0,
+    "solver_calls": 0,
+    "workers": 1
+  },
+  "local_inputs": {
+    "audit.py": "c168acd68a0313ad0e0473f27b78803a8c7a76e1fdf6fb9c1d16848a080f0913",
+    "config.json": "bdbd607780794147651c97ac54e5e5217d15b61fb04695db83110202768f942c",
+    "run.py": "6cad1694aea4712a3ccb107273e8fd045a2bee197933072291f5da4ed8205814"
+  },
+  "parent": "71861712d5e9eee6a0e0d39d157c299cff720c33",
+  "result_sha256": "18f407f3926a2cdb3ff950ead4af1a8fd384cf5fdea36095d0e6f801c24c7c19",
+  "started_utc": "2026-11-23T22:15:16.066555+00:00",
+  "status": "PASS",
+  "task": "LCL-R241-43-PORT53-RETURN-001",
+  "wall_seconds": 0.061906699964310974
+}

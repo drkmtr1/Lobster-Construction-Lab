@@ -2,19 +2,21 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 23, 2026, Pacific/Honolulu<br>
-**Stage:** D091 closed. A(10,6;5,3) is **EXCLUDED** on exact `[[4],[2]]` with physical s:0=5 and s:1=9. [Proof](research/R241_42_PORT53_RETURN.md).
+**Stage:** D092 closed. A(11,6;5,3) is **EXCLUDED** on exact `[[4],[3]]` with physical s:0=5 and s:1=9. [Proof](research/R241_43_PORT53_RETURN.md).
 
 ## Current scientific objective
 
-Supply multi-center modules with independently variable quotas and usable physical offsets. D090 returns offset five on its four-section original. D091 excludes the tested return at the maximum-exit pin on `[[4],[2]]`. The [latest handoff](handoffs/CODEX-20261123-r241-42-port53-return.md) records the exact scope and a bounded nonmaximum-exit test.
+Supply multi-center modules with independently variable quotas and usable physical offsets. D090 supplies the (3,5) four-section state. D091 and D092 exclude two exact prescribed (5,3) returns, at a maximum and a nonmaximum exit respectively. The [latest handoff](handoffs/CODEX-20261123-r241-43-port53-return.md) records the scoped results and one proposed reversal test.
 
 ## One next action
 
-Under separate authorization, prove or refute the normalized physical state A(11,6;5,3) on the exact named original `[[4],[3]]`, with s:0=5 and s:1=9. The extra right terminal makes label ten available away from the exit. Determine whether a return to D090's entrance is supplied by a direct ledger or excluded by a structural proof, with no solvers, assignment enumeration or joins.
+Under separate authorization, prove or refute A(a+b+20,11;5,3) for all integers a,b≥2 on the exact reversed named profile `[[3],[3,b],[2],[2,a]]`, using D090 as input. Check whether reversing physical sections and exchanging the alpha bands supplies the return. Verify the exact name map, all edge differences, cut and physical ports without solvers, assignment enumeration or joins.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
+
+- D092 excludes A(11,6;5,3) on exact named `[[4],[3]]`. The sum over signed degrees forces center labels (8,2). The right terminal labeled 6 repeats the spine's weight four, and labels 0 and 10 fall on nonadjacent terminals. One original, one state, four numerical center cases, the retained D090 positive and three adverse rejections passed independent audit and separate reviews. D078's (1,1) supply still applies. See [proof](research/R241_43_PORT53_RETURN.md) and [evidence](evidence/validation/LCL_R241_43_PORT53_RETURN_001/README.md).
 
 - D091 excludes A(10,6;5,3) on exact named `[[4],[2]]`. The three largest weights occupy the right attachment and both right-terminal edges, leaving no incidence for weight six. The separate signed-degree contradiction at the forced zero center requires 2A=13. One original and one prescribed state, ten numerical representations, the retained D090 positive and three adverse rejections passed independent audit and separate reviews. D078's exact (1,1) supply remains valid. See [proof](research/R241_42_PORT53_RETURN.md) and [evidence](evidence/validation/LCL_R241_42_PORT53_RETURN_001/README.md).
 

@@ -497,3 +497,7 @@ edge would have weight 2. The separate K=1 construction is unaffected.
 ### F-R241-42-PORT53
 
 **REJECT** A(10,6;5,3) on exact named `[[4],[2]]`, with entrance s:0 low at label 5 and exit s:1 at label 9. The realized incidences of weights 9, 8 and 7 prohibit every weight-six incidence. The separate signed-degree argument requires 2A=13 after forcing the right center to zero. This is an exclusion of the simultaneous prescribed physical state. D078 supplies this original at (1,1). [Proof](R241_42_PORT53_RETURN.md) · D091
+
+### F-R241-43-PORT53
+
+**REJECT** A(11,6;5,3) on exact named `[[4],[3]]` at the physical s:0=5, s:1=9 pins with s:0 low. The signed-degree equation forces (A,z)=(8,2). An actual right-terminal edge repeats the spine's difference four, and the required labels 0 and 10 lie at nonadjacent terminals. This excludes the selected state at cut six. D078 independently supplies the exact original at (1,1). [Proof](R241_43_PORT53_RETURN.md) · D092
