@@ -2,19 +2,21 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 24, 2026, Pacific/Honolulu<br>
-**Stage:** D123 modified shared-middle core supplier for exact ordered `[[u,3,u],[2]]`, even u≥6, **ACCEPTED**. Bounded verification **PASS**. [Proof](research/ORDINARY_U3U_2_MODIFIED_SHARED_MIDDLE_CORE.md).
+**Stage:** D124 unequal modified-core supplier for exact ordered `[[q,3,c],[2]]`, independent even q,c≥6 with q≠c, **ACCEPTED**. Bounded verification **PASS**. [Proof](research/ORDINARY_Q3C_2_UNEQUAL_MODIFIED_SHARED_MIDDLE_CORE.md).
 
 ## Current scientific objective
 
-Develop independently supplied graceful modules with usable physical ports. The [latest handoff](handoffs/CODEX-20261124-ordinary-u3u-2-modified-shared-middle-core.md) records the symmetric even supplier built from a modified core, reflection component deletion and forced translation-chain batches. The remaining question concerns independent variation of the two even outer quotas.
+Develop independently supplied graceful modules with usable physical ports. The [latest handoff](handoffs/CODEX-20261124-ordinary-q3c-2-unequal-modified-shared-middle-core.md) records the independently varying even outer quotas. The next proposal consolidates the accepted three-center seed domains with the proved conditional right-growth mechanism. The retained ordered even–odd–even suppliers at q≥6, a≥3 and c≥2 leave exactly (q,a,c)=(6,3,4) outside their established union: at a=3, D122 covers c≤q−4 and D123–D124 cover c≥6, while D122 covers every declared c at a≥5. Other positions of the single odd quota in the two-even sector and smaller quotas remain outside these constructions. The all-odd supplier has its ordered minima and the one-even supplier requires an odd quota at least five. The all-even obstruction applies at the fixed pins. Other physical port choices and ordinary spine composition remain open.
 
 ## One next action
 
-Under separate authorization, determine whether the D123 modified core and a joint interval-and-complement reservation supply exact ordered `[[q,3,c],[2]]` for independently chosen even q,c≥6 with q≠c. Keep physical X,M,Z at indices 0,1,2 and pins `s:0=0`, `s:1=q+c+10`, `b:1:0=1`. Require two disjoint R226 batches that each fill one physical M vacancy, and prove both complete original inventories or a precise obstruction to this reservation scheme. Use no numerical sweep, solver, assignment enumeration, role transport or join.
+Under separate authorization, consolidate the exact accepted D118–D124 seed domains and prove their indexed D112 right-growth application to ordered `[[q,a,c],[r]]` for exact integers r≥2. Preserve the covered union of left-quota triples and the physical interface `s:0=0`, `s:1=q+a+c+r+5`, `b:1:0=1`. Give a symbolic original-incidence and resource proof, and record the parity, minimum-quota and port gaps. Use only retained evidence and no new numerical original, seed construction, solver, assignment enumeration or join.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
+
+- D124 **SUPPLIES** exact ordered `[[q,3,c],[2]]` for independent exact even q,c≥6 with q≠c at pins (0,q+c+10,1). The width depends on q and the complementary translation chains depend on c. Each batch fills one actual named M vacancy. Both complete original spectra and D112's physical premises hold. The new boundary, retained D123 formula comparison and recheck, four controls and separate reviews passed. D123 supplies equality and D122 retains its original fixed-core obstruction. See [proof](research/ORDINARY_Q3C_2_UNEQUAL_MODIFIED_SHARED_MIDDLE_CORE.md) and [evidence](evidence/validation/LCL_ORDINARY_Q3C_2_UNEQUAL_MODIFIED_SHARED_MIDDLE_CORE_001/README.md).
 
 - D123 **SUPPLIES** exact ordered `[[u,3,u],[2]]` for every exact even integer u≥6 at pins (0,2u+10,1). Each of two disjoint R226 batches fills one named physical middle vacancy. The first uses reflection component deletion and the second uses forced translation chains. Both complete original inventories and D112's premises hold. One new boundary certificate, the retained D122 positive recheck and adverse binding inspection, four controls and separate reviews passed. D122's fixed-core obstruction remains scoped to its own labels and roles. See [proof](research/ORDINARY_U3U_2_MODIFIED_SHARED_MIDDLE_CORE.md) and [evidence](evidence/validation/LCL_ORDINARY_U3U_2_MODIFIED_SHARED_MIDDLE_CORE_001/README.md).
 
