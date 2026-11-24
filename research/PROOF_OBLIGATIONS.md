@@ -739,3 +739,5 @@ The [D100 versioned audit recovery](../evidence/validation/LCL_R241_43_2_FIXED_E
 [D107](ORDINARY_43R_EXTREME_SPINE.md) discharges symbolic repeatability for fixed left quotas 4 and 3 with exact right quota r≥2 and the named signed interface. A direct seed under an independently changed left quota remains open. The sole unstarted seed proposal is in [STATE.md](../STATE.md).
 
 [D108](ORDINARY_53_2_SIGNED_SEED.md) closes the exact fixed-reversal seed on `[[5,3],[2]]`. A usable direct seed when a left quota varies remains open under a different signed interface. The sole bounded proposal in [STATE.md](../STATE.md) separates the named location from the reversal magnitude.
+
+[D109](ORDINARY_53_2_FREE_REVERSAL.md) closes the location-free single magnitude-one interface at the three pins on `[[5,3],[2]]`. A compatible direct left-quota seed remains open under different sign constraints. The sole unstarted magnitude-two proposal is in [STATE.md](../STATE.md).

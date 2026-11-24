@@ -1,0 +1,17 @@
+# D109 independent read-only reviews
+
+## Mathematical review — ACCEPT
+
+Reviewer `d109_math_review` independently inspected the proof, frozen D108 original and retained D106 control. The signed sum was rederived by grouping actual incidences, using left-terminal label sum 90−A−B−P−Q. It gives −65+7A+5B+2(P+Q)=103, so the center parity is equal. A within-center permutation preserves both the signed and absolute difference multisets and the class of possible left-terminal reversal locations.
+
+The reviewer checked all three locations of label 13 and four scalar rows. In the right-terminal case the two surviving rows force repeats of 9 and 11. The first-left and second-left reversal cases force (A,B)=(12,10) and (10,12). In either, an 11 at the center labeled 12 repeats weight 1 on a terminal edge and an 11 at the center labeled 10 creates a second negative edge. The forced right-terminal 11 repeats weight 10 on the attachment of the center labeled 10. The actual witness records match this index-independent reasoning.
+
+The saved controls match the independent calculation. The within-center swap is graceful and passes the relaxed signed interface. Complementation gives the same absolute spectrum, physical pins (14,0,13) and negative signs −14 through −2. This fails the three-pin predicate and independently fails the signed predicate. The saved result hash matches the execution receipt. The exact exclusion leaves other signed constraints and ordinary gracefulness outside the proof. The review used no edits or replay.
+
+## Implementation review — PASS
+
+Reviewer `d109_impl_review` inspected the actual producer, separate auditor, preflight, config, contract, unchanged checker and frozen inputs. Both pre-execution reviews caught a stale draft local named `new` in the structural auditor. It was corrected to `graph` and the configuration was re-pinned before the single preflight and invocation. Final config SHA-256 is `896e42c95ff32699955400583a7a5c038c57d37faaa229ece96d7d5350e95114`. The final assertions and all 165 repository input hashes, four task and contract hashes, runtime identity and 15 historical status receipts matched.
+
+The actual audit reconstructs the named graph, degree identity and all four incidence witnesses. The retained D106 positive passed ordinary and signed verification. All four controls passed their intended checks. In particular, ordinary verification accepted both the within-center swap and complemented control. The relaxed gate derives all three pins and evaluates negative-edge count, magnitude and original left-terminal membership, even when pins fail. The auditor independently checks that the complement's full signed sequence is the negation of the retained sequence.
+
+One official worker used 0.125 process-CPU seconds, 0.12857380002969876 in-process wall seconds and 0.5707804 supervised wall seconds. One preflight, one retained recheck, four controls, three cases and four scalar rows were recorded. New originals, certificates and prohibited operations are all zero. Preflight imported no task modules and produced no bytecode. Raw result SHA-256 is `1b95a32668d5fe2d28cad09d6f6226f4e56377d3ccb2a842e13ee23d7863f569`. Preflight receipt SHA-256 is `e686c501acc133def3d0a3a213ad80af4881385b6358e0fed6267d750316bd5e`. Command receipt SHA-256 is `ba15bfce25e999da3294fbaddc93923005d93323e273a3a044c5096816bd7e59`. All bindings matched. The review was read-only and involved no replay.

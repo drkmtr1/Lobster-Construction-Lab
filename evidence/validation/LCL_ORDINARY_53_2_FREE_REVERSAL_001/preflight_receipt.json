@@ -1,0 +1,61 @@
+{
+  "argv": [
+    "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "evidence/validation/LCL_ORDINARY_53_2_FREE_REVERSAL_001/preflight.py",
+    "896e42c95ff32699955400583a7a5c038c57d37faaa229ece96d7d5350e95114"
+  ],
+  "input_hashes": {
+    "CONTRACT.md": "7f44f6ac857bdfec5f47b39c65f32d1250e09b84a68595ab870447f355e3f31a",
+    "audit.py": "6a1b298c2e84150d3ae3596250fc823c08dfadf8b7d3ee8d259c4dc3dcbcec08",
+    "config.json": "896e42c95ff32699955400583a7a5c038c57d37faaa229ece96d7d5350e95114",
+    "preflight.py": "2e14645e7db4b0cccedecf54be69f0dacfa50e2517044ee2c9815cfad9e04e3d",
+    "run.py": "f4e4187f96ea1a14030c0c18eceb6f999d2e63353167a8c6ec22eafe3dda64c4"
+  },
+  "parent": "b5b6c016a8cb93113447291b3cc0a7c6a5b5d896",
+  "parsed_functions": {
+    "audit.py": [
+      "topology",
+      "ledger_id",
+      "obstruction",
+      "signed_deltas",
+      "audit_gate",
+      "controls"
+    ],
+    "preflight.py": [
+      "check",
+      "main"
+    ],
+    "run.py": [
+      "read_json",
+      "digest_file",
+      "write_record",
+      "signed_interface_gate",
+      "retained_positive",
+      "run_controls",
+      "validate_inputs",
+      "structural_cases",
+      "produce",
+      "execute"
+    ]
+  },
+  "preflight_invocations": 1,
+  "runtime": {
+    "path": ".venv/Scripts/python.exe",
+    "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "source_pins_checked": 165,
+  "status": "PASS",
+  "task": "LCL-ORDINARY-53-2-FREE-REVERSAL-001",
+  "task_module_imports": 0,
+  "vacant_outputs": [
+    "original.json",
+    "result.json",
+    "command_receipt.json",
+    "invocation_failure.json",
+    "__pycache__"
+  ]
+}

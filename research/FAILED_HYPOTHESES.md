@@ -531,3 +531,7 @@ The [separate D100 audit recovery](../evidence/validation/LCL_R241_43_2_FIXED_EX
 ### F-ORDINARY-53-2-SIGNED-SEED
 
 **REJECT** the prescribed signed seed on ordered `[[5,3],[2]]` with `s:0=0`, `s:1=14`, `b:1:0=1` and the sole negative signed difference −1 on `l:0:0:3 → b:0:0`. All three center rows force repeats of absolute edge differences. The conclusion applies to these joint constraints on this exact original. [Proof](ORDINARY_53_2_SIGNED_SEED.md) · D108
+
+### F-ORDINARY-53-2-FREE-REVERSAL
+
+**REJECT** the location-free magnitude-one interface on frozen ordered `[[5,3],[2]]` at `s:0=0`, `s:1=14` and `b:1:0=1`, oriented from the class of `s:0`. All four scalar rows force repeated absolute differences. The exclusion applies to the sole −1 on an actual left terminal at these pins. Ordinary gracefulness under other constraints remains undecided. [Proof](ORDINARY_53_2_FREE_REVERSAL.md) · D109

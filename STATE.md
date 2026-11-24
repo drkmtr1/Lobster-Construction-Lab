@@ -2,19 +2,21 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 23, 2026, Pacific/Honolulu<br>
-**Stage:** D108 prescribed signed seed **REJECTED** on exact ordered `[[5,3],[2]]` with the fixed physical pins and sole named −1 edge. Structural proof **ACCEPTED** and audit **PASS**. [Proof](research/ORDINARY_53_2_SIGNED_SEED.md).
+**Stage:** D109 location-free magnitude-one interface **REJECTED** on frozen ordered `[[5,3],[2]]` at `s:0=0`, `s:1=14` and `b:1:0=1`. Structural proof **ACCEPTED** and audit **PASS**. [Proof](research/ORDINARY_53_2_FREE_REVERSAL.md).
 
 ## Current scientific objective
 
-Develop independently supplied graceful modules with usable physical ports. The [latest handoff](handoffs/CODEX-20261123-ordinary-53-2-signed-seed.md) records the fixed signed-interface obstruction and one proposed test with the reversal location free.
+Develop independently supplied graceful modules with usable physical ports. The [latest handoff](handoffs/CODEX-20261123-ordinary-53-2-free-reversal.md) records the location-free magnitude-one obstruction and one proposed magnitude test at the same pins.
 
 ## One next action
 
-Under separate authorization, seek or rule out ordinary graceful supply on the frozen ordered `[[5,3],[2]]` with `s:0=0`, `s:1=14`, `b:1:0=1` and exactly one negative signed difference of −1 at any left terminal. Treat the possible centers structurally without terminal-index enumeration, and use at most one verified certificate, zero new originals, solvers, complete-assignment enumeration or joins.
+Under separate authorization, seek or rule out ordinary graceful supply on the same frozen ordered `[[5,3],[2]]` with `s:0=0`, `s:1=14`, `b:1:0=1` and exactly one negative signed difference of −2 at any left terminal in the orientation from the class of `s:0`. Use structural original-incidence reasoning with at most one verified certificate and zero new originals, solvers, complete-assignment enumeration or joins.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
+
+- D109 **EXCLUDES** the location-free lone −1 interface on frozen ordered `[[5,3],[2]]` at the three pinned labels. Three cases leave four rows, each forcing a duplicate absolute difference. The retained positive, four controls and both reviews passed. See [proof](research/ORDINARY_53_2_FREE_REVERSAL.md) and [evidence](evidence/validation/LCL_ORDINARY_53_2_FREE_REVERSAL_001/README.md).
 
 - D108 **EXCLUDES** the specified ordinary graceful interface on `[[5,3],[2]]` with physical labels (0,14), right-center label 1 and the sole −1 at `l:0:0:3 → b:0:0`. The two-case signed-degree argument gives three rows, each with a repeated weight. The unchanged checker, independent audit and both reviews passed on the retained control and adverse checks. See [proof](research/ORDINARY_53_2_SIGNED_SEED.md) and [evidence](evidence/validation/LCL_ORDINARY_53_2_SIGNED_SEED_001/README.md).
 

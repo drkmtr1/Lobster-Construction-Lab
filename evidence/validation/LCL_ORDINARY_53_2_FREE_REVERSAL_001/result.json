@@ -1,0 +1,752 @@
+{
+  "control_audit": {
+    "complement_negative_count": 13,
+    "complement_ordinary": true,
+    "complement_pattern": false,
+    "complement_pins": false,
+    "complement_signed_differences": [
+      -14,
+      -10,
+      -8,
+      -7,
+      -2,
+      1,
+      -9,
+      -5,
+      -4,
+      -3,
+      -13,
+      -6,
+      -11,
+      -12
+    ],
+    "cross_swap_missing_weights": [
+      5,
+      8
+    ],
+    "cross_swap_repeat_multiplicities": {
+      "6": 2,
+      "7": 2
+    },
+    "status": "PASS",
+    "within_swap_ordinary": true,
+    "within_swap_relaxed_interface": true
+  },
+  "controls": {
+    "complement": {
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          14,
+          10,
+          8,
+          7,
+          2,
+          1,
+          9,
+          5,
+          4,
+          3,
+          13,
+          6,
+          11,
+          12
+        ],
+        "errors": [],
+        "graph_digest": "df89d0f500d8900d44641b6725f4ce3095df900c663006271855330d01d2a86e",
+        "m": 14,
+        "n": 15,
+        "valid": true
+      },
+      "gate": {
+        "negative_edges": [
+          {
+            "edge": [
+              "s:0",
+              "s:1"
+            ],
+            "signed_difference": -14
+          },
+          {
+            "edge": [
+              "s:0",
+              "b:0:0"
+            ],
+            "signed_difference": -10
+          },
+          {
+            "edge": [
+              "l:0:0:0",
+              "b:0:0"
+            ],
+            "signed_difference": -8
+          },
+          {
+            "edge": [
+              "l:0:0:1",
+              "b:0:0"
+            ],
+            "signed_difference": -7
+          },
+          {
+            "edge": [
+              "l:0:0:2",
+              "b:0:0"
+            ],
+            "signed_difference": -2
+          },
+          {
+            "edge": [
+              "s:0",
+              "b:0:1"
+            ],
+            "signed_difference": -9
+          },
+          {
+            "edge": [
+              "l:0:1:0",
+              "b:0:1"
+            ],
+            "signed_difference": -5
+          },
+          {
+            "edge": [
+              "l:0:1:1",
+              "b:0:1"
+            ],
+            "signed_difference": -4
+          },
+          {
+            "edge": [
+              "l:0:1:2",
+              "b:0:1"
+            ],
+            "signed_difference": -3
+          },
+          {
+            "edge": [
+              "b:1:0",
+              "s:1"
+            ],
+            "signed_difference": -13
+          },
+          {
+            "edge": [
+              "b:1:0",
+              "l:1:0:0"
+            ],
+            "signed_difference": -6
+          },
+          {
+            "edge": [
+              "b:1:0",
+              "l:1:0:1"
+            ],
+            "signed_difference": -11
+          },
+          {
+            "edge": [
+              "b:1:0",
+              "l:1:0:2"
+            ],
+            "signed_difference": -12
+          }
+        ],
+        "pattern_valid": false,
+        "physical_pins": {
+          "b:1:0": 13,
+          "s:0": 14,
+          "s:1": 0
+        },
+        "pins_valid": false,
+        "signed_tests": {
+          "negative_edges_are_left_terminal_incidence": false,
+          "negative_magnitude_one": false,
+          "one_negative_edge": false
+        },
+        "valid": false
+      },
+      "labels": {
+        "b:0:0": 4,
+        "b:0:1": 5,
+        "b:1:0": 13,
+        "l:0:0:0": 12,
+        "l:0:0:1": 11,
+        "l:0:0:2": 6,
+        "l:0:0:3": 3,
+        "l:0:1:0": 10,
+        "l:0:1:1": 9,
+        "l:0:1:2": 8,
+        "l:1:0:0": 7,
+        "l:1:0:1": 2,
+        "l:1:0:2": 1,
+        "s:0": 14,
+        "s:1": 0
+      }
+    },
+    "cross_swap": {
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          14,
+          10,
+          6,
+          7,
+          2,
+          1,
+          9,
+          7,
+          4,
+          3,
+          13,
+          6,
+          11,
+          12
+        ],
+        "errors": [
+          "edge differences repeat",
+          "edge differences are not exactly 1..m"
+        ],
+        "graph_digest": "df89d0f500d8900d44641b6725f4ce3095df900c663006271855330d01d2a86e",
+        "m": 14,
+        "n": 15,
+        "valid": false
+      },
+      "labels": {
+        "b:0:0": 10,
+        "b:0:1": 9,
+        "b:1:0": 1,
+        "l:0:0:0": 4,
+        "l:0:0:1": 3,
+        "l:0:0:2": 8,
+        "l:0:0:3": 11,
+        "l:0:1:0": 2,
+        "l:0:1:1": 5,
+        "l:0:1:2": 6,
+        "l:1:0:0": 7,
+        "l:1:0:1": 12,
+        "l:1:0:2": 13,
+        "s:0": 0,
+        "s:1": 14
+      },
+      "vertices": [
+        "l:0:0:0",
+        "l:0:1:0"
+      ]
+    },
+    "within_swap": {
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          14,
+          10,
+          1,
+          7,
+          2,
+          8,
+          9,
+          5,
+          4,
+          3,
+          13,
+          6,
+          11,
+          12
+        ],
+        "errors": [],
+        "graph_digest": "df89d0f500d8900d44641b6725f4ce3095df900c663006271855330d01d2a86e",
+        "m": 14,
+        "n": 15,
+        "valid": true
+      },
+      "gate": {
+        "negative_edges": [
+          {
+            "edge": [
+              "l:0:0:0",
+              "b:0:0"
+            ],
+            "signed_difference": -1
+          }
+        ],
+        "pattern_valid": true,
+        "physical_pins": {
+          "b:1:0": 1,
+          "s:0": 0,
+          "s:1": 14
+        },
+        "pins_valid": true,
+        "signed_tests": {
+          "negative_edges_are_left_terminal_incidence": true,
+          "negative_magnitude_one": true,
+          "one_negative_edge": true
+        },
+        "valid": true
+      },
+      "labels": {
+        "b:0:0": 10,
+        "b:0:1": 9,
+        "b:1:0": 1,
+        "l:0:0:0": 11,
+        "l:0:0:1": 3,
+        "l:0:0:2": 8,
+        "l:0:0:3": 2,
+        "l:0:1:0": 4,
+        "l:0:1:1": 5,
+        "l:0:1:2": 6,
+        "l:1:0:0": 7,
+        "l:1:0:1": 12,
+        "l:1:0:2": 13,
+        "s:0": 0,
+        "s:1": 14
+      },
+      "vertices": [
+        "l:0:0:0",
+        "l:0:0:3"
+      ]
+    },
+    "wrong_digest": {
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          14,
+          10,
+          8,
+          7,
+          2,
+          1,
+          9,
+          5,
+          4,
+          3,
+          13,
+          6,
+          11,
+          12
+        ],
+        "errors": [
+          "original graph digest mismatch"
+        ],
+        "graph_digest": "df89d0f500d8900d44641b6725f4ce3095df900c663006271855330d01d2a86e",
+        "m": 14,
+        "n": 15,
+        "valid": false
+      },
+      "expected": "0000000000000000000000000000000000000000000000000000000000000000"
+    }
+  },
+  "domain": {
+    "location": "any_left_terminal",
+    "negative_edge_count": 1,
+    "negative_signed_difference": -1,
+    "physical_pins": {
+      "b:1:0": 1,
+      "s:0": 0,
+      "s:1": 14
+    },
+    "profile": [
+      [
+        5,
+        3
+      ],
+      [
+        2
+      ]
+    ]
+  },
+  "interface_disposition": "REJECT",
+  "parent": "b5b6c016a8cb93113447291b3cc0a7c6a5b5d896",
+  "proof_disposition": "ACCEPT",
+  "retained_execution_statuses": {
+    "D083_original": "INCOMPLETE",
+    "D083_versioned": "PASS",
+    "D093_original": "INCOMPLETE",
+    "D093_versioned": "PASS",
+    "D099": "PASS",
+    "D100_original": "INCOMPLETE",
+    "D100_recovery": "PASS",
+    "D101": "PASS",
+    "D102": "PASS",
+    "D103": "PASS",
+    "D104": "PASS",
+    "D105": "PASS",
+    "D106": "PASS",
+    "D107": "PASS",
+    "D108": "PASS"
+  },
+  "retained_positive": {
+    "checker": {
+      "claim": "finite certificate for this exact named target only",
+      "edge_differences": [
+        14,
+        10,
+        8,
+        7,
+        2,
+        1,
+        9,
+        5,
+        4,
+        3,
+        13,
+        6,
+        11,
+        12
+      ],
+      "errors": [],
+      "graph_digest": "df89d0f500d8900d44641b6725f4ce3095df900c663006271855330d01d2a86e",
+      "m": 14,
+      "n": 15,
+      "valid": true
+    },
+    "graph_digest": "df89d0f500d8900d44641b6725f4ce3095df900c663006271855330d01d2a86e",
+    "ledger_id": "b1be1d8561e4570e4d295c8f61ae3b2c7171146519cf1d1ebe917becb3a7565c",
+    "r": 3,
+    "signed_gate": {
+      "negative_edges": [
+        {
+          "edge": [
+            "l:0:0:3",
+            "b:0:0"
+          ],
+          "signed_difference": -1
+        }
+      ],
+      "pattern_valid": true,
+      "physical_pins": {
+        "b:1:0": 1,
+        "s:0": 0,
+        "s:1": 14
+      },
+      "pins_valid": true,
+      "signed_tests": {
+        "negative_edges_are_left_terminal_incidence": true,
+        "negative_magnitude_one": true,
+        "one_negative_edge": true
+      },
+      "valid": true
+    }
+  },
+  "runtime": {
+    "path": ".venv/Scripts/python.exe",
+    "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "status": "PASS",
+  "structural_audit": {
+    "degree_sum": {
+      "center_coefficients": [
+        7,
+        5
+      ],
+      "each_right_terminal_coefficient": 2,
+      "even_constant": 93,
+      "odd_constant": 28,
+      "required_signed_sum": 103,
+      "rhs": 168,
+      "same_center_parity": true
+    },
+    "degrees": {
+      "b:0:0": 6,
+      "b:0:1": 4,
+      "b:1:0": 3,
+      "l:0:0:0": 1,
+      "l:0:0:1": 1,
+      "l:0:0:2": 1,
+      "l:0:0:3": 1,
+      "l:0:0:4": 1,
+      "l:0:1:0": 1,
+      "l:0:1:1": 1,
+      "l:0:1:2": 1,
+      "l:1:0:0": 1,
+      "l:1:0:1": 1,
+      "s:0": 3,
+      "s:1": 2
+    },
+    "even_class": [
+      "b:1:0",
+      "l:0:0:0",
+      "l:0:0:1",
+      "l:0:0:2",
+      "l:0:0:3",
+      "l:0:0:4",
+      "l:0:1:0",
+      "l:0:1:1",
+      "l:0:1:2",
+      "s:0"
+    ],
+    "graph_digest": "915f7ff845db575f2be0b87e587c2236d935eabfc674e9bd99e8bce1358033f8",
+    "left_terminal_cases": [
+      {
+        "case": "label_13_first_left_reversal",
+        "distinct_left_attachment": [
+          "s:0",
+          "b:0:1"
+        ],
+        "label_11": 11,
+        "left_exclusions": {
+          "repeat_weight_one": {
+            "candidate_group": [
+              "l:0:0:0",
+              "l:0:0:1",
+              "l:0:0:2",
+              "l:0:0:3",
+              "l:0:0:4"
+            ],
+            "center": "b:0:0",
+            "condition": "terminal distinct from the one carrying 13"
+          },
+          "second_negative": {
+            "center": "b:0:1",
+            "terminals": [
+              "l:0:1:0",
+              "l:0:1:1",
+              "l:0:1:2"
+            ]
+          }
+        },
+        "minimum_other_center": 9,
+        "possible_reversed_terminals": [
+          "l:0:0:0",
+          "l:0:0:1",
+          "l:0:0:2",
+          "l:0:0:3",
+          "l:0:0:4"
+        ],
+        "reversed_center": "b:0:0",
+        "right_edge_witness": {
+          "one_of": [
+            [
+              "b:1:0",
+              "l:1:0:0"
+            ],
+            [
+              "b:1:0",
+              "l:1:0:1"
+            ]
+          ],
+          "terminal_label": 11
+        },
+        "row": {
+          "A": 12,
+          "B": 10,
+          "first_left_signed_if_11": 1,
+          "forced_right_sum": 17,
+          "repeated_weight": 10,
+          "rhs": 84,
+          "right_sum_upper_bound": 21,
+          "second_left_signed_if_11": -1
+        }
+      },
+      {
+        "case": "label_13_second_left_reversal",
+        "distinct_left_attachment": [
+          "s:0",
+          "b:0:0"
+        ],
+        "label_11": 11,
+        "left_exclusions": {
+          "repeat_weight_one": {
+            "candidate_group": [
+              "l:0:1:0",
+              "l:0:1:1",
+              "l:0:1:2"
+            ],
+            "center": "b:0:1",
+            "condition": "terminal distinct from the one carrying 13"
+          },
+          "second_negative": {
+            "center": "b:0:0",
+            "terminals": [
+              "l:0:0:0",
+              "l:0:0:1",
+              "l:0:0:2",
+              "l:0:0:3",
+              "l:0:0:4"
+            ]
+          }
+        },
+        "minimum_other_center": 10,
+        "possible_reversed_terminals": [
+          "l:0:1:0",
+          "l:0:1:1",
+          "l:0:1:2"
+        ],
+        "reversed_center": "b:0:1",
+        "right_edge_witness": {
+          "one_of": [
+            [
+              "b:1:0",
+              "l:1:0:0"
+            ],
+            [
+              "b:1:0",
+              "l:1:0:1"
+            ]
+          ],
+          "terminal_label": 11
+        },
+        "row": {
+          "A": 10,
+          "B": 12,
+          "first_left_signed_if_11": -1,
+          "forced_right_sum": 19,
+          "repeated_weight": 10,
+          "rhs": 108,
+          "right_sum_upper_bound": 21,
+          "second_left_signed_if_11": 1
+        }
+      }
+    ],
+    "left_terminal_groups": {
+      "b:0:0": [
+        "l:0:0:0",
+        "l:0:0:1",
+        "l:0:0:2",
+        "l:0:0:3",
+        "l:0:0:4"
+      ],
+      "b:0:1": [
+        "l:0:1:0",
+        "l:0:1:1",
+        "l:0:1:2"
+      ]
+    },
+    "odd_class": [
+      "b:0:0",
+      "b:0:1",
+      "l:1:0:0",
+      "l:1:0:1",
+      "s:1"
+    ],
+    "physical_spine": [
+      "s:0",
+      "s:1"
+    ],
+    "possible_locations_of_13": {
+      "left_terminals_if_reversed": {
+        "b:0:0": [
+          "l:0:0:0",
+          "l:0:0:1",
+          "l:0:0:2",
+          "l:0:0:3",
+          "l:0:0:4"
+        ],
+        "b:0:1": [
+          "l:0:1:0",
+          "l:0:1:1",
+          "l:0:1:2"
+        ]
+      },
+      "right_terminals": [
+        "l:1:0:0",
+        "l:1:0:1"
+      ]
+    },
+    "right_terminal_case": [
+      {
+        "distinct_left_attachment": [
+          "s:0",
+          "b:0:1"
+        ],
+        "repeated_weight": 9,
+        "right_edge_witness": {
+          "one_of": [
+            [
+              "b:1:0",
+              "l:1:0:0"
+            ],
+            [
+              "b:1:0",
+              "l:1:0:1"
+            ]
+          ],
+          "terminal_label": 10
+        },
+        "row": {
+          "A": 11,
+          "B": 9,
+          "P": 13,
+          "Q": 10,
+          "repeated_weight": 9
+        }
+      },
+      {
+        "distinct_left_attachment": [
+          "s:0",
+          "b:0:1"
+        ],
+        "repeated_weight": 11,
+        "right_edge_witness": {
+          "one_of": [
+            [
+              "b:1:0",
+              "l:1:0:0"
+            ],
+            [
+              "b:1:0",
+              "l:1:0:1"
+            ]
+          ],
+          "terminal_label": 12
+        },
+        "row": {
+          "A": 9,
+          "B": 11,
+          "P": 13,
+          "Q": 12,
+          "repeated_weight": 11
+        }
+      }
+    ],
+    "status": "PASS"
+  },
+  "structural_cases": {
+    "label_13_first_left_reversal": {
+      "A": 12,
+      "B": 10,
+      "first_left_signed_if_11": 1,
+      "forced_right_sum": 17,
+      "repeated_weight": 10,
+      "rhs": 84,
+      "right_sum_upper_bound": 21,
+      "second_left_signed_if_11": -1
+    },
+    "label_13_right_terminal": {
+      "center_expression_lower_bound": 118,
+      "even_pair_upper_bound": 110,
+      "other_odd_pair_upper_bound": 112,
+      "other_right_upper_bound": 12,
+      "rhs": 142,
+      "survivors": [
+        {
+          "A": 11,
+          "B": 9,
+          "P": 13,
+          "Q": 10,
+          "repeated_weight": 9
+        },
+        {
+          "A": 9,
+          "B": 11,
+          "P": 13,
+          "Q": 12,
+          "repeated_weight": 11
+        }
+      ]
+    },
+    "label_13_second_left_reversal": {
+      "A": 10,
+      "B": 12,
+      "first_left_signed_if_11": -1,
+      "forced_right_sum": 19,
+      "repeated_weight": 10,
+      "rhs": 108,
+      "right_sum_upper_bound": 21,
+      "second_left_signed_if_11": 1
+    }
+  },
+  "target_graph_digest": "915f7ff845db575f2be0b87e587c2236d935eabfc674e9bd99e8bce1358033f8",
+  "target_original_sha256": "9dbdfd6226c94c821951bc0ca701c18e4a0e1b671324afa84b0431fec36aca0c",
+  "task": "LCL-ORDINARY-53-2-FREE-REVERSAL-001"
+}

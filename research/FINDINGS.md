@@ -1447,3 +1447,9 @@ The official audit and both independent reviews **PASSED** with the two retained
 **ACCEPT** the structural obstruction and **REJECT** the exact ordered `[[5,3],[2]]` seed at `s:0=0`, `s:1=14`, `b:1:0=1`, with sole signed difference −1 on `l:0:0:3 → b:0:0`. The signed degree sum gives 7A+5B+2(P+Q)=168. Splitting by the only possible locations for label 13 leaves three center rows, each with a forced repeated weight on distinct incidences. D107 remains proved on its own profiles.
 
 The official audit and both reviews **PASSED** with one new original, zero certificates, one retained D106 recheck and three probes in 0.1875 process-CPU seconds. [Proof](ORDINARY_53_2_SIGNED_SEED.md) · [Evidence](../evidence/validation/LCL_ORDINARY_53_2_SIGNED_SEED_001/README.md) · D108
+
+## LCL-ORDINARY-53-2-FREE-REVERSAL-001
+
+**ACCEPT** the structural obstruction and **REJECT** ordinarily graceful supply on frozen ordered `[[5,3],[2]]` at `s:0=0`, `s:1=14`, `b:1:0=1` with exactly one signed difference −1 at any actual left terminal. The three possible placements of label 13 leave four scalar rows, which force repeated weights 9, 11, 10 and 10. D107 and D108 retain their accepted scopes.
+
+The official audit and both reviews **PASSED**, with one retained D106 recheck, four declared controls and zero new graphs or certificates. The complemented control stayed graceful and failed both pin and independently evaluated sign tests. The invocation used 0.125 process-CPU seconds. [Proof](ORDINARY_53_2_FREE_REVERSAL.md) · [Evidence](../evidence/validation/LCL_ORDINARY_53_2_FREE_REVERSAL_001/README.md) · D109
