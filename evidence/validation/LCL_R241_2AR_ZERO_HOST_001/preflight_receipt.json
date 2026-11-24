@@ -1,0 +1,55 @@
+{
+  "argv": [
+    "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "evidence/validation/LCL_R241_2AR_ZERO_HOST_001/preflight.py",
+    "5dd1e1784b9e0a0592c9c081f79502cea3dc67878e20cf721b8b31229025c357"
+  ],
+  "input_hashes": {
+    "audit.py": "40092487fd3170defce1cef2074fb60c94775b9851f429fffd3839d2c31c4ac6",
+    "config.json": "5dd1e1784b9e0a0592c9c081f79502cea3dc67878e20cf721b8b31229025c357",
+    "preflight.py": "27067ae62cf53ae3f1c3a4cbdbf288f92cb822e3be5c8710490c61bbdf6910ff",
+    "run.py": "0336d015d5f154933009eb2cb9520d264fd3f5ff7d5a6215db1cedb3f7604e7c"
+  },
+  "parent": "4407901f36d7b7d7ca54d15fa846eba33a68402e",
+  "parsed_functions": {
+    "audit.py": [
+      "load",
+      "canonical_hash",
+      "reconstruct",
+      "inspect",
+      "check_archives",
+      "check"
+    ],
+    "run.py": [
+      "read",
+      "hash_file",
+      "write_record",
+      "supplied_labels",
+      "require_interface",
+      "retained_positive",
+      "adverse_checks",
+      "verify_inputs",
+      "produce",
+      "execute"
+    ]
+  },
+  "preflight_invocations": 1,
+  "runtime": {
+    "path": ".venv/Scripts/python.exe",
+    "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "source_pins_checked": 32,
+  "status": "PASS",
+  "task": "LCL-R241-2AR-ZERO-HOST-001",
+  "task_module_imports": 0,
+  "vacant_outputs": [
+    "original.json",
+    "result.json",
+    "command_receipt.json",
+    "__pycache__"
+  ]
+}

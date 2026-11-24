@@ -2,19 +2,21 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 23, 2026, Pacific/Honolulu<br>
-**Stage:** D095 closed. One exact binary self-composition of independently parameterized D094 blocks is **ACCEPTED**, with physical offsets (3,3). [Proof](research/R241_D094_BINARY_SELF_COMPOSITION.md).
+**Stage:** D096 closed. Independently varying the right-center quota on exact named `[[2,a],[r]]` at physical offsets (3,4) is **ACCEPTED**. [Proof](research/R241_2AR_ZERO_HOST.md).
 
 ## Current scientific objective
 
-Supply multi-center modules with independently variable quotas and usable physical ports. D095 verifies the exact two-block original. The [latest handoff](handoffs/CODEX-20261123-r241-d094-binary-self-composition.md) records the return and prioritizes variation of another original center quota over increasing the block count.
+Supply multi-center modules with independently variable quotas and usable physical ports. D096 varies two quotas independently. The [latest handoff](handoffs/CODEX-20261123-r241-2ar-zero-host.md) records the verified right-zero-host extension and prioritizes the remaining fixed first-center quota.
 
 ## One next action
 
-Under separate authorization, prove or refute independent alpha supply A(a+r+7,a+4;3,4) on exact named `[[2,a],[r]]` for independently chosen integers a,r≥2. Test whether extending D087 at its physical right zero host preserves the original spine, entrance and exit offsets, and all label and difference bands. Use at most one boundary original with r=3, and no joins, solvers or assignment enumeration.
+Under separate authorization, prove or refute A(q+a+r+5,q+a+2;q+1,q+2) on exact named `[[q,a],[r]]` for integers q,a≥2 and r≥q. Check the indexed left-center label and difference bands at the capacity boundary r=q before applying the physical right-zero-host extension. Use at most one new q=4 boundary original and no joins, solvers or assignment enumeration.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
+
+- D096 supplies A(a+r+7,a+4;3,4) on exact named `[[2,a],[r]]` for independently chosen exact integers a,r≥2. The physical right zero host gives each fresh leaf the same new label and edge difference, exhausting [a+9,a+r+6] while preserving all D087 labels, edges, ports and witness. The a=2,r=3 boundary, unchanged checker, independent audit, retained positive and three adverse rejections passed both separate reviews. The same named original's D083 exclusion at (1,0) remains valid. See [proof](research/R241_2AR_ZERO_HOST.md) and [evidence](evidence/validation/LCL_R241_2AR_ZERO_HOST_001/README.md).
 
 - D095 supplies A(a+b+c+d+e+f+g+h+80,a+b+e+f+40;3,3) on the exact named 16-section concatenation of two D094 blocks with independent integer quotas a,b,c,d,e,f,g,h≥2. Its actual s:7–s:8 connector contributes e+f+g+h+40. One syntax preflight, one boundary original and certificate, one retained D094 recheck, both embeddings and three adverse rejections passed independent audit and separate reviews. See [proof](research/R241_D094_BINARY_SELF_COMPOSITION.md) and [evidence](evidence/validation/LCL_R241_D094_BINARY_SELF_COMPOSITION_001/README.md).
 

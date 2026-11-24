@@ -1365,3 +1365,9 @@ One syntax preflight and one official sequence passed independent audit and sepa
 **ACCEPT** A(a+b+c+d+e+f+g+h+80,a+b+e+f+40;3,3) on the exact original 16-section ordered concatenation of D094(a,b,c,d) and D094(e,f,g,h), for eight independently chosen integers at least two. Old B retains its named sections 0–7. New A has its section index increased by eight, preserving every other index. The actual s:7–s:8 edge gives e+f+g+h+40 between the unchanged A and shifted B spectra. The four disjoint label bands and original 16-section witness give the complete state. This is one exact binary specialization of retained R241.1.
 
 One parse-only preflight and sole official sequence passed. One new original and certificate, one D094 recheck, two verified embeddings and three adverse rejections used 0.109375 process-CPU seconds with no solver, enumeration, retry or replay. Both separate reviews accepted. [Proof](R241_D094_BINARY_SELF_COMPOSITION.md) · [Evidence](../evidence/validation/LCL_R241_D094_BINARY_SELF_COMPOSITION_001/README.md) · D095
+
+## LCL-R241-2AR-ZERO-HOST-001
+
+**ACCEPT** A(a+r+7,a+4;3,4) on exact named `[[2,a],[r]]` for independently chosen exact integers a,r≥2. D087 retains every named label and edge. Fresh terminals at physical `b:1:0=0` supply exactly [a+9,a+r+6] in both inventories, with the r=2 identity. The cut a+4, physical spine and offsets (3,4) are preserved.
+
+The sole boundary certificate a=2,r=3 passed the unchanged checker, independent audit and both reviews. It shares the original digest of D083's exclusion at (1,0), with distinct pins and ledger. One syntax preflight, one retained positive control and three adverse rejections passed. The official sequence used 0.171875 process-CPU seconds with zero joins, solver calls, enumeration, retries or replays. [Proof](R241_2AR_ZERO_HOST.md) · [Evidence](../evidence/validation/LCL_R241_2AR_ZERO_HOST_001/README.md) · D096

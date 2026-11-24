@@ -1,0 +1,9 @@
+# D096 frozen contract
+
+Task `LCL-R241-2AR-ZERO-HOST-001`, parent `4407901f36d7b7d7ca54d15fa846eba33a68402e`. The selected next action in the parent's STATE.md and D095 handoff authorizes exactly one proof and verification task.
+
+- Establish or refute A(a+r+7,a+4;3,4) on exact ordered `[[2,a],[r]]`, independently chosen exact integers a,r ≥ 2, by preserving the D087 labeling on every old name and adjoining exactly the leaves l:1:0:k for 2 ≤ k < r at b:1:0=0. Include the r=2 identity in the symbolic proof.
+- Sole new boundary a=2,r=3. One task-local producer, unchanged original-target checker, one separately written standard-library audit and two separate read-only reviews. Recheck the D084 retained (3,4) positive on its own original. Its two ordered terminal palettes can differ from D087's at named indices. Bind same-topology D083 at (1,0), its original incomplete receipt and its separate audit closeout without replay. Bind D093's separate original and recovery statuses.
+- Three adverse probes on the new original: wrong expected graph digest, false physical offset and a low-terminal swap with repeated original-edge differences. Parse exact source without imports or bytecode and validate runtime and input hashes before the official invocation.
+- One worker, one preflight, one official producer/audit invocation, at most one new graph identity and certificate, one retained positive recheck, three adverse probes, 30 combined process-CPU seconds, 2,000,000 bytes per evidence record and 8,000,000 bytes in the new bundle. Project-local Python 3.12/3.13 with the standard library. Zero joins, solver calls, assignment visits or search states/nodes, retries, restarts, historical replays and scope expansions.
+- If verification fails, preserve the available evidence as incomplete. Keep the historical and production files unchanged. Synchronize applicable LCL files and record only one proposed, separately authorized successor.

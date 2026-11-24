@@ -1,0 +1,107 @@
+{
+  "baseline_peeled_commit": "36ea1603602491bf3c1c5b81ed4c23aaa2210e70",
+  "baseline_tag_object": "fddfc1dd9541324b2ed2de2505bc750b3e3f0b9d",
+  "files": [
+    {
+      "bytes": 8,
+      "path": ".gitattributes",
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "bytes": 6908,
+      "path": "audit.py",
+      "sha256": "40092487fd3170defce1cef2074fb60c94775b9851f429fffd3839d2c31c4ac6"
+    },
+    {
+      "bytes": 1876,
+      "path": "command_receipt.json",
+      "sha256": "a2e97346a8c74e6c59421604f48bdd75c832fafa72a408950b65eecaa02a5da2"
+    },
+    {
+      "bytes": 6725,
+      "path": "config.json",
+      "sha256": "5dd1e1784b9e0a0592c9c081f79502cea3dc67878e20cf721b8b31229025c357"
+    },
+    {
+      "bytes": 1951,
+      "path": "CONTRACT.md",
+      "sha256": "912b559839fb76ed76f7fe0123cd20517af207cbaff32122f13df46109b5c5eb"
+    },
+    {
+      "bytes": 2289,
+      "path": "original.json",
+      "sha256": "d61f6409b0ccd380c8c576cf3d37e061170dc796403590db3f6eb8535c558ecb"
+    },
+    {
+      "bytes": 2926,
+      "path": "preflight.py",
+      "sha256": "27067ae62cf53ae3f1c3a4cbdbf288f92cb822e3be5c8710490c61bbdf6910ff"
+    },
+    {
+      "bytes": 1604,
+      "path": "preflight_receipt.json",
+      "sha256": "abb84d0c4f253cbfd9cdb6f3b824ffa4b0cf93e549ce0167ebd64978fe7c11f5"
+    },
+    {
+      "bytes": 3533,
+      "path": "README.md",
+      "sha256": "9c63cd99d01aca55ed8279aaf5aeca5c97a93b5e35c6d4a5ebed7a952e2ff839"
+    },
+    {
+      "bytes": 7563,
+      "path": "result.json",
+      "sha256": "37c5fa673f873ead7a1003daebe7019211e0850d6beb41f714b25688bc0ed946"
+    },
+    {
+      "bytes": 2092,
+      "path": "REVIEWS.md",
+      "sha256": "ae3587924accb6e9d5253c270123b6608751e2e8db105809caef394b28d6bfd6"
+    },
+    {
+      "bytes": 8010,
+      "path": "run.py",
+      "sha256": "0336d015d5f154933009eb2cb9520d264fd3f5ff7d5a6215db1cedb3f7604e7c"
+    }
+  ],
+  "hash_convention": "SHA-256 of raw file bytes. File paths in files are relative to this bundle. The manifest excludes itself.",
+  "repository_input_hashes": {
+    "evidence/validation/LCL_R241_222_OFFSET_MENU_001/MANIFEST.json": "9372e5b07fae85ef67819d1b592185c36ac9e8708075ec68b38455a7d1d5cd0f",
+    "evidence/validation/LCL_R241_222_OFFSET_MENU_001/result.json": "d667507493df288fd0e13fdb51a5a82a622805f103b144dfed7c04721182b974",
+    "evidence/validation/LCL_R241_222_STRICT_RETURN_001/MANIFEST.json": "ab6f259f2fa19b79f2bab53dab1f9abe71ca9d62aeb22ca08fa12726e68c9c8e",
+    "evidence/validation/LCL_R241_222_STRICT_RETURN_001/strict_original.json": "e6ffffcb6985e907748a42ca1ee91e83aa453c6ebbbae047e966a2b3115ee5d5",
+    "evidence/validation/LCL_R241_223_AUDIT_CLOSEOUT_001/MANIFEST.json": "ae834752c9417656d4afc2aa88d5dd37bea347eada803cbc0ec6b0563296904b",
+    "evidence/validation/LCL_R241_223_AUDIT_CLOSEOUT_001/audit_result.json": "6e2ec885519a480efeb71ea1da10fee992ae44006a6f57c359b9e1274ece3ad6",
+    "evidence/validation/LCL_R241_223_AUDIT_CLOSEOUT_001/command_receipt.json": "a4313bed9e8822bdcababe47d7342594b2bf0c43fd8f7e627da6adfc1336c7e1",
+    "evidence/validation/LCL_R241_223_STRICT_RETURN_001/MANIFEST.json": "796f76530a2ad925f2e31a5d21a3eb60db184c279f8bab08f9d289109f495c0d",
+    "evidence/validation/LCL_R241_223_STRICT_RETURN_001/command_receipts.json": "0cf2e399d699013fe18f2847cab0e97012c24b959e2a61a2187e0cad2cdb2527",
+    "evidence/validation/LCL_R241_223_STRICT_RETURN_001/config.json": "bd3f981b735031157cc653cbc527dccae8b51fc811afc94b0599bf65f1c55473",
+    "evidence/validation/LCL_R241_223_STRICT_RETURN_001/strict_original.json": "d61f6409b0ccd380c8c576cf3d37e061170dc796403590db3f6eb8535c558ecb",
+    "evidence/validation/LCL_R241_2AR_ZERO_HOST_001/CONTRACT.md": "912b559839fb76ed76f7fe0123cd20517af207cbaff32122f13df46109b5c5eb",
+    "evidence/validation/LCL_R241_2B2_SYMBOLIC_PORT34_001/MANIFEST.json": "c75ae91b9681afccf6f45c19876367d9dadcf7190cf6fdf49bb51d3142bfca38",
+    "evidence/validation/LCL_R241_2B2_SYMBOLIC_PORT34_001/REVIEWS.md": "683963090e44f970e70800651f6790b167e5127a45057e303818b65679707ea5",
+    "evidence/validation/LCL_R241_2B2_SYMBOLIC_PORT34_001/original.json": "8e680702c32b34481e3b4e81b726443a147d883a866e36117a777876e1d27685",
+    "evidence/validation/LCL_R241_2B2_SYMBOLIC_PORT34_001/result.json": "4ce73dba4691e3c3f54161e50de28db13802306350703a6c936f6fa01b143273",
+    "evidence/validation/LCL_R241_D090_REVERSE_BANDSWAP_001/MANIFEST.json": "dc05c796b5e5afc7bfd58e5e5c27edf229b9a33f4cd1d9a305d98ea778126ee4",
+    "evidence/validation/LCL_R241_D090_REVERSE_BANDSWAP_001/external_failure_receipt.json": "ff275f31230cc3df56905ac527f4e1390b68c3d310a21fba0ced297a8d8b3cc2",
+    "evidence/validation/LCL_R241_D090_REVERSE_BANDSWAP_RECOVERY_001/MANIFEST.json": "0d3b7f4c88260e9ab9f0af81cc4da9023d507c04f654fb68d3a8b808c019c64f",
+    "evidence/validation/LCL_R241_D090_REVERSE_BANDSWAP_RECOVERY_001/command_receipt.json": "9e71ef10492dac68b70dbe9a2c006523844932728d086c228d0e2a5aaca5ae9e",
+    "evidence/validation/LCL_R241_D094_BINARY_SELF_COMPOSITION_001/MANIFEST.json": "57a6c9c885af0eef36b5e96c8e54987448b28c6bd6155dcc8c32cec99460ac09",
+    "handoffs/CODEX-20261123-r241-d094-binary-self-composition.md": "0782c15b81a34227b0655832a9a16acf6288c255e50a62417b5c52a21bdfc5c1",
+    "lcl/__init__.py": "134055506d3e9cd4fa538177844d28a44d5ab567ec220cf54048e63d1a8a7374",
+    "lcl/model.py": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6",
+    "lcl/verify.py": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909",
+    "references/PROVENANCE.json": "aef6f71ab460265291366041a4144cd119a15a48c22398b6e535e9c5c73b0ace",
+    "research/ALPHA_ZERO_HOST_LEAF_EXTENSION.md": "a85dcf5941c44783ab7d0337b1ef577b4d4cbda59fe393fbe73eb5b47295ffeb",
+    "research/ALPHA_ZERO_PORT_LEAF_EXTENSION.md": "5312c920d4ff4bb77f2eef8ecd20c1d2fef768f343b4512b187dd989ea3ff8e7",
+    "research/R241_223_STRICT_RETURN.md": "4a39ef4e58ec3537b64e627728733c7348603a2be8eaf297a517027096278b98",
+    "research/R241_2AR_ZERO_HOST.md": "3ba48649deb354c504df89d7ae49d0ddffae2eea706f3e031408b8226cfcbbbb",
+    "research/R241_2B2_SYMBOLIC_PORT34.md": "1be502b5d04bade20864642df717dbc71fec705ea06b8ded02e3fcfc43ddbe1f",
+    "research/R241_3B3_PORT45_SYMBOLIC.md": "c32ac3712af434f1d25ffe1283a0488473ac09d7d98362a113fe83d2a3c301ef"
+  },
+  "starting_checkpoint": "4407901f36d7b7d7ca54d15fa846eba33a68402e",
+  "task": "LCL-R241-2AR-ZERO-HOST-001",
+  "upstream_pins": {
+    "Bounded Search": "e48b94eec4091b4fe189e325cab2eda464409943",
+    "MDL": "858a8c1fcfda87ba40bb1adee498a6131504a803"
+  }
+}
