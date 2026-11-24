@@ -1,0 +1,65 @@
+{
+  "argv": [
+    "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "evidence/validation/LCL_R241_D090_D093_JOINT_001/preflight.py",
+    "7005fc04e1b8cac9a14a3b1871833e4b0cad0e1d6c55933dbd36b096270a2be7"
+  ],
+  "bytecode_cache_absent": true,
+  "input_hashes": {
+    "audit.py": "5817e0d193f415e6bb241c08468dfc0cabfddbcfc78582f3b5c5f14924efa271",
+    "config.json": "7005fc04e1b8cac9a14a3b1871833e4b0cad0e1d6c55933dbd36b096270a2be7",
+    "preflight.py": "3b90ccbf8980c31620fcfcb51a021d0137f3de13aad5843f7a8c489525de75b8",
+    "run.py": "61767063b6b2aea8b411f56d7ab40be342023e8398424e7eb71dea4e86fab947"
+  },
+  "parent": "cbc5656eae1df54d9ea9d7a38280b7aa486a1183",
+  "parsed_functions": {
+    "audit.py": [
+      "load",
+      "digest",
+      "inspect",
+      "match_prior_manifest",
+      "read_controls",
+      "archived_negatives",
+      "map_components",
+      "joint_ledger",
+      "adverse_audit",
+      "check"
+    ],
+    "run.py": [
+      "read",
+      "hash_file",
+      "ledger_id",
+      "require_ports",
+      "d090_labels",
+      "reverse_section",
+      "shift_section",
+      "d093_labels",
+      "retained_controls",
+      "interface_gate",
+      "inventory_gate",
+      "compose",
+      "adverse_controls",
+      "verify_inputs",
+      "main",
+      "write_record",
+      "execute"
+    ]
+  },
+  "preflight_invocations": 1,
+  "runtime": {
+    "path": ".venv/Scripts/python.exe",
+    "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "status": "PASS",
+  "task": "LCL-R241-D090-D093-JOINT-001",
+  "task_module_imports": 0,
+  "vacant_official_outputs": [
+    "original.json",
+    "result.json",
+    "command_receipt.json"
+  ]
+}

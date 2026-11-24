@@ -2,19 +2,21 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 23, 2026, Pacific/Honolulu<br>
-**Stage:** D093 versioned recovery **PASS**. The separately archived original execution remains **INCOMPLETE**. [Proof](research/R241_D090_REVERSE_BANDSWAP.md) · [Recovery evidence](evidence/validation/LCL_R241_D090_REVERSE_BANDSWAP_RECOVERY_001/README.md).
+**Stage:** D094 closed. A(a+b+c+d+40,a+b+20;3,3) is **ACCEPTED** on the exact named eight-section original `[[2,a],[2],[3,b],[3],[3],[3,d],[2],[2,c]]` for integers a,b,c,d≥2. [Proof](research/R241_D090_D093_JOINT.md).
 
 ## Current scientific objective
 
-Supply multi-center modules with independently variable quotas and compatible physical offsets. D090 supplies (3,5), and D093 supplies (5,3) on its exact reversed original. The [latest handoff](handoffs/CODEX-20261123-r241-d090-reverse-bandswap-recovery.md) records the verified boundary and the original connector and inventory obligations for a separate composition.
+Supply multi-center modules with independently variable quotas and compatible physical ports. D094 joins D090 to D093 at the actual s:3–s:4 edge and returns (3,3). The [latest handoff](handoffs/CODEX-20261123-r241-d090-d093-joint.md) records the binary result and the separately proposed closure test.
 
 ## One next action
 
-Under separate authorization, prove or refute the single D090-to-D093 R241 composition on exact named `[[2,a],[2],[3,b],[3],[3],[3,d],[2],[2,c]]` for integers a,b,c,d≥2. Verify the physical connector s:3–s:4, complete label and difference inventories, and the proposed return A(a+b+c+d+40,a+b+20;3,3). Keep the task to one binary composition without repetition, solvers or assignment enumeration.
+Under separate authorization, prove or refute one binary self-composition of two independently parameterized D094 blocks on their exact concatenated 16-section original. Check the actual s:7–s:8 connector, complete joint inventories and returned (3,3) ports for eight independently chosen integer quotas at least two. Use at most one all-two boundary certificate, with no arbitrary-length induction, solvers or assignment enumeration.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
+
+- D094 supplies A(a+b+c+d+40,a+b+20;3,3) on exact `[[2,a],[2],[3,b],[3],[3],[3,d],[2],[2,c]]` for all integers a,b,c,d≥2. The single original connector has weight c+d+20 between the preserved D093 and shifted D090 spectra. One syntax preflight and one boundary certificate, two retained positives and three adverse rejections passed the checker, independent audit and separate reviews. See [proof](research/R241_D090_D093_JOINT.md) and [evidence](evidence/validation/LCL_R241_D090_D093_JOINT_001/README.md).
 
 - D093's executable **recovery passed** for a=b=2. One syntax preflight, one original and certificate, one retained positive and three adverse rejections passed the unchanged checker, independent audit and both separate reviews. The exact original D093 attempt remains **INCOMPLETE**. See [recovery evidence](evidence/validation/LCL_R241_D090_REVERSE_BANDSWAP_RECOVERY_001/README.md).
 
