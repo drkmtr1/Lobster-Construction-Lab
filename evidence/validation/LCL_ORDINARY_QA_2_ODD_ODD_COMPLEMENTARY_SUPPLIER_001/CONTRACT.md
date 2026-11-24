@@ -1,0 +1,9 @@
+# D115 frozen execution contract
+
+Task `LCL-ORDINARY-QA-2-ODD-ODD-COMPLEMENTARY-SUPPLIER-001` at parent `8de5f02ac74e060ddd61aadaf722ed4b78e50c83`. Prove one direct ordinary supplier for ordered `[[q,a],[2]]` at independently chosen exact odd integers q≥5 and a≥3. Preserve the physical pins `s:0=0`, `s:1=q+a+6` and `b:1:0=1`. The proof supplies the core, the R226 integral allocation and the original full vertex and difference inventories. D113 agreement is symbolic on a=3. D112 is checked for premise compatibility alone.
+
+Use only the retained D111 original and ledger at (q,a)=(5,3). Evaluate the indexed formula once for pointwise comparison, recheck D111 once with the unchanged checker, and reconstruct actual named roles, edge incidences and residual allocation independently. The four probes are wrong digest, cross-center terminal swap, allocation-only reflected pair flip while leaving the midpoint at the lower host, and complement. Keep ordinary verification, physical pins, resource bijections and physical quotas separate. Never assign the quota-only mutation to named terminal slots.
+
+One CPU worker, project-local Python 3.12/3.13 and standard-library dependencies only. Obtain separate implementation review before the one parse-only preflight. Freeze exact input hashes and verify them along with syntax, unique intended definitions, runtime and vacant output paths with no task imports or bytecode. Perform one supervised official invocation, at most 30 process-CPU seconds and 60 externally supervised wall seconds. Evidence limits are 2,000,000 bytes per record and 8,000,000 bytes total.
+
+No new numerical profiles, graph identities or certificates. No solver calls, assignment enumeration, search nodes or states, joins, historical replays, retries, restarts or successor experiments. Preserve INCOMPLETE on an interrupted or failed official verification without rerunning. The quantified result comes from the symbolic proof.

@@ -1,0 +1,64 @@
+{
+  "argv": [
+    "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-E",
+    "-X",
+    "utf8",
+    "evidence/validation/LCL_ORDINARY_QA_2_ODD_ODD_COMPLEMENTARY_SUPPLIER_001/preflight.py",
+    "e71a5c5eec1957e337748bd9a8d0ff9913f704de1bcc604bfc245e67e8db1b8f"
+  ],
+  "input_hashes": {
+    "CONTRACT.md": "d1700d6883e2df316c0bb4c64b400b0d4e0fc9cc62bdc371b490c023c8610e34",
+    "audit.py": "83dde6b386c32e6578669bed81b53bb204dcce3b20cefc0a861aeffdb8645fec",
+    "config.json": "e71a5c5eec1957e337748bd9a8d0ff9913f704de1bcc604bfc245e67e8db1b8f",
+    "preflight.py": "698ee3c3f2546713f0cba2df38ee5d55106ccb083e09f95e99c515b1c00f8820",
+    "run.py": "b0d65f8f3678a92bcd9c1b27e0dc0201395e628286ff8033d31662f048681b67",
+    "supervise.ps1": "b9ab79a4001ab3a37489953a29e06612f5deb42cbdf01c5a4c78f6933f104036"
+  },
+  "parent": "8de5f02ac74e060ddd61aadaf722ed4b78e50c83",
+  "parsed_functions": {
+    "audit.py": [
+      "boundary",
+      "canonical_sha",
+      "controls",
+      "residual_components",
+      "topology"
+    ],
+    "preflight.py": [
+      "check",
+      "main"
+    ],
+    "run.py": [
+      "allocation_gate",
+      "digest_file",
+      "execute",
+      "indexed_formula",
+      "pins_gate",
+      "produce",
+      "read_json",
+      "retained_positive",
+      "run_controls",
+      "validate_inputs",
+      "write_record"
+    ]
+  },
+  "preflight_invocations": 1,
+  "runtime": {
+    "path": ".venv/Scripts/python.exe",
+    "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "source_pins_checked": 265,
+  "status": "PASS",
+  "task": "LCL-ORDINARY-QA-2-ODD-ODD-COMPLEMENTARY-SUPPLIER-001",
+  "task_module_imports": 0,
+  "vacant_outputs": [
+    "original.json",
+    "result.json",
+    "command_receipt.json",
+    "supervisor_receipt.json",
+    "official_stderr.txt",
+    "__pycache__"
+  ]
+}
