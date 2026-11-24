@@ -2,19 +2,21 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 23, 2026, Pacific/Honolulu<br>
-**Stage:** D116 parity-dependent direct ordinary supplier for ordered `[[q,a],[2]]` with q≥5, a≥3 and at least one even quota **ACCEPTED**. Retained verification **PASS**. [Proof](research/ORDINARY_QA_2_PARITY_COMPLEMENTARY_SUPPLIER.md).
+**Stage:** D117 direct ordinary graceful supplier for ordered `[[q,a],[r]]` with independent exact integers q≥5, a≥3 and r≥2 **ACCEPTED**. Retained verification **PASS**. [Proof](research/ORDINARY_QAR_ALL_PARITY_SUPPLIER.md).
 
 ## Current scientific objective
 
-Develop independently supplied graceful modules with usable physical ports. The [latest handoff](handoffs/CODEX-20261123-ordinary-qa-2-parity-complementary-supplier.md) records the three remaining parity cases, all-parity seed coverage with D115, and one proposed application of D112.
+Develop independently supplied graceful modules with usable physical ports. The [latest handoff](handoffs/CODEX-20261123-ordinary-qar-all-parity-supplier.md) records the all-parity two-left-center supplier and identifies independent core and resource supply for an additional physical center as the next structural obligation.
 
 ## One next action
 
-Under separate authorization, consolidate the accepted D115 and D116 seed formulas and prove their exact application of D112 to ordered `[[q,a],[r]]` for independently chosen exact integers q≥5, a≥3 and r≥2. Give a single indexed construction with named seed agreement, all-parity host roles, exact joint label and difference partitions and the original spine and exit hypotheses. Use only retained numerical controls, with no new numerical profile, solver, assignment enumeration or join.
+Under separate authorization, prove or refute a direct ordinary graceful seed for exact ordered `[[q,a,2],[2]]` with independently chosen exact odd integers q≥5 and a≥3 at `s:0=0`, `s:1=q+a+9` and `b:1:0=1`. Test whether an independently labeled named core leaves disjoint R226 batches that exhaust the complete residual label and difference inventories and fill all three physical left quotas. Require a symbolic original-incidence proof or a precise obstruction to the proposed allocation, with no numerical profile sweep, solver, assignment enumeration or join.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
+
+- D117 **SUPPLIES** exact ordered `[[q,a],[r]]` for independently chosen exact integers q≥5, a≥3 and r≥2 with `s:0=0`, `s:1=q+a+r+4` and `b:1:0=1`. The all-parity seed fills both physical left quotas by complete reflected pairs and an available midpoint when required. D112 extends the right quota with exact indexed incidences and full label and weight coverage. The D111 and D114 retained evaluations and rechecks, four controls and separate reviews passed. See [proof](research/ORDINARY_QAR_ALL_PARITY_SUPPLIER.md) and [evidence](evidence/validation/LCL_ORDINARY_QAR_ALL_PARITY_SUPPLIER_001/README.md).
 
 - D116 **SUPPLIES** exact ordered `[[q,a],[2]]` for exact integers q≥5, a≥3 with at least one even quota. The lower host has even full quota and receives whole reflected pairs. An available midpoint goes to the higher host. The direct inventories and integral R226 counts cover all three cases, and D115 covers odd–odd. D114 is the sole numerical formula boundary, with D111 retained for comparison. See [proof](research/ORDINARY_QA_2_PARITY_COMPLEMENTARY_SUPPLIER.md) and [evidence](evidence/validation/LCL_ORDINARY_QA_2_PARITY_COMPLEMENTARY_SUPPLIER_001/README.md).
 

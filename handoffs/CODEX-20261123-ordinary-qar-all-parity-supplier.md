@@ -1,0 +1,15 @@
+# Codex handoff — D117 all-parity three-parameter ordinary supplier
+
+November 23, 2026, Pacific/Honolulu · `LCL-ORDINARY-QAR-ALL-PARITY-SUPPLIER-001` · parent `d39abe62a2020f1f576f1fc6101da2cc67c8de9f`. Repository `drkmtr1/Lobster-Construction-Lab`, branch `main`.
+
+**ACCEPT** direct ordinary graceful supply of exact ordered `[[q,a],[r]]` for independent exact integers q≥5, a≥3 and r≥2 at `s:0=0`, `s:1=m=q+a+r+4` and `b:1:0=1`. The independently supplied seed uses n=q+a+6, the integral R226 quotas and a reflection-invariant lower palette. It agrees pointwise with D115 in odd–odd and D116 in the other three cases. The accepted D112 transformation preserves every physical name and incidence and adds the next indexed right terminal. The direct proof checks the full label and actual weight partitions as well as the empty additions at r=2. D112's `[[5,3],[r]]` formula agrees throughout that subfamily. D107 retains its separate q=4 scope.
+
+[Proof](../research/ORDINARY_QAR_ALL_PARITY_SUPPLIER.md) · [Evidence](../evidence/validation/LCL_ORDINARY_QAR_ALL_PARITY_SUPPLIER_001/README.md) · [Audit and probes](../evidence/validation/LCL_ORDINARY_QAR_ALL_PARITY_SUPPLIER_001/result.json) · [Reviews](../evidence/validation/LCL_ORDINARY_QAR_ALL_PARITY_SUPPLIER_001/REVIEWS.md) · [Manifest](../evidence/validation/LCL_ORDINARY_QAR_ALL_PARITY_SUPPLIER_001/MANIFEST.json)
+
+**PASS** one parse-only preflight and one official invocation, exactly two retained formula evaluations and certificate rechecks, four controls and separate read-only reviews. Official CPU was 0.1875 seconds and supervised wall was 0.4139276 seconds. The official result uses only retained D111 and D114 originals. New profiles, graph identities, certificates, solver calls, assignment visits, search, joins, historical replays and retries all numbered zero.
+
+**ADVANCE** to the first additional physical left center. An independently supplied core and disjoint global resource batches for three left quotas remain open, as does ordinary spine composition. **Project instructions KEEP.** The standards distinguish symbolic supply, conditional growth and finite checks. Preserve the separate original and versioned D083, D093 and D100 dispositions, deferred 2322, both baseline identities and both upstream pins. Publication is restricted to LCL. Resolve this handoff's final checkpoint from its introducing commit and verify it against actual GitHub `main`.
+
+## One next action
+
+Under separate authorization, prove or refute a direct ordinary graceful seed for exact ordered `[[q,a,2],[2]]` with independently chosen exact odd integers q≥5 and a≥3 at `s:0=0`, `s:1=q+a+9` and `b:1:0=1`. Test whether an independently labeled named core leaves disjoint R226 batches that exhaust the complete residual label and difference inventories and fill all three physical left quotas. Require a symbolic original-incidence proof or a precise obstruction to the proposed allocation, with no numerical profile sweep, solver, assignment enumeration or join.

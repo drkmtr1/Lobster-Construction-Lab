@@ -1,0 +1,68 @@
+{
+  "argv": [
+    "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-E",
+    "-X",
+    "utf8",
+    "evidence/validation/LCL_ORDINARY_QAR_ALL_PARITY_SUPPLIER_001/preflight.py",
+    "1a57c3ae1e99a29c103f90557b788f6eb041256d4b91a999bfc49faa63008f91"
+  ],
+  "input_hashes": {
+    "CONTRACT.md": "98b5c77c0993b3e9a6379646017511107b3547af3014337b17db3444a0a76e9f",
+    "audit.py": "140faaf8ca7932812f3e35125a917015bd4a418f939f30ade369b1beccf9f854",
+    "config.json": "1a57c3ae1e99a29c103f90557b788f6eb041256d4b91a999bfc49faa63008f91",
+    "preflight.py": "698ee3c3f2546713f0cba2df38ee5d55106ccb083e09f95e99c515b1c00f8820",
+    "run.py": "9e0b78e1b9bc2fd9df887722810ec58058c0c9b2d58c6faaa694b9dbb2e7a3f6",
+    "supervise.ps1": "b9ab79a4001ab3a37489953a29e06612f5deb42cbdf01c5a4c78f6933f104036"
+  },
+  "parent": "d39abe62a2020f1f576f1fc6101da2cc67c8de9f",
+  "parsed_functions": {
+    "audit.py": [
+      "boundary",
+      "canonical_sha",
+      "controls",
+      "distances",
+      "residual_components",
+      "topology"
+    ],
+    "preflight.py": [
+      "check",
+      "main"
+    ],
+    "run.py": [
+      "allocation_gate",
+      "bound_formula",
+      "digest_file",
+      "execute",
+      "growth_gate",
+      "indexed_formula",
+      "original_residual_allocation",
+      "pins_gate",
+      "produce",
+      "read_json",
+      "retained_positive",
+      "run_controls",
+      "validate_inputs",
+      "write_record"
+    ]
+  },
+  "preflight_invocations": 1,
+  "runtime": {
+    "path": ".venv/Scripts/python.exe",
+    "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "source_pins_checked": 299,
+  "status": "PASS",
+  "task": "LCL-ORDINARY-QAR-ALL-PARITY-SUPPLIER-001",
+  "task_module_imports": 0,
+  "vacant_outputs": [
+    "original.json",
+    "result.json",
+    "command_receipt.json",
+    "supervisor_receipt.json",
+    "official_stderr.txt",
+    "__pycache__"
+  ]
+}
