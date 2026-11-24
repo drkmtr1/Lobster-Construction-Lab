@@ -1453,3 +1453,9 @@ The official audit and both reviews **PASSED** with one new original, zero certi
 **ACCEPT** the structural obstruction and **REJECT** ordinarily graceful supply on frozen ordered `[[5,3],[2]]` at `s:0=0`, `s:1=14`, `b:1:0=1` with exactly one signed difference −1 at any actual left terminal. The three possible placements of label 13 leave four scalar rows, which force repeated weights 9, 11, 10 and 10. D107 and D108 retain their accepted scopes.
 
 The official audit and both reviews **PASSED**, with one retained D106 recheck, four declared controls and zero new graphs or certificates. The complemented control stayed graceful and failed both pin and independently evaluated sign tests. The invocation used 0.125 process-CPU seconds. [Proof](ORDINARY_53_2_FREE_REVERSAL.md) · [Evidence](../evidence/validation/LCL_ORDINARY_53_2_FREE_REVERSAL_001/README.md) · D109
+
+## LCL-ORDINARY-53-2-MAGNITUDE-TWO-001
+
+**ACCEPT** the structural proof and **REJECT** the location-free sole signed difference −2 on a left terminal of frozen ordered `[[5,3],[2]]` with `s:0=0`, `s:1=14` and `b:1:0=1`. Orient from the traversal class containing `s:0`. The signed degree sum gives `7A+5B+2(P+Q)=166`. The three possible locations of label 13 yield two injectivity collisions, one row repeating both weights 9 and 11 and one impossible inequality excluding the entire third case. Ordinary supply at these pins without a signed restriction remains open in this record. D107–D109 retain their scopes.
+
+The official audit and both independent reviews **PASSED**, with one retained D106 recheck, four declared controls and zero new originals or certificates. The magnitude-two fixture passed the signed predicate and failed the ordinary verifier. The invocation used 0.1875 process-CPU seconds. [Proof](ORDINARY_53_2_MAGNITUDE_TWO.md) · [Evidence](../evidence/validation/LCL_ORDINARY_53_2_MAGNITUDE_TWO_001/README.md) · D110

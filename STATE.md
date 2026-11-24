@@ -2,19 +2,21 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 23, 2026, Pacific/Honolulu<br>
-**Stage:** D109 location-free magnitude-one interface **REJECTED** on frozen ordered `[[5,3],[2]]` at `s:0=0`, `s:1=14` and `b:1:0=1`. Structural proof **ACCEPTED** and audit **PASS**. [Proof](research/ORDINARY_53_2_FREE_REVERSAL.md).
+**Stage:** D110 location-free single magnitude-two interface **REJECTED** on frozen ordered `[[5,3],[2]]` at `s:0=0`, `s:1=14` and `b:1:0=1`. Structural proof **ACCEPTED** and audit **PASS**. [Proof](research/ORDINARY_53_2_MAGNITUDE_TWO.md).
 
 ## Current scientific objective
 
-Develop independently supplied graceful modules with usable physical ports. The [latest handoff](handoffs/CODEX-20261123-ordinary-53-2-free-reversal.md) records the location-free magnitude-one obstruction and one proposed magnitude test at the same pins.
+Develop independently supplied graceful modules with usable physical ports. The [latest handoff](handoffs/CODEX-20261123-ordinary-53-2-magnitude-two.md) records the magnitude-two obstruction and the proposal to look for a direct seed at the same pins without an internal sign constraint.
 
 ## One next action
 
-Under separate authorization, seek or rule out ordinary graceful supply on the same frozen ordered `[[5,3],[2]]` with `s:0=0`, `s:1=14`, `b:1:0=1` and exactly one negative signed difference of −2 at any left terminal in the orientation from the class of `s:0`. Use structural original-incidence reasoning with at most one verified certificate and zero new originals, solvers, complete-assignment enumeration or joins.
+Under separate authorization, seek or rule out a direct ordinary graceful seed on frozen ordered `[[5,3],[2]]` at `s:0=0`, `s:1=14` and `b:1:0=1`, with no internal signed-edge restriction. Reserve weights 14 and 13 on the actual spine and right attachment, then analyze the remaining label and difference inventories by original incidence. Use at most one directly verified certificate and zero new originals, solvers, complete-assignment enumeration or joins.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
+
+- D110 **EXCLUDES** the sole −2 left-terminal interface with location free on frozen ordered `[[5,3],[2]]` at the three pinned labels. Three cases for label 13 leave three scalar rows, excluded by two label collisions and one row with two repeated weights. The audit and separate reviews passed. The magnitude-two fixture passed the signed gate and failed the unchanged ordinary checker. See [proof](research/ORDINARY_53_2_MAGNITUDE_TWO.md) and [evidence](evidence/validation/LCL_ORDINARY_53_2_MAGNITUDE_TWO_001/README.md).
 
 - D109 **EXCLUDES** the location-free lone −1 interface on frozen ordered `[[5,3],[2]]` at the three pinned labels. Three cases leave four rows, each forcing a duplicate absolute difference. The retained positive, four controls and both reviews passed. See [proof](research/ORDINARY_53_2_FREE_REVERSAL.md) and [evidence](evidence/validation/LCL_ORDINARY_53_2_FREE_REVERSAL_001/README.md).
 

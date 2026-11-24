@@ -741,3 +741,5 @@ The [D100 versioned audit recovery](../evidence/validation/LCL_R241_43_2_FIXED_E
 [D108](ORDINARY_53_2_SIGNED_SEED.md) closes the exact fixed-reversal seed on `[[5,3],[2]]`. A usable direct seed when a left quota varies remains open under a different signed interface. The sole bounded proposal in [STATE.md](../STATE.md) separates the named location from the reversal magnitude.
 
 [D109](ORDINARY_53_2_FREE_REVERSAL.md) closes the location-free single magnitude-one interface at the three pins on `[[5,3],[2]]`. A compatible direct left-quota seed remains open under different sign constraints. The sole unstarted magnitude-two proposal is in [STATE.md](../STATE.md).
+
+[D110](ORDINARY_53_2_MAGNITUDE_TWO.md) closes the location-free single magnitude-two interface at the same pins. The D107 growth step depends on the two edges at the pinned exit and their weights. The next seed question therefore leaves internal signed differences unrestricted. The outstanding obligation is direct ordinary supply at the same three pins, or an incidence proof excluding those pins, before any use of such a seed. The one unstarted proposal is in [STATE.md](../STATE.md).

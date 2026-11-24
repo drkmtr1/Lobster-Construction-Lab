@@ -535,3 +535,7 @@ The [separate D100 audit recovery](../evidence/validation/LCL_R241_43_2_FIXED_EX
 ### F-ORDINARY-53-2-FREE-REVERSAL
 
 **REJECT** the location-free magnitude-one interface on frozen ordered `[[5,3],[2]]` at `s:0=0`, `s:1=14` and `b:1:0=1`, oriented from the class of `s:0`. All four scalar rows force repeated absolute differences. The exclusion applies to the sole −1 on an actual left terminal at these pins. Ordinary gracefulness under other constraints remains undecided. [Proof](ORDINARY_53_2_FREE_REVERSAL.md) · D109
+
+### F-ORDINARY-53-2-MAGNITUDE-TWO
+
+**REJECT** a sole −2 at any actual left terminal on frozen ordered `[[5,3],[2]]` with `s:0=0`, `s:1=14` and `b:1:0=1`, oriented from the class of `s:0`. A right-terminal 13 forces a center and terminal to share a label. A reversed first-left terminal 13 forces repeats 9 and 11. A reversed second-left terminal 13 contradicts the signed degree bound `107<111`. Other signed patterns and ordinary gracefulness remain undecided by this proof. [Proof](ORDINARY_53_2_MAGNITUDE_TWO.md) · D110
