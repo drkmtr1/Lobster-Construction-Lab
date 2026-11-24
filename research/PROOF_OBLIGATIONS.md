@@ -735,3 +735,5 @@ The [D100 versioned audit recovery](../evidence/validation/LCL_R241_43_2_FIXED_E
 [D105](ORDINARY_43_2_EXTREME_SPINE.md) discharges the direct ordinary graceful supply obligation on the frozen original at physical labels (0,13). The one negative signed edge is verified on this certificate. Stability under a controlled quota change and a usable general ordinary module rule remain open. The one unstarted capacity-change proposal is in [STATE.md](../STATE.md).
 
 [D106](ORDINARY_43_3_EXTREME_SPINE.md) discharges the exact change from two to three right terminals, with physical labels (0,14) and the preserved sole named negative signed edge. Repeatability with complete original-edge and vertex inventories remains open. The one unstarted symbolic iteration proposal is in [STATE.md](../STATE.md).
+
+[D107](ORDINARY_43R_EXTREME_SPINE.md) discharges symbolic repeatability for fixed left quotas 4 and 3 with exact right quota r≥2 and the named signed interface. A direct seed under an independently changed left quota remains open. The sole unstarted seed proposal is in [STATE.md](../STATE.md).

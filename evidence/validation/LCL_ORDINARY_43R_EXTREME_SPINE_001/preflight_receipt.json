@@ -1,0 +1,60 @@
+{
+  "argv": [
+    "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "evidence/validation/LCL_ORDINARY_43R_EXTREME_SPINE_001/preflight.py",
+    "1cb00e967d66adac6cd00ca36719c2080836e64debdb640cb52aba68a043bba6"
+  ],
+  "input_hashes": {
+    "CONTRACT.md": "8f0d710b29c40bd231bcc98b824ad77f925b69b86bb7fef7809ebb9856ec84ee",
+    "audit.py": "c820ca29472734f6496e0dafee8de044c05a4601a073ed54a6325e06100345bb",
+    "config.json": "1cb00e967d66adac6cd00ca36719c2080836e64debdb640cb52aba68a043bba6",
+    "preflight.py": "b943e7fdaf3c81187bb7acde088d9eb179f112d964c66a46f753bff424cd6b3b",
+    "run.py": "56fc254a33e6e547b30aa59593811868ed80e5a2c1a2c96f136191aa6c52e200"
+  },
+  "parent": "461b00bbf8b5306fcf409f3915f2255470fa2f84",
+  "parsed_functions": {
+    "audit.py": [
+      "topology",
+      "ledger_id",
+      "boundary",
+      "retained_step",
+      "controls"
+    ],
+    "preflight.py": [
+      "check",
+      "main"
+    ],
+    "run.py": [
+      "read_json",
+      "digest_file",
+      "write_record",
+      "inspect_signed_interface",
+      "require_signed_interface",
+      "retained_positive",
+      "adverse_controls",
+      "validate_inputs",
+      "produce",
+      "execute"
+    ]
+  },
+  "preflight_invocations": 1,
+  "runtime": {
+    "path": ".venv/Scripts/python.exe",
+    "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "source_pins_checked": 136,
+  "status": "PASS",
+  "task": "LCL-ORDINARY-43R-EXTREME-SPINE-001",
+  "task_module_imports": 0,
+  "vacant_outputs": [
+    "original.json",
+    "result.json",
+    "command_receipt.json",
+    "invocation_failure.json",
+    "__pycache__"
+  ]
+}

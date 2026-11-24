@@ -1435,3 +1435,9 @@ The official audit and both reviews **PASSED** with one new certificate, no new 
 **ACCEPT** the exact ordinary graceful transition from D105's `[[4,3],[2]]` to ordered `[[4,3],[3]]`. Raising `s:1` to 14 and giving the new right terminal 13 preserves the differences [1,11] and supplies 12, 13 and 14 on the new terminal, right attachment and spine. The physical labels (0,14) and sole signed reversal −1 at `l:0:0:3 → b:0:0` hold on the new original. Signed degree sum is 103. The target has a separate alpha labeling through D098. D104 remains accepted on the source.
 
 The official audit and both reviews **PASSED** with one new graph identity, one accepted certificate, one retained D105 recheck and three adverse controls in 0.09375 process-CPU seconds. The within-center swap passes ordinary gracefulness and fails the exact physical signed interface. [Proof](ORDINARY_43_3_EXTREME_SPINE.md) · [Evidence](../evidence/validation/LCL_ORDINARY_43_3_EXTREME_SPINE_001/README.md) · D106
+
+## LCL-ORDINARY-43R-EXTREME-SPINE-001
+
+**ACCEPT** one symbolic induction and the direct indexed ordinary graceful supplier on exact ordered `[[4,3],[r]]` for every integer r≥2. The actual physical spine labels are (0,r+11) and the sole negative signed difference remains −1 at `l:0:0:3 → b:0:0`. Both inventories close at every induction step and signed degree sum is (r+11)(r+12)/2−2. D104 and D097/D098 retain their distinct alpha results.
+
+The official audit and both independent reviews **PASSED** with the two retained boundary rechecks, three controls, zero new graphs or certificates, and 0.203125 process-CPU seconds. [Proof](ORDINARY_43R_EXTREME_SPINE.md) · [Evidence](../evidence/validation/LCL_ORDINARY_43R_EXTREME_SPINE_001/README.md) · D107

@@ -1,0 +1,9 @@
+# D107 frozen task contract
+
+Task `LCL-ORDINARY-43R-EXTREME-SPINE-001` with accepted starting checkpoint `461b00bbf8b5306fcf409f3915f2255470fa2f84`. Prove or refute exactly one symbolic induction for ordered `[[4,3],[r]]`, exact integers r≥2, with spine labels (0,r+11) and sole signed difference −1 at `l:0:0:3 → b:0:0` in the orientation from the class of `s:0`. Independently establish the original structure, both inventories, named transition and signed degree sum. Retain D104 and the separate D097/D098 alpha scopes.
+
+Use only the two archived originals and certificates for r=2 and r=3. Check pointwise formula agreement, exact topology and sign and resource inventories with the unchanged original-target checker and independent audit. Exercise exactly three genuine probes on retained D106: wrong digest, cross-center swap rejected by the ordinary checker, and within-center swap accepted as ordinary graceful and rejected by the exact signed-interface gate.
+
+Use project-local Python 3.12/3.13 with standard library and one CPU worker. Freeze raw source, retained inputs, configuration and runtime. Use one parse-only preflight with complete syntax, unique definitions, no task imports, no bytecode and vacant outputs. Independently inspect assertions before one official invocation. Cap at 30 process-CPU seconds and 60 supervised wall seconds, 2,000,000 bytes per record and 8,000,000 bytes total. On failure or cap exhaustion preserve INCOMPLETE and stop without repair or retry.
+
+Permit two retained certificate rechecks and zero new graphs or certificates. No additional profile tests, solvers, enumeration, assignment or search states, joins, retries, restarts, historical replays or successor experiments. Obtain independent read-only mathematical and implementation reviews. Preserve all historical records, deferred D076, baseline identities and protected upstream pins. Publish only LCL and record one unstarted proposal.
