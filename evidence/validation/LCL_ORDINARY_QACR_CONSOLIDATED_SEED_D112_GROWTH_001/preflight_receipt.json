@@ -1,0 +1,104 @@
+{
+  "argv": [
+    "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-E",
+    "-X",
+    "utf8",
+    "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\evidence\\validation\\LCL_ORDINARY_QACR_CONSOLIDATED_SEED_D112_GROWTH_001\\preflight.py",
+    "be14ad181a255cbf2b285fa3d746c5eb2f5d23805966d9a46664b1da4cd38f35"
+  ],
+  "input_hashes": {
+    ".gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "CONTRACT.md": "d11f8fa65784464b770e9641c15fa8600cc2a1f96a1659789e88deb2b1dc0945",
+    "audit.py": "e2c5945cd02eb2867e537bc31753da0d6d045ec4e03e332222570336c74365f1",
+    "config.json": "be14ad181a255cbf2b285fa3d746c5eb2f5d23805966d9a46664b1da4cd38f35",
+    "preflight.py": "0c1299f1d3930540b4dd2313af4ca6b3f1296a03cc82f82550e3e5df68e101db",
+    "run.py": "16ca1185c0a38ac5d9df97d83f9c4c6e67bbe5f8679963e6a3ec14e14760cee2",
+    "supervise.ps1": "59f947d3e6d7a4085658af4841056ec8dfa6788e273a9e65c704070bc168fbf8"
+  },
+  "parent": "615f846ac8c4c86575f53ac50fef56d6c0cb648d",
+  "parsed_functions": {
+    "audit.py": [
+      "check_base_specialization",
+      "check_growth_premises",
+      "digest_json",
+      "inspect_certificate",
+      "inspect_original"
+    ],
+    "preflight.py": [
+      "check",
+      "digest",
+      "main"
+    ],
+    "run.py": [
+      "check_member",
+      "digest_file",
+      "dispatch",
+      "execute",
+      "identity_binding",
+      "inspect_D121",
+      "inspect_D122_adverse",
+      "inspect_positive",
+      "open_archive",
+      "produce",
+      "read_json",
+      "run_controls",
+      "seed_size_admission",
+      "validate_inputs",
+      "write_record"
+    ]
+  },
+  "preflights": 1,
+  "process_cpu_seconds": 0.296875,
+  "retained_inputs": {
+    "evidence/validation/LCL_ORDINARY_Q3C_2_UNEQUAL_MODIFIED_SHARED_MIDDLE_CORE_001/MANIFEST.json": "420a20bc9a7095dc35d400639285375bb07b26cbd1a78edcd68d126317ec1af4",
+    "evidence/validation/LCL_ORDINARY_Q3C_2_UNEQUAL_MODIFIED_SHARED_MIDDLE_CORE_001/original.json": "f0f05f3262ce3898bdda5f9f705cfaaf5dfe23aa7a675528aa469f3591510630",
+    "evidence/validation/LCL_ORDINARY_Q3C_2_UNEQUAL_MODIFIED_SHARED_MIDDLE_CORE_001/result.json": "fb772ec9fd429e6f3ca8b970477caf3d1ad369f81da33f82cec965c8af219e5c",
+    "evidence/validation/LCL_ORDINARY_QA2_2_DISJOINT_R226_SUPPLIER_001/MANIFEST.json": "f8ff91e57ba15ad6e78751ee600a0c4af0015e12172855f5fed459982ddd46f9",
+    "evidence/validation/LCL_ORDINARY_QA2_2_DISJOINT_R226_SUPPLIER_001/original.json": "2ee8c1f8608b97544e0f287ed25000118142b6965b81eb0b7a269b0a515a9c38",
+    "evidence/validation/LCL_ORDINARY_QA2_2_DISJOINT_R226_SUPPLIER_001/result.json": "1a9ad55ab35ef7c950d6c70cc283e57d55ee97055c085c6899ccea9a9f4303c7",
+    "evidence/validation/LCL_ORDINARY_QAC_2_EVEN_C_DISJOINT_R226_SUPPLIER_001/MANIFEST.json": "6cf4be8297ba8d3f0602f861445cb12c444f08d0edb72440e2bab01241a85e7f",
+    "evidence/validation/LCL_ORDINARY_QAC_2_EVEN_C_DISJOINT_R226_SUPPLIER_001/original.json": "ec39c150f981827175781c6f74b5dcea72b43183adefec1943da7fd0098d9a78",
+    "evidence/validation/LCL_ORDINARY_QAC_2_EVEN_C_DISJOINT_R226_SUPPLIER_001/result.json": "5931a9e083d46e9e9db3446543dd27848661f35409e181c127c271eacb6468c5",
+    "evidence/validation/LCL_ORDINARY_QAC_2_ODD_C_DISJOINT_R226_SUPPLIER_001/MANIFEST.json": "ad63cd280d21b1e1bbb68ea0e350324039aaa2c9fc056364d8063fcd4720d55a",
+    "evidence/validation/LCL_ORDINARY_QAC_2_ODD_C_DISJOINT_R226_SUPPLIER_001/original.json": "4ed50f4a8bb799dc7ddbfcd8559f840442a14005e9eeb35d0fd00402455b3bdd",
+    "evidence/validation/LCL_ORDINARY_QAC_2_ODD_C_DISJOINT_R226_SUPPLIER_001/result.json": "f7a5e519a5e40420ef6956899f587141d935cbe734c16cd5fc7391b33f204d5f",
+    "evidence/validation/LCL_ORDINARY_QAC_2_TWO_EVEN_FIXED_CORE_CLASSIFICATION_001/MANIFEST.json": "c95ce4859ef7461a4b02524ded36a355f351de025e566c370c47ff8ec8da1297",
+    "evidence/validation/LCL_ORDINARY_QAC_2_TWO_EVEN_FIXED_CORE_CLASSIFICATION_001/obstruction.json": "1b752bc1288e74e75bf156bf3fcff7d3a4e31697d25378d02ae82d2ac2ad2bd8",
+    "evidence/validation/LCL_ORDINARY_QAC_2_TWO_EVEN_FIXED_CORE_CLASSIFICATION_001/original_I.json": "037cc175a81c50ecd32d924d2f58bcc64e3d969547b94781739ce23432a51e10",
+    "evidence/validation/LCL_ORDINARY_QAC_2_TWO_EVEN_FIXED_CORE_CLASSIFICATION_001/original_II.json": "b54df022e8cfcffaa4f68e2e0f7ddc0f8998f83670a322079f139831052da8ab",
+    "evidence/validation/LCL_ORDINARY_QAC_2_TWO_EVEN_FIXED_CORE_CLASSIFICATION_001/original_adverse.json": "9875fa6239d80dac3702b73d502b9621469b6c1c44289f7026fff39c8fcdb18f",
+    "evidence/validation/LCL_ORDINARY_QAC_2_TWO_EVEN_FIXED_CORE_CLASSIFICATION_001/result.json": "6f5b455e4200c3339dcec93caa5280969748c27287e8cec0154ce5e99086eb32",
+    "evidence/validation/LCL_ORDINARY_QAC_2_TWO_ODD_ONE_EVEN_ROLE_TRANSPORT_001/MANIFEST.json": "aeac3cf2084b2edb8636b8a4eea426403b6bd95e07d1bcbaa762ecbe6ebf2a70",
+    "evidence/validation/LCL_ORDINARY_QAC_2_TWO_ODD_ONE_EVEN_ROLE_TRANSPORT_001/result.json": "3ff40ab85f68c7398ec4b33eb0e0eefd0518efe80a9f2fb62fa03d0994572be7",
+    "evidence/validation/LCL_ORDINARY_U3U_2_MODIFIED_SHARED_MIDDLE_CORE_001/MANIFEST.json": "1cc272706b13c4c3e60c1003ba49c0da581edede56bd1c5cf0cb726eb3b26966",
+    "evidence/validation/LCL_ORDINARY_U3U_2_MODIFIED_SHARED_MIDDLE_CORE_001/original.json": "8a8a121ba003744712755fca484d77bd7949f404ac54ad2550acda4f6d680135",
+    "evidence/validation/LCL_ORDINARY_U3U_2_MODIFIED_SHARED_MIDDLE_CORE_001/result.json": "0ce698151c1a6bb357a7e86e545bef3c2c859feab93598beea1dbd70b89b3329",
+    "research/ORDINARY_EXTREME_SPINE_GROWTH.md": "f65f6755e7306f166341d50fcddee2fed963024e09f55ff8801887190f0a7b58",
+    "research/ORDINARY_Q3C_2_UNEQUAL_MODIFIED_SHARED_MIDDLE_CORE.md": "e698bddd24c6a5ef10dfb3acca15784ecb0438a78aad8f41a2328b2bbe8eb959",
+    "research/ORDINARY_QA2_2_DISJOINT_R226_SUPPLIER.md": "b4c0c6d99274508b42d35e2f769b303a14f2ecda69960b23fd100bab6d4229f4",
+    "research/ORDINARY_QAC_2_EVEN_C_DISJOINT_R226_SUPPLIER.md": "86f1eb2785a018d283383978b647dd5189fa4b3e8d83f0477ff9d74b58245eb2",
+    "research/ORDINARY_QAC_2_ODD_C_DISJOINT_R226_SUPPLIER.md": "b3fd829e073d18244be27a7b8723cee06cbb51a1457181bd78cdbecb2c5e65df",
+    "research/ORDINARY_QAC_2_TWO_EVEN_FIXED_CORE_CLASSIFICATION.md": "d5a677e69872a5ec4ee3431d5c2e776a92b77e523877ee4b1c492b119b1a094e",
+    "research/ORDINARY_QAC_2_TWO_ODD_ONE_EVEN_ROLE_TRANSPORT.md": "6dd6246d1457fa74d49bc42a5cf15aad47444c7ddf13120ba7b9822fbb41bbff",
+    "research/ORDINARY_U3U_2_MODIFIED_SHARED_MIDDLE_CORE.md": "b8cffd77217f47f83b487be5feb084b2f6e3a49736e3088888e52dffa3270f9e"
+  },
+  "runtime": {
+    "path": ".venv/Scripts/python.exe",
+    "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "source_pins_checked": 482,
+  "status": "PASS",
+  "task": "LCL-ORDINARY-QACR-CONSOLIDATED-SEED-D112-GROWTH-001",
+  "task_module_imports": 0,
+  "vacant_outputs": [
+    "preflight_receipt.json",
+    "result.json",
+    "command_receipt.json",
+    "verification_supervision.json",
+    "verification_stderr.txt",
+    "__pycache__"
+  ]
+}

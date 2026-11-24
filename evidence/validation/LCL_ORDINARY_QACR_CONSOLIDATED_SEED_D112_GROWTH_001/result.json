@@ -1,0 +1,2130 @@
+{
+  "D121_identity_inspection": {
+    "archived_agreement": true,
+    "extra_checker_recheck": false,
+    "identity_order": [
+      0,
+      1,
+      2
+    ],
+    "retained_source": {
+      "graph_digest": "ebb04e69f7e23da6786aaa6b5eb9aafad963949f1877756667f50f8aac55e568",
+      "ledger_id": "4fce31bf665ff38991af24346e9a178a16b8389a43b13b9aed33e127bb0c44de",
+      "original": "evidence/validation/LCL_ORDINARY_QAC_2_EVEN_C_DISJOINT_R226_SUPPLIER_001/original.json",
+      "original_sha256": "ec39c150f981827175781c6f74b5dcea72b43183adefec1943da7fd0098d9a78",
+      "profile": [
+        [
+          5,
+          3,
+          4
+        ],
+        [
+          2
+        ]
+      ],
+      "result": "evidence/validation/LCL_ORDINARY_QAC_2_EVEN_C_DISJOINT_R226_SUPPLIER_001/result.json",
+      "result_sha256": "5931a9e083d46e9e9db3446543dd27848661f35409e181c127c271eacb6468c5"
+    },
+    "same_distinct_graph_as_D119": true
+  },
+  "controls": {
+    "adverse_dispatch": {
+      "dispatch": {
+        "status": "OUTSIDE_ESTABLISHED_COVERAGE"
+      },
+      "profile": [
+        [
+          6,
+          3,
+          4
+        ],
+        [
+          2
+        ]
+      ],
+      "retained_obstruction": {
+        "archive_replayed": false,
+        "binding": {
+          "original": {
+            "graph_digest": "be51de0924c9de0f9a81929ecb98c9f29502e7f78ccadd0bfb6384f32c99e393",
+            "path": "original_adverse.json",
+            "profile": [
+              [
+                6,
+                3,
+                4
+              ],
+              [
+                2
+              ]
+            ],
+            "raw_sha256": "9875fa6239d80dac3702b73d502b9621469b6c1c44289f7026fff39c8fcdb18f"
+          },
+          "path": "obstruction.json",
+          "sha256": "1b752bc1288e74e75bf156bf3fcff7d3a4e31697d25378d02ae82d2ac2ad2bd8"
+        },
+        "certificates": 0,
+        "scope": "all_completions_of_the_specified_labeled_core",
+        "status": "FIXED_CORE_INFEASIBLE"
+      }
+    },
+    "cross_bind_D123_to_D124": {
+      "actual_graph_digest": "386aa9158bf0ea3763067cb2fe2b87abe27837cc033b759328e0cbaf90cc37a4",
+      "certificate_graph_digest": "ac71eba8f56fefb203192b6d3f2cf2b7157bd0ab9a091260413fcc1884ba28b4",
+      "claimed_ledger_id": "be06550ced186c0b21dc4b864efad036f0a8c6b7a6e21c2d5b96032a4764ecb3",
+      "valid": false
+    },
+    "wrong_expected_digest": {
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          24,
+          2,
+          19,
+          6,
+          8,
+          10,
+          11,
+          12,
+          18,
+          1,
+          9,
+          7,
+          20,
+          17,
+          16,
+          15,
+          14,
+          13,
+          5,
+          4,
+          3,
+          23,
+          22,
+          21
+        ],
+        "errors": [
+          "original graph digest mismatch"
+        ],
+        "graph_digest": "386aa9158bf0ea3763067cb2fe2b87abe27837cc033b759328e0cbaf90cc37a4",
+        "m": 24,
+        "n": 25,
+        "valid": false
+      },
+      "expected": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "wrong_seed_size": {
+      "actual_edges": 24,
+      "claimed_n": 25,
+      "maximum_label": 24,
+      "profile_n": 24,
+      "tests": {
+        "against_actual_edges": false,
+        "against_maximum_label": false,
+        "against_profile": false,
+        "exact_integer": true
+      },
+      "valid": false
+    }
+  },
+  "parent": "615f846ac8c4c86575f53ac50fef56d6c0cb648d",
+  "positives": {
+    "D118": {
+      "D112_premises": {
+        "exit_neighbors": [
+          "b:1:0",
+          "s:0"
+        ],
+        "pins": {
+          "b:1:0": 1,
+          "s:0": 0,
+          "s:1": 17
+        },
+        "tests": {
+          "actual_spine_edge": true,
+          "exact_exit_neighbors": true,
+          "maximum_exit_label": true,
+          "physical_pins": true,
+          "right_center_off_spine": true,
+          "terminal_endpoint_and_predecessor": true
+        },
+        "valid": true
+      },
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          17,
+          13,
+          1,
+          10,
+          9,
+          7,
+          4,
+          2,
+          12,
+          5,
+          8,
+          11,
+          6,
+          3,
+          16,
+          15,
+          14
+        ],
+        "errors": [],
+        "graph_digest": "251199e28613d0928ae9341bdef911ec9fa8032daefa66d02c04a0bd7da60e20",
+        "m": 17,
+        "n": 18,
+        "valid": true
+      },
+      "dispatch": {
+        "D118_pointwise_specialization": true,
+        "role_indices_H_L_C": [
+          0,
+          1,
+          2
+        ],
+        "sector": "II",
+        "status": "COVERED",
+        "supplier": "D119"
+      },
+      "identity": {
+        "actual_graph_digest": "251199e28613d0928ae9341bdef911ec9fa8032daefa66d02c04a0bd7da60e20",
+        "certificate_graph_digest": "251199e28613d0928ae9341bdef911ec9fa8032daefa66d02c04a0bd7da60e20",
+        "claimed_ledger_id": "761cdee2fb118b0374ba871698304ca45dd6fef36b9b70dcef403e7076dea996",
+        "valid": true
+      },
+      "independent": {
+        "edge_weights": [
+          17,
+          13,
+          1,
+          10,
+          9,
+          7,
+          4,
+          2,
+          12,
+          5,
+          8,
+          11,
+          6,
+          3,
+          16,
+          15,
+          14
+        ],
+        "ledger_id": "761cdee2fb118b0374ba871698304ca45dd6fef36b9b70dcef403e7076dea996",
+        "named_incidences": [
+          [
+            "s:0",
+            "s:1",
+            17
+          ],
+          [
+            "s:0",
+            "b:0:0",
+            13
+          ],
+          [
+            "b:0:0",
+            "l:0:0:0",
+            1
+          ],
+          [
+            "b:0:0",
+            "l:0:0:1",
+            10
+          ],
+          [
+            "b:0:0",
+            "l:0:0:2",
+            9
+          ],
+          [
+            "b:0:0",
+            "l:0:0:3",
+            7
+          ],
+          [
+            "b:0:0",
+            "l:0:0:4",
+            4
+          ],
+          [
+            "s:0",
+            "b:0:1",
+            2
+          ],
+          [
+            "b:0:1",
+            "l:0:1:0",
+            12
+          ],
+          [
+            "b:0:1",
+            "l:0:1:1",
+            5
+          ],
+          [
+            "b:0:1",
+            "l:0:1:2",
+            8
+          ],
+          [
+            "s:0",
+            "b:0:2",
+            11
+          ],
+          [
+            "b:0:2",
+            "l:0:2:0",
+            6
+          ],
+          [
+            "b:0:2",
+            "l:0:2:1",
+            3
+          ],
+          [
+            "s:1",
+            "b:1:0",
+            16
+          ],
+          [
+            "b:1:0",
+            "l:1:0:0",
+            15
+          ],
+          [
+            "b:1:0",
+            "l:1:0:1",
+            14
+          ]
+        ],
+        "vertex_label_alphabet": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      },
+      "manifest_verified": true,
+      "r_equals_two": {
+        "added_indices": [],
+        "added_label_count": 0,
+        "added_weight_count": 0,
+        "final_edge_count": 17,
+        "named_original_unchanged": true,
+        "pointwise_identity": true,
+        "r": 2,
+        "right_seed_labels": [
+          16,
+          15
+        ],
+        "seed_edge_count": 17
+      },
+      "seed_size": {
+        "actual_edges": 17,
+        "claimed_n": 17,
+        "maximum_label": 17,
+        "profile_n": 17,
+        "tests": {
+          "against_actual_edges": true,
+          "against_maximum_label": true,
+          "against_profile": true,
+          "exact_integer": true
+        },
+        "valid": true
+      },
+      "source": {
+        "archive": "D118",
+        "expected_dispatch": {
+          "D118_pointwise_specialization": true,
+          "role_indices_H_L_C": [
+            0,
+            1,
+            2
+          ],
+          "sector": "II",
+          "status": "COVERED",
+          "supplier": "D119"
+        },
+        "ledger_id": "761cdee2fb118b0374ba871698304ca45dd6fef36b9b70dcef403e7076dea996",
+        "original_record": {
+          "graph_digest": "251199e28613d0928ae9341bdef911ec9fa8032daefa66d02c04a0bd7da60e20",
+          "path": "original.json",
+          "raw_sha256": "2ee8c1f8608b97544e0f287ed25000118142b6965b81eb0b7a269b0a515a9c38"
+        },
+        "profile": [
+          [
+            5,
+            3,
+            2
+          ],
+          [
+            2
+          ]
+        ],
+        "variant": null
+      }
+    },
+    "D119": {
+      "D112_premises": {
+        "exit_neighbors": [
+          "b:1:0",
+          "s:0"
+        ],
+        "pins": {
+          "b:1:0": 1,
+          "s:0": 0,
+          "s:1": 19
+        },
+        "tests": {
+          "actual_spine_edge": true,
+          "exact_exit_neighbors": true,
+          "maximum_exit_label": true,
+          "physical_pins": true,
+          "right_center_off_spine": true,
+          "terminal_endpoint_and_predecessor": true
+        },
+        "valid": true
+      },
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          19,
+          15,
+          1,
+          12,
+          11,
+          9,
+          4,
+          2,
+          14,
+          7,
+          10,
+          13,
+          8,
+          6,
+          5,
+          3,
+          18,
+          17,
+          16
+        ],
+        "errors": [],
+        "graph_digest": "ebb04e69f7e23da6786aaa6b5eb9aafad963949f1877756667f50f8aac55e568",
+        "m": 19,
+        "n": 20,
+        "valid": true
+      },
+      "dispatch": {
+        "D118_pointwise_specialization": false,
+        "role_indices_H_L_C": [
+          0,
+          1,
+          2
+        ],
+        "sector": "II",
+        "status": "COVERED",
+        "supplier": "D119"
+      },
+      "identity": {
+        "actual_graph_digest": "ebb04e69f7e23da6786aaa6b5eb9aafad963949f1877756667f50f8aac55e568",
+        "certificate_graph_digest": "ebb04e69f7e23da6786aaa6b5eb9aafad963949f1877756667f50f8aac55e568",
+        "claimed_ledger_id": "4fce31bf665ff38991af24346e9a178a16b8389a43b13b9aed33e127bb0c44de",
+        "valid": true
+      },
+      "independent": {
+        "edge_weights": [
+          19,
+          15,
+          1,
+          12,
+          11,
+          9,
+          4,
+          2,
+          14,
+          7,
+          10,
+          13,
+          8,
+          6,
+          5,
+          3,
+          18,
+          17,
+          16
+        ],
+        "ledger_id": "4fce31bf665ff38991af24346e9a178a16b8389a43b13b9aed33e127bb0c44de",
+        "named_incidences": [
+          [
+            "s:0",
+            "s:1",
+            19
+          ],
+          [
+            "s:0",
+            "b:0:0",
+            15
+          ],
+          [
+            "b:0:0",
+            "l:0:0:0",
+            1
+          ],
+          [
+            "b:0:0",
+            "l:0:0:1",
+            12
+          ],
+          [
+            "b:0:0",
+            "l:0:0:2",
+            11
+          ],
+          [
+            "b:0:0",
+            "l:0:0:3",
+            9
+          ],
+          [
+            "b:0:0",
+            "l:0:0:4",
+            4
+          ],
+          [
+            "s:0",
+            "b:0:1",
+            2
+          ],
+          [
+            "b:0:1",
+            "l:0:1:0",
+            14
+          ],
+          [
+            "b:0:1",
+            "l:0:1:1",
+            7
+          ],
+          [
+            "b:0:1",
+            "l:0:1:2",
+            10
+          ],
+          [
+            "s:0",
+            "b:0:2",
+            13
+          ],
+          [
+            "b:0:2",
+            "l:0:2:0",
+            8
+          ],
+          [
+            "b:0:2",
+            "l:0:2:1",
+            6
+          ],
+          [
+            "b:0:2",
+            "l:0:2:2",
+            5
+          ],
+          [
+            "b:0:2",
+            "l:0:2:3",
+            3
+          ],
+          [
+            "s:1",
+            "b:1:0",
+            18
+          ],
+          [
+            "b:1:0",
+            "l:1:0:0",
+            17
+          ],
+          [
+            "b:1:0",
+            "l:1:0:1",
+            16
+          ]
+        ],
+        "vertex_label_alphabet": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      },
+      "manifest_verified": true,
+      "r_equals_two": {
+        "added_indices": [],
+        "added_label_count": 0,
+        "added_weight_count": 0,
+        "final_edge_count": 19,
+        "named_original_unchanged": true,
+        "pointwise_identity": true,
+        "r": 2,
+        "right_seed_labels": [
+          18,
+          17
+        ],
+        "seed_edge_count": 19
+      },
+      "seed_size": {
+        "actual_edges": 19,
+        "claimed_n": 19,
+        "maximum_label": 19,
+        "profile_n": 19,
+        "tests": {
+          "against_actual_edges": true,
+          "against_maximum_label": true,
+          "against_profile": true,
+          "exact_integer": true
+        },
+        "valid": true
+      },
+      "source": {
+        "archive": "D119",
+        "expected_dispatch": {
+          "D118_pointwise_specialization": false,
+          "role_indices_H_L_C": [
+            0,
+            1,
+            2
+          ],
+          "sector": "II",
+          "status": "COVERED",
+          "supplier": "D119"
+        },
+        "ledger_id": "4fce31bf665ff38991af24346e9a178a16b8389a43b13b9aed33e127bb0c44de",
+        "original_record": {
+          "graph_digest": "ebb04e69f7e23da6786aaa6b5eb9aafad963949f1877756667f50f8aac55e568",
+          "path": "original.json",
+          "raw_sha256": "ec39c150f981827175781c6f74b5dcea72b43183adefec1943da7fd0098d9a78"
+        },
+        "profile": [
+          [
+            5,
+            3,
+            4
+          ],
+          [
+            2
+          ]
+        ],
+        "variant": null
+      }
+    },
+    "D120": {
+      "D112_premises": {
+        "exit_neighbors": [
+          "b:1:0",
+          "s:0"
+        ],
+        "pins": {
+          "b:1:0": 1,
+          "s:0": 0,
+          "s:1": 18
+        },
+        "tests": {
+          "actual_spine_edge": true,
+          "exact_exit_neighbors": true,
+          "maximum_exit_label": true,
+          "physical_pins": true,
+          "right_center_off_spine": true,
+          "terminal_endpoint_and_predecessor": true
+        },
+        "valid": true
+      },
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          18,
+          14,
+          1,
+          11,
+          10,
+          9,
+          3,
+          2,
+          13,
+          7,
+          8,
+          12,
+          6,
+          5,
+          4,
+          17,
+          16,
+          15
+        ],
+        "errors": [],
+        "graph_digest": "d0ad56af610e424e1e7eb46c50b53b430e0b631af20a7bb7188b74c49d78c995",
+        "m": 18,
+        "n": 19,
+        "valid": true
+      },
+      "dispatch": {
+        "sector": "I",
+        "status": "COVERED",
+        "supplier": "D120"
+      },
+      "identity": {
+        "actual_graph_digest": "d0ad56af610e424e1e7eb46c50b53b430e0b631af20a7bb7188b74c49d78c995",
+        "certificate_graph_digest": "d0ad56af610e424e1e7eb46c50b53b430e0b631af20a7bb7188b74c49d78c995",
+        "claimed_ledger_id": "539dfa1fd22b1047eb99fdb95475a0dd5eb29f97a9c1ea17820ada6fc6b37b36",
+        "valid": true
+      },
+      "independent": {
+        "edge_weights": [
+          18,
+          14,
+          1,
+          11,
+          10,
+          9,
+          3,
+          2,
+          13,
+          7,
+          8,
+          12,
+          6,
+          5,
+          4,
+          17,
+          16,
+          15
+        ],
+        "ledger_id": "539dfa1fd22b1047eb99fdb95475a0dd5eb29f97a9c1ea17820ada6fc6b37b36",
+        "named_incidences": [
+          [
+            "s:0",
+            "s:1",
+            18
+          ],
+          [
+            "s:0",
+            "b:0:0",
+            14
+          ],
+          [
+            "b:0:0",
+            "l:0:0:0",
+            1
+          ],
+          [
+            "b:0:0",
+            "l:0:0:1",
+            11
+          ],
+          [
+            "b:0:0",
+            "l:0:0:2",
+            10
+          ],
+          [
+            "b:0:0",
+            "l:0:0:3",
+            9
+          ],
+          [
+            "b:0:0",
+            "l:0:0:4",
+            3
+          ],
+          [
+            "s:0",
+            "b:0:1",
+            2
+          ],
+          [
+            "b:0:1",
+            "l:0:1:0",
+            13
+          ],
+          [
+            "b:0:1",
+            "l:0:1:1",
+            7
+          ],
+          [
+            "b:0:1",
+            "l:0:1:2",
+            8
+          ],
+          [
+            "s:0",
+            "b:0:2",
+            12
+          ],
+          [
+            "b:0:2",
+            "l:0:2:0",
+            6
+          ],
+          [
+            "b:0:2",
+            "l:0:2:1",
+            5
+          ],
+          [
+            "b:0:2",
+            "l:0:2:2",
+            4
+          ],
+          [
+            "s:1",
+            "b:1:0",
+            17
+          ],
+          [
+            "b:1:0",
+            "l:1:0:0",
+            16
+          ],
+          [
+            "b:1:0",
+            "l:1:0:1",
+            15
+          ]
+        ],
+        "vertex_label_alphabet": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ]
+      },
+      "manifest_verified": true,
+      "r_equals_two": {
+        "added_indices": [],
+        "added_label_count": 0,
+        "added_weight_count": 0,
+        "final_edge_count": 18,
+        "named_original_unchanged": true,
+        "pointwise_identity": true,
+        "r": 2,
+        "right_seed_labels": [
+          17,
+          16
+        ],
+        "seed_edge_count": 18
+      },
+      "seed_size": {
+        "actual_edges": 18,
+        "claimed_n": 18,
+        "maximum_label": 18,
+        "profile_n": 18,
+        "tests": {
+          "against_actual_edges": true,
+          "against_maximum_label": true,
+          "against_profile": true,
+          "exact_integer": true
+        },
+        "valid": true
+      },
+      "source": {
+        "archive": "D120",
+        "expected_dispatch": {
+          "sector": "I",
+          "status": "COVERED",
+          "supplier": "D120"
+        },
+        "ledger_id": "539dfa1fd22b1047eb99fdb95475a0dd5eb29f97a9c1ea17820ada6fc6b37b36",
+        "original_record": {
+          "graph_digest": "d0ad56af610e424e1e7eb46c50b53b430e0b631af20a7bb7188b74c49d78c995",
+          "path": "original.json",
+          "raw_sha256": "4ed50f4a8bb799dc7ddbfcd8559f840442a14005e9eeb35d0fd00402455b3bdd"
+        },
+        "profile": [
+          [
+            5,
+            3,
+            3
+          ],
+          [
+            2
+          ]
+        ],
+        "variant": null
+      }
+    },
+    "D122_I": {
+      "D112_premises": {
+        "exit_neighbors": [
+          "b:1:0",
+          "s:0"
+        ],
+        "pins": {
+          "b:1:0": 1,
+          "s:0": 0,
+          "s:1": 18
+        },
+        "tests": {
+          "actual_spine_edge": true,
+          "exact_exit_neighbors": true,
+          "maximum_exit_label": true,
+          "physical_pins": true,
+          "right_center_off_spine": true,
+          "terminal_endpoint_and_predecessor": true
+        },
+        "valid": true
+      },
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          18,
+          14,
+          1,
+          11,
+          10,
+          8,
+          6,
+          4,
+          2,
+          13,
+          5,
+          9,
+          12,
+          7,
+          3,
+          17,
+          16,
+          15
+        ],
+        "errors": [],
+        "graph_digest": "2281153a11633100287a53c44f82e55258d661987af0c8b3d561d62967118304",
+        "m": 18,
+        "n": 19,
+        "valid": true
+      },
+      "dispatch": {
+        "branch": "I",
+        "sector": "III",
+        "status": "COVERED",
+        "supplier": "D122"
+      },
+      "identity": {
+        "actual_graph_digest": "2281153a11633100287a53c44f82e55258d661987af0c8b3d561d62967118304",
+        "certificate_graph_digest": "2281153a11633100287a53c44f82e55258d661987af0c8b3d561d62967118304",
+        "claimed_ledger_id": "a1a1bde467b43c034d3ccfd792fc8cc4a72c9a10c815ab423862871ca3f8a3c5",
+        "valid": true
+      },
+      "independent": {
+        "edge_weights": [
+          18,
+          14,
+          1,
+          11,
+          10,
+          8,
+          6,
+          4,
+          2,
+          13,
+          5,
+          9,
+          12,
+          7,
+          3,
+          17,
+          16,
+          15
+        ],
+        "ledger_id": "a1a1bde467b43c034d3ccfd792fc8cc4a72c9a10c815ab423862871ca3f8a3c5",
+        "named_incidences": [
+          [
+            "s:0",
+            "s:1",
+            18
+          ],
+          [
+            "s:0",
+            "b:0:0",
+            14
+          ],
+          [
+            "b:0:0",
+            "l:0:0:0",
+            1
+          ],
+          [
+            "b:0:0",
+            "l:0:0:1",
+            11
+          ],
+          [
+            "b:0:0",
+            "l:0:0:2",
+            10
+          ],
+          [
+            "b:0:0",
+            "l:0:0:3",
+            8
+          ],
+          [
+            "b:0:0",
+            "l:0:0:4",
+            6
+          ],
+          [
+            "b:0:0",
+            "l:0:0:5",
+            4
+          ],
+          [
+            "s:0",
+            "b:0:1",
+            2
+          ],
+          [
+            "b:0:1",
+            "l:0:1:0",
+            13
+          ],
+          [
+            "b:0:1",
+            "l:0:1:1",
+            5
+          ],
+          [
+            "b:0:1",
+            "l:0:1:2",
+            9
+          ],
+          [
+            "s:0",
+            "b:0:2",
+            12
+          ],
+          [
+            "b:0:2",
+            "l:0:2:0",
+            7
+          ],
+          [
+            "b:0:2",
+            "l:0:2:1",
+            3
+          ],
+          [
+            "s:1",
+            "b:1:0",
+            17
+          ],
+          [
+            "b:1:0",
+            "l:1:0:0",
+            16
+          ],
+          [
+            "b:1:0",
+            "l:1:0:1",
+            15
+          ]
+        ],
+        "vertex_label_alphabet": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ]
+      },
+      "manifest_verified": true,
+      "r_equals_two": {
+        "added_indices": [],
+        "added_label_count": 0,
+        "added_weight_count": 0,
+        "final_edge_count": 18,
+        "named_original_unchanged": true,
+        "pointwise_identity": true,
+        "r": 2,
+        "right_seed_labels": [
+          17,
+          16
+        ],
+        "seed_edge_count": 18
+      },
+      "seed_size": {
+        "actual_edges": 18,
+        "claimed_n": 18,
+        "maximum_label": 18,
+        "profile_n": 18,
+        "tests": {
+          "against_actual_edges": true,
+          "against_maximum_label": true,
+          "against_profile": true,
+          "exact_integer": true
+        },
+        "valid": true
+      },
+      "source": {
+        "archive": "D122",
+        "expected_dispatch": {
+          "branch": "I",
+          "sector": "III",
+          "status": "COVERED",
+          "supplier": "D122"
+        },
+        "ledger_id": "a1a1bde467b43c034d3ccfd792fc8cc4a72c9a10c815ab423862871ca3f8a3c5",
+        "original_record": {
+          "graph_digest": "2281153a11633100287a53c44f82e55258d661987af0c8b3d561d62967118304",
+          "path": "original_I.json",
+          "profile": [
+            [
+              6,
+              3,
+              2
+            ],
+            [
+              2
+            ]
+          ],
+          "raw_sha256": "037cc175a81c50ecd32d924d2f58bcc64e3d969547b94781739ce23432a51e10"
+        },
+        "profile": [
+          [
+            6,
+            3,
+            2
+          ],
+          [
+            2
+          ]
+        ],
+        "variant": "I"
+      }
+    },
+    "D122_II": {
+      "D112_premises": {
+        "exit_neighbors": [
+          "b:1:0",
+          "s:0"
+        ],
+        "pins": {
+          "b:1:0": 1,
+          "s:0": 0,
+          "s:1": 24
+        },
+        "tests": {
+          "actual_spine_edge": true,
+          "exact_exit_neighbors": true,
+          "maximum_exit_label": true,
+          "physical_pins": true,
+          "right_center_off_spine": true,
+          "terminal_endpoint_and_predecessor": true
+        },
+        "valid": true
+      },
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          24,
+          20,
+          1,
+          17,
+          16,
+          15,
+          9,
+          3,
+          2,
+          19,
+          7,
+          8,
+          13,
+          14,
+          18,
+          12,
+          11,
+          10,
+          6,
+          5,
+          4,
+          23,
+          22,
+          21
+        ],
+        "errors": [],
+        "graph_digest": "14580712cecbd7a55513ed0f588b4f8771c15c589132941b7245ddb6f0d5331a",
+        "m": 24,
+        "n": 25,
+        "valid": true
+      },
+      "dispatch": {
+        "branch": "II",
+        "sector": "III",
+        "status": "COVERED",
+        "supplier": "D122"
+      },
+      "identity": {
+        "actual_graph_digest": "14580712cecbd7a55513ed0f588b4f8771c15c589132941b7245ddb6f0d5331a",
+        "certificate_graph_digest": "14580712cecbd7a55513ed0f588b4f8771c15c589132941b7245ddb6f0d5331a",
+        "claimed_ledger_id": "f4d328639ef9e17894fdd91b1c6a42e9d3cf7a5d55b1270336fb70831efadadd",
+        "valid": true
+      },
+      "independent": {
+        "edge_weights": [
+          24,
+          20,
+          1,
+          17,
+          16,
+          15,
+          9,
+          3,
+          2,
+          19,
+          7,
+          8,
+          13,
+          14,
+          18,
+          12,
+          11,
+          10,
+          6,
+          5,
+          4,
+          23,
+          22,
+          21
+        ],
+        "ledger_id": "f4d328639ef9e17894fdd91b1c6a42e9d3cf7a5d55b1270336fb70831efadadd",
+        "named_incidences": [
+          [
+            "s:0",
+            "s:1",
+            24
+          ],
+          [
+            "s:0",
+            "b:0:0",
+            20
+          ],
+          [
+            "b:0:0",
+            "l:0:0:0",
+            1
+          ],
+          [
+            "b:0:0",
+            "l:0:0:1",
+            17
+          ],
+          [
+            "b:0:0",
+            "l:0:0:2",
+            16
+          ],
+          [
+            "b:0:0",
+            "l:0:0:3",
+            15
+          ],
+          [
+            "b:0:0",
+            "l:0:0:4",
+            9
+          ],
+          [
+            "b:0:0",
+            "l:0:0:5",
+            3
+          ],
+          [
+            "s:0",
+            "b:0:1",
+            2
+          ],
+          [
+            "b:0:1",
+            "l:0:1:0",
+            19
+          ],
+          [
+            "b:0:1",
+            "l:0:1:1",
+            7
+          ],
+          [
+            "b:0:1",
+            "l:0:1:2",
+            8
+          ],
+          [
+            "b:0:1",
+            "l:0:1:3",
+            13
+          ],
+          [
+            "b:0:1",
+            "l:0:1:4",
+            14
+          ],
+          [
+            "s:0",
+            "b:0:2",
+            18
+          ],
+          [
+            "b:0:2",
+            "l:0:2:0",
+            12
+          ],
+          [
+            "b:0:2",
+            "l:0:2:1",
+            11
+          ],
+          [
+            "b:0:2",
+            "l:0:2:2",
+            10
+          ],
+          [
+            "b:0:2",
+            "l:0:2:3",
+            6
+          ],
+          [
+            "b:0:2",
+            "l:0:2:4",
+            5
+          ],
+          [
+            "b:0:2",
+            "l:0:2:5",
+            4
+          ],
+          [
+            "s:1",
+            "b:1:0",
+            23
+          ],
+          [
+            "b:1:0",
+            "l:1:0:0",
+            22
+          ],
+          [
+            "b:1:0",
+            "l:1:0:1",
+            21
+          ]
+        ],
+        "vertex_label_alphabet": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ]
+      },
+      "manifest_verified": true,
+      "r_equals_two": {
+        "added_indices": [],
+        "added_label_count": 0,
+        "added_weight_count": 0,
+        "final_edge_count": 24,
+        "named_original_unchanged": true,
+        "pointwise_identity": true,
+        "r": 2,
+        "right_seed_labels": [
+          23,
+          22
+        ],
+        "seed_edge_count": 24
+      },
+      "seed_size": {
+        "actual_edges": 24,
+        "claimed_n": 24,
+        "maximum_label": 24,
+        "profile_n": 24,
+        "tests": {
+          "against_actual_edges": true,
+          "against_maximum_label": true,
+          "against_profile": true,
+          "exact_integer": true
+        },
+        "valid": true
+      },
+      "source": {
+        "archive": "D122",
+        "expected_dispatch": {
+          "branch": "II",
+          "sector": "III",
+          "status": "COVERED",
+          "supplier": "D122"
+        },
+        "ledger_id": "f4d328639ef9e17894fdd91b1c6a42e9d3cf7a5d55b1270336fb70831efadadd",
+        "original_record": {
+          "graph_digest": "14580712cecbd7a55513ed0f588b4f8771c15c589132941b7245ddb6f0d5331a",
+          "path": "original_II.json",
+          "profile": [
+            [
+              6,
+              5,
+              6
+            ],
+            [
+              2
+            ]
+          ],
+          "raw_sha256": "b54df022e8cfcffaa4f68e2e0f7ddc0f8998f83670a322079f139831052da8ab"
+        },
+        "profile": [
+          [
+            6,
+            5,
+            6
+          ],
+          [
+            2
+          ]
+        ],
+        "variant": "II"
+      }
+    },
+    "D123": {
+      "D112_premises": {
+        "exit_neighbors": [
+          "b:1:0",
+          "s:0"
+        ],
+        "pins": {
+          "b:1:0": 1,
+          "s:0": 0,
+          "s:1": 22
+        },
+        "tests": {
+          "actual_spine_edge": true,
+          "exact_exit_neighbors": true,
+          "maximum_exit_label": true,
+          "physical_pins": true,
+          "right_center_off_spine": true,
+          "terminal_endpoint_and_predecessor": true
+        },
+        "valid": true
+      },
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          22,
+          2,
+          17,
+          5,
+          7,
+          9,
+          10,
+          11,
+          16,
+          1,
+          8,
+          6,
+          18,
+          15,
+          14,
+          13,
+          12,
+          4,
+          3,
+          21,
+          20,
+          19
+        ],
+        "errors": [],
+        "graph_digest": "ac71eba8f56fefb203192b6d3f2cf2b7157bd0ab9a091260413fcc1884ba28b4",
+        "m": 22,
+        "n": 23,
+        "valid": true
+      },
+      "dispatch": {
+        "alternative": null,
+        "sector": "III",
+        "status": "COVERED",
+        "supplier": "D123"
+      },
+      "identity": {
+        "actual_graph_digest": "ac71eba8f56fefb203192b6d3f2cf2b7157bd0ab9a091260413fcc1884ba28b4",
+        "certificate_graph_digest": "ac71eba8f56fefb203192b6d3f2cf2b7157bd0ab9a091260413fcc1884ba28b4",
+        "claimed_ledger_id": "be06550ced186c0b21dc4b864efad036f0a8c6b7a6e21c2d5b96032a4764ecb3",
+        "valid": true
+      },
+      "independent": {
+        "edge_weights": [
+          22,
+          2,
+          17,
+          5,
+          7,
+          9,
+          10,
+          11,
+          16,
+          1,
+          8,
+          6,
+          18,
+          15,
+          14,
+          13,
+          12,
+          4,
+          3,
+          21,
+          20,
+          19
+        ],
+        "ledger_id": "be06550ced186c0b21dc4b864efad036f0a8c6b7a6e21c2d5b96032a4764ecb3",
+        "named_incidences": [
+          [
+            "s:0",
+            "s:1",
+            22
+          ],
+          [
+            "s:0",
+            "b:0:0",
+            2
+          ],
+          [
+            "b:0:0",
+            "l:0:0:0",
+            17
+          ],
+          [
+            "b:0:0",
+            "l:0:0:1",
+            5
+          ],
+          [
+            "b:0:0",
+            "l:0:0:2",
+            7
+          ],
+          [
+            "b:0:0",
+            "l:0:0:3",
+            9
+          ],
+          [
+            "b:0:0",
+            "l:0:0:4",
+            10
+          ],
+          [
+            "b:0:0",
+            "l:0:0:5",
+            11
+          ],
+          [
+            "s:0",
+            "b:0:1",
+            16
+          ],
+          [
+            "b:0:1",
+            "l:0:1:0",
+            1
+          ],
+          [
+            "b:0:1",
+            "l:0:1:1",
+            8
+          ],
+          [
+            "b:0:1",
+            "l:0:1:2",
+            6
+          ],
+          [
+            "s:0",
+            "b:0:2",
+            18
+          ],
+          [
+            "b:0:2",
+            "l:0:2:0",
+            15
+          ],
+          [
+            "b:0:2",
+            "l:0:2:1",
+            14
+          ],
+          [
+            "b:0:2",
+            "l:0:2:2",
+            13
+          ],
+          [
+            "b:0:2",
+            "l:0:2:3",
+            12
+          ],
+          [
+            "b:0:2",
+            "l:0:2:4",
+            4
+          ],
+          [
+            "b:0:2",
+            "l:0:2:5",
+            3
+          ],
+          [
+            "s:1",
+            "b:1:0",
+            21
+          ],
+          [
+            "b:1:0",
+            "l:1:0:0",
+            20
+          ],
+          [
+            "b:1:0",
+            "l:1:0:1",
+            19
+          ]
+        ],
+        "vertex_label_alphabet": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22
+        ]
+      },
+      "manifest_verified": true,
+      "r_equals_two": {
+        "added_indices": [],
+        "added_label_count": 0,
+        "added_weight_count": 0,
+        "final_edge_count": 22,
+        "named_original_unchanged": true,
+        "pointwise_identity": true,
+        "r": 2,
+        "right_seed_labels": [
+          21,
+          20
+        ],
+        "seed_edge_count": 22
+      },
+      "seed_size": {
+        "actual_edges": 22,
+        "claimed_n": 22,
+        "maximum_label": 22,
+        "profile_n": 22,
+        "tests": {
+          "against_actual_edges": true,
+          "against_maximum_label": true,
+          "against_profile": true,
+          "exact_integer": true
+        },
+        "valid": true
+      },
+      "source": {
+        "archive": "D123",
+        "expected_dispatch": {
+          "alternative": null,
+          "sector": "III",
+          "status": "COVERED",
+          "supplier": "D123"
+        },
+        "ledger_id": "be06550ced186c0b21dc4b864efad036f0a8c6b7a6e21c2d5b96032a4764ecb3",
+        "original_record": {
+          "graph_digest": "ac71eba8f56fefb203192b6d3f2cf2b7157bd0ab9a091260413fcc1884ba28b4",
+          "path": "original.json",
+          "raw_sha256": "8a8a121ba003744712755fca484d77bd7949f404ac54ad2550acda4f6d680135"
+        },
+        "profile": [
+          [
+            6,
+            3,
+            6
+          ],
+          [
+            2
+          ]
+        ],
+        "variant": null
+      }
+    },
+    "D124": {
+      "D112_premises": {
+        "exit_neighbors": [
+          "b:1:0",
+          "s:0"
+        ],
+        "pins": {
+          "b:1:0": 1,
+          "s:0": 0,
+          "s:1": 24
+        },
+        "tests": {
+          "actual_spine_edge": true,
+          "exact_exit_neighbors": true,
+          "maximum_exit_label": true,
+          "physical_pins": true,
+          "right_center_off_spine": true,
+          "terminal_endpoint_and_predecessor": true
+        },
+        "valid": true
+      },
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          24,
+          2,
+          19,
+          6,
+          8,
+          10,
+          11,
+          12,
+          18,
+          1,
+          9,
+          7,
+          20,
+          17,
+          16,
+          15,
+          14,
+          13,
+          5,
+          4,
+          3,
+          23,
+          22,
+          21
+        ],
+        "errors": [],
+        "graph_digest": "386aa9158bf0ea3763067cb2fe2b87abe27837cc033b759328e0cbaf90cc37a4",
+        "m": 24,
+        "n": 25,
+        "valid": true
+      },
+      "dispatch": {
+        "alternative": null,
+        "sector": "III",
+        "status": "COVERED",
+        "supplier": "D124"
+      },
+      "identity": {
+        "actual_graph_digest": "386aa9158bf0ea3763067cb2fe2b87abe27837cc033b759328e0cbaf90cc37a4",
+        "certificate_graph_digest": "386aa9158bf0ea3763067cb2fe2b87abe27837cc033b759328e0cbaf90cc37a4",
+        "claimed_ledger_id": "bb5651a7e20245659f831eef965eeed8fb247239855a843b6ac82d19f2a5399b",
+        "valid": true
+      },
+      "independent": {
+        "edge_weights": [
+          24,
+          2,
+          19,
+          6,
+          8,
+          10,
+          11,
+          12,
+          18,
+          1,
+          9,
+          7,
+          20,
+          17,
+          16,
+          15,
+          14,
+          13,
+          5,
+          4,
+          3,
+          23,
+          22,
+          21
+        ],
+        "ledger_id": "bb5651a7e20245659f831eef965eeed8fb247239855a843b6ac82d19f2a5399b",
+        "named_incidences": [
+          [
+            "s:0",
+            "s:1",
+            24
+          ],
+          [
+            "s:0",
+            "b:0:0",
+            2
+          ],
+          [
+            "b:0:0",
+            "l:0:0:0",
+            19
+          ],
+          [
+            "b:0:0",
+            "l:0:0:1",
+            6
+          ],
+          [
+            "b:0:0",
+            "l:0:0:2",
+            8
+          ],
+          [
+            "b:0:0",
+            "l:0:0:3",
+            10
+          ],
+          [
+            "b:0:0",
+            "l:0:0:4",
+            11
+          ],
+          [
+            "b:0:0",
+            "l:0:0:5",
+            12
+          ],
+          [
+            "s:0",
+            "b:0:1",
+            18
+          ],
+          [
+            "b:0:1",
+            "l:0:1:0",
+            1
+          ],
+          [
+            "b:0:1",
+            "l:0:1:1",
+            9
+          ],
+          [
+            "b:0:1",
+            "l:0:1:2",
+            7
+          ],
+          [
+            "s:0",
+            "b:0:2",
+            20
+          ],
+          [
+            "b:0:2",
+            "l:0:2:0",
+            17
+          ],
+          [
+            "b:0:2",
+            "l:0:2:1",
+            16
+          ],
+          [
+            "b:0:2",
+            "l:0:2:2",
+            15
+          ],
+          [
+            "b:0:2",
+            "l:0:2:3",
+            14
+          ],
+          [
+            "b:0:2",
+            "l:0:2:4",
+            13
+          ],
+          [
+            "b:0:2",
+            "l:0:2:5",
+            5
+          ],
+          [
+            "b:0:2",
+            "l:0:2:6",
+            4
+          ],
+          [
+            "b:0:2",
+            "l:0:2:7",
+            3
+          ],
+          [
+            "s:1",
+            "b:1:0",
+            23
+          ],
+          [
+            "b:1:0",
+            "l:1:0:0",
+            22
+          ],
+          [
+            "b:1:0",
+            "l:1:0:1",
+            21
+          ]
+        ],
+        "vertex_label_alphabet": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ]
+      },
+      "manifest_verified": true,
+      "r_equals_two": {
+        "added_indices": [],
+        "added_label_count": 0,
+        "added_weight_count": 0,
+        "final_edge_count": 24,
+        "named_original_unchanged": true,
+        "pointwise_identity": true,
+        "r": 2,
+        "right_seed_labels": [
+          23,
+          22
+        ],
+        "seed_edge_count": 24
+      },
+      "seed_size": {
+        "actual_edges": 24,
+        "claimed_n": 24,
+        "maximum_label": 24,
+        "profile_n": 24,
+        "tests": {
+          "against_actual_edges": true,
+          "against_maximum_label": true,
+          "against_profile": true,
+          "exact_integer": true
+        },
+        "valid": true
+      },
+      "source": {
+        "archive": "D124",
+        "expected_dispatch": {
+          "alternative": null,
+          "sector": "III",
+          "status": "COVERED",
+          "supplier": "D124"
+        },
+        "ledger_id": "bb5651a7e20245659f831eef965eeed8fb247239855a843b6ac82d19f2a5399b",
+        "original_record": {
+          "graph_digest": "386aa9158bf0ea3763067cb2fe2b87abe27837cc033b759328e0cbaf90cc37a4",
+          "path": "original.json",
+          "raw_sha256": "f0f05f3262ce3898bdda5f9f705cfaaf5dfe23aa7a675528aa469f3591510630"
+        },
+        "profile": [
+          [
+            6,
+            3,
+            8
+          ],
+          [
+            2
+          ]
+        ],
+        "variant": null
+      }
+    }
+  },
+  "retained_execution_statuses": {
+    "D083_original": "INCOMPLETE",
+    "D083_versioned": "PASS",
+    "D093_original": "INCOMPLETE",
+    "D093_versioned": "PASS",
+    "D099": "PASS",
+    "D100_original": "INCOMPLETE",
+    "D100_recovery": "PASS",
+    "D101": "PASS",
+    "D102": "PASS",
+    "D103": "PASS",
+    "D104": "PASS",
+    "D105": "PASS",
+    "D106": "PASS",
+    "D107": "PASS",
+    "D108": "PASS",
+    "D109": "PASS",
+    "D110": "PASS",
+    "D111": "PASS",
+    "D112": "PASS",
+    "D113": "PASS",
+    "D114": "PASS",
+    "D115": "PASS",
+    "D116": "PASS",
+    "D117": "PASS",
+    "D118": "PASS",
+    "D119": "PASS",
+    "D120": "PASS",
+    "D121": "PASS",
+    "D122": "PASS",
+    "D123": "PASS",
+    "D124": "PASS"
+  },
+  "runtime": {
+    "path": ".venv/Scripts/python.exe",
+    "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "scope": {
+    "left_domain": "exact accepted D118-D124 positive seed union",
+    "pins": {
+      "b:1:0": 1,
+      "s:0": 0,
+      "s:1": "q+a+c+r+5"
+    },
+    "retained_only": true,
+    "retained_right_quota": 2,
+    "right_domain": "exact integer r >= 2",
+    "seed_edges": "q+a+c+7",
+    "symbolic_profile": [
+      [
+        "q",
+        "a",
+        "c"
+      ],
+      [
+        "r"
+      ]
+    ],
+    "uncovered_even_odd_even_triple": [
+      6,
+      3,
+      4
+    ]
+  },
+  "status": "PASS",
+  "task": "LCL-ORDINARY-QACR-CONSOLIDATED-SEED-D112-GROWTH-001"
+}

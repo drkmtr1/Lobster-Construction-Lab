@@ -2,19 +2,21 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 24, 2026, Pacific/Honolulu<br>
-**Stage:** D124 unequal modified-core supplier for exact ordered `[[q,3,c],[2]]`, independent even q,c≥6 with q≠c, **ACCEPTED**. Bounded verification **PASS**. [Proof](research/ORDINARY_Q3C_2_UNEQUAL_MODIFIED_SHARED_MIDDLE_CORE.md).
+**Stage:** D125 consolidated three-left-center supplier and indexed D112 growth on the exact D118–D124 positive seed union **ACCEPTED**. Bounded verification **PASS**. [Proof and dispatch](research/ORDINARY_QACR_CONSOLIDATED_SEED_D112_GROWTH.md).
 
 ## Current scientific objective
 
-Develop independently supplied graceful modules with usable physical ports. The [latest handoff](handoffs/CODEX-20261124-ordinary-q3c-2-unequal-modified-shared-middle-core.md) records the independently varying even outer quotas. The next proposal consolidates the accepted three-center seed domains with the proved conditional right-growth mechanism. The retained ordered even–odd–even suppliers at q≥6, a≥3 and c≥2 leave exactly (q,a,c)=(6,3,4) outside their established union: at a=3, D122 covers c≤q−4 and D123–D124 cover c≥6, while D122 covers every declared c at a≥5. Other positions of the single odd quota in the two-even sector and smaller quotas remain outside these constructions. The all-odd supplier has its ordered minima and the one-even supplier requires an odd quota at least five. The all-even obstruction applies at the fixed pins. Other physical port choices and ordinary spine composition remain open.
+Develop independently supplied graceful modules with usable physical ports. The [latest handoff](handoffs/CODEX-20261124-ordinary-qacr-consolidated-seed-d112-growth.md) records the exact seed union and its indexed ordinary right growth. The retained ordered even–odd–even union leaves exactly (6,3,4) uncovered within its minima. D122’s obstruction there is specific to its old labeled core. The other two-even role placements, smaller quotas, alternative physical pins and general spine composition remain outside the consolidated construction. The pinned all-even obstruction holds for all r≥2.
 
 ## One next action
 
-Under separate authorization, consolidate the exact accepted D118–D124 seed domains and prove their indexed D112 right-growth application to ordered `[[q,a,c],[r]]` for exact integers r≥2. Preserve the covered union of left-quota triples and the physical interface `s:0=0`, `s:1=q+a+c+r+5`, `b:1:0=1`. Give a symbolic original-incidence and resource proof, and record the parity, minimum-quota and port gaps. Use only retained evidence and no new numerical original, seed construction, solver, assignment enumeration or join.
+Under separate authorization, determine whether the D123 modified shared-middle core admits a directly supplied ordinary graceful completion on the single retained ordered original `[[6,3,4],[2]]` at `s:0=0`, `s:1=20`, `b:1:0=1`. Reuse D122’s frozen adverse original, independently derive two disjoint R226 reservations that each fill one distinct physical middle vacancy or prove a precise obstruction to this modified-core reservation scheme, and verify both complete original inventories if supplied. Use no solver, assignment enumeration, profile sweep, role transport, join or numerical growth.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
+
+- D125 **SUPPLIES** exact ordered `[[q,a,c],[r]]` on precisely the accepted D118–D124 left-quota union for every exact integer r≥2 at pins (0,q+a+c+r+5,1). The deterministic dispatch retains the exact seed hypotheses. Indexed D112 growth preserves all named original incidences and the direct proof gives full label and difference partitions. The all-even fixed-pin obstruction persists for all r≥2. Seven retained rechecks and dispatches, two read-only archive inspections, four controls and separate reviews passed. See [proof](research/ORDINARY_QACR_CONSOLIDATED_SEED_D112_GROWTH.md) and [evidence](evidence/validation/LCL_ORDINARY_QACR_CONSOLIDATED_SEED_D112_GROWTH_001/README.md).
 
 - D124 **SUPPLIES** exact ordered `[[q,3,c],[2]]` for independent exact even q,c≥6 with q≠c at pins (0,q+c+10,1). The width depends on q and the complementary translation chains depend on c. Each batch fills one actual named M vacancy. Both complete original spectra and D112's physical premises hold. The new boundary, retained D123 formula comparison and recheck, four controls and separate reviews passed. D123 supplies equality and D122 retains its original fixed-core obstruction. See [proof](research/ORDINARY_Q3C_2_UNEQUAL_MODIFIED_SHARED_MIDDLE_CORE.md) and [evidence](evidence/validation/LCL_ORDINARY_Q3C_2_UNEQUAL_MODIFIED_SHARED_MIDDLE_CORE_001/README.md).
 
