@@ -725,3 +725,5 @@ The [D093 versioned recovery](../evidence/validation/LCL_R241_D090_REVERSE_BANDS
 The [D100 versioned audit recovery](../evidence/validation/LCL_R241_43_2_FIXED_EXIT3_AUDIT_RECOVERY_001/README.md) discharges the executable verification obligation for the eight-case obstruction. The original official audit remains **INCOMPLETE**. The below-capacity supplier obligation remains open, with a maximum-high host on the retained source proposed as a separately testable route.
 
 [D101](R241_42_2_MAXIMUM_HOST.md) closes the chosen maximum-label host route into the below-capacity original. Independent alpha supply with usable physical ports remains open below the D097/D098 capacity bound. The proposed next test seeks a direct right-zero-host state on the frozen target with both ports free.
+
+[D102](R241_43_2_RIGHT_ZERO_HOST.md) resolves that right-zero-host question on the frozen original for both free ports. A directly supplied cut-9 state with usable physical ports remains open on that original within this research program. The selected bounded entrance proposal is recorded in [STATE.md](../STATE.md).

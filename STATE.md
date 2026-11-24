@@ -2,19 +2,21 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 23, 2026, Pacific/Honolulu<br>
-**Stage:** D101 maximum-host obstruction **ACCEPTED**. The cut-8 state on `[[4,2],[2]]` with `b:0:1=12` and both ports free is **REJECTED**. Executable audit **PASS**. [Proof](research/R241_42_2_MAXIMUM_HOST.md).
+**Stage:** D102 right-zero-host obstruction **ACCEPTED**. The cut-9 state on `[[4,3],[2]]` with `b:1:0=0` and both ports free is **REJECTED**. Executable audit **PASS**. [Proof](research/R241_43_2_RIGHT_ZERO_HOST.md).
 
 ## Current scientific objective
 
-Supply multi-center modules with usable physical ports across more quota orders. The [latest handoff](handoffs/CODEX-20261123-r241-42-2-maximum-host.md) records the exact maximum-host obstruction and a direct supplier proposal for the below-capacity original.
+Supply multi-center modules with usable physical ports below the D097/D098 capacity threshold. The [latest handoff](handoffs/CODEX-20261123-r241-43-2-right-zero-host.md) records the right-zero-host obstruction and one structural entrance proposal.
 
 ## One next action
 
-Under separate authorization, seek or rule out a cut-9 alpha labeling of frozen ordered `[[4,3],[2]]` with physical right center `b:1:0` labeled zero and both spine ports free. Use the largest original edge incidences and signed-degree identity to derive the allowable palettes, with at most one verified certificate. Use no new graph identities, joins, solvers, complete-assignment enumeration or separate exit tests.
+Under separate authorization, seek or rule out a cut-9 alpha labeling of frozen ordered `[[4,3],[2]]` with physical entrance `s:0=0` and the exit free. Use the extremal incidences at the entrance and the signed-degree identity, with at most one verified certificate. Reuse the frozen original and use no solvers, complete-assignment enumeration, separate exit tests or joins.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
+
+- D102 **REJECTS** the cut-9 state on frozen ordered `[[4,3],[2]]` with `b:1:0=0` and both physical ports free. The spine must carry the larger left-center label as a difference, after which two exhaustive order bounds contradict the signed degree sum. The official audit and separate reviews passed with no new originals or certificates. See [proof](research/R241_43_2_RIGHT_ZERO_HOST.md) and [evidence](evidence/validation/LCL_R241_43_2_RIGHT_ZERO_HOST_001/README.md).
 
 - D101 **REJECTS** the specified cut-8 maximum-host state on ordered `[[4,2],[2]]` with `b:0:1=12` and both spine ports free. All eleven scalar cases fail by actual incidence weights. The proof, audit and separate reviews passed, and the conditional extension was left unexecuted. See [proof](research/R241_42_2_MAXIMUM_HOST.md) and [evidence](evidence/validation/LCL_R241_42_2_MAXIMUM_HOST_001/README.md).
 

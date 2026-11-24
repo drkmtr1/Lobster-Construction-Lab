@@ -1405,3 +1405,9 @@ The one official executable audit is **INCOMPLETE** after 0.125 process-CPU seco
 **ACCEPT** the structural obstruction and **REJECT** the normalized cut-8 state on ordered `[[4,2],[2]]` with physical b:0:1=12 and both spine ports free. The original signed-degree and extremal incidence constraints leave eleven scalar cases. Every case misses or repeats a required difference. The conditional target extension had no supplied source and was not executed.
 
 The official audit **PASSED** with one retained positive, three genuine adverse controls, eleven verified cases, independent reconstruction and two separate reviews. It used 0.078125 process-CPU seconds and created no graph identities or certificates. [Proof](R241_42_2_MAXIMUM_HOST.md) · [Evidence](../evidence/validation/LCL_R241_42_2_MAXIMUM_HOST_001/README.md) · D101
+
+## LCL-R241-43-2-RIGHT-ZERO-HOST-001
+
+**ACCEPT** the structural obstruction and **REJECT** the cut-9 state on exact frozen ordered `[[4,3],[2]]` with physical right center `b:1:0=0` and both ports free. The disjoint original incidences force the spine to carry M=max(A,B). Substituting in the signed degree sum requires 4A+3B+2M=72+Y. The two left-center order cases bound the left side below by 87 and 86, while the right side is at most 85.
+
+The official audit and two read-only reviews **PASSED**. One worker checked both order cases, rechecked the retained D098 positive and rejected all three adverse probes. It used 0.171875 process-CPU seconds and created zero graph identities or certificates. [Proof](R241_43_2_RIGHT_ZERO_HOST.md) · [Evidence](../evidence/validation/LCL_R241_43_2_RIGHT_ZERO_HOST_001/README.md) · D102

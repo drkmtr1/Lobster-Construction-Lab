@@ -515,3 +515,7 @@ The [separate D100 audit recovery](../evidence/validation/LCL_R241_43_2_FIXED_EX
 ### F-R241-42-2-MAXIMUM-HOST
 
 **REJECT** the cut-8 alpha source on exact ordered `[[4,2],[2]]` with physical b:0:1=12, for all spine labels allowed by the orientation with s:0 low. All eleven necessary scalar cases fail their actual incidence differences. This closes the prescribed maximum-host preimage for the conditional translate-and-add-zero path. Other source states and target labelings retain their own scopes. [Proof](R241_42_2_MAXIMUM_HOST.md) · D101
+
+### F-R241-43-2-RIGHT-ZERO-HOST
+
+**REJECT** the cut-9 alpha state on frozen ordered `[[4,3],[2]]` with physical right center `b:1:0=0` for all spine labels allowed by the orientation with `s:0` low. The spine must supply weight M=max(A,B), which contradicts the signed degree sum in both strict orders. The exclusion applies only to this original and host constraint in the prescribed orientation. [Proof](R241_43_2_RIGHT_ZERO_HOST.md) · D102

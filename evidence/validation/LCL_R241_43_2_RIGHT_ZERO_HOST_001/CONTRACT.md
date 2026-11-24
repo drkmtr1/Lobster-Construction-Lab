@@ -1,0 +1,11 @@
+# D102 frozen task contract
+
+Task `LCL-R241-43-2-RIGHT-ZERO-HOST-001` at accepted parent `43f5e58c499659e47e8905f480ad518cead2e53d`. Freeze the original from D099 at `evidence/validation/LCL_R241_43_2_LOWER_BLOCK_001/original.json`, canonical digest `2060a4e5a7d8f8ebc1906499facea2730250938d4550bb4c6ca34582a1f5b6e6`. Investigate only ordered `[[4,3],[2]]` at cut 9 with physical `b:1:0=0` and both ports free. Preserve the ordered branches, named indices, exact incidences and physical spine.
+
+Challenge the unique maximum-weight representation, the complete partition of edges into center groups and the physical spine, the mandatory spine weight M, the signed degree identity, and both strict center orders. A witnessed state requires a complete certificate on the frozen original. A contradiction rejects only this fixed-host state. The unchecked domains remain open.
+
+Use one CPU-only worker on project-local Python 3.12 or 3.13 with standard-library dependencies and unchanged original-target checker. Freeze exact sources, input hashes and runtime. One parse-only preflight checks syntax, intended unique function definitions, inputs and vacant outputs with bytecode disabled. Obtain independent inspection of mathematical assertions before the official invocation. One producer/auditor invocation maximum, 30 combined process-CPU seconds and 60 wall seconds maximum, including an outer wall limit. At most 2,000,000 bytes per record and 8,000,000 bytes total. Preserve any failed official attempt as INCOMPLETE and stop without retry.
+
+One frozen target, zero new graph identities, at most two structural order cases and at most one new certificate if a direct state is supplied. Recheck D098 once on its own graph. Run exactly three adverse probes for the digest, the actual zero-host interface and the known spectrum-breaking label swap. Use no solver, assignment enumeration, search states or nodes, joins, separate exit tests, retries, restarts or historical replays.
+
+Obtain separate read-only mathematical and implementation reviews. Preserve every prior derived result and execution receipt, including both versions of D083, D093 and D100, the baseline identity, deferred D076 and the two protected upstream pins. Synchronize only LCL and record exactly one next action, unstarted.
