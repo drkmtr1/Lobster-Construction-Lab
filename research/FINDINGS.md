@@ -1429,3 +1429,9 @@ D102, D103 and D104 cover every zero location in the same size-nine class of the
 **ACCEPT** direct ordinary graceful supply on frozen ordered `[[4,3],[2]]` with `s:0=0` and `s:1=13`. The deterministic certificate exhausts [0,13] on the exact original vertices and [1,13] on the exact original incidences. In the traversal-derived orientation the sole negative signed edge is `l:0:0:3--b:0:0` with signed difference −1. The signed degree sum is 89 and neither class order separates. D104's alpha exclusion remains accepted.
 
 The official audit and both reviews **PASSED** with one new certificate, no new graph identity, one retained positive, three genuine adverse controls and 0.125 process-CPU seconds. [Proof](ORDINARY_43_2_EXTREME_SPINE.md) · [Evidence](../evidence/validation/LCL_ORDINARY_43_2_EXTREME_SPINE_001/README.md) · D105
+
+## LCL-ORDINARY-43-3-EXTREME-SPINE-001
+
+**ACCEPT** the exact ordinary graceful transition from D105's `[[4,3],[2]]` to ordered `[[4,3],[3]]`. Raising `s:1` to 14 and giving the new right terminal 13 preserves the differences [1,11] and supplies 12, 13 and 14 on the new terminal, right attachment and spine. The physical labels (0,14) and sole signed reversal −1 at `l:0:0:3 → b:0:0` hold on the new original. Signed degree sum is 103. The target has a separate alpha labeling through D098. D104 remains accepted on the source.
+
+The official audit and both reviews **PASSED** with one new graph identity, one accepted certificate, one retained D105 recheck and three adverse controls in 0.09375 process-CPU seconds. The within-center swap passes ordinary gracefulness and fails the exact physical signed interface. [Proof](ORDINARY_43_3_EXTREME_SPINE.md) · [Evidence](../evidence/validation/LCL_ORDINARY_43_3_EXTREME_SPINE_001/README.md) · D106

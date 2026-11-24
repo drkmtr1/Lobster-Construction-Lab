@@ -2,19 +2,21 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 23, 2026, Pacific/Honolulu<br>
-**Stage:** D105 direct ordinary graceful supplier **ACCEPTED** on frozen ordered `[[4,3],[2]]` with `s:0=0` and `s:1=13`. The D104 alpha exclusion remains accepted. Executable audit **PASS**. [Proof](research/ORDINARY_43_2_EXTREME_SPINE.md).
+**Stage:** D106 ordinary right-terminal extension **ACCEPTED** for the exact transition from ordered `[[4,3],[2]]` to `[[4,3],[3]]` with physical spine labels (0,14) and the same sole signed reversal. Executable audit **PASS**. [Proof](research/ORDINARY_43_3_EXTREME_SPINE.md).
 
 ## Current scientific objective
 
-Develop independently supplied graceful modules with usable physical ports. The [latest handoff](handoffs/CODEX-20261123-ordinary-43-2-extreme-spine.md) records the explicit ordinary graceful certificate on the exact below-capacity original and the next proposed test of a controlled quota change.
+Develop independently supplied graceful modules with usable physical ports. The [latest handoff](handoffs/CODEX-20261123-ordinary-43-3-extreme-spine.md) records the controlled right-terminal extension and the proposed symbolic iteration test.
 
 ## One next action
 
-Under separate authorization, seek or rule out a direct ordinary graceful labeling of ordered `[[4,3],[3]]` with physical spine labels `s:0=0` and `s:1=14`, and exactly one negative signed edge of value −1 at `l:0:0:3--b:0:0` when orienting from the bipartition class containing `s:0`. Use a residual-palette argument on this one profile with at most one new original and one verified certificate. Use no solvers, complete-assignment enumeration or joins.
+Under separate authorization, prove or refute iteration of the D106 exit-raising and named terminal addition from D105 on ordered `[[4,3],[r]]` for every integer r≥2, preserving physical spine labels `s:0=0`, `s:1=r+11` and the sole signed difference −1 at `l:0:0:3 → b:0:0`. Use one symbolic induction on the exact original incidences and inventories, with no additional profile tests, solvers, enumeration or joins.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
+
+- D106 **SUPPLIES** the exact ordinary graceful extension to ordered `[[4,3],[3]]`. The label and difference inventories are complete, the physical spine is (0,14), and the sole negative signed edge remains −1 at `l:0:0:3 → b:0:0`. The unchanged checker, independent audit and both reviews passed. See [proof](research/ORDINARY_43_3_EXTREME_SPINE.md) and [certificate](evidence/validation/LCL_ORDINARY_43_3_EXTREME_SPINE_001/result.json).
 
 - D105 **SUPPLIES** an ordinary graceful labeling on frozen ordered `[[4,3],[2]]` with physical spine labels (0,13), both unused inventories empty and exactly one negative signed edge of −1. The signed degree sum is 89. The unchanged checker, independent audit and both reviews passed. See [proof](research/ORDINARY_43_2_EXTREME_SPINE.md) and [certificate](evidence/validation/LCL_ORDINARY_43_2_EXTREME_SPINE_001/result.json).
 

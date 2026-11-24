@@ -1,0 +1,674 @@
+{
+  "adverses": {
+    "cross_swap": {
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          14,
+          10,
+          6,
+          7,
+          2,
+          1,
+          9,
+          7,
+          4,
+          3,
+          13,
+          6,
+          11,
+          12
+        ],
+        "errors": [
+          "edge differences repeat",
+          "edge differences are not exactly 1..m"
+        ],
+        "graph_digest": "df89d0f500d8900d44641b6725f4ce3095df900c663006271855330d01d2a86e",
+        "m": 14,
+        "n": 15,
+        "valid": false
+      },
+      "labels": {
+        "b:0:0": 10,
+        "b:0:1": 9,
+        "b:1:0": 1,
+        "l:0:0:0": 4,
+        "l:0:0:1": 3,
+        "l:0:0:2": 8,
+        "l:0:0:3": 11,
+        "l:0:1:0": 2,
+        "l:0:1:1": 5,
+        "l:0:1:2": 6,
+        "l:1:0:0": 7,
+        "l:1:0:1": 12,
+        "l:1:0:2": 13,
+        "s:0": 0,
+        "s:1": 14
+      },
+      "vertices": [
+        "l:0:0:0",
+        "l:0:1:0"
+      ]
+    },
+    "within_swap": {
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          14,
+          10,
+          1,
+          7,
+          2,
+          8,
+          9,
+          5,
+          4,
+          3,
+          13,
+          6,
+          11,
+          12
+        ],
+        "errors": [],
+        "graph_digest": "df89d0f500d8900d44641b6725f4ce3095df900c663006271855330d01d2a86e",
+        "m": 14,
+        "n": 15,
+        "valid": true
+      },
+      "labels": {
+        "b:0:0": 10,
+        "b:0:1": 9,
+        "b:1:0": 1,
+        "l:0:0:0": 11,
+        "l:0:0:1": 3,
+        "l:0:0:2": 8,
+        "l:0:0:3": 2,
+        "l:0:1:0": 4,
+        "l:0:1:1": 5,
+        "l:0:1:2": 6,
+        "l:1:0:0": 7,
+        "l:1:0:1": 12,
+        "l:1:0:2": 13,
+        "s:0": 0,
+        "s:1": 14
+      },
+      "signed_interface_gate": {
+        "actual": {
+          "negative_edges": [
+            {
+              "edge": [
+                "l:0:0:0",
+                "b:0:0"
+              ],
+              "signed_difference": -1
+            }
+          ],
+          "physical_spine_labels": [
+            0,
+            14
+          ]
+        },
+        "error": "Negative edge differs from the requested named interface",
+        "valid": false
+      },
+      "vertices": [
+        "l:0:0:0",
+        "l:0:0:3"
+      ]
+    },
+    "wrong_digest": {
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          14,
+          10,
+          8,
+          7,
+          2,
+          1,
+          9,
+          5,
+          4,
+          3,
+          13,
+          6,
+          11,
+          12
+        ],
+        "errors": [
+          "original graph digest mismatch"
+        ],
+        "graph_digest": "df89d0f500d8900d44641b6725f4ce3095df900c663006271855330d01d2a86e",
+        "m": 14,
+        "n": 15,
+        "valid": false
+      },
+      "expected": "0000000000000000000000000000000000000000000000000000000000000000"
+    }
+  },
+  "certificate": {
+    "checker": {
+      "claim": "finite certificate for this exact named target only",
+      "edge_differences": [
+        14,
+        10,
+        8,
+        7,
+        2,
+        1,
+        9,
+        5,
+        4,
+        3,
+        13,
+        6,
+        11,
+        12
+      ],
+      "errors": [],
+      "graph_digest": "df89d0f500d8900d44641b6725f4ce3095df900c663006271855330d01d2a86e",
+      "m": 14,
+      "n": 15,
+      "valid": true
+    },
+    "graph_digest": "df89d0f500d8900d44641b6725f4ce3095df900c663006271855330d01d2a86e",
+    "kind": "ordinary_graceful",
+    "labels": {
+      "b:0:0": 10,
+      "b:0:1": 9,
+      "b:1:0": 1,
+      "l:0:0:0": 2,
+      "l:0:0:1": 3,
+      "l:0:0:2": 8,
+      "l:0:0:3": 11,
+      "l:0:1:0": 4,
+      "l:0:1:1": 5,
+      "l:0:1:2": 6,
+      "l:1:0:0": 7,
+      "l:1:0:1": 12,
+      "l:1:0:2": 13,
+      "s:0": 0,
+      "s:1": 14
+    },
+    "ledger_id": "b1be1d8561e4570e4d295c8f61ae3b2c7171146519cf1d1ebe917becb3a7565c",
+    "physical_spine": [
+      "s:0",
+      "s:1"
+    ],
+    "signed_interface": {
+      "negative_edges": [
+        {
+          "edge": [
+            "l:0:0:3",
+            "b:0:0"
+          ],
+          "signed_difference": -1
+        }
+      ],
+      "physical_spine_labels": [
+        0,
+        14
+      ]
+    }
+  },
+  "control_audit": {
+    "cross_swap_missing_weights": [
+      5,
+      8
+    ],
+    "cross_swap_repeat_multiplicities": {
+      "6": 2,
+      "7": 2
+    },
+    "status": "PASS",
+    "within_swap_actual_negative_edges": [
+      {
+        "edge": [
+          "l:0:0:0",
+          "b:0:0"
+        ],
+        "signed_difference": -1
+      }
+    ],
+    "within_swap_exact_signed_interface": false,
+    "within_swap_graceful": true
+  },
+  "domain": {
+    "added_terminal": "l:1:0:2",
+    "physical_spine_labels": [
+      0,
+      14
+    ],
+    "profile": [
+      [
+        4,
+        3
+      ],
+      [
+        3
+      ]
+    ],
+    "reversed_edge": {
+      "edge": [
+        "l:0:0:3",
+        "b:0:0"
+      ],
+      "signed_difference": -1
+    }
+  },
+  "incidence_audit": {
+    "absolute_difference_sum": 105,
+    "changed_old_edge_differences": [
+      {
+        "edge": [
+          "b:1:0",
+          "s:1"
+        ],
+        "source": 12,
+        "target": 13
+      },
+      {
+        "edge": [
+          "s:0",
+          "s:1"
+        ],
+        "source": 13,
+        "target": 14
+      }
+    ],
+    "even_labels": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      11
+    ],
+    "even_vertices": [
+      "b:1:0",
+      "l:0:0:0",
+      "l:0:0:1",
+      "l:0:0:2",
+      "l:0:0:3",
+      "l:0:1:0",
+      "l:0:1:1",
+      "l:0:1:2",
+      "s:0"
+    ],
+    "graph_delta": {
+      "added_edge": [
+        "b:1:0",
+        "l:1:0:2"
+      ],
+      "added_vertex": "l:1:0:2",
+      "exit_neighbors": [
+        "b:1:0",
+        "s:0"
+      ],
+      "preserved_old_edges": 13,
+      "preserved_old_vertices": 14
+    },
+    "graph_digest": "df89d0f500d8900d44641b6725f4ce3095df900c663006271855330d01d2a86e",
+    "incidences": [
+      {
+        "difference": 14,
+        "oriented_edge": [
+          "s:0",
+          "s:1"
+        ],
+        "oriented_labels": [
+          0,
+          14
+        ],
+        "original_edge": [
+          "s:0",
+          "s:1"
+        ],
+        "signed_difference": 14
+      },
+      {
+        "difference": 10,
+        "oriented_edge": [
+          "s:0",
+          "b:0:0"
+        ],
+        "oriented_labels": [
+          0,
+          10
+        ],
+        "original_edge": [
+          "s:0",
+          "b:0:0"
+        ],
+        "signed_difference": 10
+      },
+      {
+        "difference": 8,
+        "oriented_edge": [
+          "l:0:0:0",
+          "b:0:0"
+        ],
+        "oriented_labels": [
+          2,
+          10
+        ],
+        "original_edge": [
+          "b:0:0",
+          "l:0:0:0"
+        ],
+        "signed_difference": 8
+      },
+      {
+        "difference": 7,
+        "oriented_edge": [
+          "l:0:0:1",
+          "b:0:0"
+        ],
+        "oriented_labels": [
+          3,
+          10
+        ],
+        "original_edge": [
+          "b:0:0",
+          "l:0:0:1"
+        ],
+        "signed_difference": 7
+      },
+      {
+        "difference": 2,
+        "oriented_edge": [
+          "l:0:0:2",
+          "b:0:0"
+        ],
+        "oriented_labels": [
+          8,
+          10
+        ],
+        "original_edge": [
+          "b:0:0",
+          "l:0:0:2"
+        ],
+        "signed_difference": 2
+      },
+      {
+        "difference": 1,
+        "oriented_edge": [
+          "l:0:0:3",
+          "b:0:0"
+        ],
+        "oriented_labels": [
+          11,
+          10
+        ],
+        "original_edge": [
+          "b:0:0",
+          "l:0:0:3"
+        ],
+        "signed_difference": -1
+      },
+      {
+        "difference": 9,
+        "oriented_edge": [
+          "s:0",
+          "b:0:1"
+        ],
+        "oriented_labels": [
+          0,
+          9
+        ],
+        "original_edge": [
+          "s:0",
+          "b:0:1"
+        ],
+        "signed_difference": 9
+      },
+      {
+        "difference": 5,
+        "oriented_edge": [
+          "l:0:1:0",
+          "b:0:1"
+        ],
+        "oriented_labels": [
+          4,
+          9
+        ],
+        "original_edge": [
+          "b:0:1",
+          "l:0:1:0"
+        ],
+        "signed_difference": 5
+      },
+      {
+        "difference": 4,
+        "oriented_edge": [
+          "l:0:1:1",
+          "b:0:1"
+        ],
+        "oriented_labels": [
+          5,
+          9
+        ],
+        "original_edge": [
+          "b:0:1",
+          "l:0:1:1"
+        ],
+        "signed_difference": 4
+      },
+      {
+        "difference": 3,
+        "oriented_edge": [
+          "l:0:1:2",
+          "b:0:1"
+        ],
+        "oriented_labels": [
+          6,
+          9
+        ],
+        "original_edge": [
+          "b:0:1",
+          "l:0:1:2"
+        ],
+        "signed_difference": 3
+      },
+      {
+        "difference": 13,
+        "oriented_edge": [
+          "b:1:0",
+          "s:1"
+        ],
+        "oriented_labels": [
+          1,
+          14
+        ],
+        "original_edge": [
+          "s:1",
+          "b:1:0"
+        ],
+        "signed_difference": 13
+      },
+      {
+        "difference": 6,
+        "oriented_edge": [
+          "b:1:0",
+          "l:1:0:0"
+        ],
+        "oriented_labels": [
+          1,
+          7
+        ],
+        "original_edge": [
+          "b:1:0",
+          "l:1:0:0"
+        ],
+        "signed_difference": 6
+      },
+      {
+        "difference": 11,
+        "oriented_edge": [
+          "b:1:0",
+          "l:1:0:1"
+        ],
+        "oriented_labels": [
+          1,
+          12
+        ],
+        "original_edge": [
+          "b:1:0",
+          "l:1:0:1"
+        ],
+        "signed_difference": 11
+      },
+      {
+        "difference": 12,
+        "oriented_edge": [
+          "b:1:0",
+          "l:1:0:2"
+        ],
+        "oriented_labels": [
+          1,
+          13
+        ],
+        "original_edge": [
+          "b:1:0",
+          "l:1:0:2"
+        ],
+        "signed_difference": 12
+      }
+    ],
+    "odd_labels": [
+      7,
+      9,
+      10,
+      12,
+      13,
+      14
+    ],
+    "odd_vertices": [
+      "b:0:0",
+      "b:0:1",
+      "l:1:0:0",
+      "l:1:0:1",
+      "l:1:0:2",
+      "s:1"
+    ],
+    "physical_spine_labels": [
+      0,
+      14
+    ],
+    "retained_difference_inventory": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "retained_label_inventory": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "reversed_edges": [
+      {
+        "difference": 1,
+        "oriented_edge": [
+          "l:0:0:3",
+          "b:0:0"
+        ],
+        "oriented_labels": [
+          11,
+          10
+        ],
+        "original_edge": [
+          "b:0:0",
+          "l:0:0:3"
+        ],
+        "signed_difference": -1
+      }
+    ],
+    "separation_tests": {
+      "even_before_odd": false,
+      "odd_before_even": false
+    },
+    "signed_degree_sum": 103,
+    "status": "PASS",
+    "unused_edge_differences": [],
+    "unused_vertex_labels": [],
+    "weighted_even_sum": 43,
+    "weighted_odd_sum": 146
+  },
+  "parent": "58b960d9dd9cdbee5360b69c030c69a20b064bae",
+  "proof_disposition": "ACCEPT",
+  "retained_execution_statuses": {
+    "D083_original": "INCOMPLETE",
+    "D083_versioned": "PASS",
+    "D093_original": "INCOMPLETE",
+    "D093_versioned": "PASS",
+    "D099": "PASS",
+    "D100_original": "INCOMPLETE",
+    "D100_recovery": "PASS",
+    "D101": "PASS",
+    "D102": "PASS",
+    "D103": "PASS",
+    "D104": "PASS",
+    "D105": "PASS"
+  },
+  "retained_positive": {
+    "checker": {
+      "claim": "finite certificate for this exact named target only",
+      "edge_differences": [
+        13,
+        10,
+        8,
+        7,
+        2,
+        1,
+        9,
+        5,
+        4,
+        3,
+        12,
+        6,
+        11
+      ],
+      "errors": [],
+      "graph_digest": "2060a4e5a7d8f8ebc1906499facea2730250938d4550bb4c6ca34582a1f5b6e6",
+      "m": 13,
+      "n": 14,
+      "valid": true
+    },
+    "graph_digest": "2060a4e5a7d8f8ebc1906499facea2730250938d4550bb4c6ca34582a1f5b6e6",
+    "ledger_id": "af0e2be70013710c5b5b64c6c554512adfaad5ae0faa8ab63c146e428ed50a93"
+  },
+  "runtime": {
+    "path": ".venv/Scripts/python.exe",
+    "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "source_graph_digest": "2060a4e5a7d8f8ebc1906499facea2730250938d4550bb4c6ca34582a1f5b6e6",
+  "source_ledger_id": "af0e2be70013710c5b5b64c6c554512adfaad5ae0faa8ab63c146e428ed50a93",
+  "source_original_sha256": "99d92699cea529c235f3ed146805920d39c030b33d5651e0ba64ed8e1889d168",
+  "state_disposition": "ACCEPT",
+  "status": "PASS",
+  "target_graph_digest": "df89d0f500d8900d44641b6725f4ce3095df900c663006271855330d01d2a86e",
+  "target_original_sha256": "81c427e934f7ac73ed9c1e5097f17ab6f57ef1b1f107e091105673d81dd53d71",
+  "task": "LCL-ORDINARY-43-3-EXTREME-SPINE-001"
+}

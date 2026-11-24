@@ -1,0 +1,61 @@
+{
+  "argv": [
+    "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "evidence/validation/LCL_ORDINARY_43_3_EXTREME_SPINE_001/preflight.py",
+    "080ae88b5fcd500c4ad8b75edcbfbebe1a72b616faf6b2389f57b8d445825fb9"
+  ],
+  "input_hashes": {
+    "CONTRACT.md": "c96a312f7c395083161fb96bffce6710053b51f33971084d1a1826622d4a1c88",
+    "audit.py": "8fa49f138679cb3ef2999fd1916876301b5767112e4b02bc263da09af842f87c",
+    "config.json": "080ae88b5fcd500c4ad8b75edcbfbebe1a72b616faf6b2389f57b8d445825fb9",
+    "preflight.py": "c7f6ccba740d5c6410c31b5288233447823c5303c3cbd09cd3ce810f6531f4a6",
+    "run.py": "f4b2b103b6604cbfb4a5c8358c08d300bd3d269e8de4297f529492fd6a246e89"
+  },
+  "parent": "58b960d9dd9cdbee5360b69c030c69a20b064bae",
+  "parsed_functions": {
+    "audit.py": [
+      "topology",
+      "ledger_id",
+      "transition",
+      "certificate_audit",
+      "controls"
+    ],
+    "preflight.py": [
+      "check",
+      "main"
+    ],
+    "run.py": [
+      "read_json",
+      "digest_file",
+      "write_record",
+      "extend_certificate",
+      "inspect_signed_interface",
+      "require_signed_interface",
+      "retained_positive",
+      "adverse_controls",
+      "validate_inputs",
+      "produce",
+      "execute"
+    ]
+  },
+  "preflight_invocations": 1,
+  "runtime": {
+    "path": ".venv/Scripts/python.exe",
+    "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "source_pins_checked": 121,
+  "status": "PASS",
+  "task": "LCL-ORDINARY-43-3-EXTREME-SPINE-001",
+  "task_module_imports": 0,
+  "vacant_outputs": [
+    "original.json",
+    "result.json",
+    "command_receipt.json",
+    "invocation_failure.json",
+    "__pycache__"
+  ]
+}

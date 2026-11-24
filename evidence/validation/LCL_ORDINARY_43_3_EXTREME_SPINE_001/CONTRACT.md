@@ -1,0 +1,11 @@
+# D106 frozen task contract
+
+Task `LCL-ORDINARY-43-3-EXTREME-SPINE-001` at starting revision `58b960d9dd9cdbee5360b69c030c69a20b064bae`. Reuse the frozen `[[4,3],[2]]` D105 original and ordinary certificate under ledger `af0e2be70013710c5b5b64c6c554512adfaad5ae0faa8ab63c146e428ed50a93`. Independently construct the one original ordered `[[4,3],[3]]` and check its delta is the single named terminal `l:1:0:2` at `b:1:0`.
+
+Raise `s:1` from 13 to 14 and give the new leaf label 13, preserving the other 13 source labels. Independently check the full inventories, both changed original weights, exact incidences, physical spine pins (0,14), complete signed ledger and sole reversed signed weight −1 on `l:0:0:3 → b:0:0`. The ordinary certificate has a separate scope from D104 and the alternative alpha labeling available through D098.
+
+Use standard-library code on one CPU-only project-local Python 3.12/3.13 worker and the unchanged original-target checker. Freeze raw source, input, runtime and configuration hashes. One parse-only preflight with unique intended definitions, no task imports, no bytecode and vacant outputs. Independently inspect mathematical and implementation assertions before the one official invocation. Caps are 30 process-CPU seconds, 60 supervised wall seconds, 2,000,000 bytes per record and 8,000,000 bytes total. Preserve INCOMPLETE and stop on any failure or cap exhaustion.
+
+At most one new original and one accepted certificate. Recheck D105 once on its own original. Execute exactly three adverse controls on the target: wrong graph digest, cross-center terminal swap rejected for invalid differences, and within-center terminal swap accepted as ordinary graceful by the unchanged checker but rejected by the exact signed-interface gate. The adverse within-center label assignment is a control. Use zero solvers, complete-assignment enumeration, search states or nodes, additional profiles, joins, retries, restarts, historical replays or successor experiments.
+
+Obtain separate read-only mathematical and implementation reviews. Preserve all historical evidence, deferred D076, baseline identities and protected upstream pins. Synchronize only LCL and record one unstarted proposal.
