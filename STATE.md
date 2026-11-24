@@ -2,19 +2,21 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 24, 2026, Pacific/Honolulu<br>
-**Stage:** D128 modified-core supplier on exact ordered `[[4,a,4],[2]]`, odd a≥3, **ACCEPTED**. Bounded verification **PASS**. [Proof](research/ORDINARY_4A4_2_MODIFIED_SHARED_MIDDLE_CORE.md).
+**Stage:** D129 unified modified-core supplier on exact ordered `[[q,a,c],[2]]`, even q,c≥4 and odd a≥3, **ACCEPTED**. Bounded verification **PASS**. [Proof](research/ORDINARY_QAC_2_UNIFIED_MODIFIED_SHARED_MIDDLE_CORE.md).
 
 ## Current scientific objective
 
-Develop independently supplied graceful modules with usable physical ports. The [latest handoff](handoffs/CODEX-20261124-ordinary-4a4-2-modified-shared-middle-core.md) records the shifted reflected-pair allocation and the exact new seed family. A unified modified-core rule for independently varying outer and middle quotas remains open. D127's literal theorem covers outer odd positions. The earlier canonical middle-odd suppliers require the first even quota to reach six, so middle-odd orders with first even quota below six and last even quota at least six remain outside those literal statements. The same role correspondence suggests a separate consolidation.
+Develop independently supplied graceful modules with usable physical ports. The [latest handoff](handoffs/CODEX-20261124-ordinary-qac-2-unified-modified-shared-middle-core.md) records one rule for independent even outer quotas at least four and an odd middle quota. The central reservation couples X and M through complete reflected pairs, and the complementary chains fix the Z quota. The first outer quota of two is the next structural boundary. D127's literal theorem covers outer odd positions. The earlier canonical middle-odd suppliers require the first even quota to reach six, while D129 now covers first quota four with last quota at least four.
 
 ## One next action
 
-Under separate authorization, determine whether one unified D123 modified-core reservation rule directly supplies exact ordered `[[q,a,c],[2]]` for independently chosen even q,c≥4 and odd a≥3 at `(s:0,s:1,b:1:0)=(0,q+a+c+7,1)`. Require two disjoint R226 batches on X/M and M/Z with middle contributions a−2 and one, exact original slots and complete graceful inventories, or a precise obstruction to that scheme. Use no profile sweep, solver, assignment enumeration, role transport, join or numerical growth.
+Under separate authorization, determine whether the D123 modified core admits a two-batch R226 supplier on exact ordered `[[2,a,c],[2]]` for independent odd a≥3 and even c≥4 at pins (0,a+c+9,1). Require exact X/M and M/Z quotas, complete disjoint resource partitions and named original incidences, or a precise obstruction to the specified core and batch scheme. Use no profile sweep, solver, assignment enumeration, role transport, join or numerical growth.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
+
+- D129 **SUPPLIES** exact ordered `[[q,a,c],[2]]` at pins (0,q+a+c+7,1) for independent exact even q,c≥4 and odd a≥3. The central interval gives A quotas (q−1,a−2) by distributing whole reflected pairs. Complementary translation chains and an isolated middle half-edge give B quotas (1,c). Both complete original inventories and D112's physical premises hold. One new certificate, D126 and D128 pointwise comparisons and rechecks, four controls and separate reviews passed. D123 and D124 agree symbolically. See [proof](research/ORDINARY_QAC_2_UNIFIED_MODIFIED_SHARED_MIDDLE_CORE.md) and [evidence](evidence/validation/LCL_ORDINARY_QAC_2_UNIFIED_MODIFIED_SHARED_MIDDLE_CORE_001/README.md).
 
 - D128 **SUPPLIES** exact ordered `[[4,a,4],[2]]` at pins (0,a+15,1) for every exact odd integer a≥3. All intact A pairs go to M and the midpoint stays at X. The two batches supply M quotas a−2 and one and fill both original inventories. The a=3 zero-pair case is symbolic. The new boundary, D126 archived recheck, four controls and separate reviews passed. D112's physical premises hold. See [proof](research/ORDINARY_4A4_2_MODIFIED_SHARED_MIDDLE_CORE.md) and [evidence](evidence/validation/LCL_ORDINARY_4A4_2_MODIFIED_SHARED_MIDDLE_CORE_001/README.md).
 
