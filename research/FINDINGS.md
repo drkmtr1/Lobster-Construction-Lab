@@ -1377,3 +1377,9 @@ The sole boundary certificate a=2,r=3 passed the unchanged checker, independent 
 **ACCEPT** A(q+a+r+5,q+a+2;q+1,q+2) on ordered named `[[q,a],[r]]` for exact integers q,a≥2 and r≥q. At r=q the seven original-edge groups exhaust [1,a+2q+4]. Fresh named right terminals at zero supply consecutive new labels and differences with unchanged cut, original spine and physical ports. The high class of size r+3 makes r≥q the exact capacity condition for exit offset q+2. The construction specializes pointwise to D087, D089 and D096 at their corresponding parameters.
 
 One new certificate on `[[4,2],[4]]`, two retained positives and three adverse rejections passed the unchanged checker, independent audit and separate reviews. The official verification used 0.09375 process-CPU seconds with zero joins, solver calls, assignment visits, retries or replays. [Proof](R241_QAR_ALPHA_SUPPLIER.md) · [Evidence](../evidence/validation/LCL_R241_QAR_ALPHA_SUPPLIER_001/README.md) · D097
+
+## LCL-R241-NAMED-CENTER-ROLE-TRANSPORT-001
+
+**ACCEPT** A(q+a+r+5,q+a+2;a+1,a+2) on exact ordered `[[q,a],[r]]` for exact integers q>r≥a≥2. The indexed transport from D097 on `[[a,q],[r]]` swaps both left-center names and their matching terminal groups. All actual incidences, differences, the alpha cut and physical spine ports are preserved. D097 and D098 together supply q,a≥2 and r≥min(q,a), with the ports specified by the selected family.
+
+The unchanged checker and independent audit verified the sole new target `[[4,2],[2]]` and its actual incidence bijection with retained `[[2,4],[2]]`, on distinct original digests. Both inventories are empty. One retained check and three adverse rejections passed both reviews. The official sequence used 0.171875 process-CPU seconds with zero joins, solvers, assignments, retries or replays. [Proof](R241_NAMED_CENTER_ROLE_TRANSPORT.md) · [Evidence](../evidence/validation/LCL_R241_NAMED_CENTER_ROLE_TRANSPORT_001/README.md) · D098

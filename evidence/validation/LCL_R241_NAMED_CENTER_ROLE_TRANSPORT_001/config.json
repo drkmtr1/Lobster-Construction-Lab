@@ -1,0 +1,117 @@
+{
+  "boundary": [
+    4,
+    2,
+    2
+  ],
+  "domain": {
+    "constraint": "q>r>=a>=2",
+    "exact_integers": true,
+    "parameters": [
+      "q",
+      "a",
+      "r"
+    ]
+  },
+  "functions": {
+    "audit.py": [
+      "load",
+      "canonical_digest",
+      "multiset",
+      "inspect",
+      "check"
+    ],
+    "run.py": [
+      "read",
+      "digest_file",
+      "write_record",
+      "d097_source_labels",
+      "target_name",
+      "edge_multiset",
+      "require_transport",
+      "require_ports",
+      "adverses",
+      "inputs",
+      "produce",
+      "execute"
+    ]
+  },
+  "historical_manifest_records": 84,
+  "limits": {
+    "adverse_checks": 3,
+    "assignment_states": 0,
+    "assignment_visits": 0,
+    "bytes_per_record": 2000000,
+    "bytes_total": 8000000,
+    "historical_replays": 0,
+    "joins": 0,
+    "new_certificates": 1,
+    "new_original_identities": 1,
+    "official_sequences": 1,
+    "preflights": 1,
+    "process_cpu_seconds": 30,
+    "restarts": 0,
+    "retained_positive_rechecks": 1,
+    "retries": 0,
+    "search_nodes": 0,
+    "solver_calls": 0,
+    "workers": 1
+  },
+  "local_inputs": [
+    "config.json",
+    "run.py",
+    "audit.py",
+    "preflight.py"
+  ],
+  "parent": "d4602d5c5fca487992e3efc4f6f572e82c8d99ad",
+  "retained": {
+    "command_receipt": "evidence/validation/LCL_R241_242_PORT_34_001/command_receipt.json",
+    "original": "evidence/validation/LCL_R241_242_PORT_34_001/original.json",
+    "result": "evidence/validation/LCL_R241_242_PORT_34_001/result.json"
+  },
+  "runtime_sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+  "source_hashes": {
+    "evidence/validation/LCL_R241_223_AUDIT_CLOSEOUT_001/MANIFEST.json": "ae834752c9417656d4afc2aa88d5dd37bea347eada803cbc0ec6b0563296904b",
+    "evidence/validation/LCL_R241_223_AUDIT_CLOSEOUT_001/command_receipt.json": "a4313bed9e8822bdcababe47d7342594b2bf0c43fd8f7e627da6adfc1336c7e1",
+    "evidence/validation/LCL_R241_223_STRICT_RETURN_001/MANIFEST.json": "796f76530a2ad925f2e31a5d21a3eb60db184c279f8bab08f9d289109f495c0d",
+    "evidence/validation/LCL_R241_223_STRICT_RETURN_001/command_receipts.json": "0cf2e399d699013fe18f2847cab0e97012c24b959e2a61a2187e0cad2cdb2527",
+    "evidence/validation/LCL_R241_242_PORT_34_001/MANIFEST.json": "b67d30a1bafa8f53bbe0e2a5dc1cb3f46334c5bf88d334fbe5e5a0f66815ca1f",
+    "evidence/validation/LCL_R241_242_PORT_34_001/command_receipt.json": "0800d2c3e359f7cfbcd73698b8ddd0ceb41f5d1c597c9bb0bf53ff47361dd229",
+    "evidence/validation/LCL_R241_242_PORT_34_001/original.json": "2c5cc3d08348fd7aca083b221ca2f794407c43bb9bb8523ac5d69eeb85fed502",
+    "evidence/validation/LCL_R241_242_PORT_34_001/result.json": "0f4fd775186545ff85c41e5a16c08713eb1dc124aa5dbb00a616c355852424df",
+    "evidence/validation/LCL_R241_2AR_ZERO_HOST_001/MANIFEST.json": "cb00682e87aeea5c8940831cb81611f245ad669cfd8862aad923a73aeb8a1d94",
+    "evidence/validation/LCL_R241_3B2_PORT44_SYMBOLIC_001/MANIFEST.json": "127c31fb401417e3984ca53503fe9b095e55135ce7164cd560c14893ebcb3fb1",
+    "evidence/validation/LCL_R241_D090_REVERSE_BANDSWAP_001/MANIFEST.json": "dc05c796b5e5afc7bfd58e5e5c27edf229b9a33f4cd1d9a305d98ea778126ee4",
+    "evidence/validation/LCL_R241_D090_REVERSE_BANDSWAP_001/external_failure_receipt.json": "ff275f31230cc3df56905ac527f4e1390b68c3d310a21fba0ced297a8d8b3cc2",
+    "evidence/validation/LCL_R241_D090_REVERSE_BANDSWAP_RECOVERY_001/MANIFEST.json": "0d3b7f4c88260e9ab9f0af81cc4da9023d507c04f654fb68d3a8b808c019c64f",
+    "evidence/validation/LCL_R241_D090_REVERSE_BANDSWAP_RECOVERY_001/command_receipt.json": "9e71ef10492dac68b70dbe9a2c006523844932728d086c228d0e2a5aaca5ae9e",
+    "evidence/validation/LCL_R241_NAMED_CENTER_ROLE_TRANSPORT_001/CONTRACT.md": "260080cbf8f2121c694b91b412a0d0a62f5c27fd051ff7bdbad9c4b606a025f0",
+    "evidence/validation/LCL_R241_QAR_ALPHA_SUPPLIER_001/MANIFEST.json": "62e4c6dfdb8706c80251914950a46c606cfe06846d396b5328fe0b87d7e05b53",
+    "evidence/validation/LCL_R241_QAR_ALPHA_SUPPLIER_001/REVIEWS.md": "78479d4e9666552be062f13e048f4193a829311ae68c553678f4052c6772ab29",
+    "evidence/validation/LCL_R241_QAR_ALPHA_SUPPLIER_001/command_receipt.json": "7c0f10892235567b01e0cc2a9cbd520972ea2909100084bafc50ad830e512a92",
+    "evidence/validation/LCL_R241_QAR_ALPHA_SUPPLIER_001/original.json": "215b12927975be3ae8423686ffcc87fe5f2e14ca1d2f0abad10678666c64a646",
+    "evidence/validation/LCL_R241_QAR_ALPHA_SUPPLIER_001/result.json": "2bf3a273f2f43d09bf640dd5753f87823d5f768f5f6c4af59cd9247104facecf",
+    "handoffs/CODEX-20261123-r241-qar-alpha-supplier.md": "4bc70e3a1025fd38e4bc22be2eb6e23631c8284bde2747e7551f604448ed1353",
+    "lcl/__init__.py": "134055506d3e9cd4fa538177844d28a44d5ab567ec220cf54048e63d1a8a7374",
+    "lcl/model.py": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6",
+    "lcl/verify.py": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909",
+    "references/PROVENANCE.json": "aef6f71ab460265291366041a4144cd119a15a48c22398b6e535e9c5c73b0ace",
+    "research/R241_223_STRICT_RETURN.md": "4a39ef4e58ec3537b64e627728733c7348603a2be8eaf297a517027096278b98",
+    "research/R241_242_PORT_34.md": "59f3c8de26e822ed70ff3797e768b4e35a3eb68a92a2e255aa04f7b84c6e89d5",
+    "research/R241_3B2_PORT44_SYMBOLIC.md": "3f4225dbdf07710d5dc841e3ec582b22b8e9c176f4205ef847ecae0119bd2a11",
+    "research/R241_NAMED_CENTER_ROLE_TRANSPORT.md": "2cec0a3dd100f78475b9957f1c40575f416542d6dc8a7b2fcb025af7cfbe3b53",
+    "research/R241_QAR_ALPHA_SUPPLIER.md": "d168860724879a5e1993daa25bae123ca58a47160ea19fcdb3494e0eb008badf"
+  },
+  "status_receipts": {
+    "D083_original": "evidence/validation/LCL_R241_223_STRICT_RETURN_001/command_receipts.json",
+    "D083_versioned": "evidence/validation/LCL_R241_223_AUDIT_CLOSEOUT_001/command_receipt.json",
+    "D093_original": "evidence/validation/LCL_R241_D090_REVERSE_BANDSWAP_001/external_failure_receipt.json",
+    "D093_versioned": "evidence/validation/LCL_R241_D090_REVERSE_BANDSWAP_RECOVERY_001/command_receipt.json"
+  },
+  "task": "LCL-R241-NAMED-CENTER-ROLE-TRANSPORT-001",
+  "task_source_hashes": {
+    "audit.py": "8244ee21740ec58c247ac3e728c2c3d868846dc835f3fed4126776b266eb064b",
+    "preflight.py": "3a1ac2700ba71ab19d8044f9b4f4dc40541a2da8350e4ac7ddee5438bfbffc2f",
+    "run.py": "8edd6bba754096077bb87bcb63090451903f5232388e2ebd2db4f59a0dc6ebf2"
+  }
+}

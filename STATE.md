@@ -2,19 +2,21 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 23, 2026, Pacific/Honolulu<br>
-**Stage:** D097 closed. The three-quota supplier for exact ordered `[[q,a],[r]]` on q,a≥2 and r≥q at offsets (q+1,q+2) is **ACCEPTED**. [Proof](research/R241_QAR_ALPHA_SUPPLIER.md).
+**Stage:** D098 closed. Named center-role transport at (a+1,a+2) for q>r≥a≥2 is **ACCEPTED**. D097 and D098 together supply r≥min(q,a) for q,a≥2. [Proof](research/R241_NAMED_CENTER_ROLE_TRANSPORT.md).
 
 ## Current scientific objective
 
-Supply multi-center modules with usable physical ports across more quota orders. D097 varies all three quotas on the capacity domain r≥q. The [latest handoff](handoffs/CODEX-20261123-r241-qar-alpha-supplier.md) records this result and the proposed lower-offset interface when a≤r<q.
+Supply multi-center modules with usable physical ports across more quota orders. The [latest handoff](handoffs/CODEX-20261123-r241-named-center-role-transport.md) records the complementary center-role transport and the proposed test of a different supplier on r<min(q,a).
 
 ## One next action
 
-Under separate authorization, prove or refute transfer of D097 to exact ordered `[[q,a],[r]]` on the uncovered slice r≥a≥2 and q>r, at offsets (a+1,a+2). Check the named transport from `[[a,q],[r]]` by exchanging the first-section center roles and their indexed terminal groups while keeping the spine and right center fixed. Use at most one boundary original `[[4,2],[2]]`, with no joins, solvers or assignment enumeration.
+Under separate authorization, test whether one retained lower-block leaf insertion at physical `b:0:1` can supply exact ordered `[[4,3],[2]]` from the D098 `[[4,2],[2]]` ledger or its within-class reflection. Test only the two supplied port states (3,4) and (4,0), with the actual indexed new leaf `l:0:1:2`. Check all allowed low cuts and full incidence bands. Use at most one new target and no joins, solvers or assignment enumeration.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
+
+- D098 supplies A(q+a+r+5,q+a+2;a+1,a+2) on exact ordered `[[q,a],[r]]` for exact integers q>r≥a≥2. Swapping named left centers and their indexed terminal groups transports D097 from `[[a,q],[r]]`, with all incidences, labels, differences and physical ports preserved under the map. D097 and D098 together cover r≥min(q,a) for q,a≥2. The sole new `[[4,2],[2]]` certificate, retained source, bidirectional audit and three adverse rejections passed separate reviews. See [proof](research/R241_NAMED_CENTER_ROLE_TRANSPORT.md) and [evidence](evidence/validation/LCL_R241_NAMED_CENTER_ROLE_TRANSPORT_001/README.md).
 
 - D097 supplies A(q+a+r+5,q+a+2;q+1,q+2) on exact ordered `[[q,a],[r]]` for exact integer q,a≥2 and r≥q. The r=q proof covers every old label and difference. The right zero host gives each fresh named terminal its new label as the edge difference, preserving the cut, physical ports and spine. The particular exit offset q+2 fits precisely when r≥q. One boundary certificate for `[[4,2],[4]]`, both retained controls and three adverse probes passed independent audit and separate reviews. See [proof](research/R241_QAR_ALPHA_SUPPLIER.md) and [evidence](evidence/validation/LCL_R241_QAR_ALPHA_SUPPLIER_001/README.md).
 

@@ -1,0 +1,598 @@
+{
+  "adverse": {
+    "graph_identity": {
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          9,
+          5,
+          4,
+          3,
+          2,
+          1,
+          6,
+          8,
+          7,
+          12,
+          10,
+          11
+        ],
+        "errors": [
+          "original graph digest mismatch"
+        ],
+        "graph_digest": "c602b9934b690cf8bc23e1533840815d1f0ebdc3156f51c361b66c014d9480a0",
+        "m": 12,
+        "n": 13,
+        "valid": false
+      },
+      "declared_digest": "7b10b6b54067ddd72ab79eb80eaaa8be69a0e40dd5d7fd0c31f8c41cb68ef2bf"
+    },
+    "physical_ports": {
+      "declared": [
+        3,
+        3
+      ],
+      "error": "Physical offset mismatch",
+      "valid": false
+    },
+    "transport": {
+      "error": "Named transport changes original edge incidences",
+      "exchanged_source_names": [
+        "l:0:0:0",
+        "l:0:1:0"
+      ],
+      "map": {
+        "b:0:0": "b:0:1",
+        "b:0:1": "b:0:0",
+        "b:1:0": "b:1:0",
+        "l:0:0:0": "l:0:0:0",
+        "l:0:0:1": "l:0:1:1",
+        "l:0:1:0": "l:0:1:0",
+        "l:0:1:1": "l:0:0:1",
+        "l:0:1:2": "l:0:0:2",
+        "l:0:1:3": "l:0:0:3",
+        "l:1:0:0": "l:1:0:0",
+        "l:1:0:1": "l:1:0:1",
+        "s:0": "s:0",
+        "s:1": "s:1"
+      },
+      "valid": false
+    }
+  },
+  "audit": {
+    "archived_execution_statuses": {
+      "D083_original": "INCOMPLETE",
+      "D083_versioned": "PASS",
+      "D093_original": "INCOMPLETE",
+      "D093_versioned": "PASS"
+    },
+    "ascending_target_weight_groups": [
+      [
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        5
+      ],
+      [
+        6
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        9
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        12
+      ]
+    ],
+    "corrupted_transport_extra_edges": [
+      [
+        "b:0:0",
+        "l:0:1:0"
+      ],
+      [
+        "b:0:1",
+        "l:0:0:0"
+      ]
+    ],
+    "corrupted_transport_missing_edges": [
+      [
+        "b:0:0",
+        "l:0:0:0"
+      ],
+      [
+        "b:0:1",
+        "l:0:1:0"
+      ]
+    ],
+    "source": {
+      "edge_rows": [
+        [
+          "s:0",
+          "s:1",
+          9
+        ],
+        [
+          "s:0",
+          "b:0:0",
+          6
+        ],
+        [
+          "b:0:0",
+          "l:0:0:0",
+          8
+        ],
+        [
+          "b:0:0",
+          "l:0:0:1",
+          7
+        ],
+        [
+          "s:0",
+          "b:0:1",
+          5
+        ],
+        [
+          "b:0:1",
+          "l:0:1:0",
+          4
+        ],
+        [
+          "b:0:1",
+          "l:0:1:1",
+          3
+        ],
+        [
+          "b:0:1",
+          "l:0:1:2",
+          2
+        ],
+        [
+          "b:0:1",
+          "l:0:1:3",
+          1
+        ],
+        [
+          "s:1",
+          "b:1:0",
+          12
+        ],
+        [
+          "b:1:0",
+          "l:1:0:0",
+          10
+        ],
+        [
+          "b:1:0",
+          "l:1:0:1",
+          11
+        ]
+      ],
+      "graph_digest": "7b10b6b54067ddd72ab79eb80eaaa8be69a0e40dd5d7fd0c31f8c41cb68ef2bf",
+      "high_labels": [
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "ledger_id": "6946174e3601f4be7f4993515d316a4c92b5cdf86549b2afe8c6013e56bf64fe",
+      "low_labels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "unused_differences": [],
+      "unused_labels": []
+    },
+    "source_edges_mapped": [
+      [
+        "s:0",
+        "s:1",
+        9
+      ],
+      [
+        "s:0",
+        "b:0:1",
+        6
+      ],
+      [
+        "b:0:1",
+        "l:0:1:0",
+        8
+      ],
+      [
+        "b:0:1",
+        "l:0:1:1",
+        7
+      ],
+      [
+        "s:0",
+        "b:0:0",
+        5
+      ],
+      [
+        "b:0:0",
+        "l:0:0:0",
+        4
+      ],
+      [
+        "b:0:0",
+        "l:0:0:1",
+        3
+      ],
+      [
+        "b:0:0",
+        "l:0:0:2",
+        2
+      ],
+      [
+        "b:0:0",
+        "l:0:0:3",
+        1
+      ],
+      [
+        "s:1",
+        "b:1:0",
+        12
+      ],
+      [
+        "b:1:0",
+        "l:1:0:0",
+        10
+      ],
+      [
+        "b:1:0",
+        "l:1:0:1",
+        11
+      ]
+    ],
+    "status": "PASS",
+    "target": {
+      "edge_rows": [
+        [
+          "s:0",
+          "s:1",
+          9
+        ],
+        [
+          "s:0",
+          "b:0:0",
+          5
+        ],
+        [
+          "b:0:0",
+          "l:0:0:0",
+          4
+        ],
+        [
+          "b:0:0",
+          "l:0:0:1",
+          3
+        ],
+        [
+          "b:0:0",
+          "l:0:0:2",
+          2
+        ],
+        [
+          "b:0:0",
+          "l:0:0:3",
+          1
+        ],
+        [
+          "s:0",
+          "b:0:1",
+          6
+        ],
+        [
+          "b:0:1",
+          "l:0:1:0",
+          8
+        ],
+        [
+          "b:0:1",
+          "l:0:1:1",
+          7
+        ],
+        [
+          "s:1",
+          "b:1:0",
+          12
+        ],
+        [
+          "b:1:0",
+          "l:1:0:0",
+          10
+        ],
+        [
+          "b:1:0",
+          "l:1:0:1",
+          11
+        ]
+      ],
+      "graph_digest": "c602b9934b690cf8bc23e1533840815d1f0ebdc3156f51c361b66c014d9480a0",
+      "high_labels": [
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "ledger_id": "66750924e7057c3b304ac56021039b3fcded589741ab5b25d2930e8f25ddd658",
+      "low_labels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "unused_differences": [],
+      "unused_labels": []
+    },
+    "target_edges_mapped_back": [
+      [
+        "s:0",
+        "s:1",
+        9
+      ],
+      [
+        "s:0",
+        "b:0:1",
+        5
+      ],
+      [
+        "b:0:1",
+        "l:0:1:0",
+        4
+      ],
+      [
+        "b:0:1",
+        "l:0:1:1",
+        3
+      ],
+      [
+        "b:0:1",
+        "l:0:1:2",
+        2
+      ],
+      [
+        "b:0:1",
+        "l:0:1:3",
+        1
+      ],
+      [
+        "s:0",
+        "b:0:0",
+        6
+      ],
+      [
+        "b:0:0",
+        "l:0:0:0",
+        8
+      ],
+      [
+        "b:0:0",
+        "l:0:0:1",
+        7
+      ],
+      [
+        "s:1",
+        "b:1:0",
+        12
+      ],
+      [
+        "b:1:0",
+        "l:1:0:0",
+        10
+      ],
+      [
+        "b:1:0",
+        "l:1:0:1",
+        11
+      ]
+    ]
+  },
+  "boundary": [
+    4,
+    2,
+    2
+  ],
+  "certificate": {
+    "checker": {
+      "claim": "finite certificate for this exact named target only",
+      "edge_differences": [
+        9,
+        5,
+        4,
+        3,
+        2,
+        1,
+        6,
+        8,
+        7,
+        12,
+        10,
+        11
+      ],
+      "errors": [],
+      "graph_digest": "c602b9934b690cf8bc23e1533840815d1f0ebdc3156f51c361b66c014d9480a0",
+      "m": 12,
+      "n": 13,
+      "valid": true
+    },
+    "cut": 8,
+    "edge_rows": [
+      [
+        "s:0",
+        "s:1",
+        9
+      ],
+      [
+        "s:0",
+        "b:0:0",
+        5
+      ],
+      [
+        "b:0:0",
+        "l:0:0:0",
+        4
+      ],
+      [
+        "b:0:0",
+        "l:0:0:1",
+        3
+      ],
+      [
+        "b:0:0",
+        "l:0:0:2",
+        2
+      ],
+      [
+        "b:0:0",
+        "l:0:0:3",
+        1
+      ],
+      [
+        "s:0",
+        "b:0:1",
+        6
+      ],
+      [
+        "b:0:1",
+        "l:0:1:0",
+        8
+      ],
+      [
+        "b:0:1",
+        "l:0:1:1",
+        7
+      ],
+      [
+        "s:1",
+        "b:1:0",
+        12
+      ],
+      [
+        "b:1:0",
+        "l:1:0:0",
+        10
+      ],
+      [
+        "b:1:0",
+        "l:1:0:1",
+        11
+      ]
+    ],
+    "graph_digest": "c602b9934b690cf8bc23e1533840815d1f0ebdc3156f51c361b66c014d9480a0",
+    "labels": {
+      "b:0:0": 8,
+      "b:0:1": 9,
+      "b:1:0": 0,
+      "l:0:0:0": 4,
+      "l:0:0:1": 5,
+      "l:0:0:2": 6,
+      "l:0:0:3": 7,
+      "l:0:1:0": 1,
+      "l:0:1:1": 2,
+      "l:1:0:0": 10,
+      "l:1:0:1": 11,
+      "s:0": 3,
+      "s:1": 12
+    },
+    "ledger_id": "66750924e7057c3b304ac56021039b3fcded589741ab5b25d2930e8f25ddd658",
+    "offsets": [
+      3,
+      4
+    ],
+    "witness": [
+      "s:0",
+      "s:1"
+    ]
+  },
+  "original_sha256": "9bb9f7c57247c301b7a503063582bc46b9b8409786b8845e7a8cc45cd0b66582",
+  "parent": "d4602d5c5fca487992e3efc4f6f572e82c8d99ad",
+  "retained_positive": {
+    "checker": {
+      "claim": "finite certificate for this exact named target only",
+      "edge_differences": [
+        9,
+        6,
+        8,
+        7,
+        5,
+        4,
+        3,
+        2,
+        1,
+        12,
+        10,
+        11
+      ],
+      "errors": [],
+      "graph_digest": "7b10b6b54067ddd72ab79eb80eaaa8be69a0e40dd5d7fd0c31f8c41cb68ef2bf",
+      "m": 12,
+      "n": 13,
+      "valid": true
+    },
+    "graph_digest": "7b10b6b54067ddd72ab79eb80eaaa8be69a0e40dd5d7fd0c31f8c41cb68ef2bf",
+    "ledger_id": "6946174e3601f4be7f4993515d316a4c92b5cdf86549b2afe8c6013e56bf64fe",
+    "pointwise_d097_match": true
+  },
+  "runtime": {
+    "path": ".venv/Scripts/python.exe",
+    "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "status": "PASS",
+  "task": "LCL-R241-NAMED-CENTER-ROLE-TRANSPORT-001",
+  "transport": {
+    "forward": {
+      "b:0:0": "b:0:1",
+      "b:0:1": "b:0:0",
+      "b:1:0": "b:1:0",
+      "l:0:0:0": "l:0:1:0",
+      "l:0:0:1": "l:0:1:1",
+      "l:0:1:0": "l:0:0:0",
+      "l:0:1:1": "l:0:0:1",
+      "l:0:1:2": "l:0:0:2",
+      "l:0:1:3": "l:0:0:3",
+      "l:1:0:0": "l:1:0:0",
+      "l:1:0:1": "l:1:0:1",
+      "s:0": "s:0",
+      "s:1": "s:1"
+    },
+    "inverse": {
+      "b:0:0": "b:0:1",
+      "b:0:1": "b:0:0",
+      "b:1:0": "b:1:0",
+      "l:0:0:0": "l:0:1:0",
+      "l:0:0:1": "l:0:1:1",
+      "l:0:0:2": "l:0:1:2",
+      "l:0:0:3": "l:0:1:3",
+      "l:0:1:0": "l:0:0:0",
+      "l:0:1:1": "l:0:0:1",
+      "l:1:0:0": "l:1:0:0",
+      "l:1:0:1": "l:1:0:1",
+      "s:0": "s:0",
+      "s:1": "s:1"
+    }
+  }
+}

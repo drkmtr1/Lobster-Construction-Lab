@@ -1,0 +1,60 @@
+{
+  "argv": [
+    "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "evidence/validation/LCL_R241_NAMED_CENTER_ROLE_TRANSPORT_001/run.py"
+  ],
+  "counts": {
+    "adverse_checks": 3,
+    "assignment_states": 0,
+    "assignment_visits": 0,
+    "historical_replays": 0,
+    "joins": 0,
+    "new_certificates": 1,
+    "new_original_identities": 1,
+    "official_sequences": 1,
+    "restarts": 0,
+    "retained_positive_rechecks": 1,
+    "retries": 0,
+    "search_nodes": 0,
+    "solver_calls": 0,
+    "workers": 1
+  },
+  "exit_code": 0,
+  "finished_utc": "2026-11-24T02:05:54.390731+00:00",
+  "inputs": {
+    "audit.py": "8244ee21740ec58c247ac3e728c2c3d868846dc835f3fed4126776b266eb064b",
+    "config.json": "aef125a2cc37df74e8ac653d8577572c2bdf3e7c59e30a8f287a6b4b200c4545",
+    "preflight.py": "3a1ac2700ba71ab19d8044f9b4f4dc40541a2da8350e4ac7ddee5438bfbffc2f",
+    "preflight_receipt.json": "fa8b4d0fbcd60da05b574829e01f6753a72b6bd23ea87ed0bf044db3acda482c",
+    "run.py": "8edd6bba754096077bb87bcb63090451903f5232388e2ebd2db4f59a0dc6ebf2"
+  },
+  "limits": {
+    "adverse_checks": 3,
+    "assignment_states": 0,
+    "assignment_visits": 0,
+    "bytes_per_record": 2000000,
+    "bytes_total": 8000000,
+    "historical_replays": 0,
+    "joins": 0,
+    "new_certificates": 1,
+    "new_original_identities": 1,
+    "official_sequences": 1,
+    "preflights": 1,
+    "process_cpu_seconds": 30,
+    "restarts": 0,
+    "retained_positive_rechecks": 1,
+    "retries": 0,
+    "search_nodes": 0,
+    "solver_calls": 0,
+    "workers": 1
+  },
+  "parent": "d4602d5c5fca487992e3efc4f6f572e82c8d99ad",
+  "process_cpu_seconds": 0.171875,
+  "result_sha256": "36491950aee2cac994b7822ea599ff95d4de35a52019ba84eefd711eed19b30a",
+  "started_utc": "2026-11-24T02:05:54.229014+00:00",
+  "status": "PASS",
+  "task": "LCL-R241-NAMED-CENTER-ROLE-TRANSPORT-001"
+}
