@@ -1,0 +1,656 @@
+{
+  "control_audit": {
+    "complement_weights_unchanged": true,
+    "cross_changed_weights": [
+      [
+        [
+          "b:0:0",
+          "l:0:0:0"
+        ],
+        8,
+        5
+      ],
+      [
+        [
+          "b:0:1",
+          "l:0:1:1"
+        ],
+        5,
+        2
+      ]
+    ],
+    "cross_missing": [
+      8
+    ],
+    "cross_repeats": {
+      "2": 2
+    },
+    "cross_witnesses": [
+      [
+        "s:0",
+        "b:0:1"
+      ],
+      [
+        "b:0:1",
+        "l:0:1:1"
+      ]
+    ],
+    "midpoint_move_quota_counts": {
+      "b:0:0": 6,
+      "b:0:1": 0
+    },
+    "midpoint_move_resource_inventories_exact": true
+  },
+  "controls": {
+    "complement": {
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          14,
+          12,
+          8,
+          7,
+          6,
+          4,
+          3,
+          2,
+          1,
+          5,
+          11,
+          13,
+          9,
+          10
+        ],
+        "errors": [],
+        "graph_digest": "915f7ff845db575f2be0b87e587c2236d935eabfc674e9bd99e8bce1358033f8",
+        "m": 14,
+        "n": 15,
+        "valid": true
+      },
+      "pins": {
+        "actual": {
+          "b:1:0": 13,
+          "s:0": 14,
+          "s:1": 0
+        },
+        "expected": {
+          "b:1:0": 1,
+          "s:0": 0,
+          "s:1": 14
+        },
+        "valid": false
+      }
+    },
+    "cross_center": {
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          14,
+          12,
+          5,
+          7,
+          6,
+          4,
+          3,
+          2,
+          1,
+          2,
+          11,
+          13,
+          9,
+          10
+        ],
+        "errors": [
+          "edge differences repeat",
+          "edge differences are not exactly 1..m"
+        ],
+        "graph_digest": "915f7ff845db575f2be0b87e587c2236d935eabfc674e9bd99e8bce1358033f8",
+        "m": 14,
+        "n": 15,
+        "valid": false
+      },
+      "pins": {
+        "actual": {
+          "b:1:0": 1,
+          "s:0": 0,
+          "s:1": 14
+        },
+        "expected": {
+          "b:1:0": 1,
+          "s:0": 0,
+          "s:1": 14
+        },
+        "valid": true
+      },
+      "vertices": [
+        "l:0:0:0",
+        "l:0:1:1"
+      ]
+    },
+    "midpoint_flip": {
+      "allocation": {
+        "b:0:0": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "b:0:1": []
+      },
+      "allocation_gate": {
+        "actual_quotas": {
+          "b:0:0": 6,
+          "b:0:1": 0
+        },
+        "allocated_differences": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "allocated_labels": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "differences_exact": true,
+        "expected_quotas": {
+          "b:0:0": 5,
+          "b:0:1": 1
+        },
+        "labels_exact": true,
+        "quotas_exact": false,
+        "residual_differences": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "residual_labels": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "valid": false
+      }
+    },
+    "wrong_digest": {
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          14,
+          12,
+          8,
+          7,
+          6,
+          4,
+          3,
+          2,
+          1,
+          5,
+          11,
+          13,
+          9,
+          10
+        ],
+        "errors": [
+          "original graph digest mismatch"
+        ],
+        "graph_digest": "915f7ff845db575f2be0b87e587c2236d935eabfc674e9bd99e8bce1358033f8",
+        "m": 14,
+        "n": 15,
+        "valid": false
+      },
+      "expected_digest": "0000000000000000000000000000000000000000000000000000000000000000"
+    }
+  },
+  "parent": "7da71f4ffa36501cb628c918b4b5481df0ed6ad9",
+  "retained_allocation_gate": {
+    "actual_quotas": {
+      "b:0:0": 5,
+      "b:0:1": 1
+    },
+    "allocated_differences": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "allocated_labels": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "differences_exact": true,
+    "expected_quotas": {
+      "b:0:0": 5,
+      "b:0:1": 1
+    },
+    "labels_exact": true,
+    "quotas_exact": true,
+    "residual_differences": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "residual_labels": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "valid": true
+  },
+  "retained_boundary": {
+    "actual_quotas": {
+      "b:0:0": 5,
+      "b:0:1": 1
+    },
+    "allocation": {
+      "b:0:0": [
+        4,
+        5,
+        6,
+        8,
+        9
+      ],
+      "b:0:1": [
+        7
+      ]
+    },
+    "checked_formula_vertices": [
+      "b:0:0",
+      "b:0:1",
+      "b:1:0",
+      "l:0:0:0",
+      "l:0:0:1",
+      "l:0:0:2",
+      "l:0:0:3",
+      "l:0:0:4",
+      "l:0:1:0",
+      "l:0:1:1",
+      "l:0:1:2",
+      "l:1:0:0",
+      "l:1:0:1",
+      "s:0",
+      "s:1"
+    ],
+    "core": {
+      "edges": [
+        [
+          "s:0",
+          "s:1"
+        ],
+        [
+          "s:0",
+          "b:0:0"
+        ],
+        [
+          "s:0",
+          "b:0:1"
+        ],
+        [
+          "b:0:1",
+          "l:0:1:0"
+        ],
+        [
+          "b:0:1",
+          "l:0:1:2"
+        ],
+        [
+          "s:1",
+          "b:1:0"
+        ],
+        [
+          "b:1:0",
+          "l:1:0:0"
+        ],
+        [
+          "b:1:0",
+          "l:1:0:1"
+        ]
+      ],
+      "labels": {
+        "b:0:0": 12,
+        "b:0:1": 2,
+        "b:1:0": 1,
+        "l:0:1:0": 3,
+        "l:0:1:2": 13,
+        "l:1:0:0": 10,
+        "l:1:0:1": 11,
+        "s:0": 0,
+        "s:1": 14
+      },
+      "occupied_differences": [
+        1,
+        2,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    "d112_compatibility": {
+      "exit_neighbors": [
+        "b:1:0",
+        "s:0"
+      ],
+      "off_spine_host_distance": 1,
+      "pins": {
+        "b:1:0": 1,
+        "s:0": 0,
+        "s:1": 14
+      },
+      "spine": [
+        "s:0",
+        "s:1"
+      ]
+    },
+    "difference_bijection": true,
+    "observed_negative_incidences": [
+      {
+        "edge": [
+          "l:0:1:0",
+          "b:0:1"
+        ],
+        "signed": -1
+      },
+      {
+        "edge": [
+          "l:0:1:1",
+          "b:0:1"
+        ],
+        "signed": -5
+      },
+      {
+        "edge": [
+          "l:0:1:2",
+          "b:0:1"
+        ],
+        "signed": -11
+      }
+    ],
+    "r226": {
+      "A0": 0,
+      "c": 2,
+      "components": [
+        {
+          "attainable_lower_counts": [
+            0,
+            2
+          ],
+          "difference_count": 2,
+          "difference_vertices": [
+            3,
+            7
+          ],
+          "kind": "parallel_pair",
+          "label_count": 2,
+          "labels": [
+            5,
+            9
+          ]
+        },
+        {
+          "attainable_lower_counts": [
+            0,
+            2
+          ],
+          "difference_count": 2,
+          "difference_vertices": [
+            4,
+            6
+          ],
+          "kind": "parallel_pair",
+          "label_count": 2,
+          "labels": [
+            6,
+            8
+          ]
+        },
+        {
+          "attainable_lower_counts": [
+            0,
+            1
+          ],
+          "difference_count": 1,
+          "difference_vertices": [
+            5
+          ],
+          "kind": "midpoint_loop",
+          "label_count": 1,
+          "labels": [
+            7
+          ]
+        },
+        {
+          "attainable_lower_counts": [
+            0
+          ],
+          "difference_count": 1,
+          "difference_vertices": [
+            8
+          ],
+          "kind": "forced_half_edge",
+          "label_count": 1,
+          "labels": [
+            4
+          ]
+        }
+      ],
+      "eta": 1,
+      "higher_host": "b:0:0",
+      "integral_projection": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "lower_host": "b:0:1",
+      "options": {
+        "4": {
+          "eligible": {
+            "b:0:0": 8
+          },
+          "weights": {
+            "b:0:0": 8,
+            "b:0:1": 2
+          }
+        },
+        "5": {
+          "eligible": {
+            "b:0:0": 7,
+            "b:0:1": 3
+          },
+          "weights": {
+            "b:0:0": 7,
+            "b:0:1": 3
+          }
+        },
+        "6": {
+          "eligible": {
+            "b:0:0": 6,
+            "b:0:1": 4
+          },
+          "weights": {
+            "b:0:0": 6,
+            "b:0:1": 4
+          }
+        },
+        "7": {
+          "eligible": {
+            "b:0:0": 5,
+            "b:0:1": 5
+          },
+          "weights": {
+            "b:0:0": 5,
+            "b:0:1": 5
+          }
+        },
+        "8": {
+          "eligible": {
+            "b:0:0": 4,
+            "b:0:1": 6
+          },
+          "weights": {
+            "b:0:0": 4,
+            "b:0:1": 6
+          }
+        },
+        "9": {
+          "eligible": {
+            "b:0:0": 3,
+            "b:0:1": 7
+          },
+          "weights": {
+            "b:0:0": 3,
+            "b:0:1": 7
+          }
+        }
+      },
+      "selected_epsilon": 1,
+      "selected_j": 0
+    },
+    "residual_differences": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "residual_labels": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "slots": {
+      "b:0:0": [
+        "l:0:0:0",
+        "l:0:0:1",
+        "l:0:0:2",
+        "l:0:0:3",
+        "l:0:0:4"
+      ],
+      "b:0:1": [
+        "l:0:1:1"
+      ]
+    },
+    "unused_differences": [],
+    "unused_labels": [],
+    "vertex_bijection": true
+  },
+  "retained_execution_statuses": {
+    "D083_original": "INCOMPLETE",
+    "D083_versioned": "PASS",
+    "D093_original": "INCOMPLETE",
+    "D093_versioned": "PASS",
+    "D099": "PASS",
+    "D100_original": "INCOMPLETE",
+    "D100_recovery": "PASS",
+    "D101": "PASS",
+    "D102": "PASS",
+    "D103": "PASS",
+    "D104": "PASS",
+    "D105": "PASS",
+    "D106": "PASS",
+    "D107": "PASS",
+    "D108": "PASS",
+    "D109": "PASS",
+    "D110": "PASS",
+    "D111": "PASS",
+    "D112": "PASS"
+  },
+  "retained_positive": {
+    "checker": {
+      "claim": "finite certificate for this exact named target only",
+      "edge_differences": [
+        14,
+        12,
+        8,
+        7,
+        6,
+        4,
+        3,
+        2,
+        1,
+        5,
+        11,
+        13,
+        9,
+        10
+      ],
+      "errors": [],
+      "graph_digest": "915f7ff845db575f2be0b87e587c2236d935eabfc674e9bd99e8bce1358033f8",
+      "m": 14,
+      "n": 15,
+      "valid": true
+    },
+    "graph_digest": "915f7ff845db575f2be0b87e587c2236d935eabfc674e9bd99e8bce1358033f8",
+    "ledger_id": "75aaf6544d6832894a567f2a8b07a1bfb3f9a4cf1860f90534044b4c892584d6",
+    "original_path": "evidence/validation/LCL_ORDINARY_53_2_SIGNED_SEED_001/original.json",
+    "pins": {
+      "actual": {
+        "b:1:0": 1,
+        "s:0": 0,
+        "s:1": 14
+      },
+      "expected": {
+        "b:1:0": 1,
+        "s:0": 0,
+        "s:1": 14
+      },
+      "valid": true
+    },
+    "result_path": "evidence/validation/LCL_ORDINARY_53_2_DIRECT_SEED_001/result.json"
+  },
+  "runtime": {
+    "path": ".venv/Scripts/python.exe",
+    "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "scope": {
+    "boundary_q": 5,
+    "minimum_exact_odd_q": 5,
+    "symbolic_profile": [
+      [
+        "q",
+        3
+      ],
+      [
+        2
+      ]
+    ]
+  },
+  "status": "PASS",
+  "task": "LCL-ORDINARY-Q3-2-ODD-COMPLEMENTARY-SUPPLIER-001"
+}

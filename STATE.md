@@ -2,19 +2,21 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 23, 2026, Pacific/Honolulu<br>
-**Stage:** D112 sign-independent extreme-spine growth and the symbolic `[[5,3],[r]]` supplier for exact integers r≥2 **ACCEPTED**. Archived audit **PASS**. [Proof](research/ORDINARY_EXTREME_SPINE_GROWTH.md).
+**Stage:** D113 direct ordinary supplier for ordered `[[q,3],[2]]` at exact odd integers q≥5 **ACCEPTED**. Retained boundary audit **PASS**. [Proof](research/ORDINARY_Q3_2_ODD_COMPLEMENTARY_SUPPLIER.md).
 
 ## Current scientific objective
 
-Develop independently supplied graceful modules with usable physical ports. The [latest handoff](handoffs/CODEX-20261123-ordinary-extreme-spine-growth.md) records conditional extreme-spine growth, its application to the D111 seed and one proposed symbolic left-quota supplier.
+Develop independently supplied graceful modules with usable physical ports. The [latest handoff](handoffs/CODEX-20261123-ordinary-q3-2-odd-complementary-supplier.md) records the odd-quota complementary supplier, its D112 compatibility and one proposed symbolic treatment of the missing parity.
 
 ## One next action
 
-Under separate authorization, prove or refute a direct ordinary graceful seed for every exact odd integer q≥5 on ordered `[[q,3],[2]]`, with `s:0=0`, `s:1=q+9` and `b:1:0=1`. Seek a symbolic core and complementary residual labels and weights from the D111 allocation, checking the retained R226 component balance and integral host quotas. Use the retained D111 seed as the boundary control, with no additional numerical profile, solver, assignment enumeration or join.
+Under separate authorization, prove or refute a direct ordinary graceful seed for every exact even integer q≥6 on ordered `[[q,3],[2]]`, with `s:0=0`, `s:1=q+9` and `b:1:0=1`. Seek an independently specified core and complementary resource palettes whose integral R226 allocation meets both actual host quotas without relying on D113's midpoint. Require a symbolic label and difference proof, with no numerical profile sweep, solver, assignment enumeration or join.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
+
+- D113 **SUPPLIES** exact ordered `[[q,3],[2]]` at `s:0=0`, `s:1=q+9` and `b:1:0=1` for every exact odd integer q≥5. The supplied core and complementary residual components give the required R226 integral quotas and an independent direct proof of both bijections. D111 is the sole numerical boundary and all four probes passed. The supplied seeds meet D112's premises. See [proof](research/ORDINARY_Q3_2_ODD_COMPLEMENTARY_SUPPLIER.md) and [evidence](evidence/validation/LCL_ORDINARY_Q3_2_ODD_COMPLEMENTARY_SUPPLIER_001/README.md).
 
 - D112 **PROVES** conditional ordinary growth at a terminal spine exit with exactly two neighbors, labeled 0 on the spine and 1 off it, and the exit at the current maximum. Repetition at the off-spine neighbor preserves the witnessing spine and both full inventories. D111 supplies the base for an explicit ordinary graceful labeling of every ordered `[[5,3],[r]]`, exact integer r≥2. The audit rechecked only D105, D106 and D111 and verified four probes, with no new numerical profile. See [proof](research/ORDINARY_EXTREME_SPINE_GROWTH.md) and [evidence](evidence/validation/LCL_ORDINARY_EXTREME_SPINE_GROWTH_001/README.md).
 

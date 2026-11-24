@@ -543,3 +543,5 @@ The [separate D100 audit recovery](../evidence/validation/LCL_R241_43_2_FIXED_EX
 D111 supplies an ordinary graceful certificate at the same three pins with three negative signed incidences. It lies outside each of the three excluded D108–D110 signed interfaces. [Proof](ORDINARY_53_2_DIRECT_SEED.md) · D111
 
 D112 uses that certificate as the base of ordinary right-terminal growth at the same seed pins. The conditional growth rule has no signed-edge restriction. D104's alpha exclusion and the D108–D110 single-reversal exclusions retain their exact domains. [Proof](ORDINARY_EXTREME_SPINE_GROWTH.md) · D112
+
+D113 extends direct ordinary seed supply to odd first-left quotas. The q=5 specialization still has three negative signed edges and lies outside the historical single-reversal hypotheses. The midpoint-flip control exhausts both residual inventories and fails the original quotas. Thus exact label and difference inventories alone do not imply feasibility of this specific host allocation. [Proof](ORDINARY_Q3_2_ODD_COMPLEMENTARY_SUPPLIER.md) · D113

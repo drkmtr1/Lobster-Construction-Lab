@@ -1,0 +1,64 @@
+{
+  "argv": [
+    "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-E",
+    "-X",
+    "utf8",
+    "evidence/validation/LCL_ORDINARY_Q3_2_ODD_COMPLEMENTARY_SUPPLIER_001/preflight.py",
+    "0698bcff67d4ecc6e01faa18baff823e19982ad29f39bae747cbc7586bbfcb09"
+  ],
+  "input_hashes": {
+    "CONTRACT.md": "c4318497b22a860c1a5b1dba8970a185ebabf4148907b6dbec65921e79b3cb1f",
+    "audit.py": "f22437e13d0e2024b46a93e51d3d2349f2f30edbb5af90a66b274c99247adcbc",
+    "config.json": "0698bcff67d4ecc6e01faa18baff823e19982ad29f39bae747cbc7586bbfcb09",
+    "preflight.py": "698ee3c3f2546713f0cba2df38ee5d55106ccb083e09f95e99c515b1c00f8820",
+    "run.py": "6a248fd0bbd0ae1b11d4fd28c9e5eaaab7c0ae8b8c8b7549d13d9ecdb1ab75fb",
+    "supervise.ps1": "b9ab79a4001ab3a37489953a29e06612f5deb42cbdf01c5a4c78f6933f104036"
+  },
+  "parent": "7da71f4ffa36501cb628c918b4b5481df0ed6ad9",
+  "parsed_functions": {
+    "audit.py": [
+      "boundary",
+      "canonical_sha",
+      "controls",
+      "residual_components",
+      "topology"
+    ],
+    "preflight.py": [
+      "check",
+      "main"
+    ],
+    "run.py": [
+      "allocation_gate",
+      "digest_file",
+      "execute",
+      "indexed_formula",
+      "pins_gate",
+      "produce",
+      "read_json",
+      "retained_positive",
+      "run_controls",
+      "validate_inputs",
+      "write_record"
+    ]
+  },
+  "preflight_invocations": 1,
+  "runtime": {
+    "path": ".venv/Scripts/python.exe",
+    "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "source_pins_checked": 228,
+  "status": "PASS",
+  "task": "LCL-ORDINARY-Q3-2-ODD-COMPLEMENTARY-SUPPLIER-001",
+  "task_module_imports": 0,
+  "vacant_outputs": [
+    "original.json",
+    "result.json",
+    "command_receipt.json",
+    "supervisor_receipt.json",
+    "official_stderr.txt",
+    "__pycache__"
+  ]
+}
