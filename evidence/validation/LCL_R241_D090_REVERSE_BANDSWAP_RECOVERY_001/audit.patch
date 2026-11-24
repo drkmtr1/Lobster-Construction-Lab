@@ -1,0 +1,180 @@
+diff --git a/evidence/validation/LCL_R241_D090_REVERSE_BANDSWAP_001/audit.py b/evidence/validation/LCL_R241_D090_REVERSE_BANDSWAP_RECOVERY_001/audit.py
+--- a/evidence/validation/LCL_R241_D090_REVERSE_BANDSWAP_001/audit.py
++++ b/evidence/validation/LCL_R241_D090_REVERSE_BANDSWAP_RECOVERY_001/audit.py
+@@ -230,175 +230,4 @@
+             "spine_labels": cert["spine_labels"], "connector": cert["connector"],
+             "negative_bindings_without_replay": scoped_negatives(root, cfg),
+             "adverse": adverse_audit(original, cert, edges, adverse),
+-            "new_graph_identities": 0, "solver_calls": 0, "enumeration_visits": 0}def match_prior_manifest(root, cfg, folder, names):
+-    manifest_path = f"{folder}/MANIFEST.json"
+-    entries = {row["path"]: row for row in load(root / manifest_path)["files"]}
+-    for name in names:
+-        relative = f"{folder}/{name}"
+-        assert sha256((root / relative).read_bytes()).hexdigest() == entries[name]["sha256"] == cfg["source_hashes"][relative]
+-        assert (root / relative).stat().st_size == entries[name]["bytes"]
+-
+-
+-def retained_source(root, cfg, control):
+-    folder = cfg["retained"]["D090"]
+-    match_prior_manifest(root, cfg, folder, ("original.json", "result.json", "command_receipt.json"))
+-    source = load(root / folder / "original.json")
+-    report = load(root / folder / "result.json")
+-    receipt = load(root / folder / "command_receipt.json")
+-    cert = report["certificate"]
+-    assert report["boundary"] == [2, 2] and report["status"] == receipt["status"] == "PASS"
+-    assert receipt["result_sha256"] == cfg["source_hashes"][f"{folder}/result.json"]
+-    side, _, edges, roles = inspect(source, [[2, 2], [2], [3, 2], [3]])
+-    f = cert["labels"]
+-    assert f.keys() == roles.keys() and all(type(label) is int for label in f.values())
+-    assert sorted(f.values()) == list(range(24))
+-    assert all(side[u] == int(f[u] >= 13) for u in f)
+-    assert cert["cut"] == 13 and cert["offsets"] == [f["s:0"], f["s:3"]-13] == [3, 5]
+-    assert cert["ports"] == ["s:0", "s:3"] and cert["witness"] == source["graph"]["spine"]
+-    weights = [abs(f[u]-f[v]) for u, v in edges]
+-    assert Counter(weights) == Counter(range(1, 24))
+-    identifier = digest({"graph_digest": source["graph_digest"], "labels": sorted(f.items())})
+-    assert cert["edge_rows"] == [[u, v, w] for (u, v), w in zip(edges, weights, strict=True)]
+-    assert cert["ledger_id"] == control["ledger_id"] == identifier
+-    assert cert["graph_digest"] == control["graph_digest"] == source["graph_digest"]
+-    assert cert["checker"] == control["checker"] and control["checker"]["valid"]
+-    assert control["checker"]["edge_differences"] == weights
+-    return source, f, edges, roles
+-
+-
+-def scoped_negatives(root, cfg):
+-    records = {}
+-    for task, quantity, order in (("D091", 2, 10), ("D092", 3, 11)):
+-        folder = cfg["retained"][task]
+-        match_prior_manifest(root, cfg, folder, ("original.json", "result.json", "command_receipt.json"))
+-        original = load(root / folder / "original.json")
+-        report = load(root / folder / "result.json")
+-        receipt = load(root / folder / "command_receipt.json")
+-        domain = report["domain"]
+-        assert domain["profile"] == original["graph"]["profile"] == [[4], [quantity]]
+-        assert len(original["graph"]["vertices"]) == order
+-        assert domain["offsets"] == [5, 3] and domain["cut"] == 6
+-        assert domain["ports"] == ["s:0", "s:1"] and domain["port_labels"] == [5, 9]
+-        assert report["status"] == receipt["status"] == "PASS" and receipt["exit_code"] == 0
+-        assert report["graph_digest"] == original["graph_digest"]
+-        assert report["disposition"] == "EXCLUDED" and receipt["result_sha256"] == cfg["source_hashes"][f"{folder}/result.json"]
+-        records[task] = {"domain": domain, "disposition": "EXCLUDED", "graph_digest": original["graph_digest"]}
+-    assert records["D091"]["graph_digest"] != records["D092"]["graph_digest"]
+-    return records
+-
+-
+-def reversal_ledger(cert, source, f, old_edges, old_roles, edges, roles):
+-    reversed_roles = {}
+-    target_to_source = {}
+-    prefixes = {"spine": "s", "branch": "b", "leaf": "l"}
+-    for name, role in roles.items():
+-        source_role = role | {"section": 3-role["section"]}
+-        parts = [prefixes[role["kind"]], str(source_role["section"])]
+-        if "branch" in role:
+-            parts.append(str(role["branch"]))
+-        if "leaf" in role:
+-            parts.append(str(role["leaf"]))
+-        old_name = ":".join(parts)
+-        target_to_source[name] = old_name
+-        reversed_roles[old_name] = source_role
+-    assert old_roles == reversed_roles
+-    assert len(set(target_to_source.values())) == len(roles)
+-    inverse = {v: k for k, v in target_to_source.items()}
+-    assert cert["name_map"] == inverse
+-    assert Counter(tuple(sorted([inverse[u], inverse[v]])) for u, v in old_edges) == Counter(
+-        tuple(sorted(edge)) for edge in edges)
+-    assert [inverse[v] for v in reversed(source["graph"]["spine"])] == cert["witness"]
+-    independently_derived = {
+-        "s:0": 5, "s:1": 21, "s:2": 10, "s:3": 14,
+-        "b:0:0": 17, "l:0:0:0": 2, "l:0:0:1": 3, "l:0:0:2": 4,
+-        "b:1:0": 1, "l:1:0:0": 18, "l:1:0:1": 19, "l:1:0:2": 20,
+-        "b:1:1": 0, "l:1:1:0": 22, "l:1:1:1": 23,
+-        "b:2:0": 11, "l:2:0:0": 8, "l:2:0:1": 9,
+-        "b:3:0": 7, "l:3:0:0": 12, "l:3:0:1": 13,
+-        "b:3:1": 6, "l:3:1:0": 15, "l:3:1:1": 16,
+-    }
+-    g = cert["labels"]
+-    assert g == independently_derived and g.keys() == roles.keys()
+-    assert cert["source_cut"] == 13
+-    assert all(f[old] == (g[new]+13 if g[new] < 11 else g[new]-11)
+-               for new, old in target_to_source.items())
+-    transport = []
+-    bands = {"former_D087": [], "connector": [], "former_D089": []}
+-    for u, v in edges:
+-        x, y = target_to_source[u], target_to_source[v]
+-        old_difference = abs(f[x]-f[y])
+-        weight = abs(g[u]-g[v])
+-        assert weight+old_difference == 24
+-        transport.append({"source_edge": [x, y], "target_edge": [u, v],
+-                          "source_difference": old_difference, "target_difference": weight})
+-        if {u, v} == {"s:1", "s:2"}:
+-            group = "connector"
+-        else:
+-            assert (roles[u]["section"] < 2) == (roles[v]["section"] < 2)
+-            group = "former_D089" if roles[u]["section"] < 2 else "former_D087"
+-        bands[group].append(weight)
+-    assert cert["connector"] == {"edge": ["s:1", "s:2"], "weight": g["s:1"]-g["s:2"]}
+-    assert cert["connector"]["weight"] == 11
+-    difference_bands = {key: sorted(values) for key, values in bands.items()}
+-    assert difference_bands == {"former_D087": list(range(1, 11)), "connector": [11],
+-                                "former_D089": list(range(12, 24))}
+-    weights = [row["target_difference"] for row in transport]
+-    inventory = {"low_labels": sorted(n for n in g.values() if n < 11),
+-                 "high_labels": sorted(n for n in g.values() if n >= 11),
+-                 "difference_bands": difference_bands,
+-                 "unused_labels": sorted(set(range(24))-set(g.values())),
+-                 "unused_differences": sorted(set(range(1, 24))-set(weights))}
+-    assert inventory == cert["inventories"]
+-    assert inventory["unused_labels"] == inventory["unused_differences"] == []
+-    return transport, weights, inventory
+-
+-
+-def adverse_audit(original, cert, edges, adverse):
+-    digest_probe = adverse["digest"]
+-    assert digest_probe["expected"] == "0"*64 != original["graph_digest"]
+-    assert digest_probe["checker"] == cert["checker"] | {"valid": False, "errors": ["original graph digest mismatch"]}
+-    assert adverse["physical_ports"] == {"ports": ["s:0", "s:3"], "cut": 11, "declared": [5, 4],
+-                                         "actual": [5, 3], "valid": False, "error": "physical offset mismatch"}
+-    labels = cert["labels"]
+-    swap = adverse["invalid_labeling"]
+-    u, v = swap["swap"]
+-    assert (u, v) == ("l:0:0:0", "l:2:0:0") and swap["before_labels"] == [labels[u], labels[v]] == [2, 8]
+-    modified = dict(labels)
+-    modified[u], modified[v] = labels[v], labels[u]
+-    assert sorted(modified.values()) == list(range(24))
+-    wrong_weights = [abs(modified[x]-modified[y]) for x, y in edges]
+-    counts = Counter(wrong_weights)
+-    repeated = {str(w): times for w, times in counts.items() if times > 1}
+-    missing = [w for w in range(1, 24) if not counts[w]]
+-    assert swap["repeated"] == repeated == {"9": 3} and swap["missing"] == missing == [3, 15]
+-    assert swap["checker"] == cert["checker"] | {"valid": False, "edge_differences": wrong_weights,
+-                                                "errors": ["edge differences repeat", "edge differences are not exactly 1..m"]}
+-    return {"repeated": repeated, "missing": missing, "rejections": 3}
+-
+-
+-def check(root, here, cfg, cert, control, adverse):
+-    for path, expected in cfg["source_hashes"].items():
+-        assert sha256((root / path).read_bytes()).hexdigest() == expected
+-    source, f, old_edges, old_roles = retained_source(root, cfg, control)
+-    original = load(here / "original.json")
+-    side, _, edges, roles = inspect(original, [[3], [3, 2], [2], [2, 2]])
+-    assert len(roles) == 24 and len(edges) == 23 and sum(not high for high in side.values()) == 11
+-    labels = cert["labels"]
+-    assert all(type(v) is int for v in labels.values()) and sorted(labels.values()) == list(range(24))
+-    assert all(side[v] == int(labels[v] >= 11) for v in labels)
+-    assert cert["cut"] == 11 and cert["witness"] == ["s:0", "s:1", "s:2", "s:3"]
+-    assert cert["spine_labels"] == [labels[v] for v in cert["witness"]] == [5, 21, 10, 14]
+-    assert cert["ports"] == ["s:0", "s:3"] and cert["offsets"] == [labels["s:0"], labels["s:3"]-11] == [5, 3]
+-    transport, weights, inventory = reversal_ledger(cert, source, f, old_edges, old_roles, edges, roles)
+-    assert Counter(weights) == Counter(range(1, 24))
+-    assert cert["edge_rows"] == [[u, v, w] for (u, v), w in zip(edges, weights, strict=True)]
+-    identifier = digest({"graph_digest": original["graph_digest"], "labels": sorted(labels.items())})
+-    assert cert["ledger_id"] == identifier and control["ledger_id"] != identifier
+-    assert cert["graph_digest"] == cert["checker"]["graph_digest"] == original["graph_digest"] != source["graph_digest"]
+-    assert cert["checker"]["valid"] and cert["checker"]["edge_differences"] == weights
+-    return {"status": "PASS", "graph_digest": original["graph_digest"], "ledger_id": identifier,
+-            "edge_transport": transport, "inventories": inventory, "cut": cert["cut"],
+-            "spine_labels": cert["spine_labels"], "connector": cert["connector"],
+-            "negative_bindings_without_replay": scoped_negatives(root, cfg),
+-            "adverse": adverse_audit(original, cert, edges, adverse),
+-            "new_graph_identities": 0, "solver_calls": 0, "enumeration_visits": 0}
++            "new_graph_identities": 0, "solver_calls": 0, "enumeration_visits": 0}

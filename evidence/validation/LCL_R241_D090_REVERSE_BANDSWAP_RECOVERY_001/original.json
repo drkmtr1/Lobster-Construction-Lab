@@ -1,0 +1,280 @@
+{
+  "graph": {
+    "edges": [
+      [
+        "s:0",
+        "s:1"
+      ],
+      [
+        "s:1",
+        "s:2"
+      ],
+      [
+        "s:2",
+        "s:3"
+      ],
+      [
+        "s:0",
+        "b:0:0"
+      ],
+      [
+        "b:0:0",
+        "l:0:0:0"
+      ],
+      [
+        "b:0:0",
+        "l:0:0:1"
+      ],
+      [
+        "b:0:0",
+        "l:0:0:2"
+      ],
+      [
+        "s:1",
+        "b:1:0"
+      ],
+      [
+        "b:1:0",
+        "l:1:0:0"
+      ],
+      [
+        "b:1:0",
+        "l:1:0:1"
+      ],
+      [
+        "b:1:0",
+        "l:1:0:2"
+      ],
+      [
+        "s:1",
+        "b:1:1"
+      ],
+      [
+        "b:1:1",
+        "l:1:1:0"
+      ],
+      [
+        "b:1:1",
+        "l:1:1:1"
+      ],
+      [
+        "s:2",
+        "b:2:0"
+      ],
+      [
+        "b:2:0",
+        "l:2:0:0"
+      ],
+      [
+        "b:2:0",
+        "l:2:0:1"
+      ],
+      [
+        "s:3",
+        "b:3:0"
+      ],
+      [
+        "b:3:0",
+        "l:3:0:0"
+      ],
+      [
+        "b:3:0",
+        "l:3:0:1"
+      ],
+      [
+        "s:3",
+        "b:3:1"
+      ],
+      [
+        "b:3:1",
+        "l:3:1:0"
+      ],
+      [
+        "b:3:1",
+        "l:3:1:1"
+      ]
+    ],
+    "profile": [
+      [
+        3
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        2
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "roles": {
+      "b:0:0": {
+        "branch": 0,
+        "kind": "branch",
+        "section": 0
+      },
+      "b:1:0": {
+        "branch": 0,
+        "kind": "branch",
+        "section": 1
+      },
+      "b:1:1": {
+        "branch": 1,
+        "kind": "branch",
+        "section": 1
+      },
+      "b:2:0": {
+        "branch": 0,
+        "kind": "branch",
+        "section": 2
+      },
+      "b:3:0": {
+        "branch": 0,
+        "kind": "branch",
+        "section": 3
+      },
+      "b:3:1": {
+        "branch": 1,
+        "kind": "branch",
+        "section": 3
+      },
+      "l:0:0:0": {
+        "branch": 0,
+        "kind": "leaf",
+        "leaf": 0,
+        "section": 0
+      },
+      "l:0:0:1": {
+        "branch": 0,
+        "kind": "leaf",
+        "leaf": 1,
+        "section": 0
+      },
+      "l:0:0:2": {
+        "branch": 0,
+        "kind": "leaf",
+        "leaf": 2,
+        "section": 0
+      },
+      "l:1:0:0": {
+        "branch": 0,
+        "kind": "leaf",
+        "leaf": 0,
+        "section": 1
+      },
+      "l:1:0:1": {
+        "branch": 0,
+        "kind": "leaf",
+        "leaf": 1,
+        "section": 1
+      },
+      "l:1:0:2": {
+        "branch": 0,
+        "kind": "leaf",
+        "leaf": 2,
+        "section": 1
+      },
+      "l:1:1:0": {
+        "branch": 1,
+        "kind": "leaf",
+        "leaf": 0,
+        "section": 1
+      },
+      "l:1:1:1": {
+        "branch": 1,
+        "kind": "leaf",
+        "leaf": 1,
+        "section": 1
+      },
+      "l:2:0:0": {
+        "branch": 0,
+        "kind": "leaf",
+        "leaf": 0,
+        "section": 2
+      },
+      "l:2:0:1": {
+        "branch": 0,
+        "kind": "leaf",
+        "leaf": 1,
+        "section": 2
+      },
+      "l:3:0:0": {
+        "branch": 0,
+        "kind": "leaf",
+        "leaf": 0,
+        "section": 3
+      },
+      "l:3:0:1": {
+        "branch": 0,
+        "kind": "leaf",
+        "leaf": 1,
+        "section": 3
+      },
+      "l:3:1:0": {
+        "branch": 1,
+        "kind": "leaf",
+        "leaf": 0,
+        "section": 3
+      },
+      "l:3:1:1": {
+        "branch": 1,
+        "kind": "leaf",
+        "leaf": 1,
+        "section": 3
+      },
+      "s:0": {
+        "kind": "spine",
+        "section": 0
+      },
+      "s:1": {
+        "kind": "spine",
+        "section": 1
+      },
+      "s:2": {
+        "kind": "spine",
+        "section": 2
+      },
+      "s:3": {
+        "kind": "spine",
+        "section": 3
+      }
+    },
+    "schema_version": 1,
+    "spine": [
+      "s:0",
+      "s:1",
+      "s:2",
+      "s:3"
+    ],
+    "vertices": [
+      "s:0",
+      "b:0:0",
+      "l:0:0:0",
+      "l:0:0:1",
+      "l:0:0:2",
+      "s:1",
+      "b:1:0",
+      "l:1:0:0",
+      "l:1:0:1",
+      "l:1:0:2",
+      "b:1:1",
+      "l:1:1:0",
+      "l:1:1:1",
+      "s:2",
+      "b:2:0",
+      "l:2:0:0",
+      "l:2:0:1",
+      "s:3",
+      "b:3:0",
+      "l:3:0:0",
+      "l:3:0:1",
+      "b:3:1",
+      "l:3:1:0",
+      "l:3:1:1"
+    ]
+  },
+  "graph_digest": "5cd81d04a84488e898e598d4a58e577d821358f3fc4ab987ec4aa5f41f66f9a3"
+}

@@ -1,0 +1,61 @@
+{
+  "argv": [
+    "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "evidence/validation/LCL_R241_D090_REVERSE_BANDSWAP_RECOVERY_001/preflight.py",
+    "be086acce92080b0e60ae1df272e43e03a5d982b56621593d7bcdfc75bc8bc5b"
+  ],
+  "bytecode_cache_absent": true,
+  "input_hashes": {
+    "audit.py": "26e7596c09fbe48d818efa347f62ca330d4ed3d9d2d6114850e61229eedcba86",
+    "config.json": "be086acce92080b0e60ae1df272e43e03a5d982b56621593d7bcdfc75bc8bc5b",
+    "preflight.py": "5f6ea83105b7e43a796bac7901353456df52c662f77d0fec92f6a0c506c66cba",
+    "run.py": "f4fdfa3d6cc5cf28c2d26c6d92ffb5df4c104f9a165493627a221658d6cd71b1"
+  },
+  "parent": "597cf7501eea7d07b5019fe38545a9db2a4bcc94",
+  "parsed_functions": {
+    "audit.py": [
+      "load",
+      "digest",
+      "inspect",
+      "match_prior_manifest",
+      "retained_source",
+      "scoped_negatives",
+      "reversal_ledger",
+      "adverse_audit",
+      "check"
+    ],
+    "run.py": [
+      "read",
+      "hash_file",
+      "ledger_id",
+      "require_ports",
+      "d090_labels",
+      "reverse_section",
+      "source_control",
+      "inventories",
+      "target_certificate",
+      "adverse_controls",
+      "verify_inputs",
+      "main",
+      "write_record",
+      "execute"
+    ]
+  },
+  "preflight_invocations": 1,
+  "runtime": {
+    "path": ".venv/Scripts/python.exe",
+    "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "status": "PASS",
+  "task": "LCL-R241-D090-REVERSE-BANDSWAP-RECOVERY-001",
+  "task_module_imports": 0,
+  "vacant_official_outputs": [
+    "original.json",
+    "result.json",
+    "command_receipt.json"
+  ]
+}

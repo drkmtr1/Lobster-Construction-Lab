@@ -1,0 +1,143 @@
+{
+  "task": "LCL-R241-D090-REVERSE-BANDSWAP-RECOVERY-001",
+  "starting_checkpoint": "597cf7501eea7d07b5019fe38545a9db2a4bcc94",
+  "evidence_hash_convention": "SHA-256 of raw file bytes. File paths in files are relative to this manifest. The manifest excludes itself.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": "audit.patch",
+      "bytes": 11152,
+      "sha256": "9a4d22d2c0cc613c4f29510b3a0ede22505395ac24a1859c597735bff5d94555"
+    },
+    {
+      "path": "audit.py",
+      "bytes": 12647,
+      "sha256": "26e7596c09fbe48d818efa347f62ca330d4ed3d9d2d6114850e61229eedcba86"
+    },
+    {
+      "path": "command_receipt.json",
+      "bytes": 1777,
+      "sha256": "9e71ef10492dac68b70dbe9a2c006523844932728d086c228d0e2a5aaca5ae9e"
+    },
+    {
+      "path": "config.json",
+      "bytes": 5614,
+      "sha256": "be086acce92080b0e60ae1df272e43e03a5d982b56621593d7bcdfc75bc8bc5b"
+    },
+    {
+      "path": "original.json",
+      "bytes": 4383,
+      "sha256": "0679ba35aa8e6c351524b6ea5e983983191f81e45d4c1e3e428fcb1ad6f012fb"
+    },
+    {
+      "path": "preflight_receipt.json",
+      "bytes": 1789,
+      "sha256": "6d06ac7db4224c208db9c42fb9d152e4e9b77caad56788166475d16e49425a51"
+    },
+    {
+      "path": "preflight.py",
+      "bytes": 3635,
+      "sha256": "5f6ea83105b7e43a796bac7901353456df52c662f77d0fec92f6a0c506c66cba"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5129,
+      "sha256": "741a66882976bc4b5eef23f1bf1bb48698e8194a3f3887278a6f40709415f30b"
+    },
+    {
+      "path": "result.json",
+      "bytes": 20520,
+      "sha256": "9bdb0451eced88469eaf853b72b3b9ff1d460187e828cae2fb17e58993d4cf7e"
+    },
+    {
+      "path": "REVIEWS.md",
+      "bytes": 2476,
+      "sha256": "d5894c4243b44dc59d0678d229e5192da6f61dcdebd888174dc04084e837a463"
+    },
+    {
+      "path": "run.py",
+      "bytes": 12128,
+      "sha256": "f4fdfa3d6cc5cf28c2d26c6d92ffb5df4c104f9a165493627a221658d6cd71b1"
+    }
+  ],
+  "source_hashes": {
+    "lcl/model.py": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6",
+    "lcl/verify.py": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909",
+    "references/PROVENANCE.json": "aef6f71ab460265291366041a4144cd119a15a48c22398b6e535e9c5c73b0ace",
+    "references/upstream/mdl/N241_relational_ports.md": "53ac2c8bf13457ae5630dd0c1c6e19b785d3b568b67d932e86d331901ee82e9e",
+    "research/R241_D090_REVERSE_BANDSWAP.md": "bed13c11b931c75f921be04629b00f8176cf873b7430826a6c3bf5c6b1979a1b",
+    "research/R241_2B2_3B3_JOINT.md": "8848b22665db7af226d465126b3a958ccbba1b55198b2798df479d91ce537a4c",
+    "research/R241_2B2_SYMBOLIC_PORT34.md": "1be502b5d04bade20864642df717dbc71fec705ea06b8ded02e3fcfc43ddbe1f",
+    "research/R241_3B3_PORT45_SYMBOLIC.md": "c32ac3712af434f1d25ffe1283a0488473ac09d7d98362a113fe83d2a3c301ef",
+    "research/R241_42_PORT53_RETURN.md": "acd024d0d642edbfd84388442012d8b09b57beb4f31a6b081d8ae75cfc2596ec",
+    "research/R241_43_PORT53_RETURN.md": "b4299798633d9af92b76cff6039ccf2392fe24d1f851b18d385352cbbe2170f7",
+    "evidence/validation/LCL_R241_2B2_3B3_JOINT_001/original.json": "e43104da5cdc33ab6fcd9f19f731d981f4d8e9da5d573a1dfe6f446ce553d479",
+    "evidence/validation/LCL_R241_2B2_3B3_JOINT_001/result.json": "ba5d15061a0dcda9807756b32e8ff0c87aaf4fff6ddeb5eaff43b8a4c51564a3",
+    "evidence/validation/LCL_R241_2B2_3B3_JOINT_001/MANIFEST.json": "b7b272893a00ac357aeef0ba2a80908bc12b477efa8abb0b0cc78dbd8661d0ba",
+    "evidence/validation/LCL_R241_2B2_3B3_JOINT_001/command_receipt.json": "2821b0792fd0447be87808c4580f6364bb175b25a0018ba03b13c3cb0b9d192d",
+    "evidence/validation/LCL_R241_42_PORT53_RETURN_001/original.json": "a7b6ce4e2b4ebf5110a2b63cbe9edfc44fb95f115dfbd48b20efd4542bb3f9b2",
+    "evidence/validation/LCL_R241_42_PORT53_RETURN_001/result.json": "833201565c2b28154b07d143d66036955969db10dc4fa046b29b83a775f11275",
+    "evidence/validation/LCL_R241_42_PORT53_RETURN_001/MANIFEST.json": "513b2668e928a32ca0b63304a6dbbfec082c85799ccd1a32e79745cbdd8de065",
+    "evidence/validation/LCL_R241_42_PORT53_RETURN_001/command_receipt.json": "e75ebb9087cfd17ab56adeb098149f51498bb3c98d01663aa1f7977ee7a158a9",
+    "evidence/validation/LCL_R241_43_PORT53_RETURN_001/original.json": "382dc8a8958255dda05c579785ee0642cca042e39e5c6ed6b6c2554f65d07afc",
+    "evidence/validation/LCL_R241_43_PORT53_RETURN_001/result.json": "18f407f3926a2cdb3ff950ead4af1a8fd384cf5fdea36095d0e6f801c24c7c19",
+    "evidence/validation/LCL_R241_43_PORT53_RETURN_001/MANIFEST.json": "ae28a6e54132421d61975fb9166a2639c1fa3146110780a06b4274d77556de3d",
+    "evidence/validation/LCL_R241_43_PORT53_RETURN_001/command_receipt.json": "2f7868ad3c73d4fda64948a9c5a6d5020b0405abfb03c14c08910a7e38bf218c",
+    "evidence/validation/LCL_R241_223_STRICT_RETURN_001/command_receipts.json": "0cf2e399d699013fe18f2847cab0e97012c24b959e2a61a2187e0cad2cdb2527",
+    "evidence/validation/LCL_R241_223_AUDIT_CLOSEOUT_001/MANIFEST.json": "ae834752c9417656d4afc2aa88d5dd37bea347eada803cbc0ec6b0563296904b",
+    "evidence/validation/LCL_R241_D090_REVERSE_BANDSWAP_001/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "evidence/validation/LCL_R241_D090_REVERSE_BANDSWAP_001/audit.py": "f8caa832dfabe516c9eaa01794200221269dc1bfcce677cdd71aee3b642c046d",
+    "evidence/validation/LCL_R241_D090_REVERSE_BANDSWAP_001/config.json": "b5dd928a4dca7acb8de47d9eed34001dbf4ccb22a644f0965adb1497e42f28de",
+    "evidence/validation/LCL_R241_D090_REVERSE_BANDSWAP_001/external_failure_receipt.json": "ff275f31230cc3df56905ac527f4e1390b68c3d310a21fba0ced297a8d8b3cc2",
+    "evidence/validation/LCL_R241_D090_REVERSE_BANDSWAP_001/MANIFEST.json": "dc05c796b5e5afc7bfd58e5e5c27edf229b9a33f4cd1d9a305d98ea778126ee4",
+    "evidence/validation/LCL_R241_D090_REVERSE_BANDSWAP_001/README.md": "12e240d258ce8c46ad3064318fa281ed8047e0e6413c99fa6095907c90dd0e39",
+    "evidence/validation/LCL_R241_D090_REVERSE_BANDSWAP_001/REVIEWS.md": "5fa174c9ce5e8747110fe75aca8499c0bf622353a9e3682a847899d31eaa03a0",
+    "evidence/validation/LCL_R241_D090_REVERSE_BANDSWAP_001/run.py": "f4fdfa3d6cc5cf28c2d26c6d92ffb5df4c104f9a165493627a221658d6cd71b1",
+    "evidence/validation/LCL_R241_D090_REVERSE_BANDSWAP_001/tool_output.txt": "97378b4f2309bebf26450f3bf156d194431b664fe952e1d3e74a719323b2f3c8"
+  },
+  "runtime": {
+    "path": ".venv/Scripts/python.exe",
+    "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "frozen_attempt": {
+    "path": "evidence/validation/LCL_R241_D090_REVERSE_BANDSWAP_001",
+    "status": "INCOMPLETE",
+    "audit_sha256": "f8caa832dfabe516c9eaa01794200221269dc1bfcce677cdd71aee3b642c046d",
+    "process_cpu_seconds": null
+  },
+  "repair": {
+    "audit_sha256": "26e7596c09fbe48d818efa347f62ca330d4ed3d9d2d6114850e61229eedcba86",
+    "producer_sha256": "f4fdfa3d6cc5cf28c2d26c6d92ffb5df4c104f9a165493627a221658d6cd71b1",
+    "preserved_prefix_bytes": 12646,
+    "removed_duplicate_bytes": 10259,
+    "added_final_lf_bytes": 1
+  },
+  "verified_target": {
+    "graph_digest": "5cd81d04a84488e898e598d4a58e577d821358f3fc4ab987ec4aa5f41f66f9a3",
+    "ledger_id": "7608435b0caddd7831294906d525ecf14867fb3734387a3297e11f7a064c7fe9",
+    "cut": 11,
+    "boundary": [
+      2,
+      2
+    ]
+  },
+  "baseline_tag": {
+    "ref": "refs/tags/lcl-v0.1.0-baseline",
+    "object": "fddfc1dd9541324b2ed2de2505bc750b3e3f0b9d",
+    "peeled_commit": "36ea1603602491bf3c1c5b81ed4c23aaa2210e70"
+  },
+  "upstream_main_pins": {
+    "MDL": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+    "MDL Bounded Search": "e48b94eec4091b4fe189e325cab2eda464409943"
+  },
+  "mathematical_review": "ACCEPT",
+  "syntax_preflight": "PASS",
+  "preflight_invocations": 1,
+  "official_execution": "PASS",
+  "official_process_cpu_seconds": 0.078125
+}

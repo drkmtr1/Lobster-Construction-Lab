@@ -1,0 +1,59 @@
+{
+  "argv": [
+    "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "evidence/validation/LCL_R241_D090_REVERSE_BANDSWAP_RECOVERY_001/run.py"
+  ],
+  "combined_process_cpu_seconds": 0.078125,
+  "counts": {
+    "adverse_checks": 3,
+    "joins": 0,
+    "named_assignment_visits": 0,
+    "new_certificates": 1,
+    "new_original_identities": 1,
+    "official_sequences": 1,
+    "recorded_assignment_states": 0,
+    "replays": 0,
+    "restarts": 0,
+    "retained_positive_rechecks": 1,
+    "retries": 0,
+    "search_nodes": 0,
+    "solver_calls": 0,
+    "symbolic_families": 1,
+    "workers": 1
+  },
+  "exit_code": 0,
+  "finished_utc": "2026-11-24T00:59:16.958825+00:00",
+  "limits": {
+    "adverse_checks": 3,
+    "assignment_visits": 0,
+    "bytes_per_record": 2000000,
+    "bytes_total": 8000000,
+    "cpu_seconds": 30,
+    "joins": 0,
+    "max_new_certificates": 1,
+    "max_new_original_identities": 1,
+    "official_sequences": 1,
+    "recorded_assignment_states": 0,
+    "replays": 0,
+    "restarts": 0,
+    "retries": 0,
+    "search_nodes": 0,
+    "solver_calls": 0,
+    "symbolic_families": 1,
+    "workers": 1
+  },
+  "local_inputs": {
+    "audit.py": "26e7596c09fbe48d818efa347f62ca330d4ed3d9d2d6114850e61229eedcba86",
+    "config.json": "be086acce92080b0e60ae1df272e43e03a5d982b56621593d7bcdfc75bc8bc5b",
+    "run.py": "f4fdfa3d6cc5cf28c2d26c6d92ffb5df4c104f9a165493627a221658d6cd71b1"
+  },
+  "parent": "597cf7501eea7d07b5019fe38545a9db2a4bcc94",
+  "result_sha256": "9bdb0451eced88469eaf853b72b3b9ff1d460187e828cae2fb17e58993d4cf7e",
+  "started_utc": "2026-11-24T00:59:16.873786+00:00",
+  "status": "PASS",
+  "task": "LCL-R241-D090-REVERSE-BANDSWAP-RECOVERY-001",
+  "wall_seconds": 0.0850186999887228
+}

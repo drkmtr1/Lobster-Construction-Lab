@@ -2,19 +2,21 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 23, 2026, Pacific/Honolulu<br>
-**Stage:** D093 symbolic reversal passed mathematical review. The sole executable verification is **INCOMPLETE**. [Proof](research/R241_D090_REVERSE_BANDSWAP.md) · [Failure evidence](evidence/validation/LCL_R241_D090_REVERSE_BANDSWAP_001/README.md).
+**Stage:** D093 versioned recovery **PASS**. The separately archived original execution remains **INCOMPLETE**. [Proof](research/R241_D090_REVERSE_BANDSWAP.md) · [Recovery evidence](evidence/validation/LCL_R241_D090_REVERSE_BANDSWAP_RECOVERY_001/README.md).
 
 ## Current scientific objective
 
-Supply multi-center modules with independently variable quotas and compatible physical ports. D090 supplies (3,5). D093 has a reviewed symbolic (5,3) return on the reversed original, with its boundary certificate and executable audit pending. The [latest handoff](handoffs/CODEX-20261123-r241-d090-reverse-bandswap.md) records the source failure and preservation scope.
+Supply multi-center modules with independently variable quotas and compatible physical offsets. D090 supplies (3,5), and D093 supplies (5,3) on its exact reversed original. The [latest handoff](handoffs/CODEX-20261123-r241-d090-reverse-bandswap-recovery.md) records the verified boundary and the original connector and inventory obligations for a separate composition.
 
 ## One next action
 
-Under separate authorization, recover the single incomplete D093 executable verification in a separately versioned evidence bundle. Correct the duplicated audit tail, check source syntax before execution, and verify only the a=b=2 reversed original, retained controls and three adverse probes under the original caps. Preserve the failed bundle and keep composition out of scope.
+Under separate authorization, prove or refute the single D090-to-D093 R241 composition on exact named `[[2,a],[2],[3,b],[3],[3],[3,d],[2],[2,c]]` for integers a,b,c,d≥2. Verify the physical connector s:3–s:4, complete label and difference inventories, and the proposed return A(a+b+c+d+40,a+b+20;3,3). Keep the task to one binary composition without repetition, solvers or assignment enumeration.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
+
+- D093's executable **recovery passed** for a=b=2. One syntax preflight, one original and certificate, one retained positive and three adverse rejections passed the unchanged checker, independent audit and both separate reviews. The exact original D093 attempt remains **INCOMPLETE**. See [recovery evidence](evidence/validation/LCL_R241_D090_REVERSE_BANDSWAP_RECOVERY_001/README.md).
 
 - D093's **reviewed symbolic proof** supplies A(a+b+20,11;5,3) on exact named `[[3],[3,b],[2],[2,a]]` for integer a,b≥2 by named reversal and alpha-band exchange. Executable verification is **INCOMPLETE** after the audit import failed. The intended boundary original and certificate were never written, and no control checks ran. See [proof](research/R241_D090_REVERSE_BANDSWAP.md) and [failure evidence](evidence/validation/LCL_R241_D090_REVERSE_BANDSWAP_001/README.md).
 
