@@ -1,0 +1,71 @@
+{
+  "argv": [
+    "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-E",
+    "-X",
+    "utf8",
+    "evidence/validation/LCL_ORDINARY_Q3_2_EVEN_COMPLEMENTARY_SUPPLIER_001/preflight.py",
+    "1b615ef40c463e78a1aaf32feec3840f4e9d8b5744e622e04da24986d513c196"
+  ],
+  "input_hashes": {
+    "CONTRACT.md": "62eeb7ab4133373a749d31062f12810911231d6890c402beb64749dd03fce8e0",
+    "audit.py": "e46ec5b0d61fe35712f8e6feffaa8e3ad9e99e689fac52ade332382443213eec",
+    "config.json": "1b615ef40c463e78a1aaf32feec3840f4e9d8b5744e622e04da24986d513c196",
+    "freeze_original.py": "2a3d34b9fe143eaa2386b2619fa4715a8c5e9e4f2139873a67956b4dcb32c3ef",
+    "original.json": "dd9d6b87d8f68e95caac1bfc3541eaf5356277a0b71d0ff63e291940d4f2ec08",
+    "original_freeze_receipt.json": "7715afc3770869e5579f8caa1a2bc8d346fc5ab7a1d21f21eeba4a375337d5fa",
+    "preflight.py": "eabd309b37955f255be3ca6b7bd0d9706dbbf80e8d6894da30d0b96480073a23",
+    "run.py": "bfdcb081318b8ccecb17437faee78099b43251b4b1d4fa153ee01a30e43348f3",
+    "supervise.ps1": "b9ab79a4001ab3a37489953a29e06612f5deb42cbdf01c5a4c78f6933f104036"
+  },
+  "parent": "3f7ff6a27e2f682e9950898af11ff321e086c8ee",
+  "parsed_functions": {
+    "audit.py": [
+      "boundary",
+      "canonical_sha",
+      "controls",
+      "residual_components",
+      "topology"
+    ],
+    "freeze_original.py": [
+      "main"
+    ],
+    "preflight.py": [
+      "check",
+      "main"
+    ],
+    "run.py": [
+      "allocation_gate",
+      "digest_file",
+      "execute",
+      "frozen_target",
+      "growth_gate",
+      "indexed_formula",
+      "pins_gate",
+      "produce",
+      "read_json",
+      "retained_positive",
+      "run_controls",
+      "validate_inputs",
+      "write_record"
+    ]
+  },
+  "preflight_invocations": 1,
+  "runtime": {
+    "path": ".venv/Scripts/python.exe",
+    "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "source_pins_checked": 245,
+  "status": "PASS",
+  "task": "LCL-ORDINARY-Q3-2-EVEN-COMPLEMENTARY-SUPPLIER-001",
+  "task_module_imports": 0,
+  "vacant_outputs": [
+    "result.json",
+    "command_receipt.json",
+    "supervisor_receipt.json",
+    "official_stderr.txt",
+    "__pycache__"
+  ]
+}
