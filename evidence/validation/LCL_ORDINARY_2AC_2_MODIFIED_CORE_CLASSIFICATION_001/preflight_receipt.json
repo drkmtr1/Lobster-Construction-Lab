@@ -1,0 +1,117 @@
+{
+  "argv": [
+    "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-E",
+    "-X",
+    "utf8",
+    "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\evidence\\validation\\LCL_ORDINARY_2AC_2_MODIFIED_CORE_CLASSIFICATION_001\\preflight.py",
+    "eabc5a45e0ae4e2417a1de2897079d560ef12e29a8199f952e6484582f17dd45",
+    "b97c698e32cf2a984688027e7cc97a37548499380771b03ab1e435d443590ff7",
+    "65717b5a7bd82408ed8a798107c0c9ef65d0666333558f0e7f8edf46198e4b50"
+  ],
+  "input_hashes": {
+    ".gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "CONTRACT.md": "b504c4ee9e006e71fad1feed0cd4ddbaf1061a3684d09a5f01343b06ffef8898",
+    "audit.py": "4cc6b8e6b4907fb746c26c7b8f2784eb7ea346dd571c896ebc839a0aafb98b8e",
+    "config.json": "eabc5a45e0ae4e2417a1de2897079d560ef12e29a8199f952e6484582f17dd45",
+    "original.json": "b97c698e32cf2a984688027e7cc97a37548499380771b03ab1e435d443590ff7",
+    "original_adverse.json": "65717b5a7bd82408ed8a798107c0c9ef65d0666333558f0e7f8edf46198e4b50",
+    "preflight.py": "be5425614a07c61772c6e94abe9d5986688f9c501987424cac8d19b35f7a00d2",
+    "preparation_receipt.json": "1aaae3259e58280a92872e103350a0c55b1f309b6f9d708d2869113e5844ef1f",
+    "preparation_supervision.json": "bf2a80bc856c399f07f69a0b0bf2347af7de3d4532033ba5f0283f460ce4fc95",
+    "prepare.py": "9b74ffb3235eca4bc8918b4784d1edc78a4528b8feffe38370d1ac2e4202a8c3",
+    "run.py": "7ca9d73fd91653ac64614c33293b4fa87d6aa85cceeb53759a1ece2e95db3086",
+    "supervise.ps1": "f2934a5629b698aefcf86d0646bcbf09f05557ba770f9ea82db43c0b7e22c651"
+  },
+  "parent": "3bf2446aea9d8dd67a21e04bf6b889a5a57753c2",
+  "parsed_functions": {
+    "audit.py": [
+      "check_adverse",
+      "check_complete",
+      "check_positive",
+      "check_retained",
+      "controls",
+      "eligible_multigraph",
+      "extract_tree",
+      "hash_canonical",
+      "inspect_core",
+      "r226",
+      "reconstruct",
+      "traverse"
+    ],
+    "preflight.py": [
+      "check",
+      "digest",
+      "main"
+    ],
+    "prepare.py": [
+      "main",
+      "write_json"
+    ],
+    "run.py": [
+      "canonical_digest",
+      "check_member",
+      "digest_file",
+      "execute",
+      "global_gate",
+      "local_gate",
+      "modified_core",
+      "open_archive",
+      "physical_gates",
+      "positive_formula",
+      "produce",
+      "read_json",
+      "retained_recheck",
+      "run_controls",
+      "validate_inputs",
+      "write_record"
+    ]
+  },
+  "preflights": 1,
+  "process_cpu_seconds": 0.296875,
+  "retained_inputs": {
+    "evidence/validation/LCL_ORDINARY_4A4_2_MODIFIED_SHARED_MIDDLE_CORE_001/MANIFEST.json": "22b3fa333c6e079a78cd1e210f4570faa55d3eb5eec7f693dc9d493b9f700ba4",
+    "evidence/validation/LCL_ORDINARY_4A4_2_MODIFIED_SHARED_MIDDLE_CORE_001/original.json": "bd8f70b19aed37c0db326a49e620eea678efd5a3c83d8e4da2a64893f874a663",
+    "evidence/validation/LCL_ORDINARY_4A4_2_MODIFIED_SHARED_MIDDLE_CORE_001/result.json": "2a223d7f309827af9c5a425b9b1ce4fac3ef4b2bd74ab22cb03b01b515dc3785",
+    "evidence/validation/LCL_ORDINARY_634_2_MODIFIED_SHARED_MIDDLE_CORE_001/MANIFEST.json": "09bb00bd9f1c342a06a872cc5a8da71410b023aa95cbf69d7bea07fbae37b4f7",
+    "evidence/validation/LCL_ORDINARY_634_2_MODIFIED_SHARED_MIDDLE_CORE_001/result.json": "ec0110a923b5d11496fd1f237cfadf5b8d3b15d43e6097be1ac2f5ef2428d142",
+    "evidence/validation/LCL_ORDINARY_QAC_2_TWO_EVEN_FIXED_CORE_CLASSIFICATION_001/MANIFEST.json": "c95ce4859ef7461a4b02524ded36a355f351de025e566c370c47ff8ec8da1297",
+    "evidence/validation/LCL_ORDINARY_QAC_2_TWO_EVEN_FIXED_CORE_CLASSIFICATION_001/obstruction.json": "1b752bc1288e74e75bf156bf3fcff7d3a4e31697d25378d02ae82d2ac2ad2bd8",
+    "evidence/validation/LCL_ORDINARY_QAC_2_TWO_EVEN_FIXED_CORE_CLASSIFICATION_001/original_adverse.json": "9875fa6239d80dac3702b73d502b9621469b6c1c44289f7026fff39c8fcdb18f",
+    "evidence/validation/LCL_ORDINARY_QAC_2_TWO_EVEN_FIXED_CORE_CLASSIFICATION_001/result.json": "6f5b455e4200c3339dcec93caa5280969748c27287e8cec0154ce5e99086eb32",
+    "evidence/validation/LCL_ORDINARY_QAC_2_UNIFIED_MODIFIED_SHARED_MIDDLE_CORE_001/MANIFEST.json": "e994d4634a2dc8253eb33959b0cde1a15f2c2b14f457af42b57a4c8211132e6b",
+    "evidence/validation/LCL_ORDINARY_QAC_2_UNIFIED_MODIFIED_SHARED_MIDDLE_CORE_001/original.json": "5355ee7c4aa06639f30f286f1730cbf27420f8552f9311ca7ad0fba28405ed4f",
+    "evidence/validation/LCL_ORDINARY_QAC_2_UNIFIED_MODIFIED_SHARED_MIDDLE_CORE_001/result.json": "48c231192db696e4c8794f5eab164632167cd2342855fcf9a5f9d5b32a6c20a2",
+    "handoffs/CODEX-20261124-ordinary-4a4-2-modified-shared-middle-core.md": "91a191833d48f07ae71c83ec681f5ba3af30ebfe346ae1546bc12a3e9d61feb2",
+    "handoffs/CODEX-20261124-ordinary-qac-2-unified-modified-shared-middle-core.md": "9e19db65a4a87099ce5955c7654f217f1f6ca15a6768a2b5d0cf7c47a4564a26",
+    "references/upstream/mdl/N226_R226_two_host_completion.md": "989e85fd24be0ed3c04b0dd80df7a93f648279d6599ec82eede4f4241dc5cddc",
+    "research/ORDINARY_4A4_2_MODIFIED_SHARED_MIDDLE_CORE.md": "decc27eb04c2b9719236e4326cf297529979268f729a6b5c503e8816a277ed10",
+    "research/ORDINARY_634_2_MODIFIED_SHARED_MIDDLE_CORE.md": "c09e6bbe4381a2db45d68ff1d4fa91a79d58bb00301d3140cfbf5ca7f97bec2a",
+    "research/ORDINARY_EXTREME_SPINE_GROWTH.md": "f65f6755e7306f166341d50fcddee2fed963024e09f55ff8801887190f0a7b58",
+    "research/ORDINARY_Q3C_2_UNEQUAL_MODIFIED_SHARED_MIDDLE_CORE.md": "e698bddd24c6a5ef10dfb3acca15784ecb0438a78aad8f41a2328b2bbe8eb959",
+    "research/ORDINARY_QACR_CONSOLIDATED_SEED_D112_GROWTH.md": "0be014fd07e111967bac0217b6f0545c21d7d0ed0f4b7a344da81adb6b33ea4d",
+    "research/ORDINARY_QAC_2_TWO_EVEN_FIXED_CORE_CLASSIFICATION.md": "d5a677e69872a5ec4ee3431d5c2e776a92b77e523877ee4b1c492b119b1a094e",
+    "research/ORDINARY_QAC_2_TWO_EVEN_OUTER_ODD_ROLE_TRANSPORT.md": "a658c49a83067173a2b3a8340202ac9405e3ca48625b103b809150db3b7e789b",
+    "research/ORDINARY_QAC_2_UNIFIED_MODIFIED_SHARED_MIDDLE_CORE.md": "3a155edd01560aa74d75dd7d718cd75cd65cd0166045178434529b76f1a578f0",
+    "research/ORDINARY_U3U_2_MODIFIED_SHARED_MIDDLE_CORE.md": "b8cffd77217f47f83b487be5feb084b2f6e3a49736e3088888e52dffa3270f9e"
+  },
+  "runtime": {
+    "path": ".venv/Scripts/python.exe",
+    "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "source_pins_checked": 587,
+  "status": "PASS",
+  "task": "LCL-ORDINARY-2AC-2-MODIFIED-CORE-CLASSIFICATION-001",
+  "task_module_imports": 0,
+  "vacant_outputs": [
+    "preflight_receipt.json",
+    "result.json",
+    "command_receipt.json",
+    "obstruction.json",
+    "verification_supervision.json",
+    "verification_stderr.txt",
+    "__pycache__"
+  ]
+}

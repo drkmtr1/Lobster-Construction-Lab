@@ -2,19 +2,21 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 24, 2026, Pacific/Honolulu<br>
-**Stage:** D129 unified modified-core supplier on exact ordered `[[q,a,c],[2]]`, even q,c≥4 and odd a≥3, **ACCEPTED**. Bounded verification **PASS**. [Proof](research/ORDINARY_QAC_2_UNIFIED_MODIFIED_SHARED_MIDDLE_CORE.md).
+**Stage:** D130 exact quota-two modified-core classification on `[[2,a,c],[2]]`, **ACCEPTED**. Bounded verification **PASS**. [Proof](research/ORDINARY_2AC_2_MODIFIED_CORE_CLASSIFICATION.md).
 
 ## Current scientific objective
 
-Develop independently supplied graceful modules with usable physical ports. The [latest handoff](handoffs/CODEX-20261124-ordinary-qac-2-unified-modified-shared-middle-core.md) records one rule for independent even outer quotas at least four and an odd middle quota. The central reservation couples X and M through complete reflected pairs, and the complementary chains fix the Z quota. The first outer quota of two is the next structural boundary. D127's literal theorem covers outer odd positions. The earlier canonical middle-odd suppliers require the first even quota to reach six, while D129 now covers first quota four with last quota at least four.
+Develop independently supplied graceful modules with usable physical ports. The [latest handoff](handoffs/CODEX-20261124-ordinary-2ac-2-modified-core-classification.md) records the exact fixed-core threshold at first quota two and the forced residual host allocation. The next priority is a reusable ordinary graceful transition into a new branched spine section. The transition must expose its physical return port, both resource inventories and its conditions on the supplied prefix. Independently supplying compatible cores and palettes for arbitrary center multiplicity remains open.
 
 ## One next action
 
-Under separate authorization, determine whether the D123 modified core admits a two-batch R226 supplier on exact ordered `[[2,a,c],[2]]` for independent odd a≥3 and even c≥4 at pins (0,a+c+9,1). Require exact X/M and M/Z quotas, complete disjoint resource partitions and named original incidences, or a precise obstruction to the specified core and batch scheme. Use no profile sweep, solver, assignment enumeration, role transport, join or numerical growth.
+Under separate authorization, formulate and prove or refute one sign-independent ordinary graceful spine transition from a supplied D112-compatible prefix by appending one named spine vertex with one positive-quota center. Allow arbitrary center multiplicity in the supplied prefix. Specify the actual connector and an independently reserved suffix label and difference inventory, and prove a precise reusable return-port contract or a scoped obstruction to it. Work symbolically without profile sweeps, solvers, numerical joins or quota-two core redesign.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
+
+- D130 **CLASSIFIES** completion of the specified D123 modified labeled core on exact ordered `[[2,a,c],[2]]` at pins (0,a+c+9,1), for independent exact odd a≥3 and even c≥4. Completion exists precisely at a≤c−1. The sole X value is forced by the residual sum and every residual host assignment is forced by one reflection followed by a step-two translation cycle. Two disjoint batches supply the feasible sector. The obstruction at a≥c+1 excludes every completion of this fixed core. One positive certificate, one adverse original binding, the retained D129 recheck, four controls and separate reviews passed. D112's physical premises hold on the positive sector. See [proof](research/ORDINARY_2AC_2_MODIFIED_CORE_CLASSIFICATION.md) and [evidence](evidence/validation/LCL_ORDINARY_2AC_2_MODIFIED_CORE_CLASSIFICATION_001/README.md).
 
 - D129 **SUPPLIES** exact ordered `[[q,a,c],[2]]` at pins (0,q+a+c+7,1) for independent exact even q,c≥4 and odd a≥3. The central interval gives A quotas (q−1,a−2) by distributing whole reflected pairs. Complementary translation chains and an isolated middle half-edge give B quotas (1,c). Both complete original inventories and D112's physical premises hold. One new certificate, D126 and D128 pointwise comparisons and rechecks, four controls and separate reviews passed. D123 and D124 agree symbolically. See [proof](research/ORDINARY_QAC_2_UNIFIED_MODIFIED_SHARED_MIDDLE_CORE.md) and [evidence](evidence/validation/LCL_ORDINARY_QAC_2_UNIFIED_MODIFIED_SHARED_MIDDLE_CORE_001/README.md).
 

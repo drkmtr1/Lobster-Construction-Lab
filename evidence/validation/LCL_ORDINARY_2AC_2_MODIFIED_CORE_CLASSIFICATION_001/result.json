@@ -1,0 +1,2235 @@
+{
+  "batches": {
+    "A": {
+      "allocation": {
+        "b:0:0": [
+          13
+        ],
+        "b:0:1": [
+          7,
+          9,
+          11
+        ]
+      },
+      "differences": [
+        3,
+        5,
+        7,
+        11
+      ],
+      "labels": [
+        7,
+        9,
+        11,
+        13
+      ],
+      "slots": {
+        "b:0:0": [
+          "l:0:0:1"
+        ],
+        "b:0:1": [
+          "l:0:1:1",
+          "l:0:1:2",
+          "l:0:1:3"
+        ]
+      }
+    },
+    "B": {
+      "allocation": {
+        "b:0:1": [
+          5
+        ],
+        "b:0:2": [
+          3,
+          4,
+          6,
+          8,
+          10,
+          12
+        ]
+      },
+      "differences": [
+        4,
+        6,
+        8,
+        9,
+        10,
+        12,
+        13
+      ],
+      "labels": [
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        12
+      ],
+      "slots": {
+        "b:0:1": [
+          "l:0:1:4"
+        ],
+        "b:0:2": [
+          "l:0:2:0",
+          "l:0:2:1",
+          "l:0:2:2",
+          "l:0:2:3",
+          "l:0:2:4",
+          "l:0:2:5"
+        ]
+      }
+    }
+  },
+  "certificate": {
+    "checker": {
+      "claim": "finite certificate for this exact named target only",
+      "edge_differences": [
+        20,
+        2,
+        15,
+        11,
+        14,
+        1,
+        7,
+        5,
+        3,
+        9,
+        16,
+        13,
+        12,
+        10,
+        8,
+        6,
+        4,
+        19,
+        18,
+        17
+      ],
+      "errors": [],
+      "graph_digest": "d5639f8f1a3f6a88477088ce7acab577b48d8deb50a92e95adf48aac7abd6f0a",
+      "m": 20,
+      "n": 21,
+      "valid": true
+    },
+    "graph_digest": "d5639f8f1a3f6a88477088ce7acab577b48d8deb50a92e95adf48aac7abd6f0a",
+    "kind": "ordinary_graceful",
+    "labels": {
+      "b:0:0": 2,
+      "b:0:1": 14,
+      "b:0:2": 16,
+      "b:1:0": 1,
+      "l:0:0:0": 17,
+      "l:0:0:1": 13,
+      "l:0:1:0": 15,
+      "l:0:1:1": 7,
+      "l:0:1:2": 9,
+      "l:0:1:3": 11,
+      "l:0:1:4": 5,
+      "l:0:2:0": 3,
+      "l:0:2:1": 4,
+      "l:0:2:2": 6,
+      "l:0:2:3": 8,
+      "l:0:2:4": 10,
+      "l:0:2:5": 12,
+      "l:1:0:0": 19,
+      "l:1:0:1": 18,
+      "s:0": 0,
+      "s:1": 20
+    },
+    "ledger_id": "f20c7d32b8d0a5957828c9326a0e37f8ac507ee893702c6ae816ecc58f2d7dc5",
+    "physical_pins": {
+      "actual": {
+        "b:1:0": 1,
+        "s:0": 0,
+        "s:1": 20
+      },
+      "expected": {
+        "b:1:0": 1,
+        "s:0": 0,
+        "s:1": 20
+      },
+      "valid": true
+    },
+    "physical_spine": [
+      "s:0",
+      "s:1"
+    ]
+  },
+  "controls": {
+    "cross_center": {
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          20,
+          2,
+          15,
+          10,
+          14,
+          1,
+          7,
+          5,
+          3,
+          9,
+          16,
+          13,
+          12,
+          10,
+          8,
+          6,
+          3,
+          19,
+          18,
+          17
+        ],
+        "errors": [
+          "edge differences repeat",
+          "edge differences are not exactly 1..m"
+        ],
+        "graph_digest": "d5639f8f1a3f6a88477088ce7acab577b48d8deb50a92e95adf48aac7abd6f0a",
+        "m": 20,
+        "n": 21,
+        "valid": false
+      },
+      "pins": {
+        "actual": {
+          "b:1:0": 1,
+          "s:0": 0,
+          "s:1": 20
+        },
+        "expected": {
+          "b:1:0": 1,
+          "s:0": 0,
+          "s:1": 20
+        },
+        "valid": true
+      },
+      "vertices": [
+        "l:0:0:1",
+        "l:0:2:5"
+      ]
+    },
+    "global_overlap": {
+      "batches": {
+        "A": {
+          "allocation": {
+            "b:0:0": [
+              12
+            ],
+            "b:0:1": [
+              7,
+              9,
+              11
+            ]
+          },
+          "differences": [
+            3,
+            5,
+            7,
+            10
+          ],
+          "labels": [
+            7,
+            9,
+            11,
+            12
+          ],
+          "slots": {
+            "b:0:0": [
+              "l:0:0:1"
+            ],
+            "b:0:1": [
+              "l:0:1:1",
+              "l:0:1:2",
+              "l:0:1:3"
+            ]
+          }
+        },
+        "B": {
+          "allocation": {
+            "b:0:1": [
+              5
+            ],
+            "b:0:2": [
+              3,
+              4,
+              6,
+              8,
+              10,
+              12
+            ]
+          },
+          "differences": [
+            4,
+            6,
+            8,
+            9,
+            10,
+            12,
+            13
+          ],
+          "labels": [
+            3,
+            4,
+            5,
+            6,
+            8,
+            10,
+            12
+          ],
+          "slots": {
+            "b:0:1": [
+              "l:0:1:4"
+            ],
+            "b:0:2": [
+              "l:0:2:0",
+              "l:0:2:1",
+              "l:0:2:2",
+              "l:0:2:3",
+              "l:0:2:4",
+              "l:0:2:5"
+            ]
+          }
+        }
+      },
+      "global": {
+        "missing_differences": [
+          11
+        ],
+        "missing_labels": [
+          13
+        ],
+        "repeated_differences": {
+          "10": 2
+        },
+        "repeated_labels": {
+          "12": 2
+        },
+        "tests": {
+          "difference_partition": false,
+          "label_partition": false,
+          "only_shared_host_M": true,
+          "slots_exact": true
+        },
+        "valid": false
+      },
+      "local": {
+        "A": {
+          "actual_quotas": {
+            "b:0:0": 1,
+            "b:0:1": 3
+          },
+          "allocated_differences": [
+            3,
+            5,
+            7,
+            10
+          ],
+          "allocated_labels": [
+            7,
+            9,
+            11,
+            12
+          ],
+          "eligible_options": {
+            "7": {
+              "b:0:0": 5,
+              "b:0:1": 7
+            },
+            "9": {
+              "b:0:0": 7,
+              "b:0:1": 5
+            },
+            "11": {
+              "b:0:1": 3
+            },
+            "12": {
+              "b:0:0": 10
+            }
+          },
+          "expected_quotas": {
+            "b:0:0": 1,
+            "b:0:1": 3
+          },
+          "tests": {
+            "differences_exact": true,
+            "eligible": true,
+            "labels_exact": true,
+            "quotas_exact": true
+          },
+          "valid": true
+        },
+        "B": {
+          "actual_quotas": {
+            "b:0:1": 1,
+            "b:0:2": 6
+          },
+          "allocated_differences": [
+            4,
+            6,
+            8,
+            9,
+            10,
+            12,
+            13
+          ],
+          "allocated_labels": [
+            3,
+            4,
+            5,
+            6,
+            8,
+            10,
+            12
+          ],
+          "eligible_options": {
+            "3": {
+              "b:0:2": 13
+            },
+            "4": {
+              "b:0:1": 10,
+              "b:0:2": 12
+            },
+            "5": {
+              "b:0:1": 9
+            },
+            "6": {
+              "b:0:1": 8,
+              "b:0:2": 10
+            },
+            "8": {
+              "b:0:1": 6,
+              "b:0:2": 8
+            },
+            "10": {
+              "b:0:1": 4,
+              "b:0:2": 6
+            },
+            "12": {
+              "b:0:2": 4
+            }
+          },
+          "expected_quotas": {
+            "b:0:1": 1,
+            "b:0:2": 6
+          },
+          "tests": {
+            "differences_exact": true,
+            "eligible": true,
+            "labels_exact": true,
+            "quotas_exact": true
+          },
+          "valid": true
+        }
+      }
+    },
+    "pair_move": {
+      "batch": {
+        "allocation": {
+          "b:0:0": [
+            13,
+            7,
+            9
+          ],
+          "b:0:1": [
+            11
+          ]
+        },
+        "differences": [
+          3,
+          5,
+          7,
+          11
+        ],
+        "labels": [
+          7,
+          9,
+          11,
+          13
+        ],
+        "slots": {
+          "b:0:0": [
+            "l:0:0:1"
+          ],
+          "b:0:1": [
+            "l:0:1:1",
+            "l:0:1:2",
+            "l:0:1:3"
+          ]
+        }
+      },
+      "labels": [
+        7,
+        9
+      ],
+      "local": {
+        "actual_quotas": {
+          "b:0:0": 3,
+          "b:0:1": 1
+        },
+        "allocated_differences": [
+          3,
+          5,
+          7,
+          11
+        ],
+        "allocated_labels": [
+          7,
+          9,
+          11,
+          13
+        ],
+        "eligible_options": {
+          "7": {
+            "b:0:0": 5,
+            "b:0:1": 7
+          },
+          "9": {
+            "b:0:0": 7,
+            "b:0:1": 5
+          },
+          "11": {
+            "b:0:1": 3
+          },
+          "13": {
+            "b:0:0": 11
+          }
+        },
+        "expected_quotas": {
+          "b:0:0": 1,
+          "b:0:1": 3
+        },
+        "tests": {
+          "differences_exact": true,
+          "eligible": true,
+          "labels_exact": true,
+          "quotas_exact": false
+        },
+        "valid": false
+      }
+    },
+    "wrong_digest": {
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          20,
+          2,
+          15,
+          11,
+          14,
+          1,
+          7,
+          5,
+          3,
+          9,
+          16,
+          13,
+          12,
+          10,
+          8,
+          6,
+          4,
+          19,
+          18,
+          17
+        ],
+        "errors": [
+          "original graph digest mismatch"
+        ],
+        "graph_digest": "d5639f8f1a3f6a88477088ce7acab577b48d8deb50a92e95adf48aac7abd6f0a",
+        "m": 20,
+        "n": 21,
+        "valid": false
+      },
+      "expected_digest": "0000000000000000000000000000000000000000000000000000000000000000"
+    }
+  },
+  "core": {
+    "b:0:0": 2,
+    "b:0:1": 14,
+    "b:0:2": 16,
+    "b:1:0": 1,
+    "l:0:0:0": 17,
+    "l:0:1:0": 15,
+    "l:1:0:0": 19,
+    "l:1:0:1": 18,
+    "s:0": 0,
+    "s:1": 20
+  },
+  "global": {
+    "missing_differences": [],
+    "missing_labels": [],
+    "repeated_differences": {},
+    "repeated_labels": {},
+    "tests": {
+      "difference_partition": true,
+      "label_partition": true,
+      "only_shared_host_M": true,
+      "slots_exact": true
+    },
+    "valid": true
+  },
+  "growth_premises": {
+    "actual_exit_neighbors": [
+      "b:1:0",
+      "s:0"
+    ],
+    "tests": {
+      "actual_spine": true,
+      "exit_neighbors": true,
+      "growth_labels": true,
+      "host_off_spine": true
+    },
+    "valid": true
+  },
+  "independent": {
+    "absolute_differences": [
+      20,
+      2,
+      15,
+      11,
+      14,
+      1,
+      7,
+      5,
+      3,
+      9,
+      16,
+      13,
+      12,
+      10,
+      8,
+      6,
+      4,
+      19,
+      18,
+      17
+    ],
+    "coordinate_permutation": {
+      "3": 3,
+      "4": 4,
+      "5": 7,
+      "6": 6,
+      "7": 9,
+      "8": 8,
+      "9": 11,
+      "10": 10,
+      "11": 13,
+      "12": 12,
+      "13": 5
+    },
+    "core_differences": [
+      20,
+      2,
+      15,
+      14,
+      1,
+      16,
+      19,
+      18,
+      17
+    ],
+    "core_edges": [
+      [
+        "s:0",
+        "s:1"
+      ],
+      [
+        "s:0",
+        "b:0:0"
+      ],
+      [
+        "b:0:0",
+        "l:0:0:0"
+      ],
+      [
+        "s:0",
+        "b:0:1"
+      ],
+      [
+        "b:0:1",
+        "l:0:1:0"
+      ],
+      [
+        "s:0",
+        "b:0:2"
+      ],
+      [
+        "s:1",
+        "b:1:0"
+      ],
+      [
+        "b:1:0",
+        "l:1:0:0"
+      ],
+      [
+        "b:1:0",
+        "l:1:0:1"
+      ]
+    ],
+    "degree_parity_quantity": 192,
+    "distance_to_spine": {
+      "b:0:0": 1,
+      "b:0:1": 1,
+      "b:0:2": 1,
+      "b:1:0": 1,
+      "l:0:0:0": 2,
+      "l:0:0:1": 2,
+      "l:0:1:0": 2,
+      "l:0:1:1": 2,
+      "l:0:1:2": 2,
+      "l:0:1:3": 2,
+      "l:0:1:4": 2,
+      "l:0:2:0": 2,
+      "l:0:2:1": 2,
+      "l:0:2:2": 2,
+      "l:0:2:3": 2,
+      "l:0:2:4": 2,
+      "l:0:2:5": 2,
+      "l:1:0:0": 2,
+      "l:1:0:1": 2,
+      "s:0": 0,
+      "s:1": 0
+    },
+    "graph_digest": "d5639f8f1a3f6a88477088ce7acab577b48d8deb50a92e95adf48aac7abd6f0a",
+    "growth_premises": {
+      "actual_exit_neighbors": [
+        "b:1:0",
+        "s:0"
+      ],
+      "tests": {
+        "actual_spine": true,
+        "exit_neighbors": true,
+        "growth_labels": true,
+        "host_off_spine": true
+      },
+      "valid": true
+    },
+    "ledger_id": "f20c7d32b8d0a5957828c9326a0e37f8ac507ee893702c6ae816ecc58f2d7dc5",
+    "named_slots": [
+      [
+        "b:0:0",
+        "l:0:0:1"
+      ],
+      [
+        "b:0:1",
+        "l:0:1:1"
+      ],
+      [
+        "b:0:1",
+        "l:0:1:2"
+      ],
+      [
+        "b:0:1",
+        "l:0:1:3"
+      ],
+      [
+        "b:0:1",
+        "l:0:1:4"
+      ],
+      [
+        "b:0:2",
+        "l:0:2:0"
+      ],
+      [
+        "b:0:2",
+        "l:0:2:1"
+      ],
+      [
+        "b:0:2",
+        "l:0:2:2"
+      ],
+      [
+        "b:0:2",
+        "l:0:2:3"
+      ],
+      [
+        "b:0:2",
+        "l:0:2:4"
+      ],
+      [
+        "b:0:2",
+        "l:0:2:5"
+      ]
+    ],
+    "nontrivial_cycle": [
+      13,
+      5,
+      7,
+      9,
+      11
+    ],
+    "physical_pins": {
+      "actual": {
+        "b:1:0": 1,
+        "s:0": 0,
+        "s:1": 20
+      },
+      "expected": {
+        "b:1:0": 1,
+        "s:0": 0,
+        "s:1": 20
+      },
+      "valid": true
+    },
+    "r226": {
+      "A": {
+        "A0": 1,
+        "c": 1,
+        "chosen_quotas": {
+          "b:0:0": 1,
+          "b:0:1": 3
+        },
+        "components": [
+          {
+            "assigned_hosts": {
+              "11": "b:0:1"
+            },
+            "balance": {
+              "e": 0,
+              "n": 1,
+              "t": 1
+            },
+            "differences": [
+              3
+            ],
+            "forced_extraction": {
+              "11": "b:0:1"
+            },
+            "half_edges": [
+              11
+            ],
+            "host_tagged_options": {
+              "11": {
+                "b:0:1": 3
+              }
+            },
+            "kind": "forced_half_edge",
+            "labels": [
+              11
+            ],
+            "loops": [],
+            "ordinary_edges": []
+          },
+          {
+            "assigned_hosts": {
+              "7": "b:0:1",
+              "9": "b:0:1"
+            },
+            "balance": {
+              "e": 2,
+              "n": 2,
+              "t": 0
+            },
+            "differences": [
+              5,
+              7
+            ],
+            "forced_extraction": {},
+            "half_edges": [],
+            "host_tagged_options": {
+              "7": {
+                "b:0:0": 5,
+                "b:0:1": 7
+              },
+              "9": {
+                "b:0:0": 7,
+                "b:0:1": 5
+              }
+            },
+            "kind": "parallel_pair",
+            "labels": [
+              7,
+              9
+            ],
+            "loops": [],
+            "ordinary_edges": [
+              7,
+              9
+            ]
+          },
+          {
+            "assigned_hosts": {
+              "13": "b:0:0"
+            },
+            "balance": {
+              "e": 0,
+              "n": 1,
+              "t": 1
+            },
+            "differences": [
+              11
+            ],
+            "forced_extraction": {
+              "13": "b:0:0"
+            },
+            "half_edges": [
+              13
+            ],
+            "host_tagged_options": {
+              "13": {
+                "b:0:0": 11
+              }
+            },
+            "kind": "forced_half_edge",
+            "labels": [
+              13
+            ],
+            "loops": [],
+            "ordinary_edges": []
+          }
+        ],
+        "eligible_options": {
+          "7": {
+            "b:0:0": 5,
+            "b:0:1": 7
+          },
+          "9": {
+            "b:0:0": 7,
+            "b:0:1": 5
+          },
+          "11": {
+            "b:0:1": 3
+          },
+          "13": {
+            "b:0:0": 11
+          }
+        },
+        "eta": 0,
+        "hosts": [
+          "b:0:0",
+          "b:0:1"
+        ],
+        "integral_projection": [
+          1,
+          3
+        ],
+        "weight_options": {
+          "7": {
+            "b:0:0": 5,
+            "b:0:1": 7
+          },
+          "9": {
+            "b:0:0": 7,
+            "b:0:1": 5
+          },
+          "11": {
+            "b:0:0": 9,
+            "b:0:1": 3
+          },
+          "13": {
+            "b:0:0": 11,
+            "b:0:1": 1
+          }
+        }
+      },
+      "B": {
+        "A0": 1,
+        "c": 0,
+        "chosen_quotas": {
+          "b:0:1": 1,
+          "b:0:2": 6
+        },
+        "components": [
+          {
+            "assigned_hosts": {
+              "4": "b:0:2",
+              "6": "b:0:2",
+              "8": "b:0:2",
+              "10": "b:0:2",
+              "12": "b:0:2"
+            },
+            "balance": {
+              "e": 4,
+              "n": 5,
+              "t": 1
+            },
+            "differences": [
+              4,
+              6,
+              8,
+              10,
+              12
+            ],
+            "forced_extraction": {
+              "4": "b:0:2",
+              "6": "b:0:2",
+              "8": "b:0:2",
+              "10": "b:0:2",
+              "12": "b:0:2"
+            },
+            "half_edges": [
+              12
+            ],
+            "host_tagged_options": {
+              "4": {
+                "b:0:1": 10,
+                "b:0:2": 12
+              },
+              "6": {
+                "b:0:1": 8,
+                "b:0:2": 10
+              },
+              "8": {
+                "b:0:1": 6,
+                "b:0:2": 8
+              },
+              "10": {
+                "b:0:1": 4,
+                "b:0:2": 6
+              },
+              "12": {
+                "b:0:2": 4
+              }
+            },
+            "kind": "tree_with_half_edge",
+            "labels": [
+              4,
+              6,
+              8,
+              10,
+              12
+            ],
+            "loops": [],
+            "ordinary_edges": [
+              4,
+              6,
+              8,
+              10
+            ]
+          },
+          {
+            "assigned_hosts": {
+              "5": "b:0:1"
+            },
+            "balance": {
+              "e": 0,
+              "n": 1,
+              "t": 1
+            },
+            "differences": [
+              9
+            ],
+            "forced_extraction": {
+              "5": "b:0:1"
+            },
+            "half_edges": [
+              5
+            ],
+            "host_tagged_options": {
+              "5": {
+                "b:0:1": 9
+              }
+            },
+            "kind": "forced_half_edge",
+            "labels": [
+              5
+            ],
+            "loops": [],
+            "ordinary_edges": []
+          },
+          {
+            "assigned_hosts": {
+              "3": "b:0:2"
+            },
+            "balance": {
+              "e": 0,
+              "n": 1,
+              "t": 1
+            },
+            "differences": [
+              13
+            ],
+            "forced_extraction": {
+              "3": "b:0:2"
+            },
+            "half_edges": [
+              3
+            ],
+            "host_tagged_options": {
+              "3": {
+                "b:0:2": 13
+              }
+            },
+            "kind": "forced_half_edge",
+            "labels": [
+              3
+            ],
+            "loops": [],
+            "ordinary_edges": []
+          }
+        ],
+        "eligible_options": {
+          "3": {
+            "b:0:2": 13
+          },
+          "4": {
+            "b:0:1": 10,
+            "b:0:2": 12
+          },
+          "5": {
+            "b:0:1": 9
+          },
+          "6": {
+            "b:0:1": 8,
+            "b:0:2": 10
+          },
+          "8": {
+            "b:0:1": 6,
+            "b:0:2": 8
+          },
+          "10": {
+            "b:0:1": 4,
+            "b:0:2": 6
+          },
+          "12": {
+            "b:0:2": 4
+          }
+        },
+        "eta": 0,
+        "hosts": [
+          "b:0:1",
+          "b:0:2"
+        ],
+        "integral_projection": [
+          1
+        ],
+        "weight_options": {
+          "3": {
+            "b:0:1": 11,
+            "b:0:2": 13
+          },
+          "4": {
+            "b:0:1": 10,
+            "b:0:2": 12
+          },
+          "5": {
+            "b:0:1": 9,
+            "b:0:2": 11
+          },
+          "6": {
+            "b:0:1": 8,
+            "b:0:2": 10
+          },
+          "8": {
+            "b:0:1": 6,
+            "b:0:2": 8
+          },
+          "10": {
+            "b:0:1": 4,
+            "b:0:2": 6
+          },
+          "12": {
+            "b:0:1": 2,
+            "b:0:2": 4
+          }
+        }
+      }
+    },
+    "residual_differences": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "residual_labels": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "signed_incidences": [
+      {
+        "difference": 20,
+        "edge": [
+          "s:0",
+          "s:1"
+        ]
+      },
+      {
+        "difference": 2,
+        "edge": [
+          "s:0",
+          "b:0:0"
+        ]
+      },
+      {
+        "difference": -15,
+        "edge": [
+          "l:0:0:0",
+          "b:0:0"
+        ]
+      },
+      {
+        "difference": -11,
+        "edge": [
+          "l:0:0:1",
+          "b:0:0"
+        ]
+      },
+      {
+        "difference": 14,
+        "edge": [
+          "s:0",
+          "b:0:1"
+        ]
+      },
+      {
+        "difference": -1,
+        "edge": [
+          "l:0:1:0",
+          "b:0:1"
+        ]
+      },
+      {
+        "difference": 7,
+        "edge": [
+          "l:0:1:1",
+          "b:0:1"
+        ]
+      },
+      {
+        "difference": 5,
+        "edge": [
+          "l:0:1:2",
+          "b:0:1"
+        ]
+      },
+      {
+        "difference": 3,
+        "edge": [
+          "l:0:1:3",
+          "b:0:1"
+        ]
+      },
+      {
+        "difference": 9,
+        "edge": [
+          "l:0:1:4",
+          "b:0:1"
+        ]
+      },
+      {
+        "difference": 16,
+        "edge": [
+          "s:0",
+          "b:0:2"
+        ]
+      },
+      {
+        "difference": 13,
+        "edge": [
+          "l:0:2:0",
+          "b:0:2"
+        ]
+      },
+      {
+        "difference": 12,
+        "edge": [
+          "l:0:2:1",
+          "b:0:2"
+        ]
+      },
+      {
+        "difference": 10,
+        "edge": [
+          "l:0:2:2",
+          "b:0:2"
+        ]
+      },
+      {
+        "difference": 8,
+        "edge": [
+          "l:0:2:3",
+          "b:0:2"
+        ]
+      },
+      {
+        "difference": 6,
+        "edge": [
+          "l:0:2:4",
+          "b:0:2"
+        ]
+      },
+      {
+        "difference": 4,
+        "edge": [
+          "l:0:2:5",
+          "b:0:2"
+        ]
+      },
+      {
+        "difference": 19,
+        "edge": [
+          "b:1:0",
+          "s:1"
+        ]
+      },
+      {
+        "difference": 18,
+        "edge": [
+          "b:1:0",
+          "l:1:0:0"
+        ]
+      },
+      {
+        "difference": 17,
+        "edge": [
+          "b:1:0",
+          "l:1:0:1"
+        ]
+      }
+    ],
+    "signed_sum": 156,
+    "terminal_lists": {
+      "b:0:0": [
+        17,
+        13
+      ],
+      "b:0:1": [
+        15,
+        7,
+        9,
+        11,
+        5
+      ],
+      "b:0:2": [
+        3,
+        4,
+        6,
+        8,
+        10,
+        12
+      ],
+      "b:1:0": [
+        19,
+        18
+      ]
+    },
+    "unused_differences": [],
+    "unused_labels": [],
+    "weighted_degree_sums": {
+      "head": 279,
+      "tail": 123
+    }
+  },
+  "independent_controls": {
+    "overlap_A": {
+      "A0": 1,
+      "c": 1,
+      "chosen_quotas": {
+        "b:0:0": 1,
+        "b:0:1": 3
+      },
+      "components": [
+        {
+          "assigned_hosts": {
+            "11": "b:0:1"
+          },
+          "balance": {
+            "e": 0,
+            "n": 1,
+            "t": 1
+          },
+          "differences": [
+            3
+          ],
+          "forced_extraction": {
+            "11": "b:0:1"
+          },
+          "half_edges": [
+            11
+          ],
+          "host_tagged_options": {
+            "11": {
+              "b:0:1": 3
+            }
+          },
+          "kind": "forced_half_edge",
+          "labels": [
+            11
+          ],
+          "loops": [],
+          "ordinary_edges": []
+        },
+        {
+          "assigned_hosts": {
+            "7": "b:0:1",
+            "9": "b:0:1"
+          },
+          "balance": {
+            "e": 2,
+            "n": 2,
+            "t": 0
+          },
+          "differences": [
+            5,
+            7
+          ],
+          "forced_extraction": {},
+          "half_edges": [],
+          "host_tagged_options": {
+            "7": {
+              "b:0:0": 5,
+              "b:0:1": 7
+            },
+            "9": {
+              "b:0:0": 7,
+              "b:0:1": 5
+            }
+          },
+          "kind": "parallel_pair",
+          "labels": [
+            7,
+            9
+          ],
+          "loops": [],
+          "ordinary_edges": [
+            7,
+            9
+          ]
+        },
+        {
+          "assigned_hosts": {
+            "12": "b:0:0"
+          },
+          "balance": {
+            "e": 0,
+            "n": 1,
+            "t": 1
+          },
+          "differences": [
+            10
+          ],
+          "forced_extraction": {
+            "12": "b:0:0"
+          },
+          "half_edges": [
+            12
+          ],
+          "host_tagged_options": {
+            "12": {
+              "b:0:0": 10
+            }
+          },
+          "kind": "forced_half_edge",
+          "labels": [
+            12
+          ],
+          "loops": [],
+          "ordinary_edges": []
+        }
+      ],
+      "eligible_options": {
+        "7": {
+          "b:0:0": 5,
+          "b:0:1": 7
+        },
+        "9": {
+          "b:0:0": 7,
+          "b:0:1": 5
+        },
+        "11": {
+          "b:0:1": 3
+        },
+        "12": {
+          "b:0:0": 10
+        }
+      },
+      "eta": 0,
+      "hosts": [
+        "b:0:0",
+        "b:0:1"
+      ],
+      "integral_projection": [
+        1,
+        3
+      ],
+      "weight_options": {
+        "7": {
+          "b:0:0": 5,
+          "b:0:1": 7
+        },
+        "9": {
+          "b:0:0": 7,
+          "b:0:1": 5
+        },
+        "11": {
+          "b:0:0": 9,
+          "b:0:1": 3
+        },
+        "12": {
+          "b:0:0": 10,
+          "b:0:1": 2
+        }
+      }
+    },
+    "overlap_B": {
+      "A0": 1,
+      "c": 0,
+      "chosen_quotas": {
+        "b:0:1": 1,
+        "b:0:2": 6
+      },
+      "components": [
+        {
+          "assigned_hosts": {
+            "4": "b:0:2",
+            "6": "b:0:2",
+            "8": "b:0:2",
+            "10": "b:0:2",
+            "12": "b:0:2"
+          },
+          "balance": {
+            "e": 4,
+            "n": 5,
+            "t": 1
+          },
+          "differences": [
+            4,
+            6,
+            8,
+            10,
+            12
+          ],
+          "forced_extraction": {
+            "4": "b:0:2",
+            "6": "b:0:2",
+            "8": "b:0:2",
+            "10": "b:0:2",
+            "12": "b:0:2"
+          },
+          "half_edges": [
+            12
+          ],
+          "host_tagged_options": {
+            "4": {
+              "b:0:1": 10,
+              "b:0:2": 12
+            },
+            "6": {
+              "b:0:1": 8,
+              "b:0:2": 10
+            },
+            "8": {
+              "b:0:1": 6,
+              "b:0:2": 8
+            },
+            "10": {
+              "b:0:1": 4,
+              "b:0:2": 6
+            },
+            "12": {
+              "b:0:2": 4
+            }
+          },
+          "kind": "tree_with_half_edge",
+          "labels": [
+            4,
+            6,
+            8,
+            10,
+            12
+          ],
+          "loops": [],
+          "ordinary_edges": [
+            4,
+            6,
+            8,
+            10
+          ]
+        },
+        {
+          "assigned_hosts": {
+            "5": "b:0:1"
+          },
+          "balance": {
+            "e": 0,
+            "n": 1,
+            "t": 1
+          },
+          "differences": [
+            9
+          ],
+          "forced_extraction": {
+            "5": "b:0:1"
+          },
+          "half_edges": [
+            5
+          ],
+          "host_tagged_options": {
+            "5": {
+              "b:0:1": 9
+            }
+          },
+          "kind": "forced_half_edge",
+          "labels": [
+            5
+          ],
+          "loops": [],
+          "ordinary_edges": []
+        },
+        {
+          "assigned_hosts": {
+            "3": "b:0:2"
+          },
+          "balance": {
+            "e": 0,
+            "n": 1,
+            "t": 1
+          },
+          "differences": [
+            13
+          ],
+          "forced_extraction": {
+            "3": "b:0:2"
+          },
+          "half_edges": [
+            3
+          ],
+          "host_tagged_options": {
+            "3": {
+              "b:0:2": 13
+            }
+          },
+          "kind": "forced_half_edge",
+          "labels": [
+            3
+          ],
+          "loops": [],
+          "ordinary_edges": []
+        }
+      ],
+      "eligible_options": {
+        "3": {
+          "b:0:2": 13
+        },
+        "4": {
+          "b:0:1": 10,
+          "b:0:2": 12
+        },
+        "5": {
+          "b:0:1": 9
+        },
+        "6": {
+          "b:0:1": 8,
+          "b:0:2": 10
+        },
+        "8": {
+          "b:0:1": 6,
+          "b:0:2": 8
+        },
+        "10": {
+          "b:0:1": 4,
+          "b:0:2": 6
+        },
+        "12": {
+          "b:0:2": 4
+        }
+      },
+      "eta": 0,
+      "hosts": [
+        "b:0:1",
+        "b:0:2"
+      ],
+      "integral_projection": [
+        1
+      ],
+      "weight_options": {
+        "3": {
+          "b:0:1": 11,
+          "b:0:2": 13
+        },
+        "4": {
+          "b:0:1": 10,
+          "b:0:2": 12
+        },
+        "5": {
+          "b:0:1": 9,
+          "b:0:2": 11
+        },
+        "6": {
+          "b:0:1": 8,
+          "b:0:2": 10
+        },
+        "8": {
+          "b:0:1": 6,
+          "b:0:2": 8
+        },
+        "10": {
+          "b:0:1": 4,
+          "b:0:2": 6
+        },
+        "12": {
+          "b:0:1": 2,
+          "b:0:2": 4
+        }
+      }
+    },
+    "overlap_difference_multiplicities": {
+      "10": 2
+    },
+    "overlap_label_multiplicities": {
+      "12": 2
+    },
+    "overlap_missing_differences": [
+      11
+    ],
+    "overlap_missing_labels": [
+      13
+    ],
+    "pair_move": {
+      "labels": [
+        7,
+        9
+      ],
+      "numerical_inventories_preserved": true,
+      "quotas": {
+        "b:0:0": 3,
+        "b:0:1": 1
+      },
+      "weights_after": {
+        "7": 5,
+        "9": 7
+      },
+      "weights_before": {
+        "7": 7,
+        "9": 5
+      }
+    },
+    "swap_changed_weights": [
+      [
+        [
+          "b:0:0",
+          "l:0:0:1"
+        ],
+        11,
+        10
+      ],
+      [
+        [
+          "b:0:2",
+          "l:0:2:5"
+        ],
+        4,
+        3
+      ]
+    ],
+    "swap_missing": [
+      4,
+      11
+    ],
+    "swap_physical_quotas": {
+      "b:0:0": 2,
+      "b:0:1": 5,
+      "b:0:2": 6,
+      "b:1:0": 2
+    },
+    "swap_repeats": {
+      "3": 2,
+      "10": 2
+    },
+    "swap_witnesses": {
+      "3": [
+        [
+          "b:0:1",
+          "l:0:1:3"
+        ],
+        [
+          "b:0:2",
+          "l:0:2:5"
+        ]
+      ],
+      "10": [
+        [
+          "b:0:0",
+          "l:0:0:1"
+        ],
+        [
+          "b:0:2",
+          "l:0:2:2"
+        ]
+      ]
+    }
+  },
+  "local": {
+    "A": {
+      "actual_quotas": {
+        "b:0:0": 1,
+        "b:0:1": 3
+      },
+      "allocated_differences": [
+        3,
+        5,
+        7,
+        11
+      ],
+      "allocated_labels": [
+        7,
+        9,
+        11,
+        13
+      ],
+      "eligible_options": {
+        "7": {
+          "b:0:0": 5,
+          "b:0:1": 7
+        },
+        "9": {
+          "b:0:0": 7,
+          "b:0:1": 5
+        },
+        "11": {
+          "b:0:1": 3
+        },
+        "13": {
+          "b:0:0": 11
+        }
+      },
+      "expected_quotas": {
+        "b:0:0": 1,
+        "b:0:1": 3
+      },
+      "tests": {
+        "differences_exact": true,
+        "eligible": true,
+        "labels_exact": true,
+        "quotas_exact": true
+      },
+      "valid": true
+    },
+    "B": {
+      "actual_quotas": {
+        "b:0:1": 1,
+        "b:0:2": 6
+      },
+      "allocated_differences": [
+        4,
+        6,
+        8,
+        9,
+        10,
+        12,
+        13
+      ],
+      "allocated_labels": [
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        12
+      ],
+      "eligible_options": {
+        "3": {
+          "b:0:2": 13
+        },
+        "4": {
+          "b:0:1": 10,
+          "b:0:2": 12
+        },
+        "5": {
+          "b:0:1": 9
+        },
+        "6": {
+          "b:0:1": 8,
+          "b:0:2": 10
+        },
+        "8": {
+          "b:0:1": 6,
+          "b:0:2": 8
+        },
+        "10": {
+          "b:0:1": 4,
+          "b:0:2": 6
+        },
+        "12": {
+          "b:0:2": 4
+        }
+      },
+      "expected_quotas": {
+        "b:0:1": 1,
+        "b:0:2": 6
+      },
+      "tests": {
+        "differences_exact": true,
+        "eligible": true,
+        "labels_exact": true,
+        "quotas_exact": true
+      },
+      "valid": true
+    }
+  },
+  "obstruction": {
+    "M_count": 4,
+    "candidate_labeling_attempted": false,
+    "core": {
+      "b:0:0": 2,
+      "b:0:1": 12,
+      "b:0:2": 14,
+      "b:1:0": 1,
+      "l:0:0:0": 15,
+      "l:0:1:0": 13,
+      "l:1:0:0": 17,
+      "l:1:0:1": 16,
+      "s:0": 0,
+      "s:1": 18
+    },
+    "core_edges": [
+      [
+        "s:0",
+        "s:1"
+      ],
+      [
+        "s:0",
+        "b:0:0"
+      ],
+      [
+        "b:0:0",
+        "l:0:0:0"
+      ],
+      [
+        "s:0",
+        "b:0:1"
+      ],
+      [
+        "b:0:1",
+        "l:0:1:0"
+      ],
+      [
+        "s:0",
+        "b:0:2"
+      ],
+      [
+        "s:1",
+        "b:1:0"
+      ],
+      [
+        "b:1:0",
+        "l:1:0:0"
+      ],
+      [
+        "b:1:0",
+        "l:1:0:1"
+      ]
+    ],
+    "core_weights": [
+      18,
+      2,
+      13,
+      12,
+      1,
+      14,
+      17,
+      16,
+      15
+    ],
+    "maximum_residual_label": 11,
+    "original": {
+      "graph_digest": "fcf956468884f52c4ce87e8ea293b7f4485f332d116b51bbcf2632c1d285cbb7",
+      "path": "original_adverse.json",
+      "profile": [
+        [
+          2,
+          5,
+          4
+        ],
+        [
+          2
+        ]
+      ],
+      "raw_sha256": "65717b5a7bd82408ed8a798107c0c9ef65d0666333558f0e7f8edf46198e4b50"
+    },
+    "reference_weight_sum": 63,
+    "required_X_label": 12,
+    "residual_labels": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "residual_weights": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "scope": "specified D123 labeled core only",
+    "status": "FIXED_CORE_INFEASIBLE",
+    "t": 8,
+    "vacancies": {
+      "b:0:0": [
+        "l:0:0:1"
+      ],
+      "b:0:1": [
+        "l:0:1:1",
+        "l:0:1:2",
+        "l:0:1:3",
+        "l:0:1:4"
+      ],
+      "b:0:2": [
+        "l:0:2:0",
+        "l:0:2:1",
+        "l:0:2:2",
+        "l:0:2:3"
+      ]
+    }
+  },
+  "originals": {
+    "adverse": {
+      "graph_digest": "fcf956468884f52c4ce87e8ea293b7f4485f332d116b51bbcf2632c1d285cbb7",
+      "path": "original_adverse.json",
+      "profile": [
+        [
+          2,
+          5,
+          4
+        ],
+        [
+          2
+        ]
+      ],
+      "raw_sha256": "65717b5a7bd82408ed8a798107c0c9ef65d0666333558f0e7f8edf46198e4b50"
+    },
+    "positive": {
+      "graph_digest": "d5639f8f1a3f6a88477088ce7acab577b48d8deb50a92e95adf48aac7abd6f0a",
+      "path": "original.json",
+      "profile": [
+        [
+          2,
+          5,
+          6
+        ],
+        [
+          2
+        ]
+      ],
+      "raw_sha256": "b97c698e32cf2a984688027e7cc97a37548499380771b03ab1e435d443590ff7"
+    }
+  },
+  "parent": "3bf2446aea9d8dd67a21e04bf6b889a5a57753c2",
+  "retained_D129": {
+    "binding": {
+      "disposition_field": "scientific_disposition",
+      "ledger_id": "9e8cd19be4d9c779fb333540f8d9bd67ec4c886bdf40f46c3e65ab9f53570541",
+      "manifest": "evidence/validation/LCL_ORDINARY_QAC_2_UNIFIED_MODIFIED_SHARED_MIDDLE_CORE_001/MANIFEST.json",
+      "manifest_sha256": "e994d4634a2dc8253eb33959b0cde1a15f2c2b14f457af42b57a4c8211132e6b",
+      "original": {
+        "graph_digest": "331d4fa1bffe82689865c1a600c819cb1e4a3dbcbd90ff7614e4bd3317e1e234",
+        "path": "original.json",
+        "raw_sha256": "5355ee7c4aa06639f30f286f1730cbf27420f8552f9311ca7ad0fba28405ed4f"
+      },
+      "profile": [
+        [
+          6,
+          5,
+          8
+        ],
+        [
+          2
+        ]
+      ],
+      "proof": {
+        "path": "research/ORDINARY_QAC_2_UNIFIED_MODIFIED_SHARED_MIDDLE_CORE.md",
+        "sha256": "3a155edd01560aa74d75dd7d718cd75cd65cd0166045178434529b76f1a578f0"
+      },
+      "result_sha256": "48c231192db696e4c8794f5eab164632167cd2342855fcf9a5f9d5b32a6c20a2",
+      "task": "LCL-ORDINARY-QAC-2-UNIFIED-MODIFIED-SHARED-MIDDLE-CORE-001"
+    },
+    "checker": {
+      "claim": "finite certificate for this exact named target only",
+      "edge_differences": [
+        26,
+        2,
+        21,
+        6,
+        9,
+        12,
+        13,
+        14,
+        20,
+        1,
+        11,
+        10,
+        7,
+        8,
+        22,
+        19,
+        18,
+        17,
+        16,
+        15,
+        5,
+        4,
+        3,
+        25,
+        24,
+        23
+      ],
+      "errors": [],
+      "graph_digest": "331d4fa1bffe82689865c1a600c819cb1e4a3dbcbd90ff7614e4bd3317e1e234",
+      "m": 26,
+      "n": 27,
+      "valid": true
+    },
+    "independent": {
+      "graph_digest": "331d4fa1bffe82689865c1a600c819cb1e4a3dbcbd90ff7614e4bd3317e1e234",
+      "historical_formula_evaluated": false,
+      "ledger_id": "9e8cd19be4d9c779fb333540f8d9bd67ec4c886bdf40f46c3e65ab9f53570541",
+      "weights": [
+        26,
+        2,
+        21,
+        6,
+        9,
+        12,
+        13,
+        14,
+        20,
+        1,
+        11,
+        10,
+        7,
+        8,
+        22,
+        19,
+        18,
+        17,
+        16,
+        15,
+        5,
+        4,
+        3,
+        25,
+        24,
+        23
+      ]
+    }
+  },
+  "retained_execution_statuses": {
+    "D083_original": "INCOMPLETE",
+    "D083_versioned": "PASS",
+    "D093_original": "INCOMPLETE",
+    "D093_versioned": "PASS",
+    "D099": "PASS",
+    "D100_original": "INCOMPLETE",
+    "D100_recovery": "PASS",
+    "D101": "PASS",
+    "D102": "PASS",
+    "D103": "PASS",
+    "D104": "PASS",
+    "D105": "PASS",
+    "D106": "PASS",
+    "D107": "PASS",
+    "D108": "PASS",
+    "D109": "PASS",
+    "D110": "PASS",
+    "D111": "PASS",
+    "D112": "PASS",
+    "D113": "PASS",
+    "D114": "PASS",
+    "D115": "PASS",
+    "D116": "PASS",
+    "D117": "PASS",
+    "D118": "PASS",
+    "D119": "PASS",
+    "D120": "PASS",
+    "D121": "PASS",
+    "D122": "PASS",
+    "D123": "PASS",
+    "D124": "PASS",
+    "D125": "PASS",
+    "D126": "PASS",
+    "D127": "PASS",
+    "D128": "PASS",
+    "D129": "PASS"
+  },
+  "runtime": {
+    "path": ".venv/Scripts/python.exe",
+    "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "scope": {
+    "alpha_constraint": false,
+    "batch_middle_quotas": [
+      "a-2",
+      1
+    ],
+    "boundary_profiles": {
+      "adverse": [
+        [
+          2,
+          5,
+          4
+        ],
+        [
+          2
+        ]
+      ],
+      "positive": [
+        [
+          2,
+          5,
+          6
+        ],
+        [
+          2
+        ]
+      ]
+    },
+    "domain": "Exact independent odd a >= 3 and even c >= 4; fixed first quota 2",
+    "fixed_core_classification": {
+      "fixed_core_infeasible": "a >= c+1",
+      "positive": "a <= c-1"
+    },
+    "fixed_left_roles": {
+      "M": "b:0:1",
+      "X": "b:0:0",
+      "Z": "b:0:2"
+    },
+    "pins": {
+      "b:1:0": 1,
+      "s:0": 0,
+      "s:1": "a+c+9"
+    },
+    "right_growth_application": false,
+    "signed_constraint": false,
+    "symbolic_profile": [
+      [
+        2,
+        "a",
+        "c"
+      ],
+      [
+        2
+      ]
+    ]
+  },
+  "status": "PASS",
+  "task": "LCL-ORDINARY-2AC-2-MODIFIED-CORE-CLASSIFICATION-001"
+}

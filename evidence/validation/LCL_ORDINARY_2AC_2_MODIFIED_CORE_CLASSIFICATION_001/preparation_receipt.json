@@ -1,0 +1,49 @@
+{
+  "argv": [
+    "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-E",
+    "-X",
+    "utf8",
+    "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\evidence\\validation\\LCL_ORDINARY_2AC_2_MODIFIED_CORE_CLASSIFICATION_001\\prepare.py"
+  ],
+  "config_sha256": "eabc5a45e0ae4e2417a1de2897079d560ef12e29a8199f952e6484582f17dd45",
+  "new_graph_identities": 2,
+  "original_preparations": 2,
+  "originals": {
+    "adverse": {
+      "graph_digest": "fcf956468884f52c4ce87e8ea293b7f4485f332d116b51bbcf2632c1d285cbb7",
+      "path": "original_adverse.json",
+      "profile": [
+        [
+          2,
+          5,
+          4
+        ],
+        [
+          2
+        ]
+      ],
+      "raw_sha256": "65717b5a7bd82408ed8a798107c0c9ef65d0666333558f0e7f8edf46198e4b50"
+    },
+    "positive": {
+      "graph_digest": "d5639f8f1a3f6a88477088ce7acab577b48d8deb50a92e95adf48aac7abd6f0a",
+      "path": "original.json",
+      "profile": [
+        [
+          2,
+          5,
+          6
+        ],
+        [
+          2
+        ]
+      ],
+      "raw_sha256": "b97c698e32cf2a984688027e7cc97a37548499380771b03ab1e435d443590ff7"
+    }
+  },
+  "parent": "3bf2446aea9d8dd67a21e04bf6b889a5a57753c2",
+  "process_cpu_seconds": 0.0625,
+  "status": "PASS",
+  "task": "LCL-ORDINARY-2AC-2-MODIFIED-CORE-CLASSIFICATION-001"
+}

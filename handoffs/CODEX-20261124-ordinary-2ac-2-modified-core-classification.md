@@ -1,0 +1,15 @@
+# Codex handoff — D130 exact quota-two modified-core classification
+
+November 24, 2026, Pacific/Honolulu · `LCL-ORDINARY-2AC-2-MODIFIED-CORE-CLASSIFICATION-001` · parent `3bf2446aea9d8dd67a21e04bf6b889a5a57753c2`. Repository `drkmtr1/Lobster-Construction-Lab`, branch `main`.
+
+**ACCEPT** the fixed D123 labeled-core classification on exact `[[2,a,c],[2]]` at pins (0,a+c+9,1) for independent exact odd a≥3 and even c≥4. Completion exists exactly when a≤c−1. The X label is forced to U=t+a−1 by the sum of residual differences. In a completion the cycle through U also fixes the entire M palette and gives the complement to Z. Two disjoint R226 reservations supply the positive sector and verify D112's physical premises. At a≥c+1 the required X label exceeds the residual maximum, excluding all completions of the specified core. The scope of earlier theorems, including D122's separate fixed-core obstruction, is retained.
+
+[Proof](../research/ORDINARY_2AC_2_MODIFIED_CORE_CLASSIFICATION.md) · [Evidence](../evidence/validation/LCL_ORDINARY_2AC_2_MODIFIED_CORE_CLASSIFICATION_001/README.md) · [Positive certificate and controls](../evidence/validation/LCL_ORDINARY_2AC_2_MODIFIED_CORE_CLASSIFICATION_001/result.json) · [Adverse binding and obstruction](../evidence/validation/LCL_ORDINARY_2AC_2_MODIFIED_CORE_CLASSIFICATION_001/obstruction.json) · [Reviews](../evidence/validation/LCL_ORDINARY_2AC_2_MODIFIED_CORE_CLASSIFICATION_001/REVIEWS.md) · [Manifest](../evidence/validation/LCL_ORDINARY_2AC_2_MODIFIED_CORE_CLASSIFICATION_001/MANIFEST.json)
+
+**PASS** one preparation covering two frozen originals, one parse-only preflight and one verification. The sole positive construction uses two reservations and supplies one new certificate. One scoped adverse obstruction, one retained D129 recheck and four declared controls passed. Combined process CPU was 0.5625 seconds and supervised wall was 1.7674478 seconds. All artifacts are tracked in the manifest. Preserve separate D083, D093 and D100 original and versioned dispositions, deferred 2322, baseline identities and both upstream pins. Resolve this handoff's containing commit and verify actual GitHub `main`.
+
+**PIVOT** from small-quota variants to ordinary spine transitions. A reusable interface into one genuine branched section is a necessary step toward repeated construction across larger spines. The supplied prefix can already have arbitrary center multiplicity, so the next task can isolate dependence on its boundary from the still-open general core and palette supply problem. **Project instructions KEEP.**
+
+## One next action
+
+Under separate authorization, formulate and prove or refute one sign-independent ordinary graceful spine transition from a supplied D112-compatible prefix by appending one named spine vertex with one positive-quota center. Allow arbitrary center multiplicity in the supplied prefix. Specify the actual connector and an independently reserved suffix label and difference inventory, and prove a precise reusable return-port contract or a scoped obstruction to it. Work symbolically without profile sweeps, solvers, numerical joins or quota-two core redesign.
