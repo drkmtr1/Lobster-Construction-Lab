@@ -2,19 +2,21 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 23, 2026, Pacific/Honolulu<br>
-**Stage:** D111 direct ordinary graceful seed **ACCEPTED** on frozen ordered `[[5,3],[2]]` at `s:0=0`, `s:1=14` and `b:1:0=1`. Independent audit **PASS**. [Proof](research/ORDINARY_53_2_DIRECT_SEED.md).
+**Stage:** D112 sign-independent extreme-spine growth and the symbolic `[[5,3],[r]]` supplier for exact integers r≥2 **ACCEPTED**. Archived audit **PASS**. [Proof](research/ORDINARY_EXTREME_SPINE_GROWTH.md).
 
 ## Current scientific objective
 
-Develop independently supplied graceful modules with usable physical ports. The [latest handoff](handoffs/CODEX-20261123-ordinary-53-2-direct-seed.md) records the direct three-pin seed and one proposed sign-independent growth theorem.
+Develop independently supplied graceful modules with usable physical ports. The [latest handoff](handoffs/CODEX-20261123-ordinary-extreme-spine-growth.md) records conditional extreme-spine growth, its application to the D111 seed and one proposed symbolic left-quota supplier.
 
 ## One next action
 
-Under separate authorization, prove or refute sign-independent extreme-spine growth for a supplied ordinary graceful lobster on [0,m] whose witnessing spine ends at a degree-two exit labeled m with neighbors at labels 0 and 1. Require the label-0 neighbor to precede the exit on the spine and the label-1 neighbor to be off that spine. Determine whether moving the exit to m+1 and assigning m to a fresh terminal at the label-1 neighbor preserves both inventories and the named spine. If proved, give the symbolic application to ordered `[[5,3],[r]]` for exact integers r≥2 from the D111 seed, with no new numerical profile, solver, assignment enumeration or join.
+Under separate authorization, prove or refute a direct ordinary graceful seed for every exact odd integer q≥5 on ordered `[[q,3],[2]]`, with `s:0=0`, `s:1=q+9` and `b:1:0=1`. Seek a symbolic core and complementary residual labels and weights from the D111 allocation, checking the retained R226 component balance and integral host quotas. Use the retained D111 seed as the boundary control, with no additional numerical profile, solver, assignment enumeration or join.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
+
+- D112 **PROVES** conditional ordinary growth at a terminal spine exit with exactly two neighbors, labeled 0 on the spine and 1 off it, and the exit at the current maximum. Repetition at the off-spine neighbor preserves the witnessing spine and both full inventories. D111 supplies the base for an explicit ordinary graceful labeling of every ordered `[[5,3],[r]]`, exact integer r≥2. The audit rechecked only D105, D106 and D111 and verified four probes, with no new numerical profile. See [proof](research/ORDINARY_EXTREME_SPINE_GROWTH.md) and [evidence](evidence/validation/LCL_ORDINARY_EXTREME_SPINE_GROWTH_001/README.md).
 
 - D111 **SUPPLIES** the frozen ordered `[[5,3],[2]]` original at the three physical pins, using a fixed core, two reflected terminal pairs, one forced terminal and one midpoint. The resulting ordinary graceful certificate has three negative signed incidences of −1, −5 and −11. The audit, four controls and separate reviews passed. The seed supplies one finite input to the proposed growth investigation. See [proof](research/ORDINARY_53_2_DIRECT_SEED.md) and [evidence](evidence/validation/LCL_ORDINARY_53_2_DIRECT_SEED_001/README.md).
 

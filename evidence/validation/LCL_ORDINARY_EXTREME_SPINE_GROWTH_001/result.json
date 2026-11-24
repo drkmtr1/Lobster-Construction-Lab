@@ -1,0 +1,770 @@
+{
+  "archived_transition": {
+    "changed_weights": [
+      {
+        "edge": [
+          "b:1:0",
+          "s:1"
+        ],
+        "new": 13,
+        "old": 12
+      },
+      {
+        "edge": [
+          "s:0",
+          "s:1"
+        ],
+        "new": 14,
+        "old": 13
+      }
+    ],
+    "fresh_distance": 2,
+    "fresh_label": 13,
+    "fresh_weight": 12,
+    "new_edge": [
+      "b:1:0",
+      "l:1:0:2"
+    ],
+    "new_terminal": "l:1:0:2",
+    "only_old_label_change": {
+      "s:1": [
+        13,
+        14
+      ]
+    },
+    "preserved_original_edges": [
+      [
+        "b:0:0",
+        "l:0:0:0"
+      ],
+      [
+        "b:0:0",
+        "l:0:0:1"
+      ],
+      [
+        "b:0:0",
+        "l:0:0:2"
+      ],
+      [
+        "b:0:0",
+        "l:0:0:3"
+      ],
+      [
+        "b:0:0",
+        "s:0"
+      ],
+      [
+        "b:0:1",
+        "l:0:1:0"
+      ],
+      [
+        "b:0:1",
+        "l:0:1:1"
+      ],
+      [
+        "b:0:1",
+        "l:0:1:2"
+      ],
+      [
+        "b:0:1",
+        "s:0"
+      ],
+      [
+        "b:1:0",
+        "l:1:0:0"
+      ],
+      [
+        "b:1:0",
+        "l:1:0:1"
+      ],
+      [
+        "b:1:0",
+        "s:1"
+      ],
+      [
+        "s:0",
+        "s:1"
+      ]
+    ],
+    "preserved_original_roles": {
+      "b:0:0": {
+        "branch": 0,
+        "kind": "branch",
+        "section": 0
+      },
+      "b:0:1": {
+        "branch": 1,
+        "kind": "branch",
+        "section": 0
+      },
+      "b:1:0": {
+        "branch": 0,
+        "kind": "branch",
+        "section": 1
+      },
+      "l:0:0:0": {
+        "branch": 0,
+        "kind": "leaf",
+        "leaf": 0,
+        "section": 0
+      },
+      "l:0:0:1": {
+        "branch": 0,
+        "kind": "leaf",
+        "leaf": 1,
+        "section": 0
+      },
+      "l:0:0:2": {
+        "branch": 0,
+        "kind": "leaf",
+        "leaf": 2,
+        "section": 0
+      },
+      "l:0:0:3": {
+        "branch": 0,
+        "kind": "leaf",
+        "leaf": 3,
+        "section": 0
+      },
+      "l:0:1:0": {
+        "branch": 1,
+        "kind": "leaf",
+        "leaf": 0,
+        "section": 0
+      },
+      "l:0:1:1": {
+        "branch": 1,
+        "kind": "leaf",
+        "leaf": 1,
+        "section": 0
+      },
+      "l:0:1:2": {
+        "branch": 1,
+        "kind": "leaf",
+        "leaf": 2,
+        "section": 0
+      },
+      "l:1:0:0": {
+        "branch": 0,
+        "kind": "leaf",
+        "leaf": 0,
+        "section": 1
+      },
+      "l:1:0:1": {
+        "branch": 0,
+        "kind": "leaf",
+        "leaf": 1,
+        "section": 1
+      },
+      "s:0": {
+        "kind": "spine",
+        "section": 0
+      },
+      "s:1": {
+        "kind": "spine",
+        "section": 1
+      }
+    },
+    "preserved_original_vertices": [
+      "b:0:0",
+      "b:0:1",
+      "b:1:0",
+      "l:0:0:0",
+      "l:0:0:1",
+      "l:0:0:2",
+      "l:0:0:3",
+      "l:0:1:0",
+      "l:0:1:1",
+      "l:0:1:2",
+      "l:1:0:0",
+      "l:1:0:1",
+      "s:0",
+      "s:1"
+    ],
+    "spine": [
+      "s:0",
+      "s:1"
+    ],
+    "unchanged_weights": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  "control_audit": {
+    "alternate_exit_is_interior": true,
+    "alternate_host_is_on_path": true,
+    "alternate_is_witnessing_path": true,
+    "alternate_witness_maximum_distance": 2,
+    "complement_pins": {
+      "b:1:0": 13,
+      "s:0": 14,
+      "s:1": 0
+    },
+    "within_center_weight_changes": [
+      [
+        [
+          "b:0:0",
+          "l:0:0:0"
+        ],
+        8,
+        7
+      ],
+      [
+        [
+          "b:0:0",
+          "l:0:0:1"
+        ],
+        7,
+        8
+      ]
+    ]
+  },
+  "controls": {
+    "alternate_path": {
+      "ordinary_source": "D111 retained recheck",
+      "ordinary_valid": true,
+      "premises": {
+        "actual": {
+          "b:1:0": 1,
+          "s:0": 0,
+          "s:1": 14
+        },
+        "exit_neighbors": [
+          "b:1:0",
+          "s:0"
+        ],
+        "expected": {
+          "b:1:0": 1,
+          "s:0": 0,
+          "s:1": 14
+        },
+        "spine": [
+          "s:0",
+          "s:1",
+          "b:1:0"
+        ],
+        "tests": {
+          "distinct_actual_vertices": true,
+          "exact_exit_neighbors": true,
+          "host_off_path": false,
+          "physical_labels": true,
+          "terminal_exit": false,
+          "terminal_pair": false,
+          "witnessing_path": true
+        },
+        "valid": false
+      }
+    },
+    "complement": {
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          14,
+          12,
+          8,
+          7,
+          6,
+          4,
+          3,
+          2,
+          1,
+          5,
+          11,
+          13,
+          9,
+          10
+        ],
+        "errors": [],
+        "graph_digest": "915f7ff845db575f2be0b87e587c2236d935eabfc674e9bd99e8bce1358033f8",
+        "m": 14,
+        "n": 15,
+        "valid": true
+      },
+      "premises": {
+        "actual": {
+          "b:1:0": 13,
+          "s:0": 14,
+          "s:1": 0
+        },
+        "exit_neighbors": [
+          "b:1:0",
+          "s:0"
+        ],
+        "expected": {
+          "b:1:0": 1,
+          "s:0": 0,
+          "s:1": 14
+        },
+        "spine": [
+          "s:0",
+          "s:1"
+        ],
+        "tests": {
+          "distinct_actual_vertices": true,
+          "exact_exit_neighbors": true,
+          "host_off_path": true,
+          "physical_labels": false,
+          "terminal_exit": true,
+          "terminal_pair": true,
+          "witnessing_path": true
+        },
+        "valid": false
+      }
+    },
+    "within_center": {
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          14,
+          12,
+          7,
+          8,
+          6,
+          4,
+          3,
+          2,
+          1,
+          5,
+          11,
+          13,
+          9,
+          10
+        ],
+        "errors": [],
+        "graph_digest": "915f7ff845db575f2be0b87e587c2236d935eabfc674e9bd99e8bce1358033f8",
+        "m": 14,
+        "n": 15,
+        "valid": true
+      },
+      "premises": {
+        "actual": {
+          "b:1:0": 1,
+          "s:0": 0,
+          "s:1": 14
+        },
+        "exit_neighbors": [
+          "b:1:0",
+          "s:0"
+        ],
+        "expected": {
+          "b:1:0": 1,
+          "s:0": 0,
+          "s:1": 14
+        },
+        "spine": [
+          "s:0",
+          "s:1"
+        ],
+        "tests": {
+          "distinct_actual_vertices": true,
+          "exact_exit_neighbors": true,
+          "host_off_path": true,
+          "physical_labels": true,
+          "terminal_exit": true,
+          "terminal_pair": true,
+          "witnessing_path": true
+        },
+        "valid": true
+      },
+      "swapped_vertices": [
+        "l:0:0:0",
+        "l:0:0:1"
+      ]
+    },
+    "wrong_digest": {
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          14,
+          12,
+          8,
+          7,
+          6,
+          4,
+          3,
+          2,
+          1,
+          5,
+          11,
+          13,
+          9,
+          10
+        ],
+        "errors": [
+          "original graph digest mismatch"
+        ],
+        "graph_digest": "915f7ff845db575f2be0b87e587c2236d935eabfc674e9bd99e8bce1358033f8",
+        "m": 14,
+        "n": 15,
+        "valid": false
+      },
+      "expected_digest": "0000000000000000000000000000000000000000000000000000000000000000"
+    }
+  },
+  "parent": "150d2579ff08ef1ec1a032e7e4dc699c85ec73e1",
+  "retained_application_base": {
+    "exit_neighbors": [
+      "b:1:0",
+      "s:0"
+    ],
+    "host_distance": 1,
+    "negative_incidences": [
+      {
+        "edge": [
+          "l:0:1:0",
+          "b:0:1"
+        ],
+        "signed": -1
+      },
+      {
+        "edge": [
+          "l:0:1:1",
+          "b:0:1"
+        ],
+        "signed": -5
+      },
+      {
+        "edge": [
+          "l:0:1:2",
+          "b:0:1"
+        ],
+        "signed": -11
+      }
+    ],
+    "original_edge_count": 14,
+    "pointwise_formula_agreement": true,
+    "r": 2,
+    "signed_diagnostic": [
+      {
+        "edge": [
+          "s:0",
+          "s:1"
+        ],
+        "signed": 14
+      },
+      {
+        "edge": [
+          "s:0",
+          "b:0:0"
+        ],
+        "signed": 12
+      },
+      {
+        "edge": [
+          "l:0:0:0",
+          "b:0:0"
+        ],
+        "signed": 8
+      },
+      {
+        "edge": [
+          "l:0:0:1",
+          "b:0:0"
+        ],
+        "signed": 7
+      },
+      {
+        "edge": [
+          "l:0:0:2",
+          "b:0:0"
+        ],
+        "signed": 6
+      },
+      {
+        "edge": [
+          "l:0:0:3",
+          "b:0:0"
+        ],
+        "signed": 4
+      },
+      {
+        "edge": [
+          "l:0:0:4",
+          "b:0:0"
+        ],
+        "signed": 3
+      },
+      {
+        "edge": [
+          "s:0",
+          "b:0:1"
+        ],
+        "signed": 2
+      },
+      {
+        "edge": [
+          "l:0:1:0",
+          "b:0:1"
+        ],
+        "signed": -1
+      },
+      {
+        "edge": [
+          "l:0:1:1",
+          "b:0:1"
+        ],
+        "signed": -5
+      },
+      {
+        "edge": [
+          "l:0:1:2",
+          "b:0:1"
+        ],
+        "signed": -11
+      },
+      {
+        "edge": [
+          "b:1:0",
+          "s:1"
+        ],
+        "signed": 13
+      },
+      {
+        "edge": [
+          "b:1:0",
+          "l:1:0:0"
+        ],
+        "signed": 9
+      },
+      {
+        "edge": [
+          "b:1:0",
+          "l:1:0:1"
+        ],
+        "signed": 10
+      }
+    ]
+  },
+  "retained_execution_statuses": {
+    "D083_original": "INCOMPLETE",
+    "D083_versioned": "PASS",
+    "D093_original": "INCOMPLETE",
+    "D093_versioned": "PASS",
+    "D099": "PASS",
+    "D100_original": "INCOMPLETE",
+    "D100_recovery": "PASS",
+    "D101": "PASS",
+    "D102": "PASS",
+    "D103": "PASS",
+    "D104": "PASS",
+    "D105": "PASS",
+    "D106": "PASS",
+    "D107": "PASS",
+    "D108": "PASS",
+    "D109": "PASS",
+    "D110": "PASS",
+    "D111": "PASS"
+  },
+  "retained_positive": {
+    "D105": {
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          13,
+          10,
+          8,
+          7,
+          2,
+          1,
+          9,
+          5,
+          4,
+          3,
+          12,
+          6,
+          11
+        ],
+        "errors": [],
+        "graph_digest": "2060a4e5a7d8f8ebc1906499facea2730250938d4550bb4c6ca34582a1f5b6e6",
+        "m": 13,
+        "n": 14,
+        "valid": true
+      },
+      "graph_digest": "2060a4e5a7d8f8ebc1906499facea2730250938d4550bb4c6ca34582a1f5b6e6",
+      "ledger_id": "af0e2be70013710c5b5b64c6c554512adfaad5ae0faa8ab63c146e428ed50a93",
+      "original": "evidence/validation/LCL_R241_43_2_LOWER_BLOCK_001/original.json",
+      "original_sha256": "99d92699cea529c235f3ed146805920d39c030b33d5651e0ba64ed8e1889d168",
+      "premises": {
+        "actual": {
+          "b:1:0": 1,
+          "s:0": 0,
+          "s:1": 13
+        },
+        "exit_neighbors": [
+          "b:1:0",
+          "s:0"
+        ],
+        "expected": {
+          "b:1:0": 1,
+          "s:0": 0,
+          "s:1": 13
+        },
+        "spine": [
+          "s:0",
+          "s:1"
+        ],
+        "tests": {
+          "distinct_actual_vertices": true,
+          "exact_exit_neighbors": true,
+          "host_off_path": true,
+          "physical_labels": true,
+          "terminal_exit": true,
+          "terminal_pair": true,
+          "witnessing_path": true
+        },
+        "valid": true
+      },
+      "result": "evidence/validation/LCL_ORDINARY_43_2_EXTREME_SPINE_001/result.json"
+    },
+    "D106": {
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          14,
+          10,
+          8,
+          7,
+          2,
+          1,
+          9,
+          5,
+          4,
+          3,
+          13,
+          6,
+          11,
+          12
+        ],
+        "errors": [],
+        "graph_digest": "df89d0f500d8900d44641b6725f4ce3095df900c663006271855330d01d2a86e",
+        "m": 14,
+        "n": 15,
+        "valid": true
+      },
+      "graph_digest": "df89d0f500d8900d44641b6725f4ce3095df900c663006271855330d01d2a86e",
+      "ledger_id": "b1be1d8561e4570e4d295c8f61ae3b2c7171146519cf1d1ebe917becb3a7565c",
+      "original": "evidence/validation/LCL_ORDINARY_43_3_EXTREME_SPINE_001/original.json",
+      "original_sha256": "81c427e934f7ac73ed9c1e5097f17ab6f57ef1b1f107e091105673d81dd53d71",
+      "premises": {
+        "actual": {
+          "b:1:0": 1,
+          "s:0": 0,
+          "s:1": 14
+        },
+        "exit_neighbors": [
+          "b:1:0",
+          "s:0"
+        ],
+        "expected": {
+          "b:1:0": 1,
+          "s:0": 0,
+          "s:1": 14
+        },
+        "spine": [
+          "s:0",
+          "s:1"
+        ],
+        "tests": {
+          "distinct_actual_vertices": true,
+          "exact_exit_neighbors": true,
+          "host_off_path": true,
+          "physical_labels": true,
+          "terminal_exit": true,
+          "terminal_pair": true,
+          "witnessing_path": true
+        },
+        "valid": true
+      },
+      "result": "evidence/validation/LCL_ORDINARY_43_3_EXTREME_SPINE_001/result.json"
+    },
+    "D111": {
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          14,
+          12,
+          8,
+          7,
+          6,
+          4,
+          3,
+          2,
+          1,
+          5,
+          11,
+          13,
+          9,
+          10
+        ],
+        "errors": [],
+        "graph_digest": "915f7ff845db575f2be0b87e587c2236d935eabfc674e9bd99e8bce1358033f8",
+        "m": 14,
+        "n": 15,
+        "valid": true
+      },
+      "graph_digest": "915f7ff845db575f2be0b87e587c2236d935eabfc674e9bd99e8bce1358033f8",
+      "ledger_id": "75aaf6544d6832894a567f2a8b07a1bfb3f9a4cf1860f90534044b4c892584d6",
+      "original": "evidence/validation/LCL_ORDINARY_53_2_SIGNED_SEED_001/original.json",
+      "original_sha256": "9dbdfd6226c94c821951bc0ca701c18e4a0e1b671324afa84b0431fec36aca0c",
+      "premises": {
+        "actual": {
+          "b:1:0": 1,
+          "s:0": 0,
+          "s:1": 14
+        },
+        "exit_neighbors": [
+          "b:1:0",
+          "s:0"
+        ],
+        "expected": {
+          "b:1:0": 1,
+          "s:0": 0,
+          "s:1": 14
+        },
+        "spine": [
+          "s:0",
+          "s:1"
+        ],
+        "tests": {
+          "distinct_actual_vertices": true,
+          "exact_exit_neighbors": true,
+          "host_off_path": true,
+          "physical_labels": true,
+          "terminal_exit": true,
+          "terminal_pair": true,
+          "witnessing_path": true
+        },
+        "valid": true
+      },
+      "result": "evidence/validation/LCL_ORDINARY_53_2_DIRECT_SEED_001/result.json"
+    }
+  },
+  "runtime": {
+    "path": ".venv/Scripts/python.exe",
+    "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "scope": {
+    "minimum_exact_integer_r": 2,
+    "symbolic_profile": [
+      [
+        5,
+        3
+      ],
+      [
+        "r"
+      ]
+    ]
+  },
+  "status": "PASS",
+  "task": "LCL-ORDINARY-EXTREME-SPINE-GROWTH-001"
+}

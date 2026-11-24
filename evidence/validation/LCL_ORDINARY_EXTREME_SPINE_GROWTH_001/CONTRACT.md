@@ -1,0 +1,9 @@
+# D112 frozen execution contract
+
+Task `LCL-ORDINARY-EXTREME-SPINE-GROWTH-001` at parent `150d2579ff08ef1ec1a032e7e4dc699c85ec73e1`. One conditional theorem grows a supplied ordinary graceful lobster at its terminal spine exit v with exact neighbors u,c and labels (0,m,1). Here u immediately precedes v and c lies off the witnessing spine. The sole symbolic application uses accepted D111 for ordered `[[5,3],[r]]` at exact integers r≥2. The symbolic proof establishes the theorem and application.
+
+Read and compare only the frozen D105, D106 and D111 originals and ledgers. Use the unchanged checker once per retained certificate. Check the exact archived D105-to-D106 delta by comparing actual old and new names, roles, labels and incidences. On D111, declare four probes: wrong digest, within-center swap, complement and a separately supplied alternate witnessing path. Use the retained ordinary verdict for the path-only probe, which changes no graph or labels. Evaluate growth premises independently of ordinary verification. Signed edges are descriptive only.
+
+One CPU worker, project-local Python 3.12/3.13 and standard library. One parse-only syntax and input hash preflight with unique intended definitions and no task imports or bytecode. One supervised invocation, at most 30 process-CPU seconds and 60 externally supervised wall seconds. At most 2,000,000 bytes per record and 8,000,000 bytes total. Follow the separate implementation review before preflight. Save exact results, receipts, source bindings and inherited dispositions.
+
+No new profile, graph identity or finite certificate. No solver calls, complete-assignment visits, search nodes or states, joins, historical replays, retries, restarts or successor experiments. Preserve any failed execution as INCOMPLETE without retry.

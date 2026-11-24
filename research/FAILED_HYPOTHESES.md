@@ -541,3 +541,5 @@ The [separate D100 audit recovery](../evidence/validation/LCL_R241_43_2_FIXED_EX
 **REJECT** a sole −2 at any actual left terminal on frozen ordered `[[5,3],[2]]` with `s:0=0`, `s:1=14` and `b:1:0=1`, oriented from the class of `s:0`. A right-terminal 13 forces a center and terminal to share a label. A reversed first-left terminal 13 forces repeats 9 and 11. A reversed second-left terminal 13 contradicts the signed degree bound `107<111`. Other signed patterns and ordinary gracefulness remain undecided by this proof. [Proof](ORDINARY_53_2_MAGNITUDE_TWO.md) · D110
 
 D111 supplies an ordinary graceful certificate at the same three pins with three negative signed incidences. It lies outside each of the three excluded D108–D110 signed interfaces. [Proof](ORDINARY_53_2_DIRECT_SEED.md) · D111
+
+D112 uses that certificate as the base of ordinary right-terminal growth at the same seed pins. The conditional growth rule has no signed-edge restriction. D104's alpha exclusion and the D108–D110 single-reversal exclusions retain their exact domains. [Proof](ORDINARY_EXTREME_SPINE_GROWTH.md) · D112
