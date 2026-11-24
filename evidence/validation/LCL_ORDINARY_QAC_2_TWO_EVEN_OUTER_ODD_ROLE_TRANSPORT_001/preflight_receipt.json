@@ -1,0 +1,97 @@
+{
+  "argv": [
+    "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-E",
+    "-X",
+    "utf8",
+    "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\evidence\\validation\\LCL_ORDINARY_QAC_2_TWO_EVEN_OUTER_ODD_ROLE_TRANSPORT_001\\preflight.py",
+    "68aa68f7de3c7d489ae717b3b3ce9946cd347dd5ec0d22bf40b67af9bce56f73"
+  ],
+  "input_hashes": {
+    ".gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "CONTRACT.md": "a07f7ba9326bb35a68bcac04a8186a6622324c6acb2bf14ca69312de5cb484c7",
+    "audit.py": "0efb319fa2f35846d11b2f245fd91238a4f989a4d1e34ce96a3cf950e889af36",
+    "config.json": "68aa68f7de3c7d489ae717b3b3ce9946cd347dd5ec0d22bf40b67af9bce56f73",
+    "preflight.py": "c4224a12d90e268c7e2d390bd89414702d2d00fc374536d477ca83ad6ad25ed9",
+    "run.py": "9f7c16570f477983edd7f79b0026ef7f5427f41f8b2079171e889321b8da49ec",
+    "supervise.ps1": "59f947d3e6d7a4085658af4841056ec8dfa6788e273a9e65c704070bc168fbf8"
+  },
+  "parent": "493bdb730041674eb38dfc7db64c7ff191582018",
+  "parsed_functions": {
+    "audit.py": [
+      "check_canonical",
+      "check_controls",
+      "check_growth_premises",
+      "digest_json",
+      "inspect_certificate",
+      "inspect_original"
+    ],
+    "preflight.py": [
+      "check",
+      "digest",
+      "main"
+    ],
+    "run.py": [
+      "bind_roles",
+      "canonical_supplier",
+      "check_member",
+      "digest_file",
+      "direction_gate",
+      "execute",
+      "inspect_adverse",
+      "inspect_positive",
+      "inverse_indices",
+      "open_archive",
+      "produce",
+      "read_json",
+      "run_controls",
+      "select_roles",
+      "validate_inputs",
+      "write_record"
+    ]
+  },
+  "preflights": 1,
+  "process_cpu_seconds": 0.265625,
+  "retained_inputs": {
+    "evidence/validation/LCL_ORDINARY_634_2_MODIFIED_SHARED_MIDDLE_CORE_001/MANIFEST.json": "09bb00bd9f1c342a06a872cc5a8da71410b023aa95cbf69d7bea07fbae37b4f7",
+    "evidence/validation/LCL_ORDINARY_634_2_MODIFIED_SHARED_MIDDLE_CORE_001/result.json": "ec0110a923b5d11496fd1f237cfadf5b8d3b15d43e6097be1ac2f5ef2428d142",
+    "evidence/validation/LCL_ORDINARY_Q3C_2_UNEQUAL_MODIFIED_SHARED_MIDDLE_CORE_001/MANIFEST.json": "420a20bc9a7095dc35d400639285375bb07b26cbd1a78edcd68d126317ec1af4",
+    "evidence/validation/LCL_ORDINARY_Q3C_2_UNEQUAL_MODIFIED_SHARED_MIDDLE_CORE_001/original.json": "f0f05f3262ce3898bdda5f9f705cfaaf5dfe23aa7a675528aa469f3591510630",
+    "evidence/validation/LCL_ORDINARY_Q3C_2_UNEQUAL_MODIFIED_SHARED_MIDDLE_CORE_001/result.json": "fb772ec9fd429e6f3ca8b970477caf3d1ad369f81da33f82cec965c8af219e5c",
+    "evidence/validation/LCL_ORDINARY_QAC_2_TWO_EVEN_FIXED_CORE_CLASSIFICATION_001/MANIFEST.json": "c95ce4859ef7461a4b02524ded36a355f351de025e566c370c47ff8ec8da1297",
+    "evidence/validation/LCL_ORDINARY_QAC_2_TWO_EVEN_FIXED_CORE_CLASSIFICATION_001/obstruction.json": "1b752bc1288e74e75bf156bf3fcff7d3a4e31697d25378d02ae82d2ac2ad2bd8",
+    "evidence/validation/LCL_ORDINARY_QAC_2_TWO_EVEN_FIXED_CORE_CLASSIFICATION_001/original_I.json": "037cc175a81c50ecd32d924d2f58bcc64e3d969547b94781739ce23432a51e10",
+    "evidence/validation/LCL_ORDINARY_QAC_2_TWO_EVEN_FIXED_CORE_CLASSIFICATION_001/original_II.json": "b54df022e8cfcffaa4f68e2e0f7ddc0f8998f83670a322079f139831052da8ab",
+    "evidence/validation/LCL_ORDINARY_QAC_2_TWO_EVEN_FIXED_CORE_CLASSIFICATION_001/original_adverse.json": "9875fa6239d80dac3702b73d502b9621469b6c1c44289f7026fff39c8fcdb18f",
+    "evidence/validation/LCL_ORDINARY_QAC_2_TWO_EVEN_FIXED_CORE_CLASSIFICATION_001/result.json": "6f5b455e4200c3339dcec93caa5280969748c27287e8cec0154ce5e99086eb32",
+    "evidence/validation/LCL_ORDINARY_U3U_2_MODIFIED_SHARED_MIDDLE_CORE_001/MANIFEST.json": "1cc272706b13c4c3e60c1003ba49c0da581edede56bd1c5cf0cb726eb3b26966",
+    "evidence/validation/LCL_ORDINARY_U3U_2_MODIFIED_SHARED_MIDDLE_CORE_001/original.json": "8a8a121ba003744712755fca484d77bd7949f404ac54ad2550acda4f6d680135",
+    "evidence/validation/LCL_ORDINARY_U3U_2_MODIFIED_SHARED_MIDDLE_CORE_001/result.json": "0ce698151c1a6bb357a7e86e545bef3c2c859feab93598beea1dbd70b89b3329",
+    "references/upstream/mdl/N226_R226_two_host_completion.md": "989e85fd24be0ed3c04b0dd80df7a93f648279d6599ec82eede4f4241dc5cddc",
+    "research/ORDINARY_634_2_MODIFIED_SHARED_MIDDLE_CORE.md": "c09e6bbe4381a2db45d68ff1d4fa91a79d58bb00301d3140cfbf5ca7f97bec2a",
+    "research/ORDINARY_EXTREME_SPINE_GROWTH.md": "f65f6755e7306f166341d50fcddee2fed963024e09f55ff8801887190f0a7b58",
+    "research/ORDINARY_Q3C_2_UNEQUAL_MODIFIED_SHARED_MIDDLE_CORE.md": "e698bddd24c6a5ef10dfb3acca15784ecb0438a78aad8f41a2328b2bbe8eb959",
+    "research/ORDINARY_QACR_CONSOLIDATED_SEED_D112_GROWTH.md": "0be014fd07e111967bac0217b6f0545c21d7d0ed0f4b7a344da81adb6b33ea4d",
+    "research/ORDINARY_QAC_2_TWO_EVEN_FIXED_CORE_CLASSIFICATION.md": "d5a677e69872a5ec4ee3431d5c2e776a92b77e523877ee4b1c492b119b1a094e",
+    "research/ORDINARY_QAC_2_TWO_ODD_ONE_EVEN_ROLE_TRANSPORT.md": "6dd6246d1457fa74d49bc42a5cf15aad47444c7ddf13120ba7b9822fbb41bbff",
+    "research/ORDINARY_U3U_2_MODIFIED_SHARED_MIDDLE_CORE.md": "b8cffd77217f47f83b487be5feb084b2f6e3a49736e3088888e52dffa3270f9e"
+  },
+  "runtime": {
+    "path": ".venv/Scripts/python.exe",
+    "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "source_pins_checked": 520,
+  "status": "PASS",
+  "task": "LCL-ORDINARY-QAC-2-TWO-EVEN-OUTER-ODD-ROLE-TRANSPORT-001",
+  "task_module_imports": 0,
+  "vacant_outputs": [
+    "preflight_receipt.json",
+    "result.json",
+    "command_receipt.json",
+    "verification_supervision.json",
+    "verification_stderr.txt",
+    "__pycache__"
+  ]
+}

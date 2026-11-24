@@ -1,0 +1,2172 @@
+{
+  "canonical_comparisons": {
+    "D122_I": {
+      "D112_premises": {
+        "exit_neighbors": [
+          "b:1:0",
+          "s:0"
+        ],
+        "pins": {
+          "b:1:0": 1,
+          "s:0": 0,
+          "s:1": 18
+        },
+        "tests": {
+          "actual_spine_edge": true,
+          "exact_exit_neighbors": true,
+          "maximum_exit_label": true,
+          "physical_pins": true,
+          "right_center_off_spine": true,
+          "terminal_endpoint_and_predecessor": true
+        },
+        "valid": true
+      },
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          18,
+          14,
+          1,
+          11,
+          10,
+          8,
+          6,
+          4,
+          2,
+          13,
+          5,
+          9,
+          12,
+          7,
+          3,
+          17,
+          16,
+          15
+        ],
+        "errors": [],
+        "graph_digest": "2281153a11633100287a53c44f82e55258d661987af0c8b3d561d62967118304",
+        "m": 18,
+        "n": 19,
+        "valid": true
+      },
+      "identity_role_binding": {
+        "bijective": true,
+        "indices": [
+          0,
+          1,
+          2
+        ],
+        "inverse": [
+          0,
+          1,
+          2
+        ],
+        "quota_compatible": true,
+        "quota_evaluated": true,
+        "rows": [
+          {
+            "absent": [],
+            "actual": [
+              "l:0:0:0",
+              "l:0:0:1",
+              "l:0:0:2",
+              "l:0:0:3",
+              "l:0:0:4",
+              "l:0:0:5"
+            ],
+            "actual_quota": 6,
+            "omitted": [],
+            "physical_index": 0,
+            "quota": 6,
+            "requested": [
+              "l:0:0:0",
+              "l:0:0:1",
+              "l:0:0:2",
+              "l:0:0:3",
+              "l:0:0:4",
+              "l:0:0:5"
+            ],
+            "role": 0
+          },
+          {
+            "absent": [],
+            "actual": [
+              "l:0:1:0",
+              "l:0:1:1",
+              "l:0:1:2"
+            ],
+            "actual_quota": 3,
+            "omitted": [],
+            "physical_index": 1,
+            "quota": 3,
+            "requested": [
+              "l:0:1:0",
+              "l:0:1:1",
+              "l:0:1:2"
+            ],
+            "role": 1
+          },
+          {
+            "absent": [],
+            "actual": [
+              "l:0:2:0",
+              "l:0:2:1"
+            ],
+            "actual_quota": 2,
+            "omitted": [],
+            "physical_index": 2,
+            "quota": 2,
+            "requested": [
+              "l:0:2:0",
+              "l:0:2:1"
+            ],
+            "role": 2
+          }
+        ],
+        "slots_exact": true,
+        "valid": true
+      },
+      "independent": {
+        "edge_weights": [
+          18,
+          14,
+          1,
+          11,
+          10,
+          8,
+          6,
+          4,
+          2,
+          13,
+          5,
+          9,
+          12,
+          7,
+          3,
+          17,
+          16,
+          15
+        ],
+        "ledger_id": "a1a1bde467b43c034d3ccfd792fc8cc4a72c9a10c815ab423862871ca3f8a3c5",
+        "named_incidences": [
+          [
+            "s:0",
+            "s:1",
+            18
+          ],
+          [
+            "s:0",
+            "b:0:0",
+            14
+          ],
+          [
+            "b:0:0",
+            "l:0:0:0",
+            1
+          ],
+          [
+            "b:0:0",
+            "l:0:0:1",
+            11
+          ],
+          [
+            "b:0:0",
+            "l:0:0:2",
+            10
+          ],
+          [
+            "b:0:0",
+            "l:0:0:3",
+            8
+          ],
+          [
+            "b:0:0",
+            "l:0:0:4",
+            6
+          ],
+          [
+            "b:0:0",
+            "l:0:0:5",
+            4
+          ],
+          [
+            "s:0",
+            "b:0:1",
+            2
+          ],
+          [
+            "b:0:1",
+            "l:0:1:0",
+            13
+          ],
+          [
+            "b:0:1",
+            "l:0:1:1",
+            5
+          ],
+          [
+            "b:0:1",
+            "l:0:1:2",
+            9
+          ],
+          [
+            "s:0",
+            "b:0:2",
+            12
+          ],
+          [
+            "b:0:2",
+            "l:0:2:0",
+            7
+          ],
+          [
+            "b:0:2",
+            "l:0:2:1",
+            3
+          ],
+          [
+            "s:1",
+            "b:1:0",
+            17
+          ],
+          [
+            "b:1:0",
+            "l:1:0:0",
+            16
+          ],
+          [
+            "b:1:0",
+            "l:1:0:1",
+            15
+          ]
+        ],
+        "vertex_label_alphabet": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ]
+      },
+      "original_manifest_binding_verified": true,
+      "selected": {
+        "canonical_quotas": [
+          6,
+          3,
+          2
+        ],
+        "dispatch": {
+          "branch": "I",
+          "supplier": "D122"
+        },
+        "indices": [
+          0,
+          1,
+          2
+        ]
+      },
+      "source": {
+        "archive": "D122",
+        "expected_dispatch": {
+          "branch": "I",
+          "supplier": "D122"
+        },
+        "ledger_id": "a1a1bde467b43c034d3ccfd792fc8cc4a72c9a10c815ab423862871ca3f8a3c5",
+        "original_record": {
+          "graph_digest": "2281153a11633100287a53c44f82e55258d661987af0c8b3d561d62967118304",
+          "path": "original_I.json",
+          "profile": [
+            [
+              6,
+              3,
+              2
+            ],
+            [
+              2
+            ]
+          ],
+          "raw_sha256": "037cc175a81c50ecd32d924d2f58bcc64e3d969547b94781739ce23432a51e10"
+        },
+        "profile": [
+          [
+            6,
+            3,
+            2
+          ],
+          [
+            2
+          ]
+        ],
+        "variant": "I"
+      }
+    },
+    "D122_II": {
+      "D112_premises": {
+        "exit_neighbors": [
+          "b:1:0",
+          "s:0"
+        ],
+        "pins": {
+          "b:1:0": 1,
+          "s:0": 0,
+          "s:1": 24
+        },
+        "tests": {
+          "actual_spine_edge": true,
+          "exact_exit_neighbors": true,
+          "maximum_exit_label": true,
+          "physical_pins": true,
+          "right_center_off_spine": true,
+          "terminal_endpoint_and_predecessor": true
+        },
+        "valid": true
+      },
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          24,
+          20,
+          1,
+          17,
+          16,
+          15,
+          9,
+          3,
+          2,
+          19,
+          7,
+          8,
+          13,
+          14,
+          18,
+          12,
+          11,
+          10,
+          6,
+          5,
+          4,
+          23,
+          22,
+          21
+        ],
+        "errors": [],
+        "graph_digest": "14580712cecbd7a55513ed0f588b4f8771c15c589132941b7245ddb6f0d5331a",
+        "m": 24,
+        "n": 25,
+        "valid": true
+      },
+      "identity_role_binding": {
+        "bijective": true,
+        "indices": [
+          0,
+          1,
+          2
+        ],
+        "inverse": [
+          0,
+          1,
+          2
+        ],
+        "quota_compatible": true,
+        "quota_evaluated": true,
+        "rows": [
+          {
+            "absent": [],
+            "actual": [
+              "l:0:0:0",
+              "l:0:0:1",
+              "l:0:0:2",
+              "l:0:0:3",
+              "l:0:0:4",
+              "l:0:0:5"
+            ],
+            "actual_quota": 6,
+            "omitted": [],
+            "physical_index": 0,
+            "quota": 6,
+            "requested": [
+              "l:0:0:0",
+              "l:0:0:1",
+              "l:0:0:2",
+              "l:0:0:3",
+              "l:0:0:4",
+              "l:0:0:5"
+            ],
+            "role": 0
+          },
+          {
+            "absent": [],
+            "actual": [
+              "l:0:1:0",
+              "l:0:1:1",
+              "l:0:1:2",
+              "l:0:1:3",
+              "l:0:1:4"
+            ],
+            "actual_quota": 5,
+            "omitted": [],
+            "physical_index": 1,
+            "quota": 5,
+            "requested": [
+              "l:0:1:0",
+              "l:0:1:1",
+              "l:0:1:2",
+              "l:0:1:3",
+              "l:0:1:4"
+            ],
+            "role": 1
+          },
+          {
+            "absent": [],
+            "actual": [
+              "l:0:2:0",
+              "l:0:2:1",
+              "l:0:2:2",
+              "l:0:2:3",
+              "l:0:2:4",
+              "l:0:2:5"
+            ],
+            "actual_quota": 6,
+            "omitted": [],
+            "physical_index": 2,
+            "quota": 6,
+            "requested": [
+              "l:0:2:0",
+              "l:0:2:1",
+              "l:0:2:2",
+              "l:0:2:3",
+              "l:0:2:4",
+              "l:0:2:5"
+            ],
+            "role": 2
+          }
+        ],
+        "slots_exact": true,
+        "valid": true
+      },
+      "independent": {
+        "edge_weights": [
+          24,
+          20,
+          1,
+          17,
+          16,
+          15,
+          9,
+          3,
+          2,
+          19,
+          7,
+          8,
+          13,
+          14,
+          18,
+          12,
+          11,
+          10,
+          6,
+          5,
+          4,
+          23,
+          22,
+          21
+        ],
+        "ledger_id": "f4d328639ef9e17894fdd91b1c6a42e9d3cf7a5d55b1270336fb70831efadadd",
+        "named_incidences": [
+          [
+            "s:0",
+            "s:1",
+            24
+          ],
+          [
+            "s:0",
+            "b:0:0",
+            20
+          ],
+          [
+            "b:0:0",
+            "l:0:0:0",
+            1
+          ],
+          [
+            "b:0:0",
+            "l:0:0:1",
+            17
+          ],
+          [
+            "b:0:0",
+            "l:0:0:2",
+            16
+          ],
+          [
+            "b:0:0",
+            "l:0:0:3",
+            15
+          ],
+          [
+            "b:0:0",
+            "l:0:0:4",
+            9
+          ],
+          [
+            "b:0:0",
+            "l:0:0:5",
+            3
+          ],
+          [
+            "s:0",
+            "b:0:1",
+            2
+          ],
+          [
+            "b:0:1",
+            "l:0:1:0",
+            19
+          ],
+          [
+            "b:0:1",
+            "l:0:1:1",
+            7
+          ],
+          [
+            "b:0:1",
+            "l:0:1:2",
+            8
+          ],
+          [
+            "b:0:1",
+            "l:0:1:3",
+            13
+          ],
+          [
+            "b:0:1",
+            "l:0:1:4",
+            14
+          ],
+          [
+            "s:0",
+            "b:0:2",
+            18
+          ],
+          [
+            "b:0:2",
+            "l:0:2:0",
+            12
+          ],
+          [
+            "b:0:2",
+            "l:0:2:1",
+            11
+          ],
+          [
+            "b:0:2",
+            "l:0:2:2",
+            10
+          ],
+          [
+            "b:0:2",
+            "l:0:2:3",
+            6
+          ],
+          [
+            "b:0:2",
+            "l:0:2:4",
+            5
+          ],
+          [
+            "b:0:2",
+            "l:0:2:5",
+            4
+          ],
+          [
+            "s:1",
+            "b:1:0",
+            23
+          ],
+          [
+            "b:1:0",
+            "l:1:0:0",
+            22
+          ],
+          [
+            "b:1:0",
+            "l:1:0:1",
+            21
+          ]
+        ],
+        "vertex_label_alphabet": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ]
+      },
+      "original_manifest_binding_verified": true,
+      "selected": {
+        "canonical_quotas": [
+          6,
+          5,
+          6
+        ],
+        "dispatch": {
+          "branch": "II",
+          "supplier": "D122"
+        },
+        "indices": [
+          0,
+          1,
+          2
+        ]
+      },
+      "source": {
+        "archive": "D122",
+        "expected_dispatch": {
+          "branch": "II",
+          "supplier": "D122"
+        },
+        "ledger_id": "f4d328639ef9e17894fdd91b1c6a42e9d3cf7a5d55b1270336fb70831efadadd",
+        "original_record": {
+          "graph_digest": "14580712cecbd7a55513ed0f588b4f8771c15c589132941b7245ddb6f0d5331a",
+          "path": "original_II.json",
+          "profile": [
+            [
+              6,
+              5,
+              6
+            ],
+            [
+              2
+            ]
+          ],
+          "raw_sha256": "b54df022e8cfcffaa4f68e2e0f7ddc0f8998f83670a322079f139831052da8ab"
+        },
+        "profile": [
+          [
+            6,
+            5,
+            6
+          ],
+          [
+            2
+          ]
+        ],
+        "variant": "II"
+      }
+    },
+    "D123": {
+      "D112_premises": {
+        "exit_neighbors": [
+          "b:1:0",
+          "s:0"
+        ],
+        "pins": {
+          "b:1:0": 1,
+          "s:0": 0,
+          "s:1": 22
+        },
+        "tests": {
+          "actual_spine_edge": true,
+          "exact_exit_neighbors": true,
+          "maximum_exit_label": true,
+          "physical_pins": true,
+          "right_center_off_spine": true,
+          "terminal_endpoint_and_predecessor": true
+        },
+        "valid": true
+      },
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          22,
+          2,
+          17,
+          5,
+          7,
+          9,
+          10,
+          11,
+          16,
+          1,
+          8,
+          6,
+          18,
+          15,
+          14,
+          13,
+          12,
+          4,
+          3,
+          21,
+          20,
+          19
+        ],
+        "errors": [],
+        "graph_digest": "ac71eba8f56fefb203192b6d3f2cf2b7157bd0ab9a091260413fcc1884ba28b4",
+        "m": 22,
+        "n": 23,
+        "valid": true
+      },
+      "identity_role_binding": {
+        "bijective": true,
+        "indices": [
+          0,
+          1,
+          2
+        ],
+        "inverse": [
+          0,
+          1,
+          2
+        ],
+        "quota_compatible": true,
+        "quota_evaluated": true,
+        "rows": [
+          {
+            "absent": [],
+            "actual": [
+              "l:0:0:0",
+              "l:0:0:1",
+              "l:0:0:2",
+              "l:0:0:3",
+              "l:0:0:4",
+              "l:0:0:5"
+            ],
+            "actual_quota": 6,
+            "omitted": [],
+            "physical_index": 0,
+            "quota": 6,
+            "requested": [
+              "l:0:0:0",
+              "l:0:0:1",
+              "l:0:0:2",
+              "l:0:0:3",
+              "l:0:0:4",
+              "l:0:0:5"
+            ],
+            "role": 0
+          },
+          {
+            "absent": [],
+            "actual": [
+              "l:0:1:0",
+              "l:0:1:1",
+              "l:0:1:2"
+            ],
+            "actual_quota": 3,
+            "omitted": [],
+            "physical_index": 1,
+            "quota": 3,
+            "requested": [
+              "l:0:1:0",
+              "l:0:1:1",
+              "l:0:1:2"
+            ],
+            "role": 1
+          },
+          {
+            "absent": [],
+            "actual": [
+              "l:0:2:0",
+              "l:0:2:1",
+              "l:0:2:2",
+              "l:0:2:3",
+              "l:0:2:4",
+              "l:0:2:5"
+            ],
+            "actual_quota": 6,
+            "omitted": [],
+            "physical_index": 2,
+            "quota": 6,
+            "requested": [
+              "l:0:2:0",
+              "l:0:2:1",
+              "l:0:2:2",
+              "l:0:2:3",
+              "l:0:2:4",
+              "l:0:2:5"
+            ],
+            "role": 2
+          }
+        ],
+        "slots_exact": true,
+        "valid": true
+      },
+      "independent": {
+        "edge_weights": [
+          22,
+          2,
+          17,
+          5,
+          7,
+          9,
+          10,
+          11,
+          16,
+          1,
+          8,
+          6,
+          18,
+          15,
+          14,
+          13,
+          12,
+          4,
+          3,
+          21,
+          20,
+          19
+        ],
+        "ledger_id": "be06550ced186c0b21dc4b864efad036f0a8c6b7a6e21c2d5b96032a4764ecb3",
+        "named_incidences": [
+          [
+            "s:0",
+            "s:1",
+            22
+          ],
+          [
+            "s:0",
+            "b:0:0",
+            2
+          ],
+          [
+            "b:0:0",
+            "l:0:0:0",
+            17
+          ],
+          [
+            "b:0:0",
+            "l:0:0:1",
+            5
+          ],
+          [
+            "b:0:0",
+            "l:0:0:2",
+            7
+          ],
+          [
+            "b:0:0",
+            "l:0:0:3",
+            9
+          ],
+          [
+            "b:0:0",
+            "l:0:0:4",
+            10
+          ],
+          [
+            "b:0:0",
+            "l:0:0:5",
+            11
+          ],
+          [
+            "s:0",
+            "b:0:1",
+            16
+          ],
+          [
+            "b:0:1",
+            "l:0:1:0",
+            1
+          ],
+          [
+            "b:0:1",
+            "l:0:1:1",
+            8
+          ],
+          [
+            "b:0:1",
+            "l:0:1:2",
+            6
+          ],
+          [
+            "s:0",
+            "b:0:2",
+            18
+          ],
+          [
+            "b:0:2",
+            "l:0:2:0",
+            15
+          ],
+          [
+            "b:0:2",
+            "l:0:2:1",
+            14
+          ],
+          [
+            "b:0:2",
+            "l:0:2:2",
+            13
+          ],
+          [
+            "b:0:2",
+            "l:0:2:3",
+            12
+          ],
+          [
+            "b:0:2",
+            "l:0:2:4",
+            4
+          ],
+          [
+            "b:0:2",
+            "l:0:2:5",
+            3
+          ],
+          [
+            "s:1",
+            "b:1:0",
+            21
+          ],
+          [
+            "b:1:0",
+            "l:1:0:0",
+            20
+          ],
+          [
+            "b:1:0",
+            "l:1:0:1",
+            19
+          ]
+        ],
+        "vertex_label_alphabet": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22
+        ]
+      },
+      "original_manifest_binding_verified": true,
+      "selected": {
+        "canonical_quotas": [
+          6,
+          3,
+          6
+        ],
+        "dispatch": {
+          "alternative": null,
+          "supplier": "D123"
+        },
+        "indices": [
+          0,
+          1,
+          2
+        ]
+      },
+      "source": {
+        "archive": "D123",
+        "expected_dispatch": {
+          "alternative": null,
+          "supplier": "D123"
+        },
+        "ledger_id": "be06550ced186c0b21dc4b864efad036f0a8c6b7a6e21c2d5b96032a4764ecb3",
+        "original_record": {
+          "graph_digest": "ac71eba8f56fefb203192b6d3f2cf2b7157bd0ab9a091260413fcc1884ba28b4",
+          "path": "original.json",
+          "raw_sha256": "8a8a121ba003744712755fca484d77bd7949f404ac54ad2550acda4f6d680135"
+        },
+        "profile": [
+          [
+            6,
+            3,
+            6
+          ],
+          [
+            2
+          ]
+        ],
+        "variant": null
+      }
+    },
+    "D124": {
+      "D112_premises": {
+        "exit_neighbors": [
+          "b:1:0",
+          "s:0"
+        ],
+        "pins": {
+          "b:1:0": 1,
+          "s:0": 0,
+          "s:1": 24
+        },
+        "tests": {
+          "actual_spine_edge": true,
+          "exact_exit_neighbors": true,
+          "maximum_exit_label": true,
+          "physical_pins": true,
+          "right_center_off_spine": true,
+          "terminal_endpoint_and_predecessor": true
+        },
+        "valid": true
+      },
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          24,
+          2,
+          19,
+          6,
+          8,
+          10,
+          11,
+          12,
+          18,
+          1,
+          9,
+          7,
+          20,
+          17,
+          16,
+          15,
+          14,
+          13,
+          5,
+          4,
+          3,
+          23,
+          22,
+          21
+        ],
+        "errors": [],
+        "graph_digest": "386aa9158bf0ea3763067cb2fe2b87abe27837cc033b759328e0cbaf90cc37a4",
+        "m": 24,
+        "n": 25,
+        "valid": true
+      },
+      "identity_role_binding": {
+        "bijective": true,
+        "indices": [
+          0,
+          1,
+          2
+        ],
+        "inverse": [
+          0,
+          1,
+          2
+        ],
+        "quota_compatible": true,
+        "quota_evaluated": true,
+        "rows": [
+          {
+            "absent": [],
+            "actual": [
+              "l:0:0:0",
+              "l:0:0:1",
+              "l:0:0:2",
+              "l:0:0:3",
+              "l:0:0:4",
+              "l:0:0:5"
+            ],
+            "actual_quota": 6,
+            "omitted": [],
+            "physical_index": 0,
+            "quota": 6,
+            "requested": [
+              "l:0:0:0",
+              "l:0:0:1",
+              "l:0:0:2",
+              "l:0:0:3",
+              "l:0:0:4",
+              "l:0:0:5"
+            ],
+            "role": 0
+          },
+          {
+            "absent": [],
+            "actual": [
+              "l:0:1:0",
+              "l:0:1:1",
+              "l:0:1:2"
+            ],
+            "actual_quota": 3,
+            "omitted": [],
+            "physical_index": 1,
+            "quota": 3,
+            "requested": [
+              "l:0:1:0",
+              "l:0:1:1",
+              "l:0:1:2"
+            ],
+            "role": 1
+          },
+          {
+            "absent": [],
+            "actual": [
+              "l:0:2:0",
+              "l:0:2:1",
+              "l:0:2:2",
+              "l:0:2:3",
+              "l:0:2:4",
+              "l:0:2:5",
+              "l:0:2:6",
+              "l:0:2:7"
+            ],
+            "actual_quota": 8,
+            "omitted": [],
+            "physical_index": 2,
+            "quota": 8,
+            "requested": [
+              "l:0:2:0",
+              "l:0:2:1",
+              "l:0:2:2",
+              "l:0:2:3",
+              "l:0:2:4",
+              "l:0:2:5",
+              "l:0:2:6",
+              "l:0:2:7"
+            ],
+            "role": 2
+          }
+        ],
+        "slots_exact": true,
+        "valid": true
+      },
+      "independent": {
+        "edge_weights": [
+          24,
+          2,
+          19,
+          6,
+          8,
+          10,
+          11,
+          12,
+          18,
+          1,
+          9,
+          7,
+          20,
+          17,
+          16,
+          15,
+          14,
+          13,
+          5,
+          4,
+          3,
+          23,
+          22,
+          21
+        ],
+        "ledger_id": "bb5651a7e20245659f831eef965eeed8fb247239855a843b6ac82d19f2a5399b",
+        "named_incidences": [
+          [
+            "s:0",
+            "s:1",
+            24
+          ],
+          [
+            "s:0",
+            "b:0:0",
+            2
+          ],
+          [
+            "b:0:0",
+            "l:0:0:0",
+            19
+          ],
+          [
+            "b:0:0",
+            "l:0:0:1",
+            6
+          ],
+          [
+            "b:0:0",
+            "l:0:0:2",
+            8
+          ],
+          [
+            "b:0:0",
+            "l:0:0:3",
+            10
+          ],
+          [
+            "b:0:0",
+            "l:0:0:4",
+            11
+          ],
+          [
+            "b:0:0",
+            "l:0:0:5",
+            12
+          ],
+          [
+            "s:0",
+            "b:0:1",
+            18
+          ],
+          [
+            "b:0:1",
+            "l:0:1:0",
+            1
+          ],
+          [
+            "b:0:1",
+            "l:0:1:1",
+            9
+          ],
+          [
+            "b:0:1",
+            "l:0:1:2",
+            7
+          ],
+          [
+            "s:0",
+            "b:0:2",
+            20
+          ],
+          [
+            "b:0:2",
+            "l:0:2:0",
+            17
+          ],
+          [
+            "b:0:2",
+            "l:0:2:1",
+            16
+          ],
+          [
+            "b:0:2",
+            "l:0:2:2",
+            15
+          ],
+          [
+            "b:0:2",
+            "l:0:2:3",
+            14
+          ],
+          [
+            "b:0:2",
+            "l:0:2:4",
+            13
+          ],
+          [
+            "b:0:2",
+            "l:0:2:5",
+            5
+          ],
+          [
+            "b:0:2",
+            "l:0:2:6",
+            4
+          ],
+          [
+            "b:0:2",
+            "l:0:2:7",
+            3
+          ],
+          [
+            "s:1",
+            "b:1:0",
+            23
+          ],
+          [
+            "b:1:0",
+            "l:1:0:0",
+            22
+          ],
+          [
+            "b:1:0",
+            "l:1:0:1",
+            21
+          ]
+        ],
+        "vertex_label_alphabet": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ]
+      },
+      "original_manifest_binding_verified": true,
+      "selected": {
+        "canonical_quotas": [
+          6,
+          3,
+          8
+        ],
+        "dispatch": {
+          "alternative": null,
+          "supplier": "D124"
+        },
+        "indices": [
+          0,
+          1,
+          2
+        ]
+      },
+      "source": {
+        "archive": "D124",
+        "expected_dispatch": {
+          "alternative": null,
+          "supplier": "D124"
+        },
+        "ledger_id": "bb5651a7e20245659f831eef965eeed8fb247239855a843b6ac82d19f2a5399b",
+        "original_record": {
+          "graph_digest": "386aa9158bf0ea3763067cb2fe2b87abe27837cc033b759328e0cbaf90cc37a4",
+          "path": "original.json",
+          "raw_sha256": "f0f05f3262ce3898bdda5f9f705cfaaf5dfe23aa7a675528aa469f3591510630"
+        },
+        "profile": [
+          [
+            6,
+            3,
+            8
+          ],
+          [
+            2
+          ]
+        ],
+        "variant": null
+      }
+    },
+    "D126": {
+      "D112_premises": {
+        "exit_neighbors": [
+          "b:1:0",
+          "s:0"
+        ],
+        "pins": {
+          "b:1:0": 1,
+          "s:0": 0,
+          "s:1": 20
+        },
+        "tests": {
+          "actual_spine_edge": true,
+          "exact_exit_neighbors": true,
+          "maximum_exit_label": true,
+          "physical_pins": true,
+          "right_center_off_spine": true,
+          "terminal_endpoint_and_predecessor": true
+        },
+        "valid": true
+      },
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          20,
+          2,
+          15,
+          4,
+          6,
+          8,
+          9,
+          10,
+          14,
+          1,
+          7,
+          5,
+          16,
+          13,
+          12,
+          11,
+          3,
+          19,
+          18,
+          17
+        ],
+        "errors": [],
+        "graph_digest": "be51de0924c9de0f9a81929ecb98c9f29502e7f78ccadd0bfb6384f32c99e393",
+        "m": 20,
+        "n": 21,
+        "valid": true
+      },
+      "identity_role_binding": {
+        "bijective": true,
+        "indices": [
+          0,
+          1,
+          2
+        ],
+        "inverse": [
+          0,
+          1,
+          2
+        ],
+        "quota_compatible": true,
+        "quota_evaluated": true,
+        "rows": [
+          {
+            "absent": [],
+            "actual": [
+              "l:0:0:0",
+              "l:0:0:1",
+              "l:0:0:2",
+              "l:0:0:3",
+              "l:0:0:4",
+              "l:0:0:5"
+            ],
+            "actual_quota": 6,
+            "omitted": [],
+            "physical_index": 0,
+            "quota": 6,
+            "requested": [
+              "l:0:0:0",
+              "l:0:0:1",
+              "l:0:0:2",
+              "l:0:0:3",
+              "l:0:0:4",
+              "l:0:0:5"
+            ],
+            "role": 0
+          },
+          {
+            "absent": [],
+            "actual": [
+              "l:0:1:0",
+              "l:0:1:1",
+              "l:0:1:2"
+            ],
+            "actual_quota": 3,
+            "omitted": [],
+            "physical_index": 1,
+            "quota": 3,
+            "requested": [
+              "l:0:1:0",
+              "l:0:1:1",
+              "l:0:1:2"
+            ],
+            "role": 1
+          },
+          {
+            "absent": [],
+            "actual": [
+              "l:0:2:0",
+              "l:0:2:1",
+              "l:0:2:2",
+              "l:0:2:3"
+            ],
+            "actual_quota": 4,
+            "omitted": [],
+            "physical_index": 2,
+            "quota": 4,
+            "requested": [
+              "l:0:2:0",
+              "l:0:2:1",
+              "l:0:2:2",
+              "l:0:2:3"
+            ],
+            "role": 2
+          }
+        ],
+        "slots_exact": true,
+        "valid": true
+      },
+      "independent": {
+        "edge_weights": [
+          20,
+          2,
+          15,
+          4,
+          6,
+          8,
+          9,
+          10,
+          14,
+          1,
+          7,
+          5,
+          16,
+          13,
+          12,
+          11,
+          3,
+          19,
+          18,
+          17
+        ],
+        "ledger_id": "937010b12e4ad66a0b4ac5b51d9843564536986407a3f9af4983634266d8a3e9",
+        "named_incidences": [
+          [
+            "s:0",
+            "s:1",
+            20
+          ],
+          [
+            "s:0",
+            "b:0:0",
+            2
+          ],
+          [
+            "b:0:0",
+            "l:0:0:0",
+            15
+          ],
+          [
+            "b:0:0",
+            "l:0:0:1",
+            4
+          ],
+          [
+            "b:0:0",
+            "l:0:0:2",
+            6
+          ],
+          [
+            "b:0:0",
+            "l:0:0:3",
+            8
+          ],
+          [
+            "b:0:0",
+            "l:0:0:4",
+            9
+          ],
+          [
+            "b:0:0",
+            "l:0:0:5",
+            10
+          ],
+          [
+            "s:0",
+            "b:0:1",
+            14
+          ],
+          [
+            "b:0:1",
+            "l:0:1:0",
+            1
+          ],
+          [
+            "b:0:1",
+            "l:0:1:1",
+            7
+          ],
+          [
+            "b:0:1",
+            "l:0:1:2",
+            5
+          ],
+          [
+            "s:0",
+            "b:0:2",
+            16
+          ],
+          [
+            "b:0:2",
+            "l:0:2:0",
+            13
+          ],
+          [
+            "b:0:2",
+            "l:0:2:1",
+            12
+          ],
+          [
+            "b:0:2",
+            "l:0:2:2",
+            11
+          ],
+          [
+            "b:0:2",
+            "l:0:2:3",
+            3
+          ],
+          [
+            "s:1",
+            "b:1:0",
+            19
+          ],
+          [
+            "b:1:0",
+            "l:1:0:0",
+            18
+          ],
+          [
+            "b:1:0",
+            "l:1:0:1",
+            17
+          ]
+        ],
+        "vertex_label_alphabet": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ]
+      },
+      "original_manifest_binding_verified": true,
+      "selected": {
+        "canonical_quotas": [
+          6,
+          3,
+          4
+        ],
+        "dispatch": {
+          "supplier": "D126"
+        },
+        "indices": [
+          0,
+          1,
+          2
+        ]
+      },
+      "source": {
+        "archive": "D126",
+        "expected_dispatch": {
+          "supplier": "D126"
+        },
+        "ledger_id": "937010b12e4ad66a0b4ac5b51d9843564536986407a3f9af4983634266d8a3e9",
+        "original_record": {
+          "graph_digest": "be51de0924c9de0f9a81929ecb98c9f29502e7f78ccadd0bfb6384f32c99e393",
+          "path": "evidence/validation/LCL_ORDINARY_QAC_2_TWO_EVEN_FIXED_CORE_CLASSIFICATION_001/original_adverse.json",
+          "profile": [
+            [
+              6,
+              3,
+              4
+            ],
+            [
+              2
+            ]
+          ],
+          "raw_sha256": "9875fa6239d80dac3702b73d502b9621469b6c1c44289f7026fff39c8fcdb18f"
+        },
+        "profile": [
+          [
+            6,
+            3,
+            4
+          ],
+          [
+            2
+          ]
+        ],
+        "variant": null
+      }
+    }
+  },
+  "controls": {
+    "direction": {
+      "forward_check": {
+        "bijective": true,
+        "candidate": [
+          1,
+          2,
+          0
+        ],
+        "inverse": [
+          2,
+          0,
+          1
+        ],
+        "mismatched_canonical_indices": [],
+        "round_trips": true,
+        "rows": [
+          {
+            "center_round_trip": 0,
+            "forward_center_index": 1,
+            "forward_terminal": [
+              1,
+              "k"
+            ],
+            "reverse_center_round_trip": 0,
+            "reverse_terminal_round_trip": [
+              0,
+              "k"
+            ],
+            "source_center_index": 0,
+            "source_terminal": [
+              0,
+              "k"
+            ],
+            "terminal_round_trip": [
+              0,
+              "k"
+            ]
+          },
+          {
+            "center_round_trip": 1,
+            "forward_center_index": 2,
+            "forward_terminal": [
+              2,
+              "k"
+            ],
+            "reverse_center_round_trip": 1,
+            "reverse_terminal_round_trip": [
+              1,
+              "k"
+            ],
+            "source_center_index": 1,
+            "source_terminal": [
+              1,
+              "k"
+            ],
+            "terminal_round_trip": [
+              1,
+              "k"
+            ]
+          },
+          {
+            "center_round_trip": 2,
+            "forward_center_index": 0,
+            "forward_terminal": [
+              0,
+              "k"
+            ],
+            "reverse_center_round_trip": 2,
+            "reverse_terminal_round_trip": [
+              2,
+              "k"
+            ],
+            "source_center_index": 2,
+            "source_terminal": [
+              2,
+              "k"
+            ],
+            "terminal_round_trip": [
+              2,
+              "k"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "index_only": true,
+      "inverse_used_as_forward": {
+        "bijective": true,
+        "candidate": [
+          2,
+          0,
+          1
+        ],
+        "inverse": [
+          1,
+          2,
+          0
+        ],
+        "mismatched_canonical_indices": [
+          0,
+          1,
+          2
+        ],
+        "round_trips": true,
+        "rows": [
+          {
+            "center_round_trip": 0,
+            "forward_center_index": 2,
+            "forward_terminal": [
+              2,
+              "k"
+            ],
+            "reverse_center_round_trip": 0,
+            "reverse_terminal_round_trip": [
+              0,
+              "k"
+            ],
+            "source_center_index": 0,
+            "source_terminal": [
+              0,
+              "k"
+            ],
+            "terminal_round_trip": [
+              0,
+              "k"
+            ]
+          },
+          {
+            "center_round_trip": 1,
+            "forward_center_index": 0,
+            "forward_terminal": [
+              0,
+              "k"
+            ],
+            "reverse_center_round_trip": 1,
+            "reverse_terminal_round_trip": [
+              1,
+              "k"
+            ],
+            "source_center_index": 1,
+            "source_terminal": [
+              1,
+              "k"
+            ],
+            "terminal_round_trip": [
+              1,
+              "k"
+            ]
+          },
+          {
+            "center_round_trip": 2,
+            "forward_center_index": 1,
+            "forward_terminal": [
+              1,
+              "k"
+            ],
+            "reverse_center_round_trip": 2,
+            "reverse_terminal_round_trip": [
+              2,
+              "k"
+            ],
+            "source_center_index": 2,
+            "source_terminal": [
+              2,
+              "k"
+            ],
+            "terminal_round_trip": [
+              2,
+              "k"
+            ]
+          }
+        ],
+        "valid": false
+      }
+    },
+    "nonbijective_map": {
+      "bijective": false,
+      "indices": [
+        0,
+        0,
+        2
+      ],
+      "quota_evaluated": false,
+      "status": "NONBIJECTIVE_ROLE_MAP",
+      "valid": false
+    },
+    "quota_incompatible_map": {
+      "bijective": true,
+      "indices": [
+        2,
+        1,
+        0
+      ],
+      "inverse": [
+        2,
+        1,
+        0
+      ],
+      "quota_compatible": false,
+      "quota_evaluated": true,
+      "rows": [
+        {
+          "absent": [
+            "l:0:2:4",
+            "l:0:2:5"
+          ],
+          "actual": [
+            "l:0:2:0",
+            "l:0:2:1",
+            "l:0:2:2",
+            "l:0:2:3"
+          ],
+          "actual_quota": 4,
+          "omitted": [],
+          "physical_index": 2,
+          "quota": 6,
+          "requested": [
+            "l:0:2:0",
+            "l:0:2:1",
+            "l:0:2:2",
+            "l:0:2:3",
+            "l:0:2:4",
+            "l:0:2:5"
+          ],
+          "role": 0
+        },
+        {
+          "absent": [],
+          "actual": [
+            "l:0:1:0",
+            "l:0:1:1",
+            "l:0:1:2"
+          ],
+          "actual_quota": 3,
+          "omitted": [],
+          "physical_index": 1,
+          "quota": 3,
+          "requested": [
+            "l:0:1:0",
+            "l:0:1:1",
+            "l:0:1:2"
+          ],
+          "role": 1
+        },
+        {
+          "absent": [],
+          "actual": [
+            "l:0:0:0",
+            "l:0:0:1",
+            "l:0:0:2",
+            "l:0:0:3",
+            "l:0:0:4",
+            "l:0:0:5"
+          ],
+          "actual_quota": 6,
+          "omitted": [
+            "l:0:0:4",
+            "l:0:0:5"
+          ],
+          "physical_index": 0,
+          "quota": 4,
+          "requested": [
+            "l:0:0:0",
+            "l:0:0:1",
+            "l:0:0:2",
+            "l:0:0:3"
+          ],
+          "role": 2
+        }
+      ],
+      "slots_exact": false,
+      "valid": false
+    },
+    "wrong_expected_digest": {
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          20,
+          2,
+          15,
+          4,
+          6,
+          8,
+          9,
+          10,
+          14,
+          1,
+          7,
+          5,
+          16,
+          13,
+          12,
+          11,
+          3,
+          19,
+          18,
+          17
+        ],
+        "errors": [
+          "original graph digest mismatch"
+        ],
+        "graph_digest": "be51de0924c9de0f9a81929ecb98c9f29502e7f78ccadd0bfb6384f32c99e393",
+        "m": 20,
+        "n": 21,
+        "valid": false
+      },
+      "expected": "0000000000000000000000000000000000000000000000000000000000000000"
+    }
+  },
+  "independent_controls": {
+    "both_center_and_terminal_round_trips": true,
+    "index_only_forward": [
+      1,
+      2,
+      0
+    ],
+    "index_only_inverse": [
+      2,
+      0,
+      1
+    ],
+    "wrong_quota_absent": [
+      "l:0:2:4",
+      "l:0:2:5"
+    ],
+    "wrong_quota_omitted": [
+      "l:0:0:4",
+      "l:0:0:5"
+    ]
+  },
+  "parent": "493bdb730041674eb38dfc7db64c7ff191582018",
+  "retained_D122_obstruction": {
+    "binding": {
+      "original": {
+        "graph_digest": "be51de0924c9de0f9a81929ecb98c9f29502e7f78ccadd0bfb6384f32c99e393",
+        "path": "original_adverse.json",
+        "profile": [
+          [
+            6,
+            3,
+            4
+          ],
+          [
+            2
+          ]
+        ],
+        "raw_sha256": "9875fa6239d80dac3702b73d502b9621469b6c1c44289f7026fff39c8fcdb18f"
+      },
+      "path": "obstruction.json",
+      "sha256": "1b752bc1288e74e75bf156bf3fcff7d3a4e31697d25378d02ae82d2ac2ad2bd8"
+    },
+    "historical_procedure_replayed": false,
+    "old_core": {
+      "b:0:0": 16,
+      "b:0:1": 2,
+      "b:0:2": 14,
+      "b:1:0": 1,
+      "l:0:0:0": 15,
+      "l:0:1:0": 17,
+      "l:1:0:0": 19,
+      "l:1:0:1": 18,
+      "s:0": 0,
+      "s:1": 20
+    },
+    "scope": "all_completions_of_the_specified_labeled_core",
+    "status": "FIXED_CORE_INFEASIBLE"
+  },
+  "retained_execution_statuses": {
+    "D083_original": "INCOMPLETE",
+    "D083_versioned": "PASS",
+    "D093_original": "INCOMPLETE",
+    "D093_versioned": "PASS",
+    "D099": "PASS",
+    "D100_original": "INCOMPLETE",
+    "D100_recovery": "PASS",
+    "D101": "PASS",
+    "D102": "PASS",
+    "D103": "PASS",
+    "D104": "PASS",
+    "D105": "PASS",
+    "D106": "PASS",
+    "D107": "PASS",
+    "D108": "PASS",
+    "D109": "PASS",
+    "D110": "PASS",
+    "D111": "PASS",
+    "D112": "PASS",
+    "D113": "PASS",
+    "D114": "PASS",
+    "D115": "PASS",
+    "D116": "PASS",
+    "D117": "PASS",
+    "D118": "PASS",
+    "D119": "PASS",
+    "D120": "PASS",
+    "D121": "PASS",
+    "D122": "PASS",
+    "D123": "PASS",
+    "D124": "PASS",
+    "D125": "PASS",
+    "D126": "PASS"
+  },
+  "runtime": {
+    "path": ".venv/Scripts/python.exe",
+    "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "scope": {
+    "alpha_constraint": false,
+    "even_minimum": 2,
+    "odd_minimum": 3,
+    "odd_positions": [
+      0,
+      2
+    ],
+    "pins": {
+      "b:1:0": 1,
+      "s:0": 0,
+      "s:1": "q+a+c+7"
+    },
+    "qualifying_even_minimum": 6,
+    "retained_canonical_checks_only": true,
+    "right_growth_application": false,
+    "role_map_direction": "canonical_to_physical",
+    "role_rule": "least qualifying even index, unique odd index, remaining even index",
+    "signed_constraint": false,
+    "symbolic_profile": [
+      [
+        "q",
+        "a",
+        "c"
+      ],
+      [
+        2
+      ]
+    ]
+  },
+  "status": "PASS",
+  "task": "LCL-ORDINARY-QAC-2-TWO-EVEN-OUTER-ODD-ROLE-TRANSPORT-001"
+}
