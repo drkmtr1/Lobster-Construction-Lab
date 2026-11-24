@@ -2,19 +2,21 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 23, 2026, Pacific/Honolulu<br>
-**Stage:** D104 shared left-terminal zero obstruction **ACCEPTED**. Together with D102 and D103 it excludes both alpha orientations on frozen ordered `[[4,3],[2]]`. Ordinary gracefulness remains undecided. Executable audit **PASS**. [Proof](research/R241_43_2_LEFT_TERMINAL_ZERO.md).
+**Stage:** D105 direct ordinary graceful supplier **ACCEPTED** on frozen ordered `[[4,3],[2]]` with `s:0=0` and `s:1=13`. The D104 alpha exclusion remains accepted. Executable audit **PASS**. [Proof](research/ORDINARY_43_2_EXTREME_SPINE.md).
 
 ## Current scientific objective
 
-Develop independently supplied graceful modules with usable physical ports. The [latest handoff](handoffs/CODEX-20261123-r241-43-2-left-terminal-zero.md) closes alpha supply on the exact below-capacity original and proposes a direct ordinary graceful construction at a specified spine interface.
+Develop independently supplied graceful modules with usable physical ports. The [latest handoff](handoffs/CODEX-20261123-ordinary-43-2-extreme-spine.md) records the explicit ordinary graceful certificate on the exact below-capacity original and the next proposed test of a controlled quota change.
 
 ## One next action
 
-Under separate authorization, seek or rule out an ordinary graceful labeling of frozen ordered `[[4,3],[2]]` with physical spine labels `s:0=0` and `s:1=13`. Use a direct original-incidence weight construction without an alpha-cut constraint, or prove an obstruction for these two pins. Allow at most one verified certificate, and use no new graph identities, solvers, complete-assignment enumeration or joins.
+Under separate authorization, seek or rule out a direct ordinary graceful labeling of ordered `[[4,3],[3]]` with physical spine labels `s:0=0` and `s:1=14`, and exactly one negative signed edge of value −1 at `l:0:0:3--b:0:0` when orienting from the bipartition class containing `s:0`. Use a residual-palette argument on this one profile with at most one new original and one verified certificate. Use no solvers, complete-assignment enumeration or joins.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
+
+- D105 **SUPPLIES** an ordinary graceful labeling on frozen ordered `[[4,3],[2]]` with physical spine labels (0,13), both unused inventories empty and exactly one negative signed edge of −1. The signed degree sum is 89. The unchanged checker, independent audit and both reviews passed. See [proof](research/ORDINARY_43_2_EXTREME_SPINE.md) and [certificate](evidence/validation/LCL_ORDINARY_43_2_EXTREME_SPINE_001/result.json).
 
 - D104 **REJECTS** cut-9 alpha supply with zero at any left terminal of frozen ordered `[[4,3],[2]]` and both physical ports free. The 19 surviving scalar rows each miss a required weight. With D102 and D103 this covers all cut-nine zero locations, and complementing a hypothetical cut-five labeling would give cut nine. The original admits no alpha labeling. The bounded audit and both independent reviews passed. See [proof](research/R241_43_2_LEFT_TERMINAL_ZERO.md) and [evidence](evidence/validation/LCL_R241_43_2_LEFT_TERMINAL_ZERO_001/README.md).
 

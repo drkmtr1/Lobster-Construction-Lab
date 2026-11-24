@@ -1,0 +1,11 @@
+# D105 frozen task contract
+
+Task `LCL-ORDINARY-43-2-EXTREME-SPINE-001` at starting revision `3671ec17c801684d241451a5b41a0fea482622d8`. Reuse the exact D099 target `evidence/validation/LCL_R241_43_2_LOWER_BLOCK_001/original.json`, original graph digest `2060a4e5a7d8f8ebc1906499facea2730250938d4550bb4c6ca34582a1f5b6e6`. Verify the supplied deterministic 14-label assignment on ordered `[[4,3],[2]]` with physical `s:0=0`, `s:1=13`. Preserve the exact original names, terminal indices, physical roles and 13 incidences.
+
+Independently verify the label and difference bijections, empty unused inventories, every actual signed incidence and the bipartition obtained by traversal. Verify the single signed reversal at `l:0:0:3--b:0:0` and the signed degree sum. Preserve D104's independent exclusion of alpha labeling on this original. The physical labels are ordinary vertex labels. No alpha constraint enters the certificate check.
+
+Use CPU-only project-local Python 3.12/3.13, standard library, one unchanged original-target checker and a separate independent auditor. Freeze raw input, source, configuration and runtime identities. Run one parse-only preflight with unique definitions, no task imports or bytecode and vacant outputs. Independently review mathematical assertions before the single official invocation. Use at most 30 process-CPU seconds and 60 wall seconds with an outer deadline, 2,000,000 bytes per record and 8,000,000 bytes total. On failure or cap exhaustion preserve INCOMPLETE and stop without retry.
+
+One worker, one frozen target, zero new graph identities and at most one ordinary graceful certificate. Recheck the D098 retained positive once on its own original. Exercise exactly three genuine adverse gates on the new candidate for a wrong digest, wrong declared physical labels and the prescribed alphabet-preserving left-terminal swap. Zero solvers, complete assignments, search states or nodes, additional profiles, joins, retries, restarts, historical replays or successor experiments.
+
+Obtain independent read-only mathematical and implementation reviews. Preserve all historical results, distinct original and versioned records for D083, D093 and D100, deferred D076, baseline identities and protected upstream pins. Publish only LCL and record one unstarted next action.

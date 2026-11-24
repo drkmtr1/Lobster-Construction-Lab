@@ -1,0 +1,59 @@
+{
+  "argv": [
+    "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "evidence/validation/LCL_ORDINARY_43_2_EXTREME_SPINE_001/preflight.py",
+    "9954997746f5328f18d1691631d6ca960aae31134d9a39eaa26200817398bb81"
+  ],
+  "input_hashes": {
+    "CONTRACT.md": "380aaa43fd4ca44ea3f41c49c71819478b99afe84d216c1cec3bffdc54e80610",
+    "audit.py": "19e7b486294b2e829e0286a9bcc5c65b042f490e9942a85523fa88f9f4fca5f1",
+    "config.json": "9954997746f5328f18d1691631d6ca960aae31134d9a39eaa26200817398bb81",
+    "preflight.py": "9b6cf8ebab6813d80721fc34b1ad3942b5682b38b060fea847e691fd5ff376c5",
+    "run.py": "96980c1d0eba84f5b2f69fbc45646885277627f2b2464262b8ca0e08652afab4"
+  },
+  "parent": "3671ec17c801684d241451a5b41a0fea482622d8",
+  "parsed_functions": {
+    "audit.py": [
+      "topology",
+      "certificate_audit",
+      "controls",
+      "reconcile_alpha_scope"
+    ],
+    "preflight.py": [
+      "check",
+      "main"
+    ],
+    "run.py": [
+      "read_json",
+      "digest_file",
+      "write_record",
+      "direct_labels",
+      "require_physical_spine",
+      "retained_positive",
+      "adverse_controls",
+      "validate_inputs",
+      "produce",
+      "execute"
+    ]
+  },
+  "preflight_invocations": 1,
+  "runtime": {
+    "path": ".venv/Scripts/python.exe",
+    "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "source_pins_checked": 107,
+  "status": "PASS",
+  "task": "LCL-ORDINARY-43-2-EXTREME-SPINE-001",
+  "task_module_imports": 0,
+  "vacant_outputs": [
+    "original.json",
+    "result.json",
+    "command_receipt.json",
+    "invocation_failure.json",
+    "__pycache__"
+  ]
+}

@@ -1423,3 +1423,9 @@ The official audit and two read-only reviews **PASSED**. One worker rechecked th
 **ACCEPT** the shared obstruction and **REJECT** the cut-nine state on frozen ordered `[[4,3],[2]]` with zero on any left terminal and both ports free. The largest differences force a block of low labels onto terminals of the maximum center. The signed degree identity leaves 19 of 84 scalar checks across 24 role pairs. Each survivor misses a required difference even when the remaining labels are allowed at either left center.
 
 D102, D103 and D104 cover every zero location in the same size-nine class of the same original. A cut-five labeling would give a cut-nine labeling under `f(v) → 13−f(v)`, so the original has no alpha labeling. Ordinary gracefulness remains undecided by these results. The official audit and both reviews **PASSED** with one retained positive, three adverse probes and 0.1875 process-CPU seconds. [Proof](R241_43_2_LEFT_TERMINAL_ZERO.md) · [Evidence](../evidence/validation/LCL_R241_43_2_LEFT_TERMINAL_ZERO_001/README.md) · D104
+
+## LCL-ORDINARY-43-2-EXTREME-SPINE-001
+
+**ACCEPT** direct ordinary graceful supply on frozen ordered `[[4,3],[2]]` with `s:0=0` and `s:1=13`. The deterministic certificate exhausts [0,13] on the exact original vertices and [1,13] on the exact original incidences. In the traversal-derived orientation the sole negative signed edge is `l:0:0:3--b:0:0` with signed difference −1. The signed degree sum is 89 and neither class order separates. D104's alpha exclusion remains accepted.
+
+The official audit and both reviews **PASSED** with one new certificate, no new graph identity, one retained positive, three genuine adverse controls and 0.125 process-CPU seconds. [Proof](ORDINARY_43_2_EXTREME_SPINE.md) · [Evidence](../evidence/validation/LCL_ORDINARY_43_2_EXTREME_SPINE_001/README.md) · D105
