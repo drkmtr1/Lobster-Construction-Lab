@@ -2,19 +2,21 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 23, 2026, Pacific/Honolulu<br>
-**Stage:** D092 closed. A(11,6;5,3) is **EXCLUDED** on exact `[[4],[3]]` with physical s:0=5 and s:1=9. [Proof](research/R241_43_PORT53_RETURN.md).
+**Stage:** D093 symbolic reversal passed mathematical review. The sole executable verification is **INCOMPLETE**. [Proof](research/R241_D090_REVERSE_BANDSWAP.md) · [Failure evidence](evidence/validation/LCL_R241_D090_REVERSE_BANDSWAP_001/README.md).
 
 ## Current scientific objective
 
-Supply multi-center modules with independently variable quotas and usable physical offsets. D090 supplies the (3,5) four-section state. D091 and D092 exclude two exact prescribed (5,3) returns, at a maximum and a nonmaximum exit respectively. The [latest handoff](handoffs/CODEX-20261123-r241-43-port53-return.md) records the scoped results and one proposed reversal test.
+Supply multi-center modules with independently variable quotas and compatible physical ports. D090 supplies (3,5). D093 has a reviewed symbolic (5,3) return on the reversed original, with its boundary certificate and executable audit pending. The [latest handoff](handoffs/CODEX-20261123-r241-d090-reverse-bandswap.md) records the source failure and preservation scope.
 
 ## One next action
 
-Under separate authorization, prove or refute A(a+b+20,11;5,3) for all integers a,b≥2 on the exact reversed named profile `[[3],[3,b],[2],[2,a]]`, using D090 as input. Check whether reversing physical sections and exchanging the alpha bands supplies the return. Verify the exact name map, all edge differences, cut and physical ports without solvers, assignment enumeration or joins.
+Under separate authorization, recover the single incomplete D093 executable verification in a separately versioned evidence bundle. Correct the duplicated audit tail, check source syntax before execution, and verify only the a=b=2 reversed original, retained controls and three adverse probes under the original caps. Preserve the failed bundle and keep composition out of scope.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
+
+- D093's **reviewed symbolic proof** supplies A(a+b+20,11;5,3) on exact named `[[3],[3,b],[2],[2,a]]` for integer a,b≥2 by named reversal and alpha-band exchange. Executable verification is **INCOMPLETE** after the audit import failed. The intended boundary original and certificate were never written, and no control checks ran. See [proof](research/R241_D090_REVERSE_BANDSWAP.md) and [failure evidence](evidence/validation/LCL_R241_D090_REVERSE_BANDSWAP_001/README.md).
 
 - D092 excludes A(11,6;5,3) on exact named `[[4],[3]]`. The sum over signed degrees forces center labels (8,2). The right terminal labeled 6 repeats the spine's weight four, and labels 0 and 10 fall on nonadjacent terminals. One original, one state, four numerical center cases, the retained D090 positive and three adverse rejections passed independent audit and separate reviews. D078's (1,1) supply still applies. See [proof](research/R241_43_PORT53_RETURN.md) and [evidence](evidence/validation/LCL_R241_43_PORT53_RETURN_001/README.md).
 

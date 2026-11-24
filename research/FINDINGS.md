@@ -1341,3 +1341,9 @@ The unchanged checker, independent audit and separate reviews passed one origina
 **ACCEPT** the structural proof and **REJECT — EXCLUDED** A(11,6;5,3) on exact named `[[4],[3]]` with s:0 low, cut six and physical labels 5 and 9. The signed-degree identity 55=29+4A−3z leaves center pair (8,2) uniquely. Its right terminal labeled 6 repeats the original spine's difference four. Labels 0 and 10 are on nonadjacent terminal groups, so the maximum weight is absent. D078's (1,1) state and D090's (3,5) family retain their accepted scopes. The D091 corrected proof is preserved separately.
 
 One original, one state, four numerical cases, the retained D090 positive and three adverse rejections passed the independent audit and separate reviews. One worker used 0.03125 process-CPU seconds with zero new certificates, solvers, assignment visits, joins, retries or replay. [Proof](R241_43_PORT53_RETURN.md) · [Evidence](../evidence/validation/LCL_R241_43_PORT53_RETURN_001/README.md) · D092
+
+## LCL-R241-D090-REVERSE-BANDSWAP-001
+
+**ACCEPT at mathematical review** the symbolic supply of A(a+b+20,11;5,3) on exact named `[[3],[3,b],[2],[2,a]]` for integers a,b≥2. Reversal preserves every incidence and index, and each target weight is N−d. The actual reversed spine has labels (5,a+19,10,14). The offsets match D090 numerically in either order. This is the reviewed single-component theorem.
+
+**INCOMPLETE** executable verification. The sole invocation stopped on the frozen auditor's import-time syntax error before any target, certificate, positive recheck or adverse probe. Process CPU was not recorded. The failed sources and external receipt are preserved without retry. D091 and D092 retain their exact scopes. [Proof](R241_D090_REVERSE_BANDSWAP.md) · [Failure evidence](../evidence/validation/LCL_R241_D090_REVERSE_BANDSWAP_001/README.md) · D093

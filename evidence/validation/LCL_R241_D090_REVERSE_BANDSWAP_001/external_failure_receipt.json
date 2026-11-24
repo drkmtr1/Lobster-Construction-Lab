@@ -1,0 +1,48 @@
+{
+  "task": "LCL-R241-D090-REVERSE-BANDSWAP-001",
+  "parent": "8d726a8abe7e0d600d1427c7164a4284599e71b3",
+  "status": "INCOMPLETE",
+  "receipt_origin": "External reconstruction from the official exec_command response after the program stopped before its receipt writer",
+  "command": ".venv/Scripts/python.exe -B -X utf8 evidence/validation/LCL_R241_D090_REVERSE_BANDSWAP_001/run.py",
+  "shell": "PowerShell",
+  "tool_chunk_id": "2e911c",
+  "outer_exit_code": 1,
+  "tool_wall_seconds": 1.8897405,
+  "process_cpu_seconds": null,
+  "python_exit_code_separately_recorded": false,
+  "local_inputs": {
+    "run.py": "f4fdfa3d6cc5cf28c2d26c6d92ffb5df4c104f9a165493627a221658d6cd71b1",
+    "audit.py": "f8caa832dfabe516c9eaa01794200221269dc1bfcce677cdd71aee3b642c046d",
+    "config.json": "b5dd928a4dca7acb8de47d9eed34001dbf4ccb22a644f0965adb1497e42f28de"
+  },
+  "failure": {
+    "stage": "run.py module import of audit.py before main or execute",
+    "kind": "SyntaxError",
+    "source": "audit.py",
+    "line": 233,
+    "offending_fragment": "}def match_prior_manifest(root, cfg, folder, names):",
+    "follow_on": "PowerShell wrapper could not read the absent in-script command_receipt.json.",
+    "log": "tool_output.txt"
+  },
+  "observed_counts": {
+    "official_invocations": 1,
+    "workers": 1,
+    "new_originals": 0,
+    "new_certificates": 0,
+    "positive_rechecks": 0,
+    "adverse_checks": 0,
+    "solver_calls": 0,
+    "assignment_visits": 0,
+    "search_states": 0,
+    "search_nodes": 0,
+    "new_joins": 0,
+    "automatic_retries": 0,
+    "restarts": 0,
+    "replays": 0
+  },
+  "absent_internal_outputs": [
+    "original.json",
+    "result.json",
+    "command_receipt.json"
+  ]
+}

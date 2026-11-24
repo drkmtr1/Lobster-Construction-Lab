@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "C:\Users\Will\Projects\Lobster_Construction_Lab\evidence\validation\LCL_R241_D090_REVERSE_BANDSWAP_001\run.py", line 18, in <module>
+    import audit
+  File "C:\Users\Will\Projects\Lobster_Construction_Lab\evidence\validation\LCL_R241_D090_REVERSE_BANDSWAP_001\audit.py", line 233
+    "new_graph_identities": 0, "solver_calls": 0, "enumeration_visits": 0}def match_prior_manifest(root, cfg, folder, names):
+                                                                          ^^^
+SyntaxError: invalid syntax
+Get-Content: 
+Line |
+  24 |  $receipt=Get-Content -Raw -LiteralPath "$path/command_receipt.json" | …
+     |           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot find path 'evidence/validation/LCL_R241_D090_REVERSE_BANDSWAP_001/command_receipt.json' because it does not exist.
