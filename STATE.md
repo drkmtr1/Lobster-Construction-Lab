@@ -2,19 +2,21 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 24, 2026, Pacific/Honolulu<br>
-**Stage:** D132 two-center affine ordinary spine transition **ACCEPTED**. Bounded retained-evidence verification **PASS**. [Proof](research/ORDINARY_SPINE_TWO_CENTER_AFFINE_TRANSITION.md).
+**Stage:** D133 arbitrary-center affine obstruction **ACCEPTED**. Bounded retained-evidence verification **PASS**. [Proof](research/ORDINARY_SPINE_ARBITRARY_CENTER_AFFINE_OBSTRUCTION.md).
 
 ## Current scientific objective
 
-Develop independently supplied graceful modules with usable physical ports. The [latest handoff](handoffs/CODEX-20261124-ordinary-spine-two-center-affine-transition.md) gives exact two-center affine admission for large prefixes and reusable closure with D131. The affine obstruction from deficit zero limits universal use of that architecture with fixed supplied labels. The next priority is a single structural criterion for arbitrary appended center multiplicity in the same embedding class. General prefix supply and broader embeddings remain open.
+Develop independent ordinary graceful transitions with usable physical ports. The [latest handoff](handoffs/CODEX-20261124-ordinary-spine-arbitrary-center-affine-obstruction.md) closes the large-prefix, single-affine, one-section regime for three or more positive-quota centers. Both the old consecutive label interval and the old low difference spectrum drive the obstruction. The next priority is to test a single cut with separately translated old bands and exact accounting of the resulting two inventories.
 
 ## One next action
 
-Under separate authorization, seek a single symbolic admission and return-deficit criterion for appending one actual spine section with an arbitrary exact number h≥3 of independently specified positive-quota centers. Work in the large-prefix regime n≥h plus the sum of the new terminal quotas, using one affine isometry of a supplied D131 state. Give independently reserved palettes and an exact named construction on the admitted domain, or a precise obstruction within that embedding class. Use no numerical joins, profile sweeps, solvers or separate small-quota investigations.
+Under separate authorization, test one piecewise ordinary spine transition for a single appended section with h≥3 positive-quota centers in the large-prefix regime. Start from a supplied ordinary prefix with one declared cut in its label alphabet and translate the two old bands separately, preserving order within and between the bands. Derive the exact changed cross-cut spectrum and both residual palettes, then prove a parameterized admitted domain with a reusable physical return state or a scoped obstruction to this embedding class. Work symbolically without numerical joins, profile sweeps, solvers or small-quota variants.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
+
+- D133 **PROVES** that a supplied ordinary prefix with n≥h+Q cannot accept a single new section with h≥3 positive-quota centers of total quota Q under one affine isometry. The excluded placement would force every terminal to an extreme center. The obstruction also applies to any old relabeling with a consecutive occupied interval and spectrum [1,n]. The h=2 argument recovers D132. Both retained checker rechecks, three archived bindings, four controls and separate reviews passed. See [proof](research/ORDINARY_SPINE_ARBITRARY_CENTER_AFFINE_OBSTRUCTION.md) and [evidence](evidence/validation/LCL_ORDINARY_SPINE_ARBITRARY_CENTER_AFFINE_OBSTRUCTION_001/README.md).
 
 - D132 **PROVES** a two-center ordinary spine transition with independently specified positive quotas q,a. Its canonical affine modes admit δ or n−δ matching one quota, and return the other. At n≥q+a+2 this is the exact all-affine classification for the supplied old labeling. Admitted mixed lists close and can emit each physical label once in the final alphabet. Both retained seeds, D131 and D104 bindings, four controls and separate reviews passed. All transition claims were proved symbolically. See [proof](research/ORDINARY_SPINE_TWO_CENTER_AFFINE_TRANSITION.md) and [evidence](evidence/validation/LCL_ORDINARY_SPINE_TWO_CENTER_AFFINE_TRANSITION_001/README.md).
 
