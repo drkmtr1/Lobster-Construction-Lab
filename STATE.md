@@ -2,19 +2,21 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 24, 2026, Pacific/Honolulu<br>
-**Stage:** D119 direct ordinary graceful supplier for ordered `[[q,a,c],[2]]` at independently chosen odd q≥5, odd a≥3 and even c≥2 **ACCEPTED**. Bounded verification **PASS**. [Proof](research/ORDINARY_QAC_2_EVEN_C_DISJOINT_R226_SUPPLIER.md).
+**Stage:** D120 direct ordinary graceful supplier for ordered `[[q,a,c],[2]]` at independently chosen odd q≥5, odd a≥3 and odd c≥3 **ACCEPTED**. Bounded verification **PASS**. [Proof](research/ORDINARY_QAC_2_ODD_C_DISJOINT_R226_SUPPLIER.md).
 
 ## Current scientific objective
 
-Develop independently supplied graceful modules with usable physical ports. The [latest handoff](handoffs/CODEX-20261124-ordinary-qac-2-even-c-disjoint-r226-supplier.md) records the variable even third quota and identifies the odd third-quota palette question.
+Develop independently supplied graceful modules with usable physical ports. The [latest handoff](handoffs/CODEX-20261124-ordinary-qac-2-odd-c-disjoint-r226-supplier.md) records the odd third quota and combined coverage of every c≥2 at the stated odd q and a bounds. The next question concerns transport by numerical host roles.
 
 ## One next action
 
-Under separate authorization, determine whether the D118 ten-vertex core, with the same label formulas at m=q+a+c+7, admits two disjoint R226 reservations on exact ordered `[[q,a,c],[2]]` for independent odd integers q≥5, a≥3 and c≥3. Keep the shared physical lower host and the pins `s:0=0`, `s:1=m`, and `b:1:0=1`. Account for the changed reflection parity and each eligible midpoint, and prove complete global inventories and exact named quotas or a precise obstruction to this fixed-core reservation scheme. Use no numerical profile sweep, solver, assignment enumeration or join.
+Under separate authorization, determine whether numerical host-role selection transports the D119 supplier to exact ordered `[[q,a,c],[2]]` with exactly one even left quota at least two and two odd left quotas at least three, one at least five. Keep the physical pins `s:0=0`, `s:1=q+a+c+7` and `b:1:0=1`. Give a deterministic role rule and prove exact preservation of the named incidences, terminal indices, physical quotas and both complete inventories, or exhibit a precise obstruction to this transport. Use no new numerical profile, solver, assignment enumeration or join.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
+
+- D120 **SUPPLIES** exact ordered `[[q,a,c],[2]]` for independent exact odd q≥5, a≥3 and c≥3 at pins `(s:0,s:1,b:1:0)=(0,q+a+c+7,1)`. On the independently supplied D118 core, the centered interval reservation removes the Batch A midpoint and gives Batch B one eligible midpoint and two forced lower labels. Local projections and the two global resource partitions fill all named slots. The new certificate, D119 recheck, four controls and separate reviews passed. D119 and D120 together cover c≥2 at the stated odd q and a bounds. See [proof](research/ORDINARY_QAC_2_ODD_C_DISJOINT_R226_SUPPLIER.md) and [evidence](evidence/validation/LCL_ORDINARY_QAC_2_ODD_C_DISJOINT_R226_SUPPLIER_001/README.md).
 
 - D119 **SUPPLIES** exact ordered `[[q,a,c],[2]]` at independent exact odd q≥5, odd a≥3 and even c≥2 with pins `(s:0,s:1,b:1:0)=(0,q+a+c+7,1)`. Opposite-parity progressions leave two forced lower labels and c/2 reflected C pairs in Batch B. Batch A uses the complementary reflected pairs and two forced higher labels. The exact local quotas, shared named lower host and global resource partitions give both full original bijections. The c=2 formula recovers D118. The sole new boundary, retained agreement and recheck, four probes and separate reviews passed. See [proof](research/ORDINARY_QAC_2_EVEN_C_DISJOINT_R226_SUPPLIER.md) and [evidence](evidence/validation/LCL_ORDINARY_QAC_2_EVEN_C_DISJOINT_R226_SUPPLIER_001/README.md).
 

@@ -1,0 +1,80 @@
+{
+  "argv": [
+    "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-E",
+    "-X",
+    "utf8",
+    "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\evidence\\validation\\LCL_ORDINARY_QAC_2_ODD_C_DISJOINT_R226_SUPPLIER_001\\preflight.py",
+    "fbabde6973d99273739035d14c2970fb02b44e07296a7d4cfbea00a178e7e1d4",
+    "4ed50f4a8bb799dc7ddbfcd8559f840442a14005e9eeb35d0fd00402455b3bdd"
+  ],
+  "input_hashes": {
+    ".gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "CONTRACT.md": "661b949395c1cc4b206ece56f1b3ddcf0656acb941675d2dab59aece13293972",
+    "audit.py": "9a13b0289867594f9aca4f87230be45302c71eb516530ef36e0fa9e13b6eb3ae",
+    "config.json": "fbabde6973d99273739035d14c2970fb02b44e07296a7d4cfbea00a178e7e1d4",
+    "original.json": "4ed50f4a8bb799dc7ddbfcd8559f840442a14005e9eeb35d0fd00402455b3bdd",
+    "preflight.py": "d8803a6505a86fac5e24726f83078e7ac38bb4462b18a17cc2a94e0798a12ea0",
+    "preparation_receipt.json": "b2b82d640de892884dc40b9bdc7e6e58e868450aeb43d8c67340661372fc7e12",
+    "preparation_supervision.json": "2c985a2176510205b0be8640c120c260fa364a4520ad42294ba6bc500ab3ade9",
+    "prepare.py": "4316197a21c9c45ea176cbb01a2d438fc8dd320ad73d4bf3aa0919c345a86ad9",
+    "run.py": "f8d2058fa5fc808782fc2800669ff2484c212e4941c7191d64a360f1e517ccbd",
+    "supervise.ps1": "1cbf38a524c8c71ec9245a5b34229b91030c15900fd8daf216a502d8a3d70784"
+  },
+  "parent": "13650f60e68330374f11d8f60f7ebc6e69fa296d",
+  "parsed_functions": {
+    "audit.py": [
+      "boundary",
+      "controls",
+      "hash_canonical",
+      "r226",
+      "reconstruct",
+      "retained_comparison",
+      "traverse"
+    ],
+    "preflight.py": [
+      "check",
+      "digest",
+      "main"
+    ],
+    "prepare.py": [
+      "main",
+      "write_json"
+    ],
+    "run.py": [
+      "canonical_digest",
+      "digest_file",
+      "execute",
+      "global_gate",
+      "indexed_formula",
+      "local_gate",
+      "physical_gates",
+      "produce",
+      "read_json",
+      "retained_positive",
+      "run_controls",
+      "validate_inputs",
+      "write_record"
+    ]
+  },
+  "preflights": 1,
+  "process_cpu_seconds": 0.078125,
+  "runtime": {
+    "path": ".venv/Scripts/python.exe",
+    "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "source_pins_checked": 364,
+  "status": "PASS",
+  "task": "LCL-ORDINARY-QAC-2-ODD-C-DISJOINT-R226-SUPPLIER-001",
+  "task_module_imports": 0,
+  "vacant_outputs": [
+    "preflight_receipt.json",
+    "result.json",
+    "command_receipt.json",
+    "verification_supervision.json",
+    "verification_stderr.txt",
+    "__pycache__"
+  ]
+}

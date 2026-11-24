@@ -1513,3 +1513,9 @@ The sole boundary for `[[5,3,2],[2]]`, retained D111 recheck, four controls and 
 **ACCEPT** direct ordinary graceful supply of exact ordered `[[q,a,c],[2]]` at independent exact odd q≥5, odd a≥3 and even c≥2, with `s:0=0`, `s:1=q+a+c+7` and `b:1:0=1`. On the D118 core, opposite-parity progressions reserve Batch B even when their spans interleave. Its reflection leaves two forced lower endpoints and c/2 complete pairs for C. The other reflection preserves the complementary Batch A pairs. Exact integral local quotas, disjoint named slots, and global label and weight partitions complete the original, with symbolic agreement with D118 at c=2. The seeds meet D112’s premise.
 
 The sole `[[5,3,4],[2]]` certificate, retained D118 formula agreement and recheck, four controls and separate reviews **PASSED**. [Proof](ORDINARY_QAC_2_EVEN_C_DISJOINT_R226_SUPPLIER.md) · [Evidence](../evidence/validation/LCL_ORDINARY_QAC_2_EVEN_C_DISJOINT_R226_SUPPLIER_001/README.md) · D119
+
+## LCL-ORDINARY-QAC-2-ODD-C-DISJOINT-R226-SUPPLIER-001
+
+**ACCEPT** direct ordinary graceful supply of exact ordered `[[q,a,c],[2]]` for independent exact odd q≥5, a≥3 and c≥3 at pins `(0,q+a+c+7,1)` on entrance, exit and right center. The centered Batch B interval removes the arithmetic A midpoint from A and gives B a distinct eligible midpoint. Exact local R226 projections, direct edge-weight bijections and globally disjoint reservations fill every original named slot. D112's physical premises hold. D119's parity progressions and D120's centered interval together cover every exact c≥2 at the stated odd q and a bounds, with right quota two.
+
+The sole `[[5,3,3],[2]]` certificate, retained D119 checker-only comparison, four controls and separate reviews **PASSED**. [Proof](ORDINARY_QAC_2_ODD_C_DISJOINT_R226_SUPPLIER.md) · [Evidence](../evidence/validation/LCL_ORDINARY_QAC_2_ODD_C_DISJOINT_R226_SUPPLIER_001/README.md) · D120
