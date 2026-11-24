@@ -2,19 +2,21 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 24, 2026, Pacific/Honolulu<br>
-**Stage:** D130 exact quota-two modified-core classification on `[[2,a,c],[2]]`, **ACCEPTED**. Bounded verification **PASS**. [Proof](research/ORDINARY_2AC_2_MODIFIED_CORE_CLASSIFICATION.md).
+**Stage:** D131 repeatable ordinary spine deficit transition **ACCEPTED**. Bounded retained-evidence verification **PASS**. [Proof](research/ORDINARY_SPINE_DEFICIT_TRANSITION.md).
 
 ## Current scientific objective
 
-Develop independently supplied graceful modules with usable physical ports. The [latest handoff](handoffs/CODEX-20261124-ordinary-2ac-2-modified-core-classification.md) records the exact fixed-core threshold at first quota two and the forced residual host allocation. The next priority is a reusable ordinary graceful transition into a new branched spine section. The transition must expose its physical return port, both resource inventories and its conditions on the supplied prefix. Independently supplying compatible cores and palettes for arbitrary center multiplicity remains open.
+Develop independently supplied graceful modules with usable physical ports. The [latest handoff](handoffs/CODEX-20261124-ordinary-spine-deficit-transition.md) gives a reusable conditional ordinary transition through one positive-quota center, with exact deficit admission and immutable assigned labels in the final alphabet. The next structural priority is a section with two independently specified center quotas. General starting-prefix supply and a transition that bypasses the present recurrence restriction remain open.
 
 ## One next action
 
-Under separate authorization, formulate and prove or refute one sign-independent ordinary graceful spine transition from a supplied D112-compatible prefix by appending one named spine vertex with one positive-quota center. Allow arbitrary center multiplicity in the supplied prefix. Specify the actual connector and an independently reserved suffix label and difference inventory, and prove a precise reusable return-port contract or a scoped obstruction to it. Work symbolically without profile sweeps, solvers, numerical joins or quota-two core redesign.
+Under separate authorization, prove or refute a conditional ordinary graceful spine transition that appends one actual section with exactly two independently specified positive-quota centers to a supplied D131 prefix. Restrict the old-prefix embedding to a single affine isometry. Give independently reserved label and difference palettes, exact connector incidence, explicit admissibility and a reusable return deficit, or prove an obstruction within that embedding class. Work symbolically without numerical joins, profile sweeps, solvers or quota-two core redesign.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
+
+- D131 **PROVES** a sign-independent ordinary graceful transition from a supplied named prefix with n edges and frontier deficit δ. With one positive-quota center in the next section, the fixed embedding admits exact r≥δ and returns r−δ. Every admitted finite sequence has both full normalized spectra and a fixed-final-alphabet realization with immutable assigned physical labels. D105 and D130 seed checks, D104's alpha-exclusion binding, four controls and separate reviews passed. The transition and iteration were proved symbolically. See [proof](research/ORDINARY_SPINE_DEFICIT_TRANSITION.md) and [evidence](evidence/validation/LCL_ORDINARY_SPINE_DEFICIT_TRANSITION_001/README.md).
 
 - D130 **CLASSIFIES** completion of the specified D123 modified labeled core on exact ordered `[[2,a,c],[2]]` at pins (0,a+c+9,1), for independent exact odd a≥3 and even c≥4. Completion exists precisely at a≤c−1. The sole X value is forced by the residual sum and every residual host assignment is forced by one reflection followed by a step-two translation cycle. Two disjoint batches supply the feasible sector. The obstruction at a≥c+1 excludes every completion of this fixed core. One positive certificate, one adverse original binding, the retained D129 recheck, four controls and separate reviews passed. D112's physical premises hold on the positive sector. See [proof](research/ORDINARY_2AC_2_MODIFIED_CORE_CLASSIFICATION.md) and [evidence](evidence/validation/LCL_ORDINARY_2AC_2_MODIFIED_CORE_CLASSIFICATION_001/README.md).
 
