@@ -523,3 +523,7 @@ The [separate D100 audit recovery](../evidence/validation/LCL_R241_43_2_FIXED_EX
 ### F-R241-43-2-ZERO-ENTRANCE
 
 **REJECT** the cut-9 alpha state on frozen ordered `[[4,3],[2]]` with `s:0=0` for all exit labels allowed by the orientation. The seven possible scalar cases fail through absent left-terminal weights or repeated weight 9 on two named attachments. The exclusion applies only to the specified cut, orientation, entrance and original. [Proof](R241_43_2_ZERO_ENTRANCE.md) · D103
+
+### F-R241-43-2-LEFT-TERMINAL-ZERO
+
+**REJECT** cut-nine supply with zero at any left terminal on exact frozen ordered `[[4,3],[2]]` and both ports free. All 19 remaining cases miss a difference. Combined with D102 and D103 and the complement argument, this excludes both alpha orientations on this original. Ordinary gracefulness remains a separate open obligation. [Proof](R241_43_2_LEFT_TERMINAL_ZERO.md) · D104

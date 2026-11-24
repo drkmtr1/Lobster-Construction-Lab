@@ -1417,3 +1417,9 @@ The official audit and two read-only reviews **PASSED**. One worker checked both
 **ACCEPT** the structural obstruction and **REJECT** the cut-9 state on frozen ordered `[[4,3],[2]]` with physical entrance `s:0=0` and free exit. Weight 13 constrains the ordered high triple to the actual three entrance neighbors. The signed degree identity gives 2z=4A+3B+Y−72 and leaves seven of 36 triples. Actual incidence palettes exclude six rows by absent required weights and one row by a forced repeated weight 9.
 
 The official audit and two read-only reviews **PASSED**. One worker rechecked the retained D098 positive and rejected three adverse probes, using 0.15625 process-CPU seconds and producing zero new graph identities or certificates. [Proof](R241_43_2_ZERO_ENTRANCE.md) · [Evidence](../evidence/validation/LCL_R241_43_2_ZERO_ENTRANCE_001/README.md) · D103
+
+## LCL-R241-43-2-LEFT-TERMINAL-ZERO-001
+
+**ACCEPT** the shared obstruction and **REJECT** the cut-nine state on frozen ordered `[[4,3],[2]]` with zero on any left terminal and both ports free. The largest differences force a block of low labels onto terminals of the maximum center. The signed degree identity leaves 19 of 84 scalar checks across 24 role pairs. Each survivor misses a required difference even when the remaining labels are allowed at either left center.
+
+D102, D103 and D104 cover every zero location in the same size-nine class of the same original. A cut-five labeling would give a cut-nine labeling under `f(v) → 13−f(v)`, so the original has no alpha labeling. Ordinary gracefulness remains undecided by these results. The official audit and both reviews **PASSED** with one retained positive, three adverse probes and 0.1875 process-CPU seconds. [Proof](R241_43_2_LEFT_TERMINAL_ZERO.md) · [Evidence](../evidence/validation/LCL_R241_43_2_LEFT_TERMINAL_ZERO_001/README.md) · D104

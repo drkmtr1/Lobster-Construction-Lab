@@ -2,19 +2,21 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 23, 2026, Pacific/Honolulu<br>
-**Stage:** D103 zero-entrance obstruction **ACCEPTED**. The cut-9 state on `[[4,3],[2]]` with `s:0=0` and the exit free is **REJECTED**. Executable audit **PASS**. [Proof](research/R241_43_2_ZERO_ENTRANCE.md).
+**Stage:** D104 shared left-terminal zero obstruction **ACCEPTED**. Together with D102 and D103 it excludes both alpha orientations on frozen ordered `[[4,3],[2]]`. Ordinary gracefulness remains undecided. Executable audit **PASS**. [Proof](research/R241_43_2_LEFT_TERMINAL_ZERO.md).
 
 ## Current scientific objective
 
-Supply multi-center modules with usable physical ports below the D097/D098 capacity threshold. The [latest handoff](handoffs/CODEX-20261123-r241-43-2-zero-entrance.md) records the zero-entrance obstruction and the proposed shared residual-palette test.
+Develop independently supplied graceful modules with usable physical ports. The [latest handoff](handoffs/CODEX-20261123-r241-43-2-left-terminal-zero.md) closes alpha supply on the exact below-capacity original and proposes a direct ordinary graceful construction at a specified spine interface.
 
 ## One next action
 
-Under separate authorization, seek or rule out a cut-9 alpha labeling of frozen ordered `[[4,3],[2]]` with both physical spine ports free and zero on a left terminal. Use a shared extremal-incidence and residual-palette argument over both left-center groups, with at most one verified certificate. Reuse the frozen original and use no solvers, complete-assignment enumeration, terminal-index sweeps, separate exit tests or joins.
+Under separate authorization, seek or rule out an ordinary graceful labeling of frozen ordered `[[4,3],[2]]` with physical spine labels `s:0=0` and `s:1=13`. Use a direct original-incidence weight construction without an alpha-cut constraint, or prove an obstruction for these two pins. Allow at most one verified certificate, and use no new graph identities, solvers, complete-assignment enumeration or joins.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
+
+- D104 **REJECTS** cut-9 alpha supply with zero at any left terminal of frozen ordered `[[4,3],[2]]` and both physical ports free. The 19 surviving scalar rows each miss a required weight. With D102 and D103 this covers all cut-nine zero locations, and complementing a hypothetical cut-five labeling would give cut nine. The original admits no alpha labeling. The bounded audit and both independent reviews passed. See [proof](research/R241_43_2_LEFT_TERMINAL_ZERO.md) and [evidence](evidence/validation/LCL_R241_43_2_LEFT_TERMINAL_ZERO_001/README.md).
 
 - D103 **REJECTS** the cut-9 state on frozen ordered `[[4,3],[2]]` with physical `s:0=0` and free exit. The maximum weight and signed degree sum leave seven of 36 ordered scalar triples. All seven fail by missing or repeated weights on the original. One retained positive and three genuine adverse checks passed the official audit and separate reviews. See [proof](research/R241_43_2_ZERO_ENTRANCE.md) and [evidence](evidence/validation/LCL_R241_43_2_ZERO_ENTRANCE_001/README.md).
 
