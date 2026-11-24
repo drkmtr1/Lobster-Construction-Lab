@@ -2,19 +2,21 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 24, 2026, Pacific/Honolulu<br>
-**Stage:** D131 repeatable ordinary spine deficit transition **ACCEPTED**. Bounded retained-evidence verification **PASS**. [Proof](research/ORDINARY_SPINE_DEFICIT_TRANSITION.md).
+**Stage:** D132 two-center affine ordinary spine transition **ACCEPTED**. Bounded retained-evidence verification **PASS**. [Proof](research/ORDINARY_SPINE_TWO_CENTER_AFFINE_TRANSITION.md).
 
 ## Current scientific objective
 
-Develop independently supplied graceful modules with usable physical ports. The [latest handoff](handoffs/CODEX-20261124-ordinary-spine-deficit-transition.md) gives a reusable conditional ordinary transition through one positive-quota center, with exact deficit admission and immutable assigned labels in the final alphabet. The next structural priority is a section with two independently specified center quotas. General starting-prefix supply and a transition that bypasses the present recurrence restriction remain open.
+Develop independently supplied graceful modules with usable physical ports. The [latest handoff](handoffs/CODEX-20261124-ordinary-spine-two-center-affine-transition.md) gives exact two-center affine admission for large prefixes and reusable closure with D131. The affine obstruction from deficit zero limits universal use of that architecture with fixed supplied labels. The next priority is a single structural criterion for arbitrary appended center multiplicity in the same embedding class. General prefix supply and broader embeddings remain open.
 
 ## One next action
 
-Under separate authorization, prove or refute a conditional ordinary graceful spine transition that appends one actual section with exactly two independently specified positive-quota centers to a supplied D131 prefix. Restrict the old-prefix embedding to a single affine isometry. Give independently reserved label and difference palettes, exact connector incidence, explicit admissibility and a reusable return deficit, or prove an obstruction within that embedding class. Work symbolically without numerical joins, profile sweeps, solvers or quota-two core redesign.
+Under separate authorization, seek a single symbolic admission and return-deficit criterion for appending one actual spine section with an arbitrary exact number h≥3 of independently specified positive-quota centers. Work in the large-prefix regime n≥h plus the sum of the new terminal quotas, using one affine isometry of a supplied D131 state. Give independently reserved palettes and an exact named construction on the admitted domain, or a precise obstruction within that embedding class. Use no numerical joins, profile sweeps, solvers or separate small-quota investigations.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
+
+- D132 **PROVES** a two-center ordinary spine transition with independently specified positive quotas q,a. Its canonical affine modes admit δ or n−δ matching one quota, and return the other. At n≥q+a+2 this is the exact all-affine classification for the supplied old labeling. Admitted mixed lists close and can emit each physical label once in the final alphabet. Both retained seeds, D131 and D104 bindings, four controls and separate reviews passed. All transition claims were proved symbolically. See [proof](research/ORDINARY_SPINE_TWO_CENTER_AFFINE_TRANSITION.md) and [evidence](evidence/validation/LCL_ORDINARY_SPINE_TWO_CENTER_AFFINE_TRANSITION_001/README.md).
 
 - D131 **PROVES** a sign-independent ordinary graceful transition from a supplied named prefix with n edges and frontier deficit δ. With one positive-quota center in the next section, the fixed embedding admits exact r≥δ and returns r−δ. Every admitted finite sequence has both full normalized spectra and a fixed-final-alphabet realization with immutable assigned physical labels. D105 and D130 seed checks, D104's alpha-exclusion binding, four controls and separate reviews passed. The transition and iteration were proved symbolically. See [proof](research/ORDINARY_SPINE_DEFICIT_TRANSITION.md) and [evidence](evidence/validation/LCL_ORDINARY_SPINE_DEFICIT_TRANSITION_001/README.md).
 

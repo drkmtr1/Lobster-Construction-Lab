@@ -1,0 +1,15 @@
+# Codex handoff — D132 two-center affine ordinary spine transition
+
+November 24, 2026, Pacific/Honolulu · `LCL-ORDINARY-SPINE-TWO-CENTER-AFFINE-TRANSITION-001` · parent `e6739daa57e7f6b4c2e4af38b927a030952f8d43`. Repository `drkmtr1/Lobster-Construction-Lab`, branch `main`.
+
+**ACCEPT** the conditional two-center ordinary spine transition from a supplied D131 state. The canonical affine modes use κ=δ or κ=n−δ, require κ to equal an actual quota and return the other quota. At n≥q+a+2 this is the exact existence classification for all single affine isometries of the supplied labeling. The positive construction works without this size condition. Admitted mixed lists close and retain each emitted physical label in the fixed final alphabet. The bridge from deficit zero starts with one D131 section and then pairs the preceding returned quota with the next independent quota. Deterministic reflection preference provides local admission, while the existence of an admitted mode plan for a whole list is a separate condition.
+
+[Proof](../research/ORDINARY_SPINE_TWO_CENTER_AFFINE_TRANSITION.md) · [Evidence](../evidence/validation/LCL_ORDINARY_SPINE_TWO_CENTER_AFFINE_TRANSITION_001/README.md) · [Retained audits and controls](../evidence/validation/LCL_ORDINARY_SPINE_TWO_CENTER_AFFINE_TRANSITION_001/result.json) · [Reviews](../evidence/validation/LCL_ORDINARY_SPINE_TWO_CENTER_AFFINE_TRANSITION_001/REVIEWS.md) · [Manifest](../evidence/validation/LCL_ORDINARY_SPINE_TWO_CENTER_AFFINE_TRANSITION_001/MANIFEST.json)
+
+**PASS** one parse-only preflight and one retained verification. Both D105 and D130 rechecked at deficit zero, D131's retained bindings and D104's alpha-exclusion binding were confirmed, and all four controls passed. Combined process CPU was 0.515625 seconds and supervised wall was 1.3586748 seconds. No numerical transition was instantiated. Preserve all earlier scopes, separate D083, D093 and D100 original and versioned dispositions, deferred 2322, baseline identities and upstream pins. Resolve this handoff's containing commit and verify actual GitHub `main`.
+
+**ADVANCE** to an arbitrary-multiplicity criterion under the same affine restriction. The D132 obstruction from deficit zero shows that a universal transition using any supplied state would sometimes need a different state or a broader embedding. A single structural test at arbitrary multiplicity can identify where those changes are necessary. **Project instructions KEEP.**
+
+## One next action
+
+Under separate authorization, seek a single symbolic admission and return-deficit criterion for appending one actual spine section with an arbitrary exact number h≥3 of independently specified positive-quota centers. Work in the large-prefix regime n≥h plus the sum of the new terminal quotas, using one affine isometry of a supplied D131 state. Give independently reserved palettes and an exact named construction on the admitted domain, or a precise obstruction within that embedding class. Use no numerical joins, profile sweeps, solvers or separate small-quota investigations.
