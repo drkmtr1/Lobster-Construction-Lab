@@ -2,19 +2,21 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 23, 2026, Pacific/Honolulu<br>
-**Stage:** D100 structural obstruction **ACCEPTED** for fixed exit three and free entrance on `[[4,3],[2]]`. Versioned recovery **PASS**. Original executable audit **INCOMPLETE**. [Proof](research/R241_43_2_FIXED_EXIT3.md) · [Recovery](evidence/validation/LCL_R241_43_2_FIXED_EXIT3_AUDIT_RECOVERY_001/README.md).
+**Stage:** D101 maximum-host obstruction **ACCEPTED**. The cut-8 state on `[[4,2],[2]]` with `b:0:1=12` and both ports free is **REJECTED**. Executable audit **PASS**. [Proof](research/R241_42_2_MAXIMUM_HOST.md).
 
 ## Current scientific objective
 
-Supply multi-center modules with usable physical ports across more quota orders. The [latest handoff](handoffs/CODEX-20261123-r241-43-2-fixed-exit3-audit-recovery.md) records the versioned audit recovery and a proposed extremal-host route for the below-capacity original.
+Supply multi-center modules with usable physical ports across more quota orders. The [latest handoff](handoffs/CODEX-20261123-r241-42-2-maximum-host.md) records the exact maximum-host obstruction and a direct supplier proposal for the below-capacity original.
 
 ## One next action
 
-Under separate authorization, prove or refute an alpha state at cut 8 on the retained D098 `[[4,2],[2]]` original with the physical center `b:0:1` labeled 12 and both spine ports free. Use the actual largest-weight incidences and signed-degree constraints, with at most one source certificate. Only if supplied, verify the conditional translate-and-add-zero leaf at `l:0:1:2` on the frozen D099 target and report its physical ports. Use no new graph identities, joins, solvers, or complete-assignment enumeration.
+Under separate authorization, seek or rule out a cut-9 alpha labeling of frozen ordered `[[4,3],[2]]` with physical right center `b:1:0` labeled zero and both spine ports free. Use the largest original edge incidences and signed-degree identity to derive the allowable palettes, with at most one verified certificate. Use no new graph identities, joins, solvers, complete-assignment enumeration or separate exit tests.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
+
+- D101 **REJECTS** the specified cut-8 maximum-host state on ordered `[[4,2],[2]]` with `b:0:1=12` and both spine ports free. All eleven scalar cases fail by actual incidence weights. The proof, audit and separate reviews passed, and the conditional extension was left unexecuted. See [proof](research/R241_42_2_MAXIMUM_HOST.md) and [evidence](evidence/validation/LCL_R241_42_2_MAXIMUM_HOST_001/README.md).
 
 - The separate D100 executable recovery **PASSED** in one bounded invocation. The exact eight scalar cases, named repeat witnesses and multiplicities, retained D098 positive and three adverse checks passed independent audit and separate reviews. The original D100 failure remains **INCOMPLETE**. See [recovery evidence](evidence/validation/LCL_R241_43_2_FIXED_EXIT3_AUDIT_RECOVERY_001/README.md).
 

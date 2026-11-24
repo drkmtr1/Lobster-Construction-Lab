@@ -1399,3 +1399,9 @@ The one official executable audit is **INCOMPLETE** after 0.125 process-CPU seco
 ## LCL-R241-43-2-FIXED-EXIT3-AUDIT-RECOVERY-001
 
 **PASS** the one separately versioned executable recovery of D100. The independent audit verifies the same frozen original, signed-degree and extremal reductions, eight scalar contradictions, retained D098 positive and three adverse checks. In the formerly blocked case it records all fixed repeats and verifies the two actual weight-7 incidences. Both separate reviews accepted. The official recovery used 0.15625 process-CPU seconds and created zero new graph identities or target certificates, with no solver calls, enumeration, port tests, joins, replays or retries. The original D100 **INCOMPLETE** disposition and proof scope are preserved. [Recovery evidence](../evidence/validation/LCL_R241_43_2_FIXED_EXIT3_AUDIT_RECOVERY_001/README.md)
+
+## LCL-R241-42-2-MAXIMUM-HOST-001
+
+**ACCEPT** the structural obstruction and **REJECT** the normalized cut-8 state on ordered `[[4,2],[2]]` with physical b:0:1=12 and both spine ports free. The original signed-degree and extremal incidence constraints leave eleven scalar cases. Every case misses or repeats a required difference. The conditional target extension had no supplied source and was not executed.
+
+The official audit **PASSED** with one retained positive, three genuine adverse controls, eleven verified cases, independent reconstruction and two separate reviews. It used 0.078125 process-CPU seconds and created no graph identities or certificates. [Proof](R241_42_2_MAXIMUM_HOST.md) · [Evidence](../evidence/validation/LCL_R241_42_2_MAXIMUM_HOST_001/README.md) · D101

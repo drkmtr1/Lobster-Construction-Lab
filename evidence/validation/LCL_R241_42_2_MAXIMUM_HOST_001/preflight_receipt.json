@@ -1,0 +1,57 @@
+{
+  "argv": [
+    "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "evidence/validation/LCL_R241_42_2_MAXIMUM_HOST_001/preflight.py",
+    "a5b905777ca8411c5efadca38a74510cccadaf11f9175bed4fecbc0d839aabfb"
+  ],
+  "input_hashes": {
+    "audit.py": "d8d188a15fe55f22beedcc5c47b0dae47f8662ad64359e13cb459c77d640f8a0",
+    "config.json": "a5b905777ca8411c5efadca38a74510cccadaf11f9175bed4fecbc0d839aabfb",
+    "preflight.py": "c065e7fb072ff926dfa68fc306d3a3ba9c81bec47b1355be841ef87df0932609",
+    "run.py": "41fd7a63ff4c3823622b6d9676869c17277a6571ce6a09fac3bb6bbf800768a5"
+  },
+  "parent": "5bba13b56ec3802a39c8e9d03036a00b61dd2e90",
+  "parsed_functions": {
+    "audit.py": [
+      "inspect",
+      "check_reduction",
+      "supported_pairs",
+      "force_palettes",
+      "verify_cases",
+      "verify_controls",
+      "check"
+    ],
+    "run.py": [
+      "load",
+      "raw_hash",
+      "write_record",
+      "require_maximum_host",
+      "control_and_adverses",
+      "read_retained",
+      "reduce",
+      "case_records",
+      "inputs",
+      "produce",
+      "execute"
+    ]
+  },
+  "preflight_invocations": 1,
+  "runtime": {
+    "path": ".venv/Scripts/python.exe",
+    "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "source_pins_checked": 52,
+  "status": "PASS",
+  "task": "LCL-R241-42-2-MAXIMUM-HOST-001",
+  "task_module_imports": 0,
+  "vacant_outputs": [
+    "original.json",
+    "result.json",
+    "command_receipt.json",
+    "__pycache__"
+  ]
+}
