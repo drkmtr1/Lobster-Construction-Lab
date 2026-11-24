@@ -2,19 +2,21 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 23, 2026, Pacific/Honolulu<br>
-**Stage:** D117 direct ordinary graceful supplier for ordered `[[q,a],[r]]` with independent exact integers q≥5, a≥3 and r≥2 **ACCEPTED**. Retained verification **PASS**. [Proof](research/ORDINARY_QAR_ALL_PARITY_SUPPLIER.md).
+**Stage:** D118 direct ordinary graceful supplier for ordered `[[q,a,2],[2]]` at independent exact odd integers q≥5 and a≥3 **ACCEPTED**. Bounded verification **PASS**. [Proof](research/ORDINARY_QA2_2_DISJOINT_R226_SUPPLIER.md).
 
 ## Current scientific objective
 
-Develop independently supplied graceful modules with usable physical ports. The [latest handoff](handoffs/CODEX-20261123-ordinary-qar-all-parity-supplier.md) records the all-parity two-left-center supplier and identifies independent core and resource supply for an additional physical center as the next structural obligation.
+Develop independently supplied graceful modules with usable physical ports. The [latest handoff](handoffs/CODEX-20261123-ordinary-qa2-2-disjoint-r226-supplier.md) records a three-left-center supplier at third quota two and identifies independent variation of the third quota as the next structural obligation.
 
 ## One next action
 
-Under separate authorization, prove or refute a direct ordinary graceful seed for exact ordered `[[q,a,2],[2]]` with independently chosen exact odd integers q≥5 and a≥3 at `s:0=0`, `s:1=q+a+9` and `b:1:0=1`. Test whether an independently labeled named core leaves disjoint R226 batches that exhaust the complete residual label and difference inventories and fill all three physical left quotas. Require a symbolic original-incidence proof or a precise obstruction to the proposed allocation, with no numerical profile sweep, solver, assignment enumeration or join.
+Under separate authorization, determine whether the D118 ten-vertex core, with the same label formulas at m=q+a+c+7, extends by two disjoint R226 reservations to exact ordered `[[q,a,c],[2]]` for independent odd integers q≥5 and a≥3 and even integers c≥2. Require the original pins `s:0=0`, `s:1=m` and `b:1:0=1`, exact aggregate named quotas, and complete global label and difference inventories. Give a symbolic construction or a precise obstruction to that fixed-core reservation scheme, with no numerical profile sweep, solver, assignment enumeration or join.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
+
+- D118 **SUPPLIES** exact ordered `[[q,a,2],[2]]` for independent exact odd integers q≥5 and a≥3 at pins `(s:0,s:1,b:1:0)=(0,q+a+9,1)`. An independently labeled ten-vertex core leaves two disjoint reserved R226 batches that share the unchanged physical lower host. Their local integral allocations and the global resource partitions fill every named incidence. The certificate for `[[5,3,2],[2]]`, D111 recheck, four controls and separate reviews passed. The seeds meet D112's premises. See [proof](research/ORDINARY_QA2_2_DISJOINT_R226_SUPPLIER.md) and [evidence](evidence/validation/LCL_ORDINARY_QA2_2_DISJOINT_R226_SUPPLIER_001/README.md).
 
 - D117 **SUPPLIES** exact ordered `[[q,a],[r]]` for independently chosen exact integers q≥5, a≥3 and r≥2 with `s:0=0`, `s:1=q+a+r+4` and `b:1:0=1`. The all-parity seed fills both physical left quotas by complete reflected pairs and an available midpoint when required. D112 extends the right quota with exact indexed incidences and full label and weight coverage. The D111 and D114 retained evaluations and rechecks, four controls and separate reviews passed. See [proof](research/ORDINARY_QAR_ALL_PARITY_SUPPLIER.md) and [evidence](evidence/validation/LCL_ORDINARY_QAR_ALL_PARITY_SUPPLIER_001/README.md).
 

@@ -1,0 +1,1435 @@
+{
+  "batches": {
+    "A": {
+      "allocation": {
+        "b:0:0": [
+          3,
+          4,
+          6,
+          9
+        ],
+        "b:0:1": []
+      },
+      "differences": [
+        4,
+        7,
+        9,
+        10
+      ],
+      "labels": [
+        3,
+        4,
+        6,
+        9
+      ],
+      "slots": {
+        "b:0:0": [
+          "l:0:0:1",
+          "l:0:0:2",
+          "l:0:0:3",
+          "l:0:0:4"
+        ],
+        "b:0:1": []
+      }
+    },
+    "B": {
+      "allocation": {
+        "b:0:1": [
+          7,
+          10
+        ],
+        "b:0:2": [
+          5,
+          8
+        ]
+      },
+      "differences": [
+        3,
+        5,
+        6,
+        8
+      ],
+      "labels": [
+        5,
+        7,
+        8,
+        10
+      ],
+      "slots": {
+        "b:0:1": [
+          "l:0:1:1",
+          "l:0:1:2"
+        ],
+        "b:0:2": [
+          "l:0:2:0",
+          "l:0:2:1"
+        ]
+      }
+    }
+  },
+  "certificate": {
+    "checker": {
+      "claim": "finite certificate for this exact named target only",
+      "edge_differences": [
+        17,
+        13,
+        1,
+        10,
+        9,
+        7,
+        4,
+        2,
+        12,
+        5,
+        8,
+        11,
+        6,
+        3,
+        16,
+        15,
+        14
+      ],
+      "errors": [],
+      "graph_digest": "251199e28613d0928ae9341bdef911ec9fa8032daefa66d02c04a0bd7da60e20",
+      "m": 17,
+      "n": 18,
+      "valid": true
+    },
+    "graph_digest": "251199e28613d0928ae9341bdef911ec9fa8032daefa66d02c04a0bd7da60e20",
+    "kind": "ordinary_graceful",
+    "labels": {
+      "b:0:0": 13,
+      "b:0:1": 2,
+      "b:0:2": 11,
+      "b:1:0": 1,
+      "l:0:0:0": 12,
+      "l:0:0:1": 3,
+      "l:0:0:2": 4,
+      "l:0:0:3": 6,
+      "l:0:0:4": 9,
+      "l:0:1:0": 14,
+      "l:0:1:1": 7,
+      "l:0:1:2": 10,
+      "l:0:2:0": 5,
+      "l:0:2:1": 8,
+      "l:1:0:0": 16,
+      "l:1:0:1": 15,
+      "s:0": 0,
+      "s:1": 17
+    },
+    "ledger_id": "761cdee2fb118b0374ba871698304ca45dd6fef36b9b70dcef403e7076dea996",
+    "physical_pins": {
+      "actual": {
+        "b:1:0": 1,
+        "s:0": 0,
+        "s:1": 17
+      },
+      "expected": {
+        "b:1:0": 1,
+        "s:0": 0,
+        "s:1": 17
+      },
+      "valid": true
+    },
+    "physical_spine": [
+      "s:0",
+      "s:1"
+    ]
+  },
+  "controls": {
+    "cross_center": {
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          17,
+          13,
+          1,
+          10,
+          9,
+          7,
+          4,
+          2,
+          12,
+          3,
+          8,
+          11,
+          4,
+          3,
+          16,
+          15,
+          14
+        ],
+        "errors": [
+          "edge differences repeat",
+          "edge differences are not exactly 1..m"
+        ],
+        "graph_digest": "251199e28613d0928ae9341bdef911ec9fa8032daefa66d02c04a0bd7da60e20",
+        "m": 17,
+        "n": 18,
+        "valid": false
+      },
+      "pins": {
+        "actual": {
+          "b:1:0": 1,
+          "s:0": 0,
+          "s:1": 17
+        },
+        "expected": {
+          "b:1:0": 1,
+          "s:0": 0,
+          "s:1": 17
+        },
+        "valid": true
+      },
+      "vertices": [
+        "l:0:1:1",
+        "l:0:2:0"
+      ]
+    },
+    "global_overlap": {
+      "batches": {
+        "A": {
+          "allocation": {
+            "b:0:0": [
+              3,
+              4,
+              5,
+              10
+            ],
+            "b:0:1": []
+          },
+          "differences": [
+            3,
+            8,
+            9,
+            10
+          ],
+          "labels": [
+            3,
+            4,
+            5,
+            10
+          ],
+          "slots": {
+            "b:0:0": [
+              "l:0:0:1",
+              "l:0:0:2",
+              "l:0:0:3",
+              "l:0:0:4"
+            ],
+            "b:0:1": []
+          }
+        },
+        "B": {
+          "allocation": {
+            "b:0:1": [
+              7,
+              10
+            ],
+            "b:0:2": [
+              5,
+              8
+            ]
+          },
+          "differences": [
+            3,
+            5,
+            6,
+            8
+          ],
+          "labels": [
+            5,
+            7,
+            8,
+            10
+          ],
+          "slots": {
+            "b:0:1": [
+              "l:0:1:1",
+              "l:0:1:2"
+            ],
+            "b:0:2": [
+              "l:0:2:0",
+              "l:0:2:1"
+            ]
+          }
+        }
+      },
+      "global": {
+        "missing_differences": [
+          4,
+          7
+        ],
+        "missing_labels": [
+          6,
+          9
+        ],
+        "repeated_differences": {
+          "3": 2,
+          "8": 2
+        },
+        "repeated_labels": {
+          "5": 2,
+          "10": 2
+        },
+        "tests": {
+          "difference_partition": false,
+          "label_partition": false,
+          "only_shared_host_L": true,
+          "slots_exact": true
+        },
+        "valid": false
+      },
+      "local": {
+        "A": {
+          "actual_quotas": {
+            "b:0:0": 4,
+            "b:0:1": 0
+          },
+          "allocated_differences": [
+            3,
+            8,
+            9,
+            10
+          ],
+          "allocated_labels": [
+            3,
+            4,
+            5,
+            10
+          ],
+          "eligible_options": {
+            "3": {
+              "b:0:0": 10
+            },
+            "4": {
+              "b:0:0": 9
+            },
+            "5": {
+              "b:0:0": 8,
+              "b:0:1": 3
+            },
+            "10": {
+              "b:0:0": 3,
+              "b:0:1": 8
+            }
+          },
+          "expected_quotas": {
+            "b:0:0": 4,
+            "b:0:1": 0
+          },
+          "tests": {
+            "differences_exact": true,
+            "eligible": true,
+            "labels_exact": true,
+            "quotas_exact": true
+          },
+          "valid": true
+        },
+        "B": {
+          "actual_quotas": {
+            "b:0:1": 2,
+            "b:0:2": 2
+          },
+          "allocated_differences": [
+            3,
+            5,
+            6,
+            8
+          ],
+          "allocated_labels": [
+            5,
+            7,
+            8,
+            10
+          ],
+          "eligible_options": {
+            "5": {
+              "b:0:1": 3,
+              "b:0:2": 6
+            },
+            "7": {
+              "b:0:1": 5
+            },
+            "8": {
+              "b:0:1": 6,
+              "b:0:2": 3
+            },
+            "10": {
+              "b:0:1": 8
+            }
+          },
+          "expected_quotas": {
+            "b:0:1": 2,
+            "b:0:2": 2
+          },
+          "tests": {
+            "differences_exact": true,
+            "eligible": true,
+            "labels_exact": true,
+            "quotas_exact": true
+          },
+          "valid": true
+        }
+      }
+    },
+    "local_quota_failure": {
+      "batch": {
+        "allocation": {
+          "b:0:1": [
+            7,
+            10,
+            5,
+            8
+          ],
+          "b:0:2": []
+        },
+        "differences": [
+          3,
+          5,
+          6,
+          8
+        ],
+        "labels": [
+          5,
+          7,
+          8,
+          10
+        ],
+        "slots": {
+          "b:0:1": [
+            "l:0:1:1",
+            "l:0:1:2"
+          ],
+          "b:0:2": [
+            "l:0:2:0",
+            "l:0:2:1"
+          ]
+        }
+      },
+      "local": {
+        "actual_quotas": {
+          "b:0:1": 4,
+          "b:0:2": 0
+        },
+        "allocated_differences": [
+          3,
+          5,
+          6,
+          8
+        ],
+        "allocated_labels": [
+          5,
+          7,
+          8,
+          10
+        ],
+        "eligible_options": {
+          "5": {
+            "b:0:1": 3,
+            "b:0:2": 6
+          },
+          "7": {
+            "b:0:1": 5
+          },
+          "8": {
+            "b:0:1": 6,
+            "b:0:2": 3
+          },
+          "10": {
+            "b:0:1": 8
+          }
+        },
+        "expected_quotas": {
+          "b:0:1": 2,
+          "b:0:2": 2
+        },
+        "tests": {
+          "differences_exact": true,
+          "eligible": true,
+          "labels_exact": true,
+          "quotas_exact": false
+        },
+        "valid": false
+      }
+    },
+    "wrong_digest": {
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          17,
+          13,
+          1,
+          10,
+          9,
+          7,
+          4,
+          2,
+          12,
+          5,
+          8,
+          11,
+          6,
+          3,
+          16,
+          15,
+          14
+        ],
+        "errors": [
+          "original graph digest mismatch"
+        ],
+        "graph_digest": "251199e28613d0928ae9341bdef911ec9fa8032daefa66d02c04a0bd7da60e20",
+        "m": 17,
+        "n": 18,
+        "valid": false
+      },
+      "expected_digest": "0000000000000000000000000000000000000000000000000000000000000000"
+    }
+  },
+  "core": {
+    "b:0:0": 13,
+    "b:0:1": 2,
+    "b:0:2": 11,
+    "b:1:0": 1,
+    "l:0:0:0": 12,
+    "l:0:1:0": 14,
+    "l:1:0:0": 16,
+    "l:1:0:1": 15,
+    "s:0": 0,
+    "s:1": 17
+  },
+  "global": {
+    "missing_differences": [],
+    "missing_labels": [],
+    "repeated_differences": {},
+    "repeated_labels": {},
+    "tests": {
+      "difference_partition": true,
+      "label_partition": true,
+      "only_shared_host_L": true,
+      "slots_exact": true
+    },
+    "valid": true
+  },
+  "growth_premises": {
+    "actual_exit_neighbors": [
+      "b:1:0",
+      "s:0"
+    ],
+    "tests": {
+      "actual_spine": true,
+      "exit_neighbors": true,
+      "growth_labels": true,
+      "host_off_spine": true
+    },
+    "valid": true
+  },
+  "independent": {
+    "absolute_differences": [
+      17,
+      13,
+      1,
+      10,
+      9,
+      7,
+      4,
+      2,
+      12,
+      5,
+      8,
+      11,
+      6,
+      3,
+      16,
+      15,
+      14
+    ],
+    "core_differences": [
+      17,
+      13,
+      1,
+      2,
+      12,
+      11,
+      16,
+      15,
+      14
+    ],
+    "core_edges": [
+      [
+        "s:0",
+        "s:1"
+      ],
+      [
+        "s:0",
+        "b:0:0"
+      ],
+      [
+        "b:0:0",
+        "l:0:0:0"
+      ],
+      [
+        "s:0",
+        "b:0:1"
+      ],
+      [
+        "b:0:1",
+        "l:0:1:0"
+      ],
+      [
+        "s:0",
+        "b:0:2"
+      ],
+      [
+        "s:1",
+        "b:1:0"
+      ],
+      [
+        "b:1:0",
+        "l:1:0:0"
+      ],
+      [
+        "b:1:0",
+        "l:1:0:1"
+      ]
+    ],
+    "degree_parity_quantity": 112,
+    "distance_to_spine": {
+      "b:0:0": 1,
+      "b:0:1": 1,
+      "b:0:2": 1,
+      "b:1:0": 1,
+      "l:0:0:0": 2,
+      "l:0:0:1": 2,
+      "l:0:0:2": 2,
+      "l:0:0:3": 2,
+      "l:0:0:4": 2,
+      "l:0:1:0": 2,
+      "l:0:1:1": 2,
+      "l:0:1:2": 2,
+      "l:0:2:0": 2,
+      "l:0:2:1": 2,
+      "l:1:0:0": 2,
+      "l:1:0:1": 2,
+      "s:0": 0,
+      "s:1": 0
+    },
+    "formula_vertices": [
+      "b:0:0",
+      "b:0:1",
+      "b:0:2",
+      "b:1:0",
+      "l:0:0:0",
+      "l:0:0:1",
+      "l:0:0:2",
+      "l:0:0:3",
+      "l:0:0:4",
+      "l:0:1:0",
+      "l:0:1:1",
+      "l:0:1:2",
+      "l:0:2:0",
+      "l:0:2:1",
+      "l:1:0:0",
+      "l:1:0:1",
+      "s:0",
+      "s:1"
+    ],
+    "graph_digest": "251199e28613d0928ae9341bdef911ec9fa8032daefa66d02c04a0bd7da60e20",
+    "ledger_id": "761cdee2fb118b0374ba871698304ca45dd6fef36b9b70dcef403e7076dea996",
+    "r226": {
+      "A": {
+        "A0": 0,
+        "c": 1,
+        "chosen_quotas": {
+          "b:0:0": 4,
+          "b:0:1": 0
+        },
+        "components": [
+          {
+            "assigned_host": "b:0:0",
+            "balance": {
+              "difference_vertices": 2,
+              "label_resources": 2
+            },
+            "differences": [
+              4,
+              7
+            ],
+            "kind": "parallel_pair",
+            "labels": [
+              6,
+              9
+            ]
+          },
+          {
+            "assigned_host": "b:0:0",
+            "balance": {
+              "difference_vertices": 1,
+              "label_resources": 1
+            },
+            "differences": [
+              9
+            ],
+            "kind": "forced_half_edge",
+            "labels": [
+              4
+            ]
+          },
+          {
+            "assigned_host": "b:0:0",
+            "balance": {
+              "difference_vertices": 1,
+              "label_resources": 1
+            },
+            "differences": [
+              10
+            ],
+            "kind": "forced_half_edge",
+            "labels": [
+              3
+            ]
+          }
+        ],
+        "eligible_options": {
+          "3": {
+            "b:0:0": 10
+          },
+          "4": {
+            "b:0:0": 9
+          },
+          "6": {
+            "b:0:0": 7,
+            "b:0:1": 4
+          },
+          "9": {
+            "b:0:0": 4,
+            "b:0:1": 7
+          }
+        },
+        "eta": 0,
+        "hosts": [
+          "b:0:1",
+          "b:0:0"
+        ],
+        "integral_projection": [
+          0,
+          2
+        ],
+        "weight_options": {
+          "3": {
+            "b:0:0": 10,
+            "b:0:1": 1
+          },
+          "4": {
+            "b:0:0": 9,
+            "b:0:1": 2
+          },
+          "6": {
+            "b:0:0": 7,
+            "b:0:1": 4
+          },
+          "9": {
+            "b:0:0": 4,
+            "b:0:1": 7
+          }
+        }
+      },
+      "B": {
+        "A0": 2,
+        "c": 1,
+        "chosen_quotas": {
+          "b:0:1": 2,
+          "b:0:2": 2
+        },
+        "components": [
+          {
+            "assigned_host": "b:0:2",
+            "balance": {
+              "difference_vertices": 2,
+              "label_resources": 2
+            },
+            "differences": [
+              3,
+              6
+            ],
+            "kind": "parallel_pair",
+            "labels": [
+              5,
+              8
+            ]
+          },
+          {
+            "assigned_host": "b:0:1",
+            "balance": {
+              "difference_vertices": 1,
+              "label_resources": 1
+            },
+            "differences": [
+              5
+            ],
+            "kind": "forced_half_edge",
+            "labels": [
+              7
+            ]
+          },
+          {
+            "assigned_host": "b:0:1",
+            "balance": {
+              "difference_vertices": 1,
+              "label_resources": 1
+            },
+            "differences": [
+              8
+            ],
+            "kind": "forced_half_edge",
+            "labels": [
+              10
+            ]
+          }
+        ],
+        "eligible_options": {
+          "5": {
+            "b:0:1": 3,
+            "b:0:2": 6
+          },
+          "7": {
+            "b:0:1": 5
+          },
+          "8": {
+            "b:0:1": 6,
+            "b:0:2": 3
+          },
+          "10": {
+            "b:0:1": 8
+          }
+        },
+        "eta": 0,
+        "hosts": [
+          "b:0:1",
+          "b:0:2"
+        ],
+        "integral_projection": [
+          2,
+          4
+        ],
+        "weight_options": {
+          "5": {
+            "b:0:1": 3,
+            "b:0:2": 6
+          },
+          "7": {
+            "b:0:1": 5,
+            "b:0:2": 4
+          },
+          "8": {
+            "b:0:1": 6,
+            "b:0:2": 3
+          },
+          "10": {
+            "b:0:1": 8,
+            "b:0:2": 1
+          }
+        }
+      }
+    },
+    "reconstructed_quotas": {
+      "b:0:0": 5,
+      "b:0:1": 3,
+      "b:0:2": 2,
+      "b:1:0": 2
+    },
+    "residual_differences": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "residual_labels": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "signed_incidences": [
+      {
+        "difference": 17,
+        "edge": [
+          "s:0",
+          "s:1"
+        ]
+      },
+      {
+        "difference": 13,
+        "edge": [
+          "s:0",
+          "b:0:0"
+        ]
+      },
+      {
+        "difference": 1,
+        "edge": [
+          "l:0:0:0",
+          "b:0:0"
+        ]
+      },
+      {
+        "difference": 10,
+        "edge": [
+          "l:0:0:1",
+          "b:0:0"
+        ]
+      },
+      {
+        "difference": 9,
+        "edge": [
+          "l:0:0:2",
+          "b:0:0"
+        ]
+      },
+      {
+        "difference": 7,
+        "edge": [
+          "l:0:0:3",
+          "b:0:0"
+        ]
+      },
+      {
+        "difference": 4,
+        "edge": [
+          "l:0:0:4",
+          "b:0:0"
+        ]
+      },
+      {
+        "difference": 2,
+        "edge": [
+          "s:0",
+          "b:0:1"
+        ]
+      },
+      {
+        "difference": -12,
+        "edge": [
+          "l:0:1:0",
+          "b:0:1"
+        ]
+      },
+      {
+        "difference": -5,
+        "edge": [
+          "l:0:1:1",
+          "b:0:1"
+        ]
+      },
+      {
+        "difference": -8,
+        "edge": [
+          "l:0:1:2",
+          "b:0:1"
+        ]
+      },
+      {
+        "difference": 11,
+        "edge": [
+          "s:0",
+          "b:0:2"
+        ]
+      },
+      {
+        "difference": 6,
+        "edge": [
+          "l:0:2:0",
+          "b:0:2"
+        ]
+      },
+      {
+        "difference": 3,
+        "edge": [
+          "l:0:2:1",
+          "b:0:2"
+        ]
+      },
+      {
+        "difference": 16,
+        "edge": [
+          "b:1:0",
+          "s:1"
+        ]
+      },
+      {
+        "difference": 15,
+        "edge": [
+          "b:1:0",
+          "l:1:0:0"
+        ]
+      },
+      {
+        "difference": 14,
+        "edge": [
+          "b:1:0",
+          "l:1:0:1"
+        ]
+      }
+    ],
+    "signed_sum": 103,
+    "unused_differences": [],
+    "unused_labels": []
+  },
+  "independent_controls": {
+    "overlap_A": {
+      "A0": 0,
+      "c": 1,
+      "chosen_quotas": {
+        "b:0:0": 4,
+        "b:0:1": 0
+      },
+      "components": [
+        {
+          "assigned_host": "b:0:0",
+          "balance": {
+            "difference_vertices": 2,
+            "label_resources": 2
+          },
+          "differences": [
+            3,
+            8
+          ],
+          "kind": "parallel_pair",
+          "labels": [
+            5,
+            10
+          ]
+        },
+        {
+          "assigned_host": "b:0:0",
+          "balance": {
+            "difference_vertices": 1,
+            "label_resources": 1
+          },
+          "differences": [
+            9
+          ],
+          "kind": "forced_half_edge",
+          "labels": [
+            4
+          ]
+        },
+        {
+          "assigned_host": "b:0:0",
+          "balance": {
+            "difference_vertices": 1,
+            "label_resources": 1
+          },
+          "differences": [
+            10
+          ],
+          "kind": "forced_half_edge",
+          "labels": [
+            3
+          ]
+        }
+      ],
+      "eligible_options": {
+        "3": {
+          "b:0:0": 10
+        },
+        "4": {
+          "b:0:0": 9
+        },
+        "5": {
+          "b:0:0": 8,
+          "b:0:1": 3
+        },
+        "10": {
+          "b:0:0": 3,
+          "b:0:1": 8
+        }
+      },
+      "eta": 0,
+      "hosts": [
+        "b:0:1",
+        "b:0:0"
+      ],
+      "integral_projection": [
+        0,
+        2
+      ],
+      "weight_options": {
+        "3": {
+          "b:0:0": 10,
+          "b:0:1": 1
+        },
+        "4": {
+          "b:0:0": 9,
+          "b:0:1": 2
+        },
+        "5": {
+          "b:0:0": 8,
+          "b:0:1": 3
+        },
+        "10": {
+          "b:0:0": 3,
+          "b:0:1": 8
+        }
+      }
+    },
+    "overlap_B": {
+      "A0": 2,
+      "c": 1,
+      "chosen_quotas": {
+        "b:0:1": 2,
+        "b:0:2": 2
+      },
+      "components": [
+        {
+          "assigned_host": "b:0:2",
+          "balance": {
+            "difference_vertices": 2,
+            "label_resources": 2
+          },
+          "differences": [
+            3,
+            6
+          ],
+          "kind": "parallel_pair",
+          "labels": [
+            5,
+            8
+          ]
+        },
+        {
+          "assigned_host": "b:0:1",
+          "balance": {
+            "difference_vertices": 1,
+            "label_resources": 1
+          },
+          "differences": [
+            5
+          ],
+          "kind": "forced_half_edge",
+          "labels": [
+            7
+          ]
+        },
+        {
+          "assigned_host": "b:0:1",
+          "balance": {
+            "difference_vertices": 1,
+            "label_resources": 1
+          },
+          "differences": [
+            8
+          ],
+          "kind": "forced_half_edge",
+          "labels": [
+            10
+          ]
+        }
+      ],
+      "eligible_options": {
+        "5": {
+          "b:0:1": 3,
+          "b:0:2": 6
+        },
+        "7": {
+          "b:0:1": 5
+        },
+        "8": {
+          "b:0:1": 6,
+          "b:0:2": 3
+        },
+        "10": {
+          "b:0:1": 8
+        }
+      },
+      "eta": 0,
+      "hosts": [
+        "b:0:1",
+        "b:0:2"
+      ],
+      "integral_projection": [
+        2,
+        4
+      ],
+      "weight_options": {
+        "5": {
+          "b:0:1": 3,
+          "b:0:2": 6
+        },
+        "7": {
+          "b:0:1": 5,
+          "b:0:2": 4
+        },
+        "8": {
+          "b:0:1": 6,
+          "b:0:2": 3
+        },
+        "10": {
+          "b:0:1": 8,
+          "b:0:2": 1
+        }
+      }
+    },
+    "overlap_difference_multiplicities": {
+      "3": 2,
+      "8": 2
+    },
+    "overlap_label_multiplicities": {
+      "5": 2,
+      "10": 2
+    },
+    "overlap_missing_differences": [
+      4,
+      7
+    ],
+    "overlap_missing_labels": [
+      6,
+      9
+    ],
+    "quota_only_counts": {
+      "b:0:1": 4,
+      "b:0:2": 0
+    },
+    "swap_batches": [
+      "B",
+      "B"
+    ],
+    "swap_missing": [
+      5,
+      6
+    ],
+    "swap_repeats": {
+      "3": 2,
+      "4": 2
+    },
+    "swap_witnesses": {
+      "3": [
+        [
+          "b:0:1",
+          "l:0:1:1"
+        ],
+        [
+          "b:0:2",
+          "l:0:2:1"
+        ]
+      ],
+      "4": [
+        [
+          "b:0:0",
+          "l:0:0:4"
+        ],
+        [
+          "b:0:2",
+          "l:0:2:0"
+        ]
+      ]
+    }
+  },
+  "local": {
+    "A": {
+      "actual_quotas": {
+        "b:0:0": 4,
+        "b:0:1": 0
+      },
+      "allocated_differences": [
+        4,
+        7,
+        9,
+        10
+      ],
+      "allocated_labels": [
+        3,
+        4,
+        6,
+        9
+      ],
+      "eligible_options": {
+        "3": {
+          "b:0:0": 10
+        },
+        "4": {
+          "b:0:0": 9
+        },
+        "6": {
+          "b:0:0": 7,
+          "b:0:1": 4
+        },
+        "9": {
+          "b:0:0": 4,
+          "b:0:1": 7
+        }
+      },
+      "expected_quotas": {
+        "b:0:0": 4,
+        "b:0:1": 0
+      },
+      "tests": {
+        "differences_exact": true,
+        "eligible": true,
+        "labels_exact": true,
+        "quotas_exact": true
+      },
+      "valid": true
+    },
+    "B": {
+      "actual_quotas": {
+        "b:0:1": 2,
+        "b:0:2": 2
+      },
+      "allocated_differences": [
+        3,
+        5,
+        6,
+        8
+      ],
+      "allocated_labels": [
+        5,
+        7,
+        8,
+        10
+      ],
+      "eligible_options": {
+        "5": {
+          "b:0:1": 3,
+          "b:0:2": 6
+        },
+        "7": {
+          "b:0:1": 5
+        },
+        "8": {
+          "b:0:1": 6,
+          "b:0:2": 3
+        },
+        "10": {
+          "b:0:1": 8
+        }
+      },
+      "expected_quotas": {
+        "b:0:1": 2,
+        "b:0:2": 2
+      },
+      "tests": {
+        "differences_exact": true,
+        "eligible": true,
+        "labels_exact": true,
+        "quotas_exact": true
+      },
+      "valid": true
+    }
+  },
+  "original": {
+    "graph_digest": "251199e28613d0928ae9341bdef911ec9fa8032daefa66d02c04a0bd7da60e20",
+    "path": "original.json",
+    "raw_sha256": "2ee8c1f8608b97544e0f287ed25000118142b6965b81eb0b7a269b0a515a9c38"
+  },
+  "parent": "5fb20d6bbe1b03bdab54448728de7c4431b7f4a0",
+  "retained_D111": {
+    "checker": {
+      "claim": "finite certificate for this exact named target only",
+      "edge_differences": [
+        14,
+        12,
+        8,
+        7,
+        6,
+        4,
+        3,
+        2,
+        1,
+        5,
+        11,
+        13,
+        9,
+        10
+      ],
+      "errors": [],
+      "graph_digest": "915f7ff845db575f2be0b87e587c2236d935eabfc674e9bd99e8bce1358033f8",
+      "m": 14,
+      "n": 15,
+      "valid": true
+    },
+    "source": {
+      "graph_digest": "915f7ff845db575f2be0b87e587c2236d935eabfc674e9bd99e8bce1358033f8",
+      "ledger_id": "75aaf6544d6832894a567f2a8b07a1bfb3f9a4cf1860f90534044b4c892584d6",
+      "original": "evidence/validation/LCL_ORDINARY_53_2_SIGNED_SEED_001/original.json",
+      "original_sha256": "9dbdfd6226c94c821951bc0ca701c18e4a0e1b671324afa84b0431fec36aca0c",
+      "profile": [
+        [
+          5,
+          3
+        ],
+        [
+          2
+        ]
+      ],
+      "result": "evidence/validation/LCL_ORDINARY_53_2_DIRECT_SEED_001/result.json"
+    }
+  },
+  "retained_execution_statuses": {
+    "D083_original": "INCOMPLETE",
+    "D083_versioned": "PASS",
+    "D093_original": "INCOMPLETE",
+    "D093_versioned": "PASS",
+    "D099": "PASS",
+    "D100_original": "INCOMPLETE",
+    "D100_recovery": "PASS",
+    "D101": "PASS",
+    "D102": "PASS",
+    "D103": "PASS",
+    "D104": "PASS",
+    "D105": "PASS",
+    "D106": "PASS",
+    "D107": "PASS",
+    "D108": "PASS",
+    "D109": "PASS",
+    "D110": "PASS",
+    "D111": "PASS",
+    "D112": "PASS",
+    "D113": "PASS",
+    "D114": "PASS",
+    "D115": "PASS",
+    "D116": "PASS",
+    "D117": "PASS"
+  },
+  "runtime": {
+    "path": ".venv/Scripts/python.exe",
+    "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "scope": {
+    "both_odd": true,
+    "boundary_profile": [
+      [
+        5,
+        3,
+        2
+      ],
+      [
+        2
+      ]
+    ],
+    "minimum_a": 3,
+    "minimum_q": 5,
+    "right_growth_application": false,
+    "symbolic_profile": [
+      [
+        "q",
+        "a",
+        2
+      ],
+      [
+        2
+      ]
+    ]
+  },
+  "status": "PASS",
+  "task": "LCL-ORDINARY-QA2-2-DISJOINT-R226-SUPPLIER-001"
+}
