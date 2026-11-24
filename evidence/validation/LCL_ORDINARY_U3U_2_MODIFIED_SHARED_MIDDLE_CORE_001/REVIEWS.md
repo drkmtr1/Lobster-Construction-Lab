@@ -1,0 +1,13 @@
+# D123 independent read-only reviews
+
+## Mathematical review — ACCEPT
+
+The reviewer independently derived the modified named core, all nine core weights and the degree-parity identity. On the actual proof, the reviewer checked both palette partitions, the deleted reflected pair and its remaining forced M label, all bounds, midpoint and half-edge counts, exact integral projections, and the four translation chains. The reviewer checked the smallest-coordinate forcing argument and its agreement with R226 tree extraction rooted at the terminal half-edge. The complete named slots, global inventories, direct proof of multiplicity one, signed diagnostic and D112 premises hold throughout the stated domain. D122's obstruction retains its original fixed-core scope.
+
+From the frozen result, the reviewer independently recomputed the graph and ledger identities, all named labels and weights, the signed sum 133, both projections and all four controls. The reviewer confirmed the two nontrivial chains' forced Z assignments, both distinct middle slots and the retained D122 bindings. The proof SHA-256 is `b8cffd77217f47f83b487be5feb084b2f6e3a49736e3088888e52dffa3270f9e`.
+
+## Implementation review — PASS
+
+The separate reviewer cleared the exact sources and configuration before preparation, preflight and official verification. The reviewer checked seven task-source hashes, 434 repository bindings, 29 retained dispositions, the runtime hash and vacant outputs. The review covered exact type and scope guards, ordered slots, independent original preparation, unchanged target checker calls and all four controls. The independent audit traverses connected difference components, keeps original row identities and host tags, distinguishes loops and half-edges, and checks balance and forced tree extraction. Its check of isolated reserved difference vertices prevents omission from the complete multigraph.
+
+The reviewer independently recomputed the saved graph, ledger and raw identities and checked the full label and edge-weight counters, ordered slot bindings, signed ledger and Batch A and B projections. Recomputed control witnesses match the repeated named incidences and local versus global outcomes. The retained D122 positive recheck and read-only adverse binding match the archive. All chained hashes and actual recorded counts passed. All three phases exited zero with empty standard error and no bytecode. Combined usage was 0.40625 process-CPU seconds and 1.4363846 supervised wall seconds. Configuration SHA-256 `26799e5feaddbe138cf9d07dc2408abe334bf402382ad408bf929397ac887d85`. Result SHA-256 `0ce698151c1a6bb357a7e86e545bef3c2c859feab93598beea1dbd70b89b3329`. Both reviewers worked read-only with no extra profiles or historical replays.
