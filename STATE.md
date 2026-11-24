@@ -1,20 +1,22 @@
 # Current project state
 
 **Project:** Lobster Construction Lab v0.1.0  
-**Updated:** November 23, 2026, Pacific/Honolulu<br>
-**Stage:** D118 direct ordinary graceful supplier for ordered `[[q,a,2],[2]]` at independent exact odd integers q≥5 and a≥3 **ACCEPTED**. Bounded verification **PASS**. [Proof](research/ORDINARY_QA2_2_DISJOINT_R226_SUPPLIER.md).
+**Updated:** November 24, 2026, Pacific/Honolulu<br>
+**Stage:** D119 direct ordinary graceful supplier for ordered `[[q,a,c],[2]]` at independently chosen odd q≥5, odd a≥3 and even c≥2 **ACCEPTED**. Bounded verification **PASS**. [Proof](research/ORDINARY_QAC_2_EVEN_C_DISJOINT_R226_SUPPLIER.md).
 
 ## Current scientific objective
 
-Develop independently supplied graceful modules with usable physical ports. The [latest handoff](handoffs/CODEX-20261123-ordinary-qa2-2-disjoint-r226-supplier.md) records a three-left-center supplier at third quota two and identifies independent variation of the third quota as the next structural obligation.
+Develop independently supplied graceful modules with usable physical ports. The [latest handoff](handoffs/CODEX-20261124-ordinary-qac-2-even-c-disjoint-r226-supplier.md) records the variable even third quota and identifies the odd third-quota palette question.
 
 ## One next action
 
-Under separate authorization, determine whether the D118 ten-vertex core, with the same label formulas at m=q+a+c+7, extends by two disjoint R226 reservations to exact ordered `[[q,a,c],[2]]` for independent odd integers q≥5 and a≥3 and even integers c≥2. Require the original pins `s:0=0`, `s:1=m` and `b:1:0=1`, exact aggregate named quotas, and complete global label and difference inventories. Give a symbolic construction or a precise obstruction to that fixed-core reservation scheme, with no numerical profile sweep, solver, assignment enumeration or join.
+Under separate authorization, determine whether the D118 ten-vertex core, with the same label formulas at m=q+a+c+7, admits two disjoint R226 reservations on exact ordered `[[q,a,c],[2]]` for independent odd integers q≥5, a≥3 and c≥3. Keep the shared physical lower host and the pins `s:0=0`, `s:1=m`, and `b:1:0=1`. Account for the changed reflection parity and each eligible midpoint, and prove complete global inventories and exact named quotas or a precise obstruction to this fixed-core reservation scheme. Use no numerical profile sweep, solver, assignment enumeration or join.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
+
+- D119 **SUPPLIES** exact ordered `[[q,a,c],[2]]` at independent exact odd q≥5, odd a≥3 and even c≥2 with pins `(s:0,s:1,b:1:0)=(0,q+a+c+7,1)`. Opposite-parity progressions leave two forced lower labels and c/2 reflected C pairs in Batch B. Batch A uses the complementary reflected pairs and two forced higher labels. The exact local quotas, shared named lower host and global resource partitions give both full original bijections. The c=2 formula recovers D118. The sole new boundary, retained agreement and recheck, four probes and separate reviews passed. See [proof](research/ORDINARY_QAC_2_EVEN_C_DISJOINT_R226_SUPPLIER.md) and [evidence](evidence/validation/LCL_ORDINARY_QAC_2_EVEN_C_DISJOINT_R226_SUPPLIER_001/README.md).
 
 - D118 **SUPPLIES** exact ordered `[[q,a,2],[2]]` for independent exact odd integers q≥5 and a≥3 at pins `(s:0,s:1,b:1:0)=(0,q+a+9,1)`. An independently labeled ten-vertex core leaves two disjoint reserved R226 batches that share the unchanged physical lower host. Their local integral allocations and the global resource partitions fill every named incidence. The certificate for `[[5,3,2],[2]]`, D111 recheck, four controls and separate reviews passed. The seeds meet D112's premises. See [proof](research/ORDINARY_QA2_2_DISJOINT_R226_SUPPLIER.md) and [evidence](evidence/validation/LCL_ORDINARY_QA2_2_DISJOINT_R226_SUPPLIER_001/README.md).
 
