@@ -1441,3 +1441,9 @@ The official audit and both reviews **PASSED** with one new graph identity, one 
 **ACCEPT** one symbolic induction and the direct indexed ordinary graceful supplier on exact ordered `[[4,3],[r]]` for every integer r≥2. The actual physical spine labels are (0,r+11) and the sole negative signed difference remains −1 at `l:0:0:3 → b:0:0`. Both inventories close at every induction step and signed degree sum is (r+11)(r+12)/2−2. D104 and D097/D098 retain their distinct alpha results.
 
 The official audit and both independent reviews **PASSED** with the two retained boundary rechecks, three controls, zero new graphs or certificates, and 0.203125 process-CPU seconds. [Proof](ORDINARY_43R_EXTREME_SPINE.md) · [Evidence](../evidence/validation/LCL_ORDINARY_43R_EXTREME_SPINE_001/README.md) · D107
+
+## LCL-ORDINARY-53-2-SIGNED-SEED-001
+
+**ACCEPT** the structural obstruction and **REJECT** the exact ordered `[[5,3],[2]]` seed at `s:0=0`, `s:1=14`, `b:1:0=1`, with sole signed difference −1 on `l:0:0:3 → b:0:0`. The signed degree sum gives 7A+5B+2(P+Q)=168. Splitting by the only possible locations for label 13 leaves three center rows, each with a forced repeated weight on distinct incidences. D107 remains proved on its own profiles.
+
+The official audit and both reviews **PASSED** with one new original, zero certificates, one retained D106 recheck and three probes in 0.1875 process-CPU seconds. [Proof](ORDINARY_53_2_SIGNED_SEED.md) · [Evidence](../evidence/validation/LCL_ORDINARY_53_2_SIGNED_SEED_001/README.md) · D108

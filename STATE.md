@@ -2,19 +2,21 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 23, 2026, Pacific/Honolulu<br>
-**Stage:** D107 symbolic ordinary right-terminal growth **ACCEPTED** on ordered `[[4,3],[r]]` for exact integers r≥2, with physical spine labels (0,r+11) and the same sole signed reversal. Boundary audit **PASS**. [Proof](research/ORDINARY_43R_EXTREME_SPINE.md).
+**Stage:** D108 prescribed signed seed **REJECTED** on exact ordered `[[5,3],[2]]` with the fixed physical pins and sole named −1 edge. Structural proof **ACCEPTED** and audit **PASS**. [Proof](research/ORDINARY_53_2_SIGNED_SEED.md).
 
 ## Current scientific objective
 
-Develop independently supplied graceful modules with usable physical ports. The [latest handoff](handoffs/CODEX-20261123-ordinary-43r-extreme-spine.md) records the symbolic right-quota family and one proposed left-quota seed test.
+Develop independently supplied graceful modules with usable physical ports. The [latest handoff](handoffs/CODEX-20261123-ordinary-53-2-signed-seed.md) records the fixed signed-interface obstruction and one proposed test with the reversal location free.
 
 ## One next action
 
-Under separate authorization, seek or rule out a direct ordinary graceful seed on ordered `[[5,3],[2]]`, with `s:0=0`, `s:1=14`, `b:1:0=1` and the sole negative signed edge −1 at `l:0:0:3 → b:0:0` in the orientation from the class of `s:0`. Test only this fixed profile by original-incidence and residual-palette reasoning, with at most one original and one verified certificate and zero solvers, complete-assignment enumeration or joins.
+Under separate authorization, seek or rule out ordinary graceful supply on the frozen ordered `[[5,3],[2]]` with `s:0=0`, `s:1=14`, `b:1:0=1` and exactly one negative signed difference of −1 at any left terminal. Treat the possible centers structurally without terminal-index enumeration, and use at most one verified certificate, zero new originals, solvers, complete-assignment enumeration or joins.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
+
+- D108 **EXCLUDES** the specified ordinary graceful interface on `[[5,3],[2]]` with physical labels (0,14), right-center label 1 and the sole −1 at `l:0:0:3 → b:0:0`. The two-case signed-degree argument gives three rows, each with a repeated weight. The unchanged checker, independent audit and both reviews passed on the retained control and adverse checks. See [proof](research/ORDINARY_53_2_SIGNED_SEED.md) and [evidence](evidence/validation/LCL_ORDINARY_53_2_SIGNED_SEED_001/README.md).
 
 - D107 **SUPPLIES** an indexed ordinary graceful labeling of exact ordered `[[4,3],[r]]` for every exact integer r≥2. The one symbolic induction preserves the original physical spine (0,r+11), both full inventories and the sole signed difference −1 at the named left terminal incidence. The official audit rechecked D105 and D106 only. See [proof](research/ORDINARY_43R_EXTREME_SPINE.md) and [evidence](evidence/validation/LCL_ORDINARY_43R_EXTREME_SPINE_001/README.md).
 

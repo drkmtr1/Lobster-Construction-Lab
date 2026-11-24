@@ -527,3 +527,7 @@ The [separate D100 audit recovery](../evidence/validation/LCL_R241_43_2_FIXED_EX
 ### F-R241-43-2-LEFT-TERMINAL-ZERO
 
 **REJECT** cut-nine supply with zero at any left terminal on exact frozen ordered `[[4,3],[2]]` and both ports free. All 19 remaining cases miss a difference. Combined with D102 and D103 and the complement argument, this excludes both alpha orientations on this original. Ordinary gracefulness remains a separate open obligation. [Proof](R241_43_2_LEFT_TERMINAL_ZERO.md) · D104
+
+### F-ORDINARY-53-2-SIGNED-SEED
+
+**REJECT** the prescribed signed seed on ordered `[[5,3],[2]]` with `s:0=0`, `s:1=14`, `b:1:0=1` and the sole negative signed difference −1 on `l:0:0:3 → b:0:0`. All three center rows force repeats of absolute edge differences. The conclusion applies to these joint constraints on this exact original. [Proof](ORDINARY_53_2_SIGNED_SEED.md) · D108

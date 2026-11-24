@@ -1,0 +1,61 @@
+{
+  "argv": [
+    "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "evidence/validation/LCL_ORDINARY_53_2_SIGNED_SEED_001/preflight.py",
+    "5922c299ce7a778f30bf5e84ecabcabbe114a1d4f8888d06810f01f02b5cf98f"
+  ],
+  "input_hashes": {
+    "CONTRACT.md": "7781d4d7736eb85ac1f0f690afb64ee9533d83e524da740590cc3636fa0ea3da",
+    "audit.py": "24ec4f8db9e161af89a5b0d2c5090c45a29f61fce1a0e328182626dfab499344",
+    "config.json": "5922c299ce7a778f30bf5e84ecabcabbe114a1d4f8888d06810f01f02b5cf98f",
+    "preflight.py": "383122e0d073e629269f1333a185d5ec6b4c37cae770cdce0b1e657839f0678a",
+    "run.py": "8be05869e6c7f07fd733f89f598653853ff63a8165f44e63b134057d9a834f48"
+  },
+  "parent": "4941264fde13f80c3045f4225aef81b07c71610e",
+  "parsed_functions": {
+    "audit.py": [
+      "topology",
+      "ledger_id",
+      "obstruction",
+      "retained_boundary",
+      "controls"
+    ],
+    "preflight.py": [
+      "check",
+      "main"
+    ],
+    "run.py": [
+      "read_json",
+      "digest_file",
+      "write_record",
+      "inspect_signed_interface",
+      "require_signed_interface",
+      "retained_positive",
+      "adverse_controls",
+      "validate_inputs",
+      "structural_cases",
+      "produce",
+      "execute"
+    ]
+  },
+  "preflight_invocations": 1,
+  "runtime": {
+    "path": ".venv/Scripts/python.exe",
+    "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "source_pins_checked": 150,
+  "status": "PASS",
+  "task": "LCL-ORDINARY-53-2-SIGNED-SEED-001",
+  "task_module_imports": 0,
+  "vacant_outputs": [
+    "original.json",
+    "result.json",
+    "command_receipt.json",
+    "invocation_failure.json",
+    "__pycache__"
+  ]
+}
