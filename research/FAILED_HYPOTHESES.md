@@ -509,3 +509,5 @@ edge would have weight 2. The separate K=1 construction is unaffected.
 ### F-R241-43-2-FIXED-EXIT3
 
 **REJECT** A(14,9;x,3) on exact ordered `[[4,3],[2]]` for every integer entrance x in [0,8]. The signed-degree equation and forced extreme incidences give eight scalar cases, each excluded by an original-edge or terminal-capacity contradiction. The proof is independent of the stopped audit. The official executable audit is **INCOMPLETE** because its assertion incorrectly required the recorded repeated weight to be the sole repeat. Preserve the frozen sources and receipt. [Proof](R241_43_2_FIXED_EXIT3.md) · D100
+
+The [separate D100 audit recovery](../evidence/validation/LCL_R241_43_2_FIXED_EXIT3_AUDIT_RECOVERY_001/README.md) **PASSED** after checking the named repeated weight among all repeats. It corroborates the same fixed-exit exclusion. The original D100 official audit remains **INCOMPLETE**.

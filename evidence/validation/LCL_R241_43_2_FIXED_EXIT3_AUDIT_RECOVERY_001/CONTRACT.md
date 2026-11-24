@@ -1,0 +1,8 @@
+# D100 versioned audit recovery contract
+
+Task `LCL-R241-43-2-FIXED-EXIT3-AUDIT-RECOVERY-001`, parent `cc4b25328b359dc05f47097b9ff743bea3e13cce`. Live STATE.md and the D100 handoff select the same eight cases on the frozen D099 original.
+
+- Recover executable verification of the accepted fixed-exit obstruction on exact ordered `[[4,3],[2]]`, cut 9, physical `s:1=12`, free entrance 0..8. Reuse the original graph, terminal roles and proof. Do not assign terminal indices to forced palettes.
+- In a separate bundle, check that the cited duplicate weight occurs at least twice and independently verify two distinct actual incidence witnesses. Record all repeats among the six fixed incidence weights. Bind the original D100 INCOMPLETE receipt and leave its entire bundle unchanged. Preserve historical D083 and D093 original and versioned dispositions. Bind D099 without replay.
+- One project-local CPU-only Python 3.12/3.13 worker with standard library. One parse-only preflight and one official recovery invocation. Exactly eight scalar cases, one retained D098 positive recheck, and three adverse probes for the expected digest, declared port and terminal swap. Zero new graph identities or target certificates, exit sweeps or tests, solver calls, assignment enumeration, search states or nodes, joins, retries, restarts or historical replays.
+- Maximum 30 process-CPU seconds, 2,000,000 bytes per record and 8,000,000 bytes of new evidence. Separate read-only mathematical and implementation reviews. Preserve the precise failure and stop on an incomplete preflight or run. Synchronize LCL only and leave exactly one proposed successor unstarted.

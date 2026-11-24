@@ -2,19 +2,21 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 23, 2026, Pacific/Honolulu<br>
-**Stage:** D100 structural obstruction **ACCEPTED** for fixed exit three and free entrance on `[[4,3],[2]]`. Official executable audit **INCOMPLETE**. [Proof](research/R241_43_2_FIXED_EXIT3.md).
+**Stage:** D100 structural obstruction **ACCEPTED** for fixed exit three and free entrance on `[[4,3],[2]]`. Versioned recovery **PASS**. Original executable audit **INCOMPLETE**. [Proof](research/R241_43_2_FIXED_EXIT3.md) · [Recovery](evidence/validation/LCL_R241_43_2_FIXED_EXIT3_AUDIT_RECOVERY_001/README.md).
 
 ## Current scientific objective
 
-Supply multi-center modules with usable physical ports across more quota orders. The [latest handoff](handoffs/CODEX-20261123-r241-43-2-fixed-exit3.md) records the structural fixed-exit exclusion and the separate audit failure. Versioned recovery is the selected next action.
+Supply multi-center modules with usable physical ports across more quota orders. The [latest handoff](handoffs/CODEX-20261123-r241-43-2-fixed-exit3-audit-recovery.md) records the versioned audit recovery and a proposed extremal-host route for the below-capacity original.
 
 ## One next action
 
-Under separate authorization, perform one versioned audit-only recovery of D100 on the same eight scalar cases. Correct the singleton repeated-weight assertion so it checks the named repeated-weight witness even when other weights repeat. Preserve the original INCOMPLETE receipt and frozen sources. Allow one preflight and one recovery invocation, with zero new graph identities, joins, solvers, assignment enumeration, exit tests or retries.
+Under separate authorization, prove or refute an alpha state at cut 8 on the retained D098 `[[4,2],[2]]` original with the physical center `b:0:1` labeled 12 and both spine ports free. Use the actual largest-weight incidences and signed-degree constraints, with at most one source certificate. Only if supplied, verify the conditional translate-and-add-zero leaf at `l:0:1:2` on the frozen D099 target and report its physical ports. Use no new graph identities, joins, solvers, or complete-assignment enumeration.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
+
+- The separate D100 executable recovery **PASSED** in one bounded invocation. The exact eight scalar cases, named repeat witnesses and multiplicities, retained D098 positive and three adverse checks passed independent audit and separate reviews. The original D100 failure remains **INCOMPLETE**. See [recovery evidence](evidence/validation/LCL_R241_43_2_FIXED_EXIT3_AUDIT_RECOVERY_001/README.md).
 
 - D100 structurally excludes A(14,9;x,3) for every allowed x on exact ordered `[[4,3],[2]]`. Signed degrees and extreme edge incidences reduce the proof to eight scalar contradictions. The separate mathematical review accepted the proof. The official audit is **INCOMPLETE** after a singleton repeated-weight assertion. Its frozen receipt and sources were preserved without retry. See [proof](research/R241_43_2_FIXED_EXIT3.md) and [evidence](evidence/validation/LCL_R241_43_2_FIXED_EXIT3_001/README.md).
 

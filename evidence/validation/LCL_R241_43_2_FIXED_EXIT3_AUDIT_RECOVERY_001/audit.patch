@@ -1,0 +1,63 @@
+--- evidence/validation/LCL_R241_43_2_FIXED_EXIT3_001/audit.py
++++ evidence/validation/LCL_R241_43_2_FIXED_EXIT3_AUDIT_RECOVERY_001/audit.py
+@@ -104,6 +104,9 @@
+                          "s:1--b:1:0": attachment[2], **{f"b:1:0 to label {hi}": hi-z for hi in right_labels}}
+         assert row["spine_weight"] == 12-x and row["attachment_weights"] == attachment
+         assert row["right_terminal_labels"] == right_labels and row["right_terminal_weights"] == right_edges
++        repeat_counts = Counter(named_weights.values())
++        repeats = {w: count for w, count in sorted(repeat_counts.items()) if count > 1}
++        witnesses = []
+         residue = set(range(1, 14))-set(named_weights.values())
+         remaining_lows = set(range(9))-{x,z}
+         expected = row["obstruction"]
+@@ -135,15 +138,34 @@
+                 assert expected == {"kind": "duplicate_terminal_palette", "forced_first_terminal_lows": [0,1,2,3],
+                                     "forced_second_terminal_lows": second_palette, "duplicate_weights": cap}
+             else:
+-                named_repeat = [w for w,c in Counter(named_weights.values()).items() if c > 1]
+-                assert named_repeat == [expected["weight"]] and expected["kind"] == "duplicate_weight"
++                assert expected["kind"] == "duplicate_weight"
++                weight = expected["weight"]
++                assert repeat_counts[weight] >= 2
+                 if "fixed_edges" in expected:
+-                    u,v = ("--".join(e) for e in expected["fixed_edges"])
+-                    assert u != v and named_weights[u] == named_weights[v] == expected["weight"]
++                    fixed_edges = expected["fixed_edges"]
+                 else:
+-                    fixed_edge = "--".join(expected["fixed_edge"])
+-                    assert named_weights[fixed_edge] == named_weights[f"b:1:0 to label {expected['right_terminal_label']}"]
++                    fixed_edges = [expected["fixed_edge"]]
++                fixed_labels = {"s:0": x, "s:1": 12, "b:0:0": a, "b:0:1": b, "b:1:0": z}
++                assert len({frozenset(edge) for edge in fixed_edges}) == len(fixed_edges)
++                for u, v in fixed_edges:
++                    assert v in neighbors[u]
++                    assert abs(fixed_labels[u]-fixed_labels[v]) == weight
++                    assert named_weights[f"{u}--{v}"] == weight
++                    witnesses.append({"edge": [u, v], "weight": weight})
++                if "right_terminal_label" in expected:
++                    label = expected["right_terminal_label"]
++                    right_leaves = sorted(neighbors["b:1:0"]-{"s:1"})
++                    assert len(right_leaves) == len(right_labels) == 2 and label in right_labels
++                    assert all(neighbors[leaf] == {"b:1:0"} for leaf in right_leaves)
++                    assert all(set(edge) != {"b:1:0", leaf} for edge in fixed_edges for leaf in right_leaves)
++                    assert label-z == weight == named_weights[f"b:1:0 to label {label}"]
++                    witnesses.append({"center": "b:1:0", "forced_terminal_label": label,
++                                      "eligible_terminal_vertices": right_leaves, "weight": weight})
++                assert len(witnesses) == 2
++                if (x, z) == (6, 5):
++                    assert repeats == {4: 2, 6: 2, 7: 2}
+         verified.append({"A":a, "B":b, "x":x, "z":z, "fixed_incidence_weights":named_weights,
++                         "fixed_incidence_repeat_counts":repeats, "duplicate_witnesses":witnesses,
+                          "unassigned_terminal_low_labels_after_forcing":sorted(remaining_lows), "obstruction":expected})
+     return verified
+ 
+@@ -183,7 +205,8 @@
+     control = audit_controls(root, cfg, positive, adverse)
+     archives = {key: load(root / path)["status"] for key,path in cfg["status_receipts"].items()}
+     assert archives == {"D083_original":"INCOMPLETE", "D083_versioned":"PASS",
+-                        "D093_original":"INCOMPLETE", "D093_versioned":"PASS"}
++                        "D093_original":"INCOMPLETE", "D093_versioned":"PASS",
++                        "D100_original":"INCOMPLETE"}
+     return {"status":"PASS", "verified_scalar_cases":audited, "extreme_representations":pairs,
+             "corrupted_control":control, "archived_execution_statuses":archives,
+             "target_graph_digest":original["graph_digest"]}

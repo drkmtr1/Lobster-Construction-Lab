@@ -1,0 +1,939 @@
+{
+  "accepted_certificates": [],
+  "adverse": {
+    "graph_digest": {
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          9,
+          5,
+          4,
+          3,
+          2,
+          1,
+          6,
+          8,
+          7,
+          12,
+          10,
+          11
+        ],
+        "errors": [
+          "original graph digest mismatch"
+        ],
+        "graph_digest": "c602b9934b690cf8bc23e1533840815d1f0ebdc3156f51c361b66c014d9480a0",
+        "m": 12,
+        "n": 13,
+        "valid": false
+      },
+      "claimed": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "label_swap": {
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          9,
+          5,
+          7,
+          3,
+          2,
+          1,
+          6,
+          5,
+          7,
+          12,
+          10,
+          11
+        ],
+        "errors": [
+          "edge differences repeat",
+          "edge differences are not exactly 1..m"
+        ],
+        "graph_digest": "c602b9934b690cf8bc23e1533840815d1f0ebdc3156f51c361b66c014d9480a0",
+        "m": 12,
+        "n": 13,
+        "valid": false
+      },
+      "labels": {
+        "b:0:0": 8,
+        "b:0:1": 9,
+        "b:1:0": 0,
+        "l:0:0:0": 1,
+        "l:0:0:1": 5,
+        "l:0:0:2": 6,
+        "l:0:0:3": 7,
+        "l:0:1:0": 4,
+        "l:0:1:1": 2,
+        "l:1:0:0": 10,
+        "l:1:0:1": 11,
+        "s:0": 3,
+        "s:1": 12
+      },
+      "vertices": [
+        "l:0:0:0",
+        "l:0:1:0"
+      ]
+    },
+    "physical_port": {
+      "claimed": [
+        3,
+        3
+      ],
+      "error": "Physical offset mismatch",
+      "valid": false
+    }
+  },
+  "arithmetic_reduction": {
+    "B": 10,
+    "baseline_signed_sum": 19,
+    "constant_with_exit": 31,
+    "degree_vector": {
+      "b:0:0": 5,
+      "b:0:1": 4,
+      "b:1:0": 3,
+      "l:0:0:0": 1,
+      "l:0:0:1": 1,
+      "l:0:0:2": 1,
+      "l:0:0:3": 1,
+      "l:0:1:0": 1,
+      "l:0:1:1": 1,
+      "l:0:1:2": 1,
+      "l:1:0:0": 1,
+      "l:1:0:1": 1,
+      "s:0": 3,
+      "s:1": 2
+    },
+    "extremal_representations": {
+      "10": [
+        [
+          10,
+          0
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          12,
+          2
+        ],
+        [
+          13,
+          3
+        ]
+      ],
+      "11": [
+        [
+          11,
+          0
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          13,
+          2
+        ]
+      ],
+      "12": [
+        [
+          12,
+          0
+        ],
+        [
+          13,
+          1
+        ]
+      ],
+      "13": [
+        [
+          13,
+          0
+        ]
+      ]
+    },
+    "high_names": [
+      "b:0:0",
+      "b:0:1",
+      "l:1:0:0",
+      "l:1:0:1",
+      "s:1"
+    ],
+    "low_names": [
+      "b:1:0",
+      "l:0:0:0",
+      "l:0:0:1",
+      "l:0:0:2",
+      "l:0:0:3",
+      "l:0:1:0",
+      "l:0:1:1",
+      "l:0:1:2",
+      "s:0"
+    ],
+    "possible_A": [
+      9,
+      11,
+      13
+    ],
+    "required_sum": 91,
+    "right_hand_side": 60,
+    "signed_excess": {
+      "b:0:0": 4,
+      "b:0:1": 3,
+      "b:1:0": -2,
+      "s:0": -2,
+      "s:1": 1
+    }
+  },
+  "audit": {
+    "archived_execution_statuses": {
+      "D083_original": "INCOMPLETE",
+      "D083_versioned": "PASS",
+      "D093_original": "INCOMPLETE",
+      "D093_versioned": "PASS",
+      "D100_original": "INCOMPLETE"
+    },
+    "corrupted_control": {
+      "missing_weights": [
+        4,
+        8
+      ],
+      "repeat_weights": [
+        5,
+        7
+      ],
+      "retained_graph_digest": "c602b9934b690cf8bc23e1533840815d1f0ebdc3156f51c361b66c014d9480a0"
+    },
+    "extreme_representations": {
+      "10": [
+        [
+          13,
+          3
+        ],
+        [
+          12,
+          2
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          10,
+          0
+        ]
+      ],
+      "11": [
+        [
+          13,
+          2
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          11,
+          0
+        ]
+      ],
+      "12": [
+        [
+          13,
+          1
+        ],
+        [
+          12,
+          0
+        ]
+      ],
+      "13": [
+        [
+          13,
+          0
+        ]
+      ]
+    },
+    "status": "PASS",
+    "target_graph_digest": "2060a4e5a7d8f8ebc1906499facea2730250938d4550bb4c6ca34582a1f5b6e6",
+    "verified_scalar_cases": [
+      {
+        "A": 9,
+        "B": 10,
+        "duplicate_witnesses": [],
+        "fixed_incidence_repeat_counts": {},
+        "fixed_incidence_weights": {
+          "b:1:0 to label 11": 11,
+          "b:1:0 to label 13": 13,
+          "s:0--b:0:0": 6,
+          "s:0--b:0:1": 7,
+          "s:0--s:1": 9,
+          "s:1--b:1:0": 12
+        },
+        "obstruction": {
+          "kind": "missing_weight",
+          "largest_possible_left_terminal_weight": 9,
+          "weight": 10
+        },
+        "unassigned_terminal_low_labels_after_forcing": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "x": 3,
+        "z": 0
+      },
+      {
+        "A": 11,
+        "B": 10,
+        "duplicate_witnesses": [],
+        "fixed_incidence_repeat_counts": {},
+        "fixed_incidence_weights": {
+          "b:1:0 to label 13": 13,
+          "b:1:0 to label 9": 9,
+          "s:0--b:0:0": 4,
+          "s:0--b:0:1": 3,
+          "s:0--s:1": 5,
+          "s:1--b:1:0": 12
+        },
+        "obstruction": {
+          "kind": "missing_weight",
+          "largest_possible_left_terminal_weight": 10,
+          "weight": 11
+        },
+        "unassigned_terminal_low_labels_after_forcing": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          8
+        ],
+        "x": 7,
+        "z": 0
+      },
+      {
+        "A": 13,
+        "B": 10,
+        "duplicate_witnesses": [],
+        "fixed_incidence_repeat_counts": {},
+        "fixed_incidence_weights": {
+          "b:1:0 to label 11": 3,
+          "b:1:0 to label 9": 1,
+          "s:0--b:0:0": 10,
+          "s:0--b:0:1": 7,
+          "s:0--s:1": 9,
+          "s:1--b:1:0": 4
+        },
+        "obstruction": {
+          "conflicting_right_weights": [
+            4,
+            3
+          ],
+          "forbidden_second_center_lows": [
+            6,
+            7
+          ],
+          "kind": "terminal_capacity",
+          "remaining_first_slots": 1,
+          "residual_lows": [
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "unassigned_terminal_low_labels_after_forcing": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "x": 3,
+        "z": 8
+      },
+      {
+        "A": 13,
+        "B": 10,
+        "duplicate_witnesses": [],
+        "fixed_incidence_repeat_counts": {},
+        "fixed_incidence_weights": {
+          "b:1:0 to label 11": 4,
+          "b:1:0 to label 9": 2,
+          "s:0--b:0:0": 9,
+          "s:0--b:0:1": 6,
+          "s:0--s:1": 8,
+          "s:1--b:1:0": 5
+        },
+        "obstruction": {
+          "duplicate_weights": [
+            2,
+            4,
+            5
+          ],
+          "forced_first_terminal_lows": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "forced_second_terminal_lows": [
+            5,
+            6,
+            8
+          ],
+          "kind": "duplicate_terminal_palette"
+        },
+        "unassigned_terminal_low_labels_after_forcing": [
+          3,
+          5,
+          6,
+          8
+        ],
+        "x": 4,
+        "z": 7
+      },
+      {
+        "A": 13,
+        "B": 10,
+        "duplicate_witnesses": [
+          {
+            "edge": [
+              "s:0",
+              "b:0:1"
+            ],
+            "weight": 5
+          },
+          {
+            "center": "b:1:0",
+            "eligible_terminal_vertices": [
+              "l:1:0:0",
+              "l:1:0:1"
+            ],
+            "forced_terminal_label": 11,
+            "weight": 5
+          }
+        ],
+        "fixed_incidence_repeat_counts": {
+          "5": 2
+        },
+        "fixed_incidence_weights": {
+          "b:1:0 to label 11": 5,
+          "b:1:0 to label 9": 3,
+          "s:0--b:0:0": 8,
+          "s:0--b:0:1": 5,
+          "s:0--s:1": 7,
+          "s:1--b:1:0": 6
+        },
+        "obstruction": {
+          "fixed_edge": [
+            "s:0",
+            "b:0:1"
+          ],
+          "kind": "duplicate_weight",
+          "right_terminal_label": 11,
+          "weight": 5
+        },
+        "unassigned_terminal_low_labels_after_forcing": [
+          3,
+          4,
+          7,
+          8
+        ],
+        "x": 5,
+        "z": 6
+      },
+      {
+        "A": 13,
+        "B": 10,
+        "duplicate_witnesses": [
+          {
+            "edge": [
+              "s:0",
+              "b:0:0"
+            ],
+            "weight": 7
+          },
+          {
+            "edge": [
+              "s:1",
+              "b:1:0"
+            ],
+            "weight": 7
+          }
+        ],
+        "fixed_incidence_repeat_counts": {
+          "4": 2,
+          "6": 2,
+          "7": 2
+        },
+        "fixed_incidence_weights": {
+          "b:1:0 to label 11": 6,
+          "b:1:0 to label 9": 4,
+          "s:0--b:0:0": 7,
+          "s:0--b:0:1": 4,
+          "s:0--s:1": 6,
+          "s:1--b:1:0": 7
+        },
+        "obstruction": {
+          "fixed_edges": [
+            [
+              "s:0",
+              "b:0:0"
+            ],
+            [
+              "s:1",
+              "b:1:0"
+            ]
+          ],
+          "kind": "duplicate_weight",
+          "weight": 7
+        },
+        "unassigned_terminal_low_labels_after_forcing": [
+          3,
+          4,
+          7,
+          8
+        ],
+        "x": 6,
+        "z": 5
+      },
+      {
+        "A": 13,
+        "B": 10,
+        "duplicate_witnesses": [
+          {
+            "edge": [
+              "s:0",
+              "s:1"
+            ],
+            "weight": 5
+          },
+          {
+            "center": "b:1:0",
+            "eligible_terminal_vertices": [
+              "l:1:0:0",
+              "l:1:0:1"
+            ],
+            "forced_terminal_label": 9,
+            "weight": 5
+          }
+        ],
+        "fixed_incidence_repeat_counts": {
+          "5": 2
+        },
+        "fixed_incidence_weights": {
+          "b:1:0 to label 11": 7,
+          "b:1:0 to label 9": 5,
+          "s:0--b:0:0": 6,
+          "s:0--b:0:1": 3,
+          "s:0--s:1": 5,
+          "s:1--b:1:0": 8
+        },
+        "obstruction": {
+          "fixed_edge": [
+            "s:0",
+            "s:1"
+          ],
+          "kind": "duplicate_weight",
+          "right_terminal_label": 9,
+          "weight": 5
+        },
+        "unassigned_terminal_low_labels_after_forcing": [
+          3,
+          5,
+          6,
+          8
+        ],
+        "x": 7,
+        "z": 4
+      },
+      {
+        "A": 13,
+        "B": 10,
+        "duplicate_witnesses": [],
+        "fixed_incidence_repeat_counts": {},
+        "fixed_incidence_weights": {
+          "b:1:0 to label 11": 8,
+          "b:1:0 to label 9": 6,
+          "s:0--b:0:0": 5,
+          "s:0--b:0:1": 2,
+          "s:0--s:1": 4,
+          "s:1--b:1:0": 9
+        },
+        "obstruction": {
+          "kind": "missing_weight",
+          "required_nonedge": [
+            "b:0:0",
+            "b:1:0"
+          ],
+          "weight": 10
+        },
+        "unassigned_terminal_low_labels_after_forcing": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "x": 8,
+        "z": 3
+      }
+    ]
+  },
+  "disposition": "REJECT",
+  "domain": {
+    "cut": 9,
+    "entrance_range": [
+      0,
+      8
+    ],
+    "exit_label": 12,
+    "exit_offset": 3
+  },
+  "parent": "cc4b25328b359dc05f47097b9ff743bea3e13cce",
+  "proof_disposition": "ACCEPT",
+  "residual_scalar_cases": [
+    {
+      "A": 9,
+      "B": 10,
+      "attachment_weights": [
+        6,
+        7,
+        12
+      ],
+      "obstruction": {
+        "kind": "missing_weight",
+        "largest_possible_left_terminal_weight": 9,
+        "weight": 10
+      },
+      "right_terminal_labels": [
+        11,
+        13
+      ],
+      "right_terminal_weights": [
+        11,
+        13
+      ],
+      "spine_weight": 9,
+      "x": 3,
+      "z": 0
+    },
+    {
+      "A": 11,
+      "B": 10,
+      "attachment_weights": [
+        4,
+        3,
+        12
+      ],
+      "obstruction": {
+        "kind": "missing_weight",
+        "largest_possible_left_terminal_weight": 10,
+        "weight": 11
+      },
+      "right_terminal_labels": [
+        9,
+        13
+      ],
+      "right_terminal_weights": [
+        9,
+        13
+      ],
+      "spine_weight": 5,
+      "x": 7,
+      "z": 0
+    },
+    {
+      "A": 13,
+      "B": 10,
+      "attachment_weights": [
+        10,
+        7,
+        4
+      ],
+      "forced_minimum_first_terminal_palette": [
+        0,
+        1,
+        2
+      ],
+      "obstruction": {
+        "conflicting_right_weights": [
+          4,
+          3
+        ],
+        "forbidden_second_center_lows": [
+          6,
+          7
+        ],
+        "kind": "terminal_capacity",
+        "remaining_first_slots": 1,
+        "residual_lows": [
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "right_terminal_labels": [
+        9,
+        11
+      ],
+      "right_terminal_weights": [
+        1,
+        3
+      ],
+      "spine_weight": 9,
+      "weight_10_pair": [
+        13,
+        3
+      ],
+      "x": 3,
+      "z": 8
+    },
+    {
+      "A": 13,
+      "B": 10,
+      "attachment_weights": [
+        9,
+        6,
+        5
+      ],
+      "forced_minimum_first_terminal_palette": [
+        0,
+        1,
+        2
+      ],
+      "obstruction": {
+        "duplicate_weights": [
+          2,
+          4,
+          5
+        ],
+        "forced_first_terminal_lows": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "forced_second_terminal_lows": [
+          5,
+          6,
+          8
+        ],
+        "kind": "duplicate_terminal_palette"
+      },
+      "right_terminal_labels": [
+        9,
+        11
+      ],
+      "right_terminal_weights": [
+        2,
+        4
+      ],
+      "spine_weight": 8,
+      "weight_10_pair": [
+        13,
+        3
+      ],
+      "x": 4,
+      "z": 7
+    },
+    {
+      "A": 13,
+      "B": 10,
+      "attachment_weights": [
+        8,
+        5,
+        6
+      ],
+      "forced_minimum_first_terminal_palette": [
+        0,
+        1,
+        2
+      ],
+      "obstruction": {
+        "fixed_edge": [
+          "s:0",
+          "b:0:1"
+        ],
+        "kind": "duplicate_weight",
+        "right_terminal_label": 11,
+        "weight": 5
+      },
+      "right_terminal_labels": [
+        9,
+        11
+      ],
+      "right_terminal_weights": [
+        3,
+        5
+      ],
+      "spine_weight": 7,
+      "weight_10_pair": [
+        13,
+        3
+      ],
+      "x": 5,
+      "z": 6
+    },
+    {
+      "A": 13,
+      "B": 10,
+      "attachment_weights": [
+        7,
+        4,
+        7
+      ],
+      "forced_minimum_first_terminal_palette": [
+        0,
+        1,
+        2
+      ],
+      "obstruction": {
+        "fixed_edges": [
+          [
+            "s:0",
+            "b:0:0"
+          ],
+          [
+            "s:1",
+            "b:1:0"
+          ]
+        ],
+        "kind": "duplicate_weight",
+        "weight": 7
+      },
+      "right_terminal_labels": [
+        9,
+        11
+      ],
+      "right_terminal_weights": [
+        4,
+        6
+      ],
+      "spine_weight": 6,
+      "weight_10_pair": [
+        13,
+        3
+      ],
+      "x": 6,
+      "z": 5
+    },
+    {
+      "A": 13,
+      "B": 10,
+      "attachment_weights": [
+        6,
+        3,
+        8
+      ],
+      "forced_minimum_first_terminal_palette": [
+        0,
+        1,
+        2
+      ],
+      "obstruction": {
+        "fixed_edge": [
+          "s:0",
+          "s:1"
+        ],
+        "kind": "duplicate_weight",
+        "right_terminal_label": 9,
+        "weight": 5
+      },
+      "right_terminal_labels": [
+        9,
+        11
+      ],
+      "right_terminal_weights": [
+        5,
+        7
+      ],
+      "spine_weight": 5,
+      "weight_10_pair": [
+        13,
+        3
+      ],
+      "x": 7,
+      "z": 4
+    },
+    {
+      "A": 13,
+      "B": 10,
+      "attachment_weights": [
+        5,
+        2,
+        9
+      ],
+      "forced_minimum_first_terminal_palette": [
+        0,
+        1,
+        2
+      ],
+      "obstruction": {
+        "kind": "missing_weight",
+        "required_nonedge": [
+          "b:0:0",
+          "b:1:0"
+        ],
+        "weight": 10
+      },
+      "right_terminal_labels": [
+        9,
+        11
+      ],
+      "right_terminal_weights": [
+        6,
+        8
+      ],
+      "spine_weight": 4,
+      "weight_10_pair": [
+        13,
+        3
+      ],
+      "x": 8,
+      "z": 3
+    }
+  ],
+  "retained_positive": {
+    "checker": {
+      "claim": "finite certificate for this exact named target only",
+      "edge_differences": [
+        9,
+        5,
+        4,
+        3,
+        2,
+        1,
+        6,
+        8,
+        7,
+        12,
+        10,
+        11
+      ],
+      "errors": [],
+      "graph_digest": "c602b9934b690cf8bc23e1533840815d1f0ebdc3156f51c361b66c014d9480a0",
+      "m": 12,
+      "n": 13,
+      "valid": true
+    },
+    "graph_digest": "c602b9934b690cf8bc23e1533840815d1f0ebdc3156f51c361b66c014d9480a0",
+    "ledger_id": "66750924e7057c3b304ac56021039b3fcded589741ab5b25d2930e8f25ddd658"
+  },
+  "runtime": {
+    "path": ".venv/Scripts/python.exe",
+    "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "status": "PASS",
+  "target_graph_digest": "2060a4e5a7d8f8ebc1906499facea2730250938d4550bb4c6ca34582a1f5b6e6",
+  "target_original_sha256": "99d92699cea529c235f3ed146805920d39c030b33d5651e0ba64ed8e1889d168",
+  "task": "LCL-R241-43-2-FIXED-EXIT3-AUDIT-RECOVERY-001"
+}
