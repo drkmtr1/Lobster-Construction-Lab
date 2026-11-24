@@ -2,19 +2,21 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 24, 2026, Pacific/Honolulu<br>
-**Stage:** D125 consolidated three-left-center supplier and indexed D112 growth on the exact D118–D124 positive seed union **ACCEPTED**. Bounded verification **PASS**. [Proof and dispatch](research/ORDINARY_QACR_CONSOLIDATED_SEED_D112_GROWTH.md).
+**Stage:** D126 exact modified-core supplier on frozen ordered `[[6,3,4],[2]]` **ACCEPTED**. Bounded verification **PASS**. [Proof](research/ORDINARY_634_2_MODIFIED_SHARED_MIDDLE_CORE.md).
 
 ## Current scientific objective
 
-Develop independently supplied graceful modules with usable physical ports. The [latest handoff](handoffs/CODEX-20261124-ordinary-qacr-consolidated-seed-d112-growth.md) records the exact seed union and its indexed ordinary right growth. The retained ordered even–odd–even union leaves exactly (6,3,4) uncovered within its minima. D122’s obstruction there is specific to its old labeled core. The other two-even role placements, smaller quotas, alternative physical pins and general spine composition remain outside the consolidated construction. The pinned all-even obstruction holds for all r≥2.
+Develop independently supplied graceful modules with usable physical ports. The [latest handoff](handoffs/CODEX-20261124-ordinary-634-2-modified-shared-middle-core.md) records the exact completion of the last uncovered seed in D125's ordered even–odd–even domain. This closes the ordered even–odd–even seed domain at the established minima of even q≥6, odd a≥3 and even c≥2. Placements of the odd quota at an outer center, smaller quotas, additional physical centers and ordinary spine composition remain separate obligations.
 
 ## One next action
 
-Under separate authorization, determine whether the D123 modified shared-middle core admits a directly supplied ordinary graceful completion on the single retained ordered original `[[6,3,4],[2]]` at `s:0=0`, `s:1=20`, `b:1:0=1`. Reuse D122’s frozen adverse original, independently derive two disjoint R226 reservations that each fill one distinct physical middle vacancy or prove a precise obstruction to this modified-core reservation scheme, and verify both complete original inventories if supplied. Use no solver, assignment enumeration, profile sweep, role transport, join or numerical growth.
+Under separate authorization, determine whether the accepted ordered even–odd–even suppliers, including D126, transport to exact ordered `[[q,a,c],[2]]` with the unique odd quota at index 0 or 2, odd quota at least three, and two even quotas with one at least six and the other at least two. Require a deterministic quota-compatible role map, a symbolic bijection of actual named incidences, and complete label and difference preservation at `(s:0,s:1,b:1:0)=(0,q+a+c+7,1)`. Use retained evidence only, with no new numerical original, solver, assignment enumeration, join or numerical growth.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
+
+- D126 **SUPPLIES** the exact retained ordered `[[6,3,4],[2]]` original at pins (0,20,1) by the D123 modified core. The singleton upper interval leaves three complementary translation chains. Each batch fills one actual M vacancy, and the two original inventories are complete. D112's premises hold. The new certificate, retained D124 checker recheck, D122 obstruction inspection, four controls and separate reviews passed. D122's fixed-core obstruction and D125's historical union retain their scopes. See [proof](research/ORDINARY_634_2_MODIFIED_SHARED_MIDDLE_CORE.md) and [evidence](evidence/validation/LCL_ORDINARY_634_2_MODIFIED_SHARED_MIDDLE_CORE_001/README.md).
 
 - D125 **SUPPLIES** exact ordered `[[q,a,c],[r]]` on precisely the accepted D118–D124 left-quota union for every exact integer r≥2 at pins (0,q+a+c+r+5,1). The deterministic dispatch retains the exact seed hypotheses. Indexed D112 growth preserves all named original incidences and the direct proof gives full label and difference partitions. The all-even fixed-pin obstruction persists for all r≥2. Seven retained rechecks and dispatches, two read-only archive inspections, four controls and separate reviews passed. See [proof](research/ORDINARY_QACR_CONSOLIDATED_SEED_D112_GROWTH.md) and [evidence](evidence/validation/LCL_ORDINARY_QACR_CONSOLIDATED_SEED_D112_GROWTH_001/README.md).
 
