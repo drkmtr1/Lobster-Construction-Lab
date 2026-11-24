@@ -1371,3 +1371,9 @@ One parse-only preflight and sole official sequence passed. One new original and
 **ACCEPT** A(a+r+7,a+4;3,4) on exact named `[[2,a],[r]]` for independently chosen exact integers a,r≥2. D087 retains every named label and edge. Fresh terminals at physical `b:1:0=0` supply exactly [a+9,a+r+6] in both inventories, with the r=2 identity. The cut a+4, physical spine and offsets (3,4) are preserved.
 
 The sole boundary certificate a=2,r=3 passed the unchanged checker, independent audit and both reviews. It shares the original digest of D083's exclusion at (1,0), with distinct pins and ledger. One syntax preflight, one retained positive control and three adverse rejections passed. The official sequence used 0.171875 process-CPU seconds with zero joins, solver calls, enumeration, retries or replays. [Proof](R241_2AR_ZERO_HOST.md) · [Evidence](../evidence/validation/LCL_R241_2AR_ZERO_HOST_001/README.md) · D096
+
+## LCL-R241-QAR-ALPHA-SUPPLIER-001
+
+**ACCEPT** A(q+a+r+5,q+a+2;q+1,q+2) on ordered named `[[q,a],[r]]` for exact integers q,a≥2 and r≥q. At r=q the seven original-edge groups exhaust [1,a+2q+4]. Fresh named right terminals at zero supply consecutive new labels and differences with unchanged cut, original spine and physical ports. The high class of size r+3 makes r≥q the exact capacity condition for exit offset q+2. The construction specializes pointwise to D087, D089 and D096 at their corresponding parameters.
+
+One new certificate on `[[4,2],[4]]`, two retained positives and three adverse rejections passed the unchanged checker, independent audit and separate reviews. The official verification used 0.09375 process-CPU seconds with zero joins, solver calls, assignment visits, retries or replays. [Proof](R241_QAR_ALPHA_SUPPLIER.md) · [Evidence](../evidence/validation/LCL_R241_QAR_ALPHA_SUPPLIER_001/README.md) · D097

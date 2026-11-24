@@ -1,0 +1,60 @@
+{
+  "argv": [
+    "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "evidence/validation/LCL_R241_QAR_ALPHA_SUPPLIER_001/run.py"
+  ],
+  "counts": {
+    "adverse_checks": 3,
+    "assignment_states": 0,
+    "assignment_visits": 0,
+    "historical_replays": 0,
+    "joins": 0,
+    "new_certificates": 1,
+    "new_original_identities": 1,
+    "official_sequences": 1,
+    "restarts": 0,
+    "retained_positive_rechecks": 2,
+    "retries": 0,
+    "search_nodes": 0,
+    "solver_calls": 0,
+    "workers": 1
+  },
+  "exit_code": 0,
+  "finished_utc": "2026-11-24T01:54:22.041366+00:00",
+  "inputs": {
+    "audit.py": "d61a98add470e68c173bec5f5e356d651f82f3351996cc33961c78865abefd74",
+    "config.json": "803f5d72348e76c3797c226d69b65b4fdd8c7f4a5775caf731c526a058e2b2c0",
+    "preflight.py": "d67bf23db2344c22b10d273ee35e2c14d2e2937d795333b76e2e3500169dc0dd",
+    "preflight_receipt.json": "4e7a637099087883b242eb2f057e44aede565aae42f6ec082e26bdbc68c360fa",
+    "run.py": "4c4e2c04744ababe5e507b8493ab10224aa16ae28a73219b72f6f81710e81de6"
+  },
+  "limits": {
+    "adverse_checks": 3,
+    "assignment_states": 0,
+    "assignment_visits": 0,
+    "bytes_per_record": 2000000,
+    "bytes_total": 8000000,
+    "historical_replays": 0,
+    "joins": 0,
+    "new_certificates": 1,
+    "new_original_identities": 1,
+    "official_sequences": 1,
+    "preflights": 1,
+    "process_cpu_seconds": 30,
+    "restarts": 0,
+    "retained_positive_rechecks": 2,
+    "retries": 0,
+    "search_nodes": 0,
+    "solver_calls": 0,
+    "workers": 1
+  },
+  "parent": "7da574dbcef308f9d0f9340a7735844bdc00182f",
+  "process_cpu_seconds": 0.09375,
+  "result_sha256": "2bf3a273f2f43d09bf640dd5753f87823d5f768f5f6c4af59cd9247104facecf",
+  "started_utc": "2026-11-24T01:54:21.909674+00:00",
+  "status": "PASS",
+  "task": "LCL-R241-QAR-ALPHA-SUPPLIER-001"
+}

@@ -2,19 +2,21 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 23, 2026, Pacific/Honolulu<br>
-**Stage:** D096 closed. Independently varying the right-center quota on exact named `[[2,a],[r]]` at physical offsets (3,4) is **ACCEPTED**. [Proof](research/R241_2AR_ZERO_HOST.md).
+**Stage:** D097 closed. The three-quota supplier for exact ordered `[[q,a],[r]]` on q,a≥2 and r≥q at offsets (q+1,q+2) is **ACCEPTED**. [Proof](research/R241_QAR_ALPHA_SUPPLIER.md).
 
 ## Current scientific objective
 
-Supply multi-center modules with independently variable quotas and usable physical ports. D096 varies two quotas independently. The [latest handoff](handoffs/CODEX-20261123-r241-2ar-zero-host.md) records the verified right-zero-host extension and prioritizes the remaining fixed first-center quota.
+Supply multi-center modules with usable physical ports across more quota orders. D097 varies all three quotas on the capacity domain r≥q. The [latest handoff](handoffs/CODEX-20261123-r241-qar-alpha-supplier.md) records this result and the proposed lower-offset interface when a≤r<q.
 
 ## One next action
 
-Under separate authorization, prove or refute A(q+a+r+5,q+a+2;q+1,q+2) on exact named `[[q,a],[r]]` for integers q,a≥2 and r≥q. Check the indexed left-center label and difference bands at the capacity boundary r=q before applying the physical right-zero-host extension. Use at most one new q=4 boundary original and no joins, solvers or assignment enumeration.
+Under separate authorization, prove or refute transfer of D097 to exact ordered `[[q,a],[r]]` on the uncovered slice r≥a≥2 and q>r, at offsets (a+1,a+2). Check the named transport from `[[a,q],[r]]` by exchanging the first-section center roles and their indexed terminal groups while keeping the spine and right center fixed. Use at most one boundary original `[[4,2],[2]]`, with no joins, solvers or assignment enumeration.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
+
+- D097 supplies A(q+a+r+5,q+a+2;q+1,q+2) on exact ordered `[[q,a],[r]]` for exact integer q,a≥2 and r≥q. The r=q proof covers every old label and difference. The right zero host gives each fresh named terminal its new label as the edge difference, preserving the cut, physical ports and spine. The particular exit offset q+2 fits precisely when r≥q. One boundary certificate for `[[4,2],[4]]`, both retained controls and three adverse probes passed independent audit and separate reviews. See [proof](research/R241_QAR_ALPHA_SUPPLIER.md) and [evidence](evidence/validation/LCL_R241_QAR_ALPHA_SUPPLIER_001/README.md).
 
 - D096 supplies A(a+r+7,a+4;3,4) on exact named `[[2,a],[r]]` for independently chosen exact integers a,r≥2. The physical right zero host gives each fresh leaf the same new label and edge difference, exhausting [a+9,a+r+6] while preserving all D087 labels, edges, ports and witness. The a=2,r=3 boundary, unchanged checker, independent audit, retained positive and three adverse rejections passed both separate reviews. The same named original's D083 exclusion at (1,0) remains valid. See [proof](research/R241_2AR_ZERO_HOST.md) and [evidence](evidence/validation/LCL_R241_2AR_ZERO_HOST_001/README.md).
 

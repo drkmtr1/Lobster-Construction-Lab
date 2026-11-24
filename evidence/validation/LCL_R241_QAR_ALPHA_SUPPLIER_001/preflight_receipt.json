@@ -1,0 +1,53 @@
+{
+  "argv": [
+    "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "evidence/validation/LCL_R241_QAR_ALPHA_SUPPLIER_001/preflight.py",
+    "803f5d72348e76c3797c226d69b65b4fdd8c7f4a5775caf731c526a058e2b2c0"
+  ],
+  "input_hashes": {
+    "audit.py": "d61a98add470e68c173bec5f5e356d651f82f3351996cc33961c78865abefd74",
+    "config.json": "803f5d72348e76c3797c226d69b65b4fdd8c7f4a5775caf731c526a058e2b2c0",
+    "preflight.py": "d67bf23db2344c22b10d273ee35e2c14d2e2937d795333b76e2e3500169dc0dd",
+    "run.py": "4c4e2c04744ababe5e507b8493ab10224aa16ae28a73219b72f6f81710e81de6"
+  },
+  "parent": "7da574dbcef308f9d0f9340a7735844bdc00182f",
+  "parsed_functions": {
+    "audit.py": [
+      "load",
+      "canonical_hash",
+      "inspect",
+      "check"
+    ],
+    "run.py": [
+      "read",
+      "hash_file",
+      "write_record",
+      "supply",
+      "require_ports",
+      "retained_checks",
+      "adverse_checks",
+      "preflight_binding",
+      "produce",
+      "execute"
+    ]
+  },
+  "preflight_invocations": 1,
+  "runtime": {
+    "path": ".venv/Scripts/python.exe",
+    "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "source_pins_checked": 34,
+  "status": "PASS",
+  "task": "LCL-R241-QAR-ALPHA-SUPPLIER-001",
+  "task_module_imports": 0,
+  "vacant_outputs": [
+    "original.json",
+    "result.json",
+    "command_receipt.json",
+    "__pycache__"
+  ]
+}

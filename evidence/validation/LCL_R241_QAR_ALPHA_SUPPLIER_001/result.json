@@ -1,0 +1,658 @@
+{
+  "adverse": {
+    "graph_identity": {
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          9,
+          4,
+          8,
+          7,
+          6,
+          5,
+          3,
+          2,
+          1,
+          14,
+          10,
+          11,
+          12,
+          13
+        ],
+        "errors": [
+          "original graph digest mismatch"
+        ],
+        "graph_digest": "bc6a36015e6068ddcb30f384464072f32829b490de4c05921dc33b557570e8de",
+        "m": 14,
+        "n": 15,
+        "valid": false
+      },
+      "declared_digest": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "label_swap": {
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          9,
+          4,
+          3,
+          7,
+          6,
+          5,
+          3,
+          7,
+          1,
+          14,
+          10,
+          11,
+          12,
+          13
+        ],
+        "errors": [
+          "edge differences repeat",
+          "edge differences are not exactly 1..m"
+        ],
+        "graph_digest": "bc6a36015e6068ddcb30f384464072f32829b490de4c05921dc33b557570e8de",
+        "m": 14,
+        "n": 15,
+        "valid": false
+      },
+      "vertices": [
+        "l:0:0:0",
+        "l:0:1:0"
+      ]
+    },
+    "physical_port": {
+      "declared": [
+        5,
+        5
+      ],
+      "error": "Physical offset mismatch",
+      "valid": false
+    }
+  },
+  "audit": {
+    "alpha_labels": {
+      "high": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "low": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "archived_execution_statuses": {
+      "D083_original": "INCOMPLETE",
+      "D083_versioned": "PASS",
+      "D093_original": "INCOMPLETE",
+      "D093_versioned": "PASS"
+    },
+    "difference_bands": {
+      "fresh_right_terminals": [],
+      "left_first_attachment": [
+        4
+      ],
+      "left_first_terminals": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "left_second_attachment": [
+        3
+      ],
+      "left_second_terminals": [
+        1,
+        2
+      ],
+      "right_attachment": [
+        14
+      ],
+      "right_terminals": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "spine": [
+        9
+      ]
+    },
+    "edge_rows": [
+      [
+        "s:0",
+        "s:1",
+        9
+      ],
+      [
+        "s:0",
+        "b:0:0",
+        4
+      ],
+      [
+        "b:0:0",
+        "l:0:0:0",
+        8
+      ],
+      [
+        "b:0:0",
+        "l:0:0:1",
+        7
+      ],
+      [
+        "b:0:0",
+        "l:0:0:2",
+        6
+      ],
+      [
+        "b:0:0",
+        "l:0:0:3",
+        5
+      ],
+      [
+        "s:0",
+        "b:0:1",
+        3
+      ],
+      [
+        "b:0:1",
+        "l:0:1:0",
+        2
+      ],
+      [
+        "b:0:1",
+        "l:0:1:1",
+        1
+      ],
+      [
+        "s:1",
+        "b:1:0",
+        14
+      ],
+      [
+        "b:1:0",
+        "l:1:0:0",
+        10
+      ],
+      [
+        "b:1:0",
+        "l:1:0:1",
+        11
+      ],
+      [
+        "b:1:0",
+        "l:1:0:2",
+        12
+      ],
+      [
+        "b:1:0",
+        "l:1:0:3",
+        13
+      ]
+    ],
+    "graph_digest": "bc6a36015e6068ddcb30f384464072f32829b490de4c05921dc33b557570e8de",
+    "ledger_id": "3b4867acd7d69f71e525b27c25a8d10b6eea5a00129cb26547455f2cba29513f",
+    "retained_controls": {
+      "D089": {
+        "alpha_labels": {
+          "high": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "low": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "difference_bands": {
+          "fresh_right_terminals": [],
+          "left_first_attachment": [
+            4
+          ],
+          "left_first_terminals": [
+            5,
+            6,
+            7
+          ],
+          "left_second_attachment": [
+            3
+          ],
+          "left_second_terminals": [
+            1,
+            2
+          ],
+          "right_attachment": [
+            12
+          ],
+          "right_terminals": [
+            9,
+            10,
+            11
+          ],
+          "spine": [
+            8
+          ]
+        },
+        "edge_rows": [
+          [
+            "s:0",
+            "s:1",
+            8
+          ],
+          [
+            "s:0",
+            "b:0:0",
+            4
+          ],
+          [
+            "b:0:0",
+            "l:0:0:0",
+            7
+          ],
+          [
+            "b:0:0",
+            "l:0:0:1",
+            6
+          ],
+          [
+            "b:0:0",
+            "l:0:0:2",
+            5
+          ],
+          [
+            "s:0",
+            "b:0:1",
+            3
+          ],
+          [
+            "b:0:1",
+            "l:0:1:0",
+            2
+          ],
+          [
+            "b:0:1",
+            "l:0:1:1",
+            1
+          ],
+          [
+            "s:1",
+            "b:1:0",
+            12
+          ],
+          [
+            "b:1:0",
+            "l:1:0:0",
+            9
+          ],
+          [
+            "b:1:0",
+            "l:1:0:1",
+            10
+          ],
+          [
+            "b:1:0",
+            "l:1:0:2",
+            11
+          ]
+        ],
+        "graph_digest": "b23da76e59640ebf2259fe83b04c1b67df992df785519f79e6c4bb0f470d267a",
+        "ledger_id": "ea5f7023ab16e35c974077a26ace977dc78d2f0b9886d797c048f99fc10ece3e",
+        "unused_differences": [],
+        "unused_labels": []
+      },
+      "D096": {
+        "alpha_labels": {
+          "high": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "low": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "difference_bands": {
+          "fresh_right_terminals": [
+            11
+          ],
+          "left_first_attachment": [
+            4
+          ],
+          "left_first_terminals": [
+            5,
+            6
+          ],
+          "left_second_attachment": [
+            3
+          ],
+          "left_second_terminals": [
+            1,
+            2
+          ],
+          "right_attachment": [
+            10
+          ],
+          "right_terminals": [
+            8,
+            9
+          ],
+          "spine": [
+            7
+          ]
+        },
+        "edge_rows": [
+          [
+            "s:0",
+            "s:1",
+            7
+          ],
+          [
+            "s:0",
+            "b:0:0",
+            4
+          ],
+          [
+            "b:0:0",
+            "l:0:0:0",
+            6
+          ],
+          [
+            "b:0:0",
+            "l:0:0:1",
+            5
+          ],
+          [
+            "s:0",
+            "b:0:1",
+            3
+          ],
+          [
+            "b:0:1",
+            "l:0:1:0",
+            2
+          ],
+          [
+            "b:0:1",
+            "l:0:1:1",
+            1
+          ],
+          [
+            "s:1",
+            "b:1:0",
+            10
+          ],
+          [
+            "b:1:0",
+            "l:1:0:0",
+            8
+          ],
+          [
+            "b:1:0",
+            "l:1:0:1",
+            9
+          ],
+          [
+            "b:1:0",
+            "l:1:0:2",
+            11
+          ]
+        ],
+        "graph_digest": "fce38d9f3d5130467a183191f999d24ec93312d1ae4846f2a34fffd8c420974e",
+        "ledger_id": "40c1f4122b0a9a82d446d5bc3d128c91914daad4d3c5190ac60af99c8b5e5093",
+        "unused_differences": [],
+        "unused_labels": []
+      }
+    },
+    "status": "PASS",
+    "swap": {
+      "missing": [
+        2,
+        8
+      ],
+      "repeated": [
+        3,
+        7
+      ]
+    },
+    "unused_differences": [],
+    "unused_labels": []
+  },
+  "boundary": [
+    4,
+    2,
+    4
+  ],
+  "certificate": {
+    "checker": {
+      "claim": "finite certificate for this exact named target only",
+      "edge_differences": [
+        9,
+        4,
+        8,
+        7,
+        6,
+        5,
+        3,
+        2,
+        1,
+        14,
+        10,
+        11,
+        12,
+        13
+      ],
+      "errors": [],
+      "graph_digest": "bc6a36015e6068ddcb30f384464072f32829b490de4c05921dc33b557570e8de",
+      "m": 14,
+      "n": 15,
+      "valid": true
+    },
+    "cut": 8,
+    "edge_rows": [
+      [
+        "s:0",
+        "s:1",
+        9
+      ],
+      [
+        "s:0",
+        "b:0:0",
+        4
+      ],
+      [
+        "b:0:0",
+        "l:0:0:0",
+        8
+      ],
+      [
+        "b:0:0",
+        "l:0:0:1",
+        7
+      ],
+      [
+        "b:0:0",
+        "l:0:0:2",
+        6
+      ],
+      [
+        "b:0:0",
+        "l:0:0:3",
+        5
+      ],
+      [
+        "s:0",
+        "b:0:1",
+        3
+      ],
+      [
+        "b:0:1",
+        "l:0:1:0",
+        2
+      ],
+      [
+        "b:0:1",
+        "l:0:1:1",
+        1
+      ],
+      [
+        "s:1",
+        "b:1:0",
+        14
+      ],
+      [
+        "b:1:0",
+        "l:1:0:0",
+        10
+      ],
+      [
+        "b:1:0",
+        "l:1:0:1",
+        11
+      ],
+      [
+        "b:1:0",
+        "l:1:0:2",
+        12
+      ],
+      [
+        "b:1:0",
+        "l:1:0:3",
+        13
+      ]
+    ],
+    "graph_digest": "bc6a36015e6068ddcb30f384464072f32829b490de4c05921dc33b557570e8de",
+    "labels": {
+      "b:0:0": 9,
+      "b:0:1": 8,
+      "b:1:0": 0,
+      "l:0:0:0": 1,
+      "l:0:0:1": 2,
+      "l:0:0:2": 3,
+      "l:0:0:3": 4,
+      "l:0:1:0": 6,
+      "l:0:1:1": 7,
+      "l:1:0:0": 10,
+      "l:1:0:1": 11,
+      "l:1:0:2": 12,
+      "l:1:0:3": 13,
+      "s:0": 5,
+      "s:1": 14
+    },
+    "ledger_id": "3b4867acd7d69f71e525b27c25a8d10b6eea5a00129cb26547455f2cba29513f",
+    "offsets": [
+      5,
+      6
+    ],
+    "physical_ports": [
+      "s:0",
+      "s:1"
+    ],
+    "witness": [
+      "s:0",
+      "s:1"
+    ]
+  },
+  "controls": {
+    "D089": {
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          8,
+          4,
+          7,
+          6,
+          5,
+          3,
+          2,
+          1,
+          12,
+          9,
+          10,
+          11
+        ],
+        "errors": [],
+        "graph_digest": "b23da76e59640ebf2259fe83b04c1b67df992df785519f79e6c4bb0f470d267a",
+        "m": 12,
+        "n": 13,
+        "valid": true
+      },
+      "graph_digest": "b23da76e59640ebf2259fe83b04c1b67df992df785519f79e6c4bb0f470d267a",
+      "ledger_id": "ea5f7023ab16e35c974077a26ace977dc78d2f0b9886d797c048f99fc10ece3e",
+      "pointwise_label_match": true,
+      "quotas": [
+        3,
+        2,
+        3
+      ]
+    },
+    "D096": {
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          7,
+          4,
+          6,
+          5,
+          3,
+          2,
+          1,
+          10,
+          8,
+          9,
+          11
+        ],
+        "errors": [],
+        "graph_digest": "fce38d9f3d5130467a183191f999d24ec93312d1ae4846f2a34fffd8c420974e",
+        "m": 11,
+        "n": 12,
+        "valid": true
+      },
+      "graph_digest": "fce38d9f3d5130467a183191f999d24ec93312d1ae4846f2a34fffd8c420974e",
+      "ledger_id": "40c1f4122b0a9a82d446d5bc3d128c91914daad4d3c5190ac60af99c8b5e5093",
+      "pointwise_label_match": true,
+      "quotas": [
+        2,
+        2,
+        3
+      ]
+    }
+  },
+  "original_sha256": "215b12927975be3ae8423686ffcc87fe5f2e14ca1d2f0abad10678666c64a646",
+  "parent": "7da574dbcef308f9d0f9340a7735844bdc00182f",
+  "runtime": {
+    "path": ".venv/Scripts/python.exe",
+    "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "status": "PASS",
+  "task": "LCL-R241-QAR-ALPHA-SUPPLIER-001"
+}

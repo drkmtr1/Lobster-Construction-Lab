@@ -1,0 +1,135 @@
+{
+  "boundary": [
+    4,
+    2,
+    4
+  ],
+  "controls": {
+    "D089": {
+      "folder": "evidence/validation/LCL_R241_3B3_PORT45_SYMBOLIC_001",
+      "quotas": [
+        3,
+        2,
+        3
+      ]
+    },
+    "D096": {
+      "folder": "evidence/validation/LCL_R241_2AR_ZERO_HOST_001",
+      "quotas": [
+        2,
+        2,
+        3
+      ]
+    }
+  },
+  "domain": {
+    "constraints": [
+      "q>=2",
+      "a>=2",
+      "r>=q"
+    ],
+    "exact_integers": true,
+    "parameters": [
+      "q",
+      "a",
+      "r"
+    ]
+  },
+  "functions": {
+    "audit.py": [
+      "load",
+      "canonical_hash",
+      "inspect",
+      "check"
+    ],
+    "run.py": [
+      "read",
+      "hash_file",
+      "write_record",
+      "supply",
+      "require_ports",
+      "retained_checks",
+      "adverse_checks",
+      "preflight_binding",
+      "produce",
+      "execute"
+    ]
+  },
+  "historical_manifest_records": 81,
+  "limits": {
+    "adverse_checks": 3,
+    "assignment_states": 0,
+    "assignment_visits": 0,
+    "bytes_per_record": 2000000,
+    "bytes_total": 8000000,
+    "historical_replays": 0,
+    "joins": 0,
+    "new_certificates": 1,
+    "new_original_identities": 1,
+    "official_sequences": 1,
+    "preflights": 1,
+    "process_cpu_seconds": 30,
+    "restarts": 0,
+    "retained_positive_rechecks": 2,
+    "retries": 0,
+    "search_nodes": 0,
+    "solver_calls": 0,
+    "workers": 1
+  },
+  "local_inputs": [
+    "config.json",
+    "run.py",
+    "audit.py",
+    "preflight.py"
+  ],
+  "parent": "7da574dbcef308f9d0f9340a7735844bdc00182f",
+  "runtime_sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+  "source_hashes": {
+    "evidence/validation/LCL_R241_223_AUDIT_CLOSEOUT_001/MANIFEST.json": "ae834752c9417656d4afc2aa88d5dd37bea347eada803cbc0ec6b0563296904b",
+    "evidence/validation/LCL_R241_223_AUDIT_CLOSEOUT_001/command_receipt.json": "a4313bed9e8822bdcababe47d7342594b2bf0c43fd8f7e627da6adfc1336c7e1",
+    "evidence/validation/LCL_R241_223_STRICT_RETURN_001/MANIFEST.json": "796f76530a2ad925f2e31a5d21a3eb60db184c279f8bab08f9d289109f495c0d",
+    "evidence/validation/LCL_R241_223_STRICT_RETURN_001/command_receipts.json": "0cf2e399d699013fe18f2847cab0e97012c24b959e2a61a2187e0cad2cdb2527",
+    "evidence/validation/LCL_R241_2AR_ZERO_HOST_001/MANIFEST.json": "cb00682e87aeea5c8940831cb81611f245ad669cfd8862aad923a73aeb8a1d94",
+    "evidence/validation/LCL_R241_2AR_ZERO_HOST_001/REVIEWS.md": "ae3587924accb6e9d5253c270123b6608751e2e8db105809caef394b28d6bfd6",
+    "evidence/validation/LCL_R241_2AR_ZERO_HOST_001/command_receipt.json": "a2e97346a8c74e6c59421604f48bdd75c832fafa72a408950b65eecaa02a5da2",
+    "evidence/validation/LCL_R241_2AR_ZERO_HOST_001/original.json": "d61f6409b0ccd380c8c576cf3d37e061170dc796403590db3f6eb8535c558ecb",
+    "evidence/validation/LCL_R241_2AR_ZERO_HOST_001/result.json": "37c5fa673f873ead7a1003daebe7019211e0850d6beb41f714b25688bc0ed946",
+    "evidence/validation/LCL_R241_2B2_SYMBOLIC_PORT34_001/MANIFEST.json": "c75ae91b9681afccf6f45c19876367d9dadcf7190cf6fdf49bb51d3142bfca38",
+    "evidence/validation/LCL_R241_3B2_PORT44_SYMBOLIC_001/MANIFEST.json": "127c31fb401417e3984ca53503fe9b095e55135ce7164cd560c14893ebcb3fb1",
+    "evidence/validation/LCL_R241_3B3_PORT45_SYMBOLIC_001/MANIFEST.json": "5f76b8e4e305aa42f98fc0b70636ebefdec81e5cf41b679cb73c441b5509ecc3",
+    "evidence/validation/LCL_R241_3B3_PORT45_SYMBOLIC_001/REVIEWS.md": "646276c0d4ae6fe3329c3359a4fb1251879e841eac1bdbc016e7f653c1790c7d",
+    "evidence/validation/LCL_R241_3B3_PORT45_SYMBOLIC_001/command_receipt.json": "b8eb962aed75ca45c35e0c936bf2645688b7e97515f3a559ea523ea3fb5b06eb",
+    "evidence/validation/LCL_R241_3B3_PORT45_SYMBOLIC_001/original.json": "15f395dfe8ea4bc38fe2354190bd9ea2776b80d4d9ababb9219c34b07025d763",
+    "evidence/validation/LCL_R241_3B3_PORT45_SYMBOLIC_001/result.json": "bec62362ccfd7ccf856908b4c61ee383a024d047d193b533cfefb45b183743af",
+    "evidence/validation/LCL_R241_D090_REVERSE_BANDSWAP_001/MANIFEST.json": "dc05c796b5e5afc7bfd58e5e5c27edf229b9a33f4cd1d9a305d98ea778126ee4",
+    "evidence/validation/LCL_R241_D090_REVERSE_BANDSWAP_001/external_failure_receipt.json": "ff275f31230cc3df56905ac527f4e1390b68c3d310a21fba0ced297a8d8b3cc2",
+    "evidence/validation/LCL_R241_D090_REVERSE_BANDSWAP_RECOVERY_001/MANIFEST.json": "0d3b7f4c88260e9ab9f0af81cc4da9023d507c04f654fb68d3a8b808c019c64f",
+    "evidence/validation/LCL_R241_D090_REVERSE_BANDSWAP_RECOVERY_001/command_receipt.json": "9e71ef10492dac68b70dbe9a2c006523844932728d086c228d0e2a5aaca5ae9e",
+    "evidence/validation/LCL_R241_QAR_ALPHA_SUPPLIER_001/CONTRACT.md": "58c24a1a0b8ac963fe2fa58c0108e4553bdf70d43db9a10cf8f09316cb71b9fb",
+    "handoffs/CODEX-20261123-r241-2ar-zero-host.md": "08d93e8b19b5fc4b3482a8f0fb187c481dcf4e669c6591f32716f50b71cdf258",
+    "lcl/__init__.py": "134055506d3e9cd4fa538177844d28a44d5ab567ec220cf54048e63d1a8a7374",
+    "lcl/model.py": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6",
+    "lcl/verify.py": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909",
+    "references/PROVENANCE.json": "aef6f71ab460265291366041a4144cd119a15a48c22398b6e535e9c5c73b0ace",
+    "research/ALPHA_ZERO_HOST_LEAF_EXTENSION.md": "a85dcf5941c44783ab7d0337b1ef577b4d4cbda59fe393fbe73eb5b47295ffeb",
+    "research/ALPHA_ZERO_PORT_LEAF_EXTENSION.md": "5312c920d4ff4bb77f2eef8ecd20c1d2fef768f343b4512b187dd989ea3ff8e7",
+    "research/R241_223_STRICT_RETURN.md": "4a39ef4e58ec3537b64e627728733c7348603a2be8eaf297a517027096278b98",
+    "research/R241_2AR_ZERO_HOST.md": "3ba48649deb354c504df89d7ae49d0ddffae2eea706f3e031408b8226cfcbbbb",
+    "research/R241_2B2_SYMBOLIC_PORT34.md": "1be502b5d04bade20864642df717dbc71fec705ea06b8ded02e3fcfc43ddbe1f",
+    "research/R241_3B2_PORT44_SYMBOLIC.md": "3f4225dbdf07710d5dc841e3ec582b22b8e9c176f4205ef847ecae0119bd2a11",
+    "research/R241_3B3_PORT45_SYMBOLIC.md": "c32ac3712af434f1d25ffe1283a0488473ac09d7d98362a113fe83d2a3c301ef",
+    "research/R241_QAR_ALPHA_SUPPLIER.md": "d168860724879a5e1993daa25bae123ca58a47160ea19fcdb3494e0eb008badf"
+  },
+  "status_receipts": {
+    "D083_original": "evidence/validation/LCL_R241_223_STRICT_RETURN_001/command_receipts.json",
+    "D083_versioned": "evidence/validation/LCL_R241_223_AUDIT_CLOSEOUT_001/command_receipt.json",
+    "D093_original": "evidence/validation/LCL_R241_D090_REVERSE_BANDSWAP_001/external_failure_receipt.json",
+    "D093_versioned": "evidence/validation/LCL_R241_D090_REVERSE_BANDSWAP_RECOVERY_001/command_receipt.json"
+  },
+  "task": "LCL-R241-QAR-ALPHA-SUPPLIER-001",
+  "task_source_hashes": {
+    "audit.py": "d61a98add470e68c173bec5f5e356d651f82f3351996cc33961c78865abefd74",
+    "preflight.py": "d67bf23db2344c22b10d273ee35e2c14d2e2937d795333b76e2e3500169dc0dd",
+    "run.py": "4c4e2c04744ababe5e507b8493ab10224aa16ae28a73219b72f6f81710e81de6"
+  }
+}

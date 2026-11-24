@@ -1,0 +1,179 @@
+{
+  "graph": {
+    "edges": [
+      [
+        "s:0",
+        "s:1"
+      ],
+      [
+        "s:0",
+        "b:0:0"
+      ],
+      [
+        "b:0:0",
+        "l:0:0:0"
+      ],
+      [
+        "b:0:0",
+        "l:0:0:1"
+      ],
+      [
+        "b:0:0",
+        "l:0:0:2"
+      ],
+      [
+        "b:0:0",
+        "l:0:0:3"
+      ],
+      [
+        "s:0",
+        "b:0:1"
+      ],
+      [
+        "b:0:1",
+        "l:0:1:0"
+      ],
+      [
+        "b:0:1",
+        "l:0:1:1"
+      ],
+      [
+        "s:1",
+        "b:1:0"
+      ],
+      [
+        "b:1:0",
+        "l:1:0:0"
+      ],
+      [
+        "b:1:0",
+        "l:1:0:1"
+      ],
+      [
+        "b:1:0",
+        "l:1:0:2"
+      ],
+      [
+        "b:1:0",
+        "l:1:0:3"
+      ]
+    ],
+    "profile": [
+      [
+        4,
+        2
+      ],
+      [
+        4
+      ]
+    ],
+    "roles": {
+      "b:0:0": {
+        "branch": 0,
+        "kind": "branch",
+        "section": 0
+      },
+      "b:0:1": {
+        "branch": 1,
+        "kind": "branch",
+        "section": 0
+      },
+      "b:1:0": {
+        "branch": 0,
+        "kind": "branch",
+        "section": 1
+      },
+      "l:0:0:0": {
+        "branch": 0,
+        "kind": "leaf",
+        "leaf": 0,
+        "section": 0
+      },
+      "l:0:0:1": {
+        "branch": 0,
+        "kind": "leaf",
+        "leaf": 1,
+        "section": 0
+      },
+      "l:0:0:2": {
+        "branch": 0,
+        "kind": "leaf",
+        "leaf": 2,
+        "section": 0
+      },
+      "l:0:0:3": {
+        "branch": 0,
+        "kind": "leaf",
+        "leaf": 3,
+        "section": 0
+      },
+      "l:0:1:0": {
+        "branch": 1,
+        "kind": "leaf",
+        "leaf": 0,
+        "section": 0
+      },
+      "l:0:1:1": {
+        "branch": 1,
+        "kind": "leaf",
+        "leaf": 1,
+        "section": 0
+      },
+      "l:1:0:0": {
+        "branch": 0,
+        "kind": "leaf",
+        "leaf": 0,
+        "section": 1
+      },
+      "l:1:0:1": {
+        "branch": 0,
+        "kind": "leaf",
+        "leaf": 1,
+        "section": 1
+      },
+      "l:1:0:2": {
+        "branch": 0,
+        "kind": "leaf",
+        "leaf": 2,
+        "section": 1
+      },
+      "l:1:0:3": {
+        "branch": 0,
+        "kind": "leaf",
+        "leaf": 3,
+        "section": 1
+      },
+      "s:0": {
+        "kind": "spine",
+        "section": 0
+      },
+      "s:1": {
+        "kind": "spine",
+        "section": 1
+      }
+    },
+    "schema_version": 1,
+    "spine": [
+      "s:0",
+      "s:1"
+    ],
+    "vertices": [
+      "s:0",
+      "b:0:0",
+      "l:0:0:0",
+      "l:0:0:1",
+      "l:0:0:2",
+      "l:0:0:3",
+      "b:0:1",
+      "l:0:1:0",
+      "l:0:1:1",
+      "s:1",
+      "b:1:0",
+      "l:1:0:0",
+      "l:1:0:1",
+      "l:1:0:2",
+      "l:1:0:3"
+    ]
+  },
+  "graph_digest": "bc6a36015e6068ddcb30f384464072f32829b490de4c05921dc33b557570e8de"
+}
