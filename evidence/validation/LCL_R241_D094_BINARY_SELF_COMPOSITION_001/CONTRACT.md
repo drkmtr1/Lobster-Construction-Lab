@@ -1,0 +1,9 @@
+# Frozen D094 binary self-composition contract
+
+Task `LCL-R241-D094-BINARY-SELF-COMPOSITION-001`. Parent `1a232fdc6440029eaee278cf26aed23d2c0519a7`. One symbolic binary R241.1 specialization with D094 as both independently parameterized inputs, with B first and A second. The exact ordered domains and original-incidence proof are in [the task proof](../../../research/R241_D094_BINARY_SELF_COMPOSITION.md).
+
+The sole executable boundary uses a=b=c=d=e=f=g=h=2. Permit one new exact original, one new certificate and one join at actual s:7–s:8. Recheck the one frozen D094 certificate on its own original, then verify each of its two named embeddings. Its repeated role in the construction does not create a second distinct retained certificate. Freeze one syntax-only preflight and one official producer/auditor invocation, both project-local Python 3.12/3.13, CPU only, one worker. Verify raw hashes, unique top-level definitions and vacant output paths before official execution.
+
+Perform exactly three adverse probes on the sole new target: bad expected graph digest, declaring nonedge s:7–s:9 as connector, and omitting the actual connector difference 48. Preserve the unchanged checker, independently reconstruct the original incidences and resource complements, bind historical evidence including the distinct D093 statuses, and retain exact command receipts.
+
+Limits are 30 process-CPU seconds for the official producer/auditor sequence, 2,000,000 bytes for any evidence record and 8,000,000 total evidence bytes. Solver calls, assignment enumeration, search states and nodes, retries, restarts and historical replays are zero. There are no additional joins or arbitrary-length induction in scope. A failed or capped official run is INCOMPLETE with no rerun. Obtain separate read-only mathematical and implementation reviews and update the continuity records before stopping.

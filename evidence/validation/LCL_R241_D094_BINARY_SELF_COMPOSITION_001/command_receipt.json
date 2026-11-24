@@ -1,0 +1,61 @@
+{
+  "argv": [
+    "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "evidence/validation/LCL_R241_D094_BINARY_SELF_COMPOSITION_001/run.py"
+  ],
+  "combined_process_cpu_seconds": 0.109375,
+  "counts": {
+    "adverse_checks": 3,
+    "component_embeddings": 2,
+    "connectors": 1,
+    "joins": 1,
+    "named_assignment_visits": 0,
+    "new_certificates": 1,
+    "new_original_identities": 1,
+    "official_sequences": 1,
+    "recorded_assignment_states": 0,
+    "replays": 0,
+    "restarts": 0,
+    "retained_positive_rechecks": 1,
+    "retries": 0,
+    "search_nodes": 0,
+    "solver_calls": 0,
+    "symbolic_families": 1,
+    "workers": 1
+  },
+  "exit_code": 0,
+  "finished_utc": "2026-11-24T01:32:41.806181+00:00",
+  "limits": {
+    "adverse_checks": 3,
+    "assignment_visits": 0,
+    "bytes_per_record": 2000000,
+    "bytes_total": 8000000,
+    "connectors": 1,
+    "cpu_seconds": 30,
+    "max_new_certificates": 1,
+    "max_new_original_identities": 1,
+    "official_sequences": 1,
+    "recorded_assignment_states": 0,
+    "replays": 0,
+    "restarts": 0,
+    "retries": 0,
+    "search_nodes": 0,
+    "solver_calls": 0,
+    "symbolic_families": 1,
+    "workers": 1
+  },
+  "local_inputs": {
+    "audit.py": "68d2cb8acfc9440c042640913a5364f20dc91edeb29d295dc170b7fe6d72357f",
+    "config.json": "084e3b20e84c54008a6ac210bde50eb0ae720dd252bfe38851ef671b6b50241e",
+    "run.py": "f2bf46e26ee9541eef0a1f9bbe8353fb4bfd328e5d16ef5b76c50096b24705ce"
+  },
+  "parent": "1a232fdc6440029eaee278cf26aed23d2c0519a7",
+  "result_sha256": "033154f20eedfffcc4756f8dff54de7778e35dc645c92f337908915645745639",
+  "started_utc": "2026-11-24T01:32:41.705246+00:00",
+  "status": "PASS",
+  "task": "LCL-R241-D094-BINARY-SELF-COMPOSITION-001",
+  "wall_seconds": 0.100904899998568
+}

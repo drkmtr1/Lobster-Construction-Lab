@@ -2,19 +2,21 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 23, 2026, Pacific/Honolulu<br>
-**Stage:** D094 closed. A(a+b+c+d+40,a+b+20;3,3) is **ACCEPTED** on the exact named eight-section original `[[2,a],[2],[3,b],[3],[3],[3,d],[2],[2,c]]` for integers a,b,c,d≥2. [Proof](research/R241_D090_D093_JOINT.md).
+**Stage:** D095 closed. One exact binary self-composition of independently parameterized D094 blocks is **ACCEPTED**, with physical offsets (3,3). [Proof](research/R241_D094_BINARY_SELF_COMPOSITION.md).
 
 ## Current scientific objective
 
-Supply multi-center modules with independently variable quotas and compatible physical ports. D094 joins D090 to D093 at the actual s:3–s:4 edge and returns (3,3). The [latest handoff](handoffs/CODEX-20261123-r241-d090-d093-joint.md) records the binary result and the separately proposed closure test.
+Supply multi-center modules with independently variable quotas and usable physical ports. D095 verifies the exact two-block original. The [latest handoff](handoffs/CODEX-20261123-r241-d094-binary-self-composition.md) records the return and prioritizes variation of another original center quota over increasing the block count.
 
 ## One next action
 
-Under separate authorization, prove or refute one binary self-composition of two independently parameterized D094 blocks on their exact concatenated 16-section original. Check the actual s:7–s:8 connector, complete joint inventories and returned (3,3) ports for eight independently chosen integer quotas at least two. Use at most one all-two boundary certificate, with no arbitrary-length induction, solvers or assignment enumeration.
+Under separate authorization, prove or refute independent alpha supply A(a+r+7,a+4;3,4) on exact named `[[2,a],[r]]` for independently chosen integers a,r≥2. Test whether extending D087 at its physical right zero host preserves the original spine, entrance and exit offsets, and all label and difference bands. Use at most one boundary original with r=3, and no joins, solvers or assignment enumeration.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
+
+- D095 supplies A(a+b+c+d+e+f+g+h+80,a+b+e+f+40;3,3) on the exact named 16-section concatenation of two D094 blocks with independent integer quotas a,b,c,d,e,f,g,h≥2. Its actual s:7–s:8 connector contributes e+f+g+h+40. One syntax preflight, one boundary original and certificate, one retained D094 recheck, both embeddings and three adverse rejections passed independent audit and separate reviews. See [proof](research/R241_D094_BINARY_SELF_COMPOSITION.md) and [evidence](evidence/validation/LCL_R241_D094_BINARY_SELF_COMPOSITION_001/README.md).
 
 - D094 supplies A(a+b+c+d+40,a+b+20;3,3) on exact `[[2,a],[2],[3,b],[3],[3],[3,d],[2],[2,c]]` for all integers a,b,c,d≥2. The single original connector has weight c+d+20 between the preserved D093 and shifted D090 spectra. One syntax preflight and one boundary certificate, two retained positives and three adverse rejections passed the checker, independent audit and separate reviews. See [proof](research/R241_D090_D093_JOINT.md) and [evidence](evidence/validation/LCL_R241_D090_D093_JOINT_001/README.md).
 

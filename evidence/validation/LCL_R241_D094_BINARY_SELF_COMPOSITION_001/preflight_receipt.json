@@ -1,0 +1,62 @@
+{
+  "argv": [
+    "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "evidence/validation/LCL_R241_D094_BINARY_SELF_COMPOSITION_001/preflight.py",
+    "084e3b20e84c54008a6ac210bde50eb0ae720dd252bfe38851ef671b6b50241e"
+  ],
+  "bytecode_cache_absent": true,
+  "input_hashes": {
+    "audit.py": "68d2cb8acfc9440c042640913a5364f20dc91edeb29d295dc170b7fe6d72357f",
+    "config.json": "084e3b20e84c54008a6ac210bde50eb0ae720dd252bfe38851ef671b6b50241e",
+    "preflight.py": "969be30a028b7a98e256d464f2fef796ce12dce98db4862d93b923c41ba8ed2c",
+    "run.py": "f2bf46e26ee9541eef0a1f9bbe8353fb4bfd328e5d16ef5b76c50096b24705ce"
+  },
+  "parent": "1a232fdc6440029eaee278cf26aed23d2c0519a7",
+  "parsed_functions": {
+    "audit.py": [
+      "load",
+      "digest",
+      "inspect",
+      "match_prior_manifest",
+      "read_control",
+      "verify_d093_custody",
+      "joint_ledger",
+      "adverse_audit",
+      "check"
+    ],
+    "run.py": [
+      "read",
+      "hash_file",
+      "ledger_id",
+      "require_ports",
+      "d094_labels",
+      "shift_section",
+      "retained_control",
+      "interface_gate",
+      "inventory_gate",
+      "compose",
+      "adverse_controls",
+      "verify_inputs",
+      "main",
+      "write_record",
+      "execute"
+    ]
+  },
+  "preflight_invocations": 1,
+  "runtime": {
+    "path": ".venv/Scripts/python.exe",
+    "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "status": "PASS",
+  "task": "LCL-R241-D094-BINARY-SELF-COMPOSITION-001",
+  "task_module_imports": 0,
+  "vacant_official_outputs": [
+    "original.json",
+    "result.json",
+    "command_receipt.json"
+  ]
+}
