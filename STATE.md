@@ -2,19 +2,21 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 23, 2026, Pacific/Honolulu<br>
-**Stage:** D099 closed. The one-leaf lower-block placement on `[[4,3],[2]]` from the two specified source ledgers is **REJECTED** at all nine allowed cuts. [Proof](research/R241_43_2_LOWER_BLOCK.md).
+**Stage:** D100 structural obstruction **ACCEPTED** for fixed exit three and free entrance on `[[4,3],[2]]`. Official executable audit **INCOMPLETE**. [Proof](research/R241_43_2_FIXED_EXIT3.md).
 
 ## Current scientific objective
 
-Supply multi-center modules with usable physical ports across more quota orders. The [latest handoff](handoffs/CODEX-20261123-r241-43-2-lower-block.md) records the two-ledger lower-block obstruction and the proposed direct fixed-exit supplier on the same below-capacity original.
+Supply multi-center modules with usable physical ports across more quota orders. The [latest handoff](handoffs/CODEX-20261123-r241-43-2-fixed-exit3.md) records the structural fixed-exit exclusion and the separate audit failure. Versioned recovery is the selected next action.
 
 ## One next action
 
-Under separate authorization, seek or rule out a direct two-palette alpha supplier on the same exact `[[4,3],[2]]` original at cut 9 and physical exit offset 3 (`s:1=12`), leaving the entrance label free. Use the actual maximum-weight incidence and signed degree sum to constrain the three center labels, then test the residual indexed terminal bands. Use the frozen D099 target and at most one verified positive ledger, with no joins, solvers, complete-assignment enumeration or port sweeps.
+Under separate authorization, perform one versioned audit-only recovery of D100 on the same eight scalar cases. Correct the singleton repeated-weight assertion so it checks the named repeated-weight witness even when other weights repeat. Preserve the original INCOMPLETE receipt and frozen sources. Allow one preflight and one recovery invocation, with zero new graph identities, joins, solvers, assignment enumeration, exit tests or retries.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
+
+- D100 structurally excludes A(14,9;x,3) for every allowed x on exact ordered `[[4,3],[2]]`. Signed degrees and extreme edge incidences reduce the proof to eight scalar contradictions. The separate mathematical review accepted the proof. The official audit is **INCOMPLETE** after a singleton repeated-weight assertion. Its frozen receipt and sources were preserved without retry. See [proof](research/R241_43_2_FIXED_EXIT3.md) and [evidence](evidence/validation/LCL_R241_43_2_FIXED_EXIT3_001/README.md).
 
 - D099 rejects one lower-block insertion at `b:0:1` into exact `[[4,3],[2]]` from the two prescribed `[[4,2],[2]]` ledgers. All nine allowed cuts fail the premise and the resulting weight spectrum, while preserving the label bijection, cut and numerical physical ports. The source checker, target checker, independent audit, three adverse rejections and separate reviews agreed. This is scoped to the prescribed ledgers and operation. See [proof](research/R241_43_2_LOWER_BLOCK.md) and [evidence](evidence/validation/LCL_R241_43_2_LOWER_BLOCK_001/README.md).
 

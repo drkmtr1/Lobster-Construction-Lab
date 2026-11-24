@@ -1,0 +1,57 @@
+{
+  "argv": [
+    "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "evidence/validation/LCL_R241_43_2_FIXED_EXIT3_001/preflight.py",
+    "53b5ffa50853d0530ae28a6c82edd17d82c67cd6befaa47c61441d481840f421"
+  ],
+  "input_hashes": {
+    "audit.py": "0c8b3c04e1e78ba97a6c39d678d0ccc189fb32f8fb28b01be66a3b6ab6657dc1",
+    "config.json": "53b5ffa50853d0530ae28a6c82edd17d82c67cd6befaa47c61441d481840f421",
+    "preflight.py": "62814d097195f8bcc3c02a87eddd4d477b6552643aefc7e26f594d486e134d2f",
+    "run.py": "c34bf28e7f3d112976d325f93619cfa3cc3f1a601bc7b64ba2346a400a017821"
+  },
+  "parent": "7a434bfe299d404cc5cf84cb53df0533c2560ab2",
+  "parsed_functions": {
+    "audit.py": [
+      "load",
+      "canonical_hash",
+      "inspect",
+      "reconstruct_reduction",
+      "audit_cases",
+      "audit_controls",
+      "check"
+    ],
+    "run.py": [
+      "load",
+      "raw_hash",
+      "write_record",
+      "require_interface",
+      "control_and_adverses",
+      "load_target",
+      "reduce",
+      "cases",
+      "inputs",
+      "produce",
+      "execute"
+    ]
+  },
+  "preflight_invocations": 1,
+  "runtime": {
+    "path": ".venv/Scripts/python.exe",
+    "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "source_pins_checked": 32,
+  "status": "PASS",
+  "task": "LCL-R241-43-2-FIXED-EXIT3-001",
+  "task_module_imports": 0,
+  "vacant_outputs": [
+    "original.json",
+    "result.json",
+    "command_receipt.json",
+    "__pycache__"
+  ]
+}

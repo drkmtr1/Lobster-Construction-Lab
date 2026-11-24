@@ -505,3 +505,7 @@ edge would have weight 2. The separate K=1 construction is unaffected.
 ### F-R241-43-2-LOWER-BLOCK
 
 **REJECT** the claim that at least one of nine permitted thresholds supplies the original `[[4,3],[2]]` via one lower-block leaf insertion at `b:0:1` from the D098 `[[4,2],[2]]` ledger or its within-class reflection. Ledger I repeats 10−c and omits 9−c at c=4 through 8. Ledger II repeats 5 and omits 4 at c=5 through 7, then repeats 4 and omits 1 at c=8. This closes exactly the nine placements from the two fixed sources and does not adjudicate either prescribed numerical port pair across other labelings. [Proof](R241_43_2_LOWER_BLOCK.md) · D099
+
+### F-R241-43-2-FIXED-EXIT3
+
+**REJECT** A(14,9;x,3) on exact ordered `[[4,3],[2]]` for every integer entrance x in [0,8]. The signed-degree equation and forced extreme incidences give eight scalar cases, each excluded by an original-edge or terminal-capacity contradiction. The proof is independent of the stopped audit. The official executable audit is **INCOMPLETE** because its assertion incorrectly required the recorded repeated weight to be the sole repeat. Preserve the frozen sources and receipt. [Proof](R241_43_2_FIXED_EXIT3.md) · D100

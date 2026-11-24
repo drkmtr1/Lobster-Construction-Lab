@@ -1,0 +1,123 @@
+{
+  "domain": {
+    "cut": 9,
+    "entrance_range": [
+      0,
+      8
+    ],
+    "exit_label": 12,
+    "exit_offset": 3
+  },
+  "functions": {
+    "audit.py": [
+      "load",
+      "canonical_hash",
+      "inspect",
+      "reconstruct_reduction",
+      "audit_cases",
+      "audit_controls",
+      "check"
+    ],
+    "run.py": [
+      "load",
+      "raw_hash",
+      "write_record",
+      "require_interface",
+      "control_and_adverses",
+      "load_target",
+      "reduce",
+      "cases",
+      "inputs",
+      "produce",
+      "execute"
+    ]
+  },
+  "historical_manifest_records": 86,
+  "limits": {
+    "accepted_certificates": 1,
+    "adverse_controls": 3,
+    "assignment_states": 0,
+    "assignment_visits": 0,
+    "bytes_per_record": 2000000,
+    "bytes_total": 8000000,
+    "historical_replays": 0,
+    "joins": 0,
+    "new_original_identities": 0,
+    "official_sequences": 1,
+    "port_sweeps": 0,
+    "preflights": 1,
+    "process_cpu_seconds": 30,
+    "residual_scalar_cases": 8,
+    "restarts": 0,
+    "retained_positive_rechecks": 1,
+    "retries": 0,
+    "search_nodes": 0,
+    "solver_calls": 0,
+    "workers": 1
+  },
+  "local_inputs": [
+    "config.json",
+    "run.py",
+    "audit.py",
+    "preflight.py"
+  ],
+  "parent": "7a434bfe299d404cc5cf84cb53df0533c2560ab2",
+  "positive_graph_digest": "c602b9934b690cf8bc23e1533840815d1f0ebdc3156f51c361b66c014d9480a0",
+  "positive_ledger_id": "66750924e7057c3b304ac56021039b3fcded589741ab5b25d2930e8f25ddd658",
+  "retained": {
+    "d098_original": "evidence/validation/LCL_R241_NAMED_CENTER_ROLE_TRANSPORT_001/original.json",
+    "d098_receipt": "evidence/validation/LCL_R241_NAMED_CENTER_ROLE_TRANSPORT_001/command_receipt.json",
+    "d098_result": "evidence/validation/LCL_R241_NAMED_CENTER_ROLE_TRANSPORT_001/result.json",
+    "d099_original": "evidence/validation/LCL_R241_43_2_LOWER_BLOCK_001/original.json",
+    "d099_receipt": "evidence/validation/LCL_R241_43_2_LOWER_BLOCK_001/command_receipt.json",
+    "d099_result": "evidence/validation/LCL_R241_43_2_LOWER_BLOCK_001/result.json"
+  },
+  "runtime_sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+  "source_hashes": {
+    "evidence/validation/LCL_R241_223_AUDIT_CLOSEOUT_001/MANIFEST.json": "ae834752c9417656d4afc2aa88d5dd37bea347eada803cbc0ec6b0563296904b",
+    "evidence/validation/LCL_R241_223_AUDIT_CLOSEOUT_001/command_receipt.json": "a4313bed9e8822bdcababe47d7342594b2bf0c43fd8f7e627da6adfc1336c7e1",
+    "evidence/validation/LCL_R241_223_STRICT_RETURN_001/MANIFEST.json": "796f76530a2ad925f2e31a5d21a3eb60db184c279f8bab08f9d289109f495c0d",
+    "evidence/validation/LCL_R241_223_STRICT_RETURN_001/command_receipts.json": "0cf2e399d699013fe18f2847cab0e97012c24b959e2a61a2187e0cad2cdb2527",
+    "evidence/validation/LCL_R241_3B2_PORT44_SYMBOLIC_001/MANIFEST.json": "127c31fb401417e3984ca53503fe9b095e55135ce7164cd560c14893ebcb3fb1",
+    "evidence/validation/LCL_R241_43_2_FIXED_EXIT3_001/CONTRACT.md": "0bfef37258a89542ae35c7ed82ef15d945a71a664de60c64e8f3332a7816479a",
+    "evidence/validation/LCL_R241_43_2_LOWER_BLOCK_001/MANIFEST.json": "615082b37166fe92339c855769c82385be73785bf44cef7c9fea01c58b04c2bd",
+    "evidence/validation/LCL_R241_43_2_LOWER_BLOCK_001/REVIEWS.md": "4e582938467592f06c1cd7aef21604de0e7216eda36ff5804bb3f2dedeea2cbe",
+    "evidence/validation/LCL_R241_43_2_LOWER_BLOCK_001/command_receipt.json": "d5e626a02211f82ee8bffe3a98c9046df6ed622295894a0bcf60a9c1058f98f7",
+    "evidence/validation/LCL_R241_43_2_LOWER_BLOCK_001/original.json": "99d92699cea529c235f3ed146805920d39c030b33d5651e0ba64ed8e1889d168",
+    "evidence/validation/LCL_R241_43_2_LOWER_BLOCK_001/result.json": "4d932027801a1bcd16173ca67898ebe2c0f00d205c8601de4e948795cd5ae9f5",
+    "evidence/validation/LCL_R241_D090_REVERSE_BANDSWAP_001/MANIFEST.json": "dc05c796b5e5afc7bfd58e5e5c27edf229b9a33f4cd1d9a305d98ea778126ee4",
+    "evidence/validation/LCL_R241_D090_REVERSE_BANDSWAP_001/external_failure_receipt.json": "ff275f31230cc3df56905ac527f4e1390b68c3d310a21fba0ced297a8d8b3cc2",
+    "evidence/validation/LCL_R241_D090_REVERSE_BANDSWAP_RECOVERY_001/MANIFEST.json": "0d3b7f4c88260e9ab9f0af81cc4da9023d507c04f654fb68d3a8b808c019c64f",
+    "evidence/validation/LCL_R241_D090_REVERSE_BANDSWAP_RECOVERY_001/command_receipt.json": "9e71ef10492dac68b70dbe9a2c006523844932728d086c228d0e2a5aaca5ae9e",
+    "evidence/validation/LCL_R241_NAMED_CENTER_ROLE_TRANSPORT_001/MANIFEST.json": "1822fc820e0455a40acbf99bd9233400c38bb78fa856bbcbd3a112936ebe3fb3",
+    "evidence/validation/LCL_R241_NAMED_CENTER_ROLE_TRANSPORT_001/REVIEWS.md": "b4b91b5ce067678cf012fc693cf72d789f93a62c3811946c9439146edcce0673",
+    "evidence/validation/LCL_R241_NAMED_CENTER_ROLE_TRANSPORT_001/command_receipt.json": "6792586182bfa17fd705e319a427d79817a08104185ed21a0c80c43525f1f53f",
+    "evidence/validation/LCL_R241_NAMED_CENTER_ROLE_TRANSPORT_001/original.json": "9bb9f7c57247c301b7a503063582bc46b9b8409786b8845e7a8cc45cd0b66582",
+    "evidence/validation/LCL_R241_NAMED_CENTER_ROLE_TRANSPORT_001/result.json": "36491950aee2cac994b7822ea599ff95d4de35a52019ba84eefd711eed19b30a",
+    "evidence/validation/LCL_R241_QAR_ALPHA_SUPPLIER_001/MANIFEST.json": "62e4c6dfdb8706c80251914950a46c606cfe06846d396b5328fe0b87d7e05b53",
+    "handoffs/CODEX-20261123-r241-43-2-lower-block.md": "6ae0b1c4f81ac707244d324eaf0060f649f878599db45af474f684f9d534ab0f",
+    "lcl/__init__.py": "134055506d3e9cd4fa538177844d28a44d5ab567ec220cf54048e63d1a8a7374",
+    "lcl/model.py": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6",
+    "lcl/verify.py": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909",
+    "references/PROVENANCE.json": "aef6f71ab460265291366041a4144cd119a15a48c22398b6e535e9c5c73b0ace",
+    "research/ALPHA_LOWER_BLOCK_LEAF_INSERTION.md": "cb91b91f305abdb6489ea5914e20b9d99c0f8aadb35cda1fae751c92962fee84",
+    "research/R241_3B2_PORT44_SYMBOLIC.md": "3f4225dbdf07710d5dc841e3ec582b22b8e9c176f4205ef847ecae0119bd2a11",
+    "research/R241_43_2_FIXED_EXIT3.md": "17daac8660d9fc3aa513782899cea47630d92a7390d8b5494d7211d3773439e0",
+    "research/R241_43_2_LOWER_BLOCK.md": "93d5a74fc54e6049be50c0e6daae8d52cf5ac0ebb2daf4124132ef1b35732c6f",
+    "research/R241_NAMED_CENTER_ROLE_TRANSPORT.md": "2cec0a3dd100f78475b9957f1c40575f416542d6dc8a7b2fcb025af7cfbe3b53",
+    "research/R241_QAR_ALPHA_SUPPLIER.md": "d168860724879a5e1993daa25bae123ca58a47160ea19fcdb3494e0eb008badf"
+  },
+  "status_receipts": {
+    "D083_original": "evidence/validation/LCL_R241_223_STRICT_RETURN_001/command_receipts.json",
+    "D083_versioned": "evidence/validation/LCL_R241_223_AUDIT_CLOSEOUT_001/command_receipt.json",
+    "D093_original": "evidence/validation/LCL_R241_D090_REVERSE_BANDSWAP_001/external_failure_receipt.json",
+    "D093_versioned": "evidence/validation/LCL_R241_D090_REVERSE_BANDSWAP_RECOVERY_001/command_receipt.json"
+  },
+  "target_graph_digest": "2060a4e5a7d8f8ebc1906499facea2730250938d4550bb4c6ca34582a1f5b6e6",
+  "task": "LCL-R241-43-2-FIXED-EXIT3-001",
+  "task_source_hashes": {
+    "audit.py": "0c8b3c04e1e78ba97a6c39d678d0ccc189fb32f8fb28b01be66a3b6ab6657dc1",
+    "preflight.py": "62814d097195f8bcc3c02a87eddd4d477b6552643aefc7e26f594d486e134d2f",
+    "run.py": "c34bf28e7f3d112976d325f93619cfa3cc3f1a601bc7b64ba2346a400a017821"
+  }
+}

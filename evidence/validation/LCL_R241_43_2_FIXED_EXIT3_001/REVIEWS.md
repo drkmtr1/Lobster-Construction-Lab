@@ -1,0 +1,11 @@
+# D100 separate read-only reviews
+
+## Mathematical review · /root/d100_math_review · ACCEPT the structural obstruction
+
+The reviewer inspected the frozen D099 named original, D100 proof, frozen contract, input configuration, audit source and official failure receipt. The original signed degrees produce 91=19+12+4A+3B−2x−2z. Parity fixes B=10, and weight 13 forces z=0 for A=9 and A=11. Those rows lack weights 10 and 11, respectively. For A=13, x+z=11 leaves precisely six pairs. All extreme pair representations were checked. The first-center terminal labels 0, 1 and 2 are forced, and weight 10 can only use (13,3). The six pairs respectively yield a one-slot shortage, repeated palette weights {2,4,5}, repeated weight 5, repeated weight 7, repeated weight 5 and missing weight 10. The (6,5) row has fixed incidence weights 6,7,4,7,4,6. Its two edges of weight 7 establish the claimed contradiction even with additional repeats. The precise fixed-exit state is rejected for every allowed entrance. No proof correction, edits, task execution or successor work.
+
+## Implementation review · /root/d100_impl_review · INCOMPLETE
+
+The reviewer inspected the frozen contract, config, preflight, verifier, producer and auditor, both retained graphs, and actual raw receipts. Independent read-only checks matched the original incidences and digests, all 32 source pins and 86 archived manifest entries, parent Git bytes, runtime and receipt hashes, AST identities and archives. The original D098 certificate recheck and three adverse controls were counted before the stopped audit. Read-only arithmetic confirmed that the corrupted retained label alphabet is preserved and its edges repeat 5 and 7 while missing 4 and 8. The failed assertion at audit.py line 139 requires a singleton repeat list. In the (6,5) row the observed Counter order is [6,7,4]. The assertion stops before the audit's final control and archive stages. The official receipt truthfully records exit code 1, 0.125 process-CPU seconds and INCOMPLETE. No final result, individual raw control receipts or target certificate was written. The reviewer made no edits, reruns, historical replays or recovery attempts.
+
+These are separate AI mathematical and implementation assessments.
