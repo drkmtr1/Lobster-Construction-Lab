@@ -1,0 +1,74 @@
+{
+  "argv": [
+    "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-E",
+    "-X",
+    "utf8",
+    "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\evidence\\validation\\LCL_ORDINARY_QAC_2_TWO_ODD_ONE_EVEN_ROLE_TRANSPORT_001\\preflight.py",
+    "70cea74f934892beb7d90b006383373e41ceab15547cbed4209cadd727a83e5e"
+  ],
+  "input_hashes": {
+    ".gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "CONTRACT.md": "7d7fd4d905ef03a84e2762b08b8b18a00d634479e85f297031efe1605d25ac96",
+    "audit.py": "3fba57c63885ad7ff21f898a9eb5315088f0c371824cc6df16d02880f534e064",
+    "config.json": "70cea74f934892beb7d90b006383373e41ceab15547cbed4209cadd727a83e5e",
+    "preflight.py": "02d488cc92c8ae627f1dc59c297b822147cd4c215917a1860af07b1a1ee58501",
+    "run.py": "2025ab5ea8241c6bb6d6a4e7745b7de47879502b2ca2dd019fedd60deccafcee",
+    "supervise.ps1": "59f947d3e6d7a4085658af4841056ec8dfa6788e273a9e65c704070bc168fbf8"
+  },
+  "parent": "a6d26c82f21d256f2afc058757108e3ed94829ec",
+  "parsed_functions": {
+    "audit.py": [
+      "controls",
+      "hash_canonical",
+      "r226",
+      "reconstruct",
+      "retained",
+      "traverse"
+    ],
+    "preflight.py": [
+      "check",
+      "digest",
+      "main"
+    ],
+    "run.py": [
+      "digest_file",
+      "execute",
+      "global_gate",
+      "indexed_formula",
+      "local_gate",
+      "physical_gates",
+      "produce",
+      "read_json",
+      "role_binding",
+      "run_controls",
+      "select_roles",
+      "validate_inputs",
+      "write_record"
+    ]
+  },
+  "preflights": 1,
+  "process_cpu_seconds": 0.21875,
+  "retained_inputs": {
+    "evidence/validation/LCL_ORDINARY_QAC_2_EVEN_C_DISJOINT_R226_SUPPLIER_001/original.json": "ec39c150f981827175781c6f74b5dcea72b43183adefec1943da7fd0098d9a78",
+    "evidence/validation/LCL_ORDINARY_QAC_2_EVEN_C_DISJOINT_R226_SUPPLIER_001/result.json": "5931a9e083d46e9e9db3446543dd27848661f35409e181c127c271eacb6468c5"
+  },
+  "runtime": {
+    "path": ".venv/Scripts/python.exe",
+    "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "source_pins_checked": 388,
+  "status": "PASS",
+  "task": "LCL-ORDINARY-QAC-2-TWO-ODD-ONE-EVEN-ROLE-TRANSPORT-001",
+  "task_module_imports": 0,
+  "vacant_outputs": [
+    "preflight_receipt.json",
+    "result.json",
+    "command_receipt.json",
+    "verification_supervision.json",
+    "verification_stderr.txt",
+    "__pycache__"
+  ]
+}
