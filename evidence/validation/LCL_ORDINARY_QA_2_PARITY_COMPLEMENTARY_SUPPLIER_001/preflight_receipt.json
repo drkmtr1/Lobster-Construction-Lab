@@ -1,0 +1,66 @@
+{
+  "argv": [
+    "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-E",
+    "-X",
+    "utf8",
+    "evidence/validation/LCL_ORDINARY_QA_2_PARITY_COMPLEMENTARY_SUPPLIER_001/preflight.py",
+    "377db1fcbf8071b4d83785afa975854b6dee13a530a52663fc32d48358dd6709"
+  ],
+  "input_hashes": {
+    "CONTRACT.md": "200738aae2c8d44d08c89d872dc9c70d60af484c2bb588a796995c421a3a2fb2",
+    "audit.py": "7cdfd22380a4654c7c758e2dd7e71a65c823aa83967e24526be5cdfa1a875394",
+    "config.json": "377db1fcbf8071b4d83785afa975854b6dee13a530a52663fc32d48358dd6709",
+    "preflight.py": "698ee3c3f2546713f0cba2df38ee5d55106ccb083e09f95e99c515b1c00f8820",
+    "run.py": "d3521e50bfb8597e66e3a0a20c929b653dab9c8e687dd758f6adc43fe8e80e28",
+    "supervise.ps1": "b9ab79a4001ab3a37489953a29e06612f5deb42cbdf01c5a4c78f6933f104036"
+  },
+  "parent": "cce186f524f8f435e640c2a4c7865f8557572533",
+  "parsed_functions": {
+    "audit.py": [
+      "boundary",
+      "canonical_sha",
+      "controls",
+      "residual_components",
+      "topology"
+    ],
+    "preflight.py": [
+      "check",
+      "main"
+    ],
+    "run.py": [
+      "allocation_gate",
+      "digest_file",
+      "execute",
+      "growth_gate",
+      "indexed_formula",
+      "original_residual_allocation",
+      "pins_gate",
+      "produce",
+      "read_json",
+      "retained_positive",
+      "run_controls",
+      "validate_inputs",
+      "write_record"
+    ]
+  },
+  "preflight_invocations": 1,
+  "runtime": {
+    "path": ".venv/Scripts/python.exe",
+    "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "source_pins_checked": 282,
+  "status": "PASS",
+  "task": "LCL-ORDINARY-QA-2-PARITY-COMPLEMENTARY-SUPPLIER-001",
+  "task_module_imports": 0,
+  "vacant_outputs": [
+    "original.json",
+    "result.json",
+    "command_receipt.json",
+    "supervisor_receipt.json",
+    "official_stderr.txt",
+    "__pycache__"
+  ]
+}

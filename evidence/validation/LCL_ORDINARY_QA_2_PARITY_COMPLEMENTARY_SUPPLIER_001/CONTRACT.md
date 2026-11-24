@@ -1,0 +1,9 @@
+# D116 frozen execution contract
+
+Task `LCL-ORDINARY-QA-2-PARITY-COMPLEMENTARY-SUPPLIER-001` at parent `cce186f524f8f435e640c2a4c7865f8557572533`. Prove one direct ordinary graceful supplier for ordered `[[q,a],[2]]`, independently chosen exact integers q≥5 and a≥3 with at least one even. Symbolically prove the three parity cases, actual core, complementary palettes, integral R226 quotas, exact indexed label and weight inventories, the even–even midpoint control, D114 specialization and D112 premise compatibility.
+
+The only numeric evaluation of the formula is (6,3) on retained D114. Recheck exactly D114 and D111 through the unchanged checker on their own read-only originals. The D111 comparison does not call the D116 formula. Four probes on retained D114 are wrong digest, a cross-center swap with explicit conserved quotas and repeated/missing incidences, an allocation-only reflected pair flip and complement. Check original identity, ordinary validity, pins, allocations, quotas and formula agreement separately. The pair flip is not assigned to named slots or emitted as a certificate.
+
+Use one CPU worker and project-local Python 3.12/3.13, standard library. Obtain separate implementation review before the one parse-only preflight, which checks hashes, unique intended definitions, complete syntax, runtime and vacant outputs without task imports or bytecode. One official supervised invocation, 30 process-CPU seconds and 60 externally supervised wall seconds. No record over 2,000,000 bytes or bundle over 8,000,000 bytes. Preserve INCOMPLETE on an interrupted or failed verification without retry.
+
+No new numerical profile, original, finite certificate, solver, assignment enumeration, search node or state, join, replay, retry, restart or successor experiment. The universal conclusion comes from the symbolic proof.
