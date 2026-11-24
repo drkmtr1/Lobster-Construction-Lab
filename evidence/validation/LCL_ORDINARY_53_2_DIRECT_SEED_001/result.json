@@ -1,0 +1,881 @@
+{
+  "certificate": {
+    "checker": {
+      "claim": "finite certificate for this exact named target only",
+      "edge_differences": [
+        14,
+        12,
+        8,
+        7,
+        6,
+        4,
+        3,
+        2,
+        1,
+        5,
+        11,
+        13,
+        9,
+        10
+      ],
+      "errors": [],
+      "graph_digest": "915f7ff845db575f2be0b87e587c2236d935eabfc674e9bd99e8bce1358033f8",
+      "m": 14,
+      "n": 15,
+      "valid": true
+    },
+    "graph_digest": "915f7ff845db575f2be0b87e587c2236d935eabfc674e9bd99e8bce1358033f8",
+    "kind": "ordinary_graceful",
+    "labels": {
+      "b:0:0": 12,
+      "b:0:1": 2,
+      "b:1:0": 1,
+      "l:0:0:0": 4,
+      "l:0:0:1": 5,
+      "l:0:0:2": 6,
+      "l:0:0:3": 8,
+      "l:0:0:4": 9,
+      "l:0:1:0": 3,
+      "l:0:1:1": 7,
+      "l:0:1:2": 13,
+      "l:1:0:0": 10,
+      "l:1:0:1": 11,
+      "s:0": 0,
+      "s:1": 14
+    },
+    "ledger_id": "75aaf6544d6832894a567f2a8b07a1bfb3f9a4cf1860f90534044b4c892584d6",
+    "physical_spine": [
+      "s:0",
+      "s:1"
+    ],
+    "pins": {
+      "actual": {
+        "b:1:0": 1,
+        "s:0": 0,
+        "s:1": 14
+      },
+      "expected": {
+        "b:1:0": 1,
+        "s:0": 0,
+        "s:1": 14
+      },
+      "valid": true
+    }
+  },
+  "construction": {
+    "allocation_groups": [
+      {
+        "host": "b:0:0",
+        "kind": "reflected_pair",
+        "labels": [
+          5,
+          9
+        ],
+        "weights": [
+          7,
+          3
+        ]
+      },
+      {
+        "host": "b:0:0",
+        "kind": "reflected_pair",
+        "labels": [
+          6,
+          8
+        ],
+        "weights": [
+          6,
+          4
+        ]
+      },
+      {
+        "host": "b:0:0",
+        "kind": "forced_singleton",
+        "labels": [
+          4
+        ],
+        "weights": [
+          8
+        ]
+      },
+      {
+        "host": "b:0:1",
+        "kind": "midpoint",
+        "labels": [
+          7
+        ],
+        "weights": [
+          5
+        ]
+      }
+    ],
+    "core": {
+      "b:0:0": 12,
+      "b:0:1": 2,
+      "b:1:0": 1,
+      "l:0:1:0": 3,
+      "l:0:1:2": 13,
+      "l:1:0:0": 10,
+      "l:1:0:1": 11,
+      "s:0": 0,
+      "s:1": 14
+    }
+  },
+  "control_audit": {
+    "complement": {
+      "edge_sequence_retained": true,
+      "pins": {
+        "b:1:0": 13,
+        "s:0": 14,
+        "s:1": 0
+      }
+    },
+    "cross_center": {
+      "changed_incidences": [
+        [
+          [
+            "b:0:0",
+            "l:0:0:0"
+          ],
+          8,
+          5
+        ],
+        [
+          [
+            "b:0:1",
+            "l:0:1:1"
+          ],
+          5,
+          2
+        ]
+      ],
+      "label_bijection": true,
+      "missing": [
+        8
+      ],
+      "repeat_multiplicities": {
+        "2": 2
+      },
+      "repeat_witnesses": [
+        [
+          "s:0",
+          "b:0:1"
+        ],
+        [
+          "b:0:1",
+          "l:0:1:1"
+        ]
+      ]
+    },
+    "within_center": {
+      "edge_multiset_retained": true,
+      "physical_pins_retained": true
+    }
+  },
+  "controls": {
+    "complement": {
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          14,
+          12,
+          8,
+          7,
+          6,
+          4,
+          3,
+          2,
+          1,
+          5,
+          11,
+          13,
+          9,
+          10
+        ],
+        "errors": [],
+        "graph_digest": "915f7ff845db575f2be0b87e587c2236d935eabfc674e9bd99e8bce1358033f8",
+        "m": 14,
+        "n": 15,
+        "valid": true
+      },
+      "pins": {
+        "actual": {
+          "b:1:0": 13,
+          "s:0": 14,
+          "s:1": 0
+        },
+        "expected": {
+          "b:1:0": 1,
+          "s:0": 0,
+          "s:1": 14
+        },
+        "valid": false
+      }
+    },
+    "cross_center": {
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          14,
+          12,
+          5,
+          7,
+          6,
+          4,
+          3,
+          2,
+          1,
+          2,
+          11,
+          13,
+          9,
+          10
+        ],
+        "errors": [
+          "edge differences repeat",
+          "edge differences are not exactly 1..m"
+        ],
+        "graph_digest": "915f7ff845db575f2be0b87e587c2236d935eabfc674e9bd99e8bce1358033f8",
+        "m": 14,
+        "n": 15,
+        "valid": false
+      },
+      "pins": {
+        "actual": {
+          "b:1:0": 1,
+          "s:0": 0,
+          "s:1": 14
+        },
+        "expected": {
+          "b:1:0": 1,
+          "s:0": 0,
+          "s:1": 14
+        },
+        "valid": true
+      },
+      "vertices": [
+        "l:0:0:0",
+        "l:0:1:1"
+      ]
+    },
+    "within_center": {
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          14,
+          12,
+          7,
+          8,
+          6,
+          4,
+          3,
+          2,
+          1,
+          5,
+          11,
+          13,
+          9,
+          10
+        ],
+        "errors": [],
+        "graph_digest": "915f7ff845db575f2be0b87e587c2236d935eabfc674e9bd99e8bce1358033f8",
+        "m": 14,
+        "n": 15,
+        "valid": true
+      },
+      "pins": {
+        "actual": {
+          "b:1:0": 1,
+          "s:0": 0,
+          "s:1": 14
+        },
+        "expected": {
+          "b:1:0": 1,
+          "s:0": 0,
+          "s:1": 14
+        },
+        "valid": true
+      },
+      "vertices": [
+        "l:0:0:0",
+        "l:0:0:1"
+      ]
+    },
+    "wrong_digest": {
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          14,
+          12,
+          8,
+          7,
+          6,
+          4,
+          3,
+          2,
+          1,
+          5,
+          11,
+          13,
+          9,
+          10
+        ],
+        "errors": [
+          "original graph digest mismatch"
+        ],
+        "graph_digest": "915f7ff845db575f2be0b87e587c2236d935eabfc674e9bd99e8bce1358033f8",
+        "m": 14,
+        "n": 15,
+        "valid": false
+      },
+      "expected_digest": "0000000000000000000000000000000000000000000000000000000000000000"
+    }
+  },
+  "domain": {
+    "physical_pins": {
+      "b:1:0": 1,
+      "s:0": 0,
+      "s:1": 14
+    },
+    "profile": [
+      [
+        5,
+        3
+      ],
+      [
+        2
+      ]
+    ]
+  },
+  "incidence_audit": {
+    "absolute_incidence_ledger": [
+      {
+        "absolute": 14,
+        "edge": [
+          "s:0",
+          "s:1"
+        ],
+        "orientation": [
+          "s:0",
+          "s:1"
+        ],
+        "signed": 14
+      },
+      {
+        "absolute": 12,
+        "edge": [
+          "s:0",
+          "b:0:0"
+        ],
+        "orientation": [
+          "s:0",
+          "b:0:0"
+        ],
+        "signed": 12
+      },
+      {
+        "absolute": 8,
+        "edge": [
+          "b:0:0",
+          "l:0:0:0"
+        ],
+        "orientation": [
+          "l:0:0:0",
+          "b:0:0"
+        ],
+        "signed": 8
+      },
+      {
+        "absolute": 7,
+        "edge": [
+          "b:0:0",
+          "l:0:0:1"
+        ],
+        "orientation": [
+          "l:0:0:1",
+          "b:0:0"
+        ],
+        "signed": 7
+      },
+      {
+        "absolute": 6,
+        "edge": [
+          "b:0:0",
+          "l:0:0:2"
+        ],
+        "orientation": [
+          "l:0:0:2",
+          "b:0:0"
+        ],
+        "signed": 6
+      },
+      {
+        "absolute": 4,
+        "edge": [
+          "b:0:0",
+          "l:0:0:3"
+        ],
+        "orientation": [
+          "l:0:0:3",
+          "b:0:0"
+        ],
+        "signed": 4
+      },
+      {
+        "absolute": 3,
+        "edge": [
+          "b:0:0",
+          "l:0:0:4"
+        ],
+        "orientation": [
+          "l:0:0:4",
+          "b:0:0"
+        ],
+        "signed": 3
+      },
+      {
+        "absolute": 2,
+        "edge": [
+          "s:0",
+          "b:0:1"
+        ],
+        "orientation": [
+          "s:0",
+          "b:0:1"
+        ],
+        "signed": 2
+      },
+      {
+        "absolute": 1,
+        "edge": [
+          "b:0:1",
+          "l:0:1:0"
+        ],
+        "orientation": [
+          "l:0:1:0",
+          "b:0:1"
+        ],
+        "signed": -1
+      },
+      {
+        "absolute": 5,
+        "edge": [
+          "b:0:1",
+          "l:0:1:1"
+        ],
+        "orientation": [
+          "l:0:1:1",
+          "b:0:1"
+        ],
+        "signed": -5
+      },
+      {
+        "absolute": 11,
+        "edge": [
+          "b:0:1",
+          "l:0:1:2"
+        ],
+        "orientation": [
+          "l:0:1:2",
+          "b:0:1"
+        ],
+        "signed": -11
+      },
+      {
+        "absolute": 13,
+        "edge": [
+          "s:1",
+          "b:1:0"
+        ],
+        "orientation": [
+          "b:1:0",
+          "s:1"
+        ],
+        "signed": 13
+      },
+      {
+        "absolute": 9,
+        "edge": [
+          "b:1:0",
+          "l:1:0:0"
+        ],
+        "orientation": [
+          "b:1:0",
+          "l:1:0:0"
+        ],
+        "signed": 9
+      },
+      {
+        "absolute": 10,
+        "edge": [
+          "b:1:0",
+          "l:1:0:1"
+        ],
+        "orientation": [
+          "b:1:0",
+          "l:1:0:1"
+        ],
+        "signed": 10
+      }
+    ],
+    "allocation": {
+      "D": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "R": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "allocated_quotas": {
+        "b:0:0": 5,
+        "b:0:1": 1
+      },
+      "core_edges": [
+        [
+          "s:0",
+          "s:1"
+        ],
+        [
+          "s:0",
+          "b:0:0"
+        ],
+        [
+          "s:0",
+          "b:0:1"
+        ],
+        [
+          "b:0:1",
+          "l:0:1:0"
+        ],
+        [
+          "b:0:1",
+          "l:0:1:2"
+        ],
+        [
+          "s:1",
+          "b:1:0"
+        ],
+        [
+          "b:1:0",
+          "l:1:0:0"
+        ],
+        [
+          "b:1:0",
+          "l:1:0:1"
+        ]
+      ],
+      "core_labels": [
+        0,
+        1,
+        2,
+        3,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "core_weights": [
+        1,
+        2,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "groups": [
+        {
+          "host": "b:0:0",
+          "kind": "reflected_pair",
+          "labels": [
+            5,
+            9
+          ],
+          "weights": [
+            7,
+            3
+          ]
+        },
+        {
+          "host": "b:0:0",
+          "kind": "reflected_pair",
+          "labels": [
+            6,
+            8
+          ],
+          "weights": [
+            6,
+            4
+          ]
+        },
+        {
+          "host": "b:0:0",
+          "kind": "forced_singleton",
+          "labels": [
+            4
+          ],
+          "weights": [
+            8
+          ]
+        },
+        {
+          "host": "b:0:1",
+          "kind": "midpoint",
+          "labels": [
+            7
+          ],
+          "weights": [
+            5
+          ]
+        }
+      ],
+      "options": {
+        "4": {
+          "A": 8,
+          "B": 2,
+          "eligible": [
+            8
+          ]
+        },
+        "5": {
+          "A": 7,
+          "B": 3,
+          "eligible": [
+            3,
+            7
+          ]
+        },
+        "6": {
+          "A": 6,
+          "B": 4,
+          "eligible": [
+            4,
+            6
+          ]
+        },
+        "7": {
+          "A": 5,
+          "B": 5,
+          "eligible": [
+            5
+          ]
+        },
+        "8": {
+          "A": 4,
+          "B": 6,
+          "eligible": [
+            4,
+            6
+          ]
+        },
+        "9": {
+          "A": 3,
+          "B": 7,
+          "eligible": [
+            3,
+            7
+          ]
+        }
+      },
+      "vacancies": {
+        "b:0:0": [
+          "l:0:0:0",
+          "l:0:0:1",
+          "l:0:0:2",
+          "l:0:0:3",
+          "l:0:0:4"
+        ],
+        "b:0:1": [
+          "l:0:1:1"
+        ]
+      }
+    },
+    "degree_vector": {
+      "b:0:0": 6,
+      "b:0:1": 4,
+      "b:1:0": 3,
+      "l:0:0:0": 1,
+      "l:0:0:1": 1,
+      "l:0:0:2": 1,
+      "l:0:0:3": 1,
+      "l:0:0:4": 1,
+      "l:0:1:0": 1,
+      "l:0:1:1": 1,
+      "l:0:1:2": 1,
+      "l:1:0:0": 1,
+      "l:1:0:1": 1,
+      "s:0": 3,
+      "s:1": 2
+    },
+    "distances_from_spine": {
+      "b:0:0": 1,
+      "b:0:1": 1,
+      "b:1:0": 1,
+      "l:0:0:0": 2,
+      "l:0:0:1": 2,
+      "l:0:0:2": 2,
+      "l:0:0:3": 2,
+      "l:0:0:4": 2,
+      "l:0:1:0": 2,
+      "l:0:1:1": 2,
+      "l:0:1:2": 2,
+      "l:1:0:0": 2,
+      "l:1:0:1": 2,
+      "s:0": 0,
+      "s:1": 0
+    },
+    "negative_edges": [
+      {
+        "absolute": 1,
+        "edge": [
+          "b:0:1",
+          "l:0:1:0"
+        ],
+        "orientation": [
+          "l:0:1:0",
+          "b:0:1"
+        ],
+        "signed": -1
+      },
+      {
+        "absolute": 5,
+        "edge": [
+          "b:0:1",
+          "l:0:1:1"
+        ],
+        "orientation": [
+          "l:0:1:1",
+          "b:0:1"
+        ],
+        "signed": -5
+      },
+      {
+        "absolute": 11,
+        "edge": [
+          "b:0:1",
+          "l:0:1:2"
+        ],
+        "orientation": [
+          "l:0:1:2",
+          "b:0:1"
+        ],
+        "signed": -11
+      }
+    ],
+    "signed_degree_expression": 136,
+    "signed_sequence": [
+      14,
+      12,
+      8,
+      7,
+      6,
+      4,
+      3,
+      2,
+      -1,
+      -5,
+      -11,
+      13,
+      9,
+      10
+    ],
+    "signed_sum": 71,
+    "traversal_classes": {
+      "0": [
+        "b:1:0",
+        "l:0:0:0",
+        "l:0:0:1",
+        "l:0:0:2",
+        "l:0:0:3",
+        "l:0:0:4",
+        "l:0:1:0",
+        "l:0:1:1",
+        "l:0:1:2",
+        "s:0"
+      ],
+      "1": [
+        "b:0:0",
+        "b:0:1",
+        "l:1:0:0",
+        "l:1:0:1",
+        "s:1"
+      ]
+    },
+    "unused_differences": [],
+    "unused_labels": [],
+    "weighted_even_odd": [
+      58,
+      129
+    ]
+  },
+  "parent": "b09a0d02d3609628be7a530028aaa67c8c73de38",
+  "proof_disposition": "ACCEPT",
+  "retained_execution_statuses": {
+    "D083_original": "INCOMPLETE",
+    "D083_versioned": "PASS",
+    "D093_original": "INCOMPLETE",
+    "D093_versioned": "PASS",
+    "D099": "PASS",
+    "D100_original": "INCOMPLETE",
+    "D100_recovery": "PASS",
+    "D101": "PASS",
+    "D102": "PASS",
+    "D103": "PASS",
+    "D104": "PASS",
+    "D105": "PASS",
+    "D106": "PASS",
+    "D107": "PASS",
+    "D108": "PASS",
+    "D109": "PASS",
+    "D110": "PASS"
+  },
+  "retained_positive": {
+    "checker": {
+      "claim": "finite certificate for this exact named target only",
+      "edge_differences": [
+        14,
+        10,
+        8,
+        7,
+        2,
+        1,
+        9,
+        5,
+        4,
+        3,
+        13,
+        6,
+        11,
+        12
+      ],
+      "errors": [],
+      "graph_digest": "df89d0f500d8900d44641b6725f4ce3095df900c663006271855330d01d2a86e",
+      "m": 14,
+      "n": 15,
+      "valid": true
+    },
+    "graph_digest": "df89d0f500d8900d44641b6725f4ce3095df900c663006271855330d01d2a86e",
+    "ledger_id": "b1be1d8561e4570e4d295c8f61ae3b2c7171146519cf1d1ebe917becb3a7565c"
+  },
+  "runtime": {
+    "path": ".venv/Scripts/python.exe",
+    "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "seed_disposition": "ACCEPT",
+  "status": "PASS",
+  "target_graph_digest": "915f7ff845db575f2be0b87e587c2236d935eabfc674e9bd99e8bce1358033f8",
+  "target_original_sha256": "9dbdfd6226c94c821951bc0ca701c18e4a0e1b671324afa84b0431fec36aca0c",
+  "task": "LCL-ORDINARY-53-2-DIRECT-SEED-001"
+}

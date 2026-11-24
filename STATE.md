@@ -2,19 +2,21 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 23, 2026, Pacific/Honolulu<br>
-**Stage:** D110 location-free single magnitude-two interface **REJECTED** on frozen ordered `[[5,3],[2]]` at `s:0=0`, `s:1=14` and `b:1:0=1`. Structural proof **ACCEPTED** and audit **PASS**. [Proof](research/ORDINARY_53_2_MAGNITUDE_TWO.md).
+**Stage:** D111 direct ordinary graceful seed **ACCEPTED** on frozen ordered `[[5,3],[2]]` at `s:0=0`, `s:1=14` and `b:1:0=1`. Independent audit **PASS**. [Proof](research/ORDINARY_53_2_DIRECT_SEED.md).
 
 ## Current scientific objective
 
-Develop independently supplied graceful modules with usable physical ports. The [latest handoff](handoffs/CODEX-20261123-ordinary-53-2-magnitude-two.md) records the magnitude-two obstruction and the proposal to look for a direct seed at the same pins without an internal sign constraint.
+Develop independently supplied graceful modules with usable physical ports. The [latest handoff](handoffs/CODEX-20261123-ordinary-53-2-direct-seed.md) records the direct three-pin seed and one proposed sign-independent growth theorem.
 
 ## One next action
 
-Under separate authorization, seek or rule out a direct ordinary graceful seed on frozen ordered `[[5,3],[2]]` at `s:0=0`, `s:1=14` and `b:1:0=1`, with no internal signed-edge restriction. Reserve weights 14 and 13 on the actual spine and right attachment, then analyze the remaining label and difference inventories by original incidence. Use at most one directly verified certificate and zero new originals, solvers, complete-assignment enumeration or joins.
+Under separate authorization, prove or refute sign-independent extreme-spine growth for a supplied ordinary graceful lobster on [0,m] whose witnessing spine ends at a degree-two exit labeled m with neighbors at labels 0 and 1. Require the label-0 neighbor to precede the exit on the spine and the label-1 neighbor to be off that spine. Determine whether moving the exit to m+1 and assigning m to a fresh terminal at the label-1 neighbor preserves both inventories and the named spine. If proved, give the symbolic application to ordered `[[5,3],[r]]` for exact integers r≥2 from the D111 seed, with no new numerical profile, solver, assignment enumeration or join.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
+
+- D111 **SUPPLIES** the frozen ordered `[[5,3],[2]]` original at the three physical pins, using a fixed core, two reflected terminal pairs, one forced terminal and one midpoint. The resulting ordinary graceful certificate has three negative signed incidences of −1, −5 and −11. The audit, four controls and separate reviews passed. The seed supplies one finite input to the proposed growth investigation. See [proof](research/ORDINARY_53_2_DIRECT_SEED.md) and [evidence](evidence/validation/LCL_ORDINARY_53_2_DIRECT_SEED_001/README.md).
 
 - D110 **EXCLUDES** the sole −2 left-terminal interface with location free on frozen ordered `[[5,3],[2]]` at the three pinned labels. Three cases for label 13 leave three scalar rows, excluded by two label collisions and one row with two repeated weights. The audit and separate reviews passed. The magnitude-two fixture passed the signed gate and failed the unchanged ordinary checker. See [proof](research/ORDINARY_53_2_MAGNITUDE_TWO.md) and [evidence](evidence/validation/LCL_ORDINARY_53_2_MAGNITUDE_TWO_001/README.md).
 

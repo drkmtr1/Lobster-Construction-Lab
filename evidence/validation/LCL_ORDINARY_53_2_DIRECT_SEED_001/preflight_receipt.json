@@ -1,0 +1,62 @@
+{
+  "argv": [
+    "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-E",
+    "-X",
+    "utf8",
+    "evidence/validation/LCL_ORDINARY_53_2_DIRECT_SEED_001/preflight.py",
+    "006cd4d2118f19030c9ca406b4be54fc1dfd8b3e9b608ba73d1bab5c476ab777"
+  ],
+  "input_hashes": {
+    "CONTRACT.md": "e3475b6e8639a78e93679e3dcdbc2afd2558a0c1bbeff585251cd0898695f85e",
+    "audit.py": "0c5862fff7ee61cc7aebc6ee39a275c9dbc69c28ea6942a9f186c3f70d44abe0",
+    "config.json": "006cd4d2118f19030c9ca406b4be54fc1dfd8b3e9b608ba73d1bab5c476ab777",
+    "preflight.py": "698ee3c3f2546713f0cba2df38ee5d55106ccb083e09f95e99c515b1c00f8820",
+    "run.py": "42acacbace73f81727e68bc05a1032d18e24392210af6c311eecd97aa156a222",
+    "supervise.ps1": "b9ab79a4001ab3a37489953a29e06612f5deb42cbdf01c5a4c78f6933f104036"
+  },
+  "parent": "b09a0d02d3609628be7a530028aaa67c8c73de38",
+  "parsed_functions": {
+    "audit.py": [
+      "certificate_audit",
+      "controls",
+      "residual_audit",
+      "topology"
+    ],
+    "preflight.py": [
+      "check",
+      "main"
+    ],
+    "run.py": [
+      "construct",
+      "digest_file",
+      "execute",
+      "pins_gate",
+      "produce",
+      "read_json",
+      "retained_positive",
+      "run_controls",
+      "validate_inputs",
+      "write_record"
+    ]
+  },
+  "preflight_invocations": 1,
+  "runtime": {
+    "path": ".venv/Scripts/python.exe",
+    "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "source_pins_checked": 194,
+  "status": "PASS",
+  "task": "LCL-ORDINARY-53-2-DIRECT-SEED-001",
+  "task_module_imports": 0,
+  "vacant_outputs": [
+    "original.json",
+    "result.json",
+    "command_receipt.json",
+    "supervisor_receipt.json",
+    "official_stderr.txt",
+    "__pycache__"
+  ]
+}
