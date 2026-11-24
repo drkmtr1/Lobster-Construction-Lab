@@ -1,0 +1,58 @@
+{
+  "argv": [
+    "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "evidence/validation/LCL_R241_43_2_LOWER_BLOCK_001/preflight.py",
+    "fadeda4ab239e7b367e9a104c19044177df56e2dcfef610039484ff7cb0ebafa"
+  ],
+  "input_hashes": {
+    "audit.py": "179ed0502bef5917216b71283769d2753d6d00ae0612f7fbdd65b9898eb69cd1",
+    "config.json": "fadeda4ab239e7b367e9a104c19044177df56e2dcfef610039484ff7cb0ebafa",
+    "preflight.py": "d22d9dab62d14e6ef4a2a5061bb0ce09c5d7ad443650f9efb4fcdd0229084e4a",
+    "run.py": "77ae6dca9b15169497fe55a3b853dbdb971f43b819e84cd984f5a214e103283d"
+  },
+  "parent": "b49c028a26fc7c46970930e3eaa0097c401ef5d3",
+  "parsed_functions": {
+    "audit.py": [
+      "digest",
+      "inspect",
+      "edge_rows",
+      "check_state",
+      "inspect_row",
+      "check"
+    ],
+    "run.py": [
+      "load",
+      "raw_hash",
+      "write_record",
+      "ledger_id",
+      "edges",
+      "require_extension",
+      "interface",
+      "source_ledgers",
+      "placement",
+      "adverses",
+      "verify_inputs",
+      "produce",
+      "execute"
+    ]
+  },
+  "preflight_invocations": 1,
+  "runtime": {
+    "path": ".venv/Scripts/python.exe",
+    "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "source_pins_checked": 26,
+  "status": "PASS",
+  "task": "LCL-R241-43-2-LOWER-BLOCK-001",
+  "task_module_imports": 0,
+  "vacant_outputs": [
+    "original.json",
+    "result.json",
+    "command_receipt.json",
+    "__pycache__"
+  ]
+}

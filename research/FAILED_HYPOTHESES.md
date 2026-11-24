@@ -501,3 +501,7 @@ edge would have weight 2. The separate K=1 construction is unaffected.
 ### F-R241-43-PORT53
 
 **REJECT** A(11,6;5,3) on exact named `[[4],[3]]` at the physical s:0=5, s:1=9 pins with s:0 low. The signed-degree equation forces (A,z)=(8,2). An actual right-terminal edge repeats the spine's difference four, and the required labels 0 and 10 lie at nonadjacent terminals. This excludes the selected state at cut six. D078 independently supplies the exact original at (1,1). [Proof](R241_43_PORT53_RETURN.md) · D092
+
+### F-R241-43-2-LOWER-BLOCK
+
+**REJECT** the claim that at least one of nine permitted thresholds supplies the original `[[4,3],[2]]` via one lower-block leaf insertion at `b:0:1` from the D098 `[[4,2],[2]]` ledger or its within-class reflection. Ledger I repeats 10−c and omits 9−c at c=4 through 8. Ledger II repeats 5 and omits 4 at c=5 through 7, then repeats 4 and omits 1 at c=8. This closes exactly the nine placements from the two fixed sources and does not adjudicate either prescribed numerical port pair across other labelings. [Proof](R241_43_2_LOWER_BLOCK.md) · D099

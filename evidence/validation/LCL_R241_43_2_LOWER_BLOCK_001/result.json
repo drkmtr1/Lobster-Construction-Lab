@@ -1,0 +1,2714 @@
+{
+  "accepted_certificates": [],
+  "adverse": {
+    "graph_digest": {
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          9,
+          5,
+          4,
+          3,
+          2,
+          1,
+          6,
+          8,
+          7,
+          12,
+          10,
+          11
+        ],
+        "errors": [
+          "original graph digest mismatch"
+        ],
+        "graph_digest": "c602b9934b690cf8bc23e1533840815d1f0ebdc3156f51c361b66c014d9480a0",
+        "m": 12,
+        "n": 13,
+        "valid": false
+      },
+      "declared": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "incidence": {
+      "claimed_edge": [
+        "b:0:0",
+        "l:0:1:2"
+      ],
+      "error": "Incorrect new original incidence",
+      "replaced_edge": [
+        "b:0:1",
+        "l:0:1:2"
+      ],
+      "valid": false
+    },
+    "physical_port": {
+      "declared": [
+        3,
+        3
+      ],
+      "error": "Physical offset mismatch",
+      "valid": false
+    }
+  },
+  "audit": {
+    "added_incidence": [
+      "b:0:1",
+      "l:0:1:2"
+    ],
+    "archived_execution_statuses": {
+      "D083_original": "INCOMPLETE",
+      "D083_versioned": "PASS",
+      "D093_original": "INCOMPLETE",
+      "D093_versioned": "PASS"
+    },
+    "source_edge_differences": {
+      "I": [
+        9,
+        5,
+        4,
+        3,
+        2,
+        1,
+        6,
+        8,
+        7,
+        12,
+        10,
+        11
+      ],
+      "II": [
+        4,
+        8,
+        9,
+        10,
+        11,
+        12,
+        7,
+        5,
+        6,
+        1,
+        3,
+        2
+      ]
+    },
+    "status": "PASS",
+    "threshold_audits": [
+      {
+        "ledger": "I",
+        "missing": [
+          5
+        ],
+        "repeated": [
+          [
+            6,
+            2
+          ]
+        ],
+        "selected_edge_count": 8,
+        "threshold": 4,
+        "valid": false
+      },
+      {
+        "ledger": "I",
+        "missing": [
+          4
+        ],
+        "repeated": [
+          [
+            5,
+            2
+          ]
+        ],
+        "selected_edge_count": 9,
+        "threshold": 5,
+        "valid": false
+      },
+      {
+        "ledger": "I",
+        "missing": [
+          3
+        ],
+        "repeated": [
+          [
+            4,
+            2
+          ]
+        ],
+        "selected_edge_count": 10,
+        "threshold": 6,
+        "valid": false
+      },
+      {
+        "ledger": "I",
+        "missing": [
+          2
+        ],
+        "repeated": [
+          [
+            3,
+            2
+          ]
+        ],
+        "selected_edge_count": 11,
+        "threshold": 7,
+        "valid": false
+      },
+      {
+        "ledger": "I",
+        "missing": [
+          1
+        ],
+        "repeated": [
+          [
+            2,
+            2
+          ]
+        ],
+        "selected_edge_count": 12,
+        "threshold": 8,
+        "valid": false
+      },
+      {
+        "ledger": "II",
+        "missing": [
+          4
+        ],
+        "repeated": [
+          [
+            5,
+            2
+          ]
+        ],
+        "selected_edge_count": 7,
+        "threshold": 5,
+        "valid": false
+      },
+      {
+        "ledger": "II",
+        "missing": [
+          4
+        ],
+        "repeated": [
+          [
+            5,
+            2
+          ]
+        ],
+        "selected_edge_count": 8,
+        "threshold": 6,
+        "valid": false
+      },
+      {
+        "ledger": "II",
+        "missing": [
+          4
+        ],
+        "repeated": [
+          [
+            5,
+            2
+          ]
+        ],
+        "selected_edge_count": 9,
+        "threshold": 7,
+        "valid": false
+      },
+      {
+        "ledger": "II",
+        "missing": [
+          1
+        ],
+        "repeated": [
+          [
+            4,
+            2
+          ]
+        ],
+        "selected_edge_count": 12,
+        "threshold": 8,
+        "valid": false
+      }
+    ]
+  },
+  "disposition": "REJECT",
+  "parent": "b49c028a26fc7c46970930e3eaa0097c401ef5d3",
+  "runtime": {
+    "path": ".venv/Scripts/python.exe",
+    "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "source_ledgers": {
+    "I": {
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          9,
+          5,
+          4,
+          3,
+          2,
+          1,
+          6,
+          8,
+          7,
+          12,
+          10,
+          11
+        ],
+        "errors": [],
+        "graph_digest": "c602b9934b690cf8bc23e1533840815d1f0ebdc3156f51c361b66c014d9480a0",
+        "m": 12,
+        "n": 13,
+        "valid": true
+      },
+      "graph_digest": "c602b9934b690cf8bc23e1533840815d1f0ebdc3156f51c361b66c014d9480a0",
+      "interface": {
+        "cut": 8,
+        "edge_crossing": true,
+        "host_label": 9,
+        "host_spine_distance": 1,
+        "offsets": [
+          3,
+          4
+        ],
+        "physical_labels": [
+          3,
+          12
+        ],
+        "witness": [
+          "s:0",
+          "s:1"
+        ]
+      },
+      "labels": {
+        "b:0:0": 8,
+        "b:0:1": 9,
+        "b:1:0": 0,
+        "l:0:0:0": 4,
+        "l:0:0:1": 5,
+        "l:0:0:2": 6,
+        "l:0:0:3": 7,
+        "l:0:1:0": 1,
+        "l:0:1:1": 2,
+        "l:1:0:0": 10,
+        "l:1:0:1": 11,
+        "s:0": 3,
+        "s:1": 12
+      },
+      "ledger_id": "66750924e7057c3b304ac56021039b3fcded589741ab5b25d2930e8f25ddd658"
+    },
+    "II": {
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          4,
+          8,
+          9,
+          10,
+          11,
+          12,
+          7,
+          5,
+          6,
+          1,
+          3,
+          2
+        ],
+        "errors": [],
+        "graph_digest": "c602b9934b690cf8bc23e1533840815d1f0ebdc3156f51c361b66c014d9480a0",
+        "m": 12,
+        "n": 13,
+        "valid": true
+      },
+      "graph_digest": "c602b9934b690cf8bc23e1533840815d1f0ebdc3156f51c361b66c014d9480a0",
+      "interface": {
+        "cut": 8,
+        "edge_crossing": true,
+        "host_label": 11,
+        "host_spine_distance": 1,
+        "offsets": [
+          4,
+          0
+        ],
+        "physical_labels": [
+          4,
+          8
+        ],
+        "witness": [
+          "s:0",
+          "s:1"
+        ]
+      },
+      "labels": {
+        "b:0:0": 12,
+        "b:0:1": 11,
+        "b:1:0": 7,
+        "l:0:0:0": 3,
+        "l:0:0:1": 2,
+        "l:0:0:2": 1,
+        "l:0:0:3": 0,
+        "l:0:1:0": 6,
+        "l:0:1:1": 5,
+        "l:1:0:0": 10,
+        "l:1:0:1": 9,
+        "s:0": 4,
+        "s:1": 8
+      },
+      "ledger_id": "dcd8c6c195e50963296d08981ba4a257a1e8231180ebd4b7b55ac83c6641cc07"
+    }
+  },
+  "status": "PASS",
+  "target_original_sha256": "99d92699cea529c235f3ed146805920d39c030b33d5651e0ba64ed8e1889d168",
+  "task": "LCL-R241-43-2-LOWER-BLOCK-001",
+  "threshold_rows": [
+    {
+      "absent_premise": [],
+      "actual_premise": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          10,
+          6,
+          4,
+          3,
+          2,
+          1,
+          7,
+          9,
+          8,
+          6,
+          13,
+          11,
+          12
+        ],
+        "errors": [
+          "edge differences repeat",
+          "edge differences are not exactly 1..m"
+        ],
+        "graph_digest": "2060a4e5a7d8f8ebc1906499facea2730250938d4550bb4c6ca34582a1f5b6e6",
+        "m": 13,
+        "n": 14,
+        "valid": false
+      },
+      "difference_inventory": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "edge_rows": [
+        [
+          "s:0",
+          "s:1",
+          10
+        ],
+        [
+          "s:0",
+          "b:0:0",
+          6
+        ],
+        [
+          "b:0:0",
+          "l:0:0:0",
+          4
+        ],
+        [
+          "b:0:0",
+          "l:0:0:1",
+          3
+        ],
+        [
+          "b:0:0",
+          "l:0:0:2",
+          2
+        ],
+        [
+          "b:0:0",
+          "l:0:0:3",
+          1
+        ],
+        [
+          "s:0",
+          "b:0:1",
+          7
+        ],
+        [
+          "b:0:1",
+          "l:0:1:0",
+          9
+        ],
+        [
+          "b:0:1",
+          "l:0:1:1",
+          8
+        ],
+        [
+          "b:0:1",
+          "l:0:1:2",
+          6
+        ],
+        [
+          "s:1",
+          "b:1:0",
+          13
+        ],
+        [
+          "b:1:0",
+          "l:1:0:0",
+          11
+        ],
+        [
+          "b:1:0",
+          "l:1:0:1",
+          12
+        ]
+      ],
+      "extra_premise": [
+        5
+      ],
+      "interface": {
+        "cut": 9,
+        "edge_crossing": true,
+        "host_label": 10,
+        "host_spine_distance": 1,
+        "offsets": [
+          3,
+          4
+        ],
+        "physical_labels": [
+          3,
+          13
+        ],
+        "witness": [
+          "s:0",
+          "s:1"
+        ]
+      },
+      "label_inventory": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "labels": {
+        "b:0:0": 9,
+        "b:0:1": 10,
+        "b:1:0": 0,
+        "l:0:0:0": 5,
+        "l:0:0:1": 6,
+        "l:0:0:2": 7,
+        "l:0:0:3": 8,
+        "l:0:1:0": 1,
+        "l:0:1:1": 2,
+        "l:0:1:2": 4,
+        "l:1:0:0": 11,
+        "l:1:0:1": 12,
+        "s:0": 3,
+        "s:1": 13
+      },
+      "ledger": "I",
+      "missing_differences": [
+        5
+      ],
+      "new_leaf": [
+        "l:0:1:2",
+        4,
+        6
+      ],
+      "repeated_differences": [
+        [
+          6,
+          2
+        ]
+      ],
+      "required_premise": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "selected_edges": [
+        [
+          "s:0",
+          "s:1",
+          9
+        ],
+        [
+          "s:0",
+          "b:0:0",
+          5
+        ],
+        [
+          "s:0",
+          "b:0:1",
+          6
+        ],
+        [
+          "b:0:1",
+          "l:0:1:0",
+          8
+        ],
+        [
+          "b:0:1",
+          "l:0:1:1",
+          7
+        ],
+        [
+          "s:1",
+          "b:1:0",
+          12
+        ],
+        [
+          "b:1:0",
+          "l:1:0:0",
+          10
+        ],
+        [
+          "b:1:0",
+          "l:1:0:1",
+          11
+        ]
+      ],
+      "selected_vertices": [
+        "b:1:0",
+        "l:0:1:0",
+        "l:0:1:1",
+        "s:0"
+      ],
+      "theorem_applies": false,
+      "threshold": 4
+    },
+    {
+      "absent_premise": [],
+      "actual_premise": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          10,
+          6,
+          5,
+          3,
+          2,
+          1,
+          7,
+          9,
+          8,
+          5,
+          13,
+          11,
+          12
+        ],
+        "errors": [
+          "edge differences repeat",
+          "edge differences are not exactly 1..m"
+        ],
+        "graph_digest": "2060a4e5a7d8f8ebc1906499facea2730250938d4550bb4c6ca34582a1f5b6e6",
+        "m": 13,
+        "n": 14,
+        "valid": false
+      },
+      "difference_inventory": [
+        1,
+        2,
+        3,
+        5,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "edge_rows": [
+        [
+          "s:0",
+          "s:1",
+          10
+        ],
+        [
+          "s:0",
+          "b:0:0",
+          6
+        ],
+        [
+          "b:0:0",
+          "l:0:0:0",
+          5
+        ],
+        [
+          "b:0:0",
+          "l:0:0:1",
+          3
+        ],
+        [
+          "b:0:0",
+          "l:0:0:2",
+          2
+        ],
+        [
+          "b:0:0",
+          "l:0:0:3",
+          1
+        ],
+        [
+          "s:0",
+          "b:0:1",
+          7
+        ],
+        [
+          "b:0:1",
+          "l:0:1:0",
+          9
+        ],
+        [
+          "b:0:1",
+          "l:0:1:1",
+          8
+        ],
+        [
+          "b:0:1",
+          "l:0:1:2",
+          5
+        ],
+        [
+          "s:1",
+          "b:1:0",
+          13
+        ],
+        [
+          "b:1:0",
+          "l:1:0:0",
+          11
+        ],
+        [
+          "b:1:0",
+          "l:1:0:1",
+          12
+        ]
+      ],
+      "extra_premise": [
+        4
+      ],
+      "interface": {
+        "cut": 9,
+        "edge_crossing": true,
+        "host_label": 10,
+        "host_spine_distance": 1,
+        "offsets": [
+          3,
+          4
+        ],
+        "physical_labels": [
+          3,
+          13
+        ],
+        "witness": [
+          "s:0",
+          "s:1"
+        ]
+      },
+      "label_inventory": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "labels": {
+        "b:0:0": 9,
+        "b:0:1": 10,
+        "b:1:0": 0,
+        "l:0:0:0": 4,
+        "l:0:0:1": 6,
+        "l:0:0:2": 7,
+        "l:0:0:3": 8,
+        "l:0:1:0": 1,
+        "l:0:1:1": 2,
+        "l:0:1:2": 5,
+        "l:1:0:0": 11,
+        "l:1:0:1": 12,
+        "s:0": 3,
+        "s:1": 13
+      },
+      "ledger": "I",
+      "missing_differences": [
+        4
+      ],
+      "new_leaf": [
+        "l:0:1:2",
+        5,
+        5
+      ],
+      "repeated_differences": [
+        [
+          5,
+          2
+        ]
+      ],
+      "required_premise": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "selected_edges": [
+        [
+          "s:0",
+          "s:1",
+          9
+        ],
+        [
+          "s:0",
+          "b:0:0",
+          5
+        ],
+        [
+          "b:0:0",
+          "l:0:0:0",
+          4
+        ],
+        [
+          "s:0",
+          "b:0:1",
+          6
+        ],
+        [
+          "b:0:1",
+          "l:0:1:0",
+          8
+        ],
+        [
+          "b:0:1",
+          "l:0:1:1",
+          7
+        ],
+        [
+          "s:1",
+          "b:1:0",
+          12
+        ],
+        [
+          "b:1:0",
+          "l:1:0:0",
+          10
+        ],
+        [
+          "b:1:0",
+          "l:1:0:1",
+          11
+        ]
+      ],
+      "selected_vertices": [
+        "b:1:0",
+        "l:0:0:0",
+        "l:0:1:0",
+        "l:0:1:1",
+        "s:0"
+      ],
+      "theorem_applies": false,
+      "threshold": 5
+    },
+    {
+      "absent_premise": [],
+      "actual_premise": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          10,
+          6,
+          5,
+          4,
+          2,
+          1,
+          7,
+          9,
+          8,
+          4,
+          13,
+          11,
+          12
+        ],
+        "errors": [
+          "edge differences repeat",
+          "edge differences are not exactly 1..m"
+        ],
+        "graph_digest": "2060a4e5a7d8f8ebc1906499facea2730250938d4550bb4c6ca34582a1f5b6e6",
+        "m": 13,
+        "n": 14,
+        "valid": false
+      },
+      "difference_inventory": [
+        1,
+        2,
+        4,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "edge_rows": [
+        [
+          "s:0",
+          "s:1",
+          10
+        ],
+        [
+          "s:0",
+          "b:0:0",
+          6
+        ],
+        [
+          "b:0:0",
+          "l:0:0:0",
+          5
+        ],
+        [
+          "b:0:0",
+          "l:0:0:1",
+          4
+        ],
+        [
+          "b:0:0",
+          "l:0:0:2",
+          2
+        ],
+        [
+          "b:0:0",
+          "l:0:0:3",
+          1
+        ],
+        [
+          "s:0",
+          "b:0:1",
+          7
+        ],
+        [
+          "b:0:1",
+          "l:0:1:0",
+          9
+        ],
+        [
+          "b:0:1",
+          "l:0:1:1",
+          8
+        ],
+        [
+          "b:0:1",
+          "l:0:1:2",
+          4
+        ],
+        [
+          "s:1",
+          "b:1:0",
+          13
+        ],
+        [
+          "b:1:0",
+          "l:1:0:0",
+          11
+        ],
+        [
+          "b:1:0",
+          "l:1:0:1",
+          12
+        ]
+      ],
+      "extra_premise": [
+        3
+      ],
+      "interface": {
+        "cut": 9,
+        "edge_crossing": true,
+        "host_label": 10,
+        "host_spine_distance": 1,
+        "offsets": [
+          3,
+          4
+        ],
+        "physical_labels": [
+          3,
+          13
+        ],
+        "witness": [
+          "s:0",
+          "s:1"
+        ]
+      },
+      "label_inventory": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "labels": {
+        "b:0:0": 9,
+        "b:0:1": 10,
+        "b:1:0": 0,
+        "l:0:0:0": 4,
+        "l:0:0:1": 5,
+        "l:0:0:2": 7,
+        "l:0:0:3": 8,
+        "l:0:1:0": 1,
+        "l:0:1:1": 2,
+        "l:0:1:2": 6,
+        "l:1:0:0": 11,
+        "l:1:0:1": 12,
+        "s:0": 3,
+        "s:1": 13
+      },
+      "ledger": "I",
+      "missing_differences": [
+        3
+      ],
+      "new_leaf": [
+        "l:0:1:2",
+        6,
+        4
+      ],
+      "repeated_differences": [
+        [
+          4,
+          2
+        ]
+      ],
+      "required_premise": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "selected_edges": [
+        [
+          "s:0",
+          "s:1",
+          9
+        ],
+        [
+          "s:0",
+          "b:0:0",
+          5
+        ],
+        [
+          "b:0:0",
+          "l:0:0:0",
+          4
+        ],
+        [
+          "b:0:0",
+          "l:0:0:1",
+          3
+        ],
+        [
+          "s:0",
+          "b:0:1",
+          6
+        ],
+        [
+          "b:0:1",
+          "l:0:1:0",
+          8
+        ],
+        [
+          "b:0:1",
+          "l:0:1:1",
+          7
+        ],
+        [
+          "s:1",
+          "b:1:0",
+          12
+        ],
+        [
+          "b:1:0",
+          "l:1:0:0",
+          10
+        ],
+        [
+          "b:1:0",
+          "l:1:0:1",
+          11
+        ]
+      ],
+      "selected_vertices": [
+        "b:1:0",
+        "l:0:0:0",
+        "l:0:0:1",
+        "l:0:1:0",
+        "l:0:1:1",
+        "s:0"
+      ],
+      "theorem_applies": false,
+      "threshold": 6
+    },
+    {
+      "absent_premise": [],
+      "actual_premise": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          10,
+          6,
+          5,
+          4,
+          3,
+          1,
+          7,
+          9,
+          8,
+          3,
+          13,
+          11,
+          12
+        ],
+        "errors": [
+          "edge differences repeat",
+          "edge differences are not exactly 1..m"
+        ],
+        "graph_digest": "2060a4e5a7d8f8ebc1906499facea2730250938d4550bb4c6ca34582a1f5b6e6",
+        "m": 13,
+        "n": 14,
+        "valid": false
+      },
+      "difference_inventory": [
+        1,
+        3,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "edge_rows": [
+        [
+          "s:0",
+          "s:1",
+          10
+        ],
+        [
+          "s:0",
+          "b:0:0",
+          6
+        ],
+        [
+          "b:0:0",
+          "l:0:0:0",
+          5
+        ],
+        [
+          "b:0:0",
+          "l:0:0:1",
+          4
+        ],
+        [
+          "b:0:0",
+          "l:0:0:2",
+          3
+        ],
+        [
+          "b:0:0",
+          "l:0:0:3",
+          1
+        ],
+        [
+          "s:0",
+          "b:0:1",
+          7
+        ],
+        [
+          "b:0:1",
+          "l:0:1:0",
+          9
+        ],
+        [
+          "b:0:1",
+          "l:0:1:1",
+          8
+        ],
+        [
+          "b:0:1",
+          "l:0:1:2",
+          3
+        ],
+        [
+          "s:1",
+          "b:1:0",
+          13
+        ],
+        [
+          "b:1:0",
+          "l:1:0:0",
+          11
+        ],
+        [
+          "b:1:0",
+          "l:1:0:1",
+          12
+        ]
+      ],
+      "extra_premise": [
+        2
+      ],
+      "interface": {
+        "cut": 9,
+        "edge_crossing": true,
+        "host_label": 10,
+        "host_spine_distance": 1,
+        "offsets": [
+          3,
+          4
+        ],
+        "physical_labels": [
+          3,
+          13
+        ],
+        "witness": [
+          "s:0",
+          "s:1"
+        ]
+      },
+      "label_inventory": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "labels": {
+        "b:0:0": 9,
+        "b:0:1": 10,
+        "b:1:0": 0,
+        "l:0:0:0": 4,
+        "l:0:0:1": 5,
+        "l:0:0:2": 6,
+        "l:0:0:3": 8,
+        "l:0:1:0": 1,
+        "l:0:1:1": 2,
+        "l:0:1:2": 7,
+        "l:1:0:0": 11,
+        "l:1:0:1": 12,
+        "s:0": 3,
+        "s:1": 13
+      },
+      "ledger": "I",
+      "missing_differences": [
+        2
+      ],
+      "new_leaf": [
+        "l:0:1:2",
+        7,
+        3
+      ],
+      "repeated_differences": [
+        [
+          3,
+          2
+        ]
+      ],
+      "required_premise": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "selected_edges": [
+        [
+          "s:0",
+          "s:1",
+          9
+        ],
+        [
+          "s:0",
+          "b:0:0",
+          5
+        ],
+        [
+          "b:0:0",
+          "l:0:0:0",
+          4
+        ],
+        [
+          "b:0:0",
+          "l:0:0:1",
+          3
+        ],
+        [
+          "b:0:0",
+          "l:0:0:2",
+          2
+        ],
+        [
+          "s:0",
+          "b:0:1",
+          6
+        ],
+        [
+          "b:0:1",
+          "l:0:1:0",
+          8
+        ],
+        [
+          "b:0:1",
+          "l:0:1:1",
+          7
+        ],
+        [
+          "s:1",
+          "b:1:0",
+          12
+        ],
+        [
+          "b:1:0",
+          "l:1:0:0",
+          10
+        ],
+        [
+          "b:1:0",
+          "l:1:0:1",
+          11
+        ]
+      ],
+      "selected_vertices": [
+        "b:1:0",
+        "l:0:0:0",
+        "l:0:0:1",
+        "l:0:0:2",
+        "l:0:1:0",
+        "l:0:1:1",
+        "s:0"
+      ],
+      "theorem_applies": false,
+      "threshold": 7
+    },
+    {
+      "absent_premise": [],
+      "actual_premise": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          10,
+          6,
+          5,
+          4,
+          3,
+          2,
+          7,
+          9,
+          8,
+          2,
+          13,
+          11,
+          12
+        ],
+        "errors": [
+          "edge differences repeat",
+          "edge differences are not exactly 1..m"
+        ],
+        "graph_digest": "2060a4e5a7d8f8ebc1906499facea2730250938d4550bb4c6ca34582a1f5b6e6",
+        "m": 13,
+        "n": 14,
+        "valid": false
+      },
+      "difference_inventory": [
+        2,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "edge_rows": [
+        [
+          "s:0",
+          "s:1",
+          10
+        ],
+        [
+          "s:0",
+          "b:0:0",
+          6
+        ],
+        [
+          "b:0:0",
+          "l:0:0:0",
+          5
+        ],
+        [
+          "b:0:0",
+          "l:0:0:1",
+          4
+        ],
+        [
+          "b:0:0",
+          "l:0:0:2",
+          3
+        ],
+        [
+          "b:0:0",
+          "l:0:0:3",
+          2
+        ],
+        [
+          "s:0",
+          "b:0:1",
+          7
+        ],
+        [
+          "b:0:1",
+          "l:0:1:0",
+          9
+        ],
+        [
+          "b:0:1",
+          "l:0:1:1",
+          8
+        ],
+        [
+          "b:0:1",
+          "l:0:1:2",
+          2
+        ],
+        [
+          "s:1",
+          "b:1:0",
+          13
+        ],
+        [
+          "b:1:0",
+          "l:1:0:0",
+          11
+        ],
+        [
+          "b:1:0",
+          "l:1:0:1",
+          12
+        ]
+      ],
+      "extra_premise": [
+        1
+      ],
+      "interface": {
+        "cut": 9,
+        "edge_crossing": true,
+        "host_label": 10,
+        "host_spine_distance": 1,
+        "offsets": [
+          3,
+          4
+        ],
+        "physical_labels": [
+          3,
+          13
+        ],
+        "witness": [
+          "s:0",
+          "s:1"
+        ]
+      },
+      "label_inventory": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "labels": {
+        "b:0:0": 9,
+        "b:0:1": 10,
+        "b:1:0": 0,
+        "l:0:0:0": 4,
+        "l:0:0:1": 5,
+        "l:0:0:2": 6,
+        "l:0:0:3": 7,
+        "l:0:1:0": 1,
+        "l:0:1:1": 2,
+        "l:0:1:2": 8,
+        "l:1:0:0": 11,
+        "l:1:0:1": 12,
+        "s:0": 3,
+        "s:1": 13
+      },
+      "ledger": "I",
+      "missing_differences": [
+        1
+      ],
+      "new_leaf": [
+        "l:0:1:2",
+        8,
+        2
+      ],
+      "repeated_differences": [
+        [
+          2,
+          2
+        ]
+      ],
+      "required_premise": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "selected_edges": [
+        [
+          "s:0",
+          "s:1",
+          9
+        ],
+        [
+          "s:0",
+          "b:0:0",
+          5
+        ],
+        [
+          "b:0:0",
+          "l:0:0:0",
+          4
+        ],
+        [
+          "b:0:0",
+          "l:0:0:1",
+          3
+        ],
+        [
+          "b:0:0",
+          "l:0:0:2",
+          2
+        ],
+        [
+          "b:0:0",
+          "l:0:0:3",
+          1
+        ],
+        [
+          "s:0",
+          "b:0:1",
+          6
+        ],
+        [
+          "b:0:1",
+          "l:0:1:0",
+          8
+        ],
+        [
+          "b:0:1",
+          "l:0:1:1",
+          7
+        ],
+        [
+          "s:1",
+          "b:1:0",
+          12
+        ],
+        [
+          "b:1:0",
+          "l:1:0:0",
+          10
+        ],
+        [
+          "b:1:0",
+          "l:1:0:1",
+          11
+        ]
+      ],
+      "selected_vertices": [
+        "b:1:0",
+        "l:0:0:0",
+        "l:0:0:1",
+        "l:0:0:2",
+        "l:0:0:3",
+        "l:0:1:0",
+        "l:0:1:1",
+        "s:0"
+      ],
+      "theorem_applies": false,
+      "threshold": 8
+    },
+    {
+      "absent_premise": [],
+      "actual_premise": [
+        4,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          5,
+          9,
+          10,
+          11,
+          12,
+          13,
+          8,
+          5,
+          6,
+          7,
+          1,
+          3,
+          2
+        ],
+        "errors": [
+          "edge differences repeat",
+          "edge differences are not exactly 1..m"
+        ],
+        "graph_digest": "2060a4e5a7d8f8ebc1906499facea2730250938d4550bb4c6ca34582a1f5b6e6",
+        "m": 13,
+        "n": 14,
+        "valid": false
+      },
+      "difference_inventory": [
+        1,
+        2,
+        3,
+        5,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "edge_rows": [
+        [
+          "s:0",
+          "s:1",
+          5
+        ],
+        [
+          "s:0",
+          "b:0:0",
+          9
+        ],
+        [
+          "b:0:0",
+          "l:0:0:0",
+          10
+        ],
+        [
+          "b:0:0",
+          "l:0:0:1",
+          11
+        ],
+        [
+          "b:0:0",
+          "l:0:0:2",
+          12
+        ],
+        [
+          "b:0:0",
+          "l:0:0:3",
+          13
+        ],
+        [
+          "s:0",
+          "b:0:1",
+          8
+        ],
+        [
+          "b:0:1",
+          "l:0:1:0",
+          5
+        ],
+        [
+          "b:0:1",
+          "l:0:1:1",
+          6
+        ],
+        [
+          "b:0:1",
+          "l:0:1:2",
+          7
+        ],
+        [
+          "s:1",
+          "b:1:0",
+          1
+        ],
+        [
+          "b:1:0",
+          "l:1:0:0",
+          3
+        ],
+        [
+          "b:1:0",
+          "l:1:0:1",
+          2
+        ]
+      ],
+      "extra_premise": [
+        4
+      ],
+      "interface": {
+        "cut": 9,
+        "edge_crossing": true,
+        "host_label": 12,
+        "host_spine_distance": 1,
+        "offsets": [
+          4,
+          0
+        ],
+        "physical_labels": [
+          4,
+          9
+        ],
+        "witness": [
+          "s:0",
+          "s:1"
+        ]
+      },
+      "label_inventory": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "labels": {
+        "b:0:0": 13,
+        "b:0:1": 12,
+        "b:1:0": 8,
+        "l:0:0:0": 3,
+        "l:0:0:1": 2,
+        "l:0:0:2": 1,
+        "l:0:0:3": 0,
+        "l:0:1:0": 7,
+        "l:0:1:1": 6,
+        "l:0:1:2": 5,
+        "l:1:0:0": 11,
+        "l:1:0:1": 10,
+        "s:0": 4,
+        "s:1": 9
+      },
+      "ledger": "II",
+      "missing_differences": [
+        4
+      ],
+      "new_leaf": [
+        "l:0:1:2",
+        5,
+        7
+      ],
+      "repeated_differences": [
+        [
+          5,
+          2
+        ]
+      ],
+      "required_premise": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "selected_edges": [
+        [
+          "s:0",
+          "s:1",
+          4
+        ],
+        [
+          "s:0",
+          "b:0:0",
+          8
+        ],
+        [
+          "b:0:0",
+          "l:0:0:0",
+          9
+        ],
+        [
+          "b:0:0",
+          "l:0:0:1",
+          10
+        ],
+        [
+          "b:0:0",
+          "l:0:0:2",
+          11
+        ],
+        [
+          "b:0:0",
+          "l:0:0:3",
+          12
+        ],
+        [
+          "s:0",
+          "b:0:1",
+          7
+        ]
+      ],
+      "selected_vertices": [
+        "l:0:0:0",
+        "l:0:0:1",
+        "l:0:0:2",
+        "l:0:0:3",
+        "s:0"
+      ],
+      "theorem_applies": false,
+      "threshold": 5
+    },
+    {
+      "absent_premise": [],
+      "actual_premise": [
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          5,
+          9,
+          10,
+          11,
+          12,
+          13,
+          8,
+          5,
+          7,
+          6,
+          1,
+          3,
+          2
+        ],
+        "errors": [
+          "edge differences repeat",
+          "edge differences are not exactly 1..m"
+        ],
+        "graph_digest": "2060a4e5a7d8f8ebc1906499facea2730250938d4550bb4c6ca34582a1f5b6e6",
+        "m": 13,
+        "n": 14,
+        "valid": false
+      },
+      "difference_inventory": [
+        1,
+        2,
+        3,
+        5,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "edge_rows": [
+        [
+          "s:0",
+          "s:1",
+          5
+        ],
+        [
+          "s:0",
+          "b:0:0",
+          9
+        ],
+        [
+          "b:0:0",
+          "l:0:0:0",
+          10
+        ],
+        [
+          "b:0:0",
+          "l:0:0:1",
+          11
+        ],
+        [
+          "b:0:0",
+          "l:0:0:2",
+          12
+        ],
+        [
+          "b:0:0",
+          "l:0:0:3",
+          13
+        ],
+        [
+          "s:0",
+          "b:0:1",
+          8
+        ],
+        [
+          "b:0:1",
+          "l:0:1:0",
+          5
+        ],
+        [
+          "b:0:1",
+          "l:0:1:1",
+          7
+        ],
+        [
+          "b:0:1",
+          "l:0:1:2",
+          6
+        ],
+        [
+          "s:1",
+          "b:1:0",
+          1
+        ],
+        [
+          "b:1:0",
+          "l:1:0:0",
+          3
+        ],
+        [
+          "b:1:0",
+          "l:1:0:1",
+          2
+        ]
+      ],
+      "extra_premise": [
+        4
+      ],
+      "interface": {
+        "cut": 9,
+        "edge_crossing": true,
+        "host_label": 12,
+        "host_spine_distance": 1,
+        "offsets": [
+          4,
+          0
+        ],
+        "physical_labels": [
+          4,
+          9
+        ],
+        "witness": [
+          "s:0",
+          "s:1"
+        ]
+      },
+      "label_inventory": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "labels": {
+        "b:0:0": 13,
+        "b:0:1": 12,
+        "b:1:0": 8,
+        "l:0:0:0": 3,
+        "l:0:0:1": 2,
+        "l:0:0:2": 1,
+        "l:0:0:3": 0,
+        "l:0:1:0": 7,
+        "l:0:1:1": 5,
+        "l:0:1:2": 6,
+        "l:1:0:0": 11,
+        "l:1:0:1": 10,
+        "s:0": 4,
+        "s:1": 9
+      },
+      "ledger": "II",
+      "missing_differences": [
+        4
+      ],
+      "new_leaf": [
+        "l:0:1:2",
+        6,
+        6
+      ],
+      "repeated_differences": [
+        [
+          5,
+          2
+        ]
+      ],
+      "required_premise": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "selected_edges": [
+        [
+          "s:0",
+          "s:1",
+          4
+        ],
+        [
+          "s:0",
+          "b:0:0",
+          8
+        ],
+        [
+          "b:0:0",
+          "l:0:0:0",
+          9
+        ],
+        [
+          "b:0:0",
+          "l:0:0:1",
+          10
+        ],
+        [
+          "b:0:0",
+          "l:0:0:2",
+          11
+        ],
+        [
+          "b:0:0",
+          "l:0:0:3",
+          12
+        ],
+        [
+          "s:0",
+          "b:0:1",
+          7
+        ],
+        [
+          "b:0:1",
+          "l:0:1:1",
+          6
+        ]
+      ],
+      "selected_vertices": [
+        "l:0:0:0",
+        "l:0:0:1",
+        "l:0:0:2",
+        "l:0:0:3",
+        "l:0:1:1",
+        "s:0"
+      ],
+      "theorem_applies": false,
+      "threshold": 6
+    },
+    {
+      "absent_premise": [],
+      "actual_premise": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          5,
+          9,
+          10,
+          11,
+          12,
+          13,
+          8,
+          6,
+          7,
+          5,
+          1,
+          3,
+          2
+        ],
+        "errors": [
+          "edge differences repeat",
+          "edge differences are not exactly 1..m"
+        ],
+        "graph_digest": "2060a4e5a7d8f8ebc1906499facea2730250938d4550bb4c6ca34582a1f5b6e6",
+        "m": 13,
+        "n": 14,
+        "valid": false
+      },
+      "difference_inventory": [
+        1,
+        2,
+        3,
+        5,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "edge_rows": [
+        [
+          "s:0",
+          "s:1",
+          5
+        ],
+        [
+          "s:0",
+          "b:0:0",
+          9
+        ],
+        [
+          "b:0:0",
+          "l:0:0:0",
+          10
+        ],
+        [
+          "b:0:0",
+          "l:0:0:1",
+          11
+        ],
+        [
+          "b:0:0",
+          "l:0:0:2",
+          12
+        ],
+        [
+          "b:0:0",
+          "l:0:0:3",
+          13
+        ],
+        [
+          "s:0",
+          "b:0:1",
+          8
+        ],
+        [
+          "b:0:1",
+          "l:0:1:0",
+          6
+        ],
+        [
+          "b:0:1",
+          "l:0:1:1",
+          7
+        ],
+        [
+          "b:0:1",
+          "l:0:1:2",
+          5
+        ],
+        [
+          "s:1",
+          "b:1:0",
+          1
+        ],
+        [
+          "b:1:0",
+          "l:1:0:0",
+          3
+        ],
+        [
+          "b:1:0",
+          "l:1:0:1",
+          2
+        ]
+      ],
+      "extra_premise": [
+        4
+      ],
+      "interface": {
+        "cut": 9,
+        "edge_crossing": true,
+        "host_label": 12,
+        "host_spine_distance": 1,
+        "offsets": [
+          4,
+          0
+        ],
+        "physical_labels": [
+          4,
+          9
+        ],
+        "witness": [
+          "s:0",
+          "s:1"
+        ]
+      },
+      "label_inventory": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "labels": {
+        "b:0:0": 13,
+        "b:0:1": 12,
+        "b:1:0": 8,
+        "l:0:0:0": 3,
+        "l:0:0:1": 2,
+        "l:0:0:2": 1,
+        "l:0:0:3": 0,
+        "l:0:1:0": 6,
+        "l:0:1:1": 5,
+        "l:0:1:2": 7,
+        "l:1:0:0": 11,
+        "l:1:0:1": 10,
+        "s:0": 4,
+        "s:1": 9
+      },
+      "ledger": "II",
+      "missing_differences": [
+        4
+      ],
+      "new_leaf": [
+        "l:0:1:2",
+        7,
+        5
+      ],
+      "repeated_differences": [
+        [
+          5,
+          2
+        ]
+      ],
+      "required_premise": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "selected_edges": [
+        [
+          "s:0",
+          "s:1",
+          4
+        ],
+        [
+          "s:0",
+          "b:0:0",
+          8
+        ],
+        [
+          "b:0:0",
+          "l:0:0:0",
+          9
+        ],
+        [
+          "b:0:0",
+          "l:0:0:1",
+          10
+        ],
+        [
+          "b:0:0",
+          "l:0:0:2",
+          11
+        ],
+        [
+          "b:0:0",
+          "l:0:0:3",
+          12
+        ],
+        [
+          "s:0",
+          "b:0:1",
+          7
+        ],
+        [
+          "b:0:1",
+          "l:0:1:0",
+          5
+        ],
+        [
+          "b:0:1",
+          "l:0:1:1",
+          6
+        ]
+      ],
+      "selected_vertices": [
+        "l:0:0:0",
+        "l:0:0:1",
+        "l:0:0:2",
+        "l:0:0:3",
+        "l:0:1:0",
+        "l:0:1:1",
+        "s:0"
+      ],
+      "theorem_applies": false,
+      "threshold": 7
+    },
+    {
+      "absent_premise": [],
+      "actual_premise": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          5,
+          9,
+          10,
+          11,
+          12,
+          13,
+          8,
+          6,
+          7,
+          4,
+          2,
+          4,
+          3
+        ],
+        "errors": [
+          "edge differences repeat",
+          "edge differences are not exactly 1..m"
+        ],
+        "graph_digest": "2060a4e5a7d8f8ebc1906499facea2730250938d4550bb4c6ca34582a1f5b6e6",
+        "m": 13,
+        "n": 14,
+        "valid": false
+      },
+      "difference_inventory": [
+        2,
+        3,
+        4,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "edge_rows": [
+        [
+          "s:0",
+          "s:1",
+          5
+        ],
+        [
+          "s:0",
+          "b:0:0",
+          9
+        ],
+        [
+          "b:0:0",
+          "l:0:0:0",
+          10
+        ],
+        [
+          "b:0:0",
+          "l:0:0:1",
+          11
+        ],
+        [
+          "b:0:0",
+          "l:0:0:2",
+          12
+        ],
+        [
+          "b:0:0",
+          "l:0:0:3",
+          13
+        ],
+        [
+          "s:0",
+          "b:0:1",
+          8
+        ],
+        [
+          "b:0:1",
+          "l:0:1:0",
+          6
+        ],
+        [
+          "b:0:1",
+          "l:0:1:1",
+          7
+        ],
+        [
+          "b:0:1",
+          "l:0:1:2",
+          4
+        ],
+        [
+          "s:1",
+          "b:1:0",
+          2
+        ],
+        [
+          "b:1:0",
+          "l:1:0:0",
+          4
+        ],
+        [
+          "b:1:0",
+          "l:1:0:1",
+          3
+        ]
+      ],
+      "extra_premise": [
+        1,
+        2,
+        3
+      ],
+      "interface": {
+        "cut": 9,
+        "edge_crossing": true,
+        "host_label": 12,
+        "host_spine_distance": 1,
+        "offsets": [
+          4,
+          0
+        ],
+        "physical_labels": [
+          4,
+          9
+        ],
+        "witness": [
+          "s:0",
+          "s:1"
+        ]
+      },
+      "label_inventory": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "labels": {
+        "b:0:0": 13,
+        "b:0:1": 12,
+        "b:1:0": 7,
+        "l:0:0:0": 3,
+        "l:0:0:1": 2,
+        "l:0:0:2": 1,
+        "l:0:0:3": 0,
+        "l:0:1:0": 6,
+        "l:0:1:1": 5,
+        "l:0:1:2": 8,
+        "l:1:0:0": 11,
+        "l:1:0:1": 10,
+        "s:0": 4,
+        "s:1": 9
+      },
+      "ledger": "II",
+      "missing_differences": [
+        1
+      ],
+      "new_leaf": [
+        "l:0:1:2",
+        8,
+        4
+      ],
+      "repeated_differences": [
+        [
+          4,
+          2
+        ]
+      ],
+      "required_premise": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "selected_edges": [
+        [
+          "s:0",
+          "s:1",
+          4
+        ],
+        [
+          "s:0",
+          "b:0:0",
+          8
+        ],
+        [
+          "b:0:0",
+          "l:0:0:0",
+          9
+        ],
+        [
+          "b:0:0",
+          "l:0:0:1",
+          10
+        ],
+        [
+          "b:0:0",
+          "l:0:0:2",
+          11
+        ],
+        [
+          "b:0:0",
+          "l:0:0:3",
+          12
+        ],
+        [
+          "s:0",
+          "b:0:1",
+          7
+        ],
+        [
+          "b:0:1",
+          "l:0:1:0",
+          5
+        ],
+        [
+          "b:0:1",
+          "l:0:1:1",
+          6
+        ],
+        [
+          "s:1",
+          "b:1:0",
+          1
+        ],
+        [
+          "b:1:0",
+          "l:1:0:0",
+          3
+        ],
+        [
+          "b:1:0",
+          "l:1:0:1",
+          2
+        ]
+      ],
+      "selected_vertices": [
+        "b:1:0",
+        "l:0:0:0",
+        "l:0:0:1",
+        "l:0:0:2",
+        "l:0:0:3",
+        "l:0:1:0",
+        "l:0:1:1",
+        "s:0"
+      ],
+      "theorem_applies": false,
+      "threshold": 8
+    }
+  ]
+}

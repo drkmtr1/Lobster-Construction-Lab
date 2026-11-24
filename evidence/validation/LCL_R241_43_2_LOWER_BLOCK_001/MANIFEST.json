@@ -1,0 +1,101 @@
+{
+  "baseline_peeled_commit": "36ea1603602491bf3c1c5b81ed4c23aaa2210e70",
+  "baseline_tag_object": "fddfc1dd9541324b2ed2de2505bc750b3e3f0b9d",
+  "files": [
+    {
+      "bytes": 8,
+      "path": ".gitattributes",
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "bytes": 7980,
+      "path": "audit.py",
+      "sha256": "179ed0502bef5917216b71283769d2753d6d00ae0612f7fbdd65b9898eb69cd1"
+    },
+    {
+      "bytes": 2009,
+      "path": "command_receipt.json",
+      "sha256": "d5e626a02211f82ee8bffe3a98c9046df6ed622295894a0bcf60a9c1058f98f7"
+    },
+    {
+      "bytes": 6537,
+      "path": "config.json",
+      "sha256": "fadeda4ab239e7b367e9a104c19044177df56e2dcfef610039484ff7cb0ebafa"
+    },
+    {
+      "bytes": 1945,
+      "path": "CONTRACT.md",
+      "sha256": "71f326b8aca09b922b1b76ce279b6c0e5c7f9596f162c11bed34b8a7369f8dc7"
+    },
+    {
+      "bytes": 2653,
+      "path": "original.json",
+      "sha256": "99d92699cea529c235f3ed146805920d39c030b33d5651e0ba64ed8e1889d168"
+    },
+    {
+      "bytes": 2926,
+      "path": "preflight.py",
+      "sha256": "d22d9dab62d14e6ef4a2a5061bb0ce09c5d7ad443650f9efb4fcdd0229084e4a"
+    },
+    {
+      "bytes": 1641,
+      "path": "preflight_receipt.json",
+      "sha256": "93a575bc72b913e1d14432c6a4da3c51ac94cc9f8c605e1f9aeb8b5fe6f93446"
+    },
+    {
+      "bytes": 3793,
+      "path": "README.md",
+      "sha256": "a5893ff62a4efda267cbb4aadab5f6007054717545bc667467dda510f7286baa"
+    },
+    {
+      "bytes": 43846,
+      "path": "result.json",
+      "sha256": "4d932027801a1bcd16173ca67898ebe2c0f00d205c8601de4e948795cd5ae9f5"
+    },
+    {
+      "bytes": 2066,
+      "path": "REVIEWS.md",
+      "sha256": "4e582938467592f06c1cd7aef21604de0e7216eda36ff5804bb3f2dedeea2cbe"
+    },
+    {
+      "bytes": 12010,
+      "path": "run.py",
+      "sha256": "77ae6dca9b15169497fe55a3b853dbdb971f43b819e84cd984f5a214e103283d"
+    }
+  ],
+  "hash_convention": "SHA-256 of raw file bytes. File paths in files are relative to this bundle. The manifest excludes itself.",
+  "repository_input_hashes": {
+    "evidence/validation/LCL_R241_223_AUDIT_CLOSEOUT_001/MANIFEST.json": "ae834752c9417656d4afc2aa88d5dd37bea347eada803cbc0ec6b0563296904b",
+    "evidence/validation/LCL_R241_223_AUDIT_CLOSEOUT_001/command_receipt.json": "a4313bed9e8822bdcababe47d7342594b2bf0c43fd8f7e627da6adfc1336c7e1",
+    "evidence/validation/LCL_R241_223_STRICT_RETURN_001/MANIFEST.json": "796f76530a2ad925f2e31a5d21a3eb60db184c279f8bab08f9d289109f495c0d",
+    "evidence/validation/LCL_R241_223_STRICT_RETURN_001/command_receipts.json": "0cf2e399d699013fe18f2847cab0e97012c24b959e2a61a2187e0cad2cdb2527",
+    "evidence/validation/LCL_R241_3B2_PORT44_SYMBOLIC_001/MANIFEST.json": "127c31fb401417e3984ca53503fe9b095e55135ce7164cd560c14893ebcb3fb1",
+    "evidence/validation/LCL_R241_43_2_LOWER_BLOCK_001/CONTRACT.md": "71f326b8aca09b922b1b76ce279b6c0e5c7f9596f162c11bed34b8a7369f8dc7",
+    "evidence/validation/LCL_R241_D090_REVERSE_BANDSWAP_001/MANIFEST.json": "dc05c796b5e5afc7bfd58e5e5c27edf229b9a33f4cd1d9a305d98ea778126ee4",
+    "evidence/validation/LCL_R241_D090_REVERSE_BANDSWAP_001/external_failure_receipt.json": "ff275f31230cc3df56905ac527f4e1390b68c3d310a21fba0ced297a8d8b3cc2",
+    "evidence/validation/LCL_R241_D090_REVERSE_BANDSWAP_RECOVERY_001/MANIFEST.json": "0d3b7f4c88260e9ab9f0af81cc4da9023d507c04f654fb68d3a8b808c019c64f",
+    "evidence/validation/LCL_R241_D090_REVERSE_BANDSWAP_RECOVERY_001/command_receipt.json": "9e71ef10492dac68b70dbe9a2c006523844932728d086c228d0e2a5aaca5ae9e",
+    "evidence/validation/LCL_R241_NAMED_CENTER_ROLE_TRANSPORT_001/MANIFEST.json": "1822fc820e0455a40acbf99bd9233400c38bb78fa856bbcbd3a112936ebe3fb3",
+    "evidence/validation/LCL_R241_NAMED_CENTER_ROLE_TRANSPORT_001/REVIEWS.md": "b4b91b5ce067678cf012fc693cf72d789f93a62c3811946c9439146edcce0673",
+    "evidence/validation/LCL_R241_NAMED_CENTER_ROLE_TRANSPORT_001/command_receipt.json": "6792586182bfa17fd705e319a427d79817a08104185ed21a0c80c43525f1f53f",
+    "evidence/validation/LCL_R241_NAMED_CENTER_ROLE_TRANSPORT_001/original.json": "9bb9f7c57247c301b7a503063582bc46b9b8409786b8845e7a8cc45cd0b66582",
+    "evidence/validation/LCL_R241_NAMED_CENTER_ROLE_TRANSPORT_001/result.json": "36491950aee2cac994b7822ea599ff95d4de35a52019ba84eefd711eed19b30a",
+    "evidence/validation/LCL_R241_QAR_ALPHA_SUPPLIER_001/MANIFEST.json": "62e4c6dfdb8706c80251914950a46c606cfe06846d396b5328fe0b87d7e05b53",
+    "handoffs/CODEX-20261123-r241-named-center-role-transport.md": "0329b7e3defe5eca1b216ddc263b5d25ee9f0be1eb97feba74ee20618a5f5558",
+    "lcl/__init__.py": "134055506d3e9cd4fa538177844d28a44d5ab567ec220cf54048e63d1a8a7374",
+    "lcl/model.py": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6",
+    "lcl/verify.py": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909",
+    "references/PROVENANCE.json": "aef6f71ab460265291366041a4144cd119a15a48c22398b6e535e9c5c73b0ace",
+    "research/ALPHA_LOWER_BLOCK_LEAF_INSERTION.md": "cb91b91f305abdb6489ea5914e20b9d99c0f8aadb35cda1fae751c92962fee84",
+    "research/R241_3B2_PORT44_SYMBOLIC.md": "3f4225dbdf07710d5dc841e3ec582b22b8e9c176f4205ef847ecae0119bd2a11",
+    "research/R241_43_2_LOWER_BLOCK.md": "93d5a74fc54e6049be50c0e6daae8d52cf5ac0ebb2daf4124132ef1b35732c6f",
+    "research/R241_NAMED_CENTER_ROLE_TRANSPORT.md": "2cec0a3dd100f78475b9957f1c40575f416542d6dc8a7b2fcb025af7cfbe3b53",
+    "research/R241_QAR_ALPHA_SUPPLIER.md": "d168860724879a5e1993daa25bae123ca58a47160ea19fcdb3494e0eb008badf"
+  },
+  "starting_checkpoint": "b49c028a26fc7c46970930e3eaa0097c401ef5d3",
+  "task": "LCL-R241-43-2-LOWER-BLOCK-001",
+  "upstream_pins": {
+    "Bounded Search": "e48b94eec4091b4fe189e325cab2eda464409943",
+    "MDL": "858a8c1fcfda87ba40bb1adee498a6131504a803"
+  }
+}

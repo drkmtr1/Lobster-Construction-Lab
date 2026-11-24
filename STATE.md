@@ -2,19 +2,21 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 23, 2026, Pacific/Honolulu<br>
-**Stage:** D098 closed. Named center-role transport at (a+1,a+2) for q>r≥a≥2 is **ACCEPTED**. D097 and D098 together supply r≥min(q,a) for q,a≥2. [Proof](research/R241_NAMED_CENTER_ROLE_TRANSPORT.md).
+**Stage:** D099 closed. The one-leaf lower-block placement on `[[4,3],[2]]` from the two specified source ledgers is **REJECTED** at all nine allowed cuts. [Proof](research/R241_43_2_LOWER_BLOCK.md).
 
 ## Current scientific objective
 
-Supply multi-center modules with usable physical ports across more quota orders. The [latest handoff](handoffs/CODEX-20261123-r241-named-center-role-transport.md) records the complementary center-role transport and the proposed test of a different supplier on r<min(q,a).
+Supply multi-center modules with usable physical ports across more quota orders. The [latest handoff](handoffs/CODEX-20261123-r241-43-2-lower-block.md) records the two-ledger lower-block obstruction and the proposed direct fixed-exit supplier on the same below-capacity original.
 
 ## One next action
 
-Under separate authorization, test whether one retained lower-block leaf insertion at physical `b:0:1` can supply exact ordered `[[4,3],[2]]` from the D098 `[[4,2],[2]]` ledger or its within-class reflection. Test only the two supplied port states (3,4) and (4,0), with the actual indexed new leaf `l:0:1:2`. Check all allowed low cuts and full incidence bands. Use at most one new target and no joins, solvers or assignment enumeration.
+Under separate authorization, seek or rule out a direct two-palette alpha supplier on the same exact `[[4,3],[2]]` original at cut 9 and physical exit offset 3 (`s:1=12`), leaving the entrance label free. Use the actual maximum-weight incidence and signed degree sum to constrain the three center labels, then test the residual indexed terminal bands. Use the frozen D099 target and at most one verified positive ledger, with no joins, solvers, complete-assignment enumeration or port sweeps.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
+
+- D099 rejects one lower-block insertion at `b:0:1` into exact `[[4,3],[2]]` from the two prescribed `[[4,2],[2]]` ledgers. All nine allowed cuts fail the premise and the resulting weight spectrum, while preserving the label bijection, cut and numerical physical ports. The source checker, target checker, independent audit, three adverse rejections and separate reviews agreed. This is scoped to the prescribed ledgers and operation. See [proof](research/R241_43_2_LOWER_BLOCK.md) and [evidence](evidence/validation/LCL_R241_43_2_LOWER_BLOCK_001/README.md).
 
 - D098 supplies A(q+a+r+5,q+a+2;a+1,a+2) on exact ordered `[[q,a],[r]]` for exact integers q>r≥a≥2. Swapping named left centers and their indexed terminal groups transports D097 from `[[a,q],[r]]`, with all incidences, labels, differences and physical ports preserved under the map. D097 and D098 together cover r≥min(q,a) for q,a≥2. The sole new `[[4,2],[2]]` certificate, retained source, bidirectional audit and three adverse rejections passed separate reviews. See [proof](research/R241_NAMED_CENTER_ROLE_TRANSPORT.md) and [evidence](evidence/validation/LCL_R241_NAMED_CENTER_ROLE_TRANSPORT_001/README.md).
 

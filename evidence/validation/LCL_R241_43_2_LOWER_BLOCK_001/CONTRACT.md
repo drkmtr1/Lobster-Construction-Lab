@@ -1,0 +1,9 @@
+# D099 frozen task contract
+
+Task `LCL-R241-43-2-LOWER-BLOCK-001`, parent `b49c028a26fc7c46970930e3eaa0097c401ef5d3`. The live D098 STATE.md and handoff authorize only the prescribed one-leaf challenge on `[[4,3],[2]]`.
+
+- Reuse the D098 `[[4,2],[2]]` original and certificate at cut 8. Verify the retained ledger and its within-class reflection on that same original. Bind the prescribed digest and ledger ID. Compare the new ordered target to the unchanged source plus exactly `l:0:1:2` and its single edge at physical `b:0:1`.
+- Test only Ledger I at c=4,5,6,7,8 and Ledger II at c=5,6,7,8. Retain named selected low vertices, actual selected incidences with multiplicities, premise inventories and discrepancies, labels and all actual target differences, repeated and missing weights, new leaf, cut, physical ports and original-target checker receipt for each prescribed diagnostic. Independently reconstruct both graphs and all arithmetic. Record a new accepted target certificate only for a genuine witness.
+- Use three genuine adverse probes: wrong graph digest, wrong declared physical offsets, and a wrong-host incidence in a malformed target claim. The malformed claim is compared to the single frozen target and never registered as a new original.
+- Project-local Python 3.12/3.13, CPU only, standard library, one worker, one parse-only preflight, one official producer/audit invocation, at most one new target identity and accepted certificate, two supplied ledgers, nine threshold cases and three adverse probes. Maximum 30 combined process-CPU seconds, 2,000,000 bytes per record and 8,000,000 bytes total. Zero assignment enumeration, solver calls, search states/nodes, joins, retries, restarts, replays or expansion.
+- Separate read-only mathematical and implementation reviews. Preserve INCOMPLETE evidence on failure and stop without retry. Synchronize LCL only and record exactly one separately authorized proposed successor.
