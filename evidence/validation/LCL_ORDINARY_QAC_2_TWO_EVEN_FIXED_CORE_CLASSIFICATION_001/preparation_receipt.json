@@ -1,0 +1,64 @@
+{
+  "argv": [
+    "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-E",
+    "-X",
+    "utf8",
+    "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\evidence\\validation\\LCL_ORDINARY_QAC_2_TWO_EVEN_FIXED_CORE_CLASSIFICATION_001\\prepare.py"
+  ],
+  "config_sha256": "36b7a4a573fcaff3f7aebc0a49738fcebd355391d43539368509fd5378472def",
+  "new_graph_identities": 3,
+  "original_preparations": 3,
+  "originals": {
+    "I": {
+      "graph_digest": "2281153a11633100287a53c44f82e55258d661987af0c8b3d561d62967118304",
+      "path": "original_I.json",
+      "profile": [
+        [
+          6,
+          3,
+          2
+        ],
+        [
+          2
+        ]
+      ],
+      "raw_sha256": "037cc175a81c50ecd32d924d2f58bcc64e3d969547b94781739ce23432a51e10"
+    },
+    "II": {
+      "graph_digest": "14580712cecbd7a55513ed0f588b4f8771c15c589132941b7245ddb6f0d5331a",
+      "path": "original_II.json",
+      "profile": [
+        [
+          6,
+          5,
+          6
+        ],
+        [
+          2
+        ]
+      ],
+      "raw_sha256": "b54df022e8cfcffaa4f68e2e0f7ddc0f8998f83670a322079f139831052da8ab"
+    },
+    "adverse": {
+      "graph_digest": "be51de0924c9de0f9a81929ecb98c9f29502e7f78ccadd0bfb6384f32c99e393",
+      "path": "original_adverse.json",
+      "profile": [
+        [
+          6,
+          3,
+          4
+        ],
+        [
+          2
+        ]
+      ],
+      "raw_sha256": "9875fa6239d80dac3702b73d502b9621469b6c1c44289f7026fff39c8fcdb18f"
+    }
+  },
+  "parent": "09f30786a769af45aabd4b287e762a0f361fd8e5",
+  "process_cpu_seconds": 0.140625,
+  "status": "PASS",
+  "task": "LCL-ORDINARY-QAC-2-TWO-EVEN-FIXED-CORE-CLASSIFICATION-001"
+}

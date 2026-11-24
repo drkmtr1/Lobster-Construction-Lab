@@ -2,19 +2,21 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 24, 2026, Pacific/Honolulu<br>
-**Stage:** D121 deterministic transport of D119 to exact ordered `[[q,a,c],[2]]` with one even left quota at least two and two odd left quotas at least three, one at least five, **ACCEPTED**. Retained verification **PASS**. [Proof](research/ORDINARY_QAC_2_TWO_ODD_ONE_EVEN_ROLE_TRANSPORT.md).
+**Stage:** D122 exact D118 fixed-core classification for ordered `[[q,a,c],[2]]` with even q≥6 and c≥2 and odd a≥3 **ACCEPTED**. Completion exists exactly when a≥5 or c≤q−4. Bounded verification **PASS**. [Proof](research/ORDINARY_QAC_2_TWO_EVEN_FIXED_CORE_CLASSIFICATION.md).
 
 ## Current scientific objective
 
-Develop independently supplied graceful modules with usable physical ports. The [latest handoff](handoffs/CODEX-20261124-ordinary-qac-2-two-odd-one-even-role-transport.md) records all physical placements in the declared one-even domain. The next question concerns a supplier with two even left quotas.
+Develop independently supplied graceful modules with usable physical ports. The [latest handoff](handoffs/CODEX-20261124-ordinary-qac-2-two-even-fixed-core-classification.md) records the two constructive sectors and the exact fixed-core obstruction. The next question concerns a modified independent core on a symmetric part of the obstruction sector.
 
 ## One next action
 
-Under separate authorization, determine whether the ten-vertex D118 core admits two disjoint R226 reservations for exact ordered `[[q,a,c],[2]]` at independent even integers q≥6 and c≥2 and odd integers a≥3, with H, L and C at physical indices 0, 1 and 2. Keep the pins `s:0=0`, `s:1=q+a+c+7` and `b:1:0=1`. Prove exact local integral allocations and complete global original-incidence inventories or a precise obstruction to that fixed-core reservation scheme. Use no numerical profile sweep, solver, assignment enumeration or join.
+Under separate authorization, determine whether a modified labeling of the same ten named core vertices supplies exact ordered `[[u,3,u],[2]]` for every exact even integer u≥6 at pins `s:0=0`, `s:1=2u+10` and `b:1:0=1`. Require a directly supplied core, two disjoint R226 reservations sharing the physical middle host, and complete original label and difference inventories, or a precise obstruction to a proposed core. Use no numerical sweep, solver, assignment enumeration, role transport or join.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
+
+- D122 **CLASSIFIES** the exact D118 labeled core on ordered `[[q,a,c],[2]]` with even q≥6 and c≥2 and odd a≥3. For a=3 with c≤q−4 the two-vacancy progression works. For all a≥5 the four-vacancy interval with a hole works. At a=3 and c≥q−2 the residual permutation's parity-class capacities exclude every completion of this fixed core. Both positive certificates, the adverse obstruction, D119 recheck, four controls and separate reviews passed. See [proof](research/ORDINARY_QAC_2_TWO_EVEN_FIXED_CORE_CLASSIFICATION.md) and [evidence](evidence/validation/LCL_ORDINARY_QAC_2_TWO_EVEN_FIXED_CORE_CLASSIFICATION_001/README.md).
 
 - D121 **SUPPLIES** exact ordered `[[q,a,c],[2]]` with one even left quota at least two and two odd left quotas at least three, one at least five, at pins `(0,q+a+c+7,1)`. It transports D119 through a deterministic named incidence bijection, preserving local projections, physical quotas and both global inventories. The retained identity-order formula comparison and recheck, four controls and separate reviews passed. The symbolic proof handles the nonidentity placements. See [proof](research/ORDINARY_QAC_2_TWO_ODD_ONE_EVEN_ROLE_TRANSPORT.md) and [evidence](evidence/validation/LCL_ORDINARY_QAC_2_TWO_ODD_ONE_EVEN_ROLE_TRANSPORT_001/README.md).
 

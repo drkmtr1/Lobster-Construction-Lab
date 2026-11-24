@@ -1,0 +1,221 @@
+{
+  "available_parity_classes": {
+    "even": [
+      6,
+      8,
+      10,
+      12
+    ],
+    "odd": [
+      5,
+      7,
+      9,
+      11,
+      13
+    ]
+  },
+  "certificates": 0,
+  "core": {
+    "b:0:0": 16,
+    "b:0:1": 2,
+    "b:0:2": 14,
+    "b:1:0": 1,
+    "l:0:0:0": 15,
+    "l:0:1:0": 17,
+    "l:1:0:0": 19,
+    "l:1:0:1": 18,
+    "s:0": 0,
+    "s:1": 20
+  },
+  "core_differences": [
+    20,
+    16,
+    1,
+    2,
+    15,
+    14,
+    19,
+    18,
+    17
+  ],
+  "core_edges": [
+    [
+      "s:0",
+      "s:1"
+    ],
+    [
+      "s:0",
+      "b:0:0"
+    ],
+    [
+      "b:0:0",
+      "l:0:0:0"
+    ],
+    [
+      "s:0",
+      "b:0:1"
+    ],
+    [
+      "b:0:1",
+      "l:0:1:0"
+    ],
+    [
+      "s:0",
+      "b:0:2"
+    ],
+    [
+      "s:1",
+      "b:1:0"
+    ],
+    [
+      "b:1:0",
+      "l:1:0:0"
+    ],
+    [
+      "b:1:0",
+      "l:1:0:1"
+    ]
+  ],
+  "degree_parity_quantity": 180,
+  "edges": 20,
+  "forced_image_preimages": {
+    "3": [
+      {
+        "host": "b:0:0",
+        "label": 3
+      }
+    ],
+    "4": [
+      {
+        "host": "b:0:0",
+        "label": 4
+      }
+    ]
+  },
+  "graph_digest": "be51de0924c9de0f9a81929ecb98c9f29502e7f78ccadd0bfb6384f32c99e393",
+  "original": {
+    "graph_digest": "be51de0924c9de0f9a81929ecb98c9f29502e7f78ccadd0bfb6384f32c99e393",
+    "path": "original_adverse.json",
+    "profile": [
+      [
+        6,
+        3,
+        4
+      ],
+      [
+        2
+      ]
+    ],
+    "raw_sha256": "9875fa6239d80dac3702b73d502b9621469b6c1c44289f7026fff39c8fcdb18f"
+  },
+  "parity_sum_identity": "N_C,p = sum of x-t for L labels of parity p",
+  "residual_differences": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "residual_labels": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "same_class_demand": 6,
+  "same_class_obstruction": "All C labels share the L parity and exceed maximum capacity",
+  "scope": "all_completions_of_the_specified_labeled_core",
+  "single_label_eligible_images": {
+    "3": {
+      "b:0:0": 3,
+      "b:0:1": null,
+      "b:0:2": 5
+    },
+    "4": {
+      "b:0:0": 4,
+      "b:0:1": null,
+      "b:0:2": 6
+    },
+    "5": {
+      "b:0:0": 5,
+      "b:0:1": 13,
+      "b:0:2": 7
+    },
+    "6": {
+      "b:0:0": 6,
+      "b:0:1": 12,
+      "b:0:2": 8
+    },
+    "7": {
+      "b:0:0": 7,
+      "b:0:1": 11,
+      "b:0:2": 9
+    },
+    "8": {
+      "b:0:0": 8,
+      "b:0:1": 10,
+      "b:0:2": 10
+    },
+    "9": {
+      "b:0:0": 9,
+      "b:0:1": 9,
+      "b:0:2": 11
+    },
+    "10": {
+      "b:0:0": 10,
+      "b:0:1": 8,
+      "b:0:2": 12
+    },
+    "11": {
+      "b:0:0": 11,
+      "b:0:1": 7,
+      "b:0:2": 13
+    },
+    "12": {
+      "b:0:0": 12,
+      "b:0:1": 6,
+      "b:0:2": null
+    },
+    "13": {
+      "b:0:0": 13,
+      "b:0:1": 5,
+      "b:0:2": null
+    }
+  },
+  "split_class_obstruction": "Two L labels of opposite parity would force odd c",
+  "status": "FIXED_CORE_INFEASIBLE",
+  "t": 9,
+  "vacant_by_host": {
+    "b:0:0": [
+      "l:0:0:1",
+      "l:0:0:2",
+      "l:0:0:3",
+      "l:0:0:4",
+      "l:0:0:5"
+    ],
+    "b:0:1": [
+      "l:0:1:1",
+      "l:0:1:2"
+    ],
+    "b:0:2": [
+      "l:0:2:0",
+      "l:0:2:1",
+      "l:0:2:2",
+      "l:0:2:3"
+    ]
+  },
+  "vertices": 21
+}
