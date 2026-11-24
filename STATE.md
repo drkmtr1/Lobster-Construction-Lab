@@ -2,19 +2,21 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 23, 2026, Pacific/Honolulu<br>
-**Stage:** D102 right-zero-host obstruction **ACCEPTED**. The cut-9 state on `[[4,3],[2]]` with `b:1:0=0` and both ports free is **REJECTED**. Executable audit **PASS**. [Proof](research/R241_43_2_RIGHT_ZERO_HOST.md).
+**Stage:** D103 zero-entrance obstruction **ACCEPTED**. The cut-9 state on `[[4,3],[2]]` with `s:0=0` and the exit free is **REJECTED**. Executable audit **PASS**. [Proof](research/R241_43_2_ZERO_ENTRANCE.md).
 
 ## Current scientific objective
 
-Supply multi-center modules with usable physical ports below the D097/D098 capacity threshold. The [latest handoff](handoffs/CODEX-20261123-r241-43-2-right-zero-host.md) records the right-zero-host obstruction and one structural entrance proposal.
+Supply multi-center modules with usable physical ports below the D097/D098 capacity threshold. The [latest handoff](handoffs/CODEX-20261123-r241-43-2-zero-entrance.md) records the zero-entrance obstruction and the proposed shared residual-palette test.
 
 ## One next action
 
-Under separate authorization, seek or rule out a cut-9 alpha labeling of frozen ordered `[[4,3],[2]]` with physical entrance `s:0=0` and the exit free. Use the extremal incidences at the entrance and the signed-degree identity, with at most one verified certificate. Reuse the frozen original and use no solvers, complete-assignment enumeration, separate exit tests or joins.
+Under separate authorization, seek or rule out a cut-9 alpha labeling of frozen ordered `[[4,3],[2]]` with both physical spine ports free and zero on a left terminal. Use a shared extremal-incidence and residual-palette argument over both left-center groups, with at most one verified certificate. Reuse the frozen original and use no solvers, complete-assignment enumeration, terminal-index sweeps, separate exit tests or joins.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
+
+- D103 **REJECTS** the cut-9 state on frozen ordered `[[4,3],[2]]` with physical `s:0=0` and free exit. The maximum weight and signed degree sum leave seven of 36 ordered scalar triples. All seven fail by missing or repeated weights on the original. One retained positive and three genuine adverse checks passed the official audit and separate reviews. See [proof](research/R241_43_2_ZERO_ENTRANCE.md) and [evidence](evidence/validation/LCL_R241_43_2_ZERO_ENTRANCE_001/README.md).
 
 - D102 **REJECTS** the cut-9 state on frozen ordered `[[4,3],[2]]` with `b:1:0=0` and both physical ports free. The spine must carry the larger left-center label as a difference, after which two exhaustive order bounds contradict the signed degree sum. The official audit and separate reviews passed with no new originals or certificates. See [proof](research/R241_43_2_RIGHT_ZERO_HOST.md) and [evidence](evidence/validation/LCL_R241_43_2_RIGHT_ZERO_HOST_001/README.md).
 

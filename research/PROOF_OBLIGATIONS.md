@@ -727,3 +727,5 @@ The [D100 versioned audit recovery](../evidence/validation/LCL_R241_43_2_FIXED_E
 [D101](R241_42_2_MAXIMUM_HOST.md) closes the chosen maximum-label host route into the below-capacity original. Independent alpha supply with usable physical ports remains open below the D097/D098 capacity bound. The proposed next test seeks a direct right-zero-host state on the frozen target with both ports free.
 
 [D102](R241_43_2_RIGHT_ZERO_HOST.md) resolves that right-zero-host question on the frozen original for both free ports. A directly supplied cut-9 state with usable physical ports remains open on that original within this research program. The selected bounded entrance proposal is recorded in [STATE.md](../STATE.md).
+
+[D103](R241_43_2_ZERO_ENTRANCE.md) closes the same original's zero-entrance state for all exits at cut nine. At this cut the zeros available after the D102 and D103 exclusions must occupy a terminal at one of the two left centers. A shared argument for that remaining domain and an independently supplied below-capacity state with usable ports remain open. The sole next proposal is in [STATE.md](../STATE.md).

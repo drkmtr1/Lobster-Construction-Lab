@@ -1,0 +1,1480 @@
+{
+  "adverses": {
+    "false_zero_entrance": {
+      "actual": 3,
+      "declared": 0,
+      "error": "The physical entrance does not carry zero",
+      "valid": false,
+      "vertex": "s:0"
+    },
+    "terminal_swap": {
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          9,
+          5,
+          7,
+          3,
+          2,
+          1,
+          6,
+          5,
+          7,
+          12,
+          10,
+          11
+        ],
+        "errors": [
+          "edge differences repeat",
+          "edge differences are not exactly 1..m"
+        ],
+        "graph_digest": "c602b9934b690cf8bc23e1533840815d1f0ebdc3156f51c361b66c014d9480a0",
+        "m": 12,
+        "n": 13,
+        "valid": false
+      },
+      "labels": {
+        "b:0:0": 8,
+        "b:0:1": 9,
+        "b:1:0": 0,
+        "l:0:0:0": 1,
+        "l:0:0:1": 5,
+        "l:0:0:2": 6,
+        "l:0:0:3": 7,
+        "l:0:1:0": 4,
+        "l:0:1:1": 2,
+        "l:1:0:0": 10,
+        "l:1:0:1": 11,
+        "s:0": 3,
+        "s:1": 12
+      },
+      "vertices": [
+        "l:0:0:0",
+        "l:0:1:0"
+      ]
+    },
+    "wrong_digest": {
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          9,
+          5,
+          4,
+          3,
+          2,
+          1,
+          6,
+          8,
+          7,
+          12,
+          10,
+          11
+        ],
+        "errors": [
+          "original graph digest mismatch"
+        ],
+        "graph_digest": "c602b9934b690cf8bc23e1533840815d1f0ebdc3156f51c361b66c014d9480a0",
+        "m": 12,
+        "n": 13,
+        "valid": false
+      },
+      "expected": "0000000000000000000000000000000000000000000000000000000000000000"
+    }
+  },
+  "arithmetic_audit": {
+    "degree_one_contribution": 19,
+    "degrees": {
+      "b:0:0": 5,
+      "b:0:1": 4,
+      "b:1:0": 3,
+      "l:0:0:0": 1,
+      "l:0:0:1": 1,
+      "l:0:0:2": 1,
+      "l:0:0:3": 1,
+      "l:0:1:0": 1,
+      "l:0:1:1": 1,
+      "l:0:1:2": 1,
+      "l:1:0:0": 1,
+      "l:1:0:1": 1,
+      "s:0": 3,
+      "s:1": 2
+    },
+    "fixed_named_edges": [
+      [
+        "s:0",
+        "s:1"
+      ],
+      [
+        "s:0",
+        "b:0:0"
+      ],
+      [
+        "s:0",
+        "b:0:1"
+      ],
+      [
+        "s:1",
+        "b:1:0"
+      ]
+    ],
+    "graph_digest": "2060a4e5a7d8f8ebc1906499facea2730250938d4550bb4c6ca34582a1f5b6e6",
+    "high_vertices": [
+      "b:0:0",
+      "b:0:1",
+      "l:1:0:0",
+      "l:1:0:1",
+      "s:1"
+    ],
+    "low_vertices": [
+      "b:1:0",
+      "l:0:0:0",
+      "l:0:0:1",
+      "l:0:0:2",
+      "l:0:0:3",
+      "l:0:1:0",
+      "l:0:1:1",
+      "l:0:1:2",
+      "s:0"
+    ],
+    "max_weight_pair": [
+      13,
+      0
+    ],
+    "physical_spine": [
+      "s:0",
+      "s:1"
+    ],
+    "possible_maximum_label_vertices": [
+      "b:0:0",
+      "b:0:1",
+      "s:1"
+    ],
+    "required_sum": 91,
+    "scalar_triples_audited": 36,
+    "signed_excess": {
+      "b:0:0": 4,
+      "b:0:1": 3,
+      "b:1:0": -2,
+      "s:0": -2,
+      "s:1": 1
+    },
+    "status": "PASS",
+    "surviving_case_audits": [
+      {
+        "fixed_named_incidence_weights": [
+          [
+            [
+              "s:0",
+              "s:1"
+            ],
+            13
+          ],
+          [
+            [
+              "s:0",
+              "b:0:0"
+            ],
+            9
+          ],
+          [
+            [
+              "s:0",
+              "b:0:1"
+            ],
+            11
+          ],
+          [
+            [
+              "s:1",
+              "b:1:0"
+            ],
+            8
+          ]
+        ],
+        "fixed_repeat_multiplicities": {},
+        "necessarily_missing_weights": [
+          12
+        ],
+        "possible_left_weights_by_center": {
+          "b:0:0": [
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8
+          ],
+          "b:0:1": [
+            3,
+            4,
+            5,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        "right_terminal_label_weights": [
+          [
+            10,
+            5
+          ],
+          [
+            12,
+            7
+          ]
+        ],
+        "triple": [
+          9,
+          11,
+          13
+        ],
+        "verified_witness": {
+          "kind": "missing_weight",
+          "required_left_terminal_labels": [
+            -3,
+            -1
+          ],
+          "weight": 12
+        },
+        "z": 5
+      },
+      {
+        "fixed_named_incidence_weights": [
+          [
+            [
+              "s:0",
+              "s:1"
+            ],
+            11
+          ],
+          [
+            [
+              "s:0",
+              "b:0:0"
+            ],
+            9
+          ],
+          [
+            [
+              "s:0",
+              "b:0:1"
+            ],
+            13
+          ],
+          [
+            [
+              "s:1",
+              "b:1:0"
+            ],
+            4
+          ]
+        ],
+        "fixed_repeat_multiplicities": {},
+        "necessarily_missing_weights": [
+          2
+        ],
+        "possible_left_weights_by_center": {
+          "b:0:0": [
+            1,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "b:0:1": [
+            5,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        },
+        "right_terminal_label_weights": [
+          [
+            10,
+            3
+          ],
+          [
+            12,
+            5
+          ]
+        ],
+        "triple": [
+          9,
+          13,
+          11
+        ],
+        "verified_witness": {
+          "kind": "missing_weight",
+          "required_left_terminal_labels": [
+            7,
+            11
+          ],
+          "weight": 2
+        },
+        "z": 7
+      },
+      {
+        "fixed_named_incidence_weights": [
+          [
+            [
+              "s:0",
+              "s:1"
+            ],
+            13
+          ],
+          [
+            [
+              "s:0",
+              "b:0:0"
+            ],
+            10
+          ],
+          [
+            [
+              "s:0",
+              "b:0:1"
+            ],
+            9
+          ],
+          [
+            [
+              "s:1",
+              "b:1:0"
+            ],
+            9
+          ]
+        ],
+        "fixed_repeat_multiplicities": {
+          "9": 2
+        },
+        "necessarily_missing_weights": [
+          11,
+          12
+        ],
+        "possible_left_weights_by_center": {
+          "b:0:0": [
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            9
+          ],
+          "b:0:1": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            7,
+            8
+          ]
+        },
+        "right_terminal_label_weights": [
+          [
+            11,
+            7
+          ],
+          [
+            12,
+            8
+          ]
+        ],
+        "triple": [
+          10,
+          9,
+          13
+        ],
+        "verified_witness": {
+          "edges": [
+            [
+              "s:0",
+              "b:0:1"
+            ],
+            [
+              "s:1",
+              "b:1:0"
+            ]
+          ],
+          "kind": "repeated_weight",
+          "weight": 9
+        },
+        "z": 4
+      },
+      {
+        "fixed_named_incidence_weights": [
+          [
+            [
+              "s:0",
+              "s:1"
+            ],
+            13
+          ],
+          [
+            [
+              "s:0",
+              "b:0:0"
+            ],
+            10
+          ],
+          [
+            [
+              "s:0",
+              "b:0:1"
+            ],
+            11
+          ],
+          [
+            [
+              "s:1",
+              "b:1:0"
+            ],
+            6
+          ]
+        ],
+        "fixed_repeat_multiplicities": {},
+        "necessarily_missing_weights": [
+          1,
+          12
+        ],
+        "possible_left_weights_by_center": {
+          "b:0:0": [
+            2,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "b:0:1": [
+            3,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        "right_terminal_label_weights": [
+          [
+            9,
+            2
+          ],
+          [
+            12,
+            5
+          ]
+        ],
+        "triple": [
+          10,
+          11,
+          13
+        ],
+        "verified_witness": {
+          "kind": "missing_weight",
+          "required_left_terminal_labels": [
+            -2,
+            -1
+          ],
+          "weight": 12
+        },
+        "z": 7
+      },
+      {
+        "fixed_named_incidence_weights": [
+          [
+            [
+              "s:0",
+              "s:1"
+            ],
+            9
+          ],
+          [
+            [
+              "s:0",
+              "b:0:0"
+            ],
+            10
+          ],
+          [
+            [
+              "s:0",
+              "b:0:1"
+            ],
+            13
+          ],
+          [
+            [
+              "s:1",
+              "b:1:0"
+            ],
+            1
+          ]
+        ],
+        "fixed_repeat_multiplicities": {},
+        "necessarily_missing_weights": [
+          2
+        ],
+        "possible_left_weights_by_center": {
+          "b:0:0": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "b:0:1": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        },
+        "right_terminal_label_weights": [
+          [
+            11,
+            3
+          ],
+          [
+            12,
+            4
+          ]
+        ],
+        "triple": [
+          10,
+          13,
+          9
+        ],
+        "verified_witness": {
+          "kind": "missing_weight",
+          "required_left_terminal_labels": [
+            8,
+            11
+          ],
+          "weight": 2
+        },
+        "z": 8
+      },
+      {
+        "fixed_named_incidence_weights": [
+          [
+            [
+              "s:0",
+              "s:1"
+            ],
+            13
+          ],
+          [
+            [
+              "s:0",
+              "b:0:0"
+            ],
+            11
+          ],
+          [
+            [
+              "s:0",
+              "b:0:1"
+            ],
+            9
+          ],
+          [
+            [
+              "s:1",
+              "b:1:0"
+            ],
+            7
+          ]
+        ],
+        "fixed_repeat_multiplicities": {},
+        "necessarily_missing_weights": [
+          12
+        ],
+        "possible_left_weights_by_center": {
+          "b:0:0": [
+            3,
+            4,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "b:0:1": [
+            1,
+            2,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        "right_terminal_label_weights": [
+          [
+            10,
+            4
+          ],
+          [
+            12,
+            6
+          ]
+        ],
+        "triple": [
+          11,
+          9,
+          13
+        ],
+        "verified_witness": {
+          "kind": "missing_weight",
+          "required_left_terminal_labels": [
+            -1,
+            -3
+          ],
+          "weight": 12
+        },
+        "z": 6
+      },
+      {
+        "fixed_named_incidence_weights": [
+          [
+            [
+              "s:0",
+              "s:1"
+            ],
+            13
+          ],
+          [
+            [
+              "s:0",
+              "b:0:0"
+            ],
+            12
+          ],
+          [
+            [
+              "s:0",
+              "b:0:1"
+            ],
+            9
+          ],
+          [
+            [
+              "s:1",
+              "b:1:0"
+            ],
+            5
+          ]
+        ],
+        "fixed_repeat_multiplicities": {},
+        "necessarily_missing_weights": [
+          1
+        ],
+        "possible_left_weights_by_center": {
+          "b:0:0": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "b:0:1": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        "right_terminal_label_weights": [
+          [
+            10,
+            2
+          ],
+          [
+            11,
+            3
+          ]
+        ],
+        "triple": [
+          12,
+          9,
+          13
+        ],
+        "verified_witness": {
+          "kind": "missing_weight",
+          "required_left_terminal_labels": [
+            11,
+            8
+          ],
+          "weight": 1
+        },
+        "z": 8
+      }
+    ],
+    "terminal_edge_groups": {
+      "b:0:0": [
+        [
+          "b:0:0",
+          "l:0:0:0"
+        ],
+        [
+          "b:0:0",
+          "l:0:0:1"
+        ],
+        [
+          "b:0:0",
+          "l:0:0:2"
+        ],
+        [
+          "b:0:0",
+          "l:0:0:3"
+        ]
+      ],
+      "b:0:1": [
+        [
+          "b:0:1",
+          "l:0:1:0"
+        ],
+        [
+          "b:0:1",
+          "l:0:1:1"
+        ],
+        [
+          "b:0:1",
+          "l:0:1:2"
+        ]
+      ],
+      "b:1:0": [
+        [
+          "b:1:0",
+          "l:1:0:0"
+        ],
+        [
+          "b:1:0",
+          "l:1:0:1"
+        ]
+      ]
+    },
+    "triple_counts_by_max_position": [
+      12,
+      12,
+      12
+    ],
+    "triple_slot_order": [
+      "b:0:0",
+      "b:0:1",
+      "s:1"
+    ]
+  },
+  "case_witnesses": [
+    {
+      "fixed_repeat_multiplicities": {},
+      "fixed_weights": [
+        13,
+        9,
+        11,
+        8,
+        5,
+        7
+      ],
+      "left_palette": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8
+      ],
+      "right_palette": [
+        10,
+        12
+      ],
+      "triple": [
+        9,
+        11,
+        13
+      ],
+      "witness": {
+        "kind": "missing_weight",
+        "required_left_terminal_labels": [
+          -3,
+          -1
+        ],
+        "weight": 12
+      },
+      "z": 5
+    },
+    {
+      "fixed_repeat_multiplicities": {},
+      "fixed_weights": [
+        11,
+        9,
+        13,
+        4,
+        3,
+        5
+      ],
+      "left_palette": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8
+      ],
+      "right_palette": [
+        10,
+        12
+      ],
+      "triple": [
+        9,
+        13,
+        11
+      ],
+      "witness": {
+        "kind": "missing_weight",
+        "required_left_terminal_labels": [
+          7,
+          11
+        ],
+        "weight": 2
+      },
+      "z": 7
+    },
+    {
+      "fixed_repeat_multiplicities": {
+        "9": 2
+      },
+      "fixed_weights": [
+        13,
+        10,
+        9,
+        9,
+        7,
+        8
+      ],
+      "left_palette": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8
+      ],
+      "right_palette": [
+        11,
+        12
+      ],
+      "triple": [
+        10,
+        9,
+        13
+      ],
+      "witness": {
+        "edges": [
+          [
+            "s:0",
+            "b:0:1"
+          ],
+          [
+            "s:1",
+            "b:1:0"
+          ]
+        ],
+        "kind": "repeated_weight",
+        "weight": 9
+      },
+      "z": 4
+    },
+    {
+      "fixed_repeat_multiplicities": {},
+      "fixed_weights": [
+        13,
+        10,
+        11,
+        6,
+        2,
+        5
+      ],
+      "left_palette": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8
+      ],
+      "right_palette": [
+        9,
+        12
+      ],
+      "triple": [
+        10,
+        11,
+        13
+      ],
+      "witness": {
+        "kind": "missing_weight",
+        "required_left_terminal_labels": [
+          -2,
+          -1
+        ],
+        "weight": 12
+      },
+      "z": 7
+    },
+    {
+      "fixed_repeat_multiplicities": {},
+      "fixed_weights": [
+        9,
+        10,
+        13,
+        1,
+        3,
+        4
+      ],
+      "left_palette": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "right_palette": [
+        11,
+        12
+      ],
+      "triple": [
+        10,
+        13,
+        9
+      ],
+      "witness": {
+        "kind": "missing_weight",
+        "required_left_terminal_labels": [
+          8,
+          11
+        ],
+        "weight": 2
+      },
+      "z": 8
+    },
+    {
+      "fixed_repeat_multiplicities": {},
+      "fixed_weights": [
+        13,
+        11,
+        9,
+        7,
+        4,
+        6
+      ],
+      "left_palette": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8
+      ],
+      "right_palette": [
+        10,
+        12
+      ],
+      "triple": [
+        11,
+        9,
+        13
+      ],
+      "witness": {
+        "kind": "missing_weight",
+        "required_left_terminal_labels": [
+          -1,
+          -3
+        ],
+        "weight": 12
+      },
+      "z": 6
+    },
+    {
+      "fixed_repeat_multiplicities": {},
+      "fixed_weights": [
+        13,
+        12,
+        9,
+        5,
+        2,
+        3
+      ],
+      "left_palette": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "right_palette": [
+        10,
+        11
+      ],
+      "triple": [
+        12,
+        9,
+        13
+      ],
+      "witness": {
+        "kind": "missing_weight",
+        "required_left_terminal_labels": [
+          11,
+          8
+        ],
+        "weight": 1
+      },
+      "z": 8
+    }
+  ],
+  "control_audit": {
+    "d098_ledger_id": "66750924e7057c3b304ac56021039b3fcded589741ab5b25d2930e8f25ddd658",
+    "status": "PASS",
+    "swap_missing_weights": [
+      4,
+      8
+    ],
+    "swap_original_edge_differences": [
+      9,
+      5,
+      7,
+      3,
+      2,
+      1,
+      6,
+      5,
+      7,
+      12,
+      10,
+      11
+    ],
+    "swap_repeat_multiplicities": {
+      "5": 2,
+      "7": 2
+    }
+  },
+  "domain": {
+    "cut": 9,
+    "entrance": "s:0",
+    "entrance_label": 0,
+    "free_exit": true
+  },
+  "parent": "ba6e7c7bd8475ec67000165e893350b89191b182",
+  "proof_disposition": "ACCEPT",
+  "retained_execution_statuses": {
+    "D083_original": "INCOMPLETE",
+    "D083_versioned": "PASS",
+    "D093_original": "INCOMPLETE",
+    "D093_versioned": "PASS",
+    "D099": "PASS",
+    "D100_original": "INCOMPLETE",
+    "D100_recovery": "PASS",
+    "D101": "PASS",
+    "D102": "PASS"
+  },
+  "retained_positive": {
+    "checker": {
+      "claim": "finite certificate for this exact named target only",
+      "edge_differences": [
+        9,
+        5,
+        4,
+        3,
+        2,
+        1,
+        6,
+        8,
+        7,
+        12,
+        10,
+        11
+      ],
+      "errors": [],
+      "graph_digest": "c602b9934b690cf8bc23e1533840815d1f0ebdc3156f51c361b66c014d9480a0",
+      "m": 12,
+      "n": 13,
+      "valid": true
+    },
+    "graph_digest": "c602b9934b690cf8bc23e1533840815d1f0ebdc3156f51c361b66c014d9480a0",
+    "ledger_id": "66750924e7057c3b304ac56021039b3fcded589741ab5b25d2930e8f25ddd658"
+  },
+  "runtime": {
+    "path": ".venv/Scripts/python.exe",
+    "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "scalar_reductions": [
+    {
+      "triple": [
+        9,
+        10,
+        13
+      ],
+      "twice_z": 7,
+      "verdict": "odd"
+    },
+    {
+      "triple": [
+        9,
+        11,
+        13
+      ],
+      "twice_z": 10,
+      "verdict": "survives",
+      "z": 5
+    },
+    {
+      "triple": [
+        9,
+        12,
+        13
+      ],
+      "twice_z": 13,
+      "verdict": "odd"
+    },
+    {
+      "triple": [
+        9,
+        13,
+        10
+      ],
+      "twice_z": 13,
+      "verdict": "odd"
+    },
+    {
+      "triple": [
+        9,
+        13,
+        11
+      ],
+      "twice_z": 14,
+      "verdict": "survives",
+      "z": 7
+    },
+    {
+      "triple": [
+        9,
+        13,
+        12
+      ],
+      "twice_z": 15,
+      "verdict": "odd"
+    },
+    {
+      "triple": [
+        10,
+        9,
+        13
+      ],
+      "twice_z": 8,
+      "verdict": "survives",
+      "z": 4
+    },
+    {
+      "triple": [
+        10,
+        11,
+        13
+      ],
+      "twice_z": 14,
+      "verdict": "survives",
+      "z": 7
+    },
+    {
+      "triple": [
+        10,
+        12,
+        13
+      ],
+      "twice_z": 17,
+      "verdict": "odd"
+    },
+    {
+      "triple": [
+        10,
+        13,
+        9
+      ],
+      "twice_z": 16,
+      "verdict": "survives",
+      "z": 8
+    },
+    {
+      "triple": [
+        10,
+        13,
+        11
+      ],
+      "twice_z": 18,
+      "verdict": "out_of_range"
+    },
+    {
+      "triple": [
+        10,
+        13,
+        12
+      ],
+      "twice_z": 19,
+      "verdict": "odd"
+    },
+    {
+      "triple": [
+        11,
+        9,
+        13
+      ],
+      "twice_z": 12,
+      "verdict": "survives",
+      "z": 6
+    },
+    {
+      "triple": [
+        11,
+        10,
+        13
+      ],
+      "twice_z": 15,
+      "verdict": "odd"
+    },
+    {
+      "triple": [
+        11,
+        12,
+        13
+      ],
+      "twice_z": 21,
+      "verdict": "odd"
+    },
+    {
+      "triple": [
+        11,
+        13,
+        9
+      ],
+      "twice_z": 20,
+      "verdict": "out_of_range"
+    },
+    {
+      "triple": [
+        11,
+        13,
+        10
+      ],
+      "twice_z": 21,
+      "verdict": "odd"
+    },
+    {
+      "triple": [
+        11,
+        13,
+        12
+      ],
+      "twice_z": 23,
+      "verdict": "odd"
+    },
+    {
+      "triple": [
+        12,
+        9,
+        13
+      ],
+      "twice_z": 16,
+      "verdict": "survives",
+      "z": 8
+    },
+    {
+      "triple": [
+        12,
+        10,
+        13
+      ],
+      "twice_z": 19,
+      "verdict": "odd"
+    },
+    {
+      "triple": [
+        12,
+        11,
+        13
+      ],
+      "twice_z": 22,
+      "verdict": "out_of_range"
+    },
+    {
+      "triple": [
+        12,
+        13,
+        9
+      ],
+      "twice_z": 24,
+      "verdict": "out_of_range"
+    },
+    {
+      "triple": [
+        12,
+        13,
+        10
+      ],
+      "twice_z": 25,
+      "verdict": "odd"
+    },
+    {
+      "triple": [
+        12,
+        13,
+        11
+      ],
+      "twice_z": 26,
+      "verdict": "out_of_range"
+    },
+    {
+      "triple": [
+        13,
+        9,
+        10
+      ],
+      "twice_z": 17,
+      "verdict": "odd"
+    },
+    {
+      "triple": [
+        13,
+        9,
+        11
+      ],
+      "twice_z": 18,
+      "verdict": "out_of_range"
+    },
+    {
+      "triple": [
+        13,
+        9,
+        12
+      ],
+      "twice_z": 19,
+      "verdict": "odd"
+    },
+    {
+      "triple": [
+        13,
+        10,
+        9
+      ],
+      "twice_z": 19,
+      "verdict": "odd"
+    },
+    {
+      "triple": [
+        13,
+        10,
+        11
+      ],
+      "twice_z": 21,
+      "verdict": "odd"
+    },
+    {
+      "triple": [
+        13,
+        10,
+        12
+      ],
+      "twice_z": 22,
+      "verdict": "out_of_range"
+    },
+    {
+      "triple": [
+        13,
+        11,
+        9
+      ],
+      "twice_z": 22,
+      "verdict": "out_of_range"
+    },
+    {
+      "triple": [
+        13,
+        11,
+        10
+      ],
+      "twice_z": 23,
+      "verdict": "odd"
+    },
+    {
+      "triple": [
+        13,
+        11,
+        12
+      ],
+      "twice_z": 25,
+      "verdict": "odd"
+    },
+    {
+      "triple": [
+        13,
+        12,
+        9
+      ],
+      "twice_z": 25,
+      "verdict": "odd"
+    },
+    {
+      "triple": [
+        13,
+        12,
+        10
+      ],
+      "twice_z": 26,
+      "verdict": "out_of_range"
+    },
+    {
+      "triple": [
+        13,
+        12,
+        11
+      ],
+      "twice_z": 27,
+      "verdict": "odd"
+    }
+  ],
+  "state_disposition": "REJECT",
+  "status": "PASS",
+  "target_graph_digest": "2060a4e5a7d8f8ebc1906499facea2730250938d4550bb4c6ca34582a1f5b6e6",
+  "target_original": "evidence/validation/LCL_R241_43_2_LOWER_BLOCK_001/original.json",
+  "target_original_sha256": "99d92699cea529c235f3ed146805920d39c030b33d5651e0ba64ed8e1889d168",
+  "task": "LCL-R241-43-2-ZERO-ENTRANCE-001"
+}

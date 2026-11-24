@@ -519,3 +519,7 @@ The [separate D100 audit recovery](../evidence/validation/LCL_R241_43_2_FIXED_EX
 ### F-R241-43-2-RIGHT-ZERO-HOST
 
 **REJECT** the cut-9 alpha state on frozen ordered `[[4,3],[2]]` with physical right center `b:1:0=0` for all spine labels allowed by the orientation with `s:0` low. The spine must supply weight M=max(A,B), which contradicts the signed degree sum in both strict orders. The exclusion applies only to this original and host constraint in the prescribed orientation. [Proof](R241_43_2_RIGHT_ZERO_HOST.md) · D102
+
+### F-R241-43-2-ZERO-ENTRANCE
+
+**REJECT** the cut-9 alpha state on frozen ordered `[[4,3],[2]]` with `s:0=0` for all exit labels allowed by the orientation. The seven possible scalar cases fail through absent left-terminal weights or repeated weight 9 on two named attachments. The exclusion applies only to the specified cut, orientation, entrance and original. [Proof](R241_43_2_ZERO_ENTRANCE.md) · D103

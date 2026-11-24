@@ -1411,3 +1411,9 @@ The official audit **PASSED** with one retained positive, three genuine adverse 
 **ACCEPT** the structural obstruction and **REJECT** the cut-9 state on exact frozen ordered `[[4,3],[2]]` with physical right center `b:1:0=0` and both ports free. The disjoint original incidences force the spine to carry M=max(A,B). Substituting in the signed degree sum requires 4A+3B+2M=72+Y. The two left-center order cases bound the left side below by 87 and 86, while the right side is at most 85.
 
 The official audit and two read-only reviews **PASSED**. One worker checked both order cases, rechecked the retained D098 positive and rejected all three adverse probes. It used 0.171875 process-CPU seconds and created zero graph identities or certificates. [Proof](R241_43_2_RIGHT_ZERO_HOST.md) · [Evidence](../evidence/validation/LCL_R241_43_2_RIGHT_ZERO_HOST_001/README.md) · D102
+
+## LCL-R241-43-2-ZERO-ENTRANCE-001
+
+**ACCEPT** the structural obstruction and **REJECT** the cut-9 state on frozen ordered `[[4,3],[2]]` with physical entrance `s:0=0` and free exit. Weight 13 constrains the ordered high triple to the actual three entrance neighbors. The signed degree identity gives 2z=4A+3B+Y−72 and leaves seven of 36 triples. Actual incidence palettes exclude six rows by absent required weights and one row by a forced repeated weight 9.
+
+The official audit and two read-only reviews **PASSED**. One worker rechecked the retained D098 positive and rejected three adverse probes, using 0.15625 process-CPU seconds and producing zero new graph identities or certificates. [Proof](R241_43_2_ZERO_ENTRANCE.md) · [Evidence](../evidence/validation/LCL_R241_43_2_ZERO_ENTRANCE_001/README.md) · D103

@@ -1,0 +1,11 @@
+# D103 frozen task contract
+
+Task `LCL-R241-43-2-ZERO-ENTRANCE-001` at accepted parent `ba6e7c7bd8475ec67000165e893350b89191b182`. Reuse only the frozen D099 target `evidence/validation/LCL_R241_43_2_LOWER_BLOCK_001/original.json`, canonical digest `2060a4e5a7d8f8ebc1906499facea2730250938d4550bb4c6ca34582a1f5b6e6`. Determine whether the exact ordered original `[[4,3],[2]]` admits cut-9 alpha supply at the physical entrance `s:0=0` with free exit. Preserve the 14 vertices, 13 edges, indexed terminals, named attachments and actual spine witness.
+
+Challenge weight 13, the signed-degree formula, the full ordered scalar domain, the six fixed incidences and the seven residual left terminals. Use at most 36 distinct high triples and seven survivors, with no terminal assignments or terminal permutations. A contradiction rejects only the specified zero-entrance state. A positive result requires an original-bound certificate.
+
+Use standard-library code on one project-local Python 3.12/3.13 CPU worker and the unchanged original-target checker. Freeze exact input, runtime and source pins. One parse-only preflight checks raw hashes, complete syntax, intended unique functions and vacant outputs with no task imports or bytecode caches. Obtain independent pre-execution inspection of the mathematical assertions. Use one official invocation, up to 30 combined process-CPU seconds and 60 wall seconds with an outer deadline. Bound each record to 2,000,000 bytes and the total to 8,000,000 bytes. Preserve failure as INCOMPLETE and stop without retry.
+
+Recheck one retained D098 positive on its own original. Run exactly three genuine adverse probes for a false digest, a false entrance-zero claim on the unchanged D098 labels and the retained cross-center terminal swap. Zero new graph identities and at most one verified certificate if directly supplied. Zero solvers, complete-assignment enumeration, search states or nodes, separate exit tests, joins, retries, restarts, historical replays or scope changes.
+
+Obtain separate read-only mathematics and implementation reviews. Preserve all earlier results, exact scoped dispositions, both execution records for D083, D093 and D100, deferred D076, baseline identities and protected upstream pins. Synchronize only LCL, record a single unstarted proposal and stop.

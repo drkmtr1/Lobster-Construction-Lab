@@ -1,0 +1,58 @@
+{
+  "argv": [
+    "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "evidence/validation/LCL_R241_43_2_ZERO_ENTRANCE_001/preflight.py",
+    "b6cfd1f14f2fd8cb321ca227831c6f60ceb6697acdaa252802784bf1b03d4877"
+  ],
+  "input_hashes": {
+    "CONTRACT.md": "e9521a26d4c15a8f6aceced40ece2b7dcf9c691571e2d50285e32e50e19450c9",
+    "audit.py": "41579e5793827c14ecf030f88e92da795791d911e8ebbfa6e2a685bd4b43afe2",
+    "config.json": "b6cfd1f14f2fd8cb321ca227831c6f60ceb6697acdaa252802784bf1b03d4877",
+    "preflight.py": "5bbffe0af1b547621b20a6357647ba08081f0b28f59dde408d8494eb6774d548",
+    "run.py": "9da10f8c0a04f46eaa403fd07d1eb20546a6d0a1b20ffef69ccbabdce83b639b"
+  },
+  "parent": "ba6e7c7bd8475ec67000165e893350b89191b182",
+  "parsed_functions": {
+    "audit.py": [
+      "topology",
+      "obstruction",
+      "controls"
+    ],
+    "preflight.py": [
+      "check",
+      "main"
+    ],
+    "run.py": [
+      "read_json",
+      "digest_file",
+      "write_record",
+      "require_zero_entrance",
+      "controls",
+      "scalar_cases",
+      "case_witnesses",
+      "validate_inputs",
+      "produce",
+      "execute"
+    ]
+  },
+  "preflight_invocations": 1,
+  "runtime": {
+    "path": ".venv/Scripts/python.exe",
+    "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "source_pins_checked": 79,
+  "status": "PASS",
+  "task": "LCL-R241-43-2-ZERO-ENTRANCE-001",
+  "task_module_imports": 0,
+  "vacant_outputs": [
+    "original.json",
+    "result.json",
+    "command_receipt.json",
+    "invocation_failure.json",
+    "__pycache__"
+  ]
+}
