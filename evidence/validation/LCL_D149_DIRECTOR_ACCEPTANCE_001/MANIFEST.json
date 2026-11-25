@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "record": "D149_DIRECTOR_ACCEPTANCE",
+  "accepted_proof_checkpoint": "6511fc609320840c42195f24fe42fadad11895a2",
+  "scope": "Director acceptance and scheduling only",
+  "scientific_disposition": "ACCEPTED_WITHIN_D149_WRITTEN_SCOPE",
+  "successor": "LCL-ORDINARY-SPINE-TWO-TO-ONE-TERMINAL-SUPPLIER-001",
+  "successor_disposition": "UNSTARTED_AWAITING_SEPARATE_OWNER_AUTHORIZATION",
+  "reviewed": "MATHEMATICAL_AND_IMPLEMENTATION_CUSTODY_PASS",
+  "historical_proof_sha256": "6caab3af70cc98cd6a596de016c62b87c886a933ea2da628059a52a970859238",
+  "historical_manifest_sha256": "80e9ab7cbe20f97d25af62dcfdc52596cbe1f053749f8c71d3c6c6abaa48734f",
+  "d148_run": "INCOMPLETE_EXTERIOR_NODE_CAP",
+  "d148_undecided_two_center_pairs": 12,
+  "d148_raw_archive_sha256": "5b506784c1e5616a3b851335dd9fb93bad82801f6f8ce1a939bc39819a4d6e51",
+  "target_0188_witness_sha256": "2e0bef66159796815536cde4fe33429bced65f399836615597d027d822ae55b0",
+  "target_0188_original_graph_digest": "41b8b18136ee77afc82faee5da7b9bc1ba31e30b1634c5a2c4ac133f0a7bc9b4",
+  "new_research_runs": 0,
+  "new_numerical_originals": 0,
+  "detailed_d130_access": 0,
+  "files": [
+    {
+      "path": "STATE.md",
+      "bytes": 83537,
+      "sha256": "143728c6099865fc9d5f3a5a4baef3029b9a35c077faef571cdcc16833904e3d"
+    },
+    {
+      "path": "research/FINDINGS.md",
+      "bytes": 164065,
+      "sha256": "7a18d50f76ad2a02e6a7b8dd21da4866479522fc3da5443e3f6cfd1ea637d0c4"
+    },
+    {
+      "path": "research/DECISIONS.md",
+      "bytes": 107059,
+      "sha256": "4d7107b09d6e5b06ce593c02b8aa8b71d9e7933be072232df7983b79f9aef53b"
+    },
+    {
+      "path": "research/PROOF_OBLIGATIONS.md",
+      "bytes": 89912,
+      "sha256": "89fd92458804a8ab7f417e9480c8fa34ec40f1b6afd945245bcaa4caa5a67648"
+    },
+    {
+      "path": "handoffs/CODEX-20261124-d149-director-acceptance.md",
+      "bytes": 6219,
+      "sha256": "5637a2c34bafd20ecc49bd384d91cc21302fa28993180d9535f5800dc13a1147"
+    }
+  ],
+  "byte_basis": "Paths bind canonical LF Git bytes at the containing acceptance checkpoint. Windows checkout line endings may differ."
+}
