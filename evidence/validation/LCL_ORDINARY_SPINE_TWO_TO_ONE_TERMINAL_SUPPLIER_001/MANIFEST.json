@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "task": "LCL-ORDINARY-SPINE-TWO-TO-ONE-TERMINAL-SUPPLIER-001",
+  "parent": "8cada36da380b96075d2faa101a9accaa05c4186",
+  "method": "symbolic",
+  "status": "PROVED_PENDING_DIRECTOR_REVIEW",
+  "review": "MATHEMATICAL_AND_IMPLEMENTATION_CUSTODY_PASS",
+  "state_binding": "Committed Git bytes of the D149 checkpoint. Windows checkout line endings can differ.",
+  "new_numerical_instances": 0,
+  "new_search_nodes": 0,
+  "new_transfer_evaluations": 0,
+  "detailed_d130_access": 0,
+  "retained_witnesses": 1,
+  "terminal_free_classification": "MAX_HALF_QUOTA_AT_LEAST_TWO",
+  "project_instructions": "KEEP v11",
+  "retained_status": "D148_INCOMPLETE_EXTERIOR_NODE_CAP_AND_DIRECTOR_ACCEPTED_COMPLETED_FINITE_EVIDENCE",
+  "files": [
+    {
+      "path": "STATE.md",
+      "bytes": 83921,
+      "sha256": "f80a625dbef821199e4c4e51018d5624539b1ba01029dadc9f1744e53cc46456"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_TWO_TO_ONE_TERMINAL_SUPPLIER.md",
+      "bytes": 19686,
+      "sha256": "3f974982d8e7a93123647c9f3d8e66d7dfefc51151eb079afc2fc38e451fd1df"
+    },
+    {
+      "path": "handoffs/CODEX-20261124-ordinary-spine-two-to-one-terminal-supplier.md",
+      "bytes": 3953,
+      "sha256": "bf15c112102f845e676b1fc50e21ab510903ab59050641250ef58dab6408ed8e"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_TWO_TO_ONE_TERMINAL_SUPPLIER_001/README.md",
+      "bytes": 929,
+      "sha256": "4ec7fb5c910ce5ab93cb9f787c0f5019feb1ba8252d5d203437199a643bd3444"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_TWO_TO_ONE_TERMINAL_SUPPLIER_001/CUSTODY.json",
+      "bytes": 6884,
+      "sha256": "8b526a5c053f1ca97156d5158600458d2f469c40c3260dbc82fe0def333b3a23"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_TWO_TO_ONE_TERMINAL_SUPPLIER_001/REVIEWS.md",
+      "bytes": 1749,
+      "sha256": "43b130b4f43724b8522f4a766238799d98ba11280e71810ed6619f6d329834d8"
+    }
+  ]
+}

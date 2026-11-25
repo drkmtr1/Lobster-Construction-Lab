@@ -2,11 +2,11 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 24, 2026, Pacific/Honolulu<br>
-**Stage:** D149 two-center symbolic supplier and terminal-free parity obstruction **DIRECTOR ACCEPTED WITHIN SCOPE**. The proposed two-to-one supplier is **UNSTARTED — AWAITING OWNER AUTHORIZATION**. D148 completed finite evidence remains Director accepted, with official execution **INCOMPLETE_EXTERIOR_NODE_CAP**. **Project instructions KEEP v10.** The Owner reported restoring the saved v10 instructions.
+**Stage:** D150 two-to-one terminal supplier and exact terminal-free classification **PROVED — PENDING DIRECTOR REVIEW**. D149 remains Director accepted within its written scope. D148 completed finite evidence remains accepted, with execution **INCOMPLETE_EXTERIOR_NODE_CAP**. **Project instructions KEEP v11.**
 
 ## Current scientific objective
 
-Develop independently supplied ordinary graceful constructions and reusable transitions on the actual named lobster. Preserve both exact resource inventories, actual physical ports and unfinished incidences, and exact closure and termination. Retain alpha components within their proved premises. Computational tools remain available for separately authorized bounded diagnostics.
+Develop independently supplied ordinary graceful constructions and reusable transitions on the actual named lobster. Preserve both exact resource inventories, actual physical ports and unfinished incidences, and exact closure and termination. Retain alpha components within their proved premises. Select symbolic, computational and hybrid methods by mathematical leverage. At a genuine unresolved mathematical bottleneck, use hybrid discovery under separate Owner authorization. Resource consumption alone does not rule out a promising method.
 
 D143 proves a same-polarity exterior-tree and gap reduction for an exact D134 p=1 return across two sections in the declared embedding class. It supplies a repeatable family with an odd first-section edge count and immutable final-alphabet realization. General compatible exterior and gap supply remain open. D142's single-section scopes remain unchanged. [D143 proof](research/ORDINARY_SPINE_TWO_SECTION_CUT_STATE.md) · [Director acceptance handoff](handoffs/CODEX-20261124-d143-director-acceptance.md)
 
@@ -20,11 +20,13 @@ D148 preparation fixes one independently initialized D105/D134 prefix and 320 na
 
 The Director accepted D148's completed finite evidence. The 225 audited pairs include 222 of 234 two-center pairs and five E-only matches with independently audited exhaustive Arm T negatives. The other 12 two-center pairs remain undecided. The campaign stopped at the frozen node cap during Arm E of target-0226. [Execution evidence](evidence/runs/d148-matched-exterior-001/README.md) · [Director acceptance handoff](handoffs/CODEX-20261124-d148-director-acceptance.md)
 
-D149 supplies a terminal-enabled D143 completion on every ordered (3), (2p,2q,0,0,0,0) for exact p,q≥1 and n≥2(p+q+6). Its wider terminal-free parity obstruction requires one odd-quota first center, no first direct leaves and only even second-center quotas. Exact first-section resources, return and finite composition are proved. The Director accepted these results. Target-0188 remains a separate unstarted lead. [D149 proof](research/ORDINARY_SPINE_TWO_CENTER_EVEN_QUOTA_SUPPLIER.md) · [Handoff](handoffs/CODEX-20261124-ordinary-spine-two-center-even-quota-supplier.md)
+D149 supplies a terminal-enabled D143 completion on every ordered (3), (2p,2q,0,0,0,0) for exact p,q≥1 and n≥2(p+q+6). Its wider terminal-free parity obstruction requires one odd-quota first center, no first direct leaves and only even second-center quotas. Exact first-section resources, return and finite composition are proved. The Director accepted these results. [D149 proof](research/ORDINARY_SPINE_TWO_CENTER_EVEN_QUOTA_SUPPLIER.md) · [Handoff](handoffs/CODEX-20261124-ordinary-spine-two-center-even-quota-supplier.md)
+
+D150 supplies a terminal-enabled D143 completion for every ordered (4), (2p,2q,0,0,0) with exact p,q≥1 and n≥2(p+q+6). In that same domain it proves terminal-free feasibility exactly when max(p,q)≥2. Target-0188 is the (1,1) case and is symbolically E-only within D143. Both constructions have exact intermediate inventories and the same-polarity D134 return. [D150 proof](research/ORDINARY_SPINE_TWO_TO_ONE_TERMINAL_SUPPLIER.md) · [Handoff](handoffs/CODEX-20261124-ordinary-spine-two-to-one-terminal-supplier.md)
 
 ## One next action
 
-Under separate Owner authorization, execute `LCL-ORDINARY-SPINE-TWO-TO-ONE-TERMINAL-SUPPLIER-001`: investigate the retained target-0188 two-to-one exterior-terminal mechanism and establish or delimit an independent named D143 supplier for the ordered profiles (4) and (2p,2q,0,0,0), for independently prescribed exact integers p,q≥1 and the exact D134 p=1 input and return. Prove or delimit the parity-chain allocation and the scoped terminal-free obstruction. This action is UNSTARTED.
+Under separate Owner authorization and after Director review, prepare a bounded hybrid study of independent D143 exterior supply for ordered (2r) and (2p,2q,0), with r≥2 and p,q≥1. Use one direct leaf at w, the D150 three-direct-leaf result as a control, and independently audited D146 quota support. This action is UNSTARTED.
 
 ## Deferred obligations
 
