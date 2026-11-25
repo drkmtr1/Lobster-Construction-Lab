@@ -808,10 +808,26 @@ The [D100 versioned audit recovery](../evidence/validation/LCL_R241_43_2_FIXED_E
 
 [D142](ORDINARY_SPINE_VARIABLE_EXTERIOR_BRIDGE.md) settles the old image and necessary crossing and exterior conditions for the declared non-leaf family. Full fresh feasibility is unresolved. A broader crossing spectrum would require its own supplied state and exact return proof. The next authorized investigation should instead test a two-section composition with an exact external return and a flexible intermediate crossing state. [STATE.md](../STATE.md)
 
-## Deferred symbolic two-section D134 obligation
+<a id="deferred-symbolic-two-section-d134-obligation"></a>
 
-**DEFERRED / UNSTARTED** pending the hybrid pilot decision. The obligation remains open and unexecuted. It has neither been refuted nor mathematically superseded.
+## Selected symbolic two-section D134 obligation
+
+**SELECTED / UNSTARTED — AWAITING SEPARATE AUTHORIZATION.** This previously deferred obligation remains mathematically unresolved. The pilot used a D131-compatible ordinary final-deficit contract. The exact D134 half-spectrum return, its independent intermediate crossing state, and general multi-section resource composition and closure still require proof.
 
 > Under separate authorization, test an ordinary spine transition appending two actual consecutive sections with one exact external D134 p=1 return and no imposed intermediate half-spectrum. Derive the combined fresh label and difference reserves and an independently supplied intermediate crossing state. Prove a parameterized reusable composition or a scoped obstruction, preserving the actual named incidences and exact final inventories. Use symbolic mathematics without numerical search, placement sweeps or solver calls.
 
-The selected pilot offers a D131-compatible final deficit contract. Its finite matched comparison leaves independent intermediate supply, the exact D134 half-spectrum return and reusable two-section closure open. The deferred and unstarted 2322 zero-host investigation remains a separate obligation. [Governance decision](DECISIONS.md#hybrid-discovery-pilot-v111-governance-alignment)
+The 2322 zero-host investigation remains separately **DEFERRED / UNSTARTED** under D077. [Live scheduling](../STATE.md) · [Pilot closeout decision](DECISIONS.md#hybrid-discovery-pilot-closeout-and-symbolic-reversion)
+
+## Pilot proof challenge pending Director review
+
+The external symbolic challenge completed as `PILOT_PROOF_CHALLENGE_COMPLETE_AWAITING_DIRECTOR` and received separate mathematical and custody PASS reviews. The following proved arguments in that bundle remain **PENDING DIRECTOR REVIEW**. They are historical proof-review items, with no concurrent research authorization.
+
+1. The prescribed affine translation by A of a supplied ordinary graceful maximum-frontier prefix with n edges and ordered suffix sizes A,B, with A≥1, B≥3 and n≥A+B+1, reduces joint feasibility to the smaller named tree containing the frontier and the two sections. The reduction preserves the exact final-deficit domain and, for the normalized arm, intermediate rank-gracefulness.
+2. The maximum-cut-gap argument uses actual maximum crossings n−1,n, the shift B−2 and max(A−1,B)<n−1 to exclude the missing required difference n−1 within that embedding.
+3. In the exact affine reduction, cut balance forces equal branch-entry counts across the two sections, counting direct-leaf entries and keeping empty spine sections. This accounts for five frozen affine negatives.
+4. In the balanced `[2],[1]` affine case the actual reduced difference sum forces `2y+z-r=18` for the named roles in the proof. The allowed role cases force a repeated difference.
+5. The three fixed `[0,1],[1,0]` direct-leaf formulas on a supplied ordinary maximum-frontier prefix have graceful full spectra. Two have rank-invalid intermediates. The rank-valid formula independently supplies the first section for this topology.
+6. For that fixed direct-leaf block the proof derives finite repetition in the ordinary maximum-frontier state and immutable final labels by composing translations. The general independent supply, arbitrary multiplicity and quotas, interior empty sections, and exact external D134 return remain open.
+7. Under the verified frozen seed premises, the reduction and gap obstruction imply a symbolic feasibility prediction of corresponding D105 and D130 cases. That prediction does not adjudicate observed search statuses, samples or timing. Detailed holdout evidence remains sealed.
+
+The frozen hypothesis, falsifiers, proofs and review records remain in the [external custody inventory](../handoffs/CODEX-20261124-hybrid-pilot-closeout-symbolic-reversion.md#completed-symbolic-challenge).

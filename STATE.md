@@ -2,25 +2,25 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 24, 2026, Pacific/Honolulu<br>
-**Stage:** `PILOT_GOVERNANCE_ALIGNED_AWAITING_GATE_A`. v1.1.1 is tooling-qualified. The finite pilot is temporarily selected and remains unprepared. Project instructions **KEEP v11**.
+**Stage:** `PILOT_REVERTED_SYMBOLIC_READY_AWAITING_AUTHORIZATION`. The temporary hybrid pilot is closed. **Project instructions UPDATE NEEDED — RESTORE SAVED v10.** The Owner performs the restoration in ChatGPT.
 
 ## Current scientific objective
 
-Develop independent ordinary graceful transitions with usable physical ports. D142's exact old-image admission and scoped exterior obstructions remain accepted, with full fresh feasibility unresolved. The Director temporarily selected the finite matched pilot to seek structural contrasts and candidate invariants for separately authorized proof work. Its D131-compatible ordinary deficit return leaves the exact symbolic D134 obligation open. [Governance handoff](handoffs/CODEX-20261124-hybrid-pilot-v1-1-1-governance.md)
+Develop independently supplied ordinary graceful constructions and reusable transitions on the actual named lobster. Prioritize symbolic two-section composition, both exact resource inventories, actual physical ports and unfinished incidences, arbitrary branch multiplicities and quotas, and exact closure and termination. Retain alpha components within their proved premises. Computational tools remain available for separately authorized bounded diagnostics.
+
+D142's scoped old-image admission and necessary exterior constraints stand. Full fresh-placement feasibility remains open. The exact symbolic D134 obligation below is **SELECTED / UNSTARTED — AWAITING SEPARATE AUTHORIZATION**.
 
 ## One next action
 
-Under separate Owner authorization, perform Gate A preparation only for LCL-HYBRID-JOINT-TWO-SECTION-PILOT-001 using the qualified immutable v1.1.1 kit and approved scientific configuration. Freeze the retained D105/D130 seeds, declared full and intermediate originals, exact matched experiment plan, historical evidence index, sources, runtime and qualification receipts under all existing preparation limits. Stop at FROZEN_NOT_EXECUTED for Research Director review. Do not execute any research search or analysis.
+Under separate authorization, test an ordinary spine transition appending two actual consecutive sections with one exact external D134 p=1 return and no imposed intermediate half-spectrum. Derive the combined fresh label and difference reserves and an independently supplied intermediate crossing state. Prove a parameterized reusable composition or a scoped obstruction, preserving the actual named incidences and exact final inventories. Use symbolic mathematics without numerical search, placement sweeps or solver calls.
 
 ## Deferred obligations
 
-The exact symbolic two-section D134 obligation is **DEFERRED / UNSTARTED** pending the pilot decision. It remains open and unexecuted. [Verbatim obligation](research/PROOF_OBLIGATIONS.md#deferred-symbolic-two-section-d134-obligation)
+The separate 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
-The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
+## Pilot closeout and evidence custody
 
-## Pilot custody and gate boundary
-
-Qualified v1.1.1 kit manifest SHA-256 `3be844ca7a3e4f96a5b84bfafdcba57c8adb284a9d3b31f05cb2ccb3bbe0322e` and unchanged scientific configuration SHA-256 `7f96ec994ea6d95cd266e9f70f789b615c70224ea525a82593820a994e5db4d0`. External qualification evidence is held at `../LCL_Hybrid_Discovery_Pilot_v1.1.1_Qualification_20261124.zip`, SHA-256 `4c3dfee699b7635c81dc32536c34a29feed4772948737b4b08e7f40b2b465721`, with manifest SHA-256 `b0880edc520a090554c08ae4991ffd5261116d984abaaefa25f37b4889d6ba43`. The qualification establishes implementation readiness for the recorded tooling scope. The authorization covers governance alignment and LCL synchronization. Gate A requires separate Owner approval. Before Gate B, validate Windows research-supervisor process-tree termination under separate authorization. [Exact pilot scope and evidence](research/DECISIONS.md#hybrid-discovery-pilot-v111-governance-alignment)
+**REVERT** the temporary methodology. **ACCEPT** the independently reviewed finite D105 results within the frozen restrictions. The completed symbolic proof challenge and its separate reviews remain **PENDING DIRECTOR REVIEW** for mathematical acceptance. Detailed D130 results remain sealed. The historical evidence and qualified tools remain in external custody. [Closeout handoff](handoffs/CODEX-20261124-hybrid-pilot-closeout-symbolic-reversion.md) · [Decision](research/DECISIONS.md#hybrid-discovery-pilot-closeout-and-symbolic-reversion) · [Selected obligation](research/PROOF_OBLIGATIONS.md#selected-symbolic-two-section-d134-obligation)
 
 ## What is established in this package
 
