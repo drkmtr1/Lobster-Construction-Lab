@@ -659,3 +659,7 @@ For ordered (2r+1,2t), (2p,2q,0) with independently prescribed exact r,t,p,q≥1
 ## D156 (1,1) first-profile obstruction in D143
 
 **PROVED / PENDING DIRECTOR REVIEW.** With ordered profiles (1,1), (2p,2q+1,0) and exact p,q≥1, the supplied D134 p=1 state and n≥2(p+q+5), no D143 exterior and gap allocation completes either arm. D153 and D147 force terminal-free A=B=3. The mandatory lower sources fix the lower images and displacement parity fixes the upper roles. Every use of the even upper center increases the image sum over the required reflection, contradicting its positive quota. Ordinary gracefulness under other placements remains outside the claim. [D156 proof](ORDINARY_SPINE_ODD_FIRST_CENTER_PARAMETERIZED_CLASSIFICATION.md#4-complete-obstruction-at-rt0)
+
+## D157 fixed-phase restriction under a connected crossing exterior
+
+**PROVED / PENDING DIRECTOR REVIEW.** Fix ε∈{0,−1}. With the declared membership-preserving placement, connected crossing exterior containing all positive centers, and leaf-only gap, an S_ε to S_ε transition forces x+y=s−K and both fresh graph classes even. A fixed one-extra-weight state therefore still excludes the odd classes on the selected family within these premises. The alternating construction changes the crossing count at each step and leaves other relaxed placements outside this restriction. [Proof](ORDINARY_SPINE_ALTERNATING_EXCEPTIONAL_SPECTRUM.md)

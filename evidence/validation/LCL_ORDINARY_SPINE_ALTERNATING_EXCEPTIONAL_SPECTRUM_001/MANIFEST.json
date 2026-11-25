@@ -1,0 +1,131 @@
+{
+  "task": "LCL-ORDINARY-SPINE-ALTERNATING-EXCEPTIONAL-SPECTRUM-001",
+  "date": "2026-11-25",
+  "status": "ALTERNATING_SPECTRUM_CYCLE_PROVED_PENDING_DIRECTOR_REVIEW",
+  "parent": "a1d98660e0acbf0b4ec32cc86d59f2f1b01d087b",
+  "proof_sha256": "73230a18d826361e0eb4eadfbf02e41cbb1aa3c5332c890bf75f48ed18a0e0fd",
+  "theorem": "Ordered (2r+1,2t),(2p,4,0) with r>=2,t>=1,p>=t and n>=2(r+t+p+6) admits both explicit phase legs and finite alternating composition on the declared named exterior and gap.",
+  "D156_acceptance": {
+    "disposition": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE",
+    "manifested_members": 6,
+    "retained_intake_bindings": 17,
+    "proof_sha256": "8f0cdb9e45aa9d87babc7b56c5408d12851a20506715535bd8389a378f34e8b6",
+    "manifest_sha256": "c10c29bcef56469290f1fcc5aff4a859d1aa367a27421d6e341c1ca350a87254",
+    "accepted_scope": [
+      "independent terminal-free supplier",
+      "all-exterior obstruction at r=t=0",
+      "exact named resources",
+      "both polarities",
+      "admitted immutable finite composition"
+    ],
+    "local_Windows_checks": "Codex-reported"
+  },
+  "state_binding": {
+    "path": "STATE.md",
+    "bytes": 86818,
+    "sha256_canonical_git_bytes": "2c8d2dacb302c1b64fffc2e7efcb7c141a0384532afd5d6971d2b49c659990bb",
+    "sole_next_action": "Under separate Owner authorization after Director review, investigate an independently supplied S_-1-preserving two-section bridge on a retained strict-compatible D143 topology. Determine whether it can be placed between the two D157 legs to compose even and odd fresh graph-class blocks while preserving both named inventories, the actual frontier and connector, and immutable finite labels. Prove the bridge and closure or isolate a precise obstruction. This action is UNSTARTED."
+  },
+  "intake_file_bindings": [
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_ODD_FIRST_CENTER_PARAMETERIZED_CLASSIFICATION_001/MANIFEST.json",
+      "sha256": "c10c29bcef56469290f1fcc5aff4a859d1aa367a27421d6e341c1ca350a87254",
+      "bytes": 6969
+    },
+    {
+      "path": "research/ORDINARY_SPINE_ODD_FIRST_CENTER_PARAMETERIZED_CLASSIFICATION.md",
+      "sha256": "8f0cdb9e45aa9d87babc7b56c5408d12851a20506715535bd8389a378f34e8b6",
+      "bytes": 16894
+    },
+    {
+      "path": "evidence/runs/d154-parity-two-first-center-001/MANIFEST.json",
+      "sha256": "e66f651917ae167dfb903d1557f25a593738e2cea97a9d79e4e16c19f6f52b42",
+      "bytes": 3968
+    },
+    {
+      "path": "evidence/runs/d154-parity-two-first-center-001/OFFICIAL_RAW.zip",
+      "sha256": "fc85e33800ec57eeccba25637f5e99080c08539160739cfbdd6543f18fb9cb72",
+      "bytes": 732889
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_PARITY_COMPATIBLE_TWO_FIRST_CENTER_001/MANIFEST.json",
+      "sha256": "2911696630754f2276cf77e95208becc1a37ed1c33a071fdbe8f7e967745eebf",
+      "bytes": 15353
+    },
+    {
+      "path": "STATE.md",
+      "sha256": "9a8926b4d22767614b6cac7fd3dd77912b95f7327b73fe13b2141e289446b64e",
+      "bytes": 86942,
+      "git_commit": "a1d98660e0acbf0b4ec32cc86d59f2f1b01d087b",
+      "representation": "Canonical Git blob bytes at the admission checkpoint"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_PIECEWISE_CUT_SPECTRUM_TRANSITION.md",
+      "sha256": "2b9b52c24293110f8e0b59b4ac73af11e4c14e77cb5ff7355ced236b6d271839",
+      "bytes": 16708
+    },
+    {
+      "path": "research/ORDINARY_SPINE_TWO_SECTION_CUT_STATE.md",
+      "sha256": "a7b4d98f286225bfb887866ce1b6167281b52bb650fcf53a50b0a5060e152cf8",
+      "bytes": 24015
+    },
+    {
+      "path": "research/ORDINARY_SPINE_TWO_SECTION_TOPOLOGICAL_PARITY.md",
+      "sha256": "0e6cb2aa2860f9ce77f62bafc4fa484128e43c121733b2038b9019e4180a2057",
+      "bytes": 8533
+    },
+    {
+      "path": "research/ORDINARY_SPINE_TWO_FIRST_CENTER_PARAMETERIZED_CLASSIFICATION.md",
+      "sha256": "5455a5cb16dd4fea65dd310158285cb3c5bb18f011f0fbce1040ed3ca13e2d84",
+      "bytes": 23377
+    },
+    {
+      "path": "research/ORDINARY_SPINE_DEFICIT_TRANSITION.md",
+      "sha256": "77e3028f3c99a93f5e38c3545b88cfc4454168c348e01c6bd9a22eb38abf8865",
+      "bytes": 11618
+    },
+    {
+      "path": "research/R241_PAIRED_BRANCHED_SPINE.md",
+      "sha256": "5a73a215baca0feaa378e80fa1c30b1d27602258f7a4175873287da9cdb086ed",
+      "bytes": 10289
+    }
+  ],
+  "scientific_counters": {
+    "new_numerical_originals": 0,
+    "labeling_search_nodes": 0,
+    "placement_sweeps": 0,
+    "transfer_evaluations": 0,
+    "solver_calls": 0,
+    "pilot_invocations": 0,
+    "historical_replays": 0,
+    "detailed_D130_access": 0,
+    "successor_executions": 0
+  },
+  "files": [
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_ALTERNATING_EXCEPTIONAL_SPECTRUM_001/CUSTODY.json",
+      "bytes": 6464,
+      "sha256": "241dbd449084f2db7b0dd7272d7b44bb95b73b3ca8e799164a941d2638c62196"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_ALTERNATING_EXCEPTIONAL_SPECTRUM_001/README.md",
+      "bytes": 1285,
+      "sha256": "985539eee927eb997b4e9ab2f4794c9acad3bb72c76d72eaaf3ef262d742413d"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_ALTERNATING_EXCEPTIONAL_SPECTRUM_001/REVIEWS.md",
+      "bytes": 1552,
+      "sha256": "d977808bbfc7d60937fdf2f2646f126004f74cea867452df18deff2835776e6b"
+    },
+    {
+      "path": "handoffs/CODEX-20261125-alternating-exceptional-cut-spectrum.md",
+      "bytes": 2810,
+      "sha256": "c88f6f0b64d31f06ef728e092b5faaea31443d962d4e9bd28b6e5b93bee4d535"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_ALTERNATING_EXCEPTIONAL_SPECTRUM.md",
+      "bytes": 19060,
+      "sha256": "73230a18d826361e0eb4eadfbf02e41cbb1aa3c5332c890bf75f48ed18a0e0fd"
+    }
+  ]
+}

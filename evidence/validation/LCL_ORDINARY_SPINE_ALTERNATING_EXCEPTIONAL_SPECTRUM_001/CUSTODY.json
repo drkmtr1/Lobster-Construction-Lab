@@ -1,0 +1,169 @@
+{
+  "task": "LCL-ORDINARY-SPINE-ALTERNATING-EXCEPTIONAL-SPECTRUM-001",
+  "admission": {
+    "status": "PASS",
+    "head": "a1d98660e0acbf0b4ec32cc86d59f2f1b01d087b",
+    "parent": "f69b76b3f501213fa3b51401f0db0a15a2545744",
+    "origin_main": "a1d98660e0acbf0b4ec32cc86d59f2f1b01d087b",
+    "live_main": "a1d98660e0acbf0b4ec32cc86d59f2f1b01d087b",
+    "clean": true,
+    "baseline": "fddfc1dd9541324b2ed2de2505bc750b3e3f0b9d",
+    "baseline_peel": "36ea1603602491bf3c1c5b81ed4c23aaa2210e70",
+    "upstreams": [
+      {
+        "path": "../Math_Discovery_Lab",
+        "pin": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+        "branch": "main",
+        "checkout": "858a8c1fcfda87ba40bb1adee498a6131504a803"
+      },
+      {
+        "path": "../MDL_Bounded_Search",
+        "pin": "e48b94eec4091b4fe189e325cab2eda464409943",
+        "branch": "recovery/p004-last-completed-no-launcher",
+        "checkout": "c803ecb6bd0481d31af43f7e3c194ae8ed4d1578"
+      }
+    ],
+    "builder": "8d1e9948e8bf5ef01e67c9afe0155412c57d79fa",
+    "checker": "d008f35f0843e1a5c770db3e7f42ed7d987360d7",
+    "agents": {
+      "bytes": 8359,
+      "sha256": "e980f2ee51d2b69cfd8ab9c4955f9388ad14f9b7b78581729ef5a24dd21339e6"
+    },
+    "D156_members": 6,
+    "D156_retained_members": 17,
+    "D154_members": 70,
+    "writers": 0,
+    "bindings": [
+      {
+        "path": "evidence/validation/LCL_ORDINARY_SPINE_ODD_FIRST_CENTER_PARAMETERIZED_CLASSIFICATION_001/MANIFEST.json",
+        "sha256": "c10c29bcef56469290f1fcc5aff4a859d1aa367a27421d6e341c1ca350a87254",
+        "bytes": 6969
+      },
+      {
+        "path": "research/ORDINARY_SPINE_ODD_FIRST_CENTER_PARAMETERIZED_CLASSIFICATION.md",
+        "sha256": "8f0cdb9e45aa9d87babc7b56c5408d12851a20506715535bd8389a378f34e8b6",
+        "bytes": 16894
+      },
+      {
+        "path": "evidence/runs/d154-parity-two-first-center-001/MANIFEST.json",
+        "sha256": "e66f651917ae167dfb903d1557f25a593738e2cea97a9d79e4e16c19f6f52b42",
+        "bytes": 3968
+      },
+      {
+        "path": "evidence/runs/d154-parity-two-first-center-001/OFFICIAL_RAW.zip",
+        "sha256": "fc85e33800ec57eeccba25637f5e99080c08539160739cfbdd6543f18fb9cb72",
+        "bytes": 732889
+      },
+      {
+        "path": "evidence/validation/LCL_ORDINARY_SPINE_PARITY_COMPATIBLE_TWO_FIRST_CENTER_001/MANIFEST.json",
+        "sha256": "2911696630754f2276cf77e95208becc1a37ed1c33a071fdbe8f7e967745eebf",
+        "bytes": 15353
+      },
+      {
+        "path": "STATE.md",
+        "sha256": "9a8926b4d22767614b6cac7fd3dd77912b95f7327b73fe13b2141e289446b64e",
+        "bytes": 86942,
+        "git_commit": "a1d98660e0acbf0b4ec32cc86d59f2f1b01d087b",
+        "representation": "Canonical Git blob bytes at the admission checkpoint"
+      },
+      {
+        "path": "research/ORDINARY_SPINE_PIECEWISE_CUT_SPECTRUM_TRANSITION.md",
+        "sha256": "2b9b52c24293110f8e0b59b4ac73af11e4c14e77cb5ff7355ced236b6d271839",
+        "bytes": 16708
+      },
+      {
+        "path": "research/ORDINARY_SPINE_TWO_SECTION_CUT_STATE.md",
+        "sha256": "a7b4d98f286225bfb887866ce1b6167281b52bb650fcf53a50b0a5060e152cf8",
+        "bytes": 24015
+      },
+      {
+        "path": "research/ORDINARY_SPINE_TWO_SECTION_TOPOLOGICAL_PARITY.md",
+        "sha256": "0e6cb2aa2860f9ce77f62bafc4fa484128e43c121733b2038b9019e4180a2057",
+        "bytes": 8533
+      },
+      {
+        "path": "research/ORDINARY_SPINE_TWO_FIRST_CENTER_PARAMETERIZED_CLASSIFICATION.md",
+        "sha256": "5455a5cb16dd4fea65dd310158285cb3c5bb18f011f0fbce1040ed3ca13e2d84",
+        "bytes": 23377
+      },
+      {
+        "path": "research/ORDINARY_SPINE_DEFICIT_TRANSITION.md",
+        "sha256": "77e3028f3c99a93f5e38c3545b88cfc4454168c348e01c6bd9a22eb38abf8865",
+        "bytes": 11618
+      },
+      {
+        "path": "research/R241_PAIRED_BRANCHED_SPINE.md",
+        "sha256": "5a73a215baca0feaa378e80fa1c30b1d27602258f7a4175873287da9cdb086ed",
+        "bytes": 10289
+      }
+    ],
+    "read_only_worker_count": 1,
+    "local_process_cpu_seconds": 0.828125,
+    "observed_worker_wall_seconds": 4.0826383,
+    "externally_observed_tool_wall_seconds": 4.2451252
+  },
+  "disposition": "ALTERNATING_SPECTRUM_CYCLE_PROVED_PENDING_DIRECTOR_REVIEW",
+  "proof_sha256": "73230a18d826361e0eb4eadfbf02e41cbb1aa3c5332c890bf75f48ed18a0e0fd",
+  "D156": {
+    "disposition": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE",
+    "manifested_members": 6,
+    "retained_intake_bindings": 17,
+    "proof_sha256": "8f0cdb9e45aa9d87babc7b56c5408d12851a20506715535bd8389a378f34e8b6",
+    "manifest_sha256": "c10c29bcef56469290f1fcc5aff4a859d1aa367a27421d6e341c1ca350a87254",
+    "accepted_scope": [
+      "independent terminal-free supplier",
+      "all-exterior obstruction at r=t=0",
+      "exact named resources",
+      "both polarities",
+      "admitted immutable finite composition"
+    ],
+    "local_Windows_checks": "Codex-reported"
+  },
+  "scope": {
+    "profiles": [
+      "(2r+1,2t)",
+      "(2p,4,0)"
+    ],
+    "parameter_conditions": "Exact integers, r>=2, t>=1, p>=t",
+    "prefix_size": "n>=2K, K=r+t+p+6",
+    "phase_edges": [
+      [
+        "S_0",
+        "S_-1"
+      ],
+      [
+        "S_-1",
+        "S_0"
+      ]
+    ],
+    "strict_control": "D153 excludes the same original profiles within its exact D143 interface",
+    "boundary_control": "At r=2,t=p=1 the outbound common interval is one mixed packet and the return common interval one two-column cycle. These are symbolic size identities. No original was generated."
+  },
+  "verification_limits": {
+    "workers": 1,
+    "process_cpu_seconds": 60,
+    "externally_observed_wall_seconds": 120,
+    "new_evidence_bytes": 4000000,
+    "measurement": "Single read-only PowerShell verifier and serial Git commands. Reported process CPU measures the shell and its in-process hashing; process wait time appears in the observed wall."
+  },
+  "scientific_counters": {
+    "new_numerical_originals": 0,
+    "labeling_search_nodes": 0,
+    "placement_sweeps": 0,
+    "transfer_evaluations": 0,
+    "solver_calls": 0,
+    "pilot_invocations": 0,
+    "historical_replays": 0,
+    "detailed_D130_access": 0,
+    "successor_executions": 0
+  },
+  "retained_statuses": {
+    "D155": "DIRECTOR ACCEPTED",
+    "D154": "COMPLETE, both frozen finite falsifications accepted",
+    "D148": "Capped with twelve undecided pairs",
+    "pilot": "CLOSED",
+    "D130": "SEALED",
+    "investigation_2322": "DEFERRED / UNSTARTED",
+    "project_instructions": "KEEP v11"
+  }
+}
