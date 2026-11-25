@@ -2,19 +2,21 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 24, 2026, Pacific/Honolulu<br>
-**Stage:** D137 mixed-multiplicity cut-state bridge **ACCEPTED**. Bounded retained-evidence verification **PASS**. [Proof](research/ORDINARY_SPINE_MIXED_MULTIPLICITY_CUT_STATE_BRIDGE.md).
+**Stage:** D138 canonical placement rigidity and role-independent moment obstruction **ACCEPTED**. Bounded retained-evidence verification **PASS**. [Proof](research/ORDINARY_SPINE_CANONICAL_PLACEMENT_RIGIDITY.md).
 
 ## Current scientific objective
 
-Develop independent ordinary graceful transitions with usable physical ports. The [latest handoff](handoffs/CODEX-20261124-ordinary-spine-mixed-multiplicity-cut-state-bridge.md) establishes the exact two-translation multiplicity compatibility and a symbolic bridge that admits both physical multiplicity parities. The bridge still requires a canonical weighted moment and the extreme-frontier cut states supplied by special initialization. Prioritize whether alternate fresh placements can relax the quota restriction.
+Develop independent ordinary graceful transitions with usable physical ports. The [latest handoff](handoffs/CODEX-20261124-ordinary-spine-canonical-placement-rigidity.md) exhausts alternate fresh placements in D137's exact single-section class and identifies quotas excluded by every numerical role assignment. The next priority is a broader old embedding with exact inventories and designated return-state data.
 
 ## One next action
 
-Under separate authorization, determine whether the general D137 two-translation placement can supply a single compatible bridge for physical quotas that violate the canonical weighted moment. Use the forced exterior connectivity and center-side rigidity to derive an exact total-weight identity for placements with centers in the lower exterior or lower gap. Prove a parameterized construction beyond the canonical moment or a scoped obstruction that applies to every placement in this class. Retain the extreme frontier, both exact cut states and all original named incidences. Work symbolically without numerical joins, solvers, sweeps or isolated quota cases.
+Under separate authorization, test a single-section broader ordinary embedding with two declared old label cuts and three order-preserving translation bands. Derive the exact old-weight collision criterion from actual incidences and the corresponding fresh label and difference inventories. Determine whether this class supplies a parameterized bridge outside D138's role-independent moment condition while preserving all named incidences and exact designated return-state data, or prove a scoped obstruction for the proposed class. Work symbolically without numerical joins, permutation enumeration, profile sweeps or capacity optimization.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
+
+- D138 **PROVES** canonical placement rigidity in the exact D137 class. A repeated actual edge weight excludes B>1, and an exact coordinate deficit excludes all gap centers. The resulting A=h, s=Q, B=1 placement admits exactly numerical role bijections and two-band displacement permutations with the physical quotas. A positive role exchange escapes the fixed-index moment, and an infinite symbolic family fails the moment for every role assignment. Two archived checker rechecks, two cut inspections, eight bindings, five controls and separate reviews passed. See [proof](research/ORDINARY_SPINE_CANONICAL_PLACEMENT_RIGIDITY.md) and [evidence](evidence/validation/LCL_ORDINARY_SPINE_CANONICAL_PLACEMENT_RIGIDITY_001/README.md).
 
 - D137 **PROVES** that every membership-preserving two-translation bridge in its exact regime flips the frontier polarity and must have h=p+p'+1 between D134 states p and p'. The exterior forest and actual incidence bounds force all centers below the return cut. The canonical asymmetric packet rule supplies both physical multiplicity parities under its moment, parity, size and capacity conditions. Admitted lists follow p_i=h_i−1−p_(i−1), keeping both exact inventories and immutable final labels. Two archived rechecks, two cut inspections, seven bindings, four controls and separate reviews passed. See [proof](research/ORDINARY_SPINE_MIXED_MULTIPLICITY_CUT_STATE_BRIDGE.md) and [evidence](evidence/validation/LCL_ORDINARY_SPINE_MIXED_MULTIPLICITY_CUT_STATE_BRIDGE_001/README.md).
 

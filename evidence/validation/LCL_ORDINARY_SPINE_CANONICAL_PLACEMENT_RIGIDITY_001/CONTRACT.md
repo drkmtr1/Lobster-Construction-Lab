@@ -1,0 +1,7 @@
+# D138 frozen contract
+
+Task LCL-ORDINARY-SPINE-CANONICAL-PLACEMENT-RIGIDITY-001 at 32963475f7504dfda0f8144b216838c263dda1b5. Prove or refute canonical placement in the exact D137 two-translation class. Derive the independent absolute-weight identity after the upper exterior is forced to be a singleton. Characterize the role and band-permutation equivalence, constructive sufficient conditions, a symbolic role-exchange corollary and an infinite obstruction to all numerical roles.
+
+Recheck only D105 and D130 with the unchanged original-target checker on the exact frozen owners. Inspect their two declared cuts and D104/D131–D137 archive bindings. Five controls cover wrong digest, both upper-exterior weight collisions, exact gap-center cardinality, the positive role exchange and the dominant-increment obstruction.
+
+Use one CPU-only project-local Python 3.12/3.13 worker and standard library, separate reviews, one parse-only preflight, one supervised audit, frozen exact files and definitions, vacant outputs, no preflight task imports and no bytecode. Execution ceilings are 30 process-CPU seconds, 60 externally supervised wall seconds, 2,000,000 bytes per record and 8,000,000 bytes total. Zero new numerical graphs, certificates, initializers, joins, permutations, role transports, allocations, assignment enumeration, searches, historical evaluations, solvers, audit retries, escalations or successor experiments. Preserve INCOMPLETE on official failure.
