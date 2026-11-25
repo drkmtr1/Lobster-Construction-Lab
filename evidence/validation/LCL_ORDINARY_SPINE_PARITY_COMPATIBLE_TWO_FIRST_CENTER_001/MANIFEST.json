@@ -1,0 +1,383 @@
+{
+  "task": "LCL-ORDINARY-SPINE-PARITY-COMPATIBLE-TWO-FIRST-CENTER-001",
+  "status": "FROZEN_PREPARATION_ONLY",
+  "authorization_required": "SEPARATE_OWNER_EXECUTION_AUTHORIZATION",
+  "start_commit": "8dfc28dca753d66620cc72e190fe20e61ee768cd",
+  "date": "2026-11-25",
+  "domain": {
+    "parameters": [
+      "r",
+      "t",
+      "p",
+      "q"
+    ],
+    "min": 1,
+    "max": 4,
+    "count": 256,
+    "ordered": true,
+    "first": "(2r,2t)",
+    "second": "(2p,2q+1,0)",
+    "prefix_edges": 54,
+    "fresh_min": 16,
+    "fresh_max": 40
+  },
+  "originals": 256,
+  "proposed_arm_dispositions": 512,
+  "historical_D153_acceptance": "DIRECTOR_ACCEPTED_WITHIN_WRITTEN_SCOPE",
+  "state_binding": {
+    "path": "STATE.md",
+    "sha256_git_blob": "783ecb49aca5821a5bde4c5d0afc930b49c92729a2d1dae3330d56ef8d821c1a",
+    "authoritative_next_action": "Under separate Owner authorization after Director review, execute the single frozen D154 matched D143 study of 256 ordered originals. Preserve the audited basis of each disposition and stop at the frozen limits. This action is UNSTARTED."
+  },
+  "configuration_sha256": "d068998e1231b1ead45167834dbd99a085fd1a6fc5527482581b197eabca474a",
+  "runtime": {
+    "base": "7c2fc2b303a4ee3cc14cc17b47bc6e8bca98c78792edd123b846a560da44b203",
+    "cfg": "78989c73c08f515aadaf1ec5f8f24929021b48b284f4efc907a04938634af28b",
+    "dll": "26026530507a7389e7892ce130e7c1753b32a2df03ec3721d45ad8c1705d40eb",
+    "venv": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664"
+  },
+  "preparation": {
+    "status": "PASS",
+    "reason": null,
+    "phases": [
+      {
+        "phase": "corpus",
+        "exit_code": 0,
+        "timeout": false,
+        "process_cpu_seconds": 0.703125,
+        "wall_seconds": 0.8472128
+      },
+      {
+        "phase": "preflight",
+        "exit_code": 0,
+        "timeout": false,
+        "process_cpu_seconds": 0.640625,
+        "wall_seconds": 0.9143575
+      }
+    ],
+    "cpu_seconds": 1.890625,
+    "wall_seconds": 1.8209746,
+    "measurement": "Single pinned base CPython child at a time. External handle wait and sampled process CPU, plus supervising shell CPU. No kernel CPU or memory containment."
+  },
+  "official_activity": {
+    "exterior_recursion": 0,
+    "labeling_search_nodes": 0,
+    "allocation_states": 0,
+    "transfer_transitions": 0,
+    "solver_invocations": 0,
+    "pilot_invocations": 0,
+    "official_dispositions": 0
+  },
+  "official_paths": {
+    "results": "runs/d154-parity-two-first-center-001",
+    "approval": "runs/d154-parity-two-first-center-001-authorization.json",
+    "verified_vacant": true
+  },
+  "files": [
+    {
+      "path": "evidence/runs/d148-matched-exterior-001/MANIFEST.json",
+      "bytes": 3960,
+      "sha256": "29087be1c6dc344b8f683780542b55a7a513f89820f0156766f70fc1b7e00b15"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_MATCHED_EXTERIOR_TWO_CENTER_001/input/prefix.json",
+      "bytes": 5916,
+      "sha256": "e2f72bd883088b5034b3a7d2536fb1784ce8bcb3fd835083b42558a2709330d3"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_MATCHED_EXTERIOR_TWO_CENTER_001/MANIFEST.json",
+      "bytes": 12325,
+      "sha256": "b307eb0a3d759e1b2a6367ad1c2f48c0be5e15bcff3e95ed9716949cb061dc8c"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_PARITY_COMPATIBLE_TWO_FIRST_CENTER_001/corpus-stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_PARITY_COMPATIBLE_TWO_FIRST_CENTER_001/corpus-stdout.log",
+      "bytes": 512,
+      "sha256": "9bf273002dbcaf249916b0b229d676dae949c584e10e7a594d2218f1007ec764"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_PARITY_COMPATIBLE_TWO_FIRST_CENTER_001/CUSTODY.json",
+      "bytes": 15218,
+      "sha256": "8b7fd8e97baf13370e19ace920d5f3fdbb353ba47fc946b178a1cefdf45034be"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_PARITY_COMPATIBLE_TWO_FIRST_CENTER_001/input/corpus_index.json",
+      "bytes": 68378,
+      "sha256": "95eeda8b12feafc8e65dd22e35319e120e60e9a5b726f72cf971702d2acaaa8f"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_PARITY_COMPATIBLE_TWO_FIRST_CENTER_001/input/corpus_receipt.json",
+      "bytes": 511,
+      "sha256": "331bd9c676455d25de1ba356b9194da42d83e5f02702ee3ce14d9e995801cc31"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_PARITY_COMPATIBLE_TWO_FIRST_CENTER_001/input/prefix.json",
+      "bytes": 5916,
+      "sha256": "e2f72bd883088b5034b3a7d2536fb1784ce8bcb3fd835083b42558a2709330d3"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_PARITY_COMPATIBLE_TWO_FIRST_CENTER_001/input/targets-00.json",
+      "bytes": 104178,
+      "sha256": "ef1382cc1cb73f73ff8b2cc29191eb195012311648367ca29bb24358b58343d6"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_PARITY_COMPATIBLE_TWO_FIRST_CENTER_001/input/targets-01.json",
+      "bytes": 107154,
+      "sha256": "6af9373a1d0c11af8b069c2c9b21b720d058f76666dde44d7f5c7a1677897e39"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_PARITY_COMPATIBLE_TWO_FIRST_CENTER_001/input/targets-02.json",
+      "bytes": 110130,
+      "sha256": "a385678362162ec129b3b0ed41b2a45a109a31d5dc7f318c7004c937d4370d88"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_PARITY_COMPATIBLE_TWO_FIRST_CENTER_001/input/targets-03.json",
+      "bytes": 113106,
+      "sha256": "9639a7c2cf679a14a57b081736d2a5825a6a5a647556ea752898b7b5a25e5a29"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_PARITY_COMPATIBLE_TWO_FIRST_CENTER_001/input/targets-04.json",
+      "bytes": 107154,
+      "sha256": "74b98267f22b335c6e9443c99da77fe5673a565b008829bf77dcba48bd69662d"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_PARITY_COMPATIBLE_TWO_FIRST_CENTER_001/input/targets-05.json",
+      "bytes": 110130,
+      "sha256": "7ae363c66c4b41be64606498f7c05c736d5c9c430a8c2160a2d0b44f45d28d0e"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_PARITY_COMPATIBLE_TWO_FIRST_CENTER_001/input/targets-06.json",
+      "bytes": 113106,
+      "sha256": "895fb418b491e1d1e5168ea757ecb2a4ceea687160358f34f48a863a2d3e96a8"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_PARITY_COMPATIBLE_TWO_FIRST_CENTER_001/input/targets-07.json",
+      "bytes": 116082,
+      "sha256": "014cf1189c06290b9113f975e9853652ff3088fed44b19eca289bb1724507fde"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_PARITY_COMPATIBLE_TWO_FIRST_CENTER_001/input/targets-08.json",
+      "bytes": 110130,
+      "sha256": "af46a9c0041d2d4644fd613de3aaf0b61492c4c89f945d7587c8306c5ec10fce"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_PARITY_COMPATIBLE_TWO_FIRST_CENTER_001/input/targets-09.json",
+      "bytes": 113106,
+      "sha256": "694ad388796bf81ad7eca74301722f526bc80e8706a05752c312a9057cbbfd85"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_PARITY_COMPATIBLE_TWO_FIRST_CENTER_001/input/targets-10.json",
+      "bytes": 116082,
+      "sha256": "50d9d778a87f432f4d1e9394254b6e26987c998a62be8b5ea33e158c892ef941"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_PARITY_COMPATIBLE_TWO_FIRST_CENTER_001/input/targets-11.json",
+      "bytes": 119058,
+      "sha256": "df1eeae9660754dd9a67507bfd989ba59e69c32448630842b6e2ac677e353160"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_PARITY_COMPATIBLE_TWO_FIRST_CENTER_001/input/targets-12.json",
+      "bytes": 113106,
+      "sha256": "74f1d6e2122f1d0d442b670657d4bd27b6fe44540434d1a4c19e22f50844a26a"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_PARITY_COMPATIBLE_TWO_FIRST_CENTER_001/input/targets-13.json",
+      "bytes": 116082,
+      "sha256": "b548f7683c524a72404d191ffbd7671704ed57499a68250f182187019a544190"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_PARITY_COMPATIBLE_TWO_FIRST_CENTER_001/input/targets-14.json",
+      "bytes": 119058,
+      "sha256": "6bbd7002db55f87c2a732efc1c9facddd6a8a35e8a4e7c011a0e3fee4690d38a"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_PARITY_COMPATIBLE_TWO_FIRST_CENTER_001/input/targets-15.json",
+      "bytes": 122034,
+      "sha256": "ef176c16bb941a10ca52b21bdb29a7410afe9e7a47587533eb6eb4642ad2fb54"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_PARITY_COMPATIBLE_TWO_FIRST_CENTER_001/preflight-stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_PARITY_COMPATIBLE_TWO_FIRST_CENTER_001/preflight-stdout.log",
+      "bytes": 69,
+      "sha256": "73ec6868f01268253ca458800c99d5d9f8ddabfbc5fc6985917ea14684d1e6e6"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_PARITY_COMPATIBLE_TWO_FIRST_CENTER_001/PREFLIGHT.json",
+      "bytes": 10828,
+      "sha256": "41e37c87a633b2c064c44a9437071d0d0bbe33ae5c69f2cf041e215963bbec3e"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_PARITY_COMPATIBLE_TWO_FIRST_CENTER_001/PREPARATION_SUPERVISION.json",
+      "bytes": 603,
+      "sha256": "0a395eea8641d748bdc304c993344d0bc1a3af3f12680ebf5dd217244fb32b40"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_PARITY_COMPATIBLE_TWO_FIRST_CENTER_001/README.md",
+      "bytes": 957,
+      "sha256": "b00fe756158bef7f8852a9f6f59b05b40ddc21b3b65d3ba8e1169981261db015"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_PARITY_COMPATIBLE_TWO_FIRST_CENTER_001/REVIEWS.md",
+      "bytes": 3187,
+      "sha256": "9d3e066b5ac1ffb50e1f377e6ce29f1f32587d633a5bf6df2c2463cc2edc1c9a"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_TWO_DIRECT_LEAF_BOUNDARY_001/MANIFEST.json",
+      "bytes": 2136,
+      "sha256": "06374e914052c34bf269c720dc4cae255aedb7fd095a598a87192024e2d2dde0"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_TWO_FIRST_CENTER_ONE_DIRECT_LEAF_001/MANIFEST.json",
+      "bytes": 2065,
+      "sha256": "916f402bcdd67f9f4a05c52e30b64df4c07f01d387b87a333810ac78daa42f8f"
+    },
+    {
+      "path": "handoffs/CODEX-20261125-ordinary-spine-parity-compatible-exterior-preparation.md",
+      "bytes": 3652,
+      "sha256": "f4f1b48866f9cd3df062e6c826b9d7e1d33e6efaed6ae93c1eeff0130870cbfa"
+    },
+    {
+      "path": "lcl/model.py",
+      "bytes": 10720,
+      "sha256": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6"
+    },
+    {
+      "path": "lcl/verify.py",
+      "bytes": 14075,
+      "sha256": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909"
+    },
+    {
+      "path": "research/matched_exterior_001/audit.py",
+      "bytes": 11644,
+      "sha256": "fd7b650c419057664e4689c59bc3b4f3ab67845f6b56e730e8cbf649a62fcceb"
+    },
+    {
+      "path": "research/matched_exterior_001/campaign.py",
+      "bytes": 18749,
+      "sha256": "bf56fc24bdccdfcd2a766d0fd85389f0bb484b442f9440c543f49532a7889874"
+    },
+    {
+      "path": "research/matched_exterior_001/engine.py",
+      "bytes": 9210,
+      "sha256": "9781aceb9e14021c31688476a4a083ee0b1d6af7c012230a09fb647d46ab175d"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_EXTERIOR_SUPPLY_REASSESSMENT.md",
+      "bytes": 22150,
+      "sha256": "29f602e6623b96f2c043a665ca9355cf04829c89ae65c58ef731ee46bd810fa5"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_ONE_DIRECT_LEAF_EXTERIOR_OBSTRUCTION.md",
+      "bytes": 9609,
+      "sha256": "f13998f60c24210f951c54e06b5ea108506164d38e5d31ec277512dfe6f6d340"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_PARITY_COMPATIBLE_EXTERIOR_QUALIFICATION.md",
+      "bytes": 9350,
+      "sha256": "b0f156d1a42f83b08c62e546f8393befab03f63314d0e123d77d519b4ccb300b"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_PIECEWISE_CUT_SPECTRUM_TRANSITION.md",
+      "bytes": 16708,
+      "sha256": "2b9b52c24293110f8e0b59b4ac73af11e4c14e77cb5ff7355ced236b6d271839"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_TWO_CENTER_EVEN_QUOTA_SUPPLIER.md",
+      "bytes": 18039,
+      "sha256": "6caab3af70cc98cd6a596de016c62b87c886a933ea2da628059a52a970859238"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_TWO_DIRECT_LEAF_BOUNDARY.md",
+      "bytes": 20239,
+      "sha256": "50a1359702c20ea4711dc987e296890a9e008274f028bd38335ef63ab734f87d"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_TWO_SECTION_CUT_STATE.md",
+      "bytes": 24015,
+      "sha256": "a7b4d98f286225bfb887866ce1b6167281b52bb650fcf53a50b0a5060e152cf8"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_TWO_SECTION_EXACT_GAP_CRITERION.md",
+      "bytes": 19894,
+      "sha256": "dcfbdfa182ea3fec835f11a4508b57bc57d5cef976d3b14a7ded6e468e6ce5f2"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_TWO_SECTION_GAP_ALLOCATION.md",
+      "bytes": 20140,
+      "sha256": "582d8576f9a710b9a52d70ba9fb3f47fa289ea05f50cf6617d7889a5a36f5648"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_TWO_SECTION_GENERAL_GAP_CRITERION.md",
+      "bytes": 23630,
+      "sha256": "0221114b657dde0c1bcf64ae5fece4f0a8eca26f6d6e52eb8d5f1d1656946cd6"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_TWO_SECTION_TOPOLOGICAL_PARITY.md",
+      "bytes": 8533,
+      "sha256": "0e6cb2aa2860f9ce77f62bafc4fa484128e43c121733b2038b9019e4180a2057"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_TWO_TO_ONE_TERMINAL_SUPPLIER.md",
+      "bytes": 19686,
+      "sha256": "3f974982d8e7a93123647c9f3d8e66d7dfefc51151eb079afc2fc38e451fd1df"
+    },
+    {
+      "path": "research/parity_exterior_001/bindings.py",
+      "bytes": 2498,
+      "sha256": "2fe638c6458ed4edee655e0452a1fa611224cb40d8d821bdb0920d65e5297bb1"
+    },
+    {
+      "path": "research/parity_exterior_001/campaign.py",
+      "bytes": 12889,
+      "sha256": "f066603fcc757b0f121a3d5aa1a7d39a82e295987289367e53b2a752aad71e66"
+    },
+    {
+      "path": "research/parity_exterior_001/config.json",
+      "bytes": 4985,
+      "sha256": "d068998e1231b1ead45167834dbd99a085fd1a6fc5527482581b197eabca474a"
+    },
+    {
+      "path": "research/parity_exterior_001/CONTRACT.md",
+      "bytes": 6943,
+      "sha256": "18be39483bdf8a654dd097425a31f9f798aa7b1fd5c65d5ff693dd0b1493a597"
+    },
+    {
+      "path": "research/parity_exterior_001/DEFINITIONS.json",
+      "bytes": 2199,
+      "sha256": "a107a883bb05b25a78807dcca849728cc88ba035fdda7f179e77f5f2e34dfe98"
+    },
+    {
+      "path": "research/parity_exterior_001/generator.py",
+      "bytes": 5534,
+      "sha256": "ded521f11b44a85e7dede4f820bb57dc701b0020023e218194079ed52d05a045"
+    },
+    {
+      "path": "research/parity_exterior_001/independent.py",
+      "bytes": 5300,
+      "sha256": "9fb51074ec71450fb700c70f8322197bcb1c6152e661658740935bd3f46d7c87"
+    },
+    {
+      "path": "research/parity_exterior_001/preflight.py",
+      "bytes": 6900,
+      "sha256": "78447ca969da7422f5dcf9180819ba61cf368ec25d00b69c5424e04579d71aae"
+    },
+    {
+      "path": "research/parity_exterior_001/prepare_supervision.ps1",
+      "bytes": 5357,
+      "sha256": "8715ebb3b0e3a2b99703fb431af877e57bc4601f6005b4dc095286eabe27b2f2"
+    },
+    {
+      "path": "research/parity_exterior_001/prepare.py",
+      "bytes": 4147,
+      "sha256": "add8ca5755e74f8e8ff29a3057847adac043aaa953de5767366243ca9f9c0e83"
+    }
+  ]
+}

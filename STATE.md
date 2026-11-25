@@ -2,7 +2,7 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 25, 2026, Pacific/Honolulu<br>
-**Stage:** D153 topological parity **RESOLVED SYMBOLICALLY BEFORE NUMERICAL EXECUTION — PENDING DIRECTOR REVIEW**. D152 **DIRECTOR ACCEPTED WITHIN SCOPE**. D151 **DIRECTOR ACCEPTED WITHIN SCOPE**. D150 **DIRECTOR ACCEPTED WITHIN SCOPE**. D149 remains Director accepted within its written scope. D148 completed finite evidence remains accepted, with execution **INCOMPLETE_EXTERIOR_NODE_CAP**. **Project instructions KEEP v11.**
+**Stage:** D154 parity-compatible exterior study **FROZEN PREPARATION ONLY — AWAITING OWNER EXECUTION AUTHORIZATION**. D153 **DIRECTOR ACCEPTED WITHIN SCOPE**. D152 **DIRECTOR ACCEPTED WITHIN SCOPE**. D151 **DIRECTOR ACCEPTED WITHIN SCOPE**. D150 **DIRECTOR ACCEPTED WITHIN SCOPE**. D149 remains Director accepted within its written scope. D148 completed finite evidence remains accepted, with execution **INCOMPLETE_EXTERIOR_NODE_CAP**. **Project instructions KEEP v11.**
 
 ## Current scientific objective
 
@@ -30,9 +30,11 @@ D152 gives exact terminal-enabled feasibility for ordered (2r+1), (2p,2q,0,0) un
 
 D153 proves even fresh original graph-class cardinalities for every successful D143 two-section completion and fixes the aggregate crossing counts from the selected exterior widths. Both graph classes are odd on the authorized two-first-center family, so both arms are excluded symbolically. D151 demonstrates that the aggregate test leaves individual feasibility open. No numerical campaign was prepared. [D153 proof](research/ORDINARY_SPINE_TWO_SECTION_TOPOLOGICAL_PARITY.md) · [Handoff](handoffs/CODEX-20261125-ordinary-spine-two-section-topological-parity.md)
 
+D154 prepared the exact 256 independent ordered originals (2r,2t), (2p,2q+1,0) for parameters in [1,4] and the retained D134 p=1 prefix. The symbolic checks restrict widths, aggregate crossings and numerical roles. The universal E and matched hypotheses remain open. Both arms, independent audits and caps are frozen for separate execution authorization. [Qualification](research/ORDINARY_SPINE_PARITY_COMPATIBLE_EXTERIOR_QUALIFICATION.md) · [Handoff](handoffs/CODEX-20261125-ordinary-spine-parity-compatible-exterior-preparation.md)
+
 ## One next action
 
-Under separate Owner authorization and after Director review, investigate independent D143 exterior supply for ordered (2r,2t) and (2p,2q+1,0), with independently prescribed exact r,t,p,q≥1 and a supplied D134 p=1 prefix. Use D153's parity condition for admission and prepare a bounded hybrid study if a genuine existence question remains. This action is UNSTARTED.
+Under separate Owner authorization after Director review, execute the single frozen D154 matched D143 study of 256 ordered originals. Preserve the audited basis of each disposition and stop at the frozen limits. This action is UNSTARTED.
 
 ## Deferred obligations
 

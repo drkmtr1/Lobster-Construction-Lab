@@ -1,0 +1,112 @@
+{
+  "task": "LCL-ORDINARY-SPINE-PARITY-COMPATIBLE-TWO-FIRST-CENTER-001",
+  "base": "8dfc28dca753d66620cc72e190fe20e61ee768cd",
+  "python_version": "3.13.17",
+  "runtime": {
+    "venv": ".venv/Scripts/python.exe",
+    "venv_sha": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+    "cfg": ".venv/pyvenv.cfg",
+    "cfg_sha": "78989c73c08f515aadaf1ec5f8f24929021b48b284f4efc907a04938634af28b",
+    "base": "python.exe",
+    "base_sha": "7c2fc2b303a4ee3cc14cc17b47bc6e8bca98c78792edd123b846a560da44b203",
+    "dll": "python313.dll",
+    "dll_sha": "26026530507a7389e7892ce130e7c1753b32a2df03ec3721d45ad8c1705d40eb"
+  },
+  "output": "runs/d154-parity-two-first-center-001",
+  "approval": "runs/d154-parity-two-first-center-001-authorization.json",
+  "domain": {
+    "parameters": [
+      "r",
+      "t",
+      "p",
+      "q"
+    ],
+    "min": 1,
+    "max": 4,
+    "count": 256,
+    "ordered": true,
+    "first": "(2r,2t)",
+    "second": "(2p,2q+1,0)",
+    "prefix_edges": 54,
+    "fresh_min": 16,
+    "fresh_max": 40
+  },
+  "retained_prefix": "evidence/validation/LCL_ORDINARY_SPINE_MATCHED_EXTERIOR_TWO_CENTER_001/input/prefix.json",
+  "retained_sha256": {
+    "lcl/model.py": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6",
+    "lcl/verify.py": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909",
+    "research/matched_exterior_001/engine.py": "9781aceb9e14021c31688476a4a083ee0b1d6af7c012230a09fb647d46ab175d",
+    "research/matched_exterior_001/audit.py": "fd7b650c419057664e4689c59bc3b4f3ab67845f6b56e730e8cbf649a62fcceb",
+    "research/matched_exterior_001/campaign.py": "bf56fc24bdccdfcd2a766d0fd85389f0bb484b442f9440c543f49532a7889874",
+    "research/ORDINARY_SPINE_PIECEWISE_CUT_SPECTRUM_TRANSITION.md": "2b9b52c24293110f8e0b59b4ac73af11e4c14e77cb5ff7355ced236b6d271839",
+    "research/ORDINARY_SPINE_TWO_SECTION_CUT_STATE.md": "a7b4d98f286225bfb887866ce1b6167281b52bb650fcf53a50b0a5060e152cf8",
+    "research/ORDINARY_SPINE_TWO_SECTION_GAP_ALLOCATION.md": "582d8576f9a710b9a52d70ba9fb3f47fa289ea05f50cf6617d7889a5a36f5648",
+    "research/ORDINARY_SPINE_TWO_SECTION_EXACT_GAP_CRITERION.md": "dcfbdfa182ea3fec835f11a4508b57bc57d5cef976d3b14a7ded6e468e6ce5f2",
+    "research/ORDINARY_SPINE_TWO_SECTION_GENERAL_GAP_CRITERION.md": "0221114b657dde0c1bcf64ae5fece4f0a8eca26f6d6e52eb8d5f1d1656946cd6",
+    "research/ORDINARY_SPINE_EXTERIOR_SUPPLY_REASSESSMENT.md": "29f602e6623b96f2c043a665ca9355cf04829c89ae65c58ef731ee46bd810fa5",
+    "research/ORDINARY_SPINE_TWO_CENTER_EVEN_QUOTA_SUPPLIER.md": "6caab3af70cc98cd6a596de016c62b87c886a933ea2da628059a52a970859238",
+    "research/ORDINARY_SPINE_TWO_TO_ONE_TERMINAL_SUPPLIER.md": "3f974982d8e7a93123647c9f3d8e66d7dfefc51151eb079afc2fc38e451fd1df",
+    "research/ORDINARY_SPINE_ONE_DIRECT_LEAF_EXTERIOR_OBSTRUCTION.md": "f13998f60c24210f951c54e06b5ea108506164d38e5d31ec277512dfe6f6d340",
+    "research/ORDINARY_SPINE_TWO_DIRECT_LEAF_BOUNDARY.md": "50a1359702c20ea4711dc987e296890a9e008274f028bd38335ef63ab734f87d",
+    "research/ORDINARY_SPINE_TWO_SECTION_TOPOLOGICAL_PARITY.md": "0e6cb2aa2860f9ce77f62bafc4fa484128e43c121733b2038b9019e4180a2057",
+    "evidence/validation/LCL_ORDINARY_SPINE_MATCHED_EXTERIOR_TWO_CENTER_001/input/prefix.json": "e2f72bd883088b5034b3a7d2536fb1784ce8bcb3fd835083b42558a2709330d3",
+    "evidence/validation/LCL_ORDINARY_SPINE_MATCHED_EXTERIOR_TWO_CENTER_001/MANIFEST.json": "b307eb0a3d759e1b2a6367ad1c2f48c0be5e15bcff3e95ed9716949cb061dc8c",
+    "evidence/runs/d148-matched-exterior-001/MANIFEST.json": "29087be1c6dc344b8f683780542b55a7a513f89820f0156766f70fc1b7e00b15",
+    "evidence/validation/LCL_ORDINARY_SPINE_TWO_DIRECT_LEAF_BOUNDARY_001/MANIFEST.json": "06374e914052c34bf269c720dc4cae255aedb7fd095a598a87192024e2d2dde0",
+    "evidence/validation/LCL_ORDINARY_SPINE_TWO_FIRST_CENTER_ONE_DIRECT_LEAF_001/MANIFEST.json": "916f402bcdd67f9f4a05c52e30b64df4c07f01d387b87a333810ac78daa42f8f"
+  },
+  "preparation": {
+    "workers": 1,
+    "cpu_seconds": 600,
+    "wall_seconds": 1200,
+    "evidence_bytes": 16000000
+  },
+  "limits": {
+    "workers": 1,
+    "targets": 256,
+    "dispositions": 512,
+    "exterior_nodes": 1000000000,
+    "transfer_states": 750000000,
+    "transitions": 10000000000,
+    "cpu_seconds": 172800,
+    "wall_seconds": 259200,
+    "evidence_bytes": 64000000,
+    "record_bytes": 2000000
+  },
+  "reserve": {
+    "preparation_and_startup_cpu_seconds": 1200,
+    "preparation_and_startup_wall_seconds": 1800,
+    "final_records_bytes": 32768,
+    "max_live_candidate_states": 500000
+  },
+  "allocator_controls": [
+    {
+      "name": "D146-D145-packet-discrimination",
+      "A": 2,
+      "B": 3,
+      "s": 7,
+      "quotas": [
+        3,
+        0,
+        1,
+        2,
+        1
+      ],
+      "expected": true
+    },
+    {
+      "name": "D146-D144-forced-w-negative",
+      "A": 2,
+      "B": 3,
+      "s": 7,
+      "quotas": [
+        1,
+        4,
+        1,
+        0,
+        1
+      ],
+      "expected": false
+    }
+  ]
+}

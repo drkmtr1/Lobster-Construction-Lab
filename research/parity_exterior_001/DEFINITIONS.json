@@ -1,0 +1,110 @@
+{
+  "lcl/model.py": [
+    "_integer",
+    "_path_order",
+    "branched_prefix_profile",
+    "build_graph",
+    "graph_digest",
+    "load_graph",
+    "normalize_profile",
+    "validate_graph"
+  ],
+  "lcl/verify.py": [
+    "_check_graph",
+    "_check_labels",
+    "_digest",
+    "_profile_expected",
+    "verify_certificate",
+    "verify_graph",
+    "verify_partial"
+  ],
+  "research/matched_exterior_001/audit.py": [
+    "canonical",
+    "negative",
+    "original",
+    "positive",
+    "raw_support",
+    "raw_support.find",
+    "shape",
+    "verify_prefix"
+  ],
+  "research/matched_exterior_001/campaign.py": [
+    "Limit",
+    "Meter",
+    "Meter.__init__",
+    "Meter.memory",
+    "Meter.tick",
+    "Meter.time_check",
+    "Meter.write",
+    "corpus",
+    "digest",
+    "evaluate",
+    "exact_runtime",
+    "gate",
+    "main",
+    "ordinary",
+    "read",
+    "run_worker",
+    "supervise",
+    "valid_relative"
+  ],
+  "research/matched_exterior_001/engine.py": [
+    "Case",
+    "assignment",
+    "assignment.ordinal",
+    "case_data",
+    "exterior_candidates",
+    "exterior_candidates.choose",
+    "exterior_candidates.label",
+    "exterior_candidates.label.place",
+    "exterior_candidates.reject",
+    "folded_support",
+    "folded_support.options",
+    "folded_support.positions",
+    "role_values",
+    "search",
+    "symbolic_exclusion"
+  ],
+  "research/parity_exterior_001/bindings.py": [
+    "encoded",
+    "exact_runtime",
+    "load_exact",
+    "ordinary",
+    "read",
+    "sha",
+    "write_new"
+  ],
+  "research/parity_exterior_001/campaign.py": [
+    "bindings",
+    "corpus",
+    "disposition",
+    "gate",
+    "main",
+    "relative",
+    "supervise",
+    "worker"
+  ],
+  "research/parity_exterior_001/generator.py": [
+    "exterior_candidates",
+    "exterior_candidates.assign_slots",
+    "exterior_candidates.reject",
+    "search"
+  ],
+  "research/parity_exterior_001/independent.py": [
+    "negative",
+    "physical_groups",
+    "positive"
+  ],
+  "research/parity_exterior_001/preflight.py": [
+    "check_corpus",
+    "definitions",
+    "definitions.walk",
+    "main",
+    "ordinary",
+    "sha"
+  ],
+  "research/parity_exterior_001/prepare.py": [
+    "bindings",
+    "main"
+  ]
+}

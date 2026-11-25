@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "reason": null,
+  "phases": [
+    {
+      "phase": "corpus",
+      "exit_code": 0,
+      "timeout": false,
+      "process_cpu_seconds": 0.703125,
+      "wall_seconds": 0.8472128
+    },
+    {
+      "phase": "preflight",
+      "exit_code": 0,
+      "timeout": false,
+      "process_cpu_seconds": 0.640625,
+      "wall_seconds": 0.9143575
+    }
+  ],
+  "cpu_seconds": 1.890625,
+  "wall_seconds": 1.8209746,
+  "measurement": "Single pinned base CPython child at a time. External handle wait and sampled process CPU, plus supervising shell CPU. No kernel CPU or memory containment."
+}

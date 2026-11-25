@@ -1703,3 +1703,11 @@ The symbolic terminal-free exclusion applies more broadly to an odd-quota sole f
 ## D153 topological parity and exact aggregate crossing counts
 
 **PROVED / PENDING DIRECTOR REVIEW.** For any successful two-section D143 completion, the fresh original graph classes oriented at v have cardinalities N_low=1+C₁+D₁+T₂ and N_high=1+C₂+D₂+T₁. They satisfy N_low=2(A+x), N_high=2(B+y), where x,y count actual gap crossings by source and host side. Thus both cardinalities are even, independently of exterior selections, role assignments and actual polarity. At selected widths the necessary nonnegative counts are x=N_low/2−A and y=N_high/2−B. This is exact aggregate counting with individual host and actual image feasibility still required. The selected ordered profiles force two odd cardinalities, excluding both D143 arms. [Proof](ORDINARY_SPINE_TWO_SECTION_TOPOLOGICAL_PARITY.md) · [Evidence](../evidence/validation/LCL_ORDINARY_SPINE_TWO_FIRST_CENTER_ONE_DIRECT_LEAF_001/README.md)
+
+## Director acceptance of D153
+
+**DIRECTOR ACCEPTED** D153's topological parity and exact aggregate restrictions within D143. The selected D153 ordered family remains excluded in both arms. The aggregate count test is necessary and leaves per-host and image feasibility open. [Proof](ORDINARY_SPINE_TWO_SECTION_TOPOLOGICAL_PARITY.md)
+
+## D154 symbolic preparation qualifications
+
+**PROVED / PENDING DIRECTOR REVIEW.** On ordered (2r,2t), (2p,2q+1,0), K=r+t+p+q+4 and the fresh graph classes have sizes 2(p+q+2), 2(r+t+2). For exterior terminal counts τ₁,τ₂ and direct selection e, A=3+τ₂, B=3+e+τ₁ and the necessary crossing counts are p+q−1−τ₂ and r+t−1−e−τ₁. One actual first center has reduced label A−1. In Arm T the odd-quota second center has b=3 for either choice of e. Same-parent terminal labels can be represented by slots with exact named reconstruction. The finite hypothesis is still open. No numerical labeling or arm outcome was produced. [Qualification proof](ORDINARY_SPINE_PARITY_COMPATIBLE_EXTERIOR_QUALIFICATION.md)
