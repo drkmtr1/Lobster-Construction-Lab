@@ -952,3 +952,9 @@ The selected packet extension is proved with the exact declared fixed-exterior o
 Discharged symbolically for preparation: topology parity, raw existence, forced neutral and fifth-image reservations, exact width and capacity restrictions, census, complete primary and independent representative coverage, resource-state equivalence, original-index reconstruction, and exceptional return semantics. Frozen diagnostics preserve exact certificates, independently audited negatives and incomplete dispositions separately.
 
 Open: decide whether any of the 2,304 named originals admits E+ with independently audited T infeasibility, and retain the physical mechanisms of any such event. Official execution requires Director review and separate Owner authorization. The prepared symbolic classifications do not substitute for unresolved arm dispositions. [Contract](exceptional_four_first_001/CONTRACT.md)
+
+## D164 — Official partial evidence and open symbolic capacity obligation
+
+Reconciled all 428 saved matched pairs, 264 actual named positive certificates, 584 symbolic negatives and eight independent numerical negative attestations. No completion or obstruction was deduced for the capped T decision. The finite theorem about a separating original in the entire corpus remains open because 928 eligible originals have no official completed pair.
+
+A distinct proposed symbolic next step is to determine the scope of the repeatedly observed width-(6,4) actual terminal-exchange mechanism for four first centers with values (1,1,2,4) and odd second total. Targets 0060 and 0057 retain opposite E+ outcomes at the same total and exact physical first profile. Prove an allocation or obstruction by actual host capacity and exact gap inventories. This action is UNSTARTED and has no preparation or execution authority. [Observed witness structure](../evidence/runs/d164-exceptional-four-first-001/STRUCTURE.md)

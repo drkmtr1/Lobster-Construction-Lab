@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "task": "LCL-ORDINARY-SPINE-EXCEPTIONAL-FOUR-FIRST-CENTER-MATCHED-001-PREP",
+  "prepared_checkpoint": "52086a1a3ec48e752fd6dbea72991739cfbe893a",
+  "prepared_manifest_sha256": "0c0d62a398506fc04e44de9d1e98ddbc47fb8b9765c289d277f17f3d5661b1ef",
+  "canonical_prepared_state_sha256": "c6253618a939f9d0a50ee454726f2a2b449468bd44e7c3f2e293646ffc57d6b0",
+  "contract_sha256": "39cca496d3525a4ab1ea1520e88fddd56a374f0562f51436fed3837e650f4e93",
+  "director_preparation_acceptance": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE",
+  "admission": {
+    "status": "PASS",
+    "head": "52086a1a3ec48e752fd6dbea72991739cfbe893a",
+    "parent": "60f6227d2c682b39f8033c55ddbf33bfab3d14be",
+    "origin_main": "52086a1a3ec48e752fd6dbea72991739cfbe893a",
+    "live_main": "52086a1a3ec48e752fd6dbea72991739cfbe893a",
+    "clean": true,
+    "prepared_manifest_sha": "0c0d62a398506fc04e44de9d1e98ddbc47fb8b9765c289d277f17f3d5661b1ef",
+    "canonical_prepared_state_sha": "c6253618a939f9d0a50ee454726f2a2b449468bd44e7c3f2e293646ffc57d6b0",
+    "contract_sha": "39cca496d3525a4ab1ea1520e88fddd56a374f0562f51436fed3837e650f4e93",
+    "preflight_sha": "70eaeda60a2f7997e2fbb096abaebcc6b1a6692f3d455bb1ac39f179ef742c9b",
+    "manifest_files": 131,
+    "retained_intake_bindings": 17,
+    "definitions": 42,
+    "baseline": "fddfc1dd9541324b2ed2de2505bc750b3e3f0b9d",
+    "baseline_peel": "36ea1603602491bf3c1c5b81ed4c23aaa2210e70",
+    "upstreams": [
+      {
+        "path": "../Math_Discovery_Lab",
+        "pin": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+        "branch": "main",
+        "checkout": "858a8c1fcfda87ba40bb1adee498a6131504a803"
+      },
+      {
+        "path": "../MDL_Bounded_Search",
+        "pin": "e48b94eec4091b4fe189e325cab2eda464409943",
+        "branch": "recovery/p004-last-completed-no-launcher",
+        "checkout": "c803ecb6bd0481d31af43f7e3c194ae8ed4d1578",
+        "remote_recovery_tip": "1e1efeac9acd70006d7f1bd4aa6786f438cff602"
+      }
+    ],
+    "builder": "8d1e9948e8bf5ef01e67c9afe0155412c57d79fa",
+    "checker": "d008f35f0843e1a5c770db3e7f42ed7d987360d7",
+    "agents": {
+      "path": "AGENTS.md",
+      "bytes": 8359,
+      "sha256": "e980f2ee51d2b69cfd8ab9c4955f9388ad14f9b7b78581729ef5a24dd21339e6"
+    },
+    "canonical_agents_sha": "ddb4b70c24cb5e1725d0c2e4ea8c2d522b4556b62b8bd69fdffd4205ece485db",
+    "runtime": {
+      "base": "7c2fc2b303a4ee3cc14cc17b47bc6e8bca98c78792edd123b846a560da44b203",
+      "dll": "26026530507a7389e7892ce130e7c1753b32a2df03ec3721d45ad8c1705d40eb",
+      "venv": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+      "cfg": "78989c73c08f515aadaf1ec5f8f24929021b48b284f4efc907a04938634af28b"
+    },
+    "version": "3.13.17",
+    "isolated": true,
+    "no_site": true,
+    "no_bytecode": true,
+    "observed_writers": 0,
+    "official_output_vacant": true,
+    "approval_vacant": true,
+    "prepared_cpu": 12.109375,
+    "prepared_wall": 18.5359823,
+    "admission_shell_cpu": 1.1875,
+    "admission_python_cpu": 0.09375,
+    "admission_inner_wall": 5.5371039,
+    "admission_external_tool_wall": 5.6978279
+  },
+  "execution": {
+    "official_invocations": 1,
+    "additional_invocations": 0,
+    "start": {
+      "event": "OFFICIAL_INVOCATION_1",
+      "started_utc": "2026-11-25T23:33:58.4863616Z",
+      "approval_sha256": "24f40aa7ae1c6398d51375e4fb395d1fcabe983158db9c608ecc8540cff0565f",
+      "approval_bytes": 214
+    },
+    "end": {
+      "event": "OFFICIAL_LAUNCHER_RETURN",
+      "exit_code": 1,
+      "observed_wall_seconds": 31.9442503,
+      "ended_utc": "2026-11-25T23:34:30.4351873Z"
+    },
+    "termination": {
+      "worker_pid": 31832,
+      "recorded_pid_present": false,
+      "related_processes": 0,
+      "checked_utc": "2026-11-25T23:34:57.9794076Z"
+    },
+    "summary": {
+      "active_arm": "T",
+      "active_target": "target-0429",
+      "bytes_before_summary": 26411446,
+      "completed_arms": 856,
+      "cpu_seconds": 30.8125,
+      "entered": {
+        "dispositions": 857,
+        "exterior_nodes": 156208,
+        "targets": 429,
+        "transfer_states": 18142976,
+        "transitions": 64857472
+      },
+      "finite_hypothesis": "UNDECIDED",
+      "paired_audits": 428,
+      "paired_distribution": {
+        "NO/NO": 272,
+        "NO/YES": 0,
+        "YES/NO": 48,
+        "YES/YES": 108
+      },
+      "reason": "LIMIT: retained per-candidate state ceiling",
+      "separating": 0,
+      "status": "INCOMPLETE"
+    },
+    "supervision": {
+      "combined_cpu": 43.25,
+      "combined_observed_wall": 50.37066160008192,
+      "measured_preparation_cpu": 12.109375,
+      "measured_preparation_wall": 18.5359823,
+      "reason": "worker or combined cap",
+      "status": "INCOMPLETE",
+      "supervisor_cpu": 0.328125,
+      "worker_cpu": 30.8125,
+      "worker_exit": 1,
+      "worker_pid": 31832
+    },
+    "actual_official_evidence_bytes": 26412186,
+    "raw_members": 1288,
+    "raw_payload_bytes": 4529963,
+    "largest_raw_member_bytes": 16761,
+    "raw_zip": {
+      "bytes": 1324244,
+      "sha256": "6ecb659aaefc4a574f39d1da8c3bb88b53517ea9381cc25fa332144f822a7c19"
+    },
+    "authorization": {
+      "bytes": 214,
+      "sha256": "24f40aa7ae1c6398d51375e4fb395d1fcabe983158db9c608ecc8540cff0565f"
+    }
+  },
+  "closeout_measurements": {
+    "process_cpu_through_archive_verification": 1.953125,
+    "inner_wall_through_archive_verification": 5.523376400000416,
+    "outer_tool_wall": 5.9195127,
+    "scope": "Saved records, unchanged certificate verification, byte-preserving archive and archive verification. No search or scientific replay."
+  },
+  "publication_scope": "Official mathematical execution records and closeout only. Local original output and authorization remain at their original paths.",
+  "bounded_search_recovery": "Local and live recovery identities differ as documented. Authoritative main pin verified and preserved."
+}

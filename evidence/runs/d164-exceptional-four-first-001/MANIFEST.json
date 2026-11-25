@@ -1,0 +1,225 @@
+{
+  "schema_version": 1,
+  "task": "LCL-ORDINARY-SPINE-EXCEPTIONAL-FOUR-FIRST-CENTER-MATCHED-001-PREP",
+  "parent": "52086a1a3ec48e752fd6dbea72991739cfbe893a",
+  "prepared_manifest_sha256": "0c0d62a398506fc04e44de9d1e98ddbc47fb8b9765c289d277f17f3d5661b1ef",
+  "canonical_prepared_state_sha256": "c6253618a939f9d0a50ee454726f2a2b449468bd44e7c3f2e293646ffc57d6b0",
+  "canonical_closeout_state_sha256": "a48934394c755f2dbf7838246ba74642fea4b55b83db2827fd6709eb0efe57de",
+  "canonical_closeout_state_bytes": 87467,
+  "prep_director_disposition": "ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE",
+  "execution_evidence_disposition": "PENDING_DIRECTOR_REVIEW",
+  "official_invocations": 1,
+  "automatic_retries": 0,
+  "official_exit_code": 1,
+  "status": "INCOMPLETE",
+  "stopping_reason": "LIMIT: retained per-candidate state ceiling",
+  "first_reached_ceiling": "retained_per_candidate_states",
+  "active_original": {
+    "K": 16,
+    "T1": 12,
+    "T2": 11,
+    "digest": "ac1aa0aab83479ced6949d84651eb3267a0ac83bca4bc5f263f4dbfca6385636",
+    "id": "target-0429",
+    "parameters": [
+      1,
+      3,
+      4,
+      4,
+      5,
+      6
+    ]
+  },
+  "active_arm": "T",
+  "finite_hypothesis": "UNDECIDED",
+  "separators": [],
+  "entered": {
+    "dispositions": 857,
+    "exterior_nodes": 156208,
+    "targets": 429,
+    "transfer_states": 18142976,
+    "transitions": 64857472
+  },
+  "completed_arms": 856,
+  "completed_pairs": 428,
+  "paired_distribution": {
+    "NO/NO": 272,
+    "NO/YES": 0,
+    "YES/NO": 48,
+    "YES/YES": 108
+  },
+  "categories": {
+    "E+": {
+      "ALLOCATION_EXHAUSTED": 8,
+      "COMPATIBLE_COMPLETION": 108,
+      "RAW_EXTERIOR_ABSENT": 18,
+      "RAW_PRESENT_SYMBOLIC_GAP_EXCLUSION": 294
+    },
+    "T": {
+      "COMPATIBLE_COMPLETION": 156,
+      "RAW_PRESENT_SYMBOLIC_GAP_EXCLUSION": 272
+    }
+  },
+  "positive_rechecks": 264,
+  "negative_audits_reviewed_without_search": 8,
+  "qualified_representatives_per_independent_negative_traversal": {
+    "E+": 528
+  },
+  "unresolved_after_symbolic": {
+    "E+": 928,
+    "T": 1236
+  },
+  "raw_zip_sha256": "6ecb659aaefc4a574f39d1da8c3bb88b53517ea9381cc25fa332144f822a7c19",
+  "raw_members": 1288,
+  "raw_payload_bytes": 4529963,
+  "actual_evidence_bytes": 26412186,
+  "authorization_sha256": "24f40aa7ae1c6398d51375e4fb395d1fcabe983158db9c608ecc8540cff0565f",
+  "whole_preparation_manifest_members": 131,
+  "retained_intake_file_count": 17,
+  "intake_file_bindings": [
+    {
+      "bytes": 39676,
+      "sha256": "0c0d62a398506fc04e44de9d1e98ddbc47fb8b9765c289d277f17f3d5661b1ef",
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/MANIFEST.json"
+    },
+    {
+      "bytes": 20635,
+      "sha256": "39cca496d3525a4ab1ea1520e88fddd56a374f0562f51436fed3837e650f4e93",
+      "path": "research/exceptional_four_first_001/CONTRACT.md"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_EVEN_SECOND_QUOTA_EXTENSION_001/MANIFEST.json",
+      "bytes": 7861,
+      "sha256": "a356764e66bb0423bf47157c0176c1f257ad1e3dfb74e9075251e120a34f1449"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_EXCEPTIONAL_EVEN_SECOND_QUOTA_EXTENSION.md",
+      "bytes": 27631,
+      "sha256": "136a5187a2fc1a296cbe4b7b21c0b1fa5427c3e7cdbf86a9dc3129fa16373880"
+    },
+    {
+      "path": "evidence/runs/d161-exceptional-quota-four-001/MANIFEST.json",
+      "bytes": 7847,
+      "sha256": "ca1f0672f34e770bc5ac860ce95b4577b8d2920d7a9617538b510c17f8df7864"
+    },
+    {
+      "path": "evidence/runs/d161-exceptional-quota-four-001/OFFICIAL_RAW.zip",
+      "bytes": 364603,
+      "sha256": "13c6ff81991bef03d0760b5ecf7aadc14b60a7cecdf951c10212d12de9eb7cee"
+    },
+    {
+      "path": "evidence/runs/d161-exceptional-quota-four-001/RECONCILIATION.json",
+      "bytes": 210632,
+      "sha256": "27e0c7b364452901274d6e73115151444a4b7249ce335165393ca3d717d548fe"
+    },
+    {
+      "path": "evidence/runs/d161-exceptional-quota-four-001/SEPARATORS.md",
+      "bytes": 5567,
+      "sha256": "e7a45c5e1435baf459ef597ee2a7ce2c293b6983da3cda5e22e99bbbf3a34688"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FIVE_HOST_QUOTA_FOUR_MATCHED_001_PREP/MANIFEST.json",
+      "bytes": 17765,
+      "sha256": "3839c60a588a7e8c0eeee3b62c107e8182fffa24cd06bf649b3faa9c32997fdf"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FIVE_HOST_QUOTA_FOUR_MATCHED_001_PREP/input/corpus_index.json",
+      "bytes": 27614,
+      "sha256": "7e9d80a8ba149bbf2a66bf33b1249f5edd4e7f35fa4aa4f27c8ca0782b5e6626"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FIVE_HOST_QUOTA_FOUR_MATCHED_001_PREP/input/prefix.json",
+      "bytes": 8781,
+      "sha256": "f48b56479dac85e1ddbbd36e5f6a6a3eaf94b9b32497e677fe5a96932abbac95"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_TWO_SECTION_CUT_STATE.md",
+      "bytes": 24015,
+      "sha256": "a7b4d98f286225bfb887866ce1b6167281b52bb650fcf53a50b0a5060e152cf8"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_ALTERNATING_EXCEPTIONAL_SPECTRUM.md",
+      "bytes": 19060,
+      "sha256": "73230a18d826361e0eb4eadfbf02e41cbb1aa3c5332c890bf75f48ed18a0e0fd"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_EXCEPTIONAL_PHASE_PRESERVING_BRIDGE.md",
+      "bytes": 18725,
+      "sha256": "7ccf47623ba26ebfe4479a4a9bd0defbd582290503a4226860f1562a89c8fa89"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_EXCEPTIONAL_BOUNDARY_STATE_ALLOCATION.md",
+      "bytes": 19321,
+      "sha256": "d1772995d373bc5a2884a9199c4ef32309e16d809dacb3388618b7680e892260"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_EXCEPTIONAL_FIVE_HOST_EXTERIOR_SUPPLY.md",
+      "bytes": 22746,
+      "sha256": "0ce4053e4d5b8082fc62d7a008aa7875680ff9505c9f9e0b7d4568cfa2e90254"
+    },
+    {
+      "path": "evidence/runs/d154-parity-two-first-center-001/MANIFEST.json",
+      "bytes": 3968,
+      "sha256": "e66f651917ae167dfb903d1557f25a593738e2cea97a9d79e4e16c19f6f52b42"
+    },
+    {
+      "path": "evidence/runs/d154-parity-two-first-center-001/OFFICIAL_RAW.zip",
+      "bytes": 732889,
+      "sha256": "fc85e33800ec57eeccba25637f5e99080c08539160739cfbdd6543f18fb9cb72"
+    },
+    {
+      "path": "STATE.md",
+      "sha256": "27dbd7b938ff48a19f92c83f4b9d9dd234f6884cfab795483fd2c8e736dd2a7a",
+      "bytes": 87346,
+      "git_commit": "60f6227d2c682b39f8033c55ddbf33bfab3d14be",
+      "representation": "Canonical Git blob bytes at admission"
+    }
+  ],
+  "next_action": "After Director review, seek a symbolic exceptional-phase allocation criterion for the observed width-(6,4) terminal exchange with first quotas (1,1,2,4) in every physical order and positive second quotas of odd sum. Use target-0060 and target-0057 as contrasting controls at the same totals. This action is UNSTARTED.",
+  "files": [
+    {
+      "path": "evidence/runs/d164-exceptional-four-first-001/AUTHORIZATION.json",
+      "bytes": 214,
+      "sha256": "24f40aa7ae1c6398d51375e4fb395d1fcabe983158db9c608ecc8540cff0565f"
+    },
+    {
+      "path": "evidence/runs/d164-exceptional-four-first-001/CUSTODY.json",
+      "bytes": 5895,
+      "sha256": "c78b907f6379845ad84b6370103ead21a37a2cc51a526a6e49831c1e51b34539"
+    },
+    {
+      "path": "evidence/runs/d164-exceptional-four-first-001/OFFICIAL_RAW.zip",
+      "bytes": 1324244,
+      "sha256": "6ecb659aaefc4a574f39d1da8c3bb88b53517ea9381cc25fa332144f822a7c19"
+    },
+    {
+      "path": "evidence/runs/d164-exceptional-four-first-001/README.md",
+      "bytes": 4709,
+      "sha256": "df6cbb4d39da0366a9a26bfd7046d841e672bb9bef60c7052301a356648d5a69"
+    },
+    {
+      "path": "evidence/runs/d164-exceptional-four-first-001/reconcile.py",
+      "bytes": 23137,
+      "sha256": "f392768bf39098503bf8d0907ecce9d83d30729dc55a6089cb6926e1fd8742c9"
+    },
+    {
+      "path": "evidence/runs/d164-exceptional-four-first-001/RECONCILIATION.json",
+      "bytes": 699373,
+      "sha256": "90fbb1ad38a9723ac2470894090e1ce7f6501f15a60e14500c3aff2b6b46f7b8"
+    },
+    {
+      "path": "evidence/runs/d164-exceptional-four-first-001/REVIEWS.md",
+      "bytes": 2275,
+      "sha256": "e34eb8d63d733c811b5d096080a3caa80f2e3930179fc72758d67e155ea49163"
+    },
+    {
+      "path": "evidence/runs/d164-exceptional-four-first-001/STRUCTURE.md",
+      "bytes": 3924,
+      "sha256": "6430ac9b59c7df8f1b9edf8fbaff76d570ae01c5b57af9178dbac3b8c7262df9"
+    },
+    {
+      "path": "handoffs/CODEX-20261125-d164-four-first-center-diagnostic-closeout.md",
+      "bytes": 2947,
+      "sha256": "c8de383470c358dbb54a58e6a490c9aea48b6f96a3022b7d5a88bf9a874ac13f"
+    }
+  ]
+}

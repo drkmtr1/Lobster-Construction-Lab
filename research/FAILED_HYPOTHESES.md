@@ -695,3 +695,9 @@ For the 33 frozen E+ YES / T NO originals, terminal-free feasibility fails in th
 ## D164 — Raw exterior supply and compatible gap supply
 
 The raw width-(6,4) paired-terminal example exists at K≥10 but its upper-index-two vertex is an actual terminal. It cannot take the forced fifth image in the frozen first-quota-at-most-four domain. This failure is specific to that exterior. Raw T at B=3 is likewise incompatible by the first physically upper source restriction in the declared arrangement. All-first-quotas-at-most-three profiles and T₂=3 are excluded from compatible completion. T₂=5 excludes compatible E+ through the width bound and terminal balance. Raw E+ absence is separately classified at K<10. Neither symbolic qualification nor rejection of a supplied exterior decides the unresolved matched hypothesis. [Proof](exceptional_four_first_001/CONTRACT.md)
+
+## D164 — Official cap and bounded E+ exhaustion
+
+The 1,000,000 per-candidate retained-state ceiling prevented the first official pass from completing the frozen diagnostic. At T of target-0429 (1,3,4,4),(5,6,0) the worker emitted `LIMIT: retained per-candidate state ceiling`. No disposition exists for either arm of that original. Zero separations in the completed prefix does not settle the finite separation hypothesis.
+
+Eight completed E+ arms exhaust incompatible gaps across 66 qualified representatives apiece. Both independent traversals agree by physical stratum. Those frozen original-specific negatives have T positives and concern the declared exceptional arrangement. No negative was newly counted from raw-present exteriors merely rejected by the necessary gap gate. [Reconciled categories](../evidence/runs/d164-exceptional-four-first-001/RECONCILIATION.json)
