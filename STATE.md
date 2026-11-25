@@ -2,19 +2,21 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 24, 2026, Pacific/Honolulu<br>
-**Stage:** D136 interleaved rotation-packet allocation **ACCEPTED**. Bounded retained-evidence verification **PASS**. [Proof](research/ORDINARY_SPINE_INTERLEAVED_ROTATION_PACKET_ALLOCATION.md).
+**Stage:** D137 mixed-multiplicity cut-state bridge **ACCEPTED**. Bounded retained-evidence verification **PASS**. [Proof](research/ORDINARY_SPINE_MIXED_MULTIPLICITY_CUT_STATE_BRIDGE.md).
 
 ## Current scientific objective
 
-Develop independent ordinary graceful transitions with usable physical ports. The [latest handoff](handoffs/CODEX-20261124-ordinary-spine-interleaved-rotation-packet-allocation.md) establishes a coefficient-one capacity bound within the D134 return state and an infinite family improving on D135's separate spans. Prioritize compatibility across separate center multiplicities. The weighted moment for the fixed placement and special initialization remain open restrictions.
+Develop independent ordinary graceful transitions with usable physical ports. The [latest handoff](handoffs/CODEX-20261124-ordinary-spine-mixed-multiplicity-cut-state-bridge.md) establishes the exact two-translation multiplicity compatibility and a symbolic bridge that admits both physical multiplicity parities. The bridge still requires a canonical weighted moment and the extreme-frontier cut states supplied by special initialization. Prioritize whether alternate fresh placements can relax the quota restriction.
 
 ## One next action
 
-Under separate authorization, test a symbolic single-section transition between two distinct odd multiplicities in the D134 cut-state architecture. Retain one actual cut, two order-preserving old-label translations and all named original incidences, while allowing the fresh labels to use a different placement among the two exterior intervals and the inserted gap. Derive the connector and crossing-spectrum compatibility conditions for the prescribed output multiplicity. Prove a parameterized mixed-multiplicity transition or a scoped obstruction to the proposed placement class. Work without numerical joins, profile sweeps, solvers or individual quota exceptions.
+Under separate authorization, determine whether the general D137 two-translation placement can supply a single compatible bridge for physical quotas that violate the canonical weighted moment. Use the forced exterior connectivity and center-side rigidity to derive an exact total-weight identity for placements with centers in the lower exterior or lower gap. Prove a parameterized construction beyond the canonical moment or a scoped obstruction that applies to every placement in this class. Retain the extreme frontier, both exact cut states and all original named incidences. Work symbolically without numerical joins, solvers, sweeps or isolated quota cases.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
+
+- D137 **PROVES** that every membership-preserving two-translation bridge in its exact regime flips the frontier polarity and must have h=p+p'+1 between D134 states p and p'. The exterior forest and actual incidence bounds force all centers below the return cut. The canonical asymmetric packet rule supplies both physical multiplicity parities under its moment, parity, size and capacity conditions. Admitted lists follow p_i=h_i−1−p_(i−1), keeping both exact inventories and immutable final labels. Two archived rechecks, two cut inspections, seven bindings, four controls and separate reviews passed. See [proof](research/ORDINARY_SPINE_MIXED_MULTIPLICITY_CUT_STATE_BRIDGE.md) and [evidence](evidence/validation/LCL_ORDINARY_SPINE_MIXED_MULTIPLICITY_CUT_STATE_BRIDGE_001/README.md).
 
 - D136 **SUPPLIES** interleaved rotation packets and bounded residual cycles in the D134 state. The deterministic fit test admits Q≥N+(2p−1)(2p(p−1)+1), with exact weighted balance and both return bands. For every fixed p≥2 an infinite symbolic family fits despite total D135 separate-span overflow, and for p≥3 it can be nonsymmetric. D134 and D135 retain their independent sufficient domains. Mixed admitted lists at fixed h keep exact resource inventories and immutable final labels. Two archived rechecks, both cut inspections, six bindings, four controls and separate reviews passed. See [proof](research/ORDINARY_SPINE_INTERLEAVED_ROTATION_PACKET_ALLOCATION.md) and [evidence](evidence/validation/LCL_ORDINARY_SPINE_INTERLEAVED_ROTATION_PACKET_ALLOCATION_001/README.md).
 

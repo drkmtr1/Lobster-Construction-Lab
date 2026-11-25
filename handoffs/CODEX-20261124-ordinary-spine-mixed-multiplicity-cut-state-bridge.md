@@ -1,0 +1,17 @@
+# Codex handoff — D137 mixed-multiplicity cut-state bridge and rigidity
+
+November 24, 2026, Pacific/Honolulu · `LCL-ORDINARY-SPINE-MIXED-MULTIPLICITY-CUT-STATE-BRIDGE-001` · parent `bfd5f6e19c433ef27a3cf0decde4d741230f3ce7`. Repository `drkmtr1/Lobster-Construction-Lab`, branch `main`.
+
+**ACCEPT** the necessary compatibility equation h=p+p'+1 between the exact D134 states p and p', for one actual section with h positive-quota centers, even H, n≥h+Q, extreme frontiers and a cut-membership-preserving two-translation old embedding. The same-polarity connector is impossible. The upper residual weights force the exterior fresh subgraph to be connected. The actual attachments and terminal incidences then force all centers below the return cut, and the crossing count imposes h=p+p'+1 for every allowed fresh placement. In particular h=2p'+1 rules out changing the state in this regime.
+
+The canonical bridge works under the actual quota moment at offset p', Q≥h+1 and the asymmetric allocation tests. For L=p+p' and N=Q−r_(p'), Q≥N+L(L−1)(L−2)/2+L−1 suffices for packing. A symbolic positive domain exists for every permitted pair of state parameters, with the required physical multiplicity parity. Finite admitted lists follow p_i=h_i−1−p_(i−1) and preserve both inventories, the physical frontier and immutable final labels. D131–D136 retain their existing scopes.
+
+[Proof](../research/ORDINARY_SPINE_MIXED_MULTIPLICITY_CUT_STATE_BRIDGE.md) · [Evidence](../evidence/validation/LCL_ORDINARY_SPINE_MIXED_MULTIPLICITY_CUT_STATE_BRIDGE_001/README.md) · [Audit and controls](../evidence/validation/LCL_ORDINARY_SPINE_MIXED_MULTIPLICITY_CUT_STATE_BRIDGE_001/result.json) · [Reviews](../evidence/validation/LCL_ORDINARY_SPINE_MIXED_MULTIPLICITY_CUT_STATE_BRIDGE_001/REVIEWS.md) · [Manifest](../evidence/validation/LCL_ORDINARY_SPINE_MIXED_MULTIPLICITY_CUT_STATE_BRIDGE_001/MANIFEST.json)
+
+**PASS** one parse-only preflight and one supervised retained verification. Both archived seed rechecks, both declared cut inspections, seven archive binding inspections and four controls passed, within 0.75 process-CPU seconds and 1.6678062 supervised wall seconds. No numerical initialization, permutation, allocation or extension was executed. Preserve separate D083/D093/D100 original and versioned dispositions, deferred 2322, baseline identities and both upstream pins. Resolve this handoff's containing commit and verify actual GitHub `main`.
+
+**ADVANCE** to testing quota-moment flexibility in the general fresh placement. The compatibility theorem handles both parities of physical multiplicity while retaining its recurrence and extreme-state prerequisites. The next structural question is whether arbitrary actual quotas at compatible multiplicities can escape the canonical moment. A broader frontier and more general initialization remain open. **Project instructions KEEP.**
+
+## One next action
+
+Under separate authorization, determine whether the general D137 two-translation placement can supply a single compatible bridge for physical quotas that violate the canonical weighted moment. Use the forced exterior connectivity and center-side rigidity to derive an exact total-weight identity for placements with centers in the lower exterior or lower gap. Prove a parameterized construction beyond the canonical moment or a scoped obstruction that applies to every placement in this class. Retain the extreme frontier, both exact cut states and all original named incidences. Work symbolically without numerical joins, solvers, sweeps or isolated quota cases.
