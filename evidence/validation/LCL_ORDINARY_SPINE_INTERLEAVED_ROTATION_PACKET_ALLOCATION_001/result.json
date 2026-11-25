@@ -1,0 +1,1312 @@
+{
+  "D104_alpha_disposition": {
+    "binding": {
+      "manifest": "evidence/validation/LCL_R241_43_2_LEFT_TERMINAL_ZERO_001/MANIFEST.json",
+      "manifest_sha256": "19a9a4c1e62844e7989139903eee8ae27978b32fc8991507eb861babfbbda681",
+      "proof": {
+        "path": "research/R241_43_2_LEFT_TERMINAL_ZERO.md",
+        "sha256": "fdc9ce38e8b8734d61f473ddeef6e00d89286dbf7a26ab03a2dbba4bb58119e6"
+      },
+      "result_sha256": "36d36175df8a562f727c1abde12eb13a7bac2caffe5e068e41936f0c31c5e902",
+      "task": "LCL-R241-43-2-LEFT-TERMINAL-ZERO-001"
+    },
+    "disposition_scope": {
+      "additional_cut_tests": 0,
+      "alpha_labeling": "EXCLUDED",
+      "complement": "13-f(v)",
+      "cut_5": "EXCLUDED_BY_COMPLEMENT",
+      "cut_9": "EXCLUDED",
+      "graph_digest": "2060a4e5a7d8f8ebc1906499facea2730250938d4550bb4c6ca34582a1f5b6e6",
+      "ordinary_gracefulness": "UNDECIDED",
+      "original_sha256": "99d92699cea529c235f3ed146805920d39c030b33d5651e0ba64ed8e1889d168",
+      "status": "PASS",
+      "zero_hosts_excluded": {
+        "D102": "b:1:0",
+        "D103": "s:0",
+        "D104": [
+          "l:0:0:0",
+          "l:0:0:1",
+          "l:0:0:2",
+          "l:0:0:3",
+          "l:0:1:0",
+          "l:0:1:1",
+          "l:0:1:2"
+        ]
+      }
+    },
+    "historical_alpha_procedure_replayed": false
+  },
+  "D131_binding": {
+    "manifest": "evidence/validation/LCL_ORDINARY_SPINE_DEFICIT_TRANSITION_001/MANIFEST.json",
+    "manifest_sha256": "5a03f63cf7d44a55640f332d723c53d440a58bae89047e454804fc0e0fd88b42",
+    "proof": {
+      "path": "research/ORDINARY_SPINE_DEFICIT_TRANSITION.md",
+      "sha256": "77e3028f3c99a93f5e38c3545b88cfc4454168c348e01c6bd9a22eb38abf8865"
+    },
+    "result_sha256": "0f2341b8307f1353b1919786f95004ab9a1995354777da8036bf8fcc4634a0dd",
+    "task": "LCL-ORDINARY-SPINE-DEFICIT-TRANSITION-001"
+  },
+  "D132_binding": {
+    "manifest": "evidence/validation/LCL_ORDINARY_SPINE_TWO_CENTER_AFFINE_TRANSITION_001/MANIFEST.json",
+    "manifest_sha256": "cd09c9e700aa16a2660a42c46ce1b335a52feb0d97471179dba64489353807bb",
+    "proof": {
+      "path": "research/ORDINARY_SPINE_TWO_CENTER_AFFINE_TRANSITION.md",
+      "sha256": "59d5f08b3411804caf60592f65edf481404338410bd165f4acec21b24ec15868"
+    },
+    "result_sha256": "7575330cb45714026b7c71512af1f21e9f299edf57c784da9e5c92aeaab6b54d",
+    "task": "LCL-ORDINARY-SPINE-TWO-CENTER-AFFINE-TRANSITION-001"
+  },
+  "D133_binding": {
+    "manifest": "evidence/validation/LCL_ORDINARY_SPINE_ARBITRARY_CENTER_AFFINE_OBSTRUCTION_001/MANIFEST.json",
+    "manifest_sha256": "16bcfef7a3d6c8a48c2f975776b037332c3a71958b8e5939fa540579b4313bc5",
+    "proof": {
+      "path": "research/ORDINARY_SPINE_ARBITRARY_CENTER_AFFINE_OBSTRUCTION.md",
+      "sha256": "2677c91e3d8a18fdcacb8fca2fef933dc3508b845eb8c1fb0754753102e83ccc"
+    },
+    "result_sha256": "a4ee6ec324057331b11748f00f93cfcbeff5b7f8aa0f2443fae58d495bf9e8f8",
+    "task": "LCL-ORDINARY-SPINE-ARBITRARY-CENTER-AFFINE-OBSTRUCTION-001"
+  },
+  "D134_binding": {
+    "manifest": "evidence/validation/LCL_ORDINARY_SPINE_PIECEWISE_CUT_SPECTRUM_TRANSITION_001/MANIFEST.json",
+    "manifest_sha256": "933d6a6e5da2667b0573587c9218c1a4968ca4190e89add72b6988f06b766cf2",
+    "proof": {
+      "path": "research/ORDINARY_SPINE_PIECEWISE_CUT_SPECTRUM_TRANSITION.md",
+      "sha256": "2b9b52c24293110f8e0b59b4ac73af11e4c14e77cb5ff7355ced236b6d271839"
+    },
+    "result_sha256": "7d2dd838312dc8b6464f0b763e0e7cf250dce9ec0a8384aaf398656c2c9ea9b4",
+    "task": "LCL-ORDINARY-SPINE-PIECEWISE-CUT-SPECTRUM-TRANSITION-001"
+  },
+  "D135_binding": {
+    "manifest": "evidence/validation/LCL_ORDINARY_SPINE_GENERAL_DISPLACEMENT_CYCLE_ALLOCATION_001/MANIFEST.json",
+    "manifest_sha256": "3806372411d9ec2e2795f2f2badb6ff1804efd2e550c58ab8f2c28cd51e95cc4",
+    "proof": {
+      "path": "research/ORDINARY_SPINE_GENERAL_DISPLACEMENT_CYCLE_ALLOCATION.md",
+      "sha256": "9a57abf2b009c441b6b6e66db332dd11d0d999bfa8952c60e4c4220f638a3fb9"
+    },
+    "result_sha256": "92f911799ad0704a6bd05f233588da151aae659ff2cb3dfd7d2da2036afcd2c2",
+    "task": "LCL-ORDINARY-SPINE-GENERAL-DISPLACEMENT-CYCLE-ALLOCATION-001"
+  },
+  "controls": {
+    "interleaved_equal_magnitude": {
+      "assumptions": [
+        "p>=2",
+        "0<=i<j<p for distinct cycles",
+        "a=b=p"
+      ],
+      "disposition": "DISTINCT_CYCLES_SHARE_SPANS_WITHOUT_COORDINATE_OVERLAP",
+      "exact_saving": [
+        {
+          "coefficient": -1,
+          "factors": [
+            "p"
+          ]
+        },
+        {
+          "coefficient": 1,
+          "factors": [
+            "p",
+            "p"
+          ]
+        }
+      ],
+      "occupied_classes": [
+        "{i,i+p} is one residue class mod p",
+        "duplicating that class repeats both occupied positions"
+      ],
+      "overlapping_span_margin": [
+        {
+          "coefficient": 1,
+          "factors": [
+            "i"
+          ]
+        },
+        {
+          "coefficient": -1,
+          "factors": [
+            "j"
+          ]
+        },
+        {
+          "coefficient": 1,
+          "factors": [
+            "p"
+          ]
+        }
+      ],
+      "packet_width": [
+        {
+          "coefficient": 2,
+          "factors": [
+            "p"
+          ]
+        }
+      ],
+      "separate_span_width": [
+        {
+          "coefficient": 1,
+          "factors": [
+            "p"
+          ]
+        },
+        {
+          "coefficient": 1,
+          "factors": [
+            "p",
+            "p"
+          ]
+        }
+      ],
+      "separation_of_upper_endpoints": [
+        {
+          "coefficient": -1,
+          "factors": [
+            "i"
+          ]
+        },
+        {
+          "coefficient": 1,
+          "factors": [
+            "j"
+          ]
+        }
+      ]
+    },
+    "packet_crossing_split": {
+      "assumptions": [
+        "1<=a,b<=p",
+        "1<=s<a+b",
+        "one entire packet straddles the split"
+      ],
+      "displacement_multiplicities_preserved": true,
+      "disposition": "REJECT_RETURN_CROSSING_BAND",
+      "global_permutation_preserved": true,
+      "s_gt_b": {
+        "lower_image": [
+          {
+            "coefficient": -1,
+            "factors": []
+          },
+          {
+            "coefficient": 1,
+            "factors": [
+              "a"
+            ]
+          },
+          {
+            "coefficient": 1,
+            "factors": [
+              "b"
+            ]
+          }
+        ],
+        "lower_source": [
+          {
+            "coefficient": -1,
+            "factors": []
+          },
+          {
+            "coefficient": 1,
+            "factors": [
+              "b"
+            ]
+          }
+        ],
+        "upper_image": [
+          {
+            "coefficient": -1,
+            "factors": [
+              "b"
+            ]
+          },
+          {
+            "coefficient": 1,
+            "factors": [
+              "s"
+            ]
+          }
+        ],
+        "upper_source": [
+          {
+            "coefficient": 1,
+            "factors": [
+              "s"
+            ]
+          }
+        ]
+      },
+      "s_le_b": {
+        "lower_image": [
+          {
+            "coefficient": -1,
+            "factors": []
+          },
+          {
+            "coefficient": 1,
+            "factors": [
+              "a"
+            ]
+          },
+          {
+            "coefficient": 1,
+            "factors": [
+              "s"
+            ]
+          }
+        ],
+        "lower_source": [
+          {
+            "coefficient": -1,
+            "factors": []
+          },
+          {
+            "coefficient": 1,
+            "factors": [
+              "s"
+            ]
+          }
+        ],
+        "upper_image": [],
+        "upper_source": [
+          {
+            "coefficient": 1,
+            "factors": [
+              "b"
+            ]
+          }
+        ]
+      }
+    },
+    "rounding_and_token_custody": {
+      "aggregate_balance": "each residual moment is the original moment minus the same total packet mass",
+      "aggregate_custody": "per type, sum of match remainders equals magnitude times its integer residual count",
+      "assumptions": [
+        "a,b>=1",
+        "ab>=2 for a nonempty match",
+        "z=ab-1",
+        "U_a and V_b are total integer packet token uses",
+        "weighted matches conserve each full type's mass",
+        "original positive and negative moments agree"
+      ],
+      "complete_packets_from_match": 0,
+      "disposition": "REJECT_UPWARD_ROUNDING",
+      "matched_mass": [
+        {
+          "coefficient": -1,
+          "factors": []
+        },
+        {
+          "coefficient": 1,
+          "factors": [
+            "a",
+            "b"
+          ]
+        }
+      ],
+      "negative_residue_mass": [
+        {
+          "coefficient": 1,
+          "factors": [
+            "M_b",
+            "b"
+          ]
+        },
+        {
+          "coefficient": -1,
+          "factors": [
+            "V_b",
+            "b"
+          ]
+        }
+      ],
+      "packet_mass_on_either_side": [
+        {
+          "coefficient": 1,
+          "factors": [
+            "a",
+            "b",
+            "u"
+          ]
+        }
+      ],
+      "per_match_token_divisibility_assumed": false,
+      "positive_residue_mass": [
+        {
+          "coefficient": 1,
+          "factors": [
+            "P_a",
+            "a"
+          ]
+        },
+        {
+          "coefficient": -1,
+          "factors": [
+            "U_a",
+            "a"
+          ]
+        }
+      ],
+      "rounded_up_excess": [
+        {
+          "coefficient": 1,
+          "factors": []
+        }
+      ]
+    },
+    "wrong_digest": {
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          13,
+          10,
+          8,
+          7,
+          2,
+          1,
+          9,
+          5,
+          4,
+          3,
+          12,
+          6,
+          11
+        ],
+        "errors": [
+          "original graph digest mismatch"
+        ],
+        "graph_digest": "2060a4e5a7d8f8ebc1906499facea2730250938d4550bb4c6ca34582a1f5b6e6",
+        "m": 13,
+        "n": 14,
+        "valid": false
+      },
+      "expected_digest": "0000000000000000000000000000000000000000000000000000000000000000"
+    }
+  },
+  "formal_arithmetic": {
+    "interleaved_equal_magnitude": {
+      "assumptions": [
+        "p>=2",
+        "0<=i<j<p for distinct cycles",
+        "a=b=p"
+      ],
+      "disposition": "DISTINCT_CYCLES_SHARE_SPANS_WITHOUT_COORDINATE_OVERLAP",
+      "exact_saving": [
+        {
+          "coefficient": -1,
+          "factors": [
+            "p"
+          ]
+        },
+        {
+          "coefficient": 1,
+          "factors": [
+            "p",
+            "p"
+          ]
+        }
+      ],
+      "occupied_classes": [
+        "{i,i+p} is one residue class mod p",
+        "duplicating that class repeats both occupied positions"
+      ],
+      "overlapping_span_margin": [
+        {
+          "coefficient": 1,
+          "factors": [
+            "i"
+          ]
+        },
+        {
+          "coefficient": -1,
+          "factors": [
+            "j"
+          ]
+        },
+        {
+          "coefficient": 1,
+          "factors": [
+            "p"
+          ]
+        }
+      ],
+      "packet_width": [
+        {
+          "coefficient": 2,
+          "factors": [
+            "p"
+          ]
+        }
+      ],
+      "separate_span_width": [
+        {
+          "coefficient": 1,
+          "factors": [
+            "p"
+          ]
+        },
+        {
+          "coefficient": 1,
+          "factors": [
+            "p",
+            "p"
+          ]
+        }
+      ],
+      "separation_of_upper_endpoints": [
+        {
+          "coefficient": -1,
+          "factors": [
+            "i"
+          ]
+        },
+        {
+          "coefficient": 1,
+          "factors": [
+            "j"
+          ]
+        }
+      ]
+    },
+    "packet_crossing_split": {
+      "assumptions": [
+        "1<=a,b<=p",
+        "1<=s<a+b",
+        "one entire packet straddles the split"
+      ],
+      "displacement_multiplicities_preserved": true,
+      "disposition": "REJECT_RETURN_CROSSING_BAND",
+      "global_permutation_preserved": true,
+      "s_gt_b": {
+        "lower_image": [
+          {
+            "coefficient": -1,
+            "factors": []
+          },
+          {
+            "coefficient": 1,
+            "factors": [
+              "a"
+            ]
+          },
+          {
+            "coefficient": 1,
+            "factors": [
+              "b"
+            ]
+          }
+        ],
+        "lower_source": [
+          {
+            "coefficient": -1,
+            "factors": []
+          },
+          {
+            "coefficient": 1,
+            "factors": [
+              "b"
+            ]
+          }
+        ],
+        "upper_image": [
+          {
+            "coefficient": -1,
+            "factors": [
+              "b"
+            ]
+          },
+          {
+            "coefficient": 1,
+            "factors": [
+              "s"
+            ]
+          }
+        ],
+        "upper_source": [
+          {
+            "coefficient": 1,
+            "factors": [
+              "s"
+            ]
+          }
+        ]
+      },
+      "s_le_b": {
+        "lower_image": [
+          {
+            "coefficient": -1,
+            "factors": []
+          },
+          {
+            "coefficient": 1,
+            "factors": [
+              "a"
+            ]
+          },
+          {
+            "coefficient": 1,
+            "factors": [
+              "s"
+            ]
+          }
+        ],
+        "lower_source": [
+          {
+            "coefficient": -1,
+            "factors": []
+          },
+          {
+            "coefficient": 1,
+            "factors": [
+              "s"
+            ]
+          }
+        ],
+        "upper_image": [],
+        "upper_source": [
+          {
+            "coefficient": 1,
+            "factors": [
+              "b"
+            ]
+          }
+        ]
+      }
+    },
+    "rounding_and_token_custody": {
+      "aggregate_balance": "each residual moment is the original moment minus the same total packet mass",
+      "aggregate_custody": "per type, sum of match remainders equals magnitude times its integer residual count",
+      "assumptions": [
+        "a,b>=1",
+        "ab>=2 for a nonempty match",
+        "z=ab-1",
+        "U_a and V_b are total integer packet token uses",
+        "weighted matches conserve each full type's mass",
+        "original positive and negative moments agree"
+      ],
+      "complete_packets_from_match": 0,
+      "disposition": "REJECT_UPWARD_ROUNDING",
+      "matched_mass": [
+        {
+          "coefficient": -1,
+          "factors": []
+        },
+        {
+          "coefficient": 1,
+          "factors": [
+            "a",
+            "b"
+          ]
+        }
+      ],
+      "negative_residue_mass": [
+        {
+          "coefficient": 1,
+          "factors": [
+            "M_b",
+            "b"
+          ]
+        },
+        {
+          "coefficient": -1,
+          "factors": [
+            "V_b",
+            "b"
+          ]
+        }
+      ],
+      "packet_mass_on_either_side": [
+        {
+          "coefficient": 1,
+          "factors": [
+            "a",
+            "b",
+            "u"
+          ]
+        }
+      ],
+      "per_match_token_divisibility_assumed": false,
+      "positive_residue_mass": [
+        {
+          "coefficient": 1,
+          "factors": [
+            "P_a",
+            "a"
+          ]
+        },
+        {
+          "coefficient": -1,
+          "factors": [
+            "U_a",
+            "a"
+          ]
+        }
+      ],
+      "rounded_up_excess": [
+        {
+          "coefficient": 1,
+          "factors": []
+        }
+      ]
+    }
+  },
+  "parent": "298a477eb8ec482caa649304d65eb529f78d3edf",
+  "retained_cut_inspections": {
+    "D105": {
+      "actual_cut": 13,
+      "crossing_incidence": [
+        {
+          "edge": [
+            "s:0",
+            "s:1"
+          ],
+          "weight": 13
+        },
+        {
+          "edge": [
+            "s:1",
+            "b:1:0"
+          ],
+          "weight": 12
+        }
+      ],
+      "crossing_spectrum": [
+        12,
+        13
+      ],
+      "frontier": "s:1",
+      "frontier_label": 13,
+      "n": 13,
+      "oriented_cut": 1
+    },
+    "D130": {
+      "actual_cut": 20,
+      "crossing_incidence": [
+        {
+          "edge": [
+            "s:0",
+            "s:1"
+          ],
+          "weight": 20
+        },
+        {
+          "edge": [
+            "s:1",
+            "b:1:0"
+          ],
+          "weight": 19
+        }
+      ],
+      "crossing_spectrum": [
+        19,
+        20
+      ],
+      "frontier": "s:1",
+      "frontier_label": 20,
+      "n": 20,
+      "oriented_cut": 1
+    }
+  },
+  "retained_execution_statuses": {
+    "D083_original": "INCOMPLETE",
+    "D083_versioned": "PASS",
+    "D093_original": "INCOMPLETE",
+    "D093_versioned": "PASS",
+    "D099": "PASS",
+    "D100_original": "INCOMPLETE",
+    "D100_recovery": "PASS",
+    "D101": "PASS",
+    "D102": "PASS",
+    "D103": "PASS",
+    "D104": "PASS",
+    "D105": "PASS",
+    "D106": "PASS",
+    "D107": "PASS",
+    "D108": "PASS",
+    "D109": "PASS",
+    "D110": "PASS",
+    "D111": "PASS",
+    "D112": "PASS",
+    "D113": "PASS",
+    "D114": "PASS",
+    "D115": "PASS",
+    "D116": "PASS",
+    "D117": "PASS",
+    "D118": "PASS",
+    "D119": "PASS",
+    "D120": "PASS",
+    "D121": "PASS",
+    "D122": "PASS",
+    "D123": "PASS",
+    "D124": "PASS",
+    "D125": "PASS",
+    "D126": "PASS",
+    "D127": "PASS",
+    "D128": "PASS",
+    "D129": "PASS",
+    "D130": "PASS",
+    "D131": "PASS",
+    "D132": "PASS",
+    "D133": "PASS",
+    "D134": "PASS",
+    "D135": "PASS"
+  },
+  "retained_seeds": {
+    "D105": {
+      "binding": {
+        "graph_digest": "2060a4e5a7d8f8ebc1906499facea2730250938d4550bb4c6ca34582a1f5b6e6",
+        "ledger_id": "af0e2be70013710c5b5b64c6c554512adfaad5ae0faa8ab63c146e428ed50a93",
+        "manifest": "evidence/validation/LCL_ORDINARY_43_2_EXTREME_SPINE_001/MANIFEST.json",
+        "manifest_sha256": "ccdf9c80e3709f7fffa34ca2a4f109dd48ab5be857ea98c406f2c3f399b980e3",
+        "original_owner_manifest": "evidence/validation/LCL_R241_43_2_LOWER_BLOCK_001/MANIFEST.json",
+        "original_path": "evidence/validation/LCL_R241_43_2_LOWER_BLOCK_001/original.json",
+        "profile": [
+          [
+            4,
+            3
+          ],
+          [
+            2
+          ]
+        ],
+        "proof": {
+          "path": "research/ORDINARY_43_2_EXTREME_SPINE.md",
+          "sha256": "b08106748481db95a9cf480e7d91b5098b77c1515427dcde8439aef811c45bf9"
+        },
+        "raw_sha256": "99d92699cea529c235f3ed146805920d39c030b33d5651e0ba64ed8e1889d168",
+        "result_sha256": "62a71cf47642426a79a48890d63680a1fbee393fe5fce42d4f4040eb87518207",
+        "task": "LCL-ORDINARY-43-2-EXTREME-SPINE-001"
+      },
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          13,
+          10,
+          8,
+          7,
+          2,
+          1,
+          9,
+          5,
+          4,
+          3,
+          12,
+          6,
+          11
+        ],
+        "errors": [],
+        "graph_digest": "2060a4e5a7d8f8ebc1906499facea2730250938d4550bb4c6ca34582a1f5b6e6",
+        "m": 13,
+        "n": 14,
+        "valid": true
+      },
+      "independent": {
+        "D112_pins": {
+          "exit_label": 13,
+          "off_spine_label": 1,
+          "predecessor_label": 0
+        },
+        "D112_premises": true,
+        "certificate_has_alpha_separation": false,
+        "deficit_state": {
+          "claimed_deficit": 0,
+          "frontier": "s:1",
+          "tests": {
+            "deficit_agrees_at_claimed_vertex": true,
+            "exact_deficit_in_bounds": true,
+            "frontier_label_in_alphabet": true,
+            "physical_frontier": true
+          },
+          "valid": true
+        },
+        "difference_inventory": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "distance_to_spine": {
+          "b:0:0": 1,
+          "b:0:1": 1,
+          "b:1:0": 1,
+          "l:0:0:0": 2,
+          "l:0:0:1": 2,
+          "l:0:0:2": 2,
+          "l:0:0:3": 2,
+          "l:0:1:0": 2,
+          "l:0:1:1": 2,
+          "l:0:1:2": 2,
+          "l:1:0:0": 2,
+          "l:1:0:1": 2,
+          "s:0": 0,
+          "s:1": 0
+        },
+        "edge_count": 13,
+        "exit_neighbors": [
+          "b:1:0",
+          "s:0"
+        ],
+        "graph_digest": "2060a4e5a7d8f8ebc1906499facea2730250938d4550bb4c6ca34582a1f5b6e6",
+        "historical_formula_evaluated": false,
+        "label_inventory": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "ledger_id": "af0e2be70013710c5b5b64c6c554512adfaad5ae0faa8ab63c146e428ed50a93",
+        "named_weights": [
+          {
+            "edge": [
+              "s:0",
+              "s:1"
+            ],
+            "weight": 13
+          },
+          {
+            "edge": [
+              "s:0",
+              "b:0:0"
+            ],
+            "weight": 10
+          },
+          {
+            "edge": [
+              "b:0:0",
+              "l:0:0:0"
+            ],
+            "weight": 8
+          },
+          {
+            "edge": [
+              "b:0:0",
+              "l:0:0:1"
+            ],
+            "weight": 7
+          },
+          {
+            "edge": [
+              "b:0:0",
+              "l:0:0:2"
+            ],
+            "weight": 2
+          },
+          {
+            "edge": [
+              "b:0:0",
+              "l:0:0:3"
+            ],
+            "weight": 1
+          },
+          {
+            "edge": [
+              "s:0",
+              "b:0:1"
+            ],
+            "weight": 9
+          },
+          {
+            "edge": [
+              "b:0:1",
+              "l:0:1:0"
+            ],
+            "weight": 5
+          },
+          {
+            "edge": [
+              "b:0:1",
+              "l:0:1:1"
+            ],
+            "weight": 4
+          },
+          {
+            "edge": [
+              "b:0:1",
+              "l:0:1:2"
+            ],
+            "weight": 3
+          },
+          {
+            "edge": [
+              "s:1",
+              "b:1:0"
+            ],
+            "weight": 12
+          },
+          {
+            "edge": [
+              "b:1:0",
+              "l:1:0:0"
+            ],
+            "weight": 6
+          },
+          {
+            "edge": [
+              "b:1:0",
+              "l:1:0:1"
+            ],
+            "weight": 11
+          }
+        ],
+        "ordered_spine": [
+          "s:0",
+          "s:1"
+        ],
+        "profile": [
+          [
+            4,
+            3
+          ],
+          [
+            2
+          ]
+        ]
+      }
+    },
+    "D130": {
+      "binding": {
+        "graph_digest": "d5639f8f1a3f6a88477088ce7acab577b48d8deb50a92e95adf48aac7abd6f0a",
+        "ledger_id": "f20c7d32b8d0a5957828c9326a0e37f8ac507ee893702c6ae816ecc58f2d7dc5",
+        "manifest": "evidence/validation/LCL_ORDINARY_2AC_2_MODIFIED_CORE_CLASSIFICATION_001/MANIFEST.json",
+        "manifest_sha256": "11a65f3bdbd6217deadee4b8a33f6639e99cc0da65f0e4bd9da6971c48c94e68",
+        "original_owner_manifest": "evidence/validation/LCL_ORDINARY_2AC_2_MODIFIED_CORE_CLASSIFICATION_001/MANIFEST.json",
+        "original_path": "evidence/validation/LCL_ORDINARY_2AC_2_MODIFIED_CORE_CLASSIFICATION_001/original.json",
+        "profile": [
+          [
+            2,
+            5,
+            6
+          ],
+          [
+            2
+          ]
+        ],
+        "proof": {
+          "path": "research/ORDINARY_2AC_2_MODIFIED_CORE_CLASSIFICATION.md",
+          "sha256": "5e45d257e917990218eea63642e1738732e60f54c5907f8d1ccb9b62eb7efabc"
+        },
+        "raw_sha256": "b97c698e32cf2a984688027e7cc97a37548499380771b03ab1e435d443590ff7",
+        "result_sha256": "92c38947413294b4e373bc4db889817f935f8a31b25ff26c4febed053953a468",
+        "task": "LCL-ORDINARY-2AC-2-MODIFIED-CORE-CLASSIFICATION-001"
+      },
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          20,
+          2,
+          15,
+          11,
+          14,
+          1,
+          7,
+          5,
+          3,
+          9,
+          16,
+          13,
+          12,
+          10,
+          8,
+          6,
+          4,
+          19,
+          18,
+          17
+        ],
+        "errors": [],
+        "graph_digest": "d5639f8f1a3f6a88477088ce7acab577b48d8deb50a92e95adf48aac7abd6f0a",
+        "m": 20,
+        "n": 21,
+        "valid": true
+      },
+      "independent": {
+        "D112_pins": {
+          "exit_label": 20,
+          "off_spine_label": 1,
+          "predecessor_label": 0
+        },
+        "D112_premises": true,
+        "certificate_has_alpha_separation": false,
+        "deficit_state": {
+          "claimed_deficit": 0,
+          "frontier": "s:1",
+          "tests": {
+            "deficit_agrees_at_claimed_vertex": true,
+            "exact_deficit_in_bounds": true,
+            "frontier_label_in_alphabet": true,
+            "physical_frontier": true
+          },
+          "valid": true
+        },
+        "difference_inventory": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "distance_to_spine": {
+          "b:0:0": 1,
+          "b:0:1": 1,
+          "b:0:2": 1,
+          "b:1:0": 1,
+          "l:0:0:0": 2,
+          "l:0:0:1": 2,
+          "l:0:1:0": 2,
+          "l:0:1:1": 2,
+          "l:0:1:2": 2,
+          "l:0:1:3": 2,
+          "l:0:1:4": 2,
+          "l:0:2:0": 2,
+          "l:0:2:1": 2,
+          "l:0:2:2": 2,
+          "l:0:2:3": 2,
+          "l:0:2:4": 2,
+          "l:0:2:5": 2,
+          "l:1:0:0": 2,
+          "l:1:0:1": 2,
+          "s:0": 0,
+          "s:1": 0
+        },
+        "edge_count": 20,
+        "exit_neighbors": [
+          "b:1:0",
+          "s:0"
+        ],
+        "graph_digest": "d5639f8f1a3f6a88477088ce7acab577b48d8deb50a92e95adf48aac7abd6f0a",
+        "historical_formula_evaluated": false,
+        "label_inventory": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "ledger_id": "f20c7d32b8d0a5957828c9326a0e37f8ac507ee893702c6ae816ecc58f2d7dc5",
+        "named_weights": [
+          {
+            "edge": [
+              "s:0",
+              "s:1"
+            ],
+            "weight": 20
+          },
+          {
+            "edge": [
+              "s:0",
+              "b:0:0"
+            ],
+            "weight": 2
+          },
+          {
+            "edge": [
+              "b:0:0",
+              "l:0:0:0"
+            ],
+            "weight": 15
+          },
+          {
+            "edge": [
+              "b:0:0",
+              "l:0:0:1"
+            ],
+            "weight": 11
+          },
+          {
+            "edge": [
+              "s:0",
+              "b:0:1"
+            ],
+            "weight": 14
+          },
+          {
+            "edge": [
+              "b:0:1",
+              "l:0:1:0"
+            ],
+            "weight": 1
+          },
+          {
+            "edge": [
+              "b:0:1",
+              "l:0:1:1"
+            ],
+            "weight": 7
+          },
+          {
+            "edge": [
+              "b:0:1",
+              "l:0:1:2"
+            ],
+            "weight": 5
+          },
+          {
+            "edge": [
+              "b:0:1",
+              "l:0:1:3"
+            ],
+            "weight": 3
+          },
+          {
+            "edge": [
+              "b:0:1",
+              "l:0:1:4"
+            ],
+            "weight": 9
+          },
+          {
+            "edge": [
+              "s:0",
+              "b:0:2"
+            ],
+            "weight": 16
+          },
+          {
+            "edge": [
+              "b:0:2",
+              "l:0:2:0"
+            ],
+            "weight": 13
+          },
+          {
+            "edge": [
+              "b:0:2",
+              "l:0:2:1"
+            ],
+            "weight": 12
+          },
+          {
+            "edge": [
+              "b:0:2",
+              "l:0:2:2"
+            ],
+            "weight": 10
+          },
+          {
+            "edge": [
+              "b:0:2",
+              "l:0:2:3"
+            ],
+            "weight": 8
+          },
+          {
+            "edge": [
+              "b:0:2",
+              "l:0:2:4"
+            ],
+            "weight": 6
+          },
+          {
+            "edge": [
+              "b:0:2",
+              "l:0:2:5"
+            ],
+            "weight": 4
+          },
+          {
+            "edge": [
+              "s:1",
+              "b:1:0"
+            ],
+            "weight": 19
+          },
+          {
+            "edge": [
+              "b:1:0",
+              "l:1:0:0"
+            ],
+            "weight": 18
+          },
+          {
+            "edge": [
+              "b:1:0",
+              "l:1:0:1"
+            ],
+            "weight": 17
+          }
+        ],
+        "ordered_spine": [
+          "s:0",
+          "s:1"
+        ],
+        "profile": [
+          [
+            2,
+            5,
+            6
+          ],
+          [
+            2
+          ]
+        ]
+      }
+    }
+  },
+  "runtime": {
+    "path": ".venv/Scripts/python.exe",
+    "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "scope": {
+    "constructive_rule": "Virtual weighted mass matching; full rotation packets; D135 residual cycles",
+    "deterministic_admission": "Maximal lower prefix T and block width W_new satisfy W_new-T<=Q-k",
+    "input": "Exact D134 return state at fixed odd h=2p+1",
+    "necessary_moment": "sum((p-j)*r_j)=0",
+    "numerical_allocations": false,
+    "numerical_permutations": false,
+    "quotas": "Exact positive physical quotas; even Q>=h+1; n>=h+Q",
+    "return": "D134 inventories, exact physical cut state and immutable final labels",
+    "strict_comparison": "Symbolic family where D135 separate spans exceed Q",
+    "uniform_sufficient_capacity": "Q>=N+(2p-1)*(2*p*(p-1)+1)"
+  },
+  "status": "PASS",
+  "task": "LCL-ORDINARY-SPINE-INTERLEAVED-ROTATION-PACKET-ALLOCATION-001"
+}

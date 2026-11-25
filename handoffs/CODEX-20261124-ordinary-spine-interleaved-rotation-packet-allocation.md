@@ -1,0 +1,17 @@
+# Codex handoff — D136 interleaved rotation-packet allocation
+
+November 24, 2026, Pacific/Honolulu · `LCL-ORDINARY-SPINE-INTERLEAVED-ROTATION-PACKET-ALLOCATION-001` · parent `298a477eb8ec482caa649304d65eb529f78d3edf`. Repository `drkmtr1/Lobster-Construction-Lab`, branch `main`.
+
+**ACCEPT** the coefficient-one sufficient capacity theorem in D134's exact cut return state at fixed odd h=2p+1≥3, with positive physical quotas, even Q≥h+1, n≥h+Q and zero weighted moment. Full rotation packets interleave their gcd residue-class cycles. Weighted mass matching consumes actual tokens only in complete packets and leaves an integral balanced residual R<2p(2p−1) for the D135 cycle decomposition. The deterministic width test is W_new−T≤Q−k, and Q≥N+(2p−1)(2p(p−1)+1) is sufficient independently of the actual widths.
+
+For every fixed p≥2 there is an infinite symbolic family in which D135's separate spans exceed Q while D136 is admitted. For p≥3 that family can have nonsymmetric physical quotas. The necessary moment and the size and initialization hypotheses persist. D134 and D135 retain their independent sufficient domains, and failed D136 packing leaves alternative allocations open. Admitted lists may mix all three suppliers at the same multiplicity. Both inventories, actual crossing bands and immutable final labels remain exact.
+
+[Proof](../research/ORDINARY_SPINE_INTERLEAVED_ROTATION_PACKET_ALLOCATION.md) · [Evidence](../evidence/validation/LCL_ORDINARY_SPINE_INTERLEAVED_ROTATION_PACKET_ALLOCATION_001/README.md) · [Audit and controls](../evidence/validation/LCL_ORDINARY_SPINE_INTERLEAVED_ROTATION_PACKET_ALLOCATION_001/result.json) · [Reviews](../evidence/validation/LCL_ORDINARY_SPINE_INTERLEAVED_ROTATION_PACKET_ALLOCATION_001/REVIEWS.md) · [Manifest](../evidence/validation/LCL_ORDINARY_SPINE_INTERLEAVED_ROTATION_PACKET_ALLOCATION_001/MANIFEST.json)
+
+**PASS** one parse-only preflight and one supervised retained verification. Both archived seed rechecks and maximum cut inspections, six archive bindings and four controls passed. Combined use was 0.84375 process-CPU seconds and 1.7173414 supervised wall seconds. No numerical allocation, permutation, initializer or transition was executed. Preserve the distinct D083/D093/D100 original and versioned dispositions, deferred 2322, baseline identities and both upstream pins. Resolve this handoff's containing commit and verify actual GitHub `main`.
+
+**ADVANCE** to mixed-multiplicity cut-state compatibility. The improvement removes multiplicity from the proportional capacity coefficient. The remaining state recurrence still ties successive sections to one odd multiplicity, and the fixed host placement retains its moment restriction. Further tuning of the additive capacity term is deferred. **Project instructions KEEP.**
+
+## One next action
+
+Under separate authorization, test a symbolic single-section transition between two distinct odd multiplicities in the D134 cut-state architecture. Retain one actual cut, two order-preserving old-label translations and all named original incidences, while allowing the fresh labels to use a different placement among the two exterior intervals and the inserted gap. Derive the connector and crossing-spectrum compatibility conditions for the prescribed output multiplicity. Prove a parameterized mixed-multiplicity transition or a scoped obstruction to the proposed placement class. Work without numerical joins, profile sweeps, solvers or individual quota exceptions.

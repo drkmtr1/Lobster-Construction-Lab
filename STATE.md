@@ -2,19 +2,21 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 24, 2026, Pacific/Honolulu<br>
-**Stage:** D135 general displacement-cycle allocation **ACCEPTED**. Bounded retained-evidence verification **PASS**. [Proof](research/ORDINARY_SPINE_GENERAL_DISPLACEMENT_CYCLE_ALLOCATION.md).
+**Stage:** D136 interleaved rotation-packet allocation **ACCEPTED**. Bounded retained-evidence verification **PASS**. [Proof](research/ORDINARY_SPINE_INTERLEAVED_ROTATION_PACKET_ALLOCATION.md).
 
 ## Current scientific objective
 
-Develop independent ordinary graceful transitions with usable physical ports. The [latest handoff](handoffs/CODEX-20261124-ordinary-spine-general-displacement-cycle-allocation.md) extends the D134 return state to a provable nonsymmetric quota domain. The capacity charged for separate cycle blocks is the next structural bottleneck. The required weighted quota balance and fixed odd multiplicity still delimit this placement.
+Develop independent ordinary graceful transitions with usable physical ports. The [latest handoff](handoffs/CODEX-20261124-ordinary-spine-interleaved-rotation-packet-allocation.md) establishes a coefficient-one capacity bound within the D134 return state and an infinite family improving on D135's separate spans. Prioritize compatibility across separate center multiplicities. The weighted moment for the fixed placement and special initialization remain open restrictions.
 
 ## One next action
 
-Under separate authorization, test whether band-preserving displacement cycles in the D134 return state can interleave their occupied coordinates and share unused space. Seek a constructive sufficient capacity bound linear in the nonzero token count N with an absolute coefficient independent of p and an additive term depending only on p, or prove a scoped obstruction to the proposed interleaving rule. Keep the exact quota moment, both physical return bands and arbitrary fixed odd multiplicity. Work symbolically without numerical joins, profile sweeps, solvers or isolated quota exceptions.
+Under separate authorization, test a symbolic single-section transition between two distinct odd multiplicities in the D134 cut-state architecture. Retain one actual cut, two order-preserving old-label translations and all named original incidences, while allowing the fresh labels to use a different placement among the two exterior intervals and the inserted gap. Derive the connector and crossing-spectrum compatibility conditions for the prescribed output multiplicity. Prove a parameterized mixed-multiplicity transition or a scoped obstruction to the proposed placement class. Work without numerical joins, profile sweeps, solvers or individual quota exceptions.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
+
+- D136 **SUPPLIES** interleaved rotation packets and bounded residual cycles in the D134 state. The deterministic fit test admits Q≥N+(2p−1)(2p(p−1)+1), with exact weighted balance and both return bands. For every fixed p≥2 an infinite symbolic family fits despite total D135 separate-span overflow, and for p≥3 it can be nonsymmetric. D134 and D135 retain their independent sufficient domains. Mixed admitted lists at fixed h keep exact resource inventories and immutable final labels. Two archived rechecks, both cut inspections, six bindings, four controls and separate reviews passed. See [proof](research/ORDINARY_SPINE_INTERLEAVED_ROTATION_PACKET_ALLOCATION.md) and [evidence](evidence/validation/LCL_ORDINARY_SPINE_INTERLEAVED_ROTATION_PACKET_ALLOCATION_001/README.md).
 
 - D135 **SUPPLIES** a deterministic displacement-cycle rule in the exact D134 return state. Zero quota moment is necessary, while the width test W−T≤Q−k is sufficient for the selected cycle blocks, with independent sufficient capacity Q≥pN+2p−1. An infinite nonsymmetric domain exists for every fixed odd h≥5. Admitted allocations retain both inventories, the returning cut state and immutable final labels. D134's symmetric rule retains its independent domain. Two retained checker rechecks, two cut inspections, five archive bindings, four controls and separate reviews passed. See [proof](research/ORDINARY_SPINE_GENERAL_DISPLACEMENT_CYCLE_ALLOCATION.md) and [evidence](evidence/validation/LCL_ORDINARY_SPINE_GENERAL_DISPLACEMENT_CYCLE_ALLOCATION_001/README.md).
 
