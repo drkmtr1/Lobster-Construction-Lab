@@ -1,0 +1,172 @@
+{
+  "task": "LCL-ORDINARY-SPINE-EXCEPTIONAL-EVEN-SECOND-QUOTA-EXTENSION-001",
+  "status": "PROVED_PENDING_DIRECTOR_REVIEW",
+  "parent": "971e0c701ef716d3af64770c2b1db29e7927e7b7",
+  "proof_sha256": "136a5187a2fc1a296cbe4b7b21c0b1fa5427c3e7cdbf86a9dc3129fa16373880",
+  "exact_scope": {
+    "phase": "S_-1 to S_-1",
+    "first_quotas": "All physical orders of 4,2r+1,2t+1, exact r,t>=0",
+    "second_quotas": "2p,4 and one actual direct leaf, exact p>=1; all actual physical orders",
+    "n_bound": "Independent named input with n=2c+2>=2(r+t+p+9)",
+    "fixed_Eplus": "A=5,B=4 with the declared numerical role choice, feasible iff p=1 or r+t>=1",
+    "T": "Feasible iff max(r,t)>=2 for all p>=1",
+    "full_Eplus_p2": "Iff r+t>=1. Three accepted exhaustive D161 E+ negatives transported symbolically within the declared arrangement.",
+    "outside_open": "Full E+ at p>=3,r=t=0 remains open.",
+    "four_four_D161_controls": {
+      "separating": 9,
+      "both_arm_exhausted": 3
+    }
+  },
+  "D162_acceptance": {
+    "disposition": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE",
+    "checkpoint": "971e0c701ef716d3af64770c2b1db29e7927e7b7",
+    "proof_sha256": "aa8246088b3c16a2bc7f96e9f1fca852ec6e9d89efc1ff8ce49fe4e8a4783584",
+    "manifest_sha256": "dafb8c5d30513be51e94f50d6111dd1313971bb121b3f5a9f5840bab89c9fd69",
+    "manifest_members": 6,
+    "intake_bindings": 15,
+    "canonical_state_sha256": "7d1874e6bb002d42736f7fb138a12de6e64065e0ce9216a26ee2197ff8aad234",
+    "scope": "Exact odd-first E+ and T classification with positive second quotas two and four, both endpoint cases, all three T words, named resources and closure.",
+    "review_detail": "Director freshly hashed eight intake bindings and reconciled seven by prior verified identities and exact continuity."
+  },
+  "state_binding": {
+    "path": "STATE.md",
+    "bytes": 87346,
+    "sha256_canonical_git_bytes": "27dbd7b938ff48a19f92c83f4b9d9dd234f6884cfab795483fd2c8e736dd2a7a",
+    "sole_next_action": "Under separate Owner authorization after Director review, investigate physical exterior supply for parity-compatible S_-1-preserving two-section originals with four first centers, two second centers, and a sole direct leaf at the second spine vertex. Use one matched hybrid diagnostic on identical named originals to distinguish connected crossing-exterior absence from failure of gap compatibility, and use any separating evidence to guide a symbolic supplier. This action is UNSTARTED."
+  },
+  "intake_file_bindings": [
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ODD_FIRST_QUOTA_CLASSIFICATION_001/MANIFEST.json",
+      "bytes": 7015,
+      "sha256": "dafb8c5d30513be51e94f50d6111dd1313971bb121b3f5a9f5840bab89c9fd69"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_EXCEPTIONAL_ODD_FIRST_QUOTA_CLASSIFICATION.md",
+      "bytes": 22233,
+      "sha256": "aa8246088b3c16a2bc7f96e9f1fca852ec6e9d89efc1ff8ce49fe4e8a4783584"
+    },
+    {
+      "path": "evidence/runs/d161-exceptional-quota-four-001/MANIFEST.json",
+      "bytes": 7847,
+      "sha256": "ca1f0672f34e770bc5ac860ce95b4577b8d2920d7a9617538b510c17f8df7864"
+    },
+    {
+      "path": "evidence/runs/d161-exceptional-quota-four-001/OFFICIAL_RAW.zip",
+      "bytes": 364603,
+      "sha256": "13c6ff81991bef03d0760b5ecf7aadc14b60a7cecdf951c10212d12de9eb7cee"
+    },
+    {
+      "path": "evidence/runs/d161-exceptional-quota-four-001/RECONCILIATION.json",
+      "bytes": 210632,
+      "sha256": "27e0c7b364452901274d6e73115151444a4b7249ce335165393ca3d717d548fe"
+    },
+    {
+      "path": "evidence/runs/d161-exceptional-quota-four-001/SEPARATORS.md",
+      "bytes": 5567,
+      "sha256": "e7a45c5e1435baf459ef597ee2a7ce2c293b6983da3cda5e22e99bbbf3a34688"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FIVE_HOST_QUOTA_FOUR_MATCHED_001_PREP/MANIFEST.json",
+      "bytes": 17765,
+      "sha256": "3839c60a588a7e8c0eeee3b62c107e8182fffa24cd06bf649b3faa9c32997fdf"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FIVE_HOST_QUOTA_FOUR_MATCHED_001_PREP/input/corpus_index.json",
+      "bytes": 27614,
+      "sha256": "7e9d80a8ba149bbf2a66bf33b1249f5edd4e7f35fa4aa4f27c8ca0782b5e6626"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FIVE_HOST_QUOTA_FOUR_MATCHED_001_PREP/input/prefix.json",
+      "bytes": 8781,
+      "sha256": "f48b56479dac85e1ddbbd36e5f6a6a3eaf94b9b32497e677fe5a96932abbac95"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_TWO_SECTION_CUT_STATE.md",
+      "bytes": 24015,
+      "sha256": "a7b4d98f286225bfb887866ce1b6167281b52bb650fcf53a50b0a5060e152cf8"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_ALTERNATING_EXCEPTIONAL_SPECTRUM.md",
+      "bytes": 19060,
+      "sha256": "73230a18d826361e0eb4eadfbf02e41cbb1aa3c5332c890bf75f48ed18a0e0fd"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_EXCEPTIONAL_PHASE_PRESERVING_BRIDGE.md",
+      "bytes": 18725,
+      "sha256": "7ccf47623ba26ebfe4479a4a9bd0defbd582290503a4226860f1562a89c8fa89"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_EXCEPTIONAL_BOUNDARY_STATE_ALLOCATION.md",
+      "bytes": 19321,
+      "sha256": "d1772995d373bc5a2884a9199c4ef32309e16d809dacb3388618b7680e892260"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_EXCEPTIONAL_FIVE_HOST_EXTERIOR_SUPPLY.md",
+      "bytes": 22746,
+      "sha256": "0ce4053e4d5b8082fc62d7a008aa7875680ff9505c9f9e0b7d4568cfa2e90254"
+    },
+    {
+      "path": "evidence/runs/d154-parity-two-first-center-001/MANIFEST.json",
+      "bytes": 3968,
+      "sha256": "e66f651917ae167dfb903d1557f25a593738e2cea97a9d79e4e16c19f6f52b42"
+    },
+    {
+      "path": "evidence/runs/d154-parity-two-first-center-001/OFFICIAL_RAW.zip",
+      "bytes": 732889,
+      "sha256": "fc85e33800ec57eeccba25637f5e99080c08539160739cfbdd6543f18fb9cb72"
+    },
+    {
+      "path": "STATE.md",
+      "sha256": "7d1874e6bb002d42736f7fb138a12de6e64065e0ce9216a26ee2197ff8aad234",
+      "bytes": 87133,
+      "git_commit": "971e0c701ef716d3af64770c2b1db29e7927e7b7",
+      "representation": "Canonical Git blob bytes at admission"
+    }
+  ],
+  "files": [
+    {
+      "path": "research/ORDINARY_SPINE_EXCEPTIONAL_EVEN_SECOND_QUOTA_EXTENSION.md",
+      "bytes": 27631,
+      "sha256": "136a5187a2fc1a296cbe4b7b21c0b1fa5427c3e7cdbf86a9dc3129fa16373880"
+    },
+    {
+      "path": "handoffs/CODEX-20261125-exceptional-even-second-quota-extension.md",
+      "bytes": 2895,
+      "sha256": "7dcca3ad54d4f491b50c51bf6b06b82b1adee75cdf722e9b482b5895ad7d7dbe"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_EVEN_SECOND_QUOTA_EXTENSION_001/CUSTODY.json",
+      "bytes": 20025,
+      "sha256": "fc92b4e419221ec16ed81a9b2cdc84b310e627cb9652d1f73b1664530366ab79"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_EVEN_SECOND_QUOTA_EXTENSION_001/README.md",
+      "bytes": 1498,
+      "sha256": "423687e8779b55001014833c298f325a0e73cb73b73cf73859559ab7c6e57363"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_EVEN_SECOND_QUOTA_EXTENSION_001/REVIEWS.md",
+      "bytes": 1993,
+      "sha256": "10bbe5fcffbbe43dbc5af66ff95e097c6024385202365f6f3ddc0bcce916cd59"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_EVEN_SECOND_QUOTA_EXTENSION_001/STRATEGY.md",
+      "bytes": 2185,
+      "sha256": "d81183c81361d557e85d677009023a6ab39e91bf4535de24c5320fd8eef59d60"
+    }
+  ],
+  "scientific_counters": {
+    "new_numerical_originals": 0,
+    "numerical_allocation_evaluations": 0,
+    "transfer_state_searches": 0,
+    "labeling_search_nodes": 0,
+    "placement_sweeps": 0,
+    "solver_calls": 0,
+    "historical_campaign_replays": 0,
+    "pilot_invocations": 0,
+    "detailed_D130_access": 0,
+    "successor_execution": 0,
+    "successor_preparation": 0
+  },
+  "project_instructions": "KEEP v11"
+}

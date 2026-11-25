@@ -1,0 +1,7 @@
+# D163 exceptional exterior even-quota packet extension
+
+**PROVED / PENDING DIRECTOR REVIEW.** For exact r,t≥0 and p≥1, with all orders of first quotas 4,2r+1,2t+1 and second quotas 2p,4 plus the actual direct leaf, the fixed D162 A=5,B=4 exterior is feasible with admissible numerical role choice exactly when p=1 or r+t≥1. The double-displacement (b,b) and (P,P) pairs fill identical destination cells and consume different actual quotas. The proof includes the exact obstruction for r=t=0,p≥2 on this exterior. [Proof](../../../research/ORDINARY_SPINE_EXCEPTIONAL_EVEN_SECOND_QUOTA_EXTENSION.md)
+
+T is feasible over all admitted terminal-free exteriors exactly when max(r,t)≥2, for every p≥1. When p=2, feasibility in the full E+ class holds exactly when r+t≥1. Its negative case combines accepted D161 finite exhaustion with symbolic transport to every admitted S₋₁ prefix and polarity. The proof recovers the nine retained four/four separations. Full E+ feasibility on alternate exteriors when p≥3 and r=t=0 remains open. [D161 frozen archive](../../../evidence/runs/d161-exceptional-quota-four-001/OFFICIAL_RAW.zip)
+
+Both exact first-section inventories, the actual unfinished uw, both polarities and finite immutable composition are retained. The Director accepted D162 in its exact scope. No numerical allocation or replay was performed. [Custody and controls](CUSTODY.json) · [Reviews](REVIEWS.md) · [Manifest](MANIFEST.json) · [Strategic reassessment](STRATEGY.md)

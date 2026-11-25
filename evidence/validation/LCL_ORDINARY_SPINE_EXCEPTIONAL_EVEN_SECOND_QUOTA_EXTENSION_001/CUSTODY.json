@@ -1,0 +1,549 @@
+{
+  "task": "LCL-ORDINARY-SPINE-EXCEPTIONAL-EVEN-SECOND-QUOTA-EXTENSION-001",
+  "date": "2026-11-25",
+  "start": "971e0c701ef716d3af64770c2b1db29e7927e7b7",
+  "D162_acceptance": {
+    "disposition": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE",
+    "checkpoint": "971e0c701ef716d3af64770c2b1db29e7927e7b7",
+    "proof_sha256": "aa8246088b3c16a2bc7f96e9f1fca852ec6e9d89efc1ff8ce49fe4e8a4783584",
+    "manifest_sha256": "dafb8c5d30513be51e94f50d6111dd1313971bb121b3f5a9f5840bab89c9fd69",
+    "manifest_members": 6,
+    "intake_bindings": 15,
+    "canonical_state_sha256": "7d1874e6bb002d42736f7fb138a12de6e64065e0ce9216a26ee2197ff8aad234",
+    "scope": "Exact odd-first E+ and T classification with positive second quotas two and four, both endpoint cases, all three T words, named resources and closure.",
+    "review_detail": "Director freshly hashed eight intake bindings and reconciled seven by prior verified identities and exact continuity."
+  },
+  "admission": {
+    "status": "PASS",
+    "head": "971e0c701ef716d3af64770c2b1db29e7927e7b7",
+    "parent": "8513749a3df139ed21f4f479201e8fcd7f651d59",
+    "origin_main": "971e0c701ef716d3af64770c2b1db29e7927e7b7",
+    "live_main": "971e0c701ef716d3af64770c2b1db29e7927e7b7",
+    "clean": true,
+    "baseline": "fddfc1dd9541324b2ed2de2505bc750b3e3f0b9d",
+    "baseline_peel": "36ea1603602491bf3c1c5b81ed4c23aaa2210e70",
+    "upstreams": [
+      {
+        "path": "../Math_Discovery_Lab",
+        "pin": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+        "branch": "main",
+        "checkout": "858a8c1fcfda87ba40bb1adee498a6131504a803"
+      },
+      {
+        "path": "../MDL_Bounded_Search",
+        "pin": "e48b94eec4091b4fe189e325cab2eda464409943",
+        "branch": "recovery/p004-last-completed-no-launcher",
+        "checkout": "c803ecb6bd0481d31af43f7e3c194ae8ed4d1578",
+        "remote_recovery_tip": "1e1efeac9acd70006d7f1bd4aa6786f438cff602"
+      }
+    ],
+    "builder": "8d1e9948e8bf5ef01e67c9afe0155412c57d79fa",
+    "checker": "d008f35f0843e1a5c770db3e7f42ed7d987360d7",
+    "agents": {
+      "path": "AGENTS.md",
+      "bytes": 8359,
+      "sha256": "e980f2ee51d2b69cfd8ab9c4955f9388ad14f9b7b78581729ef5a24dd21339e6"
+    },
+    "canonical_agents_sha256": "ddb4b70c24cb5e1725d0c2e4ea8c2d522b4556b62b8bd69fdffd4205ece485db",
+    "closeout_manifest_members": 9,
+    "closeout_intake_bindings": 15,
+    "prep_manifest_members": 49,
+    "prep_intake_bindings": 15,
+    "D162_manifest_members": 6,
+    "D162_intake_bindings": 15,
+    "raw_members": 301,
+    "original_bindings": 99,
+    "selected_controls": [
+      {
+        "target": "target-004",
+        "parameters": [
+          1,
+          1,
+          4,
+          4,
+          4
+        ],
+        "original_sha256": "49143ae3c58e2c784b153f5008d056d78ded9695a1ae71f19b2d3c0d10838563",
+        "original_record_sha256": "0b43e93a6e5bb2c03d85e54ddad53c200bee93d2429b788a9fd449b6831ec7eb",
+        "T": {
+          "claim": "NO",
+          "basis": "ALLOCATION_EXHAUSTED",
+          "file": "target-004-T.json",
+          "sha256": "e296571d0838555c77e0bf3048e37c9a2fd2596638d466c359916072214fabbe"
+        },
+        "Eplus": {
+          "claim": "NO",
+          "basis": "ALLOCATION_EXHAUSTED",
+          "file": "target-004-Eplus.json",
+          "sha256": "a58dc3015ed943b89a426fbc62eee9bda776ef048b6020f9c103581ee987cfe9"
+        },
+        "pair": {
+          "file": "target-004-PAIR.json",
+          "sha256": "3771ce860cd3a7623a1b13899872bcf4540849886459db5a4b317532833b4a47"
+        },
+        "both_negative": true
+      },
+      {
+        "target": "target-011",
+        "parameters": [
+          1,
+          3,
+          4,
+          4,
+          4
+        ],
+        "original_sha256": "3ef4bd8dc5a5805c53f52453fa3b60e8c7686265f3f173e615b875b9ec1654d0",
+        "original_record_sha256": "aa4ffdbe1c227d8729fc7641ca28fa73c3d2d8f5ea5fff1f449ab0ee496dc4d6",
+        "T": {
+          "claim": "NO",
+          "basis": "ALLOCATION_EXHAUSTED",
+          "file": "target-011-T.json",
+          "sha256": "1c9f55dad1180c84fa780c3f84aa4660ce3a593acbfc2a4e3ead0cf660caf49e"
+        },
+        "Eplus": {
+          "claim": "YES",
+          "basis": null,
+          "file": "target-011-Eplus.json",
+          "sha256": "8e105b648fd8de54097f0b61bec93b0bca30a932be45408b6b74e7d723713db8"
+        },
+        "pair": {
+          "file": "target-011-PAIR.json",
+          "sha256": "a40497c46b3d02999932484f5d57ff50cdae6e698c1bd7b40009c90d9f24ffa5"
+        },
+        "both_negative": false
+      },
+      {
+        "target": "target-015",
+        "parameters": [
+          1,
+          4,
+          1,
+          4,
+          4
+        ],
+        "original_sha256": "fac9636b9a211deb5ab31886c6f41290839d6b62a5b47ee77997d55f31ab1dd6",
+        "original_record_sha256": "ea05262e0f1ade8c0a4084b6a487ae4c4f308d9c8b0983afbede3ea5617c48f7",
+        "T": {
+          "claim": "NO",
+          "basis": "ALLOCATION_EXHAUSTED",
+          "file": "target-015-T.json",
+          "sha256": "116d807d348f89b474896daef320124164d40d355410aaced15f8721cf6e4934"
+        },
+        "Eplus": {
+          "claim": "NO",
+          "basis": "ALLOCATION_EXHAUSTED",
+          "file": "target-015-Eplus.json",
+          "sha256": "b96a2d5a009913159d0d21e19e63af330e9f027732da738079915b0c04bacb73"
+        },
+        "pair": {
+          "file": "target-015-PAIR.json",
+          "sha256": "b36f1301d9b64ea2c5f0ac30cda58b82b6ed429e2bb13ab615e91a04f8e1b355"
+        },
+        "both_negative": true
+      },
+      {
+        "target": "target-022",
+        "parameters": [
+          1,
+          4,
+          3,
+          4,
+          4
+        ],
+        "original_sha256": "3ef22ff8c6f368da127917246a3d55efef5221be9b9538214a9e81785bed1002",
+        "original_record_sha256": "87a6e0c9913ea1034d0481850d55946d3dcd5cf186f879c67ae316140ad52e26",
+        "T": {
+          "claim": "NO",
+          "basis": "ALLOCATION_EXHAUSTED",
+          "file": "target-022-T.json",
+          "sha256": "ce78bbcefe82e685ce3a06c5bf1e4d8f41319d2d6d24925758af7841721f3751"
+        },
+        "Eplus": {
+          "claim": "YES",
+          "basis": null,
+          "file": "target-022-Eplus.json",
+          "sha256": "6f91151864acc876575a841ec99cb2f9244d788ebfc219d0ffea1d149da9ea52"
+        },
+        "pair": {
+          "file": "target-022-PAIR.json",
+          "sha256": "a4da93d11bc4b0d5e9b7e54867850bf4537bded011fcf0be924a3e671327a2fb"
+        },
+        "both_negative": false
+      },
+      {
+        "target": "target-043",
+        "parameters": [
+          3,
+          1,
+          4,
+          4,
+          4
+        ],
+        "original_sha256": "d3bceeb6936b07bb40752d7d945eb0e4f766fd76a45002e521811abb0be3a069",
+        "original_record_sha256": "d90180b4d33d519dcff2348cb006f1a0882f17bdbad54f3ee1342d9cd890f7ee",
+        "T": {
+          "claim": "NO",
+          "basis": "ALLOCATION_EXHAUSTED",
+          "file": "target-043-T.json",
+          "sha256": "a0fe6e594c5ba01c0f0af68f36ec7953576f759f7a3399ec377038e4d0eea9ef"
+        },
+        "Eplus": {
+          "claim": "YES",
+          "basis": null,
+          "file": "target-043-Eplus.json",
+          "sha256": "ec29ef0c1e0feffea20030c964a668e4e838c0c5b49354db000ec9dc751acd7d"
+        },
+        "pair": {
+          "file": "target-043-PAIR.json",
+          "sha256": "fccf53a3d2bcc49e1feb947d0ad6377d60d9b9c10bb91d776c9e9abd6e88498c"
+        },
+        "both_negative": false
+      },
+      {
+        "target": "target-051",
+        "parameters": [
+          3,
+          3,
+          4,
+          4,
+          4
+        ],
+        "original_sha256": "937476ff4e323c71d62cf24571976e4f8406725061131d92ec9797a5309eb986",
+        "original_record_sha256": "ad4e013ccd675971867a96b42a50afe0d214925e1bc9a4a8c8572bd3b8d85e9c",
+        "T": {
+          "claim": "NO",
+          "basis": "ALLOCATION_EXHAUSTED",
+          "file": "target-051-T.json",
+          "sha256": "1d46070b5babb07212fda88e00c7a5bf54e08eec37260078f3fee546d6d25aae"
+        },
+        "Eplus": {
+          "claim": "YES",
+          "basis": null,
+          "file": "target-051-Eplus.json",
+          "sha256": "6a64845b18e1ba1854cac90dda80c80f09291a5a6f47af20c825ddcce5c0fa87"
+        },
+        "pair": {
+          "file": "target-051-PAIR.json",
+          "sha256": "70d175bbf0e36cdd0f969797948c6ac2785967dbe41911a71a35ee9fc9419780"
+        },
+        "both_negative": false
+      },
+      {
+        "target": "target-058",
+        "parameters": [
+          3,
+          4,
+          1,
+          4,
+          4
+        ],
+        "original_sha256": "161349ccc59fd9cc6954c779188184ca5ae990fe60cf394a782edaf9df7fa6a1",
+        "original_record_sha256": "8a42014a5d54c2277e1d8a466d710a850cad79a0543a23e0b1c637637f38aff9",
+        "T": {
+          "claim": "NO",
+          "basis": "ALLOCATION_EXHAUSTED",
+          "file": "target-058-T.json",
+          "sha256": "8289dd10f53bd2584f81db1a701050aec0c616a47cef5d257bf2151e74ca9ee1"
+        },
+        "Eplus": {
+          "claim": "YES",
+          "basis": null,
+          "file": "target-058-Eplus.json",
+          "sha256": "bcfd404cfe9599ca543f18e5e06d636be23b37bf688503ccbcbc4b733dc1b7f3"
+        },
+        "pair": {
+          "file": "target-058-PAIR.json",
+          "sha256": "a61f0944e7676d233c852e044320be1158868502c0d4102fdadbf563dedb0de0"
+        },
+        "both_negative": false
+      },
+      {
+        "target": "target-066",
+        "parameters": [
+          3,
+          4,
+          3,
+          4,
+          4
+        ],
+        "original_sha256": "cdc9e2434f5e809eadbcf37b436487d23df60f5ab6d882f5ff3c43559e32833a",
+        "original_record_sha256": "31b006ac8b6e5e4db7930181e9b0f2e7b4e0274c4b414b35f9e3d5176e2c9840",
+        "T": {
+          "claim": "NO",
+          "basis": "ALLOCATION_EXHAUSTED",
+          "file": "target-066-T.json",
+          "sha256": "42d7ccfcb4193c61cb878e96250948e5fa0faf4112b929cb5a3b6f73745ab471"
+        },
+        "Eplus": {
+          "claim": "YES",
+          "basis": null,
+          "file": "target-066-Eplus.json",
+          "sha256": "d9cd6040cf41d03a007ab9177ce837eddb0e7f80eb5a83a934b37e36dd7e81e5"
+        },
+        "pair": {
+          "file": "target-066-PAIR.json",
+          "sha256": "58a4ce103ee3f88c34029c1b045f12c8ac5a629d5c52592a06e4e5d5cad9beb4"
+        },
+        "both_negative": false
+      },
+      {
+        "target": "target-070",
+        "parameters": [
+          4,
+          1,
+          1,
+          4,
+          4
+        ],
+        "original_sha256": "374df7928a928813c2fb07057cb93b032cc45c6432a472e07e983673d4d38ebb",
+        "original_record_sha256": "188ded7d92e8d570f7972ac38c84cbaeeb1c75282fbf7cf90addded62a50ff63",
+        "T": {
+          "claim": "NO",
+          "basis": "ALLOCATION_EXHAUSTED",
+          "file": "target-070-T.json",
+          "sha256": "2c9659b202027eddeac27445d67747f4ec64613d0c6fb379d95d27919e9e41fd"
+        },
+        "Eplus": {
+          "claim": "NO",
+          "basis": "ALLOCATION_EXHAUSTED",
+          "file": "target-070-Eplus.json",
+          "sha256": "68470da9a0c724192c4cbc82f9026e5441f3e0c698eab3d4dcb06c307e026ba7"
+        },
+        "pair": {
+          "file": "target-070-PAIR.json",
+          "sha256": "899d20a3764ac202db7f46d514e86de9e9f9949eb5d900d2386db08fa332956b"
+        },
+        "both_negative": true
+      },
+      {
+        "target": "target-077",
+        "parameters": [
+          4,
+          1,
+          3,
+          4,
+          4
+        ],
+        "original_sha256": "e9426f5b7e66bc91371a5e8151472ea31ca7b2f7210bdaa525abe6f54db9303b",
+        "original_record_sha256": "901a3adb9e2537ba641a0570199db8d34c5039080065cc2f907a779b177673f1",
+        "T": {
+          "claim": "NO",
+          "basis": "ALLOCATION_EXHAUSTED",
+          "file": "target-077-T.json",
+          "sha256": "4c3c75fe12995d9340e0bf6432a58ef6dda575bc17276f61381fa12daeec310c"
+        },
+        "Eplus": {
+          "claim": "YES",
+          "basis": null,
+          "file": "target-077-Eplus.json",
+          "sha256": "b1013acb74e1daf97aef5ccbdd9f91852ee97def5edb0e04a251023173e164c2"
+        },
+        "pair": {
+          "file": "target-077-PAIR.json",
+          "sha256": "217650bae582fa2f16ffeb149bdb816ac9a2f7effa9368c6f8214f4a044e9336"
+        },
+        "both_negative": false
+      },
+      {
+        "target": "target-091",
+        "parameters": [
+          4,
+          3,
+          1,
+          4,
+          4
+        ],
+        "original_sha256": "bc182d31ef3aa0ebab123d603199a034324457620950eb1f0285355a562d415f",
+        "original_record_sha256": "82bb595ce6f0afba144f221f07e7fd848fe6b561311fc24dfe76d618e7fdfb39",
+        "T": {
+          "claim": "NO",
+          "basis": "ALLOCATION_EXHAUSTED",
+          "file": "target-091-T.json",
+          "sha256": "33f7a94077ab666b1e128f5ec53d262d01c2c7bbb15acf1eb4e21cbde97cbb78"
+        },
+        "Eplus": {
+          "claim": "YES",
+          "basis": null,
+          "file": "target-091-Eplus.json",
+          "sha256": "0979fad9f1908e4b8e5097ad7059914e95de273bd90dd9a25aecce7a0ac50791"
+        },
+        "pair": {
+          "file": "target-091-PAIR.json",
+          "sha256": "b3d8607113bdb1581dd48d0626a4d29f04823dcda2d83291b0d5cb11b13a51b5"
+        },
+        "both_negative": false
+      },
+      {
+        "target": "target-099",
+        "parameters": [
+          4,
+          3,
+          3,
+          4,
+          4
+        ],
+        "original_sha256": "0272c0903c5a7e66bfb9f6875f8af3b073079c9b0760a276dac75f74cf47905b",
+        "original_record_sha256": "17d9a5f967723a55e55ca81f1330e09b5af0ff1b9690ae66317c6b4704b88109",
+        "T": {
+          "claim": "NO",
+          "basis": "ALLOCATION_EXHAUSTED",
+          "file": "target-099-T.json",
+          "sha256": "97796233a550b21dc484e3e7197053cb2d1cb1f5ca67ff5177f484030b9321e4"
+        },
+        "Eplus": {
+          "claim": "YES",
+          "basis": null,
+          "file": "target-099-Eplus.json",
+          "sha256": "9f02d71cf3c20342d9f70b425700cdb3390906f6f4dfda69973b0be10dffe8b7"
+        },
+        "pair": {
+          "file": "target-099-PAIR.json",
+          "sha256": "c8bbce8bd92c58862e0b8a599f1718a53e36b310940b653d12c4d4bf5bd53fcf"
+        },
+        "both_negative": false
+      }
+    ],
+    "writers": 0,
+    "bindings": [
+      {
+        "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ODD_FIRST_QUOTA_CLASSIFICATION_001/MANIFEST.json",
+        "bytes": 7015,
+        "sha256": "dafb8c5d30513be51e94f50d6111dd1313971bb121b3f5a9f5840bab89c9fd69"
+      },
+      {
+        "path": "research/ORDINARY_SPINE_EXCEPTIONAL_ODD_FIRST_QUOTA_CLASSIFICATION.md",
+        "bytes": 22233,
+        "sha256": "aa8246088b3c16a2bc7f96e9f1fca852ec6e9d89efc1ff8ce49fe4e8a4783584"
+      },
+      {
+        "path": "evidence/runs/d161-exceptional-quota-four-001/MANIFEST.json",
+        "bytes": 7847,
+        "sha256": "ca1f0672f34e770bc5ac860ce95b4577b8d2920d7a9617538b510c17f8df7864"
+      },
+      {
+        "path": "evidence/runs/d161-exceptional-quota-four-001/OFFICIAL_RAW.zip",
+        "bytes": 364603,
+        "sha256": "13c6ff81991bef03d0760b5ecf7aadc14b60a7cecdf951c10212d12de9eb7cee"
+      },
+      {
+        "path": "evidence/runs/d161-exceptional-quota-four-001/RECONCILIATION.json",
+        "bytes": 210632,
+        "sha256": "27e0c7b364452901274d6e73115151444a4b7249ce335165393ca3d717d548fe"
+      },
+      {
+        "path": "evidence/runs/d161-exceptional-quota-four-001/SEPARATORS.md",
+        "bytes": 5567,
+        "sha256": "e7a45c5e1435baf459ef597ee2a7ce2c293b6983da3cda5e22e99bbbf3a34688"
+      },
+      {
+        "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FIVE_HOST_QUOTA_FOUR_MATCHED_001_PREP/MANIFEST.json",
+        "bytes": 17765,
+        "sha256": "3839c60a588a7e8c0eeee3b62c107e8182fffa24cd06bf649b3faa9c32997fdf"
+      },
+      {
+        "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FIVE_HOST_QUOTA_FOUR_MATCHED_001_PREP/input/corpus_index.json",
+        "bytes": 27614,
+        "sha256": "7e9d80a8ba149bbf2a66bf33b1249f5edd4e7f35fa4aa4f27c8ca0782b5e6626"
+      },
+      {
+        "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FIVE_HOST_QUOTA_FOUR_MATCHED_001_PREP/input/prefix.json",
+        "bytes": 8781,
+        "sha256": "f48b56479dac85e1ddbbd36e5f6a6a3eaf94b9b32497e677fe5a96932abbac95"
+      },
+      {
+        "path": "research/ORDINARY_SPINE_TWO_SECTION_CUT_STATE.md",
+        "bytes": 24015,
+        "sha256": "a7b4d98f286225bfb887866ce1b6167281b52bb650fcf53a50b0a5060e152cf8"
+      },
+      {
+        "path": "research/ORDINARY_SPINE_ALTERNATING_EXCEPTIONAL_SPECTRUM.md",
+        "bytes": 19060,
+        "sha256": "73230a18d826361e0eb4eadfbf02e41cbb1aa3c5332c890bf75f48ed18a0e0fd"
+      },
+      {
+        "path": "research/ORDINARY_SPINE_EXCEPTIONAL_PHASE_PRESERVING_BRIDGE.md",
+        "bytes": 18725,
+        "sha256": "7ccf47623ba26ebfe4479a4a9bd0defbd582290503a4226860f1562a89c8fa89"
+      },
+      {
+        "path": "research/ORDINARY_SPINE_EXCEPTIONAL_BOUNDARY_STATE_ALLOCATION.md",
+        "bytes": 19321,
+        "sha256": "d1772995d373bc5a2884a9199c4ef32309e16d809dacb3388618b7680e892260"
+      },
+      {
+        "path": "research/ORDINARY_SPINE_EXCEPTIONAL_FIVE_HOST_EXTERIOR_SUPPLY.md",
+        "bytes": 22746,
+        "sha256": "0ce4053e4d5b8082fc62d7a008aa7875680ff9505c9f9e0b7d4568cfa2e90254"
+      },
+      {
+        "path": "evidence/runs/d154-parity-two-first-center-001/MANIFEST.json",
+        "bytes": 3968,
+        "sha256": "e66f651917ae167dfb903d1557f25a593738e2cea97a9d79e4e16c19f6f52b42"
+      },
+      {
+        "path": "evidence/runs/d154-parity-two-first-center-001/OFFICIAL_RAW.zip",
+        "bytes": 732889,
+        "sha256": "fc85e33800ec57eeccba25637f5e99080c08539160739cfbdd6543f18fb9cb72"
+      },
+      {
+        "path": "STATE.md",
+        "sha256": "7d1874e6bb002d42736f7fb138a12de6e64065e0ce9216a26ee2197ff8aad234",
+        "bytes": 87133,
+        "git_commit": "971e0c701ef716d3af64770c2b1db29e7927e7b7",
+        "representation": "Canonical Git blob bytes at admission"
+      }
+    ],
+    "read_only_worker_count": 1,
+    "local_process_cpu_seconds": 1.21875,
+    "observed_worker_wall_seconds": 5.7085627,
+    "external_tool_wall_seconds": 5.8838143
+  },
+  "D161_four_four_controls": {
+    "separating": [
+      "target-011",
+      "target-022",
+      "target-043",
+      "target-051",
+      "target-058",
+      "target-066",
+      "target-077",
+      "target-091",
+      "target-099"
+    ],
+    "both_arm_negative": [
+      "target-004",
+      "target-015",
+      "target-070"
+    ],
+    "basis": "Accepted finite exhaustion for the three E+ negatives. They transport symbolically to admissible independent prefixes and named relative role copies at p=2,r=t=0. The nine separators are supplied symbolically and their T negatives have an independent parity proof. No replay."
+  },
+  "historical": {
+    "2322": "DEFERRED / UNSTARTED",
+    "D161": "COMPLETE with all 33 accepted finite separations",
+    "D154": "COMPLETE with both accepted finite falsifications",
+    "D148": "INCOMPLETE_EXTERIOR_NODE_CAP with twelve undecided pairs",
+    "original_pilot": "CLOSED",
+    "D130": "SEALED"
+  },
+  "verification_caps": {
+    "dedicated_read_only_workers": 1,
+    "process_cpu_seconds": 60,
+    "external_wall_seconds": 120,
+    "new_evidence_bytes": 4000000
+  },
+  "measurement_scope": "Dedicated admission measured PowerShell process CPU, in-shell elapsed wall time, and external command wall time. Verification streamed archived records in memory. Local Windows observations and reviewer independence are Codex-reported. No search or scientific executable ran.",
+  "scientific_counters": {
+    "new_numerical_originals": 0,
+    "numerical_allocation_evaluations": 0,
+    "transfer_state_searches": 0,
+    "labeling_search_nodes": 0,
+    "placement_sweeps": 0,
+    "solver_calls": 0,
+    "historical_campaign_replays": 0,
+    "pilot_invocations": 0,
+    "detailed_D130_access": 0,
+    "successor_execution": 0,
+    "successor_preparation": 0
+  },
+  "project_instructions": "KEEP v11"
+}
