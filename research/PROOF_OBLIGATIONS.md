@@ -807,3 +807,11 @@ The [D100 versioned audit recovery](../evidence/validation/LCL_R241_43_2_FIXED_E
 [D141](ORDINARY_SPINE_BOUNDARY_BLOCK_SPECTRAL_OBSTRUCTION.md) settles the proposed canonical boundary-block obstructions. The output leaf strip cannot expand to a larger block for p'=1, and the independent non-leaf family has no canonical additional cut that works. The next structural question varies the exterior widths and placement of fresh roles, keeping exact cut membership and the original named target. Other spectra and frontier states remain open. [STATE.md](../STATE.md)
 
 [D142](ORDINARY_SPINE_VARIABLE_EXTERIOR_BRIDGE.md) settles the old image and necessary crossing and exterior conditions for the declared non-leaf family. Full fresh feasibility is unresolved. A broader crossing spectrum would require its own supplied state and exact return proof. The next authorized investigation should instead test a two-section composition with an exact external return and a flexible intermediate crossing state. [STATE.md](../STATE.md)
+
+## Deferred symbolic two-section D134 obligation
+
+**DEFERRED / UNSTARTED** pending the hybrid pilot decision. The obligation remains open and unexecuted. It has neither been refuted nor mathematically superseded.
+
+> Under separate authorization, test an ordinary spine transition appending two actual consecutive sections with one exact external D134 p=1 return and no imposed intermediate half-spectrum. Derive the combined fresh label and difference reserves and an independently supplied intermediate crossing state. Prove a parameterized reusable composition or a scoped obstruction, preserving the actual named incidences and exact final inventories. Use symbolic mathematics without numerical search, placement sweeps or solver calls.
+
+The selected pilot offers a D131-compatible final deficit contract. Its finite matched comparison leaves independent intermediate supply, the exact D134 half-spectrum return and reusable two-section closure open. The deferred and unstarted 2322 zero-host investigation remains a separate obligation. [Governance decision](DECISIONS.md#hybrid-discovery-pilot-v111-governance-alignment)
