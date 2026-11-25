@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "task": "LCL-ORDINARY-SPINE-ONE-DIRECT-LEAF-EXTERIOR-STUDY-001",
+  "parent": "3f23c92b5853a385099f6b22aef5d12a24835ffe",
+  "method": "symbolic",
+  "status": "RESOLVED_SYMBOLICALLY_BEFORE_NUMERICAL_EXECUTION_PENDING_DIRECTOR_REVIEW",
+  "review": "MATHEMATICAL_AND_IMPLEMENTATION_CUSTODY_PASS",
+  "state_binding": "Committed Git bytes at the D151 closeout checkpoint. Windows checkout line endings can differ.",
+  "new_numerical_instances": 0,
+  "new_search_nodes": 0,
+  "new_transfer_evaluations": 0,
+  "detailed_d130_access": 0,
+  "retained_original_controls": 4,
+  "planned_ordered_triples": 145,
+  "both_arms_symbolically_excluded": true,
+  "new_official_arm_dispositions": 0,
+  "project_instructions": "KEEP v11",
+  "retained_status": "D148_INCOMPLETE_EXTERIOR_NODE_CAP_AND_DIRECTOR_ACCEPTED_COMPLETED_FINITE_EVIDENCE",
+  "files": [
+    {
+      "path": "STATE.md",
+      "bytes": 84510,
+      "sha256": "71cedcfcb14585f5a736f117e6160876eecd5f51ea2a9d46898395568c1ef864"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_ONE_DIRECT_LEAF_EXTERIOR_OBSTRUCTION.md",
+      "bytes": 9609,
+      "sha256": "f13998f60c24210f951c54e06b5ea108506164d38e5d31ec277512dfe6f6d340"
+    },
+    {
+      "path": "handoffs/CODEX-20261124-ordinary-spine-one-direct-leaf-exterior-obstruction.md",
+      "bytes": 3881,
+      "sha256": "d9f7a9d5622060150946d34a08a3d4008336695c0436865249dfe9ec29a0b2e1"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_ONE_DIRECT_LEAF_EXTERIOR_STUDY_001/README.md",
+      "bytes": 865,
+      "sha256": "0fe734721d161be938cb6230eff2d04fdc2226c251c96547ac0ee94cddd6e68a"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_ONE_DIRECT_LEAF_EXTERIOR_STUDY_001/CUSTODY.json",
+      "bytes": 10298,
+      "sha256": "4df0b9c4d1cff701839d0679f9452075da4c7cb375a100904850fe1c2bf1fdbd"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_ONE_DIRECT_LEAF_EXTERIOR_STUDY_001/REVIEWS.md",
+      "bytes": 1628,
+      "sha256": "6be362c02a5d631dfe7cf7c6deb220893c3cb7c647c7b634517c6b9322b1a427"
+    }
+  ]
+}

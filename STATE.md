@@ -2,7 +2,7 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 24, 2026, Pacific/Honolulu<br>
-**Stage:** D150 two-to-one terminal supplier and exact terminal-free classification **PROVED — PENDING DIRECTOR REVIEW**. D149 remains Director accepted within its written scope. D148 completed finite evidence remains accepted, with execution **INCOMPLETE_EXTERIOR_NODE_CAP**. **Project instructions KEEP v11.**
+**Stage:** D151 one-direct-leaf study **RESOLVED SYMBOLICALLY BEFORE NUMERICAL EXECUTION — PENDING DIRECTOR REVIEW**. D150 **DIRECTOR ACCEPTED WITHIN SCOPE**. D149 remains Director accepted within its written scope. D148 completed finite evidence remains accepted, with execution **INCOMPLETE_EXTERIOR_NODE_CAP**. **Project instructions KEEP v11.**
 
 ## Current scientific objective
 
@@ -24,9 +24,11 @@ D149 supplies a terminal-enabled D143 completion on every ordered (3), (2p,2q,0,
 
 D150 supplies a terminal-enabled D143 completion for every ordered (4), (2p,2q,0,0,0) with exact p,q≥1 and n≥2(p+q+6). In that same domain it proves terminal-free feasibility exactly when max(p,q)≥2. Target-0188 is the (1,1) case and is symbolically E-only within D143. Both constructions have exact intermediate inventories and the same-polarity D134 return. [D150 proof](research/ORDINARY_SPINE_TWO_TO_ONE_TERMINAL_SUPPLIER.md) · [Handoff](handoffs/CODEX-20261124-ordinary-spine-two-to-one-terminal-supplier.md)
 
+D151 rules out both D143 arms with one positive first center, no first direct leaves and at most one direct leaf at w. A forced exterior terminal interval leaves two distinct gap sources requiring the actual host w. The planned 145 ordered cases on the checked retained prefix are all within the obstruction. No new numerical corpus or execution was prepared. [D151 proof](research/ORDINARY_SPINE_ONE_DIRECT_LEAF_EXTERIOR_OBSTRUCTION.md) · [Handoff](handoffs/CODEX-20261124-ordinary-spine-one-direct-leaf-exterior-obstruction.md)
+
 ## One next action
 
-Under separate Owner authorization and after Director review, prepare a bounded hybrid study of independent D143 exterior supply for ordered (2r) and (2p,2q,0), with r≥2 and p,q≥1. Use one direct leaf at w, the D150 three-direct-leaf result as a control, and independently audited D146 quota support. This action is UNSTARTED.
+Under separate Owner authorization and after Director review, investigate the exact D143 two-direct-leaf boundary on ordered (2r+1) and (2p,2q,0,0), with r,p,q≥1 and a supplied D134 p=1 prefix. Derive the forced exterior and gap constraints, then prepare a bounded hybrid test of any genuine unresolved existence question. This action is UNSTARTED.
 
 ## Deferred obligations
 

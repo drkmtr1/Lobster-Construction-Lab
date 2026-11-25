@@ -1,0 +1,306 @@
+{
+  "task": "LCL-ORDINARY-SPINE-ONE-DIRECT-LEAF-EXTERIOR-STUDY-001",
+  "disposition": "RESOLVED_SYMBOLICALLY_BEFORE_NUMERICAL_EXECUTION_PENDING_DIRECTOR_REVIEW",
+  "method": "symbolic qualification only",
+  "project_instructions": "KEEP v11",
+  "admission": {
+    "head": "3f23c92b5853a385099f6b22aef5d12a24835ffe",
+    "parent": "8cada36da380b96075d2faa101a9accaa05c4186",
+    "origin_main": "3f23c92b5853a385099f6b22aef5d12a24835ffe",
+    "live_main": "3f23c92b5853a385099f6b22aef5d12a24835ffe",
+    "baseline": "fddfc1dd9541324b2ed2de2505bc750b3e3f0b9d",
+    "peel": "36ea1603602491bf3c1c5b81ed4c23aaa2210e70",
+    "writers": 0
+  },
+  "D150": {
+    "disposition": "DIRECTOR_ACCEPTED_WITHIN_WRITTEN_SCOPE",
+    "manifest": {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_TWO_TO_ONE_TERMINAL_SUPPLIER_001/MANIFEST.json",
+      "sha256": "eb11d61ec1a6be3d7f83dc6577f17ded93caddc83288d8733296746567487564",
+      "bytes": 1948
+    },
+    "proof": {
+      "path": "research/ORDINARY_SPINE_TWO_TO_ONE_TERMINAL_SUPPLIER.md",
+      "sha256": "3f974982d8e7a93123647c9f3d8e66d7dfefc51151eb079afc2fc38e451fd1df",
+      "bytes": 19686
+    },
+    "manifest_entries_verified": 6,
+    "retained_intake_entries_verified": 10,
+    "retained_primary_proofs_verified": 8,
+    "editorial_clarification": {
+      "frozen_state_binding": "Committed Git bytes of the D149 checkpoint. Windows checkout line endings can differ.",
+      "actual_D150_state_checkpoint": "3f23c92b5853a385099f6b22aef5d12a24835ffe",
+      "actual_frozen_state": {
+        "path": "STATE.md",
+        "bytes": 83921,
+        "sha256": "f80a625dbef821199e4c4e51018d5624539b1ba01029dadc9f1744e53cc46456"
+      },
+      "manifest_changed": false
+    }
+  },
+  "D148": {
+    "execution": "INCOMPLETE_EXTERIOR_NODE_CAP",
+    "finite": "DIRECTOR_ACCEPTED_WITHIN_SCOPE",
+    "two_center_undecided": 12,
+    "resumed": false,
+    "bindings": [
+      {
+        "path": "evidence/validation/LCL_ORDINARY_SPINE_MATCHED_EXTERIOR_TWO_CENTER_001/MANIFEST.json",
+        "sha256": "b307eb0a3d759e1b2a6367ad1c2f48c0be5e15bcff3e95ed9716949cb061dc8c",
+        "bytes": 12325
+      },
+      {
+        "path": "evidence/runs/d148-matched-exterior-001/MANIFEST.json",
+        "sha256": "29087be1c6dc344b8f683780542b55a7a513f89820f0156766f70fc1b7e00b15",
+        "bytes": 3960
+      },
+      {
+        "path": "evidence/runs/d148-matched-exterior-001/OFFICIAL_RAW.zip",
+        "sha256": "5b506784c1e5616a3b851335dd9fb93bad82801f6f8ce1a939bc39819a4d6e51",
+        "bytes": 250606
+      }
+    ]
+  },
+  "retained_material": [
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_MATCHED_EXTERIOR_TWO_CENTER_001/input/prefix.json",
+      "sha256": "e2f72bd883088b5034b3a7d2536fb1784ce8bcb3fd835083b42558a2709330d3",
+      "bytes": 5916
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_MATCHED_EXTERIOR_TWO_CENTER_001/input/corpus_index.json",
+      "sha256": "3ce493143cfce050396b44bd1e32435dce50368205c07c7f84a242fdd2b8649e",
+      "bytes": 96825
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_MATCHED_EXTERIOR_TWO_CENTER_001/input/targets-02.json",
+      "sha256": "3764f56d87855879271a227588d31f4038ceaffbdb7bb70342a46aa40f6173e0",
+      "bytes": 141701
+    },
+    {
+      "path": "evidence/runs/d148-matched-exterior-001/DISPOSITIONS.json",
+      "sha256": "06db64bad03da6c45449cd81d4bd5856011aaff8734f5f8244f682452bec8cac",
+      "bytes": 228697
+    },
+    {
+      "path": "evidence/runs/d148-matched-exterior-001/RAW_RECORDS.json",
+      "sha256": "593b2cbd9d04596d5308b0baf91458110616c580d555126391cb0c378c783ca1",
+      "bytes": 73841
+    },
+    {
+      "path": "evidence/runs/d148-matched-exterior-001/RESULT.json",
+      "sha256": "fbc0d6d1aadd079e7b58f47c32372e253639b7be8c16be5ba98a10aff1a21dfc",
+      "bytes": 7276
+    }
+  ],
+  "retained_prefix": {
+    "n": 54,
+    "c": 26,
+    "d": 28,
+    "actual_cut": 29,
+    "frontier": "s:25",
+    "polarity": "maximum",
+    "graph_digest": "821898dbb210a860444c9d2fc8e367ac625a23189b7dfb369af438174f34f2a3",
+    "vertex_count": 55,
+    "edge_count": 54,
+    "crossing_spectrum": "28..54",
+    "noncrossing_spectrum": "1..27",
+    "verified_labels": "0..54",
+    "initializer": {
+      "Q0": 14,
+      "c0": 12,
+      "path_count": 23,
+      "path_size": 36,
+      "seed_n": 13,
+      "t": 12
+    }
+  },
+  "original_bound_controls": [
+    {
+      "id": "target-0056",
+      "ordered_profile": [
+        [
+          4
+        ],
+        [
+          2,
+          2,
+          0
+        ]
+      ],
+      "original_graph_digest": "8435af8963df6caa4dfbeede9a4fcb134d673a8199ba714510cbf607aa6636c8",
+      "frozen_original_record_sha256": "e2c40456d1d383b79ad7d20ae40f626b92c6684d408159f898a82ead7739c877",
+      "shard": "targets-02.json",
+      "arms": [
+        {
+          "arm": "T",
+          "member": "official/target-0056-T.json",
+          "sha256": "d22043a4cf4ff34e9766aada5588b02c9f2b9c09f4ac23f4177e6f65962bda03",
+          "bytes": 405,
+          "status": "AUDITED_NO",
+          "audit": "terminal-free-forced-three"
+        },
+        {
+          "arm": "E",
+          "member": "official/target-0056-E.json",
+          "sha256": "0600969f9f4ff642d093579633e9709fdccec11807a9e9ba736df6c7425c398b",
+          "bytes": 466,
+          "status": "AUDITED_NO",
+          "audit": "independent-exhaustion"
+        }
+      ]
+    },
+    {
+      "id": "target-0059",
+      "ordered_profile": [
+        [
+          4
+        ],
+        [
+          2,
+          4,
+          0
+        ]
+      ],
+      "original_graph_digest": "4a3ae7e97cf3fa7a7c6707e787a796ffee346d321b959b189aebdfeb8226c3dc",
+      "frozen_original_record_sha256": "208f71e7e3b76009c7be68cbbd7bf90ede715c0edd82e73b4eb4f17f87edfba5",
+      "shard": "targets-02.json",
+      "arms": [
+        {
+          "arm": "T",
+          "member": "official/target-0059-T.json",
+          "sha256": "57391d10b9478565c1ff4031214cc7a805fd2b4cd9706a3f34744e9f5b997cc9",
+          "bytes": 405,
+          "status": "AUDITED_NO",
+          "audit": "terminal-free-forced-three"
+        },
+        {
+          "arm": "E",
+          "member": "official/target-0059-E.json",
+          "sha256": "9fe9ad1b0bd8ae054a97e39671028dba69af422c146ef5bfe61a4f325002bf8a",
+          "bytes": 473,
+          "status": "AUDITED_NO",
+          "audit": "independent-exhaustion"
+        }
+      ]
+    },
+    {
+      "id": "target-0068",
+      "ordered_profile": [
+        [
+          4
+        ],
+        [
+          4,
+          2,
+          0
+        ]
+      ],
+      "original_graph_digest": "125aa41313c56e4ebc898950e585d5fbde12dbb832e6804dedfe6e97ec73889b",
+      "frozen_original_record_sha256": "2d593d5654219da59db9114f28560b527c441d54a37d4bc13f8fd86a010c2121",
+      "shard": "targets-02.json",
+      "arms": [
+        {
+          "arm": "T",
+          "member": "official/target-0068-T.json",
+          "sha256": "fd082766e48383ea58c327a1b021e0d687f5ffc535ead8835f45247d5fe920f8",
+          "bytes": 405,
+          "status": "AUDITED_NO",
+          "audit": "terminal-free-forced-three"
+        },
+        {
+          "arm": "E",
+          "member": "official/target-0068-E.json",
+          "sha256": "7c57cc5512d566a6ebf1d71572f201244fdfdbe0a25915b6598284360c04dab7",
+          "bytes": 473,
+          "status": "AUDITED_NO",
+          "audit": "independent-exhaustion"
+        }
+      ]
+    },
+    {
+      "id": "target-0071",
+      "ordered_profile": [
+        [
+          4
+        ],
+        [
+          4,
+          4,
+          0
+        ]
+      ],
+      "original_graph_digest": "aa877c440e90c1135964bdbed1466d734476fc3937b459330da8ffa43a322c2d",
+      "frozen_original_record_sha256": "5600b0f7d3731393e16940d35c8e3e74dd67e7830c9149f987df306bf6bce6af",
+      "shard": "targets-02.json",
+      "arms": [
+        {
+          "arm": "T",
+          "member": "official/target-0071-T.json",
+          "sha256": "0b4eb98503716c6bb91f97a0eda2f1548c930ffbea8dbfe4a01e48397a31dd10",
+          "bytes": 405,
+          "status": "AUDITED_NO",
+          "audit": "terminal-free-forced-three"
+        },
+        {
+          "arm": "E",
+          "member": "official/target-0071-E.json",
+          "sha256": "d54f3fd68a000a521469c7469c0deec41ef044b656b7691cc457cfa46ae534d5",
+          "bytes": 478,
+          "status": "AUDITED_NO",
+          "audit": "independent-exhaustion"
+        }
+      ]
+    }
+  ],
+  "planned_domain": {
+    "ordered_profiles": "(2r), (2p,2q,0)",
+    "exact_integers": "2<=r<=6; p,q>=1; r+p+q<=12",
+    "K_min": 7,
+    "K_max": 15,
+    "ordered_profile_count": 145,
+    "zero_completion_both_arms_proved": true,
+    "no_numerical_corpus_generated": true
+  },
+  "prior_pilot": {
+    "status": "CLOSED",
+    "detailed_D130_access": false,
+    "original_proof_challenge_zip_sha256": "81bcd01eea2be333400de1c0ce512fcc2ceb9928f9720964c67fed706e375aa1",
+    "director_packaged_proof_challenge_zip_sha256": "418b8c19b4a7e5ae1183e94f31a60284e74d257312628160345650a20dd519b2"
+  },
+  "source_identities": {
+    "builder_blob": "8d1e9948e8bf5ef01e67c9afe0155412c57d79fa",
+    "checker_blob": "d008f35f0843e1a5c770db3e7f42ed7d987360d7",
+    "mdl_pin": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+    "bounded_search_pin": "e48b94eec4091b4fe189e325cab2eda464409943",
+    "local_agents_sha256": "e980f2ee51d2b69cfd8ab9c4955f9388ad14f9b7b78581729ef5a24dd21339e6"
+  },
+  "counters": {
+    "writers": 1,
+    "verification_workers": 1,
+    "new_originals": 0,
+    "official_exterior_nodes": 0,
+    "labeling_nodes": 0,
+    "allocation_states": 0,
+    "transfer_transitions": 0,
+    "solver_calls": 0,
+    "pilot_invocations": 0,
+    "official_arm_dispositions": 0,
+    "successor_tasks_started": 0
+  },
+  "limits": {
+    "process_cpu_seconds": 600,
+    "externally_observed_wall_seconds": 1200,
+    "new_preparation_evidence_bytes": 16000000
+  },
+  "measured_read_only_hash_prefix_and_archive_invocation": {
+    "process_cpu_seconds": 0.921875,
+    "wall_seconds": 1.2971842,
+    "coverage": "One sequential successful custody invocation. Git transport and separate source review are outside this measurement."
+  },
+  "proof": {
+    "path": "research/ORDINARY_SPINE_ONE_DIRECT_LEAF_EXTERIOR_OBSTRUCTION.md",
+    "sha256": "f13998f60c24210f951c54e06b5ea108506164d38e5d31ec277512dfe6f6d340",
+    "bytes": 9609
+  }
+}

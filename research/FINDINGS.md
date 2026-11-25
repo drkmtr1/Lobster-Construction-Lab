@@ -1679,3 +1679,11 @@ The symbolic terminal-free exclusion applies more broadly to an odd-quota sole f
 ## D150 two-to-one exterior terminals
 
 **PROVED / PENDING DIRECTOR REVIEW.** On the same-polarity D143 interface, every ordered (4), (2p,2q,0,0,0) with independently prescribed exact p,q≥1 and n≥2(p+q+6) on a supplied D134 p=1 prefix admits a terminal-enabled completion. The named exterior cycles reduced differences 3,5,7 and the prescribed gap allocation uses complementary parity chains. In the exact same interface, a terminal-free completion exists if and only if max(p,q)≥2. The positive terminal-free rule shifts two reflected intervals and uses the four actual terminals at a to supply the missing coordinates. Both rules have exact crossing and noncrossing spectra, full and intermediate inventories, named connectors, admitted finite composition and immutable final labels. The symbolic formula recovers the archived target-0188 witness pointwise. [Proof](ORDINARY_SPINE_TWO_TO_ONE_TERMINAL_SUPPLIER.md) · [Evidence](../evidence/validation/LCL_ORDINARY_SPINE_TWO_TO_ONE_TERMINAL_SUPPLIER_001/README.md)
+
+## Director acceptance of D150
+
+**DIRECTOR ACCEPTED** both D150 results on the exact named profiles (4), (2p,2q,0,0,0), input and return interface and size domain. The construction with exterior terminals covers every admitted ordered pair and the terminal-free class is feasible exactly when max(p,q)≥2. [Proof](ORDINARY_SPINE_TWO_TO_ONE_TERMINAL_SUPPLIER.md)
+
+## D151 forced exterior roles and one-direct-leaf obstruction
+
+**PROVED / PENDING DIRECTOR REVIEW.** Within D143, one positive first center a and no first direct leaves force reduced a=A−1 and actual terminals of a at all upper slots b=2,…,A−1. This removes the corresponding hosts from the gap. The remaining host options require that both source 0 and source A−1 use actual direct leaves of w. With at most one such leaf there is no completion, even with exterior terminals permitted. The argument applies to all 145 planned cases, independently of their ordered quotas and exterior choices. The retained n=54 prefix meets their entire size range. [Proof](ORDINARY_SPINE_ONE_DIRECT_LEAF_EXTERIOR_OBSTRUCTION.md) · [Evidence](../evidence/validation/LCL_ORDINARY_SPINE_ONE_DIRECT_LEAF_EXTERIOR_STUDY_001/README.md)
