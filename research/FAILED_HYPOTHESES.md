@@ -663,3 +663,7 @@ For ordered (2r+1,2t), (2p,2q,0) with independently prescribed exact r,t,p,q≥1
 ## D157 fixed-phase restriction under a connected crossing exterior
 
 **PROVED / PENDING DIRECTOR REVIEW.** Fix ε∈{0,−1}. With the declared membership-preserving placement, connected crossing exterior containing all positive centers, and leaf-only gap, an S_ε to S_ε transition forces x+y=s−K and both fresh graph classes even. A fixed one-extra-weight state therefore still excludes the odd classes on the selected family within these premises. The alternating construction changes the crossing count at each step and leaves other relaxed placements outside this restriction. [Proof](ORDINARY_SPINE_ALTERNATING_EXCEPTIONAL_SPECTRUM.md)
+
+## D158 scoped first-upper-source obstruction
+
+**PROVED / PENDING DIRECTOR REVIEW.** In the declared connected crossing exterior and leaf gap for S₋₁→S₋₁, the first upper coordinate k cannot use a lower host and requires an eligible upper index b≤B−2. At B=3 this permits only the actual u pinned at b=1. Thus the D155 A=B=3 exterior fails to return S₋₁ on the stated profiles, where u has no direct gap leaf. The wider supplied A=3,B=4 construction has its own positive domain. Other relaxed placements remain outside the obstruction. [D158 proof](ORDINARY_SPINE_EXCEPTIONAL_PHASE_PRESERVING_BRIDGE.md#2-first-physically-upper-source)

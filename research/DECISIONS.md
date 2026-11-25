@@ -329,3 +329,11 @@ Record the odd-first-center D143 classification as **PROVED / PENDING DIRECTOR R
 ## D157 alternating exceptional spectrum
 
 Record **PROVED / PENDING DIRECTOR REVIEW** for the complete symbolic cycle S₀→S₋₁→S₀ on the declared odd-class profile subfamily. Keep the strict-interface negative as a control. The phase-dependent gap crossing count permits this topology once both legs, original roles, and exact partial and full inventories are supplied. No numerical discovery is needed for the resolved question. The proposed unstarted bridge asks whether a strict-compatible even-class block can be inserted during the exceptional phase. [D157 proof](ORDINARY_SPINE_ALTERNATING_EXCEPTIONAL_SPECTRUM.md) · [Handoff](../handoffs/CODEX-20261125-alternating-exceptional-cut-spectrum.md)
+
+## Director acceptance of D157
+
+**ACCEPT** D157 within its exact written scope at `7f1f4947d06ca309a8af4b4893e8633481dae81e`. The Director independently checked both phase constructions, the generalized crossing identities, the named original and partial resource reconstruction, both polarities, finite closure, both reviews, custody, the authoritative records, handoff and live history. All five manifested files, twelve intake bindings and canonical STATE matched. Preserve the original proof and evidence. D156, D155 and D154 retain their accepted scopes. [D157 proof](ORDINARY_SPINE_ALTERNATING_EXCEPTIONAL_SPECTRUM.md) · [Frozen manifest](../evidence/validation/LCL_ORDINARY_SPINE_ALTERNATING_EXCEPTIONAL_SPECTRUM_001/MANIFEST.json)
+
+## D158 exceptional-phase-preserving bridge
+
+Record **PROVED / PENDING DIRECTOR REVIEW** for the two sufficient packet closures and mixed-phase composition. The same D155 profiles admit the new A=3,B=4 placement in the proved exceptional domain. The first-upper-source obstruction explains the narrower exterior's failure on this phase. Both closures settle the authorized sufficient question symbolically. Leave one unstarted allocation criterion investigation for separate authorization. [D158 proof](ORDINARY_SPINE_EXCEPTIONAL_PHASE_PRESERVING_BRIDGE.md) · [Handoff](../handoffs/CODEX-20261125-exceptional-phase-preserving-bridge.md)

@@ -1743,3 +1743,11 @@ The symbolic terminal-free exclusion applies more broadly to an odd-quota sole f
 ## D157 exact alternating ordinary cut-spectrum cycle
 
 **PROVED / PENDING DIRECTOR REVIEW.** Supply an ordinary D134 p=1 state S₀ at n=2c+2 and write d=c+2. State S₋₁ has exact crossing spectrum [d−1,n] at c. In the declared connected exterior and leaf-gap arrangement, a phase change δ=ε′−ε gives N_low=2(A+x)+δ and N_high=2(B+y)+δ. For ordered (2r+1,2t), (2p,4,0) with exact r≥2,t≥1,p≥t and n≥2(r+t+p+6), the explicit A=3,B=4 construction gives both alternating legs. D153 excludes the same original profiles in the strict interface. The proved cycle preserves physical incidences, exact full and first-boundary inventories and both polarities, and admits immutable finite composition. Every even number of admitted alternating blocks from S₀ restores its strict phase. [D157 proof](ORDINARY_SPINE_ALTERNATING_EXCEPTIONAL_SPECTRUM.md)
+
+## Director acceptance of D157
+
+**DIRECTOR ACCEPTED WITHIN EXACT WRITTEN SCOPE.** D157's independent S₀→S₋₁ and S₋₁→S₀ legs, phase-dependent crossing counts, exact named resources and admitted finite composition are accepted in the stated original scope. The strict D153 obstruction retains its hypotheses. [D157 proof](ORDINARY_SPINE_ALTERNATING_EXCEPTIONAL_SPECTRUM.md)
+
+## D158 exact S₋₁ return on a sufficient mixed-column domain
+
+**PROVED / PENDING DIRECTOR REVIEW.** For ordered (2r,2t), (2p,2q+1,0) with exact r,t,p,q≥1, a supplied D157 S₋₁ state and n≥2(r+t+p+q+4), the A=3,B=4 exterior has an independently supplied S₋₁ return when max(r,t)≥3 or when max(r,t)≥2 and q≥2. The packet's two endpoint closures have exact host quotas and crossing counts. Both phase inventories, first-boundary resources, actual unfinished uw and frontier polarities are preserved. Admitted D157 phase changes, D158 bridges and supplied strict D143 blocks compose with immutable final labels. Feasibility beyond the stated sufficient domain remains open. [D158 proof](ORDINARY_SPINE_EXCEPTIONAL_PHASE_PRESERVING_BRIDGE.md)

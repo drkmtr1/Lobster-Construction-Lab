@@ -914,3 +914,7 @@ D155 is **DIRECTOR ACCEPTED WITHIN EXACT WRITTEN SCOPE**, with the original proo
 ## D156 acceptance and D157 alternating-state disposition
 
 D156 is **DIRECTOR ACCEPTED WITHIN EXACT WRITTEN SCOPE**, with frozen evidence intact. D157 independently supplies S₋₁ on the first two real sections and restores S₀ on the next two, with exact resources and continuation for each admitted phase transition. The cycle settles the selected family without a diagnostic campaign. Necessity for arbitrary relaxed arrangements and S₋₁-preserving supply on parity-even profiles remain open. The sole proposed next action in STATE is an unstarted bridge investigation requiring separate Owner authorization. [D157 proof](ORDINARY_SPINE_ALTERNATING_EXCEPTIONAL_SPECTRUM.md) · [Handoff](../handoffs/CODEX-20261125-alternating-exceptional-cut-spectrum.md)
+
+## D157 acceptance and D158 bridge disposition
+
+D157 is **DIRECTOR ACCEPTED WITHIN EXACT WRITTEN SCOPE** with unchanged frozen evidence. D158 proves the proposed sufficient domain and independently supplies a named S₋₁-preserving bridge. With admitted phase and size tests it composes between the D157 legs and alongside retained strict blocks at phase S₀. General admission for the fixed wider exterior and other relaxed placements is open. The sole proposed allocation-criterion investigation in STATE is unstarted. No numerical campaign is required for this sufficient theorem. [D158 proof](ORDINARY_SPINE_EXCEPTIONAL_PHASE_PRESERVING_BRIDGE.md) · [Handoff](../handoffs/CODEX-20261125-exceptional-phase-preserving-bridge.md)
