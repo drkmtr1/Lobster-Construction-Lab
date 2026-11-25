@@ -1,0 +1,175 @@
+{
+  "task": "LCL-ORDINARY-SPINE-EXCEPTIONAL-FIVE-HOST-EXTERIOR-SUPPLY-001",
+  "date": "2026-11-25",
+  "status": "FIVE_HOST_EXCEPTIONAL_EXTERIOR_SUPPLY_PROVED_PENDING_DIRECTOR_REVIEW",
+  "parent": "fc84abc78b66fc13fe364faa38d27ffb7122d985",
+  "proof_sha256": "0ce4053e4d5b8082fc62d7a008aa7875680ff9505c9f9e0b7d4568cfa2e90254",
+  "theorem": {
+    "phase": "S_-1 to S_-1",
+    "exterior_widths": [
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        5
+      ]
+    ],
+    "role_order": [
+      "a",
+      "b",
+      "Z",
+      "Q",
+      "P"
+    ],
+    "nominal_quotas": "(4,2,W,W,2) plus independent nonnegative even increments with gap sum s",
+    "alternate_opening_quotas": "(4,1,W+1,W-1,1) plus independent nonnegative even increments with gap sum s",
+    "original_quotas": "Add e to the gap counts at a and Q, with e=W-4; original spine, all terminals and the one second direct leaf retain physical names",
+    "mechanism": "One unit-displacement opening followed by two displacement-conversion columns and a two-source right completion",
+    "obstruction": "All three first-center quotas at most three rule out every allocation, including terminal-enabled exteriors, within the stated membership-preserving connected crossing arrangement. The neutral first center must supply four actual gap leaves."
+  },
+  "D159_acceptance": {
+    "disposition": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE",
+    "proof_sha256": "d1772995d373bc5a2884a9199c4ef32309e16d809dacb3388618b7680e892260",
+    "manifest_sha256": "75ff82144dedefd6b2c03039e084189242bc5fb19d992b500d3b696fbb6ec3c0",
+    "manifested_members": 6,
+    "retained_intake_bindings": 15,
+    "canonical_STATE_identities": [
+      "b336e230640927b0383bd50e86c298374f31e0d9cb32cfe91c17641d73bd94c2",
+      "c9c2449658a91da26e390863e805482a5341c395507c749a8abb0b4f91d96b19"
+    ],
+    "scope": "Fixed four-host two-state criterion, named reconstruction, intermediate inventories, both polarities and admitted immutable mixed-phase composition."
+  },
+  "intake_file_bindings": [
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_BOUNDARY_STATE_ALLOCATION_001/MANIFEST.json",
+      "sha256": "75ff82144dedefd6b2c03039e084189242bc5fb19d992b500d3b696fbb6ec3c0",
+      "bytes": 6983
+    },
+    {
+      "path": "research/ORDINARY_SPINE_EXCEPTIONAL_BOUNDARY_STATE_ALLOCATION.md",
+      "sha256": "d1772995d373bc5a2884a9199c4ef32309e16d809dacb3388618b7680e892260",
+      "bytes": 19321
+    },
+    {
+      "path": "evidence/runs/d154-parity-two-first-center-001/MANIFEST.json",
+      "sha256": "e66f651917ae167dfb903d1557f25a593738e2cea97a9d79e4e16c19f6f52b42",
+      "bytes": 3968
+    },
+    {
+      "path": "evidence/runs/d154-parity-two-first-center-001/OFFICIAL_RAW.zip",
+      "sha256": "fc85e33800ec57eeccba25637f5e99080c08539160739cfbdd6543f18fb9cb72",
+      "bytes": 732889
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_PARITY_COMPATIBLE_TWO_FIRST_CENTER_001/MANIFEST.json",
+      "sha256": "2911696630754f2276cf77e95208becc1a37ed1c33a071fdbe8f7e967745eebf",
+      "bytes": 15353
+    },
+    {
+      "path": "STATE.md",
+      "sha256": "b336e230640927b0383bd50e86c298374f31e0d9cb32cfe91c17641d73bd94c2",
+      "bytes": 87021,
+      "git_commit": "fc84abc78b66fc13fe364faa38d27ffb7122d985",
+      "representation": "Canonical Git blob bytes at the admission checkpoint"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_PIECEWISE_CUT_SPECTRUM_TRANSITION.md",
+      "sha256": "2b9b52c24293110f8e0b59b4ac73af11e4c14e77cb5ff7355ced236b6d271839",
+      "bytes": 16708
+    },
+    {
+      "path": "research/ORDINARY_SPINE_TWO_SECTION_CUT_STATE.md",
+      "sha256": "a7b4d98f286225bfb887866ce1b6167281b52bb650fcf53a50b0a5060e152cf8",
+      "bytes": 24015
+    },
+    {
+      "path": "research/ORDINARY_SPINE_TWO_SECTION_TOPOLOGICAL_PARITY.md",
+      "sha256": "0e6cb2aa2860f9ce77f62bafc4fa484128e43c121733b2038b9019e4180a2057",
+      "bytes": 8533
+    },
+    {
+      "path": "research/ORDINARY_SPINE_TWO_FIRST_CENTER_PARAMETERIZED_CLASSIFICATION.md",
+      "sha256": "5455a5cb16dd4fea65dd310158285cb3c5bb18f011f0fbce1040ed3ca13e2d84",
+      "bytes": 23377
+    },
+    {
+      "path": "research/ORDINARY_SPINE_ALTERNATING_EXCEPTIONAL_SPECTRUM.md",
+      "sha256": "73230a18d826361e0eb4eadfbf02e41cbb1aa3c5332c890bf75f48ed18a0e0fd",
+      "bytes": 19060
+    },
+    {
+      "path": "research/ORDINARY_SPINE_TWO_SECTION_GENERAL_GAP_CRITERION.md",
+      "sha256": "0221114b657dde0c1bcf64ae5fece4f0a8eca26f6d6e52eb8d5f1d1656946cd6",
+      "bytes": 23630
+    },
+    {
+      "path": "research/ORDINARY_SPINE_EXTERIOR_SUPPLY_REASSESSMENT.md",
+      "sha256": "29f602e6623b96f2c043a665ca9355cf04829c89ae65c58ef731ee46bd810fa5",
+      "bytes": 22150
+    },
+    {
+      "path": "research/ORDINARY_SPINE_DEFICIT_TRANSITION.md",
+      "sha256": "77e3028f3c99a93f5e38c3545b88cfc4454168c348e01c6bd9a22eb38abf8865",
+      "bytes": 11618
+    },
+    {
+      "path": "research/R241_PAIRED_BRANCHED_SPINE.md",
+      "sha256": "5a73a215baca0feaa378e80fa1c30b1d27602258f7a4175873287da9cdb086ed",
+      "bytes": 10289
+    }
+  ],
+  "scientific_counters": {
+    "new_numerical_originals": 0,
+    "numerical_allocation_evaluations": 0,
+    "transfer_state_searches": 0,
+    "labeling_search_nodes": 0,
+    "placement_sweeps": 0,
+    "solver_calls": 0,
+    "pilot_invocations": 0,
+    "historical_campaign_replays": 0,
+    "detailed_D130_access": 0,
+    "successor_executions": 0,
+    "successor_preparations": 0
+  },
+  "project_instructions": "KEEP v11",
+  "state_binding": {
+    "path": "STATE.md",
+    "bytes": 87226,
+    "sha256_canonical_git_bytes": "b9c9ad375e36cbab08247ecdeecd3882cc96441434c5b6296f9a896857f996bf",
+    "sole_next_action": "Under separate Owner authorization after Director review, prepare a bounded matched hybrid diagnostic for parity-compatible S_-1-preserving three-first-center blocks with exactly one first quota equal to four and the other two at most three, and one direct leaf at the second spine vertex. Compare all admitted terminal-free and all admitted terminal-enabled exteriors on identical frozen named originals. Separate exact exterior absence from compatible-gap failure, and stop at preparation unless numerical execution is separately authorized. This action is UNSTARTED."
+  },
+  "files": [
+    {
+      "path": "research/ORDINARY_SPINE_EXCEPTIONAL_FIVE_HOST_EXTERIOR_SUPPLY.md",
+      "bytes": 22746,
+      "sha256": "0ce4053e4d5b8082fc62d7a008aa7875680ff9505c9f9e0b7d4568cfa2e90254"
+    },
+    {
+      "path": "handoffs/CODEX-20261125-exceptional-five-host-exterior-supply.md",
+      "bytes": 3857,
+      "sha256": "02790898392357204b2c950acf097f660690360f7aa10059e7e79685140e1da3"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FIVE_HOST_EXTERIOR_SUPPLY_001/CUSTODY.json",
+      "bytes": 7395,
+      "sha256": "d5d575b025ee0f947cc9d360c5b7b1ed5ba4b5fd5a1783447cfc1003615e04d7"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FIVE_HOST_EXTERIOR_SUPPLY_001/README.md",
+      "bytes": 1575,
+      "sha256": "8adf6f052f383542c93a8401cb914b637c6c155af0f45023e1efb6424507c0a8"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FIVE_HOST_EXTERIOR_SUPPLY_001/REVIEWS.md",
+      "bytes": 1676,
+      "sha256": "bfe522e08b5f025f83da656701a7956ca217f5be5677a7ebec58096c85ce20cd"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FIVE_HOST_EXTERIOR_SUPPLY_001/STRATEGY.md",
+      "bytes": 2695,
+      "sha256": "c31b3c6b3ff6202713148792f449357b2fa8b45f7ac4ccba1b2faa9c6a160f11"
+    }
+  ]
+}

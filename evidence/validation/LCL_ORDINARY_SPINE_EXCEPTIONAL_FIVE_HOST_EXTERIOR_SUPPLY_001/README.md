@@ -1,0 +1,7 @@
+# D160 five-host exceptional-phase exterior supply
+
+**PROVED / PENDING DIRECTOR REVIEW.** The fixed-phase supplier uses either a terminal-free A=B=4 exterior or a paired-terminal A=B=5 exterior. Each preserves the three actual first-center and two actual second-center roles and the original direct leaf. A unit-displacement chain converts to a double-displacement chain, with a two-source right completion. The proposed quota family and the additional (Z,P) opening family both have explicit symbolic words. Both proof domains are sufficient. [Primary proof](../../../research/ORDINARY_SPINE_EXCEPTIONAL_FIVE_HOST_EXTERIOR_SUPPLY.md)
+
+The terminal-free obstruction for all three first quotas at most three covers every role order under the declared connected crossing arrangement. With the direct leaf in the gap, the first upper source has no eligible host. With it exterior, four gap leaves are forced at the first center of reduced label three. A separate width-independent argument excludes terminal-enabled exteriors in the same all-small stratum. The fixed paired-terminal exterior additionally requires five Z leaves. Feasibility at the first-quota-four boundary remains open.
+
+The theorem preserves both exact partial inventories, the actual unfinished connector, both polarities and admitted finite immutable composition. D159 acceptance is recorded within its prior written scope. Numerical research and successor activity are zero. [Custody](CUSTODY.json) · [Independent reviews](REVIEWS.md) · [Strategic reassessment](STRATEGY.md) · [Manifest](MANIFEST.json)

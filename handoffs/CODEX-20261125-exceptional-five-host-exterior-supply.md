@@ -1,0 +1,19 @@
+# D160 handoff — five-host exceptional-phase exterior supply
+
+November 25, 2026, Pacific/Honolulu. Task `LCL-ORDINARY-SPINE-EXCEPTIONAL-FIVE-HOST-EXTERIOR-SUPPLY-001`. Starting checkpoint `fc84abc78b66fc13fe364faa38d27ffb7122d985`. **PROVED / PENDING DIRECTOR REVIEW.**
+
+The Director accepted D159 in its exact fixed-exterior scope. Its six manifested files, fifteen intake bindings, two canonical STATE identities, proof `d1772995d373bc5a2884a9199c4ef32309e16d809dacb3388618b7680e892260` and manifest `75ff82144dedefd6b2c03039e084189242bc5fb19d992b500d3b696fbb6ec3c0` reconciled. The historical proof, evidence and handoff are retained. [D159 proof](../research/ORDINARY_SPINE_EXCEPTIONAL_BOUNDARY_STATE_ALLOCATION.md) · [D159 manifest](../evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_BOUNDARY_STATE_ALLOCATION_001/MANIFEST.json)
+
+D160 supplies both proposed exteriors on the parity-compatible named topology. The terminal-free width is A=B=4. The A=B=5 exterior uses one actual terminal at a and one at Q. In both widths a two-column conversion changes unit displacement to double displacement. The proposed opening and the additional (Z,P) opening give two explicit sufficient quota domains for each exterior. The two-state transfer in D159 retains its original scope. [D160 proof](../research/ORDINARY_SPINE_EXCEPTIONAL_FIVE_HOST_EXTERIOR_SUPPLY.md)
+
+When all three first quotas are at most three, every terminal-free exterior in the declared fixed-phase connected crossing arrangement is excluded. If the direct leaf remains in the gap, no host serves the first upper source. If the leaf is exterior, the actual first center at reduced label three needs four gap leaves. A separate width-independent argument forces four gap leaves at the neutral first center for all terminal-enabled exteriors in the same arrangement. This resolves the all-small stratum symbolically. Feasibility at the first-quota-four boundary remains open. Both positive width choices retain all original incidences, both partial resources, the actual unfinished uw, both polarities and exact S₋₁ return. They compose through individually admitted D143 and D157–D160 interfaces. [Reviews](../evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FIVE_HOST_EXTERIOR_SUPPLY_001/REVIEWS.md) · [Evidence manifest](../evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FIVE_HOST_EXTERIOR_SUPPLY_001/MANIFEST.json)
+
+The authoritative upstream main pins, baseline and original builder/checker reconciled. Bounded Search was observed at local recovery `c803ecb6bd0481d31af43f7e3c194ae8ed4d1578` and remote recovery `1e1efeac9acd70006d7f1bd4aa6786f438cff602` and its main pin remains `e48b94eec4091b4fe189e325cab2eda464409943`. No change to either upstream was made. [Custody](../evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FIVE_HOST_EXTERIOR_SUPPLY_001/CUSTODY.json)
+
+No numerical research took place. D154 remains COMPLETE with both frozen finite hypotheses falsified. D148 remains INCOMPLETE_EXTERIOR_NODE_CAP with twelve pairs undecided. The original pilot is closed, D130 sealed and 2322 DEFERRED / UNSTARTED. Project instructions KEEP v11.
+
+## One proposed next action
+
+Under separate Owner authorization after Director review, prepare a bounded matched hybrid diagnostic for parity-compatible S_-1-preserving three-first-center blocks with exactly one first quota equal to four and the other two at most three, and one direct leaf at the second spine vertex. Compare all admitted terminal-free and all admitted terminal-enabled exteriors on identical frozen named originals. Separate exact exterior absence from compatible-gap failure, and stop at preparation unless numerical execution is separately authorized. This action is UNSTARTED.
+
+[Strategic reassessment](../evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FIVE_HOST_EXTERIOR_SUPPLY_001/STRATEGY.md)
