@@ -615,3 +615,7 @@ In the declared D143 embedding, a gap with B=1 cannot assign its first upper sou
 ## D145 fixed-exterior quota packet rejection
 
 Failure of both D144 boundary recipes can occur for a feasible physical quota vector on the same fixed exterior. The symbolic family (3,0,1+2r,2,1) at k=r+4 violates the required packet width under rule 2 and demands a negative M_2 under rule 1. Its explicit boundary reflection pair gives a valid matching together with the remaining named assignments. The scoped D144 forced-endpoint adverse family still fails all exact allocations. The sufficient packet theorem remains accepted. [Proof](ORDINARY_SPINE_TWO_SECTION_EXACT_GAP_CRITERION.md) · D145
+
+## D147 independent exterior supply obstructions
+
+Within D143, a first section with no direct leaves and a second section with one positive center and no direct leaves cannot supply the first upper gap source. Its only upper host with gap leaves has maximal upper index B. With one first center and no first direct leaves and one second center plus at most three second direct leaves, the terminal-free arm also fails. It needs either a forbidden first-upper assignment or three gap direct leaves at w when at most two are available. The named profiles (3) and (2g+4,0,0,0) refute terminal-free sufficiency in this embedding because their terminal-enabled assignments are proved. Other graceful embeddings remain outside this conclusion. [Proof](ORDINARY_SPINE_EXTERIOR_SUPPLY_REASSESSMENT.md) · D147

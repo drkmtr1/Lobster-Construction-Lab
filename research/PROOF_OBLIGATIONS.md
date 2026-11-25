@@ -849,10 +849,16 @@ An independent exterior labeling and the passing quota arithmetic suffice for th
 
 The fixed exterior and exact known D143 incoming interface are premises. The D145 symbolic transfer settles quota feasibility on that fixed labeling. D146 extends the exact transfer geometry. A simpler quota formula and general independently available exterior labelings remain open.
 
-**PROVED / PENDING DIRECTOR REVIEW** for exact physical gap allocation on a supplied named D143 exterior at general widths. The transfer decides all quota vectors for the declared placement. [Proof](ORDINARY_SPINE_TWO_SECTION_GENERAL_GAP_CRITERION.md)
+**DIRECTOR ACCEPTED** within the written scope for exact physical gap allocation on a supplied named D143 exterior at general widths. The transfer decides all quota vectors for the declared placement. [Proof](ORDINARY_SPINE_TWO_SECTION_GENERAL_GAP_CRITERION.md)
 
 ## D146 general-width gap criterion remaining scope
 
 The general allocation consumer is exact given the independently supplied named D143 exterior labeling, quota vector, old input state and unchanged embedding. Independent exterior supply for original two-section topologies and the scope of original targets admitting such exteriors remain unresolved. A failed quota test excludes the particular declared labeling and host quotas within this placement.
 
-**UNSTARTED — AWAITING SEPARATE AUTHORIZATION.** Under separate authorization, reassess independent named exterior supply for original two-section topologies in the D143 embedding. Identify a structural supplier or obstruction worth pursuing beyond the existing exterior families, and compare symbolic construction, bounded computational discovery, and hybrid discovery followed by proof by their mathematical potential. Preserve the actual named target and both resource inventories.
+**PROVED / PENDING DIRECTOR REVIEW** for the D147 scoped obstructions and separating family. The reassessment identifies a named paired-terminal supplier and proves its advantage over every terminal-free exterior on one infinite family. [Proof](ORDINARY_SPINE_EXTERIOR_SUPPLY_REASSESSMENT.md)
+
+## D147 independent exterior supply remaining scope
+
+General independent exterior supply is unresolved. The witnessed separation concerns one center in the second section. Whether the advantage extends to the declared two-center stratum remains open. A new matched study with original-target custody and exact audits is proposed. It requires separate authorization and has no executed cases.
+
+**UNSTARTED — AWAITING SEPARATE AUTHORIZATION.** Proposed task `LCL-ORDINARY-SPINE-MATCHED-EXTERIOR-TWO-CENTER-001`. Under separate authorization, run the bounded matched terminal-free versus terminal-enabled exterior study proposed in D147 Section 6. Test whether an E-only original target occurs when the second section has two positive centers, using the identical named target and D143 interface in both arms, exact D146 support and an independent original-target audit.

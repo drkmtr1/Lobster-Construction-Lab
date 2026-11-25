@@ -1,0 +1,91 @@
+{
+  "task": "LCL-ORDINARY-SPINE-EXTERIOR-SUPPLY-REASSESSMENT-001",
+  "parent": "37cf1532088f2d687fd1936f52c457c3e1b1a94a",
+  "proof": {
+    "path": "research/ORDINARY_SPINE_EXTERIOR_SUPPLY_REASSESSMENT.md",
+    "sha256": "29f602e6623b96f2c043a665ca9355cf04829c89ae65c58ef731ee46bd810fa5"
+  },
+  "admission": {
+    "head": "37cf1532088f2d687fd1936f52c457c3e1b1a94a",
+    "origin_main": "37cf1532088f2d687fd1936f52c457c3e1b1a94a",
+    "live_github_main": "37cf1532088f2d687fd1936f52c457c3e1b1a94a",
+    "clean": true,
+    "observed_other_writers": 0,
+    "baseline_tag_object": "fddfc1dd9541324b2ed2de2505bc750b3e3f0b9d",
+    "baseline_peeled": "36ea1603602491bf3c1c5b81ed4c23aaa2210e70",
+    "mdl_pin": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+    "bounded_search_pin": "e48b94eec4091b4fe189e325cab2eda464409943",
+    "original_builder_blob": "8d1e9948e8bf5ef01e67c9afe0155412c57d79fa",
+    "original_checker_blob": "d008f35f0843e1a5c770db3e7f42ed7d987360d7"
+  },
+  "source_bindings": [
+    {
+      "path": "research/ORDINARY_SPINE_PIECEWISE_CUT_SPECTRUM_TRANSITION.md",
+      "sha256": "2b9b52c24293110f8e0b59b4ac73af11e4c14e77cb5ff7355ced236b6d271839"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_TWO_SECTION_CUT_STATE.md",
+      "sha256": "a7b4d98f286225bfb887866ce1b6167281b52bb650fcf53a50b0a5060e152cf8"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_TWO_SECTION_GAP_ALLOCATION.md",
+      "sha256": "582d8576f9a710b9a52d70ba9fb3f47fa289ea05f50cf6617d7889a5a36f5648"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_TWO_SECTION_EXACT_GAP_CRITERION.md",
+      "sha256": "dcfbdfa182ea3fec835f11a4508b57bc57d5cef976d3b14a7ded6e468e6ce5f2"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_TWO_SECTION_GENERAL_GAP_CRITERION.md",
+      "sha256": "0221114b657dde0c1bcf64ae5fece4f0a8eca26f6d6e52eb8d5f1d1656946cd6"
+    },
+    {
+      "path": "handoffs/CODEX-20261124-ordinary-spine-two-section-general-gap-criterion.md",
+      "sha256": "ed0e186d2e5eea6845afdd99fdf98d0b5e7e2c9ff08cd27c5d199966b43a319d"
+    }
+  ],
+  "accepted_D146_binding": {
+    "director_disposition": "ACCEPT_WITHIN_WRITTEN_SCOPE",
+    "proof_checkpoint": "37cf1532088f2d687fd1936f52c457c3e1b1a94a",
+    "manifest_sha256": "b74edfd84c4adad5466c136a0e675ef23e75b081c071fcfe48f99c8bbf90ea6c",
+    "verified_manifest_entries": 6,
+    "verified_D146_source_bindings": 5
+  },
+  "retained_archive_bindings": {
+    "d145_manifest_sha256": "66e662003d8666381c1c7818d91f9fe68938bee4d6069c8e1f843c14d2471527",
+    "d144_manifest_sha256": "9820491622708b07e51af55da16525ec333316842cdd57471a1009983118cf8d",
+    "d143_manifest_sha256": "c83b3429dd0e99881a9eedcdb56df5712450bf42a5e4bc23f190d51a80c02a71",
+    "historical_pilot_proof_sha256": "fc0b5f06fbd3c00d1a739b8838c3b19f2732ba5262aa2970e40b45049a676474",
+    "historical_pilot_proof_zip_sha256": "81bcd01eea2be333400de1c0ce512fcc2ceb9928f9720964c67fed706e375aa1",
+    "director_pilot_proof_zip_sha256": "418b8c19b4a7e5ae1183e94f31a60284e74d257312628160345650a20dd519b2"
+  },
+  "symbolic_controls": [
+    "D144 common positive for the proposed matched design",
+    "D143-class no-direct obstruction",
+    "D147 infinite separating family with exact exterior and gap witness",
+    "D145 independent exact allocator discrimination control"
+  ],
+  "current_limits": {
+    "workers": 1,
+    "process_cpu_seconds": 30,
+    "externally_observed_wall_seconds": 60,
+    "new_verification_evidence_bytes": 2000000
+  },
+  "research_counts": {
+    "symbolic_tasks": 1,
+    "writers": 1,
+    "numerical_originals": 0,
+    "search_nodes": 0,
+    "placement_sweeps": 0,
+    "numerical_transfer_evaluations": 0,
+    "solver_calls": 0,
+    "pilot_invocations": 0,
+    "detailed_holdout_reads": 0,
+    "automatic_retries": 0,
+    "successor_tasks": 0
+  },
+  "proposed_future_task": "LCL-ORDINARY-SPINE-MATCHED-EXTERIOR-TWO-CENTER-001",
+  "proposed_future_task_status": "UNSTARTED_AWAITING_SEPARATE_AUTHORIZATION",
+  "project_instructions": "KEEP v10",
+  "deferred_2322": "DEFERRED / UNSTARTED"
+}

@@ -2,7 +2,7 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 24, 2026, Pacific/Honolulu<br>
-**Stage:** D146 symbolic proof complete, **PENDING DIRECTOR REVIEW**. D145 remains **ACCEPTED** within its written scope. **Project instructions KEEP v10.** The Owner reported restoring the saved v10 instructions.
+**Stage:** D147 symbolic reassessment complete, **PENDING DIRECTOR REVIEW**. D145 and D146 are **ACCEPTED** within their written scopes. **Project instructions KEEP v10.** The Owner reported restoring the saved v10 instructions.
 
 ## Current scientific objective
 
@@ -12,11 +12,13 @@ D143 proves a same-polarity exterior-tree and gap reduction for an exact D134 p=
 
 The Director accepted D144 as a sufficient quota rule on the declared D143 interface, along with its necessary host tests and scoped obstructions. D145 gives an exact symbolic coefficient criterion for all quotas on the fixed five-vertex exterior, including a family rejected by both D144 packet boundary rules. Independent exterior supply for general original topologies remains open. [D144 proof](research/ORDINARY_SPINE_TWO_SECTION_GAP_ALLOCATION.md) · [D145 proof](research/ORDINARY_SPINE_TWO_SECTION_EXACT_GAP_CRITERION.md) · [Director acceptance handoff](handoffs/CODEX-20261124-d145-director-acceptance.md)
 
-D146 gives an exact symbolic physical quota criterion at general widths for independently supplied named D143 exteriors. Its bounded folded transfer preserves both crossing inventories and gives constructive extraction, the exact external return and admitted finite composition. The next structural issue is independent exterior supply for original topologies. [D146 proof](research/ORDINARY_SPINE_TWO_SECTION_GENERAL_GAP_CRITERION.md) · [Handoff](handoffs/CODEX-20261124-ordinary-spine-two-section-general-gap-criterion.md)
+The Director accepted D146 as an exact symbolic physical quota criterion at general widths for independently supplied named D143 exteriors. Its bounded folded transfer preserves both crossing inventories and gives constructive extraction, the exact external return and admitted finite composition. The next structural issue is independent exterior supply for original topologies. [D146 proof](research/ORDINARY_SPINE_TWO_SECTION_GENERAL_GAP_CRITERION.md) · [Handoff](handoffs/CODEX-20261124-ordinary-spine-two-section-general-gap-criterion.md)
+
+D147 proves two forced exterior incidences, a terminal balance identity, a paired exterior supplier, and scoped topology obstructions. The prescribed profiles (3) and (2g+4,0,0,0) admit an exterior with terminals and exclude every terminal-free exterior under the same D143 interface. The proposed matched study targets a different stratum, two positive centers in the second section. [D147 proof and proposal](research/ORDINARY_SPINE_EXTERIOR_SUPPLY_REASSESSMENT.md) · [Handoff](handoffs/CODEX-20261124-ordinary-spine-exterior-supply-reassessment.md)
 
 ## One next action
 
-Under separate authorization, reassess independent named exterior supply for original two-section topologies in the D143 embedding. Identify a structural supplier or obstruction worth pursuing beyond the existing exterior families, and compare symbolic construction, bounded computational discovery, and hybrid discovery followed by proof by their mathematical potential. Preserve the actual named target and both resource inventories.
+Under separate authorization, run the bounded matched terminal-free versus terminal-enabled exterior study proposed in D147 Section 6. Test whether an E-only original target occurs when the second section has two positive centers, using the identical named target and D143 interface in both arms, exact D146 support and an independent original-target audit.
 
 ## Deferred obligations
 
