@@ -1,0 +1,430 @@
+{
+  "task": "LCL-ORDINARY-SPINE-TWO-FIRST-CENTER-PARAMETERIZED-CLASSIFICATION-001",
+  "source": {
+    "preparation_manifest": "2911696630754f2276cf77e95208becc1a37ed1c33a071fdbe8f7e967745eebf",
+    "closeout_manifest": "e66f651917ae167dfb903d1557f25a593738e2cea97a9d79e4e16c19f6f52b42",
+    "official_archive": "fc85e33800ec57eeccba25637f5e99080c08539160739cfbdd6543f18fb9cb72"
+  },
+  "use": "Read-only checks of original and archived bindings. The parameterized proof is independent of these finite controls.",
+  "role_and_direct_gap": [
+    {
+      "id": "target-0005",
+      "regime": "p≥2",
+      "first_roles": [
+        1,
+        2
+      ],
+      "direct_gap": [
+        0,
+        1
+      ],
+      "crosses": false
+    },
+    {
+      "id": "target-0017",
+      "regime": "p=1 with reversed numerical first-center roles",
+      "first_roles": [
+        2,
+        1
+      ],
+      "direct_gap": [
+        8,
+        9
+      ],
+      "crosses": true
+    },
+    {
+      "id": "target-0065",
+      "regime": "p=1 with original first-center order",
+      "first_roles": [
+        1,
+        2
+      ],
+      "direct_gap": [
+        8,
+        9
+      ],
+      "crosses": true
+    }
+  ],
+  "source_dispositions": [
+    {
+      "id": "target-0001",
+      "param": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "arm": "T",
+      "original_graph_digest": "60d60b0de1f8926cc9b0748543414d3799c650453d4d6f04124ff0932156a4d8",
+      "original_record_sha256": "b34be3bdf8599f840cf975a6c8a57081e63d313cd805ee366519e0603383b158",
+      "original_shard": "targets-00.json",
+      "raw_member": "official/target-0001-T.json",
+      "sha256": "8ee44708a05802c3fc14f42d1f8bb2e326ebd60ed6ff77889ca14405fe1841c4",
+      "claim": "NO",
+      "basis": "dedicated-arm",
+      "audit": "independent-exhaustion",
+      "primary_representative_exteriors": 6,
+      "independent_representative_exteriors": 16,
+      "meter_delta": {
+        "dispositions": 0,
+        "exterior_nodes": 76,
+        "targets": 0,
+        "transfer_states": 210,
+        "transitions": 1026
+      }
+    },
+    {
+      "id": "target-0001",
+      "param": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "arm": "E",
+      "original_graph_digest": "60d60b0de1f8926cc9b0748543414d3799c650453d4d6f04124ff0932156a4d8",
+      "original_record_sha256": "b34be3bdf8599f840cf975a6c8a57081e63d313cd805ee366519e0603383b158",
+      "original_shard": "targets-00.json",
+      "raw_member": "official/target-0001-E.json",
+      "sha256": "fd91d7f995d4989e8a1cf9ce319c82a5f9c9441812a796dc56cc67982b5fc03e",
+      "claim": "NO",
+      "basis": "dedicated-arm",
+      "audit": "independent-exhaustion",
+      "primary_representative_exteriors": 28,
+      "independent_representative_exteriors": 28,
+      "meter_delta": {
+        "dispositions": 0,
+        "exterior_nodes": 2200,
+        "targets": 0,
+        "transfer_states": 620,
+        "transitions": 2952
+      }
+    },
+    {
+      "id": "target-0002",
+      "param": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "arm": "T",
+      "original_graph_digest": "8ac139dc44bc78623638a5e9157161ba9ed38551b9ff1cd12b17c7f85c223be4",
+      "original_record_sha256": "b5e6920116d2bf42d733a9d37e04fbdd8a1fb65873f2250c0a5eecf6ce2bdb92",
+      "original_shard": "targets-00.json",
+      "raw_member": "official/target-0002-T.json",
+      "sha256": "65d0f7723c6f64e4d8239c23425f5fa6c865c7fb4cc74ae41ca23da2766c3d93",
+      "claim": "NO",
+      "basis": "dedicated-arm",
+      "audit": "independent-exhaustion",
+      "primary_representative_exteriors": 6,
+      "independent_representative_exteriors": 16,
+      "meter_delta": {
+        "dispositions": 0,
+        "exterior_nodes": 76,
+        "targets": 0,
+        "transfer_states": 398,
+        "transitions": 2272
+      }
+    },
+    {
+      "id": "target-0002",
+      "param": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "arm": "E",
+      "original_graph_digest": "8ac139dc44bc78623638a5e9157161ba9ed38551b9ff1cd12b17c7f85c223be4",
+      "original_record_sha256": "b5e6920116d2bf42d733a9d37e04fbdd8a1fb65873f2250c0a5eecf6ce2bdb92",
+      "original_shard": "targets-00.json",
+      "raw_member": "official/target-0002-E.json",
+      "sha256": "74df3cce09ce265bbec5ca8d250cbf83f9d28b2710c40360597305f99b932a62",
+      "claim": "NO",
+      "basis": "dedicated-arm",
+      "audit": "independent-exhaustion",
+      "primary_representative_exteriors": 36,
+      "independent_representative_exteriors": 68,
+      "meter_delta": {
+        "dispositions": 0,
+        "exterior_nodes": 10693,
+        "targets": 0,
+        "transfer_states": 1328,
+        "transitions": 7048
+      }
+    },
+    {
+      "id": "target-0003",
+      "param": [
+        1,
+        1,
+        1,
+        3
+      ],
+      "arm": "T",
+      "original_graph_digest": "92d07aa99b18fd4e5f826d0677ffdcd6af364a2277f6dff1d5a96c6f33b8e091",
+      "original_record_sha256": "7f9d7d4e6901be94558ba151c54997a1e6093230d587fe60a3db23fa48cfda53",
+      "original_shard": "targets-00.json",
+      "raw_member": "official/target-0003-T.json",
+      "sha256": "339040fa0f86ff832080eeb3ba9a758caf7894f2fea0db35b5d9f36af37807ae",
+      "claim": "NO",
+      "basis": "dedicated-arm",
+      "audit": "independent-exhaustion",
+      "primary_representative_exteriors": 6,
+      "independent_representative_exteriors": 16,
+      "meter_delta": {
+        "dispositions": 0,
+        "exterior_nodes": 76,
+        "targets": 0,
+        "transfer_states": 762,
+        "transitions": 4196
+      }
+    },
+    {
+      "id": "target-0003",
+      "param": [
+        1,
+        1,
+        1,
+        3
+      ],
+      "arm": "E",
+      "original_graph_digest": "92d07aa99b18fd4e5f826d0677ffdcd6af364a2277f6dff1d5a96c6f33b8e091",
+      "original_record_sha256": "7f9d7d4e6901be94558ba151c54997a1e6093230d587fe60a3db23fa48cfda53",
+      "original_shard": "targets-00.json",
+      "raw_member": "official/target-0003-E.json",
+      "sha256": "0cb8d31bacef0794f7deea2dbe1f7d4260011202eaab71630a12e1120fc2da2a",
+      "claim": "NO",
+      "basis": "dedicated-arm",
+      "audit": "independent-exhaustion",
+      "primary_representative_exteriors": 40,
+      "independent_representative_exteriors": 140,
+      "meter_delta": {
+        "dispositions": 0,
+        "exterior_nodes": 43536,
+        "targets": 0,
+        "transfer_states": 2336,
+        "transitions": 12790
+      }
+    },
+    {
+      "id": "target-0004",
+      "param": [
+        1,
+        1,
+        1,
+        4
+      ],
+      "arm": "T",
+      "original_graph_digest": "03a5218550ecfb950c7d722eb56132636b0bdec093cd2f5600ec2287247c0b71",
+      "original_record_sha256": "561e60734cb78b70095151e4d0382a04cd527a7133b6178a2cc4611d397dd24b",
+      "original_shard": "targets-00.json",
+      "raw_member": "official/target-0004-T.json",
+      "sha256": "ca74bed453684b9d456c15ad670017c6c4a05778578e9e127a8f69aeba734383",
+      "claim": "NO",
+      "basis": "dedicated-arm",
+      "audit": "independent-exhaustion",
+      "primary_representative_exteriors": 6,
+      "independent_representative_exteriors": 16,
+      "meter_delta": {
+        "dispositions": 0,
+        "exterior_nodes": 76,
+        "targets": 0,
+        "transfer_states": 1364,
+        "transitions": 7000
+      }
+    },
+    {
+      "id": "target-0004",
+      "param": [
+        1,
+        1,
+        1,
+        4
+      ],
+      "arm": "E",
+      "original_graph_digest": "03a5218550ecfb950c7d722eb56132636b0bdec093cd2f5600ec2287247c0b71",
+      "original_record_sha256": "561e60734cb78b70095151e4d0382a04cd527a7133b6178a2cc4611d397dd24b",
+      "original_shard": "targets-00.json",
+      "raw_member": "official/target-0004-E.json",
+      "sha256": "6b84462023cf25863b741df15ba90145a1cf6539cce54d78ad4c18d40931f2e5",
+      "claim": "NO",
+      "basis": "dedicated-arm",
+      "audit": "independent-exhaustion",
+      "primary_representative_exteriors": 42,
+      "independent_representative_exteriors": 214,
+      "meter_delta": {
+        "dispositions": 0,
+        "exterior_nodes": 148235,
+        "targets": 0,
+        "transfer_states": 3594,
+        "transitions": 20064
+      }
+    },
+    {
+      "id": "target-0005",
+      "param": [
+        1,
+        1,
+        2,
+        1
+      ],
+      "arm": "T",
+      "original_graph_digest": "79fb4b89e615f489e325c39a98d677cd0de9f38db43e19f827200dd674294ad7",
+      "original_record_sha256": "90e51390c7bd876789bc239826f9f6ae36c04da7290a64471799a87d341c764e",
+      "original_shard": "targets-00.json",
+      "raw_member": "official/target-0005-T.json",
+      "sha256": "4f40a8f130e19bb0fa74deb67373f1b4a1879d255ed72999dafd4fa2d4ef58da",
+      "claim": "YES",
+      "basis": "dedicated-arm",
+      "audit": "independent-positive",
+      "primary_representative_exteriors": 1,
+      "independent_representative_exteriors": null,
+      "meter_delta": {
+        "dispositions": 0,
+        "exterior_nodes": 3,
+        "targets": 0,
+        "transfer_states": 61,
+        "transitions": 842
+      }
+    },
+    {
+      "id": "target-0005",
+      "param": [
+        1,
+        1,
+        2,
+        1
+      ],
+      "arm": "E",
+      "original_graph_digest": "79fb4b89e615f489e325c39a98d677cd0de9f38db43e19f827200dd674294ad7",
+      "original_record_sha256": "90e51390c7bd876789bc239826f9f6ae36c04da7290a64471799a87d341c764e",
+      "original_shard": "targets-00.json",
+      "raw_member": "official/target-0005-E.json",
+      "sha256": "a2ee81bf89d46dba77db1c324f35e0067edad31e1d5ea24de30d8196b6444c14",
+      "claim": "YES",
+      "basis": "T-positive-by-inclusion",
+      "audit": "independent-positive",
+      "primary_representative_exteriors": 1,
+      "independent_representative_exteriors": null,
+      "meter_delta": {
+        "dispositions": 0,
+        "exterior_nodes": 0,
+        "targets": 0,
+        "transfer_states": 0,
+        "transitions": 0
+      }
+    },
+    {
+      "id": "target-0017",
+      "param": [
+        1,
+        2,
+        1,
+        1
+      ],
+      "arm": "T",
+      "original_graph_digest": "340e82544ca98629600623eda655f07eeb53c00e807c298f843659f8297b30b6",
+      "original_record_sha256": "d35c9b7cdcc6ccce888fdd2acb4f5c0d3248344cf2f80abe2f4e54a4b4c4c01a",
+      "original_shard": "targets-01.json",
+      "raw_member": "official/target-0017-T.json",
+      "sha256": "d91a823cd785a99d57c9862edcf2b4a82c1823e4ce668527cdc8a81c50ba677c",
+      "claim": "YES",
+      "basis": "dedicated-arm",
+      "audit": "independent-positive",
+      "primary_representative_exteriors": 2,
+      "independent_representative_exteriors": null,
+      "meter_delta": {
+        "dispositions": 0,
+        "exterior_nodes": 6,
+        "targets": 0,
+        "transfer_states": 215,
+        "transitions": 3118
+      }
+    },
+    {
+      "id": "target-0017",
+      "param": [
+        1,
+        2,
+        1,
+        1
+      ],
+      "arm": "E",
+      "original_graph_digest": "340e82544ca98629600623eda655f07eeb53c00e807c298f843659f8297b30b6",
+      "original_record_sha256": "d35c9b7cdcc6ccce888fdd2acb4f5c0d3248344cf2f80abe2f4e54a4b4c4c01a",
+      "original_shard": "targets-01.json",
+      "raw_member": "official/target-0017-E.json",
+      "sha256": "0fe9ac8cbc46cf76438996755684bcae2077fed2a0c896489f1530807a19cab6",
+      "claim": "YES",
+      "basis": "T-positive-by-inclusion",
+      "audit": "independent-positive",
+      "primary_representative_exteriors": 2,
+      "independent_representative_exteriors": null,
+      "meter_delta": {
+        "dispositions": 0,
+        "exterior_nodes": 0,
+        "targets": 0,
+        "transfer_states": 0,
+        "transitions": 0
+      }
+    },
+    {
+      "id": "target-0065",
+      "param": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "arm": "T",
+      "original_graph_digest": "24d9de7b2cf830f833ed7482a2e9e19bbdef42f18b34d7b650a96c4cb40f46c8",
+      "original_record_sha256": "d242b5c5fc7af4a2194c3c522aaa936353e3c81a186a66ae9824d3f074fe2031",
+      "original_shard": "targets-04.json",
+      "raw_member": "official/target-0065-T.json",
+      "sha256": "5538ae06c29163e78ce125b90dfdedafcdc56031bca45a3fdd18ae1c3a8ef296",
+      "claim": "YES",
+      "basis": "dedicated-arm",
+      "audit": "independent-positive",
+      "primary_representative_exteriors": 1,
+      "independent_representative_exteriors": null,
+      "meter_delta": {
+        "dispositions": 0,
+        "exterior_nodes": 3,
+        "targets": 0,
+        "transfer_states": 151,
+        "transitions": 2209
+      }
+    },
+    {
+      "id": "target-0065",
+      "param": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "arm": "E",
+      "original_graph_digest": "24d9de7b2cf830f833ed7482a2e9e19bbdef42f18b34d7b650a96c4cb40f46c8",
+      "original_record_sha256": "d242b5c5fc7af4a2194c3c522aaa936353e3c81a186a66ae9824d3f074fe2031",
+      "original_shard": "targets-04.json",
+      "raw_member": "official/target-0065-E.json",
+      "sha256": "f7fcbb7a0aa0e80808df9c9a60f446bc23c6b4bf972673231036bf6f4d0f55a1",
+      "claim": "YES",
+      "basis": "T-positive-by-inclusion",
+      "audit": "independent-positive",
+      "primary_representative_exteriors": 1,
+      "independent_representative_exteriors": null,
+      "meter_delta": {
+        "dispositions": 0,
+        "exterior_nodes": 0,
+        "targets": 0,
+        "transfer_states": 0,
+        "transitions": 0
+      }
+    }
+  ]
+}

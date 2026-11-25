@@ -2,7 +2,7 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 25, 2026, Pacific/Honolulu<br>
-**Stage:** D154 parity-compatible exterior study **COMPLETE — FINITE HYPOTHESES FALSIFIED, PENDING DIRECTOR REVIEW OF EXECUTION**. Its symbolic qualification and preparation are **DIRECTOR ACCEPTED WITHIN SCOPE**. D153 **DIRECTOR ACCEPTED WITHIN SCOPE**. D152 **DIRECTOR ACCEPTED WITHIN SCOPE**. D151 **DIRECTOR ACCEPTED WITHIN SCOPE**. D150 **DIRECTOR ACCEPTED WITHIN SCOPE**. D149 remains Director accepted within its written scope. D148 completed finite evidence remains accepted, with execution **INCOMPLETE_EXTERIOR_NODE_CAP**. **Project instructions KEEP v11.**
+**Stage:** D155 exact two-first-center classification **PROVED — PENDING DIRECTOR REVIEW**. D154 is **COMPLETE — DIRECTOR ACCEPTED WITHIN FROZEN SCOPE**, with both finite hypotheses falsified. D153 **DIRECTOR ACCEPTED WITHIN SCOPE**. D152 **DIRECTOR ACCEPTED WITHIN SCOPE**. D151 **DIRECTOR ACCEPTED WITHIN SCOPE**. D150 **DIRECTOR ACCEPTED WITHIN SCOPE**. D149 remains Director accepted within its written scope. D148 completed finite evidence remains accepted, with execution **INCOMPLETE_EXTERIOR_NODE_CAP**. **Project instructions KEEP v11.**
 
 ## Current scientific objective
 
@@ -30,11 +30,11 @@ D152 gives exact terminal-enabled feasibility for ordered (2r+1), (2p,2q,0,0) un
 
 D153 proves even fresh original graph-class cardinalities for every successful D143 two-section completion and fixes the aggregate crossing counts from the selected exterior widths. Both graph classes are odd on the authorized two-first-center family, so both arms are excluded symbolically. D151 demonstrates that the aggregate test leaves individual feasibility open. No numerical campaign was prepared. [D153 proof](research/ORDINARY_SPINE_TWO_SECTION_TOPOLOGICAL_PARITY.md) · [Handoff](handoffs/CODEX-20261125-ordinary-spine-two-section-topological-parity.md)
 
-D154 completed 256 audited pairs on its frozen n=54 prefix and exact D143 interface. There were 252 YES/YES pairs with checked terminal-free witnesses and E inclusion, and four independently exhausted NO/NO pairs at (r,t,p)=(1,1,1), q=1 through 4. Both finite hypotheses are falsified. Every saved positive uses A=B=3 with the direct leaf in the gap. No arm was incomplete. Symbolic classification beyond the finite corpus remains open. [Execution evidence](evidence/runs/d154-parity-two-first-center-001/README.md) · [Closeout handoff](handoffs/CODEX-20261125-parity-compatible-exterior-execution-closeout.md)
+The Director accepted D154's complete finite evidence on its frozen corpus, prefix and exact D143 interface. The 252 YES/YES and four independently exhausted NO/NO pairs remain accepted, with both finite hypotheses falsified. D155 proves the parameterized classification for (2r,2t), (2p,2q+1,0) on the supplied D134 p=1 interface. Both D143 arms are feasible exactly when max(r,t,p)≥2. The positive proof supplies a terminal-free exterior and exact composable intermediate data. The exceptional proof covers all exteriors. [D154 closeout](evidence/runs/d154-parity-two-first-center-001/README.md) · [D155 proof](research/ORDINARY_SPINE_TWO_FIRST_CENTER_PARAMETERIZED_CLASSIFICATION.md) · [Handoff](handoffs/CODEX-20261125-two-first-center-parameterized-classification.md)
 
 ## One next action
 
-Under separate Owner authorization after Director review, seek a symbolic D143 classification of ordered (2r,2t), (2p,2q+1,0) on independently supplied D134 p=1 prefixes. Start from the observed fixed A=B=3 exterior and the two direct-leaf gap positions, and independently test the exceptional r=t=p=1 stratum for a terminal-enabled obstruction. This action is UNSTARTED.
+Under separate Owner authorization after Director review, investigate exact D143 feasibility of the parity-compatible ordered profiles (2r+1,2t+1), (2p,2q+1,0), with r,t≥0 and p,q≥1 on a supplied D134 p=1 prefix. Determine whether the D155 row-pair allocation can be adapted to two odd first quotas while retaining the actual centers and the one direct leaf. This action is UNSTARTED.
 
 ## Deferred obligations
 

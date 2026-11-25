@@ -651,3 +651,7 @@ For ordered (2r+1,2t), (2p,2q,0) with independently prescribed exact r,t,p,q≥1
 ## D154 finite universal feasibility and matched separation
 
 **INDEPENDENTLY AUDITED / PENDING DIRECTOR REVIEW.** The frozen universal E hypothesis is falsified by targets 0001–0004, with (r,t,p)=(1,1,1) and q=1 through 4. Both traversals completed each negative under the frozen D143 assumptions on the retained prefix. The finite existential E-only hypothesis is also falsified by the full matched table of 252 YES/YES and four NO/NO outcomes. These exact finite exclusions leave other parameter values, independently supplied prefixes outside the experiment, other embeddings and ordinary gracefulness open. [Official evidence](../evidence/runs/d154-parity-two-first-center-001/README.md)
+
+## D155 exact exceptional two-first-center obstruction
+
+**PROVED / PENDING DIRECTOR REVIEW.** For (2,2), (2,2q+1,0), every permitted D143 exterior and gap assignment fails for exact q≥1 on the supplied D134 p=1 interface with n≥2(q+7). The two terminal-free widths force a three-source collision. The reduced classifications for exteriors with terminals fail separate gap range, collision or displacement requirements. The four accepted D154 negatives retain their finite computational basis. Other embeddings and ordinary gracefulness remain open. [D155 proof](ORDINARY_SPINE_TWO_FIRST_CENTER_PARAMETERIZED_CLASSIFICATION.md)

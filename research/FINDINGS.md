@@ -1719,3 +1719,11 @@ The symbolic terminal-free exclusion applies more broadly to an odd-quota sole f
 ## D154 complete finite matched study
 
 **INDEPENDENTLY AUDITED / PENDING DIRECTOR REVIEW.** On all 256 ordered originals with r,t,p,q∈[1,4], profiles (2r,2t) and (2p,2q+1,0), the retained n=54 D134 p=1 prefix and the exact D143 interface, 252 targets are YES/YES and four are NO/NO. Every positive uses a checked terminal-free witness, included in E on the same original. Both arms of all four negatives independently exhausted their exact domains. They have (r,t,p)=(1,1,1) and q∈[1,4]. The finite universal E claim and the finite existence of an E-only case are falsified. There are no symbolic exclusions and no incomplete arms in the run. In all saved positives A=B=3 and the sole direct leaf is in the gap, at 0→1 when p≥2 and at K−1→K when p=1. All wider parameterized construction and obstruction claims remain open. [Result and exact scope](../evidence/runs/d154-parity-two-first-center-001/README.md)
+
+## Director acceptance of D154 execution
+
+**DIRECTOR ACCEPTED** the 256 matched outcomes, 252 distinct positive certificates and four independently exhausted negative pairs, scoped to the frozen corpus and exact D143 return on its supplied prefix. Both finite hypotheses remain falsified. [D154 evidence](../evidence/runs/d154-parity-two-first-center-001/README.md)
+
+## D155 exact parameterized two-first-center classification
+
+**PROVED / PENDING DIRECTOR REVIEW.** On ordered (2r,2t), (2p,2q+1,0) for exact r,t,p,q≥1, with an independently supplied D134 p=1 prefix and n≥2(r+t+p+q+4), both D143 arms are feasible exactly when max(r,t,p)≥2. An independent terminal-free exterior with A=B=3 and two explicit gap packets supplies all positive cases. For r=t=p=1 an exhaustive reduced exterior classification and gap obstructions exclude every permitted choice for arbitrary q≥1. Both polarities, actual named quotas, first-section inventories and port, and admitted finite immutable composition are included. [D155 primary proof](ORDINARY_SPINE_TWO_FIRST_CENTER_PARAMETERIZED_CLASSIFICATION.md)
