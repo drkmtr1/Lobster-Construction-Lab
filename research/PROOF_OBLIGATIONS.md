@@ -934,3 +934,7 @@ The one selected next action is unstarted matched hybrid preparation for the fir
 ## D161 matched diagnostic awaiting separate authorization
 
 The named preparation and symbolic prequalifications are complete. The existence of a finite E+ YES with audited T NO remains open on the frozen corpus. Preserve the distinction between raw exterior existence, valid gap qualifications, exact allocation exhaustion and incomplete work. One future official execution is the sole Owner-gated step after Director review. The separate 2322 obligation remains DEFERRED / UNSTARTED. [D161 contract](exceptional_quota_four_001/CONTRACT.md) · [Evidence](../evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FIVE_HOST_QUOTA_FOUR_MATCHED_001_PREP/README.md)
+
+## D161 completed finite evidence and prospective symbolic follow-up
+
+The frozen finite separating-event question is resolved affirmatively, pending Director review. Parameterized gap and exterior supply and a symbolic terminal-free obstruction remain open. The single proposed unstarted action concerns two odd non-four first quotas and second quotas two and four on the observed A=5,B=4 exterior within the exact exceptional phase. It requires separate Owner authorization. Preserve the separate 2322 obligation as DEFERRED / UNSTARTED. [D161 closeout](../evidence/runs/d161-exceptional-quota-four-001/README.md) · [Raw and derived identities](../evidence/runs/d161-exceptional-quota-four-001/MANIFEST.json)

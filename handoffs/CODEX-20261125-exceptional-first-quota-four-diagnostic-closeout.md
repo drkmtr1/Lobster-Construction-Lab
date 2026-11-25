@@ -1,0 +1,13 @@
+# D161 handoff — completed first-quota-four matched exceptional exterior diagnostic
+
+November 25, 2026, Pacific/Honolulu. Prepared checkpoint `e26f80d950a9c316a4c059a0eb98a843e1aec23c`. Task `LCL-ORDINARY-SPINE-EXCEPTIONAL-FIVE-HOST-QUOTA-FOUR-MATCHED-001-PREP`. **COMPLETE / FINITE HYPOTHESIS SUPPORTED / PENDING DIRECTOR REVIEW.**
+
+The Director accepted D161 preparation within the frozen written scope. The single later Owner-authorized execution bound manifest `3839c60a588a7e8c0eeee3b62c107e8182fffa24cd06bf649b3faa9c32997fdf` and produced 99 audited pairs, 198 completed arms and 33 E+ YES with T NO. No limits interrupted execution and no pair remains undecided. The four T/E+ cells YES/YES, YES/NO, NO/YES and NO/NO have counts 12, 36, 33 and 18. Negative counts by arm are three symbolic and 48 independently exhausted for T, and 39 symbolic and 15 independently exhausted for E+. [Closeout](../evidence/runs/d161-exceptional-quota-four-001/README.md)
+
+The 33 separating witnesses share a reduced terminal-enabled exterior of width A=5,B=4 and use the actual direct leaf at w as a gap crossing. All positive evidence is bound to the frozen original, actual labels and exact intermediate inventories. Original negatives concern the frozen placement and supplied state only. The ZIP preserves all 301 original official member bytes, indexed with SHA-256 and individual sizes. [Separating originals](../evidence/runs/d161-exceptional-quota-four-001/SEPARATORS.md) · [Raw ZIP](../evidence/runs/d161-exceptional-quota-four-001/OFFICIAL_RAW.zip) · [Manifest](../evidence/runs/d161-exceptional-quota-four-001/MANIFEST.json)
+
+The preparation, closeout data and audits retain the frozen checker and original builder, both upstream pins and historical evidence. Bounded Search's local and remote recovery tips remain separately documented. D154 remains COMPLETE and both accepted finite falsifications stand. D148 remains INCOMPLETE_EXTERIOR_NODE_CAP, with twelve undecided pairs. The original pilot is closed, D130 sealed and 2322 remains DEFERRED / UNSTARTED. Project instructions KEEP v11. [Custody and receipts](../evidence/runs/d161-exceptional-quota-four-001/CUSTODY.json) · [Independent reviews](../evidence/runs/d161-exceptional-quota-four-001/REVIEWS.md)
+
+## One proposed next action
+
+Under separate Owner authorization after Director review, seek a parameterized symbolic separation theorem for actual ordered blocks with one first quota four, two odd first quotas, and second quotas two and four plus the direct leaf. Prove compatible gap supply on the observed A=5,B=4 exceptional exterior and establish a scoped terminal-free obstruction. This action is UNSTARTED.

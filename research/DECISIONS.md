@@ -361,3 +361,11 @@ Record **PROVED / PENDING DIRECTOR REVIEW** for two independently supplied exter
 ## D161 first-quota-four matched diagnostic preparation
 
 Record **PREPARED / PENDING DIRECTOR REVIEW / NOT AUTHORIZED FOR EXECUTION**. Freeze the exact ordered corpus, independent S₋₁ prefix, complete compatible candidate generators, allocation and separately implemented audit, symbolic gates and measured parse-only preparation. T and E+ are disjoint, and the finite objective is an E+ positive with an independently audited T negative on the same original. The campaign remains unstarted. [D161 contract](exceptional_quota_four_001/CONTRACT.md) · [Evidence](../evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FIVE_HOST_QUOTA_FOUR_MATCHED_001_PREP/README.md)
+
+## Director acceptance of D161 preparation
+
+**ACCEPT** the D161 frozen preparation within its written scope at `e26f80d950a9c316a4c059a0eb98a843e1aec23c`. The Director independently verified the exact continuation after D160, all 49 manifest files, all 15 intake bindings, both canonical STATE identities, nine shards and 99 frozen original identities, the D157 prefix and actual cut, the scientific and independent audit methods, 37 initial parse-only bindings and 39 supplemental lexical definitions. The Owner separately authorized one official invocation bound to `3839c60a588a7e8c0eeee3b62c107e8182fffa24cd06bf649b3faa9c32997fdf`. Preserve the frozen preparation bytes. Numerical results require their own review. [Frozen D161 preparation](../evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FIVE_HOST_QUOTA_FOUR_MATCHED_001_PREP/MANIFEST.json)
+
+## D161 completed matched diagnostic
+
+Record **COMPLETE / FINITE HYPOTHESIS SUPPORTED / PENDING DIRECTOR REVIEW**. The 33 separating frozen originals have E+ YES with independent named reconstruction and T NO with independent allocation exhaustion. All 99 pairs and 198 arms concluded without a cap interruption. Record every positive and negative with its original identity and evidence. No further official execution is authorized. [D161 closeout](../evidence/runs/d161-exceptional-quota-four-001/README.md) · [Raw and derived identities](../evidence/runs/d161-exceptional-quota-four-001/MANIFEST.json)
