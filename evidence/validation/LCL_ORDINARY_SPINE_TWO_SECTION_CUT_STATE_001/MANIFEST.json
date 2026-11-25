@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "task": "LCL-ORDINARY-SPINE-TWO-SECTION-CUT-STATE-001",
+  "parent": "654c40114d80666e494b5746e42cbfbf8f0f4306",
+  "encoding": "exact UTF-8 LF bytes committed at repository-relative paths",
+  "disposition": "PROVED_PENDING_DIRECTOR_REVIEW",
+  "symbolic_task_count": 1,
+  "numerical_experiment_count": 0,
+  "entries": [
+    {
+      "path": "STATE.md",
+      "bytes": 80000,
+      "sha256": "261b1fef7b79c73e2bf143d334653e4be7e0f3ba7d7e1ef347d87b21bdeee804"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_PILOT_AFFINE_TWO_SECTION_REDUCTION.md",
+      "bytes": 19650,
+      "sha256": "fc0b5f06fbd3c00d1a739b8838c3b19f2732ba5262aa2970e40b45049a676474"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_TWO_SECTION_CUT_STATE.md",
+      "bytes": 24015,
+      "sha256": "a7b4d98f286225bfb887866ce1b6167281b52bb650fcf53a50b0a5060e152cf8"
+    },
+    {
+      "path": "handoffs/CODEX-20261124-ordinary-spine-two-section-cut-state.md",
+      "bytes": 6193,
+      "sha256": "735f53911aaa0f5bfb72c55c005d5e792a1e47659b0eae76e851ef60f94271fc"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_TWO_SECTION_CUT_STATE_001/README.md",
+      "bytes": 799,
+      "sha256": "b69c0399539e30809d980ad4e4bd1d08d539be39390b9b54bbde6065cb280ed3"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_TWO_SECTION_CUT_STATE_001/CUSTODY.json",
+      "bytes": 4296,
+      "sha256": "01e5c68a84e19137017e137eb0cd3c2c8f740e4d6aae4e1877c769ee585c1519"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_TWO_SECTION_CUT_STATE_001/REVIEWS.md",
+      "bytes": 3108,
+      "sha256": "26c9cd73af8f47744317c70fdf7aeb8235b3fbf74500b28566be96416ef94b35"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "task": "LCL-ORDINARY-SPINE-TWO-SECTION-CUT-STATE-001",
+  "starting_checkpoint": "654c40114d80666e494b5746e42cbfbf8f0f4306",
+  "admission": {
+    "head": "654c40114d80666e494b5746e42cbfbf8f0f4306",
+    "origin_main": "654c40114d80666e494b5746e42cbfbf8f0f4306",
+    "live_github_main": "654c40114d80666e494b5746e42cbfbf8f0f4306",
+    "starting_state_sha256": "f02548c39c0246ea0d533c6649dbb65904db5058e1c9442e4994d4a5eb3e6561",
+    "clean": true,
+    "other_writers": 0,
+    "baseline_tag_object": "fddfc1dd9541324b2ed2de2505bc750b3e3f0b9d",
+    "baseline_peeled": "36ea1603602491bf3c1c5b81ed4c23aaa2210e70",
+    "upstream_pins": {
+      "mdl": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+      "bounded_search": "e48b94eec4091b4fe189e325cab2eda464409943"
+    },
+    "original_builder_blob": "8d1e9948e8bf5ef01e67c9afe0155412c57d79fa",
+    "original_checker_blob": "d008f35f0843e1a5c770db3e7f42ed7d987360d7"
+  },
+  "proof": {
+    "path": "research/ORDINARY_SPINE_TWO_SECTION_CUT_STATE.md",
+    "sha256": "a7b4d98f286225bfb887866ce1b6167281b52bb650fcf53a50b0a5060e152cf8"
+  },
+  "accepted_historical_review": {
+    "source": "../LCL_Hybrid_Discovery_Pilot_v1.1.1_Proof_Challenge_001/PROOF.md",
+    "track_copy": "research/ORDINARY_SPINE_PILOT_AFFINE_TWO_SECTION_REDUCTION.md",
+    "proof_sha256": "fc0b5f06fbd3c00d1a739b8838c3b19f2732ba5262aa2970e40b45049a676474",
+    "original_zip": {
+      "path": "../LCL_Hybrid_Discovery_Pilot_v1.1.1_Proof_Challenge_001.zip",
+      "sha256": "81bcd01eea2be333400de1c0ce512fcc2ceb9928f9720964c67fed706e375aa1"
+    },
+    "director_zip": {
+      "path": "../LCL_Hybrid_Discovery_Pilot_v1.1.1_Proof_Challenge_001 (2).zip",
+      "sha256": "418b8c19b4a7e5ae1183e94f31a60284e74d257312628160345650a20dd519b2",
+      "bytes": 20016
+    },
+    "shared_manifest_sha256": "1cfb9b8864c58945124564396f0e7eda9c03fe0eb46aa847155fb768958d8314",
+    "frozen_hypothesis_sha256": "0ff4085340417401a794d3fb8705de90ad284eb20329ece05ed8da011af36976",
+    "all_ten_files_and_manifest_reverified_in_both_archives": true,
+    "packaging_cause": "UNESTABLISHED",
+    "corrected_discovery_manifest_sha256": "8568879551ef9d3e59b48d5d73889eb8db8fbc7607b7278908bfd8ccea2584ec"
+  },
+  "primary_sources": [
+    {
+      "path": "research/ORDINARY_SPINE_DEFICIT_TRANSITION.md",
+      "sha256": "77e3028f3c99a93f5e38c3545b88cfc4454168c348e01c6bd9a22eb38abf8865"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_ARBITRARY_CENTER_AFFINE_OBSTRUCTION.md",
+      "sha256": "2677c91e3d8a18fdcacb8fca2fef933dc3508b845eb8c1fb0754753102e83ccc"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_PIECEWISE_CUT_SPECTRUM_TRANSITION.md",
+      "sha256": "2b9b52c24293110f8e0b59b4ac73af11e4c14e77cb5ff7355ced236b6d271839"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_MIXED_MULTIPLICITY_CUT_STATE_BRIDGE.md",
+      "sha256": "e7f24d6d5d617a954ef7d117da06deeae9cb4edc944bc8462d83ae52a3d34620"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_TWO_CUT_BOUNDARY_LEAF_BRIDGE.md",
+      "sha256": "47c61e74873add329dce502cbd8205cd583d8cc184d1cfb44be1afae7b60698c"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_TWO_CUT_EXACT_QUOTA_CLASSIFICATION.md",
+      "sha256": "dcf26c8101c9358029963c23b72616cb89831466f2835f9291d2505ff1ed0001"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_BOUNDARY_BLOCK_SPECTRAL_OBSTRUCTION.md",
+      "sha256": "8138536a669b9ce91af9f2bca3a7086dfd95079266333ab4004706d1c55e0b1c"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_VARIABLE_EXTERIOR_BRIDGE.md",
+      "sha256": "88c0312f893dd63835bce0484541a8ed11d88704ac9ad60c8b5b462fe203b581"
+    }
+  ],
+  "read_only_custody": {
+    "archive_verification_process_cpu_seconds": 0.3125,
+    "archive_verification_wall_seconds": 0.5116442999999999,
+    "read_only_caps": {
+      "worker": 1,
+      "process_cpu_seconds": 30,
+      "wall_seconds": 60,
+      "new_verification_evidence_bytes": 2000000
+    },
+    "experimental_harness_runs": 0
+  },
+  "research_counters": {
+    "symbolic_tasks": 1,
+    "research_writers": 1,
+    "placement_sweeps": 0,
+    "search_states": 0,
+    "search_nodes": 0,
+    "solver_calls": 0,
+    "new_numerical_originals": 0,
+    "pilot_invocations": 0,
+    "detailed_holdout_reads": 0,
+    "automatic_retries": 0,
+    "successor_tasks": 0
+  },
+  "project_instructions": "KEEP v10"
+}

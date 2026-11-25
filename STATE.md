@@ -2,17 +2,17 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 24, 2026, Pacific/Honolulu<br>
-**Stage:** `PILOT_REVERTED_SYMBOLIC_READY_AWAITING_AUTHORIZATION`. The temporary hybrid pilot is closed. **Project instructions UPDATE NEEDED — RESTORE SAVED v10.** The Owner performs the restoration in ChatGPT.
+**Stage:** D143 symbolic proof and separate reviews complete, awaiting Research Director review. **Project instructions KEEP v10.** The Owner reported restoring the saved v10 instructions.
 
 ## Current scientific objective
 
-Develop independently supplied ordinary graceful constructions and reusable transitions on the actual named lobster. Prioritize symbolic two-section composition, both exact resource inventories, actual physical ports and unfinished incidences, arbitrary branch multiplicities and quotas, and exact closure and termination. Retain alpha components within their proved premises. Computational tools remain available for separately authorized bounded diagnostics.
+Develop independently supplied ordinary graceful constructions and reusable transitions on the actual named lobster. Preserve both exact resource inventories, actual physical ports and unfinished incidences, and exact closure and termination. Retain alpha components within their proved premises. Computational tools remain available for separately authorized bounded diagnostics.
 
-D142's scoped old-image admission and necessary exterior constraints stand. Full fresh-placement feasibility remains open. The exact symbolic D134 obligation below is **SELECTED / UNSTARTED — AWAITING SEPARATE AUTHORIZATION**.
+D143 proves a same-polarity exterior-tree and gap reduction for an exact D134 p=1 return across two sections in the declared embedding class. It supplies a repeatable family with an odd first-section edge count and immutable final-alphabet realization. General compatible exterior and gap supply remain open. D142's single-section scopes remain unchanged. [D143 proof](research/ORDINARY_SPINE_TWO_SECTION_CUT_STATE.md) · [Handoff](handoffs/CODEX-20261124-ordinary-spine-two-section-cut-state.md)
 
 ## One next action
 
-Under separate authorization, test an ordinary spine transition appending two actual consecutive sections with one exact external D134 p=1 return and no imposed intermediate half-spectrum. Derive the combined fresh label and difference reserves and an independently supplied intermediate crossing state. Prove a parameterized reusable composition or a scoped obstruction, preserving the actual named incidences and exact final inventories. Use symbolic mathematics without numerical search, placement sweeps or solver calls.
+Under separate authorization, prove or delimit a symbolic allocation rule for the D143 same-polarity two-section gap, from an independently supplied named exterior labeling and independently prescribed physical gap-leaf quotas. Preserve both crossing inventories and actual hosts, and test whether the rule goes beyond the fixed displacement cycles without changing the embedding class or running numerical searches.
 
 ## Deferred obligations
 
@@ -20,7 +20,7 @@ The separate 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its liter
 
 ## Pilot closeout and evidence custody
 
-**REVERT** the temporary methodology. **ACCEPT** the independently reviewed finite D105 results within the frozen restrictions. The completed symbolic proof challenge and its separate reviews remain **PENDING DIRECTOR REVIEW** for mathematical acceptance. Detailed D130 results remain sealed. The historical evidence and qualified tools remain in external custody. [Closeout handoff](handoffs/CODEX-20261124-hybrid-pilot-closeout-symbolic-reversion.md) · [Decision](research/DECISIONS.md#hybrid-discovery-pilot-closeout-and-symbolic-reversion) · [Selected obligation](research/PROOF_OBLIGATIONS.md#selected-symbolic-two-section-d134-obligation)
+The temporary pilot remains closed and the finite D105 acceptance remains scoped. The Director now **ACCEPTS** the completed symbolic proof challenge within its written premises. A byte-identical proof copy is retained in [research](research/ORDINARY_SPINE_PILOT_AFFINE_TWO_SECTION_REDUCTION.md). Detailed D130 results remain sealed and the two distinct verified archive identities remain bound in the handoff. [Pilot closeout](handoffs/CODEX-20261124-hybrid-pilot-closeout-symbolic-reversion.md)
 
 ## What is established in this package
 
