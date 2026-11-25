@@ -813,7 +813,7 @@ The [D100 versioned audit recovery](../evidence/validation/LCL_R241_43_2_FIXED_E
 
 ## D143 disposition of the selected symbolic two-section D134 obligation
 
-**PROVED / PENDING DIRECTOR REVIEW** for the declared embedding class and explicit constructive family. The original question asked for an exact external D134 p=1 return with no imposed intermediate half-spectrum. The D143 reduction separates the smaller named exterior tree from the gap allocation, and its constructive family proves independent first-section supply, exact compatibility, finite return and closure. Its odd first-section size prevents a D134 p=1 intermediate. General named exterior supply and gap allocation for arbitrary physical multiplicities, quotas and interior empty sections remain open. D142's single-section full fresh feasibility remains unresolved. [Proof](ORDINARY_SPINE_TWO_SECTION_CUT_STATE.md)
+**DIRECTOR ACCEPTED** for the declared embedding class and explicit constructive family. The original question asked for an exact external D134 p=1 return with no imposed intermediate half-spectrum. The D143 reduction separates the smaller named exterior tree from the gap allocation, and its constructive family proves independent first-section supply, exact compatibility, finite return and closure. Its odd first-section size prevents a D134 p=1 intermediate. General named exterior supply and gap allocation for arbitrary physical multiplicities, quotas and interior empty sections remain open. D142's single-section full fresh feasibility remains unresolved. [Proof](ORDINARY_SPINE_TWO_SECTION_CUT_STATE.md)
 
 The 2322 zero-host investigation remains separately **DEFERRED / UNSTARTED** under D077.
 
@@ -835,6 +835,6 @@ The frozen hypothesis, falsifiers, proofs and review records remain in the [exte
 
 ## Proposed D143 gap allocation follow-up
 
-**UNSTARTED — AWAITING SEPARATE AUTHORIZATION.**
+**UNSTARTED — AWAITING OWNER APPROVAL.** Proposed task `LCL-ORDINARY-SPINE-TWO-SECTION-GAP-ALLOCATION-001`.
 
 > Under separate authorization, prove or delimit a symbolic allocation rule for the D143 same-polarity two-section gap, from an independently supplied named exterior labeling and independently prescribed physical gap-leaf quotas. Preserve both crossing inventories and actual hosts, and test whether the rule goes beyond the fixed displacement cycles without changing the embedding class or running numerical searches.
