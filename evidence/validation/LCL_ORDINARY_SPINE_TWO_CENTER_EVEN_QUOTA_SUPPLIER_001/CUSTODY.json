@@ -1,0 +1,248 @@
+{
+  "task": "LCL-ORDINARY-SPINE-TWO-CENTER-EVEN-QUOTA-SUPPLIER-001",
+  "mode": "symbolic",
+  "date": "2026-11-24 Pacific/Honolulu",
+  "proof": {
+    "path": "research/ORDINARY_SPINE_TWO_CENTER_EVEN_QUOTA_SUPPLIER.md",
+    "sha256": "6caab3af70cc98cd6a596de016c62b87c886a933ea2da628059a52a970859238",
+    "bytes": 18039
+  },
+  "admission": {
+    "head": "68d665b70dc544d411463ac29cd5410c05790f35",
+    "parent": "51a0efa129423a3624c6224602594b86090ff89f",
+    "origin_main": "68d665b70dc544d411463ac29cd5410c05790f35",
+    "live_main": "68d665b70dc544d411463ac29cd5410c05790f35",
+    "baseline": "fddfc1dd9541324b2ed2de2505bc750b3e3f0b9d",
+    "peel": "36ea1603602491bf3c1c5b81ed4c23aaa2210e70",
+    "writers": 0
+  },
+  "admitted_state_raw_sha256": "7251e7d8321ed03a2a4acb9b45041eb0be5886e89b4b4db8de7adc3255bba735",
+  "mdl_pin": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+  "bounded_search_pin": "e48b94eec4091b4fe189e325cab2eda464409943",
+  "builder_blob": "8d1e9948e8bf5ef01e67c9afe0155412c57d79fa",
+  "checker_blob": "d008f35f0843e1a5c770db3e7f42ed7d987360d7",
+  "retained_sources": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "e980f2ee51d2b69cfd8ab9c4955f9388ad14f9b7b78581729ef5a24dd21339e6",
+      "bytes": 8359
+    },
+    {
+      "path": "handoffs/CODEX-20261124-d148-director-acceptance.md",
+      "sha256": "281100942581a1393de19be1742d8e1f85439843c58372449795e206f74d6359",
+      "bytes": 6032
+    },
+    {
+      "path": "research/ORDINARY_SPINE_PIECEWISE_CUT_SPECTRUM_TRANSITION.md",
+      "sha256": "2b9b52c24293110f8e0b59b4ac73af11e4c14e77cb5ff7355ced236b6d271839",
+      "bytes": 16708
+    },
+    {
+      "path": "research/ORDINARY_SPINE_TWO_SECTION_CUT_STATE.md",
+      "sha256": "a7b4d98f286225bfb887866ce1b6167281b52bb650fcf53a50b0a5060e152cf8",
+      "bytes": 24015
+    },
+    {
+      "path": "research/ORDINARY_SPINE_TWO_SECTION_GAP_ALLOCATION.md",
+      "sha256": "582d8576f9a710b9a52d70ba9fb3f47fa289ea05f50cf6617d7889a5a36f5648",
+      "bytes": 20140
+    },
+    {
+      "path": "research/ORDINARY_SPINE_TWO_SECTION_EXACT_GAP_CRITERION.md",
+      "sha256": "dcfbdfa182ea3fec835f11a4508b57bc57d5cef976d3b14a7ded6e468e6ce5f2",
+      "bytes": 19894
+    },
+    {
+      "path": "research/ORDINARY_SPINE_TWO_SECTION_GENERAL_GAP_CRITERION.md",
+      "sha256": "0221114b657dde0c1bcf64ae5fece4f0a8eca26f6d6e52eb8d5f1d1656946cd6",
+      "bytes": 23630
+    },
+    {
+      "path": "research/ORDINARY_SPINE_EXTERIOR_SUPPLY_REASSESSMENT.md",
+      "sha256": "29f602e6623b96f2c043a665ca9355cf04829c89ae65c58ef731ee46bd810fa5",
+      "bytes": 22150
+    },
+    {
+      "path": "research/ORDINARY_SPINE_PILOT_AFFINE_TWO_SECTION_REDUCTION.md",
+      "sha256": "fc0b5f06fbd3c00d1a739b8838c3b19f2732ba5262aa2970e40b45049a676474",
+      "bytes": 19650
+    }
+  ],
+  "retained_artifacts": [
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_TWO_SECTION_CUT_STATE_001/MANIFEST.json",
+      "sha256": "c83b3429dd0e99881a9eedcdb56df5712450bf42a5e4bc23f190d51a80c02a71",
+      "bytes": 1703
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_TWO_SECTION_GAP_ALLOCATION_001/MANIFEST.json",
+      "sha256": "9820491622708b07e51af55da16525ec333316842cdd57471a1009983118cf8d",
+      "bytes": 1536
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_TWO_SECTION_EXACT_GAP_CRITERION_001/MANIFEST.json",
+      "sha256": "66e662003d8666381c1c7818d91f9fe68938bee4d6069c8e1f843c14d2471527",
+      "bytes": 1566
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_TWO_SECTION_GENERAL_GAP_CRITERION_001/MANIFEST.json",
+      "sha256": "b74edfd84c4adad5466c136a0e675ef23e75b081c071fcfe48f99c8bbf90ea6c",
+      "bytes": 1578
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXTERIOR_SUPPLY_REASSESSMENT_001/MANIFEST.json",
+      "sha256": "3b0ac54e4997dfcefcbb5b84de79aba6ba155913b9c834bc3456ecb66efbb42b",
+      "bytes": 1548
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_MATCHED_EXTERIOR_TWO_CENTER_001/MANIFEST.json",
+      "sha256": "b307eb0a3d759e1b2a6367ad1c2f48c0be5e15bcff3e95ed9716949cb061dc8c",
+      "bytes": 12325
+    },
+    {
+      "path": "evidence/runs/d148-matched-exterior-001/MANIFEST.json",
+      "sha256": "29087be1c6dc344b8f683780542b55a7a513f89820f0156766f70fc1b7e00b15",
+      "bytes": 3960
+    },
+    {
+      "path": "evidence/runs/d148-matched-exterior-001/OFFICIAL_RAW.zip",
+      "sha256": "5b506784c1e5616a3b851335dd9fb93bad82801f6f8ce1a939bc39819a4d6e51",
+      "bytes": 250606
+    },
+    {
+      "path": "evidence/runs/d148-matched-exterior-001/RESULT.json",
+      "sha256": "fbc0d6d1aadd079e7b58f47c32372e253639b7be8c16be5ba98a10aff1a21dfc",
+      "bytes": 7276
+    }
+  ],
+  "retained_original_controls": [
+    {
+      "target": "target-0132",
+      "retained": {
+        "path": "evidence/runs/d148-matched-exterior-001/witnesses/target-0132.json",
+        "sha256": "38aa361987cd52309bc1945cbf783dbcdccf9939791bc28bda0d5ea7737881eb",
+        "bytes": 21960
+      },
+      "graph_digest": "54334cc9502f2432f67a29c3709324c21cae4f8431da9d77005cd20c845567d5",
+      "profile": [
+        [
+          3
+        ],
+        [
+          2,
+          2,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "frozen_original_record_sha256": "335da09a72f2a45226eee7b1ae8c316014a013ea2fb7d1db167fa318595bd3c6"
+    },
+    {
+      "target": "target-0134",
+      "retained": {
+        "path": "evidence/runs/d148-matched-exterior-001/witnesses/target-0134.json",
+        "sha256": "fbcfd1e483ff4cf7318bebb510288317a953d63f134883ecc8839a1955afcd44",
+        "bytes": 22734
+      },
+      "graph_digest": "e6a69a7873f75e79294784aee212ed8b9c070ea3fc804c75baf10606bd3d66eb",
+      "profile": [
+        [
+          3
+        ],
+        [
+          2,
+          4,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "frozen_original_record_sha256": "ed5fe4c650a304d5916ab0660c1d041a332e28f34c13c28c5ae6ce293c51dfd1"
+    },
+    {
+      "target": "target-0140",
+      "retained": {
+        "path": "evidence/runs/d148-matched-exterior-001/witnesses/target-0140.json",
+        "sha256": "5ac963367696a8c72464bd4c6093f12a2fed6eb82043a783de52bdac2baf270d",
+        "bytes": 22735
+      },
+      "graph_digest": "097b8089edb051e2b3b6b124644c4d47a516a708afa399de065a765117f4b748",
+      "profile": [
+        [
+          3
+        ],
+        [
+          4,
+          2,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "frozen_original_record_sha256": "161116979c843cde440ecc552a50d3378ef3a73d519064af51c7383af0e313fd"
+    },
+    {
+      "target": "target-0142",
+      "retained": {
+        "path": "evidence/runs/d148-matched-exterior-001/witnesses/target-0142.json",
+        "sha256": "9e06167dcd441a9fed363551eaf873668eb7bae4f089451bb306ad5c74b1a8af",
+        "bytes": 23479
+      },
+      "graph_digest": "e9cd90bb9ff5e8234bc8ae4451a7757ad4df03d966817b3d97c4f7c0dc4d598b",
+      "profile": [
+        [
+          3
+        ],
+        [
+          4,
+          4,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "frozen_original_record_sha256": "cfca8ae94cb09ab03363a7c6b7866685ca992b9fa7f572234565df71428b0516"
+    }
+  ],
+  "prior_pilot": {
+    "status": "CLOSED",
+    "detailed_holdout_accessed": false,
+    "original_proof_challenge_zip_sha256": "81bcd01eea2be333400de1c0ce512fcc2ceb9928f9720964c67fed706e375aa1",
+    "director_packaged_proof_challenge_zip_sha256": "418b8c19b4a7e5ae1183e94f31a60284e74d257312628160345650a20dd519b2"
+  },
+  "d148": {
+    "execution": "INCOMPLETE_EXTERIOR_NODE_CAP",
+    "finite_evidence": "DIRECTOR_ACCEPTED_WITHIN_SCOPE",
+    "two_center_undecided": 12,
+    "resumed": false,
+    "target_0188": "SEPARATE_UNSTARTED_LEAD"
+  },
+  "boundary": {
+    "writers": 1,
+    "verification_workers": 1,
+    "verification_cpu_cap_s": 30,
+    "verification_observed_wall_cap_s": 60,
+    "new_verification_evidence_cap_bytes": 2000000
+  },
+  "observed": {
+    "new_numerical_originals": 0,
+    "labeling_nodes": 0,
+    "placement_sweeps": 0,
+    "transfer_evaluations": 0,
+    "solver_calls": 0,
+    "pilot_calls": 0,
+    "d130_access": 0,
+    "retries": 0,
+    "successor_tasks_started": 0
+  },
+  "this_hash_collection": {
+    "wall_s": 0.2567245,
+    "process_cpu_s": 0.125,
+    "coverage": "This sequential custody collection only. Git transport and separate source review are outside this measurement."
+  }
+}

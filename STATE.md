@@ -2,7 +2,7 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 24, 2026, Pacific/Honolulu<br>
-**Stage:** D148 completed finite evidence **DIRECTOR ACCEPTED WITHIN SCOPE**. Official execution remains **INCOMPLETE_EXTERIOR_NODE_CAP**. The symbolic two-center supplier is **UNSTARTED — AWAITING OWNER AUTHORIZATION**. **Project instructions KEEP v10.** The Owner reported restoring the saved v10 instructions.
+**Stage:** D149 two-center symbolic supplier and terminal-free parity obstruction **PROVED — PENDING DIRECTOR REVIEW**. D148 completed finite evidence remains Director accepted, with official execution **INCOMPLETE_EXTERIOR_NODE_CAP**. **Project instructions KEEP v10.** The Owner reported restoring the saved v10 instructions.
 
 ## Current scientific objective
 
@@ -20,9 +20,11 @@ D148 preparation fixes one independently initialized D105/D134 prefix and 320 na
 
 The Director accepted D148's completed finite evidence. The 225 audited pairs include 222 of 234 two-center pairs and five E-only matches with independently audited exhaustive Arm T negatives. The other 12 two-center pairs remain undecided. The campaign stopped at the frozen node cap during Arm E of target-0226. [Execution evidence](evidence/runs/d148-matched-exterior-001/README.md) · [Director acceptance handoff](handoffs/CODEX-20261124-d148-director-acceptance.md)
 
+D149 supplies a terminal-enabled D143 completion on every ordered (3), (2p,2q,0,0,0,0) for exact p,q≥1 and n≥2(p+q+6). Its wider terminal-free parity obstruction requires one odd-quota first center, no first direct leaves and only even second-center quotas. Exact first-section resources, return and finite composition are proved. Target-0188 remains a separate unstarted lead. [D149 proof](research/ORDINARY_SPINE_TWO_CENTER_EVEN_QUOTA_SUPPLIER.md) · [Handoff](handoffs/CODEX-20261124-ordinary-spine-two-center-even-quota-supplier.md)
+
 ## One next action
 
-Under separate Owner authorization, execute `LCL-ORDINARY-SPINE-TWO-CENTER-EVEN-QUOTA-SUPPLIER-001`: establish or rigorously delimit an independent parameterized terminal-enabled D143 supplier for the ordered profiles (3) and (2p,2q,0,0,0,0), for independently prescribed exact integers p,q≥1, and prove or delimit a symbolic obstruction to every terminal-free D143 exterior on the same named originals. Retain the exact D134 p=1 incoming and returning interface. The task is UNSTARTED.
+Under separate Owner authorization and after Director review, investigate whether the retained D148 target-0188 two-to-one exterior-terminal balance gives a parameterized named D143 supplier with two positive second-section centers. Prove or delimit its exact role and gap compatibility symbolically. This action is UNSTARTED.
 
 ## Deferred obligations
 

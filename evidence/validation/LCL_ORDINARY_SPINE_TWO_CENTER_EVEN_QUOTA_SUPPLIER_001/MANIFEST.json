@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "task": "LCL-ORDINARY-SPINE-TWO-CENTER-EVEN-QUOTA-SUPPLIER-001",
+  "parent": "68d665b70dc544d411463ac29cd5410c05790f35",
+  "method": "symbolic",
+  "status": "PROVED_PENDING_DIRECTOR_REVIEW",
+  "review": "MATHEMATICAL_AND_IMPLEMENTATION_CUSTODY_PASS",
+  "state_binding": "Committed Git bytes of the D149 checkpoint. Windows checkout line endings can differ.",
+  "new_numerical_instances": 0,
+  "new_search_nodes": 0,
+  "new_transfer_evaluations": 0,
+  "detailed_d130_access": 0,
+  "retained_witnesses": 4,
+  "retained_status": "D148_INCOMPLETE_EXTERIOR_NODE_CAP_AND_DIRECTOR_ACCEPTED_COMPLETED_FINITE_EVIDENCE",
+  "files": [
+    {
+      "path": "STATE.md",
+      "bytes": 83258,
+      "sha256": "b027efa275dc0a06e835544d4856fcfafafdbad771d66b78c773babc5dab57a8"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_TWO_CENTER_EVEN_QUOTA_SUPPLIER.md",
+      "bytes": 18039,
+      "sha256": "6caab3af70cc98cd6a596de016c62b87c886a933ea2da628059a52a970859238"
+    },
+    {
+      "path": "handoffs/CODEX-20261124-ordinary-spine-two-center-even-quota-supplier.md",
+      "bytes": 2611,
+      "sha256": "5bd454da3d493a6b490956685d79ef57859a5c7b1e4e3e6e579f2695b86b7508"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_TWO_CENTER_EVEN_QUOTA_SUPPLIER_001/README.md",
+      "bytes": 1586,
+      "sha256": "135e44baaa63e9e80875be691180ba22b1d95a79c136396a13f210dcca4e5284"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_TWO_CENTER_EVEN_QUOTA_SUPPLIER_001/CUSTODY.json",
+      "bytes": 8424,
+      "sha256": "7b0ab85204c65f7f2c81f8671ce5e1f174b9ef81a3c73e8666fe7712888adb7f"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_TWO_CENTER_EVEN_QUOTA_SUPPLIER_001/REVIEWS.md",
+      "bytes": 1818,
+      "sha256": "c8eb93cf610916f87dd2c8296c56d59ac57e758374aece265dd878c7c2f2596d"
+    }
+  ]
+}

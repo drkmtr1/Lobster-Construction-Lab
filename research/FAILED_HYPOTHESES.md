@@ -627,3 +627,7 @@ Within D143, a terminal-free exterior cannot complete the original profiles with
 ## D148 official matched exterior execution exclusions
 
 All 68 priority two-center originals with one first center and no direct leaves at u and at most two direct leaves at w failed Arm E by independent exhaustion within the frozen corpus and D143 interface. Their T exclusion follows from the separate Director-accepted symbolic obstruction. This finite outcome excludes a contrast on that tested subfamily only. Five matched contrasts occur elsewhere in the same two-center corpus. The unfinished and unentered arms have no inferred outcome. [Official evidence](../evidence/runs/d148-matched-exterior-001/README.md)
+
+## D149 terminal-free parity obstruction
+
+For a D143 original with one odd-quota positive center and no first-section direct leaves, and only even quotas at the second-section positive centers, no terminal-free exterior works. Its actual reduced sides force A=2, with the first center at low label 1. Its odd terminal count gives an odd contribution under translation −1. Every upper center contributes an even term in the D144 summed displacement identity, and spine-host direct leaves add zero. The contradiction holds regardless of how many second-section direct leaves are exterior. For (3) and (2p,2q,0,0,0,0), the explicit terminal-enabled supplier proves D143 feasibility on the same named target. [Proof](ORDINARY_SPINE_TWO_CENTER_EVEN_QUOTA_SUPPLIER.md#2-terminal-free-obstruction)
