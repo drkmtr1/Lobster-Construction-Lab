@@ -855,10 +855,14 @@ The fixed exterior and exact known D143 incoming interface are premises. The D14
 
 The general allocation consumer is exact given the independently supplied named D143 exterior labeling, quota vector, old input state and unchanged embedding. Independent exterior supply for original two-section topologies and the scope of original targets admitting such exteriors remain unresolved. A failed quota test excludes the particular declared labeling and host quotas within this placement.
 
-**PROVED / PENDING DIRECTOR REVIEW** for the D147 scoped obstructions and separating family. The reassessment identifies a named paired-terminal supplier and proves its advantage over every terminal-free exterior on one infinite family. [Proof](ORDINARY_SPINE_EXTERIOR_SUPPLY_REASSESSMENT.md)
+**DIRECTOR ACCEPTED** within the written scope for the D147 obstructions and separating family. The reassessment identifies a named paired-terminal supplier and proves its advantage over every terminal-free exterior on one infinite family. [Proof](ORDINARY_SPINE_EXTERIOR_SUPPLY_REASSESSMENT.md)
 
 ## D147 independent exterior supply remaining scope
 
 General independent exterior supply is unresolved. The witnessed separation concerns one center in the second section. Whether the advantage extends to the declared two-center stratum remains open. A new matched study with original-target custody and exact audits is proposed. It requires separate authorization and has no executed cases.
 
-**UNSTARTED — AWAITING SEPARATE AUTHORIZATION.** Proposed task `LCL-ORDINARY-SPINE-MATCHED-EXTERIOR-TWO-CENTER-001`. Under separate authorization, run the bounded matched terminal-free versus terminal-enabled exterior study proposed in D147 Section 6. Test whether an E-only original target occurs when the second section has two positive centers, using the identical named target and D143 interface in both arms, exact D146 support and an independent original-target audit.
+**PREPARATION FROZEN — OFFICIAL EXECUTION UNSTARTED.** Under separate Owner authorization, execute the frozen matched exterior study `LCL-ORDINARY-SPINE-MATCHED-EXTERIOR-TWO-CENTER-001` exactly once using the reviewed preparation manifest and approval gate. Test for a checked E-only target in the two-center second-section stratum and preserve audited negatives and all INCOMPLETE dispositions within the frozen limits.
+
+## D148 matched exterior study obligations
+
+The exact named corpus and future candidate, support and independent audit algorithms are frozen. The new forced-three Arm T proof isolates 68 two-center targets as a high-value stratum. Arm E feasibility there and the two-center existence claim remain undecided. A checked E witness paired with audited T exclusion supports the finite hypothesis. Ruling out every such separation requires every two-center case to be decided and audited. Numerical results and any later symbolic follow-up remain separate duties. [Contract](../research/matched_exterior_001/CONTRACT.md)

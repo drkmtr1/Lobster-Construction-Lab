@@ -1,0 +1,102 @@
+{
+  "task": "LCL-ORDINARY-SPINE-MATCHED-EXTERIOR-TWO-CENTER-001",
+  "base": "71e19f656a8a049044567cf9de8f7a527d2eab53",
+  "python_version": "3.13.17",
+  "output": "runs/d148-matched-exterior-001",
+  "approval": "runs/d148-matched-exterior-001-authorization.json",
+  "limits": {
+    "workers": 1,
+    "targets": 660,
+    "dispositions": 1320,
+    "exterior_nodes": 50000000,
+    "transfer_states": 100000000,
+    "transitions": 1000000000,
+    "cpu_seconds": 86400,
+    "wall_seconds": 129600,
+    "evidence_bytes": 64000000,
+    "record_bytes": 2000000
+  },
+  "reserve": {
+    "preparation_and_startup_cpu_seconds": 600,
+    "preparation_and_startup_wall_seconds": 900,
+    "final_records_bytes": 32768,
+    "max_live_candidate_states": 250000
+  },
+  "runtime": {
+    "venv": ".venv/Scripts/python.exe",
+    "venv_sha": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+    "cfg": ".venv/pyvenv.cfg",
+    "cfg_sha": "78989c73c08f515aadaf1ec5f8f24929021b48b284f4efc907a04938634af28b",
+    "base": "python.exe",
+    "base_sha": "7c2fc2b303a4ee3cc14cc17b47bc6e8bca98c78792edd123b846a560da44b203",
+    "dll": "python313.dll",
+    "dll_sha": "26026530507a7389e7892ce130e7c1753b32a2df03ec3721d45ad8c1705d40eb"
+  },
+  "seed": {
+    "original": "evidence/validation/LCL_R241_43_2_LOWER_BLOCK_001/original.json",
+    "original_sha": "99d92699cea529c235f3ed146805920d39c030b33d5651e0ba64ed8e1889d168",
+    "result": "evidence/validation/LCL_ORDINARY_43_2_EXTREME_SPINE_001/result.json",
+    "result_sha": "62a71cf47642426a79a48890d63680a1fbee393fe5fce42d4f4040eb87518207",
+    "digest": "2060a4e5a7d8f8ebc1906499facea2730250938d4550bb4c6ca34582a1f5b6e6",
+    "ledger": "af0e2be70013710c5b5b64c6c554512adfaad5ae0faa8ab63c146e428ed50a93"
+  },
+  "controls": [
+    {
+      "name": "common",
+      "profile": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "T": "YES",
+      "E": "YES"
+    },
+    {
+      "name": "adverse",
+      "profile": [
+        [
+          4
+        ],
+        [
+          4
+        ]
+      ],
+      "T": "NO",
+      "E": "NO"
+    },
+    {
+      "name": "separation",
+      "profile": [
+        [
+          3
+        ],
+        [
+          4,
+          0,
+          0,
+          0
+        ]
+      ],
+      "T": "NO",
+      "E": "YES"
+    }
+  ],
+  "allocator_control": {
+    "A": 2,
+    "B": 3,
+    "s": 7,
+    "quotas": [
+      3,
+      0,
+      1,
+      2,
+      1
+    ],
+    "expected": true
+  }
+}

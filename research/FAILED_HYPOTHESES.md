@@ -619,3 +619,7 @@ Failure of both D144 boundary recipes can occur for a feasible physical quota ve
 ## D147 independent exterior supply obstructions
 
 Within D143, a first section with no direct leaves and a second section with one positive center and no direct leaves cannot supply the first upper gap source. Its only upper host with gap leaves has maximal upper index B. With one first center and no first direct leaves and one second center plus at most three second direct leaves, the terminal-free arm also fails. It needs either a forbidden first-upper assignment or three gap direct leaves at w when at most two are available. The named profiles (3) and (2g+4,0,0,0) refute terminal-free sufficiency in this embedding because their terminal-enabled assignments are proved. Other graceful embeddings remain outside this conclusion. [Proof](ORDINARY_SPINE_EXTERIOR_SUPPLY_REASSESSMENT.md) · D147
+
+## D148 matched exterior terminal-free obstruction
+
+Within D143, a terminal-free exterior cannot complete the original profiles with one first center and no first direct leaves and two second centers with at most two second direct leaves. Actual host identities and the first three forced gap sources exceed the direct quota of w. This excludes Arm T throughout the specified subfamily. Arm E remains open and ordinary gracefulness outside D143 is unaffected. [Proof](../research/matched_exterior_001/CONTRACT.md)

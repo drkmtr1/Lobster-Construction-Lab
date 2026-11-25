@@ -1,0 +1,90 @@
+{
+  "research/matched_exterior_001/check_originals.py": ["main"],
+  "research/matched_exterior_001/campaign.py": [
+    "Limit",
+    "Meter",
+    "Meter.__init__",
+    "Meter.memory",
+    "Meter.tick",
+    "Meter.time_check",
+    "Meter.write",
+    "corpus",
+    "digest",
+    "evaluate",
+    "exact_runtime",
+    "gate",
+    "main",
+    "ordinary",
+    "read",
+    "run_worker",
+    "supervise",
+    "valid_relative"
+  ],
+  "research/matched_exterior_001/audit.py": [
+    "canonical",
+    "negative",
+    "original",
+    "positive",
+    "raw_support",
+    "raw_support.find",
+    "shape",
+    "verify_prefix"
+  ],
+  "research/matched_exterior_001/engine.py": [
+    "Case",
+    "assignment",
+    "assignment.ordinal",
+    "case_data",
+    "exterior_candidates",
+    "exterior_candidates.choose",
+    "exterior_candidates.label",
+    "exterior_candidates.label.place",
+    "exterior_candidates.reject",
+    "folded_support",
+    "folded_support.options",
+    "folded_support.positions",
+    "role_values",
+    "search",
+    "symbolic_exclusion"
+  ],
+  "research/matched_exterior_001/preflight.py": [
+    "definition_names",
+    "definition_names.walk",
+    "main",
+    "profile_set",
+    "safe",
+    "sha",
+    "verify_input"
+  ],
+  "research/matched_exterior_001/prepare.py": [
+    "declared_profiles",
+    "edge_weights",
+    "encoded",
+    "initialize",
+    "main",
+    "main.write",
+    "reconstruct",
+    "same_original",
+    "sha"
+  ],
+  "lcl/__init__.py": [],
+  "lcl/model.py": [
+    "_integer",
+    "_path_order",
+    "branched_prefix_profile",
+    "build_graph",
+    "graph_digest",
+    "load_graph",
+    "normalize_profile",
+    "validate_graph"
+  ],
+  "lcl/verify.py": [
+    "_check_graph",
+    "_check_labels",
+    "_digest",
+    "_profile_expected",
+    "verify_certificate",
+    "verify_graph",
+    "verify_partial"
+  ]
+}

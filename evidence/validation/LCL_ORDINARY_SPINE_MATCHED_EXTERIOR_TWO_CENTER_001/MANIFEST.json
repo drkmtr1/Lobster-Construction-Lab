@@ -1,0 +1,301 @@
+{
+  "schema_version": 1,
+  "task": "LCL-ORDINARY-SPINE-MATCHED-EXTERIOR-TWO-CENTER-001",
+  "parent": "71e19f656a8a049044567cf9de8f7a527d2eab53",
+  "status": "FROZEN_PREPARATION_ONLY",
+  "execution_authority": "REQUIRED_SEPARATELY",
+  "official_output": "runs/d148-matched-exterior-001",
+  "required_future_approval": "runs/d148-matched-exterior-001-authorization.json",
+  "target_counts": {
+    "total": 320,
+    "one_center": 86,
+    "two_center": 234,
+    "two_center_symbolic_T_exclusions": 68
+  },
+  "official_counts": {
+    "labelings": 0,
+    "arm_dispositions": 0,
+    "exterior_nodes": 0,
+    "transfer_states": 0,
+    "transitions": 0
+  },
+  "accepted_D147_manifest_sha256": "3b0ac54e4997dfcefcbb5b84de79aba6ba155913b9c834bc3456ecb66efbb42b",
+  "baseline_tag_object": "fddfc1dd9541324b2ed2de2505bc750b3e3f0b9d",
+  "baseline_peeled": "36ea1603602491bf3c1c5b81ed4c23aaa2210e70",
+  "mdl_pin": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+  "bounded_search_pin": "e48b94eec4091b4fe189e325cab2eda464409943",
+  "builder_blob": "8d1e9948e8bf5ef01e67c9afe0155412c57d79fa",
+  "checker_blob": "d008f35f0843e1a5c770db3e7f42ed7d987360d7",
+  "archive_identity_history": {
+    "historical_pilot_proof_sha256": "fc0b5f06fbd3c00d1a739b8838c3b19f2732ba5262aa2970e40b45049a676474",
+    "initial_pilot_proof_zip_sha256": "81bcd01eea2be333400de1c0ce512fcc2ceb9928f9720964c67fed706e375aa1",
+    "director_pilot_proof_zip_sha256": "418b8c19b4a7e5ae1183e94f31a60284e74d257312628160345650a20dd519b2"
+  },
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 8359,
+      "sha256": "e980f2ee51d2b69cfd8ab9c4955f9388ad14f9b7b78581729ef5a24dd21339e6"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_43_2_EXTREME_SPINE_001/result.json",
+      "bytes": 10909,
+      "sha256": "62a71cf47642426a79a48890d63680a1fbee393fe5fce42d4f4040eb87518207"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXTERIOR_SUPPLY_REASSESSMENT_001/MANIFEST.json",
+      "bytes": 1548,
+      "sha256": "3b0ac54e4997dfcefcbb5b84de79aba6ba155913b9c834bc3456ecb66efbb42b"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_MATCHED_EXTERIOR_TWO_CENTER_001/corpus-stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_MATCHED_EXTERIOR_TWO_CENTER_001/corpus-stdout.log",
+      "bytes": 297,
+      "sha256": "ff0a4dcdaff85a9ec5594438e4187a3a22b8ecec5c0e75e57dff1f2e9b5b7b4e"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_MATCHED_EXTERIOR_TWO_CENTER_001/input/corpus_index.json",
+      "bytes": 96825,
+      "sha256": "3ce493143cfce050396b44bd1e32435dce50368205c07c7f84a242fdd2b8649e"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_MATCHED_EXTERIOR_TWO_CENTER_001/input/corpus_receipt.json",
+      "bytes": 2151,
+      "sha256": "fd036addf2e4eea12dc99a6eb4cd0a3ee11797b548f266c46a1001e4f88219e0"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_MATCHED_EXTERIOR_TWO_CENTER_001/input/prefix.json",
+      "bytes": 5916,
+      "sha256": "e2f72bd883088b5034b3a7d2536fb1784ce8bcb3fd835083b42558a2709330d3"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_MATCHED_EXTERIOR_TWO_CENTER_001/input/targets-00.json",
+      "bytes": 138011,
+      "sha256": "30f13571ce74fbbf2e94e55fdbbc06d6562822c670db7e9c5c844bc7874f09a5"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_MATCHED_EXTERIOR_TWO_CENTER_001/input/targets-01.json",
+      "bytes": 139665,
+      "sha256": "b577bc1058c432f094efecaeb13a9d4a525f7bf0abe83e6319181f4f0331d395"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_MATCHED_EXTERIOR_TWO_CENTER_001/input/targets-02.json",
+      "bytes": 141701,
+      "sha256": "3764f56d87855879271a227588d31f4038ceaffbdb7bb70342a46aa40f6173e0"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_MATCHED_EXTERIOR_TWO_CENTER_001/input/targets-03.json",
+      "bytes": 141108,
+      "sha256": "9c675a2ef0066d0114d9a664d59269b8755c87b1b277876e68079a686128b791"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_MATCHED_EXTERIOR_TWO_CENTER_001/input/targets-04.json",
+      "bytes": 141240,
+      "sha256": "8200a7b5c0e5329e3da46f2c86d9bfa805932bb2cd49b36d92db6798ccec3253"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_MATCHED_EXTERIOR_TWO_CENTER_001/input/targets-05.json",
+      "bytes": 144456,
+      "sha256": "fe992056ba92f3121d6f5c9ff48f89b9429c5421e018247f904de22c1c234e8b"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_MATCHED_EXTERIOR_TWO_CENTER_001/input/targets-06.json",
+      "bytes": 141973,
+      "sha256": "501034445f9f1ff6d1b96b8cfe192554ec5a7b0f6ff1250afabfe6ef019c06dc"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_MATCHED_EXTERIOR_TWO_CENTER_001/input/targets-07.json",
+      "bytes": 145988,
+      "sha256": "538961fa3b9cec46fac52629a990da4075814f9e031c19c76432b26b0b419bc7"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_MATCHED_EXTERIOR_TWO_CENTER_001/input/targets-08.json",
+      "bytes": 144555,
+      "sha256": "7d781559d1b9ad85c8f2a1a5ba7c7c378568556f4e1d4cc781a563b75856bd34"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_MATCHED_EXTERIOR_TWO_CENTER_001/input/targets-09.json",
+      "bytes": 146273,
+      "sha256": "58d90489f61471a92be2ec9af8a1f13c6f2395e90e4aec0711bc3c8930ca0a7c"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_MATCHED_EXTERIOR_TWO_CENTER_001/input/targets-10.json",
+      "bytes": 140826,
+      "sha256": "bb5159f553d2c69a3fbfafca15506844e66e072b57729e466ab62c083b5b15c1"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_MATCHED_EXTERIOR_TWO_CENTER_001/input/targets-11.json",
+      "bytes": 141603,
+      "sha256": "6c529237469ee3e01479f6be066d039e9c3bd25f809f1089302c32c06678c735"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_MATCHED_EXTERIOR_TWO_CENTER_001/input/targets-12.json",
+      "bytes": 143310,
+      "sha256": "fbacd1ad1ef645b249a2cda56899438856fdb35be162b54ac84fd5bdf0c2244a"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_MATCHED_EXTERIOR_TWO_CENTER_001/input/targets-13.json",
+      "bytes": 49372,
+      "sha256": "378ab43a96c5dd06cdbc84e0f3c9803df3f019dc032d829d5b2d327dcc146e45"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_MATCHED_EXTERIOR_TWO_CENTER_001/preflight-stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_MATCHED_EXTERIOR_TWO_CENTER_001/preflight-stdout.log",
+      "bytes": 93,
+      "sha256": "02973c381bb262cbe11a6e4d33299cb36f24061cdb1fdaa3e815af29c90692ac"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_MATCHED_EXTERIOR_TWO_CENTER_001/PREFLIGHT.json",
+      "bytes": 7162,
+      "sha256": "ea5321b4d75c051ed9492f384779a6a44b22ff4ec16affc40fe00609fb7bdd97"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_MATCHED_EXTERIOR_TWO_CENTER_001/PREPARATION_SUPERVISION.json",
+      "bytes": 1463,
+      "sha256": "794adca3a263c2f4419cee4ecf92b1db23038dbe2455d888a28adb69cca1e622"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_MATCHED_EXTERIOR_TWO_CENTER_001/RAW_ORIGINAL_CHECK.json",
+      "bytes": 516,
+      "sha256": "71f94d9948da3240b0d5f7d3ae897834310c05850bdeb93ca4ff1b0f3f502383"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_MATCHED_EXTERIOR_TWO_CENTER_001/raw-original-check-stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_MATCHED_EXTERIOR_TWO_CENTER_001/raw-original-check-stdout.log",
+      "bytes": 541,
+      "sha256": "f264403a662a2232ac25d9fe824e487eeacfc724ffe43606d194b797e14a9616"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_MATCHED_EXTERIOR_TWO_CENTER_001/README.md",
+      "bytes": 753,
+      "sha256": "304721f9438f9476ab09e178bedaa3d321f1b1c47191e16f5d72b5cabd14b787"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_MATCHED_EXTERIOR_TWO_CENTER_001/REVIEWS.md",
+      "bytes": 2090,
+      "sha256": "c7b509cae8fab7e9c40742e76e1a5d2a524b91fb1e9e714f7b3625bc1efaf620"
+    },
+    {
+      "path": "evidence/validation/LCL_R241_43_2_LOWER_BLOCK_001/original.json",
+      "bytes": 2653,
+      "sha256": "99d92699cea529c235f3ed146805920d39c030b33d5651e0ba64ed8e1889d168"
+    },
+    {
+      "path": "handoffs/CODEX-20261124-matched-exterior-preparation.md",
+      "bytes": 2558,
+      "sha256": "0afaace0e779ea3fb042318fc96dc04eb247f64f1616963dbf90f4fd5fcef87a"
+    },
+    {
+      "path": "lcl/__init__.py",
+      "bytes": 80,
+      "sha256": "134055506d3e9cd4fa538177844d28a44d5ab567ec220cf54048e63d1a8a7374"
+    },
+    {
+      "path": "lcl/model.py",
+      "bytes": 10720,
+      "sha256": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6"
+    },
+    {
+      "path": "lcl/verify.py",
+      "bytes": 14075,
+      "sha256": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909"
+    },
+    {
+      "path": "research/matched_exterior_001/audit.py",
+      "bytes": 11644,
+      "sha256": "fd7b650c419057664e4689c59bc3b4f3ab67845f6b56e730e8cbf649a62fcceb"
+    },
+    {
+      "path": "research/matched_exterior_001/campaign.py",
+      "bytes": 18749,
+      "sha256": "bf56fc24bdccdfcd2a766d0fd85389f0bb484b442f9440c543f49532a7889874"
+    },
+    {
+      "path": "research/matched_exterior_001/check_originals.py",
+      "bytes": 3457,
+      "sha256": "4e3f1e49c02fc6399358248434e45333be146735280555f4c6ef09d2265318b6"
+    },
+    {
+      "path": "research/matched_exterior_001/config.json",
+      "bytes": 2486,
+      "sha256": "318b6e9918ae3e5c3ffaf6d47b98117224c443a15aab8ee4a691199ad53eed1f"
+    },
+    {
+      "path": "research/matched_exterior_001/CONTRACT.md",
+      "bytes": 11973,
+      "sha256": "c9eab259f7534777e97ab9bba7a0bd26e75d2e4ce9aee4296bee5fdfe4308ff4"
+    },
+    {
+      "path": "research/matched_exterior_001/DEFINITIONS.json",
+      "bytes": 1834,
+      "sha256": "38cbacf693387efd9a806bdf59644508d3f5a0701ae930a08ed768fa264e53a4"
+    },
+    {
+      "path": "research/matched_exterior_001/engine.py",
+      "bytes": 9210,
+      "sha256": "9781aceb9e14021c31688476a4a083ee0b1d6af7c012230a09fb647d46ab175d"
+    },
+    {
+      "path": "research/matched_exterior_001/preflight.py",
+      "bytes": 8127,
+      "sha256": "dbfdb26862ca99b54025fdb972a8f2ca321e3b758f456c100572d175feca291b"
+    },
+    {
+      "path": "research/matched_exterior_001/prepare.py",
+      "bytes": 9344,
+      "sha256": "8d8b7b20d9d6cddf5927701f45cbaca7e428a765475ae77823b2d34979afba01"
+    },
+    {
+      "path": "research/ORDINARY_43_2_EXTREME_SPINE.md",
+      "bytes": 3860,
+      "sha256": "b08106748481db95a9cf480e7d91b5098b77c1515427dcde8439aef811c45bf9"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_EXTERIOR_SUPPLY_REASSESSMENT.md",
+      "bytes": 22150,
+      "sha256": "29f602e6623b96f2c043a665ca9355cf04829c89ae65c58ef731ee46bd810fa5"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_PIECEWISE_CUT_SPECTRUM_TRANSITION.md",
+      "bytes": 16708,
+      "sha256": "2b9b52c24293110f8e0b59b4ac73af11e4c14e77cb5ff7355ced236b6d271839"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_TWO_SECTION_CUT_STATE.md",
+      "bytes": 24015,
+      "sha256": "a7b4d98f286225bfb887866ce1b6167281b52bb650fcf53a50b0a5060e152cf8"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_TWO_SECTION_EXACT_GAP_CRITERION.md",
+      "bytes": 19894,
+      "sha256": "dcfbdfa182ea3fec835f11a4508b57bc57d5cef976d3b14a7ded6e468e6ce5f2"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_TWO_SECTION_GAP_ALLOCATION.md",
+      "bytes": 20140,
+      "sha256": "582d8576f9a710b9a52d70ba9fb3f47fa289ea05f50cf6617d7889a5a36f5648"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_TWO_SECTION_GENERAL_GAP_CRITERION.md",
+      "bytes": 23630,
+      "sha256": "0221114b657dde0c1bcf64ae5fece4f0a8eca26f6d6e52eb8d5f1d1656946cd6"
+    },
+    {
+      "path": "STATE.md",
+      "bytes": 82215,
+      "sha256": "563b1d0813a6dab925afd702bb6efce19ab3180fe4256be69ad312983dc67953"
+    }
+  ]
+}

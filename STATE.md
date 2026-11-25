@@ -2,7 +2,7 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 24, 2026, Pacific/Honolulu<br>
-**Stage:** D147 symbolic reassessment complete, **PENDING DIRECTOR REVIEW**. D145 and D146 are **ACCEPTED** within their written scopes. **Project instructions KEEP v10.** The Owner reported restoring the saved v10 instructions.
+**Stage:** D147 **ACCEPTED** within its written scope. D148 matched exterior study **FROZEN PREPARATION ONLY — AWAITING EXECUTION AUTHORIZATION**. **Project instructions KEEP v10.** The Owner reported restoring the saved v10 instructions.
 
 ## Current scientific objective
 
@@ -16,9 +16,11 @@ The Director accepted D146 as an exact symbolic physical quota criterion at gene
 
 D147 proves two forced exterior incidences, a terminal balance identity, a paired exterior supplier, and scoped topology obstructions. The prescribed profiles (3) and (2g+4,0,0,0) admit an exterior with terminals and exclude every terminal-free exterior under the same D143 interface. The proposed matched study targets a different stratum, two positive centers in the second section. [D147 proof and proposal](research/ORDINARY_SPINE_EXTERIOR_SUPPLY_REASSESSMENT.md) · [Handoff](handoffs/CODEX-20261124-ordinary-spine-exterior-supply-reassessment.md)
 
+D148 preparation fixes one independently initialized D105/D134 prefix and 320 named original targets, including 234 two-center and 86 one-center targets. A symbolic forced-source argument excludes Arm T for 68 two-center corpus targets. The future campaign and independent audit are frozen. No candidate exterior or transfer was evaluated. [Preparation contract](research/matched_exterior_001/CONTRACT.md) · [Preparation handoff](handoffs/CODEX-20261124-matched-exterior-preparation.md)
+
 ## One next action
 
-Under separate authorization, run the bounded matched terminal-free versus terminal-enabled exterior study proposed in D147 Section 6. Test whether an E-only original target occurs when the second section has two positive centers, using the identical named target and D143 interface in both arms, exact D146 support and an independent original-target audit.
+Under separate Owner authorization, execute the frozen matched exterior study `LCL-ORDINARY-SPINE-MATCHED-EXTERIOR-TWO-CENTER-001` exactly once using the reviewed preparation manifest and approval gate. Test for a checked E-only target in the two-center second-section stratum and preserve audited negatives and all INCOMPLETE dispositions within the frozen limits.
 
 ## Deferred obligations
 

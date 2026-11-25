@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "phases": [
+    {
+      "phase": "corpus",
+      "executable_name": "python.exe",
+      "executable_sha256": "7c2fc2b303a4ee3cc14cc17b47bc6e8bca98c78792edd123b846a560da44b203",
+      "exit_code": 0,
+      "timeout": false,
+      "wall_seconds": 0.8533514,
+      "cpu_seconds_from_handle": 0.5625,
+      "stdout_bytes": 297,
+      "stderr_bytes": 0
+    },
+    {
+      "phase": "raw-original-check",
+      "executable_name": "python.exe",
+      "executable_sha256": "7c2fc2b303a4ee3cc14cc17b47bc6e8bca98c78792edd123b846a560da44b203",
+      "exit_code": 0,
+      "timeout": false,
+      "wall_seconds": 0.8486385,
+      "cpu_seconds_from_handle": 0.609375,
+      "stdout_bytes": 541,
+      "stderr_bytes": 0
+    },
+    {
+      "phase": "preflight",
+      "executable_name": "python.exe",
+      "executable_sha256": "7c2fc2b303a4ee3cc14cc17b47bc6e8bca98c78792edd123b846a560da44b203",
+      "exit_code": 0,
+      "timeout": false,
+      "wall_seconds": 0.759334,
+      "cpu_seconds_from_handle": 0.609375,
+      "stdout_bytes": 93,
+      "stderr_bytes": 0
+    }
+  ],
+  "cpu_seconds": 1.78125,
+  "wall_seconds": 2.4613239,
+  "external_method": "Parent stopwatch and process handle, direct preinstalled base executable, one worker at a time; 120-second external timeout per preparatory phase.",
+  "official_work": {
+    "dispositions": 0,
+    "exterior_nodes": 0,
+    "transfer_states": 0,
+    "transitions": 0,
+    "official_labelings": 0
+  }
+}
