@@ -1,0 +1,62 @@
+{
+  "definitions": {
+    "audit.py": [
+      "original_context",
+      "count_first",
+      "expanded",
+      "raw_allocation",
+      "raw_allocation.descend",
+      "negative",
+      "positive"
+    ],
+    "bindings.py": [
+      "encoded",
+      "sha",
+      "read",
+      "ordinary",
+      "write_new",
+      "load_exact",
+      "exact_runtime"
+    ],
+    "campaign.py": [
+      "bindings",
+      "relative",
+      "gate",
+      "corpus",
+      "disposition",
+      "worker",
+      "supervise",
+      "main"
+    ],
+    "preflight.py": [
+      "ordinary",
+      "sha",
+      "encoded",
+      "definitions",
+      "definitions.collect",
+      "corpus",
+      "main"
+    ],
+    "prepare.py": [
+      "bindings",
+      "outgoing_prefix",
+      "profiles",
+      "main"
+    ],
+    "primary.py": [
+      "physical",
+      "candidates",
+      "candidates.visit",
+      "gap_support",
+      "gap_support.visit",
+      "search"
+    ]
+  },
+  "no_task_bytecode": true,
+  "no_task_imports": true,
+  "official_paths_vacant": true,
+  "preflight_sha256": "a22f41e5ed68fc55634e7d78322bed040aabed6a91b81a228c315bde21d07028",
+  "process_cpu_seconds": 0.015625,
+  "source_sha256": "9ad08026e93befdb549649e2f294e411b9768cd265423d993b2159c6e9232400",
+  "status": "PASS_PARSE_ONLY_DEEP_DEFINITION_INVENTORY"
+}

@@ -1,0 +1,15 @@
+# D161 handoff — first-quota-four matched exceptional exterior preparation
+
+November 25, 2026, Pacific/Honolulu. Task `LCL-ORDINARY-SPINE-EXCEPTIONAL-FIVE-HOST-QUOTA-FOUR-MATCHED-001-PREP`. Starting checkpoint `cdc124cef631b5a158bd0a0d66c98e0dda34de84`. **PREPARED / PENDING DIRECTOR REVIEW / NOT AUTHORIZED FOR EXECUTION.**
+
+Director acceptance of D160 is recorded within its exact written scope. Verified frozen proof `0ce4053e4d5b8082fc62d7a008aa7875680ff9505c9f9e0b7d4568cfa2e90254` and manifest `d4b11a7db2e0b1227943a0f98e301bb2a2c5ec3ce5e054bbff6b36b822de5717`, all six files and fifteen intake bindings. The Bounded Search local recovery checkout and observed remote recovery tip remain distinct. Both authoritative upstream main pins reconcile. [D160 proof](../research/ORDINARY_SPINE_EXCEPTIONAL_FIVE_HOST_EXTERIOR_SUPPLY.md) · [Custody](../evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FIVE_HOST_QUOTA_FOUR_MATCHED_001_PREP/CUSTODY.json)
+
+The unique quota-four first center must supply the first four coordinates as gap leaves. Destination four forces the last coordinate to an actual second center of upper index two. The separate first physically upper source adds a second use there at B=4. The physical count, width and terminal-balance proofs yield three simultaneous symbolic arm exclusions and 36 further E+ exclusions among 99 named originals. Sixty originals remain eligible for the unresolved terminal-enabled separation question. Raw exterior existence on both arms is proved across the entire corpus. [Contract](../research/exceptional_quota_four_001/CONTRACT.md)
+
+One D157 outbound formula on the retained D134 input supplies the n=74 maximum-frontier prefix with actual cut 39. All original targets were reconstructed independently and frozen in exact lexical order. The primary and independent methods preserve all compatible exteriors through proved gates and same-parent canonical transport. The unchanged checker is required for every future positive. The proposed one-worker execution budgets, memory ceiling, exact command and completeness/evidence rules are in the contract. No target labeling, exterior search, allocation, fixtures or official campaign ran. [Manifest](../evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FIVE_HOST_QUOTA_FOUR_MATCHED_001_PREP/MANIFEST.json) · [Preparation supervision](../evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FIVE_HOST_QUOTA_FOUR_MATCHED_001_PREP/PREPARATION_SUPERVISION.json) · [Review](../evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FIVE_HOST_QUOTA_FOUR_MATCHED_001_PREP/REVIEWS.md)
+
+D154 remains COMPLETE with its accepted finite falsifications. D148 remains INCOMPLETE_EXTERIOR_NODE_CAP with twelve pairs undecided. The original pilot is closed, D130 sealed and 2322 DEFERRED / UNSTARTED. Project instructions KEEP v11.
+
+## One next action
+
+After Director review, obtain separate Owner authorization for one official execution of the frozen D161 first-quota-four matched exceptional exterior diagnostic. No execution is presently authorized.
