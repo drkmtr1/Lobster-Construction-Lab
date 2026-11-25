@@ -946,3 +946,9 @@ The selected E+ and T feasibility questions for second quotas two and four are r
 ## D163 packet extension and next physical supply question
 
 The selected packet extension is proved with the exact declared fixed-exterior obstruction, complete T classification and p=2 complete E+ classification by accepted finite negative transport. Independent exterior supply at wider center multiplicities and alternate E+ feasibility when p≥3 and both odd quotas are one remain open. The single proposed next action concerns physical exterior supply on parity-compatible originals with four first centers. That separately Owner-gated matched diagnostic is UNSTARTED and no preparation occurred. The 2322 investigation remains separately DEFERRED / UNSTARTED. [D163 proof](ORDINARY_SPINE_EXCEPTIONAL_EVEN_SECOND_QUOTA_EXTENSION.md) · [Evidence](../evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_EVEN_SECOND_QUOTA_EXTENSION_001/README.md)
+
+## D164 — Frozen matched diagnostic
+
+Discharged symbolically for preparation: topology parity, raw existence, forced neutral and fifth-image reservations, exact width and capacity restrictions, census, complete primary and independent representative coverage, resource-state equivalence, original-index reconstruction, and exceptional return semantics. Frozen diagnostics preserve exact certificates, independently audited negatives and incomplete dispositions separately.
+
+Open: decide whether any of the 2,304 named originals admits E+ with independently audited T infeasibility, and retain the physical mechanisms of any such event. Official execution requires Director review and separate Owner authorization. The prepared symbolic classifications do not substitute for unresolved arm dispositions. [Contract](exceptional_four_first_001/CONTRACT.md)
