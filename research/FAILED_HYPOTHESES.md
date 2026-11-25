@@ -643,3 +643,7 @@ With exactly one positive center and no direct leaves at u, any completion in th
 ## D152 scoped terminal-enabled exclusions
 
 Within the D152 profiles, size regime and D143 contract, r=1 is impossible with any second quotas. For r≥2 and max(p,q)≤2, only the parameter triple (4,2,2) admits a terminal-enabled completion. Width A=3 and Δ=2 is ruled out by the parity of the total Q quota and the difference of its two source-side counts. At A=5 only the balanced small-quota setting can reach the gap constraints. The checked A=5, Δ=2 boundary gives the single exception. D149's terminal-free exclusion and other embedding scopes are unchanged. [Proof](ORDINARY_SPINE_TWO_DIRECT_LEAF_BOUNDARY.md)
+
+## D153 two-first-center odd-class obstruction
+
+For ordered (2r+1,2t), (2p,2q,0) with independently prescribed exact r,t,p,q≥1, both original fresh graph classes have odd cardinality. The total extension size is even, and the exact D143 interface still requires each class to be even. Thus every terminal-enabled or terminal-free D143 completion is excluded in the stated size and prefix regime. D151 also gives a distinct symbolic control where both parities and the aggregate crossing counts pass, while the actual gap assignment fails. The claim stays within D143 and preserves all previous obstruction and supplier scopes. [Proof](ORDINARY_SPINE_TWO_SECTION_TOPOLOGICAL_PARITY.md)
