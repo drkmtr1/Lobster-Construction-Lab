@@ -847,6 +847,12 @@ An independent exterior labeling and the passing quota arithmetic suffice for th
 
 ## D145 fixed-exterior quota criterion remaining scope
 
-The fixed exterior and exact known D143 incoming interface are premises. The symbolic transfer settles quota feasibility on that fixed labeling. A simpler quota formula, general independently available exterior labelings, and exact transfer geometry at other exterior widths remain open.
+The fixed exterior and exact known D143 incoming interface are premises. The D145 symbolic transfer settles quota feasibility on that fixed labeling. D146 extends the exact transfer geometry. A simpler quota formula and general independently available exterior labelings remain open.
 
-**UNSTARTED — AWAITING OWNER AUTHORIZATION.** Proposed task `LCL-ORDINARY-SPINE-TWO-SECTION-GENERAL-GAP-CRITERION-001`. Under separate authorization, determine whether the D145 folded transfer gives an exact symbolic quota criterion for independently supplied D143 exteriors at general fixed widths A and B. Prove the frontier bound in terms of those widths and the exact boundary rules while preserving actual named hosts, both crossing inventories and the same embedding. Use no numerical search.
+**PROVED / PENDING DIRECTOR REVIEW** for exact physical gap allocation on a supplied named D143 exterior at general widths. The transfer decides all quota vectors for the declared placement. [Proof](ORDINARY_SPINE_TWO_SECTION_GENERAL_GAP_CRITERION.md)
+
+## D146 general-width gap criterion remaining scope
+
+The general allocation consumer is exact given the independently supplied named D143 exterior labeling, quota vector, old input state and unchanged embedding. Independent exterior supply for original two-section topologies and the scope of original targets admitting such exteriors remain unresolved. A failed quota test excludes the particular declared labeling and host quotas within this placement.
+
+**UNSTARTED — AWAITING SEPARATE AUTHORIZATION.** Under separate authorization, reassess independent named exterior supply for original two-section topologies in the D143 embedding. Identify a structural supplier or obstruction worth pursuing beyond the existing exterior families, and compare symbolic construction, bounded computational discovery, and hybrid discovery followed by proof by their mathematical potential. Preserve the actual named target and both resource inventories.

@@ -2,7 +2,7 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 24, 2026, Pacific/Honolulu<br>
-**Stage:** D145 **ACCEPTED** within its written scope. Proposed general-width task `LCL-ORDINARY-SPINE-TWO-SECTION-GENERAL-GAP-CRITERION-001` is **UNSTARTED — AWAITING OWNER AUTHORIZATION**. **Project instructions KEEP v10.** The Owner reported restoring the saved v10 instructions.
+**Stage:** D146 symbolic proof complete, **PENDING DIRECTOR REVIEW**. D145 remains **ACCEPTED** within its written scope. **Project instructions KEEP v10.** The Owner reported restoring the saved v10 instructions.
 
 ## Current scientific objective
 
@@ -10,11 +10,13 @@ Develop independently supplied ordinary graceful constructions and reusable tran
 
 D143 proves a same-polarity exterior-tree and gap reduction for an exact D134 p=1 return across two sections in the declared embedding class. It supplies a repeatable family with an odd first-section edge count and immutable final-alphabet realization. General compatible exterior and gap supply remain open. D142's single-section scopes remain unchanged. [D143 proof](research/ORDINARY_SPINE_TWO_SECTION_CUT_STATE.md) · [Director acceptance handoff](handoffs/CODEX-20261124-d143-director-acceptance.md)
 
-The Director accepted D144 as a sufficient quota rule on the declared D143 interface, along with its necessary host tests and scoped obstructions. D145 gives an exact symbolic coefficient criterion for all quotas on the fixed five-vertex exterior, including a family rejected by both D144 packet boundary rules. Exact feasibility for other exteriors and general exterior supply remain open. [D144 proof](research/ORDINARY_SPINE_TWO_SECTION_GAP_ALLOCATION.md) · [D145 proof](research/ORDINARY_SPINE_TWO_SECTION_EXACT_GAP_CRITERION.md) · [Director acceptance handoff](handoffs/CODEX-20261124-d145-director-acceptance.md)
+The Director accepted D144 as a sufficient quota rule on the declared D143 interface, along with its necessary host tests and scoped obstructions. D145 gives an exact symbolic coefficient criterion for all quotas on the fixed five-vertex exterior, including a family rejected by both D144 packet boundary rules. Independent exterior supply for general original topologies remains open. [D144 proof](research/ORDINARY_SPINE_TWO_SECTION_GAP_ALLOCATION.md) · [D145 proof](research/ORDINARY_SPINE_TWO_SECTION_EXACT_GAP_CRITERION.md) · [Director acceptance handoff](handoffs/CODEX-20261124-d145-director-acceptance.md)
+
+D146 gives an exact symbolic physical quota criterion at general widths for independently supplied named D143 exteriors. Its bounded folded transfer preserves both crossing inventories and gives constructive extraction, the exact external return and admitted finite composition. The next structural issue is independent exterior supply for original topologies. [D146 proof](research/ORDINARY_SPINE_TWO_SECTION_GENERAL_GAP_CRITERION.md) · [Handoff](handoffs/CODEX-20261124-ordinary-spine-two-section-general-gap-criterion.md)
 
 ## One next action
 
-Under separate authorization, determine whether the D145 folded transfer gives an exact symbolic quota criterion for independently supplied D143 exteriors at general fixed widths A and B. Prove the frontier bound in terms of those widths and the exact boundary rules while preserving actual named hosts, both crossing inventories and the same embedding. Use no numerical search.
+Under separate authorization, reassess independent named exterior supply for original two-section topologies in the D143 embedding. Identify a structural supplier or obstruction worth pursuing beyond the existing exterior families, and compare symbolic construction, bounded computational discovery, and hybrid discovery followed by proof by their mathematical potential. Preserve the actual named target and both resource inventories.
 
 ## Deferred obligations
 
