@@ -843,10 +843,10 @@ The frozen hypothesis, falsifiers, proofs and review records remain in the [exte
 
 An independent exterior labeling and the passing quota arithmetic suffice for this allocation rule, including on the new exterior family. The aggregate inequalities, parity and individual source windows alone do not establish feasibility. No necessity claim is made for the recipe's boundary choices, residue convention or width limit.
 
-**PROVED / PENDING DIRECTOR REVIEW** in the independent D143 five-vertex exterior class. D145 gives an exact transfer criterion, constructive extraction and an explicit family separating feasibility from packet rejection. [Proof](ORDINARY_SPINE_TWO_SECTION_EXACT_GAP_CRITERION.md)
+**DIRECTOR ACCEPTED** in the stated independently supplied D143 five-vertex exterior class. D145 gives an exact transfer criterion, constructive extraction and an explicit family separating feasibility from packet rejection. [Proof](ORDINARY_SPINE_TWO_SECTION_EXACT_GAP_CRITERION.md)
 
 ## D145 fixed-exterior quota criterion remaining scope
 
 The fixed exterior and exact known D143 incoming interface are premises. The symbolic transfer settles quota feasibility on that fixed labeling. A simpler quota formula, general independently available exterior labelings, and exact transfer geometry at other exterior widths remain open.
 
-**UNSTARTED — AWAITING SEPARATE AUTHORIZATION.** Under separate authorization, determine whether the D145 folded transfer gives an exact symbolic quota criterion for independently supplied D143 exteriors at general fixed widths A and B. Prove the frontier bound in terms of those widths and the exact boundary rules while preserving actual named hosts, both crossing inventories and the same embedding. Use no numerical search.
+**UNSTARTED — AWAITING OWNER AUTHORIZATION.** Proposed task `LCL-ORDINARY-SPINE-TWO-SECTION-GENERAL-GAP-CRITERION-001`. Under separate authorization, determine whether the D145 folded transfer gives an exact symbolic quota criterion for independently supplied D143 exteriors at general fixed widths A and B. Prove the frontier bound in terms of those widths and the exact boundary rules while preserving actual named hosts, both crossing inventories and the same embedding. Use no numerical search.
