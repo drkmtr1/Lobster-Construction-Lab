@@ -2,19 +2,21 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 24, 2026, Pacific/Honolulu<br>
-**Stage:** D141 canonical boundary-block spectral obstruction **ACCEPTED**. Bounded retained-evidence verification **PASS**. [Proof](research/ORDINARY_SPINE_BOUNDARY_BLOCK_SPECTRAL_OBSTRUCTION.md).
+**Stage:** D142 variable-exterior old-image conditions and scoped obstructions **ACCEPTED**. Full fresh feasibility unresolved. Bounded retained-evidence verification **PASS**. [Proof](research/ORDINARY_SPINE_VARIABLE_EXTERIOR_BRIDGE.md).
 
 ## Current scientific objective
 
-Develop independent ordinary graceful transitions with usable physical ports. The [latest handoff](handoffs/CODEX-20261124-ordinary-spine-boundary-block-spectral-obstruction.md) proves the canonical three-translation bounds on actual boundary-block incidences, including a uniformly excluded independently supplied non-leaf family. The next priority is a structural change to the exterior placement.
+Develop independent ordinary graceful transitions with usable physical ports. The [latest handoff](handoffs/CODEX-20261124-ordinary-spine-variable-exterior-bridge.md) establishes exact old-image admission and scoped exterior obstructions for the D141 non-leaf family. Full fresh feasibility remains open. The next priority is a two-section composition with a more flexible intermediate state.
 
 ## One next action
 
-Under separate authorization, test the consecutive boundary-block embedding with variable lower and upper exterior widths A and B and with fresh physical roles allowed in any unused interval. Use the independently supplied D141 non-leaf input family with the exact D134 p=1 return and preserve actual named incidences and old designated-cut membership. Derive exact connector and weight-range constraints for the noncanonical placement, and prove a parameterized reusable bridge or a scoped obstruction for this broader class. Use no numerical allocation, alternate-placement search, solver, enumeration or profile sweep.
+Under separate authorization, test an ordinary spine transition appending two actual consecutive sections with one exact external D134 p=1 return and no imposed intermediate half-spectrum. Derive the combined fresh label and difference reserves and an independently supplied intermediate crossing state. Prove a parameterized reusable composition or a scoped obstruction, preserving the actual named incidences and exact final inventories. Use symbolic mathematics without numerical search, placement sweeps or solver calls.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
+
+- D142 **PROVES** exact old-image admission for both cut regimes on the D141 non-leaf family, forced frontier polarity, exact residual demands and a physical crossing balance for arbitrary h in the declared size regime. For B≤a, exterior connectivity forces B=1 and A≤h. An exact endpoint window further excludes part of the smaller-cut regime. Full fresh-placement feasibility remains unresolved. See [proof](research/ORDINARY_SPINE_VARIABLE_EXTERIOR_BRIDGE.md) and [evidence](evidence/validation/LCL_ORDINARY_SPINE_VARIABLE_EXTERIOR_BRIDGE_001/README.md).
 
 - D141 **PROVES** the canonical three-translation necessary conditions h=p+p'+1 and R⊆[d,d+p'−1], plus min P≥a+1 when P is nonempty and the empty-P first-gap exclusion. At p=p'=1 a successful singleton forces an actual degree-one vertex with the unique weight-d edge. The exact D140 and D139 preparatory leaf strips rule out k≥2 for p'=1. On the first D134 p=1 initializer family both additional-cut cases exclude every canonical positive-gap three-center bridge. D139 and D140 keep their positive singleton domains. See [proof](research/ORDINARY_SPINE_BOUNDARY_BLOCK_SPECTRAL_OBSTRUCTION.md) and [evidence](evidence/validation/LCL_ORDINARY_SPINE_BOUNDARY_BLOCK_SPECTRAL_OBSTRUCTION_001/README.md).
 

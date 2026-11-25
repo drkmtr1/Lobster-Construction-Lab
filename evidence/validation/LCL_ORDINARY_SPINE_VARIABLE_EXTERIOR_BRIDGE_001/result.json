@@ -1,0 +1,2314 @@
+{
+  "D104_alpha_disposition": {
+    "binding": {
+      "manifest": "evidence/validation/LCL_R241_43_2_LEFT_TERMINAL_ZERO_001/MANIFEST.json",
+      "manifest_sha256": "19a9a4c1e62844e7989139903eee8ae27978b32fc8991507eb861babfbbda681",
+      "proof": {
+        "path": "research/R241_43_2_LEFT_TERMINAL_ZERO.md",
+        "sha256": "fdc9ce38e8b8734d61f473ddeef6e00d89286dbf7a26ab03a2dbba4bb58119e6"
+      },
+      "result_sha256": "36d36175df8a562f727c1abde12eb13a7bac2caffe5e068e41936f0c31c5e902",
+      "task": "LCL-R241-43-2-LEFT-TERMINAL-ZERO-001"
+    },
+    "disposition_scope": {
+      "additional_cut_tests": 0,
+      "alpha_labeling": "EXCLUDED",
+      "complement": "13-f(v)",
+      "cut_5": "EXCLUDED_BY_COMPLEMENT",
+      "cut_9": "EXCLUDED",
+      "graph_digest": "2060a4e5a7d8f8ebc1906499facea2730250938d4550bb4c6ca34582a1f5b6e6",
+      "ordinary_gracefulness": "UNDECIDED",
+      "original_sha256": "99d92699cea529c235f3ed146805920d39c030b33d5651e0ba64ed8e1889d168",
+      "status": "PASS",
+      "zero_hosts_excluded": {
+        "D102": "b:1:0",
+        "D103": "s:0",
+        "D104": [
+          "l:0:0:0",
+          "l:0:0:1",
+          "l:0:0:2",
+          "l:0:0:3",
+          "l:0:1:0",
+          "l:0:1:1",
+          "l:0:1:2"
+        ]
+      }
+    },
+    "historical_alpha_procedure_replayed": false
+  },
+  "D131_binding": {
+    "manifest": "evidence/validation/LCL_ORDINARY_SPINE_DEFICIT_TRANSITION_001/MANIFEST.json",
+    "manifest_sha256": "5a03f63cf7d44a55640f332d723c53d440a58bae89047e454804fc0e0fd88b42",
+    "proof": {
+      "path": "research/ORDINARY_SPINE_DEFICIT_TRANSITION.md",
+      "sha256": "77e3028f3c99a93f5e38c3545b88cfc4454168c348e01c6bd9a22eb38abf8865"
+    },
+    "result_sha256": "0f2341b8307f1353b1919786f95004ab9a1995354777da8036bf8fcc4634a0dd",
+    "task": "LCL-ORDINARY-SPINE-DEFICIT-TRANSITION-001"
+  },
+  "D132_binding": {
+    "manifest": "evidence/validation/LCL_ORDINARY_SPINE_TWO_CENTER_AFFINE_TRANSITION_001/MANIFEST.json",
+    "manifest_sha256": "cd09c9e700aa16a2660a42c46ce1b335a52feb0d97471179dba64489353807bb",
+    "proof": {
+      "path": "research/ORDINARY_SPINE_TWO_CENTER_AFFINE_TRANSITION.md",
+      "sha256": "59d5f08b3411804caf60592f65edf481404338410bd165f4acec21b24ec15868"
+    },
+    "result_sha256": "7575330cb45714026b7c71512af1f21e9f299edf57c784da9e5c92aeaab6b54d",
+    "task": "LCL-ORDINARY-SPINE-TWO-CENTER-AFFINE-TRANSITION-001"
+  },
+  "D133_binding": {
+    "manifest": "evidence/validation/LCL_ORDINARY_SPINE_ARBITRARY_CENTER_AFFINE_OBSTRUCTION_001/MANIFEST.json",
+    "manifest_sha256": "16bcfef7a3d6c8a48c2f975776b037332c3a71958b8e5939fa540579b4313bc5",
+    "proof": {
+      "path": "research/ORDINARY_SPINE_ARBITRARY_CENTER_AFFINE_OBSTRUCTION.md",
+      "sha256": "2677c91e3d8a18fdcacb8fca2fef933dc3508b845eb8c1fb0754753102e83ccc"
+    },
+    "result_sha256": "a4ee6ec324057331b11748f00f93cfcbeff5b7f8aa0f2443fae58d495bf9e8f8",
+    "task": "LCL-ORDINARY-SPINE-ARBITRARY-CENTER-AFFINE-OBSTRUCTION-001"
+  },
+  "D134_binding": {
+    "manifest": "evidence/validation/LCL_ORDINARY_SPINE_PIECEWISE_CUT_SPECTRUM_TRANSITION_001/MANIFEST.json",
+    "manifest_sha256": "933d6a6e5da2667b0573587c9218c1a4968ca4190e89add72b6988f06b766cf2",
+    "proof": {
+      "path": "research/ORDINARY_SPINE_PIECEWISE_CUT_SPECTRUM_TRANSITION.md",
+      "sha256": "2b9b52c24293110f8e0b59b4ac73af11e4c14e77cb5ff7355ced236b6d271839"
+    },
+    "result_sha256": "7d2dd838312dc8b6464f0b763e0e7cf250dce9ec0a8384aaf398656c2c9ea9b4",
+    "task": "LCL-ORDINARY-SPINE-PIECEWISE-CUT-SPECTRUM-TRANSITION-001"
+  },
+  "D135_binding": {
+    "manifest": "evidence/validation/LCL_ORDINARY_SPINE_GENERAL_DISPLACEMENT_CYCLE_ALLOCATION_001/MANIFEST.json",
+    "manifest_sha256": "3806372411d9ec2e2795f2f2badb6ff1804efd2e550c58ab8f2c28cd51e95cc4",
+    "proof": {
+      "path": "research/ORDINARY_SPINE_GENERAL_DISPLACEMENT_CYCLE_ALLOCATION.md",
+      "sha256": "9a57abf2b009c441b6b6e66db332dd11d0d999bfa8952c60e4c4220f638a3fb9"
+    },
+    "result_sha256": "92f911799ad0704a6bd05f233588da151aae659ff2cb3dfd7d2da2036afcd2c2",
+    "task": "LCL-ORDINARY-SPINE-GENERAL-DISPLACEMENT-CYCLE-ALLOCATION-001"
+  },
+  "D136_binding": {
+    "manifest": "evidence/validation/LCL_ORDINARY_SPINE_INTERLEAVED_ROTATION_PACKET_ALLOCATION_001/MANIFEST.json",
+    "manifest_sha256": "c00e77ca239c0947a83f0b38e9272510c25efbddfc7b0bb236b0f1d946ebdf36",
+    "proof": {
+      "path": "research/ORDINARY_SPINE_INTERLEAVED_ROTATION_PACKET_ALLOCATION.md",
+      "sha256": "883ab9205a8f8b0df588f7bc6dff64a961e8281f1945bfee5974e8470def7495"
+    },
+    "result_sha256": "2eb18ee548bb6b2a5cbae148e34b5b0dcadcefaa23deb16152354692f6b959d9",
+    "task": "LCL-ORDINARY-SPINE-INTERLEAVED-ROTATION-PACKET-ALLOCATION-001"
+  },
+  "D137_binding": {
+    "manifest": "evidence/validation/LCL_ORDINARY_SPINE_MIXED_MULTIPLICITY_CUT_STATE_BRIDGE_001/MANIFEST.json",
+    "manifest_sha256": "b038b37c0bd5fecbddb4f2f0cf9aee3a8f728f5268977a7e8cfa7af1e8f99086",
+    "proof": {
+      "path": "research/ORDINARY_SPINE_MIXED_MULTIPLICITY_CUT_STATE_BRIDGE.md",
+      "sha256": "e7f24d6d5d617a954ef7d117da06deeae9cb4edc944bc8462d83ae52a3d34620"
+    },
+    "result_sha256": "91cfb269ef854751086a4dafb7fa1553327bd849a8806fb938cba2a404ca3cbc",
+    "task": "LCL-ORDINARY-SPINE-MIXED-MULTIPLICITY-CUT-STATE-BRIDGE-001"
+  },
+  "D138_binding": {
+    "manifest": "evidence/validation/LCL_ORDINARY_SPINE_CANONICAL_PLACEMENT_RIGIDITY_001/MANIFEST.json",
+    "manifest_sha256": "b08ed613f3304527e0065455cef56e021f228ffcfe8e7943fa07b09b3b250e4f",
+    "proof": {
+      "path": "research/ORDINARY_SPINE_CANONICAL_PLACEMENT_RIGIDITY.md",
+      "sha256": "e0573a8f7d5fd525df00ce731026ef8e5d6930f16d6dd731fec6793b0d23fb63"
+    },
+    "result_sha256": "8fbf7e4a6defd05203bf4535064bec49aeca64bd7def56678490157d95563699",
+    "task": "LCL-ORDINARY-SPINE-CANONICAL-PLACEMENT-RIGIDITY-001"
+  },
+  "D139_binding": {
+    "manifest": "evidence/validation/LCL_ORDINARY_SPINE_TWO_CUT_BOUNDARY_LEAF_BRIDGE_001/MANIFEST.json",
+    "manifest_sha256": "a2967525ead7a1debf7473a503a5ebb6b17befdea16d9f80b3d04578f320d4e7",
+    "proof": {
+      "path": "research/ORDINARY_SPINE_TWO_CUT_BOUNDARY_LEAF_BRIDGE.md",
+      "sha256": "47c61e74873add329dce502cbd8205cd583d8cc184d1cfb44be1afae7b60698c"
+    },
+    "result_sha256": "622a4e017c05c6066a88753fbd6515fc313f312bf342856eb48c1c9444bd657d",
+    "task": "LCL-ORDINARY-SPINE-TWO-CUT-BOUNDARY-LEAF-BRIDGE-001"
+  },
+  "D140_binding": {
+    "manifest": "evidence/validation/LCL_ORDINARY_SPINE_TWO_CUT_EXACT_QUOTA_CLASSIFICATION_001/MANIFEST.json",
+    "manifest_sha256": "69664fcc127e1e77f89c4703d47f280594af5e55853f2ee71426969216b53df0",
+    "proof": {
+      "path": "research/ORDINARY_SPINE_TWO_CUT_EXACT_QUOTA_CLASSIFICATION.md",
+      "sha256": "dcf26c8101c9358029963c23b72616cb89831466f2835f9291d2505ff1ed0001"
+    },
+    "result_sha256": "f3bc5bbe84ba090a532c0e089145736249a53b65fe8e37ac56a086c142ca5da2",
+    "task": "LCL-ORDINARY-SPINE-TWO-CUT-EXACT-QUOTA-CLASSIFICATION-001"
+  },
+  "D141_binding": {
+    "manifest": "evidence/validation/LCL_ORDINARY_SPINE_BOUNDARY_BLOCK_SPECTRAL_OBSTRUCTION_001/MANIFEST.json",
+    "manifest_sha256": "b3bd7c28b2bb8b79469a7398f31d3e9cbbad88142197854d50809e6491470aa7",
+    "proof": {
+      "path": "research/ORDINARY_SPINE_BOUNDARY_BLOCK_SPECTRAL_OBSTRUCTION.md",
+      "sha256": "8138536a669b9ce91af9f2bca3a7086dfd95079266333ab4004706d1c55e0b1c"
+    },
+    "result_sha256": "f7e7cbe78fdfc74ebf3cf0874ddb64399a80333e4a4a944e5261288cb02be84e",
+    "task": "LCL-ORDINARY-SPINE-BOUNDARY-BLOCK-SPECTRAL-OBSTRUCTION-001"
+  },
+  "controls": {
+    "D141_actual_incidence_regimes": {
+      "a_gamma": "only final path crossing in R; r=d",
+      "a_gt_gamma": {
+        "R": "empty",
+        "max_P": [
+          {
+            "coefficient": 1,
+            "factors": []
+          },
+          {
+            "coefficient": 1,
+            "factors": [
+              "gamma"
+            ]
+          }
+        ],
+        "unchanged_interval": [
+          [
+            {
+              "coefficient": 2,
+              "factors": []
+            },
+            {
+              "coefficient": 1,
+              "factors": [
+                "gamma"
+              ]
+            }
+          ],
+          [
+            {
+              "coefficient": 3,
+              "factors": []
+            },
+            {
+              "coefficient": 2,
+              "factors": [
+                "gamma"
+              ]
+            }
+          ]
+        ]
+      },
+      "a_le_gamma": "P empty by low-low endpoint bound",
+      "a_one": "all path crossings in R; r=n-4",
+      "disposition": "CONFIRM_ACTUAL_SUPPLIED_INPUT_SPECTRA",
+      "oriented_low_path_endpoint": "j+1 on the preliminary high entry N-j",
+      "other_crossings": "four actual frontier edges [n-3,n], with low endpoint zero",
+      "path_R_weights": [
+        [
+          {
+            "coefficient": 4,
+            "factors": []
+          },
+          {
+            "coefficient": 2,
+            "factors": [
+              "gamma"
+            ]
+          }
+        ],
+        [
+          {
+            "coefficient": 4,
+            "factors": []
+          },
+          {
+            "coefficient": -2,
+            "factors": [
+              "a"
+            ]
+          },
+          {
+            "coefficient": 4,
+            "factors": [
+              "gamma"
+            ]
+          }
+        ]
+      ],
+      "path_index_interval_for_R": [
+        [
+          {
+            "coefficient": -2,
+            "factors": []
+          },
+          {
+            "coefficient": 2,
+            "factors": [
+              "a"
+            ]
+          }
+        ],
+        [
+          {
+            "coefficient": -2,
+            "factors": []
+          },
+          {
+            "coefficient": 2,
+            "factors": [
+              "gamma"
+            ]
+          }
+        ]
+      ]
+    },
+    "exact_residual_admission": {
+      "a_gt_gamma": {
+        "crossing_demand": "[d+K,d+s-1] and [n+s+1,m]",
+        "crossing_first_interval_size": [
+          {
+            "coefficient": -1,
+            "factors": [
+              "K"
+            ]
+          },
+          {
+            "coefficient": 1,
+            "factors": [
+              "s"
+            ]
+          }
+        ],
+        "noncrossing_demand": "P and [d,d+K-1] minus (P+t)",
+        "residual": [
+          "P",
+          "[d,d+s-1] minus (P+t)",
+          "[n+s+1,m]"
+        ],
+        "test": "membership, P+t subset [d,d+K-1], s>=K"
+      },
+      "a_le_gamma": {
+        "crossing_demand": "the rest of the residual",
+        "crossing_first_interval_size": [
+          {
+            "coefficient": -1,
+            "factors": [
+              "K"
+            ]
+          },
+          {
+            "coefficient": 1,
+            "factors": [
+              "s"
+            ]
+          },
+          {
+            "coefficient": -1,
+            "factors": [
+              "t"
+            ]
+          }
+        ],
+        "noncrossing_demand": "[d,d+K-1]",
+        "residual": [
+          "[d,d+s-t-1]",
+          "[r+s-t+1,r+s]",
+          "[n+s+1,m]"
+        ],
+        "test": "membership and s-t>=K"
+      },
+      "disposition": "CONFIRM_BOTH_OLD_IMAGE_TESTS_AND_SIDE_DEMANDS",
+      "scope": "exact old-image compatibility; fresh demands require an actual assignment"
+    },
+    "exterior_connectivity": {
+      "assumption": "B<=a",
+      "boundary": "A=0 forces B=1, a singleton",
+      "conclusion": "B=1, A<=h, only in the B<=a regime",
+      "connector": [
+        {
+          "coefficient": 6,
+          "factors": []
+        },
+        {
+          "coefficient": 1,
+          "factors": [
+            "B"
+          ]
+        },
+        {
+          "coefficient": 4,
+          "factors": [
+            "gamma"
+          ]
+        },
+        {
+          "coefficient": 1,
+          "factors": [
+            "s"
+          ]
+        }
+      ],
+      "disposition": "CONFIRM_CONDITIONAL_EXTERIOR_RIGIDITY",
+      "gap_to_gap_margin": [
+        {
+          "coefficient": 5,
+          "factors": []
+        },
+        {
+          "coefficient": 1,
+          "factors": [
+            "a"
+          ]
+        },
+        {
+          "coefficient": 2,
+          "factors": [
+            "gamma"
+          ]
+        }
+      ],
+      "gap_upper_max_minus_n_plus_s": [
+        {
+          "coefficient": 1,
+          "factors": [
+            "B"
+          ]
+        },
+        {
+          "coefficient": -1,
+          "factors": [
+            "a"
+          ]
+        }
+      ],
+      "low_to_gap_margin": [
+        {
+          "coefficient": 5,
+          "factors": []
+        },
+        {
+          "coefficient": -1,
+          "factors": [
+            "A"
+          ]
+        },
+        {
+          "coefficient": 2,
+          "factors": [
+            "gamma"
+          ]
+        }
+      ],
+      "m_minus_one_collision": "j=A-1 repeats the connector; j<A-1 repeats attachment to j+1",
+      "role_rigidity": "every lower exterior vertex is a center and every upper exterior vertex other than w a terminal",
+      "tree": "A+B exterior vertices and A+B-1 exact high internal weights force a connected induced tree"
+    },
+    "forced_polarity_and_cut": {
+      "disposition": "FORCE_MAXIMUM_ON_ORIENTED_PLACEMENT",
+      "forced": "w=m",
+      "large_cut_shift": [
+        {
+          "coefficient": 3,
+          "factors": []
+        },
+        {
+          "coefficient": 1,
+          "factors": [
+            "gamma"
+          ]
+        }
+      ],
+      "membership": "A+t<=K+3<=A+s",
+      "new_cut": [
+        {
+          "coefficient": 5,
+          "factors": []
+        },
+        {
+          "coefficient": 1,
+          "factors": [
+            "K"
+          ]
+        },
+        {
+          "coefficient": 2,
+          "factors": [
+            "gamma"
+          ]
+        }
+      ],
+      "upper_exterior": "1<=B<=K-3",
+      "upper_fresh": [
+        {
+          "coefficient": -3,
+          "factors": []
+        },
+        {
+          "coefficient": 1,
+          "factors": [
+            "K"
+          ]
+        }
+      ],
+      "zero_case": "A=0 repeats vertex zero; positive A repeats W00 or requires A in P",
+      "zero_case_contradiction": "A+t>=d forced by unchanged interval, while membership gives A+t<=K<d"
+    },
+    "four_class_variable_exterior_resources": {
+      "disposition": "CONFIRM_EXACT_VARIABLE_EXTERIOR_RESOURCES",
+      "fresh_difference_complement": "complement in [1,m] of all four translated classes",
+      "fresh_label_intervals": [
+        [
+          [],
+          [
+            {
+              "coefficient": -1,
+              "factors": []
+            },
+            {
+              "coefficient": 1,
+              "factors": [
+                "A"
+              ]
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "coefficient": 1,
+              "factors": [
+                "A"
+              ]
+            },
+            {
+              "coefficient": 1,
+              "factors": [
+                "a"
+              ]
+            }
+          ],
+          [
+            {
+              "coefficient": -1,
+              "factors": []
+            },
+            {
+              "coefficient": 1,
+              "factors": [
+                "A"
+              ]
+            },
+            {
+              "coefficient": 1,
+              "factors": [
+                "a"
+              ]
+            },
+            {
+              "coefficient": 1,
+              "factors": [
+                "t"
+              ]
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "coefficient": 2,
+              "factors": []
+            },
+            {
+              "coefficient": 1,
+              "factors": [
+                "A"
+              ]
+            },
+            {
+              "coefficient": 2,
+              "factors": [
+                "gamma"
+              ]
+            },
+            {
+              "coefficient": 1,
+              "factors": [
+                "t"
+              ]
+            }
+          ],
+          [
+            {
+              "coefficient": 1,
+              "factors": []
+            },
+            {
+              "coefficient": 1,
+              "factors": [
+                "A"
+              ]
+            },
+            {
+              "coefficient": 2,
+              "factors": [
+                "gamma"
+              ]
+            },
+            {
+              "coefficient": 1,
+              "factors": [
+                "s"
+              ]
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "coefficient": 7,
+              "factors": []
+            },
+            {
+              "coefficient": 1,
+              "factors": [
+                "A"
+              ]
+            },
+            {
+              "coefficient": 4,
+              "factors": [
+                "gamma"
+              ]
+            },
+            {
+              "coefficient": 1,
+              "factors": [
+                "s"
+              ]
+            }
+          ],
+          [
+            {
+              "coefficient": 6,
+              "factors": []
+            },
+            {
+              "coefficient": 1,
+              "factors": [
+                "A"
+              ]
+            },
+            {
+              "coefficient": 1,
+              "factors": [
+                "B"
+              ]
+            },
+            {
+              "coefficient": 4,
+              "factors": [
+                "gamma"
+              ]
+            },
+            {
+              "coefficient": 1,
+              "factors": [
+                "s"
+              ]
+            }
+          ]
+        ]
+      ],
+      "increments": [
+        [],
+        [
+          {
+            "coefficient": 1,
+            "factors": [
+              "t"
+            ]
+          }
+        ],
+        [
+          {
+            "coefficient": 1,
+            "factors": [
+              "s"
+            ]
+          },
+          {
+            "coefficient": -1,
+            "factors": [
+              "t"
+            ]
+          }
+        ],
+        [
+          {
+            "coefficient": 1,
+            "factors": [
+              "s"
+            ]
+          }
+        ]
+      ],
+      "necessary": "old minimum crossing gains at least K; hence s>=K and A+B<=K",
+      "old_classes": [
+        "W00",
+        "P",
+        "R",
+        "W11"
+      ],
+      "pairwise_collision": "x-y=v-u for original weights x,y with increments u,v"
+    },
+    "physical_crossing_and_endpoint_exclusion": {
+      "B_one": "w attachment requires t>=a+4 or a=gamma,t=1",
+      "allowable_gap_partner_interval": [
+        [
+          {
+            "coefficient": 3,
+            "factors": []
+          },
+          {
+            "coefficient": 1,
+            "factors": [
+              "A"
+            ]
+          },
+          {
+            "coefficient": 2,
+            "factors": [
+              "a"
+            ]
+          }
+        ],
+        [
+          {
+            "coefficient": 2,
+            "factors": []
+          },
+          {
+            "coefficient": 1,
+            "factors": [
+              "A"
+            ]
+          },
+          {
+            "coefficient": 1,
+            "factors": [
+              "B"
+            ]
+          },
+          {
+            "coefficient": 2,
+            "factors": [
+              "a"
+            ]
+          }
+        ]
+      ],
+      "balance": "h-3=2*h_U+T_UU-T_UL",
+      "crossing_incidences": [
+        {
+          "coefficient": 1,
+          "factors": []
+        },
+        {
+          "coefficient": 1,
+          "factors": [
+            "T_LU"
+          ]
+        },
+        {
+          "coefficient": 1,
+          "factors": [
+            "T_UL"
+          ]
+        },
+        {
+          "coefficient": 1,
+          "factors": [
+            "h"
+          ]
+        },
+        {
+          "coefficient": -1,
+          "factors": [
+            "h_U"
+          ]
+        }
+      ],
+      "disposition": "CONFIRM_ROLE_BALANCE_AND_MISSING_WEIGHT_SUBREGION",
+      "extra_assumptions": "a<=gamma and r>A+c-1",
+      "first_gap_intersection_margin": [
+        {
+          "coefficient": -4,
+          "factors": []
+        },
+        {
+          "coefficient": -1,
+          "factors": [
+            "a"
+          ]
+        },
+        {
+          "coefficient": 1,
+          "factors": [
+            "t"
+          ]
+        }
+      ],
+      "required_weight": [
+        {
+          "coefficient": 4,
+          "factors": []
+        },
+        {
+          "coefficient": -2,
+          "factors": [
+            "a"
+          ]
+        },
+        {
+          "coefficient": 4,
+          "factors": [
+            "gamma"
+          ]
+        },
+        {
+          "coefficient": 1,
+          "factors": [
+            "s"
+          ]
+        }
+      ],
+      "scope": "excludes an empty required intersection; remaining fresh feasibility unresolved",
+      "second_gap_intersection_margin": [
+        {
+          "coefficient": 1,
+          "factors": [
+            "B"
+          ]
+        },
+        {
+          "coefficient": 2,
+          "factors": [
+            "a"
+          ]
+        },
+        {
+          "coefficient": -2,
+          "factors": [
+            "gamma"
+          ]
+        },
+        {
+          "coefficient": -1,
+          "factors": [
+            "t"
+          ]
+        }
+      ],
+      "upper_vertices": [
+        {
+          "coefficient": 1,
+          "factors": []
+        },
+        {
+          "coefficient": 1,
+          "factors": [
+            "T_LU"
+          ]
+        },
+        {
+          "coefficient": 1,
+          "factors": [
+            "T_UU"
+          ]
+        },
+        {
+          "coefficient": 1,
+          "factors": [
+            "h_U"
+          ]
+        }
+      ]
+    },
+    "retained_compatibility_and_limits": {
+      "D139_D140": "named singleton leaf has P empty, R={d}; established positive input domains retain scope",
+      "D141": "independent non-leaf supply and canonical three-center exclusion retained",
+      "conjugated_cuts": [
+        "n+1-c",
+        "n+1-a"
+      ],
+      "conjugated_shifts": [
+        [
+          {
+            "coefficient": 1,
+            "factors": [
+              "B"
+            ]
+          }
+        ],
+        [
+          {
+            "coefficient": 1,
+            "factors": [
+              "B"
+            ]
+          },
+          {
+            "coefficient": 1,
+            "factors": [
+              "s"
+            ]
+          },
+          {
+            "coefficient": -1,
+            "factors": [
+              "t"
+            ]
+          }
+        ],
+        [
+          {
+            "coefficient": 1,
+            "factors": [
+              "B"
+            ]
+          },
+          {
+            "coefficient": 1,
+            "factors": [
+              "s"
+            ]
+          }
+        ]
+      ],
+      "disposition": "CONFIRM_RETAINED_SCOPE_AND_BOTH_ACTUAL_POLARITIES",
+      "return_limit": "a future ordinary p=1 return alone would not certify the D141 initializer incidences"
+    },
+    "wrong_digest": {
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          13,
+          10,
+          8,
+          7,
+          2,
+          1,
+          9,
+          5,
+          4,
+          3,
+          12,
+          6,
+          11
+        ],
+        "errors": [
+          "original graph digest mismatch"
+        ],
+        "graph_digest": "2060a4e5a7d8f8ebc1906499facea2730250938d4550bb4c6ca34582a1f5b6e6",
+        "m": 13,
+        "n": 14,
+        "valid": false
+      },
+      "expected_digest": "0000000000000000000000000000000000000000000000000000000000000000"
+    }
+  },
+  "formal_arithmetic": {
+    "D141_actual_incidence_regimes": {
+      "a_gamma": "only final path crossing in R; r=d",
+      "a_gt_gamma": {
+        "R": "empty",
+        "max_P": [
+          {
+            "coefficient": 1,
+            "factors": []
+          },
+          {
+            "coefficient": 1,
+            "factors": [
+              "gamma"
+            ]
+          }
+        ],
+        "unchanged_interval": [
+          [
+            {
+              "coefficient": 2,
+              "factors": []
+            },
+            {
+              "coefficient": 1,
+              "factors": [
+                "gamma"
+              ]
+            }
+          ],
+          [
+            {
+              "coefficient": 3,
+              "factors": []
+            },
+            {
+              "coefficient": 2,
+              "factors": [
+                "gamma"
+              ]
+            }
+          ]
+        ]
+      },
+      "a_le_gamma": "P empty by low-low endpoint bound",
+      "a_one": "all path crossings in R; r=n-4",
+      "disposition": "CONFIRM_ACTUAL_SUPPLIED_INPUT_SPECTRA",
+      "oriented_low_path_endpoint": "j+1 on the preliminary high entry N-j",
+      "other_crossings": "four actual frontier edges [n-3,n], with low endpoint zero",
+      "path_R_weights": [
+        [
+          {
+            "coefficient": 4,
+            "factors": []
+          },
+          {
+            "coefficient": 2,
+            "factors": [
+              "gamma"
+            ]
+          }
+        ],
+        [
+          {
+            "coefficient": 4,
+            "factors": []
+          },
+          {
+            "coefficient": -2,
+            "factors": [
+              "a"
+            ]
+          },
+          {
+            "coefficient": 4,
+            "factors": [
+              "gamma"
+            ]
+          }
+        ]
+      ],
+      "path_index_interval_for_R": [
+        [
+          {
+            "coefficient": -2,
+            "factors": []
+          },
+          {
+            "coefficient": 2,
+            "factors": [
+              "a"
+            ]
+          }
+        ],
+        [
+          {
+            "coefficient": -2,
+            "factors": []
+          },
+          {
+            "coefficient": 2,
+            "factors": [
+              "gamma"
+            ]
+          }
+        ]
+      ]
+    },
+    "exact_residual_admission": {
+      "a_gt_gamma": {
+        "crossing_demand": "[d+K,d+s-1] and [n+s+1,m]",
+        "crossing_first_interval_size": [
+          {
+            "coefficient": -1,
+            "factors": [
+              "K"
+            ]
+          },
+          {
+            "coefficient": 1,
+            "factors": [
+              "s"
+            ]
+          }
+        ],
+        "noncrossing_demand": "P and [d,d+K-1] minus (P+t)",
+        "residual": [
+          "P",
+          "[d,d+s-1] minus (P+t)",
+          "[n+s+1,m]"
+        ],
+        "test": "membership, P+t subset [d,d+K-1], s>=K"
+      },
+      "a_le_gamma": {
+        "crossing_demand": "the rest of the residual",
+        "crossing_first_interval_size": [
+          {
+            "coefficient": -1,
+            "factors": [
+              "K"
+            ]
+          },
+          {
+            "coefficient": 1,
+            "factors": [
+              "s"
+            ]
+          },
+          {
+            "coefficient": -1,
+            "factors": [
+              "t"
+            ]
+          }
+        ],
+        "noncrossing_demand": "[d,d+K-1]",
+        "residual": [
+          "[d,d+s-t-1]",
+          "[r+s-t+1,r+s]",
+          "[n+s+1,m]"
+        ],
+        "test": "membership and s-t>=K"
+      },
+      "disposition": "CONFIRM_BOTH_OLD_IMAGE_TESTS_AND_SIDE_DEMANDS",
+      "scope": "exact old-image compatibility; fresh demands require an actual assignment"
+    },
+    "exterior_connectivity": {
+      "assumption": "B<=a",
+      "boundary": "A=0 forces B=1, a singleton",
+      "conclusion": "B=1, A<=h, only in the B<=a regime",
+      "connector": [
+        {
+          "coefficient": 6,
+          "factors": []
+        },
+        {
+          "coefficient": 1,
+          "factors": [
+            "B"
+          ]
+        },
+        {
+          "coefficient": 4,
+          "factors": [
+            "gamma"
+          ]
+        },
+        {
+          "coefficient": 1,
+          "factors": [
+            "s"
+          ]
+        }
+      ],
+      "disposition": "CONFIRM_CONDITIONAL_EXTERIOR_RIGIDITY",
+      "gap_to_gap_margin": [
+        {
+          "coefficient": 5,
+          "factors": []
+        },
+        {
+          "coefficient": 1,
+          "factors": [
+            "a"
+          ]
+        },
+        {
+          "coefficient": 2,
+          "factors": [
+            "gamma"
+          ]
+        }
+      ],
+      "gap_upper_max_minus_n_plus_s": [
+        {
+          "coefficient": 1,
+          "factors": [
+            "B"
+          ]
+        },
+        {
+          "coefficient": -1,
+          "factors": [
+            "a"
+          ]
+        }
+      ],
+      "low_to_gap_margin": [
+        {
+          "coefficient": 5,
+          "factors": []
+        },
+        {
+          "coefficient": -1,
+          "factors": [
+            "A"
+          ]
+        },
+        {
+          "coefficient": 2,
+          "factors": [
+            "gamma"
+          ]
+        }
+      ],
+      "m_minus_one_collision": "j=A-1 repeats the connector; j<A-1 repeats attachment to j+1",
+      "role_rigidity": "every lower exterior vertex is a center and every upper exterior vertex other than w a terminal",
+      "tree": "A+B exterior vertices and A+B-1 exact high internal weights force a connected induced tree"
+    },
+    "forced_polarity_and_cut": {
+      "disposition": "FORCE_MAXIMUM_ON_ORIENTED_PLACEMENT",
+      "forced": "w=m",
+      "large_cut_shift": [
+        {
+          "coefficient": 3,
+          "factors": []
+        },
+        {
+          "coefficient": 1,
+          "factors": [
+            "gamma"
+          ]
+        }
+      ],
+      "membership": "A+t<=K+3<=A+s",
+      "new_cut": [
+        {
+          "coefficient": 5,
+          "factors": []
+        },
+        {
+          "coefficient": 1,
+          "factors": [
+            "K"
+          ]
+        },
+        {
+          "coefficient": 2,
+          "factors": [
+            "gamma"
+          ]
+        }
+      ],
+      "upper_exterior": "1<=B<=K-3",
+      "upper_fresh": [
+        {
+          "coefficient": -3,
+          "factors": []
+        },
+        {
+          "coefficient": 1,
+          "factors": [
+            "K"
+          ]
+        }
+      ],
+      "zero_case": "A=0 repeats vertex zero; positive A repeats W00 or requires A in P",
+      "zero_case_contradiction": "A+t>=d forced by unchanged interval, while membership gives A+t<=K<d"
+    },
+    "four_class_variable_exterior_resources": {
+      "disposition": "CONFIRM_EXACT_VARIABLE_EXTERIOR_RESOURCES",
+      "fresh_difference_complement": "complement in [1,m] of all four translated classes",
+      "fresh_label_intervals": [
+        [
+          [],
+          [
+            {
+              "coefficient": -1,
+              "factors": []
+            },
+            {
+              "coefficient": 1,
+              "factors": [
+                "A"
+              ]
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "coefficient": 1,
+              "factors": [
+                "A"
+              ]
+            },
+            {
+              "coefficient": 1,
+              "factors": [
+                "a"
+              ]
+            }
+          ],
+          [
+            {
+              "coefficient": -1,
+              "factors": []
+            },
+            {
+              "coefficient": 1,
+              "factors": [
+                "A"
+              ]
+            },
+            {
+              "coefficient": 1,
+              "factors": [
+                "a"
+              ]
+            },
+            {
+              "coefficient": 1,
+              "factors": [
+                "t"
+              ]
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "coefficient": 2,
+              "factors": []
+            },
+            {
+              "coefficient": 1,
+              "factors": [
+                "A"
+              ]
+            },
+            {
+              "coefficient": 2,
+              "factors": [
+                "gamma"
+              ]
+            },
+            {
+              "coefficient": 1,
+              "factors": [
+                "t"
+              ]
+            }
+          ],
+          [
+            {
+              "coefficient": 1,
+              "factors": []
+            },
+            {
+              "coefficient": 1,
+              "factors": [
+                "A"
+              ]
+            },
+            {
+              "coefficient": 2,
+              "factors": [
+                "gamma"
+              ]
+            },
+            {
+              "coefficient": 1,
+              "factors": [
+                "s"
+              ]
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "coefficient": 7,
+              "factors": []
+            },
+            {
+              "coefficient": 1,
+              "factors": [
+                "A"
+              ]
+            },
+            {
+              "coefficient": 4,
+              "factors": [
+                "gamma"
+              ]
+            },
+            {
+              "coefficient": 1,
+              "factors": [
+                "s"
+              ]
+            }
+          ],
+          [
+            {
+              "coefficient": 6,
+              "factors": []
+            },
+            {
+              "coefficient": 1,
+              "factors": [
+                "A"
+              ]
+            },
+            {
+              "coefficient": 1,
+              "factors": [
+                "B"
+              ]
+            },
+            {
+              "coefficient": 4,
+              "factors": [
+                "gamma"
+              ]
+            },
+            {
+              "coefficient": 1,
+              "factors": [
+                "s"
+              ]
+            }
+          ]
+        ]
+      ],
+      "increments": [
+        [],
+        [
+          {
+            "coefficient": 1,
+            "factors": [
+              "t"
+            ]
+          }
+        ],
+        [
+          {
+            "coefficient": 1,
+            "factors": [
+              "s"
+            ]
+          },
+          {
+            "coefficient": -1,
+            "factors": [
+              "t"
+            ]
+          }
+        ],
+        [
+          {
+            "coefficient": 1,
+            "factors": [
+              "s"
+            ]
+          }
+        ]
+      ],
+      "necessary": "old minimum crossing gains at least K; hence s>=K and A+B<=K",
+      "old_classes": [
+        "W00",
+        "P",
+        "R",
+        "W11"
+      ],
+      "pairwise_collision": "x-y=v-u for original weights x,y with increments u,v"
+    },
+    "physical_crossing_and_endpoint_exclusion": {
+      "B_one": "w attachment requires t>=a+4 or a=gamma,t=1",
+      "allowable_gap_partner_interval": [
+        [
+          {
+            "coefficient": 3,
+            "factors": []
+          },
+          {
+            "coefficient": 1,
+            "factors": [
+              "A"
+            ]
+          },
+          {
+            "coefficient": 2,
+            "factors": [
+              "a"
+            ]
+          }
+        ],
+        [
+          {
+            "coefficient": 2,
+            "factors": []
+          },
+          {
+            "coefficient": 1,
+            "factors": [
+              "A"
+            ]
+          },
+          {
+            "coefficient": 1,
+            "factors": [
+              "B"
+            ]
+          },
+          {
+            "coefficient": 2,
+            "factors": [
+              "a"
+            ]
+          }
+        ]
+      ],
+      "balance": "h-3=2*h_U+T_UU-T_UL",
+      "crossing_incidences": [
+        {
+          "coefficient": 1,
+          "factors": []
+        },
+        {
+          "coefficient": 1,
+          "factors": [
+            "T_LU"
+          ]
+        },
+        {
+          "coefficient": 1,
+          "factors": [
+            "T_UL"
+          ]
+        },
+        {
+          "coefficient": 1,
+          "factors": [
+            "h"
+          ]
+        },
+        {
+          "coefficient": -1,
+          "factors": [
+            "h_U"
+          ]
+        }
+      ],
+      "disposition": "CONFIRM_ROLE_BALANCE_AND_MISSING_WEIGHT_SUBREGION",
+      "extra_assumptions": "a<=gamma and r>A+c-1",
+      "first_gap_intersection_margin": [
+        {
+          "coefficient": -4,
+          "factors": []
+        },
+        {
+          "coefficient": -1,
+          "factors": [
+            "a"
+          ]
+        },
+        {
+          "coefficient": 1,
+          "factors": [
+            "t"
+          ]
+        }
+      ],
+      "required_weight": [
+        {
+          "coefficient": 4,
+          "factors": []
+        },
+        {
+          "coefficient": -2,
+          "factors": [
+            "a"
+          ]
+        },
+        {
+          "coefficient": 4,
+          "factors": [
+            "gamma"
+          ]
+        },
+        {
+          "coefficient": 1,
+          "factors": [
+            "s"
+          ]
+        }
+      ],
+      "scope": "excludes an empty required intersection; remaining fresh feasibility unresolved",
+      "second_gap_intersection_margin": [
+        {
+          "coefficient": 1,
+          "factors": [
+            "B"
+          ]
+        },
+        {
+          "coefficient": 2,
+          "factors": [
+            "a"
+          ]
+        },
+        {
+          "coefficient": -2,
+          "factors": [
+            "gamma"
+          ]
+        },
+        {
+          "coefficient": -1,
+          "factors": [
+            "t"
+          ]
+        }
+      ],
+      "upper_vertices": [
+        {
+          "coefficient": 1,
+          "factors": []
+        },
+        {
+          "coefficient": 1,
+          "factors": [
+            "T_LU"
+          ]
+        },
+        {
+          "coefficient": 1,
+          "factors": [
+            "T_UU"
+          ]
+        },
+        {
+          "coefficient": 1,
+          "factors": [
+            "h_U"
+          ]
+        }
+      ]
+    },
+    "retained_compatibility_and_limits": {
+      "D139_D140": "named singleton leaf has P empty, R={d}; established positive input domains retain scope",
+      "D141": "independent non-leaf supply and canonical three-center exclusion retained",
+      "conjugated_cuts": [
+        "n+1-c",
+        "n+1-a"
+      ],
+      "conjugated_shifts": [
+        [
+          {
+            "coefficient": 1,
+            "factors": [
+              "B"
+            ]
+          }
+        ],
+        [
+          {
+            "coefficient": 1,
+            "factors": [
+              "B"
+            ]
+          },
+          {
+            "coefficient": 1,
+            "factors": [
+              "s"
+            ]
+          },
+          {
+            "coefficient": -1,
+            "factors": [
+              "t"
+            ]
+          }
+        ],
+        [
+          {
+            "coefficient": 1,
+            "factors": [
+              "B"
+            ]
+          },
+          {
+            "coefficient": 1,
+            "factors": [
+              "s"
+            ]
+          }
+        ]
+      ],
+      "disposition": "CONFIRM_RETAINED_SCOPE_AND_BOTH_ACTUAL_POLARITIES",
+      "return_limit": "a future ordinary p=1 return alone would not certify the D141 initializer incidences"
+    }
+  },
+  "parent": "6b9a6dece40ea2a2f8e2c93ca56c9ae20609bd33",
+  "retained_cut_inspections": {
+    "D105": {
+      "actual_cut": 13,
+      "crossing_incidence": [
+        {
+          "edge": [
+            "s:0",
+            "s:1"
+          ],
+          "weight": 13
+        },
+        {
+          "edge": [
+            "s:1",
+            "b:1:0"
+          ],
+          "weight": 12
+        }
+      ],
+      "crossing_spectrum": [
+        12,
+        13
+      ],
+      "frontier": "s:1",
+      "frontier_label": 13,
+      "n": 13,
+      "oriented_cut": 1
+    },
+    "D130": {
+      "actual_cut": 20,
+      "crossing_incidence": [
+        {
+          "edge": [
+            "s:0",
+            "s:1"
+          ],
+          "weight": 20
+        },
+        {
+          "edge": [
+            "s:1",
+            "b:1:0"
+          ],
+          "weight": 19
+        }
+      ],
+      "crossing_spectrum": [
+        19,
+        20
+      ],
+      "frontier": "s:1",
+      "frontier_label": 20,
+      "n": 20,
+      "oriented_cut": 1
+    }
+  },
+  "retained_execution_statuses": {
+    "D083_original": "INCOMPLETE",
+    "D083_versioned": "PASS",
+    "D093_original": "INCOMPLETE",
+    "D093_versioned": "PASS",
+    "D099": "PASS",
+    "D100_original": "INCOMPLETE",
+    "D100_recovery": "PASS",
+    "D101": "PASS",
+    "D102": "PASS",
+    "D103": "PASS",
+    "D104": "PASS",
+    "D105": "PASS",
+    "D106": "PASS",
+    "D107": "PASS",
+    "D108": "PASS",
+    "D109": "PASS",
+    "D110": "PASS",
+    "D111": "PASS",
+    "D112": "PASS",
+    "D113": "PASS",
+    "D114": "PASS",
+    "D115": "PASS",
+    "D116": "PASS",
+    "D117": "PASS",
+    "D118": "PASS",
+    "D119": "PASS",
+    "D120": "PASS",
+    "D121": "PASS",
+    "D122": "PASS",
+    "D123": "PASS",
+    "D124": "PASS",
+    "D125": "PASS",
+    "D126": "PASS",
+    "D127": "PASS",
+    "D128": "PASS",
+    "D129": "PASS",
+    "D130": "PASS",
+    "D131": "PASS",
+    "D132": "PASS",
+    "D133": "PASS",
+    "D134": "PASS",
+    "D135": "PASS",
+    "D136": "PASS",
+    "D137": "PASS",
+    "D138": "PASS",
+    "D139": "PASS",
+    "D140": "PASS",
+    "D141": "PASS"
+  },
+  "retained_seeds": {
+    "D105": {
+      "binding": {
+        "graph_digest": "2060a4e5a7d8f8ebc1906499facea2730250938d4550bb4c6ca34582a1f5b6e6",
+        "ledger_id": "af0e2be70013710c5b5b64c6c554512adfaad5ae0faa8ab63c146e428ed50a93",
+        "manifest": "evidence/validation/LCL_ORDINARY_43_2_EXTREME_SPINE_001/MANIFEST.json",
+        "manifest_sha256": "ccdf9c80e3709f7fffa34ca2a4f109dd48ab5be857ea98c406f2c3f399b980e3",
+        "original_owner_manifest": "evidence/validation/LCL_R241_43_2_LOWER_BLOCK_001/MANIFEST.json",
+        "original_path": "evidence/validation/LCL_R241_43_2_LOWER_BLOCK_001/original.json",
+        "profile": [
+          [
+            4,
+            3
+          ],
+          [
+            2
+          ]
+        ],
+        "proof": {
+          "path": "research/ORDINARY_43_2_EXTREME_SPINE.md",
+          "sha256": "b08106748481db95a9cf480e7d91b5098b77c1515427dcde8439aef811c45bf9"
+        },
+        "raw_sha256": "99d92699cea529c235f3ed146805920d39c030b33d5651e0ba64ed8e1889d168",
+        "result_sha256": "62a71cf47642426a79a48890d63680a1fbee393fe5fce42d4f4040eb87518207",
+        "task": "LCL-ORDINARY-43-2-EXTREME-SPINE-001"
+      },
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          13,
+          10,
+          8,
+          7,
+          2,
+          1,
+          9,
+          5,
+          4,
+          3,
+          12,
+          6,
+          11
+        ],
+        "errors": [],
+        "graph_digest": "2060a4e5a7d8f8ebc1906499facea2730250938d4550bb4c6ca34582a1f5b6e6",
+        "m": 13,
+        "n": 14,
+        "valid": true
+      },
+      "independent": {
+        "D112_pins": {
+          "exit_label": 13,
+          "off_spine_label": 1,
+          "predecessor_label": 0
+        },
+        "D112_premises": true,
+        "certificate_has_alpha_separation": false,
+        "deficit_state": {
+          "claimed_deficit": 0,
+          "frontier": "s:1",
+          "tests": {
+            "deficit_agrees_at_claimed_vertex": true,
+            "exact_deficit_in_bounds": true,
+            "frontier_label_in_alphabet": true,
+            "physical_frontier": true
+          },
+          "valid": true
+        },
+        "difference_inventory": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "distance_to_spine": {
+          "b:0:0": 1,
+          "b:0:1": 1,
+          "b:1:0": 1,
+          "l:0:0:0": 2,
+          "l:0:0:1": 2,
+          "l:0:0:2": 2,
+          "l:0:0:3": 2,
+          "l:0:1:0": 2,
+          "l:0:1:1": 2,
+          "l:0:1:2": 2,
+          "l:1:0:0": 2,
+          "l:1:0:1": 2,
+          "s:0": 0,
+          "s:1": 0
+        },
+        "edge_count": 13,
+        "exit_neighbors": [
+          "b:1:0",
+          "s:0"
+        ],
+        "graph_digest": "2060a4e5a7d8f8ebc1906499facea2730250938d4550bb4c6ca34582a1f5b6e6",
+        "historical_formula_evaluated": false,
+        "label_inventory": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "ledger_id": "af0e2be70013710c5b5b64c6c554512adfaad5ae0faa8ab63c146e428ed50a93",
+        "named_weights": [
+          {
+            "edge": [
+              "s:0",
+              "s:1"
+            ],
+            "weight": 13
+          },
+          {
+            "edge": [
+              "s:0",
+              "b:0:0"
+            ],
+            "weight": 10
+          },
+          {
+            "edge": [
+              "b:0:0",
+              "l:0:0:0"
+            ],
+            "weight": 8
+          },
+          {
+            "edge": [
+              "b:0:0",
+              "l:0:0:1"
+            ],
+            "weight": 7
+          },
+          {
+            "edge": [
+              "b:0:0",
+              "l:0:0:2"
+            ],
+            "weight": 2
+          },
+          {
+            "edge": [
+              "b:0:0",
+              "l:0:0:3"
+            ],
+            "weight": 1
+          },
+          {
+            "edge": [
+              "s:0",
+              "b:0:1"
+            ],
+            "weight": 9
+          },
+          {
+            "edge": [
+              "b:0:1",
+              "l:0:1:0"
+            ],
+            "weight": 5
+          },
+          {
+            "edge": [
+              "b:0:1",
+              "l:0:1:1"
+            ],
+            "weight": 4
+          },
+          {
+            "edge": [
+              "b:0:1",
+              "l:0:1:2"
+            ],
+            "weight": 3
+          },
+          {
+            "edge": [
+              "s:1",
+              "b:1:0"
+            ],
+            "weight": 12
+          },
+          {
+            "edge": [
+              "b:1:0",
+              "l:1:0:0"
+            ],
+            "weight": 6
+          },
+          {
+            "edge": [
+              "b:1:0",
+              "l:1:0:1"
+            ],
+            "weight": 11
+          }
+        ],
+        "ordered_spine": [
+          "s:0",
+          "s:1"
+        ],
+        "profile": [
+          [
+            4,
+            3
+          ],
+          [
+            2
+          ]
+        ]
+      }
+    },
+    "D130": {
+      "binding": {
+        "graph_digest": "d5639f8f1a3f6a88477088ce7acab577b48d8deb50a92e95adf48aac7abd6f0a",
+        "ledger_id": "f20c7d32b8d0a5957828c9326a0e37f8ac507ee893702c6ae816ecc58f2d7dc5",
+        "manifest": "evidence/validation/LCL_ORDINARY_2AC_2_MODIFIED_CORE_CLASSIFICATION_001/MANIFEST.json",
+        "manifest_sha256": "11a65f3bdbd6217deadee4b8a33f6639e99cc0da65f0e4bd9da6971c48c94e68",
+        "original_owner_manifest": "evidence/validation/LCL_ORDINARY_2AC_2_MODIFIED_CORE_CLASSIFICATION_001/MANIFEST.json",
+        "original_path": "evidence/validation/LCL_ORDINARY_2AC_2_MODIFIED_CORE_CLASSIFICATION_001/original.json",
+        "profile": [
+          [
+            2,
+            5,
+            6
+          ],
+          [
+            2
+          ]
+        ],
+        "proof": {
+          "path": "research/ORDINARY_2AC_2_MODIFIED_CORE_CLASSIFICATION.md",
+          "sha256": "5e45d257e917990218eea63642e1738732e60f54c5907f8d1ccb9b62eb7efabc"
+        },
+        "raw_sha256": "b97c698e32cf2a984688027e7cc97a37548499380771b03ab1e435d443590ff7",
+        "result_sha256": "92c38947413294b4e373bc4db889817f935f8a31b25ff26c4febed053953a468",
+        "task": "LCL-ORDINARY-2AC-2-MODIFIED-CORE-CLASSIFICATION-001"
+      },
+      "checker": {
+        "claim": "finite certificate for this exact named target only",
+        "edge_differences": [
+          20,
+          2,
+          15,
+          11,
+          14,
+          1,
+          7,
+          5,
+          3,
+          9,
+          16,
+          13,
+          12,
+          10,
+          8,
+          6,
+          4,
+          19,
+          18,
+          17
+        ],
+        "errors": [],
+        "graph_digest": "d5639f8f1a3f6a88477088ce7acab577b48d8deb50a92e95adf48aac7abd6f0a",
+        "m": 20,
+        "n": 21,
+        "valid": true
+      },
+      "independent": {
+        "D112_pins": {
+          "exit_label": 20,
+          "off_spine_label": 1,
+          "predecessor_label": 0
+        },
+        "D112_premises": true,
+        "certificate_has_alpha_separation": false,
+        "deficit_state": {
+          "claimed_deficit": 0,
+          "frontier": "s:1",
+          "tests": {
+            "deficit_agrees_at_claimed_vertex": true,
+            "exact_deficit_in_bounds": true,
+            "frontier_label_in_alphabet": true,
+            "physical_frontier": true
+          },
+          "valid": true
+        },
+        "difference_inventory": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "distance_to_spine": {
+          "b:0:0": 1,
+          "b:0:1": 1,
+          "b:0:2": 1,
+          "b:1:0": 1,
+          "l:0:0:0": 2,
+          "l:0:0:1": 2,
+          "l:0:1:0": 2,
+          "l:0:1:1": 2,
+          "l:0:1:2": 2,
+          "l:0:1:3": 2,
+          "l:0:1:4": 2,
+          "l:0:2:0": 2,
+          "l:0:2:1": 2,
+          "l:0:2:2": 2,
+          "l:0:2:3": 2,
+          "l:0:2:4": 2,
+          "l:0:2:5": 2,
+          "l:1:0:0": 2,
+          "l:1:0:1": 2,
+          "s:0": 0,
+          "s:1": 0
+        },
+        "edge_count": 20,
+        "exit_neighbors": [
+          "b:1:0",
+          "s:0"
+        ],
+        "graph_digest": "d5639f8f1a3f6a88477088ce7acab577b48d8deb50a92e95adf48aac7abd6f0a",
+        "historical_formula_evaluated": false,
+        "label_inventory": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "ledger_id": "f20c7d32b8d0a5957828c9326a0e37f8ac507ee893702c6ae816ecc58f2d7dc5",
+        "named_weights": [
+          {
+            "edge": [
+              "s:0",
+              "s:1"
+            ],
+            "weight": 20
+          },
+          {
+            "edge": [
+              "s:0",
+              "b:0:0"
+            ],
+            "weight": 2
+          },
+          {
+            "edge": [
+              "b:0:0",
+              "l:0:0:0"
+            ],
+            "weight": 15
+          },
+          {
+            "edge": [
+              "b:0:0",
+              "l:0:0:1"
+            ],
+            "weight": 11
+          },
+          {
+            "edge": [
+              "s:0",
+              "b:0:1"
+            ],
+            "weight": 14
+          },
+          {
+            "edge": [
+              "b:0:1",
+              "l:0:1:0"
+            ],
+            "weight": 1
+          },
+          {
+            "edge": [
+              "b:0:1",
+              "l:0:1:1"
+            ],
+            "weight": 7
+          },
+          {
+            "edge": [
+              "b:0:1",
+              "l:0:1:2"
+            ],
+            "weight": 5
+          },
+          {
+            "edge": [
+              "b:0:1",
+              "l:0:1:3"
+            ],
+            "weight": 3
+          },
+          {
+            "edge": [
+              "b:0:1",
+              "l:0:1:4"
+            ],
+            "weight": 9
+          },
+          {
+            "edge": [
+              "s:0",
+              "b:0:2"
+            ],
+            "weight": 16
+          },
+          {
+            "edge": [
+              "b:0:2",
+              "l:0:2:0"
+            ],
+            "weight": 13
+          },
+          {
+            "edge": [
+              "b:0:2",
+              "l:0:2:1"
+            ],
+            "weight": 12
+          },
+          {
+            "edge": [
+              "b:0:2",
+              "l:0:2:2"
+            ],
+            "weight": 10
+          },
+          {
+            "edge": [
+              "b:0:2",
+              "l:0:2:3"
+            ],
+            "weight": 8
+          },
+          {
+            "edge": [
+              "b:0:2",
+              "l:0:2:4"
+            ],
+            "weight": 6
+          },
+          {
+            "edge": [
+              "b:0:2",
+              "l:0:2:5"
+            ],
+            "weight": 4
+          },
+          {
+            "edge": [
+              "s:1",
+              "b:1:0"
+            ],
+            "weight": 19
+          },
+          {
+            "edge": [
+              "b:1:0",
+              "l:1:0:0"
+            ],
+            "weight": 18
+          },
+          {
+            "edge": [
+              "b:1:0",
+              "l:1:0:1"
+            ],
+            "weight": 17
+          }
+        ],
+        "ordered_spine": [
+          "s:0",
+          "s:1"
+        ],
+        "profile": [
+          [
+            2,
+            5,
+            6
+          ],
+          [
+            2
+          ]
+        ]
+      }
+    }
+  },
+  "runtime": {
+    "path": ".venv/Scripts/python.exe",
+    "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "scope": {
+    "actual_incidence_regimes": "a<=gamma gives P empty and R=[d,n-2a-2]; a>gamma gives R empty and max P=gamma+1",
+    "domain": "Independently supplied D141 non-leaf family, exact p=1 extreme states, variable exteriors and two positive gaps",
+    "exact_old_image": "membership and s-t>=K for a<=gamma; membership, shifted P in [d,d+K-1], s>=K otherwise",
+    "forced_polarity": "w=m in oriented placement; old cut membership, U=K-3 and 1<=B<=K-3",
+    "forest": "only for B<=a, exterior tree forces B=1 and A<=h",
+    "fresh_crossing_balance": "h-3=2*h_U+T_UU-T_UL",
+    "further_exclusion": "when a<=gamma and r>A+c-1, r+s requires an upper-exterior-to-gap edge in the exact endpoint window",
+    "numerical_allocations": false,
+    "numerical_permutations": false,
+    "scientific_limit": "necessary conditions and scoped exclusions; full fresh feasibility and reusable bridge unresolved"
+  },
+  "status": "PASS",
+  "task": "LCL-ORDINARY-SPINE-VARIABLE-EXTERIOR-BRIDGE-001"
+}
