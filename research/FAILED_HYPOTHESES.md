@@ -667,3 +667,7 @@ For ordered (2r+1,2t), (2p,2q,0) with independently prescribed exact r,t,p,q≥1
 ## D158 scoped first-upper-source obstruction
 
 **PROVED / PENDING DIRECTOR REVIEW.** In the declared connected crossing exterior and leaf gap for S₋₁→S₋₁, the first upper coordinate k cannot use a lower host and requires an eligible upper index b≤B−2. At B=3 this permits only the actual u pinned at b=1. Thus the D155 A=B=3 exterior fails to return S₋₁ on the stated profiles, where u has no direct gap leaf. The wider supplied A=3,B=4 construction has its own positive domain. Other relaxed placements remain outside the obstruction. [D158 proof](ORDINARY_SPINE_EXCEPTIONAL_PHASE_PRESERVING_BRIDGE.md#2-first-physically-upper-source)
+
+## D159 fixed exceptional exterior with unit first half-quotas
+
+**SCOPED OBSTRUCTION / PENDING DIRECTOR REVIEW.** On the retained D158 A=3,B=4 exterior for (2r,2t), (2p,2q+1,0), the first four lower gap sources require the host b. If r=t=1, the physical quota at b is two, which excludes all allocations on that exterior. Both polarities are covered by conjugation. Other exceptional-phase placements remain outside this obstruction. The open right completion supplies T=2,q=1. [D159 proof](ORDINARY_SPINE_EXCEPTIONAL_BOUNDARY_STATE_ALLOCATION.md) · [Evidence](../evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_BOUNDARY_STATE_ALLOCATION_001/README.md)

@@ -337,3 +337,11 @@ Record **PROVED / PENDING DIRECTOR REVIEW** for the complete symbolic cycle S₀
 ## D158 exceptional-phase-preserving bridge
 
 Record **PROVED / PENDING DIRECTOR REVIEW** for the two sufficient packet closures and mixed-phase composition. The same D155 profiles admit the new A=3,B=4 placement in the proved exceptional domain. The first-upper-source obstruction explains the narrower exterior's failure on this phase. Both closures settle the authorized sufficient question symbolically. Leave one unstarted allocation criterion investigation for separate authorization. [D158 proof](ORDINARY_SPINE_EXCEPTIONAL_PHASE_PRESERVING_BRIDGE.md) · [Handoff](../handoffs/CODEX-20261125-exceptional-phase-preserving-bridge.md)
+
+## Director acceptance of D158
+
+**ACCEPT** D158 within its exact written scope at `7db153cec793c954ab5530723d68e1d86382ca3d`. The Director independently inspected the proof, both packet closures, first-upper-source obstruction, named resources, both polarities, finite mixed-phase composition, reviews, custody, authoritative records, handoff and live GitHub history. All five manifested files, twelve retained intake bindings and canonical STATE matched. Preserve the historical proof and evidence identities. Local Windows checks remain Codex-reported. [D158 proof](ORDINARY_SPINE_EXCEPTIONAL_PHASE_PRESERVING_BRIDGE.md) · [Frozen manifest](../evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_PHASE_PRESERVING_BRIDGE_001/MANIFEST.json)
+
+## D159 exact exceptional-phase boundary-state allocation
+
+Record **PROVED / PENDING DIRECTOR REVIEW** for the exact two-state support and positive-quota criterion on D158's fixed exterior, including its open right completion and the resultant exact family classification. The authorized question is resolved symbolically. Select the named exterior-supply question for the parity-compatible topology with three first centers for separate authorization. [D159 proof](ORDINARY_SPINE_EXCEPTIONAL_BOUNDARY_STATE_ALLOCATION.md) · [Evidence](../evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_BOUNDARY_STATE_ALLOCATION_001/README.md) · [Strategic reassessment](../evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_BOUNDARY_STATE_ALLOCATION_001/STRATEGY.md)

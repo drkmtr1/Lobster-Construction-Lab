@@ -1,0 +1,15 @@
+# D159 strategic reassessment
+
+The fixed D158 exterior now has an exact local state rule and a direct positive-quota criterion. The two-state result resolves the selected four-host question, including cases that need an open right boundary. Its small state follows from the specific direction and row of each legal cross-column arrow. It does not supply the actual exterior on a different named topology, or justify reusing those two states at a different width. [D159 proof](../../../research/ORDINARY_SPINE_EXCEPTIONAL_BOUNDARY_STATE_ALLOCATION.md)
+
+| Direction | Scientific opportunity | Remaining requirement |
+|---|---|---|
+| Generalized physical exterior supply | Target a genuine topology change where even the number of required exterior hosts changes. D147's pinned incidences and terminal balance and D157's phase-dependent graph-class tests provide structural controls. | Supply the exterior independently on the actual original, then derive its own gap arrows and compatible quotas. A relaxed-phase analogue of a D146 mask argument would need proof under the new windows. |
+| Additional ordinary transition interfaces | Explore returns with different crossing spectra or phase patterns where the two D157 spectra obstruct the wanted phase sequence or topology. | Prove independent input supply and finite closure with exact inventories. A target failure in the present interface alone would not choose the right relaxation. |
+| Targeted hybrid study outside the two-state layout | A bounded comparison on identical original objects could distinguish lack of a physical exterior from gap incompatibility, and supply counterexamples to a precise proposed rule. | Specify an open discriminating question, exact original identities and completeness or witness certificates. A finite positive result by itself would leave independent supply and repeatability open. |
+
+[D146 general strict-width allocation](../../../research/ORDINARY_SPINE_TWO_SECTION_GENERAL_GAP_CRITERION.md) · [D147 exterior roles](../../../research/ORDINARY_SPINE_EXTERIOR_SUPPLY_REASSESSMENT.md) · [D157 phase counts](../../../research/ORDINARY_SPINE_ALTERNATING_EXCEPTIONAL_SPECTRUM.md)
+
+## Selected direction
+
+Prioritize independent physical exterior supply for a new host topology. With three positive first centers, the lower exterior already needs w and those three centers before any selected terminal is counted. This exceeds the D159 fixed width A=3, so enlarging the parameter range of its four quotas cannot supply that topology. A useful next outcome is a named S₋₁-preserving independent supplier or a precise obstruction for the stated three-first-center, two-second-center, one-direct-leaf structure on parity-compatible profiles. That task would derive its own necessary widths and test the actual compatible gap. If it exposes a genuine unresolved bottleneck, a later authorized hybrid diagnostic could compare a specific exterior rule against comprehensive admissible exteriors on the same frozen originals. No such successor was investigated or prepared here.
