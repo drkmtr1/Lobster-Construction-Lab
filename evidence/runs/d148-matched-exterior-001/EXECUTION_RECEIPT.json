@@ -1,0 +1,22 @@
+{
+  "task": "LCL-ORDINARY-SPINE-MATCHED-EXTERIOR-TWO-CENTER-001",
+  "invocations": 1,
+  "official_exit_code": 1,
+  "claim_created": true,
+  "approval_sha256": "791dca922eac38890e32f8c1ca1ee3a9235ff789698634ba7278949aa29c9b30",
+  "argv": [
+    ".venv/Scripts/python.exe",
+    "-I",
+    "-S",
+    "-B",
+    "research/matched_exterior_001/campaign.py",
+    "--manifest-sha",
+    "b307eb0a3d759e1b2a6367ad1c2f48c0be5e15bcff3e95ed9716949cb061dc8c",
+    "--approval",
+    "runs/d148-matched-exterior-001-authorization.json"
+  ],
+  "cwd": "LCL repository root",
+  "stdout_excluding_printed_approval_and_exit_summary": "",
+  "official_output": "runs/d148-matched-exterior-001",
+  "source_files_unchanged_during_execution": true
+}

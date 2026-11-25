@@ -622,4 +622,8 @@ Within D143, a first section with no direct leaves and a second section with one
 
 ## D148 matched exterior terminal-free obstruction
 
-Within D143, a terminal-free exterior cannot complete the original profiles with one first center and no first direct leaves and two second centers with at most two second direct leaves. Actual host identities and the first three forced gap sources exceed the direct quota of w. This excludes Arm T throughout the specified subfamily. Arm E remains open and ordinary gracefulness outside D143 is unaffected. [Proof](../research/matched_exterior_001/CONTRACT.md)
+Within D143, a terminal-free exterior cannot complete the original profiles with one first center and no first direct leaves and two second centers with at most two second direct leaves. Actual host identities and the first three forced gap sources exceed the direct quota of w. This excludes Arm T throughout the specified subfamily. The symbolic obstruction does not decide Arm E. The finite Arm E outcomes are recorded below and the scope stays within D143. [Proof](../research/matched_exterior_001/CONTRACT.md)
+
+## D148 official matched exterior execution exclusions
+
+All 68 priority two-center originals with one first center and no direct leaves at u and at most two direct leaves at w failed Arm E by independent exhaustion within the frozen corpus and D143 interface. Their T exclusion follows from the separate Director-accepted symbolic obstruction. This finite outcome excludes a contrast on that tested subfamily only. Five matched contrasts occur elsewhere in the same two-center corpus. The unfinished and unentered arms have no inferred outcome. [Official evidence](../evidence/runs/d148-matched-exterior-001/README.md)

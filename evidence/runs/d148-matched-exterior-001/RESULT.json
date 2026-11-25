@@ -1,0 +1,266 @@
+{
+  "task": "LCL-ORDINARY-SPINE-MATCHED-EXTERIOR-TWO-CENTER-001",
+  "preparation_checkpoint": "b1b4ba5119dca63dcf1b2ea011229d8af891747f",
+  "preparation_manifest_sha256": "b307eb0a3d759e1b2a6367ad1c2f48c0be5e15bcff3e95ed9716949cb061dc8c",
+  "execution_disposition": "INCOMPLETE_EXTERIOR_NODE_CAP",
+  "finite_hypothesis": "SUPPORTED_BY_FIVE_AUDITED_EXISTENTIAL_WITNESSES",
+  "completed_and_audited": {
+    "counts": {
+      "T-YES": 44,
+      "E-YES": 50,
+      "T-NO": 182,
+      "E-NO": 175
+    },
+    "audit_types": {
+      "T/independent-positive": 44,
+      "E/independent-positive": 50,
+      "T/D147-first-upper-source": 1,
+      "E/D147-first-upper-source": 1,
+      "T/terminal-free-forced-three": 69,
+      "E/independent-exhaustion": 174,
+      "T/independent-exhaustion": 112
+    },
+    "complete_pairs": 225,
+    "paired_by_stratum": {
+      "1": 3,
+      "2": 222
+    },
+    "partial": [
+      {
+        "target_id": "target-0226",
+        "finished": [
+          "T"
+        ],
+        "second_centers": 2,
+        "missing": [
+          "E"
+        ],
+        "suffix": [
+          [
+            4,
+            0
+          ],
+          [
+            3,
+            3,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    ],
+    "never_entered": 94,
+    "winners": [
+      {
+        "T_sha256": "1ae076662d7548446798afa7472c431f0042914ed0dd95523964286276f105e6",
+        "T_candidates": 650,
+        "original_shard": "targets-05.json",
+        "s": 8,
+        "id": "target-0132",
+        "profile": [
+          [
+            3
+          ],
+          [
+            2,
+            2,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "digest": "54334cc9502f2432f67a29c3709324c21cae4f8431da9d77005cd20c845567d5",
+        "record_sha256": "335da09a72f2a45226eee7b1ae8c316014a013ea2fb7d1db167fa318595bd3c6",
+        "T_audit_candidates": 650,
+        "E_sha256": "d198385b32ae6db11714b3e1e972708107cbaacd14614252ef6f5db349dfb6da",
+        "B": 5,
+        "A": 3,
+        "E_candidates": 45,
+        "T_audit": "independent-exhaustion"
+      },
+      {
+        "T_sha256": "860475a28dfbaa1e60c99ecb752c97c47267b7ce791732ce8b9f865619e1cb00",
+        "T_candidates": 1370,
+        "original_shard": "targets-05.json",
+        "s": 11,
+        "id": "target-0134",
+        "profile": [
+          [
+            3
+          ],
+          [
+            2,
+            4,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "digest": "e6a69a7873f75e79294784aee212ed8b9c070ea3fc804c75baf10606bd3d66eb",
+        "record_sha256": "ed5fe4c650a304d5916ab0660c1d041a332e28f34c13c28c5ae6ce293c51dfd1",
+        "T_audit_candidates": 1370,
+        "E_sha256": "44a57b14cab7b27f1221ebc1b75f6474b91b53f78e02a1885ea7cf5439d9d3ce",
+        "B": 4,
+        "A": 3,
+        "E_candidates": 3,
+        "T_audit": "independent-exhaustion"
+      },
+      {
+        "T_sha256": "7e4e010eb1d6398de3819f81b2eb5d3e415f9c2005ee73202fcdc661ce03e518",
+        "T_candidates": 1370,
+        "original_shard": "targets-05.json",
+        "s": 11,
+        "id": "target-0140",
+        "profile": [
+          [
+            3
+          ],
+          [
+            4,
+            2,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "digest": "097b8089edb051e2b3b6b124644c4d47a516a708afa399de065a765117f4b748",
+        "record_sha256": "161116979c843cde440ecc552a50d3378ef3a73d519064af51c7383af0e313fd",
+        "T_audit_candidates": 1370,
+        "E_sha256": "dfad0a0b1a70b825eb74f16c89ca419682365e61b3f0c57761ee6e9ee8f7acf7",
+        "B": 4,
+        "A": 3,
+        "E_candidates": 5,
+        "T_audit": "independent-exhaustion"
+      },
+      {
+        "T_sha256": "0d7cba68dd68865c3b293bd34f04b3b345e4f5151120546f5993d11bfdba7128",
+        "T_candidates": 1370,
+        "original_shard": "targets-05.json",
+        "s": 13,
+        "id": "target-0142",
+        "profile": [
+          [
+            3
+          ],
+          [
+            4,
+            4,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "digest": "e9cd90bb9ff5e8234bc8ae4451a7757ad4df03d966817b3d97c4f7c0dc4d598b",
+        "record_sha256": "cfca8ae94cb09ab03363a7c6b7866685ca992b9fa7f572234565df71428b0516",
+        "T_audit_candidates": 1370,
+        "E_sha256": "14f5a21a907c4e2823134febc1598789de32436f303fcd9b660c72ebea0ab895",
+        "B": 4,
+        "A": 3,
+        "E_candidates": 3,
+        "T_audit": "independent-exhaustion"
+      },
+      {
+        "T_sha256": "9eff1e4173de672ecabcea596b833d35d8a420a60fd1db1d5ea72276f46873e8",
+        "T_candidates": 212,
+        "original_shard": "targets-07.json",
+        "s": 8,
+        "id": "target-0188",
+        "profile": [
+          [
+            4
+          ],
+          [
+            2,
+            2,
+            0,
+            0,
+            0
+          ]
+        ],
+        "digest": "41b8b18136ee77afc82faee5da7b9bc1ba31e30b1634c5a2c4ac133f0a7bc9b4",
+        "record_sha256": "394dfa6bedc5f5dbb9210e6949986343010169f74de4da454fafc269891aad03",
+        "T_audit_candidates": 212,
+        "E_sha256": "e5d6df9da97387b50344822059d0f06dc74bf26cba3d4ab783b39b3319d58709",
+        "B": 5,
+        "A": 3,
+        "E_candidates": 11,
+        "T_audit": "independent-exhaustion"
+      }
+    ],
+    "completed_arm_work": {
+      "exterior_nodes": 48695061,
+      "transfer_states": 3464289,
+      "transitions": 12758420
+    },
+    "raw_files": 456,
+    "raw_bytes": 387324,
+    "worker": {
+      "active_arm": "E",
+      "active_target": "target-0226",
+      "audited_two_center_pairs": 222,
+      "audited_two_center_separations": 5,
+      "controls": {
+        "adverse": [
+          "NO",
+          "NO"
+        ],
+        "common": [
+          "YES",
+          "YES"
+        ],
+        "separation": [
+          "NO",
+          "YES"
+        ]
+      },
+      "counts": {
+        "dispositions": 452,
+        "exterior_nodes": 50000000,
+        "targets": 226,
+        "transfer_states": 3585635,
+        "transitions": 13695372
+      },
+      "cpu_seconds": 64.3125,
+      "evidence_bytes_before_summary": 2757318,
+      "reason": "exterior_nodes cap",
+      "status": "INCOMPLETE"
+    },
+    "supervision": {
+      "evidence_bytes_before_supervision": 2757750,
+      "measured_combined_cpu_seconds": 66.28125,
+      "measured_worker_cpu_seconds": 64.3125,
+      "observed_combined_wall_seconds": 67.73962500001377,
+      "reason": "worker or combined resource check",
+      "status": "INCOMPLETE",
+      "supervisor_cpu_seconds": 0.1875,
+      "wall_seconds": 65.27830110001378,
+      "worker_exit": 1
+    }
+  },
+  "priority_stratum": {
+    "priority_pairs": 68,
+    "priority_T_symbolic": 68,
+    "priority_E_exhausted_NO": 68,
+    "two_center_pairs": {
+      "YES/YES": 43,
+      "NO/NO": 174,
+      "NO/YES": 5
+    },
+    "approval_bytes": 199,
+    "sup_bytes": 324,
+    "last_T": "independent-exhaustion"
+  },
+  "arm_dispositions_expected": 640,
+  "completed_arm_dispositions": 451,
+  "incomplete_or_unentered_arm_dispositions": 189,
+  "two_center_pairs_not_decided": 12,
+  "no_retries": true,
+  "historical_pilot_closed": true,
+  "deferred_2322": "DEFERRED / UNSTARTED"
+}

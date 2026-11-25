@@ -2,7 +2,7 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 24, 2026, Pacific/Honolulu<br>
-**Stage:** D147 **ACCEPTED** within its written scope. D148 matched exterior study **FROZEN PREPARATION ONLY — AWAITING EXECUTION AUTHORIZATION**. **Project instructions KEEP v10.** The Owner reported restoring the saved v10 instructions.
+**Stage:** D148 official study **INCOMPLETE AT THE EXTERIOR-NODE CAP**. Five independently audited E-only two-center targets support the finite hypothesis. Execution evidence awaits Research Director review. **Project instructions KEEP v10.** The Owner reported restoring the saved v10 instructions.
 
 ## Current scientific objective
 
@@ -16,11 +16,13 @@ The Director accepted D146 as an exact symbolic physical quota criterion at gene
 
 D147 proves two forced exterior incidences, a terminal balance identity, a paired exterior supplier, and scoped topology obstructions. The prescribed profiles (3) and (2g+4,0,0,0) admit an exterior with terminals and exclude every terminal-free exterior under the same D143 interface. The proposed matched study targets a different stratum, two positive centers in the second section. [D147 proof and proposal](research/ORDINARY_SPINE_EXTERIOR_SUPPLY_REASSESSMENT.md) · [Handoff](handoffs/CODEX-20261124-ordinary-spine-exterior-supply-reassessment.md)
 
-D148 preparation fixes one independently initialized D105/D134 prefix and 320 named original targets, including 234 two-center and 86 one-center targets. A symbolic forced-source argument excludes Arm T for 68 two-center corpus targets. The future campaign and independent audit are frozen. No candidate exterior or transfer was evaluated. [Preparation contract](research/matched_exterior_001/CONTRACT.md) · [Preparation handoff](handoffs/CODEX-20261124-matched-exterior-preparation.md)
+D148 preparation fixes one independently initialized D105/D134 prefix and 320 named original targets, including 234 two-center and 86 one-center targets. A symbolic forced-source argument excludes Arm T for 68 two-center corpus targets. The Director accepted the frozen preparation and its symbolic Arm T obstruction. [Preparation contract](research/matched_exterior_001/CONTRACT.md) · [Preparation handoff](handoffs/CODEX-20261124-matched-exterior-preparation.md)
+
+D148 completed 225 audited pairs, including 222 of 234 two-center pairs. Five two-center matched separations use computationally exhausted Arm T negatives. The other 12 two-center pairs remain undecided. The run stopped during Arm E of target-0226 and will not restart under this authorization. [Execution evidence](evidence/runs/d148-matched-exterior-001/README.md) · [Closeout handoff](handoffs/CODEX-20261124-matched-exterior-execution-closeout.md)
 
 ## One next action
 
-Under separate Owner authorization, execute the frozen matched exterior study `LCL-ORDINARY-SPINE-MATCHED-EXTERIOR-TWO-CENTER-001` exactly once using the reviewed preparation manifest and approval gate. Test for a checked E-only target in the two-center second-section stratum and preserve audited negatives and all INCOMPLETE dispositions within the frozen limits.
+Await Research Director review of the D148 matched evidence. Any subsequent research requires separate Owner authorization.
 
 ## Deferred obligations
 

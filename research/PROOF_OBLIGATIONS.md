@@ -859,10 +859,10 @@ The general allocation consumer is exact given the independently supplied named 
 
 ## D147 independent exterior supply remaining scope
 
-General independent exterior supply is unresolved. The witnessed separation concerns one center in the second section. Whether the advantage extends to the declared two-center stratum remains open. A new matched study with original-target custody and exact audits is proposed. It requires separate authorization and has no executed cases.
+General independent exterior supply remains unresolved. D147 proves an infinite separation with one center in the second section. D148 tested the subsequent finite two-center stratum with original-target custody and exact audits. Its five separations do not establish a parameterized two-center supplier.
 
-**PREPARATION FROZEN — OFFICIAL EXECUTION UNSTARTED.** Under separate Owner authorization, execute the frozen matched exterior study `LCL-ORDINARY-SPINE-MATCHED-EXTERIOR-TWO-CENTER-001` exactly once using the reviewed preparation manifest and approval gate. Test for a checked E-only target in the two-center second-section stratum and preserve audited negatives and all INCOMPLETE dispositions within the frozen limits.
+**OFFICIAL EXECUTION INCOMPLETE AT THE FROZEN NODE CAP.** The finite hypothesis has five audited separating witnesses. Execution evidence awaits Director review.
 
 ## D148 matched exterior study obligations
 
-The exact named corpus and future candidate, support and independent audit algorithms are frozen. The new forced-three Arm T proof isolates 68 two-center targets as a high-value stratum. Arm E feasibility there and the two-center existence claim remain undecided. A checked E witness paired with audited T exclusion supports the finite hypothesis. Ruling out every such separation requires every two-center case to be decided and audited. Numerical results and any later symbolic follow-up remain separate duties. [Contract](../research/matched_exterior_001/CONTRACT.md)
+The exact named corpus and future candidate, support and independent audit algorithms are frozen. The new forced-three Arm T proof isolates 68 two-center targets as a high-value stratum. All 68 high-value Arm E cases have independently exhausted negatives in the frozen study. Five two-center cases outside that stratum establish the finite existential hypothesis with checked E witnesses and independently exhausted T searches. The 12 two-center pairs without a complete audited disposition remain unresolved. The current task ends with the execution closeout and awaits Director review. General symbolic exterior supply and explanatory two-center theory remain open. [Contract](../research/matched_exterior_001/CONTRACT.md)

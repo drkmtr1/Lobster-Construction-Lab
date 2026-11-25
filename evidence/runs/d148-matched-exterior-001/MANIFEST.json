@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "task": "LCL-ORDINARY-SPINE-MATCHED-EXTERIOR-TWO-CENTER-001",
+  "parent": "b1b4ba5119dca63dcf1b2ea011229d8af891747f",
+  "frozen_preparation_manifest_sha256": "b307eb0a3d759e1b2a6367ad1c2f48c0be5e15bcff3e95ed9716949cb061dc8c",
+  "execution_status": "INCOMPLETE_EXTERIOR_NODE_CAP",
+  "finite_hypothesis": "SUPPORTED",
+  "scientific_disposition": "PENDING_DIRECTOR_REVIEW",
+  "official_invocations": 1,
+  "official_exit_code": 1,
+  "new_research_runs_after_cap": 0,
+  "audited_two_center_separations": 5,
+  "charged_official_bytes": 2758074,
+  "raw_members": 457,
+  "raw_zip_sha256": "5b506784c1e5616a3b851335dd9fb93bad82801f6f8ce1a939bc39819a4d6e51",
+  "files": [
+    {
+      "path": "evidence/runs/d148-matched-exterior-001/ADMISSION.json",
+      "bytes": 931,
+      "sha256": "95cd919e83bbb94f3a72c69b7264e50d5a86119542974a491e05f8f78594ed0e"
+    },
+    {
+      "path": "evidence/runs/d148-matched-exterior-001/DISPOSITIONS.json",
+      "bytes": 228697,
+      "sha256": "06db64bad03da6c45449cd81d4bd5856011aaff8734f5f8244f682452bec8cac"
+    },
+    {
+      "path": "evidence/runs/d148-matched-exterior-001/EXECUTION_RECEIPT.json",
+      "bytes": 722,
+      "sha256": "676a3e78d3e7c4b27e95c3a4d57c3a6a90a8c31ee43b129bbee7d25910e78137"
+    },
+    {
+      "path": "evidence/runs/d148-matched-exterior-001/OFFICIAL_RAW.zip",
+      "bytes": 250606,
+      "sha256": "5b506784c1e5616a3b851335dd9fb93bad82801f6f8ce1a939bc39819a4d6e51"
+    },
+    {
+      "path": "evidence/runs/d148-matched-exterior-001/RAW_RECORDS.json",
+      "bytes": 73841,
+      "sha256": "593b2cbd9d04596d5308b0baf91458110616c580d555126391cb0c378c783ca1"
+    },
+    {
+      "path": "evidence/runs/d148-matched-exterior-001/README.md",
+      "bytes": 3324,
+      "sha256": "6d2fd764d80f31dccc3853e5cf8e7a2b942bad5394baa5cd199ca51d5504b4a6"
+    },
+    {
+      "path": "evidence/runs/d148-matched-exterior-001/RESULT.json",
+      "bytes": 7276,
+      "sha256": "fbc0d6d1aadd079e7b58f47c32372e253639b7be8c16be5ba98a10aff1a21dfc"
+    },
+    {
+      "path": "evidence/runs/d148-matched-exterior-001/REVIEWS.md",
+      "bytes": 2148,
+      "sha256": "51fa18da2f66c0fc653480f3345b4a299fbc79e763f61a8fb820927d1403128e"
+    },
+    {
+      "path": "evidence/runs/d148-matched-exterior-001/witnesses/target-0132.json",
+      "bytes": 21960,
+      "sha256": "38aa361987cd52309bc1945cbf783dbcdccf9939791bc28bda0d5ea7737881eb"
+    },
+    {
+      "path": "evidence/runs/d148-matched-exterior-001/witnesses/target-0134.json",
+      "bytes": 22734,
+      "sha256": "fbcfd1e483ff4cf7318bebb510288317a953d63f134883ecc8839a1955afcd44"
+    },
+    {
+      "path": "evidence/runs/d148-matched-exterior-001/witnesses/target-0140.json",
+      "bytes": 22735,
+      "sha256": "5ac963367696a8c72464bd4c6093f12a2fed6eb82043a783de52bdac2baf270d"
+    },
+    {
+      "path": "evidence/runs/d148-matched-exterior-001/witnesses/target-0142.json",
+      "bytes": 23479,
+      "sha256": "9e06167dcd441a9fed363551eaf873668eb7bae4f089451bb306ad5c74b1a8af"
+    },
+    {
+      "path": "evidence/runs/d148-matched-exterior-001/witnesses/target-0188.json",
+      "bytes": 21937,
+      "sha256": "2e0bef66159796815536cde4fe33429bced65f399836615597d027d822ae55b0"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_MATCHED_EXTERIOR_TWO_CENTER_001/MANIFEST.json",
+      "bytes": 12325,
+      "sha256": "b307eb0a3d759e1b2a6367ad1c2f48c0be5e15bcff3e95ed9716949cb061dc8c"
+    },
+    {
+      "path": "handoffs/CODEX-20261124-matched-exterior-execution-closeout.md",
+      "bytes": 2598,
+      "sha256": "a332c098070c901cab194517bfe965f6cbe1b2b622ac2fc75049ee9022bff567"
+    },
+    {
+      "path": "research/matched_exterior_001/CONTRACT.md",
+      "bytes": 11973,
+      "sha256": "c9eab259f7534777e97ab9bba7a0bd26e75d2e4ce9aee4296bee5fdfe4308ff4"
+    },
+    {
+      "path": "STATE.md",
+      "bytes": 82464,
+      "sha256": "1408f47b85303836ae9450e29b0659183b86fc3853dd7f7bf964ad68ad8d51c8"
+    }
+  ]
+}
