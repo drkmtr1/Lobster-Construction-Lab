@@ -1,0 +1,17 @@
+# Codex handoff — D135 general displacement-cycle allocation
+
+November 24, 2026, Pacific/Honolulu · `LCL-ORDINARY-SPINE-GENERAL-DISPLACEMENT-CYCLE-ALLOCATION-001` · parent `639d07854c254ceac3848b7101b2b43b9c3c1f19`. Repository `drkmtr1/Lobster-Construction-Lab`, branch `main`.
+
+**ACCEPT** the displacement-cycle supplier on the exact D134 return state at fixed odd h=2p+1≥3, with positive physical quotas, even Q≥h+1, n≥h+Q, zero weighted moment and successful deterministic two-band packing. The quota moment is necessary in this placement, and each band has its own zero moment. The integer walk and stack partition the nonzero displacements into bounded cycles. Packing the longest initial list of width T≤k is sufficient when W−T≤Q−k. Independently, Q≥pN+2p−1 guarantees capacity. The theorem supplies an infinite nonsymmetric domain for every fixed odd h≥5. D134's earlier symmetric supplier retains its independent domain.
+
+Each admitted step preserves both named inventories and returns the D134 cut state with flipped physical polarity. Finite lists can mix both suppliers while keeping emitted labels immutable in the final alphabet and accounting for shifted crossing weights. The moment remains compulsory under the chosen labels, and failed packing leaves other layouts open.
+
+[Proof](../research/ORDINARY_SPINE_GENERAL_DISPLACEMENT_CYCLE_ALLOCATION.md) · [Evidence](../evidence/validation/LCL_ORDINARY_SPINE_GENERAL_DISPLACEMENT_CYCLE_ALLOCATION_001/README.md) · [Retained audit and controls](../evidence/validation/LCL_ORDINARY_SPINE_GENERAL_DISPLACEMENT_CYCLE_ALLOCATION_001/result.json) · [Reviews](../evidence/validation/LCL_ORDINARY_SPINE_GENERAL_DISPLACEMENT_CYCLE_ALLOCATION_001/REVIEWS.md) · [Manifest](../evidence/validation/LCL_ORDINARY_SPINE_GENERAL_DISPLACEMENT_CYCLE_ALLOCATION_001/MANIFEST.json)
+
+**PASS** one parse-only preflight and one supervised verification. D105 and D130 passed on their archived originals, both declared maximum cuts were inspected, and D104/D131–D134 bindings and the four controls passed. Combined use was 0.59375 process-CPU seconds and 1.3581676 supervised wall seconds. Pre-existing D135 drafts were isolated during admission to verify the clean D134 checkpoint, then restored byte-for-byte before freezing. No official phase had run at recovery. Both official phases ran once. Preserve separate D083/D093/D100 original and versioned dispositions, deferred 2322, baseline identities and upstream pins. Resolve this handoff's containing commit and verify actual GitHub `main`.
+
+**ADVANCE** toward shared space for displacement cycles. The present decomposition charges each cycle for its full width, so fixed points occupy unusable holes even when another cycle might use those positions. A general bound with less dependence on multiplicity would widen the admitted quota range while retaining the same transition state. **Project instructions KEEP.**
+
+## One next action
+
+Under separate authorization, test whether band-preserving displacement cycles in the D134 return state can interleave their occupied coordinates and share unused space. Seek a constructive sufficient capacity bound linear in the nonzero token count N with an absolute coefficient independent of p and an additive term depending only on p, or prove a scoped obstruction to the proposed interleaving rule. Keep the exact quota moment, both physical return bands and arbitrary fixed odd multiplicity. Work symbolically without numerical joins, profile sweeps, solvers or isolated quota exceptions.

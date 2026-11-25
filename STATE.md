@@ -2,19 +2,21 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 24, 2026, Pacific/Honolulu<br>
-**Stage:** D134 repeatable piecewise cut-spectrum transition **ACCEPTED**. Bounded retained-evidence verification **PASS**. [Proof](research/ORDINARY_SPINE_PIECEWISE_CUT_SPECTRUM_TRANSITION.md).
+**Stage:** D135 general displacement-cycle allocation **ACCEPTED**. Bounded retained-evidence verification **PASS**. [Proof](research/ORDINARY_SPINE_GENERAL_DISPLACEMENT_CYCLE_ALLOCATION.md).
 
 ## Current scientific objective
 
-Develop independent ordinary graceful transitions with usable physical ports. The [latest handoff](handoffs/CODEX-20261124-ordinary-spine-piecewise-cut-spectrum-transition.md) records the repeatable piecewise cut-spectrum transition for fixed odd multiplicity and symmetric quotas. The next priority is to broaden the physical quota allocation while retaining both spectral bands and the returned cut state. The D133 obstruction retains its exact affine and inventory scope.
+Develop independent ordinary graceful transitions with usable physical ports. The [latest handoff](handoffs/CODEX-20261124-ordinary-spine-general-displacement-cycle-allocation.md) extends the D134 return state to a provable nonsymmetric quota domain. The capacity charged for separate cycle blocks is the next structural bottleneck. The required weighted quota balance and fixed odd multiplicity still delimit this placement.
 
 ## One next action
 
-Under separate authorization, test an allocation criterion for arbitrary positive physical quotas at one fixed odd multiplicity h=2p+1≥3 in the D134 return state. Require a permutation of gap coordinates preserving [0,k−1] and [k,Q−1], with displacement p−j occurring exactly the quota of physical center j times. Prove a parameterized nonsymmetric supply condition or a scoped obstruction to the proposed criterion, retaining the two inventories and the same reusable cut state. Work symbolically without numerical joins, profile sweeps, solvers or isolated quota cases.
+Under separate authorization, test whether band-preserving displacement cycles in the D134 return state can interleave their occupied coordinates and share unused space. Seek a constructive sufficient capacity bound linear in the nonzero token count N with an absolute coefficient independent of p and an additive term depending only on p, or prove a scoped obstruction to the proposed interleaving rule. Keep the exact quota moment, both physical return bands and arbitrary fixed odd multiplicity. Work symbolically without numerical joins, profile sweeps, solvers or isolated quota exceptions.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
+
+- D135 **SUPPLIES** a deterministic displacement-cycle rule in the exact D134 return state. Zero quota moment is necessary, while the width test W−T≤Q−k is sufficient for the selected cycle blocks, with independent sufficient capacity Q≥pN+2p−1. An infinite nonsymmetric domain exists for every fixed odd h≥5. Admitted allocations retain both inventories, the returning cut state and immutable final labels. D134's symmetric rule retains its independent domain. Two retained checker rechecks, two cut inspections, five archive bindings, four controls and separate reviews passed. See [proof](research/ORDINARY_SPINE_GENERAL_DISPLACEMENT_CYCLE_ALLOCATION.md) and [evidence](evidence/validation/LCL_ORDINARY_SPINE_GENERAL_DISPLACEMENT_CYCLE_ALLOCATION_001/README.md).
 
 - D134 **PROVES** the exact collision criterion for separate cut translations and **SUPPLIES** an ordinary spine transition for fixed odd multiplicity under the stated symmetric physical quotas, spectral cut and return split. It flips the actual frontier polarity, returns the same cut-spectrum invariant, initializes symbolically from a supplied maximum-port seed, and closes on admitted finite lists with immutable final labels and exact shifted weights. Two retained rechecks and cut inspections, four archived bindings, four controls and separate reviews passed. See [proof](research/ORDINARY_SPINE_PIECEWISE_CUT_SPECTRUM_TRANSITION.md) and [evidence](evidence/validation/LCL_ORDINARY_SPINE_PIECEWISE_CUT_SPECTRUM_TRANSITION_001/README.md).
 
