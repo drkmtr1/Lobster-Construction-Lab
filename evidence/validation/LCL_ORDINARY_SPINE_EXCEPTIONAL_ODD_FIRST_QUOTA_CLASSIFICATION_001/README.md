@@ -1,0 +1,7 @@
+# D162 exact odd-quota exceptional exterior classification
+
+**PROVED / PENDING DIRECTOR REVIEW.** In the declared D157 S₋₁ arrangement on first quotas 4,2r+1,2t+1 and second quotas 2,4 plus one actual direct leaf, with every physical order and the inherited size premises, E+ is feasible for every r,t≥0. T is feasible exactly when max(r,t)≥2. The separating range is r,t∈{0,1}. [Proof](../../../research/ORDINARY_SPINE_EXCEPTIONAL_ODD_FIRST_QUOTA_CLASSIFICATION.md)
+
+The E+ supplier uses the observed A=5,B=4 exterior, one actual exterior terminal at a and P, and the actual direct gap leaf as a displacement-four crossing. A permutation-moment parity argument places quota four at the terminal-free unit host and forces an odd neutral quota of at least five. The explicit a₀=1, a₀=3 and a₀≥5 packets cover every admitted terminal-free case, including zero loop lengths. Named resources, the actual unfinished uw, both polarities and admitted immutable composition are proved.
+
+The Director accepted D161's completed finite execution in its frozen scope. The 24 selected separating originals with second quotas two and four are recovered symbolically. The nine with second quotas four and four remain outside this theorem. All raw archive identities are preserved. No numerical allocation or replay ran. [Custody and controls](CUSTODY.json) · [Reviews](REVIEWS.md) · [Manifest](MANIFEST.json) · [Strategic reassessment](STRATEGY.md)

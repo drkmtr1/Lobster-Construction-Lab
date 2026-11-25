@@ -1,0 +1,170 @@
+{
+  "task": "LCL-ORDINARY-SPINE-EXCEPTIONAL-ODD-FIRST-QUOTA-CLASSIFICATION-001",
+  "status": "PROVED_PENDING_DIRECTOR_REVIEW",
+  "parent": "8513749a3df139ed21f4f479201e8fcd7f651d59",
+  "proof_sha256": "aa8246088b3c16a2bc7f96e9f1fca852ec6e9d89efc1ff8ce49fe4e8a4783584",
+  "exact_scope": {
+    "phase": "S_-1 to S_-1",
+    "first_quotas": "All physical orders of 4,2r+1,2t+1, exact r,t>=0",
+    "second_quotas": "Both orders of two and four plus actual sole direct leaf",
+    "n_bound": "Independent named input with n=2c+2>=2(r+t+10)",
+    "Eplus": "Feasible throughout",
+    "T": "Feasible iff max(r,t)>=2",
+    "separation": "Iff r,t each in {0,1}",
+    "D161_selected_controls": 24,
+    "D161_other_separators_outside": 9
+  },
+  "D161_acceptance": {
+    "disposition": "DIRECTOR_ACCEPTED_WITHIN_EXACT_FROZEN_FINITE_SCOPE",
+    "status": "COMPLETE",
+    "finite_hypothesis": "SUPPORTED",
+    "closeout_checkpoint": "8513749a3df139ed21f4f479201e8fcd7f651d59",
+    "closeout_manifest_sha256": "ca1f0672f34e770bc5ac860ce95b4577b8d2920d7a9617538b510c17f8df7864",
+    "raw_archive_sha256": "13c6ff81991bef03d0760b5ecf7aadc14b60a7cecdf951c10212d12de9eb7cee",
+    "manifest_members": 9,
+    "raw_members": 301,
+    "originals": 99,
+    "arms": 198,
+    "pairs": 99,
+    "positive_certificates": 93,
+    "numerical_negative_audit_records": 63,
+    "separating_originals": 33,
+    "matched_T_Eplus_distribution": {
+      "YES/YES": 12,
+      "YES/NO": 36,
+      "NO/YES": 33,
+      "NO/NO": 18
+    }
+  },
+  "state_binding": {
+    "path": "STATE.md",
+    "bytes": 87133,
+    "sha256_canonical_git_bytes": "7d1874e6bb002d42736f7fb138a12de6e64065e0ce9216a26ee2197ff8aad234",
+    "sole_next_action": "Under separate Owner authorization after Director review, investigate whether a named packet substitution on the A=5,B=4 exceptional exterior can raise the quota at reduced host 9 from two to four for the odd-first-quota family. Keep the actual direct-leaf role and exact S_-1 return, and establish the admitted quota range with proof. This action is UNSTARTED."
+  },
+  "intake_file_bindings": [
+    {
+      "path": "evidence/runs/d161-exceptional-quota-four-001/MANIFEST.json",
+      "bytes": 7847,
+      "sha256": "ca1f0672f34e770bc5ac860ce95b4577b8d2920d7a9617538b510c17f8df7864"
+    },
+    {
+      "path": "evidence/runs/d161-exceptional-quota-four-001/OFFICIAL_RAW.zip",
+      "bytes": 364603,
+      "sha256": "13c6ff81991bef03d0760b5ecf7aadc14b60a7cecdf951c10212d12de9eb7cee"
+    },
+    {
+      "path": "evidence/runs/d161-exceptional-quota-four-001/RECONCILIATION.json",
+      "bytes": 210632,
+      "sha256": "27e0c7b364452901274d6e73115151444a4b7249ce335165393ca3d717d548fe"
+    },
+    {
+      "path": "evidence/runs/d161-exceptional-quota-four-001/SEPARATORS.md",
+      "bytes": 5567,
+      "sha256": "e7a45c5e1435baf459ef597ee2a7ce2c293b6983da3cda5e22e99bbbf3a34688"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FIVE_HOST_QUOTA_FOUR_MATCHED_001_PREP/MANIFEST.json",
+      "bytes": 17765,
+      "sha256": "3839c60a588a7e8c0eeee3b62c107e8182fffa24cd06bf649b3faa9c32997fdf"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FIVE_HOST_QUOTA_FOUR_MATCHED_001_PREP/input/corpus_index.json",
+      "bytes": 27614,
+      "sha256": "7e9d80a8ba149bbf2a66bf33b1249f5edd4e7f35fa4aa4f27c8ca0782b5e6626"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FIVE_HOST_QUOTA_FOUR_MATCHED_001_PREP/input/prefix.json",
+      "bytes": 8781,
+      "sha256": "f48b56479dac85e1ddbbd36e5f6a6a3eaf94b9b32497e677fe5a96932abbac95"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_TWO_SECTION_CUT_STATE.md",
+      "bytes": 24015,
+      "sha256": "a7b4d98f286225bfb887866ce1b6167281b52bb650fcf53a50b0a5060e152cf8"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_ALTERNATING_EXCEPTIONAL_SPECTRUM.md",
+      "bytes": 19060,
+      "sha256": "73230a18d826361e0eb4eadfbf02e41cbb1aa3c5332c890bf75f48ed18a0e0fd"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_EXCEPTIONAL_PHASE_PRESERVING_BRIDGE.md",
+      "bytes": 18725,
+      "sha256": "7ccf47623ba26ebfe4479a4a9bd0defbd582290503a4226860f1562a89c8fa89"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_EXCEPTIONAL_BOUNDARY_STATE_ALLOCATION.md",
+      "bytes": 19321,
+      "sha256": "d1772995d373bc5a2884a9199c4ef32309e16d809dacb3388618b7680e892260"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_EXCEPTIONAL_FIVE_HOST_EXTERIOR_SUPPLY.md",
+      "bytes": 22746,
+      "sha256": "0ce4053e4d5b8082fc62d7a008aa7875680ff9505c9f9e0b7d4568cfa2e90254"
+    },
+    {
+      "path": "evidence/runs/d154-parity-two-first-center-001/MANIFEST.json",
+      "bytes": 3968,
+      "sha256": "e66f651917ae167dfb903d1557f25a593738e2cea97a9d79e4e16c19f6f52b42"
+    },
+    {
+      "path": "evidence/runs/d154-parity-two-first-center-001/OFFICIAL_RAW.zip",
+      "bytes": 732889,
+      "sha256": "fc85e33800ec57eeccba25637f5e99080c08539160739cfbdd6543f18fb9cb72"
+    },
+    {
+      "path": "STATE.md",
+      "sha256": "44c25276c8cf05fb20130a191fb60ba31c2b8563e274cfb4d349fb0e47677823",
+      "bytes": 87053,
+      "git_commit": "8513749a3df139ed21f4f479201e8fcd7f651d59",
+      "representation": "Canonical Git blob bytes at admission"
+    }
+  ],
+  "files": [
+    {
+      "path": "research/ORDINARY_SPINE_EXCEPTIONAL_ODD_FIRST_QUOTA_CLASSIFICATION.md",
+      "bytes": 22233,
+      "sha256": "aa8246088b3c16a2bc7f96e9f1fca852ec6e9d89efc1ff8ce49fe4e8a4783584"
+    },
+    {
+      "path": "handoffs/CODEX-20261125-exceptional-odd-first-quota-classification.md",
+      "bytes": 2930,
+      "sha256": "873502f7442e3c76b96a83ed0649066fcc8c5a9c1544f5bbb5d32e067754a95c"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ODD_FIRST_QUOTA_CLASSIFICATION_001/CUSTODY.json",
+      "bytes": 28295,
+      "sha256": "c85057998790a1bd997f5bb18350231f77caf020cf01a77ef98706a7dc4a9f11"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ODD_FIRST_QUOTA_CLASSIFICATION_001/README.md",
+      "bytes": 1455,
+      "sha256": "37ec3821aee505b9cc5831afd89832893454c65ecfcf55d9686d9392a606d866"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ODD_FIRST_QUOTA_CLASSIFICATION_001/REVIEWS.md",
+      "bytes": 1837,
+      "sha256": "88d289f0e9f4e56b975cef6d143b2a6808de9b483e762ab87389fc9c0750374a"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ODD_FIRST_QUOTA_CLASSIFICATION_001/STRATEGY.md",
+      "bytes": 1631,
+      "sha256": "d7db17f586f2e51be8d2b4ebbc613738819d493547c7e81045d7c66570380a52"
+    }
+  ],
+  "scientific_counters": {
+    "new_numerical_originals": 0,
+    "allocation_evaluations": 0,
+    "labeling_search_nodes": 0,
+    "transfer_state_searches": 0,
+    "placement_sweeps": 0,
+    "solver_calls": 0,
+    "pilot_invocations": 0,
+    "historical_campaign_replays": 0,
+    "detailed_D130_access": 0,
+    "successor_execution": 0,
+    "successor_preparation": 0
+  },
+  "project_instructions": "KEEP v11"
+}

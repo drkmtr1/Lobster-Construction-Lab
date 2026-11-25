@@ -1,0 +1,805 @@
+{
+  "task": "LCL-ORDINARY-SPINE-EXCEPTIONAL-ODD-FIRST-QUOTA-CLASSIFICATION-001",
+  "date": "2026-11-25",
+  "start": "8513749a3df139ed21f4f479201e8fcd7f651d59",
+  "D161_acceptance": {
+    "disposition": "DIRECTOR_ACCEPTED_WITHIN_EXACT_FROZEN_FINITE_SCOPE",
+    "status": "COMPLETE",
+    "finite_hypothesis": "SUPPORTED",
+    "closeout_checkpoint": "8513749a3df139ed21f4f479201e8fcd7f651d59",
+    "closeout_manifest_sha256": "ca1f0672f34e770bc5ac860ce95b4577b8d2920d7a9617538b510c17f8df7864",
+    "raw_archive_sha256": "13c6ff81991bef03d0760b5ecf7aadc14b60a7cecdf951c10212d12de9eb7cee",
+    "manifest_members": 9,
+    "raw_members": 301,
+    "originals": 99,
+    "arms": 198,
+    "pairs": 99,
+    "positive_certificates": 93,
+    "numerical_negative_audit_records": 63,
+    "separating_originals": 33,
+    "matched_T_Eplus_distribution": {
+      "YES/YES": 12,
+      "YES/NO": 36,
+      "NO/YES": 33,
+      "NO/NO": 18
+    }
+  },
+  "admission": {
+    "status": "PASS",
+    "head": "8513749a3df139ed21f4f479201e8fcd7f651d59",
+    "parent": "e26f80d950a9c316a4c059a0eb98a843e1aec23c",
+    "origin_main": "8513749a3df139ed21f4f479201e8fcd7f651d59",
+    "live_main": "8513749a3df139ed21f4f479201e8fcd7f651d59",
+    "clean": true,
+    "baseline": "fddfc1dd9541324b2ed2de2505bc750b3e3f0b9d",
+    "baseline_peel": "36ea1603602491bf3c1c5b81ed4c23aaa2210e70",
+    "upstreams": [
+      {
+        "path": "../Math_Discovery_Lab",
+        "pin": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+        "branch": "main",
+        "checkout": "858a8c1fcfda87ba40bb1adee498a6131504a803"
+      },
+      {
+        "path": "../MDL_Bounded_Search",
+        "pin": "e48b94eec4091b4fe189e325cab2eda464409943",
+        "branch": "recovery/p004-last-completed-no-launcher",
+        "checkout": "c803ecb6bd0481d31af43f7e3c194ae8ed4d1578",
+        "remote_recovery_tip": "1e1efeac9acd70006d7f1bd4aa6786f438cff602"
+      }
+    ],
+    "builder": "8d1e9948e8bf5ef01e67c9afe0155412c57d79fa",
+    "checker": "d008f35f0843e1a5c770db3e7f42ed7d987360d7",
+    "agents": {
+      "path": "AGENTS.md",
+      "bytes": 8359,
+      "sha256": "e980f2ee51d2b69cfd8ab9c4955f9388ad14f9b7b78581729ef5a24dd21339e6"
+    },
+    "canonical_agents_sha256": "ddb4b70c24cb5e1725d0c2e4ea8c2d522b4556b62b8bd69fdffd4205ece485db",
+    "closeout_manifest_members": 9,
+    "closeout_intake_bindings": 15,
+    "prep_manifest_members": 49,
+    "prep_intake_bindings": 15,
+    "raw_members": 301,
+    "original_bindings": 99,
+    "selected_controls": [
+      {
+        "target": "target-001",
+        "parameters": [
+          1,
+          1,
+          4,
+          2,
+          4
+        ],
+        "original_sha256": "590037aa38b1484e8279af4975ee7dc1ac9572586e49a702e3205f33bcbbf82a",
+        "original_record_sha256": "73d7385e3fb8257bfaa5ee9163e661c950ce3f10d36298fe71c3edb8dd3561a1",
+        "T": {
+          "basis": "ALLOCATION_EXHAUSTED",
+          "sha256": "50dc362689683c488ec6e60cd2eed6d06ca8f9860ff724c0858d617ab3652e44",
+          "file": "target-001-T.json"
+        },
+        "Eplus": {
+          "sha256": "b267aa970efd6a02753ef0d2627b6892ae675f950d46642c1c1c00046a1d7296",
+          "file": "target-001-Eplus.json"
+        },
+        "pair": {
+          "sha256": "4cf75905175fbd2142ee61f1da03926458f36f15529aeb77ca5a4f4a769b277d",
+          "file": "target-001-PAIR.json"
+        }
+      },
+      {
+        "target": "target-003",
+        "parameters": [
+          1,
+          1,
+          4,
+          4,
+          2
+        ],
+        "original_sha256": "db34eb88ecc8ed4d8db2209a53bb0220d335523cef363380d17f183924e475a1",
+        "original_record_sha256": "a5e8596f95a5fc7b2134b7366b453942e0f61cd0e7836a20ac58c4b7c83f8519",
+        "T": {
+          "basis": "ALLOCATION_EXHAUSTED",
+          "sha256": "12272afc20349898bb00e53434fee2ebecfe7538bc45d1c024522f03f0a5fcd5",
+          "file": "target-003-T.json"
+        },
+        "Eplus": {
+          "sha256": "a14eebd5c1171d0f91161090e85753d44eeadc45e5aa0edcd71fd8befd3e9765",
+          "file": "target-003-Eplus.json"
+        },
+        "pair": {
+          "sha256": "f200586925811b3464ad05293b8e5bc4c10bcd406d9af88e3cc6016a78f8c5d9",
+          "file": "target-003-PAIR.json"
+        }
+      },
+      {
+        "target": "target-007",
+        "parameters": [
+          1,
+          3,
+          4,
+          2,
+          4
+        ],
+        "original_sha256": "2f5566eac029f0eb7f8008b102baf584ea40b277a912dd7444ef32b7b8815963",
+        "original_record_sha256": "01209fb0f8521f9260a8a507e6c39fde43681d80a8284033d7a4ab2198d49364",
+        "T": {
+          "basis": "ALLOCATION_EXHAUSTED",
+          "sha256": "572f22b0ad292192d9a14f19182ab0e8b17f7f2ba5922e06babe6cd55bda73b3",
+          "file": "target-007-T.json"
+        },
+        "Eplus": {
+          "sha256": "707a48e87108ea9901bf80e41d34461cc456a59b6e38239277ed54717c88f601",
+          "file": "target-007-Eplus.json"
+        },
+        "pair": {
+          "sha256": "05f706217b038d47de63847fe6363f0d490f598e66dfd8b0936a606e4dd7453a",
+          "file": "target-007-PAIR.json"
+        }
+      },
+      {
+        "target": "target-010",
+        "parameters": [
+          1,
+          3,
+          4,
+          4,
+          2
+        ],
+        "original_sha256": "b52e9c20d1a0ae184eca6562587dfeff454d5312188159f63f79bd5c669ed548",
+        "original_record_sha256": "e9fc236b461924cbc7f2ee9404345aeee19fb5766846224eb50611a8779ece12",
+        "T": {
+          "basis": "ALLOCATION_EXHAUSTED",
+          "sha256": "5c6550d2267a4e469948d8b143a0d25065fff0abec9cdba700eaf28f477b8205",
+          "file": "target-010-T.json"
+        },
+        "Eplus": {
+          "sha256": "0f2e65e732895b48813e86f4f030221e38d801cf1ce37f7de21302b584ba0c3d",
+          "file": "target-010-Eplus.json"
+        },
+        "pair": {
+          "sha256": "7191c552c7669129c78fc32e2ac786e84d1527d404ab6979c431ca71b42a882b",
+          "file": "target-010-PAIR.json"
+        }
+      },
+      {
+        "target": "target-012",
+        "parameters": [
+          1,
+          4,
+          1,
+          2,
+          4
+        ],
+        "original_sha256": "d5e8637390123504c97d30d1b28ae818e141f030f53bef0da98b60a5951e69bb",
+        "original_record_sha256": "86d84958d86793aaaa8f10485bb7d86ec7ec51dde98e3e57fc77f42e22871927",
+        "T": {
+          "basis": "ALLOCATION_EXHAUSTED",
+          "sha256": "4d3d55d4385479a9882dff406ac4a35bb9e0636eba92055b135d31d0c01eafd3",
+          "file": "target-012-T.json"
+        },
+        "Eplus": {
+          "sha256": "2848f5378bca7d6b8ae6415ce24f08f59b79d75f2b016fcc30eb9f0d8a53a016",
+          "file": "target-012-Eplus.json"
+        },
+        "pair": {
+          "sha256": "9fa0ee5c4b85be711dae193f73436c1f652cb66bce1c7a98af04a1f74ed96d0a",
+          "file": "target-012-PAIR.json"
+        }
+      },
+      {
+        "target": "target-014",
+        "parameters": [
+          1,
+          4,
+          1,
+          4,
+          2
+        ],
+        "original_sha256": "47b7d4192f9f5cf6825ebf60d34ee6fb86bc4e27998f3fbb8e5f0993056a32cb",
+        "original_record_sha256": "e61367d62bbf87454f50a92147a14cc3e9fcb1f038ab0730be322467c0b1ada8",
+        "T": {
+          "basis": "ALLOCATION_EXHAUSTED",
+          "sha256": "448a335f4668f7146ee870180fe61bbf20f2dfd5b144f1de85d297970c584d89",
+          "file": "target-014-T.json"
+        },
+        "Eplus": {
+          "sha256": "2810d0a8962cf53785069faa9d9f02cdf63884827e96799fcdfb8e86fdcc638f",
+          "file": "target-014-Eplus.json"
+        },
+        "pair": {
+          "sha256": "09769a3f5b5abefe863ad8d1d1c5f0a1f5cc4ddd4806830fcc6c47d586955ef4",
+          "file": "target-014-PAIR.json"
+        }
+      },
+      {
+        "target": "target-018",
+        "parameters": [
+          1,
+          4,
+          3,
+          2,
+          4
+        ],
+        "original_sha256": "d0374ac3b8b2d4ef9e325a26823345e4fb6feba0af1e8966e57d2e1d1276460b",
+        "original_record_sha256": "fd40b3fee3dd565ed4ef4c3ad6a8e51e14707eb58d94962118c7626868789f24",
+        "T": {
+          "basis": "ALLOCATION_EXHAUSTED",
+          "sha256": "06e6a6c5c252fcdd65cec9c1d3e5c664459108b4cc723258577dcc8904335130",
+          "file": "target-018-T.json"
+        },
+        "Eplus": {
+          "sha256": "cb5a382da10adc0a5e2a1c3ffa9db40c7bde6bb42feed3355c15f72b53cc983a",
+          "file": "target-018-Eplus.json"
+        },
+        "pair": {
+          "sha256": "521404577b4e308477e4c5830d94931549335415808233daeed9afea695db93a",
+          "file": "target-018-PAIR.json"
+        }
+      },
+      {
+        "target": "target-021",
+        "parameters": [
+          1,
+          4,
+          3,
+          4,
+          2
+        ],
+        "original_sha256": "4ce8c449dcdd0ea53542af8cc44c554767d83ffd2da2d5a0ca0217e7672b70c7",
+        "original_record_sha256": "80275f4b2f381b358346071116ec234d3d8d9fee1b5fe7142469ea225de26243",
+        "T": {
+          "basis": "ALLOCATION_EXHAUSTED",
+          "sha256": "a660218f879b5761d3e135e3b1bc325c00725ae05db093ec16ba9cc246738e05",
+          "file": "target-021-T.json"
+        },
+        "Eplus": {
+          "sha256": "b77d234214266c134ed1785e3e128b9d5d087d38310986dd3a1409624d0a6946",
+          "file": "target-021-Eplus.json"
+        },
+        "pair": {
+          "sha256": "83b949ed4e397432755022f129c5c8c708bcc39f7fc198deb7d23b916656ae53",
+          "file": "target-021-PAIR.json"
+        }
+      },
+      {
+        "target": "target-039",
+        "parameters": [
+          3,
+          1,
+          4,
+          2,
+          4
+        ],
+        "original_sha256": "24993f6993e91972ecd0aa133fa813dc9b5a5d11757f6ed982475e161c4a920b",
+        "original_record_sha256": "97d847297357b70510e090e7e0ec27ef5fb95722d27e7409a1e558f32bec609f",
+        "T": {
+          "basis": "ALLOCATION_EXHAUSTED",
+          "sha256": "abe68d57fe36e77bf0127274997a3d57d5e4ec0839db8bd171a1dd5e4cfce14c",
+          "file": "target-039-T.json"
+        },
+        "Eplus": {
+          "sha256": "8f6feef8d165883d13396d5ef60b39f214580126558cc4865fff35472a054c94",
+          "file": "target-039-Eplus.json"
+        },
+        "pair": {
+          "sha256": "5accdc800764231af818c11af188336e135fcac6115da4584816e54e3f6ed5ab",
+          "file": "target-039-PAIR.json"
+        }
+      },
+      {
+        "target": "target-042",
+        "parameters": [
+          3,
+          1,
+          4,
+          4,
+          2
+        ],
+        "original_sha256": "dc6ca1ecc47e149eed11c8e520bcb8a615c3b423079cdc713501394de92ea93c",
+        "original_record_sha256": "717eedb99fab263772f0aacadd9fb3c2463c038906bff7baecc75b18ba0307a5",
+        "T": {
+          "basis": "ALLOCATION_EXHAUSTED",
+          "sha256": "0fb8324629399bd9fd9409b32d33f7af997257f7a8d3033fcdf9a6f646d52a12",
+          "file": "target-042-T.json"
+        },
+        "Eplus": {
+          "sha256": "3058650188d6fe380f424e6731478a3c1e44b3b2420a49f28000fe090364382a",
+          "file": "target-042-Eplus.json"
+        },
+        "pair": {
+          "sha256": "87fe4c22d53fe3cbe12718b0efb2a9cb95113a567e758fd1567abee2ebfe40f8",
+          "file": "target-042-PAIR.json"
+        }
+      },
+      {
+        "target": "target-047",
+        "parameters": [
+          3,
+          3,
+          4,
+          2,
+          4
+        ],
+        "original_sha256": "f4eb51ae85afc98118fc5291ae678b151900f1b394e5790c7cd2843af99b60f8",
+        "original_record_sha256": "70f4759cc28e560a53ef131b50ad97d35cc277987024a6862995bab2bded9c69",
+        "T": {
+          "basis": "ALLOCATION_EXHAUSTED",
+          "sha256": "5d14cbe55f383d3b572c6b34d4e1cf91b56f31c88444f568ee8029461305b5a5",
+          "file": "target-047-T.json"
+        },
+        "Eplus": {
+          "sha256": "838ce8ae63385aebcce7c3a501c06bef266acdf707dfd4140ec248bcf30d9a89",
+          "file": "target-047-Eplus.json"
+        },
+        "pair": {
+          "sha256": "7c5555b92e6b7e196444c1843a00fde3dcd39e24e30a8c752c882ab4ff827ddd",
+          "file": "target-047-PAIR.json"
+        }
+      },
+      {
+        "target": "target-050",
+        "parameters": [
+          3,
+          3,
+          4,
+          4,
+          2
+        ],
+        "original_sha256": "ab4fabceba4184cac77d9cdd716fbf991c6711c3c3348b83f77d09264fd9cdf1",
+        "original_record_sha256": "a69eca2941808c1b4d48ecbc737252c7c18289666b1ffee1b75ac85f5376fad1",
+        "T": {
+          "basis": "ALLOCATION_EXHAUSTED",
+          "sha256": "1fe8cbcdd1a47aee55d8570e5994ee83540b64851928f6de580d678b6e2f06a5",
+          "file": "target-050-T.json"
+        },
+        "Eplus": {
+          "sha256": "360f54c43927a292df7ecadcfaa4a6ba8f9b6a90f76d0ec80b103ca51f955ff5",
+          "file": "target-050-Eplus.json"
+        },
+        "pair": {
+          "sha256": "610b5cbbc2647d2fe03ac0ed2e2945cdf33cffcd0ec5e0c8acdc842b1f2be0b4",
+          "file": "target-050-PAIR.json"
+        }
+      },
+      {
+        "target": "target-054",
+        "parameters": [
+          3,
+          4,
+          1,
+          2,
+          4
+        ],
+        "original_sha256": "af293ad44637d1298390567be2ea7938a685309c80eac2d5d42ae7c18203d302",
+        "original_record_sha256": "5449dd75c13897cb21e78e1db92ae8141d82898d8e08b643a2203115c3fe04b9",
+        "T": {
+          "basis": "ALLOCATION_EXHAUSTED",
+          "sha256": "cfe88727a5be6c666a0645ec0dfa7de482166ec632805f90a59154a7cfaf7a2b",
+          "file": "target-054-T.json"
+        },
+        "Eplus": {
+          "sha256": "62c20a0c040c426eb612b724a77f3a99d32fb43ff7d35621b7ae7ac81dfad729",
+          "file": "target-054-Eplus.json"
+        },
+        "pair": {
+          "sha256": "d2bffe07c8e3e18b9393a47a464d374f6040e158caba7afd88af3a426abe140d",
+          "file": "target-054-PAIR.json"
+        }
+      },
+      {
+        "target": "target-057",
+        "parameters": [
+          3,
+          4,
+          1,
+          4,
+          2
+        ],
+        "original_sha256": "c5cc2b596fb99b1a0905206de1bc0432e3dfa8607946d90fbd219968276b22d7",
+        "original_record_sha256": "06740aed09c81ffb73d5a9faf641c9a3f38bbdda7430c537940301a8f6b3640d",
+        "T": {
+          "basis": "ALLOCATION_EXHAUSTED",
+          "sha256": "45b2034dbe1101657838b5b431826dc1f87ca1225ab692f0852d4792813aa0dd",
+          "file": "target-057-T.json"
+        },
+        "Eplus": {
+          "sha256": "41f197252dbc7d73332c1e3d66901c371ccd67959cac9e403017bc3f51deaf6d",
+          "file": "target-057-Eplus.json"
+        },
+        "pair": {
+          "sha256": "a3beb53b32c0af997e47e9b66f2c609314da2cff97f31fc00c2a43754b9c7885",
+          "file": "target-057-PAIR.json"
+        }
+      },
+      {
+        "target": "target-062",
+        "parameters": [
+          3,
+          4,
+          3,
+          2,
+          4
+        ],
+        "original_sha256": "269abaacb56e3cf4e46b0eaa6f24e67101ce4e0ef6a66ae7427f34fce3ee5dbc",
+        "original_record_sha256": "b0d755815394c5f92ea724cb35cce5ee7ecc5fd8cfff2e14e91f84aeafc8eb58",
+        "T": {
+          "basis": "ALLOCATION_EXHAUSTED",
+          "sha256": "2d1fcb12acbbbfcae37fbad2e23d004b3502a7452d412df4664f078fd4773da7",
+          "file": "target-062-T.json"
+        },
+        "Eplus": {
+          "sha256": "2fe1fb63eae279c4e46c3ee8bb8b1e47705681f251dc3e5cb193a584f5a45f27",
+          "file": "target-062-Eplus.json"
+        },
+        "pair": {
+          "sha256": "8ba3758ffeba39be48512ec8249f3e634bdff113871ac8d459ad7833c72f016f",
+          "file": "target-062-PAIR.json"
+        }
+      },
+      {
+        "target": "target-065",
+        "parameters": [
+          3,
+          4,
+          3,
+          4,
+          2
+        ],
+        "original_sha256": "066b3d0689d2d073841bbf062d36678ed09d52e11100cf84295aea96cabcd91b",
+        "original_record_sha256": "5a3faf4172c8973a0b0ff6654dd4e8716e677849c980454e35c910bb372f82fe",
+        "T": {
+          "basis": "ALLOCATION_EXHAUSTED",
+          "sha256": "e95d2f342f09e3edb2a04328fe0351104582983791cfcc722d41de308dd5060b",
+          "file": "target-065-T.json"
+        },
+        "Eplus": {
+          "sha256": "11686ea97838c71ccabdf180adf66986e308476faf66c49fe39654a4df007ac2",
+          "file": "target-065-Eplus.json"
+        },
+        "pair": {
+          "sha256": "1d0fb741fdc8f2fcb8118f72f1d9f336583a64d71396c668adaaf968cfb5ab95",
+          "file": "target-065-PAIR.json"
+        }
+      },
+      {
+        "target": "target-067",
+        "parameters": [
+          4,
+          1,
+          1,
+          2,
+          4
+        ],
+        "original_sha256": "2c2074b565a3a1aa6ef3c331d43e8dc9ec2bcc07ecd3916149b7f754efc012dc",
+        "original_record_sha256": "4b0464952fa666312629f7ba08fcc372513f6170226460e50dd695df5fe8d46a",
+        "T": {
+          "basis": "ALLOCATION_EXHAUSTED",
+          "sha256": "49ff098f8d311ba9146923c16f923255cc19d2654c9591b436027f546304d500",
+          "file": "target-067-T.json"
+        },
+        "Eplus": {
+          "sha256": "e97a93b8c23a2891b776be2a0ae6fbd0bd0caf4e83e2fe20fbb5803a4b432b9e",
+          "file": "target-067-Eplus.json"
+        },
+        "pair": {
+          "sha256": "2647094a003a39d3b9fb78a477e8a4bfbb817e3c7b4bcf4fe4a387a0d9097fea",
+          "file": "target-067-PAIR.json"
+        }
+      },
+      {
+        "target": "target-069",
+        "parameters": [
+          4,
+          1,
+          1,
+          4,
+          2
+        ],
+        "original_sha256": "9979fd1cd15a6cad52255698eb4dc4da8e214ce20bfa7209d9b9335c88d0ff19",
+        "original_record_sha256": "d7a46285c1d998a0dc0f894900c05a01b1ecb978973cea94df8b1e6b5473e5d9",
+        "T": {
+          "basis": "ALLOCATION_EXHAUSTED",
+          "sha256": "75af5781ad450e976fd9bf8ff23f862fef2d67a5e23e1f70351d35902aca3f6f",
+          "file": "target-069-T.json"
+        },
+        "Eplus": {
+          "sha256": "c210317f2dd9f7c1c8b41e2c6fad7e1a7bcaef9f3fc80dd1d5c92833a06275e6",
+          "file": "target-069-Eplus.json"
+        },
+        "pair": {
+          "sha256": "24d54ecfa569577d8cb862d12b15f145d8e842553e87bdff3410470ec29764d2",
+          "file": "target-069-PAIR.json"
+        }
+      },
+      {
+        "target": "target-073",
+        "parameters": [
+          4,
+          1,
+          3,
+          2,
+          4
+        ],
+        "original_sha256": "68b046450e3a6be619bfcd184a0d9002546ad74e66a5df0c9d60bbff7aa622ee",
+        "original_record_sha256": "42d2a33c5f5d756a969556562f2dd5ed2c9a6bec2c7d51f956d94f02ab23a1d1",
+        "T": {
+          "basis": "ALLOCATION_EXHAUSTED",
+          "sha256": "999e8bdd773e87c3c69b5cdb466d16d136e55036263300598883e2e5946b04e7",
+          "file": "target-073-T.json"
+        },
+        "Eplus": {
+          "sha256": "c8381df2ae7c785a4fbefa334ffba2ff8a3f6cf940db5161bde7480c697cf637",
+          "file": "target-073-Eplus.json"
+        },
+        "pair": {
+          "sha256": "daa2a4acc30ea44da805366b7255c10a8abb877d9eeb8732641a7f5a03e58c26",
+          "file": "target-073-PAIR.json"
+        }
+      },
+      {
+        "target": "target-076",
+        "parameters": [
+          4,
+          1,
+          3,
+          4,
+          2
+        ],
+        "original_sha256": "e88e52faefe9c513cf112e9ac9749fafe48d885d3e82abd3deff713b41d1bac2",
+        "original_record_sha256": "a0d66393c6d81aeef342da2aa10e451d5059a74b9de1db603ccfec85fc2ce0a7",
+        "T": {
+          "basis": "ALLOCATION_EXHAUSTED",
+          "sha256": "8771415cb3dfc283a441eaa3eca51fd5012229421ac18bc9a7e8c2f32a9a8695",
+          "file": "target-076-T.json"
+        },
+        "Eplus": {
+          "sha256": "53e5b01f43fa798f08434091cb97f6be45ce4aac6ea21ddb6d34fcecd57b9fa4",
+          "file": "target-076-Eplus.json"
+        },
+        "pair": {
+          "sha256": "172085b3652b046b56b2c9469d4bbcc9efe935e26e9845e88bda49123816bea6",
+          "file": "target-076-PAIR.json"
+        }
+      },
+      {
+        "target": "target-087",
+        "parameters": [
+          4,
+          3,
+          1,
+          2,
+          4
+        ],
+        "original_sha256": "2a105f61fcf6e8d213f4b6be30dc43226cac343fb9f303b21b342b4851ced578",
+        "original_record_sha256": "3a68f3f6115208a4b15bad1e70747e4e5859cad41ea5889c83dc22782da42bde",
+        "T": {
+          "basis": "ALLOCATION_EXHAUSTED",
+          "sha256": "7ac8e7092aa7a843edd4d02a401f528396de115d13966e3537fdf4a11a0300c8",
+          "file": "target-087-T.json"
+        },
+        "Eplus": {
+          "sha256": "fde2ef111ed9d86bdeea4d47780b1900d89ebf806c75fa1ab012ce23b0de2904",
+          "file": "target-087-Eplus.json"
+        },
+        "pair": {
+          "sha256": "708ddfb748248126a2629a60562144380ece45d74f82df2c8fbb25cf1dd024bc",
+          "file": "target-087-PAIR.json"
+        }
+      },
+      {
+        "target": "target-090",
+        "parameters": [
+          4,
+          3,
+          1,
+          4,
+          2
+        ],
+        "original_sha256": "1f8a23637efa544c34a67c7276810a3429ab1191a3be1825e60870c713ab9ca7",
+        "original_record_sha256": "6ba1c562277d2ccc7b50cc9d6a8f9b2e7c0eb5498a790db683bd9be20b9ec0a2",
+        "T": {
+          "basis": "ALLOCATION_EXHAUSTED",
+          "sha256": "8a063cce7b3faa1d39d4ee02328bcfd50f1916cfc449ce092d7fdf14b9a42492",
+          "file": "target-090-T.json"
+        },
+        "Eplus": {
+          "sha256": "47b3f165d4566e91779f2372e6e88d242b1682ded01e11aba2beca97a14980da",
+          "file": "target-090-Eplus.json"
+        },
+        "pair": {
+          "sha256": "2efe3400c1e033697de55bf43301653e69253114dff98b638472314517ffe037",
+          "file": "target-090-PAIR.json"
+        }
+      },
+      {
+        "target": "target-095",
+        "parameters": [
+          4,
+          3,
+          3,
+          2,
+          4
+        ],
+        "original_sha256": "544ca4bc7eb46ada421a59274351524d96bc06c9749eeaa2a844c7b7a60b0e41",
+        "original_record_sha256": "538af1c723afcd216424844eab4748aa4e2abe1ffd79263de6b9c4743b71bc4a",
+        "T": {
+          "basis": "ALLOCATION_EXHAUSTED",
+          "sha256": "4d5d163df7ebe854dca1678f036760c7ff2b5e1a5758c88e24829b51bac79948",
+          "file": "target-095-T.json"
+        },
+        "Eplus": {
+          "sha256": "eb02b05c212081a49b5179853425ecf16538705c4808df6f14fed65231e09dba",
+          "file": "target-095-Eplus.json"
+        },
+        "pair": {
+          "sha256": "ccacdba65d7af64d146bfc9c652f5a8dc88713901365cd60356c601a6b687776",
+          "file": "target-095-PAIR.json"
+        }
+      },
+      {
+        "target": "target-098",
+        "parameters": [
+          4,
+          3,
+          3,
+          4,
+          2
+        ],
+        "original_sha256": "a8864ad86869defc466daa1208795d87f887522711e3a33ec67e84039f39e140",
+        "original_record_sha256": "15883f7743e18d6bf4a70c1c497d58f0865229b665eff0f08e805bf0b2d49d50",
+        "T": {
+          "basis": "ALLOCATION_EXHAUSTED",
+          "sha256": "ee4e195e506bf789da327968dbeed3ccd59c5c91ec0b0ba5b2ce7c23aa122532",
+          "file": "target-098-T.json"
+        },
+        "Eplus": {
+          "sha256": "86ea35cb15dd9b577b495b5c8548f6f79a8d2637a9c6aeb83183a7647ad52b86",
+          "file": "target-098-Eplus.json"
+        },
+        "pair": {
+          "sha256": "251b7a9621c553542618462f4d55f35af9cea347e930821d47ac65c8f190ef01",
+          "file": "target-098-PAIR.json"
+        }
+      }
+    ],
+    "other_separators": 9,
+    "writers": 0,
+    "bindings": [
+      {
+        "path": "evidence/runs/d161-exceptional-quota-four-001/MANIFEST.json",
+        "bytes": 7847,
+        "sha256": "ca1f0672f34e770bc5ac860ce95b4577b8d2920d7a9617538b510c17f8df7864"
+      },
+      {
+        "path": "evidence/runs/d161-exceptional-quota-four-001/OFFICIAL_RAW.zip",
+        "bytes": 364603,
+        "sha256": "13c6ff81991bef03d0760b5ecf7aadc14b60a7cecdf951c10212d12de9eb7cee"
+      },
+      {
+        "path": "evidence/runs/d161-exceptional-quota-four-001/RECONCILIATION.json",
+        "bytes": 210632,
+        "sha256": "27e0c7b364452901274d6e73115151444a4b7249ce335165393ca3d717d548fe"
+      },
+      {
+        "path": "evidence/runs/d161-exceptional-quota-four-001/SEPARATORS.md",
+        "bytes": 5567,
+        "sha256": "e7a45c5e1435baf459ef597ee2a7ce2c293b6983da3cda5e22e99bbbf3a34688"
+      },
+      {
+        "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FIVE_HOST_QUOTA_FOUR_MATCHED_001_PREP/MANIFEST.json",
+        "bytes": 17765,
+        "sha256": "3839c60a588a7e8c0eeee3b62c107e8182fffa24cd06bf649b3faa9c32997fdf"
+      },
+      {
+        "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FIVE_HOST_QUOTA_FOUR_MATCHED_001_PREP/input/corpus_index.json",
+        "bytes": 27614,
+        "sha256": "7e9d80a8ba149bbf2a66bf33b1249f5edd4e7f35fa4aa4f27c8ca0782b5e6626"
+      },
+      {
+        "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FIVE_HOST_QUOTA_FOUR_MATCHED_001_PREP/input/prefix.json",
+        "bytes": 8781,
+        "sha256": "f48b56479dac85e1ddbbd36e5f6a6a3eaf94b9b32497e677fe5a96932abbac95"
+      },
+      {
+        "path": "research/ORDINARY_SPINE_TWO_SECTION_CUT_STATE.md",
+        "bytes": 24015,
+        "sha256": "a7b4d98f286225bfb887866ce1b6167281b52bb650fcf53a50b0a5060e152cf8"
+      },
+      {
+        "path": "research/ORDINARY_SPINE_ALTERNATING_EXCEPTIONAL_SPECTRUM.md",
+        "bytes": 19060,
+        "sha256": "73230a18d826361e0eb4eadfbf02e41cbb1aa3c5332c890bf75f48ed18a0e0fd"
+      },
+      {
+        "path": "research/ORDINARY_SPINE_EXCEPTIONAL_PHASE_PRESERVING_BRIDGE.md",
+        "bytes": 18725,
+        "sha256": "7ccf47623ba26ebfe4479a4a9bd0defbd582290503a4226860f1562a89c8fa89"
+      },
+      {
+        "path": "research/ORDINARY_SPINE_EXCEPTIONAL_BOUNDARY_STATE_ALLOCATION.md",
+        "bytes": 19321,
+        "sha256": "d1772995d373bc5a2884a9199c4ef32309e16d809dacb3388618b7680e892260"
+      },
+      {
+        "path": "research/ORDINARY_SPINE_EXCEPTIONAL_FIVE_HOST_EXTERIOR_SUPPLY.md",
+        "bytes": 22746,
+        "sha256": "0ce4053e4d5b8082fc62d7a008aa7875680ff9505c9f9e0b7d4568cfa2e90254"
+      },
+      {
+        "path": "evidence/runs/d154-parity-two-first-center-001/MANIFEST.json",
+        "bytes": 3968,
+        "sha256": "e66f651917ae167dfb903d1557f25a593738e2cea97a9d79e4e16c19f6f52b42"
+      },
+      {
+        "path": "evidence/runs/d154-parity-two-first-center-001/OFFICIAL_RAW.zip",
+        "bytes": 732889,
+        "sha256": "fc85e33800ec57eeccba25637f5e99080c08539160739cfbdd6543f18fb9cb72"
+      },
+      {
+        "path": "STATE.md",
+        "sha256": "44c25276c8cf05fb20130a191fb60ba31c2b8563e274cfb4d349fb0e47677823",
+        "bytes": 87053,
+        "git_commit": "8513749a3df139ed21f4f479201e8fcd7f651d59",
+        "representation": "Canonical Git blob bytes at admission"
+      }
+    ],
+    "read_only_worker_count": 1,
+    "local_process_cpu_seconds": 1.40625,
+    "observed_worker_wall_seconds": 5.8913023,
+    "external_tool_wall_seconds": 6.0390434
+  },
+  "prior_accepted_findings": {
+    "2322": "DEFERRED / UNSTARTED",
+    "D154": "COMPLETE with both accepted finite falsifications",
+    "D148": "INCOMPLETE_EXTERIOR_NODE_CAP and twelve undecided pairs",
+    "original_pilot": "CLOSED",
+    "D130": "SEALED"
+  },
+  "control_scope": {
+    "selected": 24,
+    "second_quota_orders": [
+      "(2,4,0)",
+      "(4,2,0)"
+    ],
+    "retained_groups": {
+      "other_first_1_1": 6,
+      "other_first_1_3": 12,
+      "other_first_3_3": 6
+    },
+    "outside_selected": [
+      "target-011",
+      "target-022",
+      "target-043",
+      "target-051",
+      "target-058",
+      "target-066",
+      "target-077",
+      "target-091",
+      "target-099"
+    ],
+    "conclusion": "All selected D161 decisions are independently recovered by symbolic constructions and necessity, with no archive relabeling or search."
+  },
+  "verification_caps": {
+    "dedicated_read_only_workers": 1,
+    "process_cpu_seconds": 60,
+    "external_wall_seconds": 120,
+    "new_evidence_bytes": 4000000
+  },
+  "measurement_scope": "Admission measured dedicated PowerShell process CPU and command wall time. Review and Git custody use saved records and source checks. No scientific executable ran. Local and reviewer observations are Codex-reported.",
+  "scientific_counters": {
+    "new_numerical_originals": 0,
+    "allocation_evaluations": 0,
+    "labeling_search_nodes": 0,
+    "transfer_state_searches": 0,
+    "placement_sweeps": 0,
+    "solver_calls": 0,
+    "pilot_invocations": 0,
+    "historical_campaign_replays": 0,
+    "detailed_D130_access": 0,
+    "successor_execution": 0,
+    "successor_preparation": 0
+  },
+  "project_instructions": "KEEP v11"
+}
