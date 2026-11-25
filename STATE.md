@@ -2,7 +2,7 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 24, 2026, Pacific/Honolulu<br>
-**Stage:** D148 official study **INCOMPLETE AT THE EXTERIOR-NODE CAP**. Five independently audited E-only two-center targets support the finite hypothesis. Execution evidence awaits Research Director review. **Project instructions KEEP v10.** The Owner reported restoring the saved v10 instructions.
+**Stage:** D148 completed finite evidence **DIRECTOR ACCEPTED WITHIN SCOPE**. Official execution remains **INCOMPLETE_EXTERIOR_NODE_CAP**. The symbolic two-center supplier is **UNSTARTED — AWAITING OWNER AUTHORIZATION**. **Project instructions KEEP v10.** The Owner reported restoring the saved v10 instructions.
 
 ## Current scientific objective
 
@@ -18,11 +18,11 @@ D147 proves two forced exterior incidences, a terminal balance identity, a paire
 
 D148 preparation fixes one independently initialized D105/D134 prefix and 320 named original targets, including 234 two-center and 86 one-center targets. A symbolic forced-source argument excludes Arm T for 68 two-center corpus targets. The Director accepted the frozen preparation and its symbolic Arm T obstruction. [Preparation contract](research/matched_exterior_001/CONTRACT.md) · [Preparation handoff](handoffs/CODEX-20261124-matched-exterior-preparation.md)
 
-D148 completed 225 audited pairs, including 222 of 234 two-center pairs. Five two-center matched separations use computationally exhausted Arm T negatives. The other 12 two-center pairs remain undecided. The run stopped during Arm E of target-0226 and will not restart under this authorization. [Execution evidence](evidence/runs/d148-matched-exterior-001/README.md) · [Closeout handoff](handoffs/CODEX-20261124-matched-exterior-execution-closeout.md)
+The Director accepted D148's completed finite evidence. The 225 audited pairs include 222 of 234 two-center pairs and five E-only matches with independently audited exhaustive Arm T negatives. The other 12 two-center pairs remain undecided. The campaign stopped at the frozen node cap during Arm E of target-0226. [Execution evidence](evidence/runs/d148-matched-exterior-001/README.md) · [Director acceptance handoff](handoffs/CODEX-20261124-d148-director-acceptance.md)
 
 ## One next action
 
-Await Research Director review of the D148 matched evidence. Any subsequent research requires separate Owner authorization.
+Under separate Owner authorization, execute `LCL-ORDINARY-SPINE-TWO-CENTER-EVEN-QUOTA-SUPPLIER-001`: establish or rigorously delimit an independent parameterized terminal-enabled D143 supplier for the ordered profiles (3) and (2p,2q,0,0,0,0), for independently prescribed exact integers p,q≥1, and prove or delimit a symbolic obstruction to every terminal-free D143 exterior on the same named originals. Retain the exact D134 p=1 incoming and returning interface. The task is UNSTARTED.
 
 ## Deferred obligations
 
