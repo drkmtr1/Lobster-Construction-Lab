@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "task": "LCL-ORDINARY-SPINE-TWO-DIRECT-LEAF-BOUNDARY-001",
+  "parent": "db61ade97b9f4b251bc7f00e4d80ee4c3ae5d826",
+  "method": "symbolic",
+  "status": "RESOLVED_SYMBOLICALLY_BEFORE_NUMERICAL_EXECUTION_PENDING_DIRECTOR_REVIEW",
+  "review": "MATHEMATICAL_AND_IMPLEMENTATION_CUSTODY_PASS",
+  "state_binding": "Committed Git bytes at the D152 closeout checkpoint. Windows checkout line endings can differ.",
+  "new_numerical_instances": 0,
+  "new_search_nodes": 0,
+  "new_transfer_evaluations": 0,
+  "detailed_d130_access": 0,
+  "retained_original_controls": 4,
+  "planned_ordered_residual_triples": 76,
+  "residual_terminal_enabled_positive_count": 1,
+  "residual_terminal_enabled_excluded_count": 75,
+  "terminal_free_excluded_count": 76,
+  "new_official_arm_dispositions": 0,
+  "project_instructions": "KEEP v11",
+  "retained_status": "D148_INCOMPLETE_EXTERIOR_NODE_CAP_AND_DIRECTOR_ACCEPTED_COMPLETED_FINITE_EVIDENCE",
+  "files": [
+    {
+      "path": "STATE.md",
+      "bytes": 85065,
+      "sha256": "befd3fde36aca46c5fdb008dfbd651537de4cbce591a01548043b6b9b94666d6"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_TWO_DIRECT_LEAF_BOUNDARY.md",
+      "bytes": 20239,
+      "sha256": "50a1359702c20ea4711dc987e296890a9e008274f028bd38335ef63ab734f87d"
+    },
+    {
+      "path": "handoffs/CODEX-20261125-ordinary-spine-two-direct-leaf-boundary.md",
+      "bytes": 3814,
+      "sha256": "0d1a35b921148c6f795330005b722f20c70c5294f983326bdb5883a1c2d640f0"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_TWO_DIRECT_LEAF_BOUNDARY_001/README.md",
+      "bytes": 937,
+      "sha256": "6848b454c7d8c39a162bce1bffeb13aa2128082266d9e3da8e07405271dc4684"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_TWO_DIRECT_LEAF_BOUNDARY_001/CUSTODY.json",
+      "bytes": 10947,
+      "sha256": "086b6f291a969911aeff132f6b2e8135785ba639717c4dbe55c24651e2df4ada"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_TWO_DIRECT_LEAF_BOUNDARY_001/REVIEWS.md",
+      "bytes": 1678,
+      "sha256": "f3ae67c79385836970ae4bbb35e66ad561cc0ceeaa0fb817054c031572fe846c"
+    }
+  ]
+}

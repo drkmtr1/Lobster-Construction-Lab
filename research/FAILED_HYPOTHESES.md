@@ -639,3 +639,7 @@ For the ordered original (4), (2,2,0,0,0) and the admissible D143 input and embe
 ## D151 one-direct-leaf D143 exterior obstruction
 
 With exactly one positive center and no direct leaves at u, any completion in the declared D143 interface needs two distinct direct-gap leaves at w. Reduced difference two pins a=A−1, and differences 3 through A force the low-index upper vertices to be actual terminals of a. For gap sources 0 and A−1 the two translates at w and a imply that a cannot serve either source in a valid allocation. Hence at most one direct leaf at w excludes both terminal-free and terminal-enabled placements, irrespective of second-center count and terminal quotas. This excludes the scheduled one-direct-leaf stratum and leaves the two-direct-leaf boundary and alternative embeddings open. [Proof](ORDINARY_SPINE_ONE_DIRECT_LEAF_EXTERIOR_OBSTRUCTION.md)
+
+## D152 scoped terminal-enabled exclusions
+
+Within the D152 profiles, size regime and D143 contract, r=1 is impossible with any second quotas. For r≥2 and max(p,q)≤2, only the parameter triple (4,2,2) admits a terminal-enabled completion. Width A=3 and Δ=2 is ruled out by the parity of the total Q quota and the difference of its two source-side counts. At A=5 only the balanced small-quota setting can reach the gap constraints. The checked A=5, Δ=2 boundary gives the single exception. D149's terminal-free exclusion and other embedding scopes are unchanged. [Proof](ORDINARY_SPINE_TWO_DIRECT_LEAF_BOUNDARY.md)

@@ -1,8 +1,8 @@
 # Current project state
 
 **Project:** Lobster Construction Lab v0.1.0  
-**Updated:** November 24, 2026, Pacific/Honolulu<br>
-**Stage:** D151 one-direct-leaf study **RESOLVED SYMBOLICALLY BEFORE NUMERICAL EXECUTION — PENDING DIRECTOR REVIEW**. D150 **DIRECTOR ACCEPTED WITHIN SCOPE**. D149 remains Director accepted within its written scope. D148 completed finite evidence remains accepted, with execution **INCOMPLETE_EXTERIOR_NODE_CAP**. **Project instructions KEEP v11.**
+**Updated:** November 25, 2026, Pacific/Honolulu<br>
+**Stage:** D152 two-direct-leaf boundary **RESOLVED SYMBOLICALLY BEFORE NUMERICAL EXECUTION — PENDING DIRECTOR REVIEW**. D151 **DIRECTOR ACCEPTED WITHIN SCOPE**. D150 **DIRECTOR ACCEPTED WITHIN SCOPE**. D149 remains Director accepted within its written scope. D148 completed finite evidence remains accepted, with execution **INCOMPLETE_EXTERIOR_NODE_CAP**. **Project instructions KEEP v11.**
 
 ## Current scientific objective
 
@@ -26,9 +26,11 @@ D150 supplies a terminal-enabled D143 completion for every ordered (4), (2p,2q,0
 
 D151 rules out both D143 arms with one positive first center, no first direct leaves and at most one direct leaf at w. A forced exterior terminal interval leaves two distinct gap sources requiring the actual host w. The planned 145 ordered cases on the checked retained prefix are all within the obstruction. No new numerical corpus or execution was prepared. [D151 proof](research/ORDINARY_SPINE_ONE_DIRECT_LEAF_EXTERIOR_OBSTRUCTION.md) · [Handoff](handoffs/CODEX-20261124-ordinary-spine-one-direct-leaf-exterior-obstruction.md)
 
+D152 gives exact terminal-enabled feasibility for ordered (2r+1), (2p,2q,0,0) under the exact supplied D134 p=1 and D143 return contract, with n≥2(r+p+q+4). It holds when r≥2 and max(p,q)≥3 or at (4,2,2). The symbolic proofs decide the entire 76-case planned residual: one positive and 75 excluded. No hybrid run was prepared. [D152 proof](research/ORDINARY_SPINE_TWO_DIRECT_LEAF_BOUNDARY.md) · [Handoff](handoffs/CODEX-20261125-ordinary-spine-two-direct-leaf-boundary.md)
+
 ## One next action
 
-Under separate Owner authorization and after Director review, investigate the exact D143 two-direct-leaf boundary on ordered (2r+1) and (2p,2q,0,0), with r,p,q≥1 and a supplied D134 p=1 prefix. Derive the forced exterior and gap constraints, then prepare a bounded hybrid test of any genuine unresolved existence question. This action is UNSTARTED.
+Under separate Owner authorization and after Director review, investigate D143 exterior supply on ordered (2r+1,2t) and (2p,2q,0), with independently prescribed exact r,t,p,q≥1 and a supplied D134 p=1 prefix. Derive the restrictions from the two first-section centers and prepare a bounded hybrid test only if the existence question remains unresolved. This action is UNSTARTED.
 
 ## Deferred obligations
 

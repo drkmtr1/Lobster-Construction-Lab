@@ -1,0 +1,328 @@
+{
+  "task": "LCL-ORDINARY-SPINE-TWO-DIRECT-LEAF-BOUNDARY-001",
+  "date": "2026-11-25 Pacific/Honolulu",
+  "disposition": "RESOLVED_SYMBOLICALLY_BEFORE_NUMERICAL_EXECUTION_PENDING_DIRECTOR_REVIEW",
+  "method": "symbolic qualification only",
+  "project_instructions": "KEEP v11",
+  "admission": {
+    "head": "db61ade97b9f4b251bc7f00e4d80ee4c3ae5d826",
+    "parent": "3f23c92b5853a385099f6b22aef5d12a24835ffe",
+    "origin_main": "db61ade97b9f4b251bc7f00e4d80ee4c3ae5d826",
+    "live_main": "db61ade97b9f4b251bc7f00e4d80ee4c3ae5d826",
+    "baseline": "fddfc1dd9541324b2ed2de2505bc750b3e3f0b9d",
+    "peel": "36ea1603602491bf3c1c5b81ed4c23aaa2210e70",
+    "writers": 0
+  },
+  "D151": {
+    "disposition": "DIRECTOR_ACCEPTED_WITHIN_WRITTEN_SCOPE",
+    "manifest": {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_ONE_DIRECT_LEAF_EXTERIOR_STUDY_001/MANIFEST.json",
+      "sha256": "0370f27433da33ace11f9d1347f7e97cca3bf6f63c6a0905c75713556bdf5fc8",
+      "bytes": 2081
+    },
+    "proof": {
+      "path": "research/ORDINARY_SPINE_ONE_DIRECT_LEAF_EXTERIOR_OBSTRUCTION.md",
+      "sha256": "f13998f60c24210f951c54e06b5ea108506164d38e5d31ec277512dfe6f6d340",
+      "bytes": 9609
+    },
+    "manifest_entries_verified": 6,
+    "independently_accepted_retained_bindings": 12
+  },
+  "D150": {
+    "disposition": "DIRECTOR_ACCEPTED_WITHIN_WRITTEN_SCOPE",
+    "manifest": {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_TWO_TO_ONE_TERMINAL_SUPPLIER_001/MANIFEST.json",
+      "sha256": "eb11d61ec1a6be3d7f83dc6577f17ded93caddc83288d8733296746567487564",
+      "bytes": 1948
+    },
+    "proof": {
+      "path": "research/ORDINARY_SPINE_TWO_TO_ONE_TERMINAL_SUPPLIER.md",
+      "sha256": "3f974982d8e7a93123647c9f3d8e66d7dfefc51151eb079afc2fc38e451fd1df",
+      "bytes": 19686
+    },
+    "manifest_entries_verified": 6,
+    "editorial_clarification": {
+      "frozen_state_binding": "Committed Git bytes of the D149 checkpoint. Windows checkout line endings can differ.",
+      "actual_D150_state_checkpoint": "3f23c92b5853a385099f6b22aef5d12a24835ffe",
+      "actual_frozen_state": {
+        "path": "STATE.md",
+        "bytes": 83921,
+        "sha256": "f80a625dbef821199e4c4e51018d5624539b1ba01029dadc9f1744e53cc46456"
+      },
+      "manifest_changed": false
+    }
+  },
+  "D148": {
+    "execution": "INCOMPLETE_EXTERIOR_NODE_CAP",
+    "finite": "DIRECTOR_ACCEPTED_WITHIN_SCOPE",
+    "two_center_undecided": 12,
+    "resumed": false,
+    "bindings": [
+      {
+        "path": "evidence/validation/LCL_ORDINARY_SPINE_MATCHED_EXTERIOR_TWO_CENTER_001/MANIFEST.json",
+        "sha256": "b307eb0a3d759e1b2a6367ad1c2f48c0be5e15bcff3e95ed9716949cb061dc8c",
+        "bytes": 12325
+      },
+      {
+        "path": "evidence/runs/d148-matched-exterior-001/MANIFEST.json",
+        "sha256": "29087be1c6dc344b8f683780542b55a7a513f89820f0156766f70fc1b7e00b15",
+        "bytes": 3960
+      },
+      {
+        "path": "evidence/runs/d148-matched-exterior-001/OFFICIAL_RAW.zip",
+        "sha256": "5b506784c1e5616a3b851335dd9fb93bad82801f6f8ce1a939bc39819a4d6e51",
+        "bytes": 250606
+      }
+    ]
+  },
+  "retained_material": [
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_MATCHED_EXTERIOR_TWO_CENTER_001/input/prefix.json",
+      "sha256": "e2f72bd883088b5034b3a7d2536fb1784ce8bcb3fd835083b42558a2709330d3",
+      "bytes": 5916
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_MATCHED_EXTERIOR_TWO_CENTER_001/input/corpus_index.json",
+      "sha256": "3ce493143cfce050396b44bd1e32435dce50368205c07c7f84a242fdd2b8649e",
+      "bytes": 96825
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_MATCHED_EXTERIOR_TWO_CENTER_001/input/targets-01.json",
+      "sha256": "b577bc1058c432f094efecaeb13a9d4a525f7bf0abe83e6319181f4f0331d395",
+      "bytes": 139665
+    },
+    {
+      "path": "evidence/runs/d148-matched-exterior-001/DISPOSITIONS.json",
+      "sha256": "06db64bad03da6c45449cd81d4bd5856011aaff8734f5f8244f682452bec8cac",
+      "bytes": 228697
+    },
+    {
+      "path": "evidence/runs/d148-matched-exterior-001/RAW_RECORDS.json",
+      "sha256": "593b2cbd9d04596d5308b0baf91458110616c580d555126391cb0c378c783ca1",
+      "bytes": 73841
+    },
+    {
+      "path": "evidence/runs/d148-matched-exterior-001/RESULT.json",
+      "sha256": "fbc0d6d1aadd079e7b58f47c32372e253639b7be8c16be5ba98a10aff1a21dfc",
+      "bytes": 7276
+    }
+  ],
+  "retained_prefix": {
+    "n": 54,
+    "c": 26,
+    "d": 28,
+    "actual_cut": 29,
+    "frontier": "s:25",
+    "polarity": "maximum",
+    "graph_digest": "821898dbb210a860444c9d2fc8e367ac625a23189b7dfb369af438174f34f2a3",
+    "vertex_count": 55,
+    "edge_count": 54,
+    "crossing_spectrum": "28..54",
+    "noncrossing_spectrum": "1..27",
+    "verified_labels": "0..54",
+    "initializer": {
+      "Q0": 14,
+      "c0": 12,
+      "path_count": 23,
+      "path_size": 36,
+      "seed_n": 13,
+      "t": 12
+    }
+  },
+  "original_bound_controls": [
+    {
+      "id": "target-0032",
+      "ordered_profile": [
+        [
+          3
+        ],
+        [
+          2,
+          2,
+          0,
+          0
+        ]
+      ],
+      "original_graph_digest": "f867a4eae49fec3305df31b5c9e9ca39a1bcdc0209c5d09d6c032e0031072d33",
+      "frozen_original_record_sha256": "a2cbc71be2cd07be4b08c649d5472878115aada144894bbbda8eeb54c905b7f3",
+      "shard": "targets-01.json",
+      "arms": [
+        {
+          "arm": "T",
+          "member": "official/target-0032-T.json",
+          "sha256": "4dda39503f03445b98b15d3560667c6831c24fd0f4dc4a3d59f001ed8e5204fb",
+          "bytes": 405,
+          "status": "AUDITED_NO",
+          "audit": "terminal-free-forced-three"
+        },
+        {
+          "arm": "E",
+          "member": "official/target-0032-E.json",
+          "sha256": "a835699c004171f3eb7eb0c170d60fcd6e158e0d0a0afc8dc20bedc64bce2d31",
+          "bytes": 466,
+          "status": "AUDITED_NO",
+          "audit": "independent-exhaustion"
+        }
+      ]
+    },
+    {
+      "id": "target-0035",
+      "ordered_profile": [
+        [
+          3
+        ],
+        [
+          2,
+          4,
+          0,
+          0
+        ]
+      ],
+      "original_graph_digest": "d9301c8ffeefd5148032b674e43c8c8f7bc70c295b2396582c179d1a4480e639",
+      "frozen_original_record_sha256": "133b58dc909113e67c030a5abed9b88c5370de363fe192fb843998d7f82cf4e2",
+      "shard": "targets-01.json",
+      "arms": [
+        {
+          "arm": "T",
+          "member": "official/target-0035-T.json",
+          "sha256": "a900c0684ba9b993ce7b99c01e6f728ba4f6d566d2fb929152d8c4d3e1c6b43c",
+          "bytes": 405,
+          "status": "AUDITED_NO",
+          "audit": "terminal-free-forced-three"
+        },
+        {
+          "arm": "E",
+          "member": "official/target-0035-E.json",
+          "sha256": "989bcc0e41b8716cb82e0c56401f148b0bc2a2e7785c008c34cab41e103c517a",
+          "bytes": 474,
+          "status": "AUDITED_NO",
+          "audit": "independent-exhaustion"
+        }
+      ]
+    },
+    {
+      "id": "target-0044",
+      "ordered_profile": [
+        [
+          3
+        ],
+        [
+          4,
+          2,
+          0,
+          0
+        ]
+      ],
+      "original_graph_digest": "814215a28d8d4ae7e5f35e31951be3830f22bc8ea1ef8d64b75b1bb492bacede",
+      "frozen_original_record_sha256": "d495467027bcf500360c6800ddd344859ef9b3267d7e374bb2e3eaa924bf3461",
+      "shard": "targets-01.json",
+      "arms": [
+        {
+          "arm": "T",
+          "member": "official/target-0044-T.json",
+          "sha256": "723a4dd759dab0eea08ec80071e5a5dd9307a0b429d6c5240cfe57e8a0e5777e",
+          "bytes": 405,
+          "status": "AUDITED_NO",
+          "audit": "terminal-free-forced-three"
+        },
+        {
+          "arm": "E",
+          "member": "official/target-0044-E.json",
+          "sha256": "1cfacfb91d494b8ed729c13f7fd29b08bab92afdb6749146a6cac876da8d7ea0",
+          "bytes": 474,
+          "status": "AUDITED_NO",
+          "audit": "independent-exhaustion"
+        }
+      ]
+    },
+    {
+      "id": "target-0047",
+      "ordered_profile": [
+        [
+          3
+        ],
+        [
+          4,
+          4,
+          0,
+          0
+        ]
+      ],
+      "original_graph_digest": "1cdae28c54aa9921ccc65a84660a401f781637c5cf32edd41409416645e26e04",
+      "frozen_original_record_sha256": "11252c8b0f5a565b8d4f313704b8ecca22719acae23f2d68301c8eec010724b7",
+      "shard": "targets-01.json",
+      "arms": [
+        {
+          "arm": "T",
+          "member": "official/target-0047-T.json",
+          "sha256": "fcc465248af9d200d1e8d4b43105da6fb16c74eec0444631cb82e17675f8481f",
+          "bytes": 405,
+          "status": "AUDITED_NO",
+          "audit": "terminal-free-forced-three"
+        },
+        {
+          "arm": "E",
+          "member": "official/target-0047-E.json",
+          "sha256": "6e106ed8589f60e26cc8764196cd797f73b9d3a5dec7b99755f31ea03c5460c9",
+          "bytes": 479,
+          "status": "AUDITED_NO",
+          "audit": "independent-exhaustion"
+        }
+      ]
+    }
+  ],
+  "planned_residual": {
+    "physical_profiles": "(2r+1), (2p,2q,0,0)",
+    "exact_integers": "2<=r; p,q in {1,2}; r+p+q<=23",
+    "ordered_count": 76,
+    "term_enabled_positive_symbolic": [
+      4,
+      2,
+      2
+    ],
+    "term_enabled_excluded_symbolic": 75,
+    "term_free_excluded_symbolic": 76,
+    "no_corpus_prepared": true
+  },
+  "prior_pilot": {
+    "status": "CLOSED",
+    "detailed_D130_access": false,
+    "original_proof_challenge_zip_sha256": "81bcd01eea2be333400de1c0ce512fcc2ceb9928f9720964c67fed706e375aa1",
+    "director_packaged_proof_challenge_zip_sha256": "418b8c19b4a7e5ae1183e94f31a60284e74d257312628160345650a20dd519b2"
+  },
+  "source_identities": {
+    "builder_blob": "8d1e9948e8bf5ef01e67c9afe0155412c57d79fa",
+    "checker_blob": "d008f35f0843e1a5c770db3e7f42ed7d987360d7",
+    "mdl_pin": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+    "bounded_search_pin": "e48b94eec4091b4fe189e325cab2eda464409943",
+    "local_agents_sha256": "e980f2ee51d2b69cfd8ab9c4955f9388ad14f9b7b78581729ef5a24dd21339e6"
+  },
+  "counters": {
+    "writers": 1,
+    "verification_workers": 1,
+    "new_originals": 0,
+    "official_exterior_nodes": 0,
+    "labeling_nodes": 0,
+    "allocation_states": 0,
+    "transfer_transitions": 0,
+    "solver_calls": 0,
+    "pilot_invocations": 0,
+    "official_arm_dispositions": 0,
+    "successor_tasks_started": 0
+  },
+  "limits": {
+    "process_cpu_seconds": 600,
+    "externally_observed_wall_seconds": 1200,
+    "new_preparation_evidence_bytes": 16000000
+  },
+  "measured_read_only_hash_prefix_and_archive_invocation": {
+    "process_cpu_seconds": 0.515625,
+    "wall_seconds": 0.8813853,
+    "coverage": "One sequential custody invocation. Git transport and separate source review are outside this measurement."
+  },
+  "proof": {
+    "path": "research/ORDINARY_SPINE_TWO_DIRECT_LEAF_BOUNDARY.md",
+    "sha256": "50a1359702c20ea4711dc987e296890a9e008274f028bd38335ef63ab734f87d",
+    "bytes": 20239
+  }
+}

@@ -1687,3 +1687,11 @@ The symbolic terminal-free exclusion applies more broadly to an odd-quota sole f
 ## D151 forced exterior roles and one-direct-leaf obstruction
 
 **PROVED / PENDING DIRECTOR REVIEW.** Within D143, one positive first center a and no first direct leaves force reduced a=A−1 and actual terminals of a at all upper slots b=2,…,A−1. This removes the corresponding hosts from the gap. The remaining host options require that both source 0 and source A−1 use actual direct leaves of w. With at most one such leaf there is no completion, even with exterior terminals permitted. The argument applies to all 145 planned cases, independently of their ordered quotas and exterior choices. The retained n=54 prefix meets their entire size range. [Proof](ORDINARY_SPINE_ONE_DIRECT_LEAF_EXTERIOR_OBSTRUCTION.md) · [Evidence](../evidence/validation/LCL_ORDINARY_SPINE_ONE_DIRECT_LEAF_EXTERIOR_STUDY_001/README.md)
+
+## Director acceptance of D151
+
+**DIRECTOR ACCEPTED** within its exact D143 interface. One first center and no first direct leaves force two distinct direct gap leaves at w, and at most one available direct leaf at w excludes every allowed exterior or gap completion. The symbolic result covers the entire former 145-case stratum. [Proof](ORDINARY_SPINE_ONE_DIRECT_LEAF_EXTERIOR_OBSTRUCTION.md)
+
+## D152 exact two-direct-leaf D143 boundary
+
+**PROVED / PENDING DIRECTOR REVIEW.** For ordered (2r+1), (2p,2q,0,0) under the exact supplied D134 p=1 and D143 return contract with exact r,p,q≥1 and n≥2(r+p+q+4), the terminal-enabled arm is feasible precisely when r≥2 and max(p,q)≥3, or (r,p,q)=(4,2,2). The reduced exterior requires B=A+Δ, Δ dividing A−1, and lower terminal slots divisible by Δ at P, the others at Q. Under the width and actual quota conditions this describes exactly the reduced exteriors after keeping both direct leaves in the gap. The gap parity forces odd A. Explicit packets give the infinite domain, and A=5, Δ=2 gives the sole small-quota residual solution. Both positive rules preserve all names, actual spectra, both boundary inventories, both polarities and admitted finite D134 composition. [Proof](ORDINARY_SPINE_TWO_DIRECT_LEAF_BOUNDARY.md) · [Evidence](../evidence/validation/LCL_ORDINARY_SPINE_TWO_DIRECT_LEAF_BOUNDARY_001/README.md)
