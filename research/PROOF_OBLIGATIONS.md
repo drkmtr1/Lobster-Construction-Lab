@@ -835,6 +835,12 @@ The frozen hypothesis, falsifiers, proofs and review records remain in the [exte
 
 ## Proposed D143 gap allocation follow-up
 
-**UNSTARTED — AWAITING OWNER APPROVAL.** Proposed task `LCL-ORDINARY-SPINE-TWO-SECTION-GAP-ALLOCATION-001`.
+**PROVED / PENDING DIRECTOR REVIEW** as a sufficient deterministic allocator for the authorized task `LCL-ORDINARY-SPINE-TWO-SECTION-GAP-ALLOCATION-001`. Exact allocation outside this domain remains open. [Proof](ORDINARY_SPINE_TWO_SECTION_GAP_ALLOCATION.md)
 
 > Under separate authorization, prove or delimit a symbolic allocation rule for the D143 same-polarity two-section gap, from an independently supplied named exterior labeling and independently prescribed physical gap-leaf quotas. Preserve both crossing inventories and actual hosts, and test whether the rule goes beyond the fixed displacement cycles without changing the embedding class or running numerical searches.
+
+## D144 physical gap allocation remaining scope
+
+An independent exterior labeling and the passing quota arithmetic suffice for this allocation rule, including on the new exterior family. The aggregate inequalities, parity and individual source windows alone do not establish feasibility. No necessity claim is made for the recipe's boundary choices, residue convention or width limit.
+
+**UNSTARTED — AWAITING SEPARATE AUTHORIZATION.** Under separate authorization, seek an exact symbolic criterion for independently prescribed physical gap-leaf quotas on the fixed D143 five-vertex exterior. Determine which rejections by the D144 packet rule reflect genuine physical incompatibility when all eligible endpoint assignments are allowed. Keep the embedding, named hosts and both crossing inventories fixed, and use no numerical search.

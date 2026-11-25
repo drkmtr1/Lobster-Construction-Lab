@@ -607,3 +607,7 @@ D142 rules out equal frontier polarity on the independently supplied D141 non-le
 ## D143 scoped two-section exclusions
 
 In the supplied D134 p=1, n≥H=2K two-section class with an extreme return and preserved old cut membership, opposite polarity is impossible. Exact high-weight coverage forces the actual first connector vu to reach the upper exterior and forces the exterior induced forest to be connected. Its actual edge uw crosses the exterior intervals, placing w in the lower exterior. Positive-quota gap centers are impossible, since their terminals would be in the gap on the same cut side and have weights below d. The width A=1 is also excluded because the smallest gap label has no eligible actual host weight. The Director accepted these symbolic exclusions within the declared class. Other embedding classes and ordinary gracefulness remain open. [Proof](ORDINARY_SPINE_TWO_SECTION_CUT_STATE.md) · D143
+
+## D144 physical gap allocation obstructions
+
+In the declared D143 embedding, a gap with B=1 cannot assign its first upper source k. At A=2 the first two gap coordinates must both go to the physical host carrying zero. On the independently supplied D143 five-vertex exterior a symbolic quota family has only one such leaf while satisfying the aggregate equations and the global parity test. Thus those tests do not ensure physical feasibility. A rejection by D144's sufficient packet recipe alone leaves other allocations open. [Proof](ORDINARY_SPINE_TWO_SECTION_GAP_ALLOCATION.md) · D144

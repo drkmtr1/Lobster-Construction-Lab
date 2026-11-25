@@ -2,7 +2,7 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 24, 2026, Pacific/Honolulu<br>
-**Stage:** D143 **ACCEPTED** within its exact written scope. Proposed gap-allocation task `LCL-ORDINARY-SPINE-TWO-SECTION-GAP-ALLOCATION-001` is **UNSTARTED — AWAITING OWNER APPROVAL**. **Project instructions KEEP v10.** The Owner reported restoring the saved v10 instructions.
+**Stage:** D144 symbolic proof complete, **PENDING DIRECTOR REVIEW**. D143 remains **ACCEPTED** within its written scope. **Project instructions KEEP v10.** The Owner reported restoring the saved v10 instructions.
 
 ## Current scientific objective
 
@@ -10,9 +10,11 @@ Develop independently supplied ordinary graceful constructions and reusable tran
 
 D143 proves a same-polarity exterior-tree and gap reduction for an exact D134 p=1 return across two sections in the declared embedding class. It supplies a repeatable family with an odd first-section edge count and immutable final-alphabet realization. General compatible exterior and gap supply remain open. D142's single-section scopes remain unchanged. [D143 proof](research/ORDINARY_SPINE_TWO_SECTION_CUT_STATE.md) · [Director acceptance handoff](handoffs/CODEX-20261124-d143-director-acceptance.md)
 
+D144 supplies an arithmetic physical gap quota rule for the D143 embedding. It proves the aggregate balances and exact host windows, shows that aggregate balance plus parity can fail at a forced endpoint, and extends the D143 positive family. Feasibility outside its sufficient rule remains open. [D144 proof](research/ORDINARY_SPINE_TWO_SECTION_GAP_ALLOCATION.md) · [Handoff](handoffs/CODEX-20261124-ordinary-spine-two-section-gap-allocation.md)
+
 ## One next action
 
-Under separate authorization, prove or delimit a symbolic allocation rule for the D143 same-polarity two-section gap, from an independently supplied named exterior labeling and independently prescribed physical gap-leaf quotas. Preserve both crossing inventories and actual hosts, and test whether the rule goes beyond the fixed displacement cycles without changing the embedding class or running numerical searches.
+Under separate authorization, seek an exact symbolic criterion for independently prescribed physical gap-leaf quotas on the fixed D143 five-vertex exterior. Determine which rejections by the D144 packet rule reflect genuine physical incompatibility when all eligible endpoint assignments are allowed. Keep the embedding, named hosts and both crossing inventories fixed, and use no numerical search.
 
 ## Deferred obligations
 

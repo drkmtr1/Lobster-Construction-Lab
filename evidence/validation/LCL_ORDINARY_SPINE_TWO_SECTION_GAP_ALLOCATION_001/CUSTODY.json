@@ -1,0 +1,82 @@
+{
+  "task": "LCL-ORDINARY-SPINE-TWO-SECTION-GAP-ALLOCATION-001",
+  "parent": "9392562e524b07975f265c8eb9b23293da66e6a5",
+  "proof": {
+    "path": "research/ORDINARY_SPINE_TWO_SECTION_GAP_ALLOCATION.md",
+    "sha256": "582d8576f9a710b9a52d70ba9fb3f47fa289ea05f50cf6617d7889a5a36f5648"
+  },
+  "admission": {
+    "head": "9392562e524b07975f265c8eb9b23293da66e6a5",
+    "origin_main": "9392562e524b07975f265c8eb9b23293da66e6a5",
+    "live_github_main": "9392562e524b07975f265c8eb9b23293da66e6a5",
+    "clean": true,
+    "observed_other_writers": 0,
+    "baseline_tag_object": "fddfc1dd9541324b2ed2de2505bc750b3e3f0b9d",
+    "baseline_peeled": "36ea1603602491bf3c1c5b81ed4c23aaa2210e70",
+    "mdl_pin": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+    "bounded_search_pin": "e48b94eec4091b4fe189e325cab2eda464409943",
+    "original_builder_blob": "8d1e9948e8bf5ef01e67c9afe0155412c57d79fa",
+    "original_checker_blob": "d008f35f0843e1a5c770db3e7f42ed7d987360d7"
+  },
+  "source_bindings": [
+    {
+      "path": "research/ORDINARY_SPINE_TWO_SECTION_CUT_STATE.md",
+      "sha256": "a7b4d98f286225bfb887866ce1b6167281b52bb650fcf53a50b0a5060e152cf8"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_PIECEWISE_CUT_SPECTRUM_TRANSITION.md",
+      "sha256": "2b9b52c24293110f8e0b59b4ac73af11e4c14e77cb5ff7355ced236b6d271839"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_GENERAL_DISPLACEMENT_CYCLE_ALLOCATION.md",
+      "sha256": "9a57abf2b009c441b6b6e66db332dd11d0d999bfa8952c60e4c4220f638a3fb9"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_INTERLEAVED_ROTATION_PACKET_ALLOCATION.md",
+      "sha256": "883ab9205a8f8b0df588f7bc6dff64a961e8281f1945bfee5974e8470def7495"
+    },
+    {
+      "path": "references/upstream/mdl/N226_R226_two_host_completion.md",
+      "sha256": "989e85fd24be0ed3c04b0dd80df7a93f648279d6599ec82eede4f4241dc5cddc"
+    },
+    {
+      "path": "references/upstream/mdl/N232_R232_joint_allocation.md",
+      "sha256": "45452191b708528c0ba3fab4802767f9e9cbf20dab0c126929a91a770dbd505d"
+    },
+    {
+      "path": "handoffs/CODEX-20261124-d143-director-acceptance.md",
+      "sha256": "5812a03ceb4bee7dda0ec3d3951bc3423033e5105ec5e52c36b3b4ef5da91dbf"
+    }
+  ],
+  "retained_archive_bindings": {
+    "d143_manifest_sha256": "c83b3429dd0e99881a9eedcdb56df5712450bf42a5e4bc23f190d51a80c02a71",
+    "historical_pilot_proof_sha256": "fc0b5f06fbd3c00d1a739b8838c3b19f2732ba5262aa2970e40b45049a676474",
+    "historical_pilot_proof_zip_sha256": "81bcd01eea2be333400de1c0ce512fcc2ceb9928f9720964c67fed706e375aa1",
+    "director_pilot_proof_zip_sha256": "418b8c19b4a7e5ae1183e94f31a60284e74d257312628160345650a20dd519b2"
+  },
+  "symbolic_controls": [
+    "D143 five-vertex family exact recovery",
+    "Actual endpoint exclusion after passing crossing balance and global parity"
+  ],
+  "limits": {
+    "workers": 1,
+    "process_cpu_seconds": 30,
+    "externally_observed_wall_seconds": 60,
+    "new_verification_evidence_bytes": 2000000
+  },
+  "research_counts": {
+    "symbolic_tasks": 1,
+    "writers": 1,
+    "numerical_originals": 0,
+    "labeling_search_nodes": 0,
+    "placement_sweeps": 0,
+    "solver_calls": 0,
+    "pilot_invocations": 0,
+    "detailed_holdout_reads": 0,
+    "automatic_retries": 0,
+    "successor_tasks": 0,
+    "experimental_harness_runs": 0
+  },
+  "project_instructions": "KEEP v10",
+  "deferred_2322": "DEFERRED / UNSTARTED"
+}
