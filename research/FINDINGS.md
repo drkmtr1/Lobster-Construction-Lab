@@ -1727,3 +1727,11 @@ The symbolic terminal-free exclusion applies more broadly to an odd-quota sole f
 ## D155 exact parameterized two-first-center classification
 
 **PROVED / PENDING DIRECTOR REVIEW.** On ordered (2r,2t), (2p,2q+1,0) for exact r,t,p,q≥1, with an independently supplied D134 p=1 prefix and n≥2(r+t+p+q+4), both D143 arms are feasible exactly when max(r,t,p)≥2. An independent terminal-free exterior with A=B=3 and two explicit gap packets supplies all positive cases. For r=t=p=1 an exhaustive reduced exterior classification and gap obstructions exclude every permitted choice for arbitrary q≥1. Both polarities, actual named quotas, first-section inventories and port, and admitted finite immutable composition are included. [D155 primary proof](ORDINARY_SPINE_TWO_FIRST_CENTER_PARAMETERIZED_CLASSIFICATION.md)
+
+## Director acceptance of D155
+
+**DIRECTOR ACCEPTED WITHIN EXACT WRITTEN SCOPE.** D155 establishes both-arm feasibility exactly when max(r,t,p)≥2 on its even-first ordered profiles and fixed D143/D134 return. All positives are terminal-free. The exceptional negative covers all allowed exteriors for every admitted q. The accepted scope includes exact physical and intermediate resources, both polarities and admitted immutable finite composition. [D155 proof](ORDINARY_SPINE_TWO_FIRST_CENTER_PARAMETERIZED_CLASSIFICATION.md)
+
+## D156 exact odd-first-center D143 classification
+
+**PROVED / PENDING DIRECTOR REVIEW.** For ordered (2r+1,2t+1), (2p,2q+1,0) with exact r,t≥0, p,q≥1 and an independently supplied D134 p=1 prefix with n≥2(r+t+p+q+5), both arms are feasible exactly when r+t≥1. Displacement parity puts the odd second center at upper index 2 for terminal-free A=B=3. An explicit two-row packet supplies all positives. For r=t=0 the width constraints and exterior-terminal balance force A=B=3 in both arms. The first three sources exhaust the lower quotas, and the remaining upper-host image sum is incompatible with the even center's positive quota. The proof gives exact inventories, the actual unfinished connector, both polarities and immutable finite composition. [D156 proof](ORDINARY_SPINE_ODD_FIRST_CENTER_PARAMETERIZED_CLASSIFICATION.md)

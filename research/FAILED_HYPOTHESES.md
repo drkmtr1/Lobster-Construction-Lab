@@ -655,3 +655,7 @@ For ordered (2r+1,2t), (2p,2q,0) with independently prescribed exact r,t,p,q≥1
 ## D155 exact exceptional two-first-center obstruction
 
 **PROVED / PENDING DIRECTOR REVIEW.** For (2,2), (2,2q+1,0), every permitted D143 exterior and gap assignment fails for exact q≥1 on the supplied D134 p=1 interface with n≥2(q+7). The two terminal-free widths force a three-source collision. The reduced classifications for exteriors with terminals fail separate gap range, collision or displacement requirements. The four accepted D154 negatives retain their finite computational basis. Other embeddings and ordinary gracefulness remain open. [D155 proof](ORDINARY_SPINE_TWO_FIRST_CENTER_PARAMETERIZED_CLASSIFICATION.md)
+
+## D156 (1,1) first-profile obstruction in D143
+
+**PROVED / PENDING DIRECTOR REVIEW.** With ordered profiles (1,1), (2p,2q+1,0) and exact p,q≥1, the supplied D134 p=1 state and n≥2(p+q+5), no D143 exterior and gap allocation completes either arm. D153 and D147 force terminal-free A=B=3. The mandatory lower sources fix the lower images and displacement parity fixes the upper roles. Every use of the even upper center increases the image sum over the required reflection, contradicting its positive quota. Ordinary gracefulness under other placements remains outside the claim. [D156 proof](ORDINARY_SPINE_ODD_FIRST_CENTER_PARAMETERIZED_CLASSIFICATION.md#4-complete-obstruction-at-rt0)
