@@ -2,19 +2,21 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 24, 2026, Pacific/Honolulu<br>
-**Stage:** D139 two-cut boundary-leaf bridge **ACCEPTED**. Bounded retained-evidence verification **PASS**. [Proof](research/ORDINARY_SPINE_TWO_CUT_BOUNDARY_LEAF_BRIDGE.md).
+**Stage:** D140 exact two-cut quota classification **ACCEPTED**. Bounded retained-evidence verification **PASS**. [Proof](research/ORDINARY_SPINE_TWO_CUT_EXACT_QUOTA_CLASSIFICATION.md).
 
 ## Current scientific objective
 
-Develop independent ordinary graceful transitions with usable physical ports. The [latest handoff](handoffs/CODEX-20261124-ordinary-spine-two-cut-boundary-leaf-bridge.md) supplies a repeatable three-translation bridge beyond every numerical role in D138 for the stated quotas and named boundary-leaf state. The next priority is the exact reach of its two-band terminal allocation with the physical boundary leaf retained.
+Develop independent ordinary graceful transitions with usable physical ports. The [latest handoff](handoffs/CODEX-20261124-ordinary-spine-two-cut-exact-quota-classification.md) classifies every admissible quota triple in the fixed D139 two-gap placement with its named center-1 leaf return. The next priority is a structural alternative to the input degree-one leaf using exact old incidence data.
 
 ## One next action
 
-Under separate authorization, classify exact two-band terminal allocations for the D139 named boundary-leaf three-translation placement with independently prescribed positive quotas at its three physical centers. Keep the two interval holes, allowed displacements −1, 0 and +1, and the requirement that coordinate K return a named center-1 boundary leaf. Seek a symbolic necessary and sufficient allocation criterion with an indexed construction, or a scoped obstruction to increasing the admitted quota domain. Use no numerical allocations, enumeration, solver or profile sweep.
+Under separate authorization, investigate a structural replacement for D139's single degree-one boundary leaf. Let the second cut isolate a consecutive block of old labels immediately below the designated incoming cut, and track its actual incidences and shifted crossing and noncrossing spectra. Seek an independently supplied symbolic input family and a reusable three-translation bridge for a block containing a non-leaf vertex, or prove a scoped spectral obstruction. Require both exact inventories, the declared original graph and a precisely identified return state. Use no numerical allocations, enumeration, solvers or profile sweeps.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
+
+- D140 **CLASSIFIES** exact D139 two-band allocation with K fixed at the named center-1 boundary leaf. Two forced unit-shift chains and independent adjacent transpositions give exactly (2t+z,2b,z) for t,b,z≥1 and b+z≥3 under the inherited size and named-state requirements. The indexed rule returns leaf index L−2ell, recovers D139 pointwise on its repeatable domain, and admits b=1,z≥2. Independent preparation and immutable final composition persist. The retained audit and both reviews passed. See [proof](research/ORDINARY_SPINE_TWO_CUT_EXACT_QUOTA_CLASSIFICATION.md) and [evidence](evidence/validation/LCL_ORDINARY_SPINE_TWO_CUT_EXACT_QUOTA_CLASSIFICATION_001/README.md).
 
 - D139 **SUPPLIES** the three-translation embedding for the strengthened D134 p=1 state with the actual named leaf of label c−1 and weight d. For physical quotas (2t+1,2b,1) with t,b≥1 and n≥Q+4 it escapes every D138 numerical role and returns the ordinary cut state. The stronger state returns exactly when b≥2 under this construction. Independent symbolic preparation, admitted finite-list closure and immutable final-label accounting hold. The retained audit and both reviews passed. See [proof](research/ORDINARY_SPINE_TWO_CUT_BOUNDARY_LEAF_BRIDGE.md) and [evidence](evidence/validation/LCL_ORDINARY_SPINE_TWO_CUT_BOUNDARY_LEAF_BRIDGE_001/README.md).
 
