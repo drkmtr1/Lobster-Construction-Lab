@@ -2,19 +2,21 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 24, 2026, Pacific/Honolulu<br>
-**Stage:** D140 exact two-cut quota classification **ACCEPTED**. Bounded retained-evidence verification **PASS**. [Proof](research/ORDINARY_SPINE_TWO_CUT_EXACT_QUOTA_CLASSIFICATION.md).
+**Stage:** D141 canonical boundary-block spectral obstruction **ACCEPTED**. Bounded retained-evidence verification **PASS**. [Proof](research/ORDINARY_SPINE_BOUNDARY_BLOCK_SPECTRAL_OBSTRUCTION.md).
 
 ## Current scientific objective
 
-Develop independent ordinary graceful transitions with usable physical ports. The [latest handoff](handoffs/CODEX-20261124-ordinary-spine-two-cut-exact-quota-classification.md) classifies every admissible quota triple in the fixed D139 two-gap placement with its named center-1 leaf return. The next priority is a structural alternative to the input degree-one leaf using exact old incidence data.
+Develop independent ordinary graceful transitions with usable physical ports. The [latest handoff](handoffs/CODEX-20261124-ordinary-spine-boundary-block-spectral-obstruction.md) proves the canonical three-translation bounds on actual boundary-block incidences, including a uniformly excluded independently supplied non-leaf family. The next priority is a structural change to the exterior placement.
 
 ## One next action
 
-Under separate authorization, investigate a structural replacement for D139's single degree-one boundary leaf. Let the second cut isolate a consecutive block of old labels immediately below the designated incoming cut, and track its actual incidences and shifted crossing and noncrossing spectra. Seek an independently supplied symbolic input family and a reusable three-translation bridge for a block containing a non-leaf vertex, or prove a scoped spectral obstruction. Require both exact inventories, the declared original graph and a precisely identified return state. Use no numerical allocations, enumeration, solvers or profile sweeps.
+Under separate authorization, test the consecutive boundary-block embedding with variable lower and upper exterior widths A and B and with fresh physical roles allowed in any unused interval. Use the independently supplied D141 non-leaf input family with the exact D134 p=1 return and preserve actual named incidences and old designated-cut membership. Derive exact connector and weight-range constraints for the noncanonical placement, and prove a parameterized reusable bridge or a scoped obstruction for this broader class. Use no numerical allocation, alternate-placement search, solver, enumeration or profile sweep.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
+
+- D141 **PROVES** the canonical three-translation necessary conditions h=p+p'+1 and R⊆[d,d+p'−1], plus min P≥a+1 when P is nonempty and the empty-P first-gap exclusion. At p=p'=1 a successful singleton forces an actual degree-one vertex with the unique weight-d edge. The exact D140 and D139 preparatory leaf strips rule out k≥2 for p'=1. On the first D134 p=1 initializer family both additional-cut cases exclude every canonical positive-gap three-center bridge. D139 and D140 keep their positive singleton domains. See [proof](research/ORDINARY_SPINE_BOUNDARY_BLOCK_SPECTRAL_OBSTRUCTION.md) and [evidence](evidence/validation/LCL_ORDINARY_SPINE_BOUNDARY_BLOCK_SPECTRAL_OBSTRUCTION_001/README.md).
 
 - D140 **CLASSIFIES** exact D139 two-band allocation with K fixed at the named center-1 boundary leaf. Two forced unit-shift chains and independent adjacent transpositions give exactly (2t+z,2b,z) for t,b,z≥1 and b+z≥3 under the inherited size and named-state requirements. The indexed rule returns leaf index L−2ell, recovers D139 pointwise on its repeatable domain, and admits b=1,z≥2. Independent preparation and immutable final composition persist. The retained audit and both reviews passed. See [proof](research/ORDINARY_SPINE_TWO_CUT_EXACT_QUOTA_CLASSIFICATION.md) and [evidence](evidence/validation/LCL_ORDINARY_SPINE_TWO_CUT_EXACT_QUOTA_CLASSIFICATION_001/README.md).
 
