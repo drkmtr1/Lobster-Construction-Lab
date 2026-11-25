@@ -611,3 +611,7 @@ In the supplied D134 p=1, n≥H=2K two-section class with an extreme return and 
 ## D144 physical gap allocation obstructions
 
 In the declared D143 embedding, a gap with B=1 cannot assign its first upper source k. At A=2 the first two gap coordinates must both go to the physical host carrying zero. On the independently supplied D143 five-vertex exterior a symbolic quota family has only one such leaf while satisfying the aggregate equations and the global parity test. Thus those tests do not ensure physical feasibility. A rejection by D144's sufficient packet recipe alone leaves other allocations open. [Proof](ORDINARY_SPINE_TWO_SECTION_GAP_ALLOCATION.md) · D144
+
+## D145 fixed-exterior quota packet rejection
+
+Failure of both D144 boundary recipes can occur for a feasible physical quota vector on the same fixed exterior. The symbolic family (3,0,1+2r,2,1) at k=r+4 violates the required packet width under rule 2 and demands a negative M_2 under rule 1. Its explicit boundary reflection pair gives a valid matching together with the remaining named assignments. The scoped D144 forced-endpoint adverse family still fails all exact allocations. The sufficient packet theorem remains accepted. [Proof](ORDINARY_SPINE_TWO_SECTION_EXACT_GAP_CRITERION.md) · D145

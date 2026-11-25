@@ -203,3 +203,11 @@ The proposed physical gap allocation task `LCL-ORDINARY-SPINE-TWO-SECTION-GAP-AL
 ## D144 physical gap allocation
 
 Complete `LCL-ORDINARY-SPINE-TWO-SECTION-GAP-ALLOCATION-001` at parent `9392562e524b07975f265c8eb9b23293da66e6a5`. **PROVED / PENDING DIRECTOR REVIEW.** Adopt no wider claim than the demonstrated necessary conditions and sufficient packet test. Preserve the accepted D143 state, both historical pilot archive identities, and the separate 2322 deferral. The D143 control and adverse parity-passing family are purely symbolic. Select only the unstarted exact quota criterion indicated in STATE. Project instructions **KEEP v10**. [Proof](ORDINARY_SPINE_TWO_SECTION_GAP_ALLOCATION.md) · [Handoff](../handoffs/CODEX-20261124-ordinary-spine-two-section-gap-allocation.md)
+
+## Director acceptance of D144
+
+**ACCEPT** D144 within its written scope at proof checkpoint `e4cf0d0dced2d9ce902b2a57006840a87562bd4d`. The Director independently inspected the primary proof, both reviews, custody, ledgers, handoff and continuity. All six D144 manifest rows and the manifest hash, seven source hashes, D143 manifest and historical pilot proof hash verified. Local checks and external archive verification remain Codex-reported. The original proof, evidence and handoff stay bound to that checkpoint. The packet rule remains sufficient and its failures alone do not prove incompatibility. [D144 proof](ORDINARY_SPINE_TWO_SECTION_GAP_ALLOCATION.md) · [D144 manifest](../evidence/validation/LCL_ORDINARY_SPINE_TWO_SECTION_GAP_ALLOCATION_001/MANIFEST.json)
+
+## D145 fixed-exterior quota criterion
+
+Complete `LCL-ORDINARY-SPINE-TWO-SECTION-EXACT-GAP-CRITERION-001` at parent `e4cf0d0dced2d9ce902b2a57006840a87562bd4d`. **PROVED / PENDING DIRECTOR REVIEW** for the exact fixed five-vertex domain. Preserve D144's separate sufficient domain, including its wider exterior parameters. The stable transfer, exact coefficient criterion, construction and three controls are purely symbolic. Keep the pilot archive identities and the separate 2322 deferral. Select only the successor in STATE and leave it unstarted. Project instructions **KEEP v10**. [Proof](ORDINARY_SPINE_TWO_SECTION_EXACT_GAP_CRITERION.md) · [Handoff](../handoffs/CODEX-20261124-ordinary-spine-two-section-exact-gap-criterion.md)
