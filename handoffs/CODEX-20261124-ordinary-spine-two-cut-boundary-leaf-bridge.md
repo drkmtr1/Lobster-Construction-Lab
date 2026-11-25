@@ -1,0 +1,17 @@
+# Codex handoff — D139 two-cut boundary-leaf bridge
+
+November 24, 2026, Pacific/Honolulu · `LCL-ORDINARY-SPINE-TWO-CUT-BOUNDARY-LEAF-BRIDGE-001` · parent `23b247b38eb51db801e204d680f6be9f3f976fa4`. Repository `drkmtr1/Lobster-Construction-Lab`, branch `main`.
+
+**ACCEPT** the exact four-class resource calculus and the proposed three-translation bridge. It takes an independently supplied strengthened D134 p=1 state with even n and the actual named degree-one leaf at oriented label c−1 joined to its host at n−1 by weight d. For independent t,b≥1 use the physical quotas (2t+1,2b,1) and n≥Q+4. Only the distinguished old incidence changes by Q−t. The two different holes in I and J admit the exact terminal map and moment 2t. The three distinct quotas exclude zero moment under every D138 numerical role assignment, and both inserted gaps are positive.
+
+The actual polarity flips and the new ordinary p=1 state always returns. The stronger named boundary leaf returns exactly when b≥2. At b=1 the unique candidate is at center zero with weight d'+1. The inherited D134 symbolic initializer and actual D137 preparatory section (1,6,1) independently supply the state. A predeclared finite list closes with b≥2 at intermediate steps and b=1 permitted last, under the exact size admission. Initializer sections are actual declared original sections. The final-alphabet composition includes the single next-step label and weight corrections to the distinguished leaf and its edge, and preserves both exact residual inventories.
+
+[Proof](../research/ORDINARY_SPINE_TWO_CUT_BOUNDARY_LEAF_BRIDGE.md) · [Evidence](../evidence/validation/LCL_ORDINARY_SPINE_TWO_CUT_BOUNDARY_LEAF_BRIDGE_001/README.md) · [Audit and controls](../evidence/validation/LCL_ORDINARY_SPINE_TWO_CUT_BOUNDARY_LEAF_BRIDGE_001/result.json) · [Reviews](../evidence/validation/LCL_ORDINARY_SPINE_TWO_CUT_BOUNDARY_LEAF_BRIDGE_001/REVIEWS.md) · [Manifest](../evidence/validation/LCL_ORDINARY_SPINE_TWO_CUT_BOUNDARY_LEAF_BRIDGE_001/MANIFEST.json)
+
+**PASS** one parse-only preflight and one supervised retained audit on project-local Python 3.13.17. Two frozen-original rechecks with exact unchanged builder comparisons, two maximum cuts, nine archival bindings, seven controls and separate reviews passed. Combined use was 0.625 process-CPU seconds and 1.3914673 supervised wall seconds. No numerical application, initialization, new graph or search ran. Preserve D131–D138, earlier alpha suppliers, historical INCOMPLETE/PASS distinctions, deferred 2322, baseline identities and both upstream pins. Resolve this handoff's containing commit and verify actual GitHub main.
+
+**ADVANCE** to exact allocation reach for this three-translation placement with the boundary leaf retained. The present family leaves independently varying center quotas and arbitrary incoming states open. **Project instructions KEEP.**
+
+## One next action
+
+Under separate authorization, classify exact two-band terminal allocations for the D139 named boundary-leaf three-translation placement with independently prescribed positive quotas at its three physical centers. Keep the two interval holes, allowed displacements −1, 0 and +1, and the requirement that coordinate K return a named center-1 boundary leaf. Seek a symbolic necessary and sufficient allocation criterion with an indexed construction, or a scoped obstruction to increasing the admitted quota domain. Use no numerical allocations, enumeration, solver or profile sweep.

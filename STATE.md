@@ -2,19 +2,21 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 24, 2026, Pacific/Honolulu<br>
-**Stage:** D138 canonical placement rigidity and role-independent moment obstruction **ACCEPTED**. Bounded retained-evidence verification **PASS**. [Proof](research/ORDINARY_SPINE_CANONICAL_PLACEMENT_RIGIDITY.md).
+**Stage:** D139 two-cut boundary-leaf bridge **ACCEPTED**. Bounded retained-evidence verification **PASS**. [Proof](research/ORDINARY_SPINE_TWO_CUT_BOUNDARY_LEAF_BRIDGE.md).
 
 ## Current scientific objective
 
-Develop independent ordinary graceful transitions with usable physical ports. The [latest handoff](handoffs/CODEX-20261124-ordinary-spine-canonical-placement-rigidity.md) exhausts alternate fresh placements in D137's exact single-section class and identifies quotas excluded by every numerical role assignment. The next priority is a broader old embedding with exact inventories and designated return-state data.
+Develop independent ordinary graceful transitions with usable physical ports. The [latest handoff](handoffs/CODEX-20261124-ordinary-spine-two-cut-boundary-leaf-bridge.md) supplies a repeatable three-translation bridge beyond every numerical role in D138 for the stated quotas and named boundary-leaf state. The next priority is the exact reach of its two-band terminal allocation with the physical boundary leaf retained.
 
 ## One next action
 
-Under separate authorization, test a single-section broader ordinary embedding with two declared old label cuts and three order-preserving translation bands. Derive the exact old-weight collision criterion from actual incidences and the corresponding fresh label and difference inventories. Determine whether this class supplies a parameterized bridge outside D138's role-independent moment condition while preserving all named incidences and exact designated return-state data, or prove a scoped obstruction for the proposed class. Work symbolically without numerical joins, permutation enumeration, profile sweeps or capacity optimization.
+Under separate authorization, classify exact two-band terminal allocations for the D139 named boundary-leaf three-translation placement with independently prescribed positive quotas at its three physical centers. Keep the two interval holes, allowed displacements −1, 0 and +1, and the requirement that coordinate K return a named center-1 boundary leaf. Seek a symbolic necessary and sufficient allocation criterion with an indexed construction, or a scoped obstruction to increasing the admitted quota domain. Use no numerical allocations, enumeration, solver or profile sweep.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
+
+- D139 **SUPPLIES** the three-translation embedding for the strengthened D134 p=1 state with the actual named leaf of label c−1 and weight d. For physical quotas (2t+1,2b,1) with t,b≥1 and n≥Q+4 it escapes every D138 numerical role and returns the ordinary cut state. The stronger state returns exactly when b≥2 under this construction. Independent symbolic preparation, admitted finite-list closure and immutable final-label accounting hold. The retained audit and both reviews passed. See [proof](research/ORDINARY_SPINE_TWO_CUT_BOUNDARY_LEAF_BRIDGE.md) and [evidence](evidence/validation/LCL_ORDINARY_SPINE_TWO_CUT_BOUNDARY_LEAF_BRIDGE_001/README.md).
 
 - D138 **PROVES** canonical placement rigidity in the exact D137 class. A repeated actual edge weight excludes B>1, and an exact coordinate deficit excludes all gap centers. The resulting A=h, s=Q, B=1 placement admits exactly numerical role bijections and two-band displacement permutations with the physical quotas. A positive role exchange escapes the fixed-index moment, and an infinite symbolic family fails the moment for every role assignment. Two archived checker rechecks, two cut inspections, eight bindings, five controls and separate reviews passed. See [proof](research/ORDINARY_SPINE_CANONICAL_PLACEMENT_RIGIDITY.md) and [evidence](evidence/validation/LCL_ORDINARY_SPINE_CANONICAL_PLACEMENT_RIGIDITY_001/README.md).
 
