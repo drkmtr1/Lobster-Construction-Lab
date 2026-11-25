@@ -2,19 +2,21 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 24, 2026, Pacific/Honolulu<br>
-**Stage:** D133 arbitrary-center affine obstruction **ACCEPTED**. Bounded retained-evidence verification **PASS**. [Proof](research/ORDINARY_SPINE_ARBITRARY_CENTER_AFFINE_OBSTRUCTION.md).
+**Stage:** D134 repeatable piecewise cut-spectrum transition **ACCEPTED**. Bounded retained-evidence verification **PASS**. [Proof](research/ORDINARY_SPINE_PIECEWISE_CUT_SPECTRUM_TRANSITION.md).
 
 ## Current scientific objective
 
-Develop independent ordinary graceful transitions with usable physical ports. The [latest handoff](handoffs/CODEX-20261124-ordinary-spine-arbitrary-center-affine-obstruction.md) closes the large-prefix, single-affine, one-section regime for three or more positive-quota centers. Both the old consecutive label interval and the old low difference spectrum drive the obstruction. The next priority is to test a single cut with separately translated old bands and exact accounting of the resulting two inventories.
+Develop independent ordinary graceful transitions with usable physical ports. The [latest handoff](handoffs/CODEX-20261124-ordinary-spine-piecewise-cut-spectrum-transition.md) records the repeatable piecewise cut-spectrum transition for fixed odd multiplicity and symmetric quotas. The next priority is to broaden the physical quota allocation while retaining both spectral bands and the returned cut state. The D133 obstruction retains its exact affine and inventory scope.
 
 ## One next action
 
-Under separate authorization, test one piecewise ordinary spine transition for a single appended section with h≥3 positive-quota centers in the large-prefix regime. Start from a supplied ordinary prefix with one declared cut in its label alphabet and translate the two old bands separately, preserving order within and between the bands. Derive the exact changed cross-cut spectrum and both residual palettes, then prove a parameterized admitted domain with a reusable physical return state or a scoped obstruction to this embedding class. Work symbolically without numerical joins, profile sweeps, solvers or small-quota variants.
+Under separate authorization, test an allocation criterion for arbitrary positive physical quotas at one fixed odd multiplicity h=2p+1≥3 in the D134 return state. Require a permutation of gap coordinates preserving [0,k−1] and [k,Q−1], with displacement p−j occurring exactly the quota of physical center j times. Prove a parameterized nonsymmetric supply condition or a scoped obstruction to the proposed criterion, retaining the two inventories and the same reusable cut state. Work symbolically without numerical joins, profile sweeps, solvers or isolated quota cases.
 
 The prior 2322 zero-host investigation is **DEFERRED / UNSTARTED**. Its literal scope is preserved in D077 and the preliminary handoff.
 
 ## What is established in this package
+
+- D134 **PROVES** the exact collision criterion for separate cut translations and **SUPPLIES** an ordinary spine transition for fixed odd multiplicity under the stated symmetric physical quotas, spectral cut and return split. It flips the actual frontier polarity, returns the same cut-spectrum invariant, initializes symbolically from a supplied maximum-port seed, and closes on admitted finite lists with immutable final labels and exact shifted weights. Two retained rechecks and cut inspections, four archived bindings, four controls and separate reviews passed. See [proof](research/ORDINARY_SPINE_PIECEWISE_CUT_SPECTRUM_TRANSITION.md) and [evidence](evidence/validation/LCL_ORDINARY_SPINE_PIECEWISE_CUT_SPECTRUM_TRANSITION_001/README.md).
 
 - D133 **PROVES** that a supplied ordinary prefix with n≥h+Q cannot accept a single new section with h≥3 positive-quota centers of total quota Q under one affine isometry. The excluded placement would force every terminal to an extreme center. The obstruction also applies to any old relabeling with a consecutive occupied interval and spectrum [1,n]. The h=2 argument recovers D132. Both retained checker rechecks, three archived bindings, four controls and separate reviews passed. See [proof](research/ORDINARY_SPINE_ARBITRARY_CENTER_AFFINE_OBSTRUCTION.md) and [evidence](evidence/validation/LCL_ORDINARY_SPINE_ARBITRARY_CENTER_AFFINE_OBSTRUCTION_001/README.md).
 
