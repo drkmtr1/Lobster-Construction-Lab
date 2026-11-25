@@ -647,3 +647,7 @@ Within the D152 profiles, size regime and D143 contract, r=1 is impossible with 
 ## D153 two-first-center odd-class obstruction
 
 For ordered (2r+1,2t), (2p,2q,0) with independently prescribed exact r,t,p,q≥1, both original fresh graph classes have odd cardinality. The total extension size is even, and the exact D143 interface still requires each class to be even. Thus every terminal-enabled or terminal-free D143 completion is excluded in the stated size and prefix regime. D151 also gives a distinct symbolic control where both parities and the aggregate crossing counts pass, while the actual gap assignment fails. The claim stays within D143 and preserves all previous obstruction and supplier scopes. [Proof](ORDINARY_SPINE_TWO_SECTION_TOPOLOGICAL_PARITY.md)
+
+## D154 finite universal feasibility and matched separation
+
+**INDEPENDENTLY AUDITED / PENDING DIRECTOR REVIEW.** The frozen universal E hypothesis is falsified by targets 0001–0004, with (r,t,p)=(1,1,1) and q=1 through 4. Both traversals completed each negative under the frozen D143 assumptions on the retained prefix. The finite existential E-only hypothesis is also falsified by the full matched table of 252 YES/YES and four NO/NO outcomes. These exact finite exclusions leave other parameter values, independently supplied prefixes outside the experiment, other embeddings and ordinary gracefulness open. [Official evidence](../evidence/runs/d154-parity-two-first-center-001/README.md)

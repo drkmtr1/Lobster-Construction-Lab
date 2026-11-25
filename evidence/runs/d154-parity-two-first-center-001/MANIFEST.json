@@ -1,0 +1,88 @@
+{
+  "task": "LCL-ORDINARY-SPINE-PARITY-COMPATIBLE-TWO-FIRST-CENTER-001",
+  "status": "COMPLETE",
+  "science": "BOTH_FINITE_HYPOTHESES_FALSIFIED",
+  "director_disposition_of_execution": "PENDING_DIRECTOR_REVIEW",
+  "parent_preparation_commit": "af73e606cbe9f5b73ca4b5f1a5541fa4a62167fe",
+  "date": "2026-11-25",
+  "preparation_manifest": {
+    "path": "evidence/validation/LCL_ORDINARY_SPINE_PARITY_COMPATIBLE_TWO_FIRST_CENTER_001/MANIFEST.json",
+    "sha256": "2911696630754f2276cf77e95208becc1a37ed1c33a071fdbe8f7e967745eebf",
+    "files": 61,
+    "post_run_member_verification": "PASS"
+  },
+  "source_bindings": {
+    "symbolic_proof_sha256": "b0f156d1a42f83b08c62e546f8393befab03f63314d0e123d77d519b4ccb300b",
+    "config_sha256": "d068998e1231b1ead45167834dbd99a085fd1a6fc5527482581b197eabca474a",
+    "unchanged_builder_git_blob": "8d1e9948e8bf5ef01e67c9afe0155412c57d79fa",
+    "unchanged_checker_git_blob": "d008f35f0843e1a5c770db3e7f42ed7d987360d7"
+  },
+  "canonical_STATE": {
+    "path": "STATE.md",
+    "description": "Canonical Git blob bytes with LF",
+    "bytes": 86410,
+    "sha256": "3686efada5a3e42a47c3505363013cb6619d62f83a57ca322d5762d27089eb88",
+    "sole_next_action": "Under separate Owner authorization after Director review, seek a symbolic D143 classification of ordered (2r,2t), (2p,2q+1,0) on independently supplied D134 p=1 prefixes. Start from the observed fixed A=B=3 exterior and the two direct-leaf gap positions, and independently test the exceptional r=t=p=1 stratum for a terminal-enabled obstruction. This action is UNSTARTED."
+  },
+  "official_invocations": 1,
+  "raw_archive_member_count": 518,
+  "frozen_output_files": 517,
+  "ordered_originals": 256,
+  "completed_arms": 512,
+  "incomplete_arms": 0,
+  "E_yes": 252,
+  "E_no": 4,
+  "E_only": 0,
+  "original_output_custody": "runs/d154-parity-two-first-center-001",
+  "original_approval_custody": "runs/d154-parity-two-first-center-001-authorization.json",
+  "raw_payload_index": "evidence/runs/d154-parity-two-first-center-001/RAW_RECORDS.json",
+  "baseline_tag_object": "fddfc1dd9541324b2ed2de2505bc750b3e3f0b9d",
+  "baseline_peel": "36ea1603602491bf3c1c5b81ed4c23aaa2210e70",
+  "files": [
+    {
+      "path": "evidence/runs/d154-parity-two-first-center-001/ADMISSION.json",
+      "bytes": 1801,
+      "sha256": "b97dee04b2339f7bbab5cc9d1332f8bdab8fca76cc661eee5e2a8d62c95e3915"
+    },
+    {
+      "path": "evidence/runs/d154-parity-two-first-center-001/DISPOSITIONS.json",
+      "bytes": 443826,
+      "sha256": "6cf832acb03347962a618bc80e4efb34d80597846be7cec4c03e6228f79af99d"
+    },
+    {
+      "path": "evidence/runs/d154-parity-two-first-center-001/EXECUTION_RECEIPT.json",
+      "bytes": 1778,
+      "sha256": "7f9a3e6c6151381a301d50a0a3de801557b21579e1d75fda1c09a1dde08b6b0f"
+    },
+    {
+      "path": "evidence/runs/d154-parity-two-first-center-001/OFFICIAL_RAW.zip",
+      "bytes": 732889,
+      "sha256": "fc85e33800ec57eeccba25637f5e99080c08539160739cfbdd6543f18fb9cb72"
+    },
+    {
+      "path": "evidence/runs/d154-parity-two-first-center-001/RAW_RECORDS.json",
+      "bytes": 85369,
+      "sha256": "c6d5301da00cd5d18750f5c3e5f84e42efa63befe551b2e1f3dbef7daaa4057b"
+    },
+    {
+      "path": "evidence/runs/d154-parity-two-first-center-001/README.md",
+      "bytes": 4085,
+      "sha256": "9b0a8e0951418cbc12ab57199d01bad2af150b4ce449d4262d010323c3e31daf"
+    },
+    {
+      "path": "evidence/runs/d154-parity-two-first-center-001/RESULT.json",
+      "bytes": 6887,
+      "sha256": "670492333374cdb996c69398637ec54d34f5dd42ae1b665ce7282696de3d9791"
+    },
+    {
+      "path": "evidence/runs/d154-parity-two-first-center-001/REVIEWS.md",
+      "bytes": 2060,
+      "sha256": "5fa2eb70b83df6be3467706dff5e89c7663ca134d7c81a33b8f61b7d6fff4d4a"
+    },
+    {
+      "path": "handoffs/CODEX-20261125-parity-compatible-exterior-execution-closeout.md",
+      "bytes": 4465,
+      "sha256": "43972036ab68e3dcd85120ab19ded81848a7f6082fe8fdbca14c7724145b5dec"
+    }
+  ]
+}

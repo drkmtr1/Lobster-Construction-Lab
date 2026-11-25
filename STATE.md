@@ -2,7 +2,7 @@
 
 **Project:** Lobster Construction Lab v0.1.0  
 **Updated:** November 25, 2026, Pacific/Honolulu<br>
-**Stage:** D154 parity-compatible exterior study **FROZEN PREPARATION ONLY — AWAITING OWNER EXECUTION AUTHORIZATION**. D153 **DIRECTOR ACCEPTED WITHIN SCOPE**. D152 **DIRECTOR ACCEPTED WITHIN SCOPE**. D151 **DIRECTOR ACCEPTED WITHIN SCOPE**. D150 **DIRECTOR ACCEPTED WITHIN SCOPE**. D149 remains Director accepted within its written scope. D148 completed finite evidence remains accepted, with execution **INCOMPLETE_EXTERIOR_NODE_CAP**. **Project instructions KEEP v11.**
+**Stage:** D154 parity-compatible exterior study **COMPLETE — FINITE HYPOTHESES FALSIFIED, PENDING DIRECTOR REVIEW OF EXECUTION**. Its symbolic qualification and preparation are **DIRECTOR ACCEPTED WITHIN SCOPE**. D153 **DIRECTOR ACCEPTED WITHIN SCOPE**. D152 **DIRECTOR ACCEPTED WITHIN SCOPE**. D151 **DIRECTOR ACCEPTED WITHIN SCOPE**. D150 **DIRECTOR ACCEPTED WITHIN SCOPE**. D149 remains Director accepted within its written scope. D148 completed finite evidence remains accepted, with execution **INCOMPLETE_EXTERIOR_NODE_CAP**. **Project instructions KEEP v11.**
 
 ## Current scientific objective
 
@@ -30,11 +30,11 @@ D152 gives exact terminal-enabled feasibility for ordered (2r+1), (2p,2q,0,0) un
 
 D153 proves even fresh original graph-class cardinalities for every successful D143 two-section completion and fixes the aggregate crossing counts from the selected exterior widths. Both graph classes are odd on the authorized two-first-center family, so both arms are excluded symbolically. D151 demonstrates that the aggregate test leaves individual feasibility open. No numerical campaign was prepared. [D153 proof](research/ORDINARY_SPINE_TWO_SECTION_TOPOLOGICAL_PARITY.md) · [Handoff](handoffs/CODEX-20261125-ordinary-spine-two-section-topological-parity.md)
 
-D154 prepared the exact 256 independent ordered originals (2r,2t), (2p,2q+1,0) for parameters in [1,4] and the retained D134 p=1 prefix. The symbolic checks restrict widths, aggregate crossings and numerical roles. The universal E and matched hypotheses remain open. Both arms, independent audits and caps are frozen for separate execution authorization. [Qualification](research/ORDINARY_SPINE_PARITY_COMPATIBLE_EXTERIOR_QUALIFICATION.md) · [Handoff](handoffs/CODEX-20261125-ordinary-spine-parity-compatible-exterior-preparation.md)
+D154 completed 256 audited pairs on its frozen n=54 prefix and exact D143 interface. There were 252 YES/YES pairs with checked terminal-free witnesses and E inclusion, and four independently exhausted NO/NO pairs at (r,t,p)=(1,1,1), q=1 through 4. Both finite hypotheses are falsified. Every saved positive uses A=B=3 with the direct leaf in the gap. No arm was incomplete. Symbolic classification beyond the finite corpus remains open. [Execution evidence](evidence/runs/d154-parity-two-first-center-001/README.md) · [Closeout handoff](handoffs/CODEX-20261125-parity-compatible-exterior-execution-closeout.md)
 
 ## One next action
 
-Under separate Owner authorization after Director review, execute the single frozen D154 matched D143 study of 256 ordered originals. Preserve the audited basis of each disposition and stop at the frozen limits. This action is UNSTARTED.
+Under separate Owner authorization after Director review, seek a symbolic D143 classification of ordered (2r,2t), (2p,2q+1,0) on independently supplied D134 p=1 prefixes. Start from the observed fixed A=B=3 exterior and the two direct-leaf gap positions, and independently test the exceptional r=t=p=1 stratum for a terminal-enabled obstruction. This action is UNSTARTED.
 
 ## Deferred obligations
 

@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "start": "af73e606cbe9f5b73ca4b5f1a5541fa4a62167fe",
+  "parent": "8dfc28dca753d66620cc72e190fe20e61ee768cd",
+  "origin_main": "af73e606cbe9f5b73ca4b5f1a5541fa4a62167fe",
+  "live_main": "af73e606cbe9f5b73ca4b5f1a5541fa4a62167fe",
+  "baseline": "fddfc1dd9541324b2ed2de2505bc750b3e3f0b9d",
+  "baseline_peel": "36ea1603602491bf3c1c5b81ed4c23aaa2210e70",
+  "upstreams": [
+    {
+      "path": "../Math_Discovery_Lab",
+      "main_pin": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+      "branch": "main",
+      "head": "858a8c1fcfda87ba40bb1adee498a6131504a803"
+    },
+    {
+      "path": "../MDL_Bounded_Search",
+      "main_pin": "e48b94eec4091b4fe189e325cab2eda464409943",
+      "branch": "recovery/p004-last-completed-no-launcher",
+      "head": "c803ecb6bd0481d31af43f7e3c194ae8ed4d1578"
+    }
+  ],
+  "builder": "8d1e9948e8bf5ef01e67c9afe0155412c57d79fa",
+  "checker": "d008f35f0843e1a5c770db3e7f42ed7d987360d7",
+  "manifest_sha": "2911696630754f2276cf77e95208becc1a37ed1c33a071fdbe8f7e967745eebf",
+  "manifest_entries": 61,
+  "initial_charge_before_approval": 2294425,
+  "canonical_state": "783ecb49aca5821a5bde4c5d0afc930b49c92729a2d1dae3330d56ef8d821c1a",
+  "agents": {
+    "bytes": 8359,
+    "sha256": "e980f2ee51d2b69cfd8ab9c4955f9388ad14f9b7b78581729ef5a24dd21339e6"
+  },
+  "runtime": {
+    "base": "7c2fc2b303a4ee3cc14cc17b47bc6e8bca98c78792edd123b846a560da44b203",
+    "dll": "26026530507a7389e7892ce130e7c1753b32a2df03ec3721d45ad8c1705d40eb",
+    "cfg": "78989c73c08f515aadaf1ec5f8f24929021b48b284f4efc907a04938634af28b",
+    "venv": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664"
+  },
+  "product_version": "3.13.17",
+  "preflight_status": "PASS_PARSE_ONLY",
+  "paths_vacant": true,
+  "writers": 0,
+  "admitted_utc": "2026-11-25T15:20:40.1448914Z"
+}

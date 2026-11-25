@@ -1,0 +1,42 @@
+{
+  "task": "LCL-ORDINARY-SPINE-PARITY-COMPATIBLE-TWO-FIRST-CENTER-001",
+  "official_invocations": 1,
+  "official_exit_code": 0,
+  "claim_created": true,
+  "worker_exit": 0,
+  "approval_sha256": "588bb90c89a099d3642eb7d3d3c1ff99826abea39ba7feef39a3e137d80cfc51",
+  "argv": [
+    ".venv/Scripts/python.exe",
+    "-I",
+    "-S",
+    "-B",
+    "research/parity_exterior_001/campaign.py",
+    "--manifest-sha",
+    "2911696630754f2276cf77e95208becc1a37ed1c33a071fdbe8f7e967745eebf",
+    "--approval",
+    "runs/d154-parity-two-first-center-001-authorization.json"
+  ],
+  "cwd": "LCL repository root. The executable, script, and approval arguments were passed as exact absolute Windows paths.",
+  "official_output": "runs/d154-parity-two-first-center-001",
+  "outer_shell_stdout": "OFFICIAL_INVOCATION_START_UTC=2026-11-25T15:20:57.9704027Z\r\nOFFICIAL_INVOCATION_END_UTC=2026-11-25T15:21:12.4209322Z\r\nOFFICIAL_INVOCATION_OBSERVED_SECONDS=14.4551091\r\nOFFICIAL_INVOCATION_EXIT=0\r\n",
+  "outer_observed_wall_seconds": 14.4551091,
+  "supervisor": {
+    "combined_cpu": 15.75,
+    "combined_observed_wall": 16.132082899996703,
+    "reason": null,
+    "status": "COMPLETE",
+    "supervisor_cpu": 0.25,
+    "worker_cpu": 13.609375,
+    "worker_exit": 0
+  },
+  "post_exit_process_check": {
+    "matching_live_processes": 0,
+    "verified_utc": "2026-11-25T15:24:45.3293711Z",
+    "method": "Win32_Process Python process inventory filtered by the exact D154 campaign and run markers, after shell and supervisor exit",
+    "worker_exit": 0,
+    "shell_exit": 0
+  },
+  "stdout_policy": "The frozen supervisor discards its worker streams. The outer shell printed timing and exit metadata with no campaign error output.",
+  "source_files_unchanged_during_execution": true,
+  "retries": 0
+}

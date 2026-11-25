@@ -1,0 +1,297 @@
+{
+  "task": "LCL-ORDINARY-SPINE-PARITY-COMPATIBLE-TWO-FIRST-CENTER-001",
+  "status": "COMPLETE",
+  "scientific_review": "PENDING_DIRECTOR_REVIEW_OF_EXECUTION_EVIDENCE",
+  "preparation_acceptance": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE",
+  "preparation_commit": "af73e606cbe9f5b73ca4b5f1a5541fa4a62167fe",
+  "preparation_manifest": "2911696630754f2276cf77e95208becc1a37ed1c33a071fdbe8f7e967745eebf",
+  "finite_domain": {
+    "ordered_range": [
+      1,
+      4
+    ],
+    "parameters": [
+      "r",
+      "t",
+      "p",
+      "q"
+    ],
+    "suffix": [
+      "(2r,2t)",
+      "(2p,2q+1,0)"
+    ],
+    "prefix_edges": 54,
+    "section_interface": "D143 same-polarity two-section with exact D134 p=1 return"
+  },
+  "outcomes": {
+    "T_dedicated_yes": 252,
+    "E_by_checked_T_inclusion": 252,
+    "T_dedicated_no": 4,
+    "E_dedicated_no": 4,
+    "E_dedicated_yes": 0,
+    "E_only": 0,
+    "pairs": 256,
+    "incomplete_arms": 0,
+    "incomplete_pairs": 0,
+    "symbolic_dispositions": 0
+  },
+  "universal_E_hypothesis": "FALSIFIED_ON_FROZEN_CORPUS",
+  "existential_E_only_separation_hypothesis": "FALSIFIED_ON_FROZEN_CORPUS",
+  "negative_pairs": [
+    {
+      "id": "target-0001",
+      "param": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "suffix": [
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          0
+        ]
+      ],
+      "original_graph_digest": "60d60b0de1f8926cc9b0748543414d3799c650453d4d6f04124ff0932156a4d8",
+      "T_primary": 6,
+      "T_independent": 16,
+      "E_primary": 28,
+      "E_independent": 28
+    },
+    {
+      "id": "target-0002",
+      "param": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "suffix": [
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          5,
+          0
+        ]
+      ],
+      "original_graph_digest": "8ac139dc44bc78623638a5e9157161ba9ed38551b9ff1cd12b17c7f85c223be4",
+      "T_primary": 6,
+      "T_independent": 16,
+      "E_primary": 36,
+      "E_independent": 68
+    },
+    {
+      "id": "target-0003",
+      "param": [
+        1,
+        1,
+        1,
+        3
+      ],
+      "suffix": [
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          7,
+          0
+        ]
+      ],
+      "original_graph_digest": "92d07aa99b18fd4e5f826d0677ffdcd6af364a2277f6dff1d5a96c6f33b8e091",
+      "T_primary": 6,
+      "T_independent": 16,
+      "E_primary": 40,
+      "E_independent": 140
+    },
+    {
+      "id": "target-0004",
+      "param": [
+        1,
+        1,
+        1,
+        4
+      ],
+      "suffix": [
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          9,
+          0
+        ]
+      ],
+      "original_graph_digest": "03a5218550ecfb950c7d722eb56132636b0bdec093cd2f5600ec2287247c0b71",
+      "T_primary": 6,
+      "T_independent": 16,
+      "E_primary": 42,
+      "E_independent": 214
+    }
+  ],
+  "representative_counts": {
+    "T_dedicated_yes": 264,
+    "E_by_inclusion_carried": 264,
+    "T_independent_exhaustion": 64,
+    "E_independent_exhaustion": 450,
+    "T_primary_exhaustion": 24,
+    "E_primary_exhaustion": 146
+  },
+  "representative_count_scope": "Counted numerical parent-group representatives admitted by each traversal, not named labelings. Positive counts stop at the witness; inclusion-side counts are carried rather than additional work.",
+  "observed_role_patterns": [
+    {
+      "signature": "3,3;1,2;5,6;0",
+      "count": 240,
+      "first": {
+        "id": "target-0005",
+        "param": [
+          1,
+          1,
+          2,
+          1
+        ]
+      },
+      "small_p_alternate": 0
+    },
+    {
+      "signature": "3,3;2,1;5,6;0",
+      "count": 12,
+      "first": {
+        "id": "target-0017",
+        "param": [
+          1,
+          2,
+          1,
+          1
+        ]
+      },
+      "small_p_alternate": 12
+    }
+  ],
+  "observed_direct_gap": [
+    {
+      "domain": "p>=2",
+      "witnesses": 192,
+      "source": 0,
+      "image": 1,
+      "crossing": false
+    },
+    {
+      "domain": "p=1 among positives",
+      "witnesses": 60,
+      "source": "K-1",
+      "image": "K",
+      "crossing": true
+    }
+  ],
+  "structural_scope": "Observed on saved positive witnesses and finite exhaustive negatives only. The fixed exterior construction for unbounded quotas and symbolic exclusion of the r=t=p=1 stratum remain open.",
+  "resources": {
+    "official": {
+      "dispositions": 512,
+      "exterior_nodes": 205760,
+      "targets": 256,
+      "transfer_states": 878703,
+      "transitions": 20717524
+    },
+    "by_arm": {
+      "exterior_nodes": 205760,
+      "transfer_states": 878679,
+      "transitions": 20717466
+    },
+    "allocator_control_residual": {
+      "exterior_nodes": 0,
+      "transfer_states": 24,
+      "transitions": 58
+    },
+    "supervision": {
+      "combined_cpu": 15.75,
+      "combined_observed_wall": 16.132082899996703,
+      "reason": null,
+      "status": "COMPLETE",
+      "supervisor_cpu": 0.25,
+      "worker_cpu": 13.609375,
+      "worker_exit": 0
+    },
+    "initial_charge_before_approval": 2294425,
+    "initial_charge_after_approval": 2294631,
+    "final_evidence_charge": 4224585,
+    "output_bytes": 1929954,
+    "max_official_record_bytes": 4434,
+    "first_exhausted_ceiling": null
+  },
+  "controls": [
+    {
+      "case": "D146-D145-packet-discrimination",
+      "expected": true,
+      "folded": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          2,
+          0,
+          2
+        ],
+        [
+          3,
+          3,
+          6
+        ],
+        [
+          4,
+          2,
+          4
+        ],
+        [
+          5,
+          4,
+          5
+        ],
+        [
+          6,
+          3,
+          3
+        ]
+      ],
+      "raw": true
+    },
+    {
+      "case": "D146-D144-forced-w-negative",
+      "expected": false,
+      "folded": null,
+      "raw": false
+    }
+  ],
+  "process": {
+    "matching_live_processes": 0,
+    "verified_utc": "2026-11-25T15:24:45.3293711Z",
+    "method": "Win32_Process Python process inventory filtered by the exact D154 campaign and run markers, after shell and supervisor exit",
+    "worker_exit": 0,
+    "shell_exit": 0
+  },
+  "raw_archive": {
+    "sha256": "fc85e33800ec57eeccba25637f5e99080c08539160739cfbdd6543f18fb9cb72",
+    "archive_bytes": 732889,
+    "verified_members": 518,
+    "dispositions": 512,
+    "uncompressed_bytes": 1930160
+  },
+  "structural_next": "Under separate Owner authorization after Director review, seek a symbolic D143 classification of ordered (2r,2t), (2p,2q+1,0) on independently supplied D134 p=1 prefixes. Start from the observed fixed A=B=3 exterior and the two direct-leaf gap positions, and independently test the exceptional r=t=p=1 stratum for a terminal-enabled obstruction. This action is UNSTARTED."
+}

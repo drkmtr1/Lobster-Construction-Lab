@@ -1711,3 +1711,11 @@ The symbolic terminal-free exclusion applies more broadly to an odd-quota sole f
 ## D154 symbolic preparation qualifications
 
 **PROVED / PENDING DIRECTOR REVIEW.** On ordered (2r,2t), (2p,2q+1,0), K=r+t+p+q+4 and the fresh graph classes have sizes 2(p+q+2), 2(r+t+2). For exterior terminal counts τ₁,τ₂ and direct selection e, A=3+τ₂, B=3+e+τ₁ and the necessary crossing counts are p+q−1−τ₂ and r+t−1−e−τ₁. One actual first center has reduced label A−1. In Arm T the odd-quota second center has b=3 for either choice of e. Same-parent terminal labels can be represented by slots with exact named reconstruction. The finite hypothesis is still open. No numerical labeling or arm outcome was produced. [Qualification proof](ORDINARY_SPINE_PARITY_COMPATIBLE_EXTERIOR_QUALIFICATION.md)
+
+## Director acceptance of D154 symbolic qualification
+
+**DIRECTOR ACCEPTED** the D154 width and crossing-count restrictions, physical weight-two pin, terminal-free odd-center index condition and same-parent existence representation within their written scopes. The Director also accepted the separately frozen preparation. [Qualification](ORDINARY_SPINE_PARITY_COMPATIBLE_EXTERIOR_QUALIFICATION.md) · [Preparation](../evidence/validation/LCL_ORDINARY_SPINE_PARITY_COMPATIBLE_TWO_FIRST_CENTER_001/MANIFEST.json)
+
+## D154 complete finite matched study
+
+**INDEPENDENTLY AUDITED / PENDING DIRECTOR REVIEW.** On all 256 ordered originals with r,t,p,q∈[1,4], profiles (2r,2t) and (2p,2q+1,0), the retained n=54 D134 p=1 prefix and the exact D143 interface, 252 targets are YES/YES and four are NO/NO. Every positive uses a checked terminal-free witness, included in E on the same original. Both arms of all four negatives independently exhausted their exact domains. They have (r,t,p)=(1,1,1) and q∈[1,4]. The finite universal E claim and the finite existence of an E-only case are falsified. There are no symbolic exclusions and no incomplete arms in the run. In all saved positives A=B=3 and the sole direct leaf is in the gap, at 0→1 when p≥2 and at K−1→K when p=1. All wider parameterized construction and obstruction claims remain open. [Result and exact scope](../evidence/runs/d154-parity-two-first-center-001/README.md)
