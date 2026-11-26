@@ -847,3 +847,7 @@ A zero global signed moment alone leaves a band-packing condition. For the stric
 ## D197 — Exact odd-run continuation obstructions
 
 The fixed old odd-prefix labeling cannot extend to strict P(30,14,16) under the declared increasing two-translation placement, for any proper split, nonnegative widths, either extreme frontier or allowed actual fresh placements. The preserved-membership case fails by exterior forest and crossing counts. The relaxed case fails by old-band compatibility, reserved endpoints and final crossing-weight moments. This also settles D196's original fixed-cut membership-preserving comparison. The eight-edge control changes membership successfully on its different exact original. Other prefix labelings, embedding classes and unrestricted gracefulness remain open. [D197 proof](ORDINARY_SPINE_ODD_RUN_CUT_REPARTITION.md)
+
+## D198 — Scope of single-gap exclusion and output nesting
+
+The accepted D197 negative is exact for its two-translation class. D198's three-gap witness on the same frozen input establishes that this exclusion cannot extend to arbitrary increasing embeddings. A valid monotone continuation need not preserve all-cut nesting: the completed 11-edge control has incomparable actual cut intervals of weights one and two. All-cut output nesting requires the merged chain on both old and fresh incidences. The original fixed-minimum-order w=0 branch remains unclassified by the w=30 witness. [D198 proof](ORDINARY_SPINE_NESTED_CUT_RANK_INTERLEAVING.md)

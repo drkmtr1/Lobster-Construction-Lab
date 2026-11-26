@@ -1,0 +1,97 @@
+{
+  "analytical_bounds": {
+    "classes": {
+      "w0": {
+        "combined_geometry_upper_bound": 8874139,
+        "raw_subset_upper_bound": 66378026
+      },
+      "w30_fresh_zero": {
+        "combined_geometry_upper_bound": 26208988,
+        "raw_subset_upper_bound": 67498782
+      },
+      "w30_old_zero": {
+        "combined_geometry_upper_bound": 46848074,
+        "raw_subset_upper_bound": 77407824
+      }
+    },
+    "combined_geometry_upper_bound": 81931201,
+    "independent_difference_audit_frames": 11,
+    "indexed_child_placement_upper_bound": 1366288713504,
+    "raw_filtered_subset_upper_bound": 211284632,
+    "raw_geometry_upper_bound": 290845350,
+    "terminal_memo_keys_per_parent_placement": 5984
+  },
+  "bound_inputs": {
+    "originals": {
+      "bytes": 30167,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_NESTED_CUT_RANK_INTERLEAVING_001_PREP/ORIGINALS.json",
+      "sha256": "27fcf41b0f1fe47a492eff7ba3f9234d7e9f601651909eaef5f413798680798e"
+    },
+    "prefixes": {
+      "bytes": 9577,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_NESTED_CUT_RANK_INTERLEAVING_001_PREP/PREFIXES.json",
+      "sha256": "74370f15a5c3290fc56b206f419be2a6b83ae8718a3f7026df9eef690ec0dbdd"
+    },
+    "symbolic_controls": {
+      "bytes": 106150,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_NESTED_CUT_RANK_INTERLEAVING_001_PREP/SYMBOLIC_CONTROLS.json",
+      "sha256": "c8c88984a3b03b73bd2198003ee36d9848a08e91f29d3d1122da7f8925231d1f"
+    }
+  },
+  "disposition": "SYMBOLICALLY_RESOLVED / NO_EXECUTION_NEEDED",
+  "execution_authorized": false,
+  "execution_entry": null,
+  "official_limits": {
+    "allocation_states": 0,
+    "geometries": 0,
+    "indexed_child_placements": 0,
+    "live_allocation_records": 0,
+    "new_official_evidence_bytes": 0,
+    "observed_wall_seconds": 0,
+    "process_cpu_seconds": 0,
+    "tested_transitions": 0,
+    "workers": 0
+  },
+  "parse_only_entry_definitions": {
+    "preflight.py": [
+      "identity",
+      "load_object",
+      "main"
+    ]
+  },
+  "preparation_limits": {
+    "new_evidence_bytes": 128000000,
+    "observed_wall_seconds": 3600,
+    "process_cpu_seconds": 1800
+  },
+  "registered_domain": {
+    "fresh_edges": 15,
+    "main": "odd",
+    "old_edges": 15,
+    "strict_frontiers_and_cuts": [
+      [
+        0,
+        14
+      ],
+      [
+        30,
+        17
+      ]
+    ],
+    "target_edges": 30,
+    "witness_frontier": 30
+  },
+  "registered_result": "EXACT_SYMBOLIC_POSITIVE",
+  "required_vacant_paths": [
+    "runs/d198-nested-cut-rank-interleaving-001",
+    "runs/d198-nested-cut-rank-interleaving-001-approval.json",
+    "evidence/runs/d198-nested-cut-rank-interleaving-001",
+    "runs/d197-odd-run-cut-repartition-001",
+    "runs/d197-odd-run-cut-repartition-001-approval.json",
+    "evidence/runs/d197-odd-run-cut-repartition-001",
+    "runs/d191-low-capacity-strict-phase-001",
+    "runs/d191-low-capacity-strict-phase-001-approval.json",
+    "evidence/runs/d191-low-capacity-strict-phase-001"
+  ],
+  "task": "LCL-ORDINARY-SPINE-NESTED-CUT-RANK-INTERLEAVING-001-PREP"
+}

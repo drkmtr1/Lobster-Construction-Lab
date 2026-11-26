@@ -1,0 +1,135 @@
+{
+  "docs/SOURCES.md": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 12291,
+      "sha256": "f9703fdd4df0c594cd20baf8f1180dc14444c443955e903006f4351eeb8d0145"
+    }
+  },
+  "evidence/validation/LCL_ORDINARY_SPINE_NESTED_CUT_RANK_INTERLEAVING_001_PREP/.gitattributes": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 119,
+      "sha256": "c4ffafb384f71817c0d14d3e70d89cb77043dea1866c2d0483d63adb348c9cb7"
+    }
+  },
+  "evidence/validation/LCL_ORDINARY_SPINE_NESTED_CUT_RANK_INTERLEAVING_001_PREP/ORIGINALS.json": {
+    "convention": "raw",
+    "identity": {
+      "bytes": 30167,
+      "sha256": "27fcf41b0f1fe47a492eff7ba3f9234d7e9f601651909eaef5f413798680798e"
+    }
+  },
+  "evidence/validation/LCL_ORDINARY_SPINE_NESTED_CUT_RANK_INTERLEAVING_001_PREP/PREFIXES.json": {
+    "convention": "raw",
+    "identity": {
+      "bytes": 9577,
+      "sha256": "74370f15a5c3290fc56b206f419be2a6b83ae8718a3f7026df9eef690ec0dbdd"
+    }
+  },
+  "evidence/validation/LCL_ORDINARY_SPINE_NESTED_CUT_RANK_INTERLEAVING_001_PREP/SYMBOLIC_CONTROLS.json": {
+    "convention": "raw",
+    "identity": {
+      "bytes": 106150,
+      "sha256": "c8c88984a3b03b73bd2198003ee36d9848a08e91f29d3d1122da7f8925231d1f"
+    }
+  },
+  "evidence/validation/LCL_ORDINARY_SPINE_ODD_RUN_CUT_REPARTITION_001_PREP/MANIFEST.json": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 16634,
+      "sha256": "36a73be21f11102dbf87a3b01f7676cd7b54a11e7c914b02ea32a40f8d9905a2"
+    }
+  },
+  "lcl/model.py": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 10720,
+      "sha256": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6"
+    }
+  },
+  "lcl/verify.py": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 14075,
+      "sha256": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909"
+    }
+  },
+  "references/upstream/mdl/N226_R226_two_host_completion.md": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 39732,
+      "sha256": "989e85fd24be0ed3c04b0dd80df7a93f648279d6599ec82eede4f4241dc5cddc"
+    }
+  },
+  "research/ORDINARY_CUT_LEAF_INSERTION.md": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 3974,
+      "sha256": "483935ee08512a68c0e2e016791bbb482449e22b1ebb799706cef3f8c019876c"
+    }
+  },
+  "research/ORDINARY_SPINE_GENERALIZED_ONE_SECTION_CUT_SPECTRUM.md": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 26093,
+      "sha256": "72b0d87b148dba0215ee15bede17adf9b36aa333e01a4394b01ed19076181818"
+    }
+  },
+  "research/ORDINARY_SPINE_ODD_RUN_CUT_REPARTITION.md": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 18629,
+      "sha256": "90b3b91455a5ba63b1e3c820b9a313b03d8b20eb09875e639cde8b1806d960d6"
+    }
+  },
+  "research/ORDINARY_SPINE_PIECEWISE_CUT_SPECTRUM_TRANSITION.md": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 16708,
+      "sha256": "2b9b52c24293110f8e0b59b4ac73af11e4c14e77cb5ff7355ced236b6d271839"
+    }
+  },
+  "research/nested_cut_rank_interleaving_001/CONTRACT.md": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 4060,
+      "sha256": "187d7beba983e5bf1cdd167a38ba851b9dfe9b9c8c138ee8cc0705a532e922fe"
+    }
+  },
+  "research/nested_cut_rank_interleaving_001/EVIDENCE_SCHEMA.json": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 1113,
+      "sha256": "f628f8081184e63a6a3adc459d330766844188883a133a802beb8bebcc294108"
+    }
+  },
+  "research/nested_cut_rank_interleaving_001/RUNTIME.json": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 691,
+      "sha256": "13891f03bb88aabd1606bc0f75cfe29a17867246a1d9dc75445481ba48e5813f"
+    }
+  },
+  "research/nested_cut_rank_interleaving_001/config.json": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 3067,
+      "sha256": "ef97b29f32695159507b8e3488a0d946f785e544632194bb98e2d0581de865dc"
+    }
+  },
+  "research/nested_cut_rank_interleaving_001/preflight.py": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 5163,
+      "sha256": "cfc38f9e9ea27066d4013e2ea060f4f805ee17ea5ac9418f709cb7c81f94300e"
+    }
+  },
+  "research/odd_run_cut_repartition_001/config.json": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 2588,
+      "sha256": "19fe721e29bf06f8798bb8a22eae7750c62ced5588b289d99373a9233f11302c"
+    }
+  }
+}

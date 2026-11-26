@@ -1,0 +1,48 @@
+{
+  "completed_control_fields": [
+    "graph_digest",
+    "prefix_digest",
+    "state",
+    "inventories"
+  ],
+  "disposition": "SYMBOLIC_POSITIVE_NO_EXECUTION_NEEDED",
+  "inventory_fields": [
+    "old_labels",
+    "fresh_labels",
+    "old_differences",
+    "fresh_differences",
+    "literal_connector"
+  ],
+  "main_embedding_fields": [
+    "A",
+    "B",
+    "gaps",
+    "old_values_by_rank",
+    "old_weights_by_rank",
+    "induced_cut",
+    "supplied_cut",
+    "actual_output_cut",
+    "frontier_label",
+    "changed_old_side_vertices",
+    "changed_old_crossing_edges"
+  ],
+  "original_fields": [
+    "original",
+    "original_digest",
+    "prefix_graph",
+    "prefix_digest",
+    "receiving_spine",
+    "edges"
+  ],
+  "prefix_fields": [
+    "edge_resources",
+    "minimum_labels",
+    "maximum_labels",
+    "frontier",
+    "normalized_cut",
+    "threshold"
+  ],
+  "schema_version": 1,
+  "scope": "Resolved symbolic evidence and custody. No numerical execution entry.",
+  "unexecuted_negative_rule": "Any unrelated authorized negative would require a complete symbolic proof or independent full exhaustion."
+}

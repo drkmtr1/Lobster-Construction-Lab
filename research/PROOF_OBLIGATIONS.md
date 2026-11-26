@@ -1106,3 +1106,7 @@ The exact one-section interface, unit-sided packet split, four D157 phase return
 ## D197 — Beyond the resolved odd-run model
 
 The exact registered increasing two-translation odd continuation and the earlier fixed-cut preserved-membership question are symbolically negative. No numerical execution is needed. The proof leaves other independently supplied odd prefixes, other embedding classes, arbitrary positive-section compatibility and arbitrary original decomposition open. The relaxed eight-edge positive and monotone birth-boundary transport are retained in their stated scopes. Both D197 and D191 numerical lanes are closed. [D197 proof](ORDINARY_SPINE_ODD_RUN_CUT_REPARTITION.md)
+
+## D198 — Beyond the supplied strict odd continuation
+
+The registered existential question is resolved by an exact symbolic witness on the original named graph. Rank reversibility is available on all nested-cut prefixes, and the construction of a nested-cut input can carry arbitrary finite terminal-free runs. Independent fresh-parent allocation, more general initial prefixes and arbitrary original-spine decomposition remain open. A returned strict state alone does not verify all-cut nesting, which is a separate actual-edge chain test. D197 and D191 remain closed, and D198 needs no official run. [D198 proof](ORDINARY_SPINE_NESTED_CUT_RANK_INTERLEAVING.md)
