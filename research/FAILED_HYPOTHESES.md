@@ -859,3 +859,7 @@ At any unsafe cut a unit insertion repeats a pair of adjacent original weights. 
 ## D200 — Scoped moment, residue and pair-renewal obstructions
 
 The relocated fixed shell at N=8,K=11 misses its moment (3 versus 4). A distinct eight-edge star shell at K=13 matches the exact moment 12 but neither possible source exists for required weight 16, so the complete residue test rejects. Neither failure determines another shell or ordinary gracefulness. The small relocated positive has only two coordinates with threshold two below cut after any one terminal-free step, separated by four. Hence arbitrary relocated pair renewal fails within this example, even with at least two direct children in that intervening section. [D200 proof](ORDINARY_SPINE_GENERALIZED_SAFE_GAP_SHELL_COMPOSITION.md)
+
+## D201 — Exact fixed-template residue-capacity obstructions
+
+The step-four control C has N=11,A=13,K0=15 and matches the displacement moment 8. Its length-four packet fits no residue among capacities (3,2,2), giving exact failure within the declared fixed roles. In the relocated geometric boundary K0=h+4 the residuals agree and contain at most one available coordinate per residue, so no nonidentity packet can supply the required positive quota at the principal host. Neither exclusion addresses different shells or ordinary gracefulness. [D201 proof](ORDINARY_SPINE_EXPANDED_EXTERIOR_MULTI_HOST_RESIDUE_PACKETS.md)

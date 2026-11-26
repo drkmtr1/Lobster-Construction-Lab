@@ -1,0 +1,78 @@
+{
+  "claimed_lifts": {
+    "expanded_profile": [
+      "p",
+      "q",
+      0,
+      1,
+      "A-1 original ordered extra children"
+    ],
+    "negative_control": "equal moment and inadequate capacity under fixed roles",
+    "packet_sizes": "j+1",
+    "returned_state": [
+      "N+K0+A-1",
+      "K0-1",
+      "N+1"
+    ],
+    "strict_condition": "A=1 and N=K0",
+    "templates": [
+      "step-four",
+      "step-six",
+      "relocated"
+    ]
+  },
+  "controls": [
+    "A_retained",
+    "B_multiple_residues",
+    "C_packet_capacity_adverse",
+    "D_swapped",
+    "E_small_relocated",
+    "F_composed"
+  ],
+  "disposition": "PROVED_WITHIN_EXACT_SCOPE_PENDING_DIRECTOR_REVIEW",
+  "execution_authorized": false,
+  "execution_entry": null,
+  "preparation_limits": {
+    "new_evidence_bytes": 128000000,
+    "observed_wall_seconds": 3600,
+    "process_cpu_seconds": 1800
+  },
+  "raw_inputs": {
+    "ORIGINALS.json": {
+      "bytes": 180475,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXPANDED_EXTERIOR_MULTI_HOST_RESIDUE_PACKETS_001/ORIGINALS.json",
+      "sha256": "653fb22fb9d6bb55a44339ddd778091c4f2791ea989d048853a933ef91067c6c"
+    },
+    "PREFIXES.json": {
+      "bytes": 847148,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXPANDED_EXTERIOR_MULTI_HOST_RESIDUE_PACKETS_001/PREFIXES.json",
+      "sha256": "b1b7dbfbb57a8af6248ec4ad7c482b55ecf281af9a35120ef4e40c01ae2206b1"
+    },
+    "SYMBOLIC_CONTROLS.json": {
+      "bytes": 1411487,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXPANDED_EXTERIOR_MULTI_HOST_RESIDUE_PACKETS_001/SYMBOLIC_CONTROLS.json",
+      "sha256": "4c8664cd368e72f66514649062fc3e3f1ea67cf3c7dbfdd982e5a3bb6db75bac"
+    }
+  },
+  "task": "LCL-ORDINARY-SPINE-EXPANDED-EXTERIOR-MULTI-HOST-RESIDUE-PACKETS-001",
+  "vacant_paths": [
+    "runs/d201-expanded-exterior-multi-host-residue-packets-001",
+    "runs/d201-expanded-exterior-multi-host-residue-packets-001-approval.json",
+    "evidence/runs/d201-expanded-exterior-multi-host-residue-packets-001",
+    "runs/d200-generalized-safe-gap-shell-composition-001",
+    "runs/d200-generalized-safe-gap-shell-composition-001-approval.json",
+    "evidence/runs/d200-generalized-safe-gap-shell-composition-001",
+    "runs/d199-partial-safe-cut-three-gap-chain-001",
+    "runs/d199-partial-safe-cut-three-gap-chain-001-approval.json",
+    "evidence/runs/d199-partial-safe-cut-three-gap-chain-001",
+    "runs/d198-nested-cut-rank-interleaving-001",
+    "runs/d198-nested-cut-rank-interleaving-001-approval.json",
+    "evidence/runs/d198-nested-cut-rank-interleaving-001",
+    "runs/d197-odd-run-cut-repartition-001",
+    "runs/d197-odd-run-cut-repartition-001-approval.json",
+    "evidence/runs/d197-odd-run-cut-repartition-001",
+    "runs/d191-low-capacity-strict-phase-001",
+    "runs/d191-low-capacity-strict-phase-001-approval.json",
+    "evidence/runs/d191-low-capacity-strict-phase-001"
+  ]
+}
