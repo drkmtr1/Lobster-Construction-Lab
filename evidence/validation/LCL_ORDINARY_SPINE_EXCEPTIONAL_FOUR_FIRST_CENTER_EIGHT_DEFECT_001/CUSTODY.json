@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "task": "LCL-ORDINARY-SPINE-EXCEPTIONAL-FOUR-FIRST-CENTER-EIGHT-DEFECT-001",
+  "starting_checkpoint": "0fff40ab01ed749e57d6c6ca23c92510d10fead3",
+  "D165_director_acceptance": {
+    "status": "ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE",
+    "checkpoint": "0fff40ab01ed749e57d6c6ca23c92510d10fead3",
+    "proof_sha256": "a0a3b16ba0d06a3ac88268d5fa781a832a25eec96e1d6f72e0c09770084eee8b",
+    "manifest_sha256": "e89eb25ad03cad239359f322d42493a655cdfdae28da83d8b8cba47ab8270ca2",
+    "canonical_state_sha256": "60d1bb9f0a6541bdaabe2aa60e83cce64a77d6b27036d8536eacc21b6d03595a",
+    "acceptance_scope": "Ordered, selectable-role and full E+ classifications, exact named reconstruction, both polarities, residual parity-path recurrence and admitted finite composition. The unordered {1,6} full-class corner still rests on the accepted finite D164 negative and symbolic transport.",
+    "director_fresh_checks": "Live continuity and twelve changed paths, authoritative STATE.md, AGENTS.md, five manifested D165 bound files, canonical state, manifest, proof, separate reviews, custody, handoff, both authoritative upstream main pins, and the frozen target-0428/0429 named originals and reconciliation information.",
+    "director_limitations": "The Director did not freshly hash every historical member, decompress the D164 archive, replay its certificates or inspect the local worktree. The baseline tag and peel were separately verified locally and remotely during Codex admission."
+  },
+  "local_admission": {
+    "status": "PASS",
+    "head": "0fff40ab01ed749e57d6c6ca23c92510d10fead3",
+    "parent": "9f72dedeedc70eba6a8653313ad42cf4a5d2889a",
+    "origin_main": "0fff40ab01ed749e57d6c6ca23c92510d10fead3",
+    "live_main": "0fff40ab01ed749e57d6c6ca23c92510d10fead3",
+    "canonical_state_sha": "60d1bb9f0a6541bdaabe2aa60e83cce64a77d6b27036d8536eacc21b6d03595a",
+    "agents_sha": "e980f2ee51d2b69cfd8ab9c4955f9388ad14f9b7b78581729ef5a24dd21339e6",
+    "baseline": "fddfc1dd9541324b2ed2de2505bc750b3e3f0b9d",
+    "baseline_peel": "36ea1603602491bf3c1c5b81ed4c23aaa2210e70",
+    "upstreams": [
+      {
+        "path": "../Math_Discovery_Lab",
+        "main": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+        "branch": "main",
+        "local_checkout": "858a8c1fcfda87ba40bb1adee498a6131504a803"
+      },
+      {
+        "path": "../MDL_Bounded_Search",
+        "main": "e48b94eec4091b4fe189e325cab2eda464409943",
+        "branch": "recovery/p004-last-completed-no-launcher",
+        "local_checkout": "c803ecb6bd0481d31af43f7e3c194ae8ed4d1578"
+      }
+    ],
+    "remote_recovery": "1e1efeac9acd70006d7f1bd4aa6786f438cff602",
+    "builder": "8d1e9948e8bf5ef01e67c9afe0155412c57d79fa",
+    "checker": "d008f35f0843e1a5c770db3e7f42ed7d987360d7",
+    "D165_files": 5,
+    "D165_intake": 19,
+    "D164_files": 9,
+    "D164_prepared_files": 131,
+    "verified_saved": {
+      "archive_members": 1288,
+      "saved_positives_reconstructed": 264,
+      "negative_attestations": 8,
+      "selected": [
+        {
+          "id": "target-0428",
+          "parameters": [
+            1,
+            3,
+            4,
+            4,
+            5,
+            4
+          ],
+          "graph_digest": "6f4cc649a76e055160ade2e856544762df550e4f49235df0c17e181421760256",
+          "record_sha256": "67f86d219b0c3b3fbedbc9e0e195098dafbdd440c3c77497fe0fad0e8dabd27c",
+          "record_file": "targets-013.json"
+        },
+        {
+          "id": "target-0429",
+          "parameters": [
+            1,
+            3,
+            4,
+            4,
+            5,
+            6
+          ],
+          "graph_digest": "ac1aa0aab83479ced6949d84651eb3267a0ac83bca4bc5f263f4dbfca6385636",
+          "record_sha256": "b6e38cbc6c3f09146e2c35b44165506238fb6d8638e9732d84e01ff112fc14c0",
+          "record_file": "targets-013.json"
+        }
+      ],
+      "target_0428_Eplus_sha": "42f902fae77bf172273f1359ba80ce1ecd4f3062ba15ea4e599b11eb699b03b3",
+      "target_0428_T_sha": "8d8ac74c31b8903788db7e46f9385d5f7529ed2539870e0fb15717e318a53b28",
+      "target_0428_pair_sha": "2d2f9677c7ada773e15ecea1d3834e91b921bd8dc7863abefcb2899ad44b3e63",
+      "prefix_sha": "f48b56479dac85e1ddbbd36e5f6a6a3eaf94b9b32497e677fe5a96932abbac95",
+      "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+      "direct_leaf": {
+        "crossing": true,
+        "host": "s:29",
+        "image": 16,
+        "label_oriented": 53,
+        "leaf": "b:29:2",
+        "source": 11,
+        "weight": 53
+      },
+      "verification_cpu": 2.03125,
+      "verification_wall": 2.0790772000327706
+    },
+    "shell_cpu": 6.078125,
+    "observed_inner_wall": 13.5264785,
+    "outer_wall": 11.0599237
+  },
+  "D164_custody": {
+    "historical_execution": "INCOMPLETE_RETAINED_PER_CANDIDATE_STATE_CEILING",
+    "finite_separation": "UNDECIDED",
+    "manifest_sha256": "94ff1e2857adb490c75972bc2ed2a6b87777cfcc6a1b02baf318dea6ad219b11",
+    "archive_sha256": "6ecb659aaefc4a574f39d1da8c3bb88b53517ea9381cc25fa332144f822a7c19",
+    "archive_git_blob": "bd526b2757984a372be5ed3f3c76fc882f29b1ef",
+    "archive_bytes": 1324244,
+    "completed_pairs": 428,
+    "completed_arms": 856,
+    "positive_certificates": 264,
+    "symbolic_negatives": 584,
+    "independent_negative_audits": 8,
+    "separators": 0,
+    "historical_unresolved_T": 1236,
+    "historical_unresolved_Eplus": 928,
+    "target_0429_completed_historical_arms": 0,
+    "target_0429_new_result": "D166 symbolic E+ supply on the independently supplied frozen prefix within D157. T still undecided."
+  },
+  "admission_method": "The pinned D164 saved-record reconciler recomputed the published index from all verified archived payloads in memory. It checked saved certificates and negative attestations, calling no search or scientific allocator. Both frozen controls were checked against their exact shard and original index.",
+  "admission_setup_note": "The initial PowerShell wrapper used a function name shadowing git. It was cancelled before a successful check or file write and had no separate CPU receipt. The corrected read-only wrapper completed admission. No scientific invocation occurred.",
+  "counters": {
+    "new_numerical_originals": 0,
+    "numerical_allocator_evaluations": 0,
+    "exterior_search_nodes": 0,
+    "transfer_state_searches": 0,
+    "labeling_search_nodes": 0,
+    "solver_calls": 0,
+    "pilot_invocations": 0,
+    "historical_campaign_replays": 0,
+    "D130_detailed_access": 0,
+    "successor_preparation": 0,
+    "successor_execution": 0
+  }
+}

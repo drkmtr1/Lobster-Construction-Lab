@@ -707,3 +707,9 @@ Eight completed E+ arms exhaust incompatible gaps across 66 qualified representa
 The fixed width-(6,4) exterior cannot use the quota-two first center at reduced label 3. The permutation moment has odd parity. With p=1 and k=6, identity at Q forces paired equal lower-host shifts because the two L reservations have opposite parity. The available multiset (1,3,3,5) cannot split into such pairs. For k≥7 the same-parity pair of L reservations yields an explicit completion. Endpoint bounds exclude q<3 for even p and q<4 for odd p on this exterior.
 
 Failure of that fixed exterior alone supplies no full E+ negative. Across all declared exteriors the R<7 obstruction instead follows by positive terminal balance and the fresh graph counts. At {1,6} the full-class negative uses accepted finite exhaustion via exact prefix and named-role transport. The D164 interruption supplies no further negative. [Proof](ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_PARITY_CHAIN.md)
+
+## D166 — Endpoint capacity and parity-path barriers
+
+On the stated fixed width-(6,4) exterior, mandatory H₄ and H_(k+5) sources require Q. At q=2 they exhaust Q and the next upper boundary source consumes the unique direct leaf at w. H_(k+3) then has no destination. This excludes q<3 for every compatible first-role selection on the fixed exterior. It yields no such ordered obstruction for alternative E+ exteriors.
+
+Moments and sorted endpoints alone do not guarantee residual compatibility. A common source/destination hole forces both adjacent shift indicators to zero and bars a repair from crossing it. The four constructive patterns prove exact residual feasibility with all common holes retained as absent cells. [Proof](ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_EIGHT_DEFECT.md)
