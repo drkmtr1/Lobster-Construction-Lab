@@ -1,0 +1,102 @@
+{
+  "D174_history": {
+    "numerical_arms": 2,
+    "pairs": 1,
+    "stopping_rule": "FIRST_INDEPENDENTLY_VERIFIED_SEPARATOR",
+    "unentered": 3518
+  },
+  "accepted_D177": {
+    "D174_symbolic_projection": {
+      "admitted_K_frequencies": {
+        "15": 15,
+        "16": 30,
+        "17": 30,
+        "18": 15,
+        "19": 3
+      },
+      "count": 93,
+      "historically_unentered": 92,
+      "individually_rehashed_as_D175_D176_controls": 15
+    },
+    "checkpoint": "c211d05c61d86f8f5aa870b93ff8665fd51858b8",
+    "manifest": {
+      "bytes": 4007,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ODD_FIRST_CENTER_QUOTA_EXPANSION_001/MANIFEST.json",
+      "sha256": "5d2ab7f6eff4fb51b81ec0a747ec81af79314e208b13bb5c8dbbaa3a268aa8d5"
+    },
+    "proof": {
+      "bytes": 27044,
+      "path": "research/ORDINARY_SPINE_EXCEPTIONAL_ODD_FIRST_CENTER_QUOTA_EXPANSION.md",
+      "sha256": "6a9f9310e0c04c3c2efc957fab2a691ae4aa4a4f204296917a67fe2ee102f534"
+    },
+    "status": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE"
+  },
+  "authoritative_ledgers": {
+    "research/DECISIONS.md": {
+      "bytes": 157159,
+      "sha256": "cd84a71f2d2db1f6ec73046e987e8097df9918b67e2c4845f9a1d815dc388ab9"
+    },
+    "research/FAILED_HYPOTHESES.md": {
+      "bytes": 83314,
+      "sha256": "fd4527fc040215e776fea18cd58e1747ebf64af779678f1c350ad2302b372752"
+    },
+    "research/FINDINGS.md": {
+      "bytes": 204383,
+      "sha256": "35fc07cd4ca942c0cebe44b942f1a438986b09a17bbd86d85870f3714ffc2e6a"
+    },
+    "research/PROOF_OBLIGATIONS.md": {
+      "bytes": 116560,
+      "sha256": "c229bb8146457614ed6b1900a79d92a8cc28bac95d3bc4550c4008fbab6d2bbf"
+    }
+  },
+  "canonical_state": {
+    "bytes": 99347,
+    "sha256": "b5214b6084fc8084291d01762881d502bd6c6b5aca25c5cc539f38fa8c4976b8"
+  },
+  "files": {
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ARBITRARY_EVEN_FIRST_QUOTA_LIFT_001/CUSTODY.json": {
+      "bytes": 4702,
+      "sha256": "9cf337f283a62e93c82c649b39e832d38e24a5d0268978fdfa6869924199e1a7"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ARBITRARY_EVEN_FIRST_QUOTA_LIFT_001/REVIEWS.md": {
+      "bytes": 3525,
+      "sha256": "29457f0e4960da6b205418fd9059ae1f4e96d664a61063b23012320c07702260"
+    },
+    "handoffs/CODEX-20261125-d178-arbitrary-even-first-quota-lift.md": {
+      "bytes": 4667,
+      "sha256": "1687e82df477a6fb942aa7296db378e011196e47c087916f0d3c4d3339e54b59"
+    },
+    "research/ORDINARY_SPINE_EXCEPTIONAL_ARBITRARY_EVEN_FIRST_QUOTA_LIFT.md": {
+      "bytes": 33642,
+      "sha256": "9dab346bc4efde56dfe590f248fe79a93eff183aecb383b52594662f95f5cbea"
+    }
+  },
+  "hash_convention": "Canonical LF for D178 text files. All earlier frozen evidence identities retain their original conventions.",
+  "parent": "c211d05c61d86f8f5aa870b93ff8665fd51858b8",
+  "phase": "SYMBOLIC_CLOSEOUT",
+  "result": {
+    "arbitrary_growth": "Neutral ordinary pairs, regular matched pairs and arbitrary active triple capacities, plus constructive selectable special tails",
+    "domain": "Odd r>=5, all positive even first quotas with at least one >=4, all positive even second splits of r+3, all physical orders with selectable numerical roles and admitted D157 S_-1 input",
+    "open_scopes": [
+      "H0 and complete geometry beyond prior quota scopes",
+      "Multiple-four r=3 boundary",
+      "Preassigned numerical second-role decisions"
+    ],
+    "ordered_tail": "Exact weighted finite state column criterion with constructive extraction and semilinearity. Fixed II-a necessary constraint u0<=4+u2+2u3+3u4.",
+    "supplier": "II-a at smaller second quota two and I-a otherwise, actual direct leaf exterior"
+  },
+  "reviews": {
+    "director_D178": "PENDING",
+    "implementation_and_evidence_custody": "PASS_SCOPED",
+    "mathematical": "PASS_SCOPED"
+  },
+  "schema_version": 1,
+  "scientific_counters": {
+    "new_scientific_campaign_executions": 0,
+    "numerical_search_nodes": 0,
+    "solver_allocation_states": 0
+  },
+  "sole_next_action": "Submit the D178 symbolic outcome and separate reviews for Director review.",
+  "status": "PROVED_WITHIN_EXACT_WRITTEN_SCOPE_PENDING_DIRECTOR_REVIEW",
+  "task": "LCL-ORDINARY-SPINE-EXCEPTIONAL-ARBITRARY-EVEN-FIRST-QUOTA-LIFT-001"
+}

@@ -1,0 +1,23 @@
+# Continuity handoff — D178 arbitrary even first-quota lift
+
+- Time and scope — November 25, 2026, Pacific/Honolulu. Adopt the Director's D177 acceptance and complete one bounded symbolic investigation under KEEP v11.
+- Repository and branch — [Lobster Construction Lab main](https://github.com/drkmtr1/Lobster-Construction-Lab/tree/main).
+- Parent and last accepted scientific checkpoint — D177 at c211d05c61d86f8f5aa870b93ff8665fd51858b8. Its accepted manifest SHA-256 is 5d2ab7f6eff4fb51b81ec0a747ec81af79314e208b13bb5c8dbbaa3a268aa8d5 and its primary proof SHA-256 is 6a9f9310e0c04c3c2efc957fab2a691ae4aa4a4f204296917a67fe2ee102f534. Resolve the D178 checkpoint from this handoff's containing commit.
+
+## Research status
+
+**D177 DIRECTOR ACCEPTED within its exact written scope.** The Director checked the primary proof, nine exact manifest bindings, all six core rows and ten published tail schedules, and directly recalculated the frozen D174 prefix's cut and difference spectrum. The theorem-derived 93-original D174 all-even $R=8$ projection is accepted on the established lattice and continuity. The Director did not freshly rehash every individual graph in that stratum, reproduce Windows custody, replay scientific searches or invoke the original checker. The local custody receipt retains the distinct admission and saved-record arithmetic. D174 still has its historical one completed pair and two numerical arms, normal separator stop and 3,518 unentered originals. Ninety-two of the accepted symbolic projection's 93 originals were historically unentered. [D177 proof](../research/ORDINARY_SPINE_EXCEPTIONAL_ODD_FIRST_CENTER_QUOTA_EXPANSION.md) · [D174 execution](../evidence/runs/d174-exceptional-five-first-direct-001/README.md)
+
+**D178 PROVED / PENDING DIRECTOR REVIEW.** Every named physical order with odd $r\ge5$ positive even first quotas, at least one first quota at least four, and positive even second quotas totaling $r+3$ has the stated independent D157 $S_{-1}$ supplier with the actual direct leaf exterior. Put the smaller second quota at $P$, using II-a when it is two and I-a otherwise. Arbitrary neutral and regular expansions preserve the exact matching. The bounded four-host tail lift uses the published D177 controls, and the unrestricted tail construction uses consecutive permutation groups after selectable deficit assignment. It supplies arbitrary magnitudes at all four actual tail hosts. The named lift, exact physical cuts and spectra, both partial inventories, both polarities, literal unfinished connector and admitted finite immutable realization follow. [D178 proof](../research/ORDINARY_SPINE_EXCEPTIONAL_ARBITRARY_EVEN_FIRST_QUOTA_LIFT.md) · [STATE](../STATE.md)
+
+The separated preassigned II-a tail may fail its cutoff bound. The finite-state column criterion characterizes exactly the separated ordered tail support for either geometry and yields constructive extraction and semilinearity. D178 is an ordinary positive supplier. The D175 H0 obstruction and D176 complete menu retain their original quota scopes, and the multiple-four $r=3$ boundary and preassigned numerical second-role decisions remain separate.
+
+D173 retains its accepted ray and pure-P obstruction with its full feasible domain open. D172 retains its verified separator, target-0777 exhaustion and historical unentered originals. D164 remains INCOMPLETE / UNDECIDED and target-0429 T remains unresolved. D161 and D154 retain their accepted evidence. D148 is incomplete with its accepted completed evidence. The pilot remains closed, D130 sealed and 2322 DEFERRED / UNSTARTED. Literature obligations and the unstarted pinned two-host shell lift retain their scopes.
+
+## Work and custody
+
+Checked the live and local Git, baseline and upstream refs, original builder and checker, accepted manifests and primary proofs, and clean initial worktree. Separate mathematical and implementation/evidence-custody reviews passed in their exact scopes. Only symbolic proof, frozen identity checks and direct arithmetic on retained records were used. Scientific search, allocation and campaign counters are zero. Frozen historical evidence is unchanged. No hybrid preparation or successor work was needed. [Custody](../evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ARBITRARY_EVEN_FIRST_QUOTA_LIFT_001/CUSTODY.json) · [Reviews](../evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ARBITRARY_EVEN_FIRST_QUOTA_LIFT_001/REVIEWS.md) · [Manifest](../evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ARBITRARY_EVEN_FIRST_QUOTA_LIFT_001/MANIFEST.json)
+
+## One next action
+
+Submit the D178 symbolic outcome and separate reviews for Director review.

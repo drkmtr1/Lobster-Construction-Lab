@@ -1025,4 +1025,8 @@ H1's five-geometry reduction holds over the broad D175 domain. The full exactly-
 
 ## D177 — Complete selectable-role expansion for r≥5
 
-The multiple-four gap-allocation question is resolved on the stated r≥5 H1 domain with independently supplied admitted D157 inputs and selectable numerical roles. Fixed numerical second-role decisions and the multiple-four r=3 boundary remain separate obligations. D173's full feasible domain, independent shell initialization, D164's incomplete status and target-0429 T remain separate. The sole next action is Director review of D177. [D177 proof](ORDINARY_SPINE_EXCEPTIONAL_ODD_FIRST_CENTER_QUOTA_EXPANSION.md)
+The multiple-four gap-allocation question is resolved on the stated r≥5 H1 domain with independently supplied admitted D157 inputs and selectable numerical roles. Fixed numerical second-role decisions and the multiple-four r=3 boundary remain separate obligations. D173's full feasible domain, independent shell initialization, D164's incomplete status and target-0429 T remain separate. The Director accepted D177 within its exact scope. D178 separately addresses arbitrary even first quotas. [D177 proof](ORDINARY_SPINE_EXCEPTIONAL_ODD_FIRST_CENTER_QUOTA_EXPANSION.md)
+
+## D178 — Arbitrary even selectable-role supply
+
+D178 resolves the stated arbitrary even first-quota positive question for odd r≥5 under independent admissible D157 input. Broader H0 obstructions, completeness of the geometry menu beyond the D176 quota range, the multiple-four r=3 boundary and preassigned numerical second-role decisions remain separate. D173's full feasible domain, independent shell initialization, D164's incomplete status and target-0429 T remain separate. The sole next action is Director review of D178. [D178 proof](ORDINARY_SPINE_EXCEPTIONAL_ARBITRARY_EVEN_FIRST_QUOTA_LIFT.md)

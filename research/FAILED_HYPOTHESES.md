@@ -767,3 +767,7 @@ At r=3 and exactly one four, the forced neutral at reduced slot four excludes I-
 ## D177 — Direct prepend at special deficit two
 
 The untranslated special tails have a common H-source and L-image hole at offset −4. Simply shifting the old core right by one and prepending a paired use of deficit two puts both the translated common hole and the new pair at column −3. This invalidates that direct prepend rule for I-a and II-a. Revised explicit tail cores supply the same promotion via different reservations and preserve the required P and Q capacities. The collision pertains to this insertion rule. [D177 proof](ORDINARY_SPINE_EXCEPTIONAL_ODD_FIRST_CENTER_QUOTA_EXPANSION.md#3-special-tail-patterns-for-every-remaining-quota-multiplicity)
+
+## D178 — Preassigned II-a separated-tail limitation
+
+Arbitrary even magnitudes do not give universal support at fixed deficit roles in the separated II-a tail. Its one P shift is forced at the last L image, so no first-host L reservation can reach the last position of its own row. Every cutoff in that row must be passed by a positive deficit. Counting these cutoffs and the total deficit moment gives u₀≤4+u₂+2u₃+3u₄ for the full tail quotas 2+2u_d. In particular u₀≥5 with all other u_d zero fails in this preassigned architecture. The exact ordered support has a finite weighted column language. The selectable construction supplies the requested original domain. [D178 proof](ORDINARY_SPINE_EXCEPTIONAL_ARBITRARY_EVEN_FIRST_QUOTA_LIFT.md#5-fixed-order-tail-scope-and-an-exact-state-criterion)
