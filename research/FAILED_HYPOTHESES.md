@@ -803,3 +803,7 @@ The redistribution tile requires disjoint adjacent pairs of eligible ordinary ro
 ## D186 — Local matching and parity limits of the defined supplier
 
 At fixed imbalances a local matching using the retained upper hosts requires every H-to-L gap difference to be an available separation in {0,2,…,ν}. A difference of one or a negative difference is unavailable. Subsequent even bank growth preserves the manufactured baseline parity at each actual second host. The earlier D185 fixed parities suffice in its construction, while all-even second quotas and four odd second quotas are supplied in D186. These comparisons concern this arrangement and the fixed local model. [D186 proof](ORDINARY_SPINE_EXCEPTIONAL_CUMULATIVE_IMBALANCE_ALLOCATION.md)
+
+## D187 — Necessary graph parities in the stated same-phase arrangement
+
+The fresh graph-class sizes 1+r+R and ν+2+F must both be even under the declared crossing-exterior and leaf-only-gap placement. Therefore R≡r+1 and F≡ν modulo two are necessary. These conditions apply to the named same-phase arrangement. The former odd-r and even-ν restrictions can be removed in the proved supplier by the unified tail. General H1 feasibility retains its own scope. [D187 proof](ORDINARY_SPINE_EXCEPTIONAL_PARITY_UNIFIED_MULTI_HOST.md)

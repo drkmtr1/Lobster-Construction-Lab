@@ -1,0 +1,237 @@
+{
+  "D174_history": {
+    "numerical_arms": 2,
+    "pairs": 1,
+    "stopping_rule": "FIRST_INDEPENDENTLY_VERIFIED_SEPARATOR",
+    "unentered": 3518
+  },
+  "accepted_D177_symbolic_projection": {
+    "admitted_K_frequencies": {
+      "15": 15,
+      "16": 30,
+      "17": 30,
+      "18": 15,
+      "19": 3
+    },
+    "count": 93,
+    "historically_unentered": 92
+  },
+  "accepted_D186": {
+    "checkpoint": "e2b862cdc8540ff19ece52658b7731ebdbc427a5",
+    "manifest": {
+      "bytes": 6191,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_CUMULATIVE_IMBALANCE_ALLOCATION_001/MANIFEST.json",
+      "sha256": "6dbdecd51eb8762708f4059bec6c67082085dd5cd9a3e91dd8c8a132c981af39"
+    },
+    "proof": {
+      "bytes": 33066,
+      "path": "research/ORDINARY_SPINE_EXCEPTIONAL_CUMULATIVE_IMBALANCE_ALLOCATION.md",
+      "sha256": "57f259c303b2e4cb8ba3e1ada0151fe0623679bd2af2942adab129d77eadfb4c"
+    },
+    "status": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE"
+  },
+  "authoritative_ledgers": {
+    "research/DECISIONS.md": {
+      "bytes": 168271,
+      "sha256": "a3ac67fca61613ccd8972b6de5c44bf9af9a19159b9a12cbb2e492ac22593403"
+    },
+    "research/FAILED_HYPOTHESES.md": {
+      "bytes": 89141,
+      "sha256": "8ce62ef32bc00ce3a631b96f6642fe53517c62a49d057d8f65368d49f90a36d8"
+    },
+    "research/FINDINGS.md": {
+      "bytes": 214340,
+      "sha256": "f224bfe8a24c1aa2651919d9238a174493c71b8b2efe2b4241bd90fa7c16a66a"
+    },
+    "research/PROOF_OBLIGATIONS.md": {
+      "bytes": 122900,
+      "sha256": "8707b1cd6f9cfa20d4cdb7710a3669f30bc3fd4ff78cdfe0f34dd214df7b92e4"
+    }
+  },
+  "canonical_state": {
+    "bytes": 108421,
+    "sha256": "9beef69eb3af534f4d3b1ca0ae2bb59fa974a34c65b819ef0465b208b1ad56b2"
+  },
+  "files": {
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_PARITY_UNIFIED_MULTI_HOST_001/CUSTODY.json": {
+      "bytes": 8976,
+      "sha256": "f7ceeea72f7435025934b1acded1d30838231c55592edb25ecb2e92d8351f46d"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_PARITY_UNIFIED_MULTI_HOST_001/REVIEWS.md": {
+      "bytes": 2619,
+      "sha256": "15a5e52188864c6db9a9d6c56fff2b52a7d7fba815d2d060af5a3459adf0c6ab"
+    },
+    "handoffs/CODEX-20261125-d187-parity-unified-multi-host.md": {
+      "bytes": 3260,
+      "sha256": "19e3a2b3189116b35e9e500644cafe3017202b8637f61389aec16c75e52f13ae"
+    },
+    "research/ORDINARY_SPINE_EXCEPTIONAL_PARITY_UNIFIED_MULTI_HOST.md": {
+      "bytes": 36612,
+      "sha256": "956b52fa6b0858998c58614ba066ac88c44cacdb1d63fb9329ce986bc1da4216"
+    }
+  },
+  "hash_convention": "Canonical LF for D187 text. Earlier frozen evidence retains its original conventions.",
+  "parent": "e2b862cdc8540ff19ece52658b7731ebdbc427a5",
+  "phase": "SYMBOLIC_CLOSEOUT",
+  "result": {
+    "consequences": "Complete D186 domain retained, four matched symbolic parity cases, mixed boundary and composition with differing center-count parities",
+    "moment": "A(B-4), with increase A from r-2 at the first host and four unit increases in tail shifts under eta 0 to 1",
+    "open_scopes": [
+      "General H1 feasibility",
+      "nu<=3 outside the new theorem",
+      "Independent initialization",
+      "Arbitrary decomposition"
+    ],
+    "principal": "All four center-count parity classes with nu=2+2ell+eta>=4, ell>=1, r>=2g+6+e, 2g+eta odd first quotas and specified actual neutral and deficit-two roles",
+    "quota_condition": "Positive actual target quotas dominating the manufactured baseline with matching parity, Q >= q0 plus D184 costs and full independent D157 input admission",
+    "supplier": "Named wider exterior, unchanged local regular packets, one extra L cell at the odd deficit-two host, exact four tail shifts at nu-1, D186 local baselines and D184 bank growth"
+  },
+  "reviews": {
+    "director_D187": "PENDING",
+    "implementation_and_evidence_custody": "PASS_SCOPED",
+    "mathematical": "PASS_SCOPED"
+  },
+  "schema_version": 1,
+  "scientific_counters": {
+    "historical_replays": 0,
+    "new_scientific_campaign_executions": 0,
+    "numerical_search_nodes": 0,
+    "original_checker_invocations": 0,
+    "solver_allocation_states": 0
+  },
+  "sole_next_action": "Submit the D187 symbolic outcome and separate reviews for Director review.",
+  "status": "PROVED_WITHIN_EXACT_WRITTEN_SCOPE_PENDING_DIRECTOR_REVIEW",
+  "symbolic_controls": {
+    "A": {
+      "F": 26,
+      "R": 12,
+      "first": [
+        12,
+        4,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "maximum_cut": 65,
+      "second": [
+        5,
+        1,
+        4,
+        2,
+        0
+      ],
+      "twice_K": 52
+    },
+    "B": {
+      "F": 24,
+      "R": 11,
+      "first": [
+        12,
+        4,
+        2,
+        2,
+        2,
+        2
+      ],
+      "maximum_cut": 63,
+      "second": [
+        4,
+        1,
+        4,
+        2,
+        0
+      ],
+      "twice_K": 48
+    },
+    "C": {
+      "F": 29,
+      "R": 14,
+      "first": [
+        14,
+        5,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "maximum_cut": 68,
+      "second": [
+        5,
+        1,
+        2,
+        4,
+        2,
+        0
+      ],
+      "twice_K": 58
+    },
+    "D": {
+      "F": 27,
+      "R": 13,
+      "first": [
+        14,
+        5,
+        2,
+        2,
+        2,
+        2
+      ],
+      "maximum_cut": 66,
+      "second": [
+        4,
+        1,
+        2,
+        4,
+        2,
+        0
+      ],
+      "twice_K": 54
+    },
+    "certificate_status": "SYMBOLIC_COVERAGE_ONLY",
+    "composition": {
+      "blocks": [
+        "A",
+        "D"
+      ],
+      "edge_counts": [
+        74,
+        126,
+        180
+      ],
+      "maximum_cuts": [
+        39,
+        65,
+        92
+      ]
+    },
+    "mixed": {
+      "F": 31,
+      "R": 16,
+      "first": [
+        14,
+        5,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "maximum_cut": 71,
+      "second": [
+        7,
+        1,
+        2,
+        4,
+        2,
+        0
+      ],
+      "twice_K": 64
+    }
+  },
+  "task": "LCL-ORDINARY-SPINE-EXCEPTIONAL-PARITY-UNIFIED-MULTI-HOST-001"
+}

@@ -1061,4 +1061,8 @@ The stated adjacent-host tile and bank schedule prove the sufficient reduced Q d
 
 ## D186 — Feasibility beyond monotone gap matching and the bank schedule
 
-The exact local quota support is established within the defined footprint, and the retained bank supplies the stated dominating target domain. General feasibility with other upper parities, enlarged arrangements or a different allocation, independent initialization and arbitrary decomposition remain separate. D185 and prior mathematical and historical scopes remain as recorded. The sole next action is Director review of D186. [D186 proof](ORDINARY_SPINE_EXCEPTIONAL_CUMULATIVE_IMBALANCE_ALLOCATION.md)
+The exact local quota support is established within the defined footprint, and the retained bank supplies the stated dominating target domain. General feasibility with other upper parities, enlarged arrangements or a different allocation, independent initialization and arbitrary decomposition remain separate. D185 and prior mathematical and historical scopes remain as recorded. The Director accepted D186 in its exact scope. D187 separately addresses unified center-count parities. [D186 proof](ORDINARY_SPINE_EXCEPTIONAL_CUMULATIVE_IMBALANCE_ALLOCATION.md)
+
+## D187 — Scope beyond the unified center-count parities
+
+Both parities for each of r and ν≥4 are supplied under the stated first inventory, local baseline model, exact target quota and size conditions. General H1 feasibility, smaller ν in this new domain, other actual topologies, independent initialization and arbitrary decomposition remain separate. D186 and earlier mathematical and historical scopes remain as recorded. The sole next action is Director review of D187. [D187 proof](ORDINARY_SPINE_EXCEPTIONAL_PARITY_UNIFIED_MULTI_HOST.md)
