@@ -1,0 +1,356 @@
+{
+  "schema_version": 1,
+  "task": "LCL-ORDINARY-SPINE-GENERALIZED-ONE-SECTION-CUT-SPECTRUM-001",
+  "status": "PROVED_WITHIN_EXACT_WRITTEN_SCOPE_PENDING_DIRECTOR_REVIEW",
+  "parent": "ab18b567a9cc674d99319bb351d7652b7d55deb7",
+  "prior_parent": "415eb2edca5c154bebef3ab0ff6e4b46488987f5",
+  "continuity": {
+    "branch": "main",
+    "live_main_at_admission": "ab18b567a9cc674d99319bb351d7652b7d55deb7",
+    "origin_main_at_admission": "ab18b567a9cc674d99319bb351d7652b7d55deb7",
+    "clean_worktree_at_admission": true,
+    "divergence": [
+      0,
+      0
+    ],
+    "baseline_tag": "lcl-v0.1.0-baseline",
+    "tag_object": "fddfc1dd9541324b2ed2de2505bc750b3e3f0b9d",
+    "tag_peel": "36ea1603602491bf3c1c5b81ed4c23aaa2210e70",
+    "upstream_live_main_pins": {
+      "drkmtr1/Math-Discovery-Lab": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+      "drkmtr1/MDL_Bounded_Search": "e48b94eec4091b4fe189e325cab2eda464409943"
+    },
+    "writers": 1,
+    "maximum_simultaneous_reviewers": 1,
+    "matching_processes_observed_in_initial_census": 0,
+    "windows_custody_observation": "One main worktree and one writer. Get-Process showed no matching git, gh, Python, OpenChamber or OpenCode process during the initial bounded census. No matching locks were found in the inspected Git and project-run paths."
+  },
+  "original_builder_blob": "8d1e9948e8bf5ef01e67c9afe0155412c57d79fa",
+  "original_checker_blob": "d008f35f0843e1a5c770db3e7f42ed7d987360d7",
+  "strict_prefix": {
+    "edges": 94,
+    "vertices": 95,
+    "maximum_cut": 49,
+    "frontier": "s:29",
+    "maximum_frontier_label": 94,
+    "crossing": [
+      48,
+      94
+    ],
+    "noncrossing": [
+      1,
+      47
+    ],
+    "spine_vertices": 30,
+    "max_distance_to_spine": 2,
+    "digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0"
+  },
+  "exceptional_prefix": {
+    "edges": 74,
+    "vertices": 75,
+    "maximum_cut": 39,
+    "frontier": "s:27",
+    "maximum_frontier_label": 74,
+    "crossing": [
+      37,
+      74
+    ],
+    "noncrossing": [
+      1,
+      36
+    ],
+    "spine_vertices": 28,
+    "max_distance_to_spine": 2,
+    "digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a"
+  },
+  "retained_D191_input_and_config_bindings": {
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/prefix.json": {
+      "bytes": 8781,
+      "sha256": "f48b56479dac85e1ddbbd36e5f6a6a3eaf94b9b32497e677fe5a96932abbac95"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED_001_PREP/prefix94-original.json": {
+      "bytes": 7966,
+      "sha256": "500243061c3192ebd826262d3412c4d76d1461b0890b391129aa3c0b8c526a01"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED_001_PREP/prefix94.json": {
+      "bytes": 1547,
+      "sha256": "6d9f66a731cefc5ed642dd60a1aad1d8de89370bf21684f9dd01257e194d377b"
+    },
+    "research/strict_phase_low_capacity_001/config.json": {
+      "bytes": 1878,
+      "sha256": "288df1a52c8383324c41a8377cf635466c82c6fc3dc37683cdbbc6bf7c3560ff"
+    }
+  },
+  "retained_D191_source_bindings_verified": 22,
+  "D191_numerical_lane": "SYMBOLICALLY_RESOLVED / NO_EXECUTION_NEEDED",
+  "vacant_D191_paths": [
+    "runs/d191-low-capacity-strict-phase-001",
+    "runs/d191-low-capacity-strict-phase-001-approval.json",
+    "evidence/runs/d191-low-capacity-strict-phase-001"
+  ],
+  "D174_history": {
+    "numerical_arms": 2,
+    "pairs": 1,
+    "stopping_rule": "FIRST_INDEPENDENTLY_VERIFIED_SEPARATOR",
+    "unentered": 3518
+  },
+  "D177_projection": {
+    "admitted_K_frequencies": {
+      "15": 15,
+      "16": 30,
+      "17": 30,
+      "18": 15,
+      "19": 3
+    },
+    "count": 93,
+    "historically_unentered": 92
+  },
+  "accepted_D195": {
+    "checkpoint": "ab18b567a9cc674d99319bb351d7652b7d55deb7",
+    "changed_paths": 12,
+    "manifest_bindings": 11,
+    "source_dependency_bindings": 14,
+    "manifest": {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_SIZE_INDEPENDENT_LIFT_AND_ORIGINAL_SEED_001/MANIFEST.json",
+      "bytes": 10768,
+      "sha256": "6ffcde3b57bd5a5d769e73d50c9d084bb735f762a64a921404f57310850c4a3a"
+    },
+    "proof": {
+      "path": "research/ORDINARY_SPINE_SIZE_INDEPENDENT_LIFT_AND_ORIGINAL_SEED.md",
+      "bytes": 25083,
+      "sha256": "620454a59bf7ba10c6700d6154d2646c90805783813b88e37cdb28f14b578e05"
+    },
+    "original_controls": {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_SIZE_INDEPENDENT_LIFT_AND_ORIGINAL_SEED_001/ORIGINAL_CONTROLS.json",
+      "bytes": 82470,
+      "sha256": "87e39fd7c3128e5c40d04f4267eecc3e3cba4aba21813457805d2dd358f05abf"
+    },
+    "named_controls": {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_SIZE_INDEPENDENT_LIFT_AND_ORIGINAL_SEED_001/NAMED_CONTROLS.json",
+      "bytes": 476400,
+      "sha256": "df2a68de6ce848cb39bf333d4339353fe6597add417ae47cffba8da02293f7c0"
+    },
+    "director_acceptance": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE",
+    "director_verified_counts": {
+      "named_originals": 12,
+      "phase_states": 22,
+      "polarity_checks": 44,
+      "endpoint_checks": 948,
+      "named_gap_arrows": 167,
+      "local_polarity_inventories": 20,
+      "final_inventories": 6,
+      "transported_label_occurrences": 536,
+      "transported_edge_occurrences": 528
+    }
+  },
+  "accepted_D191": {
+    "changed_paths": 24,
+    "checkpoint": "afaba9252e6ca3544f9e3429c6a5f0aa82b6119a",
+    "corpus": {
+      "bytes": 5633720,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED_001_PREP/originals.jsonl",
+      "sha256": "60cd06497efe6a2a78523c3e48c8db77d00a907222edbe4fb047843bc51e1355"
+    },
+    "manifest": {
+      "bytes": 10603,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED_001_PREP/MANIFEST.json",
+      "sha256": "d739bb3fe1f6807233c12116e2b620ad0e1341145f4a0fcb696a4dfbd7f7f3e2"
+    },
+    "manifest_bindings": 23,
+    "numerical_lane": "SYMBOLICALLY_RESOLVED / NO_EXECUTION_NEEDED",
+    "proof": {
+      "bytes": 19212,
+      "path": "research/ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED.md",
+      "sha256": "0dfc6b38331e7f1d7fde41058038d5838133b66d7fec8139a61b84da30b781c3"
+    },
+    "source_bindings": 22,
+    "status": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE"
+  },
+  "accepted_D192": {
+    "changed_paths": 11,
+    "checkpoint": "5e2e883e5b502c2ea1274c55de051f10137c5ac1",
+    "manifest": {
+      "bytes": 6346,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_STRICT_SIGNED_INDEPENDENT_GROWTH_001/MANIFEST.json",
+      "sha256": "63d14c19919542140de2e0e802cdc5c90f3940800ac9e375f58cd835b9c0127c"
+    },
+    "manifest_bindings": 10,
+    "projection": {
+      "bytes": 49669,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_STRICT_SIGNED_INDEPENDENT_GROWTH_001/CORPUS_PROJECTION.json",
+      "sha256": "101178794669a3525a78be70186e7a0278014867ed93999a2c3cafb036ccdaaf"
+    },
+    "proof": {
+      "bytes": 29027,
+      "path": "research/ORDINARY_SPINE_STRICT_SIGNED_INDEPENDENT_GROWTH.md",
+      "sha256": "fe93c6a0bad8ea22437cc21a75404555fc3d0df79209e8c0d9f3b0bd8684fed1"
+    },
+    "status": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE"
+  },
+  "accepted_D193": {
+    "changed_paths": 11,
+    "checkpoint": "92a2f2ffe8bc50cb88d1e81b84abed84942ad86b",
+    "manifest": {
+      "bytes": 7577,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_STRICT_RESIDUE_TWO_ANCHOR_ECONOMY_001/MANIFEST.json",
+      "sha256": "dc83e8b86a165e4cb5d32225ed28e39418d047c75402d8b8e3450824ce84526c"
+    },
+    "manifest_bindings": 10,
+    "matched_pairs": 24,
+    "projection": {
+      "bytes": 95377,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_STRICT_RESIDUE_TWO_ANCHOR_ECONOMY_001/CORPUS_PROJECTION.json",
+      "sha256": "8c739c59414ceb462b635ee070e70d10475e189ac05b3a79189b5dc82792057a"
+    },
+    "projection_counts": {
+      "companion": 27,
+      "exceptional": 42,
+      "low": 42,
+      "role_choices": 114
+    },
+    "proof": {
+      "bytes": 33767,
+      "path": "research/ORDINARY_SPINE_STRICT_RESIDUE_TWO_ANCHOR_ECONOMY.md",
+      "sha256": "25ac031c254c9a6166339f18bf67bf56cf47ecc39fb935c9ed975b90a74cfd49"
+    },
+    "status": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE"
+  },
+  "accepted_D194": {
+    "changed_paths": 10,
+    "checkpoint": "415eb2edca5c154bebef3ab0ff6e4b46488987f5",
+    "corrected_crossing_starts": {
+      "E_outbound": 60,
+      "E_reverse": 51,
+      "H_final": 77
+    },
+    "director_acceptance": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE",
+    "manifest": {
+      "bytes": 11619,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_BIDIRECTIONAL_PHASE_TOGGLE_SUPPLIER_001/MANIFEST.json",
+      "sha256": "d00898646cdfbefd708ed346dbd83143fab0224efd0e32eeccdc9af92e64bfb1"
+    },
+    "manifest_bindings": 9,
+    "proof": {
+      "bytes": 37944,
+      "path": "research/ORDINARY_SPINE_BIDIRECTIONAL_PHASE_TOGGLE_SUPPLIER.md",
+      "sha256": "b0d8619c4105ec5e7d68db853293beb6b3031f77381ce9a208d73852d2a175d5"
+    },
+    "verified_control_spectra": 14
+  },
+  "runtime": "Project-local CPython 3.13.17, isolated/no-site/no-bytecode direct arithmetic.",
+  "construction_method": "Freeze 11 exact original indexed graphs before prescribed direct arithmetic. Two obstructions leave the contested receiving section unplaced.",
+  "control_totals": {
+    "frozen_originals": 11,
+    "placed_positive_originals": 9,
+    "scoped_obstructions": 2,
+    "phase_states": 32,
+    "polarity_checks": 64,
+    "named_gap_arrows": 67,
+    "local_polarity_inventories": 44,
+    "final_polarity_inventories": 66,
+    "transported_label_occurrences": 958,
+    "transported_edge_occurrences": 894
+  },
+  "mixed_F": {
+    "sections": 7,
+    "prefix_edges": [
+      4,
+      12,
+      20,
+      46,
+      54,
+      55
+    ],
+    "phase_labels": [
+      "S0",
+      "S-1",
+      "S0",
+      "S-1",
+      "S0",
+      "P"
+    ],
+    "actual_cuts": [
+      4,
+      5,
+      12,
+      25,
+      26,
+      26
+    ],
+    "actual_polarities": [
+      "maximum",
+      "minimum",
+      "maximum",
+      "maximum",
+      "minimum",
+      "maximum"
+    ],
+    "crossing": [
+      28,
+      55
+    ],
+    "noncrossing": [
+      1,
+      27
+    ],
+    "final_connectors": [
+      [
+        42,
+        9
+      ],
+      [
+        9,
+        47
+      ],
+      [
+        47,
+        6
+      ],
+      [
+        6,
+        52
+      ],
+      [
+        52,
+        0
+      ],
+      [
+        0,
+        55
+      ]
+    ]
+  },
+  "odd_run_comparison": {
+    "odd_incoming": [
+      15,
+      10,
+      8
+    ],
+    "even_incoming": [
+      15,
+      5,
+      8
+    ],
+    "target_edges": 30,
+    "positive_even_target_state": [
+      30,
+      14,
+      16
+    ],
+    "hybrid_status": "QUESTION_ONLY_NO_PREPARATION_NO_EXECUTION"
+  },
+  "limits": {
+    "process_cpu_seconds": 1800,
+    "observed_wall_seconds": 3600,
+    "new_evidence_bytes": 128000000
+  },
+  "elapsed_wall_seconds_through_custody_draft": 500,
+  "scientific_counters": {
+    "numerical_labeling_search_nodes": 0,
+    "solver_allocation_states": 0,
+    "original_checker_invocations": 0,
+    "official_scientific_campaign_executions": 0,
+    "historical_replays": 0
+  },
+  "sole_next_action": "Director review of the D196 symbolic outcome and separate reviews."
+}
