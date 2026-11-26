@@ -1,0 +1,104 @@
+{
+  "D174_history": {
+    "numerical_arms": 2,
+    "pairs": 1,
+    "stopping_rule": "FIRST_INDEPENDENTLY_VERIFIED_SEPARATOR",
+    "unentered": 3518
+  },
+  "accepted_D177_symbolic_projection": {
+    "admitted_K_frequencies": {
+      "15": 15,
+      "16": 30,
+      "17": 30,
+      "18": 15,
+      "19": 3
+    },
+    "count": 93,
+    "historically_unentered": 92
+  },
+  "accepted_D179": {
+    "checkpoint": "947f4db5c5beb8f545a4e71ce553e8af50f5140e",
+    "manifest": {
+      "bytes": 4116,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_INDEPENDENT_SECOND_QUOTA_GROWTH_001/MANIFEST.json",
+      "sha256": "2c79ed530a01990a54aec345813217c58af6730e081eb0aa769c114623a8a098"
+    },
+    "proof": {
+      "bytes": 25589,
+      "path": "research/ORDINARY_SPINE_EXCEPTIONAL_INDEPENDENT_SECOND_QUOTA_GROWTH.md",
+      "sha256": "33939a3664c5b477b9dd5dcdbdc2fcd111a063c8c735316c98c5d9dbe8cf924e"
+    },
+    "status": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE"
+  },
+  "authoritative_ledgers": {
+    "research/DECISIONS.md": {
+      "bytes": 160003,
+      "sha256": "c31b5d94da487338240b475bbbe9aa95151993c20f5dbfdfc6207224cd20a287"
+    },
+    "research/FAILED_HYPOTHESES.md": {
+      "bytes": 84820,
+      "sha256": "f312adaa45d5e1b4bb9ef63b59236704009f22b49cd7708bb7b7345a41374400"
+    },
+    "research/FINDINGS.md": {
+      "bytes": 206437,
+      "sha256": "910c99c2fccea8ad3f90f826e53fdf524c3a98351d4b3b19e41e8d02fd13db0e"
+    },
+    "research/PROOF_OBLIGATIONS.md": {
+      "bytes": 117954,
+      "sha256": "1ed4b1cea32288f04cc552625f42d84edcf6a62e3ac4de6fb2f5cbfa7a693e3e"
+    }
+  },
+  "canonical_state": {
+    "bytes": 101641,
+    "sha256": "1dd153b881e497e3ceb83031d26a842762d263142a1017a79b5a3234f01d3063"
+  },
+  "files": {
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ODD_SECOND_QUOTA_SUPPLIER_001/CUSTODY.json": {
+      "bytes": 5519,
+      "sha256": "c46ed7446c3ee69c695cabb66459f4e2b1bca5747bb00abecb510d794a5accfd"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ODD_SECOND_QUOTA_SUPPLIER_001/REVIEWS.md": {
+      "bytes": 3272,
+      "sha256": "3b1c84062d0e6d88a5b7f5546b73262df06b17f5af9151dc30b6c2c7a9cbdfa8"
+    },
+    "handoffs/CODEX-20261125-d180-odd-second-quota-supplier.md": {
+      "bytes": 4472,
+      "sha256": "5e684e99878c77b4fde2cc7efea940e02ae84082c48dcb85d149ebc10f32c2ab"
+    },
+    "research/ORDINARY_SPINE_EXCEPTIONAL_ODD_SECOND_QUOTA_SUPPLIER.md": {
+      "bytes": 28426,
+      "sha256": "0a2f0768b3480c838d28ee8642035909a8563279cea3574bb8108259007cd961"
+    }
+  },
+  "hash_convention": "Canonical LF for D180 text. Earlier frozen evidence retains its original conventions.",
+  "parent": "947f4db5c5beb8f545a4e71ce553e8af50f5140e",
+  "phase": "SYMBOLIC_CLOSEOUT",
+  "result": {
+    "criterion": "Terminal-enabled H1 with original second direct leaf exterior, no first direct leaf, independently supplied admitted D157 S_-1 input and n>=2K, iff R>=r+3",
+    "geometry_scoped_negative": "II-a and I-b require even full quota at P by the folded index moment",
+    "open_scopes": [
+      "Remaining smaller cases",
+      "Quota-one corner",
+      "Other first parities",
+      "Preassigned numerical roles",
+      "H0 and complete menu outside accepted scope"
+    ],
+    "principal": "Odd r>=17, arbitrary even first quotas including one >=4, odd p,q>=3, physical orders and selectable numerical roles",
+    "smaller_cases": "All admissible at r=11,15; restricted direct domains at r=5,7,9,13 as stated",
+    "supplier": "Width-five I-a with two-shift odd tail, arbitrary neutral and regular capacities, D179 strips and admissible reversed odd baseline"
+  },
+  "reviews": {
+    "director_D180": "PENDING",
+    "implementation_and_evidence_custody": "PASS_SCOPED",
+    "mathematical": "PASS_SCOPED"
+  },
+  "schema_version": 1,
+  "scientific_counters": {
+    "new_scientific_campaign_executions": 0,
+    "numerical_search_nodes": 0,
+    "solver_allocation_states": 0
+  },
+  "sole_next_action": "Submit the D180 symbolic outcome and separate reviews for Director review.",
+  "status": "PROVED_WITHIN_EXACT_WRITTEN_SCOPE_PENDING_DIRECTOR_REVIEW",
+  "task": "LCL-ORDINARY-SPINE-EXCEPTIONAL-ODD-SECOND-QUOTA-SUPPLIER-001"
+}
