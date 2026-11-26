@@ -791,3 +791,7 @@ For the declared H1 arrangement, R<r+3 remains infeasible even when odd first qu
 ## D183 — Necessary threshold and same-phase graph parity for multiple second centers
 
 For the declared terminal-enabled H1 arrangement, R<r+3 excludes completion for the multiple-second-center topology by terminal balance and the fresh lower graph-class count. Both fresh graph-class sizes must be even. In the supplied exterior the folded moment is A(ν−1) and gives the stated necessary condition on numerical roles. The Q reservoir inequality describes the positive construction and gives no general H1 obstruction. [D183 proof](ORDINARY_SPINE_EXCEPTIONAL_UNBOUNDED_MULTI_UPPER_HOST.md)
+
+## D184 — Partial-bank residue obstruction
+
+After restoring a bank of width 1≤T<ρ, the two free intervals of length λ have equal index-residue counts modulo ρ only when ρ divides λ. Q identities and the single separation-ρ host preserve residue classes, so these intervals cannot be matched by those two hosts at any other positive λ. The obstruction concerns this specific free-set matching. At T=ρ arbitrary λ is supplied by pure growth. [D184 proof](ORDINARY_SPINE_EXCEPTIONAL_NEUTRAL_ANCHOR_BANK_GROWTH.md)

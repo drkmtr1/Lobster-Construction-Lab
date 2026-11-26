@@ -1,0 +1,130 @@
+{
+  "D174_history": {
+    "numerical_arms": 2,
+    "pairs": 1,
+    "stopping_rule": "FIRST_INDEPENDENTLY_VERIFIED_SEPARATOR",
+    "unentered": 3518
+  },
+  "accepted_D177_symbolic_projection": {
+    "admitted_K_frequencies": {
+      "15": 15,
+      "16": 30,
+      "17": 30,
+      "18": 15,
+      "19": 3
+    },
+    "count": 93,
+    "historically_unentered": 92
+  },
+  "accepted_D183": {
+    "checkpoint": "e9b7663f2dde8719027639f5a430a9c4d0d2abed",
+    "manifest": {
+      "bytes": 4392,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_UNBOUNDED_MULTI_UPPER_HOST_001/MANIFEST.json",
+      "sha256": "24d2e77952c972bc130a43d52fa47fee18cabfe02a16545fa304186eb881247c"
+    },
+    "proof": {
+      "bytes": 33676,
+      "path": "research/ORDINARY_SPINE_EXCEPTIONAL_UNBOUNDED_MULTI_UPPER_HOST.md",
+      "sha256": "9fe08493ef3bcffe363d434d07633839550d25b8579e2908be182fdf8d68a78a"
+    },
+    "status": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE"
+  },
+  "authoritative_ledgers": {
+    "research/DECISIONS.md": {
+      "bytes": 164833,
+      "sha256": "20a35c115a5ba45a477f99fd554d9bfe9574a2ed971b3999693f0e12678faf85"
+    },
+    "research/FAILED_HYPOTHESES.md": {
+      "bytes": 87291,
+      "sha256": "1701f6d43bc32a8a76c6f91604cca675a2b663be9d9f0d792e67ecb2118a5cb5"
+    },
+    "research/FINDINGS.md": {
+      "bytes": 210838,
+      "sha256": "cc097d7c88007b4efd9c271b620a83cc02ab8b2d5eedb3de7fc4d4fd43936009"
+    },
+    "research/PROOF_OBLIGATIONS.md": {
+      "bytes": 121041,
+      "sha256": "e4102ec5ce2fc76a821b443c4990cbd91e7c2cbdbbc7fc8db37bd9155a864fea"
+    }
+  },
+  "canonical_state": {
+    "bytes": 105542,
+    "sha256": "ec3a52c69dab1b7fe98228b08a4c5303d3264df86df8290cee4d368c0b1b5e74"
+  },
+  "files": {
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_NEUTRAL_ANCHOR_BANK_GROWTH_001/CUSTODY.json": {
+      "bytes": 6705,
+      "sha256": "95f603d435a34156718e07afef471fbd0c6140b449c21d5dbcd745739317870c"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_NEUTRAL_ANCHOR_BANK_GROWTH_001/REVIEWS.md": {
+      "bytes": 2586,
+      "sha256": "ffb746b22fe898d91b9bb642ef7e523e84e010bede647bd8875e632b080cb79d"
+    },
+    "handoffs/CODEX-20261125-d184-neutral-anchor-bank-growth.md": {
+      "bytes": 3567,
+      "sha256": "8f876f5a9698a2da43982554b036d56e388b27897e00fa8aaf40cbd7de0d5a3e"
+    },
+    "research/ORDINARY_SPINE_EXCEPTIONAL_NEUTRAL_ANCHOR_BANK_GROWTH.md": {
+      "bytes": 28078,
+      "sha256": "149ccbc35b61ccd20769731dc3f49db6d7832549157b317ce806abc76f7274d4"
+    }
+  },
+  "hash_convention": "Canonical LF for D184 text. Earlier frozen evidence retains its original conventions.",
+  "parent": "e9b7663f2dde8719027639f5a430a9c4d0d2abed",
+  "phase": "SYMBOLIC_CLOSEOUT",
+  "result": {
+    "open_scopes": [
+      "General multi-host feasibility",
+      "Other role parities and minima",
+      "Independent initialization",
+      "Arbitrary decomposition"
+    ],
+    "principal": "D183 wider named exterior and independent baseline, with distinct qualifying even first hosts at neutral quota >=6 and deficit-two quota >=nu, and retained topology and role parities",
+    "quota_condition": "For b_rho=(p_rho-base)/2 and t=(neutral quota-4)/2, sufficient Q >= r-2 + sum C_rho; C_rho=0 when rho<=t, otherwise 2(rho ceil(b_rho/t)-b_rho)",
+    "scoped_residue_obstruction": "For 1<=T<rho, only Q and separation rho on the two free intervals require rho divides the width increment",
+    "supplier": "Pure matching at bank width rho, partial residue paths with the exact cost, nonincreasing width schedule and final Q-only growth",
+    "zero_surcharge": "Neutral quota >=4+2nu lets all shifted hosts grow with only the baseline odd Q floor r-2"
+  },
+  "reviews": {
+    "director_D184": "PENDING",
+    "implementation_and_evidence_custody": "PASS_SCOPED",
+    "mathematical": "PASS_SCOPED"
+  },
+  "schema_version": 1,
+  "scientific_counters": {
+    "historical_replays": 0,
+    "new_scientific_campaign_executions": 0,
+    "numerical_search_nodes": 0,
+    "solver_allocation_states": 0
+  },
+  "sole_next_action": "Submit the D184 symbolic outcome and separate reviews for Director review.",
+  "status": "PROVED_WITHIN_EXACT_WRITTEN_SCOPE_PENDING_DIRECTOR_REVIEW",
+  "symbolic_control": {
+    "D183_sufficient_Q": 11,
+    "D184_sufficient_Q": 5,
+    "F": 26,
+    "R": 12,
+    "bank_width": 4,
+    "certificate_status": "SYMBOLIC_COVERAGE_ONLY",
+    "first": [
+      12,
+      4,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "n": 74,
+    "second": [
+      5,
+      1,
+      4,
+      2,
+      0
+    ],
+    "twice_K": 52
+  },
+  "task": "LCL-ORDINARY-SPINE-EXCEPTIONAL-NEUTRAL-ANCHOR-BANK-GROWTH-001"
+}
