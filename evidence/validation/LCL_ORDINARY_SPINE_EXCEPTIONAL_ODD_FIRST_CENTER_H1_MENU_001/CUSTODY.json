@@ -1,0 +1,432 @@
+{
+  "parent": "9f9dfea318667defaacf35c5ca4c7924f2229bb4",
+  "accepted_D175_manifest_sha256": "1bf896f659d9f439eea2f6f43e1191f98265c90cdbb3b58440c5126b2038928a",
+  "accepted_D175_proof_sha256": "7e365ca57b8a4c66f4c63b7e31395d771ebe311a7959e5cbd63ac9ee9ec3ff8e",
+  "D175_bound_files": 9,
+  "D175_earlier_evidence_bindings": {
+    "evidence/runs/d172-exceptional-alternate-exterior-001/MANIFEST.json": "f93991c329edbd5a6f6759da0042a9f402c772b9b6c0fe8093ec431f906c2990",
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ALTERNATE_EXTERIOR_MATCHED_001_PREP/MANIFEST.json": "2b909a94ae18c338740395f248a60011f1655f385d7f1207bde7a8ce139cb3f6",
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ALTERNATE_EXTERIOR_RESIDUE_GROWTH_001/MANIFEST.json": "3b4c7e33ae3c0c4da836d6411088940d09eee1079049a214a8c82d2c5812c0c6",
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_TWO_UPPER_HOST_RESIDUE_COMPRESSION_001/MANIFEST.json": "87910c3b573b18261717a1fd764fa6d89642eba445798c06bca436cca006b9c6",
+    "research/ORDINARY_SPINE_EXCEPTIONAL_ALTERNATE_EXTERIOR_RESIDUE_GROWTH.md": "6324ce5accb9a06b7774edd56641179c9da8eaff4121656014a0193a4ff11d53",
+    "research/ORDINARY_SPINE_EXCEPTIONAL_TWO_UPPER_HOST_RESIDUE_COMPRESSION.md": "b18eb180e189907c17912206b28a0e394219b6e1458890e7958629e130f5acb9",
+    "research/ORDINARY_SPINE_ALTERNATING_EXCEPTIONAL_SPECTRUM.md": "73230a18d826361e0eb4eadfbf02e41cbb1aa3c5332c890bf75f48ed18a0e0fd"
+  },
+  "D174_accepted_closeout_sha256": "c74db95d8072f572c5df80950c2b80861548a75fb6b130de199bb80a21650f8f",
+  "D174_historical_pairs": 1,
+  "D174_historical_numerical_arms": 2,
+  "D174_historical_unentered": 3518,
+  "D174_all_even_R8_count": 93,
+  "D175_theorem_derived_D174_separators": [
+    {
+      "F": 12,
+      "K": 15,
+      "R": 8,
+      "all_even": true,
+      "digest": "6e054fa01f6f7d59ebfe6be9874dae92c8a22fe0d7d62d8e32290fef19cb6f9c",
+      "id": "target-0991",
+      "parameters": [
+        2,
+        2,
+        2,
+        2,
+        4,
+        2,
+        6
+      ],
+      "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+      "quota_four_count": 1,
+      "record_sha256": "872cad6156960080103d5f4278d9b4803d77bf7b6276b34a1f22ad150790b952",
+      "shard": "targets-015.json",
+      "suffix": [
+        [
+          2,
+          2,
+          2,
+          2,
+          4
+        ],
+        [
+          2,
+          6,
+          0
+        ]
+      ],
+      "d174_historical_disposition": "COMPLETED_H0_NO_H1_YES",
+      "symbolic_basis": "D175_H0_EXCLUSION_AND_H1_SUPPLY"
+    },
+    {
+      "F": 12,
+      "K": 15,
+      "R": 8,
+      "all_even": true,
+      "digest": "bb86c1f3717e8761e5b3805adc1e4fedbd23773711368f7365d2f27ad12966a6",
+      "id": "target-0997",
+      "parameters": [
+        2,
+        2,
+        2,
+        2,
+        4,
+        6,
+        2
+      ],
+      "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+      "quota_four_count": 1,
+      "record_sha256": "4c6e63873dcf062e547c18df266c5fad1560a4baea20cb47ad72c719291b03e8",
+      "shard": "targets-015.json",
+      "suffix": [
+        [
+          2,
+          2,
+          2,
+          2,
+          4
+        ],
+        [
+          6,
+          2,
+          0
+        ]
+      ],
+      "d174_historical_disposition": "UNENTERED",
+      "symbolic_basis": "D175_H0_EXCLUSION_AND_H1_SUPPLY"
+    },
+    {
+      "F": 12,
+      "K": 15,
+      "R": 8,
+      "all_even": true,
+      "digest": "ed5b8113750a10abd8604dc29109035a86e8cdc130d781da29e5dd0c427a7a0f",
+      "id": "target-1000",
+      "parameters": [
+        2,
+        2,
+        2,
+        4,
+        2,
+        2,
+        6
+      ],
+      "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+      "quota_four_count": 1,
+      "record_sha256": "41599e8acf8d8edeb304258b74406539e09d90964cedd45eba15de073b557800",
+      "shard": "targets-015.json",
+      "suffix": [
+        [
+          2,
+          2,
+          2,
+          4,
+          2
+        ],
+        [
+          2,
+          6,
+          0
+        ]
+      ],
+      "d174_historical_disposition": "UNENTERED",
+      "symbolic_basis": "D175_H0_EXCLUSION_AND_H1_SUPPLY"
+    },
+    {
+      "F": 12,
+      "K": 15,
+      "R": 8,
+      "all_even": true,
+      "digest": "c7878b0f33f782fa5c95a14e7c2c2fafcd16898642db103cd9c3706b229e5a00",
+      "id": "target-1006",
+      "parameters": [
+        2,
+        2,
+        2,
+        4,
+        2,
+        6,
+        2
+      ],
+      "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+      "quota_four_count": 1,
+      "record_sha256": "97206193a5f4921a65d8e5e48e9576ddc4e3741ab10a966d842de1883e32c264",
+      "shard": "targets-015.json",
+      "suffix": [
+        [
+          2,
+          2,
+          2,
+          4,
+          2
+        ],
+        [
+          6,
+          2,
+          0
+        ]
+      ],
+      "d174_historical_disposition": "UNENTERED",
+      "symbolic_basis": "D175_H0_EXCLUSION_AND_H1_SUPPLY"
+    },
+    {
+      "F": 12,
+      "K": 15,
+      "R": 8,
+      "all_even": true,
+      "digest": "eca2323153d6ca3a7d27b2293dcaebb3526261bdf5ace0ca38ba84ce1cae2a2d",
+      "id": "target-1072",
+      "parameters": [
+        2,
+        2,
+        4,
+        2,
+        2,
+        2,
+        6
+      ],
+      "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+      "quota_four_count": 1,
+      "record_sha256": "295b7d33e2c1b130bc8f46b6e7a64662ef7e921c49a94aa340d3e3b7ba81fe8e",
+      "shard": "targets-016.json",
+      "suffix": [
+        [
+          2,
+          2,
+          4,
+          2,
+          2
+        ],
+        [
+          2,
+          6,
+          0
+        ]
+      ],
+      "d174_historical_disposition": "UNENTERED",
+      "symbolic_basis": "D175_H0_EXCLUSION_AND_H1_SUPPLY"
+    },
+    {
+      "F": 12,
+      "K": 15,
+      "R": 8,
+      "all_even": true,
+      "digest": "8df40faef3c374d07052577a58f0761ace1050f69659cdc2be117c430c952f7c",
+      "id": "target-1078",
+      "parameters": [
+        2,
+        2,
+        4,
+        2,
+        2,
+        6,
+        2
+      ],
+      "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+      "quota_four_count": 1,
+      "record_sha256": "01be15dbfde6e184f49e4b72b7ecc001a01630c582079d83c60d0b87afafb0ac",
+      "shard": "targets-016.json",
+      "suffix": [
+        [
+          2,
+          2,
+          4,
+          2,
+          2
+        ],
+        [
+          6,
+          2,
+          0
+        ]
+      ],
+      "d174_historical_disposition": "UNENTERED",
+      "symbolic_basis": "D175_H0_EXCLUSION_AND_H1_SUPPLY"
+    },
+    {
+      "F": 12,
+      "K": 15,
+      "R": 8,
+      "all_even": true,
+      "digest": "ff1fa3111cce742ca64fec803b7c48783d2228884c5a615266fe601d85866f82",
+      "id": "target-1378",
+      "parameters": [
+        2,
+        4,
+        2,
+        2,
+        2,
+        2,
+        6
+      ],
+      "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+      "quota_four_count": 1,
+      "record_sha256": "7cddf28e43ca2c739f0d9c0d9eca9e1dc523d9e4dc756593e85e601d9e5a4c26",
+      "shard": "targets-021.json",
+      "suffix": [
+        [
+          2,
+          4,
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          6,
+          0
+        ]
+      ],
+      "d174_historical_disposition": "UNENTERED",
+      "symbolic_basis": "D175_H0_EXCLUSION_AND_H1_SUPPLY"
+    },
+    {
+      "F": 12,
+      "K": 15,
+      "R": 8,
+      "all_even": true,
+      "digest": "23fb1cf47c96392ec6028714de2da22d1975cf2ac14dce4bb8ddad97fd7bfd6f",
+      "id": "target-1384",
+      "parameters": [
+        2,
+        4,
+        2,
+        2,
+        2,
+        6,
+        2
+      ],
+      "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+      "quota_four_count": 1,
+      "record_sha256": "0fec52fd4d78ce1e5cfaf6118b092726324fbe2829b3b0f73e9951c9861a5350",
+      "shard": "targets-021.json",
+      "suffix": [
+        [
+          2,
+          4,
+          2,
+          2,
+          2
+        ],
+        [
+          6,
+          2,
+          0
+        ]
+      ],
+      "d174_historical_disposition": "UNENTERED",
+      "symbolic_basis": "D175_H0_EXCLUSION_AND_H1_SUPPLY"
+    },
+    {
+      "F": 12,
+      "K": 15,
+      "R": 8,
+      "all_even": true,
+      "digest": "6902258ad0f6f540e65a55cec7616594498aab982cce63f7a338cf574fa15fb0",
+      "id": "target-2746",
+      "parameters": [
+        4,
+        2,
+        2,
+        2,
+        2,
+        2,
+        6
+      ],
+      "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+      "quota_four_count": 1,
+      "record_sha256": "101851ad719ddfe9ae66800f17dca64d7eba4e502f198f89b73662371b4c9a1b",
+      "shard": "targets-042.json",
+      "suffix": [
+        [
+          4,
+          2,
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          6,
+          0
+        ]
+      ],
+      "d174_historical_disposition": "UNENTERED",
+      "symbolic_basis": "D175_H0_EXCLUSION_AND_H1_SUPPLY"
+    },
+    {
+      "F": 12,
+      "K": 15,
+      "R": 8,
+      "all_even": true,
+      "digest": "826dedad6803c7026cd99d5a674833617ead5669e345989b725860449cb5b582",
+      "id": "target-2752",
+      "parameters": [
+        4,
+        2,
+        2,
+        2,
+        2,
+        6,
+        2
+      ],
+      "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+      "quota_four_count": 1,
+      "record_sha256": "3c47816c60e7f5deb36d51963f101e17c05b42bab65bbba0c78e59aa5855bc10",
+      "shard": "targets-042.json",
+      "suffix": [
+        [
+          4,
+          2,
+          2,
+          2,
+          2
+        ],
+        [
+          6,
+          2,
+          0
+        ]
+      ],
+      "d174_historical_disposition": "UNENTERED",
+      "symbolic_basis": "D175_H0_EXCLUSION_AND_H1_SUPPLY"
+    }
+  ],
+  "original_index": {
+    "bytes": 2584649,
+    "sha256": "2a44f351df15912b1963948a1618f578bc12522a0a2d05c0db9b64f85f2b3947"
+  },
+  "independent_prefix": {
+    "bytes": 8781,
+    "sha256": "f48b56479dac85e1ddbbd36e5f6a6a3eaf94b9b32497e677fe5a96932abbac95",
+    "digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a"
+  },
+  "original_builder_blob": "8d1e9948e8bf5ef01e67c9afe0155412c57d79fa",
+  "original_checker_blob": "d008f35f0843e1a5c770db3e7f42ed7d987360d7",
+  "admission_process_cpu_seconds": 0.3125,
+  "admission_internal_wall_seconds": 2.2604172000010294,
+  "task": "LCL-ORDINARY-SPINE-EXCEPTIONAL-ODD-FIRST-CENTER-H1-MENU-001",
+  "local_head": "9f9dfea318667defaacf35c5ca4c7924f2229bb4",
+  "local_tracking_main": "9f9dfea318667defaacf35c5ca4c7924f2229bb4",
+  "live_lcl_main": "9f9dfea318667defaacf35c5ca4c7924f2229bb4",
+  "branch": "main",
+  "clean_start": true,
+  "divergence": [
+    0,
+    0
+  ],
+  "D175_changed_paths": 10,
+  "baseline_tag_object": "fddfc1dd9541324b2ed2de2505bc750b3e3f0b9d",
+  "baseline_peeled_commit": "36ea1603602491bf3c1c5b81ed4c23aaa2210e70",
+  "upstream_main": {
+    "Math_Discovery_Lab": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+    "MDL_Bounded_Search": "e48b94eec4091b4fe189e325cab2eda464409943"
+  },
+  "bounded_search_local_recovery_head": "c803ecb6bd0481d31af43f7e3c194ae8ed4d1578",
+  "local_intake_scope": "Read-only live refs, local Windows process census and exact retained-record checks. The read-only process census found no matching D174/D175/D176 campaign or worker command at intake. One writing agent and separately scheduled read-only reviewers.",
+  "director_scope": "Direct inspection of the published D175 identities and mathematical proof and direct arithmetic for the retained D174 control. Fresh full original-index retrieval could not be parsed by the Director. Prior verified index, unchanged continuity, exact combinatorial lattice and local reviews supply the retained basis. No Director reproduction of Windows custody, scientific searches or checker invocation.",
+  "admission_tool_wall_seconds": 3.6316856,
+  "live_ref_and_census_tool_wall_seconds": 6.1295182,
+  "scientific_counters": {
+    "numerical_search_nodes": 0,
+    "solver_allocation_states": 0,
+    "new_scientific_campaign_executions": 0
+  }
+}

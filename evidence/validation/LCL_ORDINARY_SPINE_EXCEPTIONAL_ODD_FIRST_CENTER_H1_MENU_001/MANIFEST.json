@@ -1,0 +1,95 @@
+{
+  "D174_projection": {
+    "all_even_R8": 93,
+    "derived_named_separators": 10,
+    "derived_separators_historically_unentered": 9,
+    "historical_completed_numerical_arms": 2,
+    "historical_completed_pairs": 1,
+    "historical_unentered": 3518,
+    "theorem": "D175"
+  },
+  "accepted_D175": {
+    "checkpoint": "9f9dfea318667defaacf35c5ca4c7924f2229bb4",
+    "manifest": {
+      "bytes": 3096,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ODD_FIRST_CENTER_DIRECT_PLACEMENT_001/MANIFEST.json",
+      "sha256": "1bf896f659d9f439eea2f6f43e1191f98265c90cdbb3b58440c5126b2038928a"
+    },
+    "proof": {
+      "bytes": 22394,
+      "path": "research/ORDINARY_SPINE_EXCEPTIONAL_ODD_FIRST_CENTER_DIRECT_PLACEMENT.md",
+      "sha256": "7e365ca57b8a4c66f4c63b7e31395d771ebe311a7959e5cbd63ac9ee9ec3ff8e"
+    },
+    "status": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE"
+  },
+  "authoritative_ledgers": {
+    "research/DECISIONS.md": {
+      "bytes": 152975,
+      "sha256": "0bf5fa33eb5d24fc797d4cef3a17268612fba339a9a86020d6c41bd13b7ee9fb"
+    },
+    "research/FAILED_HYPOTHESES.md": {
+      "bytes": 81830,
+      "sha256": "eea30ef275b6a7270369c5c014bfb8566202dda5fdccef4fbe1b95da4a103a55"
+    },
+    "research/FINDINGS.md": {
+      "bytes": 202099,
+      "sha256": "3ff82761bcb68509505db2e03a1763f4488143d1bb513a4626a30533dafe8522"
+    },
+    "research/PROOF_OBLIGATIONS.md": {
+      "bytes": 115274,
+      "sha256": "ba510b638288ff88729eaf647f28521d10ab60c501c8ccefc8173ba4bbfbaf39"
+    }
+  },
+  "canonical_state": {
+    "bytes": 97054,
+    "sha256": "c9f8ca7ee11e3bad6bcaf4037c7e1adaf95f87de43454499b6ea1d88f5344bd2"
+  },
+  "files": {
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ODD_FIRST_CENTER_H1_MENU_001/CUSTODY.json": {
+      "bytes": 12261,
+      "sha256": "307916192c91bb26c40c8075bc684b463cee184bfdeae66b968a8a50e7ad6e72"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ODD_FIRST_CENTER_H1_MENU_001/REVIEWS.md": {
+      "bytes": 3498,
+      "sha256": "c2b29431cf00ba6b8b6176f3a0d201ff91f8d32a1a66369a4cc4e3be49484c11"
+    },
+    "handoffs/CODEX-20261125-d176-odd-first-center-h1-menu.md": {
+      "bytes": 4557,
+      "sha256": "da15cfa134d1b06036035795c1ec3ccae0c524efb57e0f6bcd17a696027e8956"
+    },
+    "research/ORDINARY_SPINE_EXCEPTIONAL_ODD_FIRST_CENTER_H1_MENU.md": {
+      "bytes": 26803,
+      "sha256": "70966c13474d89eb9e02ac0fcfd086b3eb94b98fbb2c9509bcd066c3c4afb2e4"
+    }
+  },
+  "hash_convention": "Canonical LF for D176 text files. Frozen earlier evidence retains its original conventions.",
+  "parent": "9f9dfea318667defaacf35c5ca4c7924f2229bb4",
+  "phase": "SYMBOLIC_CLOSEOUT",
+  "result": {
+    "H1_geometry_menu": [
+      "I-a",
+      "I-b",
+      "II-a",
+      "II-b",
+      "II-c"
+    ],
+    "broad_multiple_four_gap_allocation": "OPEN_IN_THIS_INVESTIGATION",
+    "excluded_boundary": "r=3 within the exact admitted arrangement",
+    "gap_allocation_scope": "Exactly one quota-four first center, arbitrary admissible even second split, all physical orders with selectable numerical roles",
+    "supplied_multiplicity": "Every odd r>=5, II-a at smaller quota 2 and I-a otherwise"
+  },
+  "reviews": {
+    "director_D176": "PENDING",
+    "implementation_and_evidence_custody": "PASS_SCOPED",
+    "mathematical": "PASS_SCOPED"
+  },
+  "schema_version": 1,
+  "scientific_counters": {
+    "new_scientific_campaign_executions": 0,
+    "numerical_search_nodes": 0,
+    "solver_allocation_states": 0
+  },
+  "sole_next_action": "Submit the D176 symbolic outcome and separate reviews for Director review.",
+  "status": "PROVED_WITHIN_EXACT_WRITTEN_SCOPE_PENDING_DIRECTOR_REVIEW",
+  "task": "LCL-ORDINARY-SPINE-EXCEPTIONAL-ODD-FIRST-CENTER-H1-MENU-001"
+}

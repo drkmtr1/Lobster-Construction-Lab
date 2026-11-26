@@ -759,3 +759,7 @@ The terminal-enabled direct-leaf-in-gap class fails to cover all originals admit
 ## D175 — Complete H0 exclusion in the selected odd-center domain
 
 With odd r≥3 and second total r+3, the graph count and terminal balance force A=r+2 and one selected second terminal. Image four reserves upper index two for a second center. In H0 the restoration of the displaced reduced difference forces the selected lower terminal to label one and the sole selected first terminal to a parent at label three. Thus B=4 and the residual first contribution is odd while direct and upper host terms are even. H0 is raw-exterior positive even at r=3. This scoped exclusion applies symbolically to the 93 D174 all-even R=8 originals. Their saved historical dispositions remain distinct, with 92 unentered within that subset. [D175 proof](ORDINARY_SPINE_EXCEPTIONAL_ODD_FIRST_CENTER_DIRECT_PLACEMENT.md)
+
+## D176 — One-four boundary exclusion and limits of the H1 menu
+
+At r=3 and exactly one four, the forced neutral at reduced slot four excludes I-b and all II geometries. I-a requires its sole H image at index four from H₅ at shift one or H₆ at shift two. The first choice leaves L₅ without an upper source. The second leaves H₅ with both its upper images occupied. This excludes both upper numerical role choices and the full H1 class on that one-four boundary within the declared D157 arrangement. Raw I-a exterior supply survives. A raw menu entry elsewhere does not decide the separate gap-allocation question. [D176 proof](ORDINARY_SPINE_EXCEPTIONAL_ODD_FIRST_CENTER_H1_MENU.md)

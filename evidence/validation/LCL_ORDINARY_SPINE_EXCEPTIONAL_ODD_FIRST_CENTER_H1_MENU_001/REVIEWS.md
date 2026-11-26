@@ -1,0 +1,17 @@
+# D176 separate read-only reviews
+
+## Independent mathematical review
+
+**PASS within the stated scopes.** A separate reviewer read the proof, preceding interface and allocation arguments, and the actual saved D174 control. The reviewer independently verified the neutral and upper index two pins, required missing-weight restoration, residual moment equal to the gap width modulo two, and completeness of the five-geometry menu. The reconstructed raw spectra, exact capacities and width bounds all pass, including the distinct extra quota four for II-c. The two possible first-host H reservations at the exactly-one-four $r=3$ boundary both fail in every physical order and either numerical second role order.
+
+The reviewer challenged the I-a block hole sets and verified the two shifted paths and three special tail arrows, including empty middle blocks at $r=5$. The common holes never obstruct a used path. The smaller-quota role choice satisfies $3a\le r-5$ for all positive even splits requiring I-a. The accepted II-a allocation, full named reconstruction, physical crossing test, both partial inventories, both polarities and admitted immutable composition pass. No substantive corrections were required.
+
+The reviewer independently hashed and read the frozen target-0991 H1 certificate. Direct arithmetic confirmed all 18 II-a triples at named hosts, the original incidences, all 105 labels and 104 actual differences, the actual cut 54 and crossing spectrum [52,104], both partial inventories, the reduced spectra [0,12] and [1,12], and the literal unfinished connector with endpoint labels (4,104) and weight 100. The check used 0.00169 internal wall seconds and 0.7268567 observed tool wall seconds. Process CPU was below the timer resolution. No new candidate, scientific search, project-module import, checker or replay ran.
+
+## Independent implementation and evidence-custody review
+
+**PASS within the stated scopes.** A different read-only reviewer independently derived the ten frozen D175 projection records from the five possible quota-four positions and two physical second orders. The actual ordered profiles, named vertices and edges, canonical original-record hashes, graph digests, common prefix and exact cut matched. The ten include historical target-0991 and nine unentered originals. The frozen D174 historical outcome remains one completed pair, two numerical arms, a normal first-separator stop and 3,518 unentered originals. The two saved matched arm hashes agree.
+
+The reviewer rehashed nine D175 bindings and seven earlier identities, plus 18 D174 closeout bindings, 71 D174 preparation files, 63 retained inputs, five prepared authoritative files and canonical prepared STATE. The ten-path D175 Git continuity, local baseline tag and peel, original builder and checker identities and the scoped authoritative diff passed. The reviewer inspected the actual named-lifting rules, exact endpoint shifts, both complete first-section inventory partitions, physical cut sides, both polarities, immutable final-alphabet composition, and the matching unique next action in STATE and the handoff. The isolated read-only script used 0.765625 process CPU seconds, 4.7651474 internal wall seconds, and 6.1118294 observed tool wall seconds. No edits, numerical candidates, scientific search, project imports, checker, or replay were used.
+
+These are separate local D176 reviews. D175 has been accepted by the Director within its exact written scope. D176 awaits Director review.

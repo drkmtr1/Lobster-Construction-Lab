@@ -1017,4 +1017,8 @@ The Director accepted the official separator within the exact frozen finite exis
 
 ## D175 — Remaining direct-placement supply obligations
 
-The complete H0 question is resolved symbolically under the selected odd-center hypotheses. The explicit H1 construction supplies (r−1 twos, four), (2,r+1,0) for odd r≥5. Other H1 first inventories, other even second splits and the r=3 H1 boundary remain open here. D173's full feasible domain and the pinned shell initializer remain separate, as do D164's incomplete result and target-0429 T. The sole next action is Director review of D175. [D175 proof](ORDINARY_SPINE_EXCEPTIONAL_ODD_FIRST_CENTER_DIRECT_PLACEMENT.md)
+The complete H0 question is resolved symbolically under the selected odd-center hypotheses. The explicit H1 construction supplies (r−1 twos, four), (2,r+1,0) for odd r≥5. Other H1 first inventories, other even second splits and the r=3 H1 boundary remain open here. D173's full feasible domain and the pinned shell initializer remain separate, as do D164's incomplete result and target-0429 T. The Director accepted D175 in its exact scope. D176 separately addresses the one-four allocation and the complete geometry menu. [D175 proof](ORDINARY_SPINE_EXCEPTIONAL_ODD_FIRST_CENTER_DIRECT_PLACEMENT.md)
+
+## D176 — Geometry resolved and exact one-four allocation
+
+H1's five-geometry reduction holds over the broad D175 domain. The full exactly-one-four decision is now proved for all admissible second splits and physical orders. Gap allocation for inventories with multiple fours and the classification of individual preassigned numerical role orders remain separate obligations. D173's full feasible domain, independent shell initialization, D164's incomplete status and target-0429 T remain separate. The sole next action is Director review of D176. [D176 proof](ORDINARY_SPINE_EXCEPTIONAL_ODD_FIRST_CENTER_H1_MENU.md)
