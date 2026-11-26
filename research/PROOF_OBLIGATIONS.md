@@ -1094,3 +1094,7 @@ The two fixed-exterior baseline classifications and anchor-free and one-anchor g
 ## D194 — Scope beyond the common toggle blocks
 
 The stated common profiles admit both phases under full original size admission, with exact named topology and resource transport. Other phase-compatible profiles, small or empty sections, independent initialization outside the retained seed hypotheses and arbitrary decomposition remain open. The stated supplier needs an independently admitted actual prefix for every block. D191's numerical lane remains closed. The sole next action is Director review of the D194 symbolic outcome and separate reviews. [D194 proof](ORDINARY_SPINE_BIDIRECTIONAL_PHASE_TOGGLE_SUPPLIER.md)
+
+## D195 — Remaining initialization and decomposition obligations
+
+Constructive size admission is resolved for independently supplied D157-compatible exteriors and exact physical gap allocations. Original extreme-frontier one-section initialization is classified for one positive center. The stated single strict-to-exceptional empty block is supplied. Other original seed structures, arbitrary empty runs, broader small-section and phase compatibility, general local supply and decomposition of arbitrary original lobster spines remain open. Earlier relaxed-placement necessity and size-dependent obstructions retain their exact hypotheses. D194 is Director accepted and D191's numerical lane remains closed. [D195 proof](ORDINARY_SPINE_SIZE_INDEPENDENT_LIFT_AND_ORIGINAL_SEED.md)

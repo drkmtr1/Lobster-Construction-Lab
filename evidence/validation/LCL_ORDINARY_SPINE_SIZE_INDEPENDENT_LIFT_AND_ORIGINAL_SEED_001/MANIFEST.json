@@ -1,0 +1,327 @@
+{
+  "D174_history": {
+    "numerical_arms": 2,
+    "pairs": 1,
+    "stopping_rule": "FIRST_INDEPENDENTLY_VERIFIED_SEPARATOR",
+    "unentered": 3518
+  },
+  "D177_projection": {
+    "admitted_K_frequencies": {
+      "15": 15,
+      "16": 30,
+      "17": 30,
+      "18": 15,
+      "19": 3
+    },
+    "count": 93,
+    "historically_unentered": 92
+  },
+  "D191_numerical_lane": "SYMBOLICALLY_RESOLVED / NO_EXECUTION_NEEDED",
+  "accepted_D191": {
+    "changed_paths": 24,
+    "checkpoint": "afaba9252e6ca3544f9e3429c6a5f0aa82b6119a",
+    "corpus": {
+      "bytes": 5633720,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED_001_PREP/originals.jsonl",
+      "sha256": "60cd06497efe6a2a78523c3e48c8db77d00a907222edbe4fb047843bc51e1355"
+    },
+    "manifest": {
+      "bytes": 10603,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED_001_PREP/MANIFEST.json",
+      "sha256": "d739bb3fe1f6807233c12116e2b620ad0e1341145f4a0fcb696a4dfbd7f7f3e2"
+    },
+    "manifest_bindings": 23,
+    "numerical_lane": "SYMBOLICALLY_RESOLVED / NO_EXECUTION_NEEDED",
+    "proof": {
+      "bytes": 19212,
+      "path": "research/ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED.md",
+      "sha256": "0dfc6b38331e7f1d7fde41058038d5838133b66d7fec8139a61b84da30b781c3"
+    },
+    "source_bindings": 22,
+    "status": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE"
+  },
+  "accepted_D192": {
+    "changed_paths": 11,
+    "checkpoint": "5e2e883e5b502c2ea1274c55de051f10137c5ac1",
+    "manifest": {
+      "bytes": 6346,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_STRICT_SIGNED_INDEPENDENT_GROWTH_001/MANIFEST.json",
+      "sha256": "63d14c19919542140de2e0e802cdc5c90f3940800ac9e375f58cd835b9c0127c"
+    },
+    "manifest_bindings": 10,
+    "projection": {
+      "bytes": 49669,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_STRICT_SIGNED_INDEPENDENT_GROWTH_001/CORPUS_PROJECTION.json",
+      "sha256": "101178794669a3525a78be70186e7a0278014867ed93999a2c3cafb036ccdaaf"
+    },
+    "proof": {
+      "bytes": 29027,
+      "path": "research/ORDINARY_SPINE_STRICT_SIGNED_INDEPENDENT_GROWTH.md",
+      "sha256": "fe93c6a0bad8ea22437cc21a75404555fc3d0df79209e8c0d9f3b0bd8684fed1"
+    },
+    "status": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE"
+  },
+  "accepted_D193": {
+    "changed_paths": 11,
+    "checkpoint": "92a2f2ffe8bc50cb88d1e81b84abed84942ad86b",
+    "manifest": {
+      "bytes": 7577,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_STRICT_RESIDUE_TWO_ANCHOR_ECONOMY_001/MANIFEST.json",
+      "sha256": "dc83e8b86a165e4cb5d32225ed28e39418d047c75402d8b8e3450824ce84526c"
+    },
+    "manifest_bindings": 10,
+    "matched_pairs": 24,
+    "projection": {
+      "bytes": 95377,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_STRICT_RESIDUE_TWO_ANCHOR_ECONOMY_001/CORPUS_PROJECTION.json",
+      "sha256": "8c739c59414ceb462b635ee070e70d10475e189ac05b3a79189b5dc82792057a"
+    },
+    "projection_counts": {
+      "companion": 27,
+      "exceptional": 42,
+      "low": 42,
+      "role_choices": 114
+    },
+    "proof": {
+      "bytes": 33767,
+      "path": "research/ORDINARY_SPINE_STRICT_RESIDUE_TWO_ANCHOR_ECONOMY.md",
+      "sha256": "25ac031c254c9a6166339f18bf67bf56cf47ecc39fb935c9ed975b90a74cfd49"
+    },
+    "status": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE"
+  },
+  "accepted_D194": {
+    "changed_paths": 10,
+    "checkpoint": "415eb2edca5c154bebef3ab0ff6e4b46488987f5",
+    "corrected_crossing_starts": {
+      "E_outbound": 60,
+      "E_reverse": 51,
+      "H_final": 77
+    },
+    "director_acceptance": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE",
+    "manifest": {
+      "bytes": 11619,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_BIDIRECTIONAL_PHASE_TOGGLE_SUPPLIER_001/MANIFEST.json",
+      "sha256": "d00898646cdfbefd708ed346dbd83143fab0224efd0e32eeccdc9af92e64bfb1"
+    },
+    "manifest_bindings": 9,
+    "proof": {
+      "bytes": 37944,
+      "path": "research/ORDINARY_SPINE_BIDIRECTIONAL_PHASE_TOGGLE_SUPPLIER.md",
+      "sha256": "b0d8619c4105ec5e7d68db853293beb6b3031f77381ce9a208d73852d2a175d5"
+    },
+    "verified_control_spectra": 14
+  },
+  "authoritative_ledgers": {
+    "research/DECISIONS.md": {
+      "bytes": 180608,
+      "sha256": "4790e1f34c9f7372c9c0f228bc07ced0f87e139d6e01dc6a1ad643631c089bf8"
+    },
+    "research/FAILED_HYPOTHESES.md": {
+      "bytes": 94761,
+      "sha256": "01494fe715e8ecfc39beb3db13b3345efb49245269b137a56684ada29cda49d4"
+    },
+    "research/FINDINGS.md": {
+      "bytes": 223786,
+      "sha256": "26adb7b16c28c63f1b953131e13ef9fcc379c8aad1170b48039296189da0bba9"
+    },
+    "research/PROOF_OBLIGATIONS.md": {
+      "bytes": 128165,
+      "sha256": "75ec6e4a4e585d7a2424c36ba543ab768ca9f1e9d17b6ecd73902c974fe5da02"
+    }
+  },
+  "canonical_state": {
+    "bytes": 117929,
+    "sha256": "c907cdece1a9a4689b1569191844e2b63b48df3854f811b1913311053dda4b25"
+  },
+  "control_totals": {
+    "final_polarity_inventories": 6,
+    "frozen_originals": 12,
+    "local_polarity_inventories": 20,
+    "named_gap_arrows": 167,
+    "phase_states": 22
+  },
+  "cycle_I": {
+    "crossing": [
+      [
+        2,
+        4
+      ],
+      [
+        16,
+        30
+      ],
+      [
+        35,
+        70
+      ],
+      [
+        81,
+        160
+      ]
+    ],
+    "final_maximum_connector_labels": [
+      [
+        33,
+        134
+      ],
+      [
+        27,
+        143
+      ],
+      [
+        17,
+        160
+      ]
+    ],
+    "fresh_sizes": [
+      26,
+      40,
+      90
+    ],
+    "maximum_cuts": [
+      4,
+      17,
+      37,
+      82
+    ],
+    "noncrossing": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        15
+      ],
+      [
+        1,
+        34
+      ],
+      [
+        1,
+        80
+      ]
+    ],
+    "phases": [
+      -1,
+      0,
+      -1,
+      0
+    ],
+    "prefix_edges": [
+      4,
+      30,
+      70,
+      160
+    ],
+    "sections": 7
+  },
+  "files": {
+    "evidence/validation/LCL_ORDINARY_SPINE_SIZE_INDEPENDENT_LIFT_AND_ORIGINAL_SEED_001/CUSTODY.json": {
+      "bytes": 9263,
+      "sha256": "848330e09dec1eb193e5b8ed7a1fbda48eb76d914ef2f22cd4feb86ace618acb"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_SIZE_INDEPENDENT_LIFT_AND_ORIGINAL_SEED_001/NAMED_CONTROLS.json": {
+      "bytes": 476400,
+      "sha256": "df2a68de6ce848cb39bf333d4339353fe6597add417ae47cffba8da02293f7c0"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_SIZE_INDEPENDENT_LIFT_AND_ORIGINAL_SEED_001/ORIGINAL_CONTROLS.json": {
+      "bytes": 82470,
+      "sha256": "87e39fd7c3128e5c40d04f4267eecc3e3cba4aba21813457805d2dd358f05abf"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_SIZE_INDEPENDENT_LIFT_AND_ORIGINAL_SEED_001/REVIEWS.md": {
+      "bytes": 2962,
+      "sha256": "05546f5d5fc9cd3be406208e40f2da93ec141ac44a838f16aae5c6c67533369d"
+    },
+    "handoffs/CODEX-20261126-d195-size-independent-lift-and-original-seed.md": {
+      "bytes": 4342,
+      "sha256": "60595dcb6e58f2603aed6c1f25116e30762f29e13a9366c16e142aebaa45b59c"
+    },
+    "research/ORDINARY_SPINE_SIZE_INDEPENDENT_LIFT_AND_ORIGINAL_SEED.md": {
+      "bytes": 25083,
+      "sha256": "620454a59bf7ba10c6700d6154d2646c90805783813b88e37cdb28f14b578e05"
+    }
+  },
+  "hash_convention": "Canonical Git LF bytes for tracked text files in this manifest. Original control artifacts generated with LF.",
+  "limits": {
+    "new_evidence_bytes": 128000000,
+    "observed_wall_seconds": 3600,
+    "process_cpu_seconds": 1800
+  },
+  "outcome": "Size-independent constructive D157 lift with preserved local premises, exact extreme-root one-center seed classification, both complete inventories and polarities, finite immutable original composition.",
+  "parent": "415eb2edca5c154bebef3ab0ff6e4b46488987f5",
+  "review_status": {
+    "implementation_and_evidence_custody": "PASS",
+    "mathematical": "PASS",
+    "maximum_simultaneous_reviewers": 1
+  },
+  "schema_version": 1,
+  "scientific_counters": {
+    "historical_replays": 0,
+    "numerical_labeling_search_nodes": 0,
+    "official_scientific_campaign_executions": 0,
+    "original_checker_invocations": 0,
+    "solver_allocation_states": 0
+  },
+  "sole_next_action": "Director review of the D195 symbolic outcome and separate reviews.",
+  "source_dependencies": {
+    "AGENTS.md": {
+      "bytes": 8301,
+      "sha256": "ddb4b70c24cb5e1725d0c2e4ea8c2d522b4556b62b8bd69fdffd4205ece485db"
+    },
+    "lcl/model.py": {
+      "bytes": 10720,
+      "sha256": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6"
+    },
+    "lcl/verify.py": {
+      "bytes": 14075,
+      "sha256": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909"
+    },
+    "references/PROVENANCE.json": {
+      "bytes": 766,
+      "sha256": "aef6f71ab460265291366041a4144cd119a15a48c22398b6e535e9c5c73b0ace"
+    },
+    "research/ORDINARY_SPINE_ALTERNATING_EXCEPTIONAL_SPECTRUM.md": {
+      "bytes": 19060,
+      "sha256": "73230a18d826361e0eb4eadfbf02e41cbb1aa3c5332c890bf75f48ed18a0e0fd"
+    },
+    "research/ORDINARY_SPINE_BIDIRECTIONAL_PHASE_TOGGLE_SUPPLIER.md": {
+      "bytes": 37944,
+      "sha256": "b0d8619c4105ec5e7d68db853293beb6b3031f77381ce9a208d73852d2a175d5"
+    },
+    "research/ORDINARY_SPINE_EXCEPTIONAL_DIRECT_LEAF_SLOT_CONSTRUCTION.md": {
+      "bytes": 38316,
+      "sha256": "69d0ad43e114fa4200f8970c65ad88142036e8ed53600ccb8f64b9739126225c"
+    },
+    "research/ORDINARY_SPINE_EXCEPTIONAL_MOVABLE_TERMINAL_EXCHANGE.md": {
+      "bytes": 38467,
+      "sha256": "ecdfb53a5da09d4dcd0bddfd020d17f16ef4df0191a452e26bcef4a64753324f"
+    },
+    "research/ORDINARY_SPINE_EXCEPTIONAL_WHOLE_SECTION_MONOTONE_ALLOCATION.md": {
+      "bytes": 31840,
+      "sha256": "15e0e664c7e125a9e2bd63c7ff106fa1ef50de380c17326337d5b49d2312c3b4"
+    },
+    "research/ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED.md": {
+      "bytes": 19212,
+      "sha256": "0dfc6b38331e7f1d7fde41058038d5838133b66d7fec8139a61b84da30b781c3"
+    },
+    "research/ORDINARY_SPINE_PIECEWISE_CUT_SPECTRUM_TRANSITION.md": {
+      "bytes": 16708,
+      "sha256": "2b9b52c24293110f8e0b59b4ac73af11e4c14e77cb5ff7355ced236b6d271839"
+    },
+    "research/ORDINARY_SPINE_STRICT_RESIDUE_TWO_ANCHOR_ECONOMY.md": {
+      "bytes": 33767,
+      "sha256": "25ac031c254c9a6166339f18bf67bf56cf47ecc39fb935c9ed975b90a74cfd49"
+    },
+    "research/ORDINARY_SPINE_STRICT_SIGNED_INDEPENDENT_GROWTH.md": {
+      "bytes": 29027,
+      "sha256": "fe93c6a0bad8ea22437cc21a75404555fc3d0df79209e8c0d9f3b0bd8684fed1"
+    },
+    "research/ORDINARY_SPINE_TWO_SECTION_CUT_STATE.md": {
+      "bytes": 24015,
+      "sha256": "a7b4d98f286225bfb887866ce1b6167281b52bb650fcf53a50b0a5060e152cf8"
+    }
+  },
+  "status": "PROVED_WITHIN_EXACT_WRITTEN_SCOPE_PENDING_DIRECTOR_REVIEW",
+  "task": "LCL-ORDINARY-SPINE-SIZE-INDEPENDENT-LIFT-AND-ORIGINAL-SEED-001"
+}
