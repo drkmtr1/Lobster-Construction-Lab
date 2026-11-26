@@ -1,0 +1,106 @@
+{
+  "D174_history": {
+    "numerical_arms": 2,
+    "pairs": 1,
+    "stopping_rule": "FIRST_INDEPENDENTLY_VERIFIED_SEPARATOR",
+    "unentered": 3518
+  },
+  "accepted_D177_symbolic_projection": {
+    "admitted_K_frequencies": {
+      "15": 15,
+      "16": 30,
+      "17": 30,
+      "18": 15,
+      "19": 3
+    },
+    "count": 93,
+    "historically_unentered": 92
+  },
+  "accepted_D181": {
+    "checkpoint": "57f905453b425d5f69dbe0350cd277133618cdb4",
+    "manifest": {
+      "bytes": 4433,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_MIXED_FIRST_QUOTA_PARITY_001/MANIFEST.json",
+      "sha256": "9fbc636eb00ca35ce7dd0fa9aa6fa87f67e6f139c12e25576241395504c601f3"
+    },
+    "proof": {
+      "bytes": 33713,
+      "path": "research/ORDINARY_SPINE_EXCEPTIONAL_MIXED_FIRST_QUOTA_PARITY.md",
+      "sha256": "6ea34b37b797bbb2cf2ed3d6d40a4384a8520bb7c607f75b4d5cc6b439609809"
+    },
+    "status": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE"
+  },
+  "authoritative_ledgers": {
+    "research/DECISIONS.md": {
+      "bytes": 162387,
+      "sha256": "e2cfa49e6e1e98914c395b577a6d0464dcd5c3293d0522b2726b7e1e71dd5c2b"
+    },
+    "research/FAILED_HYPOTHESES.md": {
+      "bytes": 86170,
+      "sha256": "3d8fc480d76428afdb9db476b39e494eed8f73ff78031bec30320ebe27fd4adf"
+    },
+    "research/FINDINGS.md": {
+      "bytes": 208516,
+      "sha256": "036dd6ca75798124d4160b7bb3e6e6671e84f2c8a96ad92194e68ab275b7ab8b"
+    },
+    "research/PROOF_OBLIGATIONS.md": {
+      "bytes": 119556,
+      "sha256": "9bd8f91f067980168077bc08c0abf1682cccd30eebbff8848630ed5cc2424474"
+    }
+  },
+  "canonical_state": {
+    "bytes": 103630,
+    "sha256": "c9a325b05f2a9bfdbd5188a0055681bbc83dc2f9aeabf18a93a1cf01912d9251"
+  },
+  "files": {
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_PARITY_NEUTRAL_PACKETS_001/CUSTODY.json": {
+      "bytes": 6101,
+      "sha256": "fb4dcc5361db97b9fafeb5f9cb9c4b99830360dee79fc797a782ff4f54ec32b8"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_PARITY_NEUTRAL_PACKETS_001/REVIEWS.md": {
+      "bytes": 2553,
+      "sha256": "b0eab611f1eac4391dd1f607a978f9bf2c4fdd23627a5c04b00411c583c2e171"
+    },
+    "handoffs/CODEX-20261125-d182-parity-neutral-packets.md": {
+      "bytes": 3402,
+      "sha256": "b7a9a981ab3e028b2ff884d52f3d80da40bff0dd1ab55553a722705a67475ca7"
+    },
+    "research/ORDINARY_SPINE_EXCEPTIONAL_PARITY_NEUTRAL_PACKETS.md": {
+      "bytes": 38994,
+      "sha256": "35fcfc355882e6a7f892fecedd4b80f5e90f4803b86dc603dae1054f627fb7e7"
+    }
+  },
+  "hash_convention": "Canonical LF for D182 text. Earlier frozen evidence retains its original conventions.",
+  "parent": "57f905453b425d5f69dbe0350cd277133618cdb4",
+  "phase": "SYMBOLIC_CLOSEOUT",
+  "result": {
+    "criterion": "Terminal-enabled H1 in the declared D157 arrangement with actual second direct leaf exterior, no first direct leaf, physical orders and selectable numerical roles, independently supplied admitted named input and n>=2K, iff R>=r+3",
+    "geometry_specific_qualification": "With the supplied even weighted full first moment II-a requires even full P quota",
+    "open_scopes": [
+      "Second quota one",
+      "Odd first total",
+      "Preassigned numerical roles in general",
+      "Other numbers of second centers",
+      "Universal initialization",
+      "Arbitrary decomposition"
+    ],
+    "principal": "Integer g>=1, e=g mod 2, odd r>=8g+4e+21, exactly 2g positive odd first quotas, other positive even first quotas including one >=4, p,q>=2 of the same parity",
+    "secondary": "Exact threshold at smaller second quota 2, 3 or 4 for odd r>=2g+5+e. Additional baseline-dependent sufficient bounds in proof.",
+    "supplier": "Width-five I-a and II-a with independently expandable parity-neutral three- and four-host packets, exact signed promotion bounds, even active triples where needed, even-host tails and exact second growth"
+  },
+  "reviews": {
+    "director_D182": "PENDING",
+    "implementation_and_evidence_custody": "PASS_SCOPED",
+    "mathematical": "PASS_SCOPED"
+  },
+  "schema_version": 1,
+  "scientific_counters": {
+    "historical_replays": 0,
+    "new_scientific_campaign_executions": 0,
+    "numerical_search_nodes": 0,
+    "solver_allocation_states": 0
+  },
+  "sole_next_action": "Submit the D182 symbolic outcome and separate reviews for Director review.",
+  "status": "PROVED_WITHIN_EXACT_WRITTEN_SCOPE_PENDING_DIRECTOR_REVIEW",
+  "task": "LCL-ORDINARY-SPINE-EXCEPTIONAL-PARITY-NEUTRAL-PACKETS-001"
+}

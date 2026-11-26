@@ -783,3 +783,7 @@ In the two specified width-five II-a and I-b geometries the folded image-minus-s
 ## D181 — H1 graph threshold and I-a mixed parity qualification
 
 In the declared terminal-enabled H1 arrangement a compatible exterior forces R≥r+3 by independent graph counts and terminal balance, also with the stated mixed first quotas. The fixed I-a geometry further requires the sum of the full first quotas weighted by their actual numerical lower shifts to be even. A role assignment failing that moment cannot complete I-a. Mixed packets pair odd capacities at same-parity shifts and supply the exact row bijection. The moment alone is only a necessary qualification and the graph threshold concerns the declared terminal-enabled class. [D181 proof](ORDINARY_SPINE_EXCEPTIONAL_MIXED_FIRST_QUOTA_PARITY.md#1-exact-topology-and-necessary-threshold)
+
+## D182 — Terminal-enabled graph threshold and scoped II-a moment
+
+For the declared H1 arrangement, R<r+3 remains infeasible even when odd first quotas may be one. This follows from the graph-color counts and terminal balance, independently of h. On the selected II-a assignments with even full displacement moment, odd full quota at P fails the index parity moment. I-a does not have this parity restriction on its selected roles. An unsuccessful role assignment does not exclude another assignment or another exterior. [D182 proof](ORDINARY_SPINE_EXCEPTIONAL_PARITY_NEUTRAL_PACKETS.md)
