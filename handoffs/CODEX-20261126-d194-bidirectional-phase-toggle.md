@@ -1,0 +1,19 @@
+# Continuity handoff — D194 bidirectional phase toggle
+
+**Task** LCL-ORDINARY-SPINE-BIDIRECTIONAL-PHASE-TOGGLE-SUPPLIER-001. November 26, 2026, Pacific/Honolulu. LCL main, parent `92a2f2ffe8bc50cb88d1e81b84abed84942ad86b`. Resolve the containing checkpoint through Git.
+
+## Research disposition
+
+**PROVED WITHIN EXACT WRITTEN SCOPE / PENDING DIRECTOR REVIEW.** D194 proves a bidirectional phase toggle on the same indexed original profiles (h+4,h) and (p,h+3) with respectively 2h−3 and 2h−2 direct leaves. Its two phase-dependent numerical exteriors use distinct first roles on the same physical vertices. The outbound companion uses separation one at h=2,4 with even p≥4, or separation three at h≡2 modulo six with even p≥2(h+3)+4. The reverse uses five fixed neutral identities and a Q growth strip. The signed baseline theorem gives exact residue support for the two baseline first inventories on the fixed strict-input layouts, and its moment forbids even separation on the stated outbound exterior beyond baseline. Both inventories and polarities, named anchor transport and immutable admitted composition are proved. D157's threshold corrects the proposed crossing starts in E reverse, E outbound and H final to 51, 60 and 77, with the original cuts and sizes retained. [D194 proof](../research/ORDINARY_SPINE_BIDIRECTIONAL_PHASE_TOGGLE_SUPPLIER.md)
+
+The Director accepted D193 at `92a2f2ffe8bc50cb88d1e81b84abed84942ad86b` with manifest SHA-256 `dc83e8b86a165e4cb5d32225ed28e39418d047c75402d8b8e3450824ce84526c`, primary proof SHA-256 `25ac031c254c9a6166339f18bf67bf56cf47ecc39fb935c9ed975b90a74cfd49` and projection SHA-256 `8c739c59414ceb462b635ee070e70d10475e189ac05b3a79189b5dc82792057a`. The Director verified live continuity, eleven changed paths and ten manifested bindings, retained D191/D192 and protected tooling, and all 69 strict records, 114 eligible role choices, 42 exceptional bindings and 24 matched identities. The 42/27/24 projection and 74→94→116→138→158→178→198 composition retain their exact scopes, and the new odd low companions remain unclassified. Local custody, clean-worktree status and full historical audits are separately reported. The Director invoked no original checker. [D193 proof](../research/ORDINARY_SPINE_STRICT_RESIDUE_TWO_ANCHOR_ECONOMY.md)
+
+D192's frozen 24/27/24, D193's frozen 42/27/24, all 584 original records and both independent prefixes retain their identities. D191 remains SYMBOLICALLY_RESOLVED / NO_EXECUTION_NEEDED. D190, D189 and D188 remain separately accepted. D177's accepted 93-original symbolic projection includes 92 historically unentered originals. D174 historically completed one pair and two numerical arms and left 3,518 originals unentered. D173's full feasible domain, D172's separator and unentered originals, D164 INCOMPLETE/UNDECIDED and target-0429 T unresolved, D161 and D154 accepted evidence, D148 incomplete status and accepted evidence, the closed pilot, sealed D130, 2322 DEFERRED/UNSTARTED, literature obligations and the unstarted pinned two-host shell lift retain their recorded scopes.
+
+## Work and checks
+
+The phase-aware inventories, named original constructions, all A–H symbolic controls, the adverse baseline, and the 74→100→126→152 composition were checked. Numerical search, allocation states, original-checker invocations, campaign executions and historical replays were zero. Live and local LCL, accepted evidence, protected builder and checker, both upstream pins, and baseline tag and peel were verified. [Custody](../evidence/validation/LCL_ORDINARY_SPINE_BIDIRECTIONAL_PHASE_TOGGLE_SUPPLIER_001/CUSTODY.json) · [Reviews](../evidence/validation/LCL_ORDINARY_SPINE_BIDIRECTIONAL_PHASE_TOGGLE_SUPPLIER_001/REVIEWS.md) · [Manifest](../evidence/validation/LCL_ORDINARY_SPINE_BIDIRECTIONAL_PHASE_TOGGLE_SUPPLIER_001/MANIFEST.json)
+
+## One next action
+
+Director review of the D194 symbolic outcome and separate reviews.

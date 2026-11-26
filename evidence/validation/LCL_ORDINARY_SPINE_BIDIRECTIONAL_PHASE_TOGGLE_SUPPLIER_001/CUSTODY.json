@@ -1,0 +1,476 @@
+{
+  "parent": "92a2f2ffe8bc50cb88d1e81b84abed84942ad86b",
+  "prior_parent": "5e2e883e5b502c2ea1274c55de051f10137c5ac1",
+  "accepted_D193": {
+    "manifest": {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_STRICT_RESIDUE_TWO_ANCHOR_ECONOMY_001/MANIFEST.json",
+      "bytes": 7577,
+      "sha256": "dc83e8b86a165e4cb5d32225ed28e39418d047c75402d8b8e3450824ce84526c"
+    },
+    "proof": {
+      "path": "research/ORDINARY_SPINE_STRICT_RESIDUE_TWO_ANCHOR_ECONOMY.md",
+      "bytes": 33767,
+      "sha256": "25ac031c254c9a6166339f18bf67bf56cf47ecc39fb935c9ed975b90a74cfd49"
+    },
+    "projection": {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_STRICT_RESIDUE_TWO_ANCHOR_ECONOMY_001/CORPUS_PROJECTION.json",
+      "bytes": 95377,
+      "sha256": "8c739c59414ceb462b635ee070e70d10475e189ac05b3a79189b5dc82792057a"
+    },
+    "manifest_bindings": 10,
+    "changed_paths": 11,
+    "projection_counts": {
+      "role_choices": 114,
+      "companion": 27,
+      "exceptional": 42,
+      "low": 42
+    },
+    "matched_pairs": 24
+  },
+  "accepted_D192": {
+    "changed_paths": 11,
+    "checkpoint": "5e2e883e5b502c2ea1274c55de051f10137c5ac1",
+    "manifest": {
+      "bytes": 6346,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_STRICT_SIGNED_INDEPENDENT_GROWTH_001/MANIFEST.json",
+      "sha256": "63d14c19919542140de2e0e802cdc5c90f3940800ac9e375f58cd835b9c0127c"
+    },
+    "manifest_bindings": 10,
+    "projection": {
+      "bytes": 49669,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_STRICT_SIGNED_INDEPENDENT_GROWTH_001/CORPUS_PROJECTION.json",
+      "sha256": "101178794669a3525a78be70186e7a0278014867ed93999a2c3cafb036ccdaaf"
+    },
+    "proof": {
+      "bytes": 29027,
+      "path": "research/ORDINARY_SPINE_STRICT_SIGNED_INDEPENDENT_GROWTH.md",
+      "sha256": "fe93c6a0bad8ea22437cc21a75404555fc3d0df79209e8c0d9f3b0bd8684fed1"
+    },
+    "status": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE"
+  },
+  "accepted_D191": {
+    "changed_paths": 24,
+    "checkpoint": "afaba9252e6ca3544f9e3429c6a5f0aa82b6119a",
+    "corpus": {
+      "bytes": 5633720,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED_001_PREP/originals.jsonl",
+      "sha256": "60cd06497efe6a2a78523c3e48c8db77d00a907222edbe4fb047843bc51e1355"
+    },
+    "manifest": {
+      "bytes": 10603,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED_001_PREP/MANIFEST.json",
+      "sha256": "d739bb3fe1f6807233c12116e2b620ad0e1341145f4a0fcb696a4dfbd7f7f3e2"
+    },
+    "manifest_bindings": 23,
+    "numerical_lane": "SYMBOLICALLY_RESOLVED / NO_EXECUTION_NEEDED",
+    "proof": {
+      "bytes": 19212,
+      "path": "research/ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED.md",
+      "sha256": "0dfc6b38331e7f1d7fde41058038d5838133b66d7fec8139a61b84da30b781c3"
+    },
+    "source_bindings": 22,
+    "status": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE"
+  },
+  "strict_prefix": {
+    "edges": 94,
+    "vertices": 95,
+    "maximum_cut": 49,
+    "frontier": "s:29",
+    "maximum_frontier_label": 94,
+    "crossing": [
+      48,
+      94
+    ],
+    "noncrossing": [
+      1,
+      47
+    ],
+    "spine_vertices": 30,
+    "max_distance_to_spine": 2,
+    "digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0"
+  },
+  "exceptional_prefix": {
+    "edges": 74,
+    "vertices": 75,
+    "maximum_cut": 39,
+    "frontier": "s:27",
+    "maximum_frontier_label": 74,
+    "crossing": [
+      37,
+      74
+    ],
+    "noncrossing": [
+      1,
+      36
+    ],
+    "spine_vertices": 28,
+    "max_distance_to_spine": 2,
+    "digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a"
+  },
+  "original_builder_blob": "8d1e9948e8bf5ef01e67c9afe0155412c57d79fa",
+  "original_checker_blob": "d008f35f0843e1a5c770db3e7f42ed7d987360d7",
+  "D174_history": {
+    "numerical_arms": 2,
+    "pairs": 1,
+    "stopping_rule": "FIRST_INDEPENDENTLY_VERIFIED_SEPARATOR",
+    "unentered": 3518
+  },
+  "D177_projection": {
+    "admitted_K_frequencies": {
+      "15": 15,
+      "16": 30,
+      "17": 30,
+      "18": 15,
+      "19": 3
+    },
+    "count": 93,
+    "historically_unentered": 92
+  },
+  "admission_process_cpu_seconds": 1.171875,
+  "admission_process_wall_seconds": 5.387582099996507,
+  "task": "LCL-ORDINARY-SPINE-BIDIRECTIONAL-PHASE-TOGGLE-SUPPLIER-001",
+  "status": "PROVED_WITHIN_EXACT_WRITTEN_SCOPE_PENDING_DIRECTOR_REVIEW",
+  "continuity": {
+    "branch": "main",
+    "live_main_at_admission": "92a2f2ffe8bc50cb88d1e81b84abed84942ad86b",
+    "origin_main_at_admission": "92a2f2ffe8bc50cb88d1e81b84abed84942ad86b",
+    "clean_worktree_at_admission": true,
+    "divergence": [
+      0,
+      0
+    ],
+    "baseline_tag": "lcl-v0.1.0-baseline",
+    "tag_object": "fddfc1dd9541324b2ed2de2505bc750b3e3f0b9d",
+    "tag_peel": "36ea1603602491bf3c1c5b81ed4c23aaa2210e70",
+    "upstream_live_main_pins": {
+      "drkmtr1/Math-Discovery-Lab": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+      "drkmtr1/MDL_Bounded_Search": "e48b94eec4091b4fe189e325cab2eda464409943"
+    },
+    "writers": 1,
+    "maximum_simultaneous_reviewers": 1,
+    "matching_windows_processes_outside_census": 0
+  },
+  "D193_director_acceptance": {
+    "status": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE",
+    "direct_basis": "Live main and one-commit continuity; eleven changed paths and ten manifest bindings; actual proof, reviews and custody; retained D191/D192 identities and protected refs/tooling; all 69 strict bindings, 114 eligible numerical role choices, 42 exceptional bindings and 24 matched pair identities.",
+    "separate_local_basis": "Local Windows custody, clean-worktree status and full historical audits are separately reported. Previously verified corpus and prefix identities were retained through continuity without historical replay. No original checker in Director review.",
+    "accepted_composition": [
+      74,
+      94,
+      116,
+      138,
+      158,
+      178,
+      198
+    ],
+    "accepted_projection": {
+      "low": 42,
+      "companion": 27,
+      "matched_pairs": 24,
+      "additional_odd_low": 18
+    }
+  },
+  "D191_numerical_lane": "SYMBOLICALLY_RESOLVED / NO_EXECUTION_NEEDED",
+  "symbolic_controls": {
+    "A_strict": {
+      "input_edges": 94,
+      "input_phase": 0,
+      "input_maximum_cut": 49,
+      "fresh_edges": 22,
+      "output_edges": 116,
+      "output_phase": 0,
+      "output_maximum_cut": 60,
+      "crossing": [
+        59,
+        116
+      ],
+      "noncrossing": [
+        1,
+        58
+      ]
+    },
+    "B_low": {
+      "input_edges": 94,
+      "input_phase": 0,
+      "input_maximum_cut": 49,
+      "fresh_edges": 22,
+      "output_edges": 116,
+      "output_phase": -1,
+      "output_maximum_cut": 60,
+      "crossing": [
+        58,
+        116
+      ],
+      "noncrossing": [
+        1,
+        57
+      ]
+    },
+    "B_companion": {
+      "input_edges": 94,
+      "input_phase": 0,
+      "input_maximum_cut": 49,
+      "fresh_edges": 20,
+      "output_edges": 114,
+      "output_phase": -1,
+      "output_maximum_cut": 59,
+      "crossing": [
+        57,
+        114
+      ],
+      "noncrossing": [
+        1,
+        56
+      ]
+    },
+    "C": {
+      "input_edges": 94,
+      "input_phase": 0,
+      "input_maximum_cut": 49,
+      "fresh_edges": 20,
+      "output_edges": 114,
+      "output_phase": -1,
+      "output_maximum_cut": 59,
+      "crossing": [
+        57,
+        114
+      ],
+      "noncrossing": [
+        1,
+        56
+      ]
+    },
+    "D": {
+      "input_edges": 94,
+      "input_phase": 0,
+      "input_maximum_cut": 49,
+      "fresh_edges": 38,
+      "output_edges": 132,
+      "output_phase": -1,
+      "output_maximum_cut": 68,
+      "crossing": [
+        66,
+        132
+      ],
+      "noncrossing": [
+        1,
+        65
+      ]
+    },
+    "E_reverse": {
+      "input_edges": 74,
+      "input_phase": -1,
+      "input_maximum_cut": 39,
+      "fresh_edges": 26,
+      "output_edges": 100,
+      "output_phase": 0,
+      "output_maximum_cut": 52,
+      "crossing": [
+        51,
+        100
+      ],
+      "noncrossing": [
+        1,
+        50
+      ]
+    },
+    "E_outbound": {
+      "input_edges": 94,
+      "input_phase": 0,
+      "input_maximum_cut": 49,
+      "fresh_edges": 26,
+      "output_edges": 120,
+      "output_phase": -1,
+      "output_maximum_cut": 62,
+      "crossing": [
+        60,
+        120
+      ],
+      "noncrossing": [
+        1,
+        59
+      ]
+    },
+    "F_reverse": {
+      "input_edges": 74,
+      "input_phase": -1,
+      "input_maximum_cut": 39,
+      "fresh_edges": 40,
+      "output_edges": 114,
+      "output_phase": 0,
+      "output_maximum_cut": 59,
+      "crossing": [
+        58,
+        114
+      ],
+      "noncrossing": [
+        1,
+        57
+      ]
+    },
+    "F_outbound": {
+      "input_edges": 94,
+      "input_phase": 0,
+      "input_maximum_cut": 49,
+      "fresh_edges": 40,
+      "output_edges": 134,
+      "output_phase": -1,
+      "output_maximum_cut": 69,
+      "crossing": [
+        67,
+        134
+      ],
+      "noncrossing": [
+        1,
+        66
+      ]
+    },
+    "G_outbound": {
+      "input_edges": 94,
+      "input_phase": 0,
+      "input_maximum_cut": 49,
+      "fresh_edges": 90,
+      "output_edges": 184,
+      "output_phase": -1,
+      "output_maximum_cut": 94,
+      "crossing": [
+        92,
+        184
+      ],
+      "noncrossing": [
+        1,
+        91
+      ]
+    },
+    "G_reverse": {
+      "input_edges": 120,
+      "input_phase": -1,
+      "input_maximum_cut": 62,
+      "fresh_edges": 90,
+      "output_edges": 210,
+      "output_phase": 0,
+      "output_maximum_cut": 107,
+      "crossing": [
+        106,
+        210
+      ],
+      "noncrossing": [
+        1,
+        105
+      ]
+    },
+    "H_copy_1": {
+      "input_edges": 74,
+      "input_phase": -1,
+      "input_maximum_cut": 39,
+      "fresh_edges": 26,
+      "output_edges": 100,
+      "output_phase": 0,
+      "output_maximum_cut": 52,
+      "crossing": [
+        51,
+        100
+      ],
+      "noncrossing": [
+        1,
+        50
+      ]
+    },
+    "H_copy_2": {
+      "input_edges": 100,
+      "input_phase": 0,
+      "input_maximum_cut": 52,
+      "fresh_edges": 26,
+      "output_edges": 126,
+      "output_phase": -1,
+      "output_maximum_cut": 65,
+      "crossing": [
+        63,
+        126
+      ],
+      "noncrossing": [
+        1,
+        62
+      ]
+    },
+    "H_copy_3": {
+      "input_edges": 126,
+      "input_phase": -1,
+      "input_maximum_cut": 65,
+      "fresh_edges": 26,
+      "output_edges": 152,
+      "output_phase": 0,
+      "output_maximum_cut": 78,
+      "crossing": [
+        77,
+        152
+      ],
+      "noncrossing": [
+        1,
+        76
+      ]
+    }
+  },
+  "corrected_requested_crossing_starts": {
+    "E_reverse": {
+      "requested": 50,
+      "derived": 51
+    },
+    "E_outbound": {
+      "requested": 59,
+      "derived": 60
+    },
+    "H_final": {
+      "requested": 76,
+      "derived": 77
+    }
+  },
+  "cycle_H": {
+    "edges": [
+      74,
+      100,
+      126,
+      152
+    ],
+    "phases": [
+      -1,
+      0,
+      -1,
+      0
+    ],
+    "maximum_cuts": [
+      39,
+      52,
+      65,
+      78
+    ],
+    "final_connectors": [
+      [
+        17,
+        142
+      ],
+      [
+        11,
+        147
+      ],
+      [
+        5,
+        152
+      ]
+    ]
+  },
+  "limits": {
+    "process_cpu_seconds": 1800,
+    "observed_wall_seconds": 3600,
+    "new_evidence_bytes": 128000000
+  },
+  "elapsed_wall_seconds_through_custody_draft": 449,
+  "scientific_counters": {
+    "numerical_search_nodes": 0,
+    "solver_allocation_states": 0,
+    "original_checker_invocations": 0,
+    "official_numerical_campaign_executions": 0,
+    "historical_replays": 0
+  },
+  "sole_next_action": "Director review of the D194 symbolic outcome and separate reviews."
+}

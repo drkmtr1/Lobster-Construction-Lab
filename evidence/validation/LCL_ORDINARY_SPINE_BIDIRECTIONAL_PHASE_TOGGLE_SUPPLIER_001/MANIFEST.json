@@ -1,0 +1,449 @@
+{
+  "D174_history": {
+    "numerical_arms": 2,
+    "pairs": 1,
+    "stopping_rule": "FIRST_INDEPENDENTLY_VERIFIED_SEPARATOR",
+    "unentered": 3518
+  },
+  "accepted_D177_projection": {
+    "admitted_K_frequencies": {
+      "15": 15,
+      "16": 30,
+      "17": 30,
+      "18": 15,
+      "19": 3
+    },
+    "count": 93,
+    "historically_unentered": 92
+  },
+  "accepted_D191": {
+    "changed_paths": 24,
+    "checkpoint": "afaba9252e6ca3544f9e3429c6a5f0aa82b6119a",
+    "corpus": {
+      "bytes": 5633720,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED_001_PREP/originals.jsonl",
+      "sha256": "60cd06497efe6a2a78523c3e48c8db77d00a907222edbe4fb047843bc51e1355"
+    },
+    "manifest": {
+      "bytes": 10603,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED_001_PREP/MANIFEST.json",
+      "sha256": "d739bb3fe1f6807233c12116e2b620ad0e1341145f4a0fcb696a4dfbd7f7f3e2"
+    },
+    "manifest_bindings": 23,
+    "numerical_lane": "SYMBOLICALLY_RESOLVED / NO_EXECUTION_NEEDED",
+    "proof": {
+      "bytes": 19212,
+      "path": "research/ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED.md",
+      "sha256": "0dfc6b38331e7f1d7fde41058038d5838133b66d7fec8139a61b84da30b781c3"
+    },
+    "source_bindings": 22,
+    "status": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE"
+  },
+  "accepted_D192": {
+    "changed_paths": 11,
+    "checkpoint": "5e2e883e5b502c2ea1274c55de051f10137c5ac1",
+    "manifest": {
+      "bytes": 6346,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_STRICT_SIGNED_INDEPENDENT_GROWTH_001/MANIFEST.json",
+      "sha256": "63d14c19919542140de2e0e802cdc5c90f3940800ac9e375f58cd835b9c0127c"
+    },
+    "manifest_bindings": 10,
+    "projection": {
+      "bytes": 49669,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_STRICT_SIGNED_INDEPENDENT_GROWTH_001/CORPUS_PROJECTION.json",
+      "sha256": "101178794669a3525a78be70186e7a0278014867ed93999a2c3cafb036ccdaaf"
+    },
+    "proof": {
+      "bytes": 29027,
+      "path": "research/ORDINARY_SPINE_STRICT_SIGNED_INDEPENDENT_GROWTH.md",
+      "sha256": "fe93c6a0bad8ea22437cc21a75404555fc3d0df79209e8c0d9f3b0bd8684fed1"
+    },
+    "status": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE"
+  },
+  "accepted_D193": {
+    "changed_paths": 11,
+    "checkpoint": "92a2f2ffe8bc50cb88d1e81b84abed84942ad86b",
+    "manifest": {
+      "bytes": 7577,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_STRICT_RESIDUE_TWO_ANCHOR_ECONOMY_001/MANIFEST.json",
+      "sha256": "dc83e8b86a165e4cb5d32225ed28e39418d047c75402d8b8e3450824ce84526c"
+    },
+    "manifest_bindings": 10,
+    "matched_pairs": 24,
+    "projection": {
+      "bytes": 95377,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_STRICT_RESIDUE_TWO_ANCHOR_ECONOMY_001/CORPUS_PROJECTION.json",
+      "sha256": "8c739c59414ceb462b635ee070e70d10475e189ac05b3a79189b5dc82792057a"
+    },
+    "projection_counts": {
+      "companion": 27,
+      "exceptional": 42,
+      "low": 42,
+      "role_choices": 114
+    },
+    "proof": {
+      "bytes": 33767,
+      "path": "research/ORDINARY_SPINE_STRICT_RESIDUE_TWO_ANCHOR_ECONOMY.md",
+      "sha256": "25ac031c254c9a6166339f18bf67bf56cf47ecc39fb935c9ed975b90a74cfd49"
+    },
+    "status": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE"
+  },
+  "authoritative_ledgers": {
+    "research/DECISIONS.md": {
+      "bytes": 178804,
+      "sha256": "7f3bae1efde769212e67f70fe3d5e1fe4485e6b111663478a3aa981502c98e69"
+    },
+    "research/FAILED_HYPOTHESES.md": {
+      "bytes": 94015,
+      "sha256": "fea83c9c49aa80439a3f5cd69238c875fcc295ca248f9287fcaf79c2334ede04"
+    },
+    "research/FINDINGS.md": {
+      "bytes": 222216,
+      "sha256": "f6ab16498948738619af147503872bdf111182ecf29a2e6ac98762049024ec22"
+    },
+    "research/PROOF_OBLIGATIONS.md": {
+      "bytes": 127381,
+      "sha256": "8adc833c81302db00ded0abf22ddd5492257bd3e33966d22025db6046e923bac"
+    }
+  },
+  "canonical_state": {
+    "bytes": 116908,
+    "sha256": "a96c9f84721e1c9f7e1b2e92748d6e4f47fa6936d5261395afefcc779be3bc92"
+  },
+  "corrected_requested_crossing_starts": {
+    "E_outbound": {
+      "derived": 60,
+      "requested": 59
+    },
+    "E_reverse": {
+      "derived": 51,
+      "requested": 50
+    },
+    "H_final": {
+      "derived": 77,
+      "requested": 76
+    }
+  },
+  "cycle_H": {
+    "edges": [
+      74,
+      100,
+      126,
+      152
+    ],
+    "final_connectors": [
+      [
+        17,
+        142
+      ],
+      [
+        11,
+        147
+      ],
+      [
+        5,
+        152
+      ]
+    ],
+    "maximum_cuts": [
+      39,
+      52,
+      65,
+      78
+    ],
+    "phases": [
+      -1,
+      0,
+      -1,
+      0
+    ]
+  },
+  "files": {
+    "evidence/validation/LCL_ORDINARY_SPINE_BIDIRECTIONAL_PHASE_TOGGLE_SUPPLIER_001/CUSTODY.json": {
+      "bytes": 11797,
+      "sha256": "877a4a09609778181d6c2e8dbbf3200bddb08d96a7b7215514181056ea54f0f3"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_BIDIRECTIONAL_PHASE_TOGGLE_SUPPLIER_001/REVIEWS.md": {
+      "bytes": 2326,
+      "sha256": "826399c5983428f44a762698b08a4f46beb754c6e5ed488b3ec331597696a71d"
+    },
+    "handoffs/CODEX-20261126-d194-bidirectional-phase-toggle.md": {
+      "bytes": 3950,
+      "sha256": "d209ae3be613b311c6ad17055e06848a30cf4aa63e63901ae7430e898ad008cd"
+    },
+    "research/ORDINARY_SPINE_BIDIRECTIONAL_PHASE_TOGGLE_SUPPLIER.md": {
+      "bytes": 37944,
+      "sha256": "b0d8619c4105ec5e7d68db853293beb6b3031f77381ce9a208d73852d2a175d5"
+    }
+  },
+  "hash_convention": "Canonical LF for D194 notes and evidence. Prior frozen artifacts retain original conventions.",
+  "parent": "92a2f2ffe8bc50cb88d1e81b84abed84942ad86b",
+  "result": {
+    "common_family": {
+      "profiles": "(h+4,h),(p,h+3) with 2h-3 and 2h-2 respective original direct leaves",
+      "scope": "Same original indexed topology and quota vector; two admissible phase-selected numerical exteriors.",
+      "separation_one": "h in {2,4}, even p>=4",
+      "separation_three": "h=2 modulo 6, even p>=2(h+3)+4",
+      "size": "7h+8+p with full original admission"
+    },
+    "growth": "Balanced even growth without an anchor and unequal even growth from one initial named Q pair on its stated domain.",
+    "reverse": "Independent exceptional-to-strict neutral allocation with five fixed identities and actual Q strip.",
+    "signed": "Exact fixed-exterior strict-input baseline residue chains; delta 0 retains D193; outbound even separation is excluded on the specified exterior by the moment."
+  },
+  "reviews": {
+    "director_D194": "PENDING",
+    "implementation_and_evidence_custody": "PASS_SCOPED",
+    "mathematical": "PASS_SCOPED"
+  },
+  "schema_version": 1,
+  "scientific_counters": {
+    "historical_replays": 0,
+    "numerical_search_nodes": 0,
+    "official_numerical_campaign_executions": 0,
+    "original_checker_invocations": 0,
+    "solver_allocation_states": 0
+  },
+  "sole_next_action": "Director review of the D194 symbolic outcome and separate reviews.",
+  "status": "PROVED_WITHIN_EXACT_WRITTEN_SCOPE_PENDING_DIRECTOR_REVIEW",
+  "symbolic_controls": {
+    "A_strict": {
+      "crossing": [
+        59,
+        116
+      ],
+      "fresh_edges": 22,
+      "input_edges": 94,
+      "input_maximum_cut": 49,
+      "input_phase": 0,
+      "noncrossing": [
+        1,
+        58
+      ],
+      "output_edges": 116,
+      "output_maximum_cut": 60,
+      "output_phase": 0
+    },
+    "B_companion": {
+      "crossing": [
+        57,
+        114
+      ],
+      "fresh_edges": 20,
+      "input_edges": 94,
+      "input_maximum_cut": 49,
+      "input_phase": 0,
+      "noncrossing": [
+        1,
+        56
+      ],
+      "output_edges": 114,
+      "output_maximum_cut": 59,
+      "output_phase": -1
+    },
+    "B_low": {
+      "crossing": [
+        58,
+        116
+      ],
+      "fresh_edges": 22,
+      "input_edges": 94,
+      "input_maximum_cut": 49,
+      "input_phase": 0,
+      "noncrossing": [
+        1,
+        57
+      ],
+      "output_edges": 116,
+      "output_maximum_cut": 60,
+      "output_phase": -1
+    },
+    "C": {
+      "crossing": [
+        57,
+        114
+      ],
+      "fresh_edges": 20,
+      "input_edges": 94,
+      "input_maximum_cut": 49,
+      "input_phase": 0,
+      "noncrossing": [
+        1,
+        56
+      ],
+      "output_edges": 114,
+      "output_maximum_cut": 59,
+      "output_phase": -1
+    },
+    "D": {
+      "crossing": [
+        66,
+        132
+      ],
+      "fresh_edges": 38,
+      "input_edges": 94,
+      "input_maximum_cut": 49,
+      "input_phase": 0,
+      "noncrossing": [
+        1,
+        65
+      ],
+      "output_edges": 132,
+      "output_maximum_cut": 68,
+      "output_phase": -1
+    },
+    "E_outbound": {
+      "crossing": [
+        60,
+        120
+      ],
+      "fresh_edges": 26,
+      "input_edges": 94,
+      "input_maximum_cut": 49,
+      "input_phase": 0,
+      "noncrossing": [
+        1,
+        59
+      ],
+      "output_edges": 120,
+      "output_maximum_cut": 62,
+      "output_phase": -1
+    },
+    "E_reverse": {
+      "crossing": [
+        51,
+        100
+      ],
+      "fresh_edges": 26,
+      "input_edges": 74,
+      "input_maximum_cut": 39,
+      "input_phase": -1,
+      "noncrossing": [
+        1,
+        50
+      ],
+      "output_edges": 100,
+      "output_maximum_cut": 52,
+      "output_phase": 0
+    },
+    "F_outbound": {
+      "crossing": [
+        67,
+        134
+      ],
+      "fresh_edges": 40,
+      "input_edges": 94,
+      "input_maximum_cut": 49,
+      "input_phase": 0,
+      "noncrossing": [
+        1,
+        66
+      ],
+      "output_edges": 134,
+      "output_maximum_cut": 69,
+      "output_phase": -1
+    },
+    "F_reverse": {
+      "crossing": [
+        58,
+        114
+      ],
+      "fresh_edges": 40,
+      "input_edges": 74,
+      "input_maximum_cut": 39,
+      "input_phase": -1,
+      "noncrossing": [
+        1,
+        57
+      ],
+      "output_edges": 114,
+      "output_maximum_cut": 59,
+      "output_phase": 0
+    },
+    "G_outbound": {
+      "crossing": [
+        92,
+        184
+      ],
+      "fresh_edges": 90,
+      "input_edges": 94,
+      "input_maximum_cut": 49,
+      "input_phase": 0,
+      "noncrossing": [
+        1,
+        91
+      ],
+      "output_edges": 184,
+      "output_maximum_cut": 94,
+      "output_phase": -1
+    },
+    "G_reverse": {
+      "crossing": [
+        106,
+        210
+      ],
+      "fresh_edges": 90,
+      "input_edges": 120,
+      "input_maximum_cut": 62,
+      "input_phase": -1,
+      "noncrossing": [
+        1,
+        105
+      ],
+      "output_edges": 210,
+      "output_maximum_cut": 107,
+      "output_phase": 0
+    },
+    "H_copy_1": {
+      "crossing": [
+        51,
+        100
+      ],
+      "fresh_edges": 26,
+      "input_edges": 74,
+      "input_maximum_cut": 39,
+      "input_phase": -1,
+      "noncrossing": [
+        1,
+        50
+      ],
+      "output_edges": 100,
+      "output_maximum_cut": 52,
+      "output_phase": 0
+    },
+    "H_copy_2": {
+      "crossing": [
+        63,
+        126
+      ],
+      "fresh_edges": 26,
+      "input_edges": 100,
+      "input_maximum_cut": 52,
+      "input_phase": 0,
+      "noncrossing": [
+        1,
+        62
+      ],
+      "output_edges": 126,
+      "output_maximum_cut": 65,
+      "output_phase": -1
+    },
+    "H_copy_3": {
+      "crossing": [
+        77,
+        152
+      ],
+      "fresh_edges": 26,
+      "input_edges": 126,
+      "input_maximum_cut": 65,
+      "input_phase": -1,
+      "noncrossing": [
+        1,
+        76
+      ],
+      "output_edges": 152,
+      "output_maximum_cut": 78,
+      "output_phase": 0
+    }
+  },
+  "task": "LCL-ORDINARY-SPINE-BIDIRECTIONAL-PHASE-TOGGLE-SUPPLIER-001"
+}

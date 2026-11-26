@@ -831,3 +831,7 @@ In the prescribed even-quota movable-defect lists, the low interval gives q≥2h
 ## D193 — Fixed-exterior baseline and parity restrictions
 
 At separation one the folded moment requires even actual Q and P quotas for every successful allocation on that particular exterior. At separation two the forced baseline chains require p≥q+2 and the exact P parity of the arm. Both equal odd h=2 low controls (3,3) and (5,5) fail those exact baseline conditions in either role order. The common Q pairs are exactly the stated initial interval; the proved unequal-growth operation uses one pair. These conclusions leave other strict exteriors and other allocations beyond the stated scopes open. [D193 proof](ORDINARY_SPINE_STRICT_RESIDUE_TWO_ANCHOR_ECONOMY.md)
+
+## D194 — Fixed outbound obstructions and phase-threshold corrections
+
+In the specified signed S₀→S₋₁ exterior, even upper separation is impossible for any compatible first quota by the folded moment. At the separate equal-child-count baseline with F=2h+1 and one selected terminal per side, the forced initial transpositions exhaust the first gap quota. The two remaining matching directions then each have identical source and image sets, forcing Q only and excluding any positive residual P on that exterior. D157's threshold corrects the proposed crossing starts in E reverse, E outbound and H final to 51, 60 and 77, with the original cuts and sizes retained. These are phase- and placement-specific statements. [D194 proof](ORDINARY_SPINE_BIDIRECTIONAL_PHASE_TOGGLE_SUPPLIER.md)
