@@ -727,3 +727,7 @@ Equal source and destination baseline intervals cannot be assumed in either fold
 ## D169 — A fixed role obstruction cannot exclude the role menu
 
 D163's fixed-exterior obstruction for r=t=0,p≥2 exhausts Q when it has four gap leaves. At p≥3 the successful D169 role exchange gives Q 2p leaves and assigns three P gap leaves using fixed residue repairs. The complete named original is unchanged. At p=2 the particular new construction would require the absent H_6 crossing image. The full E+ exclusion there continues to use the accepted D161 exhaustion and D163 transport. [Proof and control scopes](ORDINARY_SPINE_EXCEPTIONAL_SECOND_ROLE_EXCHANGE.md)
+
+## D170 — No template miss among completed D164 E+ positives
+
+The proposed matched template-miss condition is excluded on the selected 108 completed E+ positive originals. Each actual saved compatible labeling uses the specified width-(6,4) role menu. Retained-record reconciliation resolves the selected finite question before any new numerical run. The original D164 separation hypothesis remains UNDECIDED under its historical execution cap. Cases outside the selected positive records and alternate exterior geometries are outside this coverage conclusion. [D170 proof](ORDINARY_SPINE_EXCEPTIONAL_ROLE_MENU_COVERAGE.md)

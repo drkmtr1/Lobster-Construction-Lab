@@ -1,0 +1,11 @@
+# D170 separate reviews
+
+## Mathematical review
+
+Independent read-only reviewer `/root/d170_math` read the entire proof draft (raw worktree SHA-256 `a92678100e1680d07fe3cf4b18ebd5ffc088c5aea86e4e76a392b4f361aed7ee`), cross-checked the actual D157 return and composition, D167 graph counts, right-end obstruction and interval types. The review passed the new Q-tail endpoints at (K') and (K'-1), preservation of older folded side predicates and zero P capacity, the quota-minimum table and selectable-role implication, D147 weight-sum necessity, exact named lifting and both conjugate shifts. The reviewer recommended stating the final-alphabet complements explicitly since the later block resources lie outside the transformed block-local remainder. The writer incorporated that clarification. Reported PowerShell read timings were 0.1940713 and 0.2886511 seconds, with CPU uninstrumented. The review invoked no search, allocator or checker.
+
+## Implementation and custody review
+
+Independent read-only reviewer `/root/d170_custody` passed the intake, implementation and closed scope. The reviewer parsed the documentary source without importing or invoking it and independently rehashed the archive and its 1,288 member bindings. The separate checks compared all 108 full saved assignment records and both boundary inventories, recomputed their vertex and difference palettes and crossing spectra by endpoint subtraction, verified 110 canonical original and graph identities including the two additional historical controls, and confirmed all twelve fixed bases and correct handling of 61 records with a zero remaining host quota. The comparison retained the 66 matched qualified exterior representatives and saved exhaustion attestation at target-0057 and the absence of both completed target-0429 records. STATE and the handoff matched on the sole unstarted action. No labeling search, allocator, historical checker or campaign was invoked.
+
+The review's two standalone data checks used 0.484375 process CPU seconds and 3.148273 seconds of tool-observed wall time. Static and Git inspection was reported separately at approximately 1.158 seconds wall. The documentary source reviewed has SHA-256 `5213191206dffe87b92b9cc4c0f9649a871ada45fdb17e5e4f026becec1dd5c6`.

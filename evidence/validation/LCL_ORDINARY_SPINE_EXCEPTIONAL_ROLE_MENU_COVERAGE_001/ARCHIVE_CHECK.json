@@ -1,0 +1,87 @@
+{
+  "covered_records": 108,
+  "fixed_bases": 12,
+  "input_bindings": [
+    {
+      "bytes": 1324244,
+      "path": "evidence/runs/d164-exceptional-four-first-001/OFFICIAL_RAW.zip",
+      "sha256": "6ecb659aaefc4a574f39d1da8c3bb88b53517ea9381cc25fa332144f822a7c19"
+    },
+    {
+      "bytes": 699373,
+      "path": "evidence/runs/d164-exceptional-four-first-001/RECONCILIATION.json",
+      "sha256": "90fbb1ad38a9723ac2470894090e1ce7f6501f15a60e14500c3aff2b6b46f7b8"
+    },
+    {
+      "bytes": 1011930,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/corpus_index.json",
+      "sha256": "909a836c19c6bb1b4bb38e14d1d9e84185a492aae2b1d316fc7511a01f282147"
+    },
+    {
+      "bytes": 8781,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/prefix.json",
+      "sha256": "f48b56479dac85e1ddbbd36e5f6a6a3eaf94b9b32497e677fe5a96932abbac95"
+    },
+    {
+      "bytes": 270802,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/targets-001.json",
+      "sha256": "85b539f4c6f4035c623d7a8211846e41dc85d09520de5ca271163875b6b819d2"
+    },
+    {
+      "bytes": 272016,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/targets-002.json",
+      "sha256": "216fbbb2754f284488f57e0a6aab00b247afd4b3a2daad2bdeb2136a9404870f"
+    },
+    {
+      "bytes": 275888,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/targets-003.json",
+      "sha256": "d633f86420f50e0010970341c1734f648f42e0047d76300fba1d632cbed276bb"
+    },
+    {
+      "bytes": 274995,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/targets-004.json",
+      "sha256": "0b0e2ce1bfb0b7a6c2faa81bdca701c2bca93670ade63bd302cedf6ba2c2f5e8"
+    },
+    {
+      "bytes": 271799,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/targets-005.json",
+      "sha256": "30d486c496c371d807dc2e3416678f831840c88d76d545d8d997d42580e6f598"
+    },
+    {
+      "bytes": 278652,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/targets-007.json",
+      "sha256": "535c115809050a38f4866ab1a883726ade7735b10bd6cd8964ec65abd5d48690"
+    },
+    {
+      "bytes": 278810,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/targets-008.json",
+      "sha256": "865130bedd277d7f8cd17acdab32b0387be2db1fc4bf362e72d9a60ce37244ee"
+    },
+    {
+      "bytes": 276776,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/targets-010.json",
+      "sha256": "301d5d1145855b993092405d49dccf20e8f308488922d6d5a9c069c0d93e9e1d"
+    },
+    {
+      "bytes": 277994,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/targets-011.json",
+      "sha256": "1c8bfa584b36d4284615d618582bc37c3d32737adf9a4dd11d0fe9fe6c774bb0"
+    },
+    {
+      "bytes": 281870,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/targets-012.json",
+      "sha256": "ab51856a48b09c3bc8ead70fca376f7833122a819e9ae4bfcc3abab2a616023c"
+    },
+    {
+      "bytes": 280515,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/targets-013.json",
+      "sha256": "d9a376ae24196eb9ae082388cfef0b8a32b9f0d649cbc30f7c65829329d27b9a"
+    }
+  ],
+  "internal_wall_seconds": 0.6893978999999035,
+  "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+  "prefix_frontier": "s:27",
+  "process_cpu_seconds": 0.6875,
+  "scope": "Saved-record identity and endpoint reconciliation. The historical verifier and scientific engines were not invoked.",
+  "verified_archive_members": 1288
+}
