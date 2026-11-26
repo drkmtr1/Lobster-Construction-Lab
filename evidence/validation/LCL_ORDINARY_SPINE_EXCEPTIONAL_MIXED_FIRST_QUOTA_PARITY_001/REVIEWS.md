@@ -1,0 +1,11 @@
+# D181 independent reviews
+
+## Mathematical review — PASS within exact written scope
+
+The independent read-only reviewer inspected the [D181 proof](../../../research/ORDINARY_SPINE_EXCEPTIONAL_MIXED_FIRST_QUOTA_PARITY.md) and its D157 and D178–D180 primary premises. The reviewer challenged the graph-color threshold and terminal balance, the exact mixed-packet quotas and independent low, middle and high expansions, all zero-expansion endpoints, the separation of intermediate columns and the use of each retained even-host tail. The reviewer verified the two growth strips and their equal-index Q complements at both anchor shifts, the ordinary and reversed baseline choices, the parity-sensitive bound, the unfolded resource transport, both polarities, literal connector and finite composition. There was no blocking correction. The writer incorporated the suggested explicit upper graph-color identity in §1. The review used read-only symbolic checks.
+
+## Implementation and evidence-custody review — PASS within exact written scope
+
+After mathematical review ended, the separate read-only reviewer inspected the resulting proof, handoff, custody receipt, authoritative records and local Git differences. The reviewer checked the deterministic assignment of physical roles and leaf indices, unchanged named incidences across both growth strips, unfolding and anchor replacement, exact disjoint first-section resources and complements, cut sides, connector and polarity shifts, and termination under evolved cuts. The reviewer independently recomputed the canonical D180 manifest and primary proof identities and checked all nine D180 bindings against the committed state, together with D179 and nine earlier retained bindings. The local parent, branch, baseline tag and peel, builder and checker identities, changed-path scope and sole next action matched. The D174 historical one pair, two arms and 3,518 unentered originals are distinct from the retained D177 symbolic projection of 93, 92 historically unentered. The reviewer checked local refs and blobs. The live and upstream checks are separately recorded in the writer's [custody receipt](CUSTODY.json).
+
+Both reviews were independent of the writer and performed one at a time. The reviews used no search, allocation solver, historical checker or new campaign. D181 remains pending Director review.

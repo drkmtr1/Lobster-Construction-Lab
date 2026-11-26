@@ -779,3 +779,7 @@ The actual fresh lower graph class has size 1+r+R=2(A+x), and terminal balance f
 ## D180 — Folded parity restriction for II-a and I-b
 
 In the two specified width-five II-a and I-b geometries the folded image-minus-source index sum equals r+2, which is odd. The single first selection removes a terminal at shift r−3, which is even. Separation three therefore forces p−1 odd at the selected second parent P, so its actual full quota is even. This excludes odd p in those exact geometries and their expanded gap sizes. I-a has odd first selection shift and even separation, and the explicit two-shift tail supplies odd quotas there. These are geometry-scoped conclusions. [D180 proof](ORDINARY_SPINE_EXCEPTIONAL_ODD_SECOND_QUOTA_SUPPLIER.md#2-exact-width-five-rows-and-folded-parity-moment)
+
+## D181 — H1 graph threshold and I-a mixed parity qualification
+
+In the declared terminal-enabled H1 arrangement a compatible exterior forces R≥r+3 by independent graph counts and terminal balance, also with the stated mixed first quotas. The fixed I-a geometry further requires the sum of the full first quotas weighted by their actual numerical lower shifts to be even. A role assignment failing that moment cannot complete I-a. Mixed packets pair odd capacities at same-parity shifts and supply the exact row bijection. The moment alone is only a necessary qualification and the graph threshold concerns the declared terminal-enabled class. [D181 proof](ORDINARY_SPINE_EXCEPTIONAL_MIXED_FIRST_QUOTA_PARITY.md#1-exact-topology-and-necessary-threshold)
