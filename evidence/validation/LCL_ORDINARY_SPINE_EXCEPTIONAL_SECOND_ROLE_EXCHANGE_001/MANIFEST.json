@@ -1,0 +1,195 @@
+{
+  "schema_version": 1,
+  "task": "LCL-ORDINARY-SPINE-EXCEPTIONAL-SECOND-ROLE-EXCHANGE-001",
+  "status": "PROVED_PENDING_DIRECTOR_REVIEW",
+  "parent": "372a88fa6aba52e1b6749f8dab0ef2e9d695adf9",
+  "accepted_D167_scientific_checkpoint": "05858980436e518817f03cd9454e672c1573dc0a",
+  "accepted_literature_documentation_checkpoint": "3fe3b4ef04695d6527196d2e3572281e089e55fe",
+  "starting_canonical_state_sha256": "0f8a840037fb9880240f58aef6791e077129e4c0207cd95cb6c8ea546b5fd53d",
+  "hash_convention": "LF canonical Git bytes for Markdown; raw bytes elsewhere",
+  "scope": "D163 ordered profiles on the declared D157 arrangement, independently supplied S_-1 prefix, original named incidence roles, and exact size and return premises.",
+  "full_classification": {
+    "E+": "p != 2 or r+t >= 1",
+    "T": "max(r,t) >= 2",
+    "either": "p != 2 or r+t >= 1",
+    "separation": "r,t in {0,1} and (p,r,t) != (2,0,0)"
+  },
+  "negative_basis": "D161 accepted finite E+ exhaustion plus D163 transport at p=2,r=t=0; independent symbolic T criterion.",
+  "review_status": {
+    "mathematical": "PASS_SCOPED",
+    "implementation_and_custody": "PASS_SCOPED",
+    "director": "PENDING"
+  },
+  "state_binding": {
+    "path": "STATE.md",
+    "bytes": 89432,
+    "sha256": "5f6338d7b3e5f11105100235e3ffa24f5b3fe997876ac4d39da9591f8f7be5dd"
+  },
+  "proof_sha256": "ee02aa48409624d32c49c02ad8f06c4bca9256c2ef8e903a68b9e436b9b97a06",
+  "files": [
+    {
+      "path": "research/ORDINARY_SPINE_EXCEPTIONAL_SECOND_ROLE_EXCHANGE.md",
+      "bytes": 18573,
+      "sha256": "ee02aa48409624d32c49c02ad8f06c4bca9256c2ef8e903a68b9e436b9b97a06"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_SECOND_ROLE_EXCHANGE_001/README.md",
+      "bytes": 569,
+      "sha256": "bb956c9b1a735a17380f25bfba6e073fe3774e42a8a88a314daf025f66434fc3"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_SECOND_ROLE_EXCHANGE_001/CUSTODY.json",
+      "bytes": 4228,
+      "sha256": "93cf9be1a65fe7adca69967edb939a25e9519a8ede2aff2e38fcde011fd17064"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_SECOND_ROLE_EXCHANGE_001/REVIEWS.md",
+      "bytes": 2030,
+      "sha256": "1a7765e71340a5e6a5f17dff9ea6bd1606cb818830e13239343ecded091aefdf"
+    },
+    {
+      "path": "handoffs/CODEX-20261125-exceptional-second-role-exchange.md",
+      "bytes": 2575,
+      "sha256": "98e286d01d3217ba783256f4c3d35363400546cabb5e84d7ea610caf753ce826"
+    }
+  ],
+  "authoritative_ledger_bindings": [
+    {
+      "path": "research/FINDINGS.md",
+      "bytes": 192980,
+      "sha256": "5b2289375a80f0efabc89c175edea1b40c72a5de49f5cbb957bf40632c95cc03"
+    },
+    {
+      "path": "research/FAILED_HYPOTHESES.md",
+      "bytes": 75528,
+      "sha256": "d40ff99cf12ace0906966b59ca308b4c4a36a67761e589837865de60f0980e9a"
+    },
+    {
+      "path": "research/PROOF_OBLIGATIONS.md",
+      "bytes": 109405,
+      "sha256": "609ab3049c9fc4677380814fd3a53ffd5745841c53712924e2a8f9f2140797f3"
+    },
+    {
+      "path": "research/DECISIONS.md",
+      "bytes": 143106,
+      "sha256": "fc9597e196e610149c33b213c0806293e5031615cb8baab7b9226fdb80bc16e4"
+    }
+  ],
+  "retained_bindings": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 8301,
+      "sha256": "ddb4b70c24cb5e1725d0c2e4ea8c2d522b4556b62b8bd69fdffd4205ece485db"
+    },
+    {
+      "path": "lcl/model.py",
+      "bytes": 10720,
+      "sha256": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6"
+    },
+    {
+      "path": "lcl/verify.py",
+      "bytes": 14075,
+      "sha256": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_ALTERNATING_EXCEPTIONAL_SPECTRUM.md",
+      "bytes": 19060,
+      "sha256": "73230a18d826361e0eb4eadfbf02e41cbb1aa3c5332c890bf75f48ed18a0e0fd"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_EXCEPTIONAL_ODD_FIRST_QUOTA_CLASSIFICATION.md",
+      "bytes": 22233,
+      "sha256": "aa8246088b3c16a2bc7f96e9f1fca852ec6e9d89efc1ff8ce49fe4e8a4783584"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_EXCEPTIONAL_EVEN_SECOND_QUOTA_EXTENSION.md",
+      "bytes": 27631,
+      "sha256": "136a5187a2fc1a296cbe4b7b21c0b1fa5427c3e7cdbf86a9dc3129fa16373880"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_EXCEPTIONAL_RESERVATION_SEMILINEAR.md",
+      "bytes": 31490,
+      "sha256": "610e9d10790bf9ce4d6f99b8c2d3d637be7c62f5cb7841cbd2402837f1ab5e7a"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_EXCEPTIONAL_TWO_UPPER_HOST_RESIDUE_COMPRESSION.md",
+      "bytes": 30575,
+      "sha256": "b18eb180e189907c17912206b28a0e394219b6e1458890e7958629e130f5acb9"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ODD_FIRST_QUOTA_CLASSIFICATION_001/MANIFEST.json",
+      "bytes": 7015,
+      "sha256": "dafb8c5d30513be51e94f50d6111dd1313971bb121b3f5a9f5840bab89c9fd69"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_EVEN_SECOND_QUOTA_EXTENSION_001/MANIFEST.json",
+      "bytes": 7861,
+      "sha256": "a356764e66bb0423bf47157c0176c1f257ad1e3dfb74e9075251e120a34f1449"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_EVEN_SECOND_QUOTA_EXTENSION_001/CUSTODY.json",
+      "bytes": 20025,
+      "sha256": "fc92b4e419221ec16ed81a9b2cdc84b310e627cb9652d1f73b1664530366ab79"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_RESERVATION_SEMILINEAR_001/MANIFEST.json",
+      "bytes": 11396,
+      "sha256": "9bdd3658d9a0bed51117ef1cfacae1864a538688b86c9ce0a4e0fce4fb303789"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_TWO_UPPER_HOST_RESIDUE_COMPRESSION_001/MANIFEST.json",
+      "bytes": 8551,
+      "sha256": "87910c3b573b18261717a1fd764fa6d89642eba445798c06bca436cca006b9c6"
+    },
+    {
+      "path": "evidence/runs/d161-exceptional-quota-four-001/OFFICIAL_RAW.zip",
+      "bytes": 364603,
+      "sha256": "13c6ff81991bef03d0760b5ecf7aadc14b60a7cecdf951c10212d12de9eb7cee"
+    },
+    {
+      "path": "evidence/runs/d161-exceptional-quota-four-001/RECONCILIATION.json",
+      "bytes": 210632,
+      "sha256": "27e0c7b364452901274d6e73115151444a4b7249ce335165393ca3d717d548fe"
+    },
+    {
+      "path": "evidence/runs/d164-exceptional-four-first-001/OFFICIAL_RAW.zip",
+      "bytes": 1324244,
+      "sha256": "6ecb659aaefc4a574f39d1da8c3bb88b53517ea9381cc25fa332144f822a7c19"
+    },
+    {
+      "path": "docs/LOBSTER_LITERATURE_REGISTER.md",
+      "bytes": 28382,
+      "sha256": "d04352774b5bfd40bbf31e4febfe93164537a8463528830fbb0fb128ad712a81"
+    },
+    {
+      "path": "docs/LOBSTER_RESEARCH_ALIGNMENT.md",
+      "bytes": 23604,
+      "sha256": "3b27058e13e878152c7825fbda71e79dfeb772374b5366efbb83e4513f2a0fbe"
+    },
+    {
+      "path": "docs/SOURCES.md",
+      "bytes": 12291,
+      "sha256": "f9703fdd4df0c594cd20baf8f1180dc14444c443955e903006f4351eeb8d0145"
+    }
+  ],
+  "next_action": "Under separate Owner authorization after Director review, test whether the single D165–D166 width-(6,4) terminal-exchange template with all admissible actual role assignments covers the frozen completed D164 E+ positives, using matched original records and exact controls. This action is UNSTARTED.",
+  "limits": {
+    "verification_process_cpu_seconds": 60,
+    "verification_observed_wall_seconds": 120,
+    "new_evidence_bytes": 4000000
+  },
+  "execution_counters": {
+    "new_numerical_originals": 0,
+    "numerical_allocation_evaluations": 0,
+    "numerical_catalog_evaluations": 0,
+    "exterior_searches": 0,
+    "transfer_state_searches": 0,
+    "labeling_search_nodes": 0,
+    "solver_calls": 0,
+    "pilot_invocations": 0,
+    "historical_campaign_replays": 0,
+    "D130_detailed_access": 0,
+    "successor_preparation": 0,
+    "successor_execution": 0
+  }
+}

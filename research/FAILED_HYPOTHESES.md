@@ -723,3 +723,7 @@ A universal q≥3 bound is not used for residual-neutral cases. The proved right
 ## D168 — Unequal row intervals and exact capacity barriers
 
 Equal source and destination baseline intervals cannot be assumed in either folded direction. In the general geometry both directional prefix-count identities need `−ℓ` because the upper rows begin at `ℓ` and the lower rows begin at zero. Dropping this term gives an incorrect flow count even when the two counts still agree. Index moments alone omit per-residue endpoints and capacity barriers. The saved abstract common-hole obstruction transports by changing the step size to `ρ`, with no new original infeasibility claim. Auxiliary bases must retain legal zero upper counts and apply the original topology and full positivity at the requested pair. The available periods are determined by each marked type, and the saved separation-one T reservation at target-0428 has none. [Proof](ORDINARY_SPINE_EXCEPTIONAL_TWO_UPPER_HOST_RESIDUE_COMPRESSION.md)
+
+## D169 — A fixed role obstruction cannot exclude the role menu
+
+D163's fixed-exterior obstruction for r=t=0,p≥2 exhausts Q when it has four gap leaves. At p≥3 the successful D169 role exchange gives Q 2p leaves and assigns three P gap leaves using fixed residue repairs. The complete named original is unchanged. At p=2 the particular new construction would require the absent H_6 crossing image. The full E+ exclusion there continues to use the accepted D161 exhaustion and D163 transport. [Proof and control scopes](ORDINARY_SPINE_EXCEPTIONAL_SECOND_ROLE_EXCHANGE.md)

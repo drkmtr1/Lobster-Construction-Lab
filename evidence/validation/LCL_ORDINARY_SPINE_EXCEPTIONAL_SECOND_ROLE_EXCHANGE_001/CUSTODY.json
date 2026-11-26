@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "task": "LCL-ORDINARY-SPINE-EXCEPTIONAL-SECOND-ROLE-EXCHANGE-001",
+  "status": "PROVED_PENDING_DIRECTOR_REVIEW",
+  "starting_checkpoint": "372a88fa6aba52e1b6749f8dab0ef2e9d695adf9",
+  "accepted_D167_scientific_checkpoint": "05858980436e518817f03cd9454e672c1573dc0a",
+  "accepted_literature_documentation_checkpoint": "3fe3b4ef04695d6527196d2e3572281e089e55fe",
+  "D168_director_acceptance": {
+    "scope": "Exact conditional theorem for a supplied crossing exterior and exactly two eligible upper hosts at arbitrary fixed separation, including the named lifting and admitted finite composition.",
+    "proof_sha256": "b18eb180e189907c17912206b28a0e394219b6e1458890e7958629e130f5acb9",
+    "manifest_sha256": "87910c3b573b18261717a1fd764fa6d89642eba445798c06bca436cca006b9c6",
+    "manifest_bytes": 8551,
+    "canonical_state_sha256": "0f8a840037fb9880240f58aef6791e077129e4c0207cd95cb6c8ea546b5fd53d",
+    "limitations": "Director did not inspect the local worktree, decompress historical archives or replay certificates. Local archive verification and the D168 saved target-0428 T recurrence inspection are separately Codex-reported."
+  },
+  "local_admission": {
+    "head_origin_main_live_main": "372a88fa6aba52e1b6749f8dab0ef2e9d695adf9",
+    "clean_at_intake": true,
+    "baseline_tag": "fddfc1dd9541324b2ed2de2505bc750b3e3f0b9d",
+    "baseline_peel": "36ea1603602491bf3c1c5b81ed4c23aaa2210e70",
+    "upstream_main_pins": {
+      "Math_Discovery_Lab": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+      "MDL_Bounded_Search": "e48b94eec4091b4fe189e325cab2eda464409943"
+    },
+    "bounded_search_local_recovery_head": "c803ecb6bd0481d31af43f7e3c194ae8ed4d1578",
+    "builder_blob": "8d1e9948e8bf5ef01e67c9afe0155412c57d79fa",
+    "checker_blob": "d008f35f0843e1a5c770db3e7f42ed7d987360d7",
+    "manifested_files_rehashed": {"D162": 6, "D163": 6, "D167": 5, "D168": 5},
+    "D168_retained_bindings_rehashed": 21,
+    "D163_custody_bindings_rehashed": 17
+  },
+  "D161_retained_control_check": {
+    "archive_sha256": "13c6ff81991bef03d0760b5ecf7aadc14b60a7cecdf951c10212d12de9eb7cee",
+    "members_rehashed": 301,
+    "selected_original_arm_pair_bindings": 12,
+    "scoped_Eplus_negatives": [
+      {"target":"target-004","graph_digest":"49143ae3c58e2c784b153f5008d056d78ded9695a1ae71f19b2d3c0d10838563","record_sha256":"a58dc3015ed943b89a426fbc62eee9bda776ef048b6020f9c103581ee987cfe9"},
+      {"target":"target-015","graph_digest":"fac9636b9a211deb5ab31886c6f41290839d6b62a5b47ee77997d55f31ab1dd6","record_sha256":"b96a2d5a009913159d0d21e19e63af330e9f027732da738079915b0c04bacb73"},
+      {"target":"target-070","graph_digest":"374df7928a928813c2fb07057cb93b032cc45c6432a472e07e983673d4d38ebb","record_sha256":"68470da9a0c724192c4cbc82f9026e5441f3e0c698eab3d4dcb06c307e026ba7"}
+    ],
+    "audit_scope": "Checked frozen graph and record digests, exact profiles, both arms and paired claims; saved negative audits certify independent exhaustion and agree on qualified exterior counts. No historical search and no certificate checker ran."
+  },
+  "D164_preservation": {
+    "archive_sha256": "6ecb659aaefc4a574f39d1da8c3bb88b53517ea9381cc25fa332144f822a7c19",
+    "checked_saved_record": "target-0428-T.json",
+    "saved_sha256": "8d8ac74c31b8903788db7e46f9385d5f7529ed2539870e0fb15717e318a53b28",
+    "status": "INCOMPLETE_UNDECIDED",
+    "target_0429": "Neither historical arm completed; accepted D166 symbolic E+ supply and unresolved T."
+  },
+  "measurement": {
+    "documentary_audit_process_cpu_seconds": 0.078125,
+    "documentary_audit_inner_wall_seconds": 0.579552499999977,
+    "documentary_audit_observed_command_wall_seconds": 1.0320249
+  },
+  "limits": {"verification_process_cpu_seconds":60,"verification_observed_wall_seconds":120,"new_evidence_bytes":4000000},
+  "execution_counters": {
+    "new_numerical_originals": 0,
+    "numerical_allocation_evaluations": 0,
+    "numerical_catalog_evaluations": 0,
+    "exterior_searches": 0,
+    "transfer_state_searches": 0,
+    "labeling_search_nodes": 0,
+    "solver_calls": 0,
+    "pilot_invocations": 0,
+    "historical_campaign_replays": 0,
+    "D130_detailed_access": 0,
+    "successor_preparation": 0,
+    "successor_execution": 0
+  }
+}
