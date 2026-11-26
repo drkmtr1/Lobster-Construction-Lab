@@ -1,0 +1,11 @@
+# D174 separate read-only reviews
+
+## Mathematical review
+
+The independent mathematical reviewer read the actual contract, primary and independent audit, campaign, configuration and retained D172 folded-support function. The review passed the (391×9) census and 186-case priority stratum, the new graph-class and width bounds, both raw reduced suppliers, the neutral and index-two capacity proofs, and the complete H0/H1 partition with sibling-only equivalence. It independently derived the raw and simplified parity formulas and checked that the primary and auditor qualify the same representatives with separate calculations. It checked the opposite signed folded shifts and retirement invariant, eight retained capacities, independent raw enumeration and minimum-option recursion, named original and checker integration, actual phase, inventories, connector and stopping rules. Two read-only source inspections took about 1.4 seconds shell wall each. No mathematical changes were required.
+
+## Implementation and custody review
+
+A distinct read-only reviewer verified all 129 new and retained bindings and all 3,519 canonical records and exact named graphs across 55 shards with a separately written incidence reconstruction and ordered lattice. The prefix, its spectra, the priority order, runtime hashes, bytecode absence and vacant execution paths matched. This process used 4.890625 CPU seconds and 6.3777222 observed tool wall seconds. A second check verified the 15-source and 150-definition parse receipt and the four frozen historical graph/record/member bindings and arm scopes, including the saved 72-representative/six-strata target-0777 negative. That check used 0.234375 CPU seconds and 1.7444751 observed tool wall seconds.
+
+The separate implementation review passed the slot-first and count-first calling contracts, eight-host raw allocation and unchanged checker, canonical prepared STATE and authorization gate, one-worker direct-base Windows process launch, recording of prospective first-ceiling failures, reserves and exact verified H0 YES skip and separator stop. It verified frozen D172 and original source custody. Both reviewers made no edits, imported no task modules and ran no builder, fixture, checker or numerical search. Preparation remains pending Director review.

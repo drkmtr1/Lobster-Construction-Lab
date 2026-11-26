@@ -1,0 +1,77 @@
+{
+  "D167": "Common hole forces both adjacent flow bits to zero.",
+  "D168": "Source and image folds have distinct asymmetric ends.",
+  "D173": "The (2,4) ray and pure-P exclusion concern its specified four-first-center geometry.",
+  "five_first_numerical_oracles": 0,
+  "historical_controls": {
+    "target-0060": {
+      "H0": "YES",
+      "H1": "UNSPECIFIED",
+      "graph_digest": "93e901cb6cc00e8ee678eda500c1a930f45af1600ee7f5fccd7279891696360e",
+      "record_sha256": "60b8910c5d66c804777b78677e2cd6040a2ea4a22296e0a2fd7d7c16860be087",
+      "shard": "targets-001.json",
+      "source": {
+        "bytes": 15282,
+        "file": "target-0060-Eplus.json",
+        "sha256": "e7d00cbcfd812e5cbdaa4a8a44460a5fb3936f955e4a04196e148b35b4ec71ed"
+      }
+    },
+    "target-0428": {
+      "H0": "YES",
+      "H1": "UNSPECIFIED",
+      "graph_digest": "6f4cc649a76e055160ade2e856544762df550e4f49235df0c17e181421760256",
+      "record_sha256": "67f86d219b0c3b3fbedbc9e0e195098dafbdd440c3c77497fe0fad0e8dabd27c",
+      "shard": "targets-013.json",
+      "source": {
+        "bytes": 16759,
+        "file": "target-0428-Eplus.json",
+        "sha256": "42f902fae77bf172273f1359ba80ce1ecd4f3062ba15ea4e599b11eb699b03b3"
+      }
+    },
+    "target-0777": {
+      "H0": "NO",
+      "H1": "NO",
+      "files": {
+        "evidence/runs/d172-exceptional-alternate-exterior-001/raw/target-0777-A.json": {
+          "bytes": 972,
+          "sha256": "0e6bffa8b44b4f64f953f04198705492f839dc722afa29b1a73d526a52574f10"
+        },
+        "evidence/runs/d172-exceptional-alternate-exterior-001/raw/target-0777-M.json": {
+          "bytes": 567,
+          "sha256": "3076f528577bec2d2e78abea073efcceba285800885dac345fa9b5d959131309"
+        },
+        "evidence/runs/d172-exceptional-alternate-exterior-001/raw/target-0777-PAIR.json": {
+          "bytes": 245,
+          "sha256": "773daeebed4597a90db659accdb955f35d5d84afc4847fd803e764d1ae988758"
+        }
+      },
+      "graph_digest": "1306312ac9aec8c0daea96865c439e44e0cdb9af0682b7b1cd0878b2ca6814ee",
+      "record_sha256": "ecc4a03aa64e4aef6d5e0bce4f6a67c010c465dbaa8774c139e8dce91674c6b8",
+      "shard": "targets-024.json"
+    },
+    "target-0780": {
+      "H0": "UNSPECIFIED",
+      "H1": "YES",
+      "files": {
+        "evidence/runs/d172-exceptional-alternate-exterior-001/raw/target-0780-A.json": {
+          "bytes": 16450,
+          "sha256": "e1f985993d7550e507b2158ebefb166e2e492de6deabdb91ab2e48ebb080a098"
+        },
+        "evidence/runs/d172-exceptional-alternate-exterior-001/raw/target-0780-M.json": {
+          "bytes": 567,
+          "sha256": "a032967c9e910f62e65580b9dcf49a6c2f31d3413f66aa8a47b21d961bac55e7"
+        },
+        "evidence/runs/d172-exceptional-alternate-exterior-001/raw/target-0780-PAIR.json": {
+          "bytes": 2706,
+          "sha256": "9a7f0b310b5156eaca3fe43379010cb2681d167df7c23298bd54742dfbee39be"
+        }
+      },
+      "graph_digest": "350db6719a3cdd804033f31d9d75e173881bf1d2e7698544d1520ea6dc62b6f2",
+      "record_sha256": "0252ed7b89186fce1f4d96d7264caf0050a893ea53cbf15a286dafa0f5aa2410",
+      "shard": "targets-024.json"
+    }
+  },
+  "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+  "symbolic_raw_H0": "(7,4), e1=e2=1, direct leaf in gap, constructible reduced exterior only",
+  "symbolic_raw_H1": "(7,5), e1=e2=1, direct leaf exterior, constructible reduced exterior only"
+}

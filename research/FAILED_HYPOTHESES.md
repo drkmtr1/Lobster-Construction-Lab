@@ -747,3 +747,7 @@ The complete M role menu fails to cover every A-admitting original in the select
 ## D173 — Pure-P internal growth is structurally excluded
 
 For the stated width-(6,5) geometry and lower inventory, three active residues would force the two lower endpoint sets to have one index of each residue. The two different far-row endpoints agree modulo three, forcing the upper reservation endpoint distributions to match as well. This would make total displacement divisible by three, contrary to 13. Thus no reservation type carries a (6,0) generator, and fixed q cannot support unbounded p through this geometry. The (0,6) and (4,2) realizations and the exact domain beyond the ray remain open. The saved target-0777 full A negative retains its separate independent-exhaustion basis. [Symbolic proof](ORDINARY_SPINE_EXCEPTIONAL_ALTERNATE_EXTERIOR_RESIDUE_GROWTH.md)
+
+## D174 — Candidate parity rejection has no arm-level implication
+
+The new five-first-center moment forces the weighted sum of full quotas at first labels and second upper indices to equal A+B modulo two. On the 186 all-even originals this excludes the one-exchange H0 width total eleven. The corresponding H1 total twelve passes the parity gate. The two raw suppliers exist independently of this gate, and all alternative selections and widths remain subject to exact qualification and gap feasibility. The restriction does not exclude a complete arm or decide the finite separation hypothesis. [Qualification](exceptional_five_first_direct_001/CONTRACT.md#3-general-candidate-parity-moment)

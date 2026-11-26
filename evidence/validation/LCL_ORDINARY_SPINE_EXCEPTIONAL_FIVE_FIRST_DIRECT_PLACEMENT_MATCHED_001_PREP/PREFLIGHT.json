@@ -1,0 +1,355 @@
+{
+  "bindings_sha256": "ee306fc6610d05ae445be26d50b78ed678d4c86fc7067969e4e52bfdfcd2f6e8",
+  "internal_wall_seconds": 5.091787299999851,
+  "numerical_work": 0,
+  "population": 3519,
+  "process_cpu_seconds": 4.96875,
+  "runtime": {
+    "bound": {
+      "cfg": ".venv/pyvenv.cfg",
+      "dll": "python313.dll",
+      "sha256": {
+        "base": "7c2fc2b303a4ee3cc14cc17b47bc6e8bca98c78792edd123b846a560da44b203",
+        "cfg": "78989c73c08f515aadaf1ec5f8f24929021b48b284f4efc907a04938634af28b",
+        "dll": "26026530507a7389e7892ce130e7c1753b32a2df03ec3721d45ad8c1705d40eb",
+        "venv": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664"
+      },
+      "venv": ".venv/Scripts/python.exe",
+      "version": "3.13.17"
+    },
+    "flags": [
+      "-I",
+      "-S",
+      "-B"
+    ]
+  },
+  "sources": {
+    "lcl/model.py": {
+      "imports": [
+        "from __future__ import annotations",
+        "from collections import deque",
+        "import hashlib",
+        "import json",
+        "from pathlib import Path",
+        "from typing import Any"
+      ],
+      "lexical_definitions": [
+        "_integer",
+        "normalize_profile",
+        "build_graph",
+        "graph_digest",
+        "_path_order",
+        "validate_graph",
+        "load_graph",
+        "branched_prefix_profile"
+      ]
+    },
+    "lcl/verify.py": {
+      "imports": [
+        "from __future__ import annotations",
+        "from collections import deque",
+        "import hashlib",
+        "import json",
+        "import re",
+        "from typing import Any"
+      ],
+      "lexical_definitions": [
+        "_profile_expected",
+        "_digest",
+        "_check_graph",
+        "verify_graph",
+        "_check_labels",
+        "verify_certificate",
+        "verify_partial"
+      ]
+    },
+    "research/exceptional_alternate_exterior_001/audit.py": {
+      "imports": [
+        "from itertools import permutations"
+      ],
+      "lexical_definitions": [
+        "classification",
+        "menu_candidates",
+        "raw_support",
+        "raw_support.visit",
+        "negative",
+        "positive"
+      ]
+    },
+    "research/exceptional_alternate_exterior_001/campaign.py": {
+      "imports": [
+        "import argparse",
+        "import json",
+        "import os",
+        "from pathlib import Path",
+        "import subprocess",
+        "import sys",
+        "import time",
+        "import tracemalloc",
+        "import types"
+      ],
+      "lexical_definitions": [
+        "runtime",
+        "gate",
+        "original_rows",
+        "disposition",
+        "worker",
+        "supervise",
+        "main"
+      ]
+    },
+    "research/exceptional_alternate_exterior_001/preflight.py": {
+      "imports": [
+        "import argparse",
+        "import ast",
+        "from collections import Counter",
+        "from hashlib import sha256",
+        "from itertools import product",
+        "import json",
+        "import os",
+        "from pathlib import Path",
+        "import subprocess",
+        "import sys",
+        "import time",
+        "import zipfile"
+      ],
+      "lexical_definitions": [
+        "digest",
+        "compact",
+        "read",
+        "save_once",
+        "git",
+        "binding",
+        "exact_runtime",
+        "no_execution_paths",
+        "original_digest",
+        "inputs",
+        "selection",
+        "bind_original",
+        "historical_controls",
+        "retained_custody",
+        "retained_custody.immutable",
+        "definitions",
+        "definitions.walk",
+        "parse_only",
+        "main"
+      ]
+    },
+    "research/exceptional_alternate_exterior_001/primary.py": {
+      "imports": [
+        "from itertools import permutations, product"
+      ],
+      "lexical_definitions": [
+        "in_menu",
+        "menu",
+        "folded_support",
+        "folded_support.contains",
+        "folded_support.visit",
+        "solve",
+        "tally"
+      ]
+    },
+    "research/exceptional_alternate_exterior_001/runtime.py": {
+      "imports": [
+        "import hashlib",
+        "import json",
+        "import os",
+        "from pathlib import Path, PurePosixPath",
+        "import sys",
+        "import time",
+        "import tracemalloc",
+        "import types"
+      ],
+      "lexical_definitions": [
+        "Limit",
+        "encoded",
+        "sha",
+        "ordinary",
+        "repo_path",
+        "read",
+        "file_binding",
+        "load_source",
+        "check_runtime",
+        "write_new",
+        "Meter",
+        "Meter.__init__",
+        "Meter.time_check",
+        "Meter.tick",
+        "Meter.memory",
+        "Meter.write",
+        "Meter.interruption"
+      ]
+    },
+    "research/exceptional_five_first_direct_001/audit.py": {
+      "imports": [
+        "from itertools import permutations, product"
+      ],
+      "lexical_definitions": [
+        "original_context",
+        "raw_moment",
+        "count_first",
+        "expanded",
+        "raw_support",
+        "raw_support.visit",
+        "negative",
+        "positive"
+      ]
+    },
+    "research/exceptional_five_first_direct_001/campaign.py": {
+      "imports": [
+        "import argparse",
+        "import json",
+        "import os",
+        "from pathlib import Path",
+        "import subprocess",
+        "import sys",
+        "import time",
+        "import tracemalloc",
+        "import types"
+      ],
+      "lexical_definitions": [
+        "runtime",
+        "gate",
+        "original_rows",
+        "disposition",
+        "worker",
+        "supervise",
+        "main"
+      ]
+    },
+    "research/exceptional_five_first_direct_001/prepare.py": {
+      "imports": [
+        "import argparse",
+        "import ast",
+        "from collections import Counter",
+        "from hashlib import sha256",
+        "from itertools import product",
+        "import json",
+        "import os",
+        "from pathlib import Path",
+        "import subprocess",
+        "import sys",
+        "import time",
+        "import types",
+        "from zipfile import ZipFile"
+      ],
+      "lexical_definitions": [
+        "sha",
+        "canonical",
+        "read",
+        "write_once",
+        "git",
+        "binding",
+        "runtime",
+        "vacant",
+        "independent_digest",
+        "prefix_check",
+        "profiles",
+        "expected_parameters",
+        "metadata",
+        "complete_index",
+        "historical",
+        "retained_intake",
+        "freeze",
+        "inspect_population",
+        "ast_definitions",
+        "ast_definitions.visit",
+        "parse_only",
+        "main"
+      ]
+    },
+    "research/exceptional_five_first_direct_001/primary.py": {
+      "imports": [
+        "from itertools import product"
+      ],
+      "lexical_definitions": [
+        "physical",
+        "candidates",
+        "candidates.visit",
+        "solve"
+      ]
+    },
+    "research/exceptional_five_first_direct_001/runtime.py": {
+      "imports": [
+        "import hashlib",
+        "import json",
+        "import os",
+        "from pathlib import Path, PurePosixPath",
+        "import sys",
+        "import time",
+        "import tracemalloc",
+        "import types"
+      ],
+      "lexical_definitions": [
+        "Limit",
+        "encoded",
+        "sha",
+        "ordinary",
+        "repo_path",
+        "read",
+        "file_binding",
+        "load_source",
+        "check_runtime",
+        "write_new",
+        "Meter",
+        "Meter.__init__",
+        "Meter.time_check",
+        "Meter.tick",
+        "Meter.memory",
+        "Meter.write",
+        "Meter.interruption"
+      ]
+    },
+    "research/exceptional_four_first_001/audit.py": {
+      "imports": [
+        "from itertools import permutations, product"
+      ],
+      "lexical_definitions": [
+        "original_context",
+        "count_first",
+        "expanded",
+        "raw_allocation",
+        "raw_allocation.descend",
+        "negative",
+        "positive"
+      ]
+    },
+    "research/exceptional_four_first_001/primary.py": {
+      "imports": [
+        "from itertools import product"
+      ],
+      "lexical_definitions": [
+        "physical",
+        "candidates",
+        "candidates.visit",
+        "gap_support",
+        "gap_support.visit",
+        "search"
+      ]
+    },
+    "research/matched_exterior_001/audit.py": {
+      "imports": [
+        "from hashlib import sha256",
+        "from itertools import combinations, permutations",
+        "import json"
+      ],
+      "lexical_definitions": [
+        "canonical",
+        "original",
+        "shape",
+        "positive",
+        "raw_support",
+        "raw_support.find",
+        "negative",
+        "verify_prefix"
+      ]
+    }
+  },
+  "status": "PASS_PARSE_ONLY",
+  "task_module_imports": 0,
+  "vacant_paths": [
+    "runs/d174-exceptional-five-first-direct-001-authorization.json",
+    "runs/d174-exceptional-five-first-direct-001",
+    "evidence/runs/d174-exceptional-five-first-direct-001"
+  ]
+}
