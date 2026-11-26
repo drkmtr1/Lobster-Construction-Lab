@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "task": "LCL-ORDINARY-SPINE-EXCEPTIONAL-FOUR-FIRST-CENTER-PARITY-CHAIN-001",
+  "parent": "9f72dedeedc70eba6a8653313ad42cf4a5d2889a",
+  "status": "PROVED_PENDING_DIRECTOR_REVIEW",
+  "canonical_state_sha256": "60d1bb9f0a6541bdaabe2aa60e83cce64a77d6b27036d8536eacc21b6d03595a",
+  "state_binding": {
+    "path": "STATE.md",
+    "bytes": 87610,
+    "sha256": "60d1bb9f0a6541bdaabe2aa60e83cce64a77d6b27036d8536eacc21b6d03595a"
+  },
+  "starting_canonical_state_sha256": "a48934394c755f2dbf7838246ba74642fea4b55b83db2827fd6709eb0efe57de",
+  "historical_prepared_state_sha256": "c6253618a939f9d0a50ee454726f2a2b449468bd44e7c3f2e293646ffc57d6b0",
+  "proof_sha256": "a0a3b16ba0d06a3ac88268d5fa781a832a25eec96e1d6f72e0c09770084eee8b",
+  "D164_execution_manifest_sha256": "94ff1e2857adb490c75972bc2ed2a6b87777cfcc6a1b02baf318dea6ad219b11",
+  "D164_preparation_manifest_sha256": "0c0d62a398506fc04e44de9d1e98ddbc47fb8b9765c289d277f17f3d5661b1ef",
+  "D164_raw_archive_sha256": "6ecb659aaefc4a574f39d1da8c3bb88b53517ea9381cc25fa332144f822a7c19",
+  "D164_raw_archive_git_blob": "bd526b2757984a372be5ed3f3c76fc882f29b1ef",
+  "D164_raw_archive_bytes": 1324244,
+  "D164_raw_members": 1288,
+  "D164_director_disposition": "ACCEPT_COMPLETED_AUDITED_EVIDENCE_WITHIN_EXACT_FROZEN_SCOPE",
+  "director_binary_limitation": "No binary bytes returned by connector. No fresh Director-side raw decompression or certificate replay.",
+  "ordered_fixed_exterior": {
+    "even_p": "q>=3 and R>=7",
+    "odd_p_at_least_three": "q>=4",
+    "unit_p": "q>=8"
+  },
+  "selectable_second_roles": "R>=7 and unordered quotas differ from 1,6",
+  "full_Eplus": "Same selectable-role criterion. R<7 obstruction symbolic. 1,6 corner accepted D164 full E+ exhaustion plus exact symbolic transport.",
+  "control_original_bindings": [
+    {
+      "target": "target-0057",
+      "original_digest": "f2c94b2a446fe22d340e6a15f8b31684cbdec87e859ff9790437306b27418b0d",
+      "original_record_sha": "fce15fe2b701dce71114bc70cf585a04fac1187fac73489cd0cc9cdf5f9ddea0"
+    },
+    {
+      "target": "target-0060",
+      "original_digest": "93e901cb6cc00e8ee678eda500c1a930f45af1600ee7f5fccd7279891696360e",
+      "original_record_sha": "60b8910c5d66c804777b78677e2cd6040a2ea4a22296e0a2fd7d7c16860be087"
+    },
+    {
+      "target": "target-0070",
+      "original_digest": "fa4d0b07df044f83c64c7e6260206d080dfaf779fd03c3d147075c08c3daf625",
+      "original_record_sha": "d1ff569cadb9de57a614209c39169b03eb408bb2bb86a6764f1aa9baf086b1b7"
+    },
+    {
+      "target": "target-0111",
+      "original_digest": "948b58091f0c5f3b4806be6097fddaec1b30b4e184eb484f7f173afb38f3c465",
+      "original_record_sha": "fea0def371a7d64e715f39d331cb361fbbbc1b3ed7faebbe5c6e2e747b99bb0e"
+    },
+    {
+      "target": "target-0124",
+      "original_digest": "da57db9680698be4018cd8c25110928e6b6a0c82a02c148d7d89117ba6edef8a",
+      "original_record_sha": "dc196c6fb60ed5b946bfe399d7fd9935ebcbb6a4c30ef0c1c42843f374bb6d27"
+    },
+    {
+      "target": "target-0165",
+      "original_digest": "591d6142d4885646e80cf29cebac46f6ebf09054156aa54b16ccb367881b2ef1",
+      "original_record_sha": "db952a3b1bface11886ec3444db3cce492b29f15eccd9fc24eb92d494b92e988"
+    },
+    {
+      "target": "target-0178",
+      "original_digest": "6a2790901cc7c8525819a4868503f2c9d0834c668d04bcb848c909057172722b",
+      "original_record_sha": "63a67d51b6538b105be2019fa8c55e11e1bb8f1c9726d76cf58e1578b0ac845c"
+    },
+    {
+      "target": "target-0255",
+      "original_digest": "f014086186b8d3892015b9ab46a91daf43ade0e6f549ec7fcc59e3838cd06ebd",
+      "original_record_sha": "53eaf8c31d6e5195e8e768d38d3408451a4edf8674fc2277b72fa2a8c98a82e1"
+    },
+    {
+      "target": "target-0268",
+      "original_digest": "23ce7c1a0887951635f0278201e3d8b35c09a432e39f1d50f2b6628ce40a13f3",
+      "original_record_sha": "0e0a43fdb4c108b6fdd75c15974ba247d0603020637334b2f366bf87bab10662"
+    }
+  ],
+  "verification": {
+    "passed_local_shell_cpu": 1.75,
+    "passed_archival_checker_cpu": 0.640625,
+    "passed_outer_wall": 6.2594168,
+    "first_read_only_wrapper_outer_wall_without_cpu_receipt": 6.9994379,
+    "math_archive_check_cpu": 0.015625,
+    "math_archive_check_wall": 0.008446,
+    "implementation_review": {
+      "process_cpu": 2.578125,
+      "inner_wall": 2.1206453,
+      "selected_control_cpu": 1.25,
+      "selected_control_wall": 1.2476358
+    }
+  },
+  "execution_counters": {
+    "numerical_originals": 0,
+    "new_allocator_evaluations": 0,
+    "search_nodes": 0,
+    "solver_calls": 0,
+    "historical_replays": 0,
+    "unrelated_runs": 0,
+    "successor_preparation": 0,
+    "successor_execution": 0
+  },
+  "next_action": "Under separate Owner authorization after Director review, classify symbolic width-(6,4) terminal-exchange supply on the four-first-center family (1,3,4,4) in every physical order and positive second quotas of odd sum. Use the saved target-0428 positive and the undecided target-0429 boundary to distinguish role supply from gap compatibility. This action is UNSTARTED.",
+  "files": [
+    {
+      "path": "research/ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_PARITY_CHAIN.md",
+      "bytes": 25501,
+      "sha256": "a0a3b16ba0d06a3ac88268d5fa781a832a25eec96e1d6f72e0c09770084eee8b"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_PARITY_CHAIN_001/CUSTODY.json",
+      "bytes": 15084,
+      "sha256": "9f7ee70f48394ce9ff91a0d2ae64f85fe38f53d471fa38e0a2e766d97b5f20c5"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_PARITY_CHAIN_001/README.md",
+      "bytes": 1221,
+      "sha256": "768d1ea91d8be341ad19b0af93492ae9927ad3fbeb1813e831085f7c0cdad771"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_PARITY_CHAIN_001/REVIEWS.md",
+      "bytes": 2300,
+      "sha256": "d1aad936b46cdd034bdbf93e3c454eabe35db500817c601a24387a1bdf49687b"
+    },
+    {
+      "path": "handoffs/CODEX-20261125-exceptional-four-first-center-parity-chain.md",
+      "bytes": 2971,
+      "sha256": "16273202ae8cfc549a1906d5c59310b0d1ea3ee1771fd1a3d03d09cc22ed0322"
+    }
+  ],
+  "intake_file_bindings": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 8359,
+      "sha256": "e980f2ee51d2b69cfd8ab9c4955f9388ad14f9b7b78581729ef5a24dd21339e6"
+    },
+    {
+      "path": "lcl/model.py",
+      "bytes": 10720,
+      "sha256": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6"
+    },
+    {
+      "path": "lcl/verify.py",
+      "bytes": 14075,
+      "sha256": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_ALTERNATING_EXCEPTIONAL_SPECTRUM.md",
+      "bytes": 19060,
+      "sha256": "73230a18d826361e0eb4eadfbf02e41cbb1aa3c5332c890bf75f48ed18a0e0fd"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_EXTERIOR_SUPPLY_REASSESSMENT.md",
+      "bytes": 22150,
+      "sha256": "29f602e6623b96f2c043a665ca9355cf04829c89ae65c58ef731ee46bd810fa5"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_EXCEPTIONAL_EVEN_SECOND_QUOTA_EXTENSION.md",
+      "bytes": 27631,
+      "sha256": "136a5187a2fc1a296cbe4b7b21c0b1fa5427c3e7cdbf86a9dc3129fa16373880"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_EVEN_SECOND_QUOTA_EXTENSION_001/MANIFEST.json",
+      "bytes": 7861,
+      "sha256": "a356764e66bb0423bf47157c0176c1f257ad1e3dfb74e9075251e120a34f1449"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/MANIFEST.json",
+      "bytes": 39676,
+      "sha256": "0c0d62a398506fc04e44de9d1e98ddbc47fb8b9765c289d277f17f3d5661b1ef"
+    },
+    {
+      "path": "research/exceptional_four_first_001/CONTRACT.md",
+      "bytes": 20635,
+      "sha256": "39cca496d3525a4ab1ea1520e88fddd56a374f0562f51436fed3837e650f4e93"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/corpus_index.json",
+      "bytes": 1011930,
+      "sha256": "909a836c19c6bb1b4bb38e14d1d9e84185a492aae2b1d316fc7511a01f282147"
+    },
+    {
+      "path": "evidence/runs/d164-exceptional-four-first-001/MANIFEST.json",
+      "bytes": 8566,
+      "sha256": "94ff1e2857adb490c75972bc2ed2a6b87777cfcc6a1b02baf318dea6ad219b11"
+    },
+    {
+      "path": "evidence/runs/d164-exceptional-four-first-001/RECONCILIATION.json",
+      "bytes": 699373,
+      "sha256": "90fbb1ad38a9723ac2470894090e1ce7f6501f15a60e14500c3aff2b6b46f7b8"
+    },
+    {
+      "path": "evidence/runs/d164-exceptional-four-first-001/reconcile.py",
+      "bytes": 23137,
+      "sha256": "f392768bf39098503bf8d0907ecce9d83d30729dc55a6089cb6926e1fd8742c9"
+    },
+    {
+      "path": "evidence/runs/d164-exceptional-four-first-001/REVIEWS.md",
+      "bytes": 2275,
+      "sha256": "e34eb8d63d733c811b5d096080a3caa80f2e3930179fc72758d67e155ea49163"
+    },
+    {
+      "path": "evidence/runs/d164-exceptional-four-first-001/OFFICIAL_RAW.zip",
+      "bytes": 1324244,
+      "sha256": "6ecb659aaefc4a574f39d1da8c3bb88b53517ea9381cc25fa332144f822a7c19"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/prefix.json",
+      "bytes": 8781,
+      "sha256": "f48b56479dac85e1ddbbd36e5f6a6a3eaf94b9b32497e677fe5a96932abbac95"
+    },
+    {
+      "path": "evidence/runs/d148-matched-exterior-001/OFFICIAL_RAW.zip",
+      "bytes": 250606,
+      "sha256": "5b506784c1e5616a3b851335dd9fb93bad82801f6f8ce1a939bc39819a4d6e51"
+    },
+    {
+      "path": "evidence/runs/d154-parity-two-first-center-001/OFFICIAL_RAW.zip",
+      "bytes": 732889,
+      "sha256": "fc85e33800ec57eeccba25637f5e99080c08539160739cfbdd6543f18fb9cb72"
+    },
+    {
+      "path": "evidence/runs/d161-exceptional-quota-four-001/OFFICIAL_RAW.zip",
+      "bytes": 364603,
+      "sha256": "13c6ff81991bef03d0760b5ecf7aadc14b60a7cecdf951c10212d12de9eb7cee"
+    }
+  ]
+}

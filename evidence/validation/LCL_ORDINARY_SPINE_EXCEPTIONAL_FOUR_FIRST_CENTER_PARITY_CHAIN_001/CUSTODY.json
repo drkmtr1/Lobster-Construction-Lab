@@ -1,0 +1,387 @@
+{
+  "schema_version": 1,
+  "task": "LCL-ORDINARY-SPINE-EXCEPTIONAL-FOUR-FIRST-CENTER-PARITY-CHAIN-001",
+  "starting_checkpoint": "9f72dedeedc70eba6a8653313ad42cf4a5d2889a",
+  "D164_Director_acceptance": {
+    "disposition": "ACCEPT_COMPLETED_AUDITED_EVIDENCE_WITHIN_EXACT_FROZEN_SCOPE",
+    "checkpoint": "9f72dedeedc70eba6a8653313ad42cf4a5d2889a",
+    "manifest_sha256": "94ff1e2857adb490c75972bc2ed2a6b87777cfcc6a1b02baf318dea6ad219b11",
+    "archive_sha256": "6ecb659aaefc4a574f39d1da8c3bb88b53517ea9381cc25fa332144f822a7c19",
+    "archive_git_blob": "bd526b2757984a372be5ed3f3c76fc882f29b1ef",
+    "archive_bytes": 1324244,
+    "execution": "INCOMPLETE_RETAINED_PER_CANDIDATE_STATE_CEILING",
+    "finite_hypothesis": "UNDECIDED",
+    "completed_pairs": 428,
+    "completed_arms": 856,
+    "independently_reconstructed_positives": 264,
+    "symbolic_negatives": 584,
+    "independently_exhausted_Eplus_negatives": 8,
+    "separators": 0,
+    "unresolved_T": 1236,
+    "unresolved_Eplus": 928,
+    "target_0429_completed_arms": 0,
+    "director_verification": "Verified live continuity, eight nonarchive manifested files, both canonical states, 19 intake bindings, preparation continuity, 428 original and 856 arm index bindings, 1,288 raw member index entries, archive Git blob/size/manifest binding and arithmetic. Binary connector did not supply raw bytes. No fresh Director archive decompression or certificate replay. Acceptance of the certificate reconstructions and eight exhaustion audits rests on reviewed retained evidence and separate closeout reviews."
+  },
+  "admission": {
+    "status": "PASS",
+    "head": "9f72dedeedc70eba6a8653313ad42cf4a5d2889a",
+    "parent": "52086a1a3ec48e752fd6dbea72991739cfbe893a",
+    "origin_main": "9f72dedeedc70eba6a8653313ad42cf4a5d2889a",
+    "live_main": "9f72dedeedc70eba6a8653313ad42cf4a5d2889a",
+    "clean": true,
+    "archive": {
+      "raw_payloads": 1288,
+      "payload_bytes": 4529963,
+      "positive_rechecks": 264,
+      "negative_attestations": 8,
+      "completed_pairs": 428,
+      "selected_controls": [
+        {
+          "target": "target-0057",
+          "parameters": [
+            1,
+            1,
+            2,
+            4,
+            1,
+            6
+          ],
+          "original_digest": "f2c94b2a446fe22d340e6a15f8b31684cbdec87e859ff9790437306b27418b0d",
+          "original_record_sha": "fce15fe2b701dce71114bc70cf585a04fac1187fac73489cd0cc9cdf5f9ddea0",
+          "pair": {
+            "file": "target-0057-PAIR.json",
+            "sha256": "9d028b3da23a04eaf3d89a344648129f43a34a215bfedfa3f3a16c73f9b812b9",
+            "bytes": 165
+          },
+          "T": {
+            "file": "target-0057-T.json",
+            "bytes": 15154,
+            "sha256": "0de5c2da6d2fbe43464373bca6310c94dac2d9b4fd5ed3091f2c4a593fc976ab",
+            "claim": "YES"
+          },
+          "E+": {
+            "file": "target-0057-Eplus.json",
+            "bytes": 961,
+            "sha256": "eb529e65a97dbf0ff030ecdcae02d5b3568cefe53c3c32ae059de9afda032877",
+            "claim": "NO",
+            "category": "ALLOCATION_EXHAUSTED"
+          },
+          "negative_qualified": 66
+        },
+        {
+          "target": "target-0060",
+          "parameters": [
+            1,
+            1,
+            2,
+            4,
+            2,
+            5
+          ],
+          "original_digest": "93e901cb6cc00e8ee678eda500c1a930f45af1600ee7f5fccd7279891696360e",
+          "original_record_sha": "60b8910c5d66c804777b78677e2cd6040a2ea4a22296e0a2fd7d7c16860be087",
+          "pair": {
+            "file": "target-0060-PAIR.json",
+            "sha256": "d5d7018daf53c95fbea932753a9f3bfba950e491eae2062ba6f5b492df967b4a",
+            "bytes": 166
+          },
+          "T": {
+            "file": "target-0060-T.json",
+            "bytes": 15186,
+            "sha256": "069cb81c176ad1ae688e4f839a45bc22341540e579df269422c593e1dd1f0ca6",
+            "claim": "YES"
+          },
+          "E+": {
+            "file": "target-0060-Eplus.json",
+            "bytes": 15282,
+            "sha256": "e7d00cbcfd812e5cbdaa4a8a44460a5fb3936f955e4a04196e148b35b4ec71ed",
+            "claim": "YES",
+            "category": "COMPATIBLE_COMPLETION"
+          },
+          "negative_qualified": null
+        },
+        {
+          "target": "target-0070",
+          "parameters": [
+            1,
+            1,
+            2,
+            4,
+            6,
+            1
+          ],
+          "original_digest": "fa4d0b07df044f83c64c7e6260206d080dfaf779fd03c3d147075c08c3daf625",
+          "original_record_sha": "d1ff569cadb9de57a614209c39169b03eb408bb2bb86a6764f1aa9baf086b1b7",
+          "pair": {
+            "file": "target-0070-PAIR.json",
+            "sha256": "d24fa1b13e2eb1fe48c75cc10500fe17a94127fd3905cbcdddf7dd0c6d84ae2c",
+            "bytes": 165
+          },
+          "T": {
+            "file": "target-0070-T.json",
+            "bytes": 15154,
+            "sha256": "8fab5f79263be5a8babb97e18fcbde339c015c6926ab0615802e2c26cac746fc",
+            "claim": "YES"
+          },
+          "E+": {
+            "file": "target-0070-Eplus.json",
+            "bytes": 961,
+            "sha256": "9bf851263272956ea615ea8b906e4c52ace5d4f3b52b7c3847bafa95f0625d66",
+            "claim": "NO",
+            "category": "ALLOCATION_EXHAUSTED"
+          },
+          "negative_qualified": 66
+        },
+        {
+          "target": "target-0111",
+          "parameters": [
+            1,
+            1,
+            4,
+            2,
+            1,
+            6
+          ],
+          "original_digest": "948b58091f0c5f3b4806be6097fddaec1b30b4e184eb484f7f173afb38f3c465",
+          "original_record_sha": "fea0def371a7d64e715f39d331cb361fbbbc1b3ed7faebbe5c6e2e747b99bb0e",
+          "pair": {
+            "file": "target-0111-PAIR.json",
+            "sha256": "f5e8a94fe88b90bedbae07fe0fbb59cecb19cdbadc569a08486b8144147a672f",
+            "bytes": 165
+          },
+          "T": {
+            "file": "target-0111-T.json",
+            "bytes": 15153,
+            "sha256": "342dbcf0d1747cde61ca24cfcab8bc643b820572fccb6df742266bdaa82da5c0",
+            "claim": "YES"
+          },
+          "E+": {
+            "file": "target-0111-Eplus.json",
+            "bytes": 961,
+            "sha256": "81551447b978f792f4f5c74c7f6fc5db8a2f35e3da064bfc120e28e3c2c3cd7a",
+            "claim": "NO",
+            "category": "ALLOCATION_EXHAUSTED"
+          },
+          "negative_qualified": 66
+        },
+        {
+          "target": "target-0124",
+          "parameters": [
+            1,
+            1,
+            4,
+            2,
+            6,
+            1
+          ],
+          "original_digest": "da57db9680698be4018cd8c25110928e6b6a0c82a02c148d7d89117ba6edef8a",
+          "original_record_sha": "dc196c6fb60ed5b946bfe399d7fd9935ebcbb6a4c30ef0c1c42843f374bb6d27",
+          "pair": {
+            "file": "target-0124-PAIR.json",
+            "sha256": "0acfb3c6efec1f3a785e076218975a844dea9f280867475542696a33f4636a01",
+            "bytes": 165
+          },
+          "T": {
+            "file": "target-0124-T.json",
+            "bytes": 15153,
+            "sha256": "46f0c2821c3bc14ae439bf2459766226cc7dbe4b304d0f9e4911712cca993f67",
+            "claim": "YES"
+          },
+          "E+": {
+            "file": "target-0124-Eplus.json",
+            "bytes": 961,
+            "sha256": "dfb83463adfc9fa1ed899e35292d91070567d74b8c07afc455cc0dc71db67568",
+            "claim": "NO",
+            "category": "ALLOCATION_EXHAUSTED"
+          },
+          "negative_qualified": 66
+        },
+        {
+          "target": "target-0165",
+          "parameters": [
+            1,
+            2,
+            1,
+            4,
+            1,
+            6
+          ],
+          "original_digest": "591d6142d4885646e80cf29cebac46f6ebf09054156aa54b16ccb367881b2ef1",
+          "original_record_sha": "db952a3b1bface11886ec3444db3cce492b29f15eccd9fc24eb92d494b92e988",
+          "pair": {
+            "file": "target-0165-PAIR.json",
+            "sha256": "56e611cc6f494a4f6f1b59f51a22851c67293a38b11cd2ddf0164045c7ea7232",
+            "bytes": 165
+          },
+          "T": {
+            "file": "target-0165-T.json",
+            "bytes": 15155,
+            "sha256": "a43cc5aadcb2b7b2f8ea96b47f2015c007cc0897d7c0e29e6b239f33807f165b",
+            "claim": "YES"
+          },
+          "E+": {
+            "file": "target-0165-Eplus.json",
+            "bytes": 961,
+            "sha256": "2edca1216e32ee4d9c61f4e1e06da9b3bbb1194bb6a28aca62f36024511ac0c8",
+            "claim": "NO",
+            "category": "ALLOCATION_EXHAUSTED"
+          },
+          "negative_qualified": 66
+        },
+        {
+          "target": "target-0178",
+          "parameters": [
+            1,
+            2,
+            1,
+            4,
+            6,
+            1
+          ],
+          "original_digest": "6a2790901cc7c8525819a4868503f2c9d0834c668d04bcb848c909057172722b",
+          "original_record_sha": "63a67d51b6538b105be2019fa8c55e11e1bb8f1c9726d76cf58e1578b0ac845c",
+          "pair": {
+            "file": "target-0178-PAIR.json",
+            "sha256": "ff5c9ba0817448fe697e09ec0e6d54f5159de2b5b4b4ba16625ad171e1389e40",
+            "bytes": 165
+          },
+          "T": {
+            "file": "target-0178-T.json",
+            "bytes": 15155,
+            "sha256": "95b1ad6f1a99afc2b67b67e64e84c065e1f09089b90f85df4107a366293a5431",
+            "claim": "YES"
+          },
+          "E+": {
+            "file": "target-0178-Eplus.json",
+            "bytes": 961,
+            "sha256": "15a5c508dd565bed6257e0c2c3749121efa7e83d09c7138df70705435091ba53",
+            "claim": "NO",
+            "category": "ALLOCATION_EXHAUSTED"
+          },
+          "negative_qualified": 66
+        },
+        {
+          "target": "target-0255",
+          "parameters": [
+            1,
+            2,
+            4,
+            1,
+            1,
+            6
+          ],
+          "original_digest": "f014086186b8d3892015b9ab46a91daf43ade0e6f549ec7fcc59e3838cd06ebd",
+          "original_record_sha": "53eaf8c31d6e5195e8e768d38d3408451a4edf8674fc2277b72fa2a8c98a82e1",
+          "pair": {
+            "file": "target-0255-PAIR.json",
+            "sha256": "ad229e6c1eb31c5b353271f02d38caa1056ff3a5e173ba96dcd7f95a007ca9e9",
+            "bytes": 165
+          },
+          "T": {
+            "file": "target-0255-T.json",
+            "bytes": 15155,
+            "sha256": "914ad66660cca362c1c977d8b2a5034a2834a217ba5a90020ec1d4648a6157c8",
+            "claim": "YES"
+          },
+          "E+": {
+            "file": "target-0255-Eplus.json",
+            "bytes": 961,
+            "sha256": "10ffa0518967f66218b5ad038d253f77d05ff22c7085d3e22a86b798704a9e63",
+            "claim": "NO",
+            "category": "ALLOCATION_EXHAUSTED"
+          },
+          "negative_qualified": 66
+        },
+        {
+          "target": "target-0268",
+          "parameters": [
+            1,
+            2,
+            4,
+            1,
+            6,
+            1
+          ],
+          "original_digest": "23ce7c1a0887951635f0278201e3d8b35c09a432e39f1d50f2b6628ce40a13f3",
+          "original_record_sha": "0e0a43fdb4c108b6fdd75c15974ba247d0603020637334b2f366bf87bab10662",
+          "pair": {
+            "file": "target-0268-PAIR.json",
+            "sha256": "61cec3b2574ab0c911b996eff55596038ed9f2eecba8f8c20ecdb49fa144d1d7",
+            "bytes": 165
+          },
+          "T": {
+            "file": "target-0268-T.json",
+            "bytes": 15155,
+            "sha256": "939e5256922d131ad2f923bdfa9a8a721b8f4c586297ed561b6c6c5a92c1e7dc",
+            "claim": "YES"
+          },
+          "E+": {
+            "file": "target-0268-Eplus.json",
+            "bytes": 961,
+            "sha256": "142c50a377a7828513626f0d9d6603ebaf9e5362123080d768a551347ec7e91c",
+            "claim": "NO",
+            "category": "ALLOCATION_EXHAUSTED"
+          },
+          "negative_qualified": 66
+        }
+      ],
+      "archive_checker_cpu": 0.640625,
+      "archive_checker_wall": 0.6639984999783337
+    },
+    "archive_sha": "6ecb659aaefc4a574f39d1da8c3bb88b53517ea9381cc25fa332144f822a7c19",
+    "archive_blob": "bd526b2757984a372be5ed3f3c76fc882f29b1ef",
+    "archive_bytes": 1324244,
+    "execution_files": 9,
+    "execution_intake": 19,
+    "prepared_files": 131,
+    "prepared_intake": 17,
+    "prepared_state": "c6253618a939f9d0a50ee454726f2a2b449468bd44e7c3f2e293646ffc57d6b0",
+    "starting_state": "a48934394c755f2dbf7838246ba74642fea4b55b83db2827fd6709eb0efe57de",
+    "builder": "8d1e9948e8bf5ef01e67c9afe0155412c57d79fa",
+    "checker": "d008f35f0843e1a5c770db3e7f42ed7d987360d7",
+    "baseline": "fddfc1dd9541324b2ed2de2505bc750b3e3f0b9d",
+    "baseline_peel": "36ea1603602491bf3c1c5b81ed4c23aaa2210e70",
+    "upstreams": [
+      {
+        "path": "../Math_Discovery_Lab",
+        "pin": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+        "branch": "main",
+        "checkout": "858a8c1fcfda87ba40bb1adee498a6131504a803"
+      },
+      {
+        "path": "../MDL_Bounded_Search",
+        "pin": "e48b94eec4091b4fe189e325cab2eda464409943",
+        "branch": "recovery/p004-last-completed-no-launcher",
+        "checkout": "c803ecb6bd0481d31af43f7e3c194ae8ed4d1578",
+        "remote_recovery_tip": "1e1efeac9acd70006d7f1bd4aa6786f438cff602"
+      }
+    ],
+    "agents": {
+      "path": "AGENTS.md",
+      "bytes": 8359,
+      "sha256": "e980f2ee51d2b69cfd8ab9c4955f9388ad14f9b7b78581729ef5a24dd21339e6"
+    },
+    "agents_git_sha": "ddb4b70c24cb5e1725d0c2e4ea8c2d522b4556b62b8bd69fdffd4205ece485db",
+    "writers": 0,
+    "local_shell_cpu": 1.75,
+    "inner_wall": 6.1146024,
+    "outer_tool_wall": 6.2594168,
+    "initial_read_only_wall": 6.9994379
+  },
+  "verification_scope": "Read-only. Local Git blob/SHA/length and ZIP decompression hash reconciliation across all 1,288 entries. Reconstructed retained checked positives and reconciled saved negative exhaustion attestations using pinned D164 saved-record utilities. No official or archived traversal was replayed.",
+  "admission_note": "The initial read-only comparison used in-memory Python tuples against archived JSON lists for move-type rows. The receipts were unchanged. Comparing canonical JSON resolved the wrapper-only representation mismatch. There were no search invocations, mutations to frozen data, or campaign retries. CPU for that first helper run was not reported; its whole observed tool window is recorded separately.",
+  "retained_historical_scope": "D163 alternate E+ corner open. D161 COMPLETE with 33 accepted finite separations. D154 COMPLETE with two accepted finite falsifications. D148 INCOMPLETE_EXTERIOR_NODE_CAP and twelve undecided pairs. Closed pilot, sealed D130, 2322 DEFERRED / UNSTARTED.",
+  "research_counters": {
+    "new_originals": 0,
+    "numerical_allocator_evaluations": 0,
+    "exterior_search_nodes": 0,
+    "transfer_search_nodes": 0,
+    "labeling_search_nodes": 0,
+    "solver_calls": 0,
+    "pilot_invocations": 0,
+    "historical_campaign_replays": 0,
+    "d130_detailed_access": 0,
+    "successor_preparation": 0,
+    "successor_execution": 0
+  }
+}

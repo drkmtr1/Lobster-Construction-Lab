@@ -958,3 +958,9 @@ Open: decide whether any of the 2,304 named originals admits E+ with independent
 Reconciled all 428 saved matched pairs, 264 actual named positive certificates, 584 symbolic negatives and eight independent numerical negative attestations. No completion or obstruction was deduced for the capped T decision. The finite theorem about a separating original in the entire corpus remains open because 928 eligible originals have no official completed pair.
 
 A distinct proposed symbolic next step is to determine the scope of the repeatedly observed width-(6,4) actual terminal-exchange mechanism for four first centers with values (1,1,2,4) and odd second total. Targets 0060 and 0057 retain opposite E+ outcomes at the same total and exact physical first profile. Prove an allocation or obstruction by actual host capacity and exact gap inventories. This action is UNSTARTED and has no preparation or execution authority. [Observed witness structure](../evidence/runs/d164-exceptional-four-first-001/STRUCTURE.md)
+
+## D165 — Classified parity chains and next supply boundary
+
+Discharged the selected fixed-exterior and selectable-role criteria, the symbolic all-exterior R<7 E+ obstruction, the full E+ corner via accepted finite exhaustion transport, named partial inventories and exact S₋₁ composition. The exact residual parity-path recurrence applies after the four legal named lower-host reservations on the declared exterior. Its extension to larger first quotas is open.
+
+The sole proposed unstarted question is symbolic width-(6,4) terminal-exchange supply for first quota values (1,3,4,4), positive second quotas of odd sum, and every physical order. The observed target-0428 controls and the undecided target-0429 give a comparison at the same first profile. No successor preparation or execution is authorized. D164's overall separation hypothesis remains undecided. [Proof and scope](ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_PARITY_CHAIN.md)

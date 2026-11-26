@@ -701,3 +701,9 @@ The raw width-(6,4) paired-terminal example exists at K≥10 but its upper-index
 The 1,000,000 per-candidate retained-state ceiling prevented the first official pass from completing the frozen diagnostic. At T of target-0429 (1,3,4,4),(5,6,0) the worker emitted `LIMIT: retained per-candidate state ceiling`. No disposition exists for either arm of that original. Zero separations in the completed prefix does not settle the finite separation hypothesis.
 
 Eight completed E+ arms exhaust incompatible gaps across 66 qualified representatives apiece. Both independent traversals agree by physical stratum. Those frozen original-specific negatives have T positives and concern the declared exceptional arrangement. No negative was newly counted from raw-present exteriors merely rejected by the necessary gap gate. [Reconciled categories](../evidence/runs/d164-exceptional-four-first-001/RECONCILIATION.json)
+
+## D165 — Fixed-exterior obstructions and their scopes
+
+The fixed width-(6,4) exterior cannot use the quota-two first center at reduced label 3. The permutation moment has odd parity. With p=1 and k=6, identity at Q forces paired equal lower-host shifts because the two L reservations have opposite parity. The available multiset (1,3,3,5) cannot split into such pairs. For k≥7 the same-parity pair of L reservations yields an explicit completion. Endpoint bounds exclude q<3 for even p and q<4 for odd p on this exterior.
+
+Failure of that fixed exterior alone supplies no full E+ negative. Across all declared exteriors the R<7 obstruction instead follows by positive terminal balance and the fresh graph counts. At {1,6} the full-class negative uses accepted finite exhaustion via exact prefix and named-role transport. The D164 interruption supplies no further negative. [Proof](ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_PARITY_CHAIN.md)
