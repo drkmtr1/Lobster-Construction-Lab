@@ -1065,4 +1065,8 @@ The exact local quota support is established within the defined footprint, and t
 
 ## D187 — Scope beyond the unified center-count parities
 
-Both parities for each of r and ν≥4 are supplied under the stated first inventory, local baseline model, exact target quota and size conditions. General H1 feasibility, smaller ν in this new domain, other actual topologies, independent initialization and arbitrary decomposition remain separate. D186 and earlier mathematical and historical scopes remain as recorded. The sole next action is Director review of D187. [D187 proof](ORDINARY_SPINE_EXCEPTIONAL_PARITY_UNIFIED_MULTI_HOST.md)
+Both parities for each of r and ν≥4 are supplied under the stated first inventory, local baseline model, exact target quota and size conditions. General H1 feasibility, smaller ν in this new domain, other actual topologies, independent initialization and arbitrary decomposition remain separate. D186 and earlier mathematical and historical scopes remain as recorded. The Director accepted D187 in its exact scope. D188 separately addresses exterior direct leaves on both sections. [D187 proof](ORDINARY_SPINE_EXCEPTIONAL_PARITY_UNIFIED_MULTI_HOST.md)
+
+## D188 — Scope beyond the sufficient direct-leaf construction
+
+The specified actual direct-leaf counts are admitted under the effective width, qualifying role and exact target tests. General H1 feasibility, other exterior/gap placements, other center minima, independent initialization and arbitrary decomposition remain separate. D187 and earlier mathematical and historical scopes remain as recorded. The sole next action is Director review of D188. [D188 proof](ORDINARY_SPINE_EXCEPTIONAL_DIRECT_LEAF_SLOT_CONSTRUCTION.md)

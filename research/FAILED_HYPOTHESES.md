@@ -807,3 +807,7 @@ At fixed imbalances a local matching using the retained upper hosts requires eve
 ## D187 — Necessary graph parities in the stated same-phase arrangement
 
 The fresh graph-class sizes 1+r+R and ν+2+F must both be even under the declared crossing-exterior and leaf-only-gap placement. Therefore R≡r+1 and F≡ν modulo two are necessary. These conditions apply to the named same-phase arrangement. The former odd-r and even-ν restrictions can be removed in the proved supplier by the unified tail. General H1 feasibility retains its own scope. [D187 proof](ORDINARY_SPINE_EXCEPTIONAL_PARITY_UNIFIED_MULTI_HOST.md)
+
+## D188 — Host availability and same-phase restrictions with exterior direct leaves
+
+A direct-leaf slot supplies no residual terminal arrows. A missing upper host is unavailable in the local gap matching even if the corresponding reduced exterior slot exists. If the eligible quota list is entirely zero, its local gap sets coincide and their index moment precludes any positive-separation match. The same-phase graph classes force R≡r*+1 and F≡ω modulo two, with R≥r*+3 for terminal-enabled placements having all first direct leaves exterior. These conditions apply to the stated models. [D188 proof](ORDINARY_SPINE_EXCEPTIONAL_DIRECT_LEAF_SLOT_CONSTRUCTION.md)

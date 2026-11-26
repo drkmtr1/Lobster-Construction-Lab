@@ -1,0 +1,283 @@
+{
+  "D174_history": {
+    "numerical_arms": 2,
+    "pairs": 1,
+    "stopping_rule": "FIRST_INDEPENDENTLY_VERIFIED_SEPARATOR",
+    "unentered": 3518
+  },
+  "accepted_D177_symbolic_projection": {
+    "admitted_K_frequencies": {
+      "15": 15,
+      "16": 30,
+      "17": 30,
+      "18": 15,
+      "19": 3
+    },
+    "count": 93,
+    "historically_unentered": 92
+  },
+  "accepted_D187": {
+    "checkpoint": "9761e85502d9013b70997c5bc900d358e189aff4",
+    "manifest": {
+      "bytes": 6097,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_PARITY_UNIFIED_MULTI_HOST_001/MANIFEST.json",
+      "sha256": "eb59073836a718d8a17af3f705d5f87ea48dda0bffe47e6cc6e29f3c46529689"
+    },
+    "proof": {
+      "bytes": 36612,
+      "path": "research/ORDINARY_SPINE_EXCEPTIONAL_PARITY_UNIFIED_MULTI_HOST.md",
+      "sha256": "956b52fa6b0858998c58614ba066ac88c44cacdb1d63fb9329ce986bc1da4216"
+    },
+    "status": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE"
+  },
+  "authoritative_ledgers": {
+    "research/DECISIONS.md": {
+      "bytes": 169405,
+      "sha256": "5fa259e2ef70aee9d026aca47481bb51cab7db2de21aff083f24573b998357ff"
+    },
+    "research/FAILED_HYPOTHESES.md": {
+      "bytes": 89814,
+      "sha256": "62d30ebd94ea293ca3a7bfba1862a4109838d75d9289f3a875a8c2c85ab2987b"
+    },
+    "research/FINDINGS.md": {
+      "bytes": 215589,
+      "sha256": "81b41e9ff374b8926661a4b00047b63773aa15aef2eb2aa41154f172536a7379"
+    },
+    "research/PROOF_OBLIGATIONS.md": {
+      "bytes": 123495,
+      "sha256": "28bb0ddf3083a61918589e78b20ff942738ff6cc211d7e741b933e859b670929"
+    }
+  },
+  "canonical_state": {
+    "bytes": 109400,
+    "sha256": "d290394af2c09327445e70566cdfcb26f81da431b3843589dfb2dd8f33a8a310"
+  },
+  "files": {
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_DIRECT_LEAF_SLOT_CONSTRUCTION_001/CUSTODY.json": {
+      "bytes": 9757,
+      "sha256": "23c87786706a6da9ca6966f490eb4180b5dd2904b7050791f1d0edcea3e3b4d4"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_DIRECT_LEAF_SLOT_CONSTRUCTION_001/REVIEWS.md": {
+      "bytes": 2497,
+      "sha256": "44b5c75143a5c569925c8169927addd25464c6f0c7db4eb62d994b08d6251a13"
+    },
+    "handoffs/CODEX-20261125-d188-direct-leaf-slot-construction.md": {
+      "bytes": 3267,
+      "sha256": "ca468a2dafb8009427950d256581fd47b4d6a8e35da958a8e15a3676c5e26991"
+    },
+    "research/ORDINARY_SPINE_EXCEPTIONAL_DIRECT_LEAF_SLOT_CONSTRUCTION.md": {
+      "bytes": 38316,
+      "sha256": "69d0ad43e114fa4200f8970c65ad88142036e8ed53600ccb8f64b9739126225c"
+    }
+  },
+  "hash_convention": "Canonical LF for D188 text. Earlier frozen evidence retains its original conventions.",
+  "parent": "9761e85502d9013b70997c5bc900d358e189aff4",
+  "phase": "SYMBOLIC_CLOSEOUT",
+  "result": {
+    "consequences": "Complete D187 domain, no second direct leaves, three positive second centers, all-zero and mixed eligible slots, direct-leaf-assisted Q floor",
+    "open_scopes": [
+      "General H1 feasibility",
+      "Other arrangement and host minima",
+      "Independent initialization",
+      "Arbitrary decomposition"
+    ],
+    "principal": "Arbitrary nonnegative exterior direct-leaf counts on both appended sections, actual nu>=3 and effective omega=nu+z2-1>=4, stated actual first inventory and qualifying roles",
+    "quota_condition": "Actual target quotas dominate selected baseline with matching parity and sufficient Q costs under full D157 admission; full-bank test t>=max Gamma",
+    "supplier": "Independent named slots, zero-quota eligible arithmetic, sparse upper menu with actual P2 and P_(omega-1), D187 tail and D184 bank"
+  },
+  "reviews": {
+    "director_D188": "PENDING",
+    "implementation_and_evidence_custody": "PASS_SCOPED",
+    "mathematical": "PASS_SCOPED"
+  },
+  "schema_version": 1,
+  "scientific_counters": {
+    "historical_replays": 0,
+    "new_scientific_campaign_executions": 0,
+    "numerical_search_nodes": 0,
+    "original_checker_invocations": 0,
+    "solver_allocation_states": 0
+  },
+  "sole_next_action": "Submit the D188 symbolic outcome and separate reviews for Director review.",
+  "status": "PROVED_WITHIN_EXACT_WRITTEN_SCOPE_PENDING_DIRECTOR_REVIEW",
+  "symbolic_controls": {
+    "A": {
+      "F": 26,
+      "R": 12,
+      "first": [
+        12,
+        4,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "maximum_cut": 65,
+      "menu": [
+        2,
+        3,
+        4
+      ],
+      "second": [
+        5,
+        1,
+        4,
+        2,
+        0
+      ],
+      "twice_K": 52
+    },
+    "B": {
+      "F": 26,
+      "R": 13,
+      "first": [
+        14,
+        4,
+        2,
+        2,
+        2,
+        2
+      ],
+      "maximum_cut": 65,
+      "menu": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "second": [
+        4,
+        1,
+        4,
+        2,
+        2
+      ],
+      "twice_K": 52
+    },
+    "C": {
+      "F": 28,
+      "R": 11,
+      "first": [
+        14,
+        6,
+        2,
+        2,
+        2,
+        2
+      ],
+      "maximum_cut": 66,
+      "menu": [
+        2,
+        5
+      ],
+      "second": [
+        4,
+        1,
+        6,
+        0,
+        0,
+        0,
+        0
+      ],
+      "twice_K": 54
+    },
+    "D": {
+      "F": 24,
+      "R": 13,
+      "first": [
+        12,
+        4,
+        2,
+        2,
+        2,
+        2,
+        0,
+        0
+      ],
+      "maximum_cut": 65,
+      "menu": [
+        2,
+        3,
+        4
+      ],
+      "second": [
+        6,
+        1,
+        4,
+        2,
+        0
+      ],
+      "twice_K": 52
+    },
+    "E": {
+      "F": 33,
+      "R": 15,
+      "first": [
+        16,
+        5,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        0,
+        0
+      ],
+      "maximum_cut": 72,
+      "menu": [
+        2,
+        4,
+        6
+      ],
+      "second": [
+        5,
+        4,
+        4,
+        2,
+        0,
+        0
+      ],
+      "twice_K": 66
+    },
+    "certificate_status": "SYMBOLIC_COVERAGE_ONLY",
+    "composition": {
+      "blocks": [
+        "A",
+        "E"
+      ],
+      "edge_counts": [
+        74,
+        126,
+        192
+      ],
+      "maximum_cuts": [
+        39,
+        65,
+        98
+      ]
+    },
+    "single_zero": {
+      "empty_footprint": true,
+      "first": [
+        12,
+        4,
+        2,
+        2,
+        2,
+        2,
+        0
+      ],
+      "second": [
+        5,
+        1,
+        4,
+        2,
+        0
+      ],
+      "twice_K": 50
+    }
+  },
+  "task": "LCL-ORDINARY-SPINE-EXCEPTIONAL-DIRECT-LEAF-SLOT-CONSTRUCTION-001"
+}
