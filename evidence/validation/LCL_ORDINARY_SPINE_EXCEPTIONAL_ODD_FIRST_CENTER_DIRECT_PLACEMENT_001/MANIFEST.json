@@ -1,0 +1,74 @@
+{
+  "accepted_D174_execution": {
+    "checkpoint": "5ce85f62e6da0432358a5de5ad4ed62315fe9a38",
+    "historical_numerical_arms": 2,
+    "historical_pairs": 1,
+    "historical_unentered": 3518,
+    "manifest": "evidence/runs/d174-exceptional-five-first-direct-001/MANIFEST.json",
+    "manifest_sha256": "c74db95d8072f572c5df80950c2b80861548a75fb6b130de199bb80a21650f8f",
+    "status": "DIRECTOR_ACCEPTED_WITHIN_EXACT_FROZEN_FINITE_EXISTENTIAL_SCOPE"
+  },
+  "authoritative_ledgers": {
+    "research/DECISIONS.md": {
+      "bytes": 151654,
+      "sha256": "897898d44b653964f6ef1c2dd96dae4df3754e54b4c19794b31a079860f1cbf4"
+    },
+    "research/FAILED_HYPOTHESES.md": {
+      "bytes": 81136,
+      "sha256": "3077f569cd723f48ab66a3154894e7dcac1b7352a80fe5189e5fbb880fca51ef"
+    },
+    "research/FINDINGS.md": {
+      "bytes": 200898,
+      "sha256": "dbd1668d0f4b0b4a70e92f9870a21f7d4e367af9ad55d3dd388b6f32da086ea0"
+    },
+    "research/PROOF_OBLIGATIONS.md": {
+      "bytes": 114574,
+      "sha256": "c1b9b1b24388cce89c051652d7b95179187c72a439969a1bbd9e5454b955bebc"
+    }
+  },
+  "canonical_state": {
+    "bytes": 95949,
+    "sha256": "f1679cd337d948a77b4ece52eb5090e26183578b492543bf7adfb8adf94e162f"
+  },
+  "files": {
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ODD_FIRST_CENTER_DIRECT_PLACEMENT_001/CUSTODY.json": {
+      "bytes": 4055,
+      "sha256": "149ac073bc03d7d80e9e81a6c2c7b12edd36d1089e962b59ce3c95f2cb7565e3"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ODD_FIRST_CENTER_DIRECT_PLACEMENT_001/REVIEWS.md": {
+      "bytes": 3517,
+      "sha256": "f0ba12f228e42c5e82f812c4f067b488041b1b7dc5cca7a5a1a6ffe97da8b4e8"
+    },
+    "handoffs/CODEX-20261125-d175-odd-first-center-direct-placement.md": {
+      "bytes": 4247,
+      "sha256": "fc4ab22a09893576f686089177cfb205b8132469dce608765e9803271f043f79"
+    },
+    "research/ORDINARY_SPINE_EXCEPTIONAL_ODD_FIRST_CENTER_DIRECT_PLACEMENT.md": {
+      "bytes": 22394,
+      "sha256": "7e365ca57b8a4c66f4c63b7e31395d771ebe311a7959e5cbd63ac9ee9ec3ff8e"
+    }
+  },
+  "hash_convention": "Canonical LF for D175 text files. Frozen D174 identities retain their original conventions.",
+  "parent": "5ce85f62e6da0432358a5de5ad4ed62315fe9a38",
+  "phase": "SYMBOLIC_CLOSEOUT",
+  "result": {
+    "D174_H0_symbolic_projection_count": 93,
+    "D174_H0_symbolic_projection_unentered": 92,
+    "H0": "COMPLETE_SYMBOLIC_EXCLUSION_WITH_INDEPENDENT_RAW_EXTERIOR_ON_STATED_ODD_R_GE_3_DOMAIN",
+    "H1": "DIRECT_SUPPLIER_ON_THE_STATED_NARROWER_ODD_R_GE_5_FAMILY"
+  },
+  "reviews": {
+    "director_D175": "PENDING",
+    "implementation_and_evidence_custody": "PASS_SCOPED",
+    "mathematical": "PASS_SCOPED"
+  },
+  "schema_version": 1,
+  "scientific_counters": {
+    "new_scientific_campaign_executions": 0,
+    "numerical_search_nodes": 0,
+    "solver_allocation_states": 0
+  },
+  "sole_next_action": "Submit the D175 symbolic outcome and separate reviews for Director review.",
+  "status": "PROVED_WITHIN_EXACT_WRITTEN_SCOPE_PENDING_DIRECTOR_REVIEW",
+  "task": "LCL-ORDINARY-SPINE-EXCEPTIONAL-ODD-FIRST-CENTER-DIRECT-PLACEMENT-001"
+}
