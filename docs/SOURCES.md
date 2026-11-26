@@ -3,6 +3,8 @@
 **Inspection date:** 2026-11-21 UTC / 2026-11-20 Pacific/Honolulu.  
 This register separates pinned project evidence from external method and software documentation. Repository findings refer to the named commits, not to a claim about all current literature. No historical novelty determination is made. Citation IDs are shared by [METHOD_SELECTION.md](METHOD_SELECTION.md) and [DEPENDENCIES_RESEARCH.md](DEPENDENCIES_RESEARCH.md).
 
+The November 25 literature intake uses a separate LH namespace for its 36 handoff sources. It records verified theorem scopes, access limits, the exact project comparisons and one unstarted proposal. [Literature register](LOBSTER_LITERATURE_REGISTER.md), [research alignment](LOBSTER_RESEARCH_ALIGNMENT.md)
+
 ## 1. Pinned project evidence
 
 The source repositories are private; their owner can follow the links while signed in. The existing source audit supplied authenticated snapshots. Selected primary passages were read again for this build. No upstream solver, archived computation, or formal proof checker was rerun as part of method research. The completed package's validation record separately describes new code checks.
