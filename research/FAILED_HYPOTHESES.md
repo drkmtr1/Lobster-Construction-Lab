@@ -811,3 +811,7 @@ The fresh graph-class sizes 1+r+R and ν+2+F must both be even under the declare
 ## D188 — Host availability and same-phase restrictions with exterior direct leaves
 
 A direct-leaf slot supplies no residual terminal arrows. A missing upper host is unavailable in the local gap matching even if the corresponding reduced exterior slot exists. If the eligible quota list is entirely zero, its local gap sets coincide and their index moment precludes any positive-separation match. The same-phase graph classes force R≡r*+1 and F≡ω modulo two, with R≥r*+3 for terminal-enabled placements having all first direct leaves exterior. These conditions apply to the stated models. [D188 proof](ORDINARY_SPINE_EXCEPTIONAL_DIRECT_LEAF_SLOT_CONSTRUCTION.md)
+
+## D189 — Capacity and matching failures in the whole-section model
+
+The prescribed neutral allocation and whole-section split require a nonnegative remaining H length. For (6,1,0),(5,1,0,0), the parity and s=K geometry hold, but F=7<α_N+ω=9 and H* is −1. At fixed splits in the width-four and width-two controls, ordered gap matching requires the unavailable separation one, while explicit nonidentity permutations give legal completions. At t=0 the proved growth adds only even quota at Q, keeping shifted quotas fixed. These are model-specific conclusions. [D189 proof](ORDINARY_SPINE_EXCEPTIONAL_WHOLE_SECTION_MONOTONE_ALLOCATION.md)

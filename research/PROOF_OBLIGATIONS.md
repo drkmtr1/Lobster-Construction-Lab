@@ -1069,4 +1069,8 @@ Both parities for each of r and ν≥4 are supplied under the stated first inven
 
 ## D188 — Scope beyond the sufficient direct-leaf construction
 
-The specified actual direct-leaf counts are admitted under the effective width, qualifying role and exact target tests. General H1 feasibility, other exterior/gap placements, other center minima, independent initialization and arbitrary decomposition remain separate. D187 and earlier mathematical and historical scopes remain as recorded. The sole next action is Director review of D188. [D188 proof](ORDINARY_SPINE_EXCEPTIONAL_DIRECT_LEAF_SLOT_CONSTRUCTION.md)
+The specified actual direct-leaf counts are admitted under the effective width, qualifying role and exact target tests. General H1 feasibility, other exterior/gap placements, other center minima, independent initialization and arbitrary decomposition remain separate. D187 and earlier mathematical and historical scopes remain as recorded. The Director accepted D188 in its exact scope. D189 separately addresses the whole-section monotone baseline. [D188 proof](ORDINARY_SPINE_EXCEPTIONAL_DIRECT_LEAF_SLOT_CONSTRUCTION.md)
+
+## D189 — Scope beyond the whole-section monotone baseline
+
+The ordered partitions, exact baseline support in this model and sufficient bank growth are proved under the stated topology, capacity and independent admission conditions. General H1 feasibility, other exterior layouts, one-positive-second-center cases, other first-role requirements, independent initialization and arbitrary decomposition remain separate. D188 remains a separate accepted arm. The sole next action is Director review of D189. [D189 proof](ORDINARY_SPINE_EXCEPTIONAL_WHOLE_SECTION_MONOTONE_ALLOCATION.md)

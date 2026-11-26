@@ -1,0 +1,257 @@
+{
+  "parent": "8f9c898f3cd02bda98d9f851dd5cf846298b0aa1",
+  "D188_accepted_manifest": {
+    "bytes": 6525,
+    "sha256": "fbd11a1bd1294bdd5a77fa845d0aaa4a36b85e935b5eb65c7d91de7a8ae35e46"
+  },
+  "D188_accepted_proof": {
+    "bytes": 38316,
+    "sha256": "69d0ad43e114fa4200f8970c65ad88142036e8ed53600ccb8f64b9739126225c"
+  },
+  "D188_bound_files": 9,
+  "D187": {
+    "checkpoint": "9761e85502d9013b70997c5bc900d358e189aff4",
+    "manifest": {
+      "bytes": 6097,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_PARITY_UNIFIED_MULTI_HOST_001/MANIFEST.json",
+      "sha256": "eb59073836a718d8a17af3f705d5f87ea48dda0bffe47e6cc6e29f3c46529689"
+    },
+    "proof": {
+      "bytes": 36612,
+      "path": "research/ORDINARY_SPINE_EXCEPTIONAL_PARITY_UNIFIED_MULTI_HOST.md",
+      "sha256": "956b52fa6b0858998c58614ba066ac88c44cacdb1d63fb9329ce986bc1da4216"
+    },
+    "status": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE"
+  },
+  "earlier_evidence_bindings": {
+    "research/ORDINARY_SPINE_EXCEPTIONAL_CUMULATIVE_IMBALANCE_ALLOCATION.md": "57f259c303b2e4cb8ba3e1ada0151fe0623679bd2af2942adab129d77eadfb4c",
+    "research/ORDINARY_SPINE_EXCEPTIONAL_BASELINE_QUOTA_REDISTRIBUTION.md": "ce57d935b60952f8ebf0ffa49041e1912aec522bc3a6c53dac8c4c0fa8a093b5",
+    "research/ORDINARY_SPINE_EXCEPTIONAL_NEUTRAL_ANCHOR_BANK_GROWTH.md": "149ccbc35b61ccd20769731dc3f49db6d7832549157b317ce806abc76f7274d4",
+    "research/ORDINARY_SPINE_EXCEPTIONAL_UNBOUNDED_MULTI_UPPER_HOST.md": "9fe08493ef3bcffe363d434d07633839550d25b8579e2908be182fdf8d68a78a",
+    "research/ORDINARY_SPINE_EXCEPTIONAL_PARITY_NEUTRAL_PACKETS.md": "35fcfc355882e6a7f892fecedd4b80f5e90f4803b86dc603dae1054f627fb7e7",
+    "research/ORDINARY_SPINE_EXCEPTIONAL_MIXED_FIRST_QUOTA_PARITY.md": "6ea34b37b797bbb2cf2ed3d6d40a4384a8520bb7c607f75b4d5cc6b439609809",
+    "research/ORDINARY_SPINE_EXCEPTIONAL_ODD_SECOND_QUOTA_SUPPLIER.md": "0a2f0768b3480c838d28ee8642035909a8563279cea3574bb8108259007cd961",
+    "research/ORDINARY_SPINE_EXCEPTIONAL_INDEPENDENT_SECOND_QUOTA_GROWTH.md": "33939a3664c5b477b9dd5dcdbdc2fcd111a063c8c735316c98c5d9dbe8cf924e",
+    "research/ORDINARY_SPINE_EXCEPTIONAL_ARBITRARY_EVEN_FIRST_QUOTA_LIFT.md": "9dab346bc4efde56dfe590f248fe79a93eff183aecb383b52594662f95f5cbea",
+    "research/ORDINARY_SPINE_EXCEPTIONAL_ODD_FIRST_CENTER_H1_MENU.md": "70966c13474d89eb9e02ac0fcfd086b3eb94b98fbb2c9509bcd066c3c4afb2e4",
+    "research/ORDINARY_SPINE_EXCEPTIONAL_ODD_FIRST_CENTER_QUOTA_EXPANSION.md": "6a9f9310e0c04c3c2efc957fab2a691ae4aa4a4f204296917a67fe2ee102f534",
+    "evidence/runs/d172-exceptional-alternate-exterior-001/MANIFEST.json": "f93991c329edbd5a6f6759da0042a9f402c772b9b6c0fe8093ec431f906c2990",
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ALTERNATE_EXTERIOR_MATCHED_001_PREP/MANIFEST.json": "2b909a94ae18c338740395f248a60011f1655f385d7f1207bde7a8ce139cb3f6",
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ALTERNATE_EXTERIOR_RESIDUE_GROWTH_001/MANIFEST.json": "3b4c7e33ae3c0c4da836d6411088940d09eee1079049a214a8c82d2c5812c0c6",
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_TWO_UPPER_HOST_RESIDUE_COMPRESSION_001/MANIFEST.json": "87910c3b573b18261717a1fd764fa6d89642eba445798c06bca436cca006b9c6",
+    "research/ORDINARY_SPINE_EXCEPTIONAL_ALTERNATE_EXTERIOR_RESIDUE_GROWTH.md": "6324ce5accb9a06b7774edd56641179c9da8eaff4121656014a0193a4ff11d53",
+    "research/ORDINARY_SPINE_EXCEPTIONAL_TWO_UPPER_HOST_RESIDUE_COMPRESSION.md": "b18eb180e189907c17912206b28a0e394219b6e1458890e7958629e130f5acb9",
+    "research/ORDINARY_SPINE_ALTERNATING_EXCEPTIONAL_SPECTRUM.md": "73230a18d826361e0eb4eadfbf02e41cbb1aa3c5332c890bf75f48ed18a0e0fd"
+  },
+  "D174_closeout_manifest": {
+    "bytes": 6360,
+    "sha256": "c74db95d8072f572c5df80950c2b80861548a75fb6b130de199bb80a21650f8f"
+  },
+  "D174_prep_manifest": {
+    "bytes": 33561,
+    "sha256": "4ca570b7be5e4e9daacc25158d49f7e3701d2718786310a5cce13552662cbb3a"
+  },
+  "D174_original_index": {
+    "bytes": 2584649,
+    "sha256": "2a44f351df15912b1963948a1618f578bc12522a0a2d05c0db9b64f85f2b3947"
+  },
+  "D174_independent_prefix": {
+    "bytes": 8781,
+    "sha256": "f48b56479dac85e1ddbbd36e5f6a6a3eaf94b9b32497e677fe5a96932abbac95",
+    "digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+    "cut": 39,
+    "edges": 74,
+    "frontier": "s:27",
+    "maximum_label": 74,
+    "crossing": [
+      37,
+      74
+    ],
+    "noncrossing": [
+      1,
+      36
+    ],
+    "vertices": 75,
+    "max_spine_distance": 2
+  },
+  "D174_accepted_D177_projection": {
+    "count": 93,
+    "historically_unentered": 92,
+    "admitted_K_frequencies": {
+      "15": 15,
+      "16": 30,
+      "17": 30,
+      "18": 15,
+      "19": 3
+    }
+  },
+  "D174_history": {
+    "pairs": 1,
+    "numerical_arms": 2,
+    "unentered": 3518,
+    "stopping_rule": "FIRST_INDEPENDENTLY_VERIFIED_SEPARATOR"
+  },
+  "original_builder_blob": "8d1e9948e8bf5ef01e67c9afe0155412c57d79fa",
+  "original_checker_blob": "d008f35f0843e1a5c770db3e7f42ed7d987360d7",
+  "admission_cpu_seconds": 0.15625,
+  "admission_internal_wall_seconds": 1.4885028000026068,
+  "task": "LCL-ORDINARY-SPINE-EXCEPTIONAL-WHOLE-SECTION-MONOTONE-ALLOCATION-001",
+  "continuity": {
+    "branch": "main",
+    "parent": "8f9c898f3cd02bda98d9f851dd5cf846298b0aa1",
+    "origin_main_at_admission": "8f9c898f3cd02bda98d9f851dd5cf846298b0aa1",
+    "live_main_at_admission": "8f9c898f3cd02bda98d9f851dd5cf846298b0aa1",
+    "divergence": [
+      0,
+      0
+    ],
+    "previous_checkpoint": "9761e85502d9013b70997c5bc900d358e189aff4",
+    "accepted_D188_changed_paths": 10,
+    "clean_worktree_at_admission": true,
+    "baseline_tag": "lcl-v0.1.0-baseline",
+    "local_and_remote_tag_object": "fddfc1dd9541324b2ed2de2505bc750b3e3f0b9d",
+    "local_and_remote_tag_peel": "36ea1603602491bf3c1c5b81ed4c23aaa2210e70",
+    "upstream_main_pins": [
+      "858a8c1fcfda87ba40bb1adee498a6131504a803",
+      "e48b94eec4091b4fe189e325cab2eda464409943"
+    ],
+    "bounded_search_local_recovery_head": "c803ecb6bd0481d31af43f7e3c194ae8ed4d1578",
+    "writer_custody": "Single LCL writer. At intake a narrow Windows process census found no other active matching task or campaign process. Two independent read-only review roles are sequential.",
+    "publication_scope": "Public LCL main only. No upstream edits or capture ref changes."
+  },
+  "D188_director_acceptance": {
+    "status": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE",
+    "direct_basis": "Live main, exact continuity and ten changed paths, nine manifested bindings and SHA-256/bytes, D184–D187 proof and manifest continuity, original builder and checker, both upstream pins, tag and peel, proof, separate reviews, custody and handoff, direct arithmetic on the retained prefix.",
+    "separate_local_basis": "The Director did not independently reproduce local Windows process custody, complete historical original audits or original-checker execution. D188 proof and 74→126→192 remain symbolic."
+  },
+  "earlier_manifests": {
+    "D184": {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_NEUTRAL_ANCHOR_BANK_GROWTH_001/MANIFEST.json",
+      "bytes": 4657,
+      "sha256": "17d07e3f9d1df6d354298eca7e00df7eb1e77226a2c1b827783791e690e981df"
+    },
+    "D185": {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_BASELINE_QUOTA_REDISTRIBUTION_001/MANIFEST.json",
+      "bytes": 4874,
+      "sha256": "90419278a78b5b4583e3a3de5b405a3eae015c3e62aa5a66a5f438306ef7f422"
+    },
+    "D186": {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_CUMULATIVE_IMBALANCE_ALLOCATION_001/MANIFEST.json",
+      "bytes": 6191,
+      "sha256": "6dbdecd51eb8762708f4059bec6c67082085dd5cd9a3e91dd8c8a132c981af39"
+    }
+  },
+  "limits": {
+    "process_cpu_seconds": 1800,
+    "observed_wall_seconds": 3600,
+    "new_evidence_bytes": 128000000,
+    "max_writers": 1,
+    "max_simultaneous_reviewers": 1
+  },
+  "scientific_counters": {
+    "numerical_search_nodes": 0,
+    "solver_allocation_states": 0,
+    "original_checker_invocations": 0,
+    "scientific_campaign_executions": 0,
+    "historical_replays": 0
+  },
+  "symbolic_controls": {
+    "A": {
+      "fresh_edges": 52,
+      "output_edges": 126,
+      "maximum_cut": 65,
+      "arm": "D188",
+      "baseline": [
+        5,
+        1,
+        4,
+        0
+      ]
+    },
+    "B": {
+      "fresh_edges": 24,
+      "output_edges": 98,
+      "maximum_cut": 51,
+      "baseline": [
+        2,
+        1,
+        2,
+        1
+      ],
+      "empty_bank": true,
+      "empty_baseline_H_image_row": true
+    },
+    "B_Q_growth": {
+      "fresh_edges": 26,
+      "output_edges": 100,
+      "maximum_cut": 52,
+      "additional_Q": 2
+    },
+    "C": {
+      "fresh_edges": 24,
+      "output_edges": 98,
+      "maximum_cut": 51,
+      "baseline": [
+        5,
+        1
+      ],
+      "effective_width": 1
+    },
+    "D": {
+      "fresh_edges": 22,
+      "output_edges": 96,
+      "maximum_cut": 50,
+      "baseline": [
+        3,
+        3
+      ],
+      "effective_width": 2
+    },
+    "E": {
+      "fresh_edges": 38,
+      "output_edges": 112,
+      "maximum_cut": 58,
+      "baseline": [
+        1,
+        2,
+        4,
+        0
+      ]
+    },
+    "F": {
+      "fresh_edges": 26,
+      "output_edges": 100,
+      "maximum_cut": 52,
+      "baseline": [
+        2,
+        5
+      ]
+    },
+    "adverse_capacity": {
+      "fresh_edges": 22,
+      "F": 7,
+      "neutral_quota": 6,
+      "effective_width": 3,
+      "H_star": -1,
+      "scope": "prescribed monotone baseline"
+    },
+    "admitted_mixed_arm_composition": {
+      "edges": [
+        74,
+        126,
+        150
+      ],
+      "maximum_cuts": [
+        39,
+        65,
+        77
+      ],
+      "final_crossing": [
+        75,
+        150
+      ]
+    }
+  },
+  "dispositions": "Preserve all accepted scopes and historical results; general H1 remains open. D188 stays a separate accepted arm. Both original graph tooling entry points were unchanged. Scope controls are symbolic and never original-checker certificates.",
+  "sole_next_action": "Submit the D189 symbolic outcome and separate reviews for Director review."
+}
