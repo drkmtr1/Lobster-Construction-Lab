@@ -1,0 +1,701 @@
+{
+  "completed_arm_count": 4,
+  "completed_pair_count": 2,
+  "entered": 2,
+  "execution_attempts": 1,
+  "external_shell_wall_seconds": 23.704144,
+  "independent_prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+  "internal_wall_seconds": 0.21822590000010678,
+  "official_invocation_exit": 0,
+  "official_summary": {
+    "bytes_before_summary": 478404,
+    "counts": {
+      "dispositions": 4,
+      "exterior_nodes": 84623,
+      "numerical_dispositions": 2,
+      "targets": 2,
+      "transfer_states": 45232,
+      "transitions": 560769
+    },
+    "counts_by_phase": {
+      "A admission": {
+        "dispositions": 2,
+        "numerical_dispositions": 2
+      },
+      "M admission": {
+        "dispositions": 2
+      },
+      "folded allocation": {
+        "transfer_states": 45130,
+        "transitions": 549414
+      },
+      "independent certificate reconstruction": {
+        "transitions": 15
+      },
+      "independent exterior": {
+        "exterior_nodes": 78915
+      },
+      "independent raw allocation": {
+        "transfer_states": 102,
+        "transitions": 11340
+      },
+      "primary exterior": {
+        "exterior_nodes": 5708
+      },
+      "target admission": {
+        "targets": 2
+      }
+    },
+    "current_arm": "A",
+    "current_target": "target-0780",
+    "disqualified_by_A_negative": 1,
+    "disqualified_by_M_positive": 0,
+    "pairs_completed": 2,
+    "peak_candidate_states": 1306,
+    "pending_checkpoint": null,
+    "reason": null,
+    "separator": "target-0780",
+    "status": "SEPARATOR_VERIFIED",
+    "traced_peak_bytes": 5963446,
+    "worker_cpu_seconds": 21.890625
+  },
+  "official_supervision": {
+    "bytes_before_receipt": 479323,
+    "combined_cpu_seconds": 142.9375,
+    "combined_wall_before_receipt": 1523.3944131999997,
+    "preparation_cpu_charged": 120,
+    "preparation_wall_charged": 1500,
+    "reason": null,
+    "status": "SEPARATOR_VERIFIED",
+    "supervisor_cpu_seconds": 1.046875,
+    "worker_and_supervisor_wall": 23.39441319999969,
+    "worker_cpu_seconds": 21.890625,
+    "worker_rc": 0,
+    "worker_summary": true
+  },
+  "preparation_and_output_bytes": 479691,
+  "preparation_commit": "b5122825d158401907ac6840ee93113319f03317",
+  "process_cpu_seconds": 0.0625,
+  "raw_records": [
+    {
+      "bytes": 251,
+      "original_path": "runs/d172-exceptional-alternate-exterior-001/CLAIM.json",
+      "path": "evidence/runs/d172-exceptional-alternate-exterior-001/raw/CLAIM.json",
+      "sha256": "65b3ad75f38fca926e8a10e06782c5d09a887753f42451a27356c41658bf0648"
+    },
+    {
+      "bytes": 919,
+      "original_path": "runs/d172-exceptional-alternate-exterior-001/SUMMARY.json",
+      "path": "evidence/runs/d172-exceptional-alternate-exterior-001/raw/SUMMARY.json",
+      "sha256": "2cb8adde3349ff514eef9fa738dd96d5f196fe77830b701e47bd1589ee359bd3"
+    },
+    {
+      "bytes": 368,
+      "original_path": "runs/d172-exceptional-alternate-exterior-001/SUPERVISION.json",
+      "path": "evidence/runs/d172-exceptional-alternate-exterior-001/raw/SUPERVISION.json",
+      "sha256": "a2b452a582b04ce9d1245197bc058e5804395ee88d814b7d6aa22a8d8ef25e07"
+    },
+    {
+      "bytes": 972,
+      "original_path": "runs/d172-exceptional-alternate-exterior-001/target-0777-A.json",
+      "path": "evidence/runs/d172-exceptional-alternate-exterior-001/raw/target-0777-A.json",
+      "sha256": "0e6bffa8b44b4f64f953f04198705492f839dc722afa29b1a73d526a52574f10"
+    },
+    {
+      "bytes": 567,
+      "original_path": "runs/d172-exceptional-alternate-exterior-001/target-0777-M.json",
+      "path": "evidence/runs/d172-exceptional-alternate-exterior-001/raw/target-0777-M.json",
+      "sha256": "3076f528577bec2d2e78abea073efcceba285800885dac345fa9b5d959131309"
+    },
+    {
+      "bytes": 245,
+      "original_path": "runs/d172-exceptional-alternate-exterior-001/target-0777-PAIR.json",
+      "path": "evidence/runs/d172-exceptional-alternate-exterior-001/raw/target-0777-PAIR.json",
+      "sha256": "773daeebed4597a90db659accdb955f35d5d84afc4847fd803e764d1ae988758"
+    },
+    {
+      "bytes": 16450,
+      "original_path": "runs/d172-exceptional-alternate-exterior-001/target-0780-A.json",
+      "path": "evidence/runs/d172-exceptional-alternate-exterior-001/raw/target-0780-A.json",
+      "sha256": "e1f985993d7550e507b2158ebefb166e2e492de6deabdb91ab2e48ebb080a098"
+    },
+    {
+      "bytes": 567,
+      "original_path": "runs/d172-exceptional-alternate-exterior-001/target-0780-M.json",
+      "path": "evidence/runs/d172-exceptional-alternate-exterior-001/raw/target-0780-M.json",
+      "sha256": "a032967c9e910f62e65580b9dcf49a6c2f31d3413f66aa8a47b21d961bac55e7"
+    },
+    {
+      "bytes": 2706,
+      "original_path": "runs/d172-exceptional-alternate-exterior-001/target-0780-PAIR.json",
+      "path": "evidence/runs/d172-exceptional-alternate-exterior-001/raw/target-0780-PAIR.json",
+      "sha256": "9a7f0b310b5156eaca3fe43379010cb2681d167df7c23298bd54742dfbee39be"
+    },
+    {
+      "bytes": 38,
+      "original_path": "runs/d172-exceptional-alternate-exterior-001/WORKER.json",
+      "path": "evidence/runs/d172-exceptional-alternate-exterior-001/raw/WORKER.json",
+      "sha256": "35d0d6f7f4d22baed7b221c82b9a84f82a52b3faf4c48d8b51d1db4165a8faac"
+    },
+    {
+      "bytes": 215,
+      "original_path": "runs/d172-exceptional-alternate-exterior-001-authorization.json",
+      "path": "evidence/runs/d172-exceptional-alternate-exterior-001/raw/d172-exceptional-alternate-exterior-001-authorization.json",
+      "sha256": "560179f2800501204b3c5903e4dc7fc8d2ff08e78efd7e44993a10bdadc4ccc1"
+    }
+  ],
+  "retained_cases": [
+    {
+      "alternative_negative_basis": "Saved independently exhausted A arm; 72 matching qualified canonical representatives.",
+      "claims": {
+        "A": "NO",
+        "M": "NO"
+      },
+      "id": "target-0777",
+      "original": {
+        "F": 10,
+        "K": 13,
+        "M_symbolic": "EVEN_FIRST_MENU_TRANSLATION_PARITY",
+        "R": 7,
+        "digest": "1306312ac9aec8c0daea96865c439e44e0cdb9af0682b7b1cd0878b2ca6814ee",
+        "first_inventory": [
+          2,
+          2,
+          2,
+          4
+        ],
+        "id": "target-0777",
+        "parameters": [
+          2,
+          2,
+          2,
+          4,
+          1,
+          6
+        ],
+        "record_sha256": "ecc4a03aa64e4aef6d5e0bce4f6a67c010c465dbaa8774c139e8dce91674c6b8",
+        "shard": "targets-024.json",
+        "suffix": [
+          [
+            2,
+            2,
+            2,
+            4
+          ],
+          [
+            1,
+            6,
+            0
+          ]
+        ]
+      },
+      "primary_and_audit_counts": {
+        "qualified_exteriors": 72,
+        "qualified_strata": {
+          "6,5,1,1,1,b:28:3,b:29:0": 18,
+          "6,5,1,1,1,b:28:3,b:29:1": 18,
+          "6,6,2,1,1,b:28:3,b:29:0": 12,
+          "6,6,2,1,1,b:28:3,b:29:1": 12,
+          "6,7,3,1,1,b:28:3,b:29:0": 6,
+          "6,7,3,1,1,b:28:3,b:29:1": 6
+        }
+      },
+      "work": {
+        "dispositions": 1,
+        "exterior_nodes": 83829,
+        "numerical_dispositions": 1,
+        "targets": 0,
+        "transfer_states": 26628,
+        "transitions": 322932
+      }
+    },
+    {
+      "actual_crossing_bands": [
+        [
+          50,
+          100
+        ],
+        [
+          1,
+          49
+        ]
+      ],
+      "all_actual_resources": {
+        "remaining_crossing": [
+          96,
+          97,
+          98,
+          99,
+          100
+        ],
+        "remaining_labels": [
+          0,
+          1,
+          3,
+          44,
+          45,
+          47,
+          49,
+          50,
+          51,
+          98,
+          100
+        ],
+        "remaining_noncrossing": [
+          41,
+          42,
+          44,
+          47,
+          48,
+          49
+        ],
+        "remaining_weights": [
+          41,
+          42,
+          44,
+          47,
+          48,
+          49,
+          96,
+          97,
+          98,
+          99,
+          100
+        ],
+        "used_crossing": [
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95
+        ],
+        "used_labels": [
+          2,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          46,
+          48,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          99
+        ],
+        "used_noncrossing": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          43,
+          45,
+          46
+        ],
+        "used_weights": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          43,
+          45,
+          46,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95
+        ]
+      },
+      "claims": {
+        "A": "YES",
+        "M": "NO"
+      },
+      "connector": {
+        "crossing": true,
+        "ends": [
+          "s:28",
+          "s:29"
+        ],
+        "labels": [
+          4,
+          100
+        ],
+        "weight": 96
+      },
+      "exterior_structure": {
+        "A": 6,
+        "B": 5,
+        "arm": "A",
+        "displacements": {
+          "b:28:0": {
+            "kind": "translation",
+            "offset": 4
+          },
+          "b:28:1": {
+            "kind": "translation",
+            "offset": 2
+          },
+          "b:28:2": {
+            "kind": "translation",
+            "offset": 1
+          },
+          "b:28:3": {
+            "kind": "translation",
+            "offset": 0
+          },
+          "b:29:0": {
+            "intercept": 21,
+            "kind": "reflection"
+          },
+          "b:29:1": {
+            "intercept": 18,
+            "kind": "reflection"
+          },
+          "s:29": {
+            "kind": "translation",
+            "offset": 5
+          }
+        },
+        "e1": 1,
+        "e2": 1,
+        "h": 1,
+        "neutral": "b:28:3",
+        "outside_menu_reasons": [
+          "WIDTH",
+          "DIRECT_LEAF_IN_EXTERIOR",
+          "SELECTED_TERMINAL_ROLES"
+        ],
+        "s": 15,
+        "terminals": [
+          {
+            "parent": "b:28:2",
+            "parent_reduced": 4,
+            "reduced": 9,
+            "terminal": "l:28:2:0"
+          },
+          {
+            "parent": "b:29:0",
+            "parent_reduced": 11,
+            "reduced": 2,
+            "terminal": "l:29:0:0"
+          }
+        ],
+        "upper_host_separation": 3,
+        "upper_index_two": "b:29:1",
+        "upper_index_two_gap_quota": 5
+      },
+      "id": "target-0780",
+      "original": {
+        "F": 10,
+        "K": 13,
+        "M_symbolic": "EVEN_FIRST_MENU_TRANSLATION_PARITY",
+        "R": 7,
+        "digest": "350db6719a3cdd804033f31d9d75e173881bf1d2e7698544d1520ea6dc62b6f2",
+        "first_inventory": [
+          2,
+          2,
+          2,
+          4
+        ],
+        "id": "target-0780",
+        "parameters": [
+          2,
+          2,
+          2,
+          4,
+          2,
+          5
+        ],
+        "record_sha256": "0252ed7b89186fce1f4d96d7264caf0050a893ea53cbf15a286dafa0f5aa2410",
+        "shard": "targets-024.json",
+        "suffix": [
+          [
+            2,
+            2,
+            2,
+            4
+          ],
+          [
+            2,
+            5,
+            0
+          ]
+        ]
+      },
+      "primary_candidates_before_witness": 19,
+      "raw_pair_binding": {
+        "bytes": 2706,
+        "path": "runs/d172-exceptional-alternate-exterior-001/target-0780-PAIR.json",
+        "sha256": "9a7f0b310b5156eaca3fe43379010cb2681d167df7c23298bd54742dfbee39be"
+      },
+      "reduced": {
+        "b:28:0": 1,
+        "b:28:1": 3,
+        "b:28:2": 4,
+        "b:28:3": 5,
+        "b:29:0": 11,
+        "b:29:1": 8,
+        "b:29:2": 10,
+        "l:28:2:0": 9,
+        "l:29:0:0": 2,
+        "s:27": 6,
+        "s:28": 7,
+        "s:29": 0
+      },
+      "return_phase": {
+        "cut": 52,
+        "frontier": "s:29",
+        "label": 100,
+        "phase": "S_-1"
+      },
+      "work": {
+        "dispositions": 1,
+        "exterior_nodes": 794,
+        "numerical_dispositions": 1,
+        "targets": 0,
+        "transfer_states": 18604,
+        "transitions": 237837
+      }
+    }
+  ],
+  "run_records_bytes": 23083,
+  "scope": "Read-only reconciliation of durable records and direct original certificate arithmetic. No search, allocator or checker replay.",
+  "status": "SEPARATOR_VERIFIED_PENDING_DIRECTOR_REVIEW",
+  "supervisor_pid": 10720,
+  "unentered": 394,
+  "worker_and_supervisor_exited": true,
+  "worker_pid": 28064
+}

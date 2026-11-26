@@ -1,0 +1,131 @@
+{
+  "closeout_ledgers": {
+    "research/DECISIONS.md": {
+      "bytes": 147327,
+      "sha256": "5ba6920b1af031b3c36d28188e2343265142a2b1da1ddcffc08ae84e0707ff9e"
+    },
+    "research/FAILED_HYPOTHESES.md": {
+      "bytes": 78090,
+      "sha256": "81331945d9348ea06181666bc50e446210f2b25eaef158b0c04bdfc2d82279ad"
+    },
+    "research/FINDINGS.md": {
+      "bytes": 197294,
+      "sha256": "73fe8845cd835e3005a6668acd8bc30a485cd54e1f060280aa26097ba70ae71e"
+    },
+    "research/PROOF_OBLIGATIONS.md": {
+      "bytes": 111994,
+      "sha256": "edbb3457725a022baf33eaf12b6363e53d7a8bed970665f585760629e4351e7c"
+    }
+  },
+  "current_state": {
+    "bytes": 92458,
+    "sha256": "df97d1c7072f4d14f44320c81ac3c8621991bf9ae262850bcbff86ffc6e9d947"
+  },
+  "execution": {
+    "alleged_exhaustion_of_unentered": false,
+    "attempts": 1,
+    "completed_arms": 4,
+    "completed_pairs": 2,
+    "concurrency": 1,
+    "disposition_scope": "Exact D172 matched population and D157 arrangement",
+    "entered_targets": 2,
+    "exit": 0,
+    "finite_existential": "SUPPORTED_PENDING_DIRECTOR_REVIEW",
+    "frozen_population": 396,
+    "result": "SEPARATOR_VERIFIED",
+    "separator": "target-0780",
+    "unentered": 394
+  },
+  "files": {
+    "evidence/runs/d172-exceptional-alternate-exterior-001/ADMISSION.json": {
+      "bytes": 2162,
+      "sha256": "909c0bcef8484f16569a5f4090db84397b8bed7c00bc6b475cb6f77f13fe7c98"
+    },
+    "evidence/runs/d172-exceptional-alternate-exterior-001/README.md": {
+      "bytes": 6271,
+      "sha256": "85866d2fcd5c972f52a2af6cd1274eff9ca53f788107208425c7b693246ec9fe"
+    },
+    "evidence/runs/d172-exceptional-alternate-exterior-001/RECONCILIATION.json": {
+      "bytes": 15642,
+      "sha256": "5e90b2e34cc1cf9c7c1c21a41c7e057bfaa8be59727bee3800a6c93de68abd30"
+    },
+    "evidence/runs/d172-exceptional-alternate-exterior-001/REVIEWS.md": {
+      "bytes": 2383,
+      "sha256": "98bd6d46a1d0ff197fb572570049e21e0727bc79dbcdc2c8f2fec56cf20003d8"
+    },
+    "evidence/runs/d172-exceptional-alternate-exterior-001/raw/CLAIM.json": {
+      "bytes": 251,
+      "sha256": "65b3ad75f38fca926e8a10e06782c5d09a887753f42451a27356c41658bf0648"
+    },
+    "evidence/runs/d172-exceptional-alternate-exterior-001/raw/SUMMARY.json": {
+      "bytes": 919,
+      "sha256": "2cb8adde3349ff514eef9fa738dd96d5f196fe77830b701e47bd1589ee359bd3"
+    },
+    "evidence/runs/d172-exceptional-alternate-exterior-001/raw/SUPERVISION.json": {
+      "bytes": 368,
+      "sha256": "a2b452a582b04ce9d1245197bc058e5804395ee88d814b7d6aa22a8d8ef25e07"
+    },
+    "evidence/runs/d172-exceptional-alternate-exterior-001/raw/WORKER.json": {
+      "bytes": 38,
+      "sha256": "35d0d6f7f4d22baed7b221c82b9a84f82a52b3faf4c48d8b51d1db4165a8faac"
+    },
+    "evidence/runs/d172-exceptional-alternate-exterior-001/raw/d172-exceptional-alternate-exterior-001-authorization.json": {
+      "bytes": 215,
+      "sha256": "560179f2800501204b3c5903e4dc7fc8d2ff08e78efd7e44993a10bdadc4ccc1"
+    },
+    "evidence/runs/d172-exceptional-alternate-exterior-001/raw/target-0777-A.json": {
+      "bytes": 972,
+      "sha256": "0e6bffa8b44b4f64f953f04198705492f839dc722afa29b1a73d526a52574f10"
+    },
+    "evidence/runs/d172-exceptional-alternate-exterior-001/raw/target-0777-M.json": {
+      "bytes": 567,
+      "sha256": "3076f528577bec2d2e78abea073efcceba285800885dac345fa9b5d959131309"
+    },
+    "evidence/runs/d172-exceptional-alternate-exterior-001/raw/target-0777-PAIR.json": {
+      "bytes": 245,
+      "sha256": "773daeebed4597a90db659accdb955f35d5d84afc4847fd803e764d1ae988758"
+    },
+    "evidence/runs/d172-exceptional-alternate-exterior-001/raw/target-0780-A.json": {
+      "bytes": 16450,
+      "sha256": "e1f985993d7550e507b2158ebefb166e2e492de6deabdb91ab2e48ebb080a098"
+    },
+    "evidence/runs/d172-exceptional-alternate-exterior-001/raw/target-0780-M.json": {
+      "bytes": 567,
+      "sha256": "a032967c9e910f62e65580b9dcf49a6c2f31d3413f66aa8a47b21d961bac55e7"
+    },
+    "evidence/runs/d172-exceptional-alternate-exterior-001/raw/target-0780-PAIR.json": {
+      "bytes": 2706,
+      "sha256": "9a7f0b310b5156eaca3fe43379010cb2681d167df7c23298bd54742dfbee39be"
+    },
+    "handoffs/CODEX-20261125-d172-alternate-exterior-closeout.md": {
+      "bytes": 2129,
+      "sha256": "5d413abe0ee163678299990cbf25f5ac5b5398c95e0c8809016a4c2424b4b0c7"
+    }
+  },
+  "future_action": "Submit the frozen D172 official execution evidence and separate reviews for Director review.",
+  "hash_convention": "Canonical LF for Markdown; raw bytes for other files",
+  "parent": "b5122825d158401907ac6840ee93113319f03317",
+  "phase": "OFFICIAL_EXECUTION_CLOSEOUT",
+  "preparation": {
+    "configuration": {
+      "bytes": 2249,
+      "path": "research/exceptional_alternate_exterior_001/config.json",
+      "sha256": "efbbfb9540b8698ce503aafde6f505d96877f489a743bb43dbcfaccb5bacfde8"
+    },
+    "director": "ACCEPTED_WITHIN_EXACT_FROZEN_SCOPE",
+    "manifest": {
+      "bytes": 22301,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ALTERNATE_EXTERIOR_MATCHED_001_PREP/MANIFEST.json",
+      "sha256": "2b909a94ae18c338740395f248a60011f1655f385d7f1207bde7a8ce139cb3f6"
+    },
+    "prepared_state_sha256": "717252b95c3745bc977793737ea84c529b031c8b3c01834b89545298d44e30ec"
+  },
+  "reviews": {
+    "director_execution": "PENDING",
+    "implementation_and_custody": "PASS_SCOPED",
+    "mathematical": "PASS_SCOPED"
+  },
+  "schema_version": 1,
+  "status": "SEPARATOR_VERIFIED_PENDING_DIRECTOR_REVIEW",
+  "task": "LCL-ORDINARY-SPINE-EXCEPTIONAL-ALTERNATE-EXTERIOR-MATCHED-001-PREP"
+}

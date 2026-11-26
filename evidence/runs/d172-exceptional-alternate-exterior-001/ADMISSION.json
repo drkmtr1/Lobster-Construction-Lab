@@ -1,0 +1,44 @@
+{
+  "checkpoint": "b5122825d158401907ac6840ee93113319f03317",
+  "verified_composite_bindings": 92,
+  "frozen_preparation_files": 18,
+  "retained_inputs": 68,
+  "previous_state_sha256": "717252b95c3745bc977793737ea84c529b031c8b3c01834b89545298d44e30ec",
+  "runtime": {
+    "version": "3.13.17",
+    "venv": ".venv/Scripts/python.exe",
+    "cfg": ".venv/pyvenv.cfg",
+    "dll": "python313.dll",
+    "sha256": {
+      "venv": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+      "cfg": "78989c73c08f515aadaf1ec5f8f24929021b48b284f4efc907a04938634af28b",
+      "base": "7c2fc2b303a4ee3cc14cc17b47bc6e8bca98c78792edd123b846a560da44b203",
+      "dll": "26026530507a7389e7892ce130e7c1753b32a2df03ec3721d45ad8c1705d40eb"
+    }
+  },
+  "paths_vacant": [
+    "runs/d172-exceptional-alternate-exterior-001-authorization.json",
+    "runs/d172-exceptional-alternate-exterior-001",
+    "evidence/runs/d172-exceptional-alternate-exterior-001"
+  ],
+  "process_cpu_seconds": 1.484375,
+  "internal_wall_seconds": 8.264897000000019,
+  "observed_binding_command_shell_seconds": 9.8881199,
+  "exclusive_process_check": "The initial non-elevated CIM query was denied. A separate elevated, read-only check confirmed no active D172 process before authorization; after termination the same read-only check confirmed neither supervisor nor worker remained active.",
+  "refs": {
+    "LCL_live_main": "b5122825d158401907ac6840ee93113319f03317",
+    "LCL_parent": "9e2ab57facf0b88b98cb45812bdd874af9ee85ba",
+    "LCL_baseline_tag": "fddfc1dd9541324b2ed2de2505bc750b3e3f0b9d",
+    "LCL_baseline_peel": "36ea1603602491bf3c1c5b81ed4c23aaa2210e70",
+    "MDL_main": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+    "Bounded_Search_main": "e48b94eec4091b4fe189e325cab2eda464409943",
+    "Bounded_Search_local_recovery_HEAD": "c803ecb6bd0481d31af43f7e3c194ae8ed4d1578"
+  },
+  "runtime_invocation_flags": [
+    "-I",
+    "-S",
+    "-B"
+  ],
+  "launches": 1,
+  "scope": "Local admission passed before creation of the exact authorization. Canonical Git identities checked separately from Director preparation review. No frozen source or data changed before the once-only launch."
+}

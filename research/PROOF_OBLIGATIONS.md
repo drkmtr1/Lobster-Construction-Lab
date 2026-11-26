@@ -998,3 +998,7 @@ The two additional witnessed first inventories now have exact E+ classifications
 ## D172 — Prospective matched exterior-supply question
 
 The 396 named graph bindings, exact two-arm partition, safe necessary prunes and independent reconstruction contract are prepared. A separator needs independently established M NO and independently verified A YES on the same frozen original and prefix. Complete finite exclusion needs every original disqualified by verified M YES or independently exhausted A NO. D164 and its unresolved T/E+ records retain their separate scopes. Review the preparation before a separate Owner decision on execution. [Contract](exceptional_alternate_exterior_001/CONTRACT.md)
+
+## D172 official execution — Reviewed finite result
+
+The official run supplies one separating original certificate and independently reconciled complete-menu exclusion, pending Director review of the completed evidence. Early stopping leaves 394 originals unentered and gives no further A or matched dispositions. The universal and historical D164 obligations remain separate, with target-0429 T unresolved. The sole next action is Director review. [Official evidence](../evidence/runs/d172-exceptional-alternate-exterior-001/README.md)

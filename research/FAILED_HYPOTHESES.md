@@ -739,3 +739,7 @@ A fixed ordered assignment with q≤2 cannot supply either additional first inve
 ## D172 — Symbolic menu exclusion for all-even first inventories
 
 For the specified width-(6,4) exchange menu the gap translation moment forces the sum of the full quotas at numerical roles b and c₁ to be odd. The upper reflections contribute an even total modulo two since exactly R−1 gap leaves use upper parents. This excludes the complete M menu on the 180 frozen all-even originals for every physical role assignment. The obstruction concerns M. The alternative E+ feasibility and the finite separation hypothesis remain undecided. [Menu moment](exceptional_alternate_exterior_001/CONTRACT.md#3-menu-moment)
+
+## D172 official execution — Scoped role-menu coverage counterexample
+
+The complete M role menu fails to cover every A-admitting original in the selected finite domain. Target-0780 has independently verified A YES and full symbolic M NO on the identical original and prefix. Its wider exterior and direct-leaf placement preserve the exact D157 return. D170's complete coverage on its 108 different retained positives still holds. Target-0777 is A NO within the declared complementary arm and frozen admission. [Official evidence](../evidence/runs/d172-exceptional-alternate-exterior-001/README.md)
