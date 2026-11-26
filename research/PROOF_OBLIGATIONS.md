@@ -1021,4 +1021,8 @@ The complete H0 question is resolved symbolically under the selected odd-center 
 
 ## D176 — Geometry resolved and exact one-four allocation
 
-H1's five-geometry reduction holds over the broad D175 domain. The full exactly-one-four decision is now proved for all admissible second splits and physical orders. Gap allocation for inventories with multiple fours and the classification of individual preassigned numerical role orders remain separate obligations. D173's full feasible domain, independent shell initialization, D164's incomplete status and target-0429 T remain separate. The sole next action is Director review of D176. [D176 proof](ORDINARY_SPINE_EXCEPTIONAL_ODD_FIRST_CENTER_H1_MENU.md)
+H1's five-geometry reduction holds over the broad D175 domain. The full exactly-one-four decision is now proved for all admissible second splits and physical orders. Gap allocation for inventories with multiple fours and the classification of individual preassigned numerical role orders remain separate obligations. D173's full feasible domain, independent shell initialization, D164's incomplete status and target-0429 T remain separate. The Director accepted D176 within its exact scope. D177 separately addresses quota expansion. [D176 proof](ORDINARY_SPINE_EXCEPTIONAL_ODD_FIRST_CENTER_H1_MENU.md)
+
+## D177 — Complete selectable-role expansion for r≥5
+
+The multiple-four gap-allocation question is resolved on the stated r≥5 H1 domain with independently supplied admitted D157 inputs and selectable numerical roles. Fixed numerical second-role decisions and the multiple-four r=3 boundary remain separate obligations. D173's full feasible domain, independent shell initialization, D164's incomplete status and target-0429 T remain separate. The sole next action is Director review of D177. [D177 proof](ORDINARY_SPINE_EXCEPTIONAL_ODD_FIRST_CENTER_QUOTA_EXPANSION.md)

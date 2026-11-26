@@ -763,3 +763,7 @@ With odd r≥3 and second total r+3, the graph count and terminal balance force 
 ## D176 — One-four boundary exclusion and limits of the H1 menu
 
 At r=3 and exactly one four, the forced neutral at reduced slot four excludes I-b and all II geometries. I-a requires its sole H image at index four from H₅ at shift one or H₆ at shift two. The first choice leaves L₅ without an upper source. The second leaves H₅ with both its upper images occupied. This excludes both upper numerical role choices and the full H1 class on that one-four boundary within the declared D157 arrangement. Raw I-a exterior supply survives. A raw menu entry elsewhere does not decide the separate gap-allocation question. [D176 proof](ORDINARY_SPINE_EXCEPTIONAL_ODD_FIRST_CENTER_H1_MENU.md)
+
+## D177 — Direct prepend at special deficit two
+
+The untranslated special tails have a common H-source and L-image hole at offset −4. Simply shifting the old core right by one and prepending a paired use of deficit two puts both the translated common hole and the new pair at column −3. This invalidates that direct prepend rule for I-a and II-a. Revised explicit tail cores supply the same promotion via different reservations and preserve the required P and Q capacities. The collision pertains to this insertion rule. [D177 proof](ORDINARY_SPINE_EXCEPTIONAL_ODD_FIRST_CENTER_QUOTA_EXPANSION.md#3-special-tail-patterns-for-every-remaining-quota-multiplicity)

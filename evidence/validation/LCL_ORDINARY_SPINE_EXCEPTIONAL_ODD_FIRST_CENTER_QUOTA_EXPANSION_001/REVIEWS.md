@@ -1,0 +1,17 @@
+# D177 separate read-only reviews
+
+## Independent mathematical review
+
+**PASS within the stated scopes.** A separate reviewer read the actual D177 proof and checked it against D157's windows and lift, D175's graph counts, H0 exclusion and II-a control, D176's I-a control, and D168's residue-path criterion. The review verified both central block modes, the optional preceding and trailing pairs, independent promotion of all three hosts, the exact two shifted assignments, and disjoint ordered footprints and row coverage, including the empty regular region at $r=5$.
+
+Direct arithmetic on all six explicit tail rows reproduced the distinct source and image hole sets, exact actual host quotas, valid translated boundaries, and exact residual bijections with the specified P shifts and Q identity. The prepend pair offsets stay below the translated core, and the far residual endpoint accounts for the absent H-source cell. Total P and Q quotas and the entire selectable-role domain pass. The reviewer also checked the original named construction, both exact inventories and cut subpartitions, both polarities, literal connector, and admitted finite immutable composition. No substantive correction was required. The core-promotion variable was renamed for clarity. Direct arithmetic on the written rows took about 1.7 observed tool wall seconds. It performed no new-candidate evaluation, search, solver, project import, checker invocation, replay or edit.
+
+## Independent implementation and evidence-custody review
+
+**PASS within the stated scopes.** A different read-only reviewer verified the D176 checkpoint and parent, exact ten-path continuity and zero divergence, local baseline tag and peel, original builder and checker blobs, all nine accepted D176 file bindings and seven earlier digests. The current D174 run file bindings and frozen preparation, index and prefix identifiers remain unchanged.
+
+The reviewer independently derived all 15 original IDs from the frozen index, rehashed the four raw shards and all 15 selected canonical original records, verified their graph digests and actual named incidences and physical profile orders, and checked the five authoritative $(4,4,0)$ ledger rows. The actual prefix difference calculation confirmed cut 39 with crossing weights [37,74] and noncrossing weights [1,36]. The normal first-separator stop, one completed pair, two numerical arms and 3,518 unentered originals remain the historical D174 outcome. Fourteen of the 15 accepted symbolic separators are historically unentered. The isolated script used 0.375 process CPU seconds, 1.5326242 internal wall seconds and 2.7051956 observed tool wall seconds.
+
+The separate profile-only check for the pending D177 corollary verified the 93 all-even $R=8$ entries, with frequencies 15, 30, 30, 15 and 3 at $K=15,16,17,18,19$ and admitted prefix size $n=74$. This used 0.951693 observed tool wall seconds. The new symbolic scope, the accepted 15 bindings and the historical run status remain distinct in the proof, STATE and handoff. The scoped authoritative diff, matching sole next action, named lift, exact connector and phase, inventories, both polarities and composition passed review. No edits, task imports, scientific search or replay, checker or network writes took place in this review.
+
+These are separate local D177 reviews. D176 is Director accepted within its exact written scope. D177 awaits Director review.

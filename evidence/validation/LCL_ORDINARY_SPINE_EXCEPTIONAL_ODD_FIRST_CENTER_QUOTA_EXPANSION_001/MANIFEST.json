@@ -1,0 +1,103 @@
+{
+  "D174_projection": {
+    "D177_pending_symbolic_projection": 93,
+    "accepted_D175_D176_symbolic_separators": 15,
+    "accepted_five_D176_additions": [
+      "target-0993",
+      "target-1002",
+      "target-1074",
+      "target-1380",
+      "target-2748"
+    ],
+    "accepted_projection_historically_unentered": 14,
+    "historical": {
+      "numerical_arms": 2,
+      "pairs": 1,
+      "stopping_rule": "FIRST_INDEPENDENTLY_VERIFIED_SEPARATOR",
+      "unentered": 3518
+    },
+    "stratum": 93
+  },
+  "accepted_D176": {
+    "checkpoint": "5602efe6bdbcb215f7d659fbe74562a3decdf274",
+    "manifest": {
+      "bytes": 3723,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ODD_FIRST_CENTER_H1_MENU_001/MANIFEST.json",
+      "sha256": "a6f04bee184a8ee3d75113410e306894d70f0214a12e1292ead12c6a58239f13"
+    },
+    "proof": {
+      "bytes": 26803,
+      "path": "research/ORDINARY_SPINE_EXCEPTIONAL_ODD_FIRST_CENTER_H1_MENU.md",
+      "sha256": "70966c13474d89eb9e02ac0fcfd086b3eb94b98fbb2c9509bcd066c3c4afb2e4"
+    },
+    "status": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE"
+  },
+  "authoritative_ledgers": {
+    "research/DECISIONS.md": {
+      "bytes": 155534,
+      "sha256": "779ac58be694472e32d6288d4ad5bfb501604d5656afc1b428afd4a4190b2af3"
+    },
+    "research/FAILED_HYPOTHESES.md": {
+      "bytes": 82498,
+      "sha256": "d49d63e8c50fa5a6a7e67c74addf60ff9ac809e43fd58230c0001106f7128831"
+    },
+    "research/FINDINGS.md": {
+      "bytes": 203260,
+      "sha256": "20b89f5c3c39df6cbe342f86c5e03609353868ee21f8db0e1080a2f04af96952"
+    },
+    "research/PROOF_OBLIGATIONS.md": {
+      "bytes": 115894,
+      "sha256": "471a834021e034b9f3d955c4e872d5f2f0e5a0041ae535ec77301c10b44ce77e"
+    }
+  },
+  "canonical_state": {
+    "bytes": 98203,
+    "sha256": "a21bc62c2c2cd7ab35b3d4a3b113065ef52382ab5b1686e4ad0504117c83b5fe"
+  },
+  "files": {
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ODD_FIRST_CENTER_QUOTA_EXPANSION_001/CUSTODY.json": {
+      "bytes": 17026,
+      "sha256": "d86f2ff29494b1680dddbedd60112d9f8e96e486773ea9591f96fbde68f801cd"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ODD_FIRST_CENTER_QUOTA_EXPANSION_001/REVIEWS.md": {
+      "bytes": 3429,
+      "sha256": "573891c173c49378501705bda4dad8ac255c6154b896151b9310658780bcb355"
+    },
+    "handoffs/CODEX-20261125-d177-odd-first-center-quota-expansion.md": {
+      "bytes": 4713,
+      "sha256": "8855ddbcbb5465dd12fc302d0b8849f6fb96ba3b839dd56955e25d423d5a74c5"
+    },
+    "research/ORDINARY_SPINE_EXCEPTIONAL_ODD_FIRST_CENTER_QUOTA_EXPANSION.md": {
+      "bytes": 27044,
+      "sha256": "6a9f9310e0c04c3c2efc957fab2a691ae4aa4a4f204296917a67fe2ee102f534"
+    }
+  },
+  "hash_convention": "Canonical LF for D177 text files. All earlier frozen evidence identities retain their original conventions.",
+  "parent": "5602efe6bdbcb215f7d659fbe74562a3decdf274",
+  "phase": "SYMBOLIC_CLOSEOUT",
+  "result": {
+    "H0": "EXCLUDED_BY_ACCEPTED_D175",
+    "H1": "SUPPLIED_BY_D177_WITH_I-a_OR_II-a",
+    "domain": "Odd r>=5, 1<=g<=r, every physical order, every positive even second split of r+3 with selectable numerical roles and admitted D157 S_-1 input",
+    "open_scopes": [
+      "Multiple-four r=3 boundary",
+      "Preassigned numerical second-role decisions"
+    ],
+    "regular_domain": "1<=g<=r-4 with independent regular promotions",
+    "special_tail_domain": "r-3<=g<=r via six constant cores and prefix pairs"
+  },
+  "reviews": {
+    "director_D177": "PENDING",
+    "implementation_and_evidence_custody": "PASS_SCOPED",
+    "mathematical": "PASS_SCOPED"
+  },
+  "schema_version": 1,
+  "scientific_counters": {
+    "new_scientific_campaign_executions": 0,
+    "numerical_search_nodes": 0,
+    "solver_allocation_states": 0
+  },
+  "sole_next_action": "Submit the D177 symbolic outcome and separate reviews for Director review.",
+  "status": "PROVED_WITHIN_EXACT_WRITTEN_SCOPE_PENDING_DIRECTOR_REVIEW",
+  "task": "LCL-ORDINARY-SPINE-EXCEPTIONAL-ODD-FIRST-CENTER-QUOTA-EXPANSION-001"
+}
