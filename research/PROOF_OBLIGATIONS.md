@@ -1114,3 +1114,7 @@ The registered existential question is resolved by an exact symbolic witness on 
 ## D199 — Beyond the three-gap chain supplier
 
 The parameterized supplier, independent input families, complete output safe-cut set and admitted D196 suffix composition are proved. Safe output coordinates organize old-part gaps for a later step. General compatible fresh-parent allocation, broader positive-terminal state closure and arbitrary original-spine decomposition remain open. D198 remains Director accepted, the fixed minimum-input w=0 branch remains unclassified, and D191, D197 and D198 numerical lanes remain closed. [D199 proof](ORDINARY_SPINE_PARTIAL_SAFE_CUT_THREE_GAP_CHAIN.md)
+
+## D200 — Beyond two admitted multi-gap lifts
+
+The exact shell, residue criterion, size-independent and relocated templates, nonnested composition and actual birth maps are proved. The inherited lower corridor and relocated chain coordinate ranges identify useful later safe cuts. Some preceding direct-leaf tails supply a further qualifying pair after an actual terminal-free step, while the small control shows that pair renewal is not automatic. General fresh-parent allocation, broader positive-terminal closure and arbitrary original-spine decomposition remain open. D199 is Director accepted. The D198 fixed minimum-input w=0 branch stays unclassified, and D191, D197 and D198 numerical lanes remain closed. [D200 proof](ORDINARY_SPINE_GENERALIZED_SAFE_GAP_SHELL_COMPOSITION.md)

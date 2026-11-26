@@ -1,0 +1,49 @@
+{
+  "adverse": [
+    "fixed_partial_inventories"
+  ],
+  "composed": [
+    "stages",
+    "final_state",
+    "birth_transports",
+    "final_actual_connector_pairs",
+    "final_inventories_by_original_boundary"
+  ],
+  "executed_scientific_engines": [],
+  "execution_mode": "symbolic prescribed endpoint arithmetic",
+  "named_graph": [
+    "graph",
+    "digest",
+    "edges"
+  ],
+  "original_record": [
+    "original",
+    "prefixes",
+    "prefix_family"
+  ],
+  "positive": [
+    "state",
+    "chain",
+    "inventories",
+    "side_changes",
+    "inherited_maximum_safe_cut_corridor",
+    "minimum_safe_cuts"
+  ],
+  "shell_record": [
+    "parameters",
+    "shell",
+    "residual_labels",
+    "residual_weights",
+    "residual_moment",
+    "required_moment",
+    "disposition"
+  ],
+  "supplied_stage": [
+    "prefix_edges",
+    "prefix_digest",
+    "state",
+    "minimum_cut_table",
+    "maximum_cut_table"
+  ],
+  "version": 1
+}

@@ -855,3 +855,7 @@ The accepted D197 negative is exact for its two-translation class. D198's three-
 ## D199 — Scoped unsafe support and fixed-template moment failure
 
 At any unsafe cut a unit insertion repeats a pair of adjacent original weights. Coordinated unsafe insertions can preserve order, and collision-free vectors can change order. The Family C controls give both distinctions. At n=8 with receiving quotas (1,1,0,1), all three old cuts are admitted but the exact fixed-template residual moment is 1 instead of the required 4. This original remains eligible for other placements. The three-gap output has unsafe minimum cuts 3 and 4 and even size, so the identical D199 template cannot immediately reapply. [D199 proof](ORDINARY_SPINE_PARTIAL_SAFE_CUT_THREE_GAP_CHAIN.md)
+
+## D200 — Scoped moment, residue and pair-renewal obstructions
+
+The relocated fixed shell at N=8,K=11 misses its moment (3 versus 4). A distinct eight-edge star shell at K=13 matches the exact moment 12 but neither possible source exists for required weight 16, so the complete residue test rejects. Neither failure determines another shell or ordinary gracefulness. The small relocated positive has only two coordinates with threshold two below cut after any one terminal-free step, separated by four. Hence arbitrary relocated pair renewal fails within this example, even with at least two direct children in that intervening section. [D200 proof](ORDINARY_SPINE_GENERALIZED_SAFE_GAP_SHELL_COMPOSITION.md)

@@ -1,0 +1,75 @@
+{
+  "claimed_lifts": {
+    "composition_parameters": [
+      "P\u22652",
+      "a\u22652",
+      "10\u2264z\u2264n\u22122",
+      "p\u22651"
+    ],
+    "returned_state": [
+      "N+K",
+      "K-1",
+      "N+1"
+    ],
+    "shell_quota_profile": [
+      "p",
+      "q",
+      0,
+      1
+    ],
+    "strict_condition": "N=K"
+  },
+  "controls": [
+    "composed_general",
+    "composed_strict",
+    "retained_d199",
+    "size_independent_h4",
+    "swapped_h6",
+    "small_relocated",
+    "relocated_moment_adverse",
+    "equal_moment_recurrence_adverse"
+  ],
+  "disposition": "PROVED_WITHIN_EXACT_SCOPE_PENDING_DIRECTOR_REVIEW",
+  "execution_authorized": false,
+  "execution_entry": null,
+  "preparation_limits": {
+    "new_evidence_bytes": 128000000,
+    "observed_wall_seconds": 3600,
+    "process_cpu_seconds": 1800
+  },
+  "raw_inputs": {
+    "ORIGINALS.json": {
+      "bytes": 139526,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_GENERALIZED_SAFE_GAP_SHELL_COMPOSITION_001/ORIGINALS.json",
+      "sha256": "24b7ef99a0d125ceadea063757972a86e4697090928a050a89a1dc008c3e2e54"
+    },
+    "PREFIXES.json": {
+      "bytes": 330090,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_GENERALIZED_SAFE_GAP_SHELL_COMPOSITION_001/PREFIXES.json",
+      "sha256": "f1f51148d9ee8d68472e6d00acb91209cb3233d85add45ba2564c43a1908b194"
+    },
+    "SYMBOLIC_CONTROLS.json": {
+      "bytes": 761695,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_GENERALIZED_SAFE_GAP_SHELL_COMPOSITION_001/SYMBOLIC_CONTROLS.json",
+      "sha256": "4fc9e13cc115e512f87ee1b3044b37906103583a38366414eae218b23bcc5d14"
+    }
+  },
+  "task": "LCL-ORDINARY-SPINE-GENERALIZED-SAFE-GAP-SHELL-COMPOSITION-001",
+  "vacant_paths": [
+    "runs/d200-generalized-safe-gap-shell-composition-001",
+    "runs/d200-generalized-safe-gap-shell-composition-001-approval.json",
+    "evidence/runs/d200-generalized-safe-gap-shell-composition-001",
+    "runs/d199-partial-safe-cut-three-gap-chain-001",
+    "runs/d199-partial-safe-cut-three-gap-chain-001-approval.json",
+    "evidence/runs/d199-partial-safe-cut-three-gap-chain-001",
+    "runs/d198-nested-cut-rank-interleaving-001",
+    "runs/d198-nested-cut-rank-interleaving-001-approval.json",
+    "evidence/runs/d198-nested-cut-rank-interleaving-001",
+    "runs/d197-odd-run-cut-repartition-001",
+    "runs/d197-odd-run-cut-repartition-001-approval.json",
+    "evidence/runs/d197-odd-run-cut-repartition-001",
+    "runs/d191-low-capacity-strict-phase-001",
+    "runs/d191-low-capacity-strict-phase-001-approval.json",
+    "evidence/runs/d191-low-capacity-strict-phase-001"
+  ]
+}
