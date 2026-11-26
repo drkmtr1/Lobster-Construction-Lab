@@ -815,3 +815,7 @@ A direct-leaf slot supplies no residual terminal arrows. A missing upper host is
 ## D189 — Capacity and matching failures in the whole-section model
 
 The prescribed neutral allocation and whole-section split require a nonnegative remaining H length. For (6,1,0),(5,1,0,0), the parity and s=K geometry hold, but F=7<α_N+ω=9 and H* is −1. At fixed splits in the width-four and width-two controls, ordered gap matching requires the unavailable separation one, while explicit nonidentity permutations give legal completions. At t=0 the proved growth adds only even quota at Q, keeping shifted quotas fixed. These are model-specific conclusions. [D189 proof](ORDINARY_SPINE_EXCEPTIONAL_WHOLE_SECTION_MONOTONE_ALLOCATION.md)
+
+## D190 — Forced neutral guard and single-second-center limit
+
+For any gap allocation on the fixed movable exterior, the first γ numeric images force identities at the actual neutral role. If s≤γ, making the entire gap neutral leaves no place for the second residual terminals. The specified adverse control has 17 fresh edges and violates the same-phase graph parity. The additional parity-clean (3,2,0),(5,1) control fits the full size and parity but still lacks four residual neutral terminals. In the ν=1 monotone model equal gap sets require B=γ and a balanced split; z₂<2 precludes this geometry for matching. These conclusions have their fixed-exterior and monotone scopes, respectively. [D190 proof](ORDINARY_SPINE_EXCEPTIONAL_MOVABLE_TERMINAL_EXCHANGE.md)

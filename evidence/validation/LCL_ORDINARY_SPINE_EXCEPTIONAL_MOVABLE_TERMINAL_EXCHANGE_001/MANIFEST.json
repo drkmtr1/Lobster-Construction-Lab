@@ -1,0 +1,241 @@
+{
+  "D174_history": {
+    "numerical_arms": 2,
+    "pairs": 1,
+    "stopping_rule": "FIRST_INDEPENDENTLY_VERIFIED_SEPARATOR",
+    "unentered": 3518
+  },
+  "accepted_D177_symbolic_projection": {
+    "admitted_K_frequencies": {
+      "15": 15,
+      "16": 30,
+      "17": 30,
+      "18": 15,
+      "19": 3
+    },
+    "count": 93,
+    "historically_unentered": 92
+  },
+  "accepted_D189": {
+    "checkpoint": "b5de96194b3d2d1a8084bc74ab48edb3f2e6c483",
+    "manifest": {
+      "bytes": 6067,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_WHOLE_SECTION_MONOTONE_ALLOCATION_001/MANIFEST.json",
+      "sha256": "cd9e06d3fcd19b3429e3b41107d963c1c3ccbb78ce79d486f9f70dcaf3dd9104"
+    },
+    "proof": {
+      "bytes": 31840,
+      "path": "research/ORDINARY_SPINE_EXCEPTIONAL_WHOLE_SECTION_MONOTONE_ALLOCATION.md",
+      "sha256": "15e0e664c7e125a9e2bd63c7ff106fa1ef50de380c17326337d5b49d2312c3b4"
+    },
+    "status": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE"
+  },
+  "authoritative_ledgers": {
+    "research/DECISIONS.md": {
+      "bytes": 172420,
+      "sha256": "1f9e5c7d405be6719761da1f4f6de116ac724bc709e40f8a157255d688390880"
+    },
+    "research/FAILED_HYPOTHESES.md": {
+      "bytes": 91235,
+      "sha256": "576e4797943a1916c0222ba308644a570ae3e97347180b70428279c602fd355b"
+    },
+    "research/FINDINGS.md": {
+      "bytes": 217648,
+      "sha256": "a6eb00e06df9e633ee812e14fa3af6acb543266433cbc175289d09f95b7b747d"
+    },
+    "research/PROOF_OBLIGATIONS.md": {
+      "bytes": 124847,
+      "sha256": "6b03887e25b7225a564440573a4ef288737781926bd360aed2dbf4c887f31ce3"
+    }
+  },
+  "canonical_state": {
+    "bytes": 111822,
+    "sha256": "cbb2ded4428aa224b1b38b1375c1a04da631a0355b14c88da5fd8b9d9ec106eb"
+  },
+  "files": {
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_MOVABLE_TERMINAL_EXCHANGE_001/CUSTODY.json": {
+      "bytes": 10857,
+      "sha256": "f91eab53ba90b0878d711cb026bb1f9d35dcc28084ace6509f703b393f3f7a99"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_MOVABLE_TERMINAL_EXCHANGE_001/REVIEWS.md": {
+      "bytes": 2235,
+      "sha256": "2bc81fde7cffdcaf08ad8f08cf726272f1354f0018a0e8ba2958406558a071a3"
+    },
+    "handoffs/CODEX-20261125-d190-movable-terminal-exchange.md": {
+      "bytes": 3556,
+      "sha256": "b70769fc95f0d5417f55e563d7fd5c77dc4fb91dd5c49d9fc5b8ecbb4c1927d1"
+    },
+    "research/ORDINARY_SPINE_EXCEPTIONAL_MOVABLE_TERMINAL_EXCHANGE.md": {
+      "bytes": 38467,
+      "sha256": "ecdfb53a5da09d4dcd0bddfd020d17f16ef4df0191a452e26bcef4a64753324f"
+    }
+  },
+  "hash_convention": "Canonical LF for D190 text. Earlier frozen evidence retains its original conventions.",
+  "parent": "b5de96194b3d2d1a8084bc74ab48edb3f2e6c483",
+  "phase": "SYMBOLIC_CLOSEOUT",
+  "result": {
+    "consequences": "Single-positive-first and single-positive-second domains, coincident first roles, odd neutral remainders, actual separation one, auxiliary zero Q, and exact D189 embedding",
+    "open_scopes": [
+      "General H1 feasibility",
+      "Other exteriors and phase structures",
+      "Independent initialization",
+      "Arbitrary decomposition"
+    ],
+    "principal": "Movable one-first and one-second terminal exchange, variable folded origin, neutral remainder, and exact monotone baseline support within the chosen exterior",
+    "quota_condition": "Neutral residual at least gamma is necessary on the fixed exterior; construction additionally requires B>=gamma, stated capacities and split, and baseline-compatible growth",
+    "separate_accepted_arm": "D188",
+    "supplier": "Indexed actual original incidences, exact split partitions and matching, variable-origin bank growth and fully admitted D157 return"
+  },
+  "reviews": {
+    "director_D190": "PENDING",
+    "implementation_and_evidence_custody": "PASS_SCOPED",
+    "mathematical": "PASS_SCOPED"
+  },
+  "schema_version": 1,
+  "scientific_counters": {
+    "historical_replays": 0,
+    "numerical_search_nodes": 0,
+    "original_checker_invocations": 0,
+    "scientific_campaign_executions": 0,
+    "solver_allocation_states": 0
+  },
+  "sole_next_action": "Submit the D190 symbolic outcome and separate reviews for Director review.",
+  "status": "PROVED_WITHIN_EXACT_WRITTEN_SCOPE_PENDING_DIRECTOR_REVIEW",
+  "symbolic_controls": {
+    "A": {
+      "arm": "Embedded D189",
+      "baseline": [
+        2,
+        1,
+        2,
+        1
+      ],
+      "fresh_edges": 24,
+      "maximum_cut": 51
+    },
+    "B": {
+      "a": 1,
+      "baseline": [
+        4
+      ],
+      "fresh_edges": 16,
+      "gamma": 5,
+      "maximum_cut": 47,
+      "nu": 1
+    },
+    "C": {
+      "a": 2,
+      "baseline": [
+        5
+      ],
+      "fresh_edges": 18,
+      "gamma": 5,
+      "maximum_cut": 48,
+      "nu": 1
+    },
+    "D": {
+      "actual_shifted_separations": [
+        1
+      ],
+      "baseline": [
+        1,
+        3
+      ],
+      "fresh_edges": 18,
+      "gamma": 5,
+      "maximum_cut": 48
+    },
+    "E": {
+      "baseline": [
+        4,
+        1
+      ],
+      "fresh_edges": 22,
+      "gamma": 4,
+      "growth": "Pure P2, width one",
+      "maximum_cut": 50
+    },
+    "F": {
+      "baseline": [
+        0,
+        6,
+        1
+      ],
+      "fresh_edges": 24,
+      "gamma": 4,
+      "growth": "Q-only, width one",
+      "maximum_cut": 51
+    },
+    "G": {
+      "baseline": [
+        0,
+        6
+      ],
+      "fresh_edges": 24,
+      "gamma": 4,
+      "growth": "Q-only, width one",
+      "maximum_cut": 51
+    },
+    "admitted_mixed_arm_composition": {
+      "edges": [
+        74,
+        126,
+        150,
+        166
+      ],
+      "final_crossing": [
+        83,
+        166
+      ],
+      "maximum_cuts": [
+        39,
+        65,
+        77,
+        85
+      ]
+    },
+    "parity_clean_adverse": {
+      "first": [
+        3,
+        2,
+        0
+      ],
+      "fresh_edges": 18,
+      "scope": "Fixed movable-exterior neutral capacity",
+      "second": [
+        5,
+        1
+      ]
+    },
+    "parity_clean_supported": {
+      "baseline": [
+        5,
+        1
+      ],
+      "first": [
+        4,
+        1,
+        0
+      ],
+      "fresh_edges": 18,
+      "second": [
+        5,
+        1
+      ]
+    },
+    "prescribed_adverse": {
+      "first": [
+        3,
+        1,
+        0
+      ],
+      "fresh_edges": 17,
+      "scope": "Same-phase graph parity and fixed movable-exterior neutral capacity",
+      "second": [
+        5,
+        1
+      ]
+    }
+  },
+  "task": "LCL-ORDINARY-SPINE-EXCEPTIONAL-MOVABLE-TERMINAL-EXCHANGE-001"
+}

@@ -1073,4 +1073,8 @@ The specified actual direct-leaf counts are admitted under the effective width, 
 
 ## D189 — Scope beyond the whole-section monotone baseline
 
-The ordered partitions, exact baseline support in this model and sufficient bank growth are proved under the stated topology, capacity and independent admission conditions. General H1 feasibility, other exterior layouts, one-positive-second-center cases, other first-role requirements, independent initialization and arbitrary decomposition remain separate. D188 remains a separate accepted arm. The sole next action is Director review of D189. [D189 proof](ORDINARY_SPINE_EXCEPTIONAL_WHOLE_SECTION_MONOTONE_ALLOCATION.md)
+The ordered partitions, exact baseline support in this model and sufficient bank growth are proved under the stated topology, capacity and independent admission conditions. General H1 feasibility, other exterior layouts, one-positive-second-center cases, other first-role requirements, independent initialization and arbitrary decomposition remain separate. D188 remains a separate accepted arm. The Director accepted D189 within its exact scope. D190 separately addresses movable terminal exchange and the neutral guard. [D189 proof](ORDINARY_SPINE_EXCEPTIONAL_WHOLE_SECTION_MONOTONE_ALLOCATION.md)
+
+## D190 — Scope beyond movable exchange and neutral capacity
+
+The exact monotone baseline, indexed growth and single-center domains are proved under the stated role and full-size admission conditions. The fixed-exterior neutral guard applies beyond monotone splits. General H1 feasibility, other phase and placement structures, independent initialization and arbitrary decomposition remain open. The proof records a matched changed-phase hybrid question for the parity-clean guard case, outside this task. The sole next action is Director review of D190. [D190 proof](ORDINARY_SPINE_EXCEPTIONAL_MOVABLE_TERMINAL_EXCHANGE.md)
