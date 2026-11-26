@@ -1081,4 +1081,8 @@ The exact monotone baseline, indexed growth and single-center domains are proved
 
 ## D191 — Scope of the symbolic strict-phase result
 
-The exact main existential question has a proved matched separator. Other frozen strict-phase dispositions, other placements and unrestricted gracefulness remain open. Frozen numerical consumer and audit definitions were parse-reviewed only. The only next action is Director review of D191 preparation and its symbolic findings. [D191 proof](ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED.md)
+The exact main existential question has a proved matched separator. Other frozen strict-phase dispositions, other placements and unrestricted gracefulness remain open. Frozen numerical consumer and audit definitions were parse-reviewed only. The Director accepted D191 within its exact scope and closed its numerical lane as SYMBOLICALLY_RESOLVED / NO_EXECUTION_NEEDED. [D191 proof](ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED.md)
+
+## D192 — Scope beyond the signed supplier
+
+The two prescribed baseline domains and one- and two-anchor growth domains are proved with exact named resources and full admission. Other second-quota parities, joint growth with fewer anchors, other strict exteriors, independent initialization outside the retained premises and arbitrary decomposition remain separate. The frozen D191 numerical lane is closed as SYMBOLICALLY_RESOLVED / NO_EXECUTION_NEEDED. The sole next action is Director review of the D192 symbolic outcome and separate reviews. [D192 proof](ORDINARY_SPINE_STRICT_SIGNED_INDEPENDENT_GROWTH.md)

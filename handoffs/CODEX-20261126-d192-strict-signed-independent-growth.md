@@ -1,0 +1,19 @@
+# Continuity handoff — D192 strict-phase independent signed growth
+
+**Task** LCL-ORDINARY-SPINE-STRICT-SIGNED-INDEPENDENT-GROWTH-001. November 26, 2026, Pacific/Honolulu. LCL main, parent `afaba9252e6ca3544f9e3429c6a5f0aa82b6119a`. Resolve the containing checkpoint through Git.
+
+## Research status
+
+**PROVED WITHIN EXACT WRITTEN SCOPE / PENDING DIRECTOR REVIEW.** D192 proves the exact movable-defect baseline split domains on the specified strict exterior with first shifts +1 and −1 and upper separations zero and one. For h≥2 and even quotas p,q in numerical Q,P order, the low baseline takes p≥2, q≥2h+2 and the companion takes p≥2, q≥2h. For p≥4 one Q pair supplies even growth at either one signed first host. For p≥6 two named Q pairs supply arbitrary independently specified even increases at both first hosts while retaining the original second quotas. The full named constructions preserve both inventories, polarities, the literal connector and immutable admitted composition with D191 and compatible D157 legs. The read-only D191 projection verifies 24 low originals, 27 companions and 24 matched pairs within the new sufficient baseline domains. [D192 proof](../research/ORDINARY_SPINE_STRICT_SIGNED_INDEPENDENT_GROWTH.md)
+
+The Director accepted D191 preparation and its symbolic resolution at `afaba9252e6ca3544f9e3429c6a5f0aa82b6119a`, with manifest SHA-256 `d739bb3fe1f6807233c12116e2b620ad0e1341145f4a0fcb696a4dfbd7f7f3e2`, primary proof SHA-256 `0dfc6b38331e7f1d7fde41058038d5838133b66d7fec8139a61b84da30b781c3` and frozen corpus SHA-256 `60cd06497efe6a2a78523c3e48c8db77d00a907222edbe4fb047843bc51e1355`. The Director independently reconstructed the 584 original records and both input spectra, including every label of 74→94 and the 12 named-control bindings, and inspected the source definitions without executing them. Local Windows custody and actual parse-only preflight are separately reported. Its numerical lane is closed as **SYMBOLICALLY_RESOLVED / NO_EXECUTION_NEEDED**. [D191 proof](../research/ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED.md)
+
+D190, D189 and D188 remain separately accepted. D177's accepted 93-original symbolic projection includes 92 historically unentered originals. D174 historically completed one pair and two numerical arms and left 3,518 originals unentered. D173's full feasible domain, D172's separator and unentered originals, D164 INCOMPLETE/UNDECIDED and target-0429 T unresolved, D161 and D154 accepted evidence, D148 incomplete status and accepted evidence, the closed pilot, sealed D130, 2322 DEFERRED/UNSTARTED, literature obligations and the unstarted pinned two-host shell lift retain their recorded scopes.
+
+## Work and checks
+
+The A–F controls, exact named Q-anchor transport and admitted mixed-supplier phase sequence were checked symbolically. The original record and graph digests of all 584 D191 records were recalculated read-only. The projection binds its 51 strict originals and the distinct exceptional counterparts of the low records. Numerical search, solver, original-checker, campaign and replay counters were zero. The existing D191 algorithms, frozen originals and prospective caps retain their exact identities. Local and live LCL main, both upstream pins and the baseline tag and peel were checked. [Projection](../evidence/validation/LCL_ORDINARY_SPINE_STRICT_SIGNED_INDEPENDENT_GROWTH_001/CORPUS_PROJECTION.json) · [Custody](../evidence/validation/LCL_ORDINARY_SPINE_STRICT_SIGNED_INDEPENDENT_GROWTH_001/CUSTODY.json) · [Reviews](../evidence/validation/LCL_ORDINARY_SPINE_STRICT_SIGNED_INDEPENDENT_GROWTH_001/REVIEWS.md) · [Manifest](../evidence/validation/LCL_ORDINARY_SPINE_STRICT_SIGNED_INDEPENDENT_GROWTH_001/MANIFEST.json)
+
+## One next action
+
+Director review of the D192 symbolic outcome and separate reviews.

@@ -823,3 +823,7 @@ For any gap allocation on the fixed movable exterior, the first γ numeric image
 ## D191 — Broad exceptional guard and strict boundary obstruction
 
 For the declared S₋₁ same-phase arrangement with all actual direct leaves and positive centers exterior, the first four numeric images force four residual neutral terminals regardless of selected-terminal counts. A shorter gap cannot accommodate the positive second residual demand. This excludes the 144 low main originals in that phase context. The two actual strict boundary originals with second inventory (5,1) fail the reduced edge-moment cases and exact residual capacity conditions. The original D190 17-edge parity failure remains separate. These restrictions have their proved placement scopes. [D191 proof](ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED.md)
+
+## D192 — Baseline endpoints and anchor supply in the prescribed construction
+
+In the prescribed even-quota movable-defect lists, the low interval gives q≥2h+2 and the companion interval gives q≥2h. There are exactly p/2−1 complete Q exchange pairs in their common interval. Thus p=2 supplies none and p=4 supplies one. The proved two-sign growth uses two disjoint Q pairs. These bounds describe the stated allocation and express no infeasibility for other signed allocations or exteriors. [D192 proof](ORDINARY_SPINE_STRICT_SIGNED_INDEPENDENT_GROWTH.md)

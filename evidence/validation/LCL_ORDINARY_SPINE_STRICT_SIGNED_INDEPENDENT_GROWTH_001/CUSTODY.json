@@ -1,0 +1,257 @@
+{
+  "parent": "afaba9252e6ca3544f9e3429c6a5f0aa82b6119a",
+  "prior_parent": "0cf6e912690f21724607013e496ec7a4750cad62",
+  "accepted_D191": {
+    "manifest": {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED_001_PREP/MANIFEST.json",
+      "bytes": 10603,
+      "sha256": "d739bb3fe1f6807233c12116e2b620ad0e1341145f4a0fcb696a4dfbd7f7f3e2"
+    },
+    "proof": {
+      "path": "research/ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED.md",
+      "bytes": 19212,
+      "sha256": "0dfc6b38331e7f1d7fde41058038d5838133b66d7fec8139a61b84da30b781c3"
+    },
+    "corpus": {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED_001_PREP/originals.jsonl",
+      "bytes": 5633720,
+      "sha256": "60cd06497efe6a2a78523c3e48c8db77d00a907222edbe4fb047843bc51e1355"
+    },
+    "manifest_bindings": 23,
+    "source_bindings": 22,
+    "changed_paths": 24
+  },
+  "accepted_D190": {
+    "checkpoint": "0cf6e912690f21724607013e496ec7a4750cad62",
+    "manifest": {
+      "bytes": 6495,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_MOVABLE_TERMINAL_EXCHANGE_001/MANIFEST.json",
+      "sha256": "65b8357abbc5de06f200ee410808120f755f2c1759263dc2eaff1a816cdbbee2"
+    },
+    "proof": {
+      "bytes": 38467,
+      "path": "research/ORDINARY_SPINE_EXCEPTIONAL_MOVABLE_TERMINAL_EXCHANGE.md",
+      "sha256": "ecdfb53a5da09d4dcd0bddfd020d17f16ef4df0191a452e26bcef4a64753324f"
+    },
+    "status": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE"
+  },
+  "retained_evidence_count": 29,
+  "strict_prefix": {
+    "edges": 94,
+    "vertices": 95,
+    "spine_vertices": 30,
+    "max_distance_to_spine": 2,
+    "maximum_cut": 49,
+    "frontier": "s:29",
+    "maximum_frontier_label": 94,
+    "crossing": [
+      48,
+      94
+    ],
+    "noncrossing": [
+      1,
+      47
+    ],
+    "digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+    "label_record": {
+      "bytes": 1547,
+      "sha256": "6d9f66a731cefc5ed642dd60a1aad1d8de89370bf21684f9dd01257e194d377b"
+    },
+    "graph_record": {
+      "bytes": 7966,
+      "sha256": "500243061c3192ebd826262d3412c4d76d1461b0890b391129aa3c0b8c526a01"
+    }
+  },
+  "exceptional_prefix": {
+    "edges": 74,
+    "vertices": 75,
+    "spine_vertices": 28,
+    "max_distance_to_spine": 2,
+    "maximum_cut": 39,
+    "frontier": "s:27",
+    "maximum_frontier_label": 74,
+    "crossing": [
+      37,
+      74
+    ],
+    "noncrossing": [
+      1,
+      36
+    ],
+    "digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+    "record": {
+      "bytes": 8781,
+      "sha256": "f48b56479dac85e1ddbbd36e5f6a6a3eaf94b9b32497e677fe5a96932abbac95"
+    }
+  },
+  "D177_projection": {
+    "admitted_K_frequencies": {
+      "15": 15,
+      "16": 30,
+      "17": 30,
+      "18": 15,
+      "19": 3
+    },
+    "count": 93,
+    "historically_unentered": 92
+  },
+  "D174_history": {
+    "numerical_arms": 2,
+    "pairs": 1,
+    "stopping_rule": "FIRST_INDEPENDENTLY_VERIFIED_SEPARATOR",
+    "unentered": 3518
+  },
+  "original_builder_blob": "8d1e9948e8bf5ef01e67c9afe0155412c57d79fa",
+  "original_checker_blob": "d008f35f0843e1a5c770db3e7f42ed7d987360d7",
+  "admission_process_cpu_seconds": 1,
+  "admission_process_wall_seconds": 9.140448300000571,
+  "task": "LCL-ORDINARY-SPINE-STRICT-SIGNED-INDEPENDENT-GROWTH-001",
+  "status": "PROVED_WITHIN_EXACT_WRITTEN_SCOPE_PENDING_DIRECTOR_REVIEW",
+  "continuity": {
+    "branch": "main",
+    "live_main_at_admission": "afaba9252e6ca3544f9e3429c6a5f0aa82b6119a",
+    "origin_main_at_admission": "afaba9252e6ca3544f9e3429c6a5f0aa82b6119a",
+    "clean_worktree_at_admission": true,
+    "divergence": [
+      0,
+      0
+    ],
+    "baseline_tag": "lcl-v0.1.0-baseline",
+    "tag_object": "fddfc1dd9541324b2ed2de2505bc750b3e3f0b9d",
+    "tag_peel": "36ea1603602491bf3c1c5b81ed4c23aaa2210e70",
+    "upstream_live_main_pins": {
+      "drkmtr1/Math-Discovery-Lab": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+      "drkmtr1/MDL_Bounded_Search": "e48b94eec4091b4fe189e325cab2eda464409943"
+    },
+    "writers": 1,
+    "maximum_simultaneous_reviewers": 1,
+    "matching_windows_processes_outside_census": 0
+  },
+  "D191_director_acceptance": {
+    "status": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE",
+    "numerical_lane": "SYMBOLICALLY_RESOLVED / NO_EXECUTION_NEEDED",
+    "scope": "Independent strict prefix, broader exceptional guard, exact strict terminal bounds and quota-one family, symbolic matched II-02-06, both strict R=6 scoped boundary negatives, named construction and symbolic registration resolution.",
+    "direct_basis": "Live continuity and 24 changed paths, 23 manifested bindings, both prefix graphs and spectra and every strict-prefix label, 584 exact original corpus records and 12 named-control bindings, protected sources, prior evidence, proofs and reviews. Numerical definitions inspected without executing them.",
+    "separate_local_basis": "Local Windows custody and actual parse-only preflight remain separately reported. All 584 originals retain frozen preparation status."
+  },
+  "projection_audit": {
+    "counts": {
+      "low": {
+        "8": 2,
+        "10": 4,
+        "12": 5,
+        "14": 6,
+        "16": 7
+      },
+      "companion": {
+        "6": 2,
+        "8": 3,
+        "10": 4,
+        "12": 5,
+        "14": 6,
+        "16": 7
+      }
+    },
+    "low": 24,
+    "companion": 27,
+    "matched": 24,
+    "verified_originals": 584,
+    "process_cpu_seconds": 0.46875,
+    "process_wall_seconds": 0.4579622000019299
+  },
+  "symbolic_controls": {
+    "A": {
+      "low_and_companion": true,
+      "fresh_edges": 22,
+      "output_edges": 116,
+      "maximum_cut": 60,
+      "defects": [
+        5,
+        4
+      ]
+    },
+    "B": {
+      "fresh_edges": 26,
+      "output_edges": 120,
+      "maximum_cut": 62,
+      "defect": 6
+    },
+    "C": {
+      "fresh_edges": 20,
+      "output_edges": 114,
+      "maximum_cut": 59,
+      "defect": 4,
+      "empty_H_image": true
+    },
+    "D": {
+      "fresh_edges": 26,
+      "output_edges": 120,
+      "maximum_cut": 62,
+      "one_pair": true,
+      "separate_signs": true
+    },
+    "E": {
+      "fresh_edges": 32,
+      "output_edges": 126,
+      "maximum_cut": 65,
+      "growth": [
+        1,
+        2
+      ],
+      "Q_anchor_columns": [
+        4,
+        5
+      ]
+    },
+    "F": {
+      "baseline_fresh_edges": 34,
+      "fresh_edges": 40,
+      "output_edges": 134,
+      "maximum_cut": 69,
+      "growth": [
+        2,
+        1
+      ],
+      "Q_anchor_columns": [
+        6,
+        7
+      ]
+    },
+    "admitted_composition": {
+      "edges": [
+        74,
+        94,
+        116,
+        136,
+        156,
+        176
+      ],
+      "maximum_cuts": [
+        39,
+        49,
+        60,
+        70,
+        80,
+        90
+      ],
+      "final_crossing": [
+        89,
+        176
+      ]
+    }
+  },
+  "limits": {
+    "process_cpu_seconds": 1800,
+    "observed_wall_seconds": 3600,
+    "new_evidence_bytes": 128000000
+  },
+  "elapsed_wall_seconds_through_custody_draft": 443,
+  "scientific_counters": {
+    "numerical_search_nodes": 0,
+    "solver_allocation_states": 0,
+    "original_checker_invocations": 0,
+    "official_scientific_campaign_executions": 0,
+    "historical_replays": 0
+  },
+  "sole_next_action": "Director review of the D192 symbolic outcome and separate reviews."
+}

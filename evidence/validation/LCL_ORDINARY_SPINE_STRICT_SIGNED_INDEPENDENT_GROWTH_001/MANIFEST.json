@@ -1,0 +1,216 @@
+{
+  "D174_history": {
+    "numerical_arms": 2,
+    "pairs": 1,
+    "stopping_rule": "FIRST_INDEPENDENTLY_VERIFIED_SEPARATOR",
+    "unentered": 3518
+  },
+  "accepted_D177_projection": {
+    "admitted_K_frequencies": {
+      "15": 15,
+      "16": 30,
+      "17": 30,
+      "18": 15,
+      "19": 3
+    },
+    "count": 93,
+    "historically_unentered": 92
+  },
+  "accepted_D191": {
+    "changed_paths": 24,
+    "checkpoint": "afaba9252e6ca3544f9e3429c6a5f0aa82b6119a",
+    "corpus": {
+      "bytes": 5633720,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED_001_PREP/originals.jsonl",
+      "sha256": "60cd06497efe6a2a78523c3e48c8db77d00a907222edbe4fb047843bc51e1355"
+    },
+    "manifest": {
+      "bytes": 10603,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED_001_PREP/MANIFEST.json",
+      "sha256": "d739bb3fe1f6807233c12116e2b620ad0e1341145f4a0fcb696a4dfbd7f7f3e2"
+    },
+    "manifest_bindings": 23,
+    "numerical_lane": "SYMBOLICALLY_RESOLVED / NO_EXECUTION_NEEDED",
+    "proof": {
+      "bytes": 19212,
+      "path": "research/ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED.md",
+      "sha256": "0dfc6b38331e7f1d7fde41058038d5838133b66d7fec8139a61b84da30b781c3"
+    },
+    "source_bindings": 22,
+    "status": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE"
+  },
+  "authoritative_ledgers": {
+    "research/DECISIONS.md": {
+      "bytes": 175498,
+      "sha256": "6eab477d7b2642641d134420462f1e0b4728ad4564bb24d6158c1fe4b6eda1c1"
+    },
+    "research/FAILED_HYPOTHESES.md": {
+      "bytes": 92544,
+      "sha256": "6e2b1be7df3740de46933c57a99f938f673dd4d765d690b63d0cb54f07678380"
+    },
+    "research/FINDINGS.md": {
+      "bytes": 219865,
+      "sha256": "a77796acbf0938cbcb165cb6d1e023efd6fd053e53b6d4e7124059c32b9fe6ee"
+    },
+    "research/PROOF_OBLIGATIONS.md": {
+      "bytes": 126027,
+      "sha256": "4b6ea3676b7f7846029477415e4ea2e1e5a64d2e6a154763fabcc161c2e5107d"
+    }
+  },
+  "canonical_state": {
+    "bytes": 114310,
+    "sha256": "e985e1856f0b18b126301be29f1be6367dfe91454e869f233ce7972703962d3d"
+  },
+  "files": {
+    "evidence/validation/LCL_ORDINARY_SPINE_STRICT_SIGNED_INDEPENDENT_GROWTH_001/CORPUS_PROJECTION.json": {
+      "bytes": 49669,
+      "sha256": "101178794669a3525a78be70186e7a0278014867ed93999a2c3cafb036ccdaaf"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_STRICT_SIGNED_INDEPENDENT_GROWTH_001/CUSTODY.json": {
+      "bytes": 7359,
+      "sha256": "ff860c3ee5317a3eaf66aed8bba06283d994e11d8928879b5bb945312227e986"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_STRICT_SIGNED_INDEPENDENT_GROWTH_001/REVIEWS.md": {
+      "bytes": 2323,
+      "sha256": "f774f111a57b8a49f3bf6447cee8dc952b719b3d659f45698b7e0eae646ddd48"
+    },
+    "handoffs/CODEX-20261126-d192-strict-signed-independent-growth.md": {
+      "bytes": 3832,
+      "sha256": "397158ba3a34bc186309c03c397e667a59bed20020d3e681894b6631db924ef5"
+    },
+    "research/ORDINARY_SPINE_STRICT_SIGNED_INDEPENDENT_GROWTH.md": {
+      "bytes": 29027,
+      "sha256": "fe93c6a0bad8ea22437cc21a75404555fc3d0df79209e8c0d9f3b0bd8684fed1"
+    }
+  },
+  "frozen_D191_projection": {
+    "companion": 27,
+    "counts_by_total": {
+      "companion": {
+        "10": 4,
+        "12": 5,
+        "14": 6,
+        "16": 7,
+        "6": 2,
+        "8": 3
+      },
+      "low": {
+        "10": 4,
+        "12": 5,
+        "14": 6,
+        "16": 7,
+        "6": 0,
+        "8": 2
+      }
+    },
+    "low": 24,
+    "matched_pairs": 24,
+    "path": "evidence/validation/LCL_ORDINARY_SPINE_STRICT_SIGNED_INDEPENDENT_GROWTH_001/CORPUS_PROJECTION.json"
+  },
+  "hash_convention": "Canonical LF for D192 evidence and notes; prior frozen bytes retain original conventions.",
+  "parent": "afaba9252e6ca3544f9e3429c6a5f0aa82b6119a",
+  "result": {
+    "baseline": "Exact prescribed movable-defect domains: even p>=2 and q>=2h+2 low or q>=2h companion",
+    "exterior": "Strict S0 with two actual lower shifts +1 and -1 and two upper separations 0 and 1",
+    "one_sign": "One actual Q exchange pair at p>=4 permits any even increase of either one signed first host",
+    "scope": "Original named topology with all direct leaves exterior and full D157 admission; other allocations remain open",
+    "two_signs": "Two disjoint actual Q exchange pairs at p>=6 permit independently specified even increases at both signed first hosts"
+  },
+  "reviews": {
+    "director_D192": "PENDING",
+    "implementation_and_evidence_custody": "PASS_SCOPED",
+    "mathematical": "PASS_SCOPED"
+  },
+  "schema_version": 1,
+  "scientific_counters": {
+    "historical_replays": 0,
+    "numerical_search_nodes": 0,
+    "official_scientific_campaign_executions": 0,
+    "original_checker_invocations": 0,
+    "solver_allocation_states": 0
+  },
+  "sole_next_action": "Director review of the D192 symbolic outcome and separate reviews.",
+  "status": "PROVED_WITHIN_EXACT_WRITTEN_SCOPE_PENDING_DIRECTOR_REVIEW",
+  "symbolic_controls": {
+    "A": {
+      "defects": [
+        5,
+        4
+      ],
+      "fresh_edges": 22,
+      "low_and_companion": true,
+      "maximum_cut": 60,
+      "output_edges": 116
+    },
+    "B": {
+      "defect": 6,
+      "fresh_edges": 26,
+      "maximum_cut": 62,
+      "output_edges": 120
+    },
+    "C": {
+      "defect": 4,
+      "empty_H_image": true,
+      "fresh_edges": 20,
+      "maximum_cut": 59,
+      "output_edges": 114
+    },
+    "D": {
+      "fresh_edges": 26,
+      "maximum_cut": 62,
+      "one_pair": true,
+      "output_edges": 120,
+      "separate_signs": true
+    },
+    "E": {
+      "Q_anchor_columns": [
+        4,
+        5
+      ],
+      "fresh_edges": 32,
+      "growth": [
+        1,
+        2
+      ],
+      "maximum_cut": 65,
+      "output_edges": 126
+    },
+    "F": {
+      "Q_anchor_columns": [
+        6,
+        7
+      ],
+      "baseline_fresh_edges": 34,
+      "fresh_edges": 40,
+      "growth": [
+        2,
+        1
+      ],
+      "maximum_cut": 69,
+      "output_edges": 134
+    },
+    "admitted_composition": {
+      "edges": [
+        74,
+        94,
+        116,
+        136,
+        156,
+        176
+      ],
+      "final_crossing": [
+        89,
+        176
+      ],
+      "maximum_cuts": [
+        39,
+        49,
+        60,
+        70,
+        80,
+        90
+      ]
+    }
+  },
+  "task": "LCL-ORDINARY-SPINE-STRICT-SIGNED-INDEPENDENT-GROWTH-001"
+}
