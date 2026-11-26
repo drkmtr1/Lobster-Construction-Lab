@@ -787,3 +787,7 @@ In the declared terminal-enabled H1 arrangement a compatible exterior forces R�
 ## D182 — Terminal-enabled graph threshold and scoped II-a moment
 
 For the declared H1 arrangement, R<r+3 remains infeasible even when odd first quotas may be one. This follows from the graph-color counts and terminal balance, independently of h. On the selected II-a assignments with even full displacement moment, odd full quota at P fails the index parity moment. I-a does not have this parity restriction on its selected roles. An unsuccessful role assignment does not exclude another assignment or another exterior. [D182 proof](ORDINARY_SPINE_EXCEPTIONAL_PARITY_NEUTRAL_PACKETS.md)
+
+## D183 — Necessary threshold and same-phase graph parity for multiple second centers
+
+For the declared terminal-enabled H1 arrangement, R<r+3 excludes completion for the multiple-second-center topology by terminal balance and the fresh lower graph-class count. Both fresh graph-class sizes must be even. In the supplied exterior the folded moment is A(ν−1) and gives the stated necessary condition on numerical roles. The Q reservoir inequality describes the positive construction and gives no general H1 obstruction. [D183 proof](ORDINARY_SPINE_EXCEPTIONAL_UNBOUNDED_MULTI_UPPER_HOST.md)

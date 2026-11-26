@@ -1,0 +1,104 @@
+{
+  "D174_history": {
+    "numerical_arms": 2,
+    "pairs": 1,
+    "stopping_rule": "FIRST_INDEPENDENTLY_VERIFIED_SEPARATOR",
+    "unentered": 3518
+  },
+  "accepted_D177_symbolic_projection": {
+    "admitted_K_frequencies": {
+      "15": 15,
+      "16": 30,
+      "17": 30,
+      "18": 15,
+      "19": 3
+    },
+    "count": 93,
+    "historically_unentered": 92
+  },
+  "accepted_D182": {
+    "checkpoint": "76354f6a0de4437531e85d642be707b1845372ce",
+    "manifest": {
+      "bytes": 4468,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_PARITY_NEUTRAL_PACKETS_001/MANIFEST.json",
+      "sha256": "9d7bb9c49b8a46e7238a97cc6189190aed0a9c0ad2e3c0da1c8cb7c45c71a9c2"
+    },
+    "proof": {
+      "bytes": 38994,
+      "path": "research/ORDINARY_SPINE_EXCEPTIONAL_PARITY_NEUTRAL_PACKETS.md",
+      "sha256": "35fcfc355882e6a7f892fecedd4b80f5e90f4803b86dc603dae1054f627fb7e7"
+    },
+    "status": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE"
+  },
+  "authoritative_ledgers": {
+    "research/DECISIONS.md": {
+      "bytes": 163625,
+      "sha256": "c1660932aef258d47dae7555b282b9beddaa9d7f37ba9a5d6ce84a7c9e319269"
+    },
+    "research/FAILED_HYPOTHESES.md": {
+      "bytes": 86766,
+      "sha256": "313c6cef897c4545270618cca5d93c16c46845e99589e21ae907d9ed484d73cc"
+    },
+    "research/FINDINGS.md": {
+      "bytes": 209694,
+      "sha256": "e5c2209b39608f3e97de8f3e4ad440aac6af0bb86bcca4009a67e59f9caddf5a"
+    },
+    "research/PROOF_OBLIGATIONS.md": {
+      "bytes": 120314,
+      "sha256": "8cc38fb4406c5a52b22ff40c87a2f34076861303468ca8462d9ba219c85344bd"
+    }
+  },
+  "canonical_state": {
+    "bytes": 104601,
+    "sha256": "6c820b16663aa3f8a3f69550a6db0d57c773bb5a8aa62846708d51b82ff76c7d"
+  },
+  "files": {
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_UNBOUNDED_MULTI_UPPER_HOST_001/CUSTODY.json": {
+      "bytes": 6236,
+      "sha256": "ee66490811e848c93d1ccc2c68eefc14ac69e115c2c69a6da61aab8903c9fb56"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_UNBOUNDED_MULTI_UPPER_HOST_001/REVIEWS.md": {
+      "bytes": 2531,
+      "sha256": "6619b7b6463ecc3f4fab8507d457f41774b446f841d5a5d5535b7125ebad4ef5"
+    },
+    "handoffs/CODEX-20261125-d183-unbounded-multi-upper-host.md": {
+      "bytes": 3660,
+      "sha256": "c083b641fa439ab7264cf91d42e72d32b96201d82a36868f1a9454205aaff90d"
+    },
+    "research/ORDINARY_SPINE_EXCEPTIONAL_UNBOUNDED_MULTI_UPPER_HOST.md": {
+      "bytes": 33676,
+      "sha256": "9fe08493ef3bcffe363d434d07633839550d25b8579e2908be182fdf8d68a78a"
+    }
+  },
+  "hash_convention": "Canonical LF for D183 text. Earlier frozen evidence retains its original conventions.",
+  "parent": "76354f6a0de4437531e85d642be707b1845372ce",
+  "phase": "SYMBOLIC_CLOSEOUT",
+  "result": {
+    "arrangement": "Terminal-enabled H1 with nu>=4 even actual second centers, no first direct leaf, actual second direct leaf exterior, independently supplied admitted named D157 input and n>=2K for the full target",
+    "necessary_only": "R>=r+3 and both graph-class counts even within the declared terminal-enabled same-phase placement",
+    "open_scopes": [
+      "Arbitrary multi-host quota feasibility",
+      "Other multiplicities and parities",
+      "Independent initialization",
+      "Arbitrary decomposition"
+    ],
+    "principal": "Odd r>=2g+6+e, integer g>=0 and e=g mod 2, exactly 2g positive odd first quotas, other positive even first quotas including distinct hosts with quota at least 4 and at least nu",
+    "quota_condition": "p_2 and Q odd, p_(nu-1) even >=4, all other shifted quotas positive even, and Q >= r-2 + sum of (rho-1) times the shifted quota increase over baseline",
+    "supplier": "Exterior widths (r+2,nu+3), D182 regular packets, four tail arrows at separation nu-1, and reusable anchored separation-specific growth strips"
+  },
+  "reviews": {
+    "director_D183": "PENDING",
+    "implementation_and_evidence_custody": "PASS_SCOPED",
+    "mathematical": "PASS_SCOPED"
+  },
+  "schema_version": 1,
+  "scientific_counters": {
+    "historical_replays": 0,
+    "new_scientific_campaign_executions": 0,
+    "numerical_search_nodes": 0,
+    "solver_allocation_states": 0
+  },
+  "sole_next_action": "Submit the D183 symbolic outcome and separate reviews for Director review.",
+  "status": "PROVED_WITHIN_EXACT_WRITTEN_SCOPE_PENDING_DIRECTOR_REVIEW",
+  "task": "LCL-ORDINARY-SPINE-EXCEPTIONAL-UNBOUNDED-MULTI-UPPER-HOST-001"
+}
