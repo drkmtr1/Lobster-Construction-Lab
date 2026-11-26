@@ -1,0 +1,80 @@
+{
+  "claimed_lifts": {
+    "aggregate_sufficient_condition": "p+s >= 2*sum(t_j) and d<min(h,J0)",
+    "expanded_profile": [
+      "p",
+      "q",
+      "s",
+      1,
+      "t_d down to t_1"
+    ],
+    "negative_control": "equal moment and no residual weight at the actual third host",
+    "returned_state": [
+      "N+K0+d",
+      "K0-1",
+      "N+1"
+    ],
+    "strict_condition": "d=0 and N=K0",
+    "templates": [
+      "standard (4,6)",
+      "standard (6,4)",
+      "relocated (h,h+3)"
+    ]
+  },
+  "controls": [
+    "A_four_center",
+    "B_expanded_standard",
+    "C_expanded_relocated",
+    "D_adverse_host_support",
+    "E_composed"
+  ],
+  "disposition": "PROVED_WITHIN_EXACT_SCOPE_PENDING_DIRECTOR_REVIEW",
+  "execution_authorized": false,
+  "execution_entry": null,
+  "preparation_limits": {
+    "new_evidence_bytes": 128000000,
+    "observed_wall_seconds": 3600,
+    "process_cpu_seconds": 1800
+  },
+  "raw_inputs": {
+    "ORIGINALS.json": {
+      "bytes": 204595,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_ZERO_DIRECT_LEAF_MULTI_HOST_DETOUR_PATH_001/ORIGINALS.json",
+      "sha256": "747cf33134cf0dec886d24d954c8f483f359f9b5e0452a97eeb2d18126c33948"
+    },
+    "PREFIXES.json": {
+      "bytes": 836390,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_ZERO_DIRECT_LEAF_MULTI_HOST_DETOUR_PATH_001/PREFIXES.json",
+      "sha256": "24138cca3d3944052214208133c1437fc666b14a5c9e0421b4f9762ca92ebd30"
+    },
+    "SYMBOLIC_CONTROLS.json": {
+      "bytes": 1792869,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_ZERO_DIRECT_LEAF_MULTI_HOST_DETOUR_PATH_001/SYMBOLIC_CONTROLS.json",
+      "sha256": "3aa24bb4f3e8c6da318b5285e62fc3dfb1a078be09d1b30d723a9018903b24c7"
+    }
+  },
+  "task": "LCL-ORDINARY-SPINE-ZERO-DIRECT-LEAF-MULTI-HOST-DETOUR-PATH-001",
+  "vacant_paths": [
+    "runs/d202-zero-direct-leaf-multi-host-detour-path-001",
+    "runs/d202-zero-direct-leaf-multi-host-detour-path-001-approval.json",
+    "evidence/runs/d202-zero-direct-leaf-multi-host-detour-path-001",
+    "runs/d201-expanded-exterior-multi-host-residue-packets-001",
+    "runs/d201-expanded-exterior-multi-host-residue-packets-001-approval.json",
+    "evidence/runs/d201-expanded-exterior-multi-host-residue-packets-001",
+    "runs/d200-generalized-safe-gap-shell-composition-001",
+    "runs/d200-generalized-safe-gap-shell-composition-001-approval.json",
+    "evidence/runs/d200-generalized-safe-gap-shell-composition-001",
+    "runs/d199-partial-safe-cut-three-gap-chain-001",
+    "runs/d199-partial-safe-cut-three-gap-chain-001-approval.json",
+    "evidence/runs/d199-partial-safe-cut-three-gap-chain-001",
+    "runs/d198-nested-cut-rank-interleaving-001",
+    "runs/d198-nested-cut-rank-interleaving-001-approval.json",
+    "evidence/runs/d198-nested-cut-rank-interleaving-001",
+    "runs/d197-odd-run-cut-repartition-001",
+    "runs/d197-odd-run-cut-repartition-001-approval.json",
+    "evidence/runs/d197-odd-run-cut-repartition-001",
+    "runs/d191-low-capacity-strict-phase-001",
+    "runs/d191-low-capacity-strict-phase-001-approval.json",
+    "evidence/runs/d191-low-capacity-strict-phase-001"
+  ]
+}

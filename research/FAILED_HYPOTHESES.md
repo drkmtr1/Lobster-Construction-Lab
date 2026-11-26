@@ -863,3 +863,7 @@ The relocated fixed shell at N=8,K=11 misses its moment (3 versus 4). A distinct
 ## D201 — Exact fixed-template residue-capacity obstructions
 
 The step-four control C has N=11,A=13,K0=15 and matches the displacement moment 8. Its length-four packet fits no residue among capacities (3,2,2), giving exact failure within the declared fixed roles. In the relocated geometric boundary K0=h+4 the residuals agree and contain at most one available coordinate per residue, so no nonidentity packet can supply the required positive quota at the principal host. Neither exclusion addresses different shells or ordinary gracefulness. [D201 proof](ORDINARY_SPINE_EXPANDED_EXTERIOR_MULTI_HOST_RESIDUE_PACKETS.md)
+
+## D202 — Equal-moment fixed-shell host-support obstruction
+
+At N=14,K0=16 with h=10,J0=13,d=6, the all-positive adverse control matches the displacement moment at two. The actual third host has positive quota one, but its candidate differences from all residual sources are at most 13 and the palette starts at 15. This proves failure of the fixed shell regardless of detour order or method. The proof does not classify other placements or the original's ordinary gracefulness. [D202 proof](ORDINARY_SPINE_ZERO_DIRECT_LEAF_MULTI_HOST_DETOUR_PATH.md)
