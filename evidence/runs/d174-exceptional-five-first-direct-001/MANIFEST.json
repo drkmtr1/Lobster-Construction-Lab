@@ -1,0 +1,176 @@
+{
+  "closeout_ledgers": {
+    "research/DECISIONS.md": {
+      "bytes": 150469,
+      "sha256": "76baa58da238b8ba3ad7606eaf448f79368432147771f44a5f5192bfd335ae1b"
+    },
+    "research/FAILED_HYPOTHESES.md": {
+      "bytes": 80330,
+      "sha256": "4202d769117779b5af6517229d03b04745dcf8016906c543a279a22f7afe6409"
+    },
+    "research/FINDINGS.md": {
+      "bytes": 199958,
+      "sha256": "9170254154ebd766256313b3a5ca5cbb822a08b855cb0464c69dcdd157a02c18"
+    },
+    "research/PROOF_OBLIGATIONS.md": {
+      "bytes": 114046,
+      "sha256": "be90877f6352e94f628869f184691776cb6e5b975a724bc54bdfd18bb8de0adc"
+    }
+  },
+  "current_state": {
+    "bytes": 94999,
+    "sha256": "f43692b04de6f32e035c73d8b84a38b8b4d1ce6cc24798c317f7cf9789d63ab0"
+  },
+  "execution": {
+    "attempts": 1,
+    "completed_arm_dispositions": 2,
+    "completed_pairs": 1,
+    "concurrent_scientific_workers": 1,
+    "counts": {
+      "dispositions": 2,
+      "exterior_nodes": 2436114,
+      "numerical_dispositions": 2,
+      "targets": 1,
+      "transfer_states": 892850,
+      "transitions": 19464989
+    },
+    "entered_arm_dispositions": 2,
+    "entered_originals": 1,
+    "exit": 0,
+    "finite_existential": "SUPPORTED_PENDING_DIRECTOR_REVIEW",
+    "frozen_population": 3519,
+    "interrupted_arms": 0,
+    "matched_claims": {
+      "H0": "NO",
+      "H1": "YES"
+    },
+    "numerical_dispositions": 2,
+    "result": "SEPARATOR_VERIFIED",
+    "separator": {
+      "F": 12,
+      "K": 15,
+      "R": 8,
+      "all_even": true,
+      "digest": "6e054fa01f6f7d59ebfe6be9874dae92c8a22fe0d7d62d8e32290fef19cb6f9c",
+      "id": "target-0991",
+      "parameters": [
+        2,
+        2,
+        2,
+        2,
+        4,
+        2,
+        6
+      ],
+      "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+      "quota_four_count": 1,
+      "record_sha256": "872cad6156960080103d5f4278d9b4803d77bf7b6276b34a1f22ad150790b952",
+      "shard": "targets-015.json",
+      "suffix": [
+        [
+          2,
+          2,
+          2,
+          2,
+          4
+        ],
+        [
+          2,
+          6,
+          0
+        ]
+      ]
+    },
+    "skipped_arms": 0,
+    "stopping_rule": "FIRST_INDEPENDENTLY_VERIFIED_SEPARATOR",
+    "unentered_originals": 3518
+  },
+  "files": {
+    "evidence/runs/d174-exceptional-five-first-direct-001/ADMISSION.json": {
+      "bytes": 3501,
+      "sha256": "8652cd0faa01f31ccc2f04fd00745a8e79e432c3bd95ed596988d5f572616b83"
+    },
+    "evidence/runs/d174-exceptional-five-first-direct-001/README.md": {
+      "bytes": 7980,
+      "sha256": "1e68842c71099f47865a176a46b9ebae1d0b345e38d755826bfa9f473fd1f329"
+    },
+    "evidence/runs/d174-exceptional-five-first-direct-001/RECONCILIATION.json": {
+      "bytes": 14810,
+      "sha256": "5632bcff3ceaac66b69a3ab62277f0a93bfc39657a0f3001367b98758bbda1ea"
+    },
+    "evidence/runs/d174-exceptional-five-first-direct-001/REVIEWS.md": {
+      "bytes": 4078,
+      "sha256": "739147ecfef195e611212bad4e62926baa76ef764371003dc020bf486ce7933d"
+    },
+    "evidence/runs/d174-exceptional-five-first-direct-001/raw/CLAIM.json": {
+      "bytes": 252,
+      "sha256": "11e5f0938a455069503f8aa64e884f83a694fadd762c2b5a9db3857c2123cffa"
+    },
+    "evidence/runs/d174-exceptional-five-first-direct-001/raw/SUMMARY.json": {
+      "bytes": 893,
+      "sha256": "885a6920bfc8aaac86b464bc2590f9628998de2a70b91c286d76af55a92c5224"
+    },
+    "evidence/runs/d174-exceptional-five-first-direct-001/raw/SUPERVISION.json": {
+      "bytes": 369,
+      "sha256": "f5145822936d512b4dedfb2e6764c0b14cbe6bc6604c96b8deaa64fd5ae4e6c5"
+    },
+    "evidence/runs/d174-exceptional-five-first-direct-001/raw/WORKER.json": {
+      "bytes": 38,
+      "sha256": "7db132205c754069455f6e4b04959bd17a0cbdebb137e9164de764830e3966bf"
+    },
+    "evidence/runs/d174-exceptional-five-first-direct-001/raw/d174-exceptional-five-first-direct-001-authorization.json": {
+      "bytes": 224,
+      "sha256": "d9244d5ffe0eb7b36e02e0411344b03efafc3090ae97940c83fc15bff25a0cbc"
+    },
+    "evidence/runs/d174-exceptional-five-first-direct-001/raw/target-0991-H0.json": {
+      "bytes": 699,
+      "sha256": "c0006178634baedfd956fa89c1b7a61fe82b1df118b658d703beaf8b9a48356c"
+    },
+    "evidence/runs/d174-exceptional-five-first-direct-001/raw/target-0991-H1.json": {
+      "bytes": 17449,
+      "sha256": "d1102d33f57464366b741d3ace983bf31f98b5faf35cd25294ab4345c8a5ba48"
+    },
+    "evidence/runs/d174-exceptional-five-first-direct-001/raw/target-0991-PAIR.json": {
+      "bytes": 3932,
+      "sha256": "4e613bb783bd7f3c03abe8666e05f64dab31fd2e2e998f5f08f9b9e1fe7cd0ca"
+    },
+    "handoffs/CODEX-20261125-d174-five-first-direct-placement-closeout.md": {
+      "bytes": 5607,
+      "sha256": "5d95d9872008dadd852948e9a472d00aedcda7ce0a65445bcd1c0f09dbe363dc"
+    }
+  },
+  "future_action": "Submit the frozen D174 official execution evidence and separate reviews for Director review.",
+  "hash_convention": "Canonical LF for Markdown; raw bytes for other files",
+  "parent": "f8343e344f359fc3dab24f382b128b46aeb11d3a",
+  "phase": "OFFICIAL_EXECUTION_CLOSEOUT",
+  "preparation": {
+    "configuration": {
+      "bytes": 2340,
+      "path": "research/exceptional_five_first_direct_001/config.json",
+      "sha256": "c2e5e69debd1e2041790b6aab2b0e9e611fb0a6be0445993994595fa79f25b28"
+    },
+    "director": "ACCEPTED_WITHIN_EXACT_FROZEN_SCOPE",
+    "manifest": {
+      "bytes": 33561,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FIVE_FIRST_DIRECT_PLACEMENT_MATCHED_001_PREP/MANIFEST.json",
+      "sha256": "4ca570b7be5e4e9daacc25158d49f7e3701d2718786310a5cce13552662cbb3a"
+    },
+    "original_index": {
+      "bytes": 2584649,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FIVE_FIRST_DIRECT_PLACEMENT_MATCHED_001_PREP/input/corpus_index.json",
+      "sha256": "2a44f351df15912b1963948a1618f578bc12522a0a2d05c0db9b64f85f2b3947"
+    },
+    "prepared_state": {
+      "bytes": 94215,
+      "sha256": "2134912e4c17ec04e925761e0362a146df6371f9771f48ce85f476d9f236f8de"
+    }
+  },
+  "reviews": {
+    "director_execution": "PENDING",
+    "implementation_and_custody": "PASS_SCOPED",
+    "mathematical": "PASS_SCOPED"
+  },
+  "schema_version": 1,
+  "status": "SEPARATOR_VERIFIED_PENDING_DIRECTOR_REVIEW",
+  "task": "LCL-ORDINARY-SPINE-EXCEPTIONAL-FIVE-FIRST-DIRECT-PLACEMENT-MATCHED-001-PREP"
+}

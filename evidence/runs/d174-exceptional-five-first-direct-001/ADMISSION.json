@@ -1,0 +1,99 @@
+{
+  "checkpoint": "f8343e344f359fc3dab24f382b128b46aeb11d3a",
+  "bindings_verified": 140,
+  "shards": 55,
+  "originals": 3519,
+  "first_target": {
+    "F": 12,
+    "K": 15,
+    "R": 8,
+    "all_even": true,
+    "digest": "6e054fa01f6f7d59ebfe6be9874dae92c8a22fe0d7d62d8e32290fef19cb6f9c",
+    "id": "target-0991",
+    "parameters": [
+      2,
+      2,
+      2,
+      2,
+      4,
+      2,
+      6
+    ],
+    "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+    "quota_four_count": 1,
+    "shard": "targets-015.json",
+    "suffix": [
+      [
+        2,
+        2,
+        2,
+        2,
+        4
+      ],
+      [
+        2,
+        6,
+        0
+      ]
+    ],
+    "record_sha256": "872cad6156960080103d5f4278d9b4803d77bf7b6276b34a1f22ad150790b952"
+  },
+  "all_even": 186,
+  "runtime": {
+    "version": "3.13.17",
+    "venv": ".venv/Scripts/python.exe",
+    "cfg": ".venv/pyvenv.cfg",
+    "dll": "python313.dll",
+    "sha256": {
+      "venv": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+      "cfg": "78989c73c08f515aadaf1ec5f8f24929021b48b284f4efc907a04938634af28b",
+      "base": "7c2fc2b303a4ee3cc14cc17b47bc6e8bca98c78792edd123b846a560da44b203",
+      "dll": "26026530507a7389e7892ce130e7c1753b32a2df03ec3721d45ad8c1705d40eb"
+    }
+  },
+  "initial_paths_vacant": [
+    "runs/d174-exceptional-five-first-direct-001-authorization.json",
+    "runs/d174-exceptional-five-first-direct-001",
+    "evidence/runs/d174-exceptional-five-first-direct-001"
+  ],
+  "process_cpu_seconds": 5.03125,
+  "internal_wall_seconds": 16.088350600000012,
+  "git": {
+    "head": "f8343e344f359fc3dab24f382b128b46aeb11d3a",
+    "origin_main": "f8343e344f359fc3dab24f382b128b46aeb11d3a",
+    "live_github_main": "f8343e344f359fc3dab24f382b128b46aeb11d3a",
+    "parent": "4539fb4346f5554f24d110386b1811f1793d4a08",
+    "branch": "main",
+    "divergence": [
+      0,
+      0
+    ],
+    "clean_at_admission": true,
+    "prepared_paths_changed": 78,
+    "baseline_tag_object": "fddfc1dd9541324b2ed2de2505bc750b3e3f0b9d",
+    "baseline_peeled_commit": "36ea1603602491bf3c1c5b81ed4c23aaa2210e70",
+    "mdl_main": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+    "bounded_search_main": "e48b94eec4091b4fe189e325cab2eda464409943",
+    "bounded_search_local_recovery_head": "c803ecb6bd0481d31af43f7e3c194ae8ed4d1578",
+    "original_builder_blob": "8d1e9948e8bf5ef01e67c9afe0155412c57d79fa",
+    "original_checker_blob": "d008f35f0843e1a5c770db3e7f42ed7d987360d7"
+  },
+  "frozen_sha256": {
+    "manifest": "4ca570b7be5e4e9daacc25158d49f7e3701d2718786310a5cce13552662cbb3a",
+    "configuration": "c2e5e69debd1e2041790b6aab2b0e9e611fb0a6be0445993994595fa79f25b28",
+    "original_index": "2a44f351df15912b1963948a1618f578bc12522a0a2d05c0db9b64f85f2b3947",
+    "prepared_state": "2134912e4c17ec04e925761e0362a146df6371f9771f48ce85f476d9f236f8de"
+  },
+  "parse_only": {
+    "sources": 15,
+    "lexical_definitions": 150
+  },
+  "exclusive_process_custody": "Read-only Windows process census found no pre-existing D174 process before launch. The run directory was vacant before the authorized supervisor claimed it. One scientific worker started once.",
+  "directory": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FIVE_FIRST_DIRECT_PLACEMENT_MATCHED_001_PREP",
+  "scope": "Codex local admission. The Director reviewed the published preparation separately. No fixture, allocator or checker was invoked by this admission.",
+  "runtime_flags": [
+    "-I",
+    "-S",
+    "-B"
+  ]
+}

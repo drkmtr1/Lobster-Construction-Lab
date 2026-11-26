@@ -1010,3 +1010,7 @@ The selected separator now has an independent unbounded family with exact return
 ## D174 — Prospective matched finite outcome
 
 Preparation establishes the exact named domain, raw supply, parity gate and complete independent decision methods in their stated scopes. The prospective separator still requires independently established H0 NO and independently verified H1 YES on the identical original and prefix, or separately audited disqualification of every case for a finite absence conclusion. No numerical result is recorded in this preparation. Director review of the frozen bundle precedes a separate Owner execution decision. [Contract](exceptional_five_first_direct_001/CONTRACT.md)
+
+## D174 official execution — Verified finite witness
+
+The official separator satisfies the finite existential evidence condition on one frozen named original, pending Director review. The independently audited H0 exclusion and verified H1 labeling retain exact matched bindings, physical incidences, phase and both exact intermediate first-section resource inventories. Classification of other originals and independent symbolic supply beyond this finite witness remain open, including other center multiplicities, widths and the separate shell initializer. D164 remains incomplete and target-0429 T unresolved. The sole next action is Director review of this execution evidence. [Execution evidence](../evidence/runs/d174-exceptional-five-first-direct-001/README.md)

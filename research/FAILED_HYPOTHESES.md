@@ -751,3 +751,7 @@ For the stated width-(6,5) geometry and lower inventory, three active residues w
 ## D174 — Candidate parity rejection has no arm-level implication
 
 The new five-first-center moment forces the weighted sum of full quotas at first labels and second upper indices to equal A+B modulo two. On the 186 all-even originals this excludes the one-exchange H0 width total eleven. The corresponding H1 total twelve passes the parity gate. The two raw suppliers exist independently of this gate, and all alternative selections and widths remain subject to exact qualification and gap feasibility. The restriction does not exclude a complete arm or decide the finite separation hypothesis. [Qualification](exceptional_five_first_direct_001/CONTRACT.md#3-general-candidate-parity-moment)
+
+## D174 official execution — Scoped direct-leaf-in-gap coverage counterexample
+
+The terminal-enabled direct-leaf-in-gap class fails to cover all originals admitting a terminal-enabled direct-leaf-exterior return in the frozen population. On D174 target-0991, both traversals found zero qualified H0 exteriors across the admitted domain, even though a raw H0 exterior exists. Independently reconstructed H1 YES on the identical original and prefix witnesses the failure of coverage. The H0 negative uses the exhaustive audit of qualified exteriors across the allowed selections, beyond the parity gate's candidate-level scope. The remaining 3,518 originals were unentered. [Execution evidence](../evidence/runs/d174-exceptional-five-first-direct-001/README.md)
