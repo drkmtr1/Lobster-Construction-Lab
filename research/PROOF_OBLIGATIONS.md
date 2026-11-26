@@ -1002,3 +1002,7 @@ The 396 named graph bindings, exact two-arm partition, safe necessary prunes and
 ## D172 official execution — Reviewed finite result
 
 The official run supplies one separating original certificate and independently reconciled complete-menu exclusion, pending Director review of the completed evidence. Early stopping leaves 394 originals unentered and gives no further A or matched dispositions. The universal and historical D164 obligations remain separate, with target-0429 T unresolved. The sole next action is Director review. [Official evidence](../evidence/runs/d172-exceptional-alternate-exterior-001/README.md)
+
+## D173 — Independent ray and broader exterior obligation
+
+The selected separator now has an independent unbounded family with exact returned phase, original incidences and both resource sets. The pure-P exclusion gives a structural bound for every type of the same geometry. Other exterior widths, center multiplicities, complete quota coverage and independent shell initialization retain separate obligations. The next proposed matched question concerns the role of the actual direct leaf at a new first-center multiplicity, subject to separate preparation and execution authority. [Symbolic proof](ORDINARY_SPINE_EXCEPTIONAL_ALTERNATE_EXTERIOR_RESIDUE_GROWTH.md)

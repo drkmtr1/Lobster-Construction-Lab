@@ -1,0 +1,173 @@
+{
+  "accepted_d172_preparation": "b5122825d158401907ac6840ee93113319f03317",
+  "all_d172_raw_record_bindings_verified": 11,
+  "clean_intake": true,
+  "counters": {
+    "D130_detail_access": 0,
+    "allocator_evaluations": 0,
+    "checker_replays": 0,
+    "exterior_searches": 0,
+    "historical_campaign_replays": 0,
+    "labeling_search_nodes": 0,
+    "new_originals": 0,
+    "numerical_catalogs": 0,
+    "pilot_invocations": 0,
+    "solver_calls": 0,
+    "successor_executions": 0,
+    "successor_preparations": 0,
+    "transfer_state_searches": 0
+  },
+  "d172_authoritative_ledger_bindings_verified": 4,
+  "d172_closeout_files_verified": 16,
+  "d172_preparation_files_verified": 18,
+  "director_scope": "Direct published artifact and ref checks and saved positive arithmetic. No Director local Windows inspection, checker replay, repeat of the saved negative exhaustion or process reproduction.",
+  "frozen_inputs": {
+    "AGENTS.md": {
+      "bytes": 8301,
+      "sha256": "ddb4b70c24cb5e1725d0c2e4ea8c2d522b4556b62b8bd69fdffd4205ece485db"
+    },
+    "docs/LOBSTER_RESEARCH_ALIGNMENT.md": {
+      "bytes": 23604,
+      "sha256": "3b27058e13e878152c7825fbda71e79dfeb772374b5366efbb83e4513f2a0fbe"
+    },
+    "docs/REPOSITORY_CONTINUITY.md": {
+      "bytes": 5354,
+      "sha256": "3f593c77538e567808b03525719acaf46281bf9d47b5335b40df5fceb556bcf0"
+    },
+    "evidence/runs/d172-exceptional-alternate-exterior-001/MANIFEST.json": {
+      "bytes": 5561,
+      "sha256": "f93991c329edbd5a6f6759da0042a9f402c772b9b6c0fe8093ec431f906c2990"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ALTERNATE_EXTERIOR_MATCHED_001_PREP/MANIFEST.json": {
+      "bytes": 22301,
+      "sha256": "2b909a94ae18c338740395f248a60011f1655f385d7f1207bde7a8ce139cb3f6"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/corpus_index.json": {
+      "bytes": 1011930,
+      "sha256": "909a836c19c6bb1b4bb38e14d1d9e84185a492aae2b1d316fc7511a01f282147"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/prefix.json": {
+      "bytes": 8781,
+      "sha256": "f48b56479dac85e1ddbbd36e5f6a6a3eaf94b9b32497e677fe5a96932abbac95"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/targets-024.json": {
+      "bytes": 278154,
+      "sha256": "b8f9f086cfe9a46ebcc5f1e21860e812e4a12239988c5cf36860afefc8fa507f"
+    },
+    "lcl/model.py": {
+      "bytes": 10720,
+      "sha256": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6"
+    },
+    "lcl/verify.py": {
+      "bytes": 14075,
+      "sha256": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909"
+    },
+    "research/ORDINARY_SPINE_ALTERNATING_EXCEPTIONAL_SPECTRUM.md": {
+      "bytes": 19060,
+      "sha256": "73230a18d826361e0eb4eadfbf02e41cbb1aa3c5332c890bf75f48ed18a0e0fd"
+    },
+    "research/ORDINARY_SPINE_EXCEPTIONAL_P_GROWTH.md": {
+      "bytes": 26187,
+      "sha256": "6ef68e10d44150822f8d1ad0bbbdba01913f5156b29d8a48b40ce9075dc4dd90"
+    },
+    "research/ORDINARY_SPINE_EXCEPTIONAL_TWO_UPPER_HOST_RESIDUE_COMPRESSION.md": {
+      "bytes": 30575,
+      "sha256": "b18eb180e189907c17912206b28a0e394219b6e1458890e7958629e130f5acb9"
+    },
+    "research/ORDINARY_SPINE_PIECEWISE_CUT_SPECTRUM_TRANSITION.md": {
+      "bytes": 16708,
+      "sha256": "2b9b52c24293110f8e0b59b4ac73af11e4c14e77cb5ff7355ced236b6d271839"
+    },
+    "research/exceptional_alternate_exterior_001/CONTRACT.md": {
+      "bytes": 23729,
+      "sha256": "a64943b2fc8f3574c4c98f7f12ea2dd2da37513f7d5fe46e8111283a3109c637"
+    }
+  },
+  "internal_wall_seconds": 6.016236400000707,
+  "local_scope": "Canonical Git, working bytes, direct refs, named controls and saved endpoint and inventory arithmetic. No scientific or checker replay.",
+  "local_tracking_and_live_main": "2bfcb5008f873cec5c5d2437093b4d3dee7775be",
+  "process_cpu_seconds": 0.5625,
+  "refs": {
+    "MDL_main": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+    "baseline": "fddfc1dd9541324b2ed2de2505bc750b3e3f0b9d",
+    "bounded_search_main": "e48b94eec4091b4fe189e325cab2eda464409943",
+    "local_bounded_search_recovery_head": "c803ecb6bd0481d31af43f7e3c194ae8ed4d1578",
+    "peel": "36ea1603602491bf3c1c5b81ed4c23aaa2210e70"
+  },
+  "saved_controls": [
+    {
+      "adverse_scope": "Saved independent exhaustion only across 72 qualified representatives and six strata.",
+      "graph_digest": "1306312ac9aec8c0daea96865c439e44e0cdb9af0682b7b1cd0878b2ca6814ee",
+      "record_sha256": "ecc4a03aa64e4aef6d5e0bce4f6a67c010c465dbaa8774c139e8dce91674c6b8",
+      "records": {
+        "A": {
+          "bytes": 972,
+          "sha256": "0e6bffa8b44b4f64f953f04198705492f839dc722afa29b1a73d526a52574f10"
+        },
+        "M": {
+          "bytes": 567,
+          "sha256": "3076f528577bec2d2e78abea073efcceba285800885dac345fa9b5d959131309"
+        },
+        "PAIR": {
+          "bytes": 245,
+          "sha256": "773daeebed4597a90db659accdb955f35d5d84afc4847fd803e764d1ae988758"
+        }
+      },
+      "shard": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/targets-024.json",
+      "suffix": [
+        [
+          2,
+          2,
+          2,
+          4
+        ],
+        [
+          1,
+          6,
+          0
+        ]
+      ],
+      "target": "target-0777"
+    },
+    {
+      "graph_digest": "350db6719a3cdd804033f31d9d75e173881bf1d2e7698544d1520ea6dc62b6f2",
+      "record_sha256": "0252ed7b89186fce1f4d96d7264caf0050a893ea53cbf15a286dafa0f5aa2410",
+      "records": {
+        "A": {
+          "bytes": 16450,
+          "sha256": "e1f985993d7550e507b2158ebefb166e2e492de6deabdb91ab2e48ebb080a098"
+        },
+        "M": {
+          "bytes": 567,
+          "sha256": "a032967c9e910f62e65580b9dcf49a6c2f31d3413f66aa8a47b21d961bac55e7"
+        },
+        "PAIR": {
+          "bytes": 2706,
+          "sha256": "9a7f0b310b5156eaca3fe43379010cb2681d167df7c23298bd54742dfbee39be"
+        }
+      },
+      "saved_profile_audit": "Exact saved slots, 15 named gap endpoints, full spectra, both intermediate inventories and literal connector.",
+      "shard": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/targets-024.json",
+      "suffix": [
+        [
+          2,
+          2,
+          2,
+          4
+        ],
+        [
+          2,
+          5,
+          0
+        ]
+      ],
+      "target": "target-0780"
+    }
+  ],
+  "starting_checkpoint": "2bfcb5008f873cec5c5d2437093b4d3dee7775be",
+  "starting_state": {
+    "bytes": 92458,
+    "sha256": "df97d1c7072f4d14f44320c81ac3c8621991bf9ae262850bcbff86ffc6e9d947"
+  },
+  "task": "LCL-ORDINARY-SPINE-EXCEPTIONAL-ALTERNATE-EXTERIOR-RESIDUE-GROWTH-001"
+}

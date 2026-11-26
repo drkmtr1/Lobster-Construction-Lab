@@ -1,0 +1,185 @@
+{
+  "accepted_D172_execution": "2bfcb5008f873cec5c5d2437093b4d3dee7775be",
+  "accepted_D172_preparation": "b5122825d158401907ac6840ee93113319f03317",
+  "authoritative_ledger_bindings": [
+    {
+      "bytes": 198218,
+      "path": "research/FINDINGS.md",
+      "sha256": "de30b9bb0d2fd6b3e4d7bb82d3746d0500d415c1228b5fe5d3ef92ffb49605ca"
+    },
+    {
+      "bytes": 78871,
+      "path": "research/FAILED_HYPOTHESES.md",
+      "sha256": "2a5192af983ceffda3902c9936e3bf4703210906995b5aed3f9f9bfffc8ecd95"
+    },
+    {
+      "bytes": 112663,
+      "path": "research/PROOF_OBLIGATIONS.md",
+      "sha256": "f6db824bf4927195614f14d2947ed123ba1c8000898cfc0fb418e8811ccac0e1"
+    },
+    {
+      "bytes": 148367,
+      "path": "research/DECISIONS.md",
+      "sha256": "3acce53b8935062741187adf1f8247e37a8b7b3b83bd6cd52c6ab748eba8f5f3"
+    }
+  ],
+  "files": [
+    {
+      "bytes": 24581,
+      "path": "research/ORDINARY_SPINE_EXCEPTIONAL_ALTERNATE_EXTERIOR_RESIDUE_GROWTH.md",
+      "sha256": "6324ce5accb9a06b7774edd56641179c9da8eaff4121656014a0193a4ff11d53"
+    },
+    {
+      "bytes": 2768,
+      "path": "handoffs/CODEX-20261125-exceptional-alternate-exterior-residue-growth.md",
+      "sha256": "d3d62168a0b47240b4d79c859a456fd70cf5676465f217dc4561c151819b3ebe"
+    },
+    {
+      "bytes": 786,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ALTERNATE_EXTERIOR_RESIDUE_GROWTH_001/README.md",
+      "sha256": "ae3a5791453f8e4551d41aee5b290e2e8964df286a91836ab97dba7e4878f2ab"
+    },
+    {
+      "bytes": 6755,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ALTERNATE_EXTERIOR_RESIDUE_GROWTH_001/CUSTODY.json",
+      "sha256": "affde73fea85e19474a5e3d3c98d0a9db6a84156e23db3200a03dc3555a0f544"
+    },
+    {
+      "bytes": 2034,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ALTERNATE_EXTERIOR_RESIDUE_GROWTH_001/REVIEWS.md",
+      "sha256": "20fc172d2e05d487ead79b6deaea45a9b67a47b3d61a297f645c01e912e9ac2e"
+    }
+  ],
+  "hash_convention": "Canonical Git LF for Markdown; raw bytes elsewhere",
+  "limits": {
+    "dedicated_process_cpu_seconds": 60,
+    "new_evidence_bytes": 4000000,
+    "observed_verification_wall_seconds": 120
+  },
+  "numerical_counters": {
+    "D130_detail_access": 0,
+    "allocator_evaluations": 0,
+    "checker_replays": 0,
+    "exterior_searches": 0,
+    "historical_campaign_replays": 0,
+    "labeling_search_nodes": 0,
+    "new_originals": 0,
+    "numerical_catalogs": 0,
+    "pilot_invocations": 0,
+    "solver_calls": 0,
+    "successor_executions": 0,
+    "successor_preparations": 0,
+    "transfer_state_searches": 0
+  },
+  "parent": "2bfcb5008f873cec5c5d2437093b4d3dee7775be",
+  "proof_sha256": "6324ce5accb9a06b7774edd56641179c9da8eaff4121656014a0193a4ff11d53",
+  "result": {
+    "alternate_E_plus": "explicit YES on ray",
+    "complete_M": "symbolic NO on ray",
+    "entire_fixed_geometry_generator_superset": [
+      [
+        0,
+        6
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        2
+      ]
+    ],
+    "fixed_reservation_domain": "p=2+2t, q=5+4t, integer t>=0, named D157 S_-1 and n>=26+6t",
+    "necessary_bound": "p <= 2q+539 on the stated width-(6,5) separation-three geometry",
+    "pure_P_generator": [
+      6,
+      0
+    ],
+    "pure_P_status": "EXCLUDED",
+    "realized_generator": [
+      2,
+      4
+    ]
+  },
+  "retained_bindings": {
+    "AGENTS.md": {
+      "bytes": 8301,
+      "sha256": "ddb4b70c24cb5e1725d0c2e4ea8c2d522b4556b62b8bd69fdffd4205ece485db"
+    },
+    "docs/LOBSTER_RESEARCH_ALIGNMENT.md": {
+      "bytes": 23604,
+      "sha256": "3b27058e13e878152c7825fbda71e79dfeb772374b5366efbb83e4513f2a0fbe"
+    },
+    "docs/REPOSITORY_CONTINUITY.md": {
+      "bytes": 5354,
+      "sha256": "3f593c77538e567808b03525719acaf46281bf9d47b5335b40df5fceb556bcf0"
+    },
+    "evidence/runs/d172-exceptional-alternate-exterior-001/MANIFEST.json": {
+      "bytes": 5561,
+      "sha256": "f93991c329edbd5a6f6759da0042a9f402c772b9b6c0fe8093ec431f906c2990"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ALTERNATE_EXTERIOR_MATCHED_001_PREP/MANIFEST.json": {
+      "bytes": 22301,
+      "sha256": "2b909a94ae18c338740395f248a60011f1655f385d7f1207bde7a8ce139cb3f6"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/corpus_index.json": {
+      "bytes": 1011930,
+      "sha256": "909a836c19c6bb1b4bb38e14d1d9e84185a492aae2b1d316fc7511a01f282147"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/prefix.json": {
+      "bytes": 8781,
+      "sha256": "f48b56479dac85e1ddbbd36e5f6a6a3eaf94b9b32497e677fe5a96932abbac95"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/targets-024.json": {
+      "bytes": 278154,
+      "sha256": "b8f9f086cfe9a46ebcc5f1e21860e812e4a12239988c5cf36860afefc8fa507f"
+    },
+    "lcl/model.py": {
+      "bytes": 10720,
+      "sha256": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6"
+    },
+    "lcl/verify.py": {
+      "bytes": 14075,
+      "sha256": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909"
+    },
+    "research/ORDINARY_SPINE_ALTERNATING_EXCEPTIONAL_SPECTRUM.md": {
+      "bytes": 19060,
+      "sha256": "73230a18d826361e0eb4eadfbf02e41cbb1aa3c5332c890bf75f48ed18a0e0fd"
+    },
+    "research/ORDINARY_SPINE_EXCEPTIONAL_P_GROWTH.md": {
+      "bytes": 26187,
+      "sha256": "6ef68e10d44150822f8d1ad0bbbdba01913f5156b29d8a48b40ce9075dc4dd90"
+    },
+    "research/ORDINARY_SPINE_EXCEPTIONAL_TWO_UPPER_HOST_RESIDUE_COMPRESSION.md": {
+      "bytes": 30575,
+      "sha256": "b18eb180e189907c17912206b28a0e394219b6e1458890e7958629e130f5acb9"
+    },
+    "research/ORDINARY_SPINE_PIECEWISE_CUT_SPECTRUM_TRANSITION.md": {
+      "bytes": 16708,
+      "sha256": "2b9b52c24293110f8e0b59b4ac73af11e4c14e77cb5ff7355ced236b6d271839"
+    },
+    "research/exceptional_alternate_exterior_001/CONTRACT.md": {
+      "bytes": 23729,
+      "sha256": "a64943b2fc8f3574c4c98f7f12ea2dd2da37513f7d5fe46e8111283a3109c637"
+    }
+  },
+  "reviews": {
+    "director": "PENDING",
+    "implementation_custody": "PASS_SCOPED",
+    "mathematical": "PASS_SCOPED"
+  },
+  "schema_version": 1,
+  "sole_next_action": "Under separate Owner authorization after Director review, prepare one matched exterior-supply diagnostic on independently frozen five-first-center originals with an even first total, at least one quota-four first center, two positive second quotas with even total at least eight, and one actual second direct leaf. Test whether a verified terminal-enabled exceptional return with the direct leaf exterior can coexist with an independently audited negative for all terminal-enabled exteriors with that leaf in the gap on the same original. This action is UNSTARTED.",
+  "starting_state": {
+    "bytes": 92458,
+    "sha256": "df97d1c7072f4d14f44320c81ac3c8621991bf9ae262850bcbff86ffc6e9d947"
+  },
+  "state_binding": {
+    "bytes": 93828,
+    "path": "STATE.md",
+    "sha256": "deeb6508bd1f35c034d892d55ca0623254bbb36a8b3596acc4b1845f10414411"
+  },
+  "status": "PROVED_PENDING_DIRECTOR_REVIEW",
+  "task": "LCL-ORDINARY-SPINE-EXCEPTIONAL-ALTERNATE-EXTERIOR-RESIDUE-GROWTH-001"
+}

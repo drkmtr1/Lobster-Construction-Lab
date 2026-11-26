@@ -743,3 +743,7 @@ For the specified width-(6,4) exchange menu the gap translation moment forces th
 ## D172 official execution — Scoped role-menu coverage counterexample
 
 The complete M role menu fails to cover every A-admitting original in the selected finite domain. Target-0780 has independently verified A YES and full symbolic M NO on the identical original and prefix. Its wider exterior and direct-leaf placement preserve the exact D157 return. D170's complete coverage on its 108 different retained positives still holds. Target-0777 is A NO within the declared complementary arm and frozen admission. [Official evidence](../evidence/runs/d172-exceptional-alternate-exterior-001/README.md)
+
+## D173 — Pure-P internal growth is structurally excluded
+
+For the stated width-(6,5) geometry and lower inventory, three active residues would force the two lower endpoint sets to have one index of each residue. The two different far-row endpoints agree modulo three, forcing the upper reservation endpoint distributions to match as well. This would make total displacement divisible by three, contrary to 13. Thus no reservation type carries a (6,0) generator, and fixed q cannot support unbounded p through this geometry. The (0,6) and (4,2) realizations and the exact domain beyond the ray remain open. The saved target-0777 full A negative retains its separate independent-exhaustion basis. [Symbolic proof](ORDINARY_SPINE_EXCEPTIONAL_ALTERNATE_EXTERIOR_RESIDUE_GROWTH.md)
