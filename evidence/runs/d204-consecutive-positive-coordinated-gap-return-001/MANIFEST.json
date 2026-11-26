@@ -1,0 +1,183 @@
+{
+  "admission_limits": {
+    "observed_wall_seconds": 3600,
+    "process_cpu_seconds": 1800
+  },
+  "admission_preparation_parent": "b0463d5baa5792b2e9083ff20a1fdb0f6785e0cc",
+  "approved_limits": {
+    "audit": {
+      "allocation_states": 2366611480,
+      "cpu_seconds": 345600,
+      "fixed_edge_checks": 281105880,
+      "geometry_entries": 8518360,
+      "live_records": 6,
+      "pair_trials": 5338255680,
+      "placement_attempts": 2561339680,
+      "wall_seconds": 432000
+    },
+    "new_evidence_bytes": 128000000,
+    "primary": {
+      "allocation_states": 225145280,
+      "cpu_seconds": 172800,
+      "fixed_edge_checks": 351307720,
+      "geometry_entries": 8518360,
+      "live_records": 7,
+      "pair_trials": 210605520,
+      "placement_attempts": 14539760,
+      "wall_seconds": 259200
+    },
+    "workers": 1
+  },
+  "authoritative_ledgers": {
+    "research/DECISIONS.md": {
+      "bytes": 195342,
+      "sha256": "4ed3a42f75dfac0a76653b6a5edad0b06ac16ce4dd84629578f2ae1b37f0b296"
+    },
+    "research/FAILED_HYPOTHESES.md": {
+      "bytes": 101282,
+      "sha256": "a6ce00d4dfe3ed252798a9d51c8d36a641be45be94e07777e05198de78f1bffd"
+    },
+    "research/FINDINGS.md": {
+      "bytes": 236067,
+      "sha256": "a1712ca9e5db6d508ef4e4cf14906140fd0cf817d04bc91460fbbe241ac1b57a"
+    },
+    "research/PROOF_OBLIGATIONS.md": {
+      "bytes": 135052,
+      "sha256": "e0fb3b783bab7f39b5fbc59aa257680630bcd9eda320315eac3ae163f61dc1db"
+    }
+  },
+  "canonical_state": {
+    "bytes": 127612,
+    "sha256": "3ea5d49fa576dbe708080fca8e908fb5fcb2fc9aed358dc1aa05ad5cf1784172"
+  },
+  "files": {
+    "evidence/runs/d204-consecutive-positive-coordinated-gap-return-001/.gitattributes": {
+      "bytes": 61,
+      "sha256": "9fe53a304210668391da23a819b6633820727488b4252dc2285d70b8e2705b62"
+    },
+    "evidence/runs/d204-consecutive-positive-coordinated-gap-return-001/ADMISSION.json": {
+      "bytes": 9229,
+      "sha256": "15d7a07765ea059e9b86413c4b5e8ead75568a6afd7234e7a67209a28ba8c527"
+    },
+    "evidence/runs/d204-consecutive-positive-coordinated-gap-return-001/APPROVAL.json": {
+      "bytes": 6675,
+      "sha256": "c624646ba460a2f52a891fd2830110400943c084f4854c4cfb287186b33526d8"
+    },
+    "evidence/runs/d204-consecutive-positive-coordinated-gap-return-001/HARD_LIMIT_REVIEW.md": {
+      "bytes": 5326,
+      "sha256": "a8d23b8edc253ac87dddd99a55508c29e71bff890cd41ea817d6a5712b8c5777"
+    },
+    "evidence/runs/d204-consecutive-positive-coordinated-gap-return-001/REVIEWS.md": {
+      "bytes": 2699,
+      "sha256": "1df851c3ebbc6ac5ababbfc2a445c0dd768b1d360a3e7846127c58a7ccd4c617"
+    },
+    "evidence/runs/d204-consecutive-positive-coordinated-gap-return-001/TERMINAL.json": {
+      "bytes": 1828,
+      "sha256": "43b9d55eb755654b8439384582e7f45c2b0832521242a7f114ad2b0c18132bc1"
+    },
+    "handoffs/CODEX-20261126-d204-coordinated-gap-return-execution.md": {
+      "bytes": 2175,
+      "sha256": "5225a80955a8f903abc6e3e6d6da841aa73f6f1315e1e496888755f213e747f6"
+    }
+  },
+  "frozen_configuration_sha256": "19a554374dc9022bb67976da7bc2b92e0430e29fd80c733c957a65b86a057c4e",
+  "frozen_scientific_source_binding_count": 27,
+  "hash_convention": "Canonical Git LF except the three scoped raw JSONs.",
+  "numerical_lanes": {
+    "D191": "SYMBOLICALLY_RESOLVED / NO_EXECUTION_NEEDED",
+    "D197": "SYMBOLICALLY_RESOLVED / NO_EXECUTION_NEEDED",
+    "D198": "SYMBOLICALLY_RESOLVED / NO_EXECUTION_NEEDED",
+    "D203": "SYMBOLICALLY_RESOLVED / NO_EXECUTION_NEEDED"
+  },
+  "parent": "6ace7ca113a8f4fd4f68bb1cb7e1bd326979cfb7",
+  "prelaunch_gate": "DENIED_REQUIRED_HARD_TOTAL_CPU_GUARD_UNESTABLISHED",
+  "preparation_bindings": {
+    "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_COORDINATED_GAP_RETURN_001_PREP/MANIFEST.json": "1fed8bbd218557dd274af443bbb821a8079a15046d4ba27aeb2868b3ecea7236",
+    "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_COORDINATED_GAP_RETURN_001_PREP/ORIGINALS.json": "538590be0628cbc452fbbf0c991f4c1f8ce42e48024175069b20942189e28569",
+    "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_COORDINATED_GAP_RETURN_001_PREP/PREFIXES.json": "cd7c1790916a8045934bc975915dfb4b488725927d75cbe449364fe0541310d3",
+    "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_COORDINATED_GAP_RETURN_001_PREP/SYMBOLIC_CONTROLS.json": "660d9e87bd2c7f86a5e37ba8a80d36d75a165035751a1a7905e715f6c5c90fbc",
+    "research/ORDINARY_SPINE_CONSECUTIVE_POSITIVE_COORDINATED_GAP_RETURN_PREPARATION.md": "4c301e1d0e194b3492a8d18adfd2f72b615adcf3858b34c9a83e9c34d2d7bf3b",
+    "research/coordinated_gap_return_001/CONTRACT.md": "5bb39499951b49be605b85215f8e321089b983a8e0c4e95590bb3d5400a1122f",
+    "research/coordinated_gap_return_001/audit.py": "ba0f5bb6991086330dc0f73bdc8423b921024b42c65d52efbb7f6d5abccd9ed8",
+    "research/coordinated_gap_return_001/budget.py": "5c8b5f013e995bae5f905bc5913c5d3d9e62bbcde9de7f1be4f0d485b2e99ed2",
+    "research/coordinated_gap_return_001/primary.py": "053c77dad6458bfad918ccbd9aa8d61635fd479f89413470611c2dc7b612f122",
+    "research/coordinated_gap_return_001/verify_positive.py": "da2375a9a372d71358547cd31903445d49969615b3268d5f137a5140a7e1d4b2"
+  },
+  "preparation_checkpoint": "6ace7ca113a8f4fd4f68bb1cb7e1bd326979cfb7",
+  "registered_existence": "UNRESOLVED",
+  "review_status": {
+    "evidence_custody": "PASS",
+    "mathematical_disposition": "PASS",
+    "native_hard_limit_admission": "BLOCKER_CONFIRMED"
+  },
+  "run_identity": "d204-consecutive-positive-coordinated-gap-return-001",
+  "runtime": {
+    "binaries": {
+      "base_executable": {
+        "bytes": 105696,
+        "sha256": "7c2fc2b303a4ee3cc14cc17b47bc6e8bca98c78792edd123b846a560da44b203"
+      },
+      "launcher": {
+        "bytes": 255200,
+        "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664"
+      },
+      "windows_dll": {
+        "bytes": 6142688,
+        "sha256": "26026530507a7389e7892ce130e7c1753b32a2df03ec3721d45ad8c1705d40eb"
+      }
+    },
+    "flags": [
+      "-I",
+      "-S",
+      "-B"
+    ],
+    "implementation": "cpython",
+    "platform": "win32",
+    "pointer_bits": 64,
+    "python_version": [
+      3,
+      13,
+      17
+    ],
+    "runtime": "project-local isolated no-site CPU-only standard-library Python"
+  },
+  "schema_version": 1,
+  "scientific_counters": {
+    "historical_replays": 0,
+    "numerical_labeling_search_nodes": 0,
+    "official_campaign_executions": 0,
+    "original_checker_invocations": 0,
+    "scientific_consumer_imports": 0,
+    "solver_allocation_states": 0,
+    "task_bytecode_files": 0,
+    "workers_launched": 0
+  },
+  "scope": {
+    "actual_41_digest": "5554c99f3db5b777a5e139369479c470b9e220753da2193aecbaa3c9ac6d3515",
+    "deterministic_48_digest": "1e9d8d99227973991cb6fb850cfbcd44cfac2c3470396886c59a9264bd3de3cb",
+    "exact_old_labeling_file": "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_COORDINATED_GAP_RETURN_001_PREP/PREFIXES.json",
+    "frontier": 0,
+    "induced_old_cut": 14,
+    "input_digest": "fd4289cb555097994341bf023415e231841e01e95c1098c7890643252241f061",
+    "original_old_labels_unchanged": true,
+    "physical_cuts": [
+      18,
+      19
+    ],
+    "profile": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "rank_classes": [
+      "rank_preserving",
+      "rank_changing"
+    ],
+    "threshold": "C+2"
+  },
+  "sole_next_action": "Director review of D204 bounded execution results and evidence.",
+  "status": "BLOCKED_AT_ADMISSION_NO_EXECUTION",
+  "task": "LCL-ORDINARY-SPINE-CONSECUTIVE-POSITIVE-COORDINATED-GAP-RETURN-001",
+  "terminal_receipt": "TERMINAL.json"
+}

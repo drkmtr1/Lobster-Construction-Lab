@@ -875,3 +875,7 @@ For the exact incoming 32-edge D202 Control A labels and the named (1,1,1,1) con
 ## D204 — Closed branches within arbitrary increasing placements of the fixed input
 
 Both improper-cut cases fail for the required 41-edge return relation, by side size and the same-side diameter bound. The full maximum-frontier branch fails with either numerical old rank order. In the minimum-frontier branch only h=14,C=18 or 19 survive the proved predicates. This is a scoped exclusion of the other branches and no verdict for the two remaining cuts. D203's narrower safe-supported negative remains exact. [D204 proof](ORDINARY_SPINE_CONSECUTIVE_POSITIVE_COORDINATED_GAP_RETURN_PREPARATION.md)
+
+## D204 execution admission — No change to scientific exclusions
+
+The required external hard CPU gate could not be established on the frozen host, so neither traversal started. The admission stop produces no witness or exhaustion and adds no mathematical exclusion to D204 or D203. [Terminal receipt](../evidence/runs/d204-consecutive-positive-coordinated-gap-return-001/TERMINAL.json)
