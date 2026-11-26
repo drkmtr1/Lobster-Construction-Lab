@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "scope": "Future evidence specification only. No runner or authorization.",
+  "required_original_binding": [
+    "phase",
+    "match",
+    "stratum",
+    "arm",
+    "suffix",
+    "graph",
+    "digest",
+    "prefix_digest",
+    "fresh_edges",
+    "record_sha256"
+  ],
+  "positive_requires": [
+    "frozen_original_and_prefix",
+    "selected_actual_terminals_and_parents",
+    "reduced_labels_and_geometry",
+    "named_gap_arrows",
+    "signed_lower_shifts",
+    "gap_permutation_cycles",
+    "x_and_y_crossing_counts",
+    "full_labels",
+    "unchanged_checker_pass",
+    "strict_cut_spectra",
+    "used_and_remaining_label_side_partitions",
+    "used_and_remaining_difference_crossing_partitions",
+    "literal_connector"
+  ],
+  "negative_requires_one_of": [
+    "proved_scoped_symbolic_obstruction",
+    "complete_independent_exterior_and_raw_gap_exhaustion"
+  ],
+  "negative_counts": "qualified representatives only",
+  "stop_record": [
+    "reason",
+    "caps",
+    "entered_and_complete_original_ids",
+    "counters_by_primary_and_audit",
+    "combined_counters",
+    "peak_live_records",
+    "elapsed_cpu_and_wall",
+    "evidence_bytes",
+    "verified_positives",
+    "unresolved_matches"
+  ],
+  "statuses": [
+    "SYMBOLIC_POSITIVE",
+    "SYMBOLIC_SCOPED_NEGATIVE",
+    "POSITIVE",
+    "NEGATIVE",
+    "INCOMPLETE",
+    "AUDIT_FAILURE"
+  ],
+  "separator_requires": [
+    "verified_strict_low",
+    "scoped_exceptional_low_negative",
+    "completed_strict_companion"
+  ]
+}

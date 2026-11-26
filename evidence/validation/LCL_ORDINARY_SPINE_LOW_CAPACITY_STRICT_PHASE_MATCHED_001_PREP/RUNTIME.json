@@ -1,0 +1,23 @@
+{
+  "base": {
+    "bytes": 105696,
+    "sha256": "7c2fc2b303a4ee3cc14cc17b47bc6e8bca98c78792edd123b846a560da44b203"
+  },
+  "flags": [
+    "-I",
+    "-S",
+    "-B"
+  ],
+  "implementation": "cpython",
+  "interpreter_library": {
+    "bytes": 6142688,
+    "sha256": "26026530507a7389e7892ce130e7c1753b32a2df03ec3721d45ad8c1705d40eb"
+  },
+  "launcher": {
+    "bytes": 255200,
+    "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664"
+  },
+  "machine": "AMD64",
+  "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]",
+  "workload": "CPU-only standard library, bundled project-local Windows environment"
+}

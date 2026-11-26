@@ -1077,4 +1077,8 @@ The ordered partitions, exact baseline support in this model and sufficient bank
 
 ## D190 — Scope beyond movable exchange and neutral capacity
 
-The exact monotone baseline, indexed growth and single-center domains are proved under the stated role and full-size admission conditions. The fixed-exterior neutral guard applies beyond monotone splits. General H1 feasibility, other phase and placement structures, independent initialization and arbitrary decomposition remain open. The proof records a matched changed-phase hybrid question for the parity-clean guard case, outside this task. The sole next action is Director review of D190. [D190 proof](ORDINARY_SPINE_EXCEPTIONAL_MOVABLE_TERMINAL_EXCHANGE.md)
+The exact monotone baseline, indexed growth and single-center domains are proved under the stated role and full-size admission conditions. The fixed-exterior neutral guard applies beyond monotone splits. General H1 feasibility, other phase and placement structures, independent initialization and arbitrary decomposition remain open. The proof records a matched changed-phase hybrid question for the parity-clean guard case, outside this task. The Director accepted D190 within its exact scope. D191 separately addresses the registered changed-phase matched question. [D190 proof](ORDINARY_SPINE_EXCEPTIONAL_MOVABLE_TERMINAL_EXCHANGE.md)
+
+## D191 — Scope of the symbolic strict-phase result
+
+The exact main existential question has a proved matched separator. Other frozen strict-phase dispositions, other placements and unrestricted gracefulness remain open. Frozen numerical consumer and audit definitions were parse-reviewed only. The only next action is Director review of D191 preparation and its symbolic findings. [D191 proof](ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED.md)

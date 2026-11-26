@@ -1,0 +1,156 @@
+{
+  "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/prefix.json": {
+    "convention": "raw",
+    "identity": {
+      "bytes": 8781,
+      "sha256": "f48b56479dac85e1ddbbd36e5f6a6a3eaf94b9b32497e677fe5a96932abbac95"
+    }
+  },
+  "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_MOVABLE_TERMINAL_EXCHANGE_001/MANIFEST.json": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 6495,
+      "sha256": "65b8357abbc5de06f200ee410808120f755f2c1759263dc2eaff1a816cdbbee2"
+    }
+  },
+  "evidence/validation/LCL_ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED_001_PREP/.gitattributes": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 43,
+      "sha256": "e8f8148999a541b7a256c38e4655ca11d3474af414602e33c883d7414aa6f30e"
+    }
+  },
+  "evidence/validation/LCL_ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED_001_PREP/RUNTIME.json": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 665,
+      "sha256": "03ac7347661a371e00ac2db850a1c5fb04b3bec699816e7e4464a4138aa6036f"
+    }
+  },
+  "evidence/validation/LCL_ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED_001_PREP/originals.jsonl": {
+    "convention": "raw",
+    "identity": {
+      "bytes": 5633720,
+      "sha256": "60cd06497efe6a2a78523c3e48c8db77d00a907222edbe4fb047843bc51e1355"
+    }
+  },
+  "evidence/validation/LCL_ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED_001_PREP/prefix94-original.json": {
+    "convention": "raw",
+    "identity": {
+      "bytes": 7966,
+      "sha256": "500243061c3192ebd826262d3412c4d76d1461b0890b391129aa3c0b8c526a01"
+    }
+  },
+  "evidence/validation/LCL_ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED_001_PREP/prefix94.json": {
+    "convention": "raw",
+    "identity": {
+      "bytes": 1547,
+      "sha256": "6d9f66a731cefc5ed642dd60a1aad1d8de89370bf21684f9dd01257e194d377b"
+    }
+  },
+  "lcl/model.py": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 10720,
+      "sha256": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6"
+    }
+  },
+  "lcl/verify.py": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 14075,
+      "sha256": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909"
+    }
+  },
+  "research/ORDINARY_SPINE_ALTERNATING_EXCEPTIONAL_SPECTRUM.md": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 19060,
+      "sha256": "73230a18d826361e0eb4eadfbf02e41cbb1aa3c5332c890bf75f48ed18a0e0fd"
+    }
+  },
+  "research/ORDINARY_SPINE_EXCEPTIONAL_MOVABLE_TERMINAL_EXCHANGE.md": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 38467,
+      "sha256": "ecdfb53a5da09d4dcd0bddfd020d17f16ef4df0191a452e26bcef4a64753324f"
+    }
+  },
+  "research/ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED.md": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 19212,
+      "sha256": "0dfc6b38331e7f1d7fde41058038d5838133b66d7fec8139a61b84da30b781c3"
+    }
+  },
+  "research/ORDINARY_SPINE_TWO_SECTION_GENERAL_GAP_CRITERION.md": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 23630,
+      "sha256": "0221114b657dde0c1bcf64ae5fece4f0a8eca26f6d6e52eb8d5f1d1656946cd6"
+    }
+  },
+  "research/matched_exterior_001/audit.py": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 11644,
+      "sha256": "fd7b650c419057664e4689c59bc3b4f3ab67845f6b56e730e8cbf649a62fcceb"
+    }
+  },
+  "research/matched_exterior_001/engine.py": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 9210,
+      "sha256": "9781aceb9e14021c31688476a4a083ee0b1d6af7c012230a09fb647d46ab175d"
+    }
+  },
+  "research/strict_phase_low_capacity_001/CONTRACT.md": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 8653,
+      "sha256": "3d8dbd66b283aae7c20a93c3fe4f66403eef5f234c852b08f2c588772fbcd6d8"
+    }
+  },
+  "research/strict_phase_low_capacity_001/EVIDENCE_SCHEMA.json": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 1498,
+      "sha256": "acdef16c782f1a1e7f1baa119c8b9cdc763aeeb3cb486bb8effd2936014696b5"
+    }
+  },
+  "research/strict_phase_low_capacity_001/audit.py": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 11245,
+      "sha256": "f572247c1f6fd1c502afcd1a87b5c96fbaf9f3cb2c021d2578e4be709e170c87"
+    }
+  },
+  "research/strict_phase_low_capacity_001/config.json": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 1878,
+      "sha256": "288df1a52c8383324c41a8377cf635466c82c6fc3dc37683cdbbc6bf7c3560ff"
+    }
+  },
+  "research/strict_phase_low_capacity_001/preflight.py": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 9740,
+      "sha256": "35293b32ff706c6740f342a931f2fe468ad465fb5907c56f38d8877b923b8434"
+    }
+  },
+  "research/strict_phase_low_capacity_001/prepare_originals.py": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 8771,
+      "sha256": "c2c248bb0a2cc5c33d23cb6f752aeb848571d52c97a8c9574caed78eb4bd4f84"
+    }
+  },
+  "research/strict_phase_low_capacity_001/primary.py": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 5425,
+      "sha256": "af53423b942d4cc1bac71612cafe0d4246a7aaff3e7f0fbac29dfa4d1f531471"
+    }
+  }
+}

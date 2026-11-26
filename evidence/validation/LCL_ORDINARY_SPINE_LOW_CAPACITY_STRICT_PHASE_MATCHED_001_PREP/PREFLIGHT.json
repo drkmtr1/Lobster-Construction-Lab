@@ -1,0 +1,118 @@
+{
+  "status": "PASS_PARSE_ONLY",
+  "definitions": {
+    "audit.py": [
+      "incidence",
+      "independent_exteriors",
+      "raw_has_support",
+      "raw_has_support.choose",
+      "negative",
+      "permutation_cycles",
+      "positive"
+    ],
+    "preflight.py": [
+      "canonical",
+      "identity",
+      "parsed",
+      "file_bytes",
+      "definitions",
+      "definitions.scope",
+      "definitions.scope.visit",
+      "verify_bindings",
+      "graph_identity",
+      "prefix_spectrum",
+      "verify_inputs",
+      "verify_corpus",
+      "main"
+    ],
+    "prepare_originals.py": [
+      "canonical",
+      "write_new",
+      "independent_identity",
+      "verify_prefix",
+      "matched_suffixes",
+      "return_labels",
+      "main"
+    ],
+    "primary.py": [
+      "exterior_representatives",
+      "exterior_representatives.place",
+      "exact_support",
+      "exact_support.extend",
+      "named_witness"
+    ]
+  },
+  "prefix_digests": {
+    "S-1": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+    "S0": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0"
+  },
+  "corpus": {
+    "records": 584,
+    "counts": {
+      "S0:III": 96,
+      "S0:II": 96,
+      "S0:I": 96,
+      "S0:boundary": 4,
+      "S-1:III": 96,
+      "S-1:II": 96,
+      "S-1:I": 96,
+      "S-1:boundary": 4
+    },
+    "named_control_bindings": {
+      "S0:II-02-06:low": {
+        "record_sha256": "2df591ac36caf3a15846020ca38a0fb98b5e1279809c6b8423795659f3431786",
+        "graph_digest": "54a64d29c78fe6aadf717545f9a5ca55b54ee0434eb3e245a20f680fe725ec28"
+      },
+      "S0:II-02-06:companion": {
+        "record_sha256": "abb1a53db4a213f262b5f828b0b552ba44ca5f297119eaf480c5edecf92b5f55",
+        "graph_digest": "78fd60729affb31db56bad32d7f8f6b9bf94ebb3b74834be8fce110e4c5aa6a7"
+      },
+      "S0:boundary-05-01:low": {
+        "record_sha256": "ee310140e3a71af3a6f83a6aa89982d61124005a1044e2bfa7e9a8bcbb1188ba",
+        "graph_digest": "9b5df18a612c9dcadc0e7b568ad5722652da679c8a67d8028b81bc72b80c8f28"
+      },
+      "S0:boundary-05-01:companion": {
+        "record_sha256": "1200c722ba9ea5065161078f124b935cee08bcc0a6b9d32dcdc2ae9492cc5b6f",
+        "graph_digest": "d94e10a79a0ed1c45899c3cdc1a2c50014d301692e017d45d35207c68b734724"
+      },
+      "S0:boundary-07-01:low": {
+        "record_sha256": "c52037774416f9f91e9b199d34ec06dbbf886fc900746ab955462fea44e48cc8",
+        "graph_digest": "248a03e5af76745eb40eafbaa8ef5b1e6a10e1e4a22f557b2a8589758e7f174b"
+      },
+      "S0:boundary-07-01:companion": {
+        "record_sha256": "519e9e197b8d653264b73ef27b48cae2b6e2cb09040d7b7e4b7b599ed8bce8e9",
+        "graph_digest": "8b00eda5794b70627ad2cafd49bada7a07282695663feba7d62b8c3a5322ba27"
+      },
+      "S-1:II-02-06:low": {
+        "record_sha256": "1abc2159023df9bad9908e019c32f2738f3bde00726a3eef1575f41c71b9c4b3",
+        "graph_digest": "a97d909ed81e8d9f049247e1b763e3773fbfaaf2e45fb9e80305ce5f36f18a45"
+      },
+      "S-1:II-02-06:companion": {
+        "record_sha256": "d730e25607ec9f905811ec8f1e7f6ac9843ebab8bc0de0005546964f82a7930b",
+        "graph_digest": "7eb968fb6eb706ddf99e1476aff1324f4a95515e688a01d27c3f6d818a49b371"
+      },
+      "S-1:boundary-05-01:low": {
+        "record_sha256": "e9276c589f148fc861841b5ed965024ecae9d9f04a276e288449d01541cd7e84",
+        "graph_digest": "3e3012a7e46acdabe7db5a58d883adf609d867baa5e17b624e8239bb452ba521"
+      },
+      "S-1:boundary-05-01:companion": {
+        "record_sha256": "0193ecdf6d9e145e946b43296a25df7c9058bff8f0ccdb6049d2ae24a34ea04c",
+        "graph_digest": "d59d88ec06f0301470ceb8442ca30f4517174c7c186e478374c97963b0db1930"
+      },
+      "S-1:boundary-07-01:low": {
+        "record_sha256": "aa18c517b8f69baf42e7f221c0e31ca129f985692d61c1d33904844a126f16e5",
+        "graph_digest": "e40a11fdd756f5cbb842439023c3cab1fd65ea80aeec9f554b477d977760e870"
+      },
+      "S-1:boundary-07-01:companion": {
+        "record_sha256": "0f453e5c2445c20f0470ef3088746f55da365adb2d63859610f1f7e2abb4a62f",
+        "graph_digest": "98ae3000b14e60c9018cbd6ff73202aa2215777fe4280114872b64e4422cd9c0"
+      }
+    }
+  },
+  "cpu_seconds": 0.34375,
+  "observed_process_wall_seconds": 0.39881790000072215,
+  "execution_entry": null,
+  "official_outputs_vacant": true,
+  "task_modules_imported": 0,
+  "numerical_evaluations": 0
+}

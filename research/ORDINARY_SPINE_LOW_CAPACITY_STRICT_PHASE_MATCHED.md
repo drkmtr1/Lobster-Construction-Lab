@@ -1,0 +1,96 @@
+# D191 — Low-capacity strict-phase matched preparation and symbolic resolution
+
+Task **LCL-ORDINARY-SPINE-LOW-CAPACITY-STRICT-PHASE-MATCHED-001-PREP**.
+
+**EXISTENTIAL QUESTION RESOLVED SYMBOLICALLY / PENDING DIRECTOR REVIEW.** The stratum II main original $(3,3,0),(2,6,0)$ has the specified strict-phase return, and its matched $(4,2,0),(2,6,0)$ companion is also strict-phase positive. The low original is impossible in the declared all-direct-exterior exceptional same-phase arrangement. The proof supplies an original indexed matched separator without target search. The finite corpus is frozen; the official numerical lane has no launch entry. No wider existential, universal, or enumeration claim follows from this result.
+
+## 1. Independent strict-phase input and original custody
+
+[D157](ORDINARY_SPINE_ALTERNATING_EXCEPTIONAL_SPECTRUM.md), especially its return leg and named reconstruction, applies to the retained independent 74-edge minimum-oriented $S_{-1}$ input with $c=36,d=38$ (actual maximum cut 39). Extend its actual witnessing spine from $s{:}27$ by $s{:}28,s{:}29$, with profiles $(5,2),(2,4,0)$. These are the admitted parameters $(r,t,p)=(2,1,1)$, $2K=20$, $A=3,B=4,s=13,k=7,J=16$. Construct the original named graph with the unchanged builder and independently reconstruct every incidence from its indexed profile before any new labeling. The even first quota-two center takes reduced 1 and the odd quota-five center reduced 2. Second positive centers at reduced 5 and 6 have quotas 2 and 4, and their original direct leaf takes 7. Reduced spine values are $(3,4,0)$.
+
+The return-leg bound leaves exactly the common columns 4 and 5 for its one packet. In unfolded numeric coordinates the actual quota-five first center takes $0,1,2,3,6$, the quota-two first center takes $4,11$, the quota-two second center takes $5,12$, and the quota-four second center takes $7,8,9,10$. These are exactly the D157 reservations and that packet, with no remainder. Assign original terminal indices in increasing order at each host. Shift old minimum-oriented labels by 3 below $c$ and 16 above, use $39+i$ on gap sources, add $74+13$ to upper reduced values and complement the whole alphabet at 94 for the actual maximum orientation. The written 94-edge input record is the result of this formula with no target-dependent choice.
+
+Direct arithmetic on the actual 95 named vertices and 94 edges verifies the label and absolute difference alphabets, actual spine of 30 vertices, simple connected tree and maximum spine distance two, frontier $s{:}29=94$, minimum cut 46 and maximum cut 49, crossing $[48,94]$ and noncrossing $[1,47]$. D157's exact return spectrum is also $[d+K,94]$ and its complement. [Preparation sources](strict_phase_low_capacity_001/CONTRACT.md)
+
+The corpus is built from actual profile extensions of the two distinct input originals. Each of $R=6,8,10,12,14,16$ admits precisely $R-3$ ordered pairs $p,q\ge2$ (choose $2\le p\le R-2$ and put $q=R-p$). The sum $3+5+7+9+11+13=48$ is per stratum. Three strata produce 144 matched pairs and 288 main originals per phase. The two boundary pairs add four originals per phase. The 292 records in each phase, 584 in total, are distinct exact original graph records with their own prefix identity. All fresh edge counts are even and at most 30 and fit both inputs. All 584 originals and the independent 94-edge graph were frozen before constructing any new labels, and the only new computed labels were for the independent input just described. No full target numerical fixture was evaluated.
+
+The normalization in D157 cancels the input absolute size from the fresh exterior and gap tests. Once the physical profile and reduced roles are fixed, the normalized maps are determined by the input phase and the suffix geometry, with $n\ge2K$ and the corresponding old spectrum supplying the unchanged old-label step. The two contexts have different original named graphs and their adjacency and prefix identities are retained separately.
+
+## 2. Broad exceptional-phase guard and exact strict exterior domain
+
+Use the actual D157 connected crossing exterior with $v=A$, both appended spine vertices, all positive centers and all original direct leaves exterior. Only terminal leaves can be in the gap. Let $a$ count first children and $\omega+1$ second children (positive centers and direct leaves). Let $F,R$ count actual terminal totals, and let $e_1,e_2$ be selected exterior terminals from the two sections. The two fresh graph classes relative to lower $v$ have cardinalities $1+a+R$ and $\omega+2+F$. With both phases the same, the old crossing spectrum requires $s=2K-A-B\ge K$. The number of crossing gap edges is $s-K$, and if $x,y$ respectively count lower gap sources at upper hosts and upper gap sources at lower hosts, the exact graph-class identities are
+$$
+1+a+R=2(A+x),\quad \omega+2+F=2(B+y),\quad x+y=s-K .
+$$
+To see the first identity, the fresh lower exterior count is $A$, and the second-terminal gap count is $s-k-y+x$ for $k=K-A$. Use $x+y=s-K$ to simplify. The second identity follows from the upper exterior count $B$ and first-terminal gap count $k-x+y$. In particular $A=a+1+e_2$, $B=\omega+2+e_1$, and $R-e_2=a+1+e_2+2x>0$.
+
+For $S_{-1}$ the actual gap formulas are $\pi=i+A-1-j$ at lower parent $j$, and $\pi=s+b+1-i$ at upper parent $A+b$. The maximum lower parent label is $A-1$, so lower shifts are nonnegative. At an actual second center $b\ge2$ and $i\le s-1$, hence every upper-host image is at least 4. As in D190, image zero forces the first source zero to use shift zero. Inductively every image before $\min(4,s)$ must take its identical unused source at that same first role. A direct-leaf slot or absent neutral center supplies no such terminal. If $s\le4$ the whole gap is forced neutral, contrary to $R-e_2>0$. Otherwise four actual residual neutral terminals are necessary. This proves the guard for *every* declared all-direct-exterior exceptional same-phase placement, with any exterior selection counts. All 144 low-capacity main originals have every first quota at most three. The corresponding 74-edge contexts are therefore scoped negatives. The same guard excludes the two low boundary originals within this placement. It does not address gap direct leaves, other phases or unrestricted gracefulness.
+
+For strict $S_0$ the maps instead are $\pi=i+A-2-j$ and $\pi=s+b-i$, with a lower source iff $i<k$ and a crossing image iff $\pi\ge K$. Lower and upper host edges cross exactly for upper and lower sources, respectively. In the frozen strata and boundary pairs $a=3$, $(\omega,F)=(1,5)$ or $(2,6)$. Then $B=\omega+2+e_1\le(\omega+2+F)/2$ by $y\ge0$, giving $e_1\le1$. Terminal enablement forces $e_1,e_2\ge1$: compare the exact reduced edge sum with the reference that attaches each low slot in $[1,A-1]$ to $u=A+1$ and each upper slot $A+b$, $2\le b\le B$, to $w=0$. The reference retains $vu$ and $uw$. It has precisely differences $[1,A+B]$. Each selected first terminal decreases the sum by its actual positive lower-parent label, and a second terminal increases it by $b-1>0$. Therefore each type must be present if either occurs. (The reduced difference one forces $vu$ since $v=A$ has only that fresh incidence.) Finally $1+3+R=2(4+e_2+x)$ implies $1\le e_2\le R/2-2$. Thus $e_1=1$, $y=0$, $B=\omega+3$ and $x=R/2-2-e_2$ throughout the admitted strict exterior domain. This deduction fixes no selected parent and allows all reduced numerical placements meeting the actual spectrum.
+
+## 3. General named strict realization for the constructions below
+
+In minimum orientation place old labels by adding $A$ below $c$ and $A+s$ at or above $c$. The actual new cut is $C=c+K$, and the old sides are preserved by $A\le K\le A+s$. Old crossing differences gain $s$, and the old noncrossing differences are fixed. Place the gap source $i$ at $A+c+i$. A gap image $\pi$ means the actual difference $d+\pi$ by endpoint subtraction from its actual lower or upper parent. Add $n+s$ to each upper reduced exterior label, leaving lower reduced labels fixed. The shared $v=A$ agrees and is used once. All exterior edges cross because every lower exterior value is below $C$ and every placed upper exterior value is above it. The full label and difference palettes are
+$$
+\begin{aligned}
+L_{\rm old}&=[A,A+c-1]\sqcup[A+c+s,n+s+A],\\
+L_{\rm fresh}&=[0,A-1]\sqcup[A+c,A+c+s-1]\sqcup[n+s+A+1,m],\\
+D_{\rm old}&=[1,d-1]\sqcup[d+s,n+s],\\
+D_{\rm fresh}&=[d,d+s-1]\sqcup[n+s+1,m].
+\end{aligned}
+$$
+The full alphabets are $[0,m]$ and $[1,m]$. For an exact prescribed gap bijection and crossing test, gap noncrossings use $d+[0,K-1]$ and crossings use $d+[K,s-1]$. The actual output crossing and noncrossing bands are then $[d+K,m]$ and $[1,d+K-1]$. Since $w=0$ and $m=2C+2$, the output is $S_0$ on the continued actual spine.
+
+At each residual host assign the source-coordinate list in increasing order to its remaining actual terminal indices in increasing order. Select its initial indexed terminals when a proof gives one or more exterior selections, assigning to the prescribed reduced values. The child index is retained even for equal quotas. The proofs below provide the first-section exterior label sets $E_1,E_2$ and actual reduced first and remaining edge bands $D_1^e,D_2^e$. Let $I$ and $J_1$ be the first-host gap source and image sets, with $I',J_2$ their respective complements in $[0,s-1]$. Both exact intermediate resources are
+$$
+\begin{array}{ll}
+\mathrm{used\ labels}&L_{\rm old}\sqcup E_1\sqcup(A+c+I),\\
+\mathrm{remaining\ labels}&E_2\sqcup(A+c+I'),\\
+\mathrm{used\ differences}&D_{\rm old}\sqcup(n+s+D_1^e)\sqcup(d+J_1),\\
+\mathrm{remaining\ differences}&(n+s+D_2^e)\sqcup(d+J_2).
+\end{array}
+$$
+The two old bands are the actual lower and upper label sets, and exterior values retain reduced sides. Split $I,I'$ at $k$ and $J_1,J_2$ at $K$ before adding their offsets. All exterior differences cross. The used old difference bands are noncrossing and crossing in order. The literal connector $uw$ is in the remaining exterior band, with actual endpoints $(n+s+A+1,0)$ and that endpoint difference. For maximum polarity use the actual input $n-G$ and complement the output at $m$. Actual cuts are $n+1-c$ and $m+1-C$, old lower and upper shifts $B$ and $B+s$, label sides exchange, difference sets and crossing flags are preserved, and the connector endpoints are $(B-1,m)$. This proves both inventories and returns in either actual polarity whenever the exterior and gap arithmetic below is supplied.
+
+## 4. Strict-phase infinite boundary family
+
+For $(3,2,0),(R-1,1)$, even $R\ge8$ and admitted input $n\ge R+12$, take $A=6,B=4,K=R/2+6,s=R+2,k=R/2$. Here $s\ge K$, $A\le K\le A+s$. Reduced spine values are $(6,7,0)$. At $u$, the first quota-three center is 5, quota-two center 3 and first direct leaf 1. The first indexed quota-three terminal is 8. The second quota-$(R-1)$ and quota-one centers at $w$ get 9 and 10, with their first indexed terminals at 4 and 2. These are the exact reduced values $0,\ldots,10$. The first edges $vu$, the three first children and the selected first terminal have differences $1,2,4,6,3$; the remaining edges $uw$, the second child edges and their selected terminal edges have differences $7,9,10,5,8$. They are actual connected crossing incidences exhausting the reduced spectrum.
+
+At the quota-two center, sources 0 and 2 map by shift $+1$ to 1 and 3. At the quota-three center, sources 1 and 3 map by shift $-1$ to 0 and 2. They are low sources and noncrossing edges, since $k\ge4$. All remaining sources $i\in[4,s-1]$ use the actual quota-$(R-1)$ center. Its map $\pi=s+3-i$ reflects that full interval in itself. There are $s-4=R-2$ such leaves and no residual at the quota-one second center. $\pi\ge K$ is equivalent to $i\le s+3-K=k-1$, the exact crossing predicate. Thus $x=k-4,y=0$ and both alphabets biject. In §3 use $I=J_1=[0,3]$,
+$$
+E_1=\{1,3,5,n+s+7,n+s+8\},\quad
+E_2=\{0,2,4,n+s+9,n+s+10\},
+$$
+and $D_1^e=\{1,2,3,4,6\}$, $D_2^e=\{5,7,8,9,10\}$ from the actual incidences. The boundary is fully specified without evaluating a numerical fixture. At $R=8$ the 94-edge maximum input gives 114 edges, cut 59, crossing $[58,114]$, noncrossing $[1,57]$ and connector $(3,114)$. Its normalized cycles are $(0\ 1)(2\ 3)(4\ 9)(5\ 8)(6\ 7)$ by the two adjacent swaps and the reflection.
+
+## 5. Strict-phase main matched separator by formula
+
+In stratum II, use actual profiles $(3,3,0)$ (low) and $(4,2,0)$ (companion), both with $(R-6,6,0)$ for the frozen even $R\in[8,16]$. Select the first indexed terminal at each of the first indexed first and second positive centers. Use $A=5,B=5,K=R/2+7,s=R+4,k=R/2+2\ge6$. The inequalities $s\ge K$, $A\le K\le A+s$, and $n\ge2K$ hold. Reduced spine labels are $(5,6,0)$. At $u$ give the first indexed center label 2, the other label 4 and its original direct leaf label 3. The selected first terminal has label 7. At $w$, the first indexed center Q has label 8, the other P has label 9 and the original direct leaf label 10. Q's selected terminal has label 1. Every exterior edge crosses, and this connected original subtree has all reduced labels $[0,10]$. Actual first edges (spine into $u$, the child edges, and the selected terminal edge) give weights $1,4,2,3,5$; the rest give $6,8,9,10,7$, including the actual connector of reduced weight 6.
+
+The actual lower shifts are $+1,-1$. The actual upper indices $b=3,4$ fold at $J=s+3=2k+3$ with $L_i=i,H_i=J-i$ and row alphabets
+$$
+L_{\rm src}=[0,k-1],\quad H_{\rm src}=[4,k+3],\quad
+L_{\rm im}=[0,k+4],\quad H_{\rm im}=[4,k-2].
+$$
+At Q the folded map exchanges rows at the same index. At P the L-to-H shift is $-1$ and the H-to-L shift $+1$, directly from $\pi=s+b-i$. In both arms pair the lowest four L columns by the adjacent swaps $(0\ 1),(2\ 3)$ at their respective actual lower hosts. This uses two leaves at each. Finish by the following lists.
+
+| Arm | Additional first arrow | Q from L | Q from H | P from L | P from H |
+|---|---|---|---|---|---|
+| Low | $L_{k-1}\to L_{k-2}$ | $[4,k-2]$ | $[4,k-3]$ | empty | $[k-2,k+3]$ |
+| Companion | $L_{k-2}\to L_{k-1}$ | $[4,k-3]$ | $[4,k-2]$ | $\{k-1\}$ | $[k-1,k+3]$ |
+
+Both first quota vectors are exact after the exterior selection. In the low arm the free L sources and H images are both $[4,k-2]$. The H sources partition at $k-2$ into Q's identity range and P's shifted range, supplying precisely the L complement $[4,k+4]\setminus\{k-2\}$. In the companion arm the last L source at P gives $H_{k-2}$ after Q's identity interval, completing the H images. H sends its Q identities followed by P's shifted images, filling $[4,k+4]\setminus\{k-1\}$. Thus the four actual alphabets partition exactly in each case, including the empty ranges when $k=6$. P has six arrows in either arm; Q has $(k-5)+(k-6)=R-7$ gap arrows and its exterior-selected terminal, giving $R-6$. At these actual hosts a crossing image is exactly H in the image fold. All L sources at upper hosts cross, all H sources at upper hosts are noncrossing, and all first arrows in L are noncrossing. Consequently $x=k-5,y=0$ and the physical crossing count equals $s-K$.
+
+In §3 take $E_1=\{2,3,4,n+s+6,n+s+7\}$, $E_2=\{0,1,n+s+8,n+s+9,n+s+10\}$ and $D_1^e=[1,5],D_2^e=[6,10]$. The low arm has $I=[0,3]\sqcup\{k-1\}$ and $J_1=[0,3]\sqcup\{k-2\}$; the companion swaps the two last coordinates. The exact two inventories, physical connector, both polarities and strict return then follow by those resource formulas. For $R=8$ the normalized cycles are $(0\ 1)(2\ 3)(4\ 11\ 5)(6\ 10)(7\ 9)(8)$ in the low arm and $(0\ 1)(2\ 3)(4\ 5\ 11)(6\ 10)(7\ 9)(8)$ in the companion. These follow from $J=15$ and the displayed row arrows. The actual maximum input gives 116 edges at cut 60, crossing $[59,116]$, noncrossing $[1,58]$ and connector $(4,116)$ in both arms. Both use one selected terminal per side, attaining the minimum of two total forced by the terminal moment in the declared domain.
+
+The low strict positive and companion strict positive on the exact frozen match II-02-06, together with §2's exceptional-phase negative for the low original on the 74-edge context, complete the proposed separator by proof. The other covered $R$ values are direct instances of the same formula and lie in the specified corpus. No dispositions of other originals follow. There is no reason to run a campaign to decide the specified existential question.
+
+## 6. Strict R=6 boundary analysis
+
+The matched boundary $(3,2,0),(5,1)$ and $(4,1,0),(5,1)$ has $e_1=e_2=1,A=5,B=4,K=s=9,k=4$ by §2. Let the selected second terminal have low label $\tau$, its parent index be $b_s$, and the selected first terminal have upper index $b'$ and lower parent $j$. Comparing the reference spectrum shows $j=b_s-1$ by the terminal moment. The removed upper child difference $A+b'$ must be supplied by the selected second terminal, since the first terminal's difference is strictly smaller than $A+b'$. Thus $\tau=b_s-b'\in\{1,2\}$. There are just three cases $(b_s,b',\tau)=(3,2,1),(4,2,2),(4,3,1)$. All four L sources must go to first parents because $x=y=0$.
+
+In the first two cases the actual second indices are 3 and 4. The forced low image interval $[0,3]$ must all be at first hosts, and at fold $J=s+3$ the remaining H sources and L images coincide in $[4,8]$. The positive upper shift at 4 cannot be used since it would strictly increase the total index sum. In $(3,2,1)$ its capacity is positive because it is unselected, impossible. In $(4,2,2)$ the selected first center at $j=3$ has shift zero. The other first positive center has nonzero shift (its label is 1 or 4) and positive residual quota, so the first image moment cannot be zero, impossible.
+
+In $(4,3,1)$ the actual second indices are 2 and 4 and the selected first parent at $j=3$ again has shift zero. The other positive first center has shift $+1$ or $-1$ and residual quota $q>0$. The first L images must include $[0,2]$, with one other image $v\ge3$ and $v=3\pm q$ by their moment. A negative shift is impossible. A positive shift gives $v\le4$ because all four sources are at most 3. On the low profile this excludes both possible $q$ values, 2 and 3. On the companion the only remaining possibility is $q=1$ and $v=4$. The fold $J=s+2$ gives H sources $[3,7]$ and L images $[3,8]\setminus\{4\}$ for upper allocation. Their index sum difference is $8-4=4$. Each use of the upper separation-two center contributes two, requiring exactly two residual uses there. The actual residual quota of that selected center is either $0$ or $4$, impossible. Both exact R=6 boundary originals are strict scoped negatives. The boundary companion remains exceptional positive by D190 at the 74-edge input, and the low R=8 boundary is strict positive by §4. The original parity-defective D190 adverse input remains separate, with 17 fresh edges and no integral same-phase size.
+
+All proofs and controls were symbolic. No numerical target-labeling search, allocation-state entry, original checker call, or scientific execution was needed or performed. The original builder and checker retain their separate roles. The only next action is Director review of this preparation and its symbolic findings.

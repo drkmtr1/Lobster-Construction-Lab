@@ -1,0 +1,69 @@
+{
+  "task": "LCL-ORDINARY-SPINE-LOW-CAPACITY-STRICT-PHASE-MATCHED-001-PREP",
+  "mode": "SYMBOLIC_RESOLUTION_NO_LAUNCH",
+  "execution_authorized": false,
+  "execution_entry": null,
+  "strict_phase": "S0",
+  "control_phase": "S-1",
+  "required_exterior": {
+    "original_direct_leaves": "all exterior",
+    "terminal_enabled": true,
+    "first_selected": 1,
+    "second_selected_min": 1,
+    "second_selected_max": "R/2-2"
+  },
+  "main_order": {
+    "strata": [
+      "III",
+      "II",
+      "I"
+    ],
+    "totals": [
+      6,
+      8,
+      10,
+      12,
+      14,
+      16
+    ],
+    "ordered_pair_tie": "lexicographic"
+  },
+  "corpus": {
+    "main_matches_per_phase": 144,
+    "boundary_matches_per_phase": 2,
+    "records_per_phase": 292,
+    "total": 584
+  },
+  "symbolic_separator": {
+    "stratum": "II",
+    "match": "II-02-06",
+    "low_strict": "SYMBOLIC_POSITIVE",
+    "companion_strict": "SYMBOLIC_POSITIVE",
+    "low_exceptional": "SYMBOLIC_SCOPED_NEGATIVE",
+    "selected_terminal_count": 2
+  },
+  "prospective_official_caps": {
+    "workers": 1,
+    "combined_exterior_attempts": 100000000,
+    "combined_entered_allocation_states": 50000000,
+    "combined_tested_transitions": 250000000,
+    "process_cpu_seconds": 14400,
+    "wall_seconds": 18000,
+    "new_evidence_bytes": 512000000,
+    "live_records_per_candidate": 250000,
+    "max_completed_record_bytes": 2000000,
+    "final_reconciliation_reserve_bytes": 2000000
+  },
+  "required_vacant_paths": [
+    "runs/d191-low-capacity-strict-phase-001",
+    "runs/d191-low-capacity-strict-phase-001-approval.json",
+    "evidence/runs/d191-low-capacity-strict-phase-001"
+  ],
+  "preparation_scientific_counters": {
+    "numerical_labeling_search_nodes": 0,
+    "solver_allocation_states": 0,
+    "original_checker_invocations": 0,
+    "official_scientific_campaign_executions": 0,
+    "historical_replays": 0
+  }
+}

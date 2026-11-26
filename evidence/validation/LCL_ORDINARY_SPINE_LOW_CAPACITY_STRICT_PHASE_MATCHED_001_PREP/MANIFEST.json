@@ -1,0 +1,265 @@
+{
+  "D174_history": {
+    "numerical_arms": 2,
+    "pairs": 1,
+    "stopping_rule": "FIRST_INDEPENDENTLY_VERIFIED_SEPARATOR",
+    "unentered": 3518
+  },
+  "accepted_D177_symbolic_projection": {
+    "admitted_K_frequencies": {
+      "15": 15,
+      "16": 30,
+      "17": 30,
+      "18": 15,
+      "19": 3
+    },
+    "count": 93,
+    "historically_unentered": 92
+  },
+  "accepted_D190": {
+    "checkpoint": "0cf6e912690f21724607013e496ec7a4750cad62",
+    "manifest": {
+      "bytes": 6495,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_MOVABLE_TERMINAL_EXCHANGE_001/MANIFEST.json",
+      "sha256": "65b8357abbc5de06f200ee410808120f755f2c1759263dc2eaff1a816cdbbee2"
+    },
+    "proof": {
+      "bytes": 38467,
+      "path": "research/ORDINARY_SPINE_EXCEPTIONAL_MOVABLE_TERMINAL_EXCHANGE.md",
+      "sha256": "ecdfb53a5da09d4dcd0bddfd020d17f16ef4df0191a452e26bcef4a64753324f"
+    },
+    "status": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE"
+  },
+  "authoritative_ledgers": {
+    "research/DECISIONS.md": {
+      "bytes": 173957,
+      "sha256": "7206ba70088309f2d28afc722bf9a1b712a703cf9ded93097b355d54857c7c70"
+    },
+    "research/FAILED_HYPOTHESES.md": {
+      "bytes": 91980,
+      "sha256": "7e5770c2f070a2fcc11537ed46e469c00db6ee53b8b94990e4154c84ad281c2a"
+    },
+    "research/FINDINGS.md": {
+      "bytes": 218764,
+      "sha256": "deb6b01a5f03186d22b7f7a3349d20628759b84d7b53a721129f325812e4aaa4"
+    },
+    "research/PROOF_OBLIGATIONS.md": {
+      "bytes": 125373,
+      "sha256": "5c1910ceb60a222b175d50a733c496598516b596b47ccff4d33cdddee976e6cf"
+    }
+  },
+  "canonical_state": {
+    "bytes": 113033,
+    "sha256": "75ccad63be2d9098d7e06b243ba54e8a6c6399f9ae2dbcb2291975b623a41c2b"
+  },
+  "corpus": {
+    "counts": {
+      "S-1:I": 96,
+      "S-1:II": 96,
+      "S-1:III": 96,
+      "S-1:boundary": 4,
+      "S0:I": 96,
+      "S0:II": 96,
+      "S0:III": 96,
+      "S0:boundary": 4
+    },
+    "named_control_bindings": {
+      "S-1:II-02-06:companion": {
+        "graph_digest": "7eb968fb6eb706ddf99e1476aff1324f4a95515e688a01d27c3f6d818a49b371",
+        "record_sha256": "d730e25607ec9f905811ec8f1e7f6ac9843ebab8bc0de0005546964f82a7930b"
+      },
+      "S-1:II-02-06:low": {
+        "graph_digest": "a97d909ed81e8d9f049247e1b763e3773fbfaaf2e45fb9e80305ce5f36f18a45",
+        "record_sha256": "1abc2159023df9bad9908e019c32f2738f3bde00726a3eef1575f41c71b9c4b3"
+      },
+      "S-1:boundary-05-01:companion": {
+        "graph_digest": "d59d88ec06f0301470ceb8442ca30f4517174c7c186e478374c97963b0db1930",
+        "record_sha256": "0193ecdf6d9e145e946b43296a25df7c9058bff8f0ccdb6049d2ae24a34ea04c"
+      },
+      "S-1:boundary-05-01:low": {
+        "graph_digest": "3e3012a7e46acdabe7db5a58d883adf609d867baa5e17b624e8239bb452ba521",
+        "record_sha256": "e9276c589f148fc861841b5ed965024ecae9d9f04a276e288449d01541cd7e84"
+      },
+      "S-1:boundary-07-01:companion": {
+        "graph_digest": "98ae3000b14e60c9018cbd6ff73202aa2215777fe4280114872b64e4422cd9c0",
+        "record_sha256": "0f453e5c2445c20f0470ef3088746f55da365adb2d63859610f1f7e2abb4a62f"
+      },
+      "S-1:boundary-07-01:low": {
+        "graph_digest": "e40a11fdd756f5cbb842439023c3cab1fd65ea80aeec9f554b477d977760e870",
+        "record_sha256": "aa18c517b8f69baf42e7f221c0e31ca129f985692d61c1d33904844a126f16e5"
+      },
+      "S0:II-02-06:companion": {
+        "graph_digest": "78fd60729affb31db56bad32d7f8f6b9bf94ebb3b74834be8fce110e4c5aa6a7",
+        "record_sha256": "abb1a53db4a213f262b5f828b0b552ba44ca5f297119eaf480c5edecf92b5f55"
+      },
+      "S0:II-02-06:low": {
+        "graph_digest": "54a64d29c78fe6aadf717545f9a5ca55b54ee0434eb3e245a20f680fe725ec28",
+        "record_sha256": "2df591ac36caf3a15846020ca38a0fb98b5e1279809c6b8423795659f3431786"
+      },
+      "S0:boundary-05-01:companion": {
+        "graph_digest": "d94e10a79a0ed1c45899c3cdc1a2c50014d301692e017d45d35207c68b734724",
+        "record_sha256": "1200c722ba9ea5065161078f124b935cee08bcc0a6b9d32dcdc2ae9492cc5b6f"
+      },
+      "S0:boundary-05-01:low": {
+        "graph_digest": "9b5df18a612c9dcadc0e7b568ad5722652da679c8a67d8028b81bc72b80c8f28",
+        "record_sha256": "ee310140e3a71af3a6f83a6aa89982d61124005a1044e2bfa7e9a8bcbb1188ba"
+      },
+      "S0:boundary-07-01:companion": {
+        "graph_digest": "8b00eda5794b70627ad2cafd49bada7a07282695663feba7d62b8c3a5322ba27",
+        "record_sha256": "519e9e197b8d653264b73ef27b48cae2b6e2cb09040d7b7e4b7b599ed8bce8e9"
+      },
+      "S0:boundary-07-01:low": {
+        "graph_digest": "248a03e5af76745eb40eafbaa8ef5b1e6a10e1e4a22f557b2a8589758e7f174b",
+        "record_sha256": "c52037774416f9f91e9b199d34ec06dbbf886fc900746ab955462fea44e48cc8"
+      }
+    },
+    "records": 584
+  },
+  "disposition": {
+    "companion": "(4,2,0),(2,6,0)",
+    "exceptional_low_main_count": "144 original scoped negatives by guard",
+    "low": "(3,3,0),(2,6,0)",
+    "official_campaign_entry": null,
+    "proof_covers_frozen_matched_main_R": [
+      8,
+      10,
+      12,
+      14,
+      16
+    ],
+    "strict_R6_boundary": "BOTH SCOPED NEGATIVE",
+    "strict_R8_low_boundary": "SYMBOLIC POSITIVE",
+    "strict_main_separator": "II-02-06",
+    "strict_return": {
+      "connector": [
+        4,
+        116
+      ],
+      "crossing": [
+        59,
+        116
+      ],
+      "edges": 116,
+      "maximum_cut": 60,
+      "noncrossing": [
+        1,
+        58
+      ]
+    }
+  },
+  "execution_authorized": false,
+  "execution_entry": null,
+  "files": {
+    "evidence/validation/LCL_ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED_001_PREP/.gitattributes": {
+      "bytes": 43,
+      "sha256": "e8f8148999a541b7a256c38e4655ca11d3474af414602e33c883d7414aa6f30e"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED_001_PREP/CUSTODY.json": {
+      "bytes": 9466,
+      "sha256": "11ce56b00744c945854ffe8b422bec5962d97599214d8f98f34fbb0f4dd692c5"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED_001_PREP/PREFLIGHT.json": {
+      "bytes": 4315,
+      "sha256": "1c46ff16e45c76e90335018b9b907309a677af0b5a274476fc14f689665ab2f7"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED_001_PREP/REVIEWS.md": {
+      "bytes": 2728,
+      "sha256": "26fdf2f1e0c85812de996176f2d1f4f58d636926482d382422d640737c4f4506"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED_001_PREP/RUNTIME.json": {
+      "bytes": 665,
+      "sha256": "03ac7347661a371e00ac2db850a1c5fb04b3bec699816e7e4464a4138aa6036f"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED_001_PREP/SOURCE_BINDINGS.json": {
+      "bytes": 5218,
+      "sha256": "2bfb7e9e15cce31c8e46ab74fefa488c403a5ecd564a84db1fced91b89e15f16"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED_001_PREP/originals.jsonl": {
+      "bytes": 5633720,
+      "sha256": "60cd06497efe6a2a78523c3e48c8db77d00a907222edbe4fb047843bc51e1355"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED_001_PREP/prefix94-original.json": {
+      "bytes": 7966,
+      "sha256": "500243061c3192ebd826262d3412c4d76d1461b0890b391129aa3c0b8c526a01"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED_001_PREP/prefix94.json": {
+      "bytes": 1547,
+      "sha256": "6d9f66a731cefc5ed642dd60a1aad1d8de89370bf21684f9dd01257e194d377b"
+    },
+    "handoffs/CODEX-20261125-d191-low-capacity-strict-phase-prep.md": {
+      "bytes": 3752,
+      "sha256": "f5f415218a1f46a7defe9abadfc529bde40251ed098481424402c68f5620105d"
+    },
+    "research/ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED.md": {
+      "bytes": 19212,
+      "sha256": "0dfc6b38331e7f1d7fde41058038d5838133b66d7fec8139a61b84da30b781c3"
+    },
+    "research/strict_phase_low_capacity_001/CONTRACT.md": {
+      "bytes": 8653,
+      "sha256": "3d8dbd66b283aae7c20a93c3fe4f66403eef5f234c852b08f2c588772fbcd6d8"
+    },
+    "research/strict_phase_low_capacity_001/EVIDENCE_SCHEMA.json": {
+      "bytes": 1498,
+      "sha256": "acdef16c782f1a1e7f1baa119c8b9cdc763aeeb3cb486bb8effd2936014696b5"
+    },
+    "research/strict_phase_low_capacity_001/audit.py": {
+      "bytes": 11245,
+      "sha256": "f572247c1f6fd1c502afcd1a87b5c96fbaf9f3cb2c021d2578e4be709e170c87"
+    },
+    "research/strict_phase_low_capacity_001/config.json": {
+      "bytes": 1878,
+      "sha256": "288df1a52c8383324c41a8377cf635466c82c6fc3dc37683cdbbc6bf7c3560ff"
+    },
+    "research/strict_phase_low_capacity_001/preflight.py": {
+      "bytes": 9740,
+      "sha256": "35293b32ff706c6740f342a931f2fe468ad465fb5907c56f38d8877b923b8434"
+    },
+    "research/strict_phase_low_capacity_001/prepare_originals.py": {
+      "bytes": 8771,
+      "sha256": "c2c248bb0a2cc5c33d23cb6f752aeb848571d52c97a8c9574caed78eb4bd4f84"
+    },
+    "research/strict_phase_low_capacity_001/primary.py": {
+      "bytes": 5425,
+      "sha256": "af53423b942d4cc1bac71612cafe0d4246a7aaff3e7f0fbac29dfa4d1f531471"
+    }
+  },
+  "hash_convention": "Canonical LF for D191 text and exact raw bytes for the corpus and two frozen strict prefix files. The retained 74-edge input keeps its raw binding.",
+  "parent": "0cf6e912690f21724607013e496ec7a4750cad62",
+  "prefix_digests": {
+    "S-1": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+    "S0": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0"
+  },
+  "preparation_limits": {
+    "cpu_seconds": 1800,
+    "new_evidence_bytes": 128000000,
+    "wall_seconds": 3600
+  },
+  "prospective_official_caps": {
+    "combined_entered_allocation_states": 50000000,
+    "combined_exterior_attempts": 100000000,
+    "combined_tested_transitions": 250000000,
+    "final_reconciliation_reserve_bytes": 2000000,
+    "live_records_per_candidate": 250000,
+    "max_completed_record_bytes": 2000000,
+    "new_evidence_bytes": 512000000,
+    "process_cpu_seconds": 14400,
+    "wall_seconds": 18000,
+    "workers": 1
+  },
+  "reviews": {
+    "director_D191": "PENDING",
+    "implementation_and_evidence_custody": "PASS_SCOPED",
+    "mathematical": "PASS_SCOPED"
+  },
+  "schema_version": 1,
+  "scientific_counters": {
+    "historical_replays": 0,
+    "numerical_labeling_search_nodes": 0,
+    "official_scientific_campaign_executions": 0,
+    "original_checker_invocations": 0,
+    "solver_allocation_states": 0
+  },
+  "sole_next_action": "Director review of D191 preparation and its symbolic findings.",
+  "status": "EXISTENTIAL_QUESTION_RESOLVED_SYMBOLICALLY_PENDING_DIRECTOR_REVIEW",
+  "task": "LCL-ORDINARY-SPINE-LOW-CAPACITY-STRICT-PHASE-MATCHED-001-PREP"
+}
