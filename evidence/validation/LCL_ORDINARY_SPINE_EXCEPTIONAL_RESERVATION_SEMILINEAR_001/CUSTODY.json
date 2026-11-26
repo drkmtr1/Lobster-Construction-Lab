@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "task": "LCL-ORDINARY-SPINE-EXCEPTIONAL-RESERVATION-SEMILINEAR-001",
+  "starting_checkpoint": "7341a82f11756b00c0c7aed9ccbf4d0cd2a4b041",
+  "D166_director_acceptance": {
+    "status": "ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE",
+    "checkpoint": "7341a82f11756b00c0c7aed9ccbf4d0cd2a4b041",
+    "parent": "0fff40ab01ed749e57d6c6ca23c92510d10fead3",
+    "proof_sha256": "6efb06cdadbc12fe4b921246d138452733edb0bc513f90664edae76c0abf80fb",
+    "manifest_sha256": "8ade62ce3796a4821267b822a30f09a8043d5d1652abe703284f8ee86c48ea98",
+    "canonical_state_sha256": "a9ec995796d2301a8a46895cf225fe319d35d41250233d323384e0ce06d2fa19",
+    "scope": "D166 ordered fixed-exterior, selectable-role and fully symbolic E+ classifications on its exact (1,3,4,4) first profile. Accept all four constructions, common-hole barriers, the exact residual recurrence, named reconstruction, both polarities, admitted composition, and symbolic E+ supply for frozen target-0429.",
+    "director_verified": "Live GitHub main, one-commit continuity, zero divergence, twelve changed paths, authoritative STATE.md, primary proof, custody, two separate reviews, handoff, all five manifested files with exact sizes and SHA-256, canonical state and manifest, upstream main pins, and historical evidence continuity with unchanged builder/checker paths.",
+    "director_limitations": "No fresh D164 archive decompression or certificate replay, no local worktree inspection and no fresh baseline tag or peel check by the Director. Those are separate Codex-reported checks."
+  },
+  "local_admission": {
+    "status": "PASS",
+    "head": "7341a82f11756b00c0c7aed9ccbf4d0cd2a4b041",
+    "parent": "0fff40ab01ed749e57d6c6ca23c92510d10fead3",
+    "local_main": "7341a82f11756b00c0c7aed9ccbf4d0cd2a4b041",
+    "origin_main": "7341a82f11756b00c0c7aed9ccbf4d0cd2a4b041",
+    "live_main": "7341a82f11756b00c0c7aed9ccbf4d0cd2a4b041",
+    "baseline": "fddfc1dd9541324b2ed2de2505bc750b3e3f0b9d",
+    "baseline_peel": "36ea1603602491bf3c1c5b81ed4c23aaa2210e70",
+    "upstreams": [
+      {
+        "path": "../Math_Discovery_Lab",
+        "pin": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+        "checkout": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+        "branch": "main"
+      },
+      {
+        "path": "../MDL_Bounded_Search",
+        "pin": "e48b94eec4091b4fe189e325cab2eda464409943",
+        "checkout": "c803ecb6bd0481d31af43f7e3c194ae8ed4d1578",
+        "branch": "recovery/p004-last-completed-no-launcher"
+      }
+    ],
+    "remote_recovery": "1e1efeac9acd70006d7f1bd4aa6786f438cff602",
+    "builder": "8d1e9948e8bf5ef01e67c9afe0155412c57d79fa",
+    "checker": "d008f35f0843e1a5c770db3e7f42ed7d987360d7",
+    "agents_sha": "e980f2ee51d2b69cfd8ab9c4955f9388ad14f9b7b78581729ef5a24dd21339e6",
+    "canonical_start": "a9ec995796d2301a8a46895cf225fe319d35d41250233d323384e0ce06d2fa19",
+    "verified_bindings": {
+      "prior": [
+        5,
+        20
+      ],
+      "d165": [
+        5,
+        19
+      ],
+      "d164": [
+        9,
+        19
+      ],
+      "prep": [
+        131,
+        17
+      ]
+    },
+    "raw_archive_sha": "6ecb659aaefc4a574f39d1da8c3bb88b53517ea9381cc25fa332144f822a7c19",
+    "raw_archive_blob": "bd526b2757984a372be5ed3f3c76fc882f29b1ef",
+    "raw_members": 1288,
+    "controls": [
+      {
+        "target": "target-0057",
+        "digest": "f2c94b2a446fe22d340e6a15f8b31684cbdec87e859ff9790437306b27418b0d",
+        "record_sha256": "fce15fe2b701dce71114bc70cf585a04fac1187fac73489cd0cc9cdf5f9ddea0",
+        "shard": "targets-001.json",
+        "parameters": [
+          1,
+          1,
+          2,
+          4,
+          1,
+          6
+        ]
+      },
+      {
+        "target": "target-0060",
+        "digest": "93e901cb6cc00e8ee678eda500c1a930f45af1600ee7f5fccd7279891696360e",
+        "record_sha256": "60b8910c5d66c804777b78677e2cd6040a2ea4a22296e0a2fd7d7c16860be087",
+        "shard": "targets-001.json",
+        "parameters": [
+          1,
+          1,
+          2,
+          4,
+          2,
+          5
+        ]
+      },
+      {
+        "target": "target-0428",
+        "digest": "6f4cc649a76e055160ade2e856544762df550e4f49235df0c17e181421760256",
+        "record_sha256": "67f86d219b0c3b3fbedbc9e0e195098dafbdd440c3c77497fe0fad0e8dabd27c",
+        "shard": "targets-013.json",
+        "parameters": [
+          1,
+          3,
+          4,
+          4,
+          5,
+          4
+        ]
+      },
+      {
+        "target": "target-0429",
+        "digest": "ac1aa0aab83479ced6949d84651eb3267a0ac83bca4bc5f263f4dbfca6385636",
+        "record_sha256": "b6e38cbc6c3f09146e2c35b44165506238fb6d8638e9732d84e01ff112fc14c0",
+        "shard": "targets-013.json",
+        "parameters": [
+          1,
+          3,
+          4,
+          4,
+          5,
+          6
+        ]
+      }
+    ],
+    "control_archive_hashes": {
+      "target-0057-Eplus.json": "eb529e65a97dbf0ff030ecdcae02d5b3568cefe53c3c32ae059de9afda032877",
+      "target-0060-Eplus.json": "e7d00cbcfd812e5cbdaa4a8a44460a5fb3936f955e4a04196e148b35b4ec71ed",
+      "target-0428-T.json": "8d8ac74c31b8903788db7e46f9385d5f7529ed2539870e0fb15717e318a53b28",
+      "target-0428-Eplus.json": "42f902fae77bf172273f1359ba80ce1ecd4f3062ba15ea4e599b11eb699b03b3",
+      "target-0428-PAIR.json": "2d2f9677c7ada773e15ecea1d3834e91b921bd8dc7863abefcb2899ad44b3e63"
+    },
+    "prefix_sha": "f48b56479dac85e1ddbbd36e5f6a6a3eaf94b9b32497e677fe5a96932abbac95",
+    "process_cpu": 0.609375,
+    "inner_wall": 9.739026800030842,
+    "observed_wait_windows": 10.013312399999998
+  },
+  "local_verification_scope": "Read-only Git and local byte checks rehashed both accepted proofs/manifests and their bindings, D164 preparation and execution bindings, and all 1,288 raw D164 archive payloads. The retained named control rows and archived record bindings were checked. No certificate checker or scientific procedure was run for D167 admission.",
+  "D164_preservation": {
+    "historical_execution": "INCOMPLETE_RETAINED_PER_CANDIDATE_STATE_CEILING",
+    "finite_separation": "UNDECIDED",
+    "completed_pairs": 428,
+    "completed_arms": 856,
+    "positive_certificates": 264,
+    "symbolic_negatives": 584,
+    "independent_negative_audits": 8,
+    "separators": 0,
+    "historical_unresolved_T": 1236,
+    "historical_unresolved_Eplus": 928,
+    "target_0429_historical_complete_arms": 0,
+    "target_0429_scoped_status": "D166 supplies E+ symbolically. T remains unresolved."
+  },
+  "other_retained_scopes": "D165 exact accepted claims with accepted transported finite exhaustion at its full E+ {1,6} corner. D163 alternate-exterior corner open. D161 COMPLETE and 33 accepted separations. D154 COMPLETE and both accepted finite falsifications. D148 INCOMPLETE_EXTERIOR_NODE_CAP and twelve undecided pairs. Closed pilot, sealed D130 and 2322 DEFERRED / UNSTARTED.",
+  "counters": {
+    "new_numerical_originals": 0,
+    "numerical_skeleton_enumerations": 0,
+    "allocator_evaluations": 0,
+    "exterior_search_nodes": 0,
+    "transfer_state_searches": 0,
+    "labeling_search_nodes": 0,
+    "solver_calls": 0,
+    "pilot_invocations": 0,
+    "historical_campaign_replays": 0,
+    "D130_detailed_access": 0,
+    "successor_preparation": 0,
+    "successor_execution": 0
+  }
+}

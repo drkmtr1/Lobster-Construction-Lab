@@ -968,3 +968,9 @@ The sole proposed unstarted question is symbolic width-(6,4) terminal-exchange s
 ## D166 — Reservation supply boundary
 
 Discharged the selected fixed and full E+ classifications, exact parity-path repairs for eight lower-host reservations and the named intermediate, polarity and composition obligations. The conditional recurrence decides the residual problem after the lower-host reservations are known. The general choice of those reservations from an actual first-center quota inventory remains open. The sole proposed next action is a symbolic reservation criterion at the same width, with four and eight reservations as distinct controls. It is unstarted and has no preparation or execution authorization. [Proof](ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_EIGHT_DEFECT.md)
+
+## D167 — Discharged fixed-geometry support and next reflection boundary
+
+The prescribed terminal-exchange geometry now has an exact finite symbolic reservation definition, reversible long-gap contraction, all arithmetic membership cases, and named lifting at the requested quota pair with exact palettes and composition. The proof supplies the explicit period set, base bound and extraction beyond the earlier residual path criterion. Independent supply for other exterior geometries and exteriors with different reflection offsets or additional eligible hosts remains open.
+
+The sole proposed unstarted action is symbolic reservation compression for exactly two eligible upper hosts at arbitrary fixed reduced-label separation. D167's separation-two result is the control. No successor work is authorized here. [Proof](ORDINARY_SPINE_EXCEPTIONAL_RESERVATION_SEMILINEAR.md)

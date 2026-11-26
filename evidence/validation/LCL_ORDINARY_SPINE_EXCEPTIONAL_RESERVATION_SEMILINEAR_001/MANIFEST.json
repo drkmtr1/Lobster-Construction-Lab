@@ -1,0 +1,270 @@
+{
+  "schema_version": 1,
+  "task": "LCL-ORDINARY-SPINE-EXCEPTIONAL-RESERVATION-SEMILINEAR-001",
+  "parent": "7341a82f11756b00c0c7aed9ccbf4d0cd2a4b041",
+  "status": "PROVED_PENDING_DIRECTOR_REVIEW",
+  "canonical_state_sha256": "f778fb83e7ba759ce052e71badba50d604c149a6b397b4c563820a672fdce9c0",
+  "state_binding": {
+    "path": "STATE.md",
+    "bytes": 87873,
+    "sha256": "f778fb83e7ba759ce052e71badba50d604c149a6b397b4c563820a672fdce9c0"
+  },
+  "starting_canonical_state_sha256": "a9ec995796d2301a8a46895cf225fe319d35d41250233d323384e0ce06d2fa19",
+  "proof_sha256": "610e9d10790bf9ce4d6f99b8c2d3d637be7c62f5cb7841cbd2402837f1ab5e7a",
+  "D166_Director_acceptance": {
+    "status": "ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE",
+    "checkpoint": "7341a82f11756b00c0c7aed9ccbf4d0cd2a4b041",
+    "parent": "0fff40ab01ed749e57d6c6ca23c92510d10fead3",
+    "proof_sha256": "6efb06cdadbc12fe4b921246d138452733edb0bc513f90664edae76c0abf80fb",
+    "manifest_sha256": "8ade62ce3796a4821267b822a30f09a8043d5d1652abe703284f8ee86c48ea98",
+    "canonical_state_sha256": "a9ec995796d2301a8a46895cf225fe319d35d41250233d323384e0ce06d2fa19",
+    "scope": "D166 ordered fixed-exterior, selectable-role and fully symbolic E+ classifications on its exact (1,3,4,4) first profile. Accept all four constructions, common-hole barriers, the exact residual recurrence, named reconstruction, both polarities, admitted composition, and symbolic E+ supply for frozen target-0429.",
+    "director_verified": "Live GitHub main, one-commit continuity, zero divergence, twelve changed paths, authoritative STATE.md, primary proof, custody, two separate reviews, handoff, all five manifested files with exact sizes and SHA-256, canonical state and manifest, upstream main pins, and historical evidence continuity with unchanged builder/checker paths.",
+    "director_limitations": "No fresh D164 archive decompression or certificate replay, no local worktree inspection and no fresh baseline tag or peel check by the Director. Those are separate Codex-reported checks."
+  },
+  "D164_preservation": {
+    "historical_execution": "INCOMPLETE_RETAINED_PER_CANDIDATE_STATE_CEILING",
+    "finite_separation": "UNDECIDED",
+    "completed_pairs": 428,
+    "completed_arms": 856,
+    "positive_certificates": 264,
+    "symbolic_negatives": 584,
+    "independent_negative_audits": 8,
+    "separators": 0,
+    "historical_unresolved_T": 1236,
+    "historical_unresolved_Eplus": 928,
+    "target_0429_historical_complete_arms": 0,
+    "target_0429_scoped_status": "D166 supplies E+ symbolically. T remains unresolved."
+  },
+  "exact_scope": "D165/D166 named terminal-exchange geometry, D157 S_-1, positive even-total first inventory and positive odd-total second pair, n>=F+R+9",
+  "feasible_pairs": "Finite union of exact compressed bases plus nonnegative combinations of available periods (0,4), (2,2), (4,0).",
+  "base_bound": "k0<=14F-8",
+  "boundary_constraints": "R>=7, alpha_Z>=4, q>=2; q=2 requires alpha_Z>=6. None of these alone is a sufficiency test.",
+  "retained_controls": [
+    {
+      "target": "target-0057",
+      "digest": "f2c94b2a446fe22d340e6a15f8b31684cbdec87e859ff9790437306b27418b0d",
+      "record_sha256": "fce15fe2b701dce71114bc70cf585a04fac1187fac73489cd0cc9cdf5f9ddea0",
+      "shard": "targets-001.json",
+      "parameters": [
+        1,
+        1,
+        2,
+        4,
+        1,
+        6
+      ]
+    },
+    {
+      "target": "target-0060",
+      "digest": "93e901cb6cc00e8ee678eda500c1a930f45af1600ee7f5fccd7279891696360e",
+      "record_sha256": "60b8910c5d66c804777b78677e2cd6040a2ea4a22296e0a2fd7d7c16860be087",
+      "shard": "targets-001.json",
+      "parameters": [
+        1,
+        1,
+        2,
+        4,
+        2,
+        5
+      ]
+    },
+    {
+      "target": "target-0428",
+      "digest": "6f4cc649a76e055160ade2e856544762df550e4f49235df0c17e181421760256",
+      "record_sha256": "67f86d219b0c3b3fbedbc9e0e195098dafbdd440c3c77497fe0fad0e8dabd27c",
+      "shard": "targets-013.json",
+      "parameters": [
+        1,
+        3,
+        4,
+        4,
+        5,
+        4
+      ]
+    },
+    {
+      "target": "target-0429",
+      "digest": "ac1aa0aab83479ced6949d84651eb3267a0ac83bca4bc5f263f4dbfca6385636",
+      "record_sha256": "b6e38cbc6c3f09146e2c35b44165506238fb6d8638e9732d84e01ff112fc14c0",
+      "shard": "targets-013.json",
+      "parameters": [
+        1,
+        3,
+        4,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
+  "measurements": {
+    "admission_process_cpu": 0.609375,
+    "admission_inner_wall": 9.739026800030842,
+    "reviews": {
+      "math_process_cpu": 0.09375,
+      "math_inner_wall": 0.2869608,
+      "implementation_process_cpu": 4.21875,
+      "implementation_inner_wall": 3.9928986
+    }
+  },
+  "execution_counters": {
+    "new_numerical_originals": 0,
+    "numerical_skeleton_enumerations": 0,
+    "allocator_evaluations": 0,
+    "exterior_search_nodes": 0,
+    "transfer_state_searches": 0,
+    "labeling_search_nodes": 0,
+    "solver_calls": 0,
+    "pilot_invocations": 0,
+    "historical_campaign_replays": 0,
+    "D130_detailed_access": 0,
+    "successor_preparation": 0,
+    "successor_execution": 0
+  },
+  "next_action": "Under separate Owner authorization after Director review, seek a symbolic reservation compression theorem for exceptional exteriors with exactly two eligible upper hosts at an arbitrary fixed reduced-label separation. Use D167 at separation two as the control and retain exact physical roles and return inventories. This action is UNSTARTED.",
+  "files": [
+    {
+      "path": "research/ORDINARY_SPINE_EXCEPTIONAL_RESERVATION_SEMILINEAR.md",
+      "bytes": 31490,
+      "sha256": "610e9d10790bf9ce4d6f99b8c2d3d637be7c62f5cb7841cbd2402837f1ab5e7a"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_RESERVATION_SEMILINEAR_001/CUSTODY.json",
+      "bytes": 7239,
+      "sha256": "ead3a142ad236f43388233538533383b74b869056cf81490cfa8f95bce2d0e17"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_RESERVATION_SEMILINEAR_001/README.md",
+      "bytes": 1009,
+      "sha256": "4b452695e7bfc48dcafd489bb6bf37830938d037bc433144846be59b24d24f31"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_RESERVATION_SEMILINEAR_001/REVIEWS.md",
+      "bytes": 2508,
+      "sha256": "4eaf672197e8e09efc2263b739cf2ed995324d4fdb3cf3cf28a48c4d30d9c99d"
+    },
+    {
+      "path": "handoffs/CODEX-20261125-exceptional-reservation-semilinear.md",
+      "bytes": 2919,
+      "sha256": "3d0bcad683a48260b091ab232d20d0620866243bf5d980091ac8d35652164f19"
+    }
+  ],
+  "intake_file_bindings": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 8359,
+      "sha256": "e980f2ee51d2b69cfd8ab9c4955f9388ad14f9b7b78581729ef5a24dd21339e6"
+    },
+    {
+      "path": "lcl/model.py",
+      "bytes": 10720,
+      "sha256": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6"
+    },
+    {
+      "path": "lcl/verify.py",
+      "bytes": 14075,
+      "sha256": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_ALTERNATING_EXCEPTIONAL_SPECTRUM.md",
+      "bytes": 19060,
+      "sha256": "73230a18d826361e0eb4eadfbf02e41cbb1aa3c5332c890bf75f48ed18a0e0fd"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_TWO_SECTION_EXACT_GAP_CRITERION.md",
+      "bytes": 19894,
+      "sha256": "dcfbdfa182ea3fec835f11a4508b57bc57d5cef976d3b14a7ded6e468e6ce5f2"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_TWO_SECTION_GENERAL_GAP_CRITERION.md",
+      "bytes": 23630,
+      "sha256": "0221114b657dde0c1bcf64ae5fece4f0a8eca26f6d6e52eb8d5f1d1656946cd6"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_PARITY_CHAIN.md",
+      "bytes": 25501,
+      "sha256": "a0a3b16ba0d06a3ac88268d5fa781a832a25eec96e1d6f72e0c09770084eee8b"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_PARITY_CHAIN_001/MANIFEST.json",
+      "bytes": 9921,
+      "sha256": "e89eb25ad03cad239359f322d42493a655cdfdae28da83d8b8cba47ab8270ca2"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_PARITY_CHAIN_001/CUSTODY.json",
+      "bytes": 15084,
+      "sha256": "9f7ee70f48394ce9ff91a0d2ae64f85fe38f53d471fa38e0a2e766d97b5f20c5"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_EIGHT_DEFECT.md",
+      "bytes": 25157,
+      "sha256": "6efb06cdadbc12fe4b921246d138452733edb0bc513f90664edae76c0abf80fb"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_EIGHT_DEFECT_001/MANIFEST.json",
+      "bytes": 11155,
+      "sha256": "8ade62ce3796a4821267b822a30f09a8043d5d1652abe703284f8ee86c48ea98"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_EIGHT_DEFECT_001/CUSTODY.json",
+      "bytes": 6542,
+      "sha256": "187f2e123f45537ddf544e389b0736d7aef617347f55ba1db4e4d5feea6765f0"
+    },
+    {
+      "path": "evidence/runs/d164-exceptional-four-first-001/MANIFEST.json",
+      "bytes": 8566,
+      "sha256": "94ff1e2857adb490c75972bc2ed2a6b87777cfcc6a1b02baf318dea6ad219b11"
+    },
+    {
+      "path": "evidence/runs/d164-exceptional-four-first-001/RECONCILIATION.json",
+      "bytes": 699373,
+      "sha256": "90fbb1ad38a9723ac2470894090e1ce7f6501f15a60e14500c3aff2b6b46f7b8"
+    },
+    {
+      "path": "evidence/runs/d164-exceptional-four-first-001/OFFICIAL_RAW.zip",
+      "bytes": 1324244,
+      "sha256": "6ecb659aaefc4a574f39d1da8c3bb88b53517ea9381cc25fa332144f822a7c19"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/MANIFEST.json",
+      "bytes": 39676,
+      "sha256": "0c0d62a398506fc04e44de9d1e98ddbc47fb8b9765c289d277f17f3d5661b1ef"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/prefix.json",
+      "bytes": 8781,
+      "sha256": "f48b56479dac85e1ddbbd36e5f6a6a3eaf94b9b32497e677fe5a96932abbac95"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/corpus_index.json",
+      "bytes": 1011930,
+      "sha256": "909a836c19c6bb1b4bb38e14d1d9e84185a492aae2b1d316fc7511a01f282147"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/targets-001.json",
+      "bytes": 270802,
+      "sha256": "85b539f4c6f4035c623d7a8211846e41dc85d09520de5ca271163875b6b819d2"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/targets-013.json",
+      "bytes": 280515,
+      "sha256": "d9a376ae24196eb9ae082388cfef0b8a32b9f0d649cbc30f7c65829329d27b9a"
+    },
+    {
+      "path": "evidence/runs/d161-exceptional-quota-four-001/OFFICIAL_RAW.zip",
+      "bytes": 364603,
+      "sha256": "13c6ff81991bef03d0760b5ecf7aadc14b60a7cecdf951c10212d12de9eb7cee"
+    },
+    {
+      "path": "evidence/runs/d154-parity-two-first-center-001/OFFICIAL_RAW.zip",
+      "bytes": 732889,
+      "sha256": "fc85e33800ec57eeccba25637f5e99080c08539160739cfbdd6543f18fb9cb72"
+    },
+    {
+      "path": "evidence/runs/d148-matched-exterior-001/OFFICIAL_RAW.zip",
+      "bytes": 250606,
+      "sha256": "5b506784c1e5616a3b851335dd9fb93bad82801f6f8ce1a939bc39819a4d6e51"
+    }
+  ]
+}

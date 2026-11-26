@@ -713,3 +713,9 @@ Failure of that fixed exterior alone supplies no full E+ negative. Across all de
 On the stated fixed width-(6,4) exterior, mandatory H₄ and H_(k+5) sources require Q. At q=2 they exhaust Q and the next upper boundary source consumes the unique direct leaf at w. H_(k+3) then has no destination. This excludes q<3 for every compatible first-role selection on the fixed exterior. It yields no such ordered obstruction for alternative E+ exteriors.
 
 Moments and sorted endpoints alone do not guarantee residual compatibility. A common source/destination hole forces both adjacent shift indicators to zero and bars a repair from crossing it. The four constructive patterns prove exact residual feasibility with all common holes retained as absent cells. [Proof](ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_EIGHT_DEFECT.md)
+
+## D167 — Residual path barriers and scoped capacity constraints
+
+Aggregate moments, parity counts and favorable endpoint ordering after common-hole cancellation do not suffice. In the abstract even path [4,14], source holes {4,8} and destination holes {8,10} prescribe a shift at missing source 8. The exact zero boundary at that common hole obstructs the repair. This is an abstract path control.
+
+A universal q≥3 bound is not used for residual-neutral cases. The proved right-end obstruction gives q≥2 for every admitted inventory, and q=2 forces α_Z≥6 by two more neutral assignments at the left end. This retains the exhausted-neutral D166 obstruction. Failure of the type criterion excludes only this geometry on the stated original and arrangement. [Proof](ORDINARY_SPINE_EXCEPTIONAL_RESERVATION_SEMILINEAR.md)

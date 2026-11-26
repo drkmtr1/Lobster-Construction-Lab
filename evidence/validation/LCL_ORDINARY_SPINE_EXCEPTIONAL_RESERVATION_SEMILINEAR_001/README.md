@@ -1,0 +1,5 @@
+# D167 evidence
+
+**PROVED / PENDING DIRECTOR REVIEW.** On the specified D165/D166 terminal-exchange geometry of width \((6,4)\), fixing the actual first-center inventory gives an exact finite union of quota families with compressed base bound \(k_0\le14F-8\). Their generators are chosen from \((0,4),(2,2),(4,0)\). The symbolic type definition, arithmetic membership and reversible expansion yield an independent named construction for the requested pair and exact D157 return. All three period types have symbolic controls. The union may be empty. [Primary proof](../../../research/ORDINARY_SPINE_EXCEPTIONAL_RESERVATION_SEMILINEAR.md)
+
+The right boundary forces \(q\ge2\), with \(q=2\) requiring two extra neutral \(Z\) reservations. The abstract common-hole adverse control separates exact path feasibility from moments and endpoint order. No alternative exterior classification was attempted. [Admission and accepted scope](CUSTODY.json) · [Independent reviews](REVIEWS.md) · [Manifest](MANIFEST.json)
