@@ -1029,4 +1029,8 @@ The multiple-four gap-allocation question is resolved on the stated r≥5 H1 dom
 
 ## D178 — Arbitrary even selectable-role supply
 
-D178 resolves the stated arbitrary even first-quota positive question for odd r≥5 under independent admissible D157 input. Broader H0 obstructions, completeness of the geometry menu beyond the D176 quota range, the multiple-four r=3 boundary and preassigned numerical second-role decisions remain separate. D173's full feasible domain, independent shell initialization, D164's incomplete status and target-0429 T remain separate. The sole next action is Director review of D178. [D178 proof](ORDINARY_SPINE_EXCEPTIONAL_ARBITRARY_EVEN_FIRST_QUOTA_LIFT.md)
+D178 resolves the stated arbitrary even first-quota positive question for odd r≥5 under independent admissible D157 input. Broader H0 obstructions, completeness of the geometry menu beyond the D176 quota range, the multiple-four r=3 boundary and preassigned numerical second-role decisions remain separate. D173's full feasible domain, independent shell initialization, D164's incomplete status and target-0429 T remain separate. The Director accepted D178 within its exact scope. D179 separately addresses independent second-quota growth. [D178 proof](ORDINARY_SPINE_EXCEPTIONAL_ARBITRARY_EVEN_FIRST_QUOTA_LIFT.md)
+
+## D179 — Complete principal H1 threshold
+
+The principal domain of odd r≥9 has the complete terminal-enabled H1 threshold R≥r+3 with selectable numerical roles under independent named D157 admission. The secondary open cases in the displayed r=5 and r=7 domains and preassigned numerical role decisions remain separate, along with H0 and the complete menu outside D175 and D176's scopes. D173's full feasible domain, independent shell initialization, D164's incomplete status and target-0429 T remain separate. The sole next action is Director review of D179. [D179 proof](ORDINARY_SPINE_EXCEPTIONAL_INDEPENDENT_SECOND_QUOTA_GROWTH.md)
