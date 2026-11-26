@@ -994,3 +994,7 @@ The completed witnessed population has independent D167 template selection suppo
 ## D171 — Magnitude restriction discharged and broader exterior-supply boundary
 
 The two additional witnessed first inventories now have exact E+ classifications for all positive odd-total second pairs in the declared arrangement. Together with the separate D165 and D166 theorems, arbitrary quota magnitudes are covered for all four witnessed inventories, within their individual criteria. General first-inventory role-menu behavior, alternative widths and center multiplicities, T, and the pinned shell initializer retain separate obligations. STATE.md records the sole unstarted matched supply question. [D171 proof](ORDINARY_SPINE_EXCEPTIONAL_P_GROWTH.md)
+
+## D172 — Prospective matched exterior-supply question
+
+The 396 named graph bindings, exact two-arm partition, safe necessary prunes and independent reconstruction contract are prepared. A separator needs independently established M NO and independently verified A YES on the same frozen original and prefix. Complete finite exclusion needs every original disqualified by verified M YES or independently exhausted A NO. D164 and its unresolved T/E+ records retain their separate scopes. Review the preparation before a separate Owner decision on execution. [Contract](exceptional_alternate_exterior_001/CONTRACT.md)

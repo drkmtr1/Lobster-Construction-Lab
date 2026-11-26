@@ -1,0 +1,91 @@
+{
+  "base": "9e2ab57facf0b88b98cb45812bdd874af9ee85ba",
+  "baseline_peel": "36ea1603602491bf3c1c5b81ed4c23aaa2210e70",
+  "baseline_tag": "fddfc1dd9541324b2ed2de2505bc750b3e3f0b9d",
+  "director_scope": "Published refs, identities and frozen index inspection. No Director-side archive decompression, checker replay or local worktree verification.",
+  "execution_paths_vacant": [
+    "runs/d172-exceptional-alternate-exterior-001-authorization.json",
+    "runs/d172-exceptional-alternate-exterior-001",
+    "evidence/runs/d172-exceptional-alternate-exterior-001"
+  ],
+  "intake_state": {
+    "bytes": 91210,
+    "path": "STATE.md",
+    "sha256": "979c221bcff89eb2fce01635e59d842ae64f23d8edbf271eace135b91c264a33"
+  },
+  "internal_wall_seconds": 2.7844585999996525,
+  "local_Bounded_Search_recovery_HEAD": "c803ecb6bd0481d31af43f7e3c194ae8ed4d1578",
+  "local_scope": "Read-only refs, worktree, canonical index, retained bytes and selected saved members. No historical checker replay.",
+  "previous_files": {
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_P_GROWTH_001/CUSTODY.json": {
+      "bytes": 29171,
+      "sha256": "7ac15c46942c6f4d5e787085a50e650e0b3d4d94b0ed12af8b3c7a236b7ca02d"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_P_GROWTH_001/MANIFEST.json": {
+      "bytes": 3956,
+      "sha256": "0b970def909bee1485cb44beea27e52a19a7034308d6cbe86bea1a18b096cff0"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_P_GROWTH_001/README.md": {
+      "bytes": 763,
+      "sha256": "a34efff61922a9567c31b7ce86a69caecda49cf41cc80c966052b87343899e91"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_P_GROWTH_001/REVIEWS.md": {
+      "bytes": 1737,
+      "sha256": "96de8bf97ac74937c35ae1ff21fb10e85b8cd04eee9ac5c64c8511d6356d26fe"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ROLE_MENU_COVERAGE_001/ARCHIVE_CHECK.json": {
+      "bytes": 4020,
+      "sha256": "d60d736d98eaae779d75da701c4cef3ac6a2f3ef727fc0b24e3686469800db2e"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ROLE_MENU_COVERAGE_001/COVERAGE.json": {
+      "bytes": 1526053,
+      "sha256": "ef3036d6d84dad330a369d1f47cb4b5a8bf41e6bcb1258e0b16f3d022b7d1786"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ROLE_MENU_COVERAGE_001/CUSTODY.json": {
+      "bytes": 14012,
+      "sha256": "c3c5a68b3084d4883589811a4de830041cf5671fa6d741fde6613cb9d56cec8a"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ROLE_MENU_COVERAGE_001/MANIFEST.json": {
+      "bytes": 5014,
+      "sha256": "3331679951fbdf2ad6c19f4385a85a7919a9113983f532b1baa8c4e538914704"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ROLE_MENU_COVERAGE_001/POPULATION.json": {
+      "bytes": 78541,
+      "sha256": "cba928ce47d5c1d136977aee55490492c8bc7f41384c3fb269e8fba4a194cf39"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ROLE_MENU_COVERAGE_001/README.md": {
+      "bytes": 1371,
+      "sha256": "e736709179ec5069fcdea88bd13a9a603a57efc558d54ea8bf06d642d3fc58d2"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ROLE_MENU_COVERAGE_001/REVIEWS.md": {
+      "bytes": 2267,
+      "sha256": "54cf040b763879aec68efd57bc41eff2a83d07c044bc8f099e932336389875e7"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ROLE_MENU_COVERAGE_001/inspect_saved_records.py": {
+      "bytes": 17353,
+      "sha256": "5213191206dffe87b92b9cc4c0f9649a871ada45fdb17e5e4f026becec1dd5c6"
+    },
+    "handoffs/CODEX-20261125-exceptional-p-growth.md": {
+      "bytes": 2542,
+      "sha256": "791d47f40c895a1bd4cb67f4ff2ff46f4ff6a3aeb4156fa62dbc0a11259782e6"
+    },
+    "handoffs/CODEX-20261125-exceptional-role-menu-coverage.md": {
+      "bytes": 2710,
+      "sha256": "813e97c0cb295e797cf14f4fe338e52f1ba770c4bc85f7742eb57cf789709ddb"
+    },
+    "research/ORDINARY_SPINE_EXCEPTIONAL_P_GROWTH.md": {
+      "bytes": 26187,
+      "sha256": "6ef68e10d44150822f8d1ad0bbbdba01913f5156b29d8a48b40ce9075dc4dd90"
+    },
+    "research/ORDINARY_SPINE_EXCEPTIONAL_ROLE_MENU_COVERAGE.md": {
+      "bytes": 22459,
+      "sha256": "db474c3629b31c60aad3874bf8f38cb2698a6e7055b993c859fadc9b4be0cfe2"
+    }
+  },
+  "process_cpu_seconds": 0.765625,
+  "protection": "Direct live refs, with no change to either upstream or to Codex capture refs.",
+  "upstream_main": {
+    "Bounded Search": "e48b94eec4091b4fe189e325cab2eda464409943",
+    "MDL": "858a8c1fcfda87ba40bb1adee498a6131504a803"
+  }
+}

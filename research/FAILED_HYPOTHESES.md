@@ -735,3 +735,7 @@ The proposed matched template-miss condition is excluded on the selected 108 com
 ## D171 — Ordered Q bottleneck and limits of P-growth transport
 
 A fixed ordered assignment with q≤2 cannot supply either additional first inventory on the width-(6,4) menu. The right end requires two Q leaves. At exactly two, the minimum P image forces six neutral leaves, exceeding the available first maximum four. The full E+ exclusion for odd R<7 uses the terminal-balance count. A one-column P-growth step can exchange the parity pairing, so it does not assert persistence of all old residual arrows. D167's protected two-column interval insertion yields the (4,0) rate when its long-gap premise holds. No historical D164 arm disposition is changed. [D171 proof](ORDINARY_SPINE_EXCEPTIONAL_P_GROWTH.md)
+
+## D172 — Symbolic menu exclusion for all-even first inventories
+
+For the specified width-(6,4) exchange menu the gap translation moment forces the sum of the full quotas at numerical roles b and c₁ to be odd. The upper reflections contribute an even total modulo two since exactly R−1 gap leaves use upper parents. This excludes the complete M menu on the 180 frozen all-even originals for every physical role assignment. The obstruction concerns M. The alternative E+ feasibility and the finite separation hypothesis remain undecided. [Menu moment](exceptional_alternate_exterior_001/CONTRACT.md#3-menu-moment)

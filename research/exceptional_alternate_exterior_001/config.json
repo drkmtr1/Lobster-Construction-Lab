@@ -1,0 +1,74 @@
+{
+  "task": "LCL-ORDINARY-SPINE-EXCEPTIONAL-ALTERNATE-EXTERIOR-MATCHED-001-PREP",
+  "base": "9e2ab57facf0b88b98cb45812bdd874af9ee85ba",
+  "D164_input": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input",
+  "D164_code": "research/exceptional_four_first_001",
+  "independent_graph": "research/matched_exterior_001/audit.py",
+  "output": "runs/d172-exceptional-alternate-exterior-001",
+  "approval": "runs/d172-exceptional-alternate-exterior-001-authorization.json",
+  "domain": {
+    "originals": 396,
+    "symbolic_M": 180,
+    "mixed_parity": 216,
+    "arms": [
+      "M",
+      "A"
+    ],
+    "lexical_id_bounds": [
+      "target-0777",
+      "target-2304"
+    ],
+    "second_total": [
+      7,
+      9,
+      11
+    ],
+    "order": [
+      "symbolic M first",
+      "K increasing",
+      "frozen target ID increasing"
+    ],
+    "stop": "first independently verified separator or all relevant decisions complete or first ceiling"
+  },
+  "runtime": {
+    "version": "3.13.17",
+    "venv": ".venv/Scripts/python.exe",
+    "cfg": ".venv/pyvenv.cfg",
+    "dll": "python313.dll",
+    "sha256": {
+      "venv": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+      "cfg": "78989c73c08f515aadaf1ec5f8f24929021b48b284f4efc907a04938634af28b",
+      "base": "7c2fc2b303a4ee3cc14cc17b47bc6e8bca98c78792edd123b846a560da44b203",
+      "dll": "26026530507a7389e7892ce130e7c1753b32a2df03ec3721d45ad8c1705d40eb"
+    }
+  },
+  "preparation": {
+    "workers": 1,
+    "cpu_seconds": 1200,
+    "wall_seconds": 2400,
+    "bytes": 64000000
+  },
+  "limits": {
+    "workers": 1,
+    "targets": 396,
+    "dispositions": 792,
+    "numerical_dispositions": 612,
+    "exterior_nodes": 1000000000,
+    "transfer_states": 450000000,
+    "transitions": 8000000000,
+    "cpu_seconds": 43200,
+    "wall_seconds": 64800,
+    "evidence_bytes": 320000000,
+    "record_bytes": 2000000,
+    "live_candidate_states": 1000000,
+    "traced_worker_bytes": 402653184
+  },
+  "reserve": {
+    "preparation_startup_cpu_seconds": 1500,
+    "preparation_startup_wall_seconds": 2700,
+    "controlled_stop_seconds": 15,
+    "final_records_bytes": 262144,
+    "worker_summary_bytes": 131072,
+    "supervision_record_bytes": 16384
+  }
+}

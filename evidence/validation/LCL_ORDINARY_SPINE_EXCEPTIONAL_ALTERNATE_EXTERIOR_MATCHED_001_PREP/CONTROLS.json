@@ -1,0 +1,274 @@
+{
+  "abstract": {
+    "D167_common_hole": "False despite aggregate moments. Retain both zero-flow edges at a common hole.",
+    "D168_residue_paths": "Per-residue forced recurrence and far-edge closure. No new allocation or fixture evaluation.",
+    "D168_unequal_boundaries": "Fold sources and images separately. Test absent cells and zero quotas."
+  },
+  "historical": {
+    "target-0057": {
+      "e_plus": {
+        "bytes": 961,
+        "file": "target-0057-Eplus.json",
+        "sha256": "eb529e65a97dbf0ff030ecdcae02d5b3568cefe53c3c32ae059de9afda032877"
+      },
+      "expected_A": "NO",
+      "expected_M": "NO",
+      "original_record": {
+        "K": 12,
+        "T1": 8,
+        "T2": 7,
+        "digest": "f2c94b2a446fe22d340e6a15f8b31684cbdec87e859ff9790437306b27418b0d",
+        "id": "target-0057",
+        "parameters": [
+          1,
+          1,
+          2,
+          4,
+          1,
+          6
+        ],
+        "quota_four_count": 1,
+        "quota_parities": [
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        "raw_exterior": {
+          "E+": "PRESENT",
+          "T": "PRESENT"
+        },
+        "record_sha256": "fce15fe2b701dce71114bc70cf585a04fac1187fac73489cd0cc9cdf5f9ddea0",
+        "shard": "targets-001.json",
+        "suffix": [
+          [
+            1,
+            1,
+            2,
+            4
+          ],
+          [
+            1,
+            6,
+            0
+          ]
+        ],
+        "symbolic_basis": {
+          "E+": null,
+          "T": null
+        }
+      },
+      "pair": {
+        "bytes": 165,
+        "file": "target-0057-PAIR.json",
+        "sha256": "9d028b3da23a04eaf3d89a344648129f43a34a215bfedfa3f3a16c73f9b812b9"
+      },
+      "proof": "Accepted historical full E+ negative, 66 qualified representatives."
+    },
+    "target-0060": {
+      "direct_leaf": "b:29:2",
+      "e_plus": {
+        "bytes": 15282,
+        "file": "target-0060-Eplus.json",
+        "sha256": "e7d00cbcfd812e5cbdaa4a8a44460a5fb3936f955e4a04196e148b35b4ec71ed"
+      },
+      "expected_A": "UNSPECIFIED",
+      "expected_M": "YES",
+      "original_record": {
+        "K": 12,
+        "T1": 8,
+        "T2": 7,
+        "digest": "93e901cb6cc00e8ee678eda500c1a930f45af1600ee7f5fccd7279891696360e",
+        "id": "target-0060",
+        "parameters": [
+          1,
+          1,
+          2,
+          4,
+          2,
+          5
+        ],
+        "quota_four_count": 1,
+        "quota_parities": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "raw_exterior": {
+          "E+": "PRESENT",
+          "T": "PRESENT"
+        },
+        "record_sha256": "60b8910c5d66c804777b78677e2cd6040a2ea4a22296e0a2fd7d7c16860be087",
+        "shard": "targets-001.json",
+        "suffix": [
+          [
+            1,
+            1,
+            2,
+            4
+          ],
+          [
+            2,
+            5,
+            0
+          ]
+        ],
+        "symbolic_basis": {
+          "E+": null,
+          "T": null
+        }
+      },
+      "pair": {
+        "bytes": 166,
+        "file": "target-0060-PAIR.json",
+        "sha256": "d5d7018daf53c95fbea932753a9f3bfba950e491eae2062ba6f5b492df967b4a"
+      },
+      "physical_roles": {
+        "P": "b:29:0",
+        "Q": "b:29:1",
+        "Z": "b:28:3",
+        "a": "b:28:1",
+        "b": "b:28:0",
+        "c1": "b:28:2",
+        "u": "s:28",
+        "v": "s:27",
+        "w": "s:29"
+      },
+      "reduced": {
+        "b:28:0": 2,
+        "b:28:1": 3,
+        "b:28:2": 4,
+        "b:28:3": 5,
+        "b:29:0": 10,
+        "b:29:1": 8,
+        "l:28:1:0": 9,
+        "l:29:0:0": 1,
+        "s:27": 6,
+        "s:28": 7,
+        "s:29": 0
+      },
+      "saved_candidate_excluded_from_A": true,
+      "terminals": [
+        {
+          "parent": "b:28:1",
+          "parent_reduced": 3,
+          "reduced": 9,
+          "terminal": "l:28:1:0"
+        },
+        {
+          "parent": "b:29:0",
+          "parent_reduced": 10,
+          "reduced": 1,
+          "terminal": "l:29:0:0"
+        }
+      ]
+    },
+    "target-0428": {
+      "direct_leaf": "b:29:2",
+      "e_plus": {
+        "bytes": 16759,
+        "file": "target-0428-Eplus.json",
+        "sha256": "42f902fae77bf172273f1359ba80ce1ecd4f3062ba15ea4e599b11eb699b03b3"
+      },
+      "expected_A": "UNSPECIFIED",
+      "expected_M": "YES",
+      "original_record": {
+        "K": 15,
+        "T1": 12,
+        "T2": 9,
+        "digest": "6f4cc649a76e055160ade2e856544762df550e4f49235df0c17e181421760256",
+        "id": "target-0428",
+        "parameters": [
+          1,
+          3,
+          4,
+          4,
+          5,
+          4
+        ],
+        "quota_four_count": 2,
+        "quota_parities": [
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        "raw_exterior": {
+          "E+": "PRESENT",
+          "T": "PRESENT"
+        },
+        "record_sha256": "67f86d219b0c3b3fbedbc9e0e195098dafbdd440c3c77497fe0fad0e8dabd27c",
+        "shard": "targets-013.json",
+        "suffix": [
+          [
+            1,
+            3,
+            4,
+            4
+          ],
+          [
+            5,
+            4,
+            0
+          ]
+        ],
+        "symbolic_basis": {
+          "E+": null,
+          "T": null
+        }
+      },
+      "pair": {
+        "bytes": 166,
+        "file": "target-0428-PAIR.json",
+        "sha256": "2d2f9677c7ada773e15ecea1d3834e91b921bd8dc7863abefcb2899ad44b3e63"
+      },
+      "physical_roles": {
+        "P": "b:29:1",
+        "Q": "b:29:0",
+        "Z": "b:28:2",
+        "a": "b:28:1",
+        "b": "b:28:0",
+        "c1": "b:28:3",
+        "u": "s:28",
+        "v": "s:27",
+        "w": "s:29"
+      },
+      "reduced": {
+        "b:28:0": 2,
+        "b:28:1": 3,
+        "b:28:2": 5,
+        "b:28:3": 4,
+        "b:29:0": 8,
+        "b:29:1": 10,
+        "l:28:1:0": 9,
+        "l:29:1:0": 1,
+        "s:27": 6,
+        "s:28": 7,
+        "s:29": 0
+      },
+      "saved_candidate_excluded_from_A": true,
+      "terminals": [
+        {
+          "parent": "b:28:1",
+          "parent_reduced": 3,
+          "reduced": 9,
+          "terminal": "l:28:1:0"
+        },
+        {
+          "parent": "b:29:1",
+          "parent_reduced": 10,
+          "reduced": 1,
+          "terminal": "l:29:1:0"
+        }
+      ]
+    }
+  },
+  "in_domain_verified_A_separator": null
+}

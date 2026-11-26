@@ -1,0 +1,458 @@
+{
+  "authoritative_closeout": {
+    ".gitattributes": {
+      "bytes": 20157,
+      "sha256": "2c98f38de76cfb2fc65c1ccc4d9bbd2900eaf874030848ce3d78bd2fa76a1d47"
+    },
+    "research/DECISIONS.md": {
+      "bytes": 146364,
+      "sha256": "89d99eb86f1cab50dbc462e6b59a036453774e38e9e3cfeb617427ffdc0aeba2"
+    },
+    "research/FAILED_HYPOTHESES.md": {
+      "bytes": 77489,
+      "sha256": "0e0a03d72df4f82896cd98a00a2b918eb41f5cbc81c72157217ba38ec30f45a1"
+    },
+    "research/FINDINGS.md": {
+      "bytes": 196498,
+      "sha256": "59e33a62be6c0d1e70acb47a83d91b6d511f7441ff96d8a961858ddc43009894"
+    },
+    "research/PROOF_OBLIGATIONS.md": {
+      "bytes": 111454,
+      "sha256": "dd29f760b41699f5ee67cae2795255cbb0cd8d498f6348ba8a1c32ee52147b7a"
+    }
+  },
+  "files": {
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ALTERNATE_EXTERIOR_MATCHED_001_PREP/BINDINGS-SUPERSEDED.json": {
+      "bytes": 16950,
+      "sha256": "2a6a07a3dea94387fce2e876d3017ef9f52cb193580074ed20fd83ee79040d7c"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ALTERNATE_EXTERIOR_MATCHED_001_PREP/BINDINGS.json": {
+      "bytes": 16950,
+      "sha256": "d39cb0a14a1f8ef1f5a11be54dace10200cf0cf9d06ce5ee4ee073bf564d18be"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ALTERNATE_EXTERIOR_MATCHED_001_PREP/CONTROLS.json": {
+      "bytes": 6402,
+      "sha256": "ecda4650bbf6b675a8a6bd0430e89be7ac1bd787143e968a0849523ed7d25adb"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ALTERNATE_EXTERIOR_MATCHED_001_PREP/CUSTODY.json": {
+      "bytes": 4445,
+      "sha256": "315f60757cd37ef7912c1a6280282bebbfc1f02c075160c00f94238965b1c6b8"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ALTERNATE_EXTERIOR_MATCHED_001_PREP/POPULATION.json": {
+      "bytes": 272257,
+      "sha256": "68524abacdef24df12a06fa62e7508c6d32fa589fd2e395839745a6225f33bb9"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ALTERNATE_EXTERIOR_MATCHED_001_PREP/PREFLIGHT-SUPERSEDED.json": {
+      "bytes": 6620,
+      "sha256": "a75cdcc50fe10212f153627d589bdcc821f4d5f9cbd6189dc94dcb8785238e3a"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ALTERNATE_EXTERIOR_MATCHED_001_PREP/PREFLIGHT.json": {
+      "bytes": 6620,
+      "sha256": "c32824b694fd3fd53dc6e6891fb110844207a1ddfd6691b3e82e37bf0ad123df"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ALTERNATE_EXTERIOR_MATCHED_001_PREP/README.md": {
+      "bytes": 738,
+      "sha256": "6a6e58237249ef79a532f813d5164c8050a00512a0739eecd3c1531387917088"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ALTERNATE_EXTERIOR_MATCHED_001_PREP/REVIEWS.md": {
+      "bytes": 2175,
+      "sha256": "9bdf64a943dfe26be5081a929eebfb1251a9076da38383e107d0f5b1dc9a258f"
+    },
+    "handoffs/CODEX-20261125-exceptional-alternate-exterior-preparation.md": {
+      "bytes": 2465,
+      "sha256": "34d396862068f4df7f0d7179c457dc70d6654c88d0303a003c161c8bd9d38785"
+    },
+    "research/exceptional_alternate_exterior_001/CONTRACT.md": {
+      "bytes": 23729,
+      "sha256": "a64943b2fc8f3574c4c98f7f12ea2dd2da37513f7d5fe46e8111283a3109c637"
+    },
+    "research/exceptional_alternate_exterior_001/EVIDENCE_SCHEMA.md": {
+      "bytes": 3033,
+      "sha256": "ca652262ce7eed7b6c9486a13a0f05ea3fe2cdbb3b8259f6e1035d4980086960"
+    },
+    "research/exceptional_alternate_exterior_001/audit.py": {
+      "bytes": 8285,
+      "sha256": "e46b8f5ab0e12fb9db928394d384ad6624516209e8d28b33ed0a79c0ab303e9a"
+    },
+    "research/exceptional_alternate_exterior_001/campaign.py": {
+      "bytes": 15577,
+      "sha256": "a98a14a3e8fb0958e5dd2b29c68cd781fe04fbcfd7bc0bae973d5c7b19f778fe"
+    },
+    "research/exceptional_alternate_exterior_001/config.json": {
+      "bytes": 2249,
+      "sha256": "efbbfb9540b8698ce503aafde6f505d96877f489a743bb43dbcfaccb5bacfde8"
+    },
+    "research/exceptional_alternate_exterior_001/preflight.py": {
+      "bytes": 19550,
+      "sha256": "aeec725dfa12971acb5a0cb109815d73467f387746c4800b075a924957d9cf7e"
+    },
+    "research/exceptional_alternate_exterior_001/primary.py": {
+      "bytes": 6367,
+      "sha256": "4cf7d45b798b864b4dc19180c89dae9c4b2bcdc711225c5ff69e88624032c867"
+    },
+    "research/exceptional_alternate_exterior_001/runtime.py": {
+      "bytes": 5582,
+      "sha256": "491d54d36e4f3507d1e3234b9ebfba399c1d008035f294dce08b3f4a41f7c485"
+    }
+  },
+  "hash_convention": "Canonical LF for Markdown and .gitattributes, raw exact bytes for other files",
+  "judgments": {
+    "custody": "PASS_PREPARATION_SCOPE",
+    "director": "PENDING",
+    "execution": "UNSTARTED",
+    "finite_hypothesis": "UNDECIDED",
+    "mathematics": "PASS_PREPARATION_SCOPE"
+  },
+  "parent": "9e2ab57facf0b88b98cb45812bdd874af9ee85ba",
+  "population": {
+    "historical_completed_pairs": 0,
+    "mixed_parity": 216,
+    "originals": 396,
+    "population_binding": {
+      "bytes": 272257,
+      "sha256": "68524abacdef24df12a06fa62e7508c6d32fa589fd2e395839745a6225f33bb9"
+    },
+    "symbolic_M_negatives": 180
+  },
+  "preparation_accounting": {
+    "charged_cpu_seconds": 120,
+    "charged_wall_seconds": 1500,
+    "measured_final_preflight_shell_wall_seconds": 1.2049096,
+    "measured_freeze_shell_wall_seconds": 3.2041358,
+    "measured_superseded_preflight_shell_wall_seconds": 1.1581697,
+    "measurement_scope": "Named process measurements in CUSTODY and both PREFLIGHT receipts. Independent reviewer receipts in REVIEWS. The conservative charged allowances cover additional Git, shell, source review and documentation time. These allowances are accounting bounds rather than measured process totals.",
+    "modified_document_diff_bytes": 14313,
+    "new_bundle_bytes": 456608
+  },
+  "prepared_state": {
+    "bytes": 91663,
+    "sha256": "717252b95c3745bc977793737ea84c529b031c8b3c01834b89545298d44e30ec"
+  },
+  "proposal_ceilings": {
+    "cpu_seconds": 43200,
+    "dispositions": 792,
+    "evidence_bytes": 320000000,
+    "exterior_nodes": 1000000000,
+    "live_candidate_states": 1000000,
+    "numerical_dispositions": 612,
+    "record_bytes": 2000000,
+    "targets": 396,
+    "traced_worker_bytes": 402653184,
+    "transfer_states": 450000000,
+    "transitions": 8000000000,
+    "wall_seconds": 64800,
+    "workers": 1
+  },
+  "proposal_reserves": {
+    "controlled_stop_seconds": 15,
+    "final_records_bytes": 262144,
+    "preparation_startup_cpu_seconds": 1500,
+    "preparation_startup_wall_seconds": 2700,
+    "supervision_record_bytes": 16384,
+    "worker_summary_bytes": 131072
+  },
+  "proposed_authorization": {
+    "fields": {
+      "manifest_sha256": "<exact reviewed preparation manifest SHA-256>",
+      "status": "AUTHORIZED_FOR_OFFICIAL_RUN",
+      "task": "LCL-ORDINARY-SPINE-EXCEPTIONAL-ALTERNATE-EXTERIOR-MATCHED-001-PREP"
+    },
+    "future_command": "& .\\.venv\\Scripts\\python.exe -I -S -B .\\research\\exceptional_alternate_exterior_001\\campaign.py --manifest-sha <exact-reviewed-manifest-sha256> --approval .\\runs\\d172-exceptional-alternate-exterior-001-authorization.json",
+    "gate": "Separate Director review and explicit Owner execution authorization. These preparation artifacts do not authorize a run.",
+    "output": "runs/d172-exceptional-alternate-exterior-001",
+    "path": "runs/d172-exceptional-alternate-exterior-001-authorization.json"
+  },
+  "retained_inputs": {
+    "AGENTS.md": {
+      "bytes": 8301,
+      "sha256": "ddb4b70c24cb5e1725d0c2e4ea8c2d522b4556b62b8bd69fdffd4205ece485db"
+    },
+    "evidence/runs/d164-exceptional-four-first-001/MANIFEST.json": {
+      "bytes": 8566,
+      "sha256": "94ff1e2857adb490c75972bc2ed2a6b87777cfcc6a1b02baf318dea6ad219b11"
+    },
+    "evidence/runs/d164-exceptional-four-first-001/OFFICIAL_RAW.zip": {
+      "bytes": 1324244,
+      "sha256": "6ecb659aaefc4a574f39d1da8c3bb88b53517ea9381cc25fa332144f822a7c19"
+    },
+    "evidence/runs/d164-exceptional-four-first-001/RECONCILIATION.json": {
+      "bytes": 699373,
+      "sha256": "90fbb1ad38a9723ac2470894090e1ce7f6501f15a60e14500c3aff2b6b46f7b8"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FIVE_HOST_QUOTA_FOUR_MATCHED_001_PREP/input/prefix.json": {
+      "bytes": 8781,
+      "sha256": "f48b56479dac85e1ddbbd36e5f6a6a3eaf94b9b32497e677fe5a96932abbac95"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/MANIFEST.json": {
+      "bytes": 39676,
+      "sha256": "0c0d62a398506fc04e44de9d1e98ddbc47fb8b9765c289d277f17f3d5661b1ef"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/corpus_index.json": {
+      "bytes": 1011930,
+      "sha256": "909a836c19c6bb1b4bb38e14d1d9e84185a492aae2b1d316fc7511a01f282147"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/prefix.json": {
+      "bytes": 8781,
+      "sha256": "f48b56479dac85e1ddbbd36e5f6a6a3eaf94b9b32497e677fe5a96932abbac95"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/targets-001.json": {
+      "bytes": 270802,
+      "sha256": "85b539f4c6f4035c623d7a8211846e41dc85d09520de5ca271163875b6b819d2"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/targets-013.json": {
+      "bytes": 280515,
+      "sha256": "d9a376ae24196eb9ae082388cfef0b8a32b9f0d649cbc30f7c65829329d27b9a"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/targets-024.json": {
+      "bytes": 278154,
+      "sha256": "b8f9f086cfe9a46ebcc5f1e21860e812e4a12239988c5cf36860afefc8fa507f"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/targets-025.json": {
+      "bytes": 279920,
+      "sha256": "a31c6aedacbd656b768d06929ceec42223beebebc72dfb0204a058dcfc3505a6"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/targets-026.json": {
+      "bytes": 284776,
+      "sha256": "a63a7584762901f33805408b06e9c433263ee16efacd21f2a91a3bf342c0b5f0"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/targets-029.json": {
+      "bytes": 282668,
+      "sha256": "0e539880409983712c2b642b74158e56c5c9e44ecc08ba3c52fef65756c6d675"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/targets-030.json": {
+      "bytes": 283694,
+      "sha256": "eea9960c519c960590b97dba327ebc924ab487b8d9cef988116bdd34cc23d473"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/targets-031.json": {
+      "bytes": 280515,
+      "sha256": "7305ac0034b1834c2f85ffe9b97b06b613f291a73f68b2f8096b2c2d437958f1"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/targets-032.json": {
+      "bytes": 279657,
+      "sha256": "30896c0e1cbb26e03fbc980e8b06b0b26fb3c47de63c1160bdc3590efaa97573"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/targets-033.json": {
+      "bytes": 283728,
+      "sha256": "a3af601b18bdc2b746c8ef039a47104063ed9f2c1f8379488bf8e5934a2288e2"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/targets-034.json": {
+      "bytes": 285006,
+      "sha256": "0a82306a9d6e07701cd5de69ceb10536c35cc5494755418a99fdae3102547169"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/targets-035.json": {
+      "bytes": 290728,
+      "sha256": "bfb2e6b5777e9b2aa73b0170aeaab3db3e7fa6729f787a658337021d56a4155c"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/targets-043.json": {
+      "bytes": 284618,
+      "sha256": "4c25ac68d1cede48012c296b6b47e5fabf99fe02a1c2f114455cef49d317b102"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/targets-044.json": {
+      "bytes": 284776,
+      "sha256": "e03747ae4f62676e563573756eefc576582a5fbdd55ae7f7c9426d354c373faf"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/targets-046.json": {
+      "bytes": 282750,
+      "sha256": "fb0ec9fbd85a41937a6c5c417312ff9dd04599174b8cea28608b4eec06badc42"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/targets-047.json": {
+      "bytes": 283964,
+      "sha256": "de681eaa3ea9a675462695afd2e1ec2c7c647ee39cbd807a1ae776b91e5a4c8f"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/targets-048.json": {
+      "bytes": 287822,
+      "sha256": "6437c4d917930f4bd759afe556c2fc0a7d2f32c0e5dd26a3ab68f8777b6e71a8"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/targets-049.json": {
+      "bytes": 286483,
+      "sha256": "bb81269357560b669598cdf6295a4b786ef84980df22622ff4e1d6dc68e7a26c"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/targets-051.json": {
+      "bytes": 285216,
+      "sha256": "577a50e7de7fe74e0151dd59bb947d872290cd5fa5d96b0becc47eaf44038482"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/targets-052.json": {
+      "bytes": 290214,
+      "sha256": "421b2950a74e9a2a13e73251f583d1f54e00fc76a676f060bef2071ab46cc75b"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/targets-053.json": {
+      "bytes": 290728,
+      "sha256": "879a47feffe5fd61922e9e3d214a7fcd17f3346dc89dff1e74c58fd3da7b722d"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/targets-059.json": {
+      "bytes": 279657,
+      "sha256": "44637b1435c3e74d4929434b1986ff4ac656d7a30f6c05954f0adbae94b3f1c6"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/targets-060.json": {
+      "bytes": 283728,
+      "sha256": "acc4a9774b5b745c0fe0e6d4516c9bf5ef46aee6e6c6dff0f7a3acbf5a03ce55"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/targets-061.json": {
+      "bytes": 285006,
+      "sha256": "e8252ebcc3b6a2e0c2a9e1da58afef9b3a82115c7335e64304d6d8170ddf6945"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/targets-062.json": {
+      "bytes": 290728,
+      "sha256": "39b88ecc984920c020f369abdedc55748530c62bc612c6c4f5e671ead03134f2"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/targets-064.json": {
+      "bytes": 282822,
+      "sha256": "4ca0a31c56c9df039e9944b384ed2c38800fc5bb39c0293a27880dbf9c0c696c"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/targets-065.json": {
+      "bytes": 287796,
+      "sha256": "1506931d40640eaecb9c1fee57405bd5849d2bfdb476c590058def085bb1da58"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/targets-066.json": {
+      "bytes": 289646,
+      "sha256": "f130111b4ce1446be3ca8e7cf7ab7c39e5d00e1bf5555fcee97f62b343eb61d8"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/targets-067.json": {
+      "bytes": 286483,
+      "sha256": "6801aa0bc8836b79de316351e90da89c1990827309f0d9d8b6425cc4d4b7abdb"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/targets-068.json": {
+      "bytes": 285611,
+      "sha256": "6a2650a915ef9188d2a6a566b6d06a15d1b5eee924b45ec168f7943a11b997e0"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/targets-069.json": {
+      "bytes": 289680,
+      "sha256": "091865c890317edd0003460bcdc5a700d067415f863a89c44125d7fc8621c067"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/targets-070.json": {
+      "bytes": 290958,
+      "sha256": "bd1acfbec74c69bdc621e4a5acd980173b0cce1fd785768403de6c95c0a01262"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/targets-071.json": {
+      "bytes": 296680,
+      "sha256": "7ea2542e15d13c9edbf5e347e998d63103f369e8c48d29b50709e898b81be9c0"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_P_GROWTH_001/CUSTODY.json": {
+      "bytes": 29171,
+      "sha256": "7ac15c46942c6f4d5e787085a50e650e0b3d4d94b0ed12af8b3c7a236b7ca02d"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_P_GROWTH_001/MANIFEST.json": {
+      "bytes": 3956,
+      "sha256": "0b970def909bee1485cb44beea27e52a19a7034308d6cbe86bea1a18b096cff0"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_P_GROWTH_001/README.md": {
+      "bytes": 763,
+      "sha256": "a34efff61922a9567c31b7ce86a69caecda49cf41cc80c966052b87343899e91"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_P_GROWTH_001/REVIEWS.md": {
+      "bytes": 1737,
+      "sha256": "96de8bf97ac74937c35ae1ff21fb10e85b8cd04eee9ac5c64c8511d6356d26fe"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ROLE_MENU_COVERAGE_001/ARCHIVE_CHECK.json": {
+      "bytes": 4020,
+      "sha256": "d60d736d98eaae779d75da701c4cef3ac6a2f3ef727fc0b24e3686469800db2e"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ROLE_MENU_COVERAGE_001/COVERAGE.json": {
+      "bytes": 1526053,
+      "sha256": "ef3036d6d84dad330a369d1f47cb4b5a8bf41e6bcb1258e0b16f3d022b7d1786"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ROLE_MENU_COVERAGE_001/CUSTODY.json": {
+      "bytes": 14012,
+      "sha256": "c3c5a68b3084d4883589811a4de830041cf5671fa6d741fde6613cb9d56cec8a"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ROLE_MENU_COVERAGE_001/MANIFEST.json": {
+      "bytes": 5014,
+      "sha256": "3331679951fbdf2ad6c19f4385a85a7919a9113983f532b1baa8c4e538914704"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ROLE_MENU_COVERAGE_001/POPULATION.json": {
+      "bytes": 78541,
+      "sha256": "cba928ce47d5c1d136977aee55490492c8bc7f41384c3fb269e8fba4a194cf39"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ROLE_MENU_COVERAGE_001/README.md": {
+      "bytes": 1371,
+      "sha256": "e736709179ec5069fcdea88bd13a9a603a57efc558d54ea8bf06d642d3fc58d2"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ROLE_MENU_COVERAGE_001/REVIEWS.md": {
+      "bytes": 2267,
+      "sha256": "54cf040b763879aec68efd57bc41eff2a83d07c044bc8f099e932336389875e7"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ROLE_MENU_COVERAGE_001/inspect_saved_records.py": {
+      "bytes": 17353,
+      "sha256": "5213191206dffe87b92b9cc4c0f9649a871ada45fdb17e5e4f026becec1dd5c6"
+    },
+    "handoffs/CODEX-20261125-exceptional-p-growth.md": {
+      "bytes": 2542,
+      "sha256": "791d47f40c895a1bd4cb67f4ff2ff46f4ff6a3aeb4156fa62dbc0a11259782e6"
+    },
+    "handoffs/CODEX-20261125-exceptional-role-menu-coverage.md": {
+      "bytes": 2710,
+      "sha256": "813e97c0cb295e797cf14f4fe338e52f1ba770c4bc85f7742eb57cf789709ddb"
+    },
+    "lcl/model.py": {
+      "bytes": 10720,
+      "sha256": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6"
+    },
+    "lcl/verify.py": {
+      "bytes": 14075,
+      "sha256": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909"
+    },
+    "references/PROVENANCE.json": {
+      "bytes": 766,
+      "sha256": "aef6f71ab460265291366041a4144cd119a15a48c22398b6e535e9c5c73b0ace"
+    },
+    "research/ORDINARY_SPINE_ALTERNATING_EXCEPTIONAL_SPECTRUM.md": {
+      "bytes": 19060,
+      "sha256": "73230a18d826361e0eb4eadfbf02e41cbb1aa3c5332c890bf75f48ed18a0e0fd"
+    },
+    "research/ORDINARY_SPINE_EXCEPTIONAL_P_GROWTH.md": {
+      "bytes": 26187,
+      "sha256": "6ef68e10d44150822f8d1ad0bbbdba01913f5156b29d8a48b40ce9075dc4dd90"
+    },
+    "research/ORDINARY_SPINE_EXCEPTIONAL_RESERVATION_SEMILINEAR.md": {
+      "bytes": 31490,
+      "sha256": "610e9d10790bf9ce4d6f99b8c2d3d637be7c62f5cb7841cbd2402837f1ab5e7a"
+    },
+    "research/ORDINARY_SPINE_EXCEPTIONAL_ROLE_MENU_COVERAGE.md": {
+      "bytes": 22459,
+      "sha256": "db474c3629b31c60aad3874bf8f38cb2698a6e7055b993c859fadc9b4be0cfe2"
+    },
+    "research/ORDINARY_SPINE_EXCEPTIONAL_TWO_UPPER_HOST_RESIDUE_COMPRESSION.md": {
+      "bytes": 30575,
+      "sha256": "b18eb180e189907c17912206b28a0e394219b6e1458890e7958629e130f5acb9"
+    },
+    "research/ORDINARY_SPINE_EXTERIOR_SUPPLY_REASSESSMENT.md": {
+      "bytes": 22150,
+      "sha256": "29f602e6623b96f2c043a665ca9355cf04829c89ae65c58ef731ee46bd810fa5"
+    },
+    "research/exceptional_four_first_001/CONTRACT.md": {
+      "bytes": 20635,
+      "sha256": "39cca496d3525a4ab1ea1520e88fddd56a374f0562f51436fed3837e650f4e93"
+    },
+    "research/exceptional_four_first_001/audit.py": {
+      "bytes": 15215,
+      "sha256": "e9172ad9b44f05fbd5558f07c20019b7bcd30866a64396ab630ba08bb798b020"
+    },
+    "research/exceptional_four_first_001/primary.py": {
+      "bytes": 7649,
+      "sha256": "79007a045470df262075393ddf3f8b5ea19864de4f5eb6be6a9e52508d7a64b1"
+    },
+    "research/matched_exterior_001/audit.py": {
+      "bytes": 11644,
+      "sha256": "fd7b650c419057664e4689c59bc3b4f3ab67845f6b56e730e8cbf649a62fcceb"
+    }
+  },
+  "schema_version": 1,
+  "scientific_counters": {
+    "D130_detail_access": 0,
+    "allocator_evaluations": 0,
+    "campaign_invocations": 0,
+    "checker_replays": 0,
+    "exterior_nodes": 0,
+    "fixture_evaluations": 0,
+    "labeling_search_nodes": 0,
+    "new_originals": 0,
+    "solver_invocations": 0,
+    "successor_executions": 0,
+    "successor_preparations": 0,
+    "transfer_states": 0,
+    "transitions": 0
+  },
+  "sole_next_action": "Submit the frozen D172 preparation manifest and separate reviews for Director review. Execution requires a later explicit Owner decision bound to that exact reviewed manifest. The diagnostic is UNSTARTED.",
+  "status": "PREPARED_PENDING_DIRECTOR_REVIEW",
+  "task": "LCL-ORDINARY-SPINE-EXCEPTIONAL-ALTERNATE-EXTERIOR-MATCHED-001-PREP"
+}
