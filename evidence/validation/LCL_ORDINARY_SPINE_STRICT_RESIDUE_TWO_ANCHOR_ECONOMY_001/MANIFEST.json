@@ -1,0 +1,247 @@
+{
+  "D174_history": {
+    "numerical_arms": 2,
+    "pairs": 1,
+    "stopping_rule": "FIRST_INDEPENDENTLY_VERIFIED_SEPARATOR",
+    "unentered": 3518
+  },
+  "accepted_D177_projection": {
+    "admitted_K_frequencies": {
+      "15": 15,
+      "16": 30,
+      "17": 30,
+      "18": 15,
+      "19": 3
+    },
+    "count": 93,
+    "historically_unentered": 92
+  },
+  "accepted_D191": {
+    "changed_paths": 24,
+    "checkpoint": "afaba9252e6ca3544f9e3429c6a5f0aa82b6119a",
+    "corpus": {
+      "bytes": 5633720,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED_001_PREP/originals.jsonl",
+      "sha256": "60cd06497efe6a2a78523c3e48c8db77d00a907222edbe4fb047843bc51e1355"
+    },
+    "manifest": {
+      "bytes": 10603,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED_001_PREP/MANIFEST.json",
+      "sha256": "d739bb3fe1f6807233c12116e2b620ad0e1341145f4a0fcb696a4dfbd7f7f3e2"
+    },
+    "manifest_bindings": 23,
+    "numerical_lane": "SYMBOLICALLY_RESOLVED / NO_EXECUTION_NEEDED",
+    "proof": {
+      "bytes": 19212,
+      "path": "research/ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED.md",
+      "sha256": "0dfc6b38331e7f1d7fde41058038d5838133b66d7fec8139a61b84da30b781c3"
+    },
+    "source_bindings": 22,
+    "status": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE"
+  },
+  "accepted_D192": {
+    "changed_paths": 11,
+    "checkpoint": "5e2e883e5b502c2ea1274c55de051f10137c5ac1",
+    "manifest": {
+      "bytes": 6346,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_STRICT_SIGNED_INDEPENDENT_GROWTH_001/MANIFEST.json",
+      "sha256": "63d14c19919542140de2e0e802cdc5c90f3940800ac9e375f58cd835b9c0127c"
+    },
+    "manifest_bindings": 10,
+    "projection": {
+      "bytes": 49669,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_STRICT_SIGNED_INDEPENDENT_GROWTH_001/CORPUS_PROJECTION.json",
+      "sha256": "101178794669a3525a78be70186e7a0278014867ed93999a2c3cafb036ccdaaf"
+    },
+    "proof": {
+      "bytes": 29027,
+      "path": "research/ORDINARY_SPINE_STRICT_SIGNED_INDEPENDENT_GROWTH.md",
+      "sha256": "fe93c6a0bad8ea22437cc21a75404555fc3d0df79209e8c0d9f3b0bd8684fed1"
+    },
+    "status": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE"
+  },
+  "authoritative_ledgers": {
+    "research/DECISIONS.md": {
+      "bytes": 177172,
+      "sha256": "5e805d4909ff6c7592db35084b7d1b43ba37250930e26256597a8356aa0ed647"
+    },
+    "research/FAILED_HYPOTHESES.md": {
+      "bytes": 93219,
+      "sha256": "9c65d338131d59553caec84fb74e1d163a9c31afe9c6ebbc78fbc64ced3566ad"
+    },
+    "research/FINDINGS.md": {
+      "bytes": 221011,
+      "sha256": "bbff2c008ff968e84fef1caa52f1a3990697f881d5764c36b62e39cd27e5dfa7"
+    },
+    "research/PROOF_OBLIGATIONS.md": {
+      "bytes": 126749,
+      "sha256": "a9b626401346d0d1e21dc5dcddceb516d0be0fd6edb03609f9057e1f82c04639"
+    }
+  },
+  "canonical_state": {
+    "bytes": 115593,
+    "sha256": "53a13b2a01590e09082027f60cc2225ab6f10d7b8f6cc9757aa3450eb58e83cc"
+  },
+  "files": {
+    "evidence/validation/LCL_ORDINARY_SPINE_STRICT_RESIDUE_TWO_ANCHOR_ECONOMY_001/CORPUS_PROJECTION.json": {
+      "bytes": 95377,
+      "sha256": "8c739c59414ceb462b635ee070e70d10475e189ac05b3a79189b5dc82792057a"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_STRICT_RESIDUE_TWO_ANCHOR_ECONOMY_001/CUSTODY.json": {
+      "bytes": 7802,
+      "sha256": "59a3d8077febe9ea896a013b6724a7ee4d99d0ff5859ecc905e1ae78cd039155"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_STRICT_RESIDUE_TWO_ANCHOR_ECONOMY_001/REVIEWS.md": {
+      "bytes": 2347,
+      "sha256": "2a347bdb6ed3eb292625a7b22268b906bd13272b6f2fed437ab729d1dd3c035b"
+    },
+    "handoffs/CODEX-20261126-d193-strict-residue-two-anchor-economy.md": {
+      "bytes": 4012,
+      "sha256": "beb8aeb40b0e122181099a4efb3255a7e0aedcb237bca91d2a84490f0faea289"
+    },
+    "research/ORDINARY_SPINE_STRICT_RESIDUE_TWO_ANCHOR_ECONOMY.md": {
+      "bytes": 33767,
+      "sha256": "25ac031c254c9a6166339f18bf67bf56cf47ecc39fb935c9ed975b90a74cfd49"
+    }
+  },
+  "frozen_D191_projection": {
+    "additional_low_by_R": {
+      "10": 2,
+      "12": 4,
+      "14": 4,
+      "16": 6,
+      "6": 0,
+      "8": 2
+    },
+    "companion_originals": 27,
+    "frozen_D191_records": 584,
+    "low_originals": 42,
+    "matched_pairs": 24,
+    "newly_supplied_companions": 0,
+    "newly_supplied_low_originals": 18,
+    "path": "evidence/validation/LCL_ORDINARY_SPINE_STRICT_RESIDUE_TWO_ANCHOR_ECONOMY_001/CORPUS_PROJECTION.json",
+    "stratum": "II"
+  },
+  "hash_convention": "Canonical LF for D193 text. Prior frozen artifacts retain their original conventions.",
+  "parent": "5e2e883e5b502c2ea1274c55de051f10137c5ac1",
+  "result": {
+    "baseline": "Forced adjacent transpositions and unique directed residue chains give the exact two fixed-exterior baseline domains",
+    "exteriors": "Fixed strict S0 with actual first shifts +1 and -1 and upper separations 0 and rho=1 or 2",
+    "growth": "Balanced even first growth needs no anchor. One named Q pair suffices for independently specified even increases when p>=4 at rho=1 or p>=q+4 at rho=2.",
+    "parity": "rho=1 forces even second quotas beyond baseline; rho=2 admits the stated P parity per baseline arm",
+    "scope": "Actual named topology, one selected terminal per section, all direct leaves exterior, and full D157 admission. Other exteriors and allocations remain open."
+  },
+  "reviews": {
+    "director_D193": "PENDING",
+    "implementation_and_evidence_custody": "PASS_SCOPED",
+    "mathematical": "PASS_SCOPED"
+  },
+  "schema_version": 1,
+  "scientific_counters": {
+    "historical_replays": 0,
+    "numerical_search_nodes": 0,
+    "official_scientific_campaign_executions": 0,
+    "original_checker_invocations": 0,
+    "solver_allocation_states": 0
+  },
+  "sole_next_action": "Director review of the D193 symbolic outcome and separate reviews.",
+  "status": "PROVED_WITHIN_EXACT_WRITTEN_SCOPE_PENDING_DIRECTOR_REVIEW",
+  "symbolic_controls": {
+    "A": {
+      "defects": [
+        5,
+        4
+      ],
+      "fresh_edges": 22,
+      "maximum_cut": 60,
+      "output_edges": 116
+    },
+    "B": {
+      "fresh_edges": 22,
+      "maximum_cut": 60,
+      "p": 5,
+      "q": 3,
+      "rho": 2
+    },
+    "C": {
+      "empty_H_image": true,
+      "fresh_edges": 28,
+      "maximum_cut": 63,
+      "p": 5,
+      "q": 3,
+      "rho": 2
+    },
+    "D": {
+      "fresh_edges": 30,
+      "maximum_cut": 64,
+      "p": 6,
+      "q": 4,
+      "rho": 2
+    },
+    "E": {
+      "balanced_no_anchor": true,
+      "fresh_edges": 26,
+      "maximum_cut": 62,
+      "separations": [
+        1,
+        2
+      ]
+    },
+    "F": {
+      "fresh_edges": 30,
+      "maximum_cut": 64,
+      "named_Q_anchor_indices": [
+        1,
+        3
+      ],
+      "rho": 1
+    },
+    "G": {
+      "fresh_edges": 30,
+      "maximum_cut": 64,
+      "named_Q_anchor_indices": [
+        1,
+        6
+      ],
+      "rho": 2
+    },
+    "adverse": {
+      "basis": "Exact fixed-exterior baselines; separation-one parity for all allocations on its fixed exterior.",
+      "equal_odd_low_profiles": [
+        [
+          3,
+          3
+        ],
+        [
+          5,
+          5
+        ]
+      ]
+    },
+    "composition": {
+      "edges": [
+        74,
+        94,
+        116,
+        138,
+        158,
+        178,
+        198
+      ],
+      "last_crossing": [
+        100,
+        198
+      ],
+      "maximum_cuts": [
+        39,
+        49,
+        60,
+        71,
+        81,
+        91,
+        101
+      ]
+    }
+  },
+  "task": "LCL-ORDINARY-SPINE-STRICT-RESIDUE-TWO-ANCHOR-ECONOMY-001"
+}

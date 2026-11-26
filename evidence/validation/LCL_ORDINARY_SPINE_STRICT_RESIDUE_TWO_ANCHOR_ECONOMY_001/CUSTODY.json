@@ -1,0 +1,297 @@
+{
+  "parent": "5e2e883e5b502c2ea1274c55de051f10137c5ac1",
+  "prior_parent": "afaba9252e6ca3544f9e3429c6a5f0aa82b6119a",
+  "accepted_D192": {
+    "manifest": {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_STRICT_SIGNED_INDEPENDENT_GROWTH_001/MANIFEST.json",
+      "bytes": 6346,
+      "sha256": "63d14c19919542140de2e0e802cdc5c90f3940800ac9e375f58cd835b9c0127c"
+    },
+    "proof": {
+      "path": "research/ORDINARY_SPINE_STRICT_SIGNED_INDEPENDENT_GROWTH.md",
+      "bytes": 29027,
+      "sha256": "fe93c6a0bad8ea22437cc21a75404555fc3d0df79209e8c0d9f3b0bd8684fed1"
+    },
+    "projection": {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_STRICT_SIGNED_INDEPENDENT_GROWTH_001/CORPUS_PROJECTION.json",
+      "bytes": 49669,
+      "sha256": "101178794669a3525a78be70186e7a0278014867ed93999a2c3cafb036ccdaaf"
+    },
+    "manifest_bindings": 10,
+    "changed_paths": 11
+  },
+  "accepted_D191": {
+    "changed_paths": 24,
+    "checkpoint": "afaba9252e6ca3544f9e3429c6a5f0aa82b6119a",
+    "corpus": {
+      "bytes": 5633720,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED_001_PREP/originals.jsonl",
+      "sha256": "60cd06497efe6a2a78523c3e48c8db77d00a907222edbe4fb047843bc51e1355"
+    },
+    "manifest": {
+      "bytes": 10603,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED_001_PREP/MANIFEST.json",
+      "sha256": "d739bb3fe1f6807233c12116e2b620ad0e1341145f4a0fcb696a4dfbd7f7f3e2"
+    },
+    "manifest_bindings": 23,
+    "numerical_lane": "SYMBOLICALLY_RESOLVED / NO_EXECUTION_NEEDED",
+    "proof": {
+      "bytes": 19212,
+      "path": "research/ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED.md",
+      "sha256": "0dfc6b38331e7f1d7fde41058038d5838133b66d7fec8139a61b84da30b781c3"
+    },
+    "source_bindings": 22,
+    "status": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE"
+  },
+  "strict_prefix": {
+    "edges": 94,
+    "vertices": 95,
+    "maximum_cut": 49,
+    "maximum_frontier_label": 94,
+    "frontier": "s:29",
+    "crossing": [
+      48,
+      94
+    ],
+    "noncrossing": [
+      1,
+      47
+    ],
+    "spine_vertices": 30,
+    "max_distance_to_spine": 2,
+    "digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0"
+  },
+  "exceptional_prefix": {
+    "edges": 74,
+    "vertices": 75,
+    "maximum_cut": 39,
+    "maximum_frontier_label": 74,
+    "frontier": "s:27",
+    "crossing": [
+      37,
+      74
+    ],
+    "noncrossing": [
+      1,
+      36
+    ],
+    "spine_vertices": 28,
+    "max_distance_to_spine": 2,
+    "digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a"
+  },
+  "original_builder_blob": "8d1e9948e8bf5ef01e67c9afe0155412c57d79fa",
+  "original_checker_blob": "d008f35f0843e1a5c770db3e7f42ed7d987360d7",
+  "D174_history": {
+    "numerical_arms": 2,
+    "pairs": 1,
+    "stopping_rule": "FIRST_INDEPENDENTLY_VERIFIED_SEPARATOR",
+    "unentered": 3518
+  },
+  "D177_projection": {
+    "admitted_K_frequencies": {
+      "15": 15,
+      "16": 30,
+      "17": 30,
+      "18": 15,
+      "19": 3
+    },
+    "count": 93,
+    "historically_unentered": 92
+  },
+  "admission_process_cpu_seconds": 0.40625,
+  "admission_process_wall_seconds": 3.941765299998224,
+  "task": "LCL-ORDINARY-SPINE-STRICT-RESIDUE-TWO-ANCHOR-ECONOMY-001",
+  "status": "PROVED_WITHIN_EXACT_WRITTEN_SCOPE_PENDING_DIRECTOR_REVIEW",
+  "continuity": {
+    "branch": "main",
+    "live_main_at_admission": "5e2e883e5b502c2ea1274c55de051f10137c5ac1",
+    "origin_main_at_admission": "5e2e883e5b502c2ea1274c55de051f10137c5ac1",
+    "clean_worktree_at_admission": true,
+    "divergence": [
+      0,
+      0
+    ],
+    "baseline_tag": "lcl-v0.1.0-baseline",
+    "tag_object": "fddfc1dd9541324b2ed2de2505bc750b3e3f0b9d",
+    "tag_peel": "36ea1603602491bf3c1c5b81ed4c23aaa2210e70",
+    "upstream_live_main_pins": {
+      "drkmtr1/Math-Discovery-Lab": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+      "drkmtr1/MDL_Bounded_Search": "e48b94eec4091b4fe189e325cab2eda464409943"
+    },
+    "writers": 1,
+    "maximum_simultaneous_reviewers": 1,
+    "matching_windows_processes_outside_census": 0
+  },
+  "D192_director_acceptance": {
+    "status": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE",
+    "direct_basis": "Live main, one-commit continuity, eleven changed paths, ten exact manifest bindings, primary proof, separate reviews and custody, protected tooling, prior input data and refs, all 51 strict projected originals and 24 exceptional bindings with actual role quotas and defect coordinates.",
+    "separate_local_basis": "Local Windows custody, clean worktree and full historical audits are separately reported. No original-checker execution in Director review.",
+    "accepted_composition": [
+      74,
+      94,
+      116,
+      136,
+      156,
+      176
+    ]
+  },
+  "D191_numerical_lane": "SYMBOLICALLY_RESOLVED / NO_EXECUTION_NEEDED",
+  "projection_audit": {
+    "frozen_D191_records": 584,
+    "stratum": "II",
+    "low_originals": 42,
+    "companion_originals": 27,
+    "matched_pairs": 24,
+    "newly_supplied_low_originals": 18,
+    "newly_supplied_companions": 0,
+    "additions": {
+      "low": {
+        "6": 0,
+        "8": 2,
+        "10": 2,
+        "12": 4,
+        "14": 4,
+        "16": 6
+      },
+      "companion": {
+        "6": 0,
+        "8": 0,
+        "10": 0,
+        "12": 0,
+        "14": 0,
+        "16": 0
+      }
+    },
+    "separation_two": {
+      "low": {
+        "6": 0,
+        "8": 2,
+        "10": 2,
+        "12": 4,
+        "14": 4,
+        "16": 6
+      },
+      "companion": {
+        "6": 2,
+        "8": 2,
+        "10": 4,
+        "12": 4,
+        "14": 6,
+        "16": 6
+      }
+    },
+    "process_cpu_seconds": 0.65625,
+    "process_wall_seconds": 0.7001555000024382
+  },
+  "symbolic_controls": {
+    "A": {
+      "fresh_edges": 22,
+      "output_edges": 116,
+      "maximum_cut": 60,
+      "defects": [
+        5,
+        4
+      ]
+    },
+    "B": {
+      "rho": 2,
+      "q": 3,
+      "p": 5,
+      "fresh_edges": 22,
+      "maximum_cut": 60
+    },
+    "C": {
+      "rho": 2,
+      "q": 3,
+      "p": 5,
+      "fresh_edges": 28,
+      "maximum_cut": 63,
+      "empty_H_image": true
+    },
+    "D": {
+      "rho": 2,
+      "q": 4,
+      "p": 6,
+      "fresh_edges": 30,
+      "maximum_cut": 64
+    },
+    "E": {
+      "fresh_edges": 26,
+      "maximum_cut": 62,
+      "balanced_no_anchor": true,
+      "separations": [
+        1,
+        2
+      ]
+    },
+    "F": {
+      "fresh_edges": 30,
+      "maximum_cut": 64,
+      "rho": 1,
+      "named_Q_anchor_indices": [
+        1,
+        3
+      ]
+    },
+    "G": {
+      "fresh_edges": 30,
+      "maximum_cut": 64,
+      "rho": 2,
+      "named_Q_anchor_indices": [
+        1,
+        6
+      ]
+    },
+    "adverse": {
+      "equal_odd_low_profiles": [
+        [
+          3,
+          3
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      "basis": "Exact fixed-exterior baselines; separation-one parity for all allocations on its fixed exterior."
+    },
+    "composition": {
+      "edges": [
+        74,
+        94,
+        116,
+        138,
+        158,
+        178,
+        198
+      ],
+      "maximum_cuts": [
+        39,
+        49,
+        60,
+        71,
+        81,
+        91,
+        101
+      ],
+      "last_crossing": [
+        100,
+        198
+      ]
+    }
+  },
+  "limits": {
+    "process_cpu_seconds": 1800,
+    "observed_wall_seconds": 3600,
+    "new_evidence_bytes": 128000000
+  },
+  "elapsed_wall_seconds_through_custody_draft": 471,
+  "scientific_counters": {
+    "numerical_search_nodes": 0,
+    "solver_allocation_states": 0,
+    "original_checker_invocations": 0,
+    "official_scientific_campaign_executions": 0,
+    "historical_replays": 0
+  },
+  "sole_next_action": "Director review of the D193 symbolic outcome and separate reviews."
+}

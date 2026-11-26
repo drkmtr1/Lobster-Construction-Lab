@@ -1,0 +1,3780 @@
+{
+  "D192_projection_path": "evidence/validation/LCL_ORDINARY_SPINE_STRICT_SIGNED_INDEPENDENT_GROWTH_001/CORPUS_PROJECTION.json",
+  "D192_projection_sha256": "101178794669a3525a78be70186e7a0278014867ed93999a2c3cafb036ccdaaf",
+  "additions": {
+    "companion": {
+      "6": 0,
+      "8": 0,
+      "10": 0,
+      "12": 0,
+      "14": 0,
+      "16": 0
+    },
+    "low": {
+      "6": 0,
+      "8": 2,
+      "10": 2,
+      "12": 4,
+      "14": 4,
+      "16": 6
+    }
+  },
+  "corpus_bytes": 5633720,
+  "corpus_path": "evidence/validation/LCL_ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED_001_PREP/originals.jsonl",
+  "corpus_sha256": "60cd06497efe6a2a78523c3e48c8db77d00a907222edbe4fb047843bc51e1355",
+  "matched_pair_ids": [
+    "II-02-06",
+    "II-02-08",
+    "II-02-10",
+    "II-02-12",
+    "II-02-14",
+    "II-04-06",
+    "II-04-08",
+    "II-04-10",
+    "II-04-12",
+    "II-06-02",
+    "II-06-04",
+    "II-06-06",
+    "II-06-08",
+    "II-06-10",
+    "II-08-02",
+    "II-08-04",
+    "II-08-06",
+    "II-08-08",
+    "II-10-02",
+    "II-10-04",
+    "II-10-06",
+    "II-12-02",
+    "II-12-04",
+    "II-14-02"
+  ],
+  "prefixes": {
+    "S-1": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+    "S0": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0"
+  },
+  "records": [
+    {
+      "actual_ordered_profiles": [
+        [
+          4,
+          2,
+          0
+        ],
+        [
+          2,
+          4,
+          0
+        ]
+      ],
+      "arm": "companion",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 5,
+          "defect_source": 4,
+          "k": 5,
+          "numerical_quotas": {
+            "p": 2,
+            "q": 4
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 1
+        },
+        {
+          "defect_image": 5,
+          "defect_source": 4,
+          "k": 5,
+          "numerical_quotas": {
+            "p": 4,
+            "q": 2
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 2
+        }
+      ],
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-02-04",
+      "strict_original": {
+        "graph_digest": "691beb353abad328648bfa17af5ba22b05c242b720b512d3b1eca868570acf2c",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "241df1841b78f99de0ad48991c0fd305f3eecad9d1e9f9a2a496bf8f28be402b"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          4,
+          2,
+          0
+        ],
+        [
+          4,
+          2,
+          0
+        ]
+      ],
+      "arm": "companion",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 5,
+          "defect_source": 4,
+          "k": 5,
+          "numerical_quotas": {
+            "p": 2,
+            "q": 4
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 1
+        },
+        {
+          "defect_image": 5,
+          "defect_source": 4,
+          "k": 5,
+          "numerical_quotas": {
+            "p": 4,
+            "q": 2
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 2
+        }
+      ],
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-04-02",
+      "strict_original": {
+        "graph_digest": "a77ba0b8a3fb211a0a219b711ed0415c22b5380f16c6a1c83e79e2f6a2cc9c35",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "13bc86f82a58819e039c8c1916381891c6585284a90680839e605c20fbad25ee"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          2,
+          6,
+          0
+        ]
+      ],
+      "arm": "low",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 4,
+          "defect_source": 5,
+          "k": 6,
+          "numerical_quotas": {
+            "p": 2,
+            "q": 6
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 1
+        }
+      ],
+      "exceptional_original": {
+        "graph_digest": "a97d909ed81e8d9f049247e1b763e3773fbfaaf2e45fb9e80305ce5f36f18a45",
+        "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+        "record_sha256": "1abc2159023df9bad9908e019c32f2738f3bde00726a3eef1575f41c71b9c4b3"
+      },
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-02-06",
+      "strict_original": {
+        "graph_digest": "54a64d29c78fe6aadf717545f9a5ca55b54ee0434eb3e245a20f680fe725ec28",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "2df591ac36caf3a15846020ca38a0fb98b5e1279809c6b8423795659f3431786"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          4,
+          2,
+          0
+        ],
+        [
+          2,
+          6,
+          0
+        ]
+      ],
+      "arm": "companion",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 5,
+          "defect_source": 4,
+          "k": 6,
+          "numerical_quotas": {
+            "p": 2,
+            "q": 6
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 1
+        },
+        {
+          "defect_image": 6,
+          "defect_source": 5,
+          "k": 6,
+          "numerical_quotas": {
+            "p": 6,
+            "q": 2
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 2
+        }
+      ],
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-02-06",
+      "strict_original": {
+        "graph_digest": "78fd60729affb31db56bad32d7f8f6b9bf94ebb3b74834be8fce110e4c5aa6a7",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "abb1a53db4a213f262b5f828b0b552ba44ca5f297119eaf480c5edecf92b5f55"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          3,
+          5,
+          0
+        ]
+      ],
+      "arm": "low",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 4,
+          "defect_source": 5,
+          "k": 6,
+          "numerical_quotas": {
+            "p": 5,
+            "q": 3
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 2
+        }
+      ],
+      "exceptional_original": {
+        "graph_digest": "7db9302cef308cbbc25477dae623da63662559bf38fb6cfdd20abc91fa63ffea",
+        "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+        "record_sha256": "5544c78fbf17c7bb516111d392ddfc161c3ea0422446a6dbf521bd2dd45da9b0"
+      },
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-03-05",
+      "strict_original": {
+        "graph_digest": "e613057ad7e53ced3563e284662cfb92d1cbaf947ffde86369d3207a6ab22903",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "8f6062c8b574f97e1650973b42d3176992edc47da784ebeeaa5d7f7b3f035d45"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          4,
+          2,
+          0
+        ],
+        [
+          4,
+          4,
+          0
+        ]
+      ],
+      "arm": "companion",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 6,
+          "defect_source": 5,
+          "k": 6,
+          "numerical_quotas": {
+            "p": 4,
+            "q": 4
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 1
+        },
+        {
+          "defect_image": 6,
+          "defect_source": 5,
+          "k": 6,
+          "numerical_quotas": {
+            "p": 4,
+            "q": 4
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 1
+        }
+      ],
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-04-04",
+      "strict_original": {
+        "graph_digest": "450ba776def8f52c729099d3b66fe93943b675f2d29b7461f99fa395cba31f7c",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "c3780c1d9ba2dc1affbce0302979fb27a93cc640a77167a56aed06c038e8fd90"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          5,
+          3,
+          0
+        ]
+      ],
+      "arm": "low",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 4,
+          "defect_source": 5,
+          "k": 6,
+          "numerical_quotas": {
+            "p": 5,
+            "q": 3
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 2
+        }
+      ],
+      "exceptional_original": {
+        "graph_digest": "27034c6689f1810dd240310bdd0cd4903e702ba7318b513bdcda3fa3e4717ab4",
+        "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+        "record_sha256": "1dbf1a4bc959ffb8f29a2b6c7e05fa2e4eba3c21e18b2c866b57d07c73d8a90b"
+      },
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-05-03",
+      "strict_original": {
+        "graph_digest": "e4b3bdf82c840a8f7262823a58e5001b91400eca2f3df65614a57e64826e4060",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "c10d3ce07217b63ae40e99613bd59ca3fb407daa2525b34d912202d9bbe12675"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          6,
+          2,
+          0
+        ]
+      ],
+      "arm": "low",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 4,
+          "defect_source": 5,
+          "k": 6,
+          "numerical_quotas": {
+            "p": 2,
+            "q": 6
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 1
+        }
+      ],
+      "exceptional_original": {
+        "graph_digest": "137afca88c93c02dc0839d7d428bad842032dd874fe48bbc5ea72b5391abf241",
+        "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+        "record_sha256": "309e0eb9257b38af68325ed71c1516b7b1a9ac3990ea8bc77c4324b1d9a0e538"
+      },
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-06-02",
+      "strict_original": {
+        "graph_digest": "fbd70c5b21ece3fb97a7b4640d8b633563601c0b4fe4c7f381daaa0f5ab714d7",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "b98f1a246e9917120780c7f1ee0f2c2cf463d24d35699ff193b8615d89e325e3"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          4,
+          2,
+          0
+        ],
+        [
+          6,
+          2,
+          0
+        ]
+      ],
+      "arm": "companion",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 5,
+          "defect_source": 4,
+          "k": 6,
+          "numerical_quotas": {
+            "p": 2,
+            "q": 6
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 1
+        },
+        {
+          "defect_image": 6,
+          "defect_source": 5,
+          "k": 6,
+          "numerical_quotas": {
+            "p": 6,
+            "q": 2
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 2
+        }
+      ],
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-06-02",
+      "strict_original": {
+        "graph_digest": "183b8747d3016b9f50a8b52d5dcf4ca5dbb01e652608a962483fe22c8329419c",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "f51758acc5a92b1ac4900d5486c5ae46aadce13b2930b70e678f231b4444d153"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          2,
+          8,
+          0
+        ]
+      ],
+      "arm": "low",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 4,
+          "defect_source": 5,
+          "k": 7,
+          "numerical_quotas": {
+            "p": 2,
+            "q": 8
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 1
+        }
+      ],
+      "exceptional_original": {
+        "graph_digest": "ec84b025110120d4a0ecc9fa7db047bec686bec46bb27d8c6cdebd9879d88701",
+        "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+        "record_sha256": "6526fdc89a13d051ae03828a39f42c6deb9e394724d3a3c7122223215a6babce"
+      },
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-02-08",
+      "strict_original": {
+        "graph_digest": "6d9a5a02a53d96b0d7d42d2cccba7514f9be06d8f25a805f75865b71c3ab9eeb",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "ac4b835b16e56e82a83fbf8092e0abf6fa94006bf7c0c43f6ab959b4d03f9955"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          4,
+          2,
+          0
+        ],
+        [
+          2,
+          8,
+          0
+        ]
+      ],
+      "arm": "companion",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 5,
+          "defect_source": 4,
+          "k": 7,
+          "numerical_quotas": {
+            "p": 2,
+            "q": 8
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 1
+        },
+        {
+          "defect_image": 7,
+          "defect_source": 6,
+          "k": 7,
+          "numerical_quotas": {
+            "p": 8,
+            "q": 2
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 2
+        }
+      ],
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-02-08",
+      "strict_original": {
+        "graph_digest": "f8e3901a10a19f697b3850f31eee827cab330591c65ece4bc6a9d7243bf0779b",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "64e1147e895499f671fabb0846026a8c9c9656b6e70399bc5f072a19f3a46701"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          3,
+          7,
+          0
+        ]
+      ],
+      "arm": "low",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 5,
+          "defect_source": 6,
+          "k": 7,
+          "numerical_quotas": {
+            "p": 7,
+            "q": 3
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 2
+        }
+      ],
+      "exceptional_original": {
+        "graph_digest": "639856cf141da93fb9d1e3992776fe00dd85738ad9c8e35de54f856f497de765",
+        "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+        "record_sha256": "5b3972f6cd37fcaa5ea18adc3b8e158d24c765f9814cdf12198a763e3e6df771"
+      },
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-03-07",
+      "strict_original": {
+        "graph_digest": "785d4808f53bfe9c35e4e217a76e4224737898b807b0f16388b20829b90d2403",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "bf4c0214c774cf7a6516998d13711ae998e29e296e77f870eb272614eec25812"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          4,
+          6,
+          0
+        ]
+      ],
+      "arm": "low",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 5,
+          "defect_source": 6,
+          "k": 7,
+          "numerical_quotas": {
+            "p": 4,
+            "q": 6
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 1
+        }
+      ],
+      "exceptional_original": {
+        "graph_digest": "6c70d4377985be6fb1dd60c817a2555ad38678d2558835be9572001e909333fa",
+        "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+        "record_sha256": "d979023ca6d44f3917356637659146c59b41812bd7cfee8e18a1efcbdda26860"
+      },
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-04-06",
+      "strict_original": {
+        "graph_digest": "58b526018b0748231cf05788a13eb2d59fc131bbe6a718ec43562a37ae2b321a",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "26702978ea1f1ee4d6467946369d95111b551fd2c68e2bdfacaee876528c33e9"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          4,
+          2,
+          0
+        ],
+        [
+          4,
+          6,
+          0
+        ]
+      ],
+      "arm": "companion",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 6,
+          "defect_source": 5,
+          "k": 7,
+          "numerical_quotas": {
+            "p": 4,
+            "q": 6
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 1
+        },
+        {
+          "defect_image": 7,
+          "defect_source": 6,
+          "k": 7,
+          "numerical_quotas": {
+            "p": 6,
+            "q": 4
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 1
+        },
+        {
+          "defect_image": 5,
+          "defect_source": 4,
+          "k": 7,
+          "numerical_quotas": {
+            "p": 6,
+            "q": 4
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 2
+        }
+      ],
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-04-06",
+      "strict_original": {
+        "graph_digest": "328247fe58ae76a2256b59711973cdb6f462d9fe30292f2e545af1bd5baca6c1",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "6ee4edb0750c64762f5f5df434bd2e1439f7becd13d98995dfb061f9855bee83"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          6,
+          4,
+          0
+        ]
+      ],
+      "arm": "low",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 5,
+          "defect_source": 6,
+          "k": 7,
+          "numerical_quotas": {
+            "p": 4,
+            "q": 6
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 1
+        }
+      ],
+      "exceptional_original": {
+        "graph_digest": "7ace3f3a41cc86ae44f03845bc675edc3dc1905153a3793a29b49a28b1bd9290",
+        "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+        "record_sha256": "719066a6df59abdfefcb97788a0165e1538550869c656f437c1fac1c7b69e83e"
+      },
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-06-04",
+      "strict_original": {
+        "graph_digest": "1e10f7569eed610a30d68fe7978be91ab4443c2093fba823aa50d2c3f16c1353",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "468744515020cde8d05170ce49cb1ea35ab00133a88d33baf5b7b63121546832"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          4,
+          2,
+          0
+        ],
+        [
+          6,
+          4,
+          0
+        ]
+      ],
+      "arm": "companion",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 7,
+          "defect_source": 6,
+          "k": 7,
+          "numerical_quotas": {
+            "p": 6,
+            "q": 4
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 1
+        },
+        {
+          "defect_image": 6,
+          "defect_source": 5,
+          "k": 7,
+          "numerical_quotas": {
+            "p": 4,
+            "q": 6
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 1
+        },
+        {
+          "defect_image": 5,
+          "defect_source": 4,
+          "k": 7,
+          "numerical_quotas": {
+            "p": 6,
+            "q": 4
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 2
+        }
+      ],
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-06-04",
+      "strict_original": {
+        "graph_digest": "8a8ac45341c6f10686c0ff0c02b8fd72c304a80c562486e2df368e26f640dc27",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "425f68d4165606cbbcb9760b98f909f205f823a998b94724be9514117c957428"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          7,
+          3,
+          0
+        ]
+      ],
+      "arm": "low",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 5,
+          "defect_source": 6,
+          "k": 7,
+          "numerical_quotas": {
+            "p": 7,
+            "q": 3
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 2
+        }
+      ],
+      "exceptional_original": {
+        "graph_digest": "56198dca0db9a25194afba94510a86768102f7da3efbbe040567fc363e786f52",
+        "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+        "record_sha256": "3bbcb6fffb49756dc703379898e6c0d1fe5b4db3ef9b505f52a9636316f48b51"
+      },
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-07-03",
+      "strict_original": {
+        "graph_digest": "2cb5a879393c1b4601a4ef4ccf2f3f38788d88e486743da649082766b521e8ff",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "1645505835bd5f81a016e72d881d192b4fab5d495bca740b0a8989ee75456baf"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          8,
+          2,
+          0
+        ]
+      ],
+      "arm": "low",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 4,
+          "defect_source": 5,
+          "k": 7,
+          "numerical_quotas": {
+            "p": 2,
+            "q": 8
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 1
+        }
+      ],
+      "exceptional_original": {
+        "graph_digest": "1bd8c8c6983aec9b3500452924d63bfa1e013b04db53e392f181c76d6174a949",
+        "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+        "record_sha256": "e2a14221fe14967a1d3f415aed219a19d481e1b4ca63a5879345067f9c00f55a"
+      },
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-08-02",
+      "strict_original": {
+        "graph_digest": "c4492631a23485d6ec9503cef28b949932b10aa62ba8bb065793f3b4a6f2c061",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "3330d6e55560ab3fa972f9e0cbf505e499afc7c60588f9cb3563f342520b1e6c"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          4,
+          2,
+          0
+        ],
+        [
+          8,
+          2,
+          0
+        ]
+      ],
+      "arm": "companion",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 5,
+          "defect_source": 4,
+          "k": 7,
+          "numerical_quotas": {
+            "p": 2,
+            "q": 8
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 1
+        },
+        {
+          "defect_image": 7,
+          "defect_source": 6,
+          "k": 7,
+          "numerical_quotas": {
+            "p": 8,
+            "q": 2
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 2
+        }
+      ],
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-08-02",
+      "strict_original": {
+        "graph_digest": "67c16382df298bd26f050ecdb66aea7df970370e459b5d3de4e4775baf212a72",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "d0ed34d5712a24663e976106034f972a5fefc0b6da3d1aa32cfde20a96539f5b"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          2,
+          10,
+          0
+        ]
+      ],
+      "arm": "low",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 4,
+          "defect_source": 5,
+          "k": 8,
+          "numerical_quotas": {
+            "p": 2,
+            "q": 10
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 1
+        }
+      ],
+      "exceptional_original": {
+        "graph_digest": "98073121fa07a976304ed300ab7fd19dc79bb255d54553a273478609bcdde978",
+        "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+        "record_sha256": "9720c32f10ef1dd883c52913bc13a640aae0bdd39583cd75abde716adffb8881"
+      },
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-02-10",
+      "strict_original": {
+        "graph_digest": "298c02c291e30bd2b035766a4154d5dd296ffe01730baf7fd1d76f5b03e60777",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "88df95f1198fed386584d43da15f355dc3be42f199100f7d8a28bc80b4292533"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          4,
+          2,
+          0
+        ],
+        [
+          2,
+          10,
+          0
+        ]
+      ],
+      "arm": "companion",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 5,
+          "defect_source": 4,
+          "k": 8,
+          "numerical_quotas": {
+            "p": 2,
+            "q": 10
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 1
+        },
+        {
+          "defect_image": 8,
+          "defect_source": 7,
+          "k": 8,
+          "numerical_quotas": {
+            "p": 10,
+            "q": 2
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 2
+        }
+      ],
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-02-10",
+      "strict_original": {
+        "graph_digest": "11a527bfd060dd6f515d944998b62922f9622ee904e165642fd5bc5fa5613949",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "99658bd9016d9e9d8379e34fdba8fe15db51088230f6255233174cf844cefa99"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          3,
+          9,
+          0
+        ]
+      ],
+      "arm": "low",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 6,
+          "defect_source": 7,
+          "k": 8,
+          "numerical_quotas": {
+            "p": 9,
+            "q": 3
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 2
+        }
+      ],
+      "exceptional_original": {
+        "graph_digest": "93f061ade9beb407fcb2077953bca1c2c644599ab08d6631715523e90f6a11c0",
+        "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+        "record_sha256": "96219c93042f3eaeddc834f35669814918c13cab1282b79424707936824f59b3"
+      },
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-03-09",
+      "strict_original": {
+        "graph_digest": "4e9bf2bc7d4b69a418582ceff3aff9fe80b089ade70742e81480c7cc7f27ebeb",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "08505de6c04f4a061fb369c789f32f57ab621ef4a1dd3d7eefa56db1d62498c1"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          4,
+          8,
+          0
+        ]
+      ],
+      "arm": "low",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 5,
+          "defect_source": 6,
+          "k": 8,
+          "numerical_quotas": {
+            "p": 4,
+            "q": 8
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 1
+        }
+      ],
+      "exceptional_original": {
+        "graph_digest": "9970560088a8359685fd6da420848515942ae24259ae6ed06cc442815d4a8dcf",
+        "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+        "record_sha256": "f8450095baed32819ec3a6ee3b839154d88a9952683ce2e1c156bc7341ae19f3"
+      },
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-04-08",
+      "strict_original": {
+        "graph_digest": "2edacd293825d3dbf86a6fd902333c4897ec7cf7898257212dc7aac090001fbe",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "d3814500f425ec1f09f44f903447a096be7b490dfe3090a25c5b1e597d2ffbe2"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          4,
+          2,
+          0
+        ],
+        [
+          4,
+          8,
+          0
+        ]
+      ],
+      "arm": "companion",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 6,
+          "defect_source": 5,
+          "k": 8,
+          "numerical_quotas": {
+            "p": 4,
+            "q": 8
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 1
+        },
+        {
+          "defect_image": 8,
+          "defect_source": 7,
+          "k": 8,
+          "numerical_quotas": {
+            "p": 8,
+            "q": 4
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 1
+        },
+        {
+          "defect_image": 6,
+          "defect_source": 5,
+          "k": 8,
+          "numerical_quotas": {
+            "p": 8,
+            "q": 4
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 2
+        }
+      ],
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-04-08",
+      "strict_original": {
+        "graph_digest": "b36979a39923869a4e8411c7e1eea330c531b12be114bd9bca2e9c3c557cabc5",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "cdc153e0031e9f239aabbf0e7a861fea731ed3e4bda501dde4b34a2771ed20e3"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          5,
+          7,
+          0
+        ]
+      ],
+      "arm": "low",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 4,
+          "defect_source": 5,
+          "k": 8,
+          "numerical_quotas": {
+            "p": 7,
+            "q": 5
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 2
+        }
+      ],
+      "exceptional_original": {
+        "graph_digest": "a79925a89aa17c23a2e409eccdefc55d1dc0878031ebf4e7e53860ed4a4520a8",
+        "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+        "record_sha256": "c5a41f040b970cff1e591b65c3ca4dec50f478c5c9cbfd950572bd3bbeb1887e"
+      },
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-05-07",
+      "strict_original": {
+        "graph_digest": "c55e74ed2521570c05ae30af2e8eb64c2e1ae90e7d4d48930991fd3e2766caf8",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "07d6b9d348b990d4b18ccba95a0563091a27f2dde2ccef98d104237241e07c9e"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          6,
+          6,
+          0
+        ]
+      ],
+      "arm": "low",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 6,
+          "defect_source": 7,
+          "k": 8,
+          "numerical_quotas": {
+            "p": 6,
+            "q": 6
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 1
+        },
+        {
+          "defect_image": 6,
+          "defect_source": 7,
+          "k": 8,
+          "numerical_quotas": {
+            "p": 6,
+            "q": 6
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 1
+        }
+      ],
+      "exceptional_original": {
+        "graph_digest": "94e0b0a512c98af220f1b8434b4878db67eef4f0527a166957fe52b499ec42e0",
+        "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+        "record_sha256": "8a1ebaf6ccac7ef13a97947ee22ff151f0eec413ff14838b53913400bc07151a"
+      },
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-06-06",
+      "strict_original": {
+        "graph_digest": "5645ab89d5cb5c5307261dad8e8f0deaee9dbefe5a46d487090ca5a6baac9119",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "544a4112bdb20cc74ee6f761ab4fceb80ab17ad7809d6b0bc79b1832b9edcfe2"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          4,
+          2,
+          0
+        ],
+        [
+          6,
+          6,
+          0
+        ]
+      ],
+      "arm": "companion",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 7,
+          "defect_source": 6,
+          "k": 8,
+          "numerical_quotas": {
+            "p": 6,
+            "q": 6
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 1
+        },
+        {
+          "defect_image": 7,
+          "defect_source": 6,
+          "k": 8,
+          "numerical_quotas": {
+            "p": 6,
+            "q": 6
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 1
+        }
+      ],
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-06-06",
+      "strict_original": {
+        "graph_digest": "99cd5e6890b8bf2b4ebd53d6897d5833383974895a0050af605df0c980d38ea6",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "b3cbeb94934a4fd3e927cf8ea6cdde6adb3404abc4ed294895fbb71bae2b809c"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          7,
+          5,
+          0
+        ]
+      ],
+      "arm": "low",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 4,
+          "defect_source": 5,
+          "k": 8,
+          "numerical_quotas": {
+            "p": 7,
+            "q": 5
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 2
+        }
+      ],
+      "exceptional_original": {
+        "graph_digest": "8f641ffbaad70c134f47ce721318ad5f56d0b8e64fb402b1d44db47297fdd914",
+        "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+        "record_sha256": "17bd3f381e92d19094e910d38d68e90bd505338ff3996325d8a992d5804ba12f"
+      },
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-07-05",
+      "strict_original": {
+        "graph_digest": "dbeea989672b0e15efad9ccb10a65c42bfac59c1125840e076c5e3215303ca0c",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "f270f89bd14ecda231182799232c6969c882bdcbdfa1b844d5d11cd65b64db76"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          8,
+          4,
+          0
+        ]
+      ],
+      "arm": "low",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 5,
+          "defect_source": 6,
+          "k": 8,
+          "numerical_quotas": {
+            "p": 4,
+            "q": 8
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 1
+        }
+      ],
+      "exceptional_original": {
+        "graph_digest": "30ce57ca137f86cf369d2762cdab8f7ac2daf4a13ffdb7beeb564c323228bba9",
+        "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+        "record_sha256": "00355dcec37aeff4226c6c8d595058bc7dc25d1fc4c6f52f393011ba3d549a0d"
+      },
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-08-04",
+      "strict_original": {
+        "graph_digest": "fb92881c65478d31a9f9588fc4fabd94f7f2f494bf830d95397514dd790d858c",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "799b303c08b275ea4515c0bb926afd47022c997a1c4ecd587ac9d3a06b6e8ed0"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          4,
+          2,
+          0
+        ],
+        [
+          8,
+          4,
+          0
+        ]
+      ],
+      "arm": "companion",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 8,
+          "defect_source": 7,
+          "k": 8,
+          "numerical_quotas": {
+            "p": 8,
+            "q": 4
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 1
+        },
+        {
+          "defect_image": 6,
+          "defect_source": 5,
+          "k": 8,
+          "numerical_quotas": {
+            "p": 4,
+            "q": 8
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 1
+        },
+        {
+          "defect_image": 6,
+          "defect_source": 5,
+          "k": 8,
+          "numerical_quotas": {
+            "p": 8,
+            "q": 4
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 2
+        }
+      ],
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-08-04",
+      "strict_original": {
+        "graph_digest": "95d6d5c7e49073c72099af2036aec9608062540a8e6dce30866b6b026161942e",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "0d5c16ea80c8eb353f107a8d09b8bc2c2275026904e917d287cb129f189a278a"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          9,
+          3,
+          0
+        ]
+      ],
+      "arm": "low",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 6,
+          "defect_source": 7,
+          "k": 8,
+          "numerical_quotas": {
+            "p": 9,
+            "q": 3
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 2
+        }
+      ],
+      "exceptional_original": {
+        "graph_digest": "34d1940120329c58a3e3165d3a8d882a785cde660ab6d3a936c373da0636d697",
+        "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+        "record_sha256": "eadf3129ec6d568f7810c054640e18bcc9ce10c795c031aa415a1ea2397a6c58"
+      },
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-09-03",
+      "strict_original": {
+        "graph_digest": "d322ac85826383c124f04dd4bc10db2e1ee8bdb4ca8fc4589146e4581ee36b1e",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "7f71bebe45c7ef178241fa2af6adfbc74782e9a9367c252dde5e0e0c2354ad2b"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          10,
+          2,
+          0
+        ]
+      ],
+      "arm": "low",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 4,
+          "defect_source": 5,
+          "k": 8,
+          "numerical_quotas": {
+            "p": 2,
+            "q": 10
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 1
+        }
+      ],
+      "exceptional_original": {
+        "graph_digest": "382d209d8023d9a618268c8f249fc02a3ab62aa2345153349177956568f81cb5",
+        "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+        "record_sha256": "154632793e773e78f56e65093d5a65eb0a7ab174f515626ec01caa8a9ef42d53"
+      },
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-10-02",
+      "strict_original": {
+        "graph_digest": "96c85409c124e6743687be39dc6a76ae24efade4fe167d30e8fc44038eb1c3a8",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "399cabe0b664a5751e33c7fc84d92d06813787363ae264c58c109e5b1a6293bf"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          4,
+          2,
+          0
+        ],
+        [
+          10,
+          2,
+          0
+        ]
+      ],
+      "arm": "companion",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 5,
+          "defect_source": 4,
+          "k": 8,
+          "numerical_quotas": {
+            "p": 2,
+            "q": 10
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 1
+        },
+        {
+          "defect_image": 8,
+          "defect_source": 7,
+          "k": 8,
+          "numerical_quotas": {
+            "p": 10,
+            "q": 2
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 2
+        }
+      ],
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-10-02",
+      "strict_original": {
+        "graph_digest": "42907a470fd656af8fb61d0da8878d33a76aabb59296b0ae7be163a23dd593d0",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "90c2b19f7de64b4fbfe336bdae92b4081e42c13f351df6cbb1151d9397f17472"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          2,
+          12,
+          0
+        ]
+      ],
+      "arm": "low",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 4,
+          "defect_source": 5,
+          "k": 9,
+          "numerical_quotas": {
+            "p": 2,
+            "q": 12
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 1
+        }
+      ],
+      "exceptional_original": {
+        "graph_digest": "35ee4ab016e3c9292b2a8702b6bc0d74678e51d4f89083e9c0ea4ab4efa7ebe8",
+        "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+        "record_sha256": "17526d72d4744af38e4b6e2e612700b9dadf0fc1cebc11a7924b4d1fe25e8f02"
+      },
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-02-12",
+      "strict_original": {
+        "graph_digest": "e9874ec32994b2d68d4d26806d0550bece8262d2f7a351dba6eee36bf5532075",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "84d088cf8afe421f430aa2beac06e2a2643bf8bfc012fac9a1fddc6b0ef302f2"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          4,
+          2,
+          0
+        ],
+        [
+          2,
+          12,
+          0
+        ]
+      ],
+      "arm": "companion",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 5,
+          "defect_source": 4,
+          "k": 9,
+          "numerical_quotas": {
+            "p": 2,
+            "q": 12
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 1
+        },
+        {
+          "defect_image": 9,
+          "defect_source": 8,
+          "k": 9,
+          "numerical_quotas": {
+            "p": 12,
+            "q": 2
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 2
+        }
+      ],
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-02-12",
+      "strict_original": {
+        "graph_digest": "3b1791863c9146288c9727e682c8c873b6800e9d0962c0aa285ea55fba6e6ec1",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "160284a707c461bff6b2a4ab12c7f2676ea9cbf96efdecb10839991b219de584"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          3,
+          11,
+          0
+        ]
+      ],
+      "arm": "low",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 7,
+          "defect_source": 8,
+          "k": 9,
+          "numerical_quotas": {
+            "p": 11,
+            "q": 3
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 2
+        }
+      ],
+      "exceptional_original": {
+        "graph_digest": "133003c0f42528f1138b2ec2b976f8b5b14691b0561b515ddf2b2861418f5a6d",
+        "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+        "record_sha256": "4f0c9eba380a5ca891e02613fa761c850396a0c1e21ae6ace34e8ffb210806f0"
+      },
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-03-11",
+      "strict_original": {
+        "graph_digest": "a879a53acce5209b8f1670e322f2d1c6d0cef16278210bc1bf31904dbb53936f",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "070f1c8ea2029c9bd883b7e70ffe74b8c3b81d67601f5e8549202fa37d6e52d8"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          4,
+          10,
+          0
+        ]
+      ],
+      "arm": "low",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 5,
+          "defect_source": 6,
+          "k": 9,
+          "numerical_quotas": {
+            "p": 4,
+            "q": 10
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 1
+        }
+      ],
+      "exceptional_original": {
+        "graph_digest": "33a4b6ccee2a8f60f0fb45d76fb916830b5dbabff1532a36a8b55cddf6025acd",
+        "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+        "record_sha256": "71200fa1dce396ebf2b1c69332d204d488288d5c093c6c93aa1e280de34ff567"
+      },
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-04-10",
+      "strict_original": {
+        "graph_digest": "b13c5afa353fea270c6263b960afd2033c053e8e272526e555671daba8e169ca",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "e3ba14abecb708cfbcce3eec3234e80be0d84e7c3fe2a284f9c6702f99cdc352"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          4,
+          2,
+          0
+        ],
+        [
+          4,
+          10,
+          0
+        ]
+      ],
+      "arm": "companion",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 6,
+          "defect_source": 5,
+          "k": 9,
+          "numerical_quotas": {
+            "p": 4,
+            "q": 10
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 1
+        },
+        {
+          "defect_image": 9,
+          "defect_source": 8,
+          "k": 9,
+          "numerical_quotas": {
+            "p": 10,
+            "q": 4
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 1
+        },
+        {
+          "defect_image": 7,
+          "defect_source": 6,
+          "k": 9,
+          "numerical_quotas": {
+            "p": 10,
+            "q": 4
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 2
+        }
+      ],
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-04-10",
+      "strict_original": {
+        "graph_digest": "9030ff99f0dd679261cfa047063f53b2cc762b15e83aec716c0a859ae837abc1",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "4748bd857734ffd8a297faa4e8554d37fa07e811be4fc4a09665f0c95aaeaf1f"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          5,
+          9,
+          0
+        ]
+      ],
+      "arm": "low",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 5,
+          "defect_source": 6,
+          "k": 9,
+          "numerical_quotas": {
+            "p": 9,
+            "q": 5
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 2
+        }
+      ],
+      "exceptional_original": {
+        "graph_digest": "6d3233596f73374194b80846c096b816977d23b3c2ba9192bbf7e675e767450c",
+        "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+        "record_sha256": "6a8ce4272283708371adde297966d9762e96e6ccbb24ba2db404bddd4f496a3b"
+      },
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-05-09",
+      "strict_original": {
+        "graph_digest": "34ea9870567966d2a5c4f5cefffc6d646bb7a0ba61c02dcbe82fe0e1d2d57e26",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "444b87081967a7bd9a4c891b9da3d1945244f4478757528f47850f14247a4fdc"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          6,
+          8,
+          0
+        ]
+      ],
+      "arm": "low",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 6,
+          "defect_source": 7,
+          "k": 9,
+          "numerical_quotas": {
+            "p": 6,
+            "q": 8
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 1
+        },
+        {
+          "defect_image": 7,
+          "defect_source": 8,
+          "k": 9,
+          "numerical_quotas": {
+            "p": 8,
+            "q": 6
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 1
+        }
+      ],
+      "exceptional_original": {
+        "graph_digest": "0242eeec861ff30b2831de2d384a4fc910e650de1a06290e5d033b48ed2a976f",
+        "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+        "record_sha256": "97533a3e30dd7bbd184f1f635fa501706f92155a74a5d2459e7b69b77441674d"
+      },
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-06-08",
+      "strict_original": {
+        "graph_digest": "800bdc4690d074a81304c302a49967fa4a982415a2b04f9174382c7097611b77",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "0d8a5c35d89c4237fa2216b9099a24a2091692b3a1491803a7a269573dbd247e"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          4,
+          2,
+          0
+        ],
+        [
+          6,
+          8,
+          0
+        ]
+      ],
+      "arm": "companion",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 7,
+          "defect_source": 6,
+          "k": 9,
+          "numerical_quotas": {
+            "p": 6,
+            "q": 8
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 1
+        },
+        {
+          "defect_image": 8,
+          "defect_source": 7,
+          "k": 9,
+          "numerical_quotas": {
+            "p": 8,
+            "q": 6
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 1
+        },
+        {
+          "defect_image": 5,
+          "defect_source": 4,
+          "k": 9,
+          "numerical_quotas": {
+            "p": 8,
+            "q": 6
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 2
+        }
+      ],
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-06-08",
+      "strict_original": {
+        "graph_digest": "995cac21f57d95253af1b4e387ea89ba6593d2ef1dd0d7bfb1322396bba3aa92",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "2ad8dab5d96491b058d68eb46287e7049788ad8a836cef63a05607760d667c8a"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          8,
+          6,
+          0
+        ]
+      ],
+      "arm": "low",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 7,
+          "defect_source": 8,
+          "k": 9,
+          "numerical_quotas": {
+            "p": 8,
+            "q": 6
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 1
+        },
+        {
+          "defect_image": 6,
+          "defect_source": 7,
+          "k": 9,
+          "numerical_quotas": {
+            "p": 6,
+            "q": 8
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 1
+        }
+      ],
+      "exceptional_original": {
+        "graph_digest": "640fb2236770d94f0b2688b8f98115fdd5ef6349b8146d21ae2f076fef3b92d7",
+        "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+        "record_sha256": "37d00e0b6ed7b483f442a10ac570401443ebda12362f5307667536086da9ed95"
+      },
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-08-06",
+      "strict_original": {
+        "graph_digest": "b14e308ca3a1bbfa808e6cabd973d6ffd9fa0eaafce0707b5b630ff0e5907e47",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "a553b6dba52e2958d35faa82c58d1429b6eaa4f736aba08283a7373483962476"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          4,
+          2,
+          0
+        ],
+        [
+          8,
+          6,
+          0
+        ]
+      ],
+      "arm": "companion",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 8,
+          "defect_source": 7,
+          "k": 9,
+          "numerical_quotas": {
+            "p": 8,
+            "q": 6
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 1
+        },
+        {
+          "defect_image": 7,
+          "defect_source": 6,
+          "k": 9,
+          "numerical_quotas": {
+            "p": 6,
+            "q": 8
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 1
+        },
+        {
+          "defect_image": 5,
+          "defect_source": 4,
+          "k": 9,
+          "numerical_quotas": {
+            "p": 8,
+            "q": 6
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 2
+        }
+      ],
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-08-06",
+      "strict_original": {
+        "graph_digest": "72ac1f75461cf3b31293a1629af68e578e0297140b5d3067f5195a81f4f24e39",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "811e3f5b58a279a818dc0e8ee391ead6e1742e8b837413db82ab21c31159f30c"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          9,
+          5,
+          0
+        ]
+      ],
+      "arm": "low",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 5,
+          "defect_source": 6,
+          "k": 9,
+          "numerical_quotas": {
+            "p": 9,
+            "q": 5
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 2
+        }
+      ],
+      "exceptional_original": {
+        "graph_digest": "dcdcf8491a6c742d0eaf7d592167af6ca954c542d6fe85316f40a0ef5cbefd4d",
+        "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+        "record_sha256": "48c44d6af4e8de075025fa31554eb0c66a74832b7cb83d2a59d47e2c92503a57"
+      },
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-09-05",
+      "strict_original": {
+        "graph_digest": "464ba523dee031dbc471fe5edbcbf04971c832503beb54df0cdf1c28100a8cf8",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "36d20e053bc6c0238ca763260fd1b852ec2af9e9f46a722e4b5eacbe3ab14158"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          10,
+          4,
+          0
+        ]
+      ],
+      "arm": "low",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 5,
+          "defect_source": 6,
+          "k": 9,
+          "numerical_quotas": {
+            "p": 4,
+            "q": 10
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 1
+        }
+      ],
+      "exceptional_original": {
+        "graph_digest": "4ca172f806229a6d162ee9f0ad2a72f792c86de6a318d323515df4bd8210172a",
+        "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+        "record_sha256": "1fb8c088dc5b52557396927f1cb80b300f9d036e5c92f42b9cc006e7186bf42f"
+      },
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-10-04",
+      "strict_original": {
+        "graph_digest": "db6fe09a7de3cbe6655e43756b73e2f984a07804df120b2520a76813972b0ce7",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "724c277b7d1bea16b734937d1bd8736efe38a04dd21ebaf75eac7ba7b771333a"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          4,
+          2,
+          0
+        ],
+        [
+          10,
+          4,
+          0
+        ]
+      ],
+      "arm": "companion",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 9,
+          "defect_source": 8,
+          "k": 9,
+          "numerical_quotas": {
+            "p": 10,
+            "q": 4
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 1
+        },
+        {
+          "defect_image": 6,
+          "defect_source": 5,
+          "k": 9,
+          "numerical_quotas": {
+            "p": 4,
+            "q": 10
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 1
+        },
+        {
+          "defect_image": 7,
+          "defect_source": 6,
+          "k": 9,
+          "numerical_quotas": {
+            "p": 10,
+            "q": 4
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 2
+        }
+      ],
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-10-04",
+      "strict_original": {
+        "graph_digest": "c3fca165450b68a4cbcd9e15d319a78305a9a39fcfd8494b300220f8a4c065db",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "184b5b29955988dc16fc3d12c19874f49f5554939ad2c1c2629ce025b84af25c"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          11,
+          3,
+          0
+        ]
+      ],
+      "arm": "low",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 7,
+          "defect_source": 8,
+          "k": 9,
+          "numerical_quotas": {
+            "p": 11,
+            "q": 3
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 2
+        }
+      ],
+      "exceptional_original": {
+        "graph_digest": "fb41eada9eb150de2ea2bf03fc1c8f87d461c6e21fc4e5217b58162a65566ed7",
+        "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+        "record_sha256": "7ab26090adbf3641fa6278fccaef049a1cba4122d907cfdabbebd81252afd1e5"
+      },
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-11-03",
+      "strict_original": {
+        "graph_digest": "1887ea82be41bc85486b530510974adaedcb1a93581dda56f451c72055d67b7b",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "658a95c11abce8b0476e6d27a12506cd9a54ddc9bcd9aa9d12a1f2dd2bdab6ab"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          12,
+          2,
+          0
+        ]
+      ],
+      "arm": "low",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 4,
+          "defect_source": 5,
+          "k": 9,
+          "numerical_quotas": {
+            "p": 2,
+            "q": 12
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 1
+        }
+      ],
+      "exceptional_original": {
+        "graph_digest": "2b3a3cea337799be1fc6d1c17e5b91bb49dcc00e51f0a13146df55f92127b105",
+        "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+        "record_sha256": "59fafb8848acf174c041d2a219641934371623a6bb9751cdef203f255d5d24dd"
+      },
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-12-02",
+      "strict_original": {
+        "graph_digest": "bce340bc045c394f1fb8f3f83421ec3521dd40b30b868a2b7dd082b43189dfcc",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "3134a19bf003bfb68139a673a3a9423a21ea1cbd5c8ca8c3ef2fb12a78c951ec"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          4,
+          2,
+          0
+        ],
+        [
+          12,
+          2,
+          0
+        ]
+      ],
+      "arm": "companion",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 5,
+          "defect_source": 4,
+          "k": 9,
+          "numerical_quotas": {
+            "p": 2,
+            "q": 12
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 1
+        },
+        {
+          "defect_image": 9,
+          "defect_source": 8,
+          "k": 9,
+          "numerical_quotas": {
+            "p": 12,
+            "q": 2
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 2
+        }
+      ],
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-12-02",
+      "strict_original": {
+        "graph_digest": "48b1388838be1b979b0648620b3020a13cf16a7f1293d26bba16cab6bfc8331c",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "e40c79a97cd048fe5d80c735d786494188ed79695e13b1908a304332110c2039"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          2,
+          14,
+          0
+        ]
+      ],
+      "arm": "low",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 4,
+          "defect_source": 5,
+          "k": 10,
+          "numerical_quotas": {
+            "p": 2,
+            "q": 14
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 1
+        }
+      ],
+      "exceptional_original": {
+        "graph_digest": "138d4197503a855ad1a9d76246783eb82659fc6ee25cc5e9b75b9d3d4736d6c0",
+        "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+        "record_sha256": "92373357d4f546c6237130231bc99534bc6c413ac46764179eddb93e65cc931f"
+      },
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-02-14",
+      "strict_original": {
+        "graph_digest": "26e773a0a9a428947f93a2cde5533453d2e3f32c03c0f1f43bf1d1b6013274a2",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "24017da8f6b0623f01d1a1c8ba4b2a62d2aeb30c30e40607012cd1b59be957b8"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          4,
+          2,
+          0
+        ],
+        [
+          2,
+          14,
+          0
+        ]
+      ],
+      "arm": "companion",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 5,
+          "defect_source": 4,
+          "k": 10,
+          "numerical_quotas": {
+            "p": 2,
+            "q": 14
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 1
+        },
+        {
+          "defect_image": 10,
+          "defect_source": 9,
+          "k": 10,
+          "numerical_quotas": {
+            "p": 14,
+            "q": 2
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 2
+        }
+      ],
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-02-14",
+      "strict_original": {
+        "graph_digest": "9ec1e10b95181f98494731e8f7c14b812dea159c4a3c090c81ba75879f10f670",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "7a774b0490441d7dcf1367d0007a530f2f605ceb7e4af71232a59da2faedb3e1"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          3,
+          13,
+          0
+        ]
+      ],
+      "arm": "low",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 8,
+          "defect_source": 9,
+          "k": 10,
+          "numerical_quotas": {
+            "p": 13,
+            "q": 3
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 2
+        }
+      ],
+      "exceptional_original": {
+        "graph_digest": "b76de29f50ad3c560c87994fce9e8d9f45f54f992767ec35e582694b4df32260",
+        "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+        "record_sha256": "16969c5ee3b5e2c91a3cbc073970b80cc5a5bb9def927c3c7e05250ea1ddc693"
+      },
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-03-13",
+      "strict_original": {
+        "graph_digest": "210857f18f0f0d0815aaeee7cd26b232df04e43b4ee12a3dd17668ec219d255b",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "8a4c77bf7b989d6b33b2ff995c5e5fa74b8d24f9d10de556d70a2a9f8d87dd7b"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          4,
+          12,
+          0
+        ]
+      ],
+      "arm": "low",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 5,
+          "defect_source": 6,
+          "k": 10,
+          "numerical_quotas": {
+            "p": 4,
+            "q": 12
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 1
+        }
+      ],
+      "exceptional_original": {
+        "graph_digest": "ee77f0e01625e02f904bf3aaea0e690b1e5a5fead07a1f57fa84a2be90d3cba3",
+        "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+        "record_sha256": "d333753476d05fd50034a9961800eac99fbd97e92e72188460966cd0bcfc12c8"
+      },
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-04-12",
+      "strict_original": {
+        "graph_digest": "b66216f2fb411ea8d5a19d726b54c1e58bda6824b5931825aa40aca281c75fd9",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "cba88c416e8a33117aa30d40c5850c55cecb0b51d8567fa71c1bacfd0e304dfb"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          4,
+          2,
+          0
+        ],
+        [
+          4,
+          12,
+          0
+        ]
+      ],
+      "arm": "companion",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 6,
+          "defect_source": 5,
+          "k": 10,
+          "numerical_quotas": {
+            "p": 4,
+            "q": 12
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 1
+        },
+        {
+          "defect_image": 10,
+          "defect_source": 9,
+          "k": 10,
+          "numerical_quotas": {
+            "p": 12,
+            "q": 4
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 1
+        },
+        {
+          "defect_image": 8,
+          "defect_source": 7,
+          "k": 10,
+          "numerical_quotas": {
+            "p": 12,
+            "q": 4
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 2
+        }
+      ],
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-04-12",
+      "strict_original": {
+        "graph_digest": "d06e4fb137ca5652123be16c444b953e24e363df80e0f0b70e426932cd5d4213",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "cbf61a3f278d85d5576e27998eeec05e6242cbf2884714cad5a35f0a55131a88"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          5,
+          11,
+          0
+        ]
+      ],
+      "arm": "low",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 6,
+          "defect_source": 7,
+          "k": 10,
+          "numerical_quotas": {
+            "p": 11,
+            "q": 5
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 2
+        }
+      ],
+      "exceptional_original": {
+        "graph_digest": "b1f91191350a5aff603b9e046cd238ae2bc2a8754cd6b1f317a723214c8a937a",
+        "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+        "record_sha256": "62e31be2f9f18cc9a0c2d439bfd4a53900624ebabeca9b3f827bdc1b34f40621"
+      },
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-05-11",
+      "strict_original": {
+        "graph_digest": "a17d1afb6a22e8898027193bf33aff6a2698eb3452696d8d3e5a510247c04ae5",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "af86b88313d85ae90373b84951c46606395d97f2d70450a394c64d584d39ccef"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          6,
+          10,
+          0
+        ]
+      ],
+      "arm": "low",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 6,
+          "defect_source": 7,
+          "k": 10,
+          "numerical_quotas": {
+            "p": 6,
+            "q": 10
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 1
+        },
+        {
+          "defect_image": 8,
+          "defect_source": 9,
+          "k": 10,
+          "numerical_quotas": {
+            "p": 10,
+            "q": 6
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 1
+        }
+      ],
+      "exceptional_original": {
+        "graph_digest": "b02bff6a55ba20889219545dcebf716397e7f745af310a6a1a6a8d2c3e4b531d",
+        "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+        "record_sha256": "c46b531579f79ed61f072dff803aa301710090b481cdffb5c95b8ffc087595cd"
+      },
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-06-10",
+      "strict_original": {
+        "graph_digest": "163561c0424e218be7ebc47a49cd0245c14dfbbbf43ea513dac059c2127f4ca8",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "9548ff40e6961bfd604ccc7eb44518f693ccbd076970aefc9899014548b36e89"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          4,
+          2,
+          0
+        ],
+        [
+          6,
+          10,
+          0
+        ]
+      ],
+      "arm": "companion",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 7,
+          "defect_source": 6,
+          "k": 10,
+          "numerical_quotas": {
+            "p": 6,
+            "q": 10
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 1
+        },
+        {
+          "defect_image": 9,
+          "defect_source": 8,
+          "k": 10,
+          "numerical_quotas": {
+            "p": 10,
+            "q": 6
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 1
+        },
+        {
+          "defect_image": 6,
+          "defect_source": 5,
+          "k": 10,
+          "numerical_quotas": {
+            "p": 10,
+            "q": 6
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 2
+        }
+      ],
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-06-10",
+      "strict_original": {
+        "graph_digest": "505935c791f4907998b69a29813b58e574227d15c4614dd4f5820812a899bdcc",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "c08db6a7e1039660ac8ada04977f2d2175d3347c46685274beb90b55524f23d9"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          7,
+          9,
+          0
+        ]
+      ],
+      "arm": "low",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 4,
+          "defect_source": 5,
+          "k": 10,
+          "numerical_quotas": {
+            "p": 9,
+            "q": 7
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 2
+        }
+      ],
+      "exceptional_original": {
+        "graph_digest": "2a13d9d468e3960df15c8a2b6951d6e351852ab1920cbf8903d48319d8c1f02e",
+        "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+        "record_sha256": "a10ec2ffa4682e07043986331ffab40b770e514a15687d9ca23cdd22de6862c7"
+      },
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-07-09",
+      "strict_original": {
+        "graph_digest": "2700de7b8ff7f8f6c7ce338c28cc838ffe1f3d9cdea310f293f2894d6edba476",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "f8b1c28f9d61a74f6d657dd185af829f5e68ef2a62f5f9155fc38a60940d870e"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          8,
+          8,
+          0
+        ]
+      ],
+      "arm": "low",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 7,
+          "defect_source": 8,
+          "k": 10,
+          "numerical_quotas": {
+            "p": 8,
+            "q": 8
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 1
+        },
+        {
+          "defect_image": 7,
+          "defect_source": 8,
+          "k": 10,
+          "numerical_quotas": {
+            "p": 8,
+            "q": 8
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 1
+        }
+      ],
+      "exceptional_original": {
+        "graph_digest": "f6c7b0aa16ae513102db5133af6deb6bd6059565134f72df0c6ad6dc12a52260",
+        "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+        "record_sha256": "5e0b94f1746ebad7b8ad03296c19c23eb9960fa40401f8c5a811d327b486a718"
+      },
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-08-08",
+      "strict_original": {
+        "graph_digest": "11e844a91165b2d5e64e05faf1a892b089a3cb7769fd76761b90ab94bd76bedf",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "da0925a3f1d3aca1251e20ba42d0ade70e05c5c04e2dc744130ca6aeddf47dde"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          4,
+          2,
+          0
+        ],
+        [
+          8,
+          8,
+          0
+        ]
+      ],
+      "arm": "companion",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 8,
+          "defect_source": 7,
+          "k": 10,
+          "numerical_quotas": {
+            "p": 8,
+            "q": 8
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 1
+        },
+        {
+          "defect_image": 8,
+          "defect_source": 7,
+          "k": 10,
+          "numerical_quotas": {
+            "p": 8,
+            "q": 8
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 1
+        }
+      ],
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-08-08",
+      "strict_original": {
+        "graph_digest": "a320d523c3f693d461c7fc241f5dcb0fa308f01cd5614284453f0119bb8da7ad",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "5078105649fa95b479a2710deb73f43b55e0f71a89cdd8e349a5acaa3e289a65"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          9,
+          7,
+          0
+        ]
+      ],
+      "arm": "low",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 4,
+          "defect_source": 5,
+          "k": 10,
+          "numerical_quotas": {
+            "p": 9,
+            "q": 7
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 2
+        }
+      ],
+      "exceptional_original": {
+        "graph_digest": "87cff9bb79ec8b6a80cac27b9c98ccc0312ca9b2b43b68f9672ff75d2f3537c5",
+        "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+        "record_sha256": "451347880861fbc10b5174543e4065015e76d738e759449a16ee202790bfc34c"
+      },
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-09-07",
+      "strict_original": {
+        "graph_digest": "5517d37e202ee2b488825c2fb0bca19536c56ece2abc2d511e197a33dc0fde07",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "5f8fa6783ff170ab19e48ddb10846772188222d1b44a946a05d4371ba4129b2d"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          10,
+          6,
+          0
+        ]
+      ],
+      "arm": "low",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 8,
+          "defect_source": 9,
+          "k": 10,
+          "numerical_quotas": {
+            "p": 10,
+            "q": 6
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 1
+        },
+        {
+          "defect_image": 6,
+          "defect_source": 7,
+          "k": 10,
+          "numerical_quotas": {
+            "p": 6,
+            "q": 10
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 1
+        }
+      ],
+      "exceptional_original": {
+        "graph_digest": "5dd28060fe07ce97bea875efc06f2b6491c6ca66224fd217df3d5df9c0d96816",
+        "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+        "record_sha256": "eb3d3051731b7e364865d39664990777e952871943f3a80c3a5333c1fb831932"
+      },
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-10-06",
+      "strict_original": {
+        "graph_digest": "6056f9ffa52fdc7a9f51d11f05ed0f4f11d18f8c6120b699b2c0266c1104ece4",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "5ca8029604a920fa2dab28d24c6d72b6ff3e520b4d0af7096daff9a78b6b1eba"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          4,
+          2,
+          0
+        ],
+        [
+          10,
+          6,
+          0
+        ]
+      ],
+      "arm": "companion",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 9,
+          "defect_source": 8,
+          "k": 10,
+          "numerical_quotas": {
+            "p": 10,
+            "q": 6
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 1
+        },
+        {
+          "defect_image": 7,
+          "defect_source": 6,
+          "k": 10,
+          "numerical_quotas": {
+            "p": 6,
+            "q": 10
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 1
+        },
+        {
+          "defect_image": 6,
+          "defect_source": 5,
+          "k": 10,
+          "numerical_quotas": {
+            "p": 10,
+            "q": 6
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 2
+        }
+      ],
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-10-06",
+      "strict_original": {
+        "graph_digest": "ee4e171714b1e862e87dd0a6b38c6aeaf0dfcdcfb17aa1d02b47ffbf6518d4d2",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "deb925d841a9020a8dd4e399ffdac2f23731ed3f590bd7184302133cfb9f5a9d"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          11,
+          5,
+          0
+        ]
+      ],
+      "arm": "low",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 6,
+          "defect_source": 7,
+          "k": 10,
+          "numerical_quotas": {
+            "p": 11,
+            "q": 5
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 2
+        }
+      ],
+      "exceptional_original": {
+        "graph_digest": "b175d8a92dcf34f8bce6e37c85e29ea8b02cb3c1cf3f45e1935ad45660ca7209",
+        "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+        "record_sha256": "156c89caeacb36566500025b1ca0cbc4d1c59b787124ec6665fc151fd82ff091"
+      },
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-11-05",
+      "strict_original": {
+        "graph_digest": "b81a88b238ec6aebe7bc1495044219d32f1e1f3749ca26088518c17d0dc6cc6c",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "68ab6bb0e2808402ca7affd947f5bd012f0c0f925d65c989bdf2844112176389"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          12,
+          4,
+          0
+        ]
+      ],
+      "arm": "low",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 5,
+          "defect_source": 6,
+          "k": 10,
+          "numerical_quotas": {
+            "p": 4,
+            "q": 12
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 1
+        }
+      ],
+      "exceptional_original": {
+        "graph_digest": "ab09b87a3409773d61d3c28d13007031a002b754ede1ad2b5d7ecd812fb3073e",
+        "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+        "record_sha256": "9edef69f3bff8bdb3d2de3a27ed57dc1dfb78cc6dea8b6010d1af0009399851f"
+      },
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-12-04",
+      "strict_original": {
+        "graph_digest": "13764b37b56212cd5c15ac12016844a6632beee5c5449b71567eaf0387fb6ad7",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "04521e00af580dc3aba7e2068b4bf308b3ee5b010c6b7c27d3e97fbac3b7545b"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          4,
+          2,
+          0
+        ],
+        [
+          12,
+          4,
+          0
+        ]
+      ],
+      "arm": "companion",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 10,
+          "defect_source": 9,
+          "k": 10,
+          "numerical_quotas": {
+            "p": 12,
+            "q": 4
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 1
+        },
+        {
+          "defect_image": 6,
+          "defect_source": 5,
+          "k": 10,
+          "numerical_quotas": {
+            "p": 4,
+            "q": 12
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 1
+        },
+        {
+          "defect_image": 8,
+          "defect_source": 7,
+          "k": 10,
+          "numerical_quotas": {
+            "p": 12,
+            "q": 4
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 2
+        }
+      ],
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-12-04",
+      "strict_original": {
+        "graph_digest": "249d85d44cdf5627699218e878ddb59a39cb1fe0d0ab4ab07afe96ea4d31c421",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "8e6c494b95ae443019b249742d6d349ddcf7cdf4d2bc2343b729b4541abfa035"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          13,
+          3,
+          0
+        ]
+      ],
+      "arm": "low",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 8,
+          "defect_source": 9,
+          "k": 10,
+          "numerical_quotas": {
+            "p": 13,
+            "q": 3
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 2
+        }
+      ],
+      "exceptional_original": {
+        "graph_digest": "092283da2198bef12add23de28130c9da60ff5de8aaef7ece5ada8d27b6e2cf1",
+        "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+        "record_sha256": "1011bb61b64612a2b44496f2900bc75ef5d6fbb0e6f4ccda45905698d287dd23"
+      },
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-13-03",
+      "strict_original": {
+        "graph_digest": "67c08f76045dc43ff28ff287da96b73ce709192c56f97c35334fb09d9b3cbe1b",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "1f7ac08894ede055b52b4fa988fb0cbb0995ead16a2659cce926430ab8cedde6"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          14,
+          2,
+          0
+        ]
+      ],
+      "arm": "low",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 4,
+          "defect_source": 5,
+          "k": 10,
+          "numerical_quotas": {
+            "p": 2,
+            "q": 14
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 1
+        }
+      ],
+      "exceptional_original": {
+        "graph_digest": "7b890b000a473e30137c91ccfdc98b0dfcf9a73cd9c722bf383031955de72da1",
+        "prefix_digest": "a5d2cd09c400e774f8ec1160005371e285cd2e14799624141975f47f0d9e2c6a",
+        "record_sha256": "794beb4feb522fb954747fb8a5c5d7d34316a71368a136d4921df1830f6ed6f5"
+      },
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-14-02",
+      "strict_original": {
+        "graph_digest": "46ee9ca13d16097c7c7a116b0df2428ac7e7d17625778bb4a2398451e98e49f5",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "77cdac5b0a3846b0a19cfe5a19081e8b21462514af29fe2ebe6a9f297e41b4f6"
+      }
+    },
+    {
+      "actual_ordered_profiles": [
+        [
+          4,
+          2,
+          0
+        ],
+        [
+          14,
+          2,
+          0
+        ]
+      ],
+      "arm": "companion",
+      "eligible_baseline_roles": [
+        {
+          "defect_image": 5,
+          "defect_source": 4,
+          "k": 10,
+          "numerical_quotas": {
+            "p": 2,
+            "q": 14
+          },
+          "second_branch_indices": {
+            "P": 0,
+            "Q": 1
+          },
+          "separation": 1
+        },
+        {
+          "defect_image": 10,
+          "defect_source": 9,
+          "k": 10,
+          "numerical_quotas": {
+            "p": 14,
+            "q": 2
+          },
+          "second_branch_indices": {
+            "P": 1,
+            "Q": 0
+          },
+          "separation": 2
+        }
+      ],
+      "first_branch_indices": {
+        "negative": 1,
+        "positive": 0
+      },
+      "match": "II-14-02",
+      "strict_original": {
+        "graph_digest": "6df1df635234267c8fe85351faac971433a5dcdfe213f63bed0d1120f025ce28",
+        "prefix_digest": "b83b09ef4a9f0f690266d6e2057debc227f4ba8ab13db6e17ad2c8c4abce6bf0",
+        "record_sha256": "85a9141f8ecf133d2f6fe3d101e452e3b9f0e7e769c1be6e6611c60f758f28ec"
+      }
+    }
+  ],
+  "scope": "Exact read-only projection of the proved fixed-exterior baselines; no numerical labeling results.",
+  "separation_one": {
+    "companion": {
+      "6": 2,
+      "8": 3,
+      "10": 4,
+      "12": 5,
+      "14": 6,
+      "16": 7
+    },
+    "low": {
+      "6": 0,
+      "8": 2,
+      "10": 4,
+      "12": 5,
+      "14": 6,
+      "16": 7
+    }
+  },
+  "separation_two": {
+    "companion": {
+      "6": 2,
+      "8": 2,
+      "10": 4,
+      "12": 4,
+      "14": 6,
+      "16": 6
+    },
+    "low": {
+      "6": 0,
+      "8": 2,
+      "10": 2,
+      "12": 4,
+      "14": 4,
+      "16": 6
+    }
+  },
+  "summary": {
+    "companion_originals": 27,
+    "frozen_D191_records": 584,
+    "low_originals": 42,
+    "matched_pairs": 24,
+    "newly_supplied_companions": 0,
+    "newly_supplied_low_originals": 18,
+    "stratum": "II"
+  },
+  "totals": [
+    6,
+    8,
+    10,
+    12,
+    14,
+    16
+  ]
+}

@@ -827,3 +827,7 @@ For the declared S₋₁ same-phase arrangement with all actual direct leaves an
 ## D192 — Baseline endpoints and anchor supply in the prescribed construction
 
 In the prescribed even-quota movable-defect lists, the low interval gives q≥2h+2 and the companion interval gives q≥2h. There are exactly p/2−1 complete Q exchange pairs in their common interval. Thus p=2 supplies none and p=4 supplies one. The proved two-sign growth uses two disjoint Q pairs. These bounds describe the stated allocation and express no infeasibility for other signed allocations or exteriors. [D192 proof](ORDINARY_SPINE_STRICT_SIGNED_INDEPENDENT_GROWTH.md)
+
+## D193 — Fixed-exterior baseline and parity restrictions
+
+At separation one the folded moment requires even actual Q and P quotas for every successful allocation on that particular exterior. At separation two the forced baseline chains require p≥q+2 and the exact P parity of the arm. Both equal odd h=2 low controls (3,3) and (5,5) fail those exact baseline conditions in either role order. The common Q pairs are exactly the stated initial interval; the proved unequal-growth operation uses one pair. These conclusions leave other strict exteriors and other allocations beyond the stated scopes open. [D193 proof](ORDINARY_SPINE_STRICT_RESIDUE_TWO_ANCHOR_ECONOMY.md)
