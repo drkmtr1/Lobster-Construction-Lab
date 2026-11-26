@@ -1,0 +1,87 @@
+{
+  "historical_replays": 0,
+  "inactive_task_source_modules": 4,
+  "numerical_labeling_search_nodes": 0,
+  "official_campaign_executions": 0,
+  "official_paths_vacant": [
+    "runs/d204-consecutive-positive-coordinated-gap-return-001",
+    "runs/d204-consecutive-positive-coordinated-gap-return-001-approval.json",
+    "evidence/runs/d204-consecutive-positive-coordinated-gap-return-001",
+    "runs/d203-consecutive-positive-safe-gap-return-001",
+    "runs/d203-consecutive-positive-safe-gap-return-001-approval.json",
+    "evidence/runs/d203-consecutive-positive-safe-gap-return-001",
+    "runs/d202-zero-direct-leaf-multi-host-detour-path-001",
+    "runs/d202-zero-direct-leaf-multi-host-detour-path-001-approval.json",
+    "evidence/runs/d202-zero-direct-leaf-multi-host-detour-path-001",
+    "runs/d201-expanded-exterior-multi-host-residue-packets-001",
+    "runs/d201-expanded-exterior-multi-host-residue-packets-001-approval.json",
+    "evidence/runs/d201-expanded-exterior-multi-host-residue-packets-001",
+    "runs/d200-generalized-safe-gap-shell-composition-001",
+    "runs/d200-generalized-safe-gap-shell-composition-001-approval.json",
+    "evidence/runs/d200-generalized-safe-gap-shell-composition-001",
+    "runs/d199-partial-safe-cut-three-gap-chain-001",
+    "runs/d199-partial-safe-cut-three-gap-chain-001-approval.json",
+    "evidence/runs/d199-partial-safe-cut-three-gap-chain-001",
+    "runs/d198-nested-cut-rank-interleaving-001",
+    "runs/d198-nested-cut-rank-interleaving-001-approval.json",
+    "evidence/runs/d198-nested-cut-rank-interleaving-001",
+    "runs/d197-odd-run-cut-repartition-001",
+    "runs/d197-odd-run-cut-repartition-001-approval.json",
+    "evidence/runs/d197-odd-run-cut-repartition-001",
+    "runs/d191-low-capacity-strict-phase-001",
+    "runs/d191-low-capacity-strict-phase-001-approval.json",
+    "evidence/runs/d191-low-capacity-strict-phase-001"
+  ],
+  "original_checker_invocations": 0,
+  "parsed_dependency_definitions": {
+    "lcl/model.py": [
+      "build_graph",
+      "graph_digest"
+    ],
+    "lcl/verify.py": [
+      "verify_certificate",
+      "verify_partial"
+    ]
+  },
+  "parsed_inactive_task_definitions": {
+    "audit.py": [
+      "assign_arms",
+      "audit_resources",
+      "audit_search",
+      "can_finish_order",
+      "physical_weight",
+      "raw_subsets"
+    ],
+    "budget.py": [
+      "Budget",
+      "LimitReached"
+    ],
+    "primary.py": [
+      "compatible_cuts",
+      "forced_plans",
+      "old_geometry",
+      "primary_search",
+      "remove_fixed",
+      "terminal_match",
+      "weak_parts",
+      "width_rows"
+    ],
+    "verify_positive.py": [
+      "changed_resources",
+      "edge_rows",
+      "exact_state",
+      "inventory_partition",
+      "require",
+      "transport_records",
+      "verify_future_positive"
+    ]
+  },
+  "process_cpu_seconds": 0.09375,
+  "raw_bound_inputs": 3,
+  "solver_allocation_states": 0,
+  "source_bindings": 27,
+  "status": "PARSE_ONLY_AND_FIXED_BINDINGS_PASS",
+  "task_bytecode_files": 0,
+  "task_imports": 0,
+  "wall_seconds": 0.3476777000032598
+}

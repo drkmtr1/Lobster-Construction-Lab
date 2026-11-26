@@ -1,0 +1,133 @@
+{
+  "audit_engine_prepared": true,
+  "claimed_lifts": {
+    "conditional_suffix": [
+      "48",
+      "46-c",
+      "c+2"
+    ],
+    "incoming_state": [
+      32,
+      20,
+      12
+    ],
+    "main_resolution": "UNRESOLVED_RESIDUAL_MINIMUM_FRONTIER",
+    "main_return": [
+      "41",
+      "c",
+      "c+2"
+    ],
+    "matched_continuation": [
+      48,
+      26,
+      22
+    ],
+    "matched_return": [
+      41,
+      20,
+      22
+    ],
+    "rank_classes": [
+      "rank_preserving",
+      "rank_changing"
+    ],
+    "residual_cuts": [
+      [
+        14,
+        18
+      ],
+      [
+        14,
+        19
+      ]
+    ],
+    "symbolic_maximum_resolution": "NEGATIVE_INCLUDING_REORDERED_WEIGHTS"
+  },
+  "controls": [
+    "main_41",
+    "main_48_if_admitted",
+    "matched_41",
+    "matched_48"
+  ],
+  "disposition": "PREPARED_UNRESOLVED_NO_EXECUTION_PENDING_DIRECTOR_REVIEW",
+  "execution_authorized": false,
+  "execution_entry": null,
+  "future_allocation_caps": {
+    "audit": {
+      "allocation_states": 2366611480,
+      "cpu_seconds": 345600,
+      "fixed_edge_checks": 281105880,
+      "geometry_entries": 8518360,
+      "live_records": 6,
+      "pair_trials": 5338255680,
+      "placement_attempts": 2561339680,
+      "wall_seconds": 432000
+    },
+    "new_evidence_bytes": 128000000,
+    "primary": {
+      "allocation_states": 225145280,
+      "cpu_seconds": 172800,
+      "fixed_edge_checks": 351307720,
+      "geometry_entries": 8518360,
+      "live_records": 7,
+      "pair_trials": 210605520,
+      "placement_attempts": 14539760,
+      "wall_seconds": 259200
+    },
+    "workers": 1
+  },
+  "preparation_limits": {
+    "new_evidence_bytes": 128000000,
+    "observed_wall_seconds": 3600,
+    "process_cpu_seconds": 1800
+  },
+  "primary_consumer_prepared": true,
+  "raw_inputs": {
+    "ORIGINALS.json": {
+      "bytes": 103581,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_COORDINATED_GAP_RETURN_001_PREP/ORIGINALS.json",
+      "sha256": "538590be0628cbc452fbbf0c991f4c1f8ce42e48024175069b20942189e28569"
+    },
+    "PREFIXES.json": {
+      "bytes": 74288,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_COORDINATED_GAP_RETURN_001_PREP/PREFIXES.json",
+      "sha256": "cd7c1790916a8045934bc975915dfb4b488725927d75cbe449364fe0541310d3"
+    },
+    "SYMBOLIC_CONTROLS.json": {
+      "bytes": 179601,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_COORDINATED_GAP_RETURN_001_PREP/SYMBOLIC_CONTROLS.json",
+      "sha256": "660d9e87bd2c7f86a5e37ba8a80d36d75a165035751a1a7905e715f6c5c90fbc"
+    }
+  },
+  "solver_prepared": false,
+  "task": "LCL-ORDINARY-SPINE-CONSECUTIVE-POSITIVE-COORDINATED-GAP-RETURN-001-PREP",
+  "vacant_paths": [
+    "runs/d204-consecutive-positive-coordinated-gap-return-001",
+    "runs/d204-consecutive-positive-coordinated-gap-return-001-approval.json",
+    "evidence/runs/d204-consecutive-positive-coordinated-gap-return-001",
+    "runs/d203-consecutive-positive-safe-gap-return-001",
+    "runs/d203-consecutive-positive-safe-gap-return-001-approval.json",
+    "evidence/runs/d203-consecutive-positive-safe-gap-return-001",
+    "runs/d202-zero-direct-leaf-multi-host-detour-path-001",
+    "runs/d202-zero-direct-leaf-multi-host-detour-path-001-approval.json",
+    "evidence/runs/d202-zero-direct-leaf-multi-host-detour-path-001",
+    "runs/d201-expanded-exterior-multi-host-residue-packets-001",
+    "runs/d201-expanded-exterior-multi-host-residue-packets-001-approval.json",
+    "evidence/runs/d201-expanded-exterior-multi-host-residue-packets-001",
+    "runs/d200-generalized-safe-gap-shell-composition-001",
+    "runs/d200-generalized-safe-gap-shell-composition-001-approval.json",
+    "evidence/runs/d200-generalized-safe-gap-shell-composition-001",
+    "runs/d199-partial-safe-cut-three-gap-chain-001",
+    "runs/d199-partial-safe-cut-three-gap-chain-001-approval.json",
+    "evidence/runs/d199-partial-safe-cut-three-gap-chain-001",
+    "runs/d198-nested-cut-rank-interleaving-001",
+    "runs/d198-nested-cut-rank-interleaving-001-approval.json",
+    "evidence/runs/d198-nested-cut-rank-interleaving-001",
+    "runs/d197-odd-run-cut-repartition-001",
+    "runs/d197-odd-run-cut-repartition-001-approval.json",
+    "evidence/runs/d197-odd-run-cut-repartition-001",
+    "runs/d191-low-capacity-strict-phase-001",
+    "runs/d191-low-capacity-strict-phase-001-approval.json",
+    "evidence/runs/d191-low-capacity-strict-phase-001"
+  ]
+}

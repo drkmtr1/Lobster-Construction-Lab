@@ -1,0 +1,989 @@
+{
+  "D174_history": {
+    "numerical_arms": 2,
+    "pairs": 1,
+    "stopping_rule": "FIRST_INDEPENDENTLY_VERIFIED_SEPARATOR",
+    "unentered": 3518
+  },
+  "D177_projection": {
+    "admitted_K_frequencies": {
+      "15": 15,
+      "16": 30,
+      "17": 30,
+      "18": 15,
+      "19": 3
+    },
+    "count": 93,
+    "historically_unentered": 92
+  },
+  "D191_numerical_lane": "SYMBOLICALLY_RESOLVED / NO_EXECUTION_NEEDED",
+  "accepted_D191": {
+    "changed_paths": 24,
+    "checkpoint": "afaba9252e6ca3544f9e3429c6a5f0aa82b6119a",
+    "corpus": {
+      "bytes": 5633720,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED_001_PREP/originals.jsonl",
+      "sha256": "60cd06497efe6a2a78523c3e48c8db77d00a907222edbe4fb047843bc51e1355"
+    },
+    "manifest": {
+      "bytes": 10603,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED_001_PREP/MANIFEST.json",
+      "sha256": "d739bb3fe1f6807233c12116e2b620ad0e1341145f4a0fcb696a4dfbd7f7f3e2"
+    },
+    "manifest_bindings": 23,
+    "numerical_lane": "SYMBOLICALLY_RESOLVED / NO_EXECUTION_NEEDED",
+    "proof": {
+      "bytes": 19212,
+      "path": "research/ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED.md",
+      "sha256": "0dfc6b38331e7f1d7fde41058038d5838133b66d7fec8139a61b84da30b781c3"
+    },
+    "source_bindings": 22,
+    "status": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE"
+  },
+  "accepted_D192": {
+    "changed_paths": 11,
+    "checkpoint": "5e2e883e5b502c2ea1274c55de051f10137c5ac1",
+    "manifest": {
+      "bytes": 6346,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_STRICT_SIGNED_INDEPENDENT_GROWTH_001/MANIFEST.json",
+      "sha256": "63d14c19919542140de2e0e802cdc5c90f3940800ac9e375f58cd835b9c0127c"
+    },
+    "manifest_bindings": 10,
+    "projection": {
+      "bytes": 49669,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_STRICT_SIGNED_INDEPENDENT_GROWTH_001/CORPUS_PROJECTION.json",
+      "sha256": "101178794669a3525a78be70186e7a0278014867ed93999a2c3cafb036ccdaaf"
+    },
+    "proof": {
+      "bytes": 29027,
+      "path": "research/ORDINARY_SPINE_STRICT_SIGNED_INDEPENDENT_GROWTH.md",
+      "sha256": "fe93c6a0bad8ea22437cc21a75404555fc3d0df79209e8c0d9f3b0bd8684fed1"
+    },
+    "status": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE"
+  },
+  "accepted_D193": {
+    "changed_paths": 11,
+    "checkpoint": "92a2f2ffe8bc50cb88d1e81b84abed84942ad86b",
+    "manifest": {
+      "bytes": 7577,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_STRICT_RESIDUE_TWO_ANCHOR_ECONOMY_001/MANIFEST.json",
+      "sha256": "dc83e8b86a165e4cb5d32225ed28e39418d047c75402d8b8e3450824ce84526c"
+    },
+    "manifest_bindings": 10,
+    "matched_pairs": 24,
+    "projection": {
+      "bytes": 95377,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_STRICT_RESIDUE_TWO_ANCHOR_ECONOMY_001/CORPUS_PROJECTION.json",
+      "sha256": "8c739c59414ceb462b635ee070e70d10475e189ac05b3a79189b5dc82792057a"
+    },
+    "projection_counts": {
+      "companion": 27,
+      "exceptional": 42,
+      "low": 42,
+      "role_choices": 114
+    },
+    "proof": {
+      "bytes": 33767,
+      "path": "research/ORDINARY_SPINE_STRICT_RESIDUE_TWO_ANCHOR_ECONOMY.md",
+      "sha256": "25ac031c254c9a6166339f18bf67bf56cf47ecc39fb935c9ed975b90a74cfd49"
+    },
+    "status": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE"
+  },
+  "accepted_D194": {
+    "changed_paths": 10,
+    "checkpoint": "415eb2edca5c154bebef3ab0ff6e4b46488987f5",
+    "corrected_crossing_starts": {
+      "E_outbound": 60,
+      "E_reverse": 51,
+      "H_final": 77
+    },
+    "director_acceptance": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE",
+    "manifest": {
+      "bytes": 11619,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_BIDIRECTIONAL_PHASE_TOGGLE_SUPPLIER_001/MANIFEST.json",
+      "sha256": "d00898646cdfbefd708ed346dbd83143fab0224efd0e32eeccdc9af92e64bfb1"
+    },
+    "manifest_bindings": 9,
+    "proof": {
+      "bytes": 37944,
+      "path": "research/ORDINARY_SPINE_BIDIRECTIONAL_PHASE_TOGGLE_SUPPLIER.md",
+      "sha256": "b0d8619c4105ec5e7d68db853293beb6b3031f77381ce9a208d73852d2a175d5"
+    },
+    "verified_control_spectra": 14
+  },
+  "accepted_D195": {
+    "changed_paths": 12,
+    "checkpoint": "ab18b567a9cc674d99319bb351d7652b7d55deb7",
+    "director_acceptance": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE",
+    "director_verified_counts": {
+      "endpoint_checks": 948,
+      "final_inventories": 6,
+      "local_polarity_inventories": 20,
+      "named_gap_arrows": 167,
+      "named_originals": 12,
+      "phase_states": 22,
+      "polarity_checks": 44,
+      "transported_edge_occurrences": 528,
+      "transported_label_occurrences": 536
+    },
+    "manifest": {
+      "bytes": 10768,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_SIZE_INDEPENDENT_LIFT_AND_ORIGINAL_SEED_001/MANIFEST.json",
+      "sha256": "6ffcde3b57bd5a5d769e73d50c9d084bb735f762a64a921404f57310850c4a3a"
+    },
+    "manifest_bindings": 11,
+    "named_controls": {
+      "bytes": 476400,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_SIZE_INDEPENDENT_LIFT_AND_ORIGINAL_SEED_001/NAMED_CONTROLS.json",
+      "sha256": "df2a68de6ce848cb39bf333d4339353fe6597add417ae47cffba8da02293f7c0"
+    },
+    "original_controls": {
+      "bytes": 82470,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_SIZE_INDEPENDENT_LIFT_AND_ORIGINAL_SEED_001/ORIGINAL_CONTROLS.json",
+      "sha256": "87e39fd7c3128e5c40d04f4267eecc3e3cba4aba21813457805d2dd358f05abf"
+    },
+    "proof": {
+      "bytes": 25083,
+      "path": "research/ORDINARY_SPINE_SIZE_INDEPENDENT_LIFT_AND_ORIGINAL_SEED.md",
+      "sha256": "620454a59bf7ba10c6700d6154d2646c90805783813b88e37cdb28f14b578e05"
+    },
+    "source_dependency_bindings": 14
+  },
+  "accepted_D196": {
+    "accepted_final_connectors": [
+      [
+        42,
+        9
+      ],
+      [
+        9,
+        47
+      ],
+      [
+        47,
+        6
+      ],
+      [
+        6,
+        52
+      ],
+      [
+        52,
+        0
+      ],
+      [
+        0,
+        55
+      ]
+    ],
+    "accepted_final_state": [
+      55,
+      30,
+      28
+    ],
+    "accepted_maximum_cut": 26,
+    "accepted_mixed_progression": [
+      4,
+      12,
+      20,
+      46,
+      54,
+      55
+    ],
+    "changed_paths": 12,
+    "checkpoint": "28f2a345e435cb46058a4ff697e8b2458d5624df",
+    "director_acceptance": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE",
+    "director_verified_counts": {
+      "endpoint_differences": 894,
+      "final_inventories": 66,
+      "indexed_originals": 11,
+      "local_polarity_inventories": 44,
+      "named_gap_arrows": 67,
+      "polarity_checks": 64,
+      "supplied_states": 32,
+      "transported_edge_occurrences": 894,
+      "transported_label_occurrences": 958
+    },
+    "manifest": {
+      "bytes": 12274,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_GENERALIZED_ONE_SECTION_CUT_SPECTRUM_001/MANIFEST.json",
+      "sha256": "62074fd5d2ce2a5c7745c662b0f8d9b10b0d2ed41a1b29855c97e2d501a97f22"
+    },
+    "manifest_bindings": 11,
+    "named_controls": {
+      "bytes": 709794,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_GENERALIZED_ONE_SECTION_CUT_SPECTRUM_001/NAMED_CONTROLS.json",
+      "sha256": "4bc2e4e86cbb2d8d11468383a78288699fb1135a72ac29d41b8723d754147322"
+    },
+    "original_controls": {
+      "bytes": 53119,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_GENERALIZED_ONE_SECTION_CUT_SPECTRUM_001/ORIGINAL_CONTROLS.json",
+      "sha256": "7d67cb909d391c418d8cacce52c1080e16bc0fbe19ef1ced261bf317ba5fee5a"
+    },
+    "proof": {
+      "bytes": 26093,
+      "path": "research/ORDINARY_SPINE_GENERALIZED_ONE_SECTION_CUT_SPECTRUM.md",
+      "sha256": "72b0d87b148dba0215ee15bede17adf9b36aa333e01a4394b01ed19076181818"
+    },
+    "source_dependency_bindings": 11
+  },
+  "accepted_D197": {
+    "changed_paths": 24,
+    "checkpoint": "65e27305d949b5f95dc17a0a52b8f8d711321d78",
+    "director_acceptance": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE",
+    "director_counts": {
+      "completed_control_partitions": 8,
+      "endpoint_difference_checks": 144,
+      "full_and_prefix_identities": 6,
+      "odd_cut_incidence_checks": 225,
+      "physical_polarity_checks": 10
+    },
+    "manifest": {
+      "bytes": 16634,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_ODD_RUN_CUT_REPARTITION_001_PREP/MANIFEST.json",
+      "sha256": "36a73be21f11102dbf87a3b01f7676cd7b54a11e7c914b02ea32a40f8d9905a2"
+    },
+    "manifest_bindings": 23,
+    "originals": {
+      "bytes": 25237,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_ODD_RUN_CUT_REPARTITION_001_PREP/ORIGINALS.json",
+      "sha256": "042bcc010fdfc14bdcf0736a0c4cfb773f9dfd97f3e7e7aa57b39cbf24cabc5d"
+    },
+    "prefixes": {
+      "bytes": 7698,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_ODD_RUN_CUT_REPARTITION_001_PREP/PREFIXES.json",
+      "sha256": "f03dada2777a178ee64e50b0b9206d7b6222327eb1da591e4daab2e3c439d3eb"
+    },
+    "proof": {
+      "bytes": 18629,
+      "path": "research/ORDINARY_SPINE_ODD_RUN_CUT_REPARTITION.md",
+      "sha256": "90b3b91455a5ba63b1e3c820b9a313b03d8b20eb09875e639cde8b1806d960d6"
+    },
+    "source_dependency_bindings": 11,
+    "symbolic_controls": {
+      "bytes": 56876,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_ODD_RUN_CUT_REPARTITION_001_PREP/SYMBOLIC_CONTROLS.json",
+      "sha256": "24efa6132d4aa90f94c9590bdd64678404ac829a04e93c4464459033a1525522"
+    }
+  },
+  "accepted_D198": {
+    "changed_paths": 21,
+    "checkpoint": "709789da387a2a3c32a266b6551c1c695b68f426",
+    "director_acceptance": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE",
+    "director_verified_analytical_bounds": {
+      "filtered_raw_subsets": 211284632,
+      "indexed_child_attempt_upper_bound": 1366288713504,
+      "raw_geometries": 290845350,
+      "refined_geometries": 81931201
+    },
+    "director_verified_counts": {
+      "completed_resource_partitions": 8,
+      "endpoint_difference_checks": 242,
+      "full_and_prefix_graph_identities": 8,
+      "literal_connector_checks": 8,
+      "odd_cut_incidence_checks": 225,
+      "physical_polarity_checks": 16
+    },
+    "manifest": {
+      "bytes": 18415,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_NESTED_CUT_RANK_INTERLEAVING_001_PREP/MANIFEST.json",
+      "sha256": "ef909d16e952e45278338e85cf1b7ece92c26412b8f66a1a5bb7b6ffd2169808"
+    },
+    "manifest_bindings": 20,
+    "originals": {
+      "bytes": 30167,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_NESTED_CUT_RANK_INTERLEAVING_001_PREP/ORIGINALS.json",
+      "sha256": "27fcf41b0f1fe47a492eff7ba3f9234d7e9f601651909eaef5f413798680798e"
+    },
+    "prefixes": {
+      "bytes": 9577,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_NESTED_CUT_RANK_INTERLEAVING_001_PREP/PREFIXES.json",
+      "sha256": "74370f15a5c3290fc56b206f419be2a6b83ae8718a3f7026df9eef690ec0dbdd"
+    },
+    "proof": {
+      "bytes": 23020,
+      "path": "research/ORDINARY_SPINE_NESTED_CUT_RANK_INTERLEAVING.md",
+      "sha256": "16574a6329d72bec9f8dcd3894d0a422e615ba1607b139b27f15b63435c0c08b"
+    },
+    "source_dependency_bindings": 10,
+    "symbolic_controls": {
+      "bytes": 106150,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_NESTED_CUT_RANK_INTERLEAVING_001_PREP/SYMBOLIC_CONTROLS.json",
+      "sha256": "c8c88984a3b03b73bd2198003ee36d9848a08e91f29d3d1122da7f8925231d1f"
+    }
+  },
+  "accepted_D199": {
+    "changed_paths": 19,
+    "checkpoint": "0b5433c08cd1960e48bbd489ec53dbdcb4c4b7a5",
+    "director_acceptance": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE",
+    "director_verified_counts": {
+      "completed_resource_partitions": 24,
+      "director_selected_transported_edges": 256,
+      "director_selected_transported_labels": 266,
+      "endpoint_differences": 742,
+      "literal_connectors": 24,
+      "named_graph_identities": 16,
+      "output_cut_incidence_checks": 10360,
+      "physical_polarity_checks": 34,
+      "prefix_cut_incidence_checks": 2718
+    },
+    "manifest": {
+      "bytes": 20015,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_PARTIAL_SAFE_CUT_THREE_GAP_CHAIN_001/MANIFEST.json",
+      "sha256": "636fadb928c446d55297714364749f42984d4b53df713a19bfd4d42fa87fb8b7"
+    },
+    "manifest_bindings": 18,
+    "originals": {
+      "bytes": 76991,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_PARTIAL_SAFE_CUT_THREE_GAP_CHAIN_001/ORIGINALS.json",
+      "sha256": "402c7b5b95d37c1286eec758298dc36bc7cab3a477369598b186db7269211a38"
+    },
+    "prefixes": {
+      "bytes": 59442,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_PARTIAL_SAFE_CUT_THREE_GAP_CHAIN_001/PREFIXES.json",
+      "sha256": "a559ca45a458734392b7a92e9d4dc2f9e85ef69062e52848bff8d24bab39b212"
+    },
+    "proof": {
+      "bytes": 20432,
+      "path": "research/ORDINARY_SPINE_PARTIAL_SAFE_CUT_THREE_GAP_CHAIN.md",
+      "sha256": "c73b4329956bbfbeba772e1e15e93f23e53ca6533c7e3672101a6aa6e5ba5e37"
+    },
+    "source_binding_count": 20,
+    "symbolic_controls": {
+      "bytes": 474761,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_PARTIAL_SAFE_CUT_THREE_GAP_CHAIN_001/SYMBOLIC_CONTROLS.json",
+      "sha256": "c3303b20bf8b2850b1518151e6cb56b52a156dc0cc828108dca8392e27de51fb"
+    }
+  },
+  "accepted_D200": {
+    "artifact_bindings": 13,
+    "authority_and_state_bindings": 5,
+    "changed_paths": 19,
+    "checkpoint": "b13185e26e627ec4261e63c877b4fffac8273ce4",
+    "director_acceptance": "ACCEPT_WITHIN_EXACT_WRITTEN_SCOPE",
+    "director_verified_counts": {
+      "completed_endpoint_differences": 1224,
+      "completed_physical_polarity_states": 44,
+      "completed_resource_partitions": 32,
+      "literal_connectors": 36,
+      "named_graph_records": 20,
+      "partial_endpoint_differences": 56,
+      "partial_resource_partitions": 4,
+      "selected_cut_incidence_checks": 27411,
+      "transported_edge_occurrences": 630,
+      "transported_vertex_label_occurrences": 646
+    },
+    "manifest": {
+      "bytes": 23970,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_GENERALIZED_SAFE_GAP_SHELL_COMPOSITION_001/MANIFEST.json",
+      "sha256": "77aef2b00737557b4575de5414bf3b5783e857a359eb3e46d1701f13a2709435"
+    },
+    "originals": {
+      "bytes": 139526,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_GENERALIZED_SAFE_GAP_SHELL_COMPOSITION_001/ORIGINALS.json",
+      "sha256": "24b7ef99a0d125ceadea063757972a86e4697090928a050a89a1dc008c3e2e54"
+    },
+    "prefixes": {
+      "bytes": 330090,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_GENERALIZED_SAFE_GAP_SHELL_COMPOSITION_001/PREFIXES.json",
+      "sha256": "f1f51148d9ee8d68472e6d00acb91209cb3233d85add45ba2564c43a1908b194"
+    },
+    "proof": {
+      "bytes": 22286,
+      "path": "research/ORDINARY_SPINE_GENERALIZED_SAFE_GAP_SHELL_COMPOSITION.md",
+      "sha256": "2c5c7e18a538aa9826b6fb15e9e47cc4a2c12b25a81a03f20663a7532311da29"
+    },
+    "separate_codex_cut_incidence_checks": 49004,
+    "source_bindings": 24,
+    "symbolic_controls": {
+      "bytes": 761695,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_GENERALIZED_SAFE_GAP_SHELL_COMPOSITION_001/SYMBOLIC_CONTROLS.json",
+      "sha256": "4fc9e13cc115e512f87ee1b3044b37906103583a38366414eae218b23bcc5d14"
+    }
+  },
+  "accepted_D201": {
+    "artifact_bindings": 13,
+    "authority_and_state_bindings": 5,
+    "changed_paths": 19,
+    "checkpoint": "9399d1916b05366a6cc839874fce2dfa9f122570",
+    "corrected_positive_partial_snapshots_verified": 5,
+    "director_acceptance": "ACCEPT_WITHIN_EXACT_WRITTEN_SCOPE",
+    "director_correction": "Individual birth records cover only the vertices born at a boundary; pointwise maps cover the full installed boundary alphabet. This distinction resolved the Director verification procedure discrepancy. The committed records passed.",
+    "director_verified_counts": {
+      "completed_endpoint_differences": 1290,
+      "completed_physical_polarity_states": 30,
+      "completed_resource_partitions": 30,
+      "cut_incidence_checks": 128758,
+      "individual_birth_label_records": 410,
+      "literal_connector_records": 42,
+      "named_graph_identities": 16,
+      "named_residual_transitions": 107,
+      "partial_endpoint_differences": 496,
+      "partial_resource_partitions": 12,
+      "pointwise_label_transports": 946,
+      "transported_edge_occurrences": 934
+    },
+    "manifest": {
+      "bytes": 30026,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXPANDED_EXTERIOR_MULTI_HOST_RESIDUE_PACKETS_001/MANIFEST.json",
+      "sha256": "b1cabe2d5539248c6226fb9965cce3d01a30c3b1997a2d628abaff53c2e54608"
+    },
+    "originals": {
+      "bytes": 180475,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXPANDED_EXTERIOR_MULTI_HOST_RESIDUE_PACKETS_001/ORIGINALS.json",
+      "sha256": "653fb22fb9d6bb55a44339ddd778091c4f2791ea989d048853a933ef91067c6c"
+    },
+    "prefixes": {
+      "bytes": 847148,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXPANDED_EXTERIOR_MULTI_HOST_RESIDUE_PACKETS_001/PREFIXES.json",
+      "sha256": "b1b7dbfbb57a8af6248ec4ad7c482b55ecf281af9a35120ef4e40c01ae2206b1"
+    },
+    "proof": {
+      "bytes": 22309,
+      "path": "research/ORDINARY_SPINE_EXPANDED_EXTERIOR_MULTI_HOST_RESIDUE_PACKETS.md",
+      "sha256": "bd0e28978654eb5ba163956cc96c2b76d1d4880aadc707cbd59b86cbace84fa5"
+    },
+    "source_bindings": 28,
+    "symbolic_controls": {
+      "bytes": 1411487,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXPANDED_EXTERIOR_MULTI_HOST_RESIDUE_PACKETS_001/SYMBOLIC_CONTROLS.json",
+      "sha256": "4c8664cd368e72f66514649062fc3e3f1ea67cf3c7dbfdd982e5a3bb6db75bac"
+    }
+  },
+  "accepted_D202": {
+    "artifact_bindings": 13,
+    "authority_and_state_bindings": 5,
+    "changed_paths": 19,
+    "checkpoint": "163359f82dcc138d1a295ad22450c699a385833b",
+    "director_acceptance": "ACCEPT_WITHIN_EXACT_WRITTEN_SCOPE",
+    "director_verified_counts": {
+      "changed_side_records": 9,
+      "completed_endpoint_differences": 1484,
+      "completed_physical_polarity_states": 26,
+      "completed_resource_partitions": 28,
+      "cut_incidence_checks": 211608,
+      "individual_birth_label_records": 562,
+      "literal_connector_records": 38,
+      "named_graph_identities": 14,
+      "named_residual_transitions": 281,
+      "partial_endpoint_differences": 358,
+      "partial_resource_partitions": 10,
+      "pointwise_label_transports": 1098,
+      "transported_edge_occurrences": 1086
+    },
+    "manifest": {
+      "bytes": 33238,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_ZERO_DIRECT_LEAF_MULTI_HOST_DETOUR_PATH_001/MANIFEST.json",
+      "sha256": "c5b8625398aa33b636c4e4b09ad2619083cda523fa0fbc94bfdb9e4bf6a18e0f"
+    },
+    "originals": {
+      "bytes": 204595,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_ZERO_DIRECT_LEAF_MULTI_HOST_DETOUR_PATH_001/ORIGINALS.json",
+      "sha256": "747cf33134cf0dec886d24d954c8f483f359f9b5e0452a97eeb2d18126c33948"
+    },
+    "prefixes": {
+      "bytes": 836390,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_ZERO_DIRECT_LEAF_MULTI_HOST_DETOUR_PATH_001/PREFIXES.json",
+      "sha256": "24138cca3d3944052214208133c1437fc666b14a5c9e0421b4f9762ca92ebd30"
+    },
+    "proof": {
+      "bytes": 20081,
+      "path": "research/ORDINARY_SPINE_ZERO_DIRECT_LEAF_MULTI_HOST_DETOUR_PATH.md",
+      "sha256": "9899525c2ada4a467d60c78dc3fa0c387c4e2720698b89e34847538175552449"
+    },
+    "source_bindings": 33,
+    "symbolic_controls": {
+      "bytes": 1792869,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_ZERO_DIRECT_LEAF_MULTI_HOST_DETOUR_PATH_001/SYMBOLIC_CONTROLS.json",
+      "sha256": "3aa24bb4f3e8c6da318b5285e62fc3dfb1a078be09d1b30d723a9018903b24c7"
+    }
+  },
+  "accepted_D203": {
+    "artifact_bindings": 13,
+    "authority_and_state_bindings": 5,
+    "changed_paths": 19,
+    "checkpoint": "b0463d5baa5792b2e9083ff20a1fdb0f6785e0cc",
+    "director_acceptance": "ACCEPT_WITHIN_EXACT_WRITTEN_SCOPE",
+    "director_verified_counts": {
+      "changed_side_records": 2,
+      "completed_endpoint_differences": 242,
+      "completed_polarity_states": 6,
+      "completed_resource_partitions": 8,
+      "distinct_graph_digests": 5,
+      "individual_birth_label_records": 98,
+      "named_graph_records": 10,
+      "old_cut_incidence_checks": 2048,
+      "partial_endpoint_differences": 164,
+      "partial_resource_partitions": 4,
+      "pointwise_label_transports": 248,
+      "stored_literal_connectors": 12,
+      "transported_edge_occurrences": 242
+    },
+    "manifest": {
+      "bytes": 31927,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_SAFE_GAP_RETURN_001_PREP/MANIFEST.json",
+      "sha256": "8f4360bfe92e35c11d32d500e4bec663b771fa1b00820811d72ab2b0652e5dee"
+    },
+    "numerical_lane": "SYMBOLICALLY_RESOLVED / NO_EXECUTION_NEEDED",
+    "originals": {
+      "bytes": 103581,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_SAFE_GAP_RETURN_001_PREP/ORIGINALS.json",
+      "sha256": "538590be0628cbc452fbbf0c991f4c1f8ce42e48024175069b20942189e28569"
+    },
+    "prefixes": {
+      "bytes": 65505,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_SAFE_GAP_RETURN_001_PREP/PREFIXES.json",
+      "sha256": "9dafe4cefc458be4f203aa2d383138c69a29253f03d6425baa51eedebaa5db48"
+    },
+    "proof": {
+      "bytes": 17554,
+      "path": "research/ORDINARY_SPINE_CONSECUTIVE_POSITIVE_SAFE_GAP_RETURN_PREPARATION.md",
+      "sha256": "988dfe2c50e1899a3e9a942602303fc1f852b5b46e64a3505981f6a9e8e6acef"
+    },
+    "source_bindings": 22,
+    "symbolic_controls": {
+      "bytes": 178379,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_SAFE_GAP_RETURN_001_PREP/SYMBOLIC_CONTROLS.json",
+      "sha256": "a5a248bf04a90a6cd20ec1ca922643db83360af516a26b86e4740d4f72ea2d05"
+    }
+  },
+  "analytical_bounds": {
+    "audit_allocation_states": 2366611480,
+    "audit_center_proposals": 2561339680,
+    "audit_fixed_edge_checks": 281105880,
+    "audit_pair_trials": 5338255680,
+    "coarse": {
+      "endpoint_filtered_geometries": 114191805,
+      "maximum_improper_prior": 66045,
+      "maximum_positive_A": 18643560,
+      "maximum_proper_prior": 5852925,
+      "maximum_zero_A": 76904685,
+      "minimum_endpoint": 18643560,
+      "prior_child_attempts": 660689100,
+      "prior_combined_geometries": 24562530,
+      "prior_complete_attempts": 15856538400,
+      "raw_geometries": 191096490
+    },
+    "combined": 8518360,
+    "cut18_geometry_occurrences": 6021400,
+    "cut19_geometry_occurrences": 2496960,
+    "primary_allocation_states": 225145280,
+    "primary_fixed_edge_checks": 351307720,
+    "primary_pair_trials": 210605520,
+    "primary_placement_attempts": 14539760
+  },
+  "authoritative_ledgers": {
+    "research/DECISIONS.md": {
+      "bytes": 194073,
+      "sha256": "257c55abb207f7f841534a464c38f1da229e79f1f5a5bcc2c8d83d26d5ca602e"
+    },
+    "research/FAILED_HYPOTHESES.md": {
+      "bytes": 100893,
+      "sha256": "bdf5d223539e632100380acd0c9dd158166ec2a4db2413c7accd5b17fe1b8d31"
+    },
+    "research/FINDINGS.md": {
+      "bytes": 235395,
+      "sha256": "78a20acb61a378a781f8ee7175efafdd5f1ab33249f923daa2553252cf537d93"
+    },
+    "research/PROOF_OBLIGATIONS.md": {
+      "bytes": 134476,
+      "sha256": "a20e0bf8fddfaaedca0efef2e58c80fa6e55e2a99d84dbd39f044742c7dfde3b"
+    }
+  },
+  "canonical_state": {
+    "bytes": 126736,
+    "sha256": "f31cdf7ff7b7e6ea78dd08d552ce6f574b8edc58ef3eb8c712f060242db69ecc"
+  },
+  "claimed_lifts": {
+    "conditional_suffix": [
+      "48",
+      "46-c",
+      "c+2"
+    ],
+    "incoming_state": [
+      32,
+      20,
+      12
+    ],
+    "main_resolution": "UNRESOLVED_RESIDUAL_MINIMUM_FRONTIER",
+    "main_return": [
+      "41",
+      "c",
+      "c+2"
+    ],
+    "matched_continuation": [
+      48,
+      26,
+      22
+    ],
+    "matched_return": [
+      41,
+      20,
+      22
+    ],
+    "rank_classes": [
+      "rank_preserving",
+      "rank_changing"
+    ],
+    "residual_cuts": [
+      [
+        14,
+        18
+      ],
+      [
+        14,
+        19
+      ]
+    ],
+    "symbolic_maximum_resolution": "NEGATIVE_INCLUDING_REORDERED_WEIGHTS"
+  },
+  "compositions": {
+    "matched_48": {
+      "actual_minimum_cut": 26,
+      "actual_polarities": [
+        "minimum",
+        "maximum",
+        "minimum"
+      ],
+      "crossing": [
+        22,
+        48
+      ],
+      "final_actual_connector_pairs": [
+        [
+          5,
+          45
+        ],
+        [
+          45,
+          0
+        ]
+      ],
+      "initial_seed_final_offset": 5,
+      "initial_seed_pulled_back_gaps": {
+        "14": 7
+      },
+      "noncrossing": [
+        1,
+        21
+      ],
+      "normalized_state": [
+        48,
+        26,
+        22
+      ],
+      "sizes": [
+        32,
+        41,
+        48
+      ]
+    }
+  },
+  "continuity": {
+    "baseline_tag": "lcl-v0.1.0-baseline",
+    "branch": "main",
+    "clean_worktree_at_admission": true,
+    "divergence": [
+      0,
+      0
+    ],
+    "live_ancestor": "163359f82dcc138d1a295ad22450c699a385833b",
+    "live_main_at_admission": "b0463d5baa5792b2e9083ff20a1fdb0f6785e0cc",
+    "matching_processes_observed_in_initial_census": 0,
+    "maximum_simultaneous_reviewers": 1,
+    "origin_main_at_admission": "b0463d5baa5792b2e9083ff20a1fdb0f6785e0cc",
+    "tag_object": "fddfc1dd9541324b2ed2de2505bc750b3e3f0b9d",
+    "tag_peel": "36ea1603602491bf3c1c5b81ed4c23aaa2210e70",
+    "upstream_live_main_pins": {
+      "drkmtr1/MDL_Bounded_Search": "e48b94eec4091b4fe189e325cab2eda464409943",
+      "drkmtr1/Math-Discovery-Lab": "858a8c1fcfda87ba40bb1adee498a6131504a803"
+    },
+    "windows_custody_observation": "One observed clean main worktree and one scoped writer. Bounded named-process and .git/runs lock census returned no matches.",
+    "writers": 1
+  },
+  "controls": {
+    "main_41": {
+      "disposition": "PREPARED_UNRESOLVED_RESIDUAL_DOMAIN_NO_EXECUTION",
+      "original_digest": "5554c99f3db5b777a5e139369479c470b9e220753da2193aecbaa3c9ac6d3515"
+    },
+    "main_48_if_admitted": {
+      "disposition": "CONDITIONAL_INTERFACE_ONLY",
+      "original_digest": "1e9d8d99227973991cb6fb850cfbcd44cfac2c3470396886c59a9264bd3de3cb"
+    },
+    "matched_41": {
+      "disposition": "PRESCRIBED_MATCHED_POSITIVE",
+      "edges": 41,
+      "maximum_cut": 22,
+      "normalized_cut": 20,
+      "original_digest": "9e1e04f932faf8c8b41a1fc835419e5c3d7a76063e0e10119fb31cb5bf27ac24",
+      "threshold": 22
+    },
+    "matched_48": {
+      "disposition": "PRESCRIBED_MATCHED_POSITIVE",
+      "edges": 48,
+      "maximum_cut": 23,
+      "normalized_cut": 26,
+      "original_digest": "1f6e94e3293bdf090585064e1634046a6e82f246e738b16da1ea564a1d5b8270",
+      "threshold": 22
+    }
+  },
+  "execution_authorized": false,
+  "execution_entry": null,
+  "files": {
+    "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_COORDINATED_GAP_RETURN_001_PREP/.gitattributes": {
+      "bytes": 70,
+      "sha256": "e33f72c4273d9dd9203d0e6fa4b032a4434fb8300371614b1158d2dcd1560797"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_COORDINATED_GAP_RETURN_001_PREP/CONFIG.json": {
+      "bytes": 4460,
+      "sha256": "19a554374dc9022bb67976da7bc2b92e0430e29fd80c733c957a65b86a057c4e"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_COORDINATED_GAP_RETURN_001_PREP/CUSTODY.json": {
+      "bytes": 32285,
+      "sha256": "92ba1c41b68d24a984520adceb9f5069fba10b1e4e035d4746657665d5230860"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_COORDINATED_GAP_RETURN_001_PREP/EVIDENCE_SCHEMA.json": {
+      "bytes": 1420,
+      "sha256": "d631ad57b2c176a4ba30bb8c90133f6bc437b80633ef4b74181d986a5a9201fd"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_COORDINATED_GAP_RETURN_001_PREP/ORIGINALS.json": {
+      "bytes": 103581,
+      "sha256": "538590be0628cbc452fbbf0c991f4c1f8ce42e48024175069b20942189e28569"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_COORDINATED_GAP_RETURN_001_PREP/PREFIXES.json": {
+      "bytes": 74288,
+      "sha256": "cd7c1790916a8045934bc975915dfb4b488725927d75cbe449364fe0541310d3"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_COORDINATED_GAP_RETURN_001_PREP/PREFLIGHT.json": {
+      "bytes": 3068,
+      "sha256": "a805b432e7de283d67172f0343a5fca2ab5d6c7aa5e758138de2b2146bba89f0"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_COORDINATED_GAP_RETURN_001_PREP/REVIEWS.md": {
+      "bytes": 3256,
+      "sha256": "6d88be22e11d635f42330e674cbdf0db4075fb8fc2e6eed163365a2bf69cf231"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_COORDINATED_GAP_RETURN_001_PREP/RUNTIME.json": {
+      "bytes": 679,
+      "sha256": "74c840c2ea7bf7647a255c79ffc5620bddb43682f01368067a12e1a3b29cc3a4"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_COORDINATED_GAP_RETURN_001_PREP/SOURCE_BINDINGS.json": {
+      "bytes": 6666,
+      "sha256": "299ba82bb5225f3ca93682ef89bb7e94102c5ebdfb8df977bf3a4a5e227fd0d5"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_COORDINATED_GAP_RETURN_001_PREP/SYMBOLIC_CONTROLS.json": {
+      "bytes": 179601,
+      "sha256": "660d9e87bd2c7f86a5e37ba8a80d36d75a165035751a1a7905e715f6c5c90fbc"
+    },
+    "handoffs/CODEX-20261126-d204-coordinated-gap-return-preparation.md": {
+      "bytes": 3324,
+      "sha256": "3ba4fa63e4a85b31dbe52b8d4f584a5d70e2b7515438e2c4f4a6352784f1e34c"
+    },
+    "research/ORDINARY_SPINE_CONSECUTIVE_POSITIVE_COORDINATED_GAP_RETURN_PREPARATION.md": {
+      "bytes": 21394,
+      "sha256": "4c301e1d0e194b3492a8d18adfd2f72b615adcf3858b34c9a83e9c34d2d7bf3b"
+    },
+    "research/coordinated_gap_return_001/CONTRACT.md": {
+      "bytes": 10302,
+      "sha256": "5bb39499951b49be605b85215f8e321089b983a8e0c4e95590bb3d5400a1122f"
+    },
+    "research/coordinated_gap_return_001/audit.py": {
+      "bytes": 5272,
+      "sha256": "ba0f5bb6991086330dc0f73bdc8423b921024b42c65d52efbb7f6d5abccd9ed8"
+    },
+    "research/coordinated_gap_return_001/budget.py": {
+      "bytes": 1500,
+      "sha256": "5c8b5f013e995bae5f905bc5913c5d3d9e62bbcde9de7f1be4f0d485b2e99ed2"
+    },
+    "research/coordinated_gap_return_001/primary.py": {
+      "bytes": 7925,
+      "sha256": "053c77dad6458bfad918ccbd9aa8d61635fd479f89413470611c2dc7b612f122"
+    },
+    "research/coordinated_gap_return_001/verify_positive.py": {
+      "bytes": 8448,
+      "sha256": "da2375a9a372d71358547cd31903445d49969615b3268d5f137a5140a7e1d4b2"
+    }
+  },
+  "future_allocation_caps": {
+    "audit": {
+      "allocation_states": 2366611480,
+      "cpu_seconds": 345600,
+      "fixed_edge_checks": 281105880,
+      "geometry_entries": 8518360,
+      "live_records": 6,
+      "pair_trials": 5338255680,
+      "placement_attempts": 2561339680,
+      "wall_seconds": 432000
+    },
+    "new_evidence_bytes": 128000000,
+    "primary": {
+      "allocation_states": 225145280,
+      "cpu_seconds": 172800,
+      "fixed_edge_checks": 351307720,
+      "geometry_entries": 8518360,
+      "live_records": 7,
+      "pair_trials": 210605520,
+      "placement_attempts": 14539760,
+      "wall_seconds": 259200
+    },
+    "workers": 1
+  },
+  "hash_convention": "Canonical Git LF bytes except pinned input files with scoped -text attributes.",
+  "hypothesis_resolution": "UNRESOLVED_RESIDUAL_MINIMUM_FRONTIER",
+  "independent_verification_counts": {
+    "custody_completed_endpoint_differences": 242,
+    "custody_completed_polarity_states": 6,
+    "custody_completed_resource_partitions": 8,
+    "custody_distinct_graph_digests": 5,
+    "custody_individual_birth_label_records": 98,
+    "custody_named_graph_records": 10,
+    "custody_named_rank_intervals": 32,
+    "custody_old_cut_incidence_checks": 2048,
+    "custody_parsed_inactive_modules": 4,
+    "custody_partial_endpoint_differences": 164,
+    "custody_partial_resource_partitions": 4,
+    "custody_pointwise_label_transports": 248,
+    "custody_side_change_records": 2,
+    "custody_source_bindings": 27,
+    "custody_stored_literal_connectors": 12,
+    "custody_transported_edge_occurrences": 242,
+    "custody_unsafe_witness_checks": 46,
+    "custody_vacant_paths": 27
+  },
+  "maximum_frontier": "SYMBOLICALLY_EXCLUDED_ALL_RANK_ORDERS",
+  "numerical_lanes": {
+    "D191": "SYMBOLICALLY_RESOLVED / NO_EXECUTION_NEEDED",
+    "D197": "SYMBOLICALLY_RESOLVED / NO_EXECUTION_NEEDED",
+    "D198": "SYMBOLICALLY_RESOLVED / NO_EXECUTION_NEEDED",
+    "D203": "SYMBOLICALLY_RESOLVED / NO_EXECUTION_NEEDED"
+  },
+  "outcome": "Prepared unexecuted exact residual minimum-frontier engines after symbolic exclusion of the entire maximum branch, improper cuts and all other minimum cuts.",
+  "parent": "b0463d5baa5792b2e9083ff20a1fdb0f6785e0cc",
+  "preparation_limits": {
+    "new_evidence_bytes": 128000000,
+    "observed_wall_seconds": 3600,
+    "process_cpu_seconds": 1800
+  },
+  "residual_cuts": [
+    [
+      14,
+      18
+    ],
+    [
+      14,
+      19
+    ]
+  ],
+  "review_status": {
+    "implementation_and_evidence_custody": "PASS",
+    "mathematical": "PASS",
+    "maximum_simultaneous_reviewers": 1
+  },
+  "safe_pairs": [
+    [
+      6,
+      26
+    ],
+    [
+      10,
+      22
+    ],
+    [
+      14,
+      18
+    ],
+    [
+      20,
+      12
+    ],
+    [
+      21,
+      11
+    ],
+    [
+      22,
+      10
+    ],
+    [
+      23,
+      8
+    ],
+    [
+      25,
+      6
+    ],
+    [
+      26,
+      4
+    ]
+  ],
+  "schema_version": 1,
+  "scientific_counters": {
+    "historical_replays": 0,
+    "numerical_labeling_search_nodes": 0,
+    "official_campaign_executions": 0,
+    "original_checker_invocations": 0,
+    "solver_allocation_states": 0
+  },
+  "sole_next_action": "Director review of D204 coordinated-gap and weight-reordering return preparation and any symbolic findings.",
+  "source_binding_count": 27,
+  "source_dependencies": {
+    "AGENTS.md": {
+      "bytes": 8301,
+      "sha256": "ddb4b70c24cb5e1725d0c2e4ea8c2d522b4556b62b8bd69fdffd4205ece485db"
+    },
+    "docs/REPOSITORY_CONTINUITY.md": {
+      "bytes": 5354,
+      "sha256": "3f593c77538e567808b03525719acaf46281bf9d47b5335b40df5fceb556bcf0"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_SAFE_GAP_RETURN_001_PREP/CONFIG.json": {
+      "bytes": 3482,
+      "sha256": "ba0ed2ab8c004e4629a67ff95158fe03a77f11a5ef40cf7377fbed82c4766b99"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_SAFE_GAP_RETURN_001_PREP/MANIFEST.json": {
+      "bytes": 31927,
+      "sha256": "8f4360bfe92e35c11d32d500e4bec663b771fa1b00820811d72ab2b0652e5dee"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_SAFE_GAP_RETURN_001_PREP/ORIGINALS.json": {
+      "bytes": 103581,
+      "sha256": "538590be0628cbc452fbbf0c991f4c1f8ce42e48024175069b20942189e28569"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_SAFE_GAP_RETURN_001_PREP/PREFIXES.json": {
+      "bytes": 65505,
+      "sha256": "9dafe4cefc458be4f203aa2d383138c69a29253f03d6425baa51eedebaa5db48"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_SAFE_GAP_RETURN_001_PREP/REVIEWS.md": {
+      "bytes": 2906,
+      "sha256": "e508f9124f5027e52c0d8bee3d0333c683e489aea958d981b6bc4439b69f9ad6"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_SAFE_GAP_RETURN_001_PREP/SYMBOLIC_CONTROLS.json": {
+      "bytes": 178379,
+      "sha256": "a5a248bf04a90a6cd20ec1ca922643db83360af516a26b86e4740d4f72ea2d05"
+    },
+    "lcl/model.py": {
+      "bytes": 10720,
+      "sha256": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6"
+    },
+    "lcl/verify.py": {
+      "bytes": 14075,
+      "sha256": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909"
+    },
+    "research/ORDINARY_SPINE_CONSECUTIVE_POSITIVE_SAFE_GAP_RETURN_PREPARATION.md": {
+      "bytes": 17554,
+      "sha256": "988dfe2c50e1899a3e9a942602303fc1f852b5b46e64a3505981f6a9e8e6acef"
+    },
+    "research/ORDINARY_SPINE_GENERALIZED_ONE_SECTION_CUT_SPECTRUM.md": {
+      "bytes": 26093,
+      "sha256": "72b0d87b148dba0215ee15bede17adf9b36aa333e01a4394b01ed19076181818"
+    },
+    "research/ORDINARY_SPINE_NESTED_CUT_RANK_INTERLEAVING.md": {
+      "bytes": 23020,
+      "sha256": "16574a6329d72bec9f8dcd3894d0a422e615ba1607b139b27f15b63435c0c08b"
+    },
+    "research/ORDINARY_SPINE_PARTIAL_SAFE_CUT_THREE_GAP_CHAIN.md": {
+      "bytes": 20432,
+      "sha256": "c73b4329956bbfbeba772e1e15e93f23e53ca6533c7e3672101a6aa6e5ba5e37"
+    }
+  },
+  "status": "PREPARED_UNRESOLVED_NO_EXECUTION_PENDING_DIRECTOR_REVIEW",
+  "task": "LCL-ORDINARY-SPINE-CONSECUTIVE-POSITIVE-COORDINATED-GAP-RETURN-001-PREP"
+}

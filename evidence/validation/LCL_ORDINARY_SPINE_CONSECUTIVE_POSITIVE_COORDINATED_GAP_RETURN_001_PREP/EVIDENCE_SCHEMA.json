@@ -1,0 +1,65 @@
+{
+  "born_labels": "original vertex names first installed at that boundary only",
+  "composed": [
+    "birth_transports",
+    "final_actual_connector_pairs",
+    "final_inventories_by_original_boundary"
+  ],
+  "cut_tables": [
+    "minimum",
+    "maximum",
+    "witness_missing_crossing_weight for each unsafe cut"
+  ],
+  "executed_scientific_engines": [],
+  "execution_mode": "symbolic proof and prescribed matched endpoint arithmetic",
+  "future_engine_receipt": [
+    "status",
+    "rank_class when present",
+    "compatible_rank_counts",
+    "counters"
+  ],
+  "future_verified_positive": [
+    "actual_old_edges",
+    "rank_inversions",
+    "old_map",
+    "gap_widths",
+    "states",
+    "local_inventories",
+    "final_inventories",
+    "transport",
+    "checker_results"
+  ],
+  "main": [
+    "disposition",
+    "original_digest",
+    "old_input_digest",
+    "w0",
+    "w41",
+    "improper",
+    "no_labeling_generated"
+  ],
+  "matched": [
+    "state",
+    "partial_snapshots",
+    "inventories",
+    "side_changes"
+  ],
+  "named_graph": [
+    "graph",
+    "digest",
+    "edges"
+  ],
+  "numerical_counts": "analytic upper bounds, no traversal in preparation",
+  "original_record": [
+    "original",
+    "prefixes",
+    "prefix_family"
+  ],
+  "pointwise_map": "full transformation on the installed boundary alphabet",
+  "supplied_prefix_record": [
+    "prefix_digest",
+    "state",
+    "source"
+  ],
+  "version": 1
+}

@@ -871,3 +871,7 @@ At N=14,K0=16 with h=10,J0=13,d=6, the all-positive adverse control matches the 
 ## D203 — Exact safe-supported all-unit continuation obstruction
 
 For the exact incoming 32-edge D202 Control A labels and the named (1,1,1,1) continuation, safe-supported increasing old embeddings cannot give P(41,c,c+2) at either extreme. Improper old cuts fail by actual side cardinality or disjoint small terminal weights. At proper cuts w=0 fails an exact high-band incidence count, and w=41 fails oriented lower pairings and the terminal moment. These findings scope the fixed input and requested interface. They leave other embeddings, supplied inputs and output states open. [D203 proof](ORDINARY_SPINE_CONSECUTIVE_POSITIVE_SAFE_GAP_RETURN_PREPARATION.md)
+
+## D204 — Closed branches within arbitrary increasing placements of the fixed input
+
+Both improper-cut cases fail for the required 41-edge return relation, by side size and the same-side diameter bound. The full maximum-frontier branch fails with either numerical old rank order. In the minimum-frontier branch only h=14,C=18 or 19 survive the proved predicates. This is a scoped exclusion of the other branches and no verdict for the two remaining cuts. D203's narrower safe-supported negative remains exact. [D204 proof](ORDINARY_SPINE_CONSECUTIVE_POSITIVE_COORDINATED_GAP_RETURN_PREPARATION.md)

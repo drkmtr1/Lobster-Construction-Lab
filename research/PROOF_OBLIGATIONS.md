@@ -1130,3 +1130,7 @@ The direct consequences of the D201 inherited corridor remain exact. The standar
 ## D203 — Consecutive positive-terminal continuation beyond the registered class
 
 The exact D203 safe-supported main question is resolved symbolically with both extreme branches excluded. Arbitrary unsupported-cut or nonmonotone embeddings, alternate independent inputs, different return states and general consecutive positive-terminal closure remain open. The separate D198 fixed-minimum-input w=0 branch remains unclassified. The D191, D197, D198 and D203 numerical lanes remain closed. [D203 proof](ORDINARY_SPINE_CONSECUTIVE_POSITIVE_SAFE_GAP_RETURN_PREPARATION.md)
+
+## D204 — Residual regular-cut existence after symbolic preparation
+
+The exact fixed-input coordinated-gap question remains unresolved in the minimum-frontier branch with induced cut h=14 and physical cut 18 or 19. Preserve both rank classes. The prepared width-vector and raw-subset consumers have separately reviewed completeness on the reduced domain. No execution is authorized. An eventual positive requires independent original verification at 41 and on the deterministic 48-edge suffix, and a computational negative requires two complete exhaustions. Earlier D203/D198/D197/D191 numerical lanes remain closed, and the separate D198 fixed minimum-input branch remains unclassified. [D204 proof](ORDINARY_SPINE_CONSECUTIVE_POSITIVE_COORDINATED_GAP_RETURN_PREPARATION.md)

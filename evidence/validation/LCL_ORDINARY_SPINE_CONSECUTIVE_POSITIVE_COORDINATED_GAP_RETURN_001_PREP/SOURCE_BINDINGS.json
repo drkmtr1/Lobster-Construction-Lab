@@ -1,0 +1,191 @@
+{
+  "AGENTS.md": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 8301,
+      "sha256": "ddb4b70c24cb5e1725d0c2e4ea8c2d522b4556b62b8bd69fdffd4205ece485db"
+    }
+  },
+  "docs/REPOSITORY_CONTINUITY.md": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 5354,
+      "sha256": "3f593c77538e567808b03525719acaf46281bf9d47b5335b40df5fceb556bcf0"
+    }
+  },
+  "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_COORDINATED_GAP_RETURN_001_PREP/.gitattributes": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 70,
+      "sha256": "e33f72c4273d9dd9203d0e6fa4b032a4434fb8300371614b1158d2dcd1560797"
+    }
+  },
+  "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_COORDINATED_GAP_RETURN_001_PREP/CONFIG.json": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 4460,
+      "sha256": "19a554374dc9022bb67976da7bc2b92e0430e29fd80c733c957a65b86a057c4e"
+    }
+  },
+  "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_COORDINATED_GAP_RETURN_001_PREP/EVIDENCE_SCHEMA.json": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 1420,
+      "sha256": "d631ad57b2c176a4ba30bb8c90133f6bc437b80633ef4b74181d986a5a9201fd"
+    }
+  },
+  "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_COORDINATED_GAP_RETURN_001_PREP/ORIGINALS.json": {
+    "convention": "raw",
+    "identity": {
+      "bytes": 103581,
+      "sha256": "538590be0628cbc452fbbf0c991f4c1f8ce42e48024175069b20942189e28569"
+    }
+  },
+  "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_COORDINATED_GAP_RETURN_001_PREP/PREFIXES.json": {
+    "convention": "raw",
+    "identity": {
+      "bytes": 74288,
+      "sha256": "cd7c1790916a8045934bc975915dfb4b488725927d75cbe449364fe0541310d3"
+    }
+  },
+  "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_COORDINATED_GAP_RETURN_001_PREP/RUNTIME.json": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 679,
+      "sha256": "74c840c2ea7bf7647a255c79ffc5620bddb43682f01368067a12e1a3b29cc3a4"
+    }
+  },
+  "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_COORDINATED_GAP_RETURN_001_PREP/SYMBOLIC_CONTROLS.json": {
+    "convention": "raw",
+    "identity": {
+      "bytes": 179601,
+      "sha256": "660d9e87bd2c7f86a5e37ba8a80d36d75a165035751a1a7905e715f6c5c90fbc"
+    }
+  },
+  "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_SAFE_GAP_RETURN_001_PREP/CONFIG.json": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 3482,
+      "sha256": "ba0ed2ab8c004e4629a67ff95158fe03a77f11a5ef40cf7377fbed82c4766b99"
+    }
+  },
+  "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_SAFE_GAP_RETURN_001_PREP/MANIFEST.json": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 31927,
+      "sha256": "8f4360bfe92e35c11d32d500e4bec663b771fa1b00820811d72ab2b0652e5dee"
+    }
+  },
+  "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_SAFE_GAP_RETURN_001_PREP/ORIGINALS.json": {
+    "convention": "raw",
+    "identity": {
+      "bytes": 103581,
+      "sha256": "538590be0628cbc452fbbf0c991f4c1f8ce42e48024175069b20942189e28569"
+    }
+  },
+  "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_SAFE_GAP_RETURN_001_PREP/PREFIXES.json": {
+    "convention": "raw",
+    "identity": {
+      "bytes": 65505,
+      "sha256": "9dafe4cefc458be4f203aa2d383138c69a29253f03d6425baa51eedebaa5db48"
+    }
+  },
+  "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_SAFE_GAP_RETURN_001_PREP/REVIEWS.md": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 2906,
+      "sha256": "e508f9124f5027e52c0d8bee3d0333c683e489aea958d981b6bc4439b69f9ad6"
+    }
+  },
+  "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_SAFE_GAP_RETURN_001_PREP/SYMBOLIC_CONTROLS.json": {
+    "convention": "raw",
+    "identity": {
+      "bytes": 178379,
+      "sha256": "a5a248bf04a90a6cd20ec1ca922643db83360af516a26b86e4740d4f72ea2d05"
+    }
+  },
+  "lcl/model.py": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 10720,
+      "sha256": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6"
+    }
+  },
+  "lcl/verify.py": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 14075,
+      "sha256": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909"
+    }
+  },
+  "research/ORDINARY_SPINE_CONSECUTIVE_POSITIVE_COORDINATED_GAP_RETURN_PREPARATION.md": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 21394,
+      "sha256": "4c301e1d0e194b3492a8d18adfd2f72b615adcf3858b34c9a83e9c34d2d7bf3b"
+    }
+  },
+  "research/ORDINARY_SPINE_CONSECUTIVE_POSITIVE_SAFE_GAP_RETURN_PREPARATION.md": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 17554,
+      "sha256": "988dfe2c50e1899a3e9a942602303fc1f852b5b46e64a3505981f6a9e8e6acef"
+    }
+  },
+  "research/ORDINARY_SPINE_GENERALIZED_ONE_SECTION_CUT_SPECTRUM.md": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 26093,
+      "sha256": "72b0d87b148dba0215ee15bede17adf9b36aa333e01a4394b01ed19076181818"
+    }
+  },
+  "research/ORDINARY_SPINE_NESTED_CUT_RANK_INTERLEAVING.md": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 23020,
+      "sha256": "16574a6329d72bec9f8dcd3894d0a422e615ba1607b139b27f15b63435c0c08b"
+    }
+  },
+  "research/ORDINARY_SPINE_PARTIAL_SAFE_CUT_THREE_GAP_CHAIN.md": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 20432,
+      "sha256": "c73b4329956bbfbeba772e1e15e93f23e53ca6533c7e3672101a6aa6e5ba5e37"
+    }
+  },
+  "research/coordinated_gap_return_001/CONTRACT.md": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 10302,
+      "sha256": "5bb39499951b49be605b85215f8e321089b983a8e0c4e95590bb3d5400a1122f"
+    }
+  },
+  "research/coordinated_gap_return_001/audit.py": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 5272,
+      "sha256": "ba0f5bb6991086330dc0f73bdc8423b921024b42c65d52efbb7f6d5abccd9ed8"
+    }
+  },
+  "research/coordinated_gap_return_001/budget.py": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 1500,
+      "sha256": "5c8b5f013e995bae5f905bc5913c5d3d9e62bbcde9de7f1be4f0d485b2e99ed2"
+    }
+  },
+  "research/coordinated_gap_return_001/primary.py": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 7925,
+      "sha256": "053c77dad6458bfad918ccbd9aa8d61635fd479f89413470611c2dc7b612f122"
+    }
+  },
+  "research/coordinated_gap_return_001/verify_positive.py": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 8448,
+      "sha256": "da2375a9a372d71358547cd31903445d49969615b3268d5f137a5140a7e1d4b2"
+    }
+  }
+}
