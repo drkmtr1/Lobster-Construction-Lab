@@ -1110,3 +1110,7 @@ The exact registered increasing two-translation odd continuation and the earlier
 ## D198 — Beyond the supplied strict odd continuation
 
 The registered existential question is resolved by an exact symbolic witness on the original named graph. Rank reversibility is available on all nested-cut prefixes, and the construction of a nested-cut input can carry arbitrary finite terminal-free runs. Independent fresh-parent allocation, more general initial prefixes and arbitrary original-spine decomposition remain open. A returned strict state alone does not verify all-cut nesting, which is a separate actual-edge chain test. D197 and D191 remain closed, and D198 needs no official run. [D198 proof](ORDINARY_SPINE_NESTED_CUT_RANK_INTERLEAVING.md)
+
+## D199 — Beyond the three-gap chain supplier
+
+The parameterized supplier, independent input families, complete output safe-cut set and admitted D196 suffix composition are proved. Safe output coordinates organize old-part gaps for a later step. General compatible fresh-parent allocation, broader positive-terminal state closure and arbitrary original-spine decomposition remain open. D198 remains Director accepted, the fixed minimum-input w=0 branch remains unclassified, and D191, D197 and D198 numerical lanes remain closed. [D199 proof](ORDINARY_SPINE_PARTIAL_SAFE_CUT_THREE_GAP_CHAIN.md)

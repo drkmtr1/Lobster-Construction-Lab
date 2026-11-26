@@ -1,0 +1,47 @@
+{
+  "adverse": [
+    "graph_digest",
+    "prefix_digest",
+    "exact_residual_labels",
+    "exact_residual_differences",
+    "residual_sum_difference",
+    "required_displacement",
+    "fixed_partial_placement"
+  ],
+  "affirmative": [
+    "graph_digest",
+    "prefix_digest",
+    "state",
+    "inventories",
+    "chain",
+    "old_embedding",
+    "side_changes",
+    "minimum_safe_cut_table"
+  ],
+  "arithmetic": "endpoint subtraction on prescribed maps",
+  "executed_scientific_engines": [],
+  "mixed": [
+    "later_stages",
+    "final_state",
+    "old_prefix_vs_final_inventories",
+    "first_receiving_vs_final_inventories",
+    "first_follow_on_vs_final_inventories",
+    "pulled_back_original_embedding",
+    "final_actual_connector"
+  ],
+  "original_record": [
+    "original",
+    "original_digest",
+    "prefix_graph",
+    "prefix_digest",
+    "prefix_family",
+    "receiving_spine"
+  ],
+  "prefix_record": [
+    "prefix_digest",
+    "state",
+    "cut_table",
+    "required_cut_thresholds"
+  ],
+  "version": 1
+}

@@ -1,0 +1,142 @@
+{
+  "AGENTS.md": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 8301,
+      "sha256": "ddb4b70c24cb5e1725d0c2e4ea8c2d522b4556b62b8bd69fdffd4205ece485db"
+    }
+  },
+  "evidence/validation/LCL_ORDINARY_SPINE_NESTED_CUT_RANK_INTERLEAVING_001_PREP/MANIFEST.json": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 18415,
+      "sha256": "ef909d16e952e45278338e85cf1b7ece92c26412b8f66a1a5bb7b6ffd2169808"
+    }
+  },
+  "evidence/validation/LCL_ORDINARY_SPINE_NESTED_CUT_RANK_INTERLEAVING_001_PREP/ORIGINALS.json": {
+    "convention": "raw",
+    "identity": {
+      "bytes": 30167,
+      "sha256": "27fcf41b0f1fe47a492eff7ba3f9234d7e9f601651909eaef5f413798680798e"
+    }
+  },
+  "evidence/validation/LCL_ORDINARY_SPINE_NESTED_CUT_RANK_INTERLEAVING_001_PREP/PREFIXES.json": {
+    "convention": "raw",
+    "identity": {
+      "bytes": 9577,
+      "sha256": "74370f15a5c3290fc56b206f419be2a6b83ae8718a3f7026df9eef690ec0dbdd"
+    }
+  },
+  "evidence/validation/LCL_ORDINARY_SPINE_NESTED_CUT_RANK_INTERLEAVING_001_PREP/SYMBOLIC_CONTROLS.json": {
+    "convention": "raw",
+    "identity": {
+      "bytes": 106150,
+      "sha256": "c8c88984a3b03b73bd2198003ee36d9848a08e91f29d3d1122da7f8925231d1f"
+    }
+  },
+  "evidence/validation/LCL_ORDINARY_SPINE_PARTIAL_SAFE_CUT_THREE_GAP_CHAIN_001/.gitattributes": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 137,
+      "sha256": "fbd5889a9393ce40b644d018c7d6381db6b7aff9f8aae6f2203470a8343c8f5e"
+    }
+  },
+  "evidence/validation/LCL_ORDINARY_SPINE_PARTIAL_SAFE_CUT_THREE_GAP_CHAIN_001/CONFIG.json": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 2239,
+      "sha256": "eaee1020bfc8a42b8f97c58db47ee2533c4116f3cf07928d87080ee32070c7eb"
+    }
+  },
+  "evidence/validation/LCL_ORDINARY_SPINE_PARTIAL_SAFE_CUT_THREE_GAP_CHAIN_001/EVIDENCE_SCHEMA.json": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 1018,
+      "sha256": "4328e82d14b400eebc8e4129a0962a8b3a38aec3cbbcae1644c3f5414f9f190d"
+    }
+  },
+  "evidence/validation/LCL_ORDINARY_SPINE_PARTIAL_SAFE_CUT_THREE_GAP_CHAIN_001/ORIGINALS.json": {
+    "convention": "raw",
+    "identity": {
+      "bytes": 76991,
+      "sha256": "402c7b5b95d37c1286eec758298dc36bc7cab3a477369598b186db7269211a38"
+    }
+  },
+  "evidence/validation/LCL_ORDINARY_SPINE_PARTIAL_SAFE_CUT_THREE_GAP_CHAIN_001/PREFIXES.json": {
+    "convention": "raw",
+    "identity": {
+      "bytes": 59442,
+      "sha256": "a559ca45a458734392b7a92e9d4dc2f9e85ef69062e52848bff8d24bab39b212"
+    }
+  },
+  "evidence/validation/LCL_ORDINARY_SPINE_PARTIAL_SAFE_CUT_THREE_GAP_CHAIN_001/RUNTIME.json": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 679,
+      "sha256": "74c840c2ea7bf7647a255c79ffc5620bddb43682f01368067a12e1a3b29cc3a4"
+    }
+  },
+  "evidence/validation/LCL_ORDINARY_SPINE_PARTIAL_SAFE_CUT_THREE_GAP_CHAIN_001/SYMBOLIC_CONTROLS.json": {
+    "convention": "raw",
+    "identity": {
+      "bytes": 474761,
+      "sha256": "c3303b20bf8b2850b1518151e6cb56b52a156dc0cc828108dca8392e27de51fb"
+    }
+  },
+  "lcl/model.py": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 10720,
+      "sha256": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6"
+    }
+  },
+  "lcl/verify.py": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 14075,
+      "sha256": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909"
+    }
+  },
+  "research/ORDINARY_SPINE_GENERALIZED_ONE_SECTION_CUT_SPECTRUM.md": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 26093,
+      "sha256": "72b0d87b148dba0215ee15bede17adf9b36aa333e01a4394b01ed19076181818"
+    }
+  },
+  "research/ORDINARY_SPINE_NESTED_CUT_RANK_INTERLEAVING.md": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 23020,
+      "sha256": "16574a6329d72bec9f8dcd3894d0a422e615ba1607b139b27f15b63435c0c08b"
+    }
+  },
+  "research/ORDINARY_SPINE_ODD_RUN_CUT_REPARTITION.md": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 18629,
+      "sha256": "90b3b91455a5ba63b1e3c820b9a313b03d8b20eb09875e639cde8b1806d960d6"
+    }
+  },
+  "research/ORDINARY_SPINE_PARTIAL_SAFE_CUT_THREE_GAP_CHAIN.md": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 20432,
+      "sha256": "c73b4329956bbfbeba772e1e15e93f23e53ca6533c7e3672101a6aa6e5ba5e37"
+    }
+  },
+  "research/ORDINARY_SPINE_PIECEWISE_CUT_SPECTRUM_TRANSITION.md": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 16708,
+      "sha256": "2b9b52c24293110f8e0b59b4ac73af11e4c14e77cb5ff7355ced236b6d271839"
+    }
+  },
+  "research/nested_cut_rank_interleaving_001/config.json": {
+    "convention": "canonical-lf",
+    "identity": {
+      "bytes": 3067,
+      "sha256": "ef97b29f32695159507b8e3488a0d946f785e544632194bb98e2d0581de865dc"
+    }
+  }
+}

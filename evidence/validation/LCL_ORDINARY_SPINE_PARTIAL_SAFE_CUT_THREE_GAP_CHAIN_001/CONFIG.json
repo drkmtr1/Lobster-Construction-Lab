@@ -1,0 +1,72 @@
+{
+  "claimed_supplier": {
+    "n": "4p+7",
+    "ordered_quota_profile": [
+      "p",
+      "3p+1",
+      0,
+      1
+    ],
+    "p_min": 1,
+    "safe_cuts": [
+      3,
+      4,
+      "n-1"
+    ],
+    "threshold_conditions": [
+      "1 or 2",
+      "other of 1,2",
+      "n-1"
+    ]
+  },
+  "controls": [
+    "p1",
+    "p2",
+    "p3",
+    "boundary_q0_1_a0",
+    "reversed_threshold",
+    "nonnested",
+    "moment_adverse",
+    "mixed"
+  ],
+  "disposition": "PROVED_WITHIN_EXACT_SCOPE_PENDING_DIRECTOR_REVIEW",
+  "execution_authorized": false,
+  "execution_entry": null,
+  "prep_limits": {
+    "new_evidence_bytes": 128000000,
+    "observed_wall_seconds": 3600,
+    "process_cpu_seconds": 1800
+  },
+  "raw_inputs": {
+    "ORIGINALS.json": {
+      "bytes": 76991,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_PARTIAL_SAFE_CUT_THREE_GAP_CHAIN_001/ORIGINALS.json",
+      "sha256": "402c7b5b95d37c1286eec758298dc36bc7cab3a477369598b186db7269211a38"
+    },
+    "PREFIXES.json": {
+      "bytes": 59442,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_PARTIAL_SAFE_CUT_THREE_GAP_CHAIN_001/PREFIXES.json",
+      "sha256": "a559ca45a458734392b7a92e9d4dc2f9e85ef69062e52848bff8d24bab39b212"
+    },
+    "SYMBOLIC_CONTROLS.json": {
+      "bytes": 474761,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_PARTIAL_SAFE_CUT_THREE_GAP_CHAIN_001/SYMBOLIC_CONTROLS.json",
+      "sha256": "c3303b20bf8b2850b1518151e6cb56b52a156dc0cc828108dca8392e27de51fb"
+    }
+  },
+  "task": "LCL-ORDINARY-SPINE-PARTIAL-SAFE-CUT-THREE-GAP-CHAIN-001",
+  "vacant_paths": [
+    "runs/d199-partial-safe-cut-three-gap-chain-001",
+    "runs/d199-partial-safe-cut-three-gap-chain-001-approval.json",
+    "evidence/runs/d199-partial-safe-cut-three-gap-chain-001",
+    "runs/d198-nested-cut-rank-interleaving-001",
+    "runs/d198-nested-cut-rank-interleaving-001-approval.json",
+    "evidence/runs/d198-nested-cut-rank-interleaving-001",
+    "runs/d197-odd-run-cut-repartition-001",
+    "runs/d197-odd-run-cut-repartition-001-approval.json",
+    "evidence/runs/d197-odd-run-cut-repartition-001",
+    "runs/d191-low-capacity-strict-phase-001",
+    "runs/d191-low-capacity-strict-phase-001-approval.json",
+    "evidence/runs/d191-low-capacity-strict-phase-001"
+  ]
+}

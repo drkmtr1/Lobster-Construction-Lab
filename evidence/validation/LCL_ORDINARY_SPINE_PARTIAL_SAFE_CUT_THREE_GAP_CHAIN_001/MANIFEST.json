@@ -1,0 +1,564 @@
+{
+  "D174_history": {
+    "numerical_arms": 2,
+    "pairs": 1,
+    "stopping_rule": "FIRST_INDEPENDENTLY_VERIFIED_SEPARATOR",
+    "unentered": 3518
+  },
+  "D177_projection": {
+    "admitted_K_frequencies": {
+      "15": 15,
+      "16": 30,
+      "17": 30,
+      "18": 15,
+      "19": 3
+    },
+    "count": 93,
+    "historically_unentered": 92
+  },
+  "D191_numerical_lane": "SYMBOLICALLY_RESOLVED / NO_EXECUTION_NEEDED",
+  "D198_reproduction": {
+    "edges": 30,
+    "identical_named_labelings": true,
+    "minimum_safe_thresholds": {
+      "10": 20,
+      "14": 16,
+      "15": 14,
+      "16": 13,
+      "17": 12,
+      "18": 10,
+      "19": 9,
+      "20": 8,
+      "21": 7,
+      "22": 6,
+      "23": 5,
+      "24": 4,
+      "6": 24
+    },
+    "prefix_edges": 15,
+    "safe_cut_count": 13
+  },
+  "accepted_D191": {
+    "changed_paths": 24,
+    "checkpoint": "afaba9252e6ca3544f9e3429c6a5f0aa82b6119a",
+    "corpus": {
+      "bytes": 5633720,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED_001_PREP/originals.jsonl",
+      "sha256": "60cd06497efe6a2a78523c3e48c8db77d00a907222edbe4fb047843bc51e1355"
+    },
+    "manifest": {
+      "bytes": 10603,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED_001_PREP/MANIFEST.json",
+      "sha256": "d739bb3fe1f6807233c12116e2b620ad0e1341145f4a0fcb696a4dfbd7f7f3e2"
+    },
+    "manifest_bindings": 23,
+    "numerical_lane": "SYMBOLICALLY_RESOLVED / NO_EXECUTION_NEEDED",
+    "proof": {
+      "bytes": 19212,
+      "path": "research/ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED.md",
+      "sha256": "0dfc6b38331e7f1d7fde41058038d5838133b66d7fec8139a61b84da30b781c3"
+    },
+    "source_bindings": 22,
+    "status": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE"
+  },
+  "accepted_D192": {
+    "changed_paths": 11,
+    "checkpoint": "5e2e883e5b502c2ea1274c55de051f10137c5ac1",
+    "manifest": {
+      "bytes": 6346,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_STRICT_SIGNED_INDEPENDENT_GROWTH_001/MANIFEST.json",
+      "sha256": "63d14c19919542140de2e0e802cdc5c90f3940800ac9e375f58cd835b9c0127c"
+    },
+    "manifest_bindings": 10,
+    "projection": {
+      "bytes": 49669,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_STRICT_SIGNED_INDEPENDENT_GROWTH_001/CORPUS_PROJECTION.json",
+      "sha256": "101178794669a3525a78be70186e7a0278014867ed93999a2c3cafb036ccdaaf"
+    },
+    "proof": {
+      "bytes": 29027,
+      "path": "research/ORDINARY_SPINE_STRICT_SIGNED_INDEPENDENT_GROWTH.md",
+      "sha256": "fe93c6a0bad8ea22437cc21a75404555fc3d0df79209e8c0d9f3b0bd8684fed1"
+    },
+    "status": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE"
+  },
+  "accepted_D193": {
+    "changed_paths": 11,
+    "checkpoint": "92a2f2ffe8bc50cb88d1e81b84abed84942ad86b",
+    "manifest": {
+      "bytes": 7577,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_STRICT_RESIDUE_TWO_ANCHOR_ECONOMY_001/MANIFEST.json",
+      "sha256": "dc83e8b86a165e4cb5d32225ed28e39418d047c75402d8b8e3450824ce84526c"
+    },
+    "manifest_bindings": 10,
+    "matched_pairs": 24,
+    "projection": {
+      "bytes": 95377,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_STRICT_RESIDUE_TWO_ANCHOR_ECONOMY_001/CORPUS_PROJECTION.json",
+      "sha256": "8c739c59414ceb462b635ee070e70d10475e189ac05b3a79189b5dc82792057a"
+    },
+    "projection_counts": {
+      "companion": 27,
+      "exceptional": 42,
+      "low": 42,
+      "role_choices": 114
+    },
+    "proof": {
+      "bytes": 33767,
+      "path": "research/ORDINARY_SPINE_STRICT_RESIDUE_TWO_ANCHOR_ECONOMY.md",
+      "sha256": "25ac031c254c9a6166339f18bf67bf56cf47ecc39fb935c9ed975b90a74cfd49"
+    },
+    "status": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE"
+  },
+  "accepted_D194": {
+    "changed_paths": 10,
+    "checkpoint": "415eb2edca5c154bebef3ab0ff6e4b46488987f5",
+    "corrected_crossing_starts": {
+      "E_outbound": 60,
+      "E_reverse": 51,
+      "H_final": 77
+    },
+    "director_acceptance": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE",
+    "manifest": {
+      "bytes": 11619,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_BIDIRECTIONAL_PHASE_TOGGLE_SUPPLIER_001/MANIFEST.json",
+      "sha256": "d00898646cdfbefd708ed346dbd83143fab0224efd0e32eeccdc9af92e64bfb1"
+    },
+    "manifest_bindings": 9,
+    "proof": {
+      "bytes": 37944,
+      "path": "research/ORDINARY_SPINE_BIDIRECTIONAL_PHASE_TOGGLE_SUPPLIER.md",
+      "sha256": "b0d8619c4105ec5e7d68db853293beb6b3031f77381ce9a208d73852d2a175d5"
+    },
+    "verified_control_spectra": 14
+  },
+  "accepted_D195": {
+    "changed_paths": 12,
+    "checkpoint": "ab18b567a9cc674d99319bb351d7652b7d55deb7",
+    "director_acceptance": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE",
+    "director_verified_counts": {
+      "endpoint_checks": 948,
+      "final_inventories": 6,
+      "local_polarity_inventories": 20,
+      "named_gap_arrows": 167,
+      "named_originals": 12,
+      "phase_states": 22,
+      "polarity_checks": 44,
+      "transported_edge_occurrences": 528,
+      "transported_label_occurrences": 536
+    },
+    "manifest": {
+      "bytes": 10768,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_SIZE_INDEPENDENT_LIFT_AND_ORIGINAL_SEED_001/MANIFEST.json",
+      "sha256": "6ffcde3b57bd5a5d769e73d50c9d084bb735f762a64a921404f57310850c4a3a"
+    },
+    "manifest_bindings": 11,
+    "named_controls": {
+      "bytes": 476400,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_SIZE_INDEPENDENT_LIFT_AND_ORIGINAL_SEED_001/NAMED_CONTROLS.json",
+      "sha256": "df2a68de6ce848cb39bf333d4339353fe6597add417ae47cffba8da02293f7c0"
+    },
+    "original_controls": {
+      "bytes": 82470,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_SIZE_INDEPENDENT_LIFT_AND_ORIGINAL_SEED_001/ORIGINAL_CONTROLS.json",
+      "sha256": "87e39fd7c3128e5c40d04f4267eecc3e3cba4aba21813457805d2dd358f05abf"
+    },
+    "proof": {
+      "bytes": 25083,
+      "path": "research/ORDINARY_SPINE_SIZE_INDEPENDENT_LIFT_AND_ORIGINAL_SEED.md",
+      "sha256": "620454a59bf7ba10c6700d6154d2646c90805783813b88e37cdb28f14b578e05"
+    },
+    "source_dependency_bindings": 14
+  },
+  "accepted_D196": {
+    "accepted_final_connectors": [
+      [
+        42,
+        9
+      ],
+      [
+        9,
+        47
+      ],
+      [
+        47,
+        6
+      ],
+      [
+        6,
+        52
+      ],
+      [
+        52,
+        0
+      ],
+      [
+        0,
+        55
+      ]
+    ],
+    "accepted_final_state": [
+      55,
+      30,
+      28
+    ],
+    "accepted_maximum_cut": 26,
+    "accepted_mixed_progression": [
+      4,
+      12,
+      20,
+      46,
+      54,
+      55
+    ],
+    "changed_paths": 12,
+    "checkpoint": "28f2a345e435cb46058a4ff697e8b2458d5624df",
+    "director_acceptance": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE",
+    "director_verified_counts": {
+      "endpoint_differences": 894,
+      "final_inventories": 66,
+      "indexed_originals": 11,
+      "local_polarity_inventories": 44,
+      "named_gap_arrows": 67,
+      "polarity_checks": 64,
+      "supplied_states": 32,
+      "transported_edge_occurrences": 894,
+      "transported_label_occurrences": 958
+    },
+    "manifest": {
+      "bytes": 12274,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_GENERALIZED_ONE_SECTION_CUT_SPECTRUM_001/MANIFEST.json",
+      "sha256": "62074fd5d2ce2a5c7745c662b0f8d9b10b0d2ed41a1b29855c97e2d501a97f22"
+    },
+    "manifest_bindings": 11,
+    "named_controls": {
+      "bytes": 709794,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_GENERALIZED_ONE_SECTION_CUT_SPECTRUM_001/NAMED_CONTROLS.json",
+      "sha256": "4bc2e4e86cbb2d8d11468383a78288699fb1135a72ac29d41b8723d754147322"
+    },
+    "original_controls": {
+      "bytes": 53119,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_GENERALIZED_ONE_SECTION_CUT_SPECTRUM_001/ORIGINAL_CONTROLS.json",
+      "sha256": "7d67cb909d391c418d8cacce52c1080e16bc0fbe19ef1ced261bf317ba5fee5a"
+    },
+    "proof": {
+      "bytes": 26093,
+      "path": "research/ORDINARY_SPINE_GENERALIZED_ONE_SECTION_CUT_SPECTRUM.md",
+      "sha256": "72b0d87b148dba0215ee15bede17adf9b36aa333e01a4394b01ed19076181818"
+    },
+    "source_dependency_bindings": 11
+  },
+  "accepted_D197": {
+    "changed_paths": 24,
+    "checkpoint": "65e27305d949b5f95dc17a0a52b8f8d711321d78",
+    "director_acceptance": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE",
+    "director_counts": {
+      "completed_control_partitions": 8,
+      "endpoint_difference_checks": 144,
+      "full_and_prefix_identities": 6,
+      "odd_cut_incidence_checks": 225,
+      "physical_polarity_checks": 10
+    },
+    "manifest": {
+      "bytes": 16634,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_ODD_RUN_CUT_REPARTITION_001_PREP/MANIFEST.json",
+      "sha256": "36a73be21f11102dbf87a3b01f7676cd7b54a11e7c914b02ea32a40f8d9905a2"
+    },
+    "manifest_bindings": 23,
+    "originals": {
+      "bytes": 25237,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_ODD_RUN_CUT_REPARTITION_001_PREP/ORIGINALS.json",
+      "sha256": "042bcc010fdfc14bdcf0736a0c4cfb773f9dfd97f3e7e7aa57b39cbf24cabc5d"
+    },
+    "prefixes": {
+      "bytes": 7698,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_ODD_RUN_CUT_REPARTITION_001_PREP/PREFIXES.json",
+      "sha256": "f03dada2777a178ee64e50b0b9206d7b6222327eb1da591e4daab2e3c439d3eb"
+    },
+    "proof": {
+      "bytes": 18629,
+      "path": "research/ORDINARY_SPINE_ODD_RUN_CUT_REPARTITION.md",
+      "sha256": "90b3b91455a5ba63b1e3c820b9a313b03d8b20eb09875e639cde8b1806d960d6"
+    },
+    "source_dependency_bindings": 11,
+    "symbolic_controls": {
+      "bytes": 56876,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_ODD_RUN_CUT_REPARTITION_001_PREP/SYMBOLIC_CONTROLS.json",
+      "sha256": "24efa6132d4aa90f94c9590bdd64678404ac829a04e93c4464459033a1525522"
+    }
+  },
+  "accepted_D198": {
+    "changed_paths": 21,
+    "checkpoint": "709789da387a2a3c32a266b6551c1c695b68f426",
+    "director_acceptance": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE",
+    "director_verified_analytical_bounds": {
+      "filtered_raw_subsets": 211284632,
+      "indexed_child_attempt_upper_bound": 1366288713504,
+      "raw_geometries": 290845350,
+      "refined_geometries": 81931201
+    },
+    "director_verified_counts": {
+      "completed_resource_partitions": 8,
+      "endpoint_difference_checks": 242,
+      "full_and_prefix_graph_identities": 8,
+      "literal_connector_checks": 8,
+      "odd_cut_incidence_checks": 225,
+      "physical_polarity_checks": 16
+    },
+    "manifest": {
+      "bytes": 18415,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_NESTED_CUT_RANK_INTERLEAVING_001_PREP/MANIFEST.json",
+      "sha256": "ef909d16e952e45278338e85cf1b7ece92c26412b8f66a1a5bb7b6ffd2169808"
+    },
+    "manifest_bindings": 20,
+    "originals": {
+      "bytes": 30167,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_NESTED_CUT_RANK_INTERLEAVING_001_PREP/ORIGINALS.json",
+      "sha256": "27fcf41b0f1fe47a492eff7ba3f9234d7e9f601651909eaef5f413798680798e"
+    },
+    "prefixes": {
+      "bytes": 9577,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_NESTED_CUT_RANK_INTERLEAVING_001_PREP/PREFIXES.json",
+      "sha256": "74370f15a5c3290fc56b206f419be2a6b83ae8718a3f7026df9eef690ec0dbdd"
+    },
+    "proof": {
+      "bytes": 23020,
+      "path": "research/ORDINARY_SPINE_NESTED_CUT_RANK_INTERLEAVING.md",
+      "sha256": "16574a6329d72bec9f8dcd3894d0a422e615ba1607b139b27f15b63435c0c08b"
+    },
+    "source_dependency_bindings": 10,
+    "symbolic_controls": {
+      "bytes": 106150,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_NESTED_CUT_RANK_INTERLEAVING_001_PREP/SYMBOLIC_CONTROLS.json",
+      "sha256": "c8c88984a3b03b73bd2198003ee36d9848a08e91f29d3d1122da7f8925231d1f"
+    }
+  },
+  "authoritative_ledgers": {
+    "research/DECISIONS.md": {
+      "bytes": 187604,
+      "sha256": "116c80f1cbbfb7f20ebf934229996991e341bd37bc423343e0bd273e4a27d674"
+    },
+    "research/FAILED_HYPOTHESES.md": {
+      "bytes": 97737,
+      "sha256": "471561cadb4ea50d7110f18c4fa54ed42a2d7808d69f108d7b7a53810f4ebf67"
+    },
+    "research/FINDINGS.md": {
+      "bytes": 229132,
+      "sha256": "c6e752f4a7d41dad1df9d89a85ad69c8ed16cfa98abb96aed2408b7ba58ed058"
+    },
+    "research/PROOF_OBLIGATIONS.md": {
+      "bytes": 130787,
+      "sha256": "0e7bb3a3ed3b9f19f2fece0bad355e8e12d704320b6a3b14a9e11959be52666e"
+    }
+  },
+  "canonical_state": {
+    "bytes": 122149,
+    "sha256": "62ab9ad458dd544ae9e9640974a5834f9c9d6217c50a9b9cda50518633ce0122"
+  },
+  "claimed_supplier": {
+    "n": "4p+7",
+    "ordered_quota_profile": [
+      "p",
+      "3p+1",
+      0,
+      1
+    ],
+    "p_min": 1,
+    "safe_cuts": [
+      3,
+      4,
+      "n-1"
+    ],
+    "threshold_conditions": [
+      "1 or 2",
+      "other of 1,2",
+      "n-1"
+    ]
+  },
+  "controls": {
+    "fully_placed_states": 17,
+    "moment_adverse": 1,
+    "original_records": 8,
+    "prefix_records": 8,
+    "prescribed_positive_originals": 7
+  },
+  "execution_authorized": false,
+  "execution_entry": null,
+  "files": {
+    "evidence/validation/LCL_ORDINARY_SPINE_PARTIAL_SAFE_CUT_THREE_GAP_CHAIN_001/.gitattributes": {
+      "bytes": 137,
+      "sha256": "fbd5889a9393ce40b644d018c7d6381db6b7aff9f8aae6f2203470a8343c8f5e"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_PARTIAL_SAFE_CUT_THREE_GAP_CHAIN_001/CONFIG.json": {
+      "bytes": 2239,
+      "sha256": "eaee1020bfc8a42b8f97c58db47ee2533c4116f3cf07928d87080ee32070c7eb"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_PARTIAL_SAFE_CUT_THREE_GAP_CHAIN_001/CUSTODY.json": {
+      "bytes": 17382,
+      "sha256": "dafa9bc2ca751454a1c7f4899ad25a5069c57d36eaee346c5443f5474a2e0a29"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_PARTIAL_SAFE_CUT_THREE_GAP_CHAIN_001/EVIDENCE_SCHEMA.json": {
+      "bytes": 1018,
+      "sha256": "4328e82d14b400eebc8e4129a0962a8b3a38aec3cbbcae1644c3f5414f9f190d"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_PARTIAL_SAFE_CUT_THREE_GAP_CHAIN_001/ORIGINALS.json": {
+      "bytes": 76991,
+      "sha256": "402c7b5b95d37c1286eec758298dc36bc7cab3a477369598b186db7269211a38"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_PARTIAL_SAFE_CUT_THREE_GAP_CHAIN_001/PREFIXES.json": {
+      "bytes": 59442,
+      "sha256": "a559ca45a458734392b7a92e9d4dc2f9e85ef69062e52848bff8d24bab39b212"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_PARTIAL_SAFE_CUT_THREE_GAP_CHAIN_001/PREFLIGHT.json": {
+      "bytes": 1138,
+      "sha256": "51c3395b0f7974767c591e5cbcbd4e0d0c8683a9d5065aadcde2a0f0c578083a"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_PARTIAL_SAFE_CUT_THREE_GAP_CHAIN_001/REVIEWS.md": {
+      "bytes": 3184,
+      "sha256": "b779862dd0ba79bfdbe5dab4adb467b545416d91741bddd4e00cd653bb539625"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_PARTIAL_SAFE_CUT_THREE_GAP_CHAIN_001/RUNTIME.json": {
+      "bytes": 679,
+      "sha256": "74c840c2ea7bf7647a255c79ffc5620bddb43682f01368067a12e1a3b29cc3a4"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_PARTIAL_SAFE_CUT_THREE_GAP_CHAIN_001/SOURCE_BINDINGS.json": {
+      "bytes": 4844,
+      "sha256": "9f1bfdc53c1d9269553788d113cf91be432666de83102a6f5a60de605f8c6bba"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_PARTIAL_SAFE_CUT_THREE_GAP_CHAIN_001/SYMBOLIC_CONTROLS.json": {
+      "bytes": 474761,
+      "sha256": "c3303b20bf8b2850b1518151e6cb56b52a156dc0cc828108dca8392e27de51fb"
+    },
+    "handoffs/CODEX-20261126-d199-partial-safe-cut-three-gap-chain.md": {
+      "bytes": 3468,
+      "sha256": "666fdb8ad0a19155d92f13419da15805c246ebce7fd88546218f4402f0c731ab"
+    },
+    "research/ORDINARY_SPINE_PARTIAL_SAFE_CUT_THREE_GAP_CHAIN.md": {
+      "bytes": 20432,
+      "sha256": "c73b4329956bbfbeba772e1e15e93f23e53ca6533c7e3672101a6aa6e5ba5e37"
+    }
+  },
+  "hash_convention": "Canonical Git LF bytes except pinned input files with scoped -text attributes.",
+  "independent_verification_counts": {
+    "actual_endpoint_differences": 742,
+    "adverse_partial_inventories": 2,
+    "completed_connectors": 24,
+    "completed_resource_partitions": 24,
+    "mixed_birth_edge_transports": 228,
+    "mixed_birth_label_transports": 234,
+    "named_graph_records": 16,
+    "output_cut_predicates": 10360,
+    "physical_polarity_checks": 34,
+    "prefix_cut_predicates": 2718
+  },
+  "mixed": {
+    "actual_cuts": [
+      17,
+      18,
+      25
+    ],
+    "first_connector_final": [
+      5,
+      42
+    ],
+    "least_crossing_weights": [
+      16,
+      20,
+      24
+    ],
+    "original_pulled_back_gaps": {
+      "14": 19,
+      "3": 1,
+      "4": 1
+    },
+    "port_labels": [
+      30,
+      0,
+      46
+    ],
+    "sizes": [
+      30,
+      38,
+      46
+    ]
+  },
+  "numerical_lanes": {
+    "D191": "SYMBOLICALLY_RESOLVED / NO_EXECUTION_NEEDED",
+    "D197": "SYMBOLICALLY_RESOLVED / NO_EXECUTION_NEEDED",
+    "D198": "SYMBOLICALLY_RESOLVED / NO_EXECUTION_NEEDED"
+  },
+  "outcome": "Partial-safe-cut reversible ranks, exact terminal-free transport, the parameterized three-gap chain, complete cut classification for its output, and admitted mixed suffix transport.",
+  "parent": "709789da387a2a3c32a266b6551c1c695b68f426",
+  "preparation_limits": {
+    "new_evidence_bytes": 128000000,
+    "observed_wall_seconds": 3600,
+    "process_cpu_seconds": 1800
+  },
+  "review_status": {
+    "implementation_and_evidence_custody": "PASS",
+    "mathematical": "PASS",
+    "maximum_simultaneous_reviewers": 1
+  },
+  "schema_version": 1,
+  "scientific_counters": {
+    "historical_replays": 0,
+    "numerical_labeling_search_nodes": 0,
+    "official_campaign_executions": 0,
+    "original_checker_invocations": 0,
+    "solver_allocation_states": 0
+  },
+  "sole_next_action": "Director review of D199 partial-safe-cut rank theorem and three-gap chain supplier.",
+  "source_binding_count": 20,
+  "source_dependencies": {
+    "AGENTS.md": {
+      "bytes": 8301,
+      "sha256": "ddb4b70c24cb5e1725d0c2e4ea8c2d522b4556b62b8bd69fdffd4205ece485db"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_NESTED_CUT_RANK_INTERLEAVING_001_PREP/MANIFEST.json": {
+      "bytes": 18415,
+      "sha256": "ef909d16e952e45278338e85cf1b7ece92c26412b8f66a1a5bb7b6ffd2169808"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_NESTED_CUT_RANK_INTERLEAVING_001_PREP/ORIGINALS.json": {
+      "bytes": 30167,
+      "sha256": "27fcf41b0f1fe47a492eff7ba3f9234d7e9f601651909eaef5f413798680798e"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_NESTED_CUT_RANK_INTERLEAVING_001_PREP/PREFIXES.json": {
+      "bytes": 9577,
+      "sha256": "74370f15a5c3290fc56b206f419be2a6b83ae8718a3f7026df9eef690ec0dbdd"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_NESTED_CUT_RANK_INTERLEAVING_001_PREP/SYMBOLIC_CONTROLS.json": {
+      "bytes": 106150,
+      "sha256": "c8c88984a3b03b73bd2198003ee36d9848a08e91f29d3d1122da7f8925231d1f"
+    },
+    "lcl/model.py": {
+      "bytes": 10720,
+      "sha256": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6"
+    },
+    "lcl/verify.py": {
+      "bytes": 14075,
+      "sha256": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909"
+    },
+    "research/ORDINARY_SPINE_GENERALIZED_ONE_SECTION_CUT_SPECTRUM.md": {
+      "bytes": 26093,
+      "sha256": "72b0d87b148dba0215ee15bede17adf9b36aa333e01a4394b01ed19076181818"
+    },
+    "research/ORDINARY_SPINE_NESTED_CUT_RANK_INTERLEAVING.md": {
+      "bytes": 23020,
+      "sha256": "16574a6329d72bec9f8dcd3894d0a422e615ba1607b139b27f15b63435c0c08b"
+    },
+    "research/ORDINARY_SPINE_ODD_RUN_CUT_REPARTITION.md": {
+      "bytes": 18629,
+      "sha256": "90b3b91455a5ba63b1e3c820b9a313b03d8b20eb09875e639cde8b1806d960d6"
+    },
+    "research/ORDINARY_SPINE_PIECEWISE_CUT_SPECTRUM_TRANSITION.md": {
+      "bytes": 16708,
+      "sha256": "2b9b52c24293110f8e0b59b4ac73af11e4c14e77cb5ff7355ced236b6d271839"
+    },
+    "research/nested_cut_rank_interleaving_001/config.json": {
+      "bytes": 3067,
+      "sha256": "ef97b29f32695159507b8e3488a0d946f785e544632194bb98e2d0581de865dc"
+    }
+  },
+  "status": "PROVED_WITHIN_EXACT_SCOPE_PENDING_DIRECTOR_REVIEW",
+  "task": "LCL-ORDINARY-SPINE-PARTIAL-SAFE-CUT-THREE-GAP-CHAIN-001"
+}

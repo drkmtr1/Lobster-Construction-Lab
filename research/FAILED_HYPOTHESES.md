@@ -851,3 +851,7 @@ The fixed old odd-prefix labeling cannot extend to strict P(30,14,16) under the 
 ## D198 — Scope of single-gap exclusion and output nesting
 
 The accepted D197 negative is exact for its two-translation class. D198's three-gap witness on the same frozen input establishes that this exclusion cannot extend to arbitrary increasing embeddings. A valid monotone continuation need not preserve all-cut nesting: the completed 11-edge control has incomparable actual cut intervals of weights one and two. All-cut output nesting requires the merged chain on both old and fresh incidences. The original fixed-minimum-order w=0 branch remains unclassified by the w=30 witness. [D198 proof](ORDINARY_SPINE_NESTED_CUT_RANK_INTERLEAVING.md)
+
+## D199 — Scoped unsafe support and fixed-template moment failure
+
+At any unsafe cut a unit insertion repeats a pair of adjacent original weights. Coordinated unsafe insertions can preserve order, and collision-free vectors can change order. The Family C controls give both distinctions. At n=8 with receiving quotas (1,1,0,1), all three old cuts are admitted but the exact fixed-template residual moment is 1 instead of the required 4. This original remains eligible for other placements. The three-gap output has unsafe minimum cuts 3 and 4 and even size, so the identical D199 template cannot immediately reapply. [D199 proof](ORDINARY_SPINE_PARTIAL_SAFE_CUT_THREE_GAP_CHAIN.md)
