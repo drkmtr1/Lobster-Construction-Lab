@@ -1,0 +1,457 @@
+{
+  "D174_history": {
+    "numerical_arms": 2,
+    "pairs": 1,
+    "stopping_rule": "FIRST_INDEPENDENTLY_VERIFIED_SEPARATOR",
+    "unentered": 3518
+  },
+  "D177_projection": {
+    "admitted_K_frequencies": {
+      "15": 15,
+      "16": 30,
+      "17": 30,
+      "18": 15,
+      "19": 3
+    },
+    "count": 93,
+    "historically_unentered": 92
+  },
+  "D191_numerical_lane": "SYMBOLICALLY_RESOLVED / NO_EXECUTION_NEEDED",
+  "accepted_D191": {
+    "changed_paths": 24,
+    "checkpoint": "afaba9252e6ca3544f9e3429c6a5f0aa82b6119a",
+    "corpus": {
+      "bytes": 5633720,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED_001_PREP/originals.jsonl",
+      "sha256": "60cd06497efe6a2a78523c3e48c8db77d00a907222edbe4fb047843bc51e1355"
+    },
+    "manifest": {
+      "bytes": 10603,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED_001_PREP/MANIFEST.json",
+      "sha256": "d739bb3fe1f6807233c12116e2b620ad0e1341145f4a0fcb696a4dfbd7f7f3e2"
+    },
+    "manifest_bindings": 23,
+    "numerical_lane": "SYMBOLICALLY_RESOLVED / NO_EXECUTION_NEEDED",
+    "proof": {
+      "bytes": 19212,
+      "path": "research/ORDINARY_SPINE_LOW_CAPACITY_STRICT_PHASE_MATCHED.md",
+      "sha256": "0dfc6b38331e7f1d7fde41058038d5838133b66d7fec8139a61b84da30b781c3"
+    },
+    "source_bindings": 22,
+    "status": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE"
+  },
+  "accepted_D192": {
+    "changed_paths": 11,
+    "checkpoint": "5e2e883e5b502c2ea1274c55de051f10137c5ac1",
+    "manifest": {
+      "bytes": 6346,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_STRICT_SIGNED_INDEPENDENT_GROWTH_001/MANIFEST.json",
+      "sha256": "63d14c19919542140de2e0e802cdc5c90f3940800ac9e375f58cd835b9c0127c"
+    },
+    "manifest_bindings": 10,
+    "projection": {
+      "bytes": 49669,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_STRICT_SIGNED_INDEPENDENT_GROWTH_001/CORPUS_PROJECTION.json",
+      "sha256": "101178794669a3525a78be70186e7a0278014867ed93999a2c3cafb036ccdaaf"
+    },
+    "proof": {
+      "bytes": 29027,
+      "path": "research/ORDINARY_SPINE_STRICT_SIGNED_INDEPENDENT_GROWTH.md",
+      "sha256": "fe93c6a0bad8ea22437cc21a75404555fc3d0df79209e8c0d9f3b0bd8684fed1"
+    },
+    "status": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE"
+  },
+  "accepted_D193": {
+    "changed_paths": 11,
+    "checkpoint": "92a2f2ffe8bc50cb88d1e81b84abed84942ad86b",
+    "manifest": {
+      "bytes": 7577,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_STRICT_RESIDUE_TWO_ANCHOR_ECONOMY_001/MANIFEST.json",
+      "sha256": "dc83e8b86a165e4cb5d32225ed28e39418d047c75402d8b8e3450824ce84526c"
+    },
+    "manifest_bindings": 10,
+    "matched_pairs": 24,
+    "projection": {
+      "bytes": 95377,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_STRICT_RESIDUE_TWO_ANCHOR_ECONOMY_001/CORPUS_PROJECTION.json",
+      "sha256": "8c739c59414ceb462b635ee070e70d10475e189ac05b3a79189b5dc82792057a"
+    },
+    "projection_counts": {
+      "companion": 27,
+      "exceptional": 42,
+      "low": 42,
+      "role_choices": 114
+    },
+    "proof": {
+      "bytes": 33767,
+      "path": "research/ORDINARY_SPINE_STRICT_RESIDUE_TWO_ANCHOR_ECONOMY.md",
+      "sha256": "25ac031c254c9a6166339f18bf67bf56cf47ecc39fb935c9ed975b90a74cfd49"
+    },
+    "status": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE"
+  },
+  "accepted_D194": {
+    "changed_paths": 10,
+    "checkpoint": "415eb2edca5c154bebef3ab0ff6e4b46488987f5",
+    "corrected_crossing_starts": {
+      "E_outbound": 60,
+      "E_reverse": 51,
+      "H_final": 77
+    },
+    "director_acceptance": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE",
+    "manifest": {
+      "bytes": 11619,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_BIDIRECTIONAL_PHASE_TOGGLE_SUPPLIER_001/MANIFEST.json",
+      "sha256": "d00898646cdfbefd708ed346dbd83143fab0224efd0e32eeccdc9af92e64bfb1"
+    },
+    "manifest_bindings": 9,
+    "proof": {
+      "bytes": 37944,
+      "path": "research/ORDINARY_SPINE_BIDIRECTIONAL_PHASE_TOGGLE_SUPPLIER.md",
+      "sha256": "b0d8619c4105ec5e7d68db853293beb6b3031f77381ce9a208d73852d2a175d5"
+    },
+    "verified_control_spectra": 14
+  },
+  "accepted_D195": {
+    "changed_paths": 12,
+    "checkpoint": "ab18b567a9cc674d99319bb351d7652b7d55deb7",
+    "director_acceptance": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE",
+    "director_verified_counts": {
+      "endpoint_checks": 948,
+      "final_inventories": 6,
+      "local_polarity_inventories": 20,
+      "named_gap_arrows": 167,
+      "named_originals": 12,
+      "phase_states": 22,
+      "polarity_checks": 44,
+      "transported_edge_occurrences": 528,
+      "transported_label_occurrences": 536
+    },
+    "manifest": {
+      "bytes": 10768,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_SIZE_INDEPENDENT_LIFT_AND_ORIGINAL_SEED_001/MANIFEST.json",
+      "sha256": "6ffcde3b57bd5a5d769e73d50c9d084bb735f762a64a921404f57310850c4a3a"
+    },
+    "manifest_bindings": 11,
+    "named_controls": {
+      "bytes": 476400,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_SIZE_INDEPENDENT_LIFT_AND_ORIGINAL_SEED_001/NAMED_CONTROLS.json",
+      "sha256": "df2a68de6ce848cb39bf333d4339353fe6597add417ae47cffba8da02293f7c0"
+    },
+    "original_controls": {
+      "bytes": 82470,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_SIZE_INDEPENDENT_LIFT_AND_ORIGINAL_SEED_001/ORIGINAL_CONTROLS.json",
+      "sha256": "87e39fd7c3128e5c40d04f4267eecc3e3cba4aba21813457805d2dd358f05abf"
+    },
+    "proof": {
+      "bytes": 25083,
+      "path": "research/ORDINARY_SPINE_SIZE_INDEPENDENT_LIFT_AND_ORIGINAL_SEED.md",
+      "sha256": "620454a59bf7ba10c6700d6154d2646c90805783813b88e37cdb28f14b578e05"
+    },
+    "source_dependency_bindings": 14
+  },
+  "accepted_D196": {
+    "accepted_final_connectors": [
+      [
+        42,
+        9
+      ],
+      [
+        9,
+        47
+      ],
+      [
+        47,
+        6
+      ],
+      [
+        6,
+        52
+      ],
+      [
+        52,
+        0
+      ],
+      [
+        0,
+        55
+      ]
+    ],
+    "accepted_final_state": [
+      55,
+      30,
+      28
+    ],
+    "accepted_maximum_cut": 26,
+    "accepted_mixed_progression": [
+      4,
+      12,
+      20,
+      46,
+      54,
+      55
+    ],
+    "changed_paths": 12,
+    "checkpoint": "28f2a345e435cb46058a4ff697e8b2458d5624df",
+    "director_acceptance": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE",
+    "director_verified_counts": {
+      "endpoint_differences": 894,
+      "final_inventories": 66,
+      "indexed_originals": 11,
+      "local_polarity_inventories": 44,
+      "named_gap_arrows": 67,
+      "polarity_checks": 64,
+      "supplied_states": 32,
+      "transported_edge_occurrences": 894,
+      "transported_label_occurrences": 958
+    },
+    "manifest": {
+      "bytes": 12274,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_GENERALIZED_ONE_SECTION_CUT_SPECTRUM_001/MANIFEST.json",
+      "sha256": "62074fd5d2ce2a5c7745c662b0f8d9b10b0d2ed41a1b29855c97e2d501a97f22"
+    },
+    "manifest_bindings": 11,
+    "named_controls": {
+      "bytes": 709794,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_GENERALIZED_ONE_SECTION_CUT_SPECTRUM_001/NAMED_CONTROLS.json",
+      "sha256": "4bc2e4e86cbb2d8d11468383a78288699fb1135a72ac29d41b8723d754147322"
+    },
+    "original_controls": {
+      "bytes": 53119,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_GENERALIZED_ONE_SECTION_CUT_SPECTRUM_001/ORIGINAL_CONTROLS.json",
+      "sha256": "7d67cb909d391c418d8cacce52c1080e16bc0fbe19ef1ced261bf317ba5fee5a"
+    },
+    "proof": {
+      "bytes": 26093,
+      "path": "research/ORDINARY_SPINE_GENERALIZED_ONE_SECTION_CUT_SPECTRUM.md",
+      "sha256": "72b0d87b148dba0215ee15bede17adf9b36aa333e01a4394b01ed19076181818"
+    },
+    "source_dependency_bindings": 11
+  },
+  "authoritative_ledgers": {
+    "research/DECISIONS.md": {
+      "bytes": 184212,
+      "sha256": "e72e1d37528a4a1660169d7ebb9bcddc00a7d0307a0505344fbb4c67cff5b020"
+    },
+    "research/FAILED_HYPOTHESES.md": {
+      "bytes": 96403,
+      "sha256": "19cfbe1c9baddb580287703daa273b6155d4b99b79d768ba2a91f5260cdcf230"
+    },
+    "research/FINDINGS.md": {
+      "bytes": 226595,
+      "sha256": "dc0320261ad5425f8c0bbd3e31d1cbf822484782cb30aa7dbfcb5d13e69c60eb"
+    },
+    "research/PROOF_OBLIGATIONS.md": {
+      "bytes": 129523,
+      "sha256": "f6be2992eda16e885decd04a9c5f55d4ca345ed8b13d01010b13f605a1c88fad"
+    }
+  },
+  "canonical_state": {
+    "bytes": 120090,
+    "sha256": "ecd37143b7fd7dd505ed1a471f4ed544455337f89ae48aabd39a177187ed906b"
+  },
+  "execution_authorized": false,
+  "execution_entry": null,
+  "files": {
+    "evidence/validation/LCL_ORDINARY_SPINE_ODD_RUN_CUT_REPARTITION_001_PREP/.gitattributes": {
+      "bytes": 135,
+      "sha256": "6dd31b761406f71531565fb290f46f2d19fbdd34fd7b7696277dd1547e619429"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_ODD_RUN_CUT_REPARTITION_001_PREP/CUSTODY.json": {
+      "bytes": 12740,
+      "sha256": "959d37da236bc87af7184cc10c7cd7302f0a1fe4b3d63c47d440e2f9bda7923d"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_ODD_RUN_CUT_REPARTITION_001_PREP/ORIGINALS.json": {
+      "bytes": 25237,
+      "sha256": "042bcc010fdfc14bdcf0736a0c4cfb773f9dfd97f3e7e7aa57b39cbf24cabc5d"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_ODD_RUN_CUT_REPARTITION_001_PREP/PREFIXES.json": {
+      "bytes": 7698,
+      "sha256": "f03dada2777a178ee64e50b0b9206d7b6222327eb1da591e4daab2e3c439d3eb"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_ODD_RUN_CUT_REPARTITION_001_PREP/PREFLIGHT.json": {
+      "bytes": 1234,
+      "sha256": "cf2da6083ef2660d2ea2d6bd80597041f19bc95b98f631633c1ece5b405807e7"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_ODD_RUN_CUT_REPARTITION_001_PREP/REVIEWS.md": {
+      "bytes": 3302,
+      "sha256": "a8a7e5d8a14200d86f3b756b38908b26b502316fdd07044e68f6a9f7e3aa7e67"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_ODD_RUN_CUT_REPARTITION_001_PREP/SYMBOLIC_CONTROLS.json": {
+      "bytes": 56876,
+      "sha256": "24efa6132d4aa90f94c9590bdd64678404ac829a04e93c4464459033a1525522"
+    },
+    "handoffs/CODEX-20261126-d197-odd-run-cut-repartition-preparation.md": {
+      "bytes": 3693,
+      "sha256": "538a1b7b2c4e7a07b5bd4b15bb5fc3513e09782924f944c7758b5dd5bd4b19af"
+    },
+    "research/ORDINARY_SPINE_ODD_RUN_CUT_REPARTITION.md": {
+      "bytes": 18629,
+      "sha256": "90b3b91455a5ba63b1e3c820b9a313b03d8b20eb09875e639cde8b1806d960d6"
+    },
+    "research/odd_run_cut_repartition_001/CONTRACT.md": {
+      "bytes": 8561,
+      "sha256": "1e44880ef492b880ba82d7ca870710059175358c65e319f9e7002e9f0cbf81be"
+    },
+    "research/odd_run_cut_repartition_001/EVIDENCE_SCHEMA.json": {
+      "bytes": 1556,
+      "sha256": "df014d926126399d4814d0ea8439bdb2d73347a0af36c0c44902d56e2e6115d8"
+    },
+    "research/odd_run_cut_repartition_001/RUNTIME.json": {
+      "bytes": 691,
+      "sha256": "13891f03bb88aabd1606bc0f75cfe29a17867246a1d9dc75445481ba48e5813f"
+    },
+    "research/odd_run_cut_repartition_001/SOURCE_BINDINGS.json": {
+      "bytes": 5228,
+      "sha256": "b82b7d52156191bb25047076785fa7434ee42c89a37e42f0848c695d74e4dbff"
+    },
+    "research/odd_run_cut_repartition_001/audit.py": {
+      "bytes": 12688,
+      "sha256": "e37311043c49b94abeb977aed6183625dad4c50bd0a1d3361033617126c2d9e2"
+    },
+    "research/odd_run_cut_repartition_001/budget.py": {
+      "bytes": 3273,
+      "sha256": "247f805fd4ad56e611743b8e8313e1c0870d2832ed7412fb48d962c9438cf3c4"
+    },
+    "research/odd_run_cut_repartition_001/config.json": {
+      "bytes": 2588,
+      "sha256": "19fe721e29bf06f8798bb8a22eae7750c62ced5588b289d99373a9233f11302c"
+    },
+    "research/odd_run_cut_repartition_001/preflight.py": {
+      "bytes": 4068,
+      "sha256": "cf229b71d49d1acb30050dac871217938bfb00370242166f7b21ed69a9d8e566"
+    },
+    "research/odd_run_cut_repartition_001/primary.py": {
+      "bytes": 6341,
+      "sha256": "44b5cd2eca67d0eba6da894e604ea72a8b24a37db8eec1382aa7de5793c964b1"
+    }
+  },
+  "hash_convention": "Canonical Git LF bytes except raw pinned input files with scoped -text attributes.",
+  "identity_correction": {
+    "basis": "Exact unchanged D196 indexed original and independent canonical digest.",
+    "provided": "85c7e61cadcb6952f1bf8772d35b5a8e7c7e647fe19ef0e05c7001ae608ef",
+    "record": "even",
+    "verified": "85c7e61cadcb6952f1bf8772d35b5a8e7fe14ed9890d8eac0e05c7001ae608ef"
+  },
+  "inactive_prospective_caps": {
+    "audit": {
+      "geometries": 4080,
+      "live_records": 16,
+      "raw_placements": 100000000,
+      "states": 100000000,
+      "transitions": 500000000
+    },
+    "combined_process_cpu_seconds": 28800,
+    "combined_wall_seconds": 36000,
+    "new_evidence_bytes": 32000000,
+    "primary": {
+      "geometries": 4080,
+      "live_records": 6100,
+      "raw_placements": 100000000,
+      "states": 100000000,
+      "transitions": 500000000
+    },
+    "reconciliation_reserve_bytes": 2000000,
+    "workers": 1
+  },
+  "outcome": "Complete symbolic negative for the registered exact odd prefix under all proper increasing two-translation splits, both strict extreme polarities and every actual permitted fresh placement. Prescribed relaxed positive control and general monotone immutable transport.",
+  "parent": "28f2a345e435cb46058a4ff697e8b2458d5624df",
+  "preparation_limits": {
+    "new_evidence_bytes": 128000000,
+    "observed_wall_seconds": 3600,
+    "process_cpu_seconds": 1800
+  },
+  "qualified_dispositions": {
+    "even": "ACCEPTED_D196_POSITIVE",
+    "odd_all_lower_at_every_proper_cut": "SYMBOLIC_SCOPED_NEGATIVE",
+    "odd_preserved_cut": "SYMBOLIC_SCOPED_NEGATIVE",
+    "odd_relaxed_cut": "SYMBOLIC_SCOPED_NEGATIVE",
+    "odd_uniform_shift_both_frontiers": "SYMBOLIC_SCOPED_NEGATIVE",
+    "relaxed_eight_edge_control": "DIRECT_SYMBOLIC_POSITIVE"
+  },
+  "registered_domain": {
+    "fresh_edges": 15,
+    "frontier_and_cut": [
+      [
+        0,
+        14
+      ],
+      [
+        30,
+        17
+      ]
+    ],
+    "indexed_positive_quotas": [
+      2,
+      7,
+      1
+    ],
+    "main_id": "odd",
+    "primary_memo_key_bound": 5984,
+    "proper_old_splits": 15,
+    "raw_child_placement_bound": 98017920,
+    "weak_width_triples": 136
+  },
+  "review_status": {
+    "implementation_and_evidence_custody": "PASS",
+    "mathematical": "PASS",
+    "maximum_simultaneous_reviewers": 1
+  },
+  "schema_version": 1,
+  "scientific_counters": {
+    "historical_replays": 0,
+    "numerical_labeling_search_nodes": 0,
+    "official_scientific_campaign_executions": 0,
+    "original_checker_invocations": 0,
+    "solver_allocation_states": 0
+  },
+  "sole_next_action": "Director review of D197 preparation and its symbolic findings.",
+  "source_binding_count": 23,
+  "source_dependencies": {
+    "lcl/model.py": {
+      "bytes": 10720,
+      "sha256": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6"
+    },
+    "lcl/verify.py": {
+      "bytes": 14075,
+      "sha256": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909"
+    },
+    "research/ORDINARY_SPINE_GENERALIZED_ONE_SECTION_CUT_SPECTRUM.md": {
+      "bytes": 26093,
+      "sha256": "72b0d87b148dba0215ee15bede17adf9b36aa333e01a4394b01ed19076181818"
+    },
+    "research/ORDINARY_SPINE_SIZE_INDEPENDENT_LIFT_AND_ORIGINAL_SEED.md": {
+      "bytes": 25083,
+      "sha256": "620454a59bf7ba10c6700d6154d2646c90805783813b88e37cdb28f14b578e05"
+    },
+    "research/ORDINARY_SPINE_TWO_SECTION_GENERAL_GAP_CRITERION.md": {
+      "bytes": 23630,
+      "sha256": "0221114b657dde0c1bcf64ae5fece4f0a8eca26f6d6e52eb8d5f1d1656946cd6"
+    },
+    "research/matched_exterior_001/CONTRACT.md": {
+      "bytes": 11973,
+      "sha256": "c9eab259f7534777e97ab9bba7a0bd26e75d2e4ce9aee4296bee5fdfe4308ff4"
+    },
+    "research/matched_exterior_001/audit.py": {
+      "bytes": 11644,
+      "sha256": "fd7b650c419057664e4689c59bc3b4f3ab67845f6b56e730e8cbf649a62fcceb"
+    },
+    "research/matched_exterior_001/engine.py": {
+      "bytes": 9210,
+      "sha256": "9781aceb9e14021c31688476a4a083ee0b1d6af7c012230a09fb647d46ab175d"
+    },
+    "research/strict_phase_low_capacity_001/CONTRACT.md": {
+      "bytes": 8653,
+      "sha256": "3d8dbd66b283aae7c20a93c3fe4f66403eef5f234c852b08f2c588772fbcd6d8"
+    },
+    "research/strict_phase_low_capacity_001/audit.py": {
+      "bytes": 11245,
+      "sha256": "f572247c1f6fd1c502afcd1a87b5c96fbaf9f3cb2c021d2578e4be709e170c87"
+    },
+    "research/strict_phase_low_capacity_001/primary.py": {
+      "bytes": 5425,
+      "sha256": "af53423b942d4cc1bac71612cafe0d4246a7aaff3e7f0fbac29dfa4d1f531471"
+    }
+  },
+  "status": "SYMBOLICALLY_RESOLVED / NO_EXECUTION_NEEDED",
+  "task": "LCL-ORDINARY-SPINE-ODD-RUN-CUT-REPARTITION-001-PREP"
+}

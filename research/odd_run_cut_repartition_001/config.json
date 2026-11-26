@@ -1,0 +1,93 @@
+{
+  "bound_inputs": {
+    "originals": {
+      "bytes": 25237,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_ODD_RUN_CUT_REPARTITION_001_PREP/ORIGINALS.json",
+      "sha256": "042bcc010fdfc14bdcf0736a0c4cfb773f9dfd97f3e7e7aa57b39cbf24cabc5d"
+    },
+    "prefixes": {
+      "bytes": 7698,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_ODD_RUN_CUT_REPARTITION_001_PREP/PREFIXES.json",
+      "sha256": "f03dada2777a178ee64e50b0b9206d7b6222327eb1da591e4daab2e3c439d3eb"
+    },
+    "symbolic_controls": {
+      "bytes": 56876,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_ODD_RUN_CUT_REPARTITION_001_PREP/SYMBOLIC_CONTROLS.json",
+      "sha256": "24efa6132d4aa90f94c9590bdd64678404ac829a04e93c4464459033a1525522"
+    }
+  },
+  "disposition": "SYMBOLICALLY_RESOLVED / NO_EXECUTION_NEEDED",
+  "execution_authorized": false,
+  "execution_entry": null,
+  "inactive_prospective_caps": {
+    "audit": {
+      "geometries": 4080,
+      "live_records": 16,
+      "raw_placements": 100000000,
+      "states": 100000000,
+      "transitions": 500000000
+    },
+    "combined_process_cpu_seconds": 28800,
+    "combined_wall_seconds": 36000,
+    "new_evidence_bytes": 32000000,
+    "primary": {
+      "geometries": 4080,
+      "live_records": 6100,
+      "raw_placements": 100000000,
+      "states": 100000000,
+      "transitions": 500000000
+    },
+    "reconciliation_reserve_bytes": 2000000,
+    "workers": 1
+  },
+  "main_outcome": "SYMBOLIC_SCOPED_NEGATIVE",
+  "mode": "PREPARATION_ONLY_CLOSED",
+  "parse_only_entry_definitions": {
+    "audit.py": [
+      "search_independently",
+      "verify_witness"
+    ],
+    "budget.py": [
+      "Budget",
+      "LimitReached"
+    ],
+    "preflight.py": [
+      "main"
+    ],
+    "primary.py": [
+      "search_primary"
+    ]
+  },
+  "registered_domain": {
+    "fresh_edges": 15,
+    "frontier_and_cut": [
+      [
+        0,
+        14
+      ],
+      [
+        30,
+        17
+      ]
+    ],
+    "indexed_positive_quotas": [
+      2,
+      7,
+      1
+    ],
+    "main_id": "odd",
+    "primary_memo_key_bound": 5984,
+    "proper_old_splits": 15,
+    "raw_child_placement_bound": 98017920,
+    "weak_width_triples": 136
+  },
+  "required_vacant_paths": [
+    "runs/d197-odd-run-cut-repartition-001",
+    "runs/d197-odd-run-cut-repartition-001-approval.json",
+    "evidence/runs/d197-odd-run-cut-repartition-001",
+    "runs/d191-low-capacity-strict-phase-001",
+    "runs/d191-low-capacity-strict-phase-001-approval.json",
+    "evidence/runs/d191-low-capacity-strict-phase-001"
+  ],
+  "task": "LCL-ORDINARY-SPINE-ODD-RUN-CUT-REPARTITION-001-PREP"
+}

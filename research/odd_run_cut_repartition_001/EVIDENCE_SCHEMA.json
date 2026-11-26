@@ -1,0 +1,63 @@
+{
+  "change_references": [
+    "embedding_split",
+    "supplied_prefix_cut"
+  ],
+  "identity_fields": [
+    "task",
+    "original_digest",
+    "prefix_digest",
+    "source_bindings_sha256",
+    "manifest_sha256",
+    "runtime"
+  ],
+  "negative_requires_any": [
+    "complete_symbolic_proof_in_registered_domain",
+    "complete_primary_and_independent_raw_audit_exhaustion"
+  ],
+  "positive_audit_fields": [
+    "changes",
+    "full_edge_resources",
+    "original_child_placements",
+    "original_terminal_placements",
+    "old_labels",
+    "remaining_labels",
+    "old_edge_resources",
+    "remaining_edge_resources",
+    "residual_terminal_labels",
+    "residual_terminal_differences",
+    "literal_connector",
+    "original_checker"
+  ],
+  "schema_version": 1,
+  "scope": "Inactive prospective evidence specification. No launch authorization.",
+  "status_semantics": {
+    "CANDIDATE": "unclassified before independent positive verification",
+    "EXHAUSTED": "single-engine evidence only",
+    "INCOMPLETE": "limited, interrupted or disputed work, never a negative",
+    "SYMBOLIC_SCOPED_NEGATIVE": "complete negative in the registered class by proof"
+  },
+  "stop_fields": [
+    "outcome",
+    "reason",
+    "caps",
+    "engine_counters",
+    "peak_live_records",
+    "process_cpu_seconds",
+    "observed_wall_seconds",
+    "evidence_bytes",
+    "complete_or_unentered_domain"
+  ],
+  "witness_fields": [
+    "original_digest",
+    "prefix_digest",
+    "labels",
+    "r",
+    "h",
+    "A",
+    "B",
+    "s",
+    "frontier_label",
+    "output_cut"
+  ]
+}

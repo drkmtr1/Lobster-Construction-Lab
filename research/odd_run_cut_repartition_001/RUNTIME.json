@@ -1,0 +1,30 @@
+{
+  "binaries": {
+    "base_executable": {
+      "bytes": 105696,
+      "sha256": "7c2fc2b303a4ee3cc14cc17b47bc6e8bca98c78792edd123b846a560da44b203"
+    },
+    "launcher": {
+      "bytes": 255200,
+      "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664"
+    },
+    "windows_dll": {
+      "bytes": 6142688,
+      "sha256": "26026530507a7389e7892ce130e7c1753b32a2df03ec3721d45ad8c1705d40eb"
+    }
+  },
+  "implementation": "cpython",
+  "platform": "win32",
+  "pointer_bits": 64,
+  "preparation_flags": [
+    "-I",
+    "-S",
+    "-B"
+  ],
+  "python_version": [
+    3,
+    13,
+    17
+  ],
+  "runtime": "project-local isolated no-site standard-library CPU-only Python"
+}

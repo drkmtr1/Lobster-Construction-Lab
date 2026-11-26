@@ -1,0 +1,4 @@
+# Keep frozen input records byte-identical on Windows checkouts.
+ORIGINALS.json -text
+PREFIXES.json -text
+SYMBOLIC_CONTROLS.json -text
