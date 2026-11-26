@@ -731,3 +731,7 @@ D163's fixed-exterior obstruction for r=t=0,p≥2 exhausts Q when it has four ga
 ## D170 — No template miss among completed D164 E+ positives
 
 The proposed matched template-miss condition is excluded on the selected 108 completed E+ positive originals. Each actual saved compatible labeling uses the specified width-(6,4) role menu. Retained-record reconciliation resolves the selected finite question before any new numerical run. The original D164 separation hypothesis remains UNDECIDED under its historical execution cap. Cases outside the selected positive records and alternate exterior geometries are outside this coverage conclusion. [D170 proof](ORDINARY_SPINE_EXCEPTIONAL_ROLE_MENU_COVERAGE.md)
+
+## D171 — Ordered Q bottleneck and limits of P-growth transport
+
+A fixed ordered assignment with q≤2 cannot supply either additional first inventory on the width-(6,4) menu. The right end requires two Q leaves. At exactly two, the minimum P image forces six neutral leaves, exceeding the available first maximum four. The full E+ exclusion for odd R<7 uses the terminal-balance count. A one-column P-growth step can exchange the parity pairing, so it does not assert persistence of all old residual arrows. D167's protected two-column interval insertion yields the (4,0) rate when its long-gap premise holds. No historical D164 arm disposition is changed. [D171 proof](ORDINARY_SPINE_EXCEPTIONAL_P_GROWTH.md)

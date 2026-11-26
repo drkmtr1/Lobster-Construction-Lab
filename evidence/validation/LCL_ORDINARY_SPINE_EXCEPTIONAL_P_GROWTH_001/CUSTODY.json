@@ -1,0 +1,1097 @@
+{
+  "task": "LCL-ORDINARY-SPINE-EXCEPTIONAL-P-GROWTH-001",
+  "starting_checkpoint": "09887e1569f5ee41ebda921dc753cd509428ff7a",
+  "incoming_state": {
+    "path": "STATE.md",
+    "bytes": 90370,
+    "sha256": "bb1c377529ae08335bcdeac4e0d303e0aad8554be9f15065c214c89c962f6a6f"
+  },
+  "clean_local_main_tracking_and_live_admission": "09887e1569f5ee41ebda921dc753cd509428ff7a",
+  "starting_commit_paths": 15,
+  "baseline_tag": "fddfc1dd9541324b2ed2de2505bc750b3e3f0b9d",
+  "peeled_baseline": "36ea1603602491bf3c1c5b81ed4c23aaa2210e70",
+  "verified_upstream_main": {
+    "MDL": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+    "Bounded Search": "e48b94eec4091b4fe189e325cab2eda464409943"
+  },
+  "original_builder_checker_blobs": [
+    "8d1e9948e8bf5ef01e67c9afe0155412c57d79fa",
+    "d008f35f0843e1a5c770db3e7f42ed7d987360d7"
+  ],
+  "retained_manifest_bindings": [
+    {
+      "manifest": {
+        "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_PARITY_CHAIN_001/MANIFEST.json",
+        "bytes": 9921,
+        "sha256": "e89eb25ad03cad239359f322d42493a655cdfdae28da83d8b8cba47ab8270ca2"
+      },
+      "checked_files": [
+        {
+          "path": "research/ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_PARITY_CHAIN.md",
+          "bytes": 25501,
+          "sha256": "a0a3b16ba0d06a3ac88268d5fa781a832a25eec96e1d6f72e0c09770084eee8b"
+        }
+      ]
+    },
+    {
+      "manifest": {
+        "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_EIGHT_DEFECT_001/MANIFEST.json",
+        "bytes": 11155,
+        "sha256": "8ade62ce3796a4821267b822a30f09a8043d5d1652abe703284f8ee86c48ea98"
+      },
+      "checked_files": [
+        {
+          "path": "research/ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_EIGHT_DEFECT.md",
+          "bytes": 25157,
+          "sha256": "6efb06cdadbc12fe4b921246d138452733edb0bc513f90664edae76c0abf80fb"
+        }
+      ]
+    },
+    {
+      "manifest": {
+        "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_RESERVATION_SEMILINEAR_001/MANIFEST.json",
+        "bytes": 11396,
+        "sha256": "9bdd3658d9a0bed51117ef1cfacae1864a538688b86c9ce0a4e0fce4fb303789"
+      },
+      "checked_files": [
+        {
+          "path": "research/ORDINARY_SPINE_EXCEPTIONAL_RESERVATION_SEMILINEAR.md",
+          "bytes": 31490,
+          "sha256": "610e9d10790bf9ce4d6f99b8c2d3d637be7c62f5cb7841cbd2402837f1ab5e7a"
+        }
+      ]
+    },
+    {
+      "manifest": {
+        "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_TWO_UPPER_HOST_RESIDUE_COMPRESSION_001/MANIFEST.json",
+        "bytes": 8551,
+        "sha256": "87910c3b573b18261717a1fd764fa6d89642eba445798c06bca436cca006b9c6"
+      },
+      "checked_files": [
+        {
+          "path": "research/ORDINARY_SPINE_EXCEPTIONAL_TWO_UPPER_HOST_RESIDUE_COMPRESSION.md",
+          "bytes": 30575,
+          "sha256": "b18eb180e189907c17912206b28a0e394219b6e1458890e7958629e130f5acb9"
+        }
+      ]
+    },
+    {
+      "manifest": {
+        "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_SECOND_ROLE_EXCHANGE_001/MANIFEST.json",
+        "bytes": 7793,
+        "sha256": "9db6f585e403e21baf05260046f7a316eae58910db4eccc70bac50e4b5f79ee7"
+      },
+      "checked_files": [
+        {
+          "path": "research/ORDINARY_SPINE_EXCEPTIONAL_SECOND_ROLE_EXCHANGE.md",
+          "bytes": 18573,
+          "sha256": "ee02aa48409624d32c49c02ad8f06c4bca9256c2ef8e903a68b9e436b9b97a06"
+        }
+      ]
+    },
+    {
+      "manifest": {
+        "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ROLE_MENU_COVERAGE_001/MANIFEST.json",
+        "bytes": 5014,
+        "sha256": "3331679951fbdf2ad6c19f4385a85a7919a9113983f532b1baa8c4e538914704"
+      },
+      "checked_files": [
+        {
+          "path": "research/ORDINARY_SPINE_EXCEPTIONAL_ROLE_MENU_COVERAGE.md",
+          "bytes": 22459,
+          "sha256": "db474c3629b31c60aad3874bf8f38cb2698a6e7055b993c859fadc9b4be0cfe2"
+        },
+        {
+          "path": "handoffs/CODEX-20261125-exceptional-role-menu-coverage.md",
+          "bytes": 2710,
+          "sha256": "813e97c0cb295e797cf14f4fe338e52f1ba770c4bc85f7742eb57cf789709ddb"
+        },
+        {
+          "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ROLE_MENU_COVERAGE_001/ARCHIVE_CHECK.json",
+          "bytes": 4020,
+          "sha256": "d60d736d98eaae779d75da701c4cef3ac6a2f3ef727fc0b24e3686469800db2e"
+        },
+        {
+          "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ROLE_MENU_COVERAGE_001/COVERAGE.json",
+          "bytes": 1526053,
+          "sha256": "ef3036d6d84dad330a369d1f47cb4b5a8bf41e6bcb1258e0b16f3d022b7d1786"
+        },
+        {
+          "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ROLE_MENU_COVERAGE_001/CUSTODY.json",
+          "bytes": 14012,
+          "sha256": "c3c5a68b3084d4883589811a4de830041cf5671fa6d741fde6613cb9d56cec8a"
+        },
+        {
+          "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ROLE_MENU_COVERAGE_001/inspect_saved_records.py",
+          "bytes": 17353,
+          "sha256": "5213191206dffe87b92b9cc4c0f9649a871ada45fdb17e5e4f026becec1dd5c6"
+        },
+        {
+          "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ROLE_MENU_COVERAGE_001/POPULATION.json",
+          "bytes": 78541,
+          "sha256": "cba928ce47d5c1d136977aee55490492c8bc7f41384c3fb269e8fba4a194cf39"
+        },
+        {
+          "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ROLE_MENU_COVERAGE_001/README.md",
+          "bytes": 1371,
+          "sha256": "e736709179ec5069fcdea88bd13a9a603a57efc558d54ea8bf06d642d3fc58d2"
+        },
+        {
+          "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_ROLE_MENU_COVERAGE_001/REVIEWS.md",
+          "bytes": 2267,
+          "sha256": "54cf040b763879aec68efd57bc41eff2a83d07c044bc8f099e932336389875e7"
+        }
+      ]
+    }
+  ],
+  "other_intake_bindings": [
+    {
+      "path": "evidence/runs/d164-exceptional-four-first-001/OFFICIAL_RAW.zip",
+      "bytes": 1324244,
+      "sha256": "6ecb659aaefc4a574f39d1da8c3bb88b53517ea9381cc25fa332144f822a7c19"
+    },
+    {
+      "path": "evidence/runs/d164-exceptional-four-first-001/MANIFEST.json",
+      "bytes": 8566,
+      "sha256": "94ff1e2857adb490c75972bc2ed2a6b87777cfcc6a1b02baf318dea6ad219b11"
+    },
+    {
+      "path": "evidence/runs/d164-exceptional-four-first-001/RECONCILIATION.json",
+      "bytes": 699373,
+      "sha256": "90fbb1ad38a9723ac2470894090e1ce7f6501f15a60e14500c3aff2b6b46f7b8"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/MANIFEST.json",
+      "bytes": 39676,
+      "sha256": "0c0d62a398506fc04e44de9d1e98ddbc47fb8b9765c289d277f17f3d5661b1ef"
+    },
+    {
+      "path": "evidence/runs/d161-exceptional-quota-four-001/OFFICIAL_RAW.zip",
+      "bytes": 364603,
+      "sha256": "13c6ff81991bef03d0760b5ecf7aadc14b60a7cecdf951c10212d12de9eb7cee"
+    },
+    {
+      "path": "evidence/runs/d161-exceptional-quota-four-001/MANIFEST.json",
+      "bytes": 7847,
+      "sha256": "ca1f0672f34e770bc5ac860ce95b4577b8d2920d7a9617538b510c17f8df7864"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 8301,
+      "sha256": "ddb4b70c24cb5e1725d0c2e4ea8c2d522b4556b62b8bd69fdffd4205ece485db"
+    },
+    {
+      "path": "lcl/model.py",
+      "bytes": 10720,
+      "sha256": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6"
+    },
+    {
+      "path": "lcl/verify.py",
+      "bytes": 14075,
+      "sha256": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909"
+    },
+    {
+      "path": "docs/REPOSITORY_CONTINUITY.md",
+      "bytes": 5354,
+      "sha256": "3f593c77538e567808b03525719acaf46281bf9d47b5335b40df5fceb556bcf0"
+    },
+    {
+      "path": "references/PROVENANCE.json",
+      "bytes": 766,
+      "sha256": "aef6f71ab460265291366041a4144cd119a15a48c22398b6e535e9c5c73b0ace"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_ALTERNATING_EXCEPTIONAL_SPECTRUM.md",
+      "bytes": 19060,
+      "sha256": "73230a18d826361e0eb4eadfbf02e41cbb1aa3c5332c890bf75f48ed18a0e0fd"
+    },
+    {
+      "path": "research/ORDINARY_SPINE_EXTERIOR_SUPPLY_REASSESSMENT.md",
+      "bytes": 22150,
+      "sha256": "29f602e6623b96f2c043a665ca9355cf04829c89ae65c58ef731ee46bd810fa5"
+    },
+    {
+      "path": "docs/LOBSTER_RESEARCH_ALIGNMENT.md",
+      "bytes": 23604,
+      "sha256": "3b27058e13e878152c7825fbda71e79dfeb772374b5366efbb83e4513f2a0fbe"
+    },
+    {
+      "path": "docs/LOBSTER_LITERATURE_REGISTER.md",
+      "bytes": 28382,
+      "sha256": "d04352774b5bfd40bbf31e4febfe93164537a8463528830fbb0fb128ad712a81"
+    },
+    {
+      "path": "docs/SOURCES.md",
+      "bytes": 12291,
+      "sha256": "f9703fdd4df0c594cd20baf8f1180dc14444c443955e903006f4351eeb8d0145"
+    }
+  ],
+  "d170_population_bindings": 108,
+  "d170_coverage_blob": "5ccd41212dcd4be971acdc34e0981f63d1f6f9ad",
+  "d170_director_scope": "Live GitHub and canonical artifact verification, all 108 cross-bindings and twelve saved base reservation records. No archive decompression, replay or local worktree inspection by Director.",
+  "local_scope": "Read-only refs, raw ZIP hashes, four named saved certificate and pair members with canonical originals and listed reservations. Read-only archive index check for target-0429. No frozen evidence edits or historical checker replay.",
+  "repository_note": "Read-only direct refs used, with no fetch or change to the transient Codex capture ref or either upstream.",
+  "saved_boundary_controls": {
+    "target-0129": {
+      "original_digest": "d84a93fca3caa9810638c3e0bee6a11cc3714a19b813063d67c1c1382b151838",
+      "original_record_sha256": "e74565b614e8a9a56eb8583642ad4da6cfb557df47fac039166fb111997dad3e",
+      "shard": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/targets-004.json",
+      "e_plus": {
+        "bytes": 15755,
+        "file": "target-0129-Eplus.json",
+        "sha256": "eedbf2d70793ef90cd6660b11630e7195f0667faf6d2ef85fa6a09ea2d7583d8"
+      },
+      "pair": {
+        "bytes": 166,
+        "file": "target-0129-PAIR.json",
+        "sha256": "61b9d2e2aabfb4d42b3093d92890595eff99b166ea06a428ce0ef70af79200cd"
+      },
+      "first_roles": [
+        4,
+        1,
+        1,
+        4
+      ],
+      "p": 1,
+      "q": 6,
+      "physical_roles": {
+        "P": "b:29:0",
+        "Q": "b:29:1",
+        "Z": "b:28:2",
+        "a": "b:28:0",
+        "b": "b:28:3",
+        "c1": "b:28:1",
+        "u": "s:28",
+        "v": "s:27",
+        "w": "s:29"
+      },
+      "first_and_w_reservations": [
+        {
+          "crossing": false,
+          "folded_image": [
+            "L",
+            0
+          ],
+          "folded_source": [
+            "L",
+            0
+          ],
+          "host": "b:28:2",
+          "image": 0,
+          "label_oriented": 42,
+          "leaf": "l:28:2:0",
+          "source": 0,
+          "weight": 37
+        },
+        {
+          "crossing": false,
+          "folded_image": [
+            "L",
+            1
+          ],
+          "folded_source": [
+            "L",
+            1
+          ],
+          "host": "b:28:2",
+          "image": 1,
+          "label_oriented": 43,
+          "leaf": "l:28:2:1",
+          "source": 1,
+          "weight": 38
+        },
+        {
+          "crossing": false,
+          "folded_image": [
+            "L",
+            2
+          ],
+          "folded_source": [
+            "L",
+            2
+          ],
+          "host": "b:28:2",
+          "image": 2,
+          "label_oriented": 44,
+          "leaf": "l:28:2:2",
+          "source": 2,
+          "weight": 39
+        },
+        {
+          "crossing": false,
+          "folded_image": [
+            "L",
+            3
+          ],
+          "folded_source": [
+            "L",
+            3
+          ],
+          "host": "b:28:2",
+          "image": 3,
+          "label_oriented": 45,
+          "leaf": "l:28:2:3",
+          "source": 3,
+          "weight": 40
+        },
+        {
+          "crossing": false,
+          "folded_image": [
+            "L",
+            7
+          ],
+          "folded_source": [
+            "L",
+            4
+          ],
+          "host": "b:28:3",
+          "image": 7,
+          "label_oriented": 46,
+          "leaf": "l:28:3:0",
+          "source": 4,
+          "weight": 44
+        },
+        {
+          "crossing": false,
+          "folded_image": [
+            "L",
+            8
+          ],
+          "folded_source": [
+            "L",
+            5
+          ],
+          "host": "b:28:3",
+          "image": 8,
+          "label_oriented": 47,
+          "leaf": "l:28:3:1",
+          "source": 5,
+          "weight": 45
+        },
+        {
+          "crossing": false,
+          "folded_image": [
+            "L",
+            9
+          ],
+          "folded_source": [
+            "L",
+            6
+          ],
+          "host": "b:28:3",
+          "image": 9,
+          "label_oriented": 48,
+          "leaf": "l:28:3:2",
+          "source": 6,
+          "weight": 46
+        },
+        {
+          "crossing": true,
+          "folded_image": [
+            "H",
+            4
+          ],
+          "folded_source": [
+            "H",
+            9
+          ],
+          "host": "s:29",
+          "image": 15,
+          "label_oriented": 52,
+          "leaf": "b:29:2",
+          "source": 10,
+          "weight": 52
+        },
+        {
+          "crossing": true,
+          "folded_image": [
+            "H",
+            5
+          ],
+          "folded_source": [
+            "H",
+            8
+          ],
+          "host": "b:28:3",
+          "image": 14,
+          "label_oriented": 53,
+          "leaf": "l:28:3:3",
+          "source": 11,
+          "weight": 51
+        },
+        {
+          "crossing": true,
+          "folded_image": [
+            "H",
+            6
+          ],
+          "folded_source": [
+            "H",
+            7
+          ],
+          "host": "b:28:1",
+          "image": 13,
+          "label_oriented": 54,
+          "leaf": "l:28:1:0",
+          "source": 12,
+          "weight": 50
+        }
+      ],
+      "p_repairs": []
+    },
+    "target-0132": {
+      "original_digest": "784b758f3fda969896349062c0532b0fa0cc116b35566a3edcba872b65987b49",
+      "original_record_sha256": "d55090314cca77f4c1f2cd0fadff50fb02be6b120938fcf8ff51a7473b38c581",
+      "shard": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/targets-004.json",
+      "e_plus": {
+        "bytes": 15782,
+        "file": "target-0132-Eplus.json",
+        "sha256": "c1b90ddb4a70b566a03f9fdef39ec78a523c1955306eb87ee0a2b2283c72c38b"
+      },
+      "pair": {
+        "bytes": 166,
+        "file": "target-0132-PAIR.json",
+        "sha256": "e1158b2df50cf9ac373ad92fb188d6cb6d09d461c17c2b5470c149710ec47d89"
+      },
+      "first_roles": [
+        1,
+        1,
+        4,
+        4
+      ],
+      "p": 2,
+      "q": 5,
+      "physical_roles": {
+        "P": "b:29:0",
+        "Q": "b:29:1",
+        "Z": "b:28:2",
+        "a": "b:28:1",
+        "b": "b:28:0",
+        "c1": "b:28:3",
+        "u": "s:28",
+        "v": "s:27",
+        "w": "s:29"
+      },
+      "first_and_w_reservations": [
+        {
+          "crossing": false,
+          "folded_image": [
+            "L",
+            0
+          ],
+          "folded_source": [
+            "L",
+            0
+          ],
+          "host": "b:28:2",
+          "image": 0,
+          "label_oriented": 42,
+          "leaf": "l:28:2:0",
+          "source": 0,
+          "weight": 37
+        },
+        {
+          "crossing": false,
+          "folded_image": [
+            "L",
+            1
+          ],
+          "folded_source": [
+            "L",
+            1
+          ],
+          "host": "b:28:2",
+          "image": 1,
+          "label_oriented": 43,
+          "leaf": "l:28:2:1",
+          "source": 1,
+          "weight": 38
+        },
+        {
+          "crossing": false,
+          "folded_image": [
+            "L",
+            2
+          ],
+          "folded_source": [
+            "L",
+            2
+          ],
+          "host": "b:28:2",
+          "image": 2,
+          "label_oriented": 44,
+          "leaf": "l:28:2:2",
+          "source": 2,
+          "weight": 39
+        },
+        {
+          "crossing": false,
+          "folded_image": [
+            "L",
+            3
+          ],
+          "folded_source": [
+            "L",
+            3
+          ],
+          "host": "b:28:2",
+          "image": 3,
+          "label_oriented": 45,
+          "leaf": "l:28:2:3",
+          "source": 3,
+          "weight": 40
+        },
+        {
+          "crossing": false,
+          "folded_image": [
+            "L",
+            5
+          ],
+          "folded_source": [
+            "L",
+            4
+          ],
+          "host": "b:28:3",
+          "image": 5,
+          "label_oriented": 46,
+          "leaf": "l:28:3:0",
+          "source": 4,
+          "weight": 42
+        },
+        {
+          "crossing": false,
+          "folded_image": [
+            "L",
+            8
+          ],
+          "folded_source": [
+            "L",
+            5
+          ],
+          "host": "b:28:0",
+          "image": 8,
+          "label_oriented": 47,
+          "leaf": "l:28:0:0",
+          "source": 5,
+          "weight": 45
+        },
+        {
+          "crossing": false,
+          "folded_image": [
+            "L",
+            7
+          ],
+          "folded_source": [
+            "L",
+            6
+          ],
+          "host": "b:28:3",
+          "image": 7,
+          "label_oriented": 48,
+          "leaf": "l:28:3:1",
+          "source": 6,
+          "weight": 44
+        },
+        {
+          "crossing": true,
+          "folded_image": [
+            "H",
+            5
+          ],
+          "folded_source": [
+            "H",
+            10
+          ],
+          "host": "s:29",
+          "image": 14,
+          "label_oriented": 51,
+          "leaf": "b:29:2",
+          "source": 9,
+          "weight": 51
+        },
+        {
+          "crossing": true,
+          "folded_image": [
+            "H",
+            6
+          ],
+          "folded_source": [
+            "H",
+            7
+          ],
+          "host": "b:28:3",
+          "image": 13,
+          "label_oriented": 54,
+          "leaf": "l:28:3:2",
+          "source": 12,
+          "weight": 50
+        },
+        {
+          "crossing": true,
+          "folded_image": [
+            "H",
+            4
+          ],
+          "folded_source": [
+            "H",
+            5
+          ],
+          "host": "b:28:3",
+          "image": 15,
+          "label_oriented": 56,
+          "leaf": "l:28:3:3",
+          "source": 14,
+          "weight": 52
+        }
+      ],
+      "p_repairs": [
+        [
+          8,
+          10
+        ]
+      ]
+    },
+    "target-0237": {
+      "original_digest": "d59bd5ce352ae5cfe6b73730a567f4d9b2cee6fa03c44188b8a7a458626506e7",
+      "original_record_sha256": "7b86fe9e6faaf10a521942e91cb6f83706f1866eaae76bca4ec10a443af86534",
+      "shard": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/targets-007.json",
+      "e_plus": {
+        "bytes": 15754,
+        "file": "target-0237-Eplus.json",
+        "sha256": "3da1d47a604093730b320ed1e5d6497537e0b235389ebf16e43106f8d1d1f0c0"
+      },
+      "pair": {
+        "bytes": 166,
+        "file": "target-0237-PAIR.json",
+        "sha256": "68944bfe8eff56025d33fa436c6b58febc9a0157a582a57fc46a34a268223139"
+      },
+      "first_roles": [
+        1,
+        3,
+        2,
+        4
+      ],
+      "p": 1,
+      "q": 6,
+      "physical_roles": {
+        "P": "b:29:0",
+        "Q": "b:29:1",
+        "Z": "b:28:3",
+        "a": "b:28:2",
+        "b": "b:28:0",
+        "c1": "b:28:1",
+        "u": "s:28",
+        "v": "s:27",
+        "w": "s:29"
+      },
+      "first_and_w_reservations": [
+        {
+          "crossing": false,
+          "folded_image": [
+            "L",
+            0
+          ],
+          "folded_source": [
+            "L",
+            0
+          ],
+          "host": "b:28:3",
+          "image": 0,
+          "label_oriented": 42,
+          "leaf": "l:28:3:0",
+          "source": 0,
+          "weight": 37
+        },
+        {
+          "crossing": false,
+          "folded_image": [
+            "L",
+            1
+          ],
+          "folded_source": [
+            "L",
+            1
+          ],
+          "host": "b:28:3",
+          "image": 1,
+          "label_oriented": 43,
+          "leaf": "l:28:3:1",
+          "source": 1,
+          "weight": 38
+        },
+        {
+          "crossing": false,
+          "folded_image": [
+            "L",
+            2
+          ],
+          "folded_source": [
+            "L",
+            2
+          ],
+          "host": "b:28:3",
+          "image": 2,
+          "label_oriented": 44,
+          "leaf": "l:28:3:2",
+          "source": 2,
+          "weight": 39
+        },
+        {
+          "crossing": false,
+          "folded_image": [
+            "L",
+            3
+          ],
+          "folded_source": [
+            "L",
+            3
+          ],
+          "host": "b:28:3",
+          "image": 3,
+          "label_oriented": 45,
+          "leaf": "l:28:3:3",
+          "source": 3,
+          "weight": 40
+        },
+        {
+          "crossing": false,
+          "folded_image": [
+            "L",
+            6
+          ],
+          "folded_source": [
+            "L",
+            4
+          ],
+          "host": "b:28:2",
+          "image": 6,
+          "label_oriented": 46,
+          "leaf": "l:28:2:1",
+          "source": 4,
+          "weight": 43
+        },
+        {
+          "crossing": false,
+          "folded_image": [
+            "L",
+            7
+          ],
+          "folded_source": [
+            "L",
+            5
+          ],
+          "host": "b:28:2",
+          "image": 7,
+          "label_oriented": 47,
+          "leaf": "l:28:2:2",
+          "source": 5,
+          "weight": 44
+        },
+        {
+          "crossing": false,
+          "folded_image": [
+            "L",
+            9
+          ],
+          "folded_source": [
+            "L",
+            6
+          ],
+          "host": "b:28:0",
+          "image": 9,
+          "label_oriented": 48,
+          "leaf": "l:28:0:0",
+          "source": 6,
+          "weight": 46
+        },
+        {
+          "crossing": true,
+          "folded_image": [
+            "H",
+            4
+          ],
+          "folded_source": [
+            "H",
+            9
+          ],
+          "host": "s:29",
+          "image": 15,
+          "label_oriented": 52,
+          "leaf": "b:29:2",
+          "source": 10,
+          "weight": 52
+        },
+        {
+          "crossing": true,
+          "folded_image": [
+            "H",
+            6
+          ],
+          "folded_source": [
+            "H",
+            7
+          ],
+          "host": "b:28:1",
+          "image": 13,
+          "label_oriented": 54,
+          "leaf": "l:28:1:0",
+          "source": 12,
+          "weight": 50
+        },
+        {
+          "crossing": true,
+          "folded_image": [
+            "H",
+            5
+          ],
+          "folded_source": [
+            "H",
+            6
+          ],
+          "host": "b:28:1",
+          "image": 14,
+          "label_oriented": 55,
+          "leaf": "l:28:1:1",
+          "source": 13,
+          "weight": 51
+        }
+      ],
+      "p_repairs": []
+    },
+    "target-0240": {
+      "original_digest": "8d8f18b3936ac283a9d968762c2cfc60665c1b95266e3d1c9eae28a98161e4f6",
+      "original_record_sha256": "7597a31b0d917a59dac29ccfc62fe247bdf575c9ba4f8219ad22d80d1c59281b",
+      "shard": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_FOUR_FIRST_CENTER_MATCHED_001_PREP/input/targets-007.json",
+      "e_plus": {
+        "bytes": 15783,
+        "file": "target-0240-Eplus.json",
+        "sha256": "95758fd1cfb66daba5dc667527afc31a90c26f40734e788686578af1f7ca9140"
+      },
+      "pair": {
+        "bytes": 166,
+        "file": "target-0240-PAIR.json",
+        "sha256": "e3e02922567dc90233a7b08c278ff1b5b36c3d358f934136b3ad58ec07593c27"
+      },
+      "first_roles": [
+        1,
+        3,
+        2,
+        4
+      ],
+      "p": 2,
+      "q": 5,
+      "physical_roles": {
+        "P": "b:29:0",
+        "Q": "b:29:1",
+        "Z": "b:28:3",
+        "a": "b:28:2",
+        "b": "b:28:0",
+        "c1": "b:28:1",
+        "u": "s:28",
+        "v": "s:27",
+        "w": "s:29"
+      },
+      "first_and_w_reservations": [
+        {
+          "crossing": false,
+          "folded_image": [
+            "L",
+            0
+          ],
+          "folded_source": [
+            "L",
+            0
+          ],
+          "host": "b:28:3",
+          "image": 0,
+          "label_oriented": 42,
+          "leaf": "l:28:3:0",
+          "source": 0,
+          "weight": 37
+        },
+        {
+          "crossing": false,
+          "folded_image": [
+            "L",
+            1
+          ],
+          "folded_source": [
+            "L",
+            1
+          ],
+          "host": "b:28:3",
+          "image": 1,
+          "label_oriented": 43,
+          "leaf": "l:28:3:1",
+          "source": 1,
+          "weight": 38
+        },
+        {
+          "crossing": false,
+          "folded_image": [
+            "L",
+            2
+          ],
+          "folded_source": [
+            "L",
+            2
+          ],
+          "host": "b:28:3",
+          "image": 2,
+          "label_oriented": 44,
+          "leaf": "l:28:3:2",
+          "source": 2,
+          "weight": 39
+        },
+        {
+          "crossing": false,
+          "folded_image": [
+            "L",
+            3
+          ],
+          "folded_source": [
+            "L",
+            3
+          ],
+          "host": "b:28:3",
+          "image": 3,
+          "label_oriented": 45,
+          "leaf": "l:28:3:3",
+          "source": 3,
+          "weight": 40
+        },
+        {
+          "crossing": false,
+          "folded_image": [
+            "L",
+            7
+          ],
+          "folded_source": [
+            "L",
+            4
+          ],
+          "host": "b:28:0",
+          "image": 7,
+          "label_oriented": 46,
+          "leaf": "l:28:0:0",
+          "source": 4,
+          "weight": 44
+        },
+        {
+          "crossing": false,
+          "folded_image": [
+            "L",
+            6
+          ],
+          "folded_source": [
+            "L",
+            5
+          ],
+          "host": "b:28:1",
+          "image": 6,
+          "label_oriented": 47,
+          "leaf": "l:28:1:0",
+          "source": 5,
+          "weight": 43
+        },
+        {
+          "crossing": false,
+          "folded_image": [
+            "L",
+            8
+          ],
+          "folded_source": [
+            "L",
+            6
+          ],
+          "host": "b:28:2",
+          "image": 8,
+          "label_oriented": 48,
+          "leaf": "l:28:2:1",
+          "source": 6,
+          "weight": 45
+        },
+        {
+          "crossing": true,
+          "folded_image": [
+            "H",
+            4
+          ],
+          "folded_source": [
+            "H",
+            9
+          ],
+          "host": "s:29",
+          "image": 15,
+          "label_oriented": 52,
+          "leaf": "b:29:2",
+          "source": 10,
+          "weight": 52
+        },
+        {
+          "crossing": true,
+          "folded_image": [
+            "H",
+            6
+          ],
+          "folded_source": [
+            "H",
+            8
+          ],
+          "host": "b:28:2",
+          "image": 13,
+          "label_oriented": 53,
+          "leaf": "l:28:2:2",
+          "source": 11,
+          "weight": 50
+        },
+        {
+          "crossing": true,
+          "folded_image": [
+            "H",
+            5
+          ],
+          "folded_source": [
+            "H",
+            6
+          ],
+          "host": "b:28:1",
+          "image": 14,
+          "label_oriented": 55,
+          "leaf": "l:28:1:1",
+          "source": 13,
+          "weight": 51
+        }
+      ],
+      "p_repairs": [
+        [
+          7,
+          9
+        ]
+      ]
+    }
+  },
+  "counters": {
+    "new_numerical_originals": 0,
+    "allocator_evaluations": 0,
+    "numerical_type_enumerations": 0,
+    "exterior_searches": 0,
+    "transfer_state_searches": 0,
+    "labeling_search_nodes": 0,
+    "solver_calls": 0,
+    "checker_replays": 0,
+    "historical_campaign_replays": 0,
+    "pilot_invocations": 0,
+    "d130_accesses": 0,
+    "successor_preparations": 0,
+    "successor_executions": 0
+  },
+  "measured_process_cpu_seconds": 0.28125,
+  "measured_internal_wall_seconds": 2.8460299000003033,
+  "local_upstream_tracking_pins": {
+    "MDL": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+    "Bounded Search": "e48b94eec4091b4fe189e325cab2eda464409943"
+  },
+  "local_bounded_search_recovery_head": "c803ecb6bd0481d31af43f7e3c194ae8ed4d1578",
+  "verification_wall_scope": "Dedicated custody Python intake internal timer and separately measured reviewer commands. The intake tool invocation reported 4.349133 seconds. Read-only remote and Git checks were distinct shell operations."
+}

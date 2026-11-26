@@ -990,3 +990,7 @@ Under separate Owner authorization after Director review, test whether the singl
 ## D170 — Conditional scope and remaining supply
 
 The completed witnessed population has independent D167 template selection support on every member. Q-tail growth and twelve retained bases discharge the stated E+ supply obligation for first inventories (1,1,4,4) and (1,2,3,4) when at least one second quota is at most six and the odd total is at least seven, with independent D157 input and exact individual admission. Both second quotas above six remain outside this result. General first inventories, alternate exterior widths, center multiplicity, independent exceptional initialization and arbitrary topology supply retain separate obligations. No historical unresolved disposition was changed. [D170 proof](ORDINARY_SPINE_EXCEPTIONAL_ROLE_MENU_COVERAGE.md)
+
+## D171 — Magnitude restriction discharged and broader exterior-supply boundary
+
+The two additional witnessed first inventories now have exact E+ classifications for all positive odd-total second pairs in the declared arrangement. Together with the separate D165 and D166 theorems, arbitrary quota magnitudes are covered for all four witnessed inventories, within their individual criteria. General first-inventory role-menu behavior, alternative widths and center multiplicities, T, and the pinned shell initializer retain separate obligations. STATE.md records the sole unstarted matched supply question. [D171 proof](ORDINARY_SPINE_EXCEPTIONAL_P_GROWTH.md)

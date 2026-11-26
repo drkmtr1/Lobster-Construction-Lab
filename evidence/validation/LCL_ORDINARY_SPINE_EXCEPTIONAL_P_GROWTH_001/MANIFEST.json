@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "task": "LCL-ORDINARY-SPINE-EXCEPTIONAL-P-GROWTH-001",
+  "status": "PROVED_PENDING_DIRECTOR_REVIEW",
+  "parent": "09887e1569f5ee41ebda921dc753cd509428ff7a",
+  "intake_state": {
+    "path": "STATE.md",
+    "bytes": 90370,
+    "sha256": "bb1c377529ae08335bcdeac4e0d303e0aad8554be9f15065c214c89c962f6a6f"
+  },
+  "hash_convention": "Canonical Git LF for Markdown; raw bytes elsewhere",
+  "files": [
+    {
+      "path": "research/ORDINARY_SPINE_EXCEPTIONAL_P_GROWTH.md",
+      "bytes": 26187,
+      "sha256": "6ef68e10d44150822f8d1ad0bbbdba01913f5156b29d8a48b40ce9075dc4dd90"
+    },
+    {
+      "path": "handoffs/CODEX-20261125-exceptional-p-growth.md",
+      "bytes": 2542,
+      "sha256": "791d47f40c895a1bd4cb67f4ff2ff46f4ff6a3aeb4156fa62dbc0a11259782e6"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_P_GROWTH_001/README.md",
+      "bytes": 763,
+      "sha256": "a34efff61922a9567c31b7ce86a69caecda49cf41cc80c966052b87343899e91"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_P_GROWTH_001/REVIEWS.md",
+      "bytes": 1737,
+      "sha256": "96de8bf97ac74937c35ae1ff21fb10e85b8cd04eee9ac5c64c8511d6356d26fe"
+    },
+    {
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_P_GROWTH_001/CUSTODY.json",
+      "bytes": 29171,
+      "sha256": "7ac15c46942c6f4d5e787085a50e650e0b3d4d94b0ed12af8b3c7a236b7ca02d"
+    }
+  ],
+  "state_binding": {
+    "path": "STATE.md",
+    "bytes": 91210,
+    "sha256": "979c221bcff89eb2fce01635e59d842ae64f23d8edbf271eace135b91c264a33"
+  },
+  "authoritative_ledger_bindings": [
+    {
+      "path": "research/FINDINGS.md",
+      "bytes": 195531,
+      "sha256": "d0f813cda0038248b2137901f21ac2dec7743e6a5e16349d172167b632154eca"
+    },
+    {
+      "path": "research/FAILED_HYPOTHESES.md",
+      "bytes": 76869,
+      "sha256": "dd737ab3d6be1cdc75080f719937904db1d5673132b20f2394e22da9ddaa8070"
+    },
+    {
+      "path": "research/PROOF_OBLIGATIONS.md",
+      "bytes": 110835,
+      "sha256": "9c730f081c03eb34f07c6c933033fb216486eb0421888640bb26d7c091d3c144"
+    },
+    {
+      "path": "research/DECISIONS.md",
+      "bytes": 145218,
+      "sha256": "d67350446f85b01d5bd7907253ee451e30a504599015ac2b6e4de4ca97c6145b"
+    }
+  ],
+  "scope": {
+    "first_inventories": [
+      [
+        1,
+        1,
+        4,
+        4
+      ],
+      [
+        1,
+        2,
+        3,
+        4
+      ]
+    ],
+    "ordered_template": "q >= 3 and odd R=p+q >= 7",
+    "E_plus": "odd R >= 7 with selectable second roles in declared D157 arrangement",
+    "conditions": "Positive quotas, independent S_-1 input, actual first and second physical orders and direct leaf, n>=2K=R+19."
+  },
+  "proofs": {
+    "parameterized_minimum_Q_cases": 4,
+    "explicit_small_cases": 4,
+    "saved_controls": 4
+  },
+  "reviews": {
+    "mathematics": "PASS_SCOPED",
+    "implementation_and_custody": "PASS_SCOPED",
+    "director": "PENDING"
+  },
+  "limits": {
+    "dedicated_process_cpu_seconds": 60,
+    "external_verification_wall_seconds": 120,
+    "new_evidence_bytes": 4000000
+  },
+  "scientific_counters": {
+    "new_numerical_originals": 0,
+    "allocator_evaluations": 0,
+    "numerical_type_enumerations": 0,
+    "exterior_searches": 0,
+    "transfer_state_searches": 0,
+    "labeling_search_nodes": 0,
+    "solver_calls": 0,
+    "checker_replays": 0,
+    "historical_campaign_replays": 0,
+    "pilot_invocations": 0,
+    "d130_accesses": 0,
+    "successor_preparations": 0,
+    "successor_executions": 0
+  },
+  "next_action": "Under separate Owner authorization after Director review, prepare one matched hybrid diagnostic on frozen D164 originals with a first inventory outside the four classified inventories, a quota-four first center and odd second total R≥7. Test whether any original has an independently verified E+ completion outside the width-(6,4) role menu and an independently audited negative for that menu. This action is UNSTARTED."
+}
