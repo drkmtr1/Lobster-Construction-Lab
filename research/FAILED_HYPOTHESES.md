@@ -795,3 +795,7 @@ For the declared terminal-enabled H1 arrangement, R<r+3 excludes completion for 
 ## D184 — Partial-bank residue obstruction
 
 After restoring a bank of width 1≤T<ρ, the two free intervals of length λ have equal index-residue counts modulo ρ only when ρ divides λ. Q identities and the single separation-ρ host preserve residue classes, so these intervals cannot be matched by those two hosts at any other positive λ. The obstruction concerns this specific free-set matching. At T=ρ arbitrary λ is supplied by pure growth. [D184 proof](ORDINARY_SPINE_EXCEPTIONAL_NEUTRAL_ANCHOR_BANK_GROWTH.md)
+
+## D185 — Matching, local capacity and per-role parity restrictions
+
+The redistribution tile requires disjoint adjacent pairs of eligible ordinary roles and at least 2k leaves at each of the two actual hosts, with 2k an available separation. Odd tile multiplicity at an individual separation gives the wrong baseline parity for the specified target when followed by even-only bank growth. An even total M alone cannot ensure each shifted parity. These restrictions apply to this supplier. The Q=7 control lies outside D184's sufficient domain and is supplied by D185. [D185 proof](ORDINARY_SPINE_EXCEPTIONAL_BASELINE_QUOTA_REDISTRIBUTION.md)

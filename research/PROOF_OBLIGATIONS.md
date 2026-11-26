@@ -1053,4 +1053,8 @@ The wider exterior, tail and repeated growth strips settle the sufficient quota 
 
 ## D184 — Feasibility outside the sufficient neutral-bank domain
 
-The selectable-role supplier is proved with its reduced Q bound, and with just the baseline Q floor when the neutral bank has width at least ν. General multi-host feasibility, other role parities or minima, unrestricted choices of exteriors, independent initialization and arbitrary decomposition retain their own scopes. The partial-bank residue obstruction is confined to the stated free intervals and two hosts. D183 and all prior accepted and historical scopes remain as recorded. The sole next action is Director review of D184. [D184 proof](ORDINARY_SPINE_EXCEPTIONAL_NEUTRAL_ANCHOR_BANK_GROWTH.md)
+The selectable-role supplier is proved with its reduced Q bound, and with just the baseline Q floor when the neutral bank has width at least ν. General multi-host feasibility, other role parities or minima, unrestricted choices of exteriors, independent initialization and arbitrary decomposition retain their own scopes. The partial-bank residue obstruction is confined to the stated free intervals and two hosts. D183 and all prior accepted and historical scopes remain as recorded. The Director accepted D184 in its exact scope. D185 separately addresses the baseline Q floor. [D184 proof](ORDINARY_SPINE_EXCEPTIONAL_NEUTRAL_ANCHOR_BANK_GROWTH.md)
+
+## D185 — Feasibility outside disjoint-tile redistribution and bank growth
+
+The stated adjacent-host tile and bank schedule prove the sufficient reduced Q domain and the infinite-family corollary. Other redistributions, roles and arbitrary multi-host feasibility retain their own scopes, as do general initialization and arbitrary decomposition. D184 and previous accepted mathematical and historical scopes remain as recorded. The sole next action is Director review of D185. [D185 proof](ORDINARY_SPINE_EXCEPTIONAL_BASELINE_QUOTA_REDISTRIBUTION.md)

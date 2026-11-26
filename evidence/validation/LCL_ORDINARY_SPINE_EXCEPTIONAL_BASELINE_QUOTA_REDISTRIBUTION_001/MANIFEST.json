@@ -1,0 +1,157 @@
+{
+  "D174_history": {
+    "numerical_arms": 2,
+    "pairs": 1,
+    "stopping_rule": "FIRST_INDEPENDENTLY_VERIFIED_SEPARATOR",
+    "unentered": 3518
+  },
+  "accepted_D177_symbolic_projection": {
+    "admitted_K_frequencies": {
+      "15": 15,
+      "16": 30,
+      "17": 30,
+      "18": 15,
+      "19": 3
+    },
+    "count": 93,
+    "historically_unentered": 92
+  },
+  "accepted_D184": {
+    "checkpoint": "b71bd603cacab15d40a4738a3e665fca216f4b6b",
+    "manifest": {
+      "bytes": 4657,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_NEUTRAL_ANCHOR_BANK_GROWTH_001/MANIFEST.json",
+      "sha256": "17d07e3f9d1df6d354298eca7e00df7eb1e77226a2c1b827783791e690e981df"
+    },
+    "proof": {
+      "bytes": 28078,
+      "path": "research/ORDINARY_SPINE_EXCEPTIONAL_NEUTRAL_ANCHOR_BANK_GROWTH.md",
+      "sha256": "149ccbc35b61ccd20769731dc3f49db6d7832549157b317ce806abc76f7274d4"
+    },
+    "status": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE"
+  },
+  "authoritative_ledgers": {
+    "research/DECISIONS.md": {
+      "bytes": 165990,
+      "sha256": "5f1ef798ebf8c9fc4c1ae5cee534f34e1c8057dccfe574eb1d7d5c01e86207b3"
+    },
+    "research/FAILED_HYPOTHESES.md": {
+      "bytes": 87936,
+      "sha256": "7c95d1cee0859d238f5eb7802eef6b767ad66515eb8df3dc797d60637203e520"
+    },
+    "research/FINDINGS.md": {
+      "bytes": 211977,
+      "sha256": "3eba80aada4dae4361f86023f6962dbad6417ceb4b2284e2739754797a609b3e"
+    },
+    "research/PROOF_OBLIGATIONS.md": {
+      "bytes": 121641,
+      "sha256": "0abf4bff75e47166988fe5d52046488679f881e74087f1aba47041969dc27f52"
+    }
+  },
+  "canonical_state": {
+    "bytes": 106480,
+    "sha256": "49d2845635505322698d4ebfc994652b794923fa62d1a1ed6bf9dfaa88342345"
+  },
+  "files": {
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_BASELINE_QUOTA_REDISTRIBUTION_001/CUSTODY.json": {
+      "bytes": 7190,
+      "sha256": "c1fc2c75ff641c36f62e269b1ca9596c3a57ec1e11f1caba714f2317b25c4983"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_BASELINE_QUOTA_REDISTRIBUTION_001/REVIEWS.md": {
+      "bytes": 2522,
+      "sha256": "8f39d59fa6c1eff6db8dbea1935b71cf57f2dec43b6eee80563265aa6829768d"
+    },
+    "handoffs/CODEX-20261125-d185-baseline-quota-redistribution.md": {
+      "bytes": 3383,
+      "sha256": "43757dd58620463a7dfdf5444249d720e75f756b6173427356c00a60f33e31e5"
+    },
+    "research/ORDINARY_SPINE_EXCEPTIONAL_BASELINE_QUOTA_REDISTRIBUTION.md": {
+      "bytes": 30533,
+      "sha256": "ce57d935b60952f8ebf0ffa49041e1912aec522bc3a6c53dac8c4c0fa8a093b5"
+    }
+  },
+  "hash_convention": "Canonical LF for D185 text. Earlier frozen evidence retains its original conventions.",
+  "parent": "b71bd603cacab15d40a4738a3e665fca216f4b6b",
+  "phase": "SYMBOLIC_CLOSEOUT",
+  "result": {
+    "all_even_corollary": "At full bank, every even M up to floor((r-6)/2) lowers the Q floor to r-2-M with odd P2>=1+M and other retained target minima",
+    "open_scopes": [
+      "General multi-host feasibility",
+      "Other role parities and redistributions",
+      "Independent initialization",
+      "Arbitrary decomposition"
+    ],
+    "principal": "D183 wider named exterior and D184 qualifying neutral and deficit-two first hosts, topology, role parities and full target size",
+    "quota_condition": "Q >= r-2-M + sum Cprime_rho from the D184 costs at the redistributed baseline and a dominating target; at t>=nu all Cprime_rho vanish",
+    "supplier": "Disjoint adjacent ordinary-host tiles transfer a Q identity to P_(2k), in even multiplicity per separation, preserving the exact four rows and the neutral bank"
+  },
+  "reviews": {
+    "director_D185": "PENDING",
+    "implementation_and_evidence_custody": "PASS_SCOPED",
+    "mathematical": "PASS_SCOPED"
+  },
+  "schema_version": 1,
+  "scientific_counters": {
+    "historical_replays": 0,
+    "new_scientific_campaign_executions": 0,
+    "numerical_search_nodes": 0,
+    "solver_allocation_states": 0
+  },
+  "sole_next_action": "Submit the D185 symbolic outcome and separate reviews for Director review.",
+  "status": "PROVED_WITHIN_EXACT_WRITTEN_SCOPE_PENDING_DIRECTOR_REVIEW",
+  "symbolic_controls": {
+    "D184_Q_floor": 9,
+    "D185_Q_floor": 7,
+    "F": 34,
+    "R": 16,
+    "bank_width": 4,
+    "certificate_status": "SYMBOLIC_COVERAGE_ONLY",
+    "first": [
+      12,
+      4,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "matched_positive_second": [
+      9,
+      1,
+      4,
+      2,
+      0
+    ],
+    "n": 74,
+    "redistributed_baseline": [
+      7,
+      3,
+      4,
+      0
+    ],
+    "role_pairs": [
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "scope_separating_second": [
+      7,
+      3,
+      4,
+      2,
+      0
+    ],
+    "tile_parameter": 1,
+    "twice_K": 68
+  },
+  "task": "LCL-ORDINARY-SPINE-EXCEPTIONAL-BASELINE-QUOTA-REDISTRIBUTION-001"
+}
