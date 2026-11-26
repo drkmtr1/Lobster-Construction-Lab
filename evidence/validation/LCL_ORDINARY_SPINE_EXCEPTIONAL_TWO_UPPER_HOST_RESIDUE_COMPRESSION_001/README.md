@@ -1,0 +1,5 @@
+# D168 evidence index
+
+**PROVED / PENDING DIRECTOR REVIEW.** This package concerns the supplied-exterior `S₋₁ → S₋₁` arrangement with exactly two eligible upper parents and arbitrary fixed separation. It binds the symbolic proof, the two review scopes, the amended starting checkpoint, D167's unchanged scientific identities, the retained separation-one record and the closeout state. There was no numerical catalog, allocator invocation, new original or campaign. [Proof](../../../research/ORDINARY_SPINE_EXCEPTIONAL_TWO_UPPER_HOST_RESIDUE_COMPRESSION.md) · [Reviews](REVIEWS.md) · [Custody](CUSTODY.json) · [Manifest](MANIFEST.json)
+
+Only the requested actual pairs meeting the original topology, size and phase premises are classified. The finite bases can include auxiliary zero upper quotas. An expandable gap adds the exact period `(2a,2ρ−2a)` for its common directional flow count `a`. D164 remains incomplete and undecided. The selected exterior-supply follow-on remains unstarted. [Handoff](../../../handoffs/CODEX-20261125-exceptional-two-upper-host-residue-compression.md)

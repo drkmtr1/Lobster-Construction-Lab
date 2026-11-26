@@ -974,3 +974,9 @@ Discharged the selected fixed and full E+ classifications, exact parity-path rep
 The prescribed terminal-exchange geometry now has an exact finite symbolic reservation definition, reversible long-gap contraction, all arithmetic membership cases, and named lifting at the requested quota pair with exact palettes and composition. The proof supplies the explicit period set, base bound and extraction beyond the earlier residual path criterion. Independent supply for other exterior geometries and exteriors with different reflection offsets or additional eligible hosts remains open.
 
 The sole proposed unstarted action is symbolic reservation compression for exactly two eligible upper hosts at arbitrary fixed reduced-label separation. D167's separation-two result is the control. No successor work is authorized here. [Proof](ORDINARY_SPINE_EXCEPTIONAL_RESERVATION_SEMILINEAR.md)
+
+## D168 — Discharged two-upper-host compression and remaining physical supply
+
+D168 discharges the conditional arbitrary-separation question with exact row normalization, residue-path matching, reversible anchored compression, equal aggregate directional flow, finite bases, constructive arithmetic membership, named inventories and the D157 exceptional return. It leaves independent exterior supply, additional eligible upper hosts, arbitrary center multiplicity and universal initialization or decomposition outside the proved domain. The literature-informed shell lift concerns initializer supply and remains an unstarted strategic candidate. [Proof](ORDINARY_SPINE_EXCEPTIONAL_TWO_UPPER_HOST_RESIDUE_COMPRESSION.md)
+
+Under separate Owner authorization after Director review, seek independent terminal-enabled exterior supply or a scoped no-supply proof for D163's open `r=t=0,p≥3` corner on its prescribed named family and exact D157 exceptional transition. Preserve the distinct `p=2` transported finite control. This action is UNSTARTED.

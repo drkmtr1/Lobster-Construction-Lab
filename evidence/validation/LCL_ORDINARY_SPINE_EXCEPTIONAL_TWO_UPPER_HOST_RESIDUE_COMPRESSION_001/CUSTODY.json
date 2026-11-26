@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "task": "LCL-ORDINARY-SPINE-EXCEPTIONAL-TWO-UPPER-HOST-RESIDUE-COMPRESSION-001",
+  "status": "PROVED_PENDING_DIRECTOR_REVIEW",
+  "accepted_scientific_checkpoint": "05858980436e518817f03cd9454e672c1573dc0a",
+  "amended_starting_checkpoint": "3fe3b4ef04695d6527196d2e3572281e089e55fe",
+  "D167_director_acceptance": {
+    "scope": "Accept the exact named terminal-exchange geometry, finite types, sharper base bound, generator controls, capacity obstructions, exact lifting and composition.",
+    "proof_sha256": "610e9d10790bf9ce4d6f99b8c2d3d637be7c62f5cb7841cbd2402837f1ab5e7a",
+    "manifest_sha256": "9bdd3658d9a0bed51117ef1cfacae1864a538688b86c9ce0a4e0fce4fb303789",
+    "canonical_state_sha256": "f778fb83e7ba759ce052e71badba50d604c149a6b397b4c563820a672fdce9c0",
+    "limitations": "The Director inspected historical custody and review records, without independently decompressing D164, replaying checker certificates, inspecting the local filesystem, or freshly verifying the baseline tag and peel."
+  },
+  "literature_acceptance": {
+    "scope": "Director accepted documentation as scoped research preparation, with open source checks and no priority determination.",
+    "changed_paths_from_scientific_checkpoint": [
+      "docs/LOBSTER_LITERATURE_REGISTER.md",
+      "docs/LOBSTER_RESEARCH_ALIGNMENT.md",
+      "docs/SOURCES.md"
+    ],
+    "shell_lift_status": "UNSTARTED_STRATEGIC_CANDIDATE"
+  },
+  "local_admission": {
+    "status": "PASS",
+    "worktree_clean_at_intake": true,
+    "local_head_origin_main_live_main": "3fe3b4ef04695d6527196d2e3572281e089e55fe",
+    "baseline_tag": "fddfc1dd9541324b2ed2de2505bc750b3e3f0b9d",
+    "baseline_peel": "36ea1603602491bf3c1c5b81ed4c23aaa2210e70",
+    "upstream_main_pins": {
+      "Math_Discovery_Lab": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+      "MDL_Bounded_Search": "e48b94eec4091b4fe189e325cab2eda464409943"
+    },
+    "bounded_search_local_recovery_head": "c803ecb6bd0481d31af43f7e3c194ae8ed4d1578",
+    "builder_blob": "8d1e9948e8bf5ef01e67c9afe0155412c57d79fa",
+    "checker_blob": "d008f35f0843e1a5c770db3e7f42ed7d987360d7",
+    "D167_manifested_files_and_intake_bindings_rehashed": [5, 23],
+    "D164_archive_sha256": "6ecb659aaefc4a574f39d1da8c3bb88b53517ea9381cc25fa332144f822a7c19",
+    "D164_members_rehashed": 1288,
+    "record_verification": "Reconciled target-0428 T with its frozen original and named incidences; checked stored maps, folded reservations and recurrence bits. No scientific checker or allocation was executed. Confirmed no completed target-0429 T or E+ record."
+  },
+  "target_0428_T": {
+    "record_sha256": "8d8ac74c31b8903788db7e46f9385d5f7529ed2539870e0fb15717e318a53b28",
+    "original_digest": "6f4cc649a76e055160ade2e856544762df550e4f49235df0c17e181421760256",
+    "residual_counts_P_Q": [4, 5],
+    "recorded_nonidentity_columns_LH_HL": [[7, 9], [9, 10]],
+    "expandable_gaps_in_saved_reservations": 0,
+    "D164_status": "INCOMPLETE_UNDECIDED_UNCHANGED"
+  },
+  "measured_admission": {
+    "successful_reader_process_cpu_seconds": 0.625,
+    "successful_reader_inner_wall_seconds": 4.439628900028765,
+    "successful_shell_observed_wall_seconds": 5.4791231,
+    "earlier_documentary_check_shell_wall_seconds": [2.2262303, 5.8025251],
+    "note": "Earlier read-only checks exposed a raw-versus-canonical AGENTS.md hash convention and a frozen-record field name. These were corrected in the verifier. The scientific work used no numerical procedure."
+  },
+  "limits": {
+    "verification_process_cpu_seconds": 60,
+    "verification_observed_wall_seconds": 120,
+    "new_evidence_bytes": 4000000
+  },
+  "execution_counters": {
+    "new_numerical_originals": 0,
+    "numerical_catalog_evaluations": 0,
+    "allocator_evaluations": 0,
+    "exterior_search_nodes": 0,
+    "transfer_state_searches": 0,
+    "labeling_search_nodes": 0,
+    "solver_calls": 0,
+    "pilot_invocations": 0,
+    "historical_campaign_replays": 0,
+    "D130_detailed_access": 0,
+    "successor_preparation": 0,
+    "successor_execution": 0
+  }
+}
