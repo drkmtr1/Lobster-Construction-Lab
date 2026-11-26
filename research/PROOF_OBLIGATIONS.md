@@ -1057,4 +1057,8 @@ The selectable-role supplier is proved with its reduced Q bound, and with just t
 
 ## D185 — Feasibility outside disjoint-tile redistribution and bank growth
 
-The stated adjacent-host tile and bank schedule prove the sufficient reduced Q domain and the infinite-family corollary. Other redistributions, roles and arbitrary multi-host feasibility retain their own scopes, as do general initialization and arbitrary decomposition. D184 and previous accepted mathematical and historical scopes remain as recorded. The sole next action is Director review of D185. [D185 proof](ORDINARY_SPINE_EXCEPTIONAL_BASELINE_QUOTA_REDISTRIBUTION.md)
+The stated adjacent-host tile and bank schedule prove the sufficient reduced Q domain and the infinite-family corollary. Other redistributions, roles and arbitrary multi-host feasibility retain their own scopes, as do general initialization and arbitrary decomposition. D184 and previous accepted mathematical and historical scopes remain as recorded. The Director accepted D185 in its exact scope. D186 separately addresses joint cumulative imbalance and upper parity. [D185 proof](ORDINARY_SPINE_EXCEPTIONAL_BASELINE_QUOTA_REDISTRIBUTION.md)
+
+## D186 — Feasibility beyond monotone gap matching and the bank schedule
+
+The exact local quota support is established within the defined footprint, and the retained bank supplies the stated dominating target domain. General feasibility with other upper parities, enlarged arrangements or a different allocation, independent initialization and arbitrary decomposition remain separate. D185 and prior mathematical and historical scopes remain as recorded. The sole next action is Director review of D186. [D186 proof](ORDINARY_SPINE_EXCEPTIONAL_CUMULATIVE_IMBALANCE_ALLOCATION.md)

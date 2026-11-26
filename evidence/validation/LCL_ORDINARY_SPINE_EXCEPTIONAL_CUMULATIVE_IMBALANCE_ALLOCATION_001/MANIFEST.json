@@ -1,0 +1,252 @@
+{
+  "D174_history": {
+    "numerical_arms": 2,
+    "pairs": 1,
+    "stopping_rule": "FIRST_INDEPENDENTLY_VERIFIED_SEPARATOR",
+    "unentered": 3518
+  },
+  "accepted_D177_symbolic_projection": {
+    "admitted_K_frequencies": {
+      "15": 15,
+      "16": 30,
+      "17": 30,
+      "18": 15,
+      "19": 3
+    },
+    "count": 93,
+    "historically_unentered": 92
+  },
+  "accepted_D185": {
+    "checkpoint": "89235bc021d35e84651a6b6d1b0b6b8ca32eb198",
+    "manifest": {
+      "bytes": 4874,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_BASELINE_QUOTA_REDISTRIBUTION_001/MANIFEST.json",
+      "sha256": "90419278a78b5b4583e3a3de5b405a3eae015c3e62aa5a66a5f438306ef7f422"
+    },
+    "proof": {
+      "bytes": 30533,
+      "path": "research/ORDINARY_SPINE_EXCEPTIONAL_BASELINE_QUOTA_REDISTRIBUTION.md",
+      "sha256": "ce57d935b60952f8ebf0ffa49041e1912aec522bc3a6c53dac8c4c0fa8a093b5"
+    },
+    "status": "DIRECTOR_ACCEPTED_WITHIN_EXACT_WRITTEN_SCOPE"
+  },
+  "authoritative_ledgers": {
+    "research/DECISIONS.md": {
+      "bytes": 167128,
+      "sha256": "2637b1be3c391666d67c201c42a2aa8b924d71fcbebda5a4b8a0ece51cce373c"
+    },
+    "research/FAILED_HYPOTHESES.md": {
+      "bytes": 88604,
+      "sha256": "d0bf7ef7566bbd9263218cb8d6f84987253335a2b73801d22c58b064a4040401"
+    },
+    "research/FINDINGS.md": {
+      "bytes": 213198,
+      "sha256": "704574a7e7f1a4b25a1f5a1390d9d085d0c1d34649a97cf19986aeebb921844c"
+    },
+    "research/PROOF_OBLIGATIONS.md": {
+      "bytes": 122293,
+      "sha256": "7848f6b1b2b2cfffacd250a3f7c03ab4226527e57d6ade6bbd46db2b3b45e6d2"
+    }
+  },
+  "canonical_state": {
+    "bytes": 107443,
+    "sha256": "e7f031783c12193c4f2a41bc25e75f540324c8bfa54310fa88665105a48a4277"
+  },
+  "files": {
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_CUMULATIVE_IMBALANCE_ALLOCATION_001/CUSTODY.json": {
+      "bytes": 8574,
+      "sha256": "f5bf2c019a8713772987d2e73ab97c0321bd0615d6b6097e4efed419ba22c725"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_EXCEPTIONAL_CUMULATIVE_IMBALANCE_ALLOCATION_001/REVIEWS.md": {
+      "bytes": 2505,
+      "sha256": "feb651daff661fa46217ef28be39d5664413cd0ef5558197a6c9ffc8e43684a2"
+    },
+    "handoffs/CODEX-20261125-d186-cumulative-imbalance-allocation.md": {
+      "bytes": 3525,
+      "sha256": "05590b1d9a653b7ad1a8faf5974ed969c006fac873a7e05cf50ae343e23fa2e5"
+    },
+    "research/ORDINARY_SPINE_EXCEPTIONAL_CUMULATIVE_IMBALANCE_ALLOCATION.md": {
+      "bytes": 33066,
+      "sha256": "57f259c303b2e4cb8ba3e1ada0151fe0623679bd2af2942adab129d77eadfb4c"
+    }
+  },
+  "hash_convention": "Canonical LF for D186 text. Earlier frozen evidence retains its original conventions.",
+  "parent": "89235bc021d35e84651a6b6d1b0b6b8ca32eb198",
+  "phase": "SYMBOLIC_CLOSEOUT",
+  "result": {
+    "consequences": "Complete D185 embedding, full-bank sufficient constant Q floor five at P2 >= r-6 in the all-even first domain, all-even and four-odd second controls",
+    "growth": "Dominating target quotas with the baseline parities, Q >= q0 + sum of D184 costs, and exact named spectra and admitted composition",
+    "local_model": "Consecutive monotone host groups give exactly the separator gaps c_j plus or minus u_j; permitted permutations characterize enumerated local quota support",
+    "open_scopes": [
+      "General multi-host feasibility",
+      "Other local allocations and parity patterns",
+      "Independent initialization",
+      "Arbitrary decomposition"
+    ],
+    "principal": "D183 named exterior, D182 parity packets, D183 tail and D184 neutral bank, qualifying first hosts and independently admitted full target"
+  },
+  "reviews": {
+    "director_D186": "PENDING",
+    "implementation_and_evidence_custody": "PASS_SCOPED",
+    "mathematical": "PASS_SCOPED"
+  },
+  "schema_version": 1,
+  "scientific_counters": {
+    "historical_replays": 0,
+    "new_scientific_campaign_executions": 0,
+    "numerical_search_nodes": 0,
+    "original_checker_invocations": 0,
+    "solver_allocation_states": 0
+  },
+  "sole_next_action": "Submit the D186 symbolic outcome and separate reviews for Director review.",
+  "status": "PROVED_WITHIN_EXACT_WRITTEN_SCOPE_PENDING_DIRECTOR_REVIEW",
+  "symbolic_controls": {
+    "A": {
+      "D185_sufficient_Q_floor_at_least": 7,
+      "baseline": [
+        5,
+        5,
+        4,
+        0
+      ],
+      "first": [
+        12,
+        4,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "imbalance": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "prefix_edges": 74,
+      "second": [
+        5,
+        5,
+        4,
+        2,
+        0
+      ],
+      "twice_K": 68
+    },
+    "B": {
+      "baseline": [
+        6,
+        4,
+        4,
+        0
+      ],
+      "first": [
+        12,
+        4,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "imbalance": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "prefix_edges": 74,
+      "second": [
+        6,
+        4,
+        4,
+        2,
+        0
+      ],
+      "twice_K": 68
+    },
+    "C": {
+      "D185_prefix_extension_first": [
+        12,
+        4,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "D185_prefix_extension_second": [
+        7,
+        3,
+        4,
+        2,
+        0
+      ],
+      "baseline": [
+        5,
+        1,
+        1,
+        0,
+        0,
+        0,
+        5,
+        0
+      ],
+      "final_edges": 230,
+      "first": [
+        20,
+        8,
+        4,
+        2,
+        6,
+        2,
+        2,
+        2,
+        2
+      ],
+      "imbalance": [
+        0,
+        2,
+        3,
+        0
+      ],
+      "matched_separations": [
+        7,
+        3
+      ],
+      "maximum_polarity_cut": 117,
+      "prefix_edges": 142,
+      "second": [
+        5,
+        1,
+        1,
+        2,
+        2,
+        2,
+        5,
+        2,
+        0
+      ],
+      "twice_K": 88
+    },
+    "certificate_status": "SYMBOLIC_COVERAGE_ONLY"
+  },
+  "task": "LCL-ORDINARY-SPINE-EXCEPTIONAL-CUMULATIVE-IMBALANCE-ALLOCATION-001"
+}

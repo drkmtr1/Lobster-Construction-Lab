@@ -799,3 +799,7 @@ After restoring a bank of width 1≤T<ρ, the two free intervals of length λ ha
 ## D185 — Matching, local capacity and per-role parity restrictions
 
 The redistribution tile requires disjoint adjacent pairs of eligible ordinary roles and at least 2k leaves at each of the two actual hosts, with 2k an available separation. Odd tile multiplicity at an individual separation gives the wrong baseline parity for the specified target when followed by even-only bank growth. An even total M alone cannot ensure each shifted parity. These restrictions apply to this supplier. The Q=7 control lies outside D184's sufficient domain and is supplied by D185. [D185 proof](ORDINARY_SPINE_EXCEPTIONAL_BASELINE_QUOTA_REDISTRIBUTION.md)
+
+## D186 — Local matching and parity limits of the defined supplier
+
+At fixed imbalances a local matching using the retained upper hosts requires every H-to-L gap difference to be an available separation in {0,2,…,ν}. A difference of one or a negative difference is unavailable. Subsequent even bank growth preserves the manufactured baseline parity at each actual second host. The earlier D185 fixed parities suffice in its construction, while all-even second quotas and four odd second quotas are supplied in D186. These comparisons concern this arrangement and the fixed local model. [D186 proof](ORDINARY_SPINE_EXCEPTIONAL_CUMULATIVE_IMBALANCE_ALLOCATION.md)
