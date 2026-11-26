@@ -1,0 +1,103 @@
+{
+  "audit_engine_prepared": false,
+  "claimed_lifts": {
+    "conditional_suffix": [
+      "48",
+      "46-c",
+      "c+2"
+    ],
+    "incoming_state": [
+      32,
+      20,
+      12
+    ],
+    "main_resolution": "SCOPED_SYMBOLIC_NEGATIVE_BOTH_EXTREMES",
+    "main_return": [
+      "41",
+      "c",
+      "c+2"
+    ],
+    "matched_continuation": [
+      48,
+      26,
+      22
+    ],
+    "matched_return": [
+      41,
+      20,
+      22
+    ],
+    "numerical_lane": "SYMBOLICALLY_RESOLVED / NO_EXECUTION_NEEDED",
+    "support_cuts": [
+      6,
+      10,
+      14,
+      20,
+      21,
+      22,
+      23,
+      25,
+      26
+    ]
+  },
+  "controls": [
+    "main_41",
+    "main_48_if_admitted",
+    "matched_41",
+    "matched_48"
+  ],
+  "disposition": "SYMBOLICALLY_RESOLVED_NO_EXECUTION_NEEDED_PENDING_DIRECTOR_REVIEW",
+  "execution_authorized": false,
+  "execution_entry": null,
+  "future_allocation_caps": null,
+  "preparation_limits": {
+    "new_evidence_bytes": 128000000,
+    "observed_wall_seconds": 3600,
+    "process_cpu_seconds": 1800
+  },
+  "raw_inputs": {
+    "ORIGINALS.json": {
+      "bytes": 103581,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_SAFE_GAP_RETURN_001_PREP/ORIGINALS.json",
+      "sha256": "538590be0628cbc452fbbf0c991f4c1f8ce42e48024175069b20942189e28569"
+    },
+    "PREFIXES.json": {
+      "bytes": 65505,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_SAFE_GAP_RETURN_001_PREP/PREFIXES.json",
+      "sha256": "9dafe4cefc458be4f203aa2d383138c69a29253f03d6425baa51eedebaa5db48"
+    },
+    "SYMBOLIC_CONTROLS.json": {
+      "bytes": 178379,
+      "path": "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_SAFE_GAP_RETURN_001_PREP/SYMBOLIC_CONTROLS.json",
+      "sha256": "a5a248bf04a90a6cd20ec1ca922643db83360af516a26b86e4740d4f72ea2d05"
+    }
+  },
+  "solver_prepared": false,
+  "task": "LCL-ORDINARY-SPINE-CONSECUTIVE-POSITIVE-SAFE-GAP-RETURN-001-PREP",
+  "vacant_paths": [
+    "runs/d203-consecutive-positive-safe-gap-return-001",
+    "runs/d203-consecutive-positive-safe-gap-return-001-approval.json",
+    "evidence/runs/d203-consecutive-positive-safe-gap-return-001",
+    "runs/d202-zero-direct-leaf-multi-host-detour-path-001",
+    "runs/d202-zero-direct-leaf-multi-host-detour-path-001-approval.json",
+    "evidence/runs/d202-zero-direct-leaf-multi-host-detour-path-001",
+    "runs/d201-expanded-exterior-multi-host-residue-packets-001",
+    "runs/d201-expanded-exterior-multi-host-residue-packets-001-approval.json",
+    "evidence/runs/d201-expanded-exterior-multi-host-residue-packets-001",
+    "runs/d200-generalized-safe-gap-shell-composition-001",
+    "runs/d200-generalized-safe-gap-shell-composition-001-approval.json",
+    "evidence/runs/d200-generalized-safe-gap-shell-composition-001",
+    "runs/d199-partial-safe-cut-three-gap-chain-001",
+    "runs/d199-partial-safe-cut-three-gap-chain-001-approval.json",
+    "evidence/runs/d199-partial-safe-cut-three-gap-chain-001",
+    "runs/d198-nested-cut-rank-interleaving-001",
+    "runs/d198-nested-cut-rank-interleaving-001-approval.json",
+    "evidence/runs/d198-nested-cut-rank-interleaving-001",
+    "runs/d197-odd-run-cut-repartition-001",
+    "runs/d197-odd-run-cut-repartition-001-approval.json",
+    "evidence/runs/d197-odd-run-cut-repartition-001",
+    "runs/d191-low-capacity-strict-phase-001",
+    "runs/d191-low-capacity-strict-phase-001-approval.json",
+    "evidence/runs/d191-low-capacity-strict-phase-001"
+  ]
+}

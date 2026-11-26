@@ -867,3 +867,7 @@ The step-four control C has N=11,A=13,K0=15 and matches the displacement moment 
 ## D202 — Equal-moment fixed-shell host-support obstruction
 
 At N=14,K0=16 with h=10,J0=13,d=6, the all-positive adverse control matches the displacement moment at two. The actual third host has positive quota one, but its candidate differences from all residual sources are at most 13 and the palette starts at 15. This proves failure of the fixed shell regardless of detour order or method. The proof does not classify other placements or the original's ordinary gracefulness. [D202 proof](ORDINARY_SPINE_ZERO_DIRECT_LEAF_MULTI_HOST_DETOUR_PATH.md)
+
+## D203 — Exact safe-supported all-unit continuation obstruction
+
+For the exact incoming 32-edge D202 Control A labels and the named (1,1,1,1) continuation, safe-supported increasing old embeddings cannot give P(41,c,c+2) at either extreme. Improper old cuts fail by actual side cardinality or disjoint small terminal weights. At proper cuts w=0 fails an exact high-band incidence count, and w=41 fails oriented lower pairings and the terminal moment. These findings scope the fixed input and requested interface. They leave other embeddings, supplied inputs and output states open. [D203 proof](ORDINARY_SPINE_CONSECUTIVE_POSITIVE_SAFE_GAP_RETURN_PREPARATION.md)

@@ -1126,3 +1126,7 @@ Exact residue capacities classify the declared step-four, step-six and relocated
 ## D202 — Beyond the leaf-free receiving shell
 
 The direct consequences of the D201 inherited corridor remain exact. The standard and relocated detour suppliers give zero actual receiving direct leaves and unbounded relocated positive-center counts. Arbitrary quota supply beyond the sufficient aggregate condition, the actual upper quota-one restriction, independently supplied safe-cut input for arbitrary prefixes, universal safe-state closure and arbitrary original-spine decomposition remain open. No further closure investigation or targeted hybrid execution is entered. D191, D197 and D198 remain closed. The D198 fixed minimum-input w=0 branch stays unclassified. [D202 proof](ORDINARY_SPINE_ZERO_DIRECT_LEAF_MULTI_HOST_DETOUR_PATH.md)
+
+## D203 — Consecutive positive-terminal continuation beyond the registered class
+
+The exact D203 safe-supported main question is resolved symbolically with both extreme branches excluded. Arbitrary unsupported-cut or nonmonotone embeddings, alternate independent inputs, different return states and general consecutive positive-terminal closure remain open. The separate D198 fixed-minimum-input w=0 branch remains unclassified. The D191, D197, D198 and D203 numerical lanes remain closed. [D203 proof](ORDINARY_SPINE_CONSECUTIVE_POSITIVE_SAFE_GAP_RETURN_PREPARATION.md)
