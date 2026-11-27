@@ -1240,3 +1240,7 @@ Independently supply marks for freely interleaved quota parities and small even 
 ## D220 exact fixed-mark question resolved
 
 The 30-edge fixed-mark question retained after D219 is decided positively by a named Arm A certificate. General direct joint supplier coverage at other multiplicities and independently varying quotas remains open. The exact-cover equivalence transfers the obligation to simultaneous resources on a supplied skeleton. The one positive does not establish automatic support on other skeletons. The Director's flexible-mark observation for even h≥6 is held without investigation or adoption. Preserve the D212 INCOMPLETE certificate questions and held closure, the D213 held insertion obligation, and deferred D207. No successor is selected. [Proof and scope](DIRECT_JOINT_FIXED_MARK_ALLOCATION.md#6-direct-allocation-and-scope)
+
+## D221 all-even supplier obligation discharged
+
+The registered multiplicities and independently positive even quotas are covered in full, with physical reversal. The unresolved complement within this registration is empty, so no hybrid discriminator is needed. This leaves differently mixed parity profiles, multiplicities outside the stated domain and the held all-odd fixed-band observation untouched. Retain B2/B3/B4 as INCOMPLETE on their D212 certificate questions, the held D212 closure and D213 insertion obligations, and deferred D207. No successor is selected. [Coverage](INDEPENDENT_ALL_EVEN_MARKED_SUPPLY.md#7-coverage-and-scope)
