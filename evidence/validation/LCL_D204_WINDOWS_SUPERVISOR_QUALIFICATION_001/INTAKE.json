@@ -1,0 +1,119 @@
+{
+  "task": "LCL-D204-WINDOWS-SUPERVISOR-QUALIFICATION-001",
+  "accepted_recovery": "bc08b72dac7e02a3be61058e5794f52ea5babfbb",
+  "admission": "50b5d979cd8977d20602bb379cf7b6b9b9176a2c",
+  "scientific_preparation": "6ace7ca113a8f4fd4f68bb1cb7e1bd326979cfb7",
+  "bindings": {
+    "evidence/validation/LCL_D204_EXECUTION_ENVIRONMENT_RECOVERY_PREP_001/MANIFEST.json": "f424efce14fa3949198f753dc061a4acbf80d120bcdc7eb07985252999f74b4e",
+    "evidence/validation/LCL_D204_EXECUTION_ENVIRONMENT_RECOVERY_PREP_001/WINDOWS_RECOVERY_CONTRACT.md": "0431dd20e6f98e9eab11994835525e5434d3d0f6fcb0609b3e0c4af1c9261ab6",
+    "evidence/validation/LCL_D204_EXECUTION_ENVIRONMENT_RECOVERY_PREP_001/PROPOSAL.json": "5c1a382abe594d093443e7e2b4b390cab9785f57b73158c1b34a2e978eb09293",
+    "evidence/runs/d204-consecutive-positive-coordinated-gap-return-001/MANIFEST.json": "1317ca61f27526654249d45f7d6285c04c1fa81bcb0934d3f5bc7b08046b5d3c",
+    "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_COORDINATED_GAP_RETURN_001_PREP/MANIFEST.json": "1fed8bbd218557dd274af443bbb821a8079a15046d4ba27aeb2868b3ecea7236"
+  },
+  "artifacts": {
+    "recovery": 10,
+    "admission": 7,
+    "preparation": 18,
+    "sources": 27,
+    "authorities_per_checkpoint": 5
+  },
+  "baseline_and_blobs": {
+    "HEAD:lcl/model.py": "8d1e9948e8bf5ef01e67c9afe0155412c57d79fa",
+    "HEAD:lcl/verify.py": "d008f35f0843e1a5c770db3e7f42ed7d987360d7",
+    "lcl-v0.1.0-baseline": "fddfc1dd9541324b2ed2de2505bc750b3e3f0b9d",
+    "lcl-v0.1.0-baseline^{}": "36ea1603602491bf3c1c5b81ed4c23aaa2210e70"
+  },
+  "prior_approval": {
+    "bytes": 6675,
+    "sha256": "c624646ba460a2f52a891fd2830110400943c084f4854c4cfb287186b33526d8"
+  },
+  "runtime": {
+    "binaries": {
+      "base_executable": {
+        "bytes": 105696,
+        "sha256": "7c2fc2b303a4ee3cc14cc17b47bc6e8bca98c78792edd123b846a560da44b203"
+      },
+      "launcher": {
+        "bytes": 255200,
+        "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664"
+      },
+      "windows_dll": {
+        "bytes": 6142688,
+        "sha256": "26026530507a7389e7892ce130e7c1753b32a2df03ec3721d45ad8c1705d40eb"
+      }
+    },
+    "flags": [
+      "-I",
+      "-S",
+      "-B"
+    ],
+    "implementation": "cpython",
+    "platform": "win32",
+    "pointer_bits": 64,
+    "python_version": [
+      3,
+      13,
+      17
+    ],
+    "runtime": "project-local isolated no-site CPU-only standard-library Python"
+  },
+  "domain": {
+    "actual_41_digest": "5554c99f3db5b777a5e139369479c470b9e220753da2193aecbaa3c9ac6d3515",
+    "deterministic_48_digest": "1e9d8d99227973991cb6fb850cfbcd44cfac2c3470396886c59a9264bd3de3cb",
+    "exact_old_labeling_file": "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_COORDINATED_GAP_RETURN_001_PREP/PREFIXES.json",
+    "frontier": 0,
+    "induced_old_cut": 14,
+    "input_digest": "fd4289cb555097994341bf023415e231841e01e95c1098c7890643252241f061",
+    "original_old_labels_unchanged": true,
+    "physical_cuts": [
+      18,
+      19
+    ],
+    "profile": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "rank_classes": [
+      "rank_preserving",
+      "rank_changing"
+    ],
+    "threshold": "C+2"
+  },
+  "limits": {
+    "audit": {
+      "allocation_states": 2366611480,
+      "cpu_seconds": 345600,
+      "fixed_edge_checks": 281105880,
+      "geometry_entries": 8518360,
+      "live_records": 6,
+      "pair_trials": 5338255680,
+      "placement_attempts": 2561339680,
+      "wall_seconds": 432000
+    },
+    "new_evidence_bytes": 128000000,
+    "primary": {
+      "allocation_states": 225145280,
+      "cpu_seconds": 172800,
+      "fixed_edge_checks": 351307720,
+      "geometry_entries": 8518360,
+      "live_records": 7,
+      "pair_trials": 210605520,
+      "placement_attempts": 14539760,
+      "wall_seconds": 259200
+    },
+    "workers": 1
+  },
+  "custody": {
+    "local_and_live_main": "bc08b72dac7e02a3be61058e5794f52ea5babfbb",
+    "starting_clean": true,
+    "worktrees": 1,
+    "named_census": "No matching Python, OpenChamber or WSL process or local run lock observed in bounded census.",
+    "live_read_only_upstream_pins": {
+      "drkmtr1/Math-Discovery-Lab": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+      "drkmtr1/MDL_Bounded_Search": "e48b94eec4091b4fe189e325cab2eda464409943"
+    },
+    "qualified_paths_initially_vacant": true
+  }
+}

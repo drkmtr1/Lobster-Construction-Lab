@@ -2001,3 +2001,7 @@ The Director accepted preparation at 6ace7ca113a8f4fd4f68bb1cb7e1bd326979cfb7, i
 ## D204 execution-environment recovery preparation
 
 The Director accepted the admission stop at 50b5d979cd8977d20602bb379cf7b6b9b9176a2c, with no added exclusion. Both phases remain NOT_STARTED. Bounded inventory found no qualifying existing Linux environment. The prepared native Windows proposal distinguishes native user-mode CPU stopping, sampled combined CPU and elapsed watchdogs, and post-exit measured acceptance. It is a proposal for separate Owner review, with unchanged scientific code and limits and no environment admitted. The registered question remains unresolved. [Recovery assessment](../evidence/validation/LCL_D204_EXECUTION_ENVIRONMENT_RECOVERY_PREP_001/ENFORCEMENT.md)
+
+## D204 Windows supervisor qualification stopped at review
+
+The Director accepted the previous revised Windows recovery design at bc08b72dac7e02a3be61058e5794f52ea5babfbb. This task implemented and froze a supervisor candidate. Static review denied the native gate because the emergency waits can exceed the approved probe window, the helper can bypass matrix admission and a candidate receipt can be lost after acknowledgement. The disposition is WINDOWS_SUPERVISOR_QUALIFICATION_BLOCKED. All probes and both scientific phases remain NOT_STARTED. The D204 registered existence question is UNRESOLVED. [Evidence](../evidence/validation/LCL_D204_WINDOWS_SUPERVISOR_QUALIFICATION_001/RESULT.json)

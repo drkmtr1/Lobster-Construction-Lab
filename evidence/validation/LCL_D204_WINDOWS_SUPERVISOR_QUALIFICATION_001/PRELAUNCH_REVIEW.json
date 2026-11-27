@@ -1,0 +1,52 @@
+{
+  "task": "LCL-D204-WINDOWS-SUPERVISOR-QUALIFICATION-001",
+  "review": "independent frozen-source implementation review",
+  "freeze_sha256": "02556d7c959ca387e42d957e31791e9e17809925cf437974ea1f35e8f0ef8d3f",
+  "disposition": "BLOCK_BEFORE_NATIVE_QUALIFICATION",
+  "findings": [
+    {
+      "id": "Q-WIN-01",
+      "source": "research/d204_windows_supervisor_qualification/supervisor.py:482-509, 525-559 and 171-181",
+      "title": "Cleanup time is not drawn from a single elapsed deadline",
+      "finding": "The initial companion timeout can first fire after 24,000 ms. The emergency branch can then wait 5,000 ms for the helper, 4,000 ms for the worker and 1,000 ms for its final wait. The branch provisions about 34,000 ms before receipt, above the owner's 30,000 ms observed ceiling even without adding scheduling delay. A single failed TerminateJobObject call leaves the stop reason latched while IPC can remain blocked, making the late emergency path relevant. The installed, hash-bound CPython Lib/subprocess.py at lines 1106–1132 and 1597–1612 also shows that leaving the Popen context with an unexited helper can call wait with no timeout after the cleanup exception was caught, resulting in an infinite Windows wait."
+    },
+    {
+      "id": "Q-WIN-02",
+      "source": "research/d204_windows_supervisor_qualification/supervisor.py:587-609 and 625-638",
+      "title": "Owner subcommand is not tied to a matrix-issued one-shot admission",
+      "finding": "With the run directory present, the public owner mode accepts an unused frozen probe ID without an observer-bound one-shot permit. A lingering partial or closed matrix directory can permit direct, concurrent, or post-stop launch without the matrix's sequential observer, runtime pins, or aggregate budget checks."
+    },
+    {
+      "id": "Q-WIN-03",
+      "source": "research/d204_windows_supervisor_qualification/supervisor.py:266-276 and 436",
+      "title": "The candidate receipt is not durable before acknowledgement",
+      "finding": "The raw payload is synced before acknowledgement, but the hash and acknowledgement transition remain in memory until terminal.json. Interruption after acknowledgement can lose the candidate receipt required by the accepted recovery contract."
+    }
+  ],
+  "inspected": [
+    "AMD64 Win32 ABI sizes and offsets",
+    "process creation flags, attribute storage and lifetime",
+    "two inherited pipes and uninherited Job handle",
+    "configured Job user time, one active member, kill-on-close and suspend/membership checks",
+    "retained process image and creation identity",
+    "dedicated watchdog, bounded framing and pre-write counters",
+    "process and Job terminal reconciliation",
+    "diagnostic one-shot admission and terminal states",
+    "static no-science entry boundary"
+  ],
+  "unmeasured_host_controls": [
+    "nested Job behavior",
+    "direct base process and loaded dependency resolution",
+    "native and sampled stops",
+    "clock cadence",
+    "child refusal",
+    "kill-on-close",
+    "terminal reconciliation behavior"
+  ],
+  "sources": [
+    "https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-updateprocthreadattribute",
+    "https://learn.microsoft.com/en-us/windows/win32/api/winnt/ns-winnt-jobobject_end_of_job_time_information"
+  ],
+  "native_probes_run": 0,
+  "scientific_imports": 0
+}

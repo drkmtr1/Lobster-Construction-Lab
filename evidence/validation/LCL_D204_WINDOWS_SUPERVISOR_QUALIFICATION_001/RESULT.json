@@ -1,0 +1,153 @@
+{
+  "task": "LCL-D204-WINDOWS-SUPERVISOR-QUALIFICATION-001",
+  "disposition": "WINDOWS_SUPERVISOR_QUALIFICATION_BLOCKED",
+  "gate": "BLOCK_BEFORE_NATIVE_QUALIFICATION",
+  "review_binding": {
+    "bytes": 424943,
+    "sha256": "02556d7c959ca387e42d957e31791e9e17809925cf437974ea1f35e8f0ef8d3f"
+  },
+  "accepted_prior_recovery": "RECOVERY_PREPARED_REVISED_WINDOWS_CONTRACT",
+  "recovery_checkpoint": "bc08b72dac7e02a3be61058e5794f52ea5babfbb",
+  "probe_status": [
+    {
+      "id": "natural",
+      "expected": "NATURAL",
+      "actual": "NOT_STARTED",
+      "worker_pid": null,
+      "user_ticks": null,
+      "kernel_ticks": null,
+      "elapsed_ms": null,
+      "job_accounting": null
+    },
+    {
+      "id": "native_cpu",
+      "expected": "NATIVE_USER_LIMIT",
+      "actual": "NOT_STARTED",
+      "worker_pid": null,
+      "user_ticks": null,
+      "kernel_ticks": null,
+      "elapsed_ms": null,
+      "job_accounting": null
+    },
+    {
+      "id": "combined_cpu",
+      "expected": "SAMPLED_COMBINED_CPU",
+      "actual": "NOT_STARTED",
+      "worker_pid": null,
+      "user_ticks": null,
+      "kernel_ticks": null,
+      "elapsed_ms": null,
+      "job_accounting": null
+    },
+    {
+      "id": "elapsed",
+      "expected": "SAMPLED_ELAPSED",
+      "actual": "NOT_STARTED",
+      "worker_pid": null,
+      "user_ticks": null,
+      "kernel_ticks": null,
+      "elapsed_ms": null,
+      "job_accounting": null
+    },
+    {
+      "id": "observer_gap",
+      "expected": "OBSERVATION_GAP",
+      "actual": "NOT_STARTED",
+      "worker_pid": null,
+      "user_ticks": null,
+      "kernel_ticks": null,
+      "elapsed_ms": null,
+      "job_accounting": null
+    },
+    {
+      "id": "child_refusal",
+      "expected": "CHILD_REFUSED",
+      "actual": "NOT_STARTED",
+      "worker_pid": null,
+      "user_ticks": null,
+      "kernel_ticks": null,
+      "elapsed_ms": null,
+      "job_accounting": null
+    },
+    {
+      "id": "interruption",
+      "expected": "OWNER_INTERRUPTED_KILL_ON_CLOSE",
+      "actual": "NOT_STARTED",
+      "worker_pid": null,
+      "user_ticks": null,
+      "kernel_ticks": null,
+      "elapsed_ms": null,
+      "job_accounting": null
+    },
+    {
+      "id": "candidate",
+      "expected": "DURABLE_CANDIDATE_AND_VERIFIED",
+      "actual": "NOT_STARTED",
+      "worker_pid": null,
+      "user_ticks": null,
+      "kernel_ticks": null,
+      "elapsed_ms": null,
+      "job_accounting": null
+    },
+    {
+      "id": "oversized",
+      "expected": "IPC_FRAME_LIMIT",
+      "actual": "NOT_STARTED",
+      "worker_pid": null,
+      "user_ticks": null,
+      "kernel_ticks": null,
+      "elapsed_ms": null,
+      "job_accounting": null
+    },
+    {
+      "id": "incomplete",
+      "expected": "IPC_INCOMPLETE",
+      "actual": "NOT_STARTED",
+      "worker_pid": null,
+      "user_ticks": null,
+      "kernel_ticks": null,
+      "elapsed_ms": null,
+      "job_accounting": null
+    },
+    {
+      "id": "byte_cap",
+      "expected": "EVIDENCE_LIMIT",
+      "actual": "NOT_STARTED",
+      "worker_pid": null,
+      "user_ticks": null,
+      "kernel_ticks": null,
+      "elapsed_ms": null,
+      "job_accounting": null
+    }
+  ],
+  "original_admission": "BLOCKED_AT_ADMISSION_NO_EXECUTION",
+  "scientific_phases": {
+    "primary": "NOT_STARTED",
+    "audit": "NOT_STARTED"
+  },
+  "registered_existence": "UNRESOLVED",
+  "old_and_new_run_paths_vacant": true,
+  "qualification_observations": {
+    "synthetic_worker_launches": 0,
+    "native_control_probes": 0,
+    "scientific_worker_launches": 0,
+    "scientific_consumer_imports": 0,
+    "original_checker_invocations": 0,
+    "labeling_search_nodes": 0,
+    "historical_campaign_replays": 0,
+    "task_bytecode_files": 0
+  },
+  "local_prep_resource_measurement": {
+    "parse_only_preflight_cpu_seconds": 9.875,
+    "parse_only_preflight_wall_seconds": 44.99179179999919,
+    "supervisor_and_helper_cpu_entry": "NO PROCESSES LAUNCHED",
+    "complete_aggregate_cpu_seconds": null,
+    "limitation": "Only the timed parse-only preflight CPU/wall and elapsed task interval are recorded. Historical binding checks, ordinary shell/Git calls, and review metadata actions have no complete combined process-tree CPU measurement."
+  },
+  "sealed_source_unchanged": true,
+  "automatic_retry": false,
+  "scientific_authorized": false,
+  "scientific_limits_unchanged": true,
+  "host_qualified": false,
+  "next": "Director review of D204 Windows supervisor implementation and host-qualification evidence."
+}

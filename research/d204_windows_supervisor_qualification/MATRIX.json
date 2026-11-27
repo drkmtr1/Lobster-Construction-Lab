@@ -1,0 +1,100 @@
+{
+  "task": "LCL-D204-WINDOWS-SUPERVISOR-QUALIFICATION-001",
+  "version": 1,
+  "scientific_dispatch": false,
+  "relationship": "Same Job/IPC/watchdog/accounting implementation. Only published probe parameters and explicit inert fault inputs are scaled; native CPU probe sets its own smaller native bound.",
+  "tick_ms": 250,
+  "gap_ms": 2000,
+  "cpu_max_ticks": 100000000,
+  "wall_max_ms": 30000,
+  "cleanup_ms": 5000,
+  "native_ticks": 60000000,
+  "cpu_early_ticks": 35000000,
+  "wall_early_ms": 12000,
+  "terminal_reserve": 65536,
+  "frame_limit": 16384,
+  "normal_probe_evidence": 250000,
+  "probes": [
+    {
+      "id": "natural",
+      "expected": "NATURAL"
+    },
+    {
+      "id": "native_cpu",
+      "expected": "NATIVE_USER_LIMIT",
+      "native_ticks": 5000000
+    },
+    {
+      "id": "combined_cpu",
+      "expected": "SAMPLED_COMBINED_CPU",
+      "cpu_early_ticks": 7500000
+    },
+    {
+      "id": "elapsed",
+      "expected": "SAMPLED_ELAPSED",
+      "wall_early_ms": 1450
+    },
+    {
+      "id": "observer_gap",
+      "expected": "OBSERVATION_GAP",
+      "fault_delay_ms": 2250
+    },
+    {
+      "id": "child_refusal",
+      "expected": "CHILD_REFUSED"
+    },
+    {
+      "id": "interruption",
+      "expected": "OWNER_INTERRUPTED_KILL_ON_CLOSE"
+    },
+    {
+      "id": "candidate",
+      "expected": "DURABLE_CANDIDATE_AND_VERIFIED"
+    },
+    {
+      "id": "oversized",
+      "expected": "IPC_FRAME_LIMIT"
+    },
+    {
+      "id": "incomplete",
+      "expected": "IPC_INCOMPLETE"
+    },
+    {
+      "id": "byte_cap",
+      "expected": "EVIDENCE_LIMIT",
+      "probe_evidence": 80000
+    }
+  ],
+  "future": {
+    "tick_ms": 250,
+    "gap_ms": 2000,
+    "cpu_reserve_seconds": 60,
+    "wall_reserve_seconds": 60,
+    "cleanup_ms": 10000,
+    "terminal_reserve": 65536,
+    "phase_and_shared_limits": {
+      "audit": {
+        "allocation_states": 2366611480,
+        "cpu_seconds": 345600,
+        "fixed_edge_checks": 281105880,
+        "geometry_entries": 8518360,
+        "live_records": 6,
+        "pair_trials": 5338255680,
+        "placement_attempts": 2561339680,
+        "wall_seconds": 432000
+      },
+      "new_evidence_bytes": 128000000,
+      "primary": {
+        "allocation_states": 225145280,
+        "cpu_seconds": 172800,
+        "fixed_edge_checks": 351307720,
+        "geometry_entries": 8518360,
+        "live_records": 7,
+        "pair_trials": 210605520,
+        "placement_attempts": 14539760,
+        "wall_seconds": 259200
+      },
+      "workers": 1
+    }
+  }
+}

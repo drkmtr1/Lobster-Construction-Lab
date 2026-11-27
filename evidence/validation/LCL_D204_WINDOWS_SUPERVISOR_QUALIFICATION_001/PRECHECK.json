@@ -1,0 +1,63 @@
+{
+  "dependency_files": 2628,
+  "flags": [
+    "-I",
+    "-S",
+    "-B"
+  ],
+  "measured_preflight_cpu_seconds": 9.875,
+  "no_native_probe_executed": true,
+  "no_scientific_imports": true,
+  "output_vacant": true,
+  "preflight": "PARSE_ONLY",
+  "preflight_observed_wall_seconds": 44.99179179999919,
+  "project": 62,
+  "qualified_start_entry": "research/d204_windows_supervisor_qualification/supervisor.py",
+  "scope_probes": [
+    [
+      "natural",
+      "NATURAL"
+    ],
+    [
+      "native_cpu",
+      "NATIVE_USER_LIMIT"
+    ],
+    [
+      "combined_cpu",
+      "SAMPLED_COMBINED_CPU"
+    ],
+    [
+      "elapsed",
+      "SAMPLED_ELAPSED"
+    ],
+    [
+      "observer_gap",
+      "OBSERVATION_GAP"
+    ],
+    [
+      "child_refusal",
+      "CHILD_REFUSED"
+    ],
+    [
+      "interruption",
+      "OWNER_INTERRUPTED_KILL_ON_CLOSE"
+    ],
+    [
+      "candidate",
+      "DURABLE_CANDIDATE_AND_VERIFIED"
+    ],
+    [
+      "oversized",
+      "IPC_FRAME_LIMIT"
+    ],
+    [
+      "incomplete",
+      "IPC_INCOMPLETE"
+    ],
+    [
+      "byte_cap",
+      "EVIDENCE_LIMIT"
+    ]
+  ],
+  "task": "LCL-D204-WINDOWS-SUPERVISOR-QUALIFICATION-001"
+}

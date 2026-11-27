@@ -1,0 +1,184 @@
+{
+  "activity": {
+    "historical_campaign_replays": 0,
+    "labeling_search_nodes": 0,
+    "native_control_probes": 0,
+    "original_checker_invocations": 0,
+    "scientific_consumer_imports": 0,
+    "scientific_worker_launches": 0,
+    "synthetic_worker_launches": 0,
+    "task_bytecode_files": 0
+  },
+  "artifacts": {
+    "evidence/validation/LCL_D204_WINDOWS_SUPERVISOR_QUALIFICATION_001/.gitattributes": {
+      "bytes": 26,
+      "sha256": "0a3aa0389b2d63159705a22b5f92b4ceb60fe8f9f1a8e8f7de296bd4a5553a6e"
+    },
+    "evidence/validation/LCL_D204_WINDOWS_SUPERVISOR_QUALIFICATION_001/AUTHORIZATION.md": {
+      "bytes": 3472,
+      "sha256": "de3b56b308e183c35a3d8dc20cd4db4eb62d83350bbbe04b83b7e6ab797b4e82"
+    },
+    "evidence/validation/LCL_D204_WINDOWS_SUPERVISOR_QUALIFICATION_001/FREEZE.json": {
+      "bytes": 424943,
+      "sha256": "02556d7c959ca387e42d957e31791e9e17809925cf437974ea1f35e8f0ef8d3f"
+    },
+    "evidence/validation/LCL_D204_WINDOWS_SUPERVISOR_QUALIFICATION_001/IMPLEMENTATION.md": {
+      "bytes": 6174,
+      "sha256": "0a04c844ad87bfe2163f65bf6a79cd368359b8b6d90662452d9463d48f0ba3d9"
+    },
+    "evidence/validation/LCL_D204_WINDOWS_SUPERVISOR_QUALIFICATION_001/INTAKE.json": {
+      "bytes": 4327,
+      "sha256": "2f9cf34d14a86aa6535f8352b36c328724eddef0adf5a012d2b3922e201a74d0"
+    },
+    "evidence/validation/LCL_D204_WINDOWS_SUPERVISOR_QUALIFICATION_001/PRECHECK.json": {
+      "bytes": 1143,
+      "sha256": "58c89015a22162efcc07e7dbb6b5d0757208446a5b8baf3f29e08ec14f2a8927"
+    },
+    "evidence/validation/LCL_D204_WINDOWS_SUPERVISOR_QUALIFICATION_001/PRELAUNCH_REVIEW.json": {
+      "bytes": 3376,
+      "sha256": "fd1d0954ffe17f201a1489e8959382ac774a95463ab8b48dd8fb814981cd2990"
+    },
+    "evidence/validation/LCL_D204_WINDOWS_SUPERVISOR_QUALIFICATION_001/RESULT.json": {
+      "bytes": 4470,
+      "sha256": "e0f542519fafa59dd2e2d989bf4a64b6b18f28e178da3539eb1db673c35133ee"
+    },
+    "evidence/validation/LCL_D204_WINDOWS_SUPERVISOR_QUALIFICATION_001/REVIEWS.md": {
+      "bytes": 3801,
+      "sha256": "d2c115a0871f7f180c349e9552db94514e25164034eee388b1dd77c13264c525"
+    },
+    "handoffs/CODEX-20261126-d204-windows-supervisor-qualification.md": {
+      "bytes": 2818,
+      "sha256": "84fe30571afbb61e3fb3280f185723a955f3ac84caa04b423e2e7f507b4c4a2d"
+    },
+    "research/d204_windows_supervisor_qualification/.gitattributes": {
+      "bytes": 26,
+      "sha256": "0a3aa0389b2d63159705a22b5f92b4ceb60fe8f9f1a8e8f7de296bd4a5553a6e"
+    },
+    "research/d204_windows_supervisor_qualification/MATRIX.json": {
+      "bytes": 2509,
+      "sha256": "81e19563674359530d4e04069eeef0a93594c8f3ec5b787b28590ae43b4e4f31"
+    },
+    "research/d204_windows_supervisor_qualification/probe_worker.py": {
+      "bytes": 4345,
+      "sha256": "b1a18c610f6b62a46894f70baa4812a2267a097257a1dde04cfc37d6e54862fe"
+    },
+    "research/d204_windows_supervisor_qualification/supervisor.py": {
+      "bytes": 34627,
+      "sha256": "709ee3b363a5cad4729b9373a369ec8644c6e957ab00c2f08bd4708ca6dc8cbe"
+    },
+    "research/d204_windows_supervisor_qualification/win32.py": {
+      "bytes": 10504,
+      "sha256": "dc1939a8085bfab9e43aca6a9f73460d985e07162bbbd1f24bdd1080db5c0f0e"
+    }
+  },
+  "authoritative_ledgers": {
+    "research/DECISIONS.md": {
+      "bytes": 197205,
+      "sha256": "9b2c8839f32b3652d272b7117c86121d95f5a66e369bec1b38fa68e41e53f34d"
+    },
+    "research/FAILED_HYPOTHESES.md": {
+      "bytes": 101282,
+      "sha256": "a6ce00d4dfe3ed252798a9d51c8d36a641be45be94e07777e05198de78f1bffd"
+    },
+    "research/FINDINGS.md": {
+      "bytes": 237455,
+      "sha256": "1a6485e1b0ffd3588450b03120c893529b6e026c42f9a82067a95d62c614d169"
+    },
+    "research/PROOF_OBLIGATIONS.md": {
+      "bytes": 136390,
+      "sha256": "2f45d2303eaae163b0ca917de5e65614c1918fda02f4ce6298ed33233c27c027"
+    }
+  },
+  "canonical_new_scope_bytes_excluding_manifest": 1207157,
+  "canonical_state": {
+    "bytes": 129546,
+    "sha256": "8f04df5e6d06a18b2d9b93fd4c7b2c9a86f1a745f558e95d2792758141df6c0e"
+  },
+  "complete_aggregate_preparation_cpu_seconds": null,
+  "exact_runtime_dependency_count": 2628,
+  "exact_source_preflight_project_count": 63,
+  "freeze": {
+    "bytes": 424943,
+    "sha256": "02556d7c959ca387e42d957e31791e9e17809925cf437974ea1f35e8f0ef8d3f"
+  },
+  "hash_convention": "UTF-8 canonical LF Git bytes. Frozen new sources and receipts were also verified as raw LF bytes.",
+  "historical_manifest_and_contract_bindings": {
+    "evidence/runs/d204-consecutive-positive-coordinated-gap-return-001/MANIFEST.json": "1317ca61f27526654249d45f7d6285c04c1fa81bcb0934d3f5bc7b08046b5d3c",
+    "evidence/validation/LCL_D204_EXECUTION_ENVIRONMENT_RECOVERY_PREP_001/MANIFEST.json": "f424efce14fa3949198f753dc061a4acbf80d120bcdc7eb07985252999f74b4e",
+    "evidence/validation/LCL_D204_EXECUTION_ENVIRONMENT_RECOVERY_PREP_001/PROPOSAL.json": "5c1a382abe594d093443e7e2b4b390cab9785f57b73158c1b34a2e978eb09293",
+    "evidence/validation/LCL_D204_EXECUTION_ENVIRONMENT_RECOVERY_PREP_001/WINDOWS_RECOVERY_CONTRACT.md": "0431dd20e6f98e9eab11994835525e5434d3d0f6fcb0609b3e0c4af1c9261ab6",
+    "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_COORDINATED_GAP_RETURN_001_PREP/MANIFEST.json": "1fed8bbd218557dd274af443bbb821a8079a15046d4ba27aeb2868b3ecea7236"
+  },
+  "host_qualified": false,
+  "measured_binding_check_current_process_cpu_seconds": 0.40625,
+  "original_admission": "BLOCKED_AT_ADMISSION_NO_EXECUTION",
+  "parent": "bc08b72dac7e02a3be61058e5794f52ea5babfbb",
+  "preparation_wall_observed_to_seal_seconds": 1015,
+  "probe_count_entered": 0,
+  "probe_count_planned": 11,
+  "qualification_disposition": "WINDOWS_SUPERVISOR_QUALIFICATION_BLOCKED",
+  "recovery_acceptance": "DIRECTOR_ACCEPTED_WITHIN_EXACT_DOCUMENTED_SCOPE",
+  "recovery_disposition": "RECOVERY_PREPARED_REVISED_WINDOWS_CONTRACT",
+  "registered_existence": "UNRESOLVED",
+  "reviews": {
+    "post_stop_evidence_custody": "PASS_FOR_BLOCKED_ARCHIVE",
+    "post_stop_implementation": "CONFIRMED_BLOCK",
+    "prelaunch_implementation": "BLOCK"
+  },
+  "schema": "lcl-d204-windows-supervisor-qualification-manifest-v1",
+  "scientific_dispatch_authorized": false,
+  "scientific_limits": {
+    "audit": {
+      "allocation_states": 2366611480,
+      "cpu_seconds": 345600,
+      "fixed_edge_checks": 281105880,
+      "geometry_entries": 8518360,
+      "live_records": 6,
+      "pair_trials": 5338255680,
+      "placement_attempts": 2561339680,
+      "wall_seconds": 432000
+    },
+    "new_evidence_bytes": 128000000,
+    "primary": {
+      "allocation_states": 225145280,
+      "cpu_seconds": 172800,
+      "fixed_edge_checks": 351307720,
+      "geometry_entries": 8518360,
+      "live_records": 7,
+      "pair_trials": 210605520,
+      "placement_attempts": 14539760,
+      "wall_seconds": 259200
+    },
+    "workers": 1
+  },
+  "scientific_phases": {
+    "audit": "NOT_STARTED",
+    "primary": "NOT_STARTED"
+  },
+  "scientific_scope": {
+    "actual_41_digest": "5554c99f3db5b777a5e139369479c470b9e220753da2193aecbaa3c9ac6d3515",
+    "deterministic_48_digest": "1e9d8d99227973991cb6fb850cfbcd44cfac2c3470396886c59a9264bd3de3cb",
+    "exact_old_labeling_file": "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_COORDINATED_GAP_RETURN_001_PREP/PREFIXES.json",
+    "frontier": 0,
+    "induced_old_cut": 14,
+    "input_digest": "fd4289cb555097994341bf023415e231841e01e95c1098c7890643252241f061",
+    "original_old_labels_unchanged": true,
+    "physical_cuts": [
+      18,
+      19
+    ],
+    "profile": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "rank_classes": [
+      "rank_preserving",
+      "rank_changing"
+    ],
+    "threshold": "C+2"
+  },
+  "sole_next_action": "Director review of D204 Windows supervisor implementation and host-qualification evidence.",
+  "task": "LCL-D204-WINDOWS-SUPERVISOR-QUALIFICATION-001"
+}

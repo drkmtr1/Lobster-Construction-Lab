@@ -1142,3 +1142,7 @@ Exact existence at w=0, induced cut 14 and physical cut 18 or 19 remains unresol
 ## D204 recovery — Qualifying a revised execution gate
 
 Keep the accepted symbolic exclusions and both unresolved rank classes at the fixed minimum-frontier cuts. The proposed Windows resource policy has no strict instantaneous combined CPU cutoff. Before any separately authorized scientific execution, bind a fresh identity, obtain explicit Owner acceptance of the revised policy, implement and independently qualify the supervisor, and verify terminal resource and cleanup receipts. No scientific claim or mathematical obligation is closed by recovery preparation. [Proposed contract](../evidence/validation/LCL_D204_EXECUTION_ENVIRONMENT_RECOVERY_PREP_001/WINDOWS_RECOVERY_CONTRACT.md)
+
+## D204 Windows supervisor qualification gate remains open
+
+A separately authorized version would require one cleanup deadline across layers, matrix-controlled one-shot helper admission, and a durable candidate receipt before acknowledgement. The reviewed frozen version was stopped before host observation. Native behavior and resource reconciliation remain unqualified. The D204 scientific obligations, both rank classes and bounded traversal remain as accepted, with no new mathematical exclusion or future launch permission. [Frozen stop findings](../evidence/validation/LCL_D204_WINDOWS_SUPERVISOR_QUALIFICATION_001/PRELAUNCH_REVIEW.json)
