@@ -1210,3 +1210,7 @@ B2, B3 and B4 remain unresolved under simultaneous matched-gap growth after one 
 ## D213 held renewable central insertion obligation
 
 For Director consideration only, prove a renewable central-center insertion theorem on the named family [[1],[q_1,...,q_ell],[1],[1]]. An independently supplied nonempty ordinary labeling state should admit insertion at s:1 of the next indexed center with arbitrary positive quota and its actual terminals, preserve earlier actual incidences and return the same insertion guarantee. It need not certify every existing center. No work under this obligation has been opened. B2, B3 and B4 remain INCOMPLETE and mathematically undecided. The D212 boundary-closure observation remains separate and held. [Primary proof](ALL_CENTER_SAFE_GAP_STRUCTURAL_LIMIT.md)
+
+## D214 unit exterior quota coverage and exact boundaries
+
+The named four-section slice `[[p],[q_1,...,q_ell],[1],[t]]` with positive independent quotas and ℓ≥3 has the D214 existence proof, pending Director review. Shell quota b>1 at `s:2` and arbitrary multiple interior clusters remain separate open obligations. D214 makes no degree-two rooted classification. D213's renewable insertion obligation and the D212 boundary-closure candidate remain held and separate. B2, B3 and B4 remain INCOMPLETE and mathematically undecided in their registered D212 certificate questions. D207's exact monotone-return obligation remains unresolved and deferred. [Proof](ROOTED_CLUSTER_EXTERIOR_SHELL_COMPOSITION.md)

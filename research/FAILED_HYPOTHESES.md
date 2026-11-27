@@ -927,3 +927,7 @@ The registered bounded traversal produced no complete graceful labeling, joined 
 ## D213 unbounded simultaneous all-center D212 supply is excluded
 
 The exact all-center matched-gap architecture cannot serve the positive-quota four-section original at any central multiplicity ℓ>10, regardless of the graceful base labeling. This is a structural exclusion only for that simultaneous certificate. It does not exclude ordinary gracefulness, compatible subsets, independently renewed sequential constructions or other allocation/reconstruction architectures. It does not classify B2, B3 or B4. [Primary proof](ALL_CENTER_SAFE_GAP_STRUCTURAL_LIMIT.md)
+
+## D214 coverage beyond the D213 certificate ceiling
+
+The D213 necessary bound ℓ≤10 continues to exclude the simultaneous all-center D212 certificate for larger multiplicities in the declared family. D214 establishes ordinary gracefulness for arbitrary ℓ≥3 when the exterior section at `s:2` has one terminal at its one center. Its independently supplied cluster and shell use canonical shared-root amalgamation. The proof makes no positive or negative inference about B2, B3 or B4 under their registered matched-gap certificate questions. [D213 proof](ALL_CENTER_SAFE_GAP_STRUCTURAL_LIMIT.md) · [D214 proof](ROOTED_CLUSTER_EXTERIOR_SHELL_COMPOSITION.md)
