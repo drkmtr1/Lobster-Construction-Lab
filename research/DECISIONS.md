@@ -974,3 +974,10 @@ Admit D228 as the sole investigation. Review the former D227 comparison symbolic
 ## D228 symbolic closeout
 
 Record the exact local reduction and the symbolic four-state word obstruction, pending Director review. Preserve the complete named controls, the former D227 comparison's symbolic positive, and the earlier centered negative without changing D227's historical files. No diagnostic package, base-state enumeration, generated fixture, solver, task-module import, protected checker, dependency installation or numerical work was used. Keep Project instructions v15 and all historical scopes. [Proof](FINITE_STATE_BINARY_MULTIPLICITY_GROWTH.md) · [Director handoff](../handoffs/CODEX-20261127-d228-finite-state-multiplicity-growth.md).
+
+
+## D228 Director acceptance and D229 admission
+
+The Director accepts D228 at `3055c43d98c307f26ab306c0c8a590ff18695f6b`, including exact old-row transport and punctured vacancies, necessity and sufficiency of the tagged row lifting, both positive transition controls, the all-state XX obstruction and finite-word argument, and the named 33-edge D227 comparison as centered negative and general marked positive. The obstruction concerns that registered four-state transport. Arbitrary binary supply and other encodings remain separate. Intake matched direct parent `938561f8cb994fe935b33962e04303436fd1f6ce`, live main, upstream heads, baseline object and peel and all three D228 artifact SHA-256 values. D225–D227 evidence remains bound by continuity. Local Windows conditions, annotated tag object and reviewer-session separation are Codex-reported to the Director. Neither superseded diagnostic is authorized. [D228 proof](FINITE_STATE_BINARY_MULTIPLICITY_GROWTH.md) · [D228 handoff](../handoffs/CODEX-20261127-d228-finite-state-multiplicity-growth.md)
+
+Admit D229 as the sole symbolic and conditional static-preparation investigation for homogeneous pairs and the exact physical kernel. Keep v15 and all historical scopes. No science execution is authorized.
