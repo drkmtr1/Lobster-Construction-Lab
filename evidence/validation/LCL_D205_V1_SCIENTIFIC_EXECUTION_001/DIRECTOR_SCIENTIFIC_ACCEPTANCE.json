@@ -1,0 +1,19 @@
+{
+  "admission": "a0ac1ddbf95f090c48ac3f5b6097cc63d97e246c",
+  "authorized_next_task": "LCL-ORDINARY-SPINE-BOUNDARY-ROOT-JOINT-BLOCK-001",
+  "compatible": {
+    "B": 15,
+    "C": 118,
+    "rank_changing": 133,
+    "rank_preserving": 0
+  },
+  "decision": "ACCEPT D205 STOP_REGISTERED_NEGATIVE within its exact registered mathematical scope.",
+  "execution": "ef63707b21bbe86b71524839238533d94d8831d0",
+  "execution_manifest_sha256": "a4bdc54c16c782f66c14b59b6077fa92d3c02858c6f11a1da8e3fdef4d2e2d06",
+  "qualification": "7030a277fa299082a8c9fd8b890d4141d243c239",
+  "registered_domain": "Exact B/C frozen labels, strictly increasing embeddings, named 41-edge original, extreme-frontier P(41,c,c+2); D204 A is a separate accepted result.",
+  "scientific_run": "evidence/runs/d205-independent-path-order-menu-001",
+  "seal_sha256": "31ff84e4e92162c11e1ad5a40f8a5e858936bafd3e044eaf28eff7f0dedee977",
+  "terminal_sha256": "555281d5ae32cc9c12eeae28eb1128332633a3925b3e20b036d474ed721be113",
+  "visits_per_engine": 15067066
+}
