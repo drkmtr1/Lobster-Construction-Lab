@@ -1256,3 +1256,8 @@ The unresolved complement in D223 is ℓ=2, h≥9 with j=2h−5 and both selecte
 ## D224 remaining two-left-pair cross-interior obligation discharged
 
 D224 resolves all h≥9, ℓ=2, j=2h−5 with unit flanks and arbitrary independently chosen positive odd enlargement at one named interior branch on each side, with physical reversal. Alongside accepted D222 and D223 this completes the stated cross-interior two-quota registration. The separate proposed-mark h=11 and h=12 interfaces were constrained by the moment rule and not independently classified. They are unnecessary for the full registered theorem. No claim is made for additional enlarged branches or mixed parity. Preserve D212 B2/B3/B4 INCOMPLETE, held closure and insertion, and deferred D207. [Scope](TWO_LEFT_PAIR_PARITY_ADAPTED_SUPPLIER.md#4-disposition)
+
+
+## D225 exact held three-quota boundary
+
+The ℓ=2,h≥6 two-left/one-right bottleneck is discharged by the D225 anchored enlargement and its repeatable unit supplier. D225 leaves the one-ℓ-side/two-j-side stratum j=3,h≠6 held, for three genuine enlargements in the exact unit-flank family. No global unclassified or nonexistence assertion follows. Accepted earlier unit and registered two-quota scopes retain their premises. The two unclassified D224 proposed-mark interfaces, D212 held closure, D213 held insertion, deferred D207 and historical B2/B3/B4 INCOMPLETE dispositions carry forward. [Exact closure](THREE_INTERIOR_ODD_QUOTA_SUPPLIER.md#5-exact-closure).

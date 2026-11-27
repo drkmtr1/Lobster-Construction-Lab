@@ -971,3 +971,8 @@ Compatible gap cuts satisfy W−I=H_+−2H_<I, forcing the stated parity for the
 ## D224 first-moment limit on the proposed all-high-prefix return
 
 In the Director's specified parity-adapted marks and cuts, distinct low-prefix host deficits h+1−k must sum to 2W−2. Their least available sum is W(W−1)/2−2 for W≥3. This excludes W≥6, starting at odd h=13 and even h=14, so a same-interface h→h+2 recurrence cannot extend unboundedly. The h=9 and h=10 marks are positively supplied. The alternative exact-original construction closes the whole registered domain using a different cut and one high suffix row. [Proof](TWO_LEFT_PAIR_PARITY_ADAPTED_SUPPLIER.md#2-directors-parity-adapted-marking-and-its-exact-barrier)
+
+
+## D225 limits of pair placement and unanchored high-offset growth
+
+In D224's alternative marking, putting low 3 on the ℓ side at ℓ=2 would need a third whole pair when h≠6, and would remove the compulsory j-side pair h−3 at h=6. Putting low 3 on the j side at j=3,h≠6 would need two distinct j-side pairs 3 and h−3 when only one fits. Ordinary uniform translation of all old rows also leaves the new top index in the fresh palette, where the offset-1 high map gives −1. D225 moves the occupied low-3 top identity to this new maximum before reflecting its unused outer intervals. These are restrictions of the cited constructions. The two-left bottleneck is supplied by the new allocation. [Proof](THREE_INTERIOR_ODD_QUOTA_SUPPLIER.md#3-whole-pair-relocation-on-d224-and-the-exact-direct-coverage) · [Boundary arithmetic](../evidence/validation/D225_THREE_INTERIOR_ODD_QUOTA_SUPPLIER/HAND_CONTROLS.md#boundaries-and-recurrence-check).
