@@ -751,3 +751,7 @@ ACCEPT the independently reviewed audit at 51eab66da00019881683b1551630c409677b7
 ## Strategic revision and D208 admission
 
 REVISE D207's proposed successor. The exact D207 monotone-embedding question is unresolved and deferred. The prescribed old order, extreme output frontier and contiguous cut-spectrum are additional interface requirements. Authorize only D208, one bounded symbolic investigation of reverse-block independent supply and ordinary composition, with separate mathematical review and the exact prescribed fixed arithmetic controls. No numerical worker, search, solver, historical replay, protected checker or successor is authorized. Governance is KEEP v12. The historical D207 v11 recommendation is superseded. ChatGPT Project settings are outside this change.
+
+## D208 symbolic closeout
+
+The independent review passed the Director-derived reverse-block formula, original connector transport, finite composition and all four exact hand controls. Record the proved supplied-list scope and the exact ordinary D207 and D117 families for Director review. Retain the D207 acceptance and separately recorded strategic revision, the unresolved deferred monotone question, prior D104/D204/D205 scopes, and project governance KEEP v12. No numerical worker, executable verification, solver, checker, campaign replay, infrastructure change or successor was used. [Proof and review](ORDINARY_SPINE_REVERSE_BLOCK_COMPOSITION.md)

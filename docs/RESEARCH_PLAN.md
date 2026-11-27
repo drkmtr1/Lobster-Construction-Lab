@@ -6,6 +6,8 @@
 
 Use the [D207 strategic assessment](../research/D207_INDEPENDENT_SUPPLIER_ARCHITECTURE.md) and its [supplier and domain inventory](../research/D207_SUPPLIER_INVENTORY.md) for the dependency map, compatibility conditions and research roadmap. The immediate mathematical priority is independently compatible ordinary suppliers, with initial state, actual ports, resource allocation and structural coverage developed together. The detailed two-section plan below remains the historical baseline for those specific constructions. STATE.md owns the single current action.
 
+D208 develops the separately authorized reverse traversal of admitted boundary-root blocks from an independent ordinary component. D207's fixed-order monotone continuation proposal remains deferred under the Director revision. [D208 theorem](../research/ORDINARY_SPINE_REVERSE_BLOCK_COMPOSITION.md)
+
 ## 1. What progress should mean
 
 The project already has parameterized constructions and exact consumers. Its first research objective is an **independent supplier**: a rule that labels an actual branched prefix from the input parameters and leaves a provably usable state at the next physical spine vertex. A supplier must not depend on first solving the whole target and extracting its successful prefix.
