@@ -2061,3 +2061,7 @@ For independently selected even q≥6, a≥4, b≥2, the exact original [[p],[q,
 ## D212 independent matched safe-gap growth
 
 For a named graceful input with distinct safe cuts and distinct receiving hosts, the prescribed safe-gap old maps plus new original terminals yield arbitrary independent quota growth in the declared matched placement exactly when the host constants and cut/rank coefficient sets agree. If only the difference-gap pairing is unspecified, robustness under independent widths forces the same criterion by distinct-width tests. Exterior insertion follows from safe cuts alone, and exact host-span relations give the additional compatibility test. The prescribed path supplies two independent terminal quotas. Separate mathematical and static implementation/admission reviews passed. [Proof and hand controls](SIMULTANEOUS_SAFE_GAP_QUOTA_GROWTH.md)
+
+## Official D212 diagnostic outcome
+
+The one authorized D212 invocation ran the exact B2, B3 and B4 in frozen order. Each reached its respective label-node cap at 2,000,000, 4,000,000 or 8,000,000. All three cases are INCOMPLETE, with no complete graceful labeling reached and zero join nodes. No candidate, original-target checker invocation, audit result or new structural signature exists from the run. The orderly terminal and external exit reconcile with the admitted evidence and resource limits. The accepted D212 theorem and path controls retain their exact scopes. [Official outcome evidence](../evidence/runs/d212-multi-center-quota-growth-001/SESSION_RECEIPT.json)

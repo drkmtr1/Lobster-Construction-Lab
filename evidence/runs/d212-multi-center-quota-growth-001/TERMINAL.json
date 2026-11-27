@@ -1,0 +1,41 @@
+{
+  "approval_sha256": "2775e84a1b264475cbc872237b829fbbe4ba1dbe93b07a4871f230d36f4a7cf1",
+  "case_status": {
+    "B2": "INCOMPLETE",
+    "B3": "INCOMPLETE",
+    "B4": "INCOMPLETE"
+  },
+  "cases_started": [
+    "B2",
+    "B3",
+    "B4"
+  ],
+  "error": null,
+  "join_nodes": 0,
+  "label_nodes": 14000000,
+  "measured_before_terminal_write_ns": [
+    325218750000,
+    327403919600
+  ],
+  "records_before_terminal": {
+    "B2.result.json": {
+      "bytes": 438,
+      "sha256": "bfa99c007ab9fe771207d91b98ee0180cc575df8899e95afee03fafdaff45bfb"
+    },
+    "B3.result.json": {
+      "bytes": 440,
+      "sha256": "a5ccf06ff9794228731aea4bc15f87e720c4891bfa06067679daf6b00d9d18b0"
+    },
+    "B4.result.json": {
+      "bytes": 441,
+      "sha256": "5769f55349fedbb91e3849ab8b2a3519e4a2bdc37538c052d89228296d65620e"
+    },
+    "START.json": {
+      "bytes": 2779,
+      "sha256": "4172794962c0d05447c7203e53b2ffe2e55526812519bfa0ebbe8020af3d98bb"
+    }
+  },
+  "run": "d212-multi-center-quota-growth-001",
+  "session": "COMPLETE",
+  "solver_calls": 0
+}

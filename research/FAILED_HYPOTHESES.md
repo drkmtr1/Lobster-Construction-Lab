@@ -919,3 +919,7 @@ A split σ-pair uses an exchange of two weights across four actual hosts. In the
 ## D212 separately feasible matched gaps can conflict
 
 On the named path with labels (0,4,1,3,2), hosts at labels 0 and 2 individually match cuts 2 and 3. Jointly the earlier threshold cut 3 is outside the span for the other host. Unit widths at both gaps give a repeated weight 2 and omit weight 3. This excludes only that joint growth placement. Exterior insertion alone is also insufficient as a complete test, since it holds independently for all safe cut lists and does not impose the host-span equalities. [Proof and hand controls](SIMULTANEOUS_SAFE_GAP_QUOTA_GROWTH.md)
+
+## Official D212 resource limits and inference boundary
+
+The registered bounded traversal produced no complete graceful labeling, joined certificate or implementation exhaustion before the three label-node caps. This records a limit of the executed attempt. It supplies no impossibility result for matched-gap growth, no ordinary nongracefulness inference and no failed candidate to investigate. [Official outcome evidence](../evidence/runs/d212-multi-center-quota-growth-001/SESSION_RECEIPT.json)

@@ -1,0 +1,118 @@
+{
+  "approval_sha256": "2775e84a1b264475cbc872237b829fbbe4ba1dbe93b07a4871f230d36f4a7cf1",
+  "case_order": [
+    "B2",
+    "B3",
+    "B4"
+  ],
+  "head": "52ecdfe80a7bae24294e5c0d3a4a00651f86828f",
+  "limits": {
+    "case_order": [
+      "B2",
+      "B3",
+      "B4"
+    ],
+    "cases": {
+      "B2": {
+        "cpu_seconds": 60,
+        "join_nodes": 200000,
+        "label_nodes": 2000000,
+        "profile": [
+          [
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1
+          ],
+          [
+            1
+          ]
+        ],
+        "wall_seconds": 90
+      },
+      "B3": {
+        "cpu_seconds": 120,
+        "join_nodes": 500000,
+        "label_nodes": 4000000,
+        "profile": [
+          [
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1
+          ],
+          [
+            1
+          ]
+        ],
+        "wall_seconds": 180
+      },
+      "B4": {
+        "cpu_seconds": 240,
+        "join_nodes": 1000000,
+        "label_nodes": 8000000,
+        "profile": [
+          [
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1
+          ],
+          [
+            1
+          ]
+        ],
+        "wall_seconds": 360
+      }
+    },
+    "evidence_bytes_max": 2000000,
+    "execution_authorized": false,
+    "live_frames_max": 28,
+    "record_bytes_max": 65536,
+    "record_count_max": 16,
+    "solver_calls": 0,
+    "task": "LCL-D212-MULTI-CENTER-QUOTA-GROWTH-PREP",
+    "total": {
+      "cpu_seconds": 450,
+      "join_nodes": 1700000,
+      "label_nodes": 14000000,
+      "wall_seconds": 660
+    },
+    "vertices_max": 18,
+    "workers": 1
+  },
+  "measured_ns": [
+    734375000,
+    1533781000
+  ],
+  "originals": {
+    "B2": "68d9c61fc5e1d4bfd98c203b597e29d64f5a127fc98be09984034deeca077b0e",
+    "B3": "980de51b03bd6b82fd3e9a4b717803cfffaa60bb7c1d150ef59bb924ba48c90e",
+    "B4": "d59508e34a08d807524b42c352de6397045e4330715a5b05494f21a2ea984ab7"
+  },
+  "run": "d212-multi-center-quota-growth-001",
+  "runtime": {
+    "dll": "C:\\Users\\Will\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll",
+    "dll_sha256": "26026530507a7389e7892ce130e7c1753b32a2df03ec3721d45ad8c1705d40eb",
+    "excluded_bytecode_prefix": "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\runs\\d212-multi-center-quota-growth-001-intake\\bytecode-vacant",
+    "executable": "C:\\Users\\Will\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+    "sha256": "7c2fc2b303a4ee3cc14cc17b47bc6e8bca98c78792edd123b846a560da44b203",
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "workers": 1
+}

@@ -1,0 +1,55 @@
+{
+  "run": "d212-multi-center-quota-growth-001",
+  "outer_tool_exit": 0,
+  "outer_tool_terminal_chunk": "84d796",
+  "observed_supervisor_exit": 0,
+  "observed_after_observer_write_ns": [
+    326671875000,
+    327766208800
+  ],
+  "admission_utility_after_write": {
+    "cpu_ns": 109375000,
+    "bytes": 3952,
+    "wall_ns": 83537500
+  },
+  "official_invocations": 1,
+  "scope": "Orderly diagnostic session; all three scientific cases INCOMPLETE",
+  "exact_record_bindings": {
+    "ADMISSION.json": {
+      "sha256": "2775e84a1b264475cbc872237b829fbbe4ba1dbe93b07a4871f230d36f4a7cf1",
+      "bytes": 3952
+    },
+    "B2.result.json": {
+      "sha256": "bfa99c007ab9fe771207d91b98ee0180cc575df8899e95afee03fafdaff45bfb",
+      "bytes": 438
+    },
+    "B3.result.json": {
+      "sha256": "a5ccf06ff9794228731aea4bc15f87e720c4891bfa06067679daf6b00d9d18b0",
+      "bytes": 440
+    },
+    "B4.result.json": {
+      "sha256": "5769f55349fedbb91e3849ab8b2a3519e4a2bdc37538c052d89228296d65620e",
+      "bytes": 441
+    },
+    "OFFICIAL_OBSERVER.json": {
+      "sha256": "56953d833cf9f573e8c4d995b03f019eb55de5b34db583fd9087a113f96f0cf4",
+      "bytes": 1273
+    },
+    "PREFLIGHT_OBSERVER.json": {
+      "sha256": "c763728902974f2635bab5638945b6d0010174095101a8a1e885a4272bf626d6",
+      "bytes": 1119
+    },
+    "PREFLIGHT.json": {
+      "sha256": "27e56c513f80e092546cc40a190294bfa499d92243b5c19581b4d9a2654d28ac",
+      "bytes": 18984
+    },
+    "START.json": {
+      "sha256": "4172794962c0d05447c7203e53b2ffe2e55526812519bfa0ebbe8020af3d98bb",
+      "bytes": 2779
+    },
+    "TERMINAL.json": {
+      "sha256": "d30bec4d855de0642d4d024c419b10a39915cb1387fc96f71a9d28fbc9b67a52",
+      "bytes": 1047
+    }
+  }
+}

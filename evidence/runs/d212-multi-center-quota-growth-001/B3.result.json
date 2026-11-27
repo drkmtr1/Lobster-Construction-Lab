@@ -1,0 +1,21 @@
+{
+  "audit": null,
+  "case": "B3",
+  "runner_reason": null,
+  "search": {
+    "complete_graceful_reached": 0,
+    "join_nodes": 0,
+    "label_nodes": 4000000,
+    "peak_frames": 16,
+    "process_cpu_ns": 85375000000,
+    "reason": "max_nodes",
+    "status": "INCOMPLETE",
+    "wall_seconds": 85.68245989999559
+  },
+  "shared_measured_ns": [
+    122140625000,
+    123369832200
+  ],
+  "status": "INCOMPLETE",
+  "structural_signature": null
+}

@@ -1,0 +1,139 @@
+{
+  "intent": "AUTHORIZE_ONE_OFFICIAL_D212_DIAGNOSTIC",
+  "owner_authorization": "I authorize one official execution of the exact D212 frozen multi-center quota-growth diagnostic, conditional on fresh admission and the requirements below.",
+  "run": "d212-multi-center-quota-growth-001",
+  "prep_checkpoint": "bc3801da2c9ef0770e37a577baa064dc2283a020",
+  "acceptance_checkpoint": "7f71885ecdd13ff17eb6725eef5a61d755d8bd2f",
+  "repository_head": "52ecdfe80a7bae24294e5c0d3a4a00651f86828f",
+  "checked_unix": 1795761680,
+  "live_refs": {
+    "lcl_main": "52ecdfe80a7bae24294e5c0d3a4a00651f86828f",
+    "mdl_head": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+    "bounded_search_head": "e48b94eec4091b4fe189e325cab2eda464409943",
+    "tag": "fddfc1dd9541324b2ed2de2505bc750b3e3f0b9d",
+    "peel": "36ea1603602491bf3c1c5b81ed4c23aaa2210e70"
+  },
+  "preflight_sha256": "27e56c513f80e092546cc40a190294bfa499d92243b5c19581b4d9a2654d28ac",
+  "preflight_observer_sha256": "c763728902974f2635bab5638945b6d0010174095101a8a1e885a4272bf626d6",
+  "preflight_post_write_ns": [
+    281250000,
+    339699200
+  ],
+  "admission_pre_write_ns": [
+    78125000,
+    55010700
+  ],
+  "admission_write_reserve_ns": [
+    250000000,
+    1000000000
+  ],
+  "intake_charge_ns": [
+    609375000,
+    1394709900
+  ],
+  "intake_record_count": 3,
+  "intake_evidence_bytes": 85639,
+  "limits": {
+    "task": "LCL-D212-MULTI-CENTER-QUOTA-GROWTH-PREP",
+    "execution_authorized": false,
+    "case_order": [
+      "B2",
+      "B3",
+      "B4"
+    ],
+    "workers": 1,
+    "solver_calls": 0,
+    "vertices_max": 18,
+    "live_frames_max": 28,
+    "evidence_bytes_max": 2000000,
+    "record_count_max": 16,
+    "record_bytes_max": 65536,
+    "total": {
+      "label_nodes": 14000000,
+      "join_nodes": 1700000,
+      "cpu_seconds": 450,
+      "wall_seconds": 660
+    },
+    "cases": {
+      "B2": {
+        "profile": [
+          [
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1
+          ],
+          [
+            1
+          ]
+        ],
+        "label_nodes": 2000000,
+        "join_nodes": 200000,
+        "cpu_seconds": 60,
+        "wall_seconds": 90
+      },
+      "B3": {
+        "profile": [
+          [
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1
+          ],
+          [
+            1
+          ]
+        ],
+        "label_nodes": 4000000,
+        "join_nodes": 500000,
+        "cpu_seconds": 120,
+        "wall_seconds": 180
+      },
+      "B4": {
+        "profile": [
+          [
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1
+          ],
+          [
+            1
+          ]
+        ],
+        "label_nodes": 8000000,
+        "join_nodes": 1000000,
+        "cpu_seconds": 240,
+        "wall_seconds": 360
+      }
+    }
+  },
+  "originals": {
+    "B2": "68d9c61fc5e1d4bfd98c203b597e29d64f5a127fc98be09984034deeca077b0e",
+    "B3": "980de51b03bd6b82fd3e9a4b717803cfffaa60bb7c1d150ef59bb924ba48c90e",
+    "B4": "d59508e34a08d807524b42c352de6397045e4330715a5b05494f21a2ea984ab7"
+  },
+  "runtime": {
+    "dll": "C:\\Users\\Will\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll",
+    "dll_sha256": "26026530507a7389e7892ce130e7c1753b32a2df03ec3721d45ad8c1705d40eb",
+    "excluded_bytecode_prefix": "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\runs\\d212-multi-center-quota-growth-001-intake\\bytecode-vacant",
+    "executable": "C:\\Users\\Will\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+    "sha256": "7c2fc2b303a4ee3cc14cc17b47bc6e8bca98c78792edd123b846a560da44b203",
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  }
+}

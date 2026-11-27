@@ -1202,3 +1202,7 @@ The all-even subdomain q≥6, a≥4, b≥2 now covers every positive flank pair 
 ## D212 independent multi-center base supply
 
 B2, B3 and B4 remain unresolved for simultaneous compatible matched-gap growth at every actual center. A held bounded diagnostic seeks exact ordinary base certificates and joint cut assignments on these three originals only. A certified positive settles all independent terminal quotas at that original's fixed multiplicity. Arbitrary center multiplicity requires a parameterized compatible base supplier or another coverage theorem. An architecture-specific negative leaves ordinary gracefulness and direct whole-original palette supply separate. D207 remains unresolved and deferred. [Proof and hand controls](SIMULTANEOUS_SAFE_GAP_QUOTA_GROWTH.md)
+
+## Official D212 unresolved bases and held boundary observation
+
+B2, B3 and B4 remain unresolved under simultaneous matched-gap growth after one capped diagnostic. No new finite supplier or arbitrary-multiplicity construction follows. The Director's separate observation is held for later independent mathematical review: after admitted growth use Cᵢ=Lᵢ at a lower host and Cᵢ=Lᵢ+gᵢ at an upper host. The proposed threshold is Bᵢ, with old crossing edges and growth batches of threshold at least Dᵢ expected to give [Bᵢ,M] and preserve the constants and cut-span coefficients. The official task did not investigate this observation. Preserve D207 as unresolved and deferred. [Official outcome evidence](../evidence/runs/d212-multi-center-quota-growth-001/SESSION_RECEIPT.json)

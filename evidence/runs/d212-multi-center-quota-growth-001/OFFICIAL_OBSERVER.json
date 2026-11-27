@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "run": "d212-multi-center-quota-growth-001",
+  "phase": "official",
+  "admission_sha256": "2775e84a1b264475cbc872237b829fbbe4ba1dbe93b07a4871f230d36f4a7cf1",
+  "child_launched": true,
+  "child_pid": 32376,
+  "executable": "C:\\Users\\Will\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+  "arguments": [
+    "-I",
+    "-S",
+    "-B",
+    "-X",
+    "pycache_prefix=C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\runs\\d212-multi-center-quota-growth-001-intake\\bytecode-vacant",
+    "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\evidence\\validation\\D212_OFFICIAL_ADMISSION\\runner.py",
+    "official",
+    "2775e84a1b264475cbc872237b829fbbe4ba1dbe93b07a4871f230d36f4a7cf1"
+  ],
+  "verified_exit": true,
+  "exit_code": 0,
+  "terminal_sha256": "d30bec4d855de0642d4d024c419b10a39915cb1387fc96f71a9d28fbc9b67a52",
+  "child_cpu_ns": 324703125000,
+  "controller_cpu_ns_before_observer_write": 1312500000,
+  "observed_wall_ns_before_observer_write": 326338879800,
+  "aggregate_cpu_ns_before_observer_write": 326625000000,
+  "aggregate_wall_ns_before_observer_write": 327733589700,
+  "caps_ns": [
+    450000000000,
+    660000000000
+  ],
+  "observer_write_reserve_ns": 1000000000,
+  "error": null
+}
