@@ -931,3 +931,7 @@ The exact all-center matched-gap architecture cannot serve the positive-quota fo
 ## D214 coverage beyond the D213 certificate ceiling
 
 The D213 necessary bound ℓ≤10 continues to exclude the simultaneous all-center D212 certificate for larger multiplicities in the declared family. D214 establishes ordinary gracefulness for arbitrary ℓ≥3 when the exterior section at `s:2` has one terminal at its one center. Its independently supplied cluster and shell use canonical shared-root amalgamation. The proof makes no positive or negative inference about B2, B3 or B4 under their registered matched-gap certificate questions. [D213 proof](ALL_CENTER_SAFE_GAP_STRUCTURAL_LIMIT.md) · [D214 proof](ROOTED_CLUSTER_EXTERIOR_SHELL_COMPOSITION.md)
+
+## D215 continued scope of the all-center certificate obstruction
+
+D215 gives ordinary gracefulness even at arbitrarily large central multiplicity throughout the positive-quota D213 family with ℓ≥3. The D213 bound ℓ≤10 still excludes the D212 simultaneous all-center architecture at larger multiplicities. D215 uses a separate ordinary cluster and an alpha shell. The three compatible growth hosts in the positive-quotas shell do not certify the combined original. No new exclusion is inferred at degree two or on B2, B3 or B4, and the earlier D209–D211 interface failures retain their scopes. [Proof](INDEPENDENT_NONNEGATIVE_EXTERIOR_SHELL.md)
