@@ -1174,3 +1174,7 @@ The exact D205 input-bound supervisor and independent host qualification passed.
 ## D205 V1 â€” Registered residual B/C existence closed by exact dual exhaustion
 
 The symbolic exclusions and the completed 12-stream primary and independent audit close the registered B/C question, pending Director review of the execution. Each exhausted 15,067,066 entries. The deterministic 48-edge continuation and original checker remain conditional on an actual positive witness and were inapplicable here. D204 closes the separately supplied A input. The menu result does not discharge the broader obligations for other supplied labelings or other continuation interfaces. [Independent reviews](../evidence/validation/LCL_D205_V1_SCIENTIFIC_EXECUTION_001/REVIEWS.md)
+
+## D206 supplied boundary-root blocks
+
+The exact attached-block theorem and finite repetition of the supplied 16-edge pair settle the declared joint extension and its interface. Supply or characterize independently labeled boundary-root blocks for other original quota profiles if separately authorized. No general decomposition, unrestricted gracefulness or nongracefulness duty is discharged. The D204/D205 exact excluded one-section return remains separate. [D206 proof](../research/ORDINARY_SPINE_BOUNDARY_ROOT_JOINT_BLOCK.md)

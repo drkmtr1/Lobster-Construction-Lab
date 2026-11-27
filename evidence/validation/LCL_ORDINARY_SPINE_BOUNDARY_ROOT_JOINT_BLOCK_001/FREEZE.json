@@ -1,0 +1,194 @@
+{
+  "acceptance_checkpoint": "f8b6df33195795d2e283d3dccdf1906efbe40e5d",
+  "cases": [
+    [
+      "block16",
+      "block16",
+      null,
+      9,
+      1,
+      [
+        0
+      ]
+    ],
+    [
+      "main48-A",
+      "main48",
+      "A",
+      41,
+      33,
+      [
+        5
+      ]
+    ],
+    [
+      "main48-B",
+      "main48",
+      "B",
+      41,
+      33,
+      [
+        5
+      ]
+    ],
+    [
+      "main48-C",
+      "main48",
+      "C",
+      41,
+      33,
+      [
+        5
+      ]
+    ],
+    [
+      "repeat64-A",
+      "repeat64",
+      "A",
+      57,
+      49,
+      [
+        5,
+        7
+      ]
+    ]
+  ],
+  "checker_calls": 10,
+  "limits": {
+    "elapsed_seconds": 1800,
+    "new_evidence_bytes": 16000000,
+    "python_cpu_seconds": 600,
+    "workers": 1
+  },
+  "runtime": {
+    "base_executable": "C:\\Users\\Will\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+    "bits": 64,
+    "executable": "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv\\Scripts\\python.exe",
+    "files": {
+      "C:\\Users\\Will\\AppData\\Local\\Programs\\Python\\Python313\\python.exe": {
+        "bytes": 105696,
+        "sha256": "7c2fc2b303a4ee3cc14cc17b47bc6e8bca98c78792edd123b846a560da44b203"
+      },
+      "C:\\Users\\Will\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll": {
+        "bytes": 6142688,
+        "sha256": "26026530507a7389e7892ce130e7c1753b32a2df03ec3721d45ad8c1705d40eb"
+      },
+      "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv\\Scripts\\python.exe": {
+        "bytes": 255200,
+        "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664"
+      }
+    },
+    "isolation": [
+      "-I",
+      "-S",
+      "-B"
+    ],
+    "stdlib_only": true,
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "source_bindings": {
+    "AGENTS.md": {
+      "bytes": 8301,
+      "sha256": "ddb4b70c24cb5e1725d0c2e4ea8c2d522b4556b62b8bd69fdffd4205ece485db"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_BOUNDARY_ROOT_JOINT_BLOCK_001/CONFIG.json": {
+      "bytes": 1367,
+      "sha256": "a96a3f0f8805349144b82ba49cba62a400800c2cf6912bd4a4c686ab70b0c08a"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_BOUNDARY_ROOT_JOINT_BLOCK_001/CUSTODY.json": {
+      "bytes": 1044,
+      "sha256": "0fe7981a5216b7affa084093424665d223a6f7a36d69e2909175453092739395"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_BOUNDARY_ROOT_JOINT_BLOCK_001/FIXED.py.txt": {
+      "bytes": 7259,
+      "sha256": "b96744738ffa89d607e578fe32f74a6f4b5d138cdf399da1dc23ab0ddbe12025"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_BOUNDARY_ROOT_JOINT_BLOCK_001/FREEZE_ORIGINALS.py.txt": {
+      "bytes": 3525,
+      "sha256": "4fb51641dae845715abea77302bc1d7f57b16c60c8a6d527ffa30a9688a57ac7"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_BOUNDARY_ROOT_JOINT_BLOCK_001/INDEPENDENT.py.txt": {
+      "bytes": 6047,
+      "sha256": "4117053527805b1e5ca46701573ffed3ceb3f5beb5d41108f3136dfe47e36b4d"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_BOUNDARY_ROOT_JOINT_BLOCK_001/ORIGINALS.json": {
+      "bytes": 36808,
+      "sha256": "c8daa3e47aeb498e98f42eb8f6414124a9e23ba22b395443c7cade9a0cb6a4fb"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_BOUNDARY_ROOT_JOINT_BLOCK_001/PREFLIGHT.py.txt": {
+      "bytes": 4809,
+      "sha256": "4d3245ffdc456c60a37c6588f216ef510d4c6da714c0427d2de79d367a6c6be7"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_BOUNDARY_ROOT_JOINT_BLOCK_001/PROTECTED_CHECK.py.txt": {
+      "bytes": 4605,
+      "sha256": "e956df003681176bad97aaf275f54ff132a68c6a9722cfae82332547df9f6a3a"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_INDEPENDENT_PATH_ORDER_MENU_001_PREP/MANIFEST.json": {
+      "bytes": 12191,
+      "sha256": "6ccae7e8049de4137258ddfbbb54b412307251cb57741f4fd2431647c91962e8"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_INDEPENDENT_PATH_ORDER_MENU_001_PREP/ORIGINALS.json": {
+      "bytes": 103581,
+      "sha256": "538590be0628cbc452fbbf0c991f4c1f8ce42e48024175069b20942189e28569"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_INDEPENDENT_PATH_ORDER_MENU_001_PREP/PREFIXES.json": {
+      "bytes": 139758,
+      "sha256": "08b31a4229b7fb209d9c1c75a418ff12c4ff248109ef2fb15c26d1756c3cc41c"
+    },
+    "lcl/__init__.py": {
+      "bytes": 80,
+      "sha256": "134055506d3e9cd4fa538177844d28a44d5ab567ec220cf54048e63d1a8a7374"
+    },
+    "lcl/model.py": {
+      "bytes": 10720,
+      "sha256": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6"
+    },
+    "lcl/verify.py": {
+      "bytes": 14075,
+      "sha256": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909"
+    },
+    "references/upstream/mdl/N226_R226_two_host_completion.md": {
+      "bytes": 39732,
+      "sha256": "989e85fd24be0ed3c04b0dd80df7a93f648279d6599ec82eede4f4241dc5cddc"
+    },
+    "references/upstream/mdl/N232_R232_joint_allocation.md": {
+      "bytes": 29112,
+      "sha256": "45452191b708528c0ba3fab4802767f9e9cbf20dab0c126929a91a770dbd505d"
+    },
+    "references/upstream/mdl/N241_relational_ports.md": {
+      "bytes": 25890,
+      "sha256": "53ac2c8bf13457ae5630dd0c1c6e19b785d3b568b67d932e86d331901ee82e9e"
+    },
+    "references/upstream/mdl/N246_reconstruction_and_count_correction.md": {
+      "bytes": 61343,
+      "sha256": "f7a8aa11c80ac3c83d5a63925d4cdc80743473940d0ed1dea4b88e06ec30b047"
+    },
+    "research/ORDINARY_SPINE_BOUNDARY_ROOT_JOINT_BLOCK.md": {
+      "bytes": 13426,
+      "sha256": "63653fc0f18361865ae5152eeed799e36a4357ff42bd088fdea334cd2f41082f"
+    },
+    "research/ORDINARY_SPINE_EXCEPTIONAL_TWO_UPPER_HOST_RESIDUE_COMPRESSION.md": {
+      "bytes": 30575,
+      "sha256": "b18eb180e189907c17912206b28a0e394219b6e1458890e7958629e130f5acb9"
+    },
+    "research/ORDINARY_SPINE_GENERALIZED_ONE_SECTION_CUT_SPECTRUM.md": {
+      "bytes": 26093,
+      "sha256": "72b0d87b148dba0215ee15bede17adf9b36aa333e01a4394b01ed19076181818"
+    },
+    "research/ORDINARY_SPINE_INDEPENDENT_PATH_ORDER_MENU_PREPARATION.md": {
+      "bytes": 19958,
+      "sha256": "930867ea508d5419a58289fd2f7717ca39abf087303a86ac1be89578f79d2eee"
+    },
+    "research/ORDINARY_SPINE_NESTED_CUT_RANK_INTERLEAVING.md": {
+      "bytes": 23020,
+      "sha256": "16574a6329d72bec9f8dcd3894d0a422e615ba1607b139b27f15b63435c0c08b"
+    }
+  },
+  "task": "LCL-ORDINARY-SPINE-BOUNDARY-ROOT-JOINT-BLOCK-001",
+  "verified_original_digests": {
+    "block16": "366a2487fafc85bd6831742da950d55034c1ac89b29aa6e8305f5b172965415b",
+    "main48": "1e9d8d99227973991cb6fb850cfbcd44cfac2c3470396886c59a9264bd3de3cb",
+    "prefix32": "fd4289cb555097994341bf023415e231841e01e95c1098c7890643252241f061",
+    "repeat64": "2ba2ba0a2708be60ad52810cf0f71b7d65a458781c1dd89e21a2d8dcae18237d"
+  }
+}

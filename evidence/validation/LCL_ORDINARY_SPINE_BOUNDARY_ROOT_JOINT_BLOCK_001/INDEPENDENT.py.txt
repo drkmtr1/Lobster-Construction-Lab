@@ -1,0 +1,110 @@
+def verify(graph, labels, cut, threshold, frontier, frontier_value, entry_sections):
+    """Audit one prescribed final labeling by original endpoint subtraction."""
+    def require(condition, reason):
+        if not condition:
+            raise ValueError(reason)
+
+    vertices = tuple(graph['vertices'])
+    spine = tuple(graph['spine'])
+    roles = graph['roles']
+    given_edges = tuple(tuple(edge) for edge in graph['edges'])
+    names = set(vertices)
+    m = len(given_edges)
+    require(len(vertices) == len(names) == m + 1 and set(roles) == names,
+            'original vertex and role coverage')
+    require(spine and len(set(spine)) == len(spine) and set(spine) <= names,
+            'original spine coverage')
+    require(type(cut) is int and 1 <= cut <= m and
+            type(threshold) is int and 1 <= threshold <= m, 'proper physical cut and threshold')
+    require(set(labels) == names and all(type(x) is int for x in labels.values()) and
+            sorted(labels.values()) == list(range(m + 1)), 'exact final label alphabet')
+    require(frontier == spine[-1] and type(frontier_value) is int and
+            labels[frontier] == frontier_value, 'literal final frontier')
+    require(all(type(i) is int and 0 <= i < len(spine) - 1 for i in entry_sections) and
+            list(entry_sections) == sorted(set(entry_sections)), 'ordered block entries')
+
+    section_of = {}
+    branches, leaves = {}, {}
+    for v in vertices:
+        role = roles[v]
+        i = role['section']
+        require(type(i) is int and 0 <= i < len(spine), 'section identity')
+        section_of[v] = i
+        kind = role['kind']
+        if kind == 'spine':
+            require(v == spine[i] == f's:{i}', 'spine name and section')
+            continue
+        require(kind in ('branch', 'leaf'), 'original child role')
+        j = role['branch']
+        require(type(j) is int and j >= 0, 'original branch index')
+        if kind == 'branch':
+            require(v == f'b:{i}:{j}' and (i, j) not in branches, 'original branch name')
+            branches[i, j] = v
+        else:
+            k = role['leaf']
+            require(type(k) is int and k >= 0 and v == f'l:{i}:{j}:{k}' and
+                    (i, j, k) not in leaves, 'original terminal name')
+            leaves[i, j, k] = v
+    require(all(roles[v]['kind'] == 'spine' for v in spine), 'exact spine roles')
+    profile = []
+    declared_edges = [(spine[i], spine[i + 1]) for i in range(len(spine) - 1)]
+    terminal_parents = []
+    for i in range(len(spine)):
+        branch_indices = sorted(j for s, j in branches if s == i)
+        require(branch_indices == list(range(len(branch_indices))), 'contiguous indexed children')
+        section = []
+        for j in branch_indices:
+            parent = branches[i, j]
+            declared_edges.append((spine[i], parent))
+            terminal_indices = sorted(k for s, b, k in leaves if (s, b) == (i, j))
+            require(terminal_indices == list(range(len(terminal_indices))), 'contiguous terminal indices')
+            section.append(len(terminal_indices))
+            for k in terminal_indices:
+                v = leaves[i, j, k]
+                terminal_parents.append(v)
+                declared_edges.append((parent, v))
+        profile.append(section)
+    require(set(terminal_parents) == set(leaves.values()), 'actual terminal parent coverage')
+    require('profile' not in graph or graph['profile'] == profile, 'original section quotas')
+    require(given_edges == tuple(declared_edges), 'original ordered edge and incidence coverage')
+
+    rows = []
+    for index, (a, b) in enumerate(given_edges):
+        x, y = labels[a], labels[b]
+        weight = abs(x - y)
+        crosses = (x < cut) != (y < cut)
+        rows.append(dict(index=index, ends=[a, b], labels=[x, y], weight=weight, crosses=crosses))
+    crossing = sorted(r['weight'] for r in rows if r['crosses'])
+    noncrossing = sorted(r['weight'] for r in rows if not r['crosses'])
+    require(crossing == list(range(threshold, m + 1)) and
+            noncrossing == list(range(1, threshold)), 'exact actual difference and cut spectra')
+
+    def inventory(member_names, edge_rows):
+        occupied = sorted(labels[v] for v in member_names)
+        return dict(names=[v for v in vertices if v in member_names], labels=occupied,
+                    lower_labels=[x for x in occupied if x < cut],
+                    upper_labels=[x for x in occupied if x >= cut],
+                    edge_indices=[r['index'] for r in edge_rows],
+                    differences=sorted(r['weight'] for r in edge_rows),
+                    crossing_differences=sorted(r['weight'] for r in edge_rows if r['crosses']),
+                    noncrossing_differences=sorted(r['weight'] for r in edge_rows if not r['crosses']))
+
+    boundaries = []
+    for i, root in enumerate(spine):
+        installed = {v for v in vertices if section_of[v] <= i}
+        used_edges = [r for r in rows if all(v in installed for v in r['ends'])]
+        remaining_edges = [r for r in rows if not all(v in installed for v in r['ends'])]
+        pending = [r for r in remaining_edges if any(v in installed for v in r['ends'])]
+        if i + 1 < len(spine):
+            require(len(pending) == 1 and pending[0]['ends'] == [root, spine[i + 1]],
+                    'literal pending connector is the unique inter-boundary incidence')
+        else:
+            require(not pending, 'no pending final incidence')
+        boundaries.append(dict(section=i, frontier=root, frontier_label=labels[root],
+                               block_entry=i in entry_sections,
+                               pending_connector=pending[0] if pending else None,
+                               installed=inventory(installed, used_edges),
+                               remaining=inventory(names - installed, remaining_edges)))
+    return dict(size=m, cut=cut, threshold=threshold, frontier=frontier,
+                frontier_value=frontier_value, edge_rows=rows,
+                cut_inventory=inventory(names, rows), boundaries=boundaries)

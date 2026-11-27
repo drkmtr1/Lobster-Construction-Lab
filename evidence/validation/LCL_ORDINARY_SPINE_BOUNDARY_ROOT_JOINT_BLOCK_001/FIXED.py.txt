@@ -1,0 +1,157 @@
+"""Construct only the five frozen cases and check them independently in both polarities."""
+from pathlib import Path
+from hashlib import sha256
+import json
+import sys
+import time
+
+CPU_START = time.process_time_ns()
+WALL_START = time.perf_counter_ns()
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parents[2]
+PREFIX_FILE = ROOT / "evidence/validation/LCL_ORDINARY_SPINE_INDEPENDENT_PATH_ORDER_MENU_001_PREP/PREFIXES.json"
+
+
+def read_json(path):
+    return json.loads(path.read_bytes())
+
+
+def deposit(path, value):
+    raw = (json.dumps(value, sort_keys=True, indent=2)+"\n").encode()
+    assert len(raw) < 16_000_000
+    with path.open("xb") as f:
+        f.write(raw)
+
+
+def install(old, n, local, entries):
+    """Emit final minimum-oriented labels directly from disjoint birth stages."""
+    labels = {}
+    births = {}
+    r = len(entries)
+    for v, b in old.items():
+        labels[v] = b + 8*r
+        births[v] = {"block": 0, "birth_size": n, "birth_label": b, "later_shift": 8*r}
+    for i, section in enumerate(entries, 1):
+        previous_size = n + 16*(i-1)
+        later_shift = 8*(r-i)
+        root = f"s:{section}"
+        assert labels[root] == 8 + later_shift
+        for v, b in local.items():
+            if v == "s:0":
+                continue
+            parts = v.split(":")
+            parts[1] = str(section + int(parts[1]))
+            name = ":".join(parts)
+            assert name not in labels
+            born = b if b < 8 else previous_size+b
+            labels[name] = born + later_shift
+            births[name] = {"block": i, "birth_size": previous_size+16, "birth_label": born,
+                            "local_name": v, "local_label": b, "later_shift": later_shift}
+    return labels, births
+
+
+def admitted(freeze_id):
+    freeze_bytes = (HERE/"FREEZE.json").read_bytes()
+    assert sha256(freeze_bytes).hexdigest() == freeze_id
+    freeze = json.loads(freeze_bytes)
+    assert sys.flags.isolated and sys.flags.no_site and sys.flags.dont_write_bytecode
+    assert not sys.flags.optimize and sys.version == freeze["runtime"]["version"]
+    for p, identity in freeze["source_bindings"].items():
+        raw = (ROOT/p).read_bytes().replace(b"\r\n", b"\n")
+        assert identity == {"bytes":len(raw),"sha256":sha256(raw).hexdigest()}, p
+    for p, identity in freeze["runtime"]["files"].items():
+        raw = Path(p).read_bytes()
+        assert identity == {"bytes":len(raw),"sha256":sha256(raw).hexdigest()}, p
+
+
+def main():
+    admitted(sys.argv[1])
+    frozen = read_json(HERE/"ORIGINALS.json")["records"]
+    config = read_json(HERE/"CONFIG.json")
+    menu = read_json(PREFIX_FILE)["menu"]
+    local_graph = frozen["block16"]["graph"]
+    local = config["block"]["ordered_minimum_labels"]
+    assert local["s:0"] == 8 and local["s:2"] == 0
+    assert config["block"]["local_edges"] == len(local_graph["edges"]) == 16
+    assert config["block"]["boundary"] == 8
+    assert len(config["cases"]) == 5
+    audit_ns = {}
+    exec(compile((HERE/"INDEPENDENT.py.txt").read_bytes(), "INDEPENDENT.py.txt", "exec"), audit_ns)
+    audit = audit_ns["verify"]
+    cases = []
+    for case_id, target, variant, cut, threshold, entries in config["cases"]:
+        g = frozen[target]["graph"]
+        m = frozen[target]["edges"]
+        if variant is None:
+            n, old, old_max = 0, {"s:0":0}, {"s:0":0}
+            source_edges = []
+        else:
+            n = 32
+            source = menu[variant]
+            assert source["prefix_digest"] == frozen["prefix32"]["digest"]
+            old = source["state"]["minimum_labels"]
+            old_max = source["state"]["maximum_labels"]
+            assert source["state"]["frontier"] == "s:5" and old["s:5"] == 0
+            assert {v:n-b for v,b in old.items()} == old_max
+            source_edges = frozen["prefix32"]["graph"]["edges"]
+        labels, births = install(old, n, local, entries)
+        assert m == n + 16*len(entries)
+        assert len(labels) == m+1
+        if n == 0:
+            assert labels == local
+        versions = []
+        for physical in config["physical_polarities"]:
+            maximum = physical == "maximum"
+            real = {v:m-b for v,b in labels.items()} if maximum else labels
+            bmap = {}
+            for v, birth in births.items():
+                item = dict(birth)
+                if maximum:
+                    item["birth_label"] = item["birth_size"] - item["birth_label"]
+                item["final_label"] = real[v]
+                assert item["birth_label"] + item["later_shift"] == real[v]
+                bmap[v] = item
+            by_formula = {v:b + 8*len(entries) for v,b in (old_max if maximum else old).items()}
+            assert all(real[v] == b for v,b in by_formula.items())
+            old_rows = []
+            incoming = old_max if maximum else old
+            for a,b in source_edges:
+                before, after = [incoming[a], incoming[b]], [real[a], real[b]]
+                assert abs(before[0]-before[1]) == abs(after[0]-after[1])
+                old_rows.append({"edge":[a,b], "incoming_labels":before, "final_labels":after,
+                                 "weight":abs(after[0]-after[1])})
+            block_rows = []
+            for i, section in enumerate(entries, 1):
+                def name(v):
+                    parts = v.split(":")
+                    parts[1] = str(int(parts[1])+section)
+                    return ":".join(parts)
+                shift_weight = n+16*(i-1)
+                for a,b in local_graph["edges"]:
+                    ends = [name(a), name(b)]
+                    actual = [real[x] for x in ends]
+                    local_weight = abs(local[a]-local[b])
+                    assert abs(actual[0]-actual[1]) == shift_weight + local_weight
+                    block_rows.append({"block":i,"edge":ends,"local_labels":[local[a],local[b]],
+                                       "final_labels":actual,"local_weight":local_weight,
+                                       "weight":abs(actual[0]-actual[1])})
+            assert len(old_rows) + len(block_rows) == m
+            actual_cut = m+1-cut if maximum else cut
+            audit_result = audit(g, real, actual_cut, threshold, g["spine"][-1],
+                                 m if maximum else 0, entries)
+            versions.append({"physical_orientation":physical,"labels":real,
+                             "birth_map":bmap,"old_edge_transport":old_rows,
+                             "block_edge_transport":block_rows,"incidence_audit":audit_result})
+        cases.append({"case":case_id,"target":target,"incoming_variant":variant,
+                      "graph_digest":frozen[target]["digest"],"normalized_state":[m,cut,threshold],
+                      "orientations":versions})
+    assert sum(len(c["orientations"]) for c in cases) == 10
+    deposit(HERE/"CERTIFICATES.json", {"task": config["task"],"freeze_sha256":sys.argv[1],
+                                     "cases":cases,"protected_calls":0})
+    print(json.dumps({"fixed_cases":len(cases),"polarity_records":10,"search_nodes":0,
+                      "solver_calls":0,"checker_calls":0,"cpu_ns":time.process_time_ns()-CPU_START,
+                      "elapsed_ns":time.perf_counter_ns()-WALL_START}))
+
+
+if __name__ == "__main__":
+    main()

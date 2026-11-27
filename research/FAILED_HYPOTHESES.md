@@ -891,3 +891,7 @@ Under the exact B/C supplied 32-edge labels and the required 41-edge interface, 
 ## D205 V1 â€” Neither alternative path-order input supplies the registered return
 
 The hypothesis that B or C admits a strictly increasing embedding to the named four-arm 41-edge continuation with extreme-frontier `P(41,c,c+2)` fails within the exact registered scope. Both engines exhausted all six residual cuts per variant, including both weight-rank classes. The accepted symbolic exclusions cover the remainder of that scope. With D204's separate A result this excludes the three path-order allocations of the exact fixed shell for this continuation. Other labelings, shell geometries, embedding classes and return relations remain separate. [Reviewed execution](../evidence/validation/LCL_D205_V1_SCIENTIFIC_EXECUTION_001/ASSESSMENT.md)
+
+## D206 scope of the earlier one-section obstruction
+
+D204 and D205 retain their exact negative for the described three-member fixed-shell path-order menu under the registered 41-edge increasing-return relation. D206 supplies a joint two-section certificate on the exact 48-edge original for all three old labelings. This refutes a stronger inference that those earlier negatives prevent the joint extension. The attached local alpha block and the complete ordinary graceful original have different roles. D104's exact alpha-only obstruction is unaffected. [D206 proof](../research/ORDINARY_SPINE_BOUNDARY_ROOT_JOINT_BLOCK.md)

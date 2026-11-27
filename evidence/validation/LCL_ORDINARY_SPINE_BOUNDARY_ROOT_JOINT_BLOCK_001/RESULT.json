@@ -1,0 +1,251 @@
+{
+  "task": "LCL-ORDINARY-SPINE-BOUNDARY-ROOT-JOINT-BLOCK-001",
+  "disposition": "SYMBOLIC_CONSTRUCTION_PROVED_FIXED_CERTIFICATES_VERIFIED",
+  "director_review": "PENDING",
+  "d205_acceptance_base": "f8b6df33195795d2e283d3dccdf1906efbe40e5d",
+  "scope": "Single shared boundary vertex at the lower alpha boundary, an ordinary graceful supplied extreme-frontier prefix, and admitted independent alpha blocks. Exact supplied repeated pair (1,1,1,1),(1,1,1).",
+  "independent_checks": {
+    "polarity_records": 10,
+    "endpoints": 448,
+    "birth_labels": 458,
+    "boundary_resource_pairs": 74,
+    "pending_connectors": 64,
+    "old_edge_transport": 256,
+    "block_edge_transport": 192
+  },
+  "verified_originals": {
+    "prefix32": "fd4289cb555097994341bf023415e231841e01e95c1098c7890643252241f061",
+    "block16": "366a2487fafc85bd6831742da950d55034c1ac89b29aa6e8305f5b172965415b",
+    "main48": "1e9d8d99227973991cb6fb850cfbcd44cfac2c3470396886c59a9264bd3de3cb",
+    "repeat64": "2ba2ba0a2708be60ad52810cf0f71b7d65a458781c1dd89e21a2d8dcae18237d"
+  },
+  "boundary_results": [
+    {
+      "case": "block16",
+      "normalized": [
+        16,
+        9,
+        1
+      ],
+      "physical": [
+        {
+          "orientation": "minimum",
+          "cut": 9,
+          "frontier_value": 0,
+          "new_spine_connectors": [
+            [
+              8,
+              9
+            ],
+            [
+              9,
+              0
+            ]
+          ]
+        },
+        {
+          "orientation": "maximum",
+          "cut": 8,
+          "frontier_value": 16,
+          "new_spine_connectors": [
+            [
+              8,
+              7
+            ],
+            [
+              7,
+              16
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "case": "main48-A",
+      "normalized": [
+        48,
+        41,
+        33
+      ],
+      "physical": [
+        {
+          "orientation": "minimum",
+          "cut": 41,
+          "frontier_value": 0,
+          "new_spine_connectors": [
+            [
+              8,
+              41
+            ],
+            [
+              41,
+              0
+            ]
+          ]
+        },
+        {
+          "orientation": "maximum",
+          "cut": 8,
+          "frontier_value": 48,
+          "new_spine_connectors": [
+            [
+              40,
+              7
+            ],
+            [
+              7,
+              48
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "case": "main48-B",
+      "normalized": [
+        48,
+        41,
+        33
+      ],
+      "physical": [
+        {
+          "orientation": "minimum",
+          "cut": 41,
+          "frontier_value": 0,
+          "new_spine_connectors": [
+            [
+              8,
+              41
+            ],
+            [
+              41,
+              0
+            ]
+          ]
+        },
+        {
+          "orientation": "maximum",
+          "cut": 8,
+          "frontier_value": 48,
+          "new_spine_connectors": [
+            [
+              40,
+              7
+            ],
+            [
+              7,
+              48
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "case": "main48-C",
+      "normalized": [
+        48,
+        41,
+        33
+      ],
+      "physical": [
+        {
+          "orientation": "minimum",
+          "cut": 41,
+          "frontier_value": 0,
+          "new_spine_connectors": [
+            [
+              8,
+              41
+            ],
+            [
+              41,
+              0
+            ]
+          ]
+        },
+        {
+          "orientation": "maximum",
+          "cut": 8,
+          "frontier_value": 48,
+          "new_spine_connectors": [
+            [
+              40,
+              7
+            ],
+            [
+              7,
+              48
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "case": "repeat64-A",
+      "normalized": [
+        64,
+        57,
+        49
+      ],
+      "physical": [
+        {
+          "orientation": "minimum",
+          "cut": 57,
+          "frontier_value": 0,
+          "new_spine_connectors": [
+            [
+              16,
+              49
+            ],
+            [
+              49,
+              8
+            ],
+            [
+              8,
+              57
+            ],
+            [
+              57,
+              0
+            ]
+          ]
+        },
+        {
+          "orientation": "maximum",
+          "cut": 8,
+          "frontier_value": 64,
+          "new_spine_connectors": [
+            [
+              48,
+              15
+            ],
+            [
+              15,
+              56
+            ],
+            [
+              56,
+              7
+            ],
+            [
+              7,
+              64
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "freeze_sha256": "584a1ff71312e47be305c17b4ef44d9f9f71c9ceebed9ab5a9b9e021368fc467",
+  "certificate_sha256": "82c3fbef5f3f0107ae3b5f79244c618fe3b6846d25ff71158b8e8d741aca905f",
+  "checker_journal_sha256": "c61c671cb4905e5ee30bad4c5789acb3636d7e1f22596f9c955a8bc293dceac5",
+  "protected_checker_calls": 10,
+  "protected_builder_graphs": 4,
+  "generated_bytecode_files": 0,
+  "search_nodes": 0,
+  "solver_calls": 0,
+  "scientific_campaigns": 0,
+  "historical_replays": 0,
+  "next_action": "Director review of D206 boundary-root joint-block construction, repeatability theorem and fixed verification evidence."
+}

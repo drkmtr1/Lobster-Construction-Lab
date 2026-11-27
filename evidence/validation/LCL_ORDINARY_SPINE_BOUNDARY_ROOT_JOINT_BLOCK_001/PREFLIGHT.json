@@ -1,0 +1,131 @@
+{
+  "checker_imports": 0,
+  "freeze_sha256": "584a1ff71312e47be305c17b4ef44d9f9f71c9ceebed9ab5a9b9e021368fc467",
+  "observed_elapsed_ns": 96531100,
+  "original_checker_calls": 0,
+  "outputs_vacant": true,
+  "parse_only": {
+    "FIXED.py.txt": {
+      "definitions": [
+        "read_json",
+        "deposit",
+        "install",
+        "admitted",
+        "main"
+      ],
+      "import_from": [
+        "hashlib",
+        "pathlib"
+      ]
+    },
+    "FREEZE_ORIGINALS.py.txt": {
+      "definitions": [
+        "original",
+        "main"
+      ],
+      "import_from": [
+        "hashlib",
+        "pathlib"
+      ]
+    },
+    "INDEPENDENT.py.txt": {
+      "definitions": [
+        "verify"
+      ],
+      "import_from": []
+    },
+    "PREFLIGHT.py.txt": {
+      "definitions": [
+        "identity",
+        "exclusive",
+        "main"
+      ],
+      "import_from": [
+        "hashlib",
+        "pathlib"
+      ]
+    },
+    "PROTECTED_CHECK.py.txt": {
+      "definitions": [
+        "identity",
+        "append",
+        "main"
+      ],
+      "import_from": [
+        "hashlib",
+        "lcl",
+        "pathlib"
+      ]
+    }
+  },
+  "preexisting_lcl_bytecode": {
+    "lcl/__pycache__/__init__.cpython-313.pyc": {
+      "bytes": 254,
+      "sha256": "13ed31177a86852324cc6cbee78bd71383f0d49fe83798702ff80e4170d4342d"
+    },
+    "lcl/__pycache__/__main__.cpython-313.pyc": {
+      "bytes": 12868,
+      "sha256": "6f522e26d5f6c34ba9247e5d859f192156ee0a2e41bc58701b04f83b7bdae4dd"
+    },
+    "lcl/__pycache__/allocation.cpython-313.pyc": {
+      "bytes": 16710,
+      "sha256": "401d5e915fbe0a3c147daa895f1777e6f58c41e72564201d04d5ac3142ec42e3"
+    },
+    "lcl/__pycache__/budget.cpython-313.pyc": {
+      "bytes": 4013,
+      "sha256": "9783b521b3dc11f27a96c93c586cc652324a039145ab4a8e6d690f51af91a8b1"
+    },
+    "lcl/__pycache__/constructors.cpython-313.pyc": {
+      "bytes": 74564,
+      "sha256": "ada88393a80c71d068989add1900e9337d40c65c7be587bea4d8c174b75cbf8b"
+    },
+    "lcl/__pycache__/consumers.cpython-313.pyc": {
+      "bytes": 4870,
+      "sha256": "0e6e1e88929a380ebefb3411786fb25163d88fe1bce766baf6c5211519fcd0eb"
+    },
+    "lcl/__pycache__/dp.cpython-313.pyc": {
+      "bytes": 5894,
+      "sha256": "fda70f6adb02ef4710e0698710e599245485bd551f3b2063f33efa849f94cd6a"
+    },
+    "lcl/__pycache__/engines.cpython-313.pyc": {
+      "bytes": 7774,
+      "sha256": "b9fb6220dccd1c2a96ae921bc864a75a23abf77f2c0a14bdddf216172bba737a"
+    },
+    "lcl/__pycache__/experiments.cpython-313.pyc": {
+      "bytes": 13098,
+      "sha256": "9be190fb224ed2cd29f068bb4772065b8e867b6c33fb6645ed788aa1e07029d5"
+    },
+    "lcl/__pycache__/ingest.cpython-313.pyc": {
+      "bytes": 20302,
+      "sha256": "18bba819869c3742b52dc9289bbb7b4f784856d25dd008a1e85265e51e738c32"
+    },
+    "lcl/__pycache__/model.cpython-313.pyc": {
+      "bytes": 16628,
+      "sha256": "8e24f96596e0646845acccc3fdedc756ab98751345ac7952a3bca6e14464ced3"
+    },
+    "lcl/__pycache__/oracle.cpython-313.pyc": {
+      "bytes": 9236,
+      "sha256": "6d06e60df8cce9025a9e2934390cbe98f17b7848f193b27bf04f0ee2b4159303"
+    },
+    "lcl/__pycache__/records.cpython-313.pyc": {
+      "bytes": 12380,
+      "sha256": "3d4b3a4256cd00e16b7f5af43bf602ded17acccdaf3238256261f5270fe994aa"
+    },
+    "lcl/__pycache__/search.cpython-313.pyc": {
+      "bytes": 7016,
+      "sha256": "752e10deb6fbd490f6554ad5a9cd47d21c439f187d0f56111b58f1328169dc90"
+    },
+    "lcl/__pycache__/states.cpython-313.pyc": {
+      "bytes": 7040,
+      "sha256": "3884bba0b9920f3ca1a8403e718f0e38e5896ca1056242000d8d780a738f5e96"
+    },
+    "lcl/__pycache__/verify.cpython-313.pyc": {
+      "bytes": 20204,
+      "sha256": "261e53265b9d37fb94e07e151c8581d13cfeec2021a266a498d365cdf127fc84"
+    }
+  },
+  "process_cpu_ns": 62500000,
+  "source_bindings": 24,
+  "task_bytecode": 0,
+  "task_imports": 0
+}

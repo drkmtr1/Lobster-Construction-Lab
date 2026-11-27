@@ -1,0 +1,89 @@
+"""One-shot protected cross-check for the exact ten already audited certificates."""
+from hashlib import sha256
+from pathlib import Path
+import json
+import os
+import sys
+import time
+
+CPU_START = time.process_time_ns()
+WALL_START = time.perf_counter_ns()
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parents[2]
+
+
+def identity(raw):
+    return {"bytes":len(raw),"sha256":sha256(raw).hexdigest()}
+
+
+def append(journal, record):
+    journal.write((json.dumps(record, sort_keys=True)+"\n").encode())
+    journal.flush()
+    os.fsync(journal.fileno())
+
+
+def main():
+    freeze_id, certificates_id = sys.argv[1:]
+    freeze_raw = (HERE/"FREEZE.json").read_bytes()
+    assert identity(freeze_raw)["sha256"] == freeze_id
+    freeze = json.loads(freeze_raw)
+    assert sys.flags.isolated and sys.flags.no_site and sys.flags.dont_write_bytecode
+    assert not sys.flags.optimize and sys.version == freeze["runtime"]["version"]
+    assert Path(sys.pycache_prefix).resolve() == HERE/"VACANT_CACHE"
+    assert not (HERE/"VACANT_CACHE").exists()
+    for name, expected in freeze["source_bindings"].items():
+        assert identity((ROOT/name).read_bytes().replace(b"\r\n",b"\n")) == expected, name
+    for name, expected in freeze["runtime"]["files"].items():
+        assert identity(Path(name).read_bytes()) == expected, name
+    raw = (HERE/"CERTIFICATES.json").read_bytes()
+    assert identity(raw)["sha256"] == certificates_id
+    certificates = json.loads(raw)
+    assert certificates["freeze_sha256"] == freeze_id and certificates["protected_calls"] == 0
+    assert (HERE/"PREFLIGHT.json").is_file() and (HERE/"REVIEWS.md").is_file()
+    config = json.loads((HERE/"CONFIG.json").read_bytes())
+    originals = json.loads((HERE/"ORIGINALS.json").read_bytes())["records"]
+    cases = certificates["cases"]
+    assert len(cases) == len(config["cases"]) == 5 and config["max_checker_calls"] == 10
+    assert not (HERE/"CHECKER_RESULT.json").exists()
+    with (HERE/"CHECKER_CALLS.jsonl").open("xb") as journal:
+        append(journal, {"event":"admission","freeze_sha256":freeze_id,"certificate_sha256":certificates_id})
+        sys.path.insert(0,str(ROOT))
+        from lcl import model, verify
+        assert Path(model.__file__).resolve() == ROOT/"lcl/model.py"
+        assert Path(verify.__file__).resolve() == ROOT/"lcl/verify.py"
+        for original in originals.values():
+            assert model.build_graph(original["graph"]["profile"]) == original["graph"]
+            assert model.graph_digest(original["graph"]) == original["digest"]
+        calls = 0
+        for spec, case in zip(config["cases"], cases, strict=True):
+            case_id, target, variant, cut, threshold, _ = spec
+            assert (case["case"], case["target"], case["incoming_variant"]) == (case_id,target,variant)
+            original = originals[target]
+            assert case["graph_digest"] == original["digest"]
+            assert case["normalized_state"] == [original["edges"],cut,threshold]
+            for physical, cert in zip(config["physical_polarities"],case["orientations"],strict=True):
+                assert cert["physical_orientation"] == physical
+                assert time.process_time_ns()-CPU_START < 600_000_000_000
+                assert time.perf_counter_ns()-WALL_START < 1_800_000_000_000
+                calls += 1
+                assert calls <= config["max_checker_calls"]
+                context = {"call":calls,"case":case_id,"physical_orientation":physical}
+                append(journal, dict(context,event="start"))
+                result = verify.verify_certificate(original["graph"],cert["labels"],original["digest"])
+                append(journal, dict(context,event="finish",result=result))
+                assert result["valid"] and result["graph_digest"] == original["digest"]
+                assert result["edge_differences"] == [row["weight"] for row in cert["incidence_audit"]["edge_rows"]]
+        assert calls == 10
+    assert not (HERE/"VACANT_CACHE").exists()
+    out = {"task":config["task"],"checker_calls":calls,"valid":True,"builder_graphs":len(originals),
+           "cpu_ns":time.process_time_ns()-CPU_START,"elapsed_ns":time.perf_counter_ns()-WALL_START,
+           "search_nodes":0,"solver_calls":0,"numerical_campaigns":0,
+           "freeze_sha256":freeze_id,"certificates_sha256":certificates_id,
+           "journal":identity((HERE/"CHECKER_CALLS.jsonl").read_bytes())}
+    with (HERE/"CHECKER_RESULT.json").open("xb") as f:
+        f.write((json.dumps(out,sort_keys=True,indent=2)+"\n").encode())
+    print(json.dumps(out))
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,84 @@
+"""Parse-only preflight and source/runtime freeze for fixed D206 verification."""
+from hashlib import sha256
+from pathlib import Path
+import ast
+import json
+import struct
+import sys
+import time
+
+START_CPU = time.process_time_ns()
+START_WALL = time.perf_counter_ns()
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parents[2]
+PREP = "evidence/validation/LCL_ORDINARY_SPINE_INDEPENDENT_PATH_ORDER_MENU_001_PREP/"
+PROOF = "research/ORDINARY_SPINE_BOUNDARY_ROOT_JOINT_BLOCK.md"
+LOCAL = ("CONFIG.json", "CUSTODY.json", "ORIGINALS.json", "FREEZE_ORIGINALS.py.txt",
+         "FIXED.py.txt", "INDEPENDENT.py.txt", "PROTECTED_CHECK.py.txt", "PREFLIGHT.py.txt")
+
+
+def identity(data):
+    return {"bytes":len(data),"sha256":sha256(data).hexdigest()}
+
+
+def exclusive(path, output):
+    with path.open("xb") as f:
+        f.write((json.dumps(output,sort_keys=True,indent=2)+"\n").encode())
+
+
+def main():
+    assert sys.flags.no_site and sys.flags.dont_write_bytecode and sys.flags.isolated
+    assert not sys.flags.optimize and sys.version_info[:2] in {(3,12),(3,13)}
+    for name in ["PREFLIGHT.json","FREEZE.json","CERTIFICATES.json","CHECKER_CALLS.jsonl",
+                 "CHECKER_RESULT.json","REVIEWS.md","VACANT_CACHE"]:
+        assert not (HERE/name).exists(), name
+    assert not list(HERE.rglob("*.pyc"))
+    parsed = {}
+    for filename in [name for name in LOCAL if name.endswith(".py.txt")]:
+        raw = (HERE/filename).read_bytes()
+        tree = ast.parse(raw, filename=filename)
+        compile(tree, filename, "exec")
+        definitions = [n.name for n in tree.body if isinstance(n,(ast.ClassDef,ast.FunctionDef))]
+        assert len(definitions) == len(set(definitions))
+        imports = sorted({n.module for n in ast.walk(tree) if isinstance(n,ast.ImportFrom)})
+        assert imports == (["hashlib","lcl","pathlib"] if filename == "PROTECTED_CHECK.py.txt"
+                           else [] if filename == "INDEPENDENT.py.txt" else ["hashlib","pathlib"])
+        parsed[filename] = {"definitions":definitions,"import_from":imports}
+    assert not any(n == "lcl" or n.startswith("lcl.") for n in sys.modules)
+    base = Path(sys._base_executable)
+    executables = [Path(sys.executable),base,base.with_name(f"python{sys.version_info.major}{sys.version_info.minor}.dll")]
+    runtime = {"version":sys.version,"bits":8*struct.calcsize("P"),"executable":sys.executable,
+               "base_executable":str(base),"isolation":["-I","-S","-B"],"stdlib_only":True,
+               "files":{str(p):identity(p.read_bytes()) for p in executables}}
+    paths = [str((HERE/name).relative_to(ROOT)).replace("\\","/") for name in LOCAL]
+    paths += ["AGENTS.md", PROOF, "lcl/__init__.py", "lcl/model.py", "lcl/verify.py",
+              PREP+"ORIGINALS.json", PREP+"PREFIXES.json", PREP+"MANIFEST.json",
+              "research/ORDINARY_SPINE_INDEPENDENT_PATH_ORDER_MENU_PREPARATION.md",
+              "research/ORDINARY_SPINE_GENERALIZED_ONE_SECTION_CUT_SPECTRUM.md",
+              "research/ORDINARY_SPINE_NESTED_CUT_RANK_INTERLEAVING.md",
+              "research/ORDINARY_SPINE_EXCEPTIONAL_TWO_UPPER_HOST_RESIDUE_COMPRESSION.md",
+              "references/upstream/mdl/N241_relational_ports.md",
+              "references/upstream/mdl/N246_reconstruction_and_count_correction.md",
+              "references/upstream/mdl/N226_R226_two_host_completion.md",
+              "references/upstream/mdl/N232_R232_joint_allocation.md"]
+    config = json.loads((HERE/"CONFIG.json").read_bytes())
+    records = json.loads((HERE/"ORIGINALS.json").read_bytes())["records"]
+    frozen = {"task":config["task"],"acceptance_checkpoint":config["acceptance_checkpoint"],
+              "source_bindings":{p:identity((ROOT/p).read_bytes().replace(b"\r\n",b"\n")) for p in paths},
+              "runtime":runtime,"limits":config["limits"],
+              "cases":config["cases"],"checker_calls":10,
+              "verified_original_digests":{k:v["digest"] for k,v in records.items()}}
+    exclusive(HERE/"FREEZE.json",frozen)
+    evidence = {"freeze_sha256":identity((HERE/"FREEZE.json").read_bytes())["sha256"],
+                "parse_only":parsed,"source_bindings":len(paths),"outputs_vacant":True,
+                "task_imports":0,"checker_imports":0,"original_checker_calls":0,"task_bytecode":0,
+                "preexisting_lcl_bytecode":{str(p.relative_to(ROOT)).replace("\\","/"):identity(p.read_bytes())
+                                            for p in (ROOT/"lcl").rglob("*.pyc")},
+                "process_cpu_ns":time.process_time_ns()-START_CPU,
+                "observed_elapsed_ns":time.perf_counter_ns()-START_WALL}
+    exclusive(HERE/"PREFLIGHT.json",evidence)
+    print(json.dumps({k:v for k,v in evidence.items() if k not in {"parse_only","preexisting_lcl_bytecode"}}))
+
+
+if __name__=="__main__":
+    main()

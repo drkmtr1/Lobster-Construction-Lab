@@ -1,0 +1,263 @@
+{
+  "acceptance_checkpoint": "f8b6df33195795d2e283d3dccdf1906efbe40e5d",
+  "artifact_bindings": {
+    "evidence/validation/LCL_ORDINARY_SPINE_BOUNDARY_ROOT_JOINT_BLOCK_001/.gitattributes": {
+      "bytes": 78,
+      "sha256": "b15db14016a2d3146bcc85fcd79909e11f56f3fa72ef778a5718d3fb334c03a1"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_BOUNDARY_ROOT_JOINT_BLOCK_001/CERTIFICATES.json": {
+      "bytes": 1134933,
+      "sha256": "82c3fbef5f3f0107ae3b5f79244c618fe3b6846d25ff71158b8e8d741aca905f"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_BOUNDARY_ROOT_JOINT_BLOCK_001/CHECKER_CALLS.jsonl": {
+      "bytes": 5906,
+      "sha256": "c61c671cb4905e5ee30bad4c5789acb3636d7e1f22596f9c955a8bc293dceac5"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_BOUNDARY_ROOT_JOINT_BLOCK_001/CHECKER_RESULT.json": {
+      "bytes": 546,
+      "sha256": "4fc4d41a7f4307b5a224934e39072eb97b2c1009226dc27b7b6dde6794841fe4"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_BOUNDARY_ROOT_JOINT_BLOCK_001/CONFIG.json": {
+      "bytes": 1367,
+      "sha256": "a96a3f0f8805349144b82ba49cba62a400800c2cf6912bd4a4c686ab70b0c08a"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_BOUNDARY_ROOT_JOINT_BLOCK_001/CUSTODY.json": {
+      "bytes": 1044,
+      "sha256": "0fe7981a5216b7affa084093424665d223a6f7a36d69e2909175453092739395"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_BOUNDARY_ROOT_JOINT_BLOCK_001/EVIDENCE_SCHEMA.md": {
+      "bytes": 2595,
+      "sha256": "6412c9ac42837d10357a072fdb2b8fc49bea02e4ef5ba66f79bd72f7e94d03d0"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_BOUNDARY_ROOT_JOINT_BLOCK_001/EXECUTION.json": {
+      "bytes": 2560,
+      "sha256": "5bd8d8db467e284bed1d0f2359b008bea04f5d37d39d159fb70365058fb7264f"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_BOUNDARY_ROOT_JOINT_BLOCK_001/FIXED.py.txt": {
+      "bytes": 7259,
+      "sha256": "b96744738ffa89d607e578fe32f74a6f4b5d138cdf399da1dc23ab0ddbe12025"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_BOUNDARY_ROOT_JOINT_BLOCK_001/FREEZE.json": {
+      "bytes": 6751,
+      "sha256": "584a1ff71312e47be305c17b4ef44d9f9f71c9ceebed9ab5a9b9e021368fc467"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_BOUNDARY_ROOT_JOINT_BLOCK_001/FREEZE_ORIGINALS.py.txt": {
+      "bytes": 3525,
+      "sha256": "4fb51641dae845715abea77302bc1d7f57b16c60c8a6d527ffa30a9688a57ac7"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_BOUNDARY_ROOT_JOINT_BLOCK_001/INDEPENDENT.py.txt": {
+      "bytes": 6047,
+      "sha256": "4117053527805b1e5ca46701573ffed3ceb3f5beb5d41108f3136dfe47e36b4d"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_BOUNDARY_ROOT_JOINT_BLOCK_001/ORIGINALS.json": {
+      "bytes": 36808,
+      "sha256": "c8daa3e47aeb498e98f42eb8f6414124a9e23ba22b395443c7cade9a0cb6a4fb"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_BOUNDARY_ROOT_JOINT_BLOCK_001/PREFLIGHT.json": {
+      "bytes": 3834,
+      "sha256": "2a23198d83b0d2410e62debb3653c6fa3b298067aa4e4476976931226b1a3d76"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_BOUNDARY_ROOT_JOINT_BLOCK_001/PREFLIGHT.py.txt": {
+      "bytes": 4809,
+      "sha256": "4d3245ffdc456c60a37c6588f216ef510d4c6da714c0427d2de79d367a6c6be7"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_BOUNDARY_ROOT_JOINT_BLOCK_001/PROTECTED_CHECK.py.txt": {
+      "bytes": 4605,
+      "sha256": "e956df003681176bad97aaf275f54ff132a68c6a9722cfae82332547df9f6a3a"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_BOUNDARY_ROOT_JOINT_BLOCK_001/RECONCILE.py.txt": {
+      "bytes": 3160,
+      "sha256": "bab9eb03f82266cc5bfd8dfbe2c1808c31b7c90dbd8c9ddef5664a22e4792dda"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_BOUNDARY_ROOT_JOINT_BLOCK_001/RESULT.json": {
+      "bytes": 5425,
+      "sha256": "21cf8340318852aef261711946c542a19e43ee7c84e118650d74d9f65a1714d2"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_BOUNDARY_ROOT_JOINT_BLOCK_001/REVIEWS.md": {
+      "bytes": 3027,
+      "sha256": "f72fbc373077aa33b766d9f7cd459d29cd54d89737bd038b825695a3a97ff094"
+    },
+    "handoffs/CODEX-20261126-d206-boundary-root-joint-block.md": {
+      "bytes": 1853,
+      "sha256": "f4eb13121187933f5e05c67ae2845b1e303d53bdbe7541d03e1a8c758b26959d"
+    },
+    "research/ORDINARY_SPINE_BOUNDARY_ROOT_JOINT_BLOCK.md": {
+      "bytes": 13426,
+      "sha256": "63653fc0f18361865ae5152eeed799e36a4357ff42bd088fdea334cd2f41082f"
+    }
+  },
+  "authoritative_bindings": {
+    "STATE.md": {
+      "bytes": 139448,
+      "sha256": "15bfdc5ffd5499d9e2239c680978b7042a5a4c305345ba2102db8fe5034a8fdd"
+    },
+    "research/DECISIONS.md": {
+      "bytes": 207451,
+      "sha256": "cca72b1ff77a75a53276651ae7bfba773ec4658552ceb61f7a1444ce750c9974"
+    },
+    "research/FAILED_HYPOTHESES.md": {
+      "bytes": 103807,
+      "sha256": "272f92be88660b41c87b4b279b46cb7d6578fcd05bcc5116ffb055d73192ed79"
+    },
+    "research/FINDINGS.md": {
+      "bytes": 244294,
+      "sha256": "e0660fee03a16a159fe15ceba55865d2f9d4fa8d14667850fb1527bfc1ca22ad"
+    },
+    "research/PROOF_OBLIGATIONS.md": {
+      "bytes": 141184,
+      "sha256": "3f840f182f5d1948e32fb58c2964d735b34b1d0d6835172896073d48cf282927"
+    }
+  },
+  "certificate_sha256": "82c3fbef5f3f0107ae3b5f79244c618fe3b6846d25ff71158b8e8d741aca905f",
+  "checker_calls": 10,
+  "checker_journal_sha256": "c61c671cb4905e5ee30bad4c5789acb3636d7e1f22596f9c955a8bc293dceac5",
+  "d205_acceptance_record": {
+    "bytes": 1020,
+    "sha256": "2f4e569ec3154135d079ff12c1098aaf1dfeeb978195be23da628232b618d2aa"
+  },
+  "d205_admission_checkpoint": "a0ac1ddbf95f090c48ac3f5b6097cc63d97e246c",
+  "d205_qualification_checkpoint": "7030a277fa299082a8c9fd8b890d4141d243c239",
+  "d205_scientific_checkpoint": "ef63707b21bbe86b71524839238533d94d8831d0",
+  "disposition": "SYMBOLIC_CONSTRUCTION_PROVED_FIXED_CERTIFICATES_VERIFIED",
+  "freeze_sha256": "584a1ff71312e47be305c17b4ef44d9f9f71c9ceebed9ab5a9b9e021368fc467",
+  "historical_replays": 0,
+  "next_action": "Director review of D206 boundary-root joint-block construction, repeatability theorem and fixed verification evidence.",
+  "original_digests": {
+    "block16": "366a2487fafc85bd6831742da950d55034c1ac89b29aa6e8305f5b172965415b",
+    "main48": "1e9d8d99227973991cb6fb850cfbcd44cfac2c3470396886c59a9264bd3de3cb",
+    "prefix32": "fd4289cb555097994341bf023415e231841e01e95c1098c7890643252241f061",
+    "repeat64": "2ba2ba0a2708be60ad52810cf0f71b7d65a458781c1dd89e21a2d8dcae18237d"
+  },
+  "protected_blobs": {
+    "lcl/__init__.py": "5a37d7ad22fd13703abb54b68367e2fcbd6a2082",
+    "lcl/model.py": "8d1e9948e8bf5ef01e67c9afe0155412c57d79fa",
+    "lcl/verify.py": "d008f35f0843e1a5c770db3e7f42ed7d987360d7"
+  },
+  "runtime": {
+    "base_executable": "C:\\Users\\Will\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+    "bits": 64,
+    "executable": "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv\\Scripts\\python.exe",
+    "files": {
+      "C:\\Users\\Will\\AppData\\Local\\Programs\\Python\\Python313\\python.exe": {
+        "bytes": 105696,
+        "sha256": "7c2fc2b303a4ee3cc14cc17b47bc6e8bca98c78792edd123b846a560da44b203"
+      },
+      "C:\\Users\\Will\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll": {
+        "bytes": 6142688,
+        "sha256": "26026530507a7389e7892ce130e7c1753b32a2df03ec3721d45ad8c1705d40eb"
+      },
+      "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv\\Scripts\\python.exe": {
+        "bytes": 255200,
+        "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664"
+      }
+    },
+    "isolation": [
+      "-I",
+      "-S",
+      "-B"
+    ],
+    "stdlib_only": true,
+    "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "search_nodes": 0,
+  "solver_calls": 0,
+  "task": "LCL-ORDINARY-SPINE-BOUNDARY-ROOT-JOINT-BLOCK-001",
+  "verified_source_bindings": {
+    "AGENTS.md": {
+      "bytes": 8301,
+      "sha256": "ddb4b70c24cb5e1725d0c2e4ea8c2d522b4556b62b8bd69fdffd4205ece485db"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_BOUNDARY_ROOT_JOINT_BLOCK_001/CONFIG.json": {
+      "bytes": 1367,
+      "sha256": "a96a3f0f8805349144b82ba49cba62a400800c2cf6912bd4a4c686ab70b0c08a"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_BOUNDARY_ROOT_JOINT_BLOCK_001/CUSTODY.json": {
+      "bytes": 1044,
+      "sha256": "0fe7981a5216b7affa084093424665d223a6f7a36d69e2909175453092739395"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_BOUNDARY_ROOT_JOINT_BLOCK_001/FIXED.py.txt": {
+      "bytes": 7259,
+      "sha256": "b96744738ffa89d607e578fe32f74a6f4b5d138cdf399da1dc23ab0ddbe12025"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_BOUNDARY_ROOT_JOINT_BLOCK_001/FREEZE_ORIGINALS.py.txt": {
+      "bytes": 3525,
+      "sha256": "4fb51641dae845715abea77302bc1d7f57b16c60c8a6d527ffa30a9688a57ac7"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_BOUNDARY_ROOT_JOINT_BLOCK_001/INDEPENDENT.py.txt": {
+      "bytes": 6047,
+      "sha256": "4117053527805b1e5ca46701573ffed3ceb3f5beb5d41108f3136dfe47e36b4d"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_BOUNDARY_ROOT_JOINT_BLOCK_001/ORIGINALS.json": {
+      "bytes": 36808,
+      "sha256": "c8daa3e47aeb498e98f42eb8f6414124a9e23ba22b395443c7cade9a0cb6a4fb"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_BOUNDARY_ROOT_JOINT_BLOCK_001/PREFLIGHT.py.txt": {
+      "bytes": 4809,
+      "sha256": "4d3245ffdc456c60a37c6588f216ef510d4c6da714c0427d2de79d367a6c6be7"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_BOUNDARY_ROOT_JOINT_BLOCK_001/PROTECTED_CHECK.py.txt": {
+      "bytes": 4605,
+      "sha256": "e956df003681176bad97aaf275f54ff132a68c6a9722cfae82332547df9f6a3a"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_INDEPENDENT_PATH_ORDER_MENU_001_PREP/MANIFEST.json": {
+      "bytes": 12191,
+      "sha256": "6ccae7e8049de4137258ddfbbb54b412307251cb57741f4fd2431647c91962e8"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_INDEPENDENT_PATH_ORDER_MENU_001_PREP/ORIGINALS.json": {
+      "bytes": 103581,
+      "sha256": "538590be0628cbc452fbbf0c991f4c1f8ce42e48024175069b20942189e28569"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_INDEPENDENT_PATH_ORDER_MENU_001_PREP/PREFIXES.json": {
+      "bytes": 139758,
+      "sha256": "08b31a4229b7fb209d9c1c75a418ff12c4ff248109ef2fb15c26d1756c3cc41c"
+    },
+    "lcl/__init__.py": {
+      "bytes": 80,
+      "sha256": "134055506d3e9cd4fa538177844d28a44d5ab567ec220cf54048e63d1a8a7374"
+    },
+    "lcl/model.py": {
+      "bytes": 10720,
+      "sha256": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6"
+    },
+    "lcl/verify.py": {
+      "bytes": 14075,
+      "sha256": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909"
+    },
+    "references/upstream/mdl/N226_R226_two_host_completion.md": {
+      "bytes": 39732,
+      "sha256": "989e85fd24be0ed3c04b0dd80df7a93f648279d6599ec82eede4f4241dc5cddc"
+    },
+    "references/upstream/mdl/N232_R232_joint_allocation.md": {
+      "bytes": 29112,
+      "sha256": "45452191b708528c0ba3fab4802767f9e9cbf20dab0c126929a91a770dbd505d"
+    },
+    "references/upstream/mdl/N241_relational_ports.md": {
+      "bytes": 25890,
+      "sha256": "53ac2c8bf13457ae5630dd0c1c6e19b785d3b568b67d932e86d331901ee82e9e"
+    },
+    "references/upstream/mdl/N246_reconstruction_and_count_correction.md": {
+      "bytes": 61343,
+      "sha256": "f7a8aa11c80ac3c83d5a63925d4cdc80743473940d0ed1dea4b88e06ec30b047"
+    },
+    "research/ORDINARY_SPINE_BOUNDARY_ROOT_JOINT_BLOCK.md": {
+      "bytes": 13426,
+      "sha256": "63653fc0f18361865ae5152eeed799e36a4357ff42bd088fdea334cd2f41082f"
+    },
+    "research/ORDINARY_SPINE_EXCEPTIONAL_TWO_UPPER_HOST_RESIDUE_COMPRESSION.md": {
+      "bytes": 30575,
+      "sha256": "b18eb180e189907c17912206b28a0e394219b6e1458890e7958629e130f5acb9"
+    },
+    "research/ORDINARY_SPINE_GENERALIZED_ONE_SECTION_CUT_SPECTRUM.md": {
+      "bytes": 26093,
+      "sha256": "72b0d87b148dba0215ee15bede17adf9b36aa333e01a4394b01ed19076181818"
+    },
+    "research/ORDINARY_SPINE_INDEPENDENT_PATH_ORDER_MENU_PREPARATION.md": {
+      "bytes": 19958,
+      "sha256": "930867ea508d5419a58289fd2f7717ca39abf087303a86ac1be89578f79d2eee"
+    },
+    "research/ORDINARY_SPINE_NESTED_CUT_RANK_INTERLEAVING.md": {
+      "bytes": 23020,
+      "sha256": "16574a6329d72bec9f8dcd3894d0a422e615ba1607b139b27f15b63435c0c08b"
+    }
+  }
+}

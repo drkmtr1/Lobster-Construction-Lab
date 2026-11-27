@@ -1,0 +1,51 @@
+from pathlib import Path
+from collections import Counter
+from hashlib import sha256
+import json,sys,time
+started=time.process_time_ns()
+wall=time.perf_counter_ns()
+def ident(raw): return {"bytes":len(raw),"sha256":sha256(raw).hexdigest()}
+p=Path(sys.argv[1])
+def read(name): return json.loads((p/name).read_bytes())
+cert=read("CERTIFICATES.json")
+pre=read("PREFLIGHT.json")
+result=read("CHECKER_RESULT.json")
+frozen=read("FREEZE.json")
+jraw=(p/"CHECKER_CALLS.jsonl").read_bytes()
+assert result["journal"]==ident(jraw) and result["checker_calls"]==10 and result["valid"]
+assert result["freeze_sha256"]==ident((p/"FREEZE.json").read_bytes())["sha256"]
+assert result["certificates_sha256"]==ident((p/"CERTIFICATES.json").read_bytes())["sha256"]
+lines=[json.loads(l) for l in jraw.splitlines()]
+assert len(lines)==21 and lines[0]["event"]=="admission"
+expected=[]
+total=Counter()
+render=[]
+for case in cert["cases"]:
+    name=case["case"]
+    m,c,d=case["normalized_state"]
+    r={"case":name, "normalized":[m,c,d], "physical":[]}
+    for v in case["orientations"]:
+        audit=v["incidence_audit"]
+        total["polarity_records"]+=1
+        total["endpoints"]+=len(audit["edge_rows"])
+        total["birth_labels"]+=len(v["birth_map"])
+        total["boundary_resource_pairs"]+=len(audit["boundaries"])
+        total["pending_connectors"]+=sum(b["pending_connector"] is not None for b in audit["boundaries"])
+        total["old_edge_transport"]+=len(v["old_edge_transport"])
+        total["block_edge_transport"]+=len(v["block_edge_transport"])
+        first_block_section=0 if m==16 else 5
+        connectors=[b["pending_connector"]["labels"] for b in audit["boundaries"][first_block_section:] if b["pending_connector"]]
+        r["physical"].append({"orientation":v["physical_orientation"],"cut":audit["cut"],"frontier_value":audit["frontier_value"],"new_spine_connectors":connectors})
+        expected.append((name,v["physical_orientation"],len(audit["edge_rows"])))
+    render.append(r)
+for i,(name,polarity,edges) in enumerate(expected,1):
+    start,end=lines[2*i-1:2*i+1]
+    assert start=={"event":"start","call":i,"case":name,"physical_orientation":polarity}
+    assert {k:v for k,v in end.items() if k not in {"event","result"}} == {k:v for k,v in start.items() if k!="event"}
+    assert end["event"]=="finish" and end["result"]["valid"] and len(end["result"]["edge_differences"])==edges
+assert total == {"polarity_records":10,"endpoints":448,"birth_labels":458,"boundary_resource_pairs":74,"pending_connectors":64,"old_edge_transport":256,"block_edge_transport":192}
+assert not list(p.rglob("*.pyc")) and not (p/"VACANT_CACHE").exists()
+assert pre["preexisting_lcl_bytecode"]=={str(x).replace("\\","/"):ident(x.read_bytes()) for x in Path("lcl").rglob("*.pyc")}
+assert all(ident(Path(x).read_bytes().replace(b"\r\n",b"\n"))==identity for x,identity in frozen["source_bindings"].items())
+print(json.dumps({"counts":total,"cases":render,"runtime_binary_bindings":len(frozen["runtime"]["files"]),
+"bytecode_unchanged":True,"journal_sha256":result["journal"]["sha256"],"cpu_ns":time.process_time_ns()-started,"elapsed_ns":time.perf_counter_ns()-wall}))

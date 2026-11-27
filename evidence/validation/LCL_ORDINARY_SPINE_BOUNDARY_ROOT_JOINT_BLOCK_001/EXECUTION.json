@@ -1,0 +1,68 @@
+{
+  "time_coverage": "Explicit windows of the independent original freeze, parse-only preflight, fixed arithmetic and checker. Includes measured read-only reconciliation slice. Other short inspection helpers, agent/reviewer activity and full process-tree or turn timing were not measured as aggregate Python CPU. The acceptance-to-closeout elapsed observation is a milestone-to-milestone interval.",
+  "original_preparation": {
+    "digests": {
+      "prefix32": "fd4289cb555097994341bf023415e231841e01e95c1098c7890643252241f061",
+      "block16": "366a2487fafc85bd6831742da950d55034c1ac89b29aa6e8305f5b172965415b",
+      "main48": "1e9d8d99227973991cb6fb850cfbcd44cfac2c3470396886c59a9264bd3de3cb",
+      "repeat64": "2ba2ba0a2708be60ad52810cf0f71b7d65a458781c1dd89e21a2d8dcae18237d"
+    },
+    "cpu_ns": 0,
+    "elapsed_ns": 2302000,
+    "python": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]",
+    "isolated": 1,
+    "no_site": 1,
+    "no_bytecode": 1,
+    "outer_elapsed_ms": 95
+  },
+  "preflight": {
+    "freeze_sha256": "584a1ff71312e47be305c17b4ef44d9f9f71c9ceebed9ab5a9b9e021368fc467",
+    "source_bindings": 24,
+    "outputs_vacant": true,
+    "task_imports": 0,
+    "checker_imports": 0,
+    "original_checker_calls": 0,
+    "task_bytecode": 0,
+    "process_cpu_ns": 62500000,
+    "observed_elapsed_ns": 96531100,
+    "outer_elapsed_ms": 201
+  },
+  "independent_certificate_verification": {
+    "fixed_cases": 5,
+    "polarity_records": 10,
+    "search_nodes": 0,
+    "solver_calls": 0,
+    "checker_calls": 0,
+    "cpu_ns": 15625000,
+    "elapsed_ns": 25673000,
+    "outer_elapsed_ms": 113
+  },
+  "protected_verification": {
+    "task": "LCL-ORDINARY-SPINE-BOUNDARY-ROOT-JOINT-BLOCK-001",
+    "checker_calls": 10,
+    "valid": true,
+    "builder_graphs": 4,
+    "cpu_ns": 31250000,
+    "elapsed_ns": 67117200,
+    "search_nodes": 0,
+    "solver_calls": 0,
+    "numerical_campaigns": 0,
+    "freeze_sha256": "584a1ff71312e47be305c17b4ef44d9f9f71c9ceebed9ab5a9b9e021368fc467",
+    "certificates_sha256": "82c3fbef5f3f0107ae3b5f79244c618fe3b6846d25ff71158b8e8d741aca905f",
+    "journal": {
+      "bytes": 5906,
+      "sha256": "c61c671cb4905e5ee30bad4c5789acb3636d7e1f22596f9c955a8bc293dceac5"
+    },
+    "outer_elapsed_ms": 206,
+    "process_exit_code": 0
+  },
+  "final_read_only_reconciliation": {
+    "cpu_ns": 0,
+    "elapsed_ns": 20894600
+  },
+  "wall_milestone": {
+    "accepted_commit_utc_unix": 1795753509,
+    "closeout_observation_utc_unix": 1795754082,
+    "since_acceptance_commit_seconds": 573
+  }
+}

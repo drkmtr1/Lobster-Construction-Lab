@@ -1,0 +1,70 @@
+"""Freeze exact graph identities independently, with no labeling imports."""
+from hashlib import sha256
+from pathlib import Path
+import json
+import sys
+import time
+
+START_CPU = time.process_time_ns()
+START_WALL = time.perf_counter_ns()
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parents[2]
+RETAINED = ROOT / "evidence/validation/LCL_ORDINARY_SPINE_INDEPENDENT_PATH_ORDER_MENU_001_PREP"
+OLD = [[0, 0], [], [], [], [0, 0, 0, 0, 0], [2, 12, 1, 1]]
+PAIR = [[1, 1, 1, 1], [1, 1, 1]]
+OLD_DIGEST = "fd4289cb555097994341bf023415e231841e01e95c1098c7890643252241f061"
+TARGET_DIGEST = "1e9d8d99227973991cb6fb850cfbcd44cfac2c3470396886c59a9264bd3de3cb"
+
+
+def original(profile):
+    spine = [f"s:{i}" for i in range(len(profile))]
+    edges = [[a, b] for a, b in zip(spine, spine[1:])]
+    roles = {}
+    for i, quotas in enumerate(profile):
+        root = spine[i]
+        roles[root] = {"kind": "spine", "section": i}
+        for j, quota in enumerate(quotas):
+            b = f"b:{i}:{j}"
+            roles[b] = {"kind": "branch", "section": i, "branch": j}
+            edges.append([root, b])
+            for k in range(quota):
+                t = f"l:{i}:{j}:{k}"
+                roles[t] = {"kind": "leaf", "section": i, "branch": j, "leaf": k}
+                edges.append([b, t])
+    graph = {"schema_version": 1, "profile": profile, "vertices": list(roles),
+             "edges": edges, "roles": roles, "spine": spine}
+    data = {"edges": sorted(sorted(pair) for pair in edges), "vertices": sorted(roles),
+            "profile": profile, "roles": roles, "spine": spine}
+    digest = sha256(json.dumps(data, sort_keys=True, separators=(",", ":")).encode()).hexdigest()
+    return {"graph": graph, "digest": digest, "edges": len(edges)}
+
+
+def main():
+    retained = json.loads((RETAINED / "ORIGINALS.json").read_bytes())["records"]
+    prefixes = retained["main_48_if_admitted"]["prefixes"]
+    keep = next(item for item in prefixes if item["digest"] == OLD_DIGEST)
+    targets = {"prefix32": original(OLD), "block16": original([[]] + PAIR),
+               "main48": original(OLD + PAIR), "repeat64": original(OLD + PAIR * 2)}
+    assert [r["edges"] for r in targets.values()] == [32, 16, 48, 64]
+    assert targets["prefix32"] == keep and keep["digest"] == OLD_DIGEST
+    target = retained["main_48_if_admitted"]["original"]
+    assert targets["main48"] == target and target["digest"] == TARGET_DIGEST
+    pre, post = (targets[key]["graph"] for key in ("main48", "repeat64"))
+    assert [v for v in post["vertices"] if v in pre["roles"]] == pre["vertices"]
+    assert [e for e in post["edges"] if all(v in pre["roles"] for v in e)] == pre["edges"]
+    assert all(post["roles"][v] == pre["roles"][v] for v in pre["vertices"])
+    assert post["spine"][:len(pre["spine"])] == pre["spine"]
+    payload = {"records": targets, "prior_origins": "D205 retained ORIGINALS.json",
+               "checker_imported": False, "certificate_labels_read": False}
+    out = HERE / "ORIGINALS.json"
+    with out.open("xb") as f:
+        f.write((json.dumps(payload, sort_keys=True, indent=2)+"\n").encode())
+    print(json.dumps({"digests": {k: v["digest"] for k,v in targets.items()},
+                      "cpu_ns": time.process_time_ns()-START_CPU,
+                      "elapsed_ns": time.perf_counter_ns()-START_WALL,
+                      "python": sys.version, "isolated": sys.flags.isolated,
+                      "no_site": sys.flags.no_site, "no_bytecode": sys.flags.dont_write_bytecode}))
+
+
+if __name__ == "__main__":
+    main()
