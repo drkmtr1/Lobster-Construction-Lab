@@ -1,0 +1,27 @@
+{
+  "task": "LCL-D212-MULTI-CENTER-QUOTA-GROWTH-PREP",
+  "execution_authorized": false,
+  "case_order": ["B2", "B3", "B4"],
+  "workers": 1,
+  "solver_calls": 0,
+  "vertices_max": 18,
+  "live_frames_max": 28,
+  "evidence_bytes_max": 2000000,
+  "record_count_max": 16,
+  "record_bytes_max": 65536,
+  "total": {"label_nodes": 14000000, "join_nodes": 1700000, "cpu_seconds": 450, "wall_seconds": 660},
+  "cases": {
+    "B2": {
+      "profile": [[1], [1, 1], [1], [1]],
+      "label_nodes": 2000000, "join_nodes": 200000, "cpu_seconds": 60, "wall_seconds": 90
+    },
+    "B3": {
+      "profile": [[1], [1, 1, 1], [1], [1]],
+      "label_nodes": 4000000, "join_nodes": 500000, "cpu_seconds": 120, "wall_seconds": 180
+    },
+    "B4": {
+      "profile": [[1], [1, 1, 1, 1], [1], [1]],
+      "label_nodes": 8000000, "join_nodes": 1000000, "cpu_seconds": 240, "wall_seconds": 360
+    }
+  }
+}

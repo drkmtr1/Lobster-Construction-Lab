@@ -915,3 +915,7 @@ Under the fixed D210 base placement with even a, a transfer from label-3 host to
 ## D211 scope of independently balanced transfers and retained negatives
 
 A split σ-pair uses an exchange of two weights across four actual hosts. In the {7,m−6} pair the individual donor-to-recipient moves change weights 5 and 2 to 2 and 5, respectively. Neither move preserves a fixed local inventory by itself. Joint invariance gives the exact simultaneous conservation here. The D209 two-step and translated-core restrictions and D210 odd–odd obstruction retain their operation-specific scopes. No ordinary impossibility is inferred for the other parity regimes. [Proof and independent review](ORDINARY_SPINE_COORDINATED_FOUR_HOST_SUPPLIER.md)
+
+## D212 separately feasible matched gaps can conflict
+
+On the named path with labels (0,4,1,3,2), hosts at labels 0 and 2 individually match cuts 2 and 3. Jointly the earlier threshold cut 3 is outside the span for the other host. Unit widths at both gaps give a repeated weight 2 and omit weight 3. This excludes only that joint growth placement. Exterior insertion alone is also insufficient as a complete test, since it holds independently for all safe cut lists and does not impose the host-span equalities. [Proof and hand controls](SIMULTANEOUS_SAFE_GAP_QUOTA_GROWTH.md)

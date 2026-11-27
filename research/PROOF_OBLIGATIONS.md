@@ -1198,3 +1198,7 @@ Within the D117 unit-flank slice, D209 and D210 together cover the divisibility 
 ## D211 all-even flank coverage complete within the exact original
 
 The all-even subdomain q≥6, a≥4, b≥2 now covers every positive flank pair on the named four-section original. Throughout D117 all unequal pairs are already supplied. Outside the all-even subdomain the unresolved equal-flank inputs are the complement of the D209 domains and D210 unit domain, with any still-uncovered s necessarily below the central edge count n. General supply for other section words, joint palette supply beyond the proved layout and ordinary closure remain open. D207's exact monotone-return question stays unresolved and deferred. [Proof and independent review](ORDINARY_SPINE_COORDINATED_FOUR_HOST_SUPPLIER.md)
+
+## D212 independent multi-center base supply
+
+B2, B3 and B4 remain unresolved for simultaneous compatible matched-gap growth at every actual center. A held bounded diagnostic seeks exact ordinary base certificates and joint cut assignments on these three originals only. A certified positive settles all independent terminal quotas at that original's fixed multiplicity. Arbitrary center multiplicity requires a parameterized compatible base supplier or another coverage theorem. An architecture-specific negative leaves ordinary gracefulness and direct whole-original palette supply separate. D207 remains unresolved and deferred. [Proof and hand controls](SIMULTANEOUS_SAFE_GAP_QUOTA_GROWTH.md)
