@@ -1252,3 +1252,7 @@ The proved union is at most one enlarged quota anywhere at all registered multip
 ## D223 remaining cross-interior all-odd domain
 
 The unresolved complement in D223 is ℓ=2, h≥9 with j=2h−5 and both selected quotas odd and at least three, including physical reversal. If one selected quota is one, D222 supplies the other anywhere. The D223 repeatable construction needs three left pairs. The exact h=8 two-left-pair interface is positively resolved without dormant preparation and no larger diagnostic was substituted. The D222 27-edge proposed interface also has an exact positive, without changing the historic D222 artifact. Preserve D212 B2/B3/B4 INCOMPLETE, D212 held closure, D213 held insertion and deferred D207. [Exact scope](AFFINE_CYCLE_CROSS_INTERIOR_ODD_SUPPLY.md#7-scope-and-disposition)
+
+## D224 remaining two-left-pair cross-interior obligation discharged
+
+D224 resolves all h≥9, ℓ=2, j=2h−5 with unit flanks and arbitrary independently chosen positive odd enlargement at one named interior branch on each side, with physical reversal. Alongside accepted D222 and D223 this completes the stated cross-interior two-quota registration. The separate proposed-mark h=11 and h=12 interfaces were constrained by the moment rule and not independently classified. They are unnecessary for the full registered theorem. No claim is made for additional enlarged branches or mixed parity. Preserve D212 B2/B3/B4 INCOMPLETE, held closure and insertion, and deferred D207. [Scope](TWO_LEFT_PAIR_PARITY_ADAPTED_SUPPLIER.md#4-disposition)

@@ -967,3 +967,7 @@ For all-odd quotas, E=0 and C=hm+h+1 is odd in the D218–D221 numerical slot ba
 ## D223 restrictions of dedicated affine interval insertion
 
 Compatible gap cuts satisfy W−I=H_+−2H_<I, forcing the stated parity for the two numeric receiving offsets. On the D222 fixed h=5 unit certificate it excludes a cross-interior shared gap because both left interior offsets are odd. The h=8 cut (8,4) fails on the supplied low row (8,2), while (9,3) succeeds with different roles. For distinct dedicated intervals, independent widths with fixed affine offsets force equal predecessor order at an identity gap and opposite order at a reflected gap. These two types cannot coexist at distinct such gaps, though they can share a gap. Neither restriction concerns other geometries or ordinary gracefulness. [Proof](AFFINE_CYCLE_CROSS_INTERIOR_ODD_SUPPLY.md#2-shared-insertion-and-its-exact-limitations)
+
+## D224 first-moment limit on the proposed all-high-prefix return
+
+In the Director's specified parity-adapted marks and cuts, distinct low-prefix host deficits h+1−k must sum to 2W−2. Their least available sum is W(W−1)/2−2 for W≥3. This excludes W≥6, starting at odd h=13 and even h=14, so a same-interface h→h+2 recurrence cannot extend unboundedly. The h=9 and h=10 marks are positively supplied. The alternative exact-original construction closes the whole registered domain using a different cut and one high suffix row. [Proof](TWO_LEFT_PAIR_PARITY_ADAPTED_SUPPLIER.md#2-directors-parity-adapted-marking-and-its-exact-barrier)
