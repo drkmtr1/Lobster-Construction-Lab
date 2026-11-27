@@ -895,3 +895,7 @@ The hypothesis that B or C admits a strictly increasing embedding to the named f
 ## D206 scope of the earlier one-section obstruction
 
 D204 and D205 retain their exact negative for the described three-member fixed-shell path-order menu under the registered 41-edge increasing-return relation. D206 supplies a joint two-section certificate on the exact 48-edge original for all three old labelings. This refutes a stronger inference that those earlier negatives prevent the joint extension. The attached local alpha block and the complete ordinary graceful original have different roles. D104's exact alpha-only obstruction is unaffected. [D206 proof](../research/ORDINARY_SPINE_BOUNDARY_ROOT_JOINT_BLOCK.md)
+
+## D207 pendant-entry alpha and pure-translation limitation
+
+The exact receiving word (4,3),(2) cannot be supplied as a pendant-entry boundary-root alpha block. Its weight-one edge would contract to an alpha labeling of the D104 original. For n≥14 a pure translation of the supplied minimum-oriented prefix consumes every old difference 1..n. Any same-side fresh block edge would repeat an old difference, so a successful translation would force the same impossible alpha block. This excludes the specified attachment under a pure old translation only. D105's isolated ordinary result and D206's separate alpha block are preserved. [Exact argument](D207_INDEPENDENT_SUPPLIER_ARCHITECTURE.md#exact-d206-interface-discriminator)

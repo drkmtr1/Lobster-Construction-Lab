@@ -1178,3 +1178,7 @@ The symbolic exclusions and the completed 12-stream primary and independent audi
 ## D206 supplied boundary-root blocks
 
 The exact attached-block theorem and finite repetition of the supplied 16-edge pair settle the declared joint extension and its interface. Supply or characterize independently labeled boundary-root blocks for other original quota profiles if separately authorized. No general decomposition, unrestricted gracefulness or nongracefulness duty is discharged. The D204/D205 exact excluded one-section return remains separate. [D206 proof](../research/ORDINARY_SPINE_BOUNDARY_ROOT_JOINT_BLOCK.md)
+
+## D207 compatible ordinary supply and universal coverage
+
+Required for universal coverage are independent initial and local state supply, exact joined resources at actual ports, universal coverage by an admitted decomposition or reconstruction, and closure with a decreasing measure and terminal exhaustion. These duties constrain one another. The recommended future test fixes the minimum-oriented D206 singleton-based repetition G_r for every r≥1 and appends the exact (4,3),(2) receiver. Decide whether each G_r extends under any strictly increasing embedding of its fixed old labels to an extreme return with some proper P state. Admit both output orientations and all gap supports and old-weight ranks. A proof for all r or one rigorously incompatible r would resolve this precise quantified test. It remains unopened pending separate authorization. [Specification](D207_INDEPENDENT_SUPPLIER_ARCHITECTURE.md#one-recommended-subsequent-obligation)

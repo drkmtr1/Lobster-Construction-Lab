@@ -739,3 +739,7 @@ Record SYMBOLIC_CONSTRUCTION_PROVED_FIXED_CERTIFICATES_VERIFIED, pending Directo
 ## D206 Director acceptance and D207 strategic admission
 
 ACCEPT D206 at f32203c12d28afe3a78e0d1c462d6fc00eebc75c within the exact proved shared-boundary, independent-supply and finite-list premises. The Director reviewed the symbolic proof and ten saved certificates. D204 and D205 retain their exact restricted negatives. Authorize only D207 Independent Supplier Architecture and Coverage Audit, a pinned-source symbolic planning audit with separate mathematical review. [D206 acceptance](../evidence/validation/LCL_ORDINARY_SPINE_BOUNDARY_ROOT_JOINT_BLOCK_001/DIRECTOR_ACCEPTANCE.json)
+
+## D207 strategic closeout
+
+Record SOURCE_AUDIT_COMPLETE_REVIEWED. Retain the exact named-resource representation while pursuing complementary ordinary suppliers or proved reconstruction when alpha premise, port compatibility or decomposition fails. The research plan indexes the reviewed dependency map. Retain project instructions v11 and current settings. The sole proposed next action is the exact ordinary monotone return test, awaiting separate authorization. No checker, solver, search, replay, upstream change or successor occurred. [D207 assessment](D207_INDEPENDENT_SUPPLIER_ARCHITECTURE.md) · [Supplier inventory](D207_SUPPLIER_INVENTORY.md)
