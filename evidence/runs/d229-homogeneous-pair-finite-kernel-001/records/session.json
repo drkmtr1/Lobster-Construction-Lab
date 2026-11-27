@@ -1,0 +1,93 @@
+{
+  "approval": {
+    "acceptance_checkpoint": "9a928973cc1c6085b7275e34f8a0a1a9317fb911",
+    "base_interpreter_sha256": "7c2fc2b303a4ee3cc14cc17b47bc6e8bca98c78792edd123b846a560da44b203",
+    "checker_sha256": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909",
+    "checkout": "Clean main, one worktree, exact acceptance parent and live main",
+    "competing_workspace_process_count": 0,
+    "decision": "AUTHORIZE_D229_EXECUTION",
+    "destinations": "Registered run and archive vacant",
+    "director_review": "Research Director accepts the conditional finite-kernel theorem, the exact controls, and the frozen numerical registration, search, audits and coverage procedure within the static preparation scope. The Director approves the frozen diagnostic for one bounded scientific execution under the existing registration and ceilings, subject to fresh admission. Actual acceptance recorded in research/DECISIONS.md at 9a928973cc1c6085b7275e34f8a0a1a9317fb911.",
+    "execution_checkout": "9a928973cc1c6085b7275e34f8a0a1a9317fb911",
+    "execution_path": "CPU-only frozen standard-library driver",
+    "interpreter": {
+      "base": "C:\\Users\\Will\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "executable": "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv\\Scripts\\python.exe",
+      "implementation": "cpython",
+      "machine": "AMD64",
+      "version": [
+        3,
+        13,
+        17
+      ]
+    },
+    "launcher_sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+    "observed_utc": "2026-11-27T23:25:54.2195058+00:00",
+    "owner_authorization": "I authorize exactly one bounded scientific execution of the frozen D229 homogeneous-pair finite-kernel diagnostic in: C:\\Users\\Will\\Projects\\Lobster_Construction_Lab. This message constitutes separate Owner execution authorization for that exact run. No successor task is authorized.",
+    "refs": {
+      "baseline_peel": "36ea1603602491bf3c1c5b81ed4c23aaa2210e70",
+      "baseline_tag": "fddfc1dd9541324b2ed2de2505bc750b3e3f0b9d",
+      "bounded_search_head": "e48b94eec4091b4fe189e325cab2eda464409943",
+      "lcl_main": "9a928973cc1c6085b7275e34f8a0a1a9317fb911",
+      "mdl_head": "858a8c1fcfda87ba40bb1adee498a6131504a803"
+    },
+    "registration_sha256": "8bfdb3fda13b146f1e3b7578e402653413152d0ac3ce3a280ec605fafb6ed92f",
+    "run_id": "d229-homogeneous-pair-finite-kernel-001",
+    "source_binding_count": 32,
+    "source_manifest_sha256": "6c0fd0e0a754042bdcf57a0765baecc5650ae2fd41857fc3b27fcee607f77898",
+    "supervision": "Single foreground launch, observer retains process handles, records standard streams, CPU and wall time, and waits to terminal status. Cooperative driver caps remain unchanged. No retry.",
+    "verified_checkpoint": "df27e9a99f589bbe0acd24dbe1df8a679010acf5"
+  },
+  "approval_sha256": "81333a7fd64696ea72eb72cc648789a1128f2ce726ccdc1d47db6a91b0df3401",
+  "executable": "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv\\Scripts\\python.exe",
+  "python": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]",
+  "registration": {
+    "archive": "evidence/runs/d229-homogeneous-pair-finite-kernel-001",
+    "core_sizes": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "coverage_batch": 64,
+    "kernel_sizes": [
+      10,
+      11,
+      12,
+      13
+    ],
+    "max_all_nodes": 400000000,
+    "max_cap_keys": 64,
+    "max_cap_primary_nodes": 250000,
+    "max_cap_rows": 26,
+    "max_core_keys": 416,
+    "max_core_placements": 3840,
+    "max_core_primary_nodes": 2000000,
+    "max_core_rows": 51,
+    "max_cpu_seconds": 3600,
+    "max_evidence_bytes": 67108864,
+    "max_physical_keys": 13632,
+    "max_record_bytes": 262144,
+    "max_records": 10000,
+    "max_wall_seconds": 4500,
+    "output": "runs/d229-homogeneous-pair-finite-kernel-001",
+    "python_minors": [
+      12,
+      13
+    ],
+    "run_id": "d229-homogeneous-pair-finite-kernel-001",
+    "schema": "lcl.d229.kernel.v1",
+    "states": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "worker_count": 1
+  },
+  "source_manifest_sha256": "6c0fd0e0a754042bdcf57a0765baecc5650ae2fd41857fc3b27fcee607f77898"
+}

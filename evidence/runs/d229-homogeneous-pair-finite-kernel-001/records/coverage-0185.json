@@ -1,0 +1,1218 @@
+[
+  {
+    "cap": "key-0018.json",
+    "core": "key-0472.json",
+    "hashes": {
+      "fold": "97eb43e98c16d04af9e57117383600c4112b786a532022d1c835ef3021008b91",
+      "original": "be6d108ff84e4b620a19775f6cea46acfb5c17dada5f7b7a48d147ea1b05245a"
+    },
+    "left_triple_pairs": 6,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 14,
+      "p": 1,
+      "right": 9,
+      "right_triple": 4,
+      "t": 1
+    }
+  },
+  {
+    "cap": "key-0018.json",
+    "core": "key-0474.json",
+    "hashes": {
+      "fold": "6556b83f626747bbc6636e7a372b82af657adc5aa533fe93732c34296dd8afc2",
+      "original": "a64df94937c514bc8e35f753ab0b9075325cd756a85287036a7e71137ea72d9d"
+    },
+    "left_triple_pairs": 6,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 14,
+      "p": 1,
+      "right": 9,
+      "right_triple": 5,
+      "t": 1
+    }
+  },
+  {
+    "cap": "key-0022.json",
+    "core": "key-0472.json",
+    "hashes": {
+      "fold": "d528e94bbd87bbeca148aa184b91277ab48bde566421a611049cb5a85ef57f30",
+      "original": "8b74cba442fe58d1b4d34ae22714d20d488c35bd908fe44510e94716cc7a31d1"
+    },
+    "left_triple_pairs": 6,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 14,
+      "p": 1,
+      "right": 9,
+      "right_triple": 6,
+      "t": 1
+    }
+  },
+  {
+    "cap": "key-0022.json",
+    "core": "key-0474.json",
+    "hashes": {
+      "fold": "5d9ba9d8d8c98afc75a4e0093f17466349fa6decb441ab7698cff11f63f6f56b",
+      "original": "d730578be5d99b1cc8e40ded02838b0bf96f02c016043e1a76ba616913db7c04"
+    },
+    "left_triple_pairs": 6,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 14,
+      "p": 1,
+      "right": 9,
+      "right_triple": 7,
+      "t": 1
+    }
+  },
+  {
+    "cap": "key-0030.json",
+    "core": "key-0472.json",
+    "hashes": {
+      "fold": "a6c8176638f1a509ff0392369becb5d71b2bb39cd401cbaa2248be14c1b9119c",
+      "original": "fdae98844b8a9d425d41eb4e36332834d739350fe88d5cfc62861baacdabb434"
+    },
+    "left_triple_pairs": 6,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 14,
+      "p": 1,
+      "right": 9,
+      "right_triple": 8,
+      "t": 1
+    }
+  },
+  {
+    "cap": "key-0030.json",
+    "core": "key-0474.json",
+    "hashes": {
+      "fold": "e8b4d3fa9caace24978422ba015e4de64d81ebfddd0031fc30f4e55ae6e3b678",
+      "original": "01f7c755e3ddccacb24696a37cd603b9d415f2354be658e3b3310e34074fb9c2"
+    },
+    "left_triple_pairs": 6,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 14,
+      "p": 1,
+      "right": 9,
+      "right_triple": 9,
+      "t": 1
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0356.json",
+    "hashes": {
+      "fold": "9143bea3c063dd89d638856509cf006a90cafc4dfc28d44318d29026b4ea6916",
+      "original": "88da1b8cb0fee8b4c743f1b1db1d365a1cde435c6a0de2c9056109ef2075b757"
+    },
+    "left_triple_pairs": 0,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 0,
+      "p": 1,
+      "right": 9,
+      "right_triple": 0,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0358.json",
+    "hashes": {
+      "fold": "2cea2d33d56fa189167ab8aa25d8672354729870a64013244992e22fcb07c8f2",
+      "original": "51db2d2744eff80c34556ed4b760fa81f871c863592fc976d1613db0dbcff08a"
+    },
+    "left_triple_pairs": 0,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 0,
+      "p": 1,
+      "right": 9,
+      "right_triple": 1,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0372.json",
+    "hashes": {
+      "fold": "d4776d63690eb4f3b3daecb6eb084a55e87a19f8457c60d8409194d22241f70f",
+      "original": "6fc9b810cf92061a6d590342fd053b53d994fc61802f069062c8ea9ddb3d0245"
+    },
+    "left_triple_pairs": 0,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 0,
+      "p": 1,
+      "right": 9,
+      "right_triple": 2,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0374.json",
+    "hashes": {
+      "fold": "66d9272f1a0c2c6d1dd32a09bced88ac3c8c9610b23dcf11ccd241275892b5d0",
+      "original": "98d045bbae0932de291b66ccc23154aa4d84bc50b3a7f6ccf421c4641e1ab2d2"
+    },
+    "left_triple_pairs": 0,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 0,
+      "p": 1,
+      "right": 9,
+      "right_triple": 3,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0388.json",
+    "hashes": {
+      "fold": "cec8ae3e492f58ef8e18c66137571fdc75e927a77c310ee3585d33df48bdf69c",
+      "original": "83b6e5871b5fb82e856e7794f478107fdf8bf111264017ee399daf1347682cc8"
+    },
+    "left_triple_pairs": 0,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 0,
+      "p": 1,
+      "right": 9,
+      "right_triple": 4,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0390.json",
+    "hashes": {
+      "fold": "59c382f65d35eca14411751def63168d76dc695df733b5d79ec4b5f92b1ea496",
+      "original": "45a02bf28c53edb6ef35b4c7ba5c741c0166d6219143dcfa081ce8925027d029"
+    },
+    "left_triple_pairs": 0,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 0,
+      "p": 1,
+      "right": 9,
+      "right_triple": 5,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0404.json",
+    "hashes": {
+      "fold": "0efe545048a1c0ea7db75731797eb97da9137b79ddeb344d6746057bc9175f09",
+      "original": "9a843ae9e8743fbcf9b933a7f2268b19099ff16007caec74c9e77b9828c2d647"
+    },
+    "left_triple_pairs": 0,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 0,
+      "p": 1,
+      "right": 9,
+      "right_triple": 6,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0406.json",
+    "hashes": {
+      "fold": "f42f2637a5a06b153f6ebe2c97f5a655c4890afc6043ac0776bc909bd003cee0",
+      "original": "2fa63c5a85d6b2d83c9e833728a83026805fddcb4cef055b556b62aef84b8655"
+    },
+    "left_triple_pairs": 0,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 0,
+      "p": 1,
+      "right": 9,
+      "right_triple": 7,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0420.json",
+    "hashes": {
+      "fold": "30ac7358edd20040be25272b9e7cc00fc7972f60708fe7afdbf94423ff162e22",
+      "original": "60805ec7aa42f6e7d0892e0eb736fc8dc93f63da6215f49314ce90be620adfef"
+    },
+    "left_triple_pairs": 0,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 0,
+      "p": 1,
+      "right": 9,
+      "right_triple": 8,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0422.json",
+    "hashes": {
+      "fold": "54f5347400d58de360127a57c5ff014ac7362c6fb2305ddc0a84851065844cc5",
+      "original": "5703bdeffbe7bd98ea6dbdd44b9d3089d51fc14a34c4cb2d8122b3ca898318b5"
+    },
+    "left_triple_pairs": 0,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 0,
+      "p": 1,
+      "right": 9,
+      "right_triple": 9,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0364.json",
+    "hashes": {
+      "fold": "f29e85467907e41dc249acc04704d0ef58842bf5b2e2ddf9d20789eb5b0fda65",
+      "original": "9a9d69e86ad7e9213acd216ca8f042ec064ca0efb7143da0c8611ec1acee69b9"
+    },
+    "left_triple_pairs": 0,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 1,
+      "p": 1,
+      "right": 9,
+      "right_triple": 0,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0366.json",
+    "hashes": {
+      "fold": "18b49e51c3a549116cdcfbec09fe06b6d9f44a57e02719890de95fc768bc3761",
+      "original": "9d0ca438069d1df735b8d8965c9e1e9839fecc2f760a2eef53c2d7cfff15016d"
+    },
+    "left_triple_pairs": 0,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 1,
+      "p": 1,
+      "right": 9,
+      "right_triple": 1,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0380.json",
+    "hashes": {
+      "fold": "3dbe3061e6695bb86e2919e26f7164755c643560862d1c8dc677e26597cc1ab8",
+      "original": "a5966440f34a6fc004b0646b680de16000d6082f6a6626bc7c559667d6d76217"
+    },
+    "left_triple_pairs": 0,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 1,
+      "p": 1,
+      "right": 9,
+      "right_triple": 2,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0382.json",
+    "hashes": {
+      "fold": "28a4784dc28d40e7f0e48e2820fa42db8c240292345608d9a6fe9154a9bd6a8e",
+      "original": "f5ab7c3bc0d6d3781561c6862c2f098be964d26e53adbcc519aca0a9c6fef4b1"
+    },
+    "left_triple_pairs": 0,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 1,
+      "p": 1,
+      "right": 9,
+      "right_triple": 3,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0396.json",
+    "hashes": {
+      "fold": "5fd687a2828f827b072433d49bbd593cf15a0720e0d4979d56b6e0cbb4dee8c6",
+      "original": "c822fce338b4bd4a0223d9a7d62bbeadfb399fe731bfac9bacb6d516fb3a263b"
+    },
+    "left_triple_pairs": 0,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 1,
+      "p": 1,
+      "right": 9,
+      "right_triple": 4,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0398.json",
+    "hashes": {
+      "fold": "7cc521f82b08d792ee0b2d1ef16c0efaedd881d9c3fd78f2deb60ff354c37f30",
+      "original": "5610f909b5c7cc64f95e814299be1a0aaf9a89697dd69676d341c4125a9a06bd"
+    },
+    "left_triple_pairs": 0,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 1,
+      "p": 1,
+      "right": 9,
+      "right_triple": 5,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0412.json",
+    "hashes": {
+      "fold": "aa570ac6dc5c9399d3b01642268fb05724ad92ec66bf92bd124c102d12b691b4",
+      "original": "ca7072a0f02799ecf707daa2ec920c00faf13ba200ec9d7dba467b652622a850"
+    },
+    "left_triple_pairs": 0,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 1,
+      "p": 1,
+      "right": 9,
+      "right_triple": 6,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0414.json",
+    "hashes": {
+      "fold": "a4c36cfd6fb3fe6d60ca0a5f2e5e30c2c1744fec0ca9c03d548ea21727d15dde",
+      "original": "febe7af8e4b410593d6845eb2fac95352a49e5b75e2a79a2ed338c4fd6611480"
+    },
+    "left_triple_pairs": 0,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 1,
+      "p": 1,
+      "right": 9,
+      "right_triple": 7,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0428.json",
+    "hashes": {
+      "fold": "807d6e271fc1f37b60bf525b49139eb482f84cbe1be3a37f0459de96788e73f2",
+      "original": "1ebecefc458c4a69f520bab71efd89bc84487f150b4dbd07d24720c2bb653fef"
+    },
+    "left_triple_pairs": 0,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 1,
+      "p": 1,
+      "right": 9,
+      "right_triple": 8,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0430.json",
+    "hashes": {
+      "fold": "59bffd5fa611118d2325e7b8b2d0908297a63296fe9d0afec5799d85356d7746",
+      "original": "5c2f8939bce324727ec69443ed7574690f18dc7efcab8754fe1c111ba8b8d4ce"
+    },
+    "left_triple_pairs": 0,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 1,
+      "p": 1,
+      "right": 9,
+      "right_triple": 9,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0372.json",
+    "hashes": {
+      "fold": "33464230aac98a8c5b14915fb0ae775a0caf109076e96dd9de8362e82f401b50",
+      "original": "6dac193dd1d36ab03eac2190eb95ad4b1771884f571f7bf7ee61e97bb60a3235"
+    },
+    "left_triple_pairs": 1,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 2,
+      "p": 1,
+      "right": 9,
+      "right_triple": 0,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0374.json",
+    "hashes": {
+      "fold": "ac26f70ff7a880259e217d65669722926ab86f1f04f393b3e29f02e5008b3f54",
+      "original": "3163918a5f0c30674ebe9e42311ae3a13c424df05f6d4ce3931b7f1c9f318591"
+    },
+    "left_triple_pairs": 1,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 2,
+      "p": 1,
+      "right": 9,
+      "right_triple": 1,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0388.json",
+    "hashes": {
+      "fold": "78f060d11eea7d1d8604623d796dfd998edd162c3a60a323e159556933997514",
+      "original": "62afb6c1900442523054fd293f6b907366d9467303962eaca2bdbe742ba000d1"
+    },
+    "left_triple_pairs": 1,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 2,
+      "p": 1,
+      "right": 9,
+      "right_triple": 2,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0390.json",
+    "hashes": {
+      "fold": "879b006aaa58b42fa8a8b3ae2a01a7d9ba2d8fd8482b5e7cc880ab21d75553d3",
+      "original": "1621357fa7e8cf7a0166c073cc92db632cc3d958b3dbdc97be84215aa88af3f0"
+    },
+    "left_triple_pairs": 1,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 2,
+      "p": 1,
+      "right": 9,
+      "right_triple": 3,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0404.json",
+    "hashes": {
+      "fold": "fe142d63b1e4fcc7a97f89a077709beda8b2bcadccb63adb41906311da35c866",
+      "original": "1627b84b5eddf607bd80475e371856ec1b3dad39884183d8ca27f484e78b3940"
+    },
+    "left_triple_pairs": 1,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 2,
+      "p": 1,
+      "right": 9,
+      "right_triple": 4,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0406.json",
+    "hashes": {
+      "fold": "cf38206fd961601654f880554dbed688cc4f1e4af4bcdf324337a2cad3ebb5db",
+      "original": "8f62d08ef3b7dca3b0db88a82cdbdb1b9d937e9e92f4335b9481ad7262d27e0f"
+    },
+    "left_triple_pairs": 1,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 2,
+      "p": 1,
+      "right": 9,
+      "right_triple": 5,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0420.json",
+    "hashes": {
+      "fold": "1bb83e8c6b2b66dd4764a8dfb10934c51a36bde64a8a5601d2437c7b0de7dc9d",
+      "original": "d8bb8c014f468bd968b48ebc7ae93c7a947bdba127bf792f41a9b032d4ae4b3f"
+    },
+    "left_triple_pairs": 1,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 2,
+      "p": 1,
+      "right": 9,
+      "right_triple": 6,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0422.json",
+    "hashes": {
+      "fold": "a6d4accbe2b3894797e950d536b5e38f41d4e2087df1e093de2ad2cb0ffdf642",
+      "original": "372cf8bfe498d52567bbd58536fbf4bf7b49e5b2f4892e1b597767411ebd9316"
+    },
+    "left_triple_pairs": 1,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 2,
+      "p": 1,
+      "right": 9,
+      "right_triple": 7,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0436.json",
+    "hashes": {
+      "fold": "8ac633f7a8685296c53f4591766381057709a1939dcce295bb43f22f51b38420",
+      "original": "f2fee1bfe8405d938dc69b4c11d73712d25482d3e6d09c0aa32eb87799918b5f"
+    },
+    "left_triple_pairs": 1,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 2,
+      "p": 1,
+      "right": 9,
+      "right_triple": 8,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0438.json",
+    "hashes": {
+      "fold": "381a3490223b032cfdbb0f22586c810db6746bacf07523e4be856328f5062c80",
+      "original": "571e6c5cdb2c096efe6c06a9e2a51e2ce78e6071d943c5807b86f8d7c637fd0c"
+    },
+    "left_triple_pairs": 1,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 2,
+      "p": 1,
+      "right": 9,
+      "right_triple": 9,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0380.json",
+    "hashes": {
+      "fold": "e846728ab501aa1305c3df8ad312a1859eda3cf07ae8a05d5caaf627510d4c6a",
+      "original": "a208048dead9a0ccb387808aa3b89732ed843bd3050d2491439485c6cbeaefe3"
+    },
+    "left_triple_pairs": 1,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 3,
+      "p": 1,
+      "right": 9,
+      "right_triple": 0,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0382.json",
+    "hashes": {
+      "fold": "b7f249ea3b327c60d3dcab1e74a05f680cdedc84074a4018a2706889f3afcf35",
+      "original": "707c6604d26e588d0e67928bec5ff115fa6ac6e65131473ba56342a14883deb3"
+    },
+    "left_triple_pairs": 1,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 3,
+      "p": 1,
+      "right": 9,
+      "right_triple": 1,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0396.json",
+    "hashes": {
+      "fold": "b9940abb6802451e3207a8b64a57e262c234da77110a78a48f2a7d5063ae9a88",
+      "original": "6fdf6d9448593d9b815d7c502db3aa64cc4608c623f128348fafc548ee187a07"
+    },
+    "left_triple_pairs": 1,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 3,
+      "p": 1,
+      "right": 9,
+      "right_triple": 2,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0398.json",
+    "hashes": {
+      "fold": "593bade66bfd6bb54958d2c51abd7824d368633c7fb1fe36f22c6ba93f3c9a02",
+      "original": "7e55d022f413f6b385393592e16cf2f3055782f7dae31f73b2b1a59d3f301d88"
+    },
+    "left_triple_pairs": 1,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 3,
+      "p": 1,
+      "right": 9,
+      "right_triple": 3,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0412.json",
+    "hashes": {
+      "fold": "98d6d1d5afb3c37aeb2bc877ed5a83521e24eff51e06bda7813708dbd9b2bded",
+      "original": "3f4336da47cffc44d6857045c9c4eec3c6f6bc84b77aa74b422b389f647f06f3"
+    },
+    "left_triple_pairs": 1,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 3,
+      "p": 1,
+      "right": 9,
+      "right_triple": 4,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0414.json",
+    "hashes": {
+      "fold": "336c0a79cb973eb900cde2d0f47fa5e8e28c0e016c7d48ccdc9e23e92e8c6614",
+      "original": "1097b66fc98a0f8aa345159d4826185ffeb8101521635e147f77c3940eee0f6d"
+    },
+    "left_triple_pairs": 1,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 3,
+      "p": 1,
+      "right": 9,
+      "right_triple": 5,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0428.json",
+    "hashes": {
+      "fold": "e91dfcc1535ae3bef4ee8a3bd6527fbd382d01cdf9b26a1aa9e692a063db1be9",
+      "original": "e000de2008bc908eb03dd9d56bbb59bbdaa8c60857a3a372f753bf68e896daa9"
+    },
+    "left_triple_pairs": 1,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 3,
+      "p": 1,
+      "right": 9,
+      "right_triple": 6,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0430.json",
+    "hashes": {
+      "fold": "d96379fdd6c6ab89d56e7d32daed9a8ba8ae23462c64bcfac5fd7b72f4efa6af",
+      "original": "00e555d1aac0bb75f9e86d084767c73d783f28f9ca2489e840c278f71669cfba"
+    },
+    "left_triple_pairs": 1,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 3,
+      "p": 1,
+      "right": 9,
+      "right_triple": 7,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0444.json",
+    "hashes": {
+      "fold": "733c4674d75b27a6c177ee5d700eaa489ef98d91204ac508d4a23dcf7abf06b5",
+      "original": "1673f2126b8ade79c4c2f6e6b38474f6a46c1599b714e29032d1e4b39d4e0681"
+    },
+    "left_triple_pairs": 1,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 3,
+      "p": 1,
+      "right": 9,
+      "right_triple": 8,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0446.json",
+    "hashes": {
+      "fold": "b1f7bb2ececa96f5e9f98d2bbac80fbe1d16c6e677cb68d27b96e70461d0bc1c",
+      "original": "5198ff7d7ebc10dae37a9f41d932053d0c5e05fd112e03d496f1d7eb8bbcc4fb"
+    },
+    "left_triple_pairs": 1,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 3,
+      "p": 1,
+      "right": 9,
+      "right_triple": 9,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0388.json",
+    "hashes": {
+      "fold": "4060241f73b1960a5e9ad3c353ab6b4d4c91fa0a44160de8c042a427d5ff9ef5",
+      "original": "dcb645e70ebf30b6efa517dc06952646c0321fb1dd8af237e319a032c9964bd5"
+    },
+    "left_triple_pairs": 2,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 4,
+      "p": 1,
+      "right": 9,
+      "right_triple": 0,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0390.json",
+    "hashes": {
+      "fold": "1b8f6bff223fbfc69e10178b4061722b6f99f7d66f438617722605bf943001c4",
+      "original": "5a8695d33c9399822b0ffb613aa59223b7f334cbc3e6e7891b99e55389135d63"
+    },
+    "left_triple_pairs": 2,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 4,
+      "p": 1,
+      "right": 9,
+      "right_triple": 1,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0404.json",
+    "hashes": {
+      "fold": "60bd62b57ebf46ff411a66d363f5d72244b73f5504c8caf46301b486cd185c79",
+      "original": "881e3e8368c371edd9e2b64e8a3d782a447e9ae7259635f8cc4d7afcf87da896"
+    },
+    "left_triple_pairs": 2,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 4,
+      "p": 1,
+      "right": 9,
+      "right_triple": 2,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0406.json",
+    "hashes": {
+      "fold": "af13172f5a72dc9295075209148d8720b42f11ea53e4fe79717a0d777f75f99f",
+      "original": "f0790a310ebee0c64e14df4346aed6e01319b7148aa2118d0eec5fa835e1b805"
+    },
+    "left_triple_pairs": 2,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 4,
+      "p": 1,
+      "right": 9,
+      "right_triple": 3,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0420.json",
+    "hashes": {
+      "fold": "cd69f0913cd0ba835803cf1ab7110280887ecd3ca5e01974d0c9c2f62cfd6042",
+      "original": "fc6d7466641d614b6962b009747e350ec8cef47aedcb1dc9ed4db21898ea2d9f"
+    },
+    "left_triple_pairs": 2,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 4,
+      "p": 1,
+      "right": 9,
+      "right_triple": 4,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0422.json",
+    "hashes": {
+      "fold": "7579fd794880a8aca2faf16c1d5475eb805b5379443a87d5d768c11ceccf9d21",
+      "original": "d028bdf7d7363c6302c1eb5a18e303c4568520057f14e50669d7c399fad3626d"
+    },
+    "left_triple_pairs": 2,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 4,
+      "p": 1,
+      "right": 9,
+      "right_triple": 5,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0436.json",
+    "hashes": {
+      "fold": "3a2feb6352fc8ccb6b4e3d3c0e18fd4a77d8ba39f55a55a870e120414424e678",
+      "original": "af3a586bbd0fde98a4a5828d5af2816d1eaf71fb0eacb2a3168f40efb69f77d1"
+    },
+    "left_triple_pairs": 2,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 4,
+      "p": 1,
+      "right": 9,
+      "right_triple": 6,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0438.json",
+    "hashes": {
+      "fold": "697f67f405bb761fdecc2c2bf96d219a72badef4af8d28c4f7377fc4d796074c",
+      "original": "2f0c48e9ac2f14004a1d89254651888ab97aaf8f786d1fb84df7e688a36a63bb"
+    },
+    "left_triple_pairs": 2,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 4,
+      "p": 1,
+      "right": 9,
+      "right_triple": 7,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0452.json",
+    "hashes": {
+      "fold": "6cdccc9652e5ef59cc1c05c3083b48cdee4fb554c370216f06994dfd661e7eba",
+      "original": "adea8ae308b2545544f5c14f335acb2acad2cd354b8c48d6742a8d9850efe755"
+    },
+    "left_triple_pairs": 2,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 4,
+      "p": 1,
+      "right": 9,
+      "right_triple": 8,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0454.json",
+    "hashes": {
+      "fold": "40beaccffa3839372866e0d413b2a5848d4ce7f5681f7ffe2ddd03970ad9892e",
+      "original": "76ed0578d3d995134f0f8897f67ca1379fa6c8d5462fdcf5df921d9b231e4144"
+    },
+    "left_triple_pairs": 2,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 4,
+      "p": 1,
+      "right": 9,
+      "right_triple": 9,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0396.json",
+    "hashes": {
+      "fold": "1ac44327386783920497d85256e3fa66314cbb0fde025e80b0f34877cfc8bc81",
+      "original": "01f64a3019f83efb6749d1b79582e7f1d08f544ae98f5f752a23a89fcf0d3a08"
+    },
+    "left_triple_pairs": 2,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 5,
+      "p": 1,
+      "right": 9,
+      "right_triple": 0,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0398.json",
+    "hashes": {
+      "fold": "81c1273b609028e87ba28a1bbf7df1c6995e36ac6eb8a3252679625cf5c84f78",
+      "original": "1532ad9b99ed817e7e3e2948773a1bd65be1edecdec58267b39bedb161f38d38"
+    },
+    "left_triple_pairs": 2,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 5,
+      "p": 1,
+      "right": 9,
+      "right_triple": 1,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0412.json",
+    "hashes": {
+      "fold": "0f8e69e619d92b63313ba5abd6bf46502c993280470ad01900966369c8cb8fa1",
+      "original": "d429545fded2d1b3f52e58ea002f02637076f454f31238856c7733fdc4c38fe6"
+    },
+    "left_triple_pairs": 2,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 5,
+      "p": 1,
+      "right": 9,
+      "right_triple": 2,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0414.json",
+    "hashes": {
+      "fold": "9231fa92145057a66c6e1ba9ae83336bba555e44e2497c0261c8352853226261",
+      "original": "fe44039c162aedda28a9e6b263229391f651111a53d5dfea5d229a9b8565dd47"
+    },
+    "left_triple_pairs": 2,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 5,
+      "p": 1,
+      "right": 9,
+      "right_triple": 3,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0428.json",
+    "hashes": {
+      "fold": "8705ca811a2d5fa78776ae758f43fd0a25996153c6892d42b891b101a10f8a66",
+      "original": "d4a8e79c8720abb4ca76b426e2fef488cc9dd3d8edeeff280a1308ee239b8726"
+    },
+    "left_triple_pairs": 2,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 5,
+      "p": 1,
+      "right": 9,
+      "right_triple": 4,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0430.json",
+    "hashes": {
+      "fold": "f383ab3c2daea90660b9073400d73adb2988ff04673276d20726dcd162e0a43f",
+      "original": "fdfb5f19ac4867301de0dcd74be028c1ac19288b7faccf220d69b1540f75428f"
+    },
+    "left_triple_pairs": 2,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 5,
+      "p": 1,
+      "right": 9,
+      "right_triple": 5,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0444.json",
+    "hashes": {
+      "fold": "93abd3269efe6d41e4bdcc9bc427453dcd3da408006b1eec6d9054cfc64e1356",
+      "original": "56ee830117cd59af2196c42d89b791e80d0b3def9b5af1630d60452b647d79ab"
+    },
+    "left_triple_pairs": 2,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 5,
+      "p": 1,
+      "right": 9,
+      "right_triple": 6,
+      "t": 3
+    }
+  },
+  {
+    "cap": "key-0000.json",
+    "core": "key-0446.json",
+    "hashes": {
+      "fold": "843ab3c1ac3e0c02849a0ff46974030fb6826bbc3e023bdbae40e45cf47f1231",
+      "original": "08934ef19150fc79bfdd0dda72b8235e49e461621f9d8679e906a21ed78eff1b"
+    },
+    "left_triple_pairs": 2,
+    "status": "COVERED",
+    "type": {
+      "h": 13,
+      "left": 14,
+      "left_triple": 5,
+      "p": 1,
+      "right": 9,
+      "right_triple": 7,
+      "t": 3
+    }
+  }
+]

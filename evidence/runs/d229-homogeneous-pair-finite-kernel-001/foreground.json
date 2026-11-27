@@ -1,0 +1,18 @@
+{
+  "run_id": "d229-homogeneous-pair-finite-kernel-001",
+  "working_directory": "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab",
+  "command": ".venv\\Scripts\\python.exe -B -m research.d229_homogeneous_pair_kernel.driver --admission runs/d229-homogeneous-pair-finite-kernel-001-admission.json --admission-sha256 81333a7fd64696ea72eb72cc648789a1128f2ce726ccdc1d47db6a91b0df3401",
+  "receipt_sha256": "81333a7fd64696ea72eb72cc648789a1128f2ce726ccdc1d47db6a91b0df3401",
+  "execution_checkout": "9a928973cc1c6085b7275e34f8a0a1a9317fb911",
+  "start_utc": "2026-11-27T23:26:39.9712644+00:00",
+  "external_stop": null,
+  "observer_error": null,
+  "launcher_pid": 23048,
+  "worker_pid": 32116,
+  "worker_executable": "C:\\Users\\Will\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+  "exit_code": 0,
+  "end_utc": "2026-11-27T23:27:02.9760374+00:00",
+  "foreground_wall_seconds": 22.997001,
+  "launcher_cpu_seconds": 0.015625,
+  "worker_cpu_seconds": 21.6875
+}

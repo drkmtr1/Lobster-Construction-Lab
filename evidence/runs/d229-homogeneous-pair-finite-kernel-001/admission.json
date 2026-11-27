@@ -1,0 +1,39 @@
+{
+  "run_id": "d229-homogeneous-pair-finite-kernel-001",
+  "decision": "AUTHORIZE_D229_EXECUTION",
+  "source_manifest_sha256": "6c0fd0e0a754042bdcf57a0765baecc5650ae2fd41857fc3b27fcee607f77898",
+  "registration_sha256": "8bfdb3fda13b146f1e3b7578e402653413152d0ac3ce3a280ec605fafb6ed92f",
+  "verified_checkpoint": "df27e9a99f589bbe0acd24dbe1df8a679010acf5",
+  "acceptance_checkpoint": "9a928973cc1c6085b7275e34f8a0a1a9317fb911",
+  "execution_checkout": "9a928973cc1c6085b7275e34f8a0a1a9317fb911",
+  "director_review": "Research Director accepts the conditional finite-kernel theorem, the exact controls, and the frozen numerical registration, search, audits and coverage procedure within the static preparation scope. The Director approves the frozen diagnostic for one bounded scientific execution under the existing registration and ceilings, subject to fresh admission. Actual acceptance recorded in research/DECISIONS.md at 9a928973cc1c6085b7275e34f8a0a1a9317fb911.",
+  "owner_authorization": "I authorize exactly one bounded scientific execution of the frozen D229 homogeneous-pair finite-kernel diagnostic in: C:\\Users\\Will\\Projects\\Lobster_Construction_Lab. This message constitutes separate Owner execution authorization for that exact run. No successor task is authorized.",
+  "observed_utc": "2026-11-27T23:25:54.2195058+00:00",
+  "refs": {
+    "lcl_main": "9a928973cc1c6085b7275e34f8a0a1a9317fb911",
+    "baseline_tag": "fddfc1dd9541324b2ed2de2505bc750b3e3f0b9d",
+    "baseline_peel": "36ea1603602491bf3c1c5b81ed4c23aaa2210e70",
+    "mdl_head": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+    "bounded_search_head": "e48b94eec4091b4fe189e325cab2eda464409943"
+  },
+  "source_binding_count": 32,
+  "checker_sha256": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909",
+  "checkout": "Clean main, one worktree, exact acceptance parent and live main",
+  "competing_workspace_process_count": 0,
+  "destinations": "Registered run and archive vacant",
+  "interpreter": {
+    "implementation": "cpython",
+    "version": [
+      3,
+      13,
+      17
+    ],
+    "executable": "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv\\Scripts\\python.exe",
+    "base": "C:\\Users\\Will\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+    "machine": "AMD64"
+  },
+  "launcher_sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+  "base_interpreter_sha256": "7c2fc2b303a4ee3cc14cc17b47bc6e8bca98c78792edd123b846a560da44b203",
+  "execution_path": "CPU-only frozen standard-library driver",
+  "supervision": "Single foreground launch, observer retains process handles, records standard streams, CPU and wall time, and waits to terminal status. Cooperative driver caps remain unchanged. No retry."
+}
