@@ -743,3 +743,11 @@ ACCEPT D206 at f32203c12d28afe3a78e0d1c462d6fc00eebc75c within the exact proved 
 ## D207 strategic closeout
 
 Record SOURCE_AUDIT_COMPLETE_REVIEWED. Retain the exact named-resource representation while pursuing complementary ordinary suppliers or proved reconstruction when alpha premise, port compatibility or decomposition fails. The research plan indexes the reviewed dependency map. Retain project instructions v11 and current settings. The sole proposed next action is the exact ordinary monotone return test, awaiting separate authorization. No checker, solver, search, replay, upstream change or successor occurred. [D207 assessment](D207_INDEPENDENT_SUPPLIER_ARCHITECTURE.md) · [Supplier inventory](D207_SUPPLIER_INVENTORY.md)
+
+## D207 Director acceptance
+
+ACCEPT the independently reviewed audit at 51eab66da00019881683b1551630c409677b7051, including the exact pendant-entry alpha compression and pure-translation obstruction and their restrictions. The Director inspected the primary assessment, inventory, review, handoff and relevant D104, D105 and D117 arguments. Keep the accepted report and all historical mathematical scopes. [Accepted assessment](D207_INDEPENDENT_SUPPLIER_ARCHITECTURE.md)
+
+## Strategic revision and D208 admission
+
+REVISE D207's proposed successor. The exact D207 monotone-embedding question is unresolved and deferred. The prescribed old order, extreme output frontier and contiguous cut-spectrum are additional interface requirements. Authorize only D208, one bounded symbolic investigation of reverse-block independent supply and ordinary composition, with separate mathematical review and the exact prescribed fixed arithmetic controls. No numerical worker, search, solver, historical replay, protected checker or successor is authorized. Governance is KEEP v12. The historical D207 v11 recommendation is superseded. ChatGPT Project settings are outside this change.
