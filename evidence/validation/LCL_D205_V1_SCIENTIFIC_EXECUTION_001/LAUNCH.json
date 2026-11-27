@@ -1,0 +1,42 @@
+{
+  "task": "LCL-D205-INDEPENDENT-PATH-ORDER-EXECUTION-QUALIFICATION-001",
+  "run": "d205-independent-path-order-menu-001",
+  "working_directory": "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab",
+  "runtime_executable": "C:\\Users\\Will\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+  "argv": [
+    "-I",
+    "-S",
+    "-B",
+    "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\research\\d205_readiness_v1\\entry.py",
+    "LCL-D205-INDEPENDENT-PATH-ORDER-EXECUTION-QUALIFICATION-001",
+    "official",
+    "3be2f049a031a52b4229c9ce1a754f72fb88efbad08cc365cff5f8996b5c598e",
+    "301bc68fec780d7b320921ec8a59be65b5e934a1efdbeea01da02837e94252a9"
+  ],
+  "invoked_once": true,
+  "approved_repository_head": "a0ac1ddbf95f090c48ac3f5b6097cc63d97e246c",
+  "approval_bindings": {
+    "approval": "301bc68fec780d7b320921ec8a59be65b5e934a1efdbeea01da02837e94252a9",
+    "live": "660ff76b489fddc3b27367277636b0f56985a4580144a62af7dfffd8422d0d20",
+    "director": "b522e2fcfa5ede9ea2dd45cb65f1359292462372f4d9b6a5b73d18d74f48d4d8",
+    "head": "a0ac1ddbf95f090c48ac3f5b6097cc63d97e246c",
+    "age_seconds": 25.417141914367676
+  },
+  "external_start": {
+    "started_controller_pid": 5728,
+    "started_unix_ms": 1795752438336
+  },
+  "external_terminal": {
+    "pid": 5728,
+    "controller_signaled": true,
+    "outer_timeout": false,
+    "actual_outer_elapsed_ms": 188501,
+    "exit_code": 0,
+    "controller_cpu_total_ticks": 19218750,
+    "controller_cpu_user_ticks": 6093750,
+    "controller_cpu_kernel_ticks": 13125000
+  },
+  "stderr_bytes": 0,
+  "stdout_bytes": 0,
+  "outer_observer": "Start-Process/Stopwatch retained the controller process and separate external exit and CPU. The fallback did not fire. Scientific phase clocks and acceptance were controlled by the frozen V1 supervisor."
+}

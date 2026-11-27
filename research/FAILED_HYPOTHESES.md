@@ -887,3 +887,7 @@ The hypothesized extreme-frontier return of the exact supplied input to the name
 ## D205 — B/C maximum-frontier, improper and safe-supported exclusions
 
 Under the exact B/C supplied 32-edge labels and the required 41-edge interface, any maximum-oriented return of an increasing old embedding fails, including reordered old ranks. Both improper branches and all safe-supported increasing embeddings fail. General coordinated-gap minimum-frontier continuation remains unresolved in the six listed cases per variant. No further branch is classified. [Scoped proof](../research/ORDINARY_SPINE_INDEPENDENT_PATH_ORDER_MENU_PREPARATION.md)
+
+## D205 V1 â€” Neither alternative path-order input supplies the registered return
+
+The hypothesis that B or C admits a strictly increasing embedding to the named four-arm 41-edge continuation with extreme-frontier `P(41,c,c+2)` fails within the exact registered scope. Both engines exhausted all six residual cuts per variant, including both weight-rank classes. The accepted symbolic exclusions cover the remainder of that scope. With D204's separate A result this excludes the three path-order allocations of the exact fixed shell for this continuation. Other labelings, shell geometries, embedding classes and return relations remain separate. [Reviewed execution](../evidence/validation/LCL_D205_V1_SCIENTIFIC_EXECUTION_001/ASSESSMENT.md)

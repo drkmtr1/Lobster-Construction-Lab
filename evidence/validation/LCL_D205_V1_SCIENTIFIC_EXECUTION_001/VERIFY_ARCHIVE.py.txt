@@ -1,0 +1,117 @@
+from collections import Counter
+from hashlib import sha256
+from pathlib import Path
+import json
+import sys
+
+root = Path(sys.argv[1])
+qual = Path(sys.argv[2])
+run = root.name
+outer = json.loads(sys.argv[3])
+start_observer = json.loads(sys.argv[4])
+def ident(data):
+    return {"bytes": len(data), "sha256": sha256(data).hexdigest()}
+
+raw = {p.name: p.read_bytes() for p in root.iterdir()}
+assert len(raw) == 16
+files = {name: ident(data) for name, data in raw.items()}
+read = lambda name: json.loads(raw[name + ".json"])
+terminal = read("terminal")
+seal = read("seal")
+freeze = json.loads((qual / "V1_FREEZE.json").read_bytes())
+approval = read("approval")
+director = read("director-acceptance")
+refs = read("live-refs")
+admission = read("admission")
+task = freeze["task"]
+assert terminal["mode"] == admission["mode"] == "official"
+assert terminal["task"] == seal["task"] == approval["task"] == refs["task"] == admission["task"] == task
+assert terminal["freeze"] == seal["freeze"] == director["freeze"] == approval["freeze"] == admission["freeze"] == ident((qual / "V1_FREEZE.json").read_bytes())["sha256"]
+assert refs["run"] == approval["run"] == admission["run"] == run
+assert approval["intent"] == "AUTHORIZE_ONE_D205_SCIENTIFIC_RUN"
+assert approval["owner_authorization"] and director["director_decision"]
+assert approval["approved_repository_head"] == refs["refs"]["lcl_main"]
+assert approval["verified_live_refs"] == refs["refs"]
+assert approval["limits"] == freeze["limits"]
+assert approval["qualification_sha256"] == director["qualification_sha256"] == ident((qual / "V1_FINAL_QUALIFICATION.json").read_bytes())["sha256"]
+assert admission["source_review_or_approval"] == files["approval.json"]["sha256"]
+assert approval["live_ref_receipt_sha256"] == files["live-refs.json"]["sha256"]
+assert approval["director_acceptance_sha256"] == files["director-acceptance.json"]["sha256"]
+assert (qual / "DIRECTOR_ACCEPTANCE.json").read_bytes() == raw["director-acceptance.json"]
+for suffix, name in {"approval": "approval.json", "live-refs": "live-refs.json"}.items():
+    assert (Path("runs") / (run + "-" + suffix + ".json")).read_bytes() == raw[name]
+assert seal["terminal"] == files["terminal.json"]
+assert terminal["prior_artifacts"] == {k:v for k,v in files.items() if k not in {"terminal.json", "seal.json"}}
+assert terminal["charged_before_terminal"] == sum(v["bytes"] for v in terminal["prior_artifacts"].values())
+size = sum(v["bytes"] for v in files.values())
+assert size <= freeze["limits"]["new_evidence_bytes"]
+assert files["terminal.json"]["bytes"] + files["seal.json"]["bytes"] <= 65536
+assert outer["controller_signaled"] and not outer["outer_timeout"] and outer["exit_code"] == 0
+assert outer["pid"] == start_observer["started_controller_pid"]
+assert outer["controller_cpu_total_ticks"] == outer["controller_cpu_user_ticks"] + outer["controller_cpu_kernel_ticks"]
+age_ms = start_observer["started_unix_ms"] - refs["checked_unix"] * 1000
+assert 0 <= age_ms <= 900000
+assert terminal["result"]["registered_outcome"] == "STOP_REGISTERED_NEGATIVE"
+sequence = [(v,h,c,n) for v in ("B","C") for h,c,n in ((14,18,52360),(14,19,936360),(15,18,95608),(15,19,1955952),(16,18,464151),(16,19,4029102))]
+prior_cutoff = 0
+out = {"exact_official_archive": files, "archive_bytes": size, "terminal_bound_entries": len(terminal["prior_artifacts"]), "external_controller": outer, "external_start": start_observer, "reference_age_at_outer_start_ms": age_ms, "phases": {}}
+for phase, summary, outcome in zip(("primary", "audit"), terminal["result"]["phases"], ("ADMIT_AUDIT", "STOP_REGISTERED_NEGATIVE"), strict=True):
+    base = read(phase + "-start")
+    end = read(phase + "-phase")
+    p = end["controls"]
+    result = read(phase + "-result")
+    runtime = read(phase + "-runtime")
+    entry = read(phase + "-entry")
+    limits = freeze["limits"][phase]
+    assert entry == {"phase": phase, "workload": "science"}
+    assert base["controller"]["pid"] == outer["pid"]
+    assert base["context"] == runtime["context"]
+    assert runtime["version"] == [3,13,17] and all(runtime[k] is True for k in ("isolated", "no_site", "no_bytecode"))
+    assert runtime["console"] == {"list_error":6,"process_count":0,"window":False}
+    assert Path(runtime["executable"]).resolve() == Path(sys.executable).resolve()
+    assert Path(runtime["dll"]).resolve() == Path(sys.executable).with_name("python313.dll").resolve()
+    assert base["assigned"] and base["effective"] == {"active_limit":1,"end_action":0,"flags":8204,"job_handle_inheritable":False,"native_user_ticks":limits["cpu_seconds"]*10000000}
+    assert base["job_empty"]["active"] == base["job_empty"]["lifetime"] == 0
+    assert base["job_suspended"]["active"] == base["job_suspended"]["lifetime"] == p["job"]["lifetime"] == 1
+    assert p["job"]["active"] == p["job"]["terminated"] == 0
+    assert p["first"]["born"] == p["last"]["born"] == p["process"]["born"] == base["process"]["born"]
+    assert p["process"]["end"] > p["process"]["born"]
+    assert p["process"]["kernel"] == p["last"]["kernel"] == p["job"]["kernel"]
+    assert p["process"]["user"] == p["last"]["user"] == p["job"]["user"]
+    assert p["last"]["kernel"] + p["last"]["user"] == p["worker_cpu"] == p["observed_cpu"] == summary["actual_cpu_ticks"] <= limits["cpu_seconds"]*10000000
+    assert p["reconciled"] and p["measured"] and summary["measured"] and not summary["disagreement"]
+    assert p["admitted"] == {"ack": False, "grant": True, "resume": True}
+    assert p["stop_sample"] is None and p["exit_code"] == 0 and not p["injected_gap"] and not p["native_error"] and p["failure"] is None
+    assert p["maximum_gap"] <= 2000 and p["elapsed"] <= summary["actual_elapsed_ms"] <= limits["wall_seconds"]*1000
+    assert base["start_tick"] >= prior_cutoff
+    assert base["deadline_tick"] - base["start_tick"] == limits["wall_seconds"] * 1000
+    assert base["deadline_tick"] - base["early_tick"] == 60000
+    prior_cutoff = p["last_observation_tick"]
+    membership = p["job_observations"]
+    assert not membership["observed_unexpected_identities"]
+    for sample in membership["snapshots"]:
+        assert not set(sample["pids"]) - {base["context"]["pid"]}
+    assert p["app"]["runtime"] == files[phase+"-runtime.json"]
+    assert p["app"]["result"] == result
+    assert summary["phase"] == phase and summary["disposition"] == end["provisional_disposition"] == outcome and result["status"] == "EXHAUSTED"
+    expected = [f"{v}:{h}:{c}" for v,h,c,n in sequence]
+    assert list(result["streams"]) == expected
+    totals = {v:Counter() for v in ("B","C")}
+    for (v,h,c,n), (name,row) in zip(sequence,result["streams"].items(), strict=True):
+        assert row["geometry_entries"] == n
+        assert all(type(x) is int and x >= 0 for x in row.values())
+        assert row["rank_preserving"] + row["rank_changing"] <= n
+        totals[v].update(row)
+    counters = result["counters"]
+    assert counters["geometry_entries"] == sum(v["geometry_entries"] for v in totals.values()) == 15067066
+    for field, limit in limits.items():
+        if field in {"cpu_seconds","wall_seconds","live_records"}:
+            continue
+        assert type(counters[field]) is int and 0 <= counters[field] <= limit
+    assert 0 <= counters["peak_live_records"] <= limits["live_records"]
+    assert counters["process_cpu_seconds"] <= limits["cpu_seconds"] and counters["wall_seconds"] <= limits["wall_seconds"]
+    out["phases"][phase] = {"streams": result["streams"], "variant_totals": totals, "logical_and_cooperative_counters": counters, "worker_pid": base["context"]["pid"], "worker_birth_filetime": p["process"]["born"], "worker_end_filetime": p["process"]["end"], "worker_user_cpu_ticks": p["process"]["user"], "worker_kernel_cpu_ticks": p["process"]["kernel"], "measured_cpu_ticks": summary["actual_cpu_ticks"], "measured_elapsed_ms": summary["actual_elapsed_ms"], "maximum_gap_ms": p["maximum_gap"], "phase_controller_cpu_ticks":p["controller_cpu"], "job_active_final":p["job"]["active"], "job_lifetime":p["job"]["lifetime"], "exit_code":p["exit_code"], "measured_and_reconciled":True, "disposition":outcome}
+for n in ("stdout","stderr"):
+    assert (Path("runs") / f"{run}-controller.{n}").read_bytes() == b""
+out["qualification_counters_separate"] = {"pure_methods":58,"native_cases":14,"native_phases":16}
+print(json.dumps(out, ensure_ascii=True, indent=2))

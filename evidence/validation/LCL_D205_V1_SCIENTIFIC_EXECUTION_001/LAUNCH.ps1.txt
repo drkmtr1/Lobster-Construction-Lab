@@ -1,0 +1,31 @@
+$ErrorActionPreference = 'Stop'
+Set-Location -LiteralPath 'C:\Users\Will\Projects\Lobster_Construction_Lab'
+if ((git rev-parse HEAD) -ne 'a0ac1ddbf95f090c48ac3f5b6097cc63d97e246c' -or (git status --porcelain --ignore-submodules=all)) {throw 'Acceptance custody changed'}
+if ([DateTimeOffset]::UtcNow.ToUnixTimeSeconds() -ge (1795752379+900)) {throw 'Fresh reference receipt expired'}
+if ((Get-FileHash -LiteralPath 'runs/d205-independent-path-order-menu-001-approval.json' -Algorithm SHA256).Hash.ToLowerInvariant() -ne '301bc68fec780d7b320921ec8a59be65b5e934a1efdbeea01da02837e94252a9') {throw 'Approval changed'}
+if ((Get-FileHash -LiteralPath 'runs/d205-independent-path-order-menu-001-live-refs.json' -Algorithm SHA256).Hash.ToLowerInvariant() -ne '660ff76b489fddc3b27367277636b0f56985a4580144a62af7dfffd8422d0d20') {throw 'Live references changed'}
+if ((Get-FileHash -LiteralPath 'evidence/validation/LCL_D205_INDEPENDENT_PATH_ORDER_EXECUTION_QUALIFICATION_001/DIRECTOR_ACCEPTANCE.json' -Algorithm SHA256).Hash.ToLowerInvariant() -ne 'b522e2fcfa5ede9ea2dd45cb65f1359292462372f4d9b6a5b73d18d74f48d4d8') {throw 'Director record changed'}
+$out = Join-Path (Get-Location) 'runs/d205-independent-path-order-menu-001-controller.stdout'
+$err = Join-Path (Get-Location) 'runs/d205-independent-path-order-menu-001-controller.stderr'
+if ((Test-Path -LiteralPath $out) -or (Test-Path -LiteralPath $err) -or (Test-Path -LiteralPath 'evidence/runs/d205-independent-path-order-menu-001')) {throw 'Occupied official invocation identity'}
+$basePython = & .\.venv\Scripts\python.exe -I -S -B -c 'import sys; print(sys._base_executable)'
+if ($LASTEXITCODE -ne 0 -or $basePython -ne 'C:\Users\Will\AppData\Local\Programs\Python\Python313\python.exe') {throw 'Qualified interpreter mismatch'}
+$script = Join-Path (Get-Location) 'research/d205_readiness_v1/entry.py'
+$vector = @('-I','-S','-B',('"' + $script + '"'),'LCL-D205-INDEPENDENT-PATH-ORDER-EXECUTION-QUALIFICATION-001','official','3be2f049a031a52b4229c9ce1a754f72fb88efbad08cc365cff5f8996b5c598e','301bc68fec780d7b320921ec8a59be65b5e934a1efdbeea01da02837e94252a9')
+$start = [DateTimeOffset]::UtcNow.ToUnixTimeMilliseconds()
+$watch = [Diagnostics.Stopwatch]::StartNew()
+$outer = Start-Process -FilePath $basePython -ArgumentList $vector -WorkingDirectory (Get-Location) -WindowStyle Hidden -RedirectStandardOutput $out -RedirectStandardError $err -PassThru
+[ordered]@{started_controller_pid=$outer.Id;started_unix_ms=$start} | ConvertTo-Json -Compress
+$timeout = -not $outer.WaitForExit(1382700000)
+if ($timeout) { try { $outer.Kill() } catch {}; $closed = $outer.WaitForExit(5000) } else { $closed = $true }
+$elapsed = $watch.ElapsedMilliseconds
+$user = $null; $kernel = $null; $total = $null; $code = $null
+if ($closed) {
+ $code = $outer.ExitCode
+ try {
+   $user = $outer.UserProcessorTime.Ticks
+   $kernel = $outer.PrivilegedProcessorTime.Ticks
+   $total = $outer.TotalProcessorTime.Ticks
+ } catch {}
+}
+[ordered]@{pid=$outer.Id;controller_signaled=$closed;outer_timeout=$timeout;actual_outer_elapsed_ms=$elapsed;exit_code=$code;controller_cpu_total_ticks=$total;controller_cpu_user_ticks=$user;controller_cpu_kernel_ticks=$kernel} | ConvertTo-Json -Compress

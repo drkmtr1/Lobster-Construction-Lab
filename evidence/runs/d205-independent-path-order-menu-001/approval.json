@@ -1,0 +1,42 @@
+{
+  "approved_repository_head": "a0ac1ddbf95f090c48ac3f5b6097cc63d97e246c",
+  "director_acceptance_sha256": "b522e2fcfa5ede9ea2dd45cb65f1359292462372f4d9b6a5b73d18d74f48d4d8",
+  "freeze": "3be2f049a031a52b4229c9ce1a754f72fb88efbad08cc365cff5f8996b5c598e",
+  "intent": "AUTHORIZE_ONE_D205_SCIENTIFIC_RUN",
+  "limits": {
+    "audit": {
+      "allocation_states": 7092178966,
+      "cpu_seconds": 691200,
+      "fixed_edge_checks": 497213178,
+      "geometry_entries": 15067066,
+      "live_records": 6,
+      "pair_trials": 28121614404,
+      "placement_attempts": 11769116626,
+      "wall_seconds": 864000
+    },
+    "new_evidence_bytes": 16000000,
+    "primary": {
+      "allocation_states": 9311182472,
+      "cpu_seconds": 345600,
+      "fixed_edge_checks": 1064572810,
+      "geometry_entries": 15067066,
+      "live_records": 7,
+      "pair_trials": 8666657664,
+      "placement_attempts": 786364716,
+      "wall_seconds": 518400
+    },
+    "workers": 1
+  },
+  "live_ref_receipt_sha256": "660ff76b489fddc3b27367277636b0f56985a4580144a62af7dfffd8422d0d20",
+  "owner_authorization": "I authorize recording Director acceptance of the completed D205 V1 execution-readiness qualification, followed by exactly one D205 scientific execution under the accepted frozen Windows measured-acceptance contract.\n\nThis is the separate Owner scientific authorization required by the qualified D205 V1 launcher.\n\nNo additional infrastructure revision, qualification rerun, D204 replay, automatic retry or D206 successor is authorized.",
+  "qualification_sha256": "70c13b6de8bcd97850abfefea5f4d2d66ef0c64de4b689f466ba8dfcdfb340f9",
+  "run": "d205-independent-path-order-menu-001",
+  "task": "LCL-D205-INDEPENDENT-PATH-ORDER-EXECUTION-QUALIFICATION-001",
+  "verified_live_refs": {
+    "bounded_search_head": "e48b94eec4091b4fe189e325cab2eda464409943",
+    "lcl_main": "a0ac1ddbf95f090c48ac3f5b6097cc63d97e246c",
+    "mdl_head": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+    "peel": "36ea1603602491bf3c1c5b81ed4c23aaa2210e70",
+    "tag": "fddfc1dd9541324b2ed2de2505bc750b3e3f0b9d"
+  }
+}

@@ -1,0 +1,292 @@
+{
+  "exact_official_archive": {
+    "admission.json": {
+      "bytes": 304,
+      "sha256": "d25ae334d56165ee8a84ea31976fa88ed882a7d9c4e7f953199349f59f54a1e5"
+    },
+    "approval.json": {
+      "bytes": 2077,
+      "sha256": "301bc68fec780d7b320921ec8a59be65b5e934a1efdbeea01da02837e94252a9"
+    },
+    "audit-entry.json": {
+      "bytes": 38,
+      "sha256": "bb8ff6f4fd0872346eb4f25a961ce2f431b0e6b1efaeef1376c3e8da5d0fc128"
+    },
+    "audit-phase.json": {
+      "bytes": 3917,
+      "sha256": "1afcab74c99b35d120ebdf842bed118ebf33511af1807963a22f5cf247987a63"
+    },
+    "audit-result.json": {
+      "bytes": 1176,
+      "sha256": "22d18a7d273bd0129fd4ecd70db39fd84c4fd69e3bc469e3ea45f86720a63069"
+    },
+    "audit-runtime.json": {
+      "bytes": 5835,
+      "sha256": "6f4df79bc57133fbceb86fd26901f77900997cf0b4eae8037025d76f782549e7"
+    },
+    "audit-start.json": {
+      "bytes": 951,
+      "sha256": "bae3d73d745b02622ebb62bbfde9d63249e13b168132faf748d8394af705eb2a"
+    },
+    "director-acceptance.json": {
+      "bytes": 436,
+      "sha256": "b522e2fcfa5ede9ea2dd45cb65f1359292462372f4d9b6a5b73d18d74f48d4d8"
+    },
+    "live-refs.json": {
+      "bytes": 473,
+      "sha256": "660ff76b489fddc3b27367277636b0f56985a4580144a62af7dfffd8422d0d20"
+    },
+    "primary-entry.json": {
+      "bytes": 40,
+      "sha256": "bfe4cffc2397d10c800c159a519c515cec5d4f0d259cbc02cc2b32bfd9882fcc"
+    },
+    "primary-phase.json": {
+      "bytes": 3912,
+      "sha256": "3f85bc2d6fdc208b2eaa2ac0544ee1d003ab8ea4d4dd3cf0bb64efc07eb47c9a"
+    },
+    "primary-result.json": {
+      "bytes": 1172,
+      "sha256": "f1634a6e8a8de72b42512c1b67467bee436848aa1d02cf39312acf0ea034559b"
+    },
+    "primary-runtime.json": {
+      "bytes": 5837,
+      "sha256": "0256b503978fdca85025f33b3ae1a6cc5110022b2d8eb77e60a5929c8861b8e9"
+    },
+    "primary-start.json": {
+      "bytes": 953,
+      "sha256": "05c94f45af81ebf81a174a35e1bf8301b59801a8e311d3b1264e2b4638d34009"
+    },
+    "seal.json": {
+      "bytes": 353,
+      "sha256": "31ff84e4e92162c11e1ad5a40f8a5e858936bafd3e044eaf28eff7f0dedee977"
+    },
+    "terminal.json": {
+      "bytes": 2146,
+      "sha256": "555281d5ae32cc9c12eeae28eb1128332633a3925b3e20b036d474ed721be113"
+    }
+  },
+  "archive_bytes": 29620,
+  "terminal_bound_entries": 14,
+  "external_controller": {
+    "pid": 5728,
+    "controller_signaled": true,
+    "outer_timeout": false,
+    "actual_outer_elapsed_ms": 188501,
+    "exit_code": 0,
+    "controller_cpu_total_ticks": 19218750,
+    "controller_cpu_user_ticks": 6093750,
+    "controller_cpu_kernel_ticks": 13125000
+  },
+  "external_start": {
+    "started_controller_pid": 5728,
+    "started_unix_ms": 1795752438336
+  },
+  "reference_age_at_outer_start_ms": 59336,
+  "phases": {
+    "primary": {
+      "streams": {
+        "B:14:18": {
+          "geometry_entries": 52360,
+          "rank_changing": 7,
+          "rank_preserving": 0
+        },
+        "B:14:19": {
+          "geometry_entries": 936360,
+          "rank_changing": 0,
+          "rank_preserving": 0
+        },
+        "B:15:18": {
+          "geometry_entries": 95608,
+          "rank_changing": 8,
+          "rank_preserving": 0
+        },
+        "B:15:19": {
+          "geometry_entries": 1955952,
+          "rank_changing": 0,
+          "rank_preserving": 0
+        },
+        "B:16:18": {
+          "geometry_entries": 464151,
+          "rank_changing": 0,
+          "rank_preserving": 0
+        },
+        "B:16:19": {
+          "geometry_entries": 4029102,
+          "rank_changing": 0,
+          "rank_preserving": 0
+        },
+        "C:14:18": {
+          "geometry_entries": 52360,
+          "rank_changing": 11,
+          "rank_preserving": 0
+        },
+        "C:14:19": {
+          "geometry_entries": 936360,
+          "rank_changing": 24,
+          "rank_preserving": 0
+        },
+        "C:15:18": {
+          "geometry_entries": 95608,
+          "rank_changing": 0,
+          "rank_preserving": 0
+        },
+        "C:15:19": {
+          "geometry_entries": 1955952,
+          "rank_changing": 83,
+          "rank_preserving": 0
+        },
+        "C:16:18": {
+          "geometry_entries": 464151,
+          "rank_changing": 0,
+          "rank_preserving": 0
+        },
+        "C:16:19": {
+          "geometry_entries": 4029102,
+          "rank_changing": 0,
+          "rank_preserving": 0
+        }
+      },
+      "variant_totals": {
+        "B": {
+          "geometry_entries": 7533533,
+          "rank_changing": 15,
+          "rank_preserving": 0
+        },
+        "C": {
+          "geometry_entries": 7533533,
+          "rank_changing": 118,
+          "rank_preserving": 0
+        }
+      },
+      "logical_and_cooperative_counters": {
+        "allocation_states": 0,
+        "fixed_edge_checks": 311733611,
+        "geometry_entries": 15067066,
+        "pair_trials": 0,
+        "peak_live_records": 1,
+        "placement_attempts": 1589,
+        "process_cpu_seconds": 125.09375,
+        "wall_seconds": 125.47031260000949
+      },
+      "worker_pid": 19680,
+      "worker_birth_filetime": 134402260395768596,
+      "worker_end_filetime": 134402261651920947,
+      "worker_user_cpu_ticks": 1211093750,
+      "worker_kernel_cpu_ticks": 40468750,
+      "measured_cpu_ticks": 1251562500,
+      "measured_elapsed_ms": 125656,
+      "maximum_gap_ms": 266,
+      "phase_controller_cpu_ticks": 3750000,
+      "job_active_final": 0,
+      "job_lifetime": 1,
+      "exit_code": 0,
+      "measured_and_reconciled": true,
+      "disposition": "ADMIT_AUDIT"
+    },
+    "audit": {
+      "streams": {
+        "B:14:18": {
+          "geometry_entries": 52360,
+          "rank_changing": 7,
+          "rank_preserving": 0
+        },
+        "B:14:19": {
+          "geometry_entries": 936360,
+          "rank_changing": 0,
+          "rank_preserving": 0
+        },
+        "B:15:18": {
+          "geometry_entries": 95608,
+          "rank_changing": 8,
+          "rank_preserving": 0
+        },
+        "B:15:19": {
+          "geometry_entries": 1955952,
+          "rank_changing": 0,
+          "rank_preserving": 0
+        },
+        "B:16:18": {
+          "geometry_entries": 464151,
+          "rank_changing": 0,
+          "rank_preserving": 0
+        },
+        "B:16:19": {
+          "geometry_entries": 4029102,
+          "rank_changing": 0,
+          "rank_preserving": 0
+        },
+        "C:14:18": {
+          "geometry_entries": 52360,
+          "rank_changing": 11,
+          "rank_preserving": 0
+        },
+        "C:14:19": {
+          "geometry_entries": 936360,
+          "rank_changing": 24,
+          "rank_preserving": 0
+        },
+        "C:15:18": {
+          "geometry_entries": 95608,
+          "rank_changing": 0,
+          "rank_preserving": 0
+        },
+        "C:15:19": {
+          "geometry_entries": 1955952,
+          "rank_changing": 83,
+          "rank_preserving": 0
+        },
+        "C:16:18": {
+          "geometry_entries": 464151,
+          "rank_changing": 0,
+          "rank_preserving": 0
+        },
+        "C:16:19": {
+          "geometry_entries": 4029102,
+          "rank_changing": 0,
+          "rank_preserving": 0
+        }
+      },
+      "variant_totals": {
+        "B": {
+          "geometry_entries": 7533533,
+          "rank_changing": 15,
+          "rank_preserving": 0
+        },
+        "C": {
+          "geometry_entries": 7533533,
+          "rank_changing": 118,
+          "rank_preserving": 0
+        }
+      },
+      "logical_and_cooperative_counters": {
+        "allocation_states": 139,
+        "fixed_edge_checks": 129321106,
+        "geometry_entries": 15067066,
+        "pair_trials": 4335,
+        "peak_live_records": 3,
+        "placement_attempts": 958,
+        "process_cpu_seconds": 60.515625,
+        "wall_seconds": 60.785121700013406
+      },
+      "worker_pid": 19884,
+      "worker_birth_filetime": 134402261652349082,
+      "worker_end_filetime": 134402262261338706,
+      "worker_user_cpu_ticks": 562812500,
+      "worker_kernel_cpu_ticks": 43281250,
+      "measured_cpu_ticks": 606093750,
+      "measured_elapsed_ms": 60937,
+      "maximum_gap_ms": 250,
+      "phase_controller_cpu_ticks": 1093750,
+      "job_active_final": 0,
+      "job_lifetime": 1,
+      "exit_code": 0,
+      "measured_and_reconciled": true,
+      "disposition": "STOP_REGISTERED_NEGATIVE"
+    }
+  },
+  "qualification_counters_separate": {
+    "pure_methods": 58,
+    "native_cases": 14,
+    "native_phases": 16
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "frozen_and_custody_checks": {
+    "qualification_head": "7030a277fa299082a8c9fd8b890d4141d243c239",
+    "acceptance_parent": "467d5c30bf79d3728e1e8afb20ee1dc2998d3a26",
+    "prep_base": "e7e91b7627aad9ce19296e16b777b7c5704128e7",
+    "qualification_checks": {
+      "MANIFEST.json": "ab0115778d7cb5cd946b3884044267ebf9dc9d854cf49735f8c1e547bfa87e4d",
+      "V1_FREEZE.json": "3be2f049a031a52b4229c9ce1a754f72fb88efbad08cc365cff5f8996b5c598e",
+      "V1_FINAL_QUALIFICATION.json": "70c13b6de8bcd97850abfefea5f4d2d66ef0c64de4b689f466ba8dfcdfb340f9",
+      "V1_RUN/terminal.json": "c0fd7838f344db1b3d27824da8f2e32dc0056d6ba5c8b57e4d1f3ac227ceb4e3",
+      "V1_RUN/seal.json": "677ba436fb32263cc5e50e686b4ac01090e0443bfd6398acd6de1ce9cf4c913a",
+      "V1_ARCHIVE.json": "3e64372aacc599f1224dec0271b30ac97075e2b9622a7ed797a48072da8398b2"
+    },
+    "artifact_authority": 121,
+    "projects": 44,
+    "runtime": 2628,
+    "verified_archive": 84,
+    "terminal_bindings": 82,
+    "exact_graphs": {
+      "main_41": "5554c99f3db5b777a5e139369479c470b9e220753da2193aecbaa3c9ac6d3515",
+      "main_48_if_admitted": "1e9d8d99227973991cb6fb850cfbcd44cfac2c3470396886c59a9264bd3de3cb",
+      "matched_41": "9e1e04f932faf8c8b41a1fc835419e5c3d7a76063e0e10119fb31cb5bf27ac24",
+      "matched_48": "1f6e94e3293bdf090585064e1634046a6e82f246e738b16da1ea564a1d5b8270"
+    },
+    "prefix_graph": "fd4289cb555097994341bf023415e231841e01e95c1098c7890643252241f061",
+    "streams": {
+      "B:14:18": 52360,
+      "B:14:19": 936360,
+      "B:15:18": 95608,
+      "B:15:19": 1955952,
+      "B:16:18": 464151,
+      "B:16:19": 4029102,
+      "C:14:18": 52360,
+      "C:14:19": 936360,
+      "C:15:18": 95608,
+      "C:15:19": 1955952,
+      "C:16:18": 464151,
+      "C:16:19": 4029102
+    },
+    "limits": {
+      "audit": {
+        "allocation_states": 7092178966,
+        "cpu_seconds": 691200,
+        "fixed_edge_checks": 497213178,
+        "geometry_entries": 15067066,
+        "live_records": 6,
+        "pair_trials": 28121614404,
+        "placement_attempts": 11769116626,
+        "wall_seconds": 864000
+      },
+      "new_evidence_bytes": 16000000,
+      "primary": {
+        "allocation_states": 9311182472,
+        "cpu_seconds": 345600,
+        "fixed_edge_checks": 1064572810,
+        "geometry_entries": 15067066,
+        "live_records": 7,
+        "pair_trials": 8666657664,
+        "placement_attempts": 786364716,
+        "wall_seconds": 518400
+      },
+      "workers": 1
+    },
+    "runtime_executable": "C:\\Users\\Will\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+    "runtime_version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]",
+    "python_cpu_seconds": 1.875,
+    "vacant": [
+      "evidence/validation/LCL_D205_INDEPENDENT_PATH_ORDER_EXECUTION_QUALIFICATION_001/DIRECTOR_ACCEPTANCE.json",
+      "evidence/runs/d205-independent-path-order-menu-001",
+      "runs/d205-independent-path-order-menu-001-approval.json",
+      "runs/d205-independent-path-order-menu-001-live-refs.json",
+      "runs/d205-independent-path-order-menu-001-controller.stdout",
+      "runs/d205-independent-path-order-menu-001-controller.stderr",
+      "evidence/validation/LCL_D205_V1_SCIENTIFIC_EXECUTION_001",
+      "handoffs/CODEX-20261126-d205-v1-scientific-execution.md"
+    ]
+  },
+  "accepted_qualification_artifacts": {
+    "MANIFEST.json": "ab0115778d7cb5cd946b3884044267ebf9dc9d854cf49735f8c1e547bfa87e4d",
+    "V1_FREEZE.json": "3be2f049a031a52b4229c9ce1a754f72fb88efbad08cc365cff5f8996b5c598e",
+    "V1_FINAL_QUALIFICATION.json": "70c13b6de8bcd97850abfefea5f4d2d66ef0c64de4b689f466ba8dfcdfb340f9",
+    "V1_RUN/terminal.json": "c0fd7838f344db1b3d27824da8f2e32dc0056d6ba5c8b57e4d1f3ac227ceb4e3",
+    "V1_RUN/seal.json": "677ba436fb32263cc5e50e686b4ac01090e0443bfd6398acd6de1ce9cf4c913a",
+    "V1_ARCHIVE.json": "3e64372aacc599f1224dec0271b30ac97075e2b9622a7ed797a48072da8398b2"
+  },
+  "separate_acceptance_head": "a0ac1ddbf95f090c48ac3f5b6097cc63d97e246c",
+  "initial_live_ref_observations": {
+    "chunk_id": "d39275",
+    "wall_time_seconds": 3.2909621,
+    "exit_code": 0,
+    "original_token_count": 83,
+    "output": "7030a277fa299082a8c9fd8b890d4141d243c239\trefs/heads/main\nfddfc1dd9541324b2ed2de2505bc750b3e3f0b9d\trefs/tags/lcl-v0.1.0-baseline\n36ea1603602491bf3c1c5b81ed4c23aaa2210e70\trefs/tags/lcl-v0.1.0-baseline^{}\n858a8c1fcfda87ba40bb1adee498a6131504a803\tHEAD\ne48b94eec4091b4fe189e325cab2eda464409943\tHEAD\nCompeting LCL process candidates: 0\r\n"
+  },
+  "fresh_live_ref_observations": {
+    "refs": {
+      "lcl_main": "a0ac1ddbf95f090c48ac3f5b6097cc63d97e246c",
+      "tag": "fddfc1dd9541324b2ed2de2505bc750b3e3f0b9d",
+      "peel": "36ea1603602491bf3c1c5b81ed4c23aaa2210e70",
+      "mdl_head": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+      "bounded_search_head": "e48b94eec4091b4fe189e325cab2eda464409943"
+    },
+    "head": "a0ac1ddbf95f090c48ac3f5b6097cc63d97e246c",
+    "checked_unix": 1795752379,
+    "raw": "a0ac1ddbf95f090c48ac3f5b6097cc63d97e246c\trefs/heads/main\nfddfc1dd9541324b2ed2de2505bc750b3e3f0b9d\trefs/tags/lcl-v0.1.0-baseline\n36ea1603602491bf3c1c5b81ed4c23aaa2210e70\trefs/tags/lcl-v0.1.0-baseline^{}\n858a8c1fcfda87ba40bb1adee498a6131504a803\tHEAD\ne48b94eec4091b4fe189e325cab2eda464409943\tHEAD\nhead=a0ac1ddbf95f090c48ac3f5b6097cc63d97e246c\r\nchecked_unix=1795752379\r\n"
+  },
+  "approval_bindings": {
+    "approval": "301bc68fec780d7b320921ec8a59be65b5e934a1efdbeea01da02837e94252a9",
+    "live": "660ff76b489fddc3b27367277636b0f56985a4580144a62af7dfffd8422d0d20",
+    "director": "b522e2fcfa5ede9ea2dd45cb65f1359292462372f4d9b6a5b73d18d74f48d4d8",
+    "head": "a0ac1ddbf95f090c48ac3f5b6097cc63d97e246c",
+    "age_seconds": 25.417141914367676
+  },
+  "scope": "Initial and fresh read-only custody; one LCL writer, no pre-existing official run."
+}

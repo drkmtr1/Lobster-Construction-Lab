@@ -1,0 +1,57 @@
+{
+  "task": "LCL-D205-INDEPENDENT-PATH-ORDER-EXECUTION-QUALIFICATION-001",
+  "run": "d205-independent-path-order-menu-001",
+  "disposition": "STOP_REGISTERED_NEGATIVE",
+  "scientific_question": "DECIDED_NEGATIVE_WITHIN_REGISTERED_SCOPE",
+  "director_scientific_review": "PENDING",
+  "scientific_invocations": 1,
+  "primary_engine_invocations": 1,
+  "independent_audit_engine_invocations": 1,
+  "variants": [
+    "B",
+    "C"
+  ],
+  "d204_a_invocations": 0,
+  "geometry_visits_per_engine": 15067066,
+  "geometry_visits_per_variant_per_engine": 7533533,
+  "per_engine_compatible_rank_counts": {
+    "primary": {
+      "rank_preserving": 0,
+      "rank_changing": 133
+    },
+    "audit": {
+      "rank_preserving": 0,
+      "rank_changing": 133
+    }
+  },
+  "named_labeling_count": null,
+  "raw_candidates": 0,
+  "future_positive_verifier_invocations": 0,
+  "original_target_checker_invocations": 0,
+  "deterministic_48_edge_verifications": 0,
+  "automatic_retries": 0,
+  "scientific_successors": 0,
+  "closed_scientific_run": true,
+  "accepted_qualification_checkpoint": "7030a277fa299082a8c9fd8b890d4141d243c239",
+  "scientific_admission_checkpoint": "a0ac1ddbf95f090c48ac3f5b6097cc63d97e246c",
+  "official_archive_bytes": 29620,
+  "terminal_identity": {
+    "bytes": 2146,
+    "sha256": "555281d5ae32cc9c12eeae28eb1128332633a3925b3e20b036d474ed721be113"
+  },
+  "seal_identity": {
+    "bytes": 353,
+    "sha256": "31ff84e4e92162c11e1ad5a40f8a5e858936bafd3e044eaf28eff7f0dedee977"
+  },
+  "external_controller": {
+    "pid": 5728,
+    "controller_signaled": true,
+    "outer_timeout": false,
+    "actual_outer_elapsed_ms": 188501,
+    "exit_code": 0,
+    "controller_cpu_total_ticks": 19218750,
+    "controller_cpu_user_ticks": 6093750,
+    "controller_cpu_kernel_ticks": 13125000
+  },
+  "next_action": "Director review of D205 bounded scientific execution results and evidence."
+}
