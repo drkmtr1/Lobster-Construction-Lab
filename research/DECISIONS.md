@@ -703,3 +703,7 @@ ACCEPT the sealed V9 readiness evidence at `55cb26095b2360cb6a43594b921b500bb8eb
 ## D204 V9 bounded execution disposition
 
 Retain `STOP_REGISTERED_NEGATIVE` for the exact registered domain at approved admission checkpoint `9239fc162640f5b401e6e5c820a0040672e85fcf`. The sole authorized invocation completed primary and independent audit, each with matching absolute caps and a reconciled sealed scientific disposition. Preserve historic admission, recovery and qualification results and the earlier closed lanes. No retry, additional campaign or successor was initiated. [Execution record](../evidence/validation/LCL_D204_V9_SCIENTIFIC_EXECUTION_001/ASSESSMENT.md)
+
+## D204 Director acceptance and D205 preparation admission
+
+ACCEPT D204 `STOP_REGISTERED_NEGATIVE` at `ae0971b76f3e548674ac86cea426b761c9ac4d45` under the exact fixed old labeling and increasing extreme-frontier return relation. Admission `9239fc162640f5b401e6e5c820a0040672e85fcf` and V9 qualification `55cb26095b2360cb6a43594b921b500bb8eb0fc9` are separate preserved checkpoints. Both complete 8,518,360-visit traversals passed reconciliation and independent review. Rank counts retain their distinct conventions. Preserve the historical admission stop and V1–V9 evidence. Authorize only `LCL-ORDINARY-SPINE-INDEPENDENT-PATH-ORDER-MENU-001-PREP` on D202 path orders B and C, with zero search or checker executions. [D204 scientific manifest](../evidence/validation/LCL_D204_V9_SCIENTIFIC_EXECUTION_001/MANIFEST.json)
