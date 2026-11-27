@@ -1,0 +1,35 @@
+{
+  "task": "LCL-D204-COMPREHENSIVE-EXECUTION-READINESS-001",
+  "freeze": "4bed7a7430922bc0caba272274a4b6899c8cd3fe77e698eaabf523695cbc33ef",
+  "disposition": "BLOCK_BEFORE_NATIVE_QUALIFICATION",
+  "workers": 0,
+  "pure_development_tests": 20,
+  "review_roles": {
+    "native": [
+      "Cleanup timestamp and retained thread identity repairs present",
+      "Crash worker needs an authenticated post-permit readiness marker",
+      "Unexpected suspended descendant success needs retained observer cleanup proof"
+    ],
+    "runtime": [
+      "PASS within trusted exclusive-writer scope",
+      "Durable worker permit, live lineage and official binding close V1 bypass",
+      "External immediate verified live refs receipt remains required"
+    ],
+    "ipc": [
+      "Pre-ACK candidate durability present",
+      "Evidence/receipt operations need bounded monitor and complete probe accounting",
+      "Add transport fault-order discriminator"
+    ],
+    "science": [
+      "Shared sequence and raw verifier evidence improve V1",
+      "Require exact verifier labels/cut equal durable candidate",
+      "Bind actual live-ref assessment"
+    ],
+    "custody": [
+      "Shutdown retains provisional/seal distinction",
+      "Fatal calls and finalization need bounded observation",
+      "Charge completed workers before subsequent phase",
+      "Archive copies under aggregate cap"
+    ]
+  }
+}

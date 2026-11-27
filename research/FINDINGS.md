@@ -2005,3 +2005,7 @@ The Director accepted the admission stop at 50b5d979cd8977d20602bb379cf7b6b9b917
 ## D204 Windows supervisor qualification stopped at review
 
 The Director accepted the previous revised Windows recovery design at bc08b72dac7e02a3be61058e5794f52ea5babfbb. This task implemented and froze a supervisor candidate. Static review denied the native gate because the emergency waits can exceed the approved probe window, the helper can bypass matrix admission and a candidate receipt can be lost after acknowledgement. The disposition is WINDOWS_SUPERVISOR_QUALIFICATION_BLOCKED. All probes and both scientific phases remain NOT_STARTED. The D204 registered existence question is UNRESOLVED. [Evidence](../evidence/validation/LCL_D204_WINDOWS_SUPERVISOR_QUALIFICATION_001/RESULT.json)
+
+## D204 comprehensive Windows readiness outcome
+
+Native V3 verified the inert positive in the same worker after durable candidate and receipt, then failed lifetime reconciliation. Native V4 observed conhost.exe as a second live Job member before grant and stopped with confirmed exit and zero active members. Lifetime two blocks qualification under the exact rule. V3 extra association remains unattributed. The 85 pure infrastructure regressions passed. The two observed probes do not qualify the full matrix. D204 remains UNRESOLVED and both phases NOT_STARTED. [Outcome](../evidence/validation/LCL_D204_COMPREHENSIVE_EXECUTION_READINESS_001/RESULT.json)

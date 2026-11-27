@@ -1,0 +1,123 @@
+{
+  "task": "LCL-D204-COMPREHENSIVE-EXECUTION-READINESS-001",
+  "disposition": "D204_EXECUTION_READINESS_BLOCKED",
+  "baseline": "369e7ea3981e031e95b4b10eb33df3213a8c59ed",
+  "prior_stop_accepted": "WINDOWS_SUPERVISOR_QUALIFICATION_BLOCKED",
+  "candidate_count": 4,
+  "regression_method_invocations": 85,
+  "versions": [
+    {
+      "id": "v1",
+      "freeze": "d38c618f58a59c458fd5dfc23747ba12887dc13de8a74f30d5e518cb08526c91",
+      "entered_probes": 0,
+      "outcome": "BLOCK_BEFORE_NATIVE_QUALIFICATION"
+    },
+    {
+      "id": "v2",
+      "freeze": "4bed7a7430922bc0caba272274a4b6899c8cd3fe77e698eaabf523695cbc33ef",
+      "entered_probes": 0,
+      "outcome": "BLOCK_BEFORE_NATIVE_QUALIFICATION"
+    },
+    {
+      "id": "v3",
+      "freeze": "de50c742f08a7407a02b61ee67d97fc681d78f5f9be6f08996bc44b21b76624e",
+      "entered_probes": 1,
+      "outcome": "NATIVE_QUALIFICATION_STOPPED_JOB_RECONCILIATION"
+    },
+    {
+      "id": "v4",
+      "freeze": "90f86ace9eb2fa78110f66bd9c2aa732553e651562f06b0b9969128f21b88d4b",
+      "entered_probes": 1,
+      "outcome": "NATIVE_QUALIFICATION_STOPPED_UNEXPECTED_LIVE_JOB_MEMBER"
+    }
+  ],
+  "latest_host_observation": {
+    "raw_bytes": 11100,
+    "immutable_bindings": {
+      "admission.json": {
+        "bytes": 271,
+        "sha256": "8ae33a21409ecc5add92de131c28151cf5d8786036f000442c2794d351c1c577"
+      },
+      "positive-primary-entry.json": {
+        "bytes": 41,
+        "sha256": "b02095852a2ab1467f0ac21afc8df772781872bd861ad85cb6c0ec086a66cdc0"
+      },
+      "positive-primary-phase.json": {
+        "bytes": 2618,
+        "sha256": "ecfaff320b6c10ff240043652b5a83d364c63924df2ca1ff910d17917c2be3c7"
+      },
+      "positive-primary-runtime.json": {
+        "bytes": 5764,
+        "sha256": "12e1a234ee623efdf00712441df459c626da201321c414297eed2d5edd6c2962"
+      },
+      "positive-primary-start.json": {
+        "bytes": 894,
+        "sha256": "7689c95b8c775cda2e22de6d52ea5c86da62856b5c74226ad58578558843d5a2"
+      },
+      "seal.json": {
+        "bytes": 340,
+        "sha256": "1194ac469139db43fbe4b970166799f8ddbea87f8280da8813605129f3a7c12f"
+      },
+      "terminal.json": {
+        "bytes": 1172,
+        "sha256": "7309872d4ca1fd2d8cd493b35b01c8bcb2845d6410801ccd03f42346b95d476b"
+      }
+    },
+    "source_reservation_retained": true,
+    "worker_exited": true,
+    "job_active": 0,
+    "job_lifetime": 2,
+    "unexpected": {
+      "creation": 134402162001157870,
+      "image_name": "conhost.exe",
+      "pid": 29684
+    },
+    "cpu": 625000,
+    "elapsed": 125
+  },
+  "host_fully_qualified": false,
+  "known_native_blocker": "V4 suspended direct CPython was joined in the leaf Windows Job by a second live process with image basename conhost.exe before the work grant. Configured active limit one and accepted lifetime exactly one were not satisfied by the observed state.",
+  "scientific_scope": {
+    "old_prefix_edges": 32,
+    "new_target_edges": 41,
+    "frontier": 0,
+    "induced_old_cut": 14,
+    "physical_cuts": [
+      18,
+      19
+    ],
+    "threshold": "C+2",
+    "both_rank_classes": true,
+    "intermediate_geometry_occurrences": 8518360,
+    "deterministic_suffix_edges": 48
+  },
+  "original_admission": "BLOCKED_AT_ADMISSION_NO_EXECUTION",
+  "registered_existence": "UNRESOLVED",
+  "scientific_phases": {
+    "primary": "NOT_STARTED",
+    "audit": "NOT_STARTED"
+  },
+  "scientific_activity": {
+    "workers": 0,
+    "imports": 0,
+    "checker_invocations": 0,
+    "search_nodes": 0,
+    "replays": 0,
+    "task_bytecode_files": 0
+  },
+  "ceiling_changes": false,
+  "scientific_approval_created": false,
+  "accepted_qualification_marker_created": false,
+  "accounting": {
+    "new_recovery_evidence_retained_source_run_bytes": 22564,
+    "new_recovery_evidence_copied_run_bytes": 22564,
+    "v3_aggregate_phase_cpu_seconds": 0.09375,
+    "v4_aggregate_phase_cpu_seconds": 0.0625,
+    "v3_measured_job_plus_full_controller_cpu_seconds": 4.78125,
+    "v4_measured_job_plus_full_controller_cpu_seconds": 4.875,
+    "complete_aggregate_preparation_cpu_seconds": null,
+    "measurement_boundary": "Native probe phase snapshots and independently signaled full controller samples. Whole preparation process tree, agent activity, ordinary PowerShell and Git CPU not fully metered."
+  },
+  "same_host_repeat_repair_authorized_after_task": false,
+  "next_action": "Director review of D204 comprehensive execution-readiness evidence and the Windows Job membership blocker."
+}

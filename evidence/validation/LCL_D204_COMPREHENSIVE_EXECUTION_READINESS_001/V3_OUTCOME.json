@@ -1,0 +1,66 @@
+{
+  "task": "LCL-D204-COMPREHENSIVE-EXECUTION-READINESS-001",
+  "freeze": "de50c742f08a7407a02b61ee67d97fc681d78f5f9be6f08996bc44b21b76624e",
+  "disposition": "NATIVE_QUALIFICATION_STOPPED_JOB_RECONCILIATION",
+  "entered_probes": 1,
+  "verified_worker_exited": true,
+  "verified_controller_exited": true,
+  "job_active": 0,
+  "job_lifetime": 2,
+  "expected_lifetime": 1,
+  "job_kernel_ticks": 625000,
+  "worker_kernel_ticks": 468750,
+  "second_lifetime_attribution": null,
+  "scope": "No known live or escaped process. Extra historical Job attribution remains unresolved. V4 instrumented cold revision may proceed within consolidated task and strict meter.",
+  "archive": {
+    "raw_bytes": 11464,
+    "immutable_bindings": {
+      "admission.json": {
+        "bytes": 271,
+        "sha256": "f8ec635cd26c5197b8adc928f59729041595f6d238a195e73c807b8f5d81e937"
+      },
+      "positive-primary-candidate.bin": {
+        "bytes": 359,
+        "sha256": "57d3ad4a491ac570d5187ff3bd8b40bb6d3ad095f80d95b1b008039667eca438"
+      },
+      "positive-primary-candidate.json": {
+        "bytes": 489,
+        "sha256": "6dd66dcea2fda52891be330b3fa83a9665551f9029c54c9a97e18a0888f002d1"
+      },
+      "positive-primary-entry.json": {
+        "bytes": 41,
+        "sha256": "b02095852a2ab1467f0ac21afc8df772781872bd861ad85cb6c0ec086a66cdc0"
+      },
+      "positive-primary-phase.json": {
+        "bytes": 1379,
+        "sha256": "378536432f1eacdff801dfb88c5123de79ba2f436677f8092399b923e78a29f1"
+      },
+      "positive-primary-runtime.json": {
+        "bytes": 5764,
+        "sha256": "e1aa876882d10fc72f8a18c86f7d868ab9f70c2b87a623b6bb3f1cfb0478bd7f"
+      },
+      "positive-primary-start.json": {
+        "bytes": 893,
+        "sha256": "b6303f9ba147312f4fd514c382956f25755f2f8ebe6d48dbbdb0247f0ca200bd"
+      },
+      "positive-primary-verification.json": {
+        "bytes": 382,
+        "sha256": "82a8f0542be27778d1dbcf672f4ddf8e599c08f55de262e27e6930dab269dfdc"
+      },
+      "seal.json": {
+        "bytes": 340,
+        "sha256": "6f5ff4ff3168345ada4d7c502e4953dca431128b3fd9406df8b73dbf23ad3edf"
+      },
+      "terminal.json": {
+        "bytes": 1546,
+        "sha256": "7c25cf00313f8c9705dbd87b874725a65f6a6d1f783028ff3b430771dbb0c40a"
+      }
+    },
+    "source_reservation_retained": true,
+    "confirmed_worker_exited": true,
+    "job_active": 0,
+    "job_lifetime": 2,
+    "observed_in_job_extra_pid": null
+  },
+  "post_host_reviews": "Independent native, runtime and evidence-custody roles inspected actual receipts. No accessible existing process log to attribute the lifetime delta. Current worker in Job exited, all members cleared and no broker/explicit breakaway."
+}

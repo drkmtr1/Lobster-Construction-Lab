@@ -1,0 +1,37 @@
+# D204 execution-readiness closeout
+
+**D204_EXECUTION_READINESS_BLOCKED.** The consolidated task implemented the native Windows supervisor, admission path, durable verification protocol, and the dormant adapter for the exact frozen scientific phases. The final launch failed the Windows Job membership gate before authorizing fixture work. Four versioned candidates have been used. No scientific phase started. [Audit and traceability](AUDIT.md) · [Disposition](RESULT.json)
+
+## Candidate history
+
+| Version | Pure regression methods | Native entries | Disposition |
+| --- | ---: | ---: | --- |
+| V1 | 18 | 0 | Static block. The later Job drain could exceed cleanup grace, the direct worker accepted substitute events, and phase custody/measurement checks were incomplete. |
+| V2 | 20 | 0 | Static block. Worker grants were bound to durable permits and live identities. Final phase evidence could still block and the crash/child fixtures could misclassify or lose an exit. |
+| V3 | 23 | 1 | All five pre-launch roles approved inert qualification. The positive fixture verified in the original process after durable raw candidate and receipt. Final measured Job lifetime 2 failed reconciliation. Cleanup verified. |
+| V4 | 24 | 1 | The independent pre-launch roles approved instrumented qualification. An unexpected live Job member prevented the work grant. The entire matrix stopped at its first case. |
+
+Each candidate is separately frozen and preserved. All 85 pure regression methods passed. Those tests use inert records and do not qualify native controls. Two of the maximum 48 native entries were used. Neither native entry qualified. The fixed 14-case matrix plans 16 entries, including paired phase cases. All unentered controls remain unobserved. [V1 review](V1_REVIEW.json) · [V2 review](V2_REVIEW.json) · [V3 host result](V3_OUTCOME.json) · [V4 review](V4_REVIEW.json) · [Regression receipts](REGRESSIONS.json)
+
+## Exact host observations
+
+V3 entered PID 19860 under the approved direct CPython 3.13.17 executable and DLL. Both candidate artifacts were durable before the controller acknowledged. The same process returned the inert verification and exited normally. The Job started with one suspended process and ended with zero active members and two lifetime associations. Job kernel CPU was 625,000 ticks, while the retained worker reported 468,750. User counts were equal. The extra association's identity remains unavailable in V3. No extant process was detected. [V3 phase](V3_RUN/positive-primary-phase.json) · [Controller exit](V3_LAUNCH.json)
+
+V4 attached the diagnostic completion port to the empty leaf Job before creating the worker. The initial suspended PID list had only the exact Python worker, PID 28788. At the pre-grant snapshot, message 6 and the contemporaneous live PID list identified an additional member, PID 29684. A retained handle confirmed membership and captured the creation FILETIME and image basename `conhost.exe`. Both reported active and lifetime counts were 2 with a configured active limit of 1. The controller did not send the work grant or acknowledgement, stopped the Job, verified the worker exit, and recorded two empty/zero-active final snapshots. It retained lifetime 2 and exited 2 after 5,154 ms. This directly identifies V4's second member. It does not establish precisely which operating-system call created it or attribute the second association in V3. [V4 phase and Job events](V4_RUN/positive-primary-phase.json) · [Controller exit](V4_LAUNCH.json)
+
+The two rejected probes recorded 172 ms/0.09375 CPU seconds and 125 ms/0.0625 CPU seconds inside their phase accounting, respectively. Independent outer measurements include the full signaled controller and Job component readings. Avoid summing the phase controller subset again. Source runs and archive copies together account for 45,128 bytes before freezes, sources, logs and authoritative records. Complete preparation process-tree CPU, including external tool and reviewer activity, is unavailable. Sampled limits and termination have no demonstrated instantaneous cutoff or worst-case latency bound. [Launch evidence](V3_LAUNCH.json) · [Launch evidence V4](V4_LAUNCH.json)
+
+## What was established
+
+| Requirement area | Static or regression evidence | Windows observation and remaining condition |
+| --- | --- | --- |
+| Custody and runtime | Historical intake, exact frozen source/input/dependency hashes, bounded file-object checks, fresh and consumed admission semantics | Both probes loaded exact Python/DLL and took the isolated path. No future Owner approval or qualified marker exists. |
+| Single admission and native lifecycle | V4 binds grants to durable phase receipts, PID/creation and live parent, uses atomic Job assignment and a common deadline | Native at-creation membership/resume observed. V4 then had a second live member, which defeats required ordinary one-member qualification. Deadline fault cases and kill-on-close probe did not enter. |
+| Resource accounting | One policy, retained process/Job clocks, strict logical receipt schema, no missing-to-zero acceptance, phase evidence measured through reconciliation | Both entered probes had finite measured receipts and verified exit. Strict Job reconciliation failed both. Native CPU, sampled CPU and elapsed thresholds and the gap control were unentered. |
+| IPC and evidence | Strict frame parser/order, retained absolute deadline, actual transport fault regressions, raw plus receipt before ACK, provisional terminal and independent custody seal | V3 durable ACK/same-worker fixture verification observed. V4 withheld work before ACK. Host adversarial IPC and byte-cap fixtures remain unentered. |
+| Scientific sequence | Exact frozen primary, independent audit, budget and positive verifier adapter reviewed without import. Shared inert orchestration, candidate report coverage and exhaustion count tested. | No scientific invocation. The later matrix cases covering negative, incomplete, verification failure and audit disagreement were unentered. |
+| Operation and publication | Exact path, runtime, approval schema and fresh refs procedure recorded. Separate controlled local Git admission and immutable evidence paths. | The scientific gate is closed. No change of security settings, tools, scientific scope, time or logical ceilings occurred. |
+
+The V4 observation suggests testing a console-detached launch in a separately authorized version. Microsoft documents console detachment through `DETACHED_PROCESS` and gives separate semantics to `CREATE_NO_WINDOW`. A focused later candidate could replace only the latter flag, retain the exact direct executable, atomic Job assignment, pipes, event handles and all same metrics, and require exactly one lifetime member under the full reviewed matrix. That is an untested hypothesis on this host. Changes to breakaway or security settings are outside the proposed repair. [Windows creation flags](https://learn.microsoft.com/en-us/windows/win32/procthread/process-creation-flags) · [Windows console attachment](https://learn.microsoft.com/en-us/windows/console/creation-of-a-console)
+
+The original D204 admission remains **BLOCKED_AT_ADMISSION_NO_EXECUTION**. Primary and audit remain **NOT_STARTED**, and the registered existence remains **UNRESOLVED** for the exact fixed prefix and both rank classes. No mathematical exclusion follows from this engineering stop.

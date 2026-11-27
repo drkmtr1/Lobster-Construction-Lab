@@ -1146,3 +1146,7 @@ Keep the accepted symbolic exclusions and both unresolved rank classes at the fi
 ## D204 Windows supervisor qualification gate remains open
 
 A separately authorized version would require one cleanup deadline across layers, matrix-controlled one-shot helper admission, and a durable candidate receipt before acknowledgement. The reviewed frozen version was stopped before host observation. Native behavior and resource reconciliation remain unqualified. The D204 scientific obligations, both rank classes and bounded traversal remain as accepted, with no new mathematical exclusion or future launch permission. [Frozen stop findings](../evidence/validation/LCL_D204_WINDOWS_SUPERVISOR_QUALIFICATION_001/PRELAUNCH_REVIEW.json)
+
+## D204 Job-membership qualification remains open
+
+Before scientific authorization, a separately reviewed exact Windows launch must demonstrate zero active and exactly one lifetime Job process for ordinary phases, alongside complete native resource and evidence qualification. The final bounded host observation showed two members despite configured active limit one. Both processes were cleared from the Job before closeout. Test any console-detachment repair prospectively. No mathematical obligation, domain, ceiling or scientific state changed. [V4 host evidence](../evidence/validation/LCL_D204_COMPREHENSIVE_EXECUTION_READINESS_001/V4_RUN/positive-primary-phase.json)

@@ -1,0 +1,91 @@
+{
+  "head": "369e7ea3981e031e95b4b10eb33df3213a8c59ed",
+  "refs": [
+    "369e7ea3981e031e95b4b10eb33df3213a8c59ed",
+    "bc08b72dac7e02a3be61058e5794f52ea5babfbb",
+    "50b5d979cd8977d20602bb379cf7b6b9b9176a2c",
+    "6ace7ca113a8f4fd4f68bb1cb7e1bd326979cfb7"
+  ],
+  "manifests": {
+    "evidence/validation/LCL_D204_WINDOWS_SUPERVISOR_QUALIFICATION_001": "71ac5a464c9a3d8eca194f66c7df40b99e532ac99ed7e2962e6cb10470ffa5db",
+    "evidence/validation/LCL_D204_EXECUTION_ENVIRONMENT_RECOVERY_PREP_001": "f424efce14fa3949198f753dc061a4acbf80d120bcdc7eb07985252999f74b4e",
+    "evidence/runs/d204-consecutive-positive-coordinated-gap-return-001": "1317ca61f27526654249d45f7d6285c04c1fa81bcb0934d3f5bc7b08046b5d3c",
+    "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_COORDINATED_GAP_RETURN_001_PREP": "1fed8bbd218557dd274af443bbb821a8079a15046d4ba27aeb2868b3ecea7236"
+  },
+  "immutable_artifacts": [
+    15,
+    10,
+    7,
+    18
+  ],
+  "historical_authorities": 20,
+  "frozen_scientific_sources": 27,
+  "old_project": 63,
+  "old_runtime": 2628,
+  "original_approval": {
+    "bytes": 6675,
+    "sha256": "c624646ba460a2f52a891fd2830110400943c084f4854c4cfb287186b33526d8"
+  },
+  "runtime": {
+    "version": [
+      3,
+      13,
+      17
+    ],
+    "base_executable": {
+      "bytes": 105696,
+      "sha256": "7c2fc2b303a4ee3cc14cc17b47bc6e8bca98c78792edd123b846a560da44b203"
+    },
+    "dll": {
+      "bytes": 6142688,
+      "sha256": "26026530507a7389e7892ce130e7c1753b32a2df03ec3721d45ad8c1705d40eb"
+    },
+    "launcher": {
+      "bytes": 255200,
+      "sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664"
+    },
+    "sys_path_slots": 4
+  },
+  "source_init_blob": "5a37d7ad22fd13703abb54b68367e2fcbd6a2082",
+  "limits": {
+    "audit": {
+      "allocation_states": 2366611480,
+      "cpu_seconds": 345600,
+      "fixed_edge_checks": 281105880,
+      "geometry_entries": 8518360,
+      "live_records": 6,
+      "pair_trials": 5338255680,
+      "placement_attempts": 2561339680,
+      "wall_seconds": 432000
+    },
+    "new_evidence_bytes": 128000000,
+    "primary": {
+      "allocation_states": 225145280,
+      "cpu_seconds": 172800,
+      "fixed_edge_checks": 351307720,
+      "geometry_entries": 8518360,
+      "live_records": 7,
+      "pair_trials": 210605520,
+      "placement_attempts": 14539760,
+      "wall_seconds": 259200
+    },
+    "workers": 1
+  },
+  "vacant": [
+    "runs/d204-consecutive-positive-coordinated-gap-return-001",
+    "runs/d204-windows-supervisor-qualification-001",
+    "runs/d204-readiness-v1",
+    "runs/d204-science-v1",
+    "evidence/validation/LCL_D204_COMPREHENSIVE_EXECUTION_READINESS_001",
+    "research/d204_readiness_v1",
+    "handoffs/CODEX-20261126-d204-comprehensive-execution-readiness.md"
+  ],
+  "measured_cpu": 2.203125,
+  "live_main": "369e7ea3981e031e95b4b10eb33df3213a8c59ed",
+  "read_only_upstream_pins": [
+    "858a8c1fcfda87ba40bb1adee498a6131504a803",
+    "e48b94eec4091b4fe189e325cab2eda464409943"
+  ],
+  "tag_object": "fddfc1dd9541324b2ed2de2505bc750b3e3f0b9d",
+  "tag_peel": "36ea1603602491bf3c1c5b81ed4c23aaa2210e70"
+}

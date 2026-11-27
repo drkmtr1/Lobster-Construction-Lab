@@ -675,3 +675,11 @@ The bounded inventory supplied no qualifying existing Linux environment. Prepare
 ## D204 recovery acceptance and Windows supervisor qualification — November 26, 2026
 
 Accept the prior native Windows recovery proposal within its exact documented scope. Implement a fresh synthetic-only qualification entry and freeze its runtime, source, and eleven-probe matrix. Independent review found the cleanup deadline, helper admission and candidate receipt blockers before native execution. Stop under the frozen identity. Neither the source revision nor the scoped scientific domain is reopened. No host qualification or future scientific run is authorized. [Review](../evidence/validation/LCL_D204_WINDOWS_SUPERVISOR_QUALIFICATION_001/PRELAUNCH_REVIEW.json)
+
+## D204 comprehensive execution-readiness remediation - November 26, 2026
+
+Accept and retain the prior qualification stop at 369e7ea3981e031e95b4b10eb33df3213a8c59ed. Begin the bounded infrastructure-only task with the consolidated custody and execution audit. Replace the ordinary helper with direct Job ownership. Use an absolute deadline with cleanup inside it, event-gated execution, exact-byte scientific imports and a pre-ACK durable candidate receipt. Discriminate timed cleanup, direct owner bypass and acknowledgement loss first, then run the full reviewed synthetic protocol. Preserve all scientific algorithms, inputs, mathematical scope and ceilings. [Issue register](../evidence/validation/LCL_D204_COMPREHENSIVE_EXECUTION_READINESS_001/AUDIT.md)
+
+## D204 comprehensive remediation terminal disposition
+
+Retain all four immutable infrastructure candidates and both bounded native failures. Stop at the authorized version ceiling. A console-detached worker is a discriminator to review under a separate scope, with the original direct binary, Job, exact scientific measurements and no policy changes. The test has no observed result. Retain the closed scientific gate and do not create a readiness marker or scientific approval. [Assessment](../evidence/validation/LCL_D204_COMPREHENSIVE_EXECUTION_READINESS_001/ASSESSMENT.md)

@@ -1,0 +1,40 @@
+{
+  "task": "LCL-D204-COMPREHENSIVE-EXECUTION-READINESS-001",
+  "freeze": "d38c618f58a59c458fd5dfc23747ba12887dc13de8a74f30d5e518cb08526c91",
+  "disposition": "BLOCK_BEFORE_NATIVE_QUALIFICATION",
+  "workers": 0,
+  "pure_development_tests": 18,
+  "review_roles": {
+    "native": [
+      "Cleanup grace omitted from final Job drain",
+      "Transport TID reuse on cancellation",
+      "Crash observer receives child identity too late and can misclassify natural exit",
+      "Timestamp observation after native measurement",
+      "Active refusal needs attribution"
+    ],
+    "runtime": [
+      "Direct worker accepted caller's own event without live admission and PID identity",
+      "Qualification marker and future pinned Git continuity incomplete",
+      "Workspace CWD for native loader",
+      "Bound reads at use"
+    ],
+    "ipc": [
+      "Durable raw and receipt now precede ACK",
+      "Gap and completion race",
+      "Missing typed scientific receipt fields",
+      "Verification failure raw evidence and archive seal"
+    ],
+    "science": [
+      "Exact input and adapter signatures correct",
+      "Primary reconciliation must precede audit",
+      "Synthetic and official orchestration diverged",
+      "Audit discrepancy and CLI failure semantics"
+    ],
+    "custody": [
+      "Missing post-receipt/aggregate checks",
+      "Unsafe cleanup lacks bounded evidence",
+      "Verification should reject foreign paths and provisional terminal success",
+      "Exact future path differs from intake stub"
+    ]
+  }
+}
