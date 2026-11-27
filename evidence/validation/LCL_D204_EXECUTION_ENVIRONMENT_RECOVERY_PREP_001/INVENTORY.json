@@ -1,0 +1,99 @@
+{
+  "windows_build": [
+    10,
+    0,
+    26200
+  ],
+  "architecture": "AMD64",
+  "process_clock": "GetProcessTimes()",
+  "win32_python_version": [
+    3,
+    13,
+    17
+  ],
+  "wsl_executable": {
+    "present": true,
+    "system_relative": "System32/wsl.exe",
+    "sha256": "51d92e6e565162f4a84f2c9b34cc320ae24f3d5a2c6141fac4b8d122b05146fc"
+  },
+  "native_discovery": {
+    "docker.exe": false,
+    "podman.exe": false,
+    "multipass.exe": false,
+    "bash.exe": false
+  },
+  "wsl_queries": [
+    {
+      "args": [
+        "--status"
+      ],
+      "exit": 50,
+      "stdout": "",
+      "stderr": "The Windows Subsystem for Linux is not installed. You can install by running 'wsl.exe --install'.\r\nFor more information please visit https://aka.ms/wslinstall",
+      "observed_elapsed_seconds": 0.08636
+    },
+    {
+      "args": [
+        "--version"
+      ],
+      "exit": 1,
+      "stdout": "",
+      "stderr": "The Windows Subsystem for Linux is not installed. You can install by running 'wsl.exe --install'.\r\nFor more information please visit https://aka.ms/wslinstall",
+      "observed_elapsed_seconds": 0.063847
+    },
+    {
+      "args": [
+        "--list",
+        "--verbose"
+      ],
+      "exit": 1,
+      "stdout": "",
+      "stderr": "The Windows Subsystem for Linux is not installed. You can install by running 'wsl.exe --install'.\r\nFor more information please visit https://aka.ms/wslinstall",
+      "observed_elapsed_seconds": 0.060645
+    }
+  ],
+  "distro_started": false,
+  "synthetic_probes": 0,
+  "inventory_process_cpu_seconds": 0.0625,
+  "inventory_elapsed_seconds": 0.50363,
+  "additional_bounded_vm_discovery": {
+    "VBoxManage": false,
+    "vmrun": false,
+    "qemu_system_x86_64": false,
+    "vagrant": false,
+    "HyperVModuleAvailable": false,
+    "EnvironmentLogicalProcessorCount": 32
+  },
+  "native_metadata": {
+    "found_exports": {
+      "CreateJobObjectW": true,
+      "SetInformationJobObject": true,
+      "QueryInformationJobObject": true,
+      "CreateProcessW": true,
+      "AssignProcessToJobObject": true,
+      "IsProcessInJob": true,
+      "ResumeThread": true,
+      "TerminateJobObject": true,
+      "TerminateProcess": true,
+      "WaitForSingleObject": true,
+      "GetProcessTimes": true,
+      "GetTickCount64": true,
+      "QueryUnbiasedInterruptTimePrecise": false,
+      "InitializeProcThreadAttributeList": true,
+      "UpdateProcThreadAttribute": true,
+      "DeleteProcThreadAttributeList": true,
+      "GetExitCodeProcess": true
+    },
+    "native_control_calls": 0,
+    "process_cpu_seconds": 0,
+    "elapsed_seconds": 0.00021779999951831996
+  },
+  "inventory_scope": "Status/version/list --verbose only; PATH command and module discovery; no virtualization or distro configuration, no distributions started.",
+  "restrictions_observed": {
+    "packages_installed": 0,
+    "system_configuration_changes": 0,
+    "security_changes": 0,
+    "scientific_workers": 0,
+    "synthetic_workers": 0
+  }
+}

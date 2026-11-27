@@ -1,0 +1,107 @@
+{
+  "accepted_admission": "50b5d979cd8977d20602bb379cf7b6b9b9176a2c",
+  "accepted_admission_status": "BLOCKED_AT_ADMISSION_NO_EXECUTION",
+  "accepted_preparation": "6ace7ca113a8f4fd4f68bb1cb7e1bd326979cfb7",
+  "accepted_scientific_limits": {
+    "audit": {
+      "allocation_states": 2366611480,
+      "cpu_seconds": 345600,
+      "fixed_edge_checks": 281105880,
+      "geometry_entries": 8518360,
+      "live_records": 6,
+      "pair_trials": 5338255680,
+      "placement_attempts": 2561339680,
+      "wall_seconds": 432000
+    },
+    "new_evidence_bytes": 128000000,
+    "primary": {
+      "allocation_states": 225145280,
+      "cpu_seconds": 172800,
+      "fixed_edge_checks": 351307720,
+      "geometry_entries": 8518360,
+      "live_records": 7,
+      "pair_trials": 210605520,
+      "placement_attempts": 14539760,
+      "wall_seconds": 259200
+    },
+    "workers": 1
+  },
+  "activity": {
+    "historical_replays": 0,
+    "labeling_search_nodes": 0,
+    "native_process_control_invocations": 0,
+    "original_checker_invocations": 0,
+    "scientific_consumer_imports": 0,
+    "scientific_worker_launches": 0,
+    "solver_invocations": 0,
+    "synthetic_probes": 0,
+    "task_bytecode_files": 0
+  },
+  "disposition": "RECOVERY_PREPARED_REVISED_WINDOWS_CONTRACT",
+  "exact_scope": {
+    "actual_41_digest": "5554c99f3db5b777a5e139369479c470b9e220753da2193aecbaa3c9ac6d3515",
+    "actual_48_is_deterministic_only": true,
+    "deterministic_48_digest": "1e9d8d99227973991cb6fb850cfbcd44cfac2c3470396886c59a9264bd3de3cb",
+    "exact_old_labeling_file": "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_COORDINATED_GAP_RETURN_001_PREP/PREFIXES.json",
+    "frontier": 0,
+    "induced_old_cut": 14,
+    "input_digest": "fd4289cb555097994341bf023415e231841e01e95c1098c7890643252241f061",
+    "original_old_labels_unchanged": true,
+    "physical_cuts": [
+      18,
+      19
+    ],
+    "profile": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "prospective_cut_geometry_occurrences": 8518360,
+    "rank_classes": [
+      "rank_preserving",
+      "rank_changing"
+    ],
+    "threshold": "C+2"
+  },
+  "present_read_only_environment": "No qualifying existing Linux environment found in bounded inventory.",
+  "proposal_version": 1,
+  "proposed_windows_policy": {
+    "audit_early_cpu_seconds": 345540,
+    "audit_early_wall_seconds": 431940,
+    "cleanup_observation_grace_seconds": 10,
+    "cpu_clock": "GetProcessTimes user+kernel raw FILETIME counts, plus terminal Job totals",
+    "cpu_reserve_seconds": 60,
+    "elapsed_reserve_seconds": 60,
+    "fail_closed_measured_acceptance": true,
+    "hard_instantaneous_total_cpu_cutoff": false,
+    "hard_instantaneous_wall_termination": false,
+    "job_assignment": "configure empty Job and assign at process creation with PROC_THREAD_ATTRIBUTE_JOB_LIST; verify suspended membership; no post-create fallback",
+    "max_admissible_observation_gap_milliseconds": 2000,
+    "native_guard": "Job user-mode limit with default terminate-at-end, active process limit 1, kill-on-close, no breakaway",
+    "primary_early_cpu_seconds": 172740,
+    "primary_early_wall_seconds": 259140,
+    "require_post_exit_resource_reconciliation": true,
+    "sample_target_milliseconds": 250,
+    "terminal_evidence_reservation_bytes": 65536,
+    "wall_clock": "GetTickCount64, suspend-inclusive",
+    "worker_invocation": "proposed direct frozen base CPython executable; later bind exact runtime and DLL"
+  },
+  "recovery_limits": {
+    "aggregate_observed_cpu_seconds": 1800,
+    "aggregate_observed_wall_seconds": 3600,
+    "new_evidence_bytes": 16000000,
+    "per_probe_observed_cpu_seconds": 10,
+    "per_probe_observed_wall_seconds": 30,
+    "scoped_writers": 1,
+    "synthetic_probes": 12,
+    "synthetic_workers": 1
+  },
+  "registered_science": "UNRESOLVED",
+  "schema_version": 1,
+  "scientific_environment_admitted": false,
+  "scientific_launch_authorized": false,
+  "sole_next_action": "Director review of D204 execution-environment recovery preparation.",
+  "supervisor_implemented": false,
+  "task": "LCL-D204-EXECUTION-ENVIRONMENT-RECOVERY-PREP-001"
+}

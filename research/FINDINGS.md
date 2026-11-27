@@ -1997,3 +1997,7 @@ D204 proves exact weight and cut conditions for arbitrary supported or unsupport
 ## D204 execution admission — Director acceptance and scope
 
 The Director accepted preparation at 6ace7ca113a8f4fd4f68bb1cb7e1bd326979cfb7, including the improper-cut and complete maximum-frontier exclusions, the exact residual predicates, and the frozen consumers. The admitted invocation required independently enforceable hard combined process CPU and elapsed limits. Admission stopped before launch because that total CPU guard could not be established on the bound Windows runtime. The registered existence question remains unresolved for both surviving minimum-frontier cuts and both rank classes. [Admission](../evidence/runs/d204-consecutive-positive-coordinated-gap-return-001/HARD_LIMIT_REVIEW.md)
+
+## D204 execution-environment recovery preparation
+
+The Director accepted the admission stop at 50b5d979cd8977d20602bb379cf7b6b9b9176a2c, with no added exclusion. Both phases remain NOT_STARTED. Bounded inventory found no qualifying existing Linux environment. The prepared native Windows proposal distinguishes native user-mode CPU stopping, sampled combined CPU and elapsed watchdogs, and post-exit measured acceptance. It is a proposal for separate Owner review, with unchanged scientific code and limits and no environment admitted. The registered question remains unresolved. [Recovery assessment](../evidence/validation/LCL_D204_EXECUTION_ENVIRONMENT_RECOVERY_PREP_001/ENFORCEMENT.md)

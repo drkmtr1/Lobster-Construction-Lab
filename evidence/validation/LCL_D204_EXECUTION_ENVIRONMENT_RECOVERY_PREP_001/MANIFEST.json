@@ -1,0 +1,173 @@
+{
+  "activity": {
+    "historical_replays": 0,
+    "labeling_search_nodes": 0,
+    "native_process_control_invocations": 0,
+    "original_checker_invocations": 0,
+    "scientific_consumer_imports": 0,
+    "scientific_worker_launches": 0,
+    "solver_invocations": 0,
+    "synthetic_probes": 0,
+    "task_bytecode_files": 0
+  },
+  "admission_manifest": {
+    "bytes": 7574,
+    "path": "evidence/runs/d204-consecutive-positive-coordinated-gap-return-001/MANIFEST.json",
+    "sha256": "1317ca61f27526654249d45f7d6285c04c1fa81bcb0934d3f5bc7b08046b5d3c"
+  },
+  "authoritative_ledgers": {
+    "research/DECISIONS.md": {
+      "bytes": 196532,
+      "sha256": "932024c5b3dd4bec01d0a9059e5bd4ce783e778a6d18279758c530a8c1500091"
+    },
+    "research/FAILED_HYPOTHESES.md": {
+      "bytes": 101282,
+      "sha256": "a6ce00d4dfe3ed252798a9d51c8d36a641be45be94e07777e05198de78f1bffd"
+    },
+    "research/FINDINGS.md": {
+      "bytes": 236759,
+      "sha256": "84360b99ba661f132a3d1b2a238b852df132adcfd6a0b21fd37ea98bfe64bf79"
+    },
+    "research/PROOF_OBLIGATIONS.md": {
+      "bytes": 135745,
+      "sha256": "21e2abd7b47e76ebf977780687a14a2a101113f2f4ea530bb750b24a31268262"
+    }
+  },
+  "canonical_state": {
+    "bytes": 128773,
+    "sha256": "71befbc50b4e03ced0dad8698c9834c3085e1d994d68c218e9c32f0aed9bfd44"
+  },
+  "director_disposition": "ACCEPTED_PRIOR_ADMISSION_STOP_WITHIN_SCOPE",
+  "exact_scientific_scope": {
+    "actual_41_digest": "5554c99f3db5b777a5e139369479c470b9e220753da2193aecbaa3c9ac6d3515",
+    "actual_48_is_deterministic_only": true,
+    "deterministic_48_digest": "1e9d8d99227973991cb6fb850cfbcd44cfac2c3470396886c59a9264bd3de3cb",
+    "exact_old_labeling_file": "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_COORDINATED_GAP_RETURN_001_PREP/PREFIXES.json",
+    "frontier": 0,
+    "induced_old_cut": 14,
+    "input_digest": "fd4289cb555097994341bf023415e231841e01e95c1098c7890643252241f061",
+    "original_old_labels_unchanged": true,
+    "physical_cuts": [
+      18,
+      19
+    ],
+    "profile": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "prospective_cut_geometry_occurrences": 8518360,
+    "rank_classes": [
+      "rank_preserving",
+      "rank_changing"
+    ],
+    "threshold": "C+2"
+  },
+  "files": {
+    "evidence/validation/LCL_D204_EXECUTION_ENVIRONMENT_RECOVERY_PREP_001/BASELINE.json": {
+      "bytes": 6773,
+      "sha256": "94fda8dbb801f6f19953275effafa8b29127e47b9e252ea435e96f2d276e91ef"
+    },
+    "evidence/validation/LCL_D204_EXECUTION_ENVIRONMENT_RECOVERY_PREP_001/ENFORCEMENT.md": {
+      "bytes": 7717,
+      "sha256": "82970564af7631775896811f6d59720fcb39b55519ec9d0c372bf45e4eb416d8"
+    },
+    "evidence/validation/LCL_D204_EXECUTION_ENVIRONMENT_RECOVERY_PREP_001/INVENTORY.json": {
+      "bytes": 2963,
+      "sha256": "1e31de01c71d0d2b69010c82f2613530f963d57665433ac3b64e31a5a9ab0834"
+    },
+    "evidence/validation/LCL_D204_EXECUTION_ENVIRONMENT_RECOVERY_PREP_001/PREP_CHECKS.json": {
+      "bytes": 1958,
+      "sha256": "c328c000ac3ba61a49b4b263005824e0cb9de1913fda54256f80f72fae8b2a39"
+    },
+    "evidence/validation/LCL_D204_EXECUTION_ENVIRONMENT_RECOVERY_PREP_001/PROPOSAL.json": {
+      "bytes": 4096,
+      "sha256": "5c1a382abe594d093443e7e2b4b390cab9785f57b73158c1b34a2e978eb09293"
+    },
+    "evidence/validation/LCL_D204_EXECUTION_ENVIRONMENT_RECOVERY_PREP_001/REVIEWS.md": {
+      "bytes": 2892,
+      "sha256": "5d70858dadc25eafc69bdebd6a357dffbc4a02b3975076c7976b581e7085d247"
+    },
+    "evidence/validation/LCL_D204_EXECUTION_ENVIRONMENT_RECOVERY_PREP_001/WINDOWS_RECOVERY_CONTRACT.md": {
+      "bytes": 15964,
+      "sha256": "0431dd20e6f98e9eab11994835525e5434d3d0f6fcb0609b3e0c4af1c9261ab6"
+    },
+    "evidence/validation/LCL_D204_EXECUTION_ENVIRONMENT_RECOVERY_PREP_001/export_discovery.py": {
+      "bytes": 767,
+      "sha256": "8d26ff1e68fd570a0af97620d52bedbfbea0814f0640844ac2a332ec4a70b97c"
+    },
+    "evidence/validation/LCL_D204_EXECUTION_ENVIRONMENT_RECOVERY_PREP_001/inventory.py": {
+      "bytes": 2030,
+      "sha256": "6ff92bc8d1397b5bb808b4464bfc602d80c10da2c85a74f50d238bdd01440441"
+    },
+    "handoffs/CODEX-20261126-d204-execution-environment-recovery-preparation.md": {
+      "bytes": 2769,
+      "sha256": "5694fe41a00e35d511b9451c5c4ff437d8ce52948d5e8fd4add506eeb9956bdf"
+    }
+  },
+  "frozen_source_binding_count": 27,
+  "hash_convention": "UTF-8 canonical LF Git bytes. Recovery payloads and handoff were also sealed as raw LF bytes. Scope counts each changed file in full.",
+  "observed_wall_seconds_through_seal_start": 762,
+  "original_attempt_status": "BLOCKED_AT_ADMISSION_NO_EXECUTION",
+  "parent": "50b5d979cd8977d20602bb379cf7b6b9b9176a2c",
+  "phase_statuses": {
+    "audit": "NOT_STARTED",
+    "primary": "NOT_STARTED"
+  },
+  "preparation_manifest": {
+    "bytes": 36506,
+    "path": "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_COORDINATED_GAP_RETURN_001_PREP/MANIFEST.json",
+    "sha256": "1fed8bbd218557dd274af443bbb821a8079a15046d4ba27aeb2868b3ecea7236"
+  },
+  "prior_approval": {
+    "bytes": 6675,
+    "sha256": "c624646ba460a2f52a891fd2830110400943c084f4854c4cfb287186b33526d8"
+  },
+  "recovery_disposition": "RECOVERY_PREPARED_REVISED_WINDOWS_CONTRACT",
+  "recovery_limits": {
+    "aggregate_observed_cpu_seconds": 1800,
+    "aggregate_observed_wall_seconds": 3600,
+    "new_evidence_bytes": 16000000,
+    "per_probe_observed_cpu_seconds": 10,
+    "per_probe_observed_wall_seconds": 30,
+    "scoped_writers": 1,
+    "synthetic_probes": 12,
+    "synthetic_workers": 1
+  },
+  "registered_existence": "UNRESOLVED",
+  "reviews": {
+    "evidence_custody": "PASS_PREPARATION",
+    "implementation_and_design": "PASS_PREPARATION_WITH_FUTURE_QUALIFICATION_REQUIRED"
+  },
+  "schema_version": "lcl-d204-recovery-preparation-manifest-v1",
+  "scientific_environment_admitted": false,
+  "scientific_launch_authorized": false,
+  "scope_bytes_before_manifest": 745738,
+  "sole_next_action": "Director review of D204 execution-environment recovery preparation.",
+  "task": "LCL-D204-EXECUTION-ENVIRONMENT-RECOVERY-PREP-001",
+  "unchanged_scientific_limits": {
+    "audit": {
+      "allocation_states": 2366611480,
+      "cpu_seconds": 345600,
+      "fixed_edge_checks": 281105880,
+      "geometry_entries": 8518360,
+      "live_records": 6,
+      "pair_trials": 5338255680,
+      "placement_attempts": 2561339680,
+      "wall_seconds": 432000
+    },
+    "new_evidence_bytes": 128000000,
+    "primary": {
+      "allocation_states": 225145280,
+      "cpu_seconds": 172800,
+      "fixed_edge_checks": 351307720,
+      "geometry_entries": 8518360,
+      "live_records": 7,
+      "pair_trials": 210605520,
+      "placement_attempts": 14539760,
+      "wall_seconds": 259200
+    },
+    "workers": 1
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "activity": {
+    "historical_replays": 0,
+    "labeling_search_nodes": 0,
+    "native_process_control_invocations": 0,
+    "original_checker_invocations": 0,
+    "scientific_consumer_imports": 0,
+    "scientific_worker_launches": 0,
+    "solver_invocations": 0,
+    "synthetic_probes": 0,
+    "task_bytecode_files": 0
+  },
+  "aggregate_cpu_observation": "Individual local snippet CPU figures are recorded where measured. There was no whole-process-tree aggregate CPU sensor or kernel CPU guard for preparation. Git and command discovery CPU were not separately measured.",
+  "enforcement_scope": "Read-only finite queries and bindings. The WSL status commands used an eight-second subprocess timeout each with normal wait/exit. No synthetic or scientific launched worker. Before writes check exact encoded bundle sizes against the evidence ceiling; final sealed scope is tallied independently.",
+  "inventory_sources": {
+    "export_discovery.py": {
+      "bytes": 767,
+      "sha256": "8d26ff1e68fd570a0af97620d52bedbfbea0814f0640844ac2a332ec4a70b97c"
+    },
+    "inventory.py": {
+      "bytes": 2030,
+      "sha256": "6ff92bc8d1397b5bb808b4464bfc602d80c10da2c85a74f50d238bdd01440441"
+    }
+  },
+  "limitations": "No tested worst-case scheduler or kill latency; no Windows supervisor runtime or Linux kernel qualification.",
+  "linux_environment_qualified": false,
+  "local_official_run_path_vacant": true,
+  "status": "FIXED_BINDINGS_AND_METADATA_CHECKED",
+  "supervisor_implemented_or_tested": false,
+  "task": "LCL-D204-EXECUTION-ENVIRONMENT-RECOVERY-PREP-001",
+  "timed_preparation_snippets": {
+    "documentation_normalization_process_cpu_seconds": 0,
+    "native_export_discovery_process_cpu_seconds": 0,
+    "static_binding_check_process_cpu_seconds": 0.03125,
+    "wsl_inventory_observed_elapsed_seconds": 0.50363,
+    "wsl_inventory_parent_process_cpu_seconds": 0.0625
+  },
+  "wall_seconds_observed_from_task_start_through_check_start": 650
+}

@@ -1138,3 +1138,7 @@ The exact fixed-input coordinated-gap question remains unresolved in the minimum
 ## D204 execution admission — Residual question remains open
 
 Exact existence at w=0, induced cut 14 and physical cut 18 or 19 remains unresolved for both old rank classes. No scientific phase was started. Any future execution decision must resolve the exact outside-worker user-plus-kernel CPU enforcement dependency on the approved runtime. Accepted D203 and D204 symbolic results and the other closed lanes retain their exact scope. [Admission gate](../evidence/runs/d204-consecutive-positive-coordinated-gap-return-001/HARD_LIMIT_REVIEW.md)
+
+## D204 recovery — Qualifying a revised execution gate
+
+Keep the accepted symbolic exclusions and both unresolved rank classes at the fixed minimum-frontier cuts. The proposed Windows resource policy has no strict instantaneous combined CPU cutoff. Before any separately authorized scientific execution, bind a fresh identity, obtain explicit Owner acceptance of the revised policy, implement and independently qualify the supervisor, and verify terminal resource and cleanup receipts. No scientific claim or mathematical obligation is closed by recovery preparation. [Proposed contract](../evidence/validation/LCL_D204_EXECUTION_ENVIRONMENT_RECOVERY_PREP_001/WINDOWS_RECOVERY_CONTRACT.md)

@@ -1,0 +1,13 @@
+# Continuity handoff — D204 execution-environment recovery preparation
+
+Task LCL-D204-EXECUTION-ENVIRONMENT-RECOVERY-PREP-001, November 26, 2026 Pacific/Honolulu. Project instructions KEEP v11. Accepted parent 50b5d979cd8977d20602bb379cf7b6b9b9176a2c. The commit introducing this handoff identifies the new checkpoint. Live synchronization is verified separately.
+
+The Director accepted the original D204 admission stop within its exact scope. The local and archived approvals remain byte-identical. The old identity is closed as BLOCKED_AT_ADMISSION_NO_EXECUTION, both phases remain NOT_STARTED, and the registered existence question remains UNRESOLVED in both rank classes at w=0, h=14 and C=18 or 19. All 8,518,360 prospective cut-geometry occurrences and the unchanged conditional 48-edge verification scope are retained. [Admission archive](../evidence/runs/d204-consecutive-positive-coordinated-gap-return-001/HARD_LIMIT_REVIEW.md) · [Scientific proof](../research/ORDINARY_SPINE_CONSECUTIVE_POSITIVE_COORDINATED_GAP_RETURN_PREPARATION.md)
+
+**Recommended disposition: RECOVERY_PREPARED_REVISED_WINDOWS_CONTRACT.** The bounded inventory found no qualifying existing Linux environment. The present WSL launcher reported that WSL was not installed on all three documented commands. No interpreter or distribution was started. The proposed Windows policy uses native user-time Job protection and one-process containment, sampled combined CPU and suspend-inclusive elapsed monitoring, early-stop requests and fail-closed terminal measured acceptance. The scientific caps stay fixed. The policy does not establish a strict instantaneous combined CPU cutoff, and no revised contract or environment is admitted for science by this task. [Assessment](../evidence/validation/LCL_D204_EXECUTION_ENVIRONMENT_RECOVERY_PREP_001/ENFORCEMENT.md) · [Proposed contract](../evidence/validation/LCL_D204_EXECUTION_ENVIRONMENT_RECOVERY_PREP_001/WINDOWS_RECOVERY_CONTRACT.md)
+
+The proposal is implementation-ready design evidence for separate Owner consideration, without a launch-capable supervisor. There were no synthetic probes, scientific imports, workers, checker invocations or policy changes. The independent implementation/design and custody reviews are retained. A future scientific decision requires a fresh identity, approved enforcement semantics, an implemented and qualified supervisor and separate authorization. D205 remains unstarted and all previous dispositions remain intact. [Reviews](../evidence/validation/LCL_D204_EXECUTION_ENVIRONMENT_RECOVERY_PREP_001/REVIEWS.md) · [Manifest](../evidence/validation/LCL_D204_EXECUTION_ENVIRONMENT_RECOVERY_PREP_001/MANIFEST.json)
+
+## One next action
+
+Director review of D204 execution-environment recovery preparation.
