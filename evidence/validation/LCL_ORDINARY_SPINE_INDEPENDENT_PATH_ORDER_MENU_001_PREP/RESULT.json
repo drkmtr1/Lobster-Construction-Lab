@@ -1,0 +1,77 @@
+{
+  "task": "LCL-ORDINARY-SPINE-INDEPENDENT-PATH-ORDER-MENU-001-PREP",
+  "disposition": "PREPARED_UNRESOLVED_NO_NUMERICAL_EXECUTION",
+  "d204_director_accepted": true,
+  "d204_scientific_checkpoint": "ae0971b76f3e548674ac86cea426b761c9ac4d45",
+  "separate_acceptance_checkpoint": "de9402b5a516078badb4ce30c24595ec478cd0ac",
+  "new_inputs": [
+    "B",
+    "C"
+  ],
+  "matched_negative_no_replay": "A",
+  "both_polarities": {
+    "maximum_frontier": "SYMBOLICALLY_EXCLUDED_FOR_B_AND_C",
+    "minimum_frontier": "GENERAL_COORDINATED_GAP_RESIDUAL_PREPARED",
+    "improper_old_cut": "SYMBOLICALLY_EXCLUDED_FOR_B_AND_C"
+  },
+  "safe_supported": "SYMBOLICALLY_EXCLUDED_FOR_B_AND_C",
+  "both_old_rank_classes_retained": true,
+  "unresolved_cut_shapes": [
+    [
+      14,
+      18,
+      1,
+      3,
+      0
+    ],
+    [
+      14,
+      19,
+      0,
+      2,
+      2
+    ],
+    [
+      15,
+      18,
+      2,
+      2,
+      0
+    ],
+    [
+      15,
+      19,
+      1,
+      1,
+      2
+    ],
+    [
+      16,
+      18,
+      3,
+      1,
+      0
+    ],
+    [
+      16,
+      19,
+      2,
+      0,
+      2
+    ]
+  ],
+  "total_raw_cut_geometry_occurrences_per_engine": 15067066,
+  "scientific_preparation_counters": {
+    "geometry_entries": 0,
+    "placement_attempts": 0,
+    "allocation_states": 0,
+    "pair_trials": 0,
+    "solver_calls": 0,
+    "checker_invocations": 0,
+    "campaigns": 0,
+    "task_imports": 0,
+    "bytecode": 0,
+    "historical_replays": 0
+  },
+  "one_next_action": "Director review of D205 independent path-order menu preparation and symbolic findings."
+}

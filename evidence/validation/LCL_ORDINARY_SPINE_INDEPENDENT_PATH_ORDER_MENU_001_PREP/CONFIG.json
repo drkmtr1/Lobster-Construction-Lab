@@ -1,0 +1,269 @@
+{
+  "task": "LCL-ORDINARY-SPINE-INDEPENDENT-PATH-ORDER-MENU-001-PREP",
+  "status": "PREPARED_UNRESOLVED_NO_NUMERICAL_EXECUTION",
+  "execution_authorized": false,
+  "engines_sequential": true,
+  "menu": [
+    "B",
+    "C"
+  ],
+  "control_A": "ACCEPTED_D204_MATCHED_NEGATIVE_NO_REPLAY",
+  "depth_bound_definition": "One geometry; primary also one plan; one active frame per recursion depth. Fixed inputs and bounded stream counters excluded.",
+  "scientific_targets": {
+    "incoming_32": "fd4289cb555097994341bf023415e231841e01e95c1098c7890643252241f061",
+    "main_41": "5554c99f3db5b777a5e139369479c470b9e220753da2193aecbaa3c9ac6d3515",
+    "conditional_48": "1e9d8d99227973991cb6fb850cfbcd44cfac2c3470396886c59a9264bd3de3cb"
+  },
+  "cases": [
+    {
+      "h": 14,
+      "cut": 18,
+      "arms": [
+        1,
+        3,
+        0
+      ],
+      "low_geometry": 680,
+      "up_geometry": 77,
+      "geometry": 52360,
+      "children": 4,
+      "splits": 4,
+      "permutations": 6,
+      "raw_audit_depth": [
+        1,
+        42,
+        96,
+        96,
+        96
+      ],
+      "primary": [
+        20,
+        400,
+        384,
+        49
+      ],
+      "audit": [
+        601,
+        331,
+        1554,
+        33
+      ]
+    },
+    {
+      "h": 14,
+      "cut": 19,
+      "arms": [
+        0,
+        2,
+        2
+      ],
+      "low_geometry": 3060,
+      "up_geometry": 306,
+      "geometry": 936360,
+      "children": 18,
+      "splits": 1,
+      "permutations": 4,
+      "raw_audit_depth": [
+        1,
+        42,
+        72,
+        72,
+        72
+      ],
+      "primary": [
+        36,
+        306,
+        288,
+        105
+      ],
+      "audit": [
+        505,
+        259,
+        1386,
+        33
+      ]
+    },
+    {
+      "h": 15,
+      "cut": 18,
+      "arms": [
+        2,
+        2,
+        0
+      ],
+      "low_geometry": 136,
+      "up_geometry": 703,
+      "geometry": 95608,
+      "children": 10,
+      "splits": 6,
+      "permutations": 4,
+      "raw_audit_depth": [
+        1,
+        42,
+        240,
+        240,
+        240
+      ],
+      "primary": [
+        70,
+        1020,
+        960,
+        73
+      ],
+      "audit": [
+        1177,
+        763,
+        2562,
+        33
+      ]
+    },
+    {
+      "h": 15,
+      "cut": 19,
+      "arms": [
+        1,
+        1,
+        2
+      ],
+      "low_geometry": 816,
+      "up_geometry": 2397,
+      "geometry": 1955952,
+      "children": 12,
+      "splits": 6,
+      "permutations": 2,
+      "raw_audit_depth": [
+        1,
+        42,
+        144,
+        144,
+        144
+      ],
+      "primary": [
+        84,
+        648,
+        576,
+        81
+      ],
+      "audit": [
+        793,
+        475,
+        1890,
+        33
+      ]
+    },
+    {
+      "h": 16,
+      "cut": 18,
+      "arms": [
+        3,
+        1,
+        0
+      ],
+      "low_geometry": 17,
+      "up_geometry": 27303,
+      "geometry": 464151,
+      "children": 20,
+      "splits": 4,
+      "permutations": 6,
+      "raw_audit_depth": [
+        1,
+        42,
+        420,
+        480,
+        480
+      ],
+      "primary": [
+        100,
+        2000,
+        1920,
+        113
+      ],
+      "audit": [
+        1957,
+        1423,
+        3882,
+        33
+      ]
+    },
+    {
+      "h": 16,
+      "cut": 19,
+      "arms": [
+        2,
+        0,
+        2
+      ],
+      "low_geometry": 153,
+      "up_geometry": 26334,
+      "geometry": 4029102,
+      "children": 5,
+      "splits": 6,
+      "permutations": 4,
+      "raw_audit_depth": [
+        1,
+        42,
+        120,
+        120,
+        120
+      ],
+      "primary": [
+        35,
+        510,
+        480,
+        53
+      ],
+      "audit": [
+        697,
+        403,
+        1722,
+        33
+      ]
+    }
+  ],
+  "prospective_limits": {
+    "primary": {
+      "geometry_entries": 15067066,
+      "placement_attempts": 786364716,
+      "allocation_states": 9311182472,
+      "pair_trials": 8666657664,
+      "fixed_edge_checks": 1064572810,
+      "live_records": 7,
+      "cpu_seconds": 345600,
+      "wall_seconds": 518400
+    },
+    "audit": {
+      "geometry_entries": 15067066,
+      "placement_attempts": 11769116626,
+      "allocation_states": 7092178966,
+      "pair_trials": 28121614404,
+      "fixed_edge_checks": 497213178,
+      "live_records": 6,
+      "cpu_seconds": 691200,
+      "wall_seconds": 864000
+    },
+    "workers": 1,
+    "worker_peak_rss_bytes": 268435456,
+    "supervisor_peak_rss_bytes": 268435456,
+    "new_evidence_bytes": 16000000,
+    "terminal_evidence_reserved_bytes": 65536
+  },
+  "preparation_limits": {
+    "worker_count": 1,
+    "process_cpu_seconds": 600,
+    "elapsed_seconds": 1800,
+    "new_evidence_bytes": 16000000
+  },
+  "preparation_scientific_counters": {
+    "geometry_entries": 0,
+    "placement_attempts": 0,
+    "allocation_states": 0,
+    "pair_trials": 0,
+    "solver_calls": 0,
+    "checker_invocations": 0,
+    "campaigns": 0,
+    "task_imports": 0,
+    "bytecode": 0,
+    "historical_replays": 0
+  },
+  "future_readiness": "SEPARATE_REVIEW_APPROVAL_AND_INPUT_BOUND_SUPERVISOR_ADMISSION_REQUIRED"
+}

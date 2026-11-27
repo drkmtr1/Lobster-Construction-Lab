@@ -1,0 +1,132 @@
+{
+  "acceptance_checkpoint": "de9402b5a516078badb4ce30c24595ec478cd0ac",
+  "d204_admission_checkpoint": "9239fc162640f5b401e6e5c820a0040672e85fcf",
+  "future_output_paths_vacant": [
+    "runs/d205-independent-path-order-menu-001",
+    "evidence/runs/d205-independent-path-order-menu-001",
+    "runs/d205-independent-path-order-menu-001-approval.json"
+  ],
+  "host_writer_observation": "Single listed clean worktree, no scoped Git lock, no LCL-tied scientific worker or competing writer in bounded Windows CIM census.",
+  "initial_intake": {
+    "graphs": {
+      "independent_32": "fd4289cb555097994341bf023415e231841e01e95c1098c7890643252241f061",
+      "main_41": "5554c99f3db5b777a5e139369479c470b9e220753da2193aecbaa3c9ac6d3515",
+      "main_48_if_admitted": "1e9d8d99227973991cb6fb850cfbcd44cfac2c3470396886c59a9264bd3de3cb",
+      "matched_41": "9e1e04f932faf8c8b41a1fc835419e5c3d7a76063e0e10119fb31cb5bf27ac24",
+      "matched_48": "1f6e94e3293bdf090585064e1634046a6e82f246e738b16da1ea564a1d5b8270"
+    },
+    "proof_and_source_head": "ae0971b76f3e548674ac86cea426b761c9ac4d45",
+    "status": "ACCEPTANCE_INPUTS_VERIFIED",
+    "terminal_bindings": 13
+  },
+  "observed_live_ref_block": "ae0971b76f3e548674ac86cea426b761c9ac4d45\trefs/heads/main\nfddfc1dd9541324b2ed2de2505bc750b3e3f0b9d\trefs/tags/lcl-v0.1.0-baseline\n36ea1603602491bf3c1c5b81ed4c23aaa2210e70\trefs/tags/lcl-v0.1.0-baseline^{}\n858a8c1fcfda87ba40bb1adee498a6131504a803\tHEAD\ne48b94eec4091b4fe189e325cab2eda464409943\tHEAD\n",
+  "protected_source_bindings": {
+    "AGENTS.md": {
+      "bytes": 8301,
+      "sha256": "ddb4b70c24cb5e1725d0c2e4ea8c2d522b4556b62b8bd69fdffd4205ece485db"
+    },
+    "evidence/runs/d204-science-v9/seal.json": {
+      "bytes": 342,
+      "sha256": "66e99210bfdc0e0afd7bb389f0619ace70b2c7cc6bd34ff3425e267ccd6de784"
+    },
+    "evidence/runs/d204-science-v9/terminal.json": {
+      "bytes": 2018,
+      "sha256": "1acfb5d4f3ee36eed6234a603f6120d0aeb48ce631778c231b65003498e1b607"
+    },
+    "evidence/validation/LCL_D204_INTERRUPTION_EVIDENCE_QUALIFICATION_003/V9_FINAL_QUALIFICATION.json": {
+      "bytes": 1311,
+      "sha256": "fcfdbb1d0a35ae8c48e4a5cd6d6219018356e86ca3ec7567ef21e6029fb16107"
+    },
+    "evidence/validation/LCL_D204_INTERRUPTION_EVIDENCE_QUALIFICATION_003/V9_FREEZE.json": {
+      "bytes": 420612,
+      "sha256": "fea8700e37f7a51ca30f0b79558a91b23457f63c6ebfbc28786a664cda895dc7"
+    },
+    "evidence/validation/LCL_D204_V9_SCIENTIFIC_EXECUTION_001/MANIFEST.json": {
+      "bytes": 10631,
+      "sha256": "c0ff592afeea679ac66ef4b82e384dd40b78934a022b3d9580fb8517ec48148e"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_COORDINATED_GAP_RETURN_001_PREP/CONFIG.json": {
+      "bytes": 4460,
+      "sha256": "19a554374dc9022bb67976da7bc2b92e0430e29fd80c733c957a65b86a057c4e"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_COORDINATED_GAP_RETURN_001_PREP/ORIGINALS.json": {
+      "bytes": 103581,
+      "sha256": "538590be0628cbc452fbbf0c991f4c1f8ce42e48024175069b20942189e28569"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_COORDINATED_GAP_RETURN_001_PREP/PREFIXES.json": {
+      "bytes": 74288,
+      "sha256": "cd7c1790916a8045934bc975915dfb4b488725927d75cbe449364fe0541310d3"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_ZERO_DIRECT_LEAF_MULTI_HOST_DETOUR_PATH_001/MANIFEST.json": {
+      "bytes": 33238,
+      "sha256": "c5b8625398aa33b636c4e4b09ad2619083cda523fa0fbc94bfdb9e4bf6a18e0f"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_ZERO_DIRECT_LEAF_MULTI_HOST_DETOUR_PATH_001/ORIGINALS.json": {
+      "bytes": 204595,
+      "sha256": "747cf33134cf0dec886d24d954c8f483f359f9b5e0452a97eeb2d18126c33948"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_ZERO_DIRECT_LEAF_MULTI_HOST_DETOUR_PATH_001/SYMBOLIC_CONTROLS.json": {
+      "bytes": 1792869,
+      "sha256": "3aa24bb4f3e8c6da318b5285e62fc3dfb1a078be09d1b30d723a9018903b24c7"
+    },
+    "handoffs/CODEX-20261126-d204-v9-scientific-execution.md": {
+      "bytes": 1624,
+      "sha256": "b920b92d35316cd6f2ee358de72609354dc851c86834576e84858bb312f51233"
+    },
+    "lcl/model.py": {
+      "bytes": 10720,
+      "sha256": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6"
+    },
+    "lcl/verify.py": {
+      "bytes": 14075,
+      "sha256": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909"
+    },
+    "research/ORDINARY_SPINE_CONSECUTIVE_POSITIVE_COORDINATED_GAP_RETURN_PREPARATION.md": {
+      "bytes": 21394,
+      "sha256": "4c301e1d0e194b3492a8d18adfd2f72b615adcf3858b34c9a83e9c34d2d7bf3b"
+    },
+    "research/ORDINARY_SPINE_CONSECUTIVE_POSITIVE_SAFE_GAP_RETURN_PREPARATION.md": {
+      "bytes": 17554,
+      "sha256": "988dfe2c50e1899a3e9a942602303fc1f852b5b46e64a3505981f6a9e8e6acef"
+    },
+    "research/ORDINARY_SPINE_GENERALIZED_ONE_SECTION_CUT_SPECTRUM.md": {
+      "bytes": 26093,
+      "sha256": "72b0d87b148dba0215ee15bede17adf9b36aa333e01a4394b01ed19076181818"
+    },
+    "research/ORDINARY_SPINE_GENERALIZED_SAFE_GAP_SHELL_COMPOSITION.md": {
+      "bytes": 22286,
+      "sha256": "2c5c7e18a538aa9826b6fb15e9e47cc4a2c12b25a81a03f20663a7532311da29"
+    },
+    "research/ORDINARY_SPINE_PARTIAL_SAFE_CUT_THREE_GAP_CHAIN.md": {
+      "bytes": 20432,
+      "sha256": "c73b4329956bbfbeba772e1e15e93f23e53ca6533c7e3672101a6aa6e5ba5e37"
+    },
+    "research/ORDINARY_SPINE_ZERO_DIRECT_LEAF_MULTI_HOST_DETOUR_PATH.md": {
+      "bytes": 20081,
+      "sha256": "9899525c2ada4a467d60c78dc3fa0c387c4e2720698b89e34847538175552449"
+    },
+    "research/coordinated_gap_return_001/CONTRACT.md": {
+      "bytes": 10302,
+      "sha256": "5bb39499951b49be605b85215f8e321089b983a8e0c4e95590bb3d5400a1122f"
+    },
+    "research/coordinated_gap_return_001/audit.py": {
+      "bytes": 5272,
+      "sha256": "ba0f5bb6991086330dc0f73bdc8423b921024b42c65d52efbb7f6d5abccd9ed8"
+    },
+    "research/coordinated_gap_return_001/budget.py": {
+      "bytes": 1500,
+      "sha256": "5c8b5f013e995bae5f905bc5913c5d3d9e62bbcde9de7f1be4f0d485b2e99ed2"
+    },
+    "research/coordinated_gap_return_001/primary.py": {
+      "bytes": 7925,
+      "sha256": "053c77dad6458bfad918ccbd9aa8d61635fd479f89413470611c2dc7b612f122"
+    },
+    "research/coordinated_gap_return_001/verify_positive.py": {
+      "bytes": 8448,
+      "sha256": "da2375a9a372d71358547cd31903445d49969615b3268d5f137a5140a7e1d4b2"
+    }
+  },
+  "scientific_parent": "ae0971b76f3e548674ac86cea426b761c9ac4d45",
+  "task": "LCL-ORDINARY-SPINE-INDEPENDENT-PATH-ORDER-MENU-001-PREP",
+  "v9_qualification_checkpoint": "55cb26095b2360cb6a43594b921b500bb8eb0fc9"
+}

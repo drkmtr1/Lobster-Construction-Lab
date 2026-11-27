@@ -883,3 +883,7 @@ The required external hard CPU gate could not be established on the frozen host,
 ## D204 V9 — Registered coordinated-gap existence fails
 
 The hypothesized extreme-frontier return of the exact supplied input to the named 41-edge state fails for all registered strictly increasing embeddings. Accepted symbolic exclusions leave only frontier 0, induced cut 14 and physical cut 18 or 19. The two independent complete exhausted traversals of these residual streams exclude both rank classes. This is separate from D203's safe-support-only exclusion and the earlier admission stop. [Combined result](../evidence/validation/LCL_D204_V9_SCIENTIFIC_EXECUTION_001/ASSESSMENT.md)
+
+## D205 — B/C maximum-frontier, improper and safe-supported exclusions
+
+Under the exact B/C supplied 32-edge labels and the required 41-edge interface, any maximum-oriented return of an increasing old embedding fails, including reordered old ranks. Both improper branches and all safe-supported increasing embeddings fail. General coordinated-gap minimum-frontier continuation remains unresolved in the six listed cases per variant. No further branch is classified. [Scoped proof](../research/ORDINARY_SPINE_INDEPENDENT_PATH_ORDER_MENU_PREPARATION.md)

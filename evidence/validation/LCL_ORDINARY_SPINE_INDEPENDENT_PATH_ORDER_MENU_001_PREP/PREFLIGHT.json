@@ -1,0 +1,72 @@
+{
+  "allocation_states": 0,
+  "bytecode": 0,
+  "checker_invocations": 0,
+  "future_execution_approval": false,
+  "historical_replays": 0,
+  "measured_prior_fixed_reconstruction_cpu_seconds": 0.0625,
+  "measured_python_cpu_seconds": 0.328125,
+  "mode": "parse-only and verification of predetermined fixed formula objects",
+  "placement_attempts": 0,
+  "python_flags": [
+    "-I",
+    "-S",
+    "-B"
+  ],
+  "qualification_campaigns": 0,
+  "search_geometry_visits": 0,
+  "solver_calls": 0,
+  "success": true,
+  "task_imports": 0,
+  "units": {
+    "evidence/validation/LCL_ORDINARY_SPINE_INDEPENDENT_PATH_ORDER_MENU_001_PREP/COUNT_BOUNDS.py.txt": {
+      "binding": {
+        "bytes": 1231,
+        "sha256": "ba2012ee4991b87103e0722b3b1ef4b8965d181a7be6976f7bffb3e142c9e7ab"
+      },
+      "top_level_definitions": 0
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_INDEPENDENT_PATH_ORDER_MENU_001_PREP/RECONSTRUCT.py.txt": {
+      "binding": {
+        "bytes": 5514,
+        "sha256": "9fca5d6ec91c4616954e77cdedee867d67a2011c82773ddb44b0eb2ef6df01e9"
+      },
+      "top_level_definitions": 5
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_INDEPENDENT_PATH_ORDER_MENU_001_PREP/RECORD_INVENTORIES.py.txt": {
+      "binding": {
+        "bytes": 3720,
+        "sha256": "703d0fd57c300bfd9755bae72f939b767e69d99b74893def82978f224068a7e7"
+      },
+      "top_level_definitions": 4
+    },
+    "research/independent_path_order_menu_001/audit.py": {
+      "binding": {
+        "bytes": 6730,
+        "sha256": "b1daf024e880ceee9f168c6b05602cdb3802f054d754729c0fc5031a6f39a372"
+      },
+      "top_level_definitions": 6
+    },
+    "research/independent_path_order_menu_001/budget.py": {
+      "binding": {
+        "bytes": 1500,
+        "sha256": "5c8b5f013e995bae5f905bc5913c5d3d9e62bbcde9de7f1be4f0d485b2e99ed2"
+      },
+      "top_level_definitions": 2
+    },
+    "research/independent_path_order_menu_001/primary.py": {
+      "binding": {
+        "bytes": 8197,
+        "sha256": "63e7ef5cebe4ee7ebf92136acf3a46b8d0451ca688d214cd737363cf7e8889b3"
+      },
+      "top_level_definitions": 7
+    },
+    "research/independent_path_order_menu_001/verify_positive.py": {
+      "binding": {
+        "bytes": 8720,
+        "sha256": "7a9d487f6ee64c9e78684650db2fe7e3b078c104f4bf1bbe306f86a83e327348"
+      },
+      "top_level_definitions": 7
+    }
+  }
+}

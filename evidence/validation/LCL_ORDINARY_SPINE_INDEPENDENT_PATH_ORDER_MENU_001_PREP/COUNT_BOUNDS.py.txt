@@ -1,0 +1,24 @@
+from math import comb, factorial
+cases=[(14,18,1,3,0),(14,19,0,2,2),(15,18,2,2,0),(15,19,1,1,2),(16,18,3,1,0),(16,19,2,0,2)]
+rows=[]
+for h,c,x,y,z in cases:
+  l,u=c-1-h,9+h-c
+  if (h,c)==(14,19):
+      upper=(u-2)*comb(2+(32-h-1)-1,(32-h-1)-1)
+  elif (h,c)==(16,18):
+      upper=sum(comb(j+14,14)*comb(u-1-j+2,2) for j in range(5))
+  else:
+      js={(14,18):range(2),(15,18):range(3),(15,19):range(2,4),(16,19):range(u)}[(h,c)]
+      upper=sum((u-j)*comb(j+32-h-1,32-h-1) for j in js)
+  lower=comb(c-1,h); n=lower*upper
+  a=comb(l,z)*comb(u-1,x+y-1)
+  s=comb(x+y,x)*comb(x+z,z)
+  v=factorial(x)*factorial(y)*factorial(z)
+  roots=(1,*(min(a*s*v,t) for t in (42,420,840,840)))
+  primary=(a+a*s,a*s*(1+4*v),a*s*4*v,33+4*a)
+  audit=(sum(p*q for p,q in zip(roots,(7,5,3,1))),sum(roots),
+         sum(p*q for p,q in zip(roots,(42,20,6,1))),33)
+  rows.append(dict(h=h,cut=c,arms=[x,y,z],low_geometry=lower,up_geometry=upper,geometry=n,children=a,splits=s,permutations=v,raw_audit_depth=roots,primary=primary,audit=audit))
+import json
+print(json.dumps({"rows":rows,"one_menu_geometry":sum(r["geometry"] for r in rows),
+ "menu_bounds":{key:[2*sum(r["geometry"]*r[key][i] for r in rows) for i in range(4)] for key in ("primary","audit")}}))

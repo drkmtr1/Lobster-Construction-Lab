@@ -1,0 +1,259 @@
+{
+  "accepted_d204_admission_checkpoint": "9239fc162640f5b401e6e5c820a0040672e85fcf",
+  "accepted_d204_execution_checkpoint": "ae0971b76f3e548674ac86cea426b761c9ac4d45",
+  "accepted_v9_qualification_checkpoint": "55cb26095b2360cb6a43594b921b500bb8eb0fc9",
+  "artifacts": {
+    "evidence/validation/LCL_ORDINARY_SPINE_INDEPENDENT_PATH_ORDER_MENU_001_PREP/CONFIG.json": {
+      "bytes": 5077,
+      "sha256": "696b9fc9803590d5ad13239235007f43cf2e71be5279fc50f918f09ba0f0b84a"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_INDEPENDENT_PATH_ORDER_MENU_001_PREP/COUNT_BOUNDS.py.txt": {
+      "bytes": 1231,
+      "sha256": "ba2012ee4991b87103e0722b3b1ef4b8965d181a7be6976f7bffb3e142c9e7ab"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_INDEPENDENT_PATH_ORDER_MENU_001_PREP/CUSTODY.json": {
+      "bytes": 6595,
+      "sha256": "218d5d4733795608572367940c34dc20ec1afb24997b34093d1ccfb652c303b2"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_INDEPENDENT_PATH_ORDER_MENU_001_PREP/EVIDENCE_SCHEMA.md": {
+      "bytes": 1482,
+      "sha256": "26ea1e981b9c4d74b2f92716b4395f1a7648127f5da56e6b4a8c8aab8fe997a5"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_INDEPENDENT_PATH_ORDER_MENU_001_PREP/FIXED_ARITHMETIC.txt": {
+      "bytes": 2234,
+      "sha256": "d33f075179331218c9a82fbba26723136452762414aa6518185702e3eef0f3d3"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_INDEPENDENT_PATH_ORDER_MENU_001_PREP/INVENTORIES.json": {
+      "bytes": 76779,
+      "sha256": "fbc07e2853806dc4bbf8f24fef20e3a56fea8b0dd0e962ebf6257082cecff89e"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_INDEPENDENT_PATH_ORDER_MENU_001_PREP/ORIGINALS.json": {
+      "bytes": 103581,
+      "sha256": "538590be0628cbc452fbbf0c991f4c1f8ce42e48024175069b20942189e28569"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_INDEPENDENT_PATH_ORDER_MENU_001_PREP/PREFIXES.json": {
+      "bytes": 139758,
+      "sha256": "08b31a4229b7fb209d9c1c75a418ff12c4ff248109ef2fb15c26d1756c3cc41c"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_INDEPENDENT_PATH_ORDER_MENU_001_PREP/PREFLIGHT.json": {
+      "bytes": 2346,
+      "sha256": "ebfd39054f75e727cd8a04712cfc221bd8c4d858099adc883385871714d3885b"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_INDEPENDENT_PATH_ORDER_MENU_001_PREP/RECONSTRUCT.py.txt": {
+      "bytes": 5514,
+      "sha256": "9fca5d6ec91c4616954e77cdedee867d67a2011c82773ddb44b0eb2ef6df01e9"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_INDEPENDENT_PATH_ORDER_MENU_001_PREP/RECORD_INVENTORIES.py.txt": {
+      "bytes": 3720,
+      "sha256": "703d0fd57c300bfd9755bae72f939b767e69d99b74893def82978f224068a7e7"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_INDEPENDENT_PATH_ORDER_MENU_001_PREP/RESULT.json": {
+      "bytes": 1571,
+      "sha256": "4b7a8429498cd8128ebfd1f71a6ba8a9b53dc342b809f8e80e9338291ad7bd3c"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_INDEPENDENT_PATH_ORDER_MENU_001_PREP/REVIEWS.md": {
+      "bytes": 2783,
+      "sha256": "7507a94a249ccb23d325ffa295ac9e64a7fc947862313f8c8921991e39c674ff"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_INDEPENDENT_PATH_ORDER_MENU_001_PREP/RUNTIME.json": {
+      "bytes": 734,
+      "sha256": "f21e0d6e0a2bdf5eaa4906a58c586180d641f3ea7d6e01a692348679626eaf66"
+    },
+    "handoffs/CODEX-20261126-d205-independent-path-order-menu-preparation.md": {
+      "bytes": 1851,
+      "sha256": "7e44bce0925e5dd6260d9cb4b18ec87f726fd620e1144d5fa2f68f28148b49d0"
+    },
+    "research/ORDINARY_SPINE_INDEPENDENT_PATH_ORDER_MENU_PREPARATION.md": {
+      "bytes": 19958,
+      "sha256": "930867ea508d5419a58289fd2f7717ca39abf087303a86ac1be89578f79d2eee"
+    },
+    "research/independent_path_order_menu_001/CONTRACT.md": {
+      "bytes": 9950,
+      "sha256": "b5d43542522a765b8180647b71163dbcc547005ee770d4f475d0dc7276d28d17"
+    },
+    "research/independent_path_order_menu_001/audit.py": {
+      "bytes": 6730,
+      "sha256": "b1daf024e880ceee9f168c6b05602cdb3802f054d754729c0fc5031a6f39a372"
+    },
+    "research/independent_path_order_menu_001/budget.py": {
+      "bytes": 1500,
+      "sha256": "5c8b5f013e995bae5f905bc5913c5d3d9e62bbcde9de7f1be4f0d485b2e99ed2"
+    },
+    "research/independent_path_order_menu_001/primary.py": {
+      "bytes": 8197,
+      "sha256": "63e7ef5cebe4ee7ebf92136acf3a46b8d0451ca688d214cd737363cf7e8889b3"
+    },
+    "research/independent_path_order_menu_001/verify_positive.py": {
+      "bytes": 8720,
+      "sha256": "7a9d487f6ee64c9e78684650db2fe7e3b078c104f4bf1bbe306f86a83e327348"
+    }
+  },
+  "authoritative_bindings": {
+    "STATE.md": {
+      "bytes": 134994,
+      "sha256": "890b9795d97f86ddcd778aa2d52787add1957b506b77344fd8ad93c2f543358c"
+    },
+    "research/DECISIONS.md": {
+      "bytes": 202953,
+      "sha256": "ff155edd860fe067c320f72090a727cc87d197e02d1b09f2f2d301a3d0687a61"
+    },
+    "research/FAILED_HYPOTHESES.md": {
+      "bytes": 102429,
+      "sha256": "b9d3aa07ef1f38c7b383b921f1df94d63a359f8adaf2d4f4d927e4fcdf78f998"
+    },
+    "research/FINDINGS.md": {
+      "bytes": 241495,
+      "sha256": "1ca2c010bbcc41ec3e5252064500013c9d910dd9f3e5f1a7116805847de3465f"
+    },
+    "research/PROOF_OBLIGATIONS.md": {
+      "bytes": 139449,
+      "sha256": "788d3774fb16f20c454d7700fc80a785218b90d23254c37ef3872c9a94857408"
+    }
+  },
+  "cpu_coverage": "Fixed calculation and preflight process readings recorded separately. Auxiliary standard-library invocations were short, serial per writer and bounded well below the preparation ceiling. Complete tooling and agent CPU was not measured.",
+  "exact_disposition": "PREPARED_UNRESOLVED_NO_NUMERICAL_EXECUTION",
+  "future_scientific_execution_authorized": false,
+  "geometry_occurrences_per_engine": 15067066,
+  "limits": {
+    "elapsed_seconds": 1800,
+    "new_evidence_bytes": 16000000,
+    "process_cpu_seconds": 600,
+    "worker_count": 1
+  },
+  "matched_A": "D204_DIRECTOR_ACCEPTED_NEGATIVE_NO_REPLAY",
+  "measured_seal_process_cpu_seconds": 0.1875,
+  "menu": [
+    "B",
+    "C"
+  ],
+  "new_tracked_evidence_and_authority_bytes_including_manifest_reserve": 1297880,
+  "observed_wall_seconds_through_seal": 980.471,
+  "parent": "de9402b5a516078badb4ce30c24595ec478cd0ac",
+  "parent_live_reference_observation": "ae0971b76f3e548674ac86cea426b761c9ac4d45\trefs/heads/main\nfddfc1dd9541324b2ed2de2505bc750b3e3f0b9d\trefs/tags/lcl-v0.1.0-baseline\n36ea1603602491bf3c1c5b81ed4c23aaa2210e70\trefs/tags/lcl-v0.1.0-baseline^{}\n858a8c1fcfda87ba40bb1adee498a6131504a803\tHEAD\ne48b94eec4091b4fe189e325cab2eda464409943\tHEAD\n",
+  "preparation_counters": {
+    "allocation_states": 0,
+    "bytecode": 0,
+    "campaigns": 0,
+    "checker_invocations": 0,
+    "geometry_entries": 0,
+    "historical_replays": 0,
+    "pair_trials": 0,
+    "placement_attempts": 0,
+    "solver_calls": 0,
+    "task_imports": 0
+  },
+  "retained_scientific_digests": {
+    "conditional_48": "1e9d8d99227973991cb6fb850cfbcd44cfac2c3470396886c59a9264bd3de3cb",
+    "incoming_32": "fd4289cb555097994341bf023415e231841e01e95c1098c7890643252241f061",
+    "main_41": "5554c99f3db5b777a5e139369479c470b9e220753da2193aecbaa3c9ac6d3515"
+  },
+  "schema": "lcl-d205-independent-path-order-preparation-v1",
+  "sole_next_action": "Director review of D205 independent path-order menu preparation and symbolic findings.",
+  "source_dependencies": {
+    "AGENTS.md": {
+      "bytes": 8301,
+      "sha256": "ddb4b70c24cb5e1725d0c2e4ea8c2d522b4556b62b8bd69fdffd4205ece485db"
+    },
+    "evidence/runs/d204-science-v9/seal.json": {
+      "bytes": 342,
+      "sha256": "66e99210bfdc0e0afd7bb389f0619ace70b2c7cc6bd34ff3425e267ccd6de784"
+    },
+    "evidence/runs/d204-science-v9/terminal.json": {
+      "bytes": 2018,
+      "sha256": "1acfb5d4f3ee36eed6234a603f6120d0aeb48ce631778c231b65003498e1b607"
+    },
+    "evidence/validation/LCL_D204_INTERRUPTION_EVIDENCE_QUALIFICATION_003/V9_FINAL_QUALIFICATION.json": {
+      "bytes": 1311,
+      "sha256": "fcfdbb1d0a35ae8c48e4a5cd6d6219018356e86ca3ec7567ef21e6029fb16107"
+    },
+    "evidence/validation/LCL_D204_INTERRUPTION_EVIDENCE_QUALIFICATION_003/V9_FREEZE.json": {
+      "bytes": 420612,
+      "sha256": "fea8700e37f7a51ca30f0b79558a91b23457f63c6ebfbc28786a664cda895dc7"
+    },
+    "evidence/validation/LCL_D204_V9_SCIENTIFIC_EXECUTION_001/MANIFEST.json": {
+      "bytes": 10631,
+      "sha256": "c0ff592afeea679ac66ef4b82e384dd40b78934a022b3d9580fb8517ec48148e"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_COORDINATED_GAP_RETURN_001_PREP/CONFIG.json": {
+      "bytes": 4460,
+      "sha256": "19a554374dc9022bb67976da7bc2b92e0430e29fd80c733c957a65b86a057c4e"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_COORDINATED_GAP_RETURN_001_PREP/ORIGINALS.json": {
+      "bytes": 103581,
+      "sha256": "538590be0628cbc452fbbf0c991f4c1f8ce42e48024175069b20942189e28569"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_COORDINATED_GAP_RETURN_001_PREP/PREFIXES.json": {
+      "bytes": 74288,
+      "sha256": "cd7c1790916a8045934bc975915dfb4b488725927d75cbe449364fe0541310d3"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_ZERO_DIRECT_LEAF_MULTI_HOST_DETOUR_PATH_001/MANIFEST.json": {
+      "bytes": 33238,
+      "sha256": "c5b8625398aa33b636c4e4b09ad2619083cda523fa0fbc94bfdb9e4bf6a18e0f"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_ZERO_DIRECT_LEAF_MULTI_HOST_DETOUR_PATH_001/ORIGINALS.json": {
+      "bytes": 204595,
+      "sha256": "747cf33134cf0dec886d24d954c8f483f359f9b5e0452a97eeb2d18126c33948"
+    },
+    "evidence/validation/LCL_ORDINARY_SPINE_ZERO_DIRECT_LEAF_MULTI_HOST_DETOUR_PATH_001/SYMBOLIC_CONTROLS.json": {
+      "bytes": 1792869,
+      "sha256": "3aa24bb4f3e8c6da318b5285e62fc3dfb1a078be09d1b30d723a9018903b24c7"
+    },
+    "handoffs/CODEX-20261126-d204-v9-scientific-execution.md": {
+      "bytes": 1624,
+      "sha256": "b920b92d35316cd6f2ee358de72609354dc851c86834576e84858bb312f51233"
+    },
+    "lcl/model.py": {
+      "bytes": 10720,
+      "sha256": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6"
+    },
+    "lcl/verify.py": {
+      "bytes": 14075,
+      "sha256": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909"
+    },
+    "research/ORDINARY_SPINE_CONSECUTIVE_POSITIVE_COORDINATED_GAP_RETURN_PREPARATION.md": {
+      "bytes": 21394,
+      "sha256": "4c301e1d0e194b3492a8d18adfd2f72b615adcf3858b34c9a83e9c34d2d7bf3b"
+    },
+    "research/ORDINARY_SPINE_CONSECUTIVE_POSITIVE_SAFE_GAP_RETURN_PREPARATION.md": {
+      "bytes": 17554,
+      "sha256": "988dfe2c50e1899a3e9a942602303fc1f852b5b46e64a3505981f6a9e8e6acef"
+    },
+    "research/ORDINARY_SPINE_GENERALIZED_ONE_SECTION_CUT_SPECTRUM.md": {
+      "bytes": 26093,
+      "sha256": "72b0d87b148dba0215ee15bede17adf9b36aa333e01a4394b01ed19076181818"
+    },
+    "research/ORDINARY_SPINE_GENERALIZED_SAFE_GAP_SHELL_COMPOSITION.md": {
+      "bytes": 22286,
+      "sha256": "2c5c7e18a538aa9826b6fb15e9e47cc4a2c12b25a81a03f20663a7532311da29"
+    },
+    "research/ORDINARY_SPINE_PARTIAL_SAFE_CUT_THREE_GAP_CHAIN.md": {
+      "bytes": 20432,
+      "sha256": "c73b4329956bbfbeba772e1e15e93f23e53ca6533c7e3672101a6aa6e5ba5e37"
+    },
+    "research/ORDINARY_SPINE_ZERO_DIRECT_LEAF_MULTI_HOST_DETOUR_PATH.md": {
+      "bytes": 20081,
+      "sha256": "9899525c2ada4a467d60c78dc3fa0c387c4e2720698b89e34847538175552449"
+    },
+    "research/coordinated_gap_return_001/CONTRACT.md": {
+      "bytes": 10302,
+      "sha256": "5bb39499951b49be605b85215f8e321089b983a8e0c4e95590bb3d5400a1122f"
+    },
+    "research/coordinated_gap_return_001/audit.py": {
+      "bytes": 5272,
+      "sha256": "ba0f5bb6991086330dc0f73bdc8423b921024b42c65d52efbb7f6d5abccd9ed8"
+    },
+    "research/coordinated_gap_return_001/budget.py": {
+      "bytes": 1500,
+      "sha256": "5c8b5f013e995bae5f905bc5913c5d3d9e62bbcde9de7f1be4f0d485b2e99ed2"
+    },
+    "research/coordinated_gap_return_001/primary.py": {
+      "bytes": 7925,
+      "sha256": "053c77dad6458bfad918ccbd9aa8d61635fd479f89413470611c2dc7b612f122"
+    },
+    "research/coordinated_gap_return_001/verify_positive.py": {
+      "bytes": 8448,
+      "sha256": "da2375a9a372d71358547cd31903445d49969615b3268d5f137a5140a7e1d4b2"
+    }
+  },
+  "task": "LCL-ORDINARY-SPINE-INDEPENDENT-PATH-ORDER-MENU-001-PREP"
+}

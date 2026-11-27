@@ -707,3 +707,7 @@ Retain `STOP_REGISTERED_NEGATIVE` for the exact registered domain at approved ad
 ## D204 Director acceptance and D205 preparation admission
 
 ACCEPT D204 `STOP_REGISTERED_NEGATIVE` at `ae0971b76f3e548674ac86cea426b761c9ac4d45` under the exact fixed old labeling and increasing extreme-frontier return relation. Admission `9239fc162640f5b401e6e5c820a0040672e85fcf` and V9 qualification `55cb26095b2360cb6a43594b921b500bb8eb0fc9` are separate preserved checkpoints. Both complete 8,518,360-visit traversals passed reconciliation and independent review. Rank counts retain their distinct conventions. Preserve the historical admission stop and V1–V9 evidence. Authorize only `LCL-ORDINARY-SPINE-INDEPENDENT-PATH-ORDER-MENU-001-PREP` on D202 path orders B and C, with zero search or checker executions. [D204 scientific manifest](../evidence/validation/LCL_D204_V9_SCIENTIFIC_EXECUTION_001/MANIFEST.json)
+
+## D205 independent path-order menu disposition
+
+Freeze the independent B/C shell supplies, scoped symbolic negatives and inactive dual consumers as PREPARED_UNRESOLVED_NO_NUMERICAL_EXECUTION. The separate independent reviews pass within preparation scope. Prospective bounds use exact raw stream arithmetic and unmeasured future policy ceilings. D204 A is closed as accepted control, with no replay or new scientific run. [Preparation evidence](../evidence/validation/LCL_ORDINARY_SPINE_INDEPENDENT_PATH_ORDER_MENU_001_PREP/RESULT.json)

@@ -1162,3 +1162,7 @@ The interruption and complete V9 synthetic host qualification obligations passed
 ## D204 V9 — Registered existence decided by dual exhaustion
 
 Close the exact residual D204 question within the accepted fixed old labeling, required return relation and both old rank classes. Both traversals exhausted their registered domains and the accepted symbolic reductions cover the other branches. The conditional 48-edge verification was inapplicable. No new obligation about unrestricted gracefulness is decided. [Sealed evidence](../evidence/runs/d204-science-v9/terminal.json)
+
+## D205 — Residual B/C coordinated-gap existence
+
+Resolve the exact named two-input residual at frontier 0 with induced cuts 14, 15 or 16 and physical cuts 18 or 19 under the proved geometric and actual-incidence filters. Retain both rank classes. Any future scientific invocation requires a separately qualified input-bound supervisor and separate Owner authorization. Its first verified positive or independently checked complete dual exhaustion would decide the registered question. The 48-edge original remains deterministic verification only. [Inactive contract](independent_path_order_menu_001/CONTRACT.md)
