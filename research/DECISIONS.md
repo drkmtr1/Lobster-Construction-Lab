@@ -711,3 +711,7 @@ ACCEPT D204 `STOP_REGISTERED_NEGATIVE` at `ae0971b76f3e548674ac86cea426b761c9ac4
 ## D205 independent path-order menu disposition
 
 Freeze the independent B/C shell supplies, scoped symbolic negatives and inactive dual consumers as PREPARED_UNRESOLVED_NO_NUMERICAL_EXECUTION. The separate independent reviews pass within preparation scope. Prospective bounds use exact raw stream arithmetic and unmeasured future policy ceilings. D204 A is closed as accepted control, with no replay or new scientific run. [Preparation evidence](../evidence/validation/LCL_ORDINARY_SPINE_INDEPENDENT_PATH_ORDER_MENU_001_PREP/RESULT.json)
+
+## D205 preparation acceptance and bounded V9-derived qualification
+
+ACCEPT the exact D205 mathematical preparation at `e7e91b7627aad9ce19296e16b777b7c5704128e7`, with the B/C supply and symbolic exclusions preserved and coordinated-gap existence unresolved. Authorize only `LCL-D205-INDEPENDENT-PATH-ORDER-EXECUTION-QUALIFICATION-001`, one separate readiness revision and one inert qualification matrix. The source delta will bind D205 identities and streams to the V9 process, watchdog and receipt implementation. Prospective RSS ceilings are deferred without changing the historical preparation configuration. No scientific entry, D204 replay, V10, scientific authorization or successor is authorized. [Accepted preparation](../evidence/validation/LCL_ORDINARY_SPINE_INDEPENDENT_PATH_ORDER_MENU_001_PREP/MANIFEST.json)
