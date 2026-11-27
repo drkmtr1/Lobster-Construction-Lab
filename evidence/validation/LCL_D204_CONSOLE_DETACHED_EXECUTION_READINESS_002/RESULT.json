@@ -1,0 +1,166 @@
+{
+  "active_approval_created": false,
+  "aggregate_infrastructure_cpu_complete": false,
+  "candidate_outcomes": [
+    {
+      "entered": 7,
+      "pure_passed": 24,
+      "raw_bytes": 80440,
+      "revision": 5
+    },
+    {
+      "entered": 8,
+      "pure_passed": 25,
+      "raw_bytes": 91378,
+      "revision": 6
+    },
+    {
+      "entered": 8,
+      "pure_passed": 26,
+      "raw_bytes": 91535,
+      "revision": 7
+    },
+    {
+      "entered": 13,
+      "pure_passed": 26,
+      "raw_bytes": 135261,
+      "revision": 8
+    }
+  ],
+  "console_detachment": "CONFIRMED_ON_OBSERVED_WINDOWS_WORKLOADS",
+  "crash": {
+    "child_after_owner_end_filetime_delta_units": "8542",
+    "child_cpu_ticks": 781250,
+    "exact_owner_end_filetime": "134402177616948484",
+    "exact_sleeper_birth_filetime": "134402177615926896",
+    "exact_worker_end_filetime": "134402177616957026",
+    "measured_crash_phase_receipt": false,
+    "owner_cpu_ticks": 781250,
+    "raw_emergency": {
+      "freeze": "e8fff596bcd685a0924699840e751d4f4fd32d0baceb71b8aeb4bffc23ac2183",
+      "native_receipt_complete": false,
+      "outcome": "UNVERIFIED_CLEANUP_STOP",
+      "reason": "INTERRUPTED_OWNER_WITHOUT_VERIFIED_CHILD_EXIT",
+      "task": "LCL-D204-CONSOLE-DETACHED-EXECUTION-READINESS-002"
+    },
+    "raw_owner_exit": 3791912961,
+    "raw_worker_exit": 0
+  },
+  "disposition": "D204_EXECUTION_READINESS_BLOCKED",
+  "final_completed_phase_entries": 12,
+  "final_expected_case_count": 14,
+  "final_expected_phase_count": 16,
+  "final_incomplete_case": "crash",
+  "final_passed_cases": 10,
+  "final_phase_receipts": [
+    {
+      "controller_and_worker_cpu_ticks": 937500,
+      "disposition": "STOP_ENGINE_DISCREPANCY",
+      "elapsed_ms_through_job_cleanup": 156,
+      "receipt": "audit-disagreement-audit-phase.json",
+      "reconciliation": "exact-or-suspended-offset"
+    },
+    {
+      "controller_and_worker_cpu_ticks": 1250000,
+      "disposition": "ADMIT_AUDIT",
+      "elapsed_ms_through_job_cleanup": 125,
+      "receipt": "audit-disagreement-primary-phase.json",
+      "reconciliation": "exact-or-suspended-offset"
+    },
+    {
+      "controller_and_worker_cpu_ticks": 1093750,
+      "disposition": "CHILD_REFUSED",
+      "elapsed_ms_through_job_cleanup": 125,
+      "receipt": "child-primary-phase.json",
+      "reconciliation": "exact-or-suspended-offset"
+    },
+    {
+      "controller_and_worker_cpu_ticks": 937500,
+      "disposition": "STOP_REGISTERED_NEGATIVE",
+      "elapsed_ms_through_job_cleanup": 125,
+      "receipt": "dual-exhaustion-audit-phase.json",
+      "reconciliation": "exact-or-suspended-offset"
+    },
+    {
+      "controller_and_worker_cpu_ticks": 1093750,
+      "disposition": "ADMIT_AUDIT",
+      "elapsed_ms_through_job_cleanup": 141,
+      "receipt": "dual-exhaustion-primary-phase.json",
+      "reconciliation": "exact-or-suspended-offset"
+    },
+    {
+      "controller_and_worker_cpu_ticks": 1093750,
+      "disposition": "SAMPLED_ELAPSED",
+      "elapsed_ms_through_job_cleanup": 2000,
+      "receipt": "elapsed-primary-phase.json",
+      "reconciliation": "exact-or-suspended-offset"
+    },
+    {
+      "controller_and_worker_cpu_ticks": 937500,
+      "disposition": "OBSERVATION_GAP",
+      "elapsed_ms_through_job_cleanup": 2359,
+      "receipt": "gap-primary-phase.json",
+      "reconciliation": "host-one-increment"
+    },
+    {
+      "controller_and_worker_cpu_ticks": 781250,
+      "disposition": "STOP_INCOMPLETE",
+      "elapsed_ms_through_job_cleanup": 141,
+      "receipt": "incomplete-primary-phase.json",
+      "reconciliation": "exact-or-suspended-offset"
+    },
+    {
+      "controller_and_worker_cpu_ticks": 8125000,
+      "disposition": "NATIVE_USER_LIMIT",
+      "elapsed_ms_through_job_cleanup": 4781,
+      "receipt": "native-primary-phase.json",
+      "reconciliation": "exact-or-suspended-offset"
+    },
+    {
+      "controller_and_worker_cpu_ticks": 1093750,
+      "disposition": "STOP_VERIFIED_POSITIVE",
+      "elapsed_ms_through_job_cleanup": 156,
+      "receipt": "positive-primary-phase.json",
+      "reconciliation": "exact-or-suspended-offset"
+    },
+    {
+      "controller_and_worker_cpu_ticks": 9375000,
+      "disposition": "SAMPLED_COMBINED_CPU",
+      "elapsed_ms_through_job_cleanup": 1000,
+      "receipt": "sampled-primary-phase.json",
+      "reconciliation": "exact-or-suspended-offset"
+    },
+    {
+      "controller_and_worker_cpu_ticks": 781250,
+      "disposition": "STOP_VERIFICATION_FAILURE",
+      "elapsed_ms_through_job_cleanup": 140,
+      "receipt": "verify-failure-primary-phase.json",
+      "reconciliation": "exact-or-suspended-offset"
+    }
+  ],
+  "final_unentered_cases": [
+    "oversize",
+    "truncated",
+    "bytes"
+  ],
+  "native_probe_caps": {
+    "cpu_seconds": 10,
+    "max_aggregate_entries": 48,
+    "wall_seconds": 30
+  },
+  "next_action": "Director review of D204 console-detached qualification evidence and the interruption classification blocker.",
+  "qualification_marker_created": false,
+  "science": {
+    "audit": "NOT_STARTED",
+    "consumer_imports": 0,
+    "labeling_nodes": 0,
+    "original_admission": "BLOCKED_AT_ADMISSION_NO_EXECUTION",
+    "original_checker_invocations": 0,
+    "primary": "NOT_STARTED",
+    "registered_existence": "UNRESOLVED",
+    "scientific_processes": 0
+  },
+  "task": "LCL-D204-CONSOLE-DETACHED-EXECUTION-READINESS-002",
+  "total_native_entered": 36,
+  "version_budget": 4
+}

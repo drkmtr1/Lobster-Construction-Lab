@@ -1,0 +1,8 @@
+{
+  "pid": 29684,
+  "exact_creation_filetime": "134402162001157879",
+  "historical_summary": "134402162001157870",
+  "summary_minus_exact_ticks": "-9",
+  "unit": "100 ns",
+  "finding": "Exact decimal integer comparison confirmed a nine-tick discrepancy. The historical summary equals the decimal emitted by a binary64/JavaScript Number round-trip of the source integer. Use the native receipt and retain both historical files."
+}

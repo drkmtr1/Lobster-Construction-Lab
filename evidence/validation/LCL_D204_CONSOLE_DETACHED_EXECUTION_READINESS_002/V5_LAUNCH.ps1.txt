@@ -1,0 +1,31 @@
+$ErrorActionPreference = 'Stop'
+$out = Join-Path (Get-Location) 'evidence/validation/LCL_D204_CONSOLE_DETACHED_EXECUTION_READINESS_002/V5_STDOUT.txt'
+$err = Join-Path (Get-Location) 'evidence/validation/LCL_D204_CONSOLE_DETACHED_EXECUTION_READINESS_002/V5_STDERR.txt'
+if ((Test-Path -LiteralPath $out) -or (Test-Path -LiteralPath $err) -or (Test-Path -LiteralPath 'runs/d204-readiness-v5')) { throw 'Occupied qualification identity' }
+$exe = (& .\.venv\Scripts\python.exe -I -S -B -c 'import sys; print(sys._base_executable)')
+if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+$script = Join-Path (Get-Location) 'research/d204_readiness_v5/entry.py'
+$vector = @('-I','-S','-B',('"' + $script + '"'),'LCL-D204-CONSOLE-DETACHED-EXECUTION-READINESS-002','qualify','3bbcee15824549e8a5cdef682695218386d1ad803cb45f2d966e148a005c1b58','f608724f5253b3a67520a4ab5d064fb764791213cf669246ad87925a8e723fdd')
+$watch = [Diagnostics.Stopwatch]::StartNew()
+$outer = Start-Process -FilePath $exe -ArgumentList $vector -WorkingDirectory (Get-Location) -WindowStyle Hidden -RedirectStandardOutput $out -RedirectStandardError $err -PassThru
+$timeout = -not $outer.WaitForExit(790000)
+if ($timeout) {
+    $outer.Kill()
+    $closed = $outer.WaitForExit(5000)
+} else {
+    $closed = $true
+}
+$elapsed = $watch.ElapsedMilliseconds
+$total = $null
+$user = $null
+$kernel = $null
+$code = $null
+if ($closed) {
+    $code = $outer.ExitCode
+    try {
+        $total = $outer.TotalProcessorTime.TotalSeconds
+        $user = $outer.UserProcessorTime.TotalSeconds
+        $kernel = $outer.PrivilegedProcessorTime.TotalSeconds
+    } catch {}
+}
+[ordered]@{pid=$outer.Id;controller_signaled=$closed;outer_timeout=$timeout;actual_outer_elapsed_ms=$elapsed;exit_code=$code;controller_cpu_total=$total;controller_cpu_user=$user;controller_cpu_kernel=$kernel} | ConvertTo-Json -Compress

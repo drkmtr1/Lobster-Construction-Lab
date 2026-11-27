@@ -683,3 +683,9 @@ Accept and retain the prior qualification stop at 369e7ea3981e031e95b4b10eb33df3
 ## D204 comprehensive remediation terminal disposition
 
 Retain all four immutable infrastructure candidates and both bounded native failures. Stop at the authorized version ceiling. A console-detached worker is a discriminator to review under a separate scope, with the original direct binary, Job, exact scientific measurements and no policy changes. The test has no observed result. Retain the closed scientific gate and do not create a readiness marker or scientific approval. [Assessment](../evidence/validation/LCL_D204_COMPREHENSIVE_EXECUTION_READINESS_001/ASSESSMENT.md)
+
+## D204 console-detached qualification continuation
+
+Preserve the accepted comprehensive BLOCKED checkpoint and all four candidates. Replace window suppression with console detachment on all V5 CreateProcess paths. Qualify the full frozen inert matrix, retaining direct CPython, atomic Job assignment, strict reconciliation, and unchanged science. The exact FILETIME correction is separate from the historical evidence.
+
+Seal V5 through V8 and retain **D204_EXECUTION_READINESS_BLOCKED**. Preserve the raw owner and child exit records and V8 emergency evidence. The final revision did not pass the complete matrix. The held launch and draft confer no execution authority. [Independent reviews](../evidence/validation/LCL_D204_CONSOLE_DETACHED_EXECUTION_READINESS_002/REVIEWS.md)

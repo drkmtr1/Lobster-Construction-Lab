@@ -2009,3 +2009,7 @@ The Director accepted the previous revised Windows recovery design at bc08b72dac
 ## D204 comprehensive Windows readiness outcome
 
 Native V3 verified the inert positive in the same worker after durable candidate and receipt, then failed lifetime reconciliation. Native V4 observed conhost.exe as a second live Job member before grant and stopped with confirmed exit and zero active members. Lifetime two blocks qualification under the exact rule. V3 extra association remains unattributed. The 85 pure infrastructure regressions passed. The two observed probes do not qualify the full matrix. D204 remains UNRESOLVED and both phases NOT_STARTED. [Outcome](../evidence/validation/LCL_D204_COMPREHENSIVE_EXECUTION_READINESS_001/RESULT.json)
+
+## D204 console-detached qualification outcome
+
+V5 through V8 demonstrated console-detached ordinary launch with one lifetime Job process in the completed V8 phase receipts. V8 passed 26 pure regression methods and ten matrix cases with twelve measured phase receipts. In the thirteenth entry both retained process handles signaled, but the frozen interruption classifier rejected child exit code 0 and could not seal the phase. Three cases were unentered and the four-version allowance was exhausted. This is an infrastructure blocker only. Both D204 scientific phases remain NOT_STARTED, and the registered question remains UNRESOLVED. The registered mathematical domain is unchanged. [Outcomes](../evidence/validation/LCL_D204_CONSOLE_DETACHED_EXECUTION_READINESS_002/RESULT.json)

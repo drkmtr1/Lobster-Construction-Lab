@@ -1,0 +1,75 @@
+{
+  "head": "0e166855f33e719552b9259adcf8f721eb0f23bc",
+  "previous": "369e7ea3981e031e95b4b10eb33df3213a8c59ed",
+  "continuity": 80,
+  "starting_clean": true,
+  "prior_bindings": 80,
+  "baseline": {
+    "evidence/validation/LCL_D204_COMPREHENSIVE_EXECUTION_READINESS_001/MANIFEST.json": {
+      "bytes": 19266,
+      "sha256": "1fb1229f703ccc6ce714a14def94a07f49c5aca152b1e93a92c90b9589cd32d5"
+    },
+    "evidence/validation/LCL_D204_COMPREHENSIVE_EXECUTION_READINESS_001/V4_FREEZE.json": {
+      "bytes": 418449,
+      "sha256": "90f86ace9eb2fa78110f66bd9c2aa732553e651562f06b0b9969128f21b88d4b"
+    },
+    "research/d204_readiness_v4/native.py": {
+      "bytes": 15106,
+      "sha256": "8fba50a3aa0350b8dd6a30d72b175bb07c7d887c86cb8b53e8916365f1475a7d"
+    },
+    "evidence/validation/LCL_D204_COMPREHENSIVE_EXECUTION_READINESS_001/V4_RUN/positive-primary-phase.json": {
+      "bytes": 2618,
+      "sha256": "ecfaff320b6c10ff240043652b5a83d364c63924df2ca1ff910d17917c2be3c7"
+    }
+  },
+  "historical_acceptance": {
+    "evidence/runs/d204-consecutive-positive-coordinated-gap-return-001": "1317ca61f27526654249d45f7d6285c04c1fa81bcb0934d3f5bc7b08046b5d3c",
+    "evidence/validation/LCL_D204_EXECUTION_ENVIRONMENT_RECOVERY_PREP_001": "f424efce14fa3949198f753dc061a4acbf80d120bcdc7eb07985252999f74b4e",
+    "evidence/validation/LCL_D204_WINDOWS_SUPERVISOR_QUALIFICATION_001": "71ac5a464c9a3d8eca194f66c7df40b99e532ac99ed7e2962e6cb10470ffa5db",
+    "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_COORDINATED_GAP_RETURN_001_PREP": "1fed8bbd218557dd274af443bbb821a8079a15046d4ba27aeb2868b3ecea7236"
+  },
+  "v4_phase_filetime": "134402162001157879",
+  "v4_summary_filetime": "134402162001157870",
+  "decimal_difference": "-9",
+  "pid": 29684,
+  "runtime_entries": 2628,
+  "scientific_limits": {
+    "audit": {
+      "allocation_states": 2366611480,
+      "cpu_seconds": 345600,
+      "fixed_edge_checks": 281105880,
+      "geometry_entries": 8518360,
+      "live_records": 6,
+      "pair_trials": 5338255680,
+      "placement_attempts": 2561339680,
+      "wall_seconds": 432000
+    },
+    "new_evidence_bytes": 128000000,
+    "primary": {
+      "allocation_states": 225145280,
+      "cpu_seconds": 172800,
+      "fixed_edge_checks": 351307720,
+      "geometry_entries": 8518360,
+      "live_records": 7,
+      "pair_trials": 210605520,
+      "placement_attempts": 14539760,
+      "wall_seconds": 259200
+    },
+    "workers": 1
+  },
+  "scope": {
+    "both_rank_classes": true,
+    "deterministic_suffix_edges": 48,
+    "frontier": 0,
+    "induced_old_cut": 14,
+    "intermediate_geometry_occurrences": 8518360,
+    "new_target_edges": 41,
+    "old_prefix_edges": 32,
+    "physical_cuts": [
+      18,
+      19
+    ],
+    "threshold": "C+2"
+  },
+  "check_process_cpu": 0.46875
+}

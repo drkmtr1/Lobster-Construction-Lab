@@ -1,0 +1,313 @@
+{
+  "entered": 8,
+  "files": {
+    "admission.json": {
+      "bytes": 274,
+      "sha256": "e2098fafd9e5ae9982fea37b9bdd9d27e849ca0fff1d1047e9608abda4aefd58"
+    },
+    "audit-disagreement-audit-candidate.bin": {
+      "bytes": 332,
+      "sha256": "ef3db8f9d66344eb5337cb6e5404f5b03bf67cb4623a187d0f1a4a246b5b026d"
+    },
+    "audit-disagreement-audit-candidate.json": {
+      "bytes": 490,
+      "sha256": "e0cd24a6520d2bdd70eb25adcbd45d1a61e1f6f0ee3d350b1c884a8d9c5731d6"
+    },
+    "audit-disagreement-audit-entry.json": {
+      "bytes": 39,
+      "sha256": "ff69e126c363894d3a346069cf31f7a2085492efb5dfb981fbfb8c3e5e20d8ab"
+    },
+    "audit-disagreement-audit-phase.json": {
+      "bytes": 3231,
+      "sha256": "62559aa4dcdd5c86cb05db4c6341887ad377a63ab338da659b8c3d38cae3dcf3"
+    },
+    "audit-disagreement-audit-runtime.json": {
+      "bytes": 5825,
+      "sha256": "93905c7ba1fcf816a7474451d8e1a9ce71e04e2df28b4b11bc5b36ba7b017eb7"
+    },
+    "audit-disagreement-audit-start.json": {
+      "bytes": 895,
+      "sha256": "d3e0e40ca3c57482754e540d7d81355b4e9afc32f659bbbc30fcd351295e3384"
+    },
+    "audit-disagreement-audit-verification.json": {
+      "bytes": 383,
+      "sha256": "5e7fb7c9957b04e074147a94344e7c80640a632b78c1aa430d8752b2b9de962d"
+    },
+    "audit-disagreement-primary-entry.json": {
+      "bytes": 40,
+      "sha256": "9b1b498f0e1226c6d43dedc1681a9ae2c130181f6bcd41fba5bea7b215ef3e54"
+    },
+    "audit-disagreement-primary-phase.json": {
+      "bytes": 2924,
+      "sha256": "46297ed314e8e2adce805d6e156d2507c8cf483d499fed3ee0103721c383211c"
+    },
+    "audit-disagreement-primary-result.json": {
+      "bytes": 277,
+      "sha256": "1421b2e039d22e7b85ceb6323878dd19dbf4af2e43c33571c0bef2dbecb6a2bb"
+    },
+    "audit-disagreement-primary-runtime.json": {
+      "bytes": 5827,
+      "sha256": "472513aa82686d1a98a75c4a34bbb27fe67a9a417ee6d4a56f19388a3f892ecc"
+    },
+    "audit-disagreement-primary-start.json": {
+      "bytes": 896,
+      "sha256": "ea9e08c06c9ceeeaab4f65ba97e86318941608f4591b5dc4f19cdb090831e9c2"
+    },
+    "dual-exhaustion-audit-entry.json": {
+      "bytes": 38,
+      "sha256": "ac00a26f85cb48ea66bf67c048af875a3195437afa19705f943969f3c1c26ff2"
+    },
+    "dual-exhaustion-audit-phase.json": {
+      "bytes": 2915,
+      "sha256": "e8d6a420af062aa2386f84cb8fba3ed14528c1c1d113d42b21bdecf7b3f1c68e"
+    },
+    "dual-exhaustion-audit-result.json": {
+      "bytes": 277,
+      "sha256": "1421b2e039d22e7b85ceb6323878dd19dbf4af2e43c33571c0bef2dbecb6a2bb"
+    },
+    "dual-exhaustion-audit-runtime.json": {
+      "bytes": 5824,
+      "sha256": "fd7c5b8098ac3e043770c6909b29e850216edbce94547dd5a8e3c9cfdffd15aa"
+    },
+    "dual-exhaustion-audit-start.json": {
+      "bytes": 893,
+      "sha256": "4e73beeb2805bb9f4eb8d54eb936c275f0d299de2957da8479000fef228c2159"
+    },
+    "dual-exhaustion-primary-entry.json": {
+      "bytes": 40,
+      "sha256": "9b1b498f0e1226c6d43dedc1681a9ae2c130181f6bcd41fba5bea7b215ef3e54"
+    },
+    "dual-exhaustion-primary-phase.json": {
+      "bytes": 2924,
+      "sha256": "56eb2996903b97e7d03b7a9f6b2c0ef9fa6400b720ad634cc404532d414f63af"
+    },
+    "dual-exhaustion-primary-result.json": {
+      "bytes": 277,
+      "sha256": "1421b2e039d22e7b85ceb6323878dd19dbf4af2e43c33571c0bef2dbecb6a2bb"
+    },
+    "dual-exhaustion-primary-runtime.json": {
+      "bytes": 5827,
+      "sha256": "9da35b52e162fa2b9fb41cebebf817198556cefd72267a0b496f997077e30a8c"
+    },
+    "dual-exhaustion-primary-start.json": {
+      "bytes": 896,
+      "sha256": "64334b823c3d4753fc9c2d87f42e86a59a299282d27edb4d465f26539dcc1f0a"
+    },
+    "incomplete-primary-entry.json": {
+      "bytes": 43,
+      "sha256": "8df4c38cb624a8e33d879c162bb6ba54221aba3d4a2cedfdb0f798cb74dda453"
+    },
+    "incomplete-primary-phase.json": {
+      "bytes": 2936,
+      "sha256": "8130cb9f75fece2baac41ed5bc5044f97da0c68d03a5855b138cb8abca68276c"
+    },
+    "incomplete-primary-result.json": {
+      "bytes": 290,
+      "sha256": "44e8654dd54ede940888ac218beb7ad3294e721ef31a7f95b92f19c9ca003e62"
+    },
+    "incomplete-primary-runtime.json": {
+      "bytes": 5827,
+      "sha256": "3289efba6b19ec7b12138eace97ef7a73ad5aa93443d022e2bf3cc1d354af706"
+    },
+    "incomplete-primary-start.json": {
+      "bytes": 899,
+      "sha256": "1a4e3ec844e55487c4f3eac1f3d6931dde78b91011f976e1c7028a47d18443ea"
+    },
+    "native-primary-entry.json": {
+      "bytes": 39,
+      "sha256": "85f8a83b64612c2c49770068fc0767a0ed6afcd69ed446ac93a811b0f7e88b81"
+    },
+    "native-primary-phase.json": {
+      "bytes": 2737,
+      "sha256": "2fd0b37070e6227b6dedc2075908254f8c6c7a6e985a94b5febd8c1cb9794b02"
+    },
+    "native-primary-runtime.json": {
+      "bytes": 5827,
+      "sha256": "f370c72b2b9bf71549a9e2b4b56934dd0bd226cb15bc8340732333cfe850886b"
+    },
+    "native-primary-start.json": {
+      "bytes": 894,
+      "sha256": "b220d6f06992690523dcbb8efba3d8205efc7e2c69cacf5df25378d81eb3e049"
+    },
+    "positive-primary-candidate.bin": {
+      "bytes": 359,
+      "sha256": "57d3ad4a491ac570d5187ff3bd8b40bb6d3ad095f80d95b1b008039667eca438"
+    },
+    "positive-primary-candidate.json": {
+      "bytes": 492,
+      "sha256": "ccea7ed43fa0618cdee7e85f49349284f2e13593aeb6e44c8db4cdb8568cda0c"
+    },
+    "positive-primary-entry.json": {
+      "bytes": 41,
+      "sha256": "b02095852a2ab1467f0ac21afc8df772781872bd861ad85cb6c0ec086a66cdc0"
+    },
+    "positive-primary-phase.json": {
+      "bytes": 3319,
+      "sha256": "bb28cf2eda9a9deb949f291b04e121a0c116a5ad9cf8cc9276de2a4f6f103ee0"
+    },
+    "positive-primary-runtime.json": {
+      "bytes": 5827,
+      "sha256": "56b2ff7aecfe09b959523e6fb289e29748572a0547a7246165ea510cd25179b8"
+    },
+    "positive-primary-start.json": {
+      "bytes": 897,
+      "sha256": "f3e8fdcb803d5cc88b6b0ecaa9d9a30400b37aa2301888c265e736a6e8d17b8c"
+    },
+    "positive-primary-verification.json": {
+      "bytes": 385,
+      "sha256": "ff58def8ff03e448629efe129c2913e6f6a5138b2e87f67d7ddd2e54faa243c0"
+    },
+    "seal.json": {
+      "bytes": 343,
+      "sha256": "8ce517afa59e0019a5d960505033a087455715187406ef370e5bd3caed61ed62"
+    },
+    "terminal.json": {
+      "bytes": 7779,
+      "sha256": "d0e53d8746a7aa75a8d9355328576e0271b3616f90b5e4bd2e330b2d24dd806e"
+    },
+    "verify-failure-primary-candidate.bin": {
+      "bytes": 359,
+      "sha256": "57d3ad4a491ac570d5187ff3bd8b40bb6d3ad095f80d95b1b008039667eca438"
+    },
+    "verify-failure-primary-candidate.json": {
+      "bytes": 492,
+      "sha256": "8759e89d5256083821f661406c6a0685d8905ebdef25d56277c35d50b64d3d40"
+    },
+    "verify-failure-primary-entry.json": {
+      "bytes": 47,
+      "sha256": "4afe9458c2063bc42319657369f7688399a6a53643f37511cb527b38429ccdb7"
+    },
+    "verify-failure-primary-phase.json": {
+      "bytes": 3323,
+      "sha256": "1a0013b647e14e12c93a598ecd09db4ad10baef364c5ea6afe67e02be888a7de"
+    },
+    "verify-failure-primary-runtime.json": {
+      "bytes": 5827,
+      "sha256": "d024c27ca841c18e5648ad9f7b5836ce118dcf2cc6b57600714d65318ab514af"
+    },
+    "verify-failure-primary-start.json": {
+      "bytes": 903,
+      "sha256": "2fee94058285b8244d7386712308702dedaef78247643050134caecd43e3c131"
+    },
+    "verify-failure-primary-verification.json": {
+      "bytes": 306,
+      "sha256": "e288884fb544c5c4546b5e17c57de6bd3aa83dc40d388edb23338de65f3088e8"
+    }
+  },
+  "raw_bytes": 91535,
+  "result": {
+    "aggregate_controller_worker_cpu_ticks": 37500000,
+    "cases": [
+      {
+        "case": "positive",
+        "expected": "STOP_VERIFIED_POSITIVE",
+        "pass_": true,
+        "phases": [
+          {
+            "actual_cpu_ticks": 781250,
+            "actual_elapsed_ms": 172,
+            "disagreement": false,
+            "disposition": "STOP_VERIFIED_POSITIVE",
+            "measured": true,
+            "phase": "primary"
+          }
+        ]
+      },
+      {
+        "case": "dual-exhaustion",
+        "expected": "STOP_REGISTERED_NEGATIVE",
+        "pass_": true,
+        "phases": [
+          {
+            "actual_cpu_ticks": 1250000,
+            "actual_elapsed_ms": 171,
+            "disagreement": false,
+            "disposition": "ADMIT_AUDIT",
+            "measured": true,
+            "phase": "primary"
+          },
+          {
+            "actual_cpu_ticks": 625000,
+            "actual_elapsed_ms": 188,
+            "disagreement": false,
+            "disposition": "STOP_REGISTERED_NEGATIVE",
+            "measured": true,
+            "phase": "audit"
+          }
+        ]
+      },
+      {
+        "case": "incomplete",
+        "expected": "STOP_INCOMPLETE",
+        "pass_": true,
+        "phases": [
+          {
+            "actual_cpu_ticks": 781250,
+            "actual_elapsed_ms": 172,
+            "disagreement": false,
+            "disposition": "STOP_INCOMPLETE",
+            "measured": true,
+            "phase": "primary"
+          }
+        ]
+      },
+      {
+        "case": "verify-failure",
+        "expected": "STOP_VERIFICATION_FAILURE",
+        "pass_": true,
+        "phases": [
+          {
+            "actual_cpu_ticks": 937500,
+            "actual_elapsed_ms": 187,
+            "disagreement": false,
+            "disposition": "STOP_VERIFICATION_FAILURE",
+            "measured": true,
+            "phase": "primary"
+          }
+        ]
+      },
+      {
+        "case": "audit-disagreement",
+        "expected": "STOP_ENGINE_DISCREPANCY",
+        "pass_": true,
+        "phases": [
+          {
+            "actual_cpu_ticks": 625000,
+            "actual_elapsed_ms": 157,
+            "disagreement": false,
+            "disposition": "ADMIT_AUDIT",
+            "measured": true,
+            "phase": "primary"
+          },
+          {
+            "actual_cpu_ticks": 625000,
+            "actual_elapsed_ms": 296,
+            "disagreement": false,
+            "disposition": "STOP_ENGINE_DISCREPANCY",
+            "measured": true,
+            "phase": "audit"
+          }
+        ]
+      },
+      {
+        "case": "native",
+        "expected": "NATIVE_USER_LIMIT",
+        "pass_": false,
+        "phases": [
+          {
+            "actual_cpu_ticks": 31875000,
+            "actual_elapsed_ms": 3266,
+            "disagreement": false,
+            "disposition": "SAMPLED_COMBINED_CPU",
+            "measured": true,
+            "phase": "primary"
+          }
+        ]
+      }
+    ],
+    "elapsed_ms": 4609,
+    "entered": 8,
+    "qualification_pass": false
+  },
+  "retained_source_runs": true
+}

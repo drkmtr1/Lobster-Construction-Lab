@@ -1,0 +1,178 @@
+{
+  "task": "LCL-D204-CONSOLE-DETACHED-EXECUTION-READINESS-002",
+  "freeze_version": 5,
+  "scientific_dispatch": false,
+  "maximum_workers": 16,
+  "maximum_sequence_ms": 480000,
+  "maximum_aggregate_cpu_ticks": 1600000000,
+  "test_policy": {
+    "cpu_max": 100000000,
+    "user_max": 60000000,
+    "cpu_early": 30000000,
+    "wall": 30000,
+    "early": 9500,
+    "cleanup": 5000,
+    "tick": 250,
+    "gap": 2000
+  },
+  "cases": [
+    {
+      "id": "positive",
+      "phases": [
+        [
+          "primary",
+          "positive"
+        ]
+      ],
+      "expect": "STOP_VERIFIED_POSITIVE"
+    },
+    {
+      "id": "dual-exhaustion",
+      "phases": [
+        [
+          "primary",
+          "exhaust"
+        ],
+        [
+          "audit",
+          "exhaust"
+        ]
+      ],
+      "expect": "STOP_REGISTERED_NEGATIVE"
+    },
+    {
+      "id": "incomplete",
+      "phases": [
+        [
+          "primary",
+          "incomplete"
+        ]
+      ],
+      "expect": "STOP_INCOMPLETE"
+    },
+    {
+      "id": "verify-failure",
+      "phases": [
+        [
+          "primary",
+          "verify-failure"
+        ]
+      ],
+      "expect": "STOP_VERIFICATION_FAILURE"
+    },
+    {
+      "id": "audit-disagreement",
+      "phases": [
+        [
+          "primary",
+          "exhaust"
+        ],
+        [
+          "audit",
+          "positive"
+        ]
+      ],
+      "expect": "STOP_ENGINE_DISCREPANCY"
+    },
+    {
+      "id": "native",
+      "phases": [
+        [
+          "primary",
+          "native"
+        ]
+      ],
+      "expect": "NATIVE_USER_LIMIT",
+      "policy": {
+        "user_max": 5000000
+      }
+    },
+    {
+      "id": "sampled",
+      "phases": [
+        [
+          "primary",
+          "sampled"
+        ]
+      ],
+      "expect": "SAMPLED_COMBINED_CPU",
+      "policy": {
+        "cpu_early": 7500000
+      }
+    },
+    {
+      "id": "elapsed",
+      "phases": [
+        [
+          "primary",
+          "sleep"
+        ]
+      ],
+      "expect": "SAMPLED_ELAPSED",
+      "policy": {
+        "early": 1800
+      }
+    },
+    {
+      "id": "gap",
+      "phases": [
+        [
+          "primary",
+          "gap"
+        ]
+      ],
+      "expect": "OBSERVATION_GAP"
+    },
+    {
+      "id": "child",
+      "phases": [
+        [
+          "primary",
+          "child-refusal"
+        ]
+      ],
+      "expect": "CHILD_REFUSED"
+    },
+    {
+      "id": "crash",
+      "phases": [
+        [
+          "primary",
+          "crash-owner"
+        ]
+      ],
+      "expect": "KILL_ON_CLOSE_OBSERVED"
+    },
+    {
+      "id": "oversize",
+      "phases": [
+        [
+          "primary",
+          "oversize"
+        ]
+      ],
+      "expect": "IPC_FRAME_LIMIT"
+    },
+    {
+      "id": "truncated",
+      "phases": [
+        [
+          "primary",
+          "truncated"
+        ]
+      ],
+      "expect": "IPC_TRUNCATED"
+    },
+    {
+      "id": "bytes",
+      "phases": [
+        [
+          "primary",
+          "byte-cap"
+        ]
+      ],
+      "expect": "EVIDENCE_LIMIT",
+      "limit_increment": 65536
+    }
+  ]
+}

@@ -1150,3 +1150,7 @@ A separately authorized version would require one cleanup deadline across layers
 ## D204 Job-membership qualification remains open
 
 Before scientific authorization, a separately reviewed exact Windows launch must demonstrate zero active and exactly one lifetime Job process for ordinary phases, alongside complete native resource and evidence qualification. The final bounded host observation showed two members despite configured active limit one. Both processes were cleared from the Job before closeout. Test any console-detachment repair prospectively. No mathematical obligation, domain, ceiling or scientific state changed. [V4 host evidence](../evidence/validation/LCL_D204_COMPREHENSIVE_EXECUTION_READINESS_001/V4_RUN/positive-primary-phase.json)
+
+## D204 interruption classification and complete qualification
+
+The previous console-membership discriminator passed on the observed ordinary launches. Before scientific authorization, independently qualify the interruption classifier using the actual bound owner and child identities, signaled exits and controlled natural-exit path, with the raw terminal record preserved independently of classification. Complete all required tests on the same frozen revision. The V8 crash case failed qualification and three cases were unentered. No mathematical obligation or resource ceiling changed. [Assessment](../evidence/validation/LCL_D204_CONSOLE_DETACHED_EXECUTION_READINESS_002/ASSESSMENT.md)
