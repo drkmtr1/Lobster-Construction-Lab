@@ -2049,3 +2049,7 @@ A supplied pendant-entry alpha block at the lower boundary with an actual zero e
 ## D209 independent two-sided ordinary supplier
 
 The exact [p],[q,a],[b],[t] original is graceful for every positive D105 flank pair and throughout the D117 subdomain listed in the proof. D131 and an independently supplied opposite-extreme core give all unequal flanks and equal magnitude s≥n, including the boundary s=n. Adjacent-top and more general near-top residual paths, along with an applicable R241 alpha composition, supply additional parameterized equal domains. The original spine connectors, indexed quotas and both resource partitions are proved. Independent review and three positive hand controls passed. [Proof and independent mathematical review](ORDINARY_SPINE_TWO_SIDED_ORDINARY_SUPPLIER.md)
+
+## D210 independent simultaneous ordinary supplier
+
+For independently selected integers q≥5, even a≥4, b≥2 and at least one of q and b even, the exact original [[1],[q,a],[b],[1]] has an ordinary graceful labeling. An independently placed eleven-vertex partial tree meets both flanks. Base label and weight palettes partition the remaining resources, and reflection-invariant transfer supplies all three actual central quotas. This adds the all-even unit-flank family and the other stated cases beyond D209's divisibility menu. Four fixed positive originals and the restricted adverse control passed separate mathematical and hand-arithmetic review. [Proof and independent review](ORDINARY_SPINE_SIMULTANEOUS_ORDINARY_SUPPLIER.md)
