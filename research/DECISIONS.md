@@ -755,3 +755,7 @@ REVISE D207's proposed successor. The exact D207 monotone-embedding question is 
 ## D208 symbolic closeout
 
 The independent review passed the Director-derived reverse-block formula, original connector transport, finite composition and all four exact hand controls. Record the proved supplied-list scope and the exact ordinary D207 and D117 families for Director review. Retain the D207 acceptance and separately recorded strategic revision, the unresolved deferred monotone question, prior D104/D204/D205 scopes, and project governance KEEP v12. No numerical worker, executable verification, solver, checker, campaign replay, infrastructure change or successor was used. [Proof and review](ORDINARY_SPINE_REVERSE_BLOCK_COMPOSITION.md)
+
+## D208 Director acceptance and D209 admission
+
+ACCEPT D208 at f8e74c03652b1f20f380ccc87a5f09288669acf7 within its exact supplied-list mathematical scope after Director inspection of the proof, fixed hand controls, independent review, handoff, live state and instructions. Both upstream pins, tag and peel remain bound. Preserve D207's exact unresolved deferred return and all prior evidence. Authorize only D209, a bounded symbolic supplier investigation of the named ([p],[q,a],[b],[t]) family, with fixed hand arithmetic and independent review. No numerical search, solver, executable verification, checker, replay or automatic successor. KEEP v12. [Accepted D208 proof](ORDINARY_SPINE_REVERSE_BLOCK_COMPOSITION.md)
