@@ -1,0 +1,41 @@
+{
+  "approved_repository_head": "9239fc162640f5b401e6e5c820a0040672e85fcf",
+  "freeze": "fea8700e37f7a51ca30f0b79558a91b23457f63c6ebfbc28786a664cda895dc7",
+  "intent": "AUTHORIZE_ONE_D204_SCIENTIFIC_RUN",
+  "limits": {
+    "audit": {
+      "allocation_states": 2366611480,
+      "cpu_seconds": 345600,
+      "fixed_edge_checks": 281105880,
+      "geometry_entries": 8518360,
+      "live_records": 6,
+      "pair_trials": 5338255680,
+      "placement_attempts": 2561339680,
+      "wall_seconds": 432000
+    },
+    "new_evidence_bytes": 128000000,
+    "primary": {
+      "allocation_states": 225145280,
+      "cpu_seconds": 172800,
+      "fixed_edge_checks": 351307720,
+      "geometry_entries": 8518360,
+      "live_records": 7,
+      "pair_trials": 210605520,
+      "placement_attempts": 14539760,
+      "wall_seconds": 259200
+    },
+    "workers": 1
+  },
+  "live_ref_receipt_sha256": "7fa46b725dfeb1a83a5e3e684e37300a62061ea83f3bd6fc6611ce7f25ae2387",
+  "owner_authorization": "I authorize recording Director acceptance of the completed V9 execution-readiness qualification, followed by exactly one D204 scientific execution under the accepted Windows measured-acceptance contract.\n\nThis is the separate Owner scientific authorization required by the qualified V9 launcher.\n\nNo additional infrastructure revision, V10, numerical campaign, automatic retry or D205 successor is authorized.",
+  "qualification_sha256": "fcfdbb1d0a35ae8c48e4a5cd6d6219018356e86ca3ec7567ef21e6029fb16107",
+  "run": "d204-science-v9",
+  "task": "LCL-D204-INTERRUPTION-EVIDENCE-QUALIFICATION-003",
+  "verified_live_refs": {
+    "bounded_search_head": "e48b94eec4091b4fe189e325cab2eda464409943",
+    "lcl_main": "9239fc162640f5b401e6e5c820a0040672e85fcf",
+    "mdl_head": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+    "peel": "36ea1603602491bf3c1c5b81ed4c23aaa2210e70",
+    "tag": "fddfc1dd9541324b2ed2de2505bc750b3e3f0b9d"
+  }
+}

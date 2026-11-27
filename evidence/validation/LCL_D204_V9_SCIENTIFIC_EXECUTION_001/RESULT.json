@@ -1,0 +1,35 @@
+{
+  "approved_repository_head": "9239fc162640f5b401e6e5c820a0040672e85fcf",
+  "candidates": 0,
+  "disposition": "STOP_REGISTERED_NEGATIVE",
+  "invocation_count": 1,
+  "measured_phase_outcome": {
+    "audit": "EXHAUSTED",
+    "geometry_per_engine": 8518360,
+    "primary": "EXHAUSTED"
+  },
+  "next_action": "Director review of D204 V9 bounded scientific execution results and evidence.",
+  "original_admission": "BLOCKED_AT_ADMISSION_NO_EXECUTION",
+  "original_checker_invocations": 0,
+  "positive_verifier_invocations": 0,
+  "qualified_checkpoint": "55cb26095b2360cb6a43594b921b500bb8eb0fc9",
+  "registered_existence": "NEGATIVE_WITHIN_REGISTERED_CLASS",
+  "replays": 0,
+  "retries": 0,
+  "run": "d204-science-v9",
+  "scope": {
+    "both_rank_classes": true,
+    "conditional_48": "1e9d8d99227973991cb6fb850cfbcd44cfac2c3470396886c59a9264bd3de3cb",
+    "fixed_prefix": "fd4289cb555097994341bf023415e231841e01e95c1098c7890643252241f061",
+    "induced_old_cut": 14,
+    "main_41": "5554c99f3db5b777a5e139369479c470b9e220753da2193aecbaa3c9ac6d3515",
+    "physical_cuts": [
+      18,
+      19
+    ],
+    "residual_frontier": 0,
+    "symbolic_exclusions_combined": true,
+    "threshold": "C+2"
+  },
+  "task": "LCL-D204-INTERRUPTION-EVIDENCE-QUALIFICATION-003"
+}

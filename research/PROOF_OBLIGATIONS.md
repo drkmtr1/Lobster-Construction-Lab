@@ -1158,3 +1158,7 @@ The previous console-membership discriminator passed on the observed ordinary la
 ## D204 V9 — Qualified infrastructure and residual scientific question
 
 The interruption and complete V9 synthetic host qualification obligations passed on the exact V9 freeze. The original D204 existence obligation remains UNRESOLVED. A fresh explicit Owner authorization and the admitted runtime, Git and custody checks are required for any future primary and conditional independent audit. The scientific domain and resource ceilings remain unchanged. [Readiness and limits](../evidence/validation/LCL_D204_INTERRUPTION_EVIDENCE_QUALIFICATION_003/V9_FINAL_QUALIFICATION.json)
+
+## D204 V9 — Registered existence decided by dual exhaustion
+
+Close the exact residual D204 question within the accepted fixed old labeling, required return relation and both old rank classes. Both traversals exhausted their registered domains and the accepted symbolic reductions cover the other branches. The conditional 48-edge verification was inapplicable. No new obligation about unrestricted gracefulness is decided. [Sealed evidence](../evidence/runs/d204-science-v9/terminal.json)

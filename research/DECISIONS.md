@@ -699,3 +699,7 @@ Record **D204_EXECUTION_READY_AWAITING_OWNER_AUTHORIZATION** for exact V9 and th
 ## D204 V9 Director acceptance and one-shot Owner authorization
 
 ACCEPT the sealed V9 readiness evidence at `55cb26095b2360cb6a43594b921b500bb8eb0fc9` within its exact frozen source, observed host and runtime scope. Both retained process handles signaled 16 ms after the deliberate owner-only request in the qualifying inert phase. Retain all prior infrastructure receipts and the historical admission stop. Authorize only one gated official invocation under `d204-science-v9`, with audit conditional on reconciled primary exhaustion. Keep both old rank classes, fixed prefix, physical cuts 18 and 19, actual named originals and exact ceilings. The 48-edge continuation remains deterministic verification only. No infrastructure revision, retry or successor is authorized. [Accepted qualification](../evidence/validation/LCL_D204_INTERRUPTION_EVIDENCE_QUALIFICATION_003/V9_FINAL_QUALIFICATION.json)
+
+## D204 V9 bounded execution disposition
+
+Retain `STOP_REGISTERED_NEGATIVE` for the exact registered domain at approved admission checkpoint `9239fc162640f5b401e6e5c820a0040672e85fcf`. The sole authorized invocation completed primary and independent audit, each with matching absolute caps and a reconciled sealed scientific disposition. Preserve historic admission, recovery and qualification results and the earlier closed lanes. No retry, additional campaign or successor was initiated. [Execution record](../evidence/validation/LCL_D204_V9_SCIENTIFIC_EXECUTION_001/ASSESSMENT.md)

@@ -1,0 +1,107 @@
+{
+  "admission": {
+    "bytes": 272,
+    "sha256": "efd4cfd6fa167e1f87fe4875a7221a717898e572545085adcc1ee6fed7144401"
+  },
+  "geometry_by_cut": [
+    6021400,
+    2496960
+  ],
+  "outer": {
+    "actual_outer_elapsed_ms": 231593,
+    "controller_cpu_kernel_ticks": 20312500,
+    "controller_cpu_total_ticks": 31875000,
+    "controller_cpu_user_ticks": 11562500,
+    "controller_signaled": true,
+    "exit_code": 0,
+    "outer_timeout": false,
+    "pid": 24012
+  },
+  "phased": [
+    {
+      "controller_pid": 24012,
+      "creation_filetime": "134402210178738950",
+      "elapsed": 112687,
+      "end_filetime": "134402211305355955",
+      "maximum_gap": 250,
+      "measured_cpu_ticks": 1121250000,
+      "phase": "primary",
+      "pid": 24136,
+      "reconciliation": {
+        "guard_ticks": 0,
+        "mode": "exact-or-suspended-offset",
+        "process_minus_job": {
+          "kernel": 0,
+          "user": 0
+        }
+      },
+      "result": {
+        "compatible_rank_counts": {
+          "rank_changing": 1408,
+          "rank_preserving": 2308
+        },
+        "counters": {
+          "allocation_states": 0,
+          "fixed_edge_checks": 172243938,
+          "geometry_entries": 8518360,
+          "pair_trials": 0,
+          "peak_live_records": 1,
+          "placement_attempts": 4493,
+          "process_cpu_seconds": 111.984375,
+          "wall_seconds": 112.41004610000527
+        },
+        "status": "EXHAUSTED"
+      },
+      "terminal_kernel_ticks": 27812500,
+      "terminal_user_ticks": 1093437500
+    },
+    {
+      "controller_pid": 24012,
+      "creation_filetime": "134402211305639699",
+      "elapsed": 114891,
+      "end_filetime": "134402212454162085",
+      "maximum_gap": 250,
+      "measured_cpu_ticks": 1142656250,
+      "phase": "audit",
+      "pid": 30176,
+      "reconciliation": {
+        "guard_ticks": 0,
+        "mode": "exact-or-suspended-offset",
+        "process_minus_job": {
+          "kernel": 0,
+          "user": 0
+        }
+      },
+      "result": {
+        "compatible_rank_counts": {
+          "rank_changing": 1408,
+          "rank_preserving": 2308
+        },
+        "counters": {
+          "allocation_states": 3924,
+          "fixed_edge_checks": 134011849,
+          "geometry_entries": 8518360,
+          "pair_trials": 54844,
+          "peak_live_records": 3,
+          "placement_attempts": 15302,
+          "process_cpu_seconds": 114.1875,
+          "wall_seconds": 114.7456044999999
+        },
+        "status": "EXHAUSTED"
+      },
+      "terminal_kernel_ticks": 35937500,
+      "terminal_user_ticks": 1106718750
+    }
+  ],
+  "receipt_count": 15,
+  "scientific_evidence_bytes": 25322,
+  "seal": {
+    "bytes": 342,
+    "sha256": "66e99210bfdc0e0afd7bb389f0619ace70b2c7cc6bd34ff3425e267ccd6de784"
+  },
+  "terminal": {
+    "bytes": 2018,
+    "sha256": "1acfb5d4f3ee36eed6234a603f6120d0aeb48ce631778c231b65003498e1b607"
+  },
+  "terminal_bound": 13
+}

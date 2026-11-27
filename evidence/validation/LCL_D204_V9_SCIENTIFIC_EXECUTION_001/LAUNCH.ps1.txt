@@ -1,0 +1,33 @@
+$ErrorActionPreference = 'Stop'
+Set-Location -LiteralPath 'C:\Users\Will\Projects\Lobster_Construction_Lab'
+if ((git rev-parse HEAD) -ne '9239fc162640f5b401e6e5c820a0040672e85fcf' -or (git status --porcelain --ignore-submodules=all)) { throw 'Fresh execution checkout changed' }
+if ([DateTimeOffset]::UtcNow.ToUnixTimeSeconds() -ge (1795747359+900)) { throw 'Fresh reference observation expired' }
+if ((Get-FileHash -LiteralPath 'runs/d204-science-v9-approval.json' -Algorithm SHA256).Hash.ToLowerInvariant() -ne '710372d281dc81d6182cc866954367c6ba4493f184c055b1286a180b336c3552') { throw 'Approval bytes changed' }
+if ((Get-FileHash -LiteralPath 'runs/d204-science-v9-live-refs.json' -Algorithm SHA256).Hash.ToLowerInvariant() -ne '7fa46b725dfeb1a83a5e3e684e37300a62061ea83f3bd6fc6611ce7f25ae2387') { throw 'Live reference receipt changed' }
+$out = Join-Path (Get-Location) 'runs/d204-science-v9-controller.stdout'
+$err = Join-Path (Get-Location) 'runs/d204-science-v9-controller.stderr'
+if ((Test-Path -LiteralPath $out) -or (Test-Path -LiteralPath $err) -or (Test-Path -LiteralPath 'evidence/runs/d204-science-v9')) { throw 'Occupied official invocation identity' }
+$basePython = & .\.venv\Scripts\python.exe -I -S -B -c 'import sys; print(sys._base_executable)'
+if ($LASTEXITCODE -ne 0 -or $basePython -ne 'C:\Users\Will\AppData\Local\Programs\Python\Python313\python.exe') { throw 'Qualified interpreter mismatch' }
+$script = Join-Path (Get-Location) 'research/d204_readiness_v9/entry.py'
+$vector = @('-I','-S','-B',('"' + $script + '"'),'LCL-D204-INTERRUPTION-EVIDENCE-QUALIFICATION-003','official','fea8700e37f7a51ca30f0b79558a91b23457f63c6ebfbc28786a664cda895dc7','710372d281dc81d6182cc866954367c6ba4493f184c055b1286a180b336c3552')
+$start = [DateTimeOffset]::UtcNow.ToUnixTimeMilliseconds()
+$watch = [Diagnostics.Stopwatch]::StartNew()
+$outer = Start-Process -FilePath $basePython -ArgumentList $vector -WorkingDirectory (Get-Location) -WindowStyle Hidden -RedirectStandardOutput $out -RedirectStandardError $err -PassThru
+[ordered]@{started_controller_pid=$outer.Id;started_unix_ms=$start} | ConvertTo-Json -Compress
+$timeout = -not $outer.WaitForExit(691500000)
+if ($timeout) {
+  try { $outer.Kill() } catch {}
+  $closed = $outer.WaitForExit(5000)
+} else { $closed = $true }
+$elapsed = $watch.ElapsedMilliseconds
+$user = $null; $kernel = $null; $total = $null; $code = $null
+if ($closed) {
+  $code = $outer.ExitCode
+  try {
+    $user = $outer.UserProcessorTime.Ticks
+    $kernel = $outer.PrivilegedProcessorTime.Ticks
+    $total = $outer.TotalProcessorTime.Ticks
+  } catch {}
+}
+[ordered]@{pid=$outer.Id;controller_signaled=$closed;outer_timeout=$timeout;actual_outer_elapsed_ms=$elapsed;exit_code=$code;controller_cpu_total_ticks=$total;controller_cpu_user_ticks=$user;controller_cpu_kernel_ticks=$kernel} | ConvertTo-Json -Compress

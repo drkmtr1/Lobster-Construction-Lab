@@ -1,0 +1,284 @@
+{
+  "accepted_qualification_artifacts": {
+    "MANIFEST.json": "965008655aa3cee8930d37ea0073e9197c37d4eb1dd0e5278eaa042ffaa3fbe2",
+    "V9_ARCHIVE.json": "aafeb21138cb080f0bd7b246e589e9de338971fb41a670de69bc7d53d484419c",
+    "V9_FINAL_QUALIFICATION.json": "fcfdbb1d0a35ae8c48e4a5cd6d6219018356e86ca3ec7567ef21e6029fb16107",
+    "V9_FREEZE.json": "fea8700e37f7a51ca30f0b79558a91b23457f63c6ebfbc28786a664cda895dc7",
+    "V9_RUN/seal.json": "91b065390c885bfdc00a01ea58c6a7603b7b5489b3d8e6d5956619472b17c5ec",
+    "V9_RUN/terminal.json": "04eddd9d5550331b027d550a0491f3ee040f0a8f24c8a0ba25b26e0183673e79"
+  },
+  "accepted_qualification_commit": "55cb26095b2360cb6a43594b921b500bb8eb0fc9",
+  "admitted_repository_head": "9239fc162640f5b401e6e5c820a0040672e85fcf",
+  "approval": {
+    "bytes": 1912,
+    "sha256": "710372d281dc81d6182cc866954367c6ba4493f184c055b1286a180b336c3552"
+  },
+  "authoritative_bindings": {
+    "STATE.md": {
+      "bytes": 133993,
+      "sha256": "11cb1bc2b5ac525bc11f79af0a8ed1e7aa7122f925ae8bcabd30008eadef5e5e"
+    },
+    "research/DECISIONS.md": {
+      "bytes": 201592,
+      "sha256": "dc39ec2d70a9b4e796d8e86c90bcb7c57f086fd66d6d8eb762663478bce03ba1"
+    },
+    "research/FAILED_HYPOTHESES.md": {
+      "bytes": 101874,
+      "sha256": "5276ebc0c5021a9a4846305018dc45b9e2bf50fdc01a9473cc78ded9f6cbb277"
+    },
+    "research/FINDINGS.md": {
+      "bytes": 240671,
+      "sha256": "f93df95e81eedfc2137dfe02882b6ef1453a31eea958b60bda4936528b944758"
+    },
+    "research/PROOF_OBLIGATIONS.md": {
+      "bytes": 138833,
+      "sha256": "4f230ef075bd76b526f90d00fc4fd6fa61135bb3261b1e0c522cde5643f8becc"
+    }
+  },
+  "count_scope": "Primary compatible figures are deduplicated old geometries. The independent audit counts cut-scoped compatible raw subsets. Neither count represents named labelings.",
+  "exact_terminal_bound_artifacts": 13,
+  "external_controller_observation": {
+    "actual_outer_elapsed_ms": 231593,
+    "controller_cpu_kernel_ticks": 20312500,
+    "controller_cpu_total_ticks": 31875000,
+    "controller_cpu_user_ticks": 11562500,
+    "controller_signaled": true,
+    "exit_code": 0,
+    "outer_timeout": false,
+    "pid": 24012
+  },
+  "frozen_project_count": 50,
+  "frozen_runtime_count": 2628,
+  "historic_d204_admission": "BLOCKED_AT_ADMISSION_NO_EXECUTION",
+  "invocations": 1,
+  "live_refs": {
+    "bytes": 441,
+    "sha256": "7fa46b725dfeb1a83a5e3e684e37300a62061ea83f3bd6fc6611ce7f25ae2387"
+  },
+  "next_action": "Director review of D204 V9 bounded scientific execution results and evidence.",
+  "original_checker_invocations": 0,
+  "phase_measurements": [
+    {
+      "controller_pid": 24012,
+      "creation_filetime": "134402210178738950",
+      "elapsed": 112687,
+      "end_filetime": "134402211305355955",
+      "maximum_gap": 250,
+      "measured_cpu_ticks": 1121250000,
+      "phase": "primary",
+      "pid": 24136,
+      "reconciliation": {
+        "guard_ticks": 0,
+        "mode": "exact-or-suspended-offset",
+        "process_minus_job": {
+          "kernel": 0,
+          "user": 0
+        }
+      },
+      "result": {
+        "compatible_rank_counts": {
+          "rank_changing": 1408,
+          "rank_preserving": 2308
+        },
+        "counters": {
+          "allocation_states": 0,
+          "fixed_edge_checks": 172243938,
+          "geometry_entries": 8518360,
+          "pair_trials": 0,
+          "peak_live_records": 1,
+          "placement_attempts": 4493,
+          "process_cpu_seconds": 111.984375,
+          "wall_seconds": 112.41004610000527
+        },
+        "status": "EXHAUSTED"
+      },
+      "terminal_kernel_ticks": 27812500,
+      "terminal_user_ticks": 1093437500
+    },
+    {
+      "controller_pid": 24012,
+      "creation_filetime": "134402211305639699",
+      "elapsed": 114891,
+      "end_filetime": "134402212454162085",
+      "maximum_gap": 250,
+      "measured_cpu_ticks": 1142656250,
+      "phase": "audit",
+      "pid": 30176,
+      "reconciliation": {
+        "guard_ticks": 0,
+        "mode": "exact-or-suspended-offset",
+        "process_minus_job": {
+          "kernel": 0,
+          "user": 0
+        }
+      },
+      "result": {
+        "compatible_rank_counts": {
+          "rank_changing": 1408,
+          "rank_preserving": 2308
+        },
+        "counters": {
+          "allocation_states": 3924,
+          "fixed_edge_checks": 134011849,
+          "geometry_entries": 8518360,
+          "pair_trials": 54844,
+          "peak_live_records": 3,
+          "placement_attempts": 15302,
+          "process_cpu_seconds": 114.1875,
+          "wall_seconds": 114.7456044999999
+        },
+        "status": "EXHAUSTED"
+      },
+      "terminal_kernel_ticks": 35937500,
+      "terminal_user_ticks": 1106718750
+    }
+  ],
+  "qualification_distinct_from_scientific_counters": true,
+  "raw_scientific_archive": {
+    "evidence/runs/d204-science-v9/admission.json": {
+      "bytes": 272,
+      "sha256": "efd4cfd6fa167e1f87fe4875a7221a717898e572545085adcc1ee6fed7144401"
+    },
+    "evidence/runs/d204-science-v9/approval.json": {
+      "bytes": 1912,
+      "sha256": "710372d281dc81d6182cc866954367c6ba4493f184c055b1286a180b336c3552"
+    },
+    "evidence/runs/d204-science-v9/audit-entry.json": {
+      "bytes": 38,
+      "sha256": "bb8ff6f4fd0872346eb4f25a961ce2f431b0e6b1efaeef1376c3e8da5d0fc128"
+    },
+    "evidence/runs/d204-science-v9/audit-phase.json": {
+      "bytes": 3073,
+      "sha256": "a7fa567742a3a1defd161e2f6c4101eade3ff1e83c9b49a6021949211e0ef662"
+    },
+    "evidence/runs/d204-science-v9/audit-result.json": {
+      "bytes": 321,
+      "sha256": "66b84bd7292c647e9cd86a3c9c11593695f8d0a96f97c409c87743840ff46113"
+    },
+    "evidence/runs/d204-science-v9/audit-runtime.json": {
+      "bytes": 5824,
+      "sha256": "9d0bdf62963b6fcc21dae6095d5f75b3e13648290584dd7c07048be3fe229668"
+    },
+    "evidence/runs/d204-science-v9/audit-start.json": {
+      "bytes": 920,
+      "sha256": "ea18eaf6ffdd5ae53947ee55b75ccbe878a5342950ef89b97ef79b4ea1f56c73"
+    },
+    "evidence/runs/d204-science-v9/live-refs.json": {
+      "bytes": 441,
+      "sha256": "7fa46b725dfeb1a83a5e3e684e37300a62061ea83f3bd6fc6611ce7f25ae2387"
+    },
+    "evidence/runs/d204-science-v9/primary-entry.json": {
+      "bytes": 40,
+      "sha256": "bfe4cffc2397d10c800c159a519c515cec5d4f0d259cbc02cc2b32bfd9882fcc"
+    },
+    "evidence/runs/d204-science-v9/primary-phase.json": {
+      "bytes": 3057,
+      "sha256": "900fb32b52834684f17ab9ef782bd116b52ead8c2672af51d261fea504acfd63"
+    },
+    "evidence/runs/d204-science-v9/primary-result.json": {
+      "bytes": 316,
+      "sha256": "1479425229f2f501f1c128cb6e4d74967173dfde2910fffabdde920c1c8e8cc5"
+    },
+    "evidence/runs/d204-science-v9/primary-runtime.json": {
+      "bytes": 5826,
+      "sha256": "98774385744317317de165bf305a8c73e8cc320c89f2e5d98e46b617db450437"
+    },
+    "evidence/runs/d204-science-v9/primary-start.json": {
+      "bytes": 922,
+      "sha256": "d59b008b6595ff294e4d466db13ba88a00eb57ff99aac37e961351ee83cee28a"
+    },
+    "evidence/runs/d204-science-v9/seal.json": {
+      "bytes": 342,
+      "sha256": "66e99210bfdc0e0afd7bb389f0619ace70b2c7cc6bd34ff3425e267ccd6de784"
+    },
+    "evidence/runs/d204-science-v9/terminal.json": {
+      "bytes": 2018,
+      "sha256": "1acfb5d4f3ee36eed6234a603f6120d0aeb48ce631778c231b65003498e1b607"
+    }
+  },
+  "result_scope": {
+    "both_rank_classes": true,
+    "conditional_48": "1e9d8d99227973991cb6fb850cfbcd44cfac2c3470396886c59a9264bd3de3cb",
+    "fixed_prefix": "fd4289cb555097994341bf023415e231841e01e95c1098c7890643252241f061",
+    "induced_old_cut": 14,
+    "main_41": "5554c99f3db5b777a5e139369479c470b9e220753da2193aecbaa3c9ac6d3515",
+    "physical_cuts": [
+      18,
+      19
+    ],
+    "residual_frontier": 0,
+    "symbolic_exclusions_combined": true,
+    "threshold": "C+2"
+  },
+  "review_and_execution_artifacts": {
+    "evidence/validation/LCL_D204_V9_SCIENTIFIC_EXECUTION_001/ASSESSMENT.md": {
+      "bytes": 5062,
+      "sha256": "a493fef02bcd6886742c0b3eb3bc7c3bf84a911f638635f04b2c9b6725b3c562"
+    },
+    "evidence/validation/LCL_D204_V9_SCIENTIFIC_EXECUTION_001/CONTROLLER_STDERR.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "evidence/validation/LCL_D204_V9_SCIENTIFIC_EXECUTION_001/CONTROLLER_STDOUT.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "evidence/validation/LCL_D204_V9_SCIENTIFIC_EXECUTION_001/INTAKE.json": {
+      "bytes": 3804,
+      "sha256": "e7e5c570b38743490d5d525a6955ed96d32b0e33f4532daba2104b4574fe1f28"
+    },
+    "evidence/validation/LCL_D204_V9_SCIENTIFIC_EXECUTION_001/LAUNCH.json": {
+      "bytes": 1756,
+      "sha256": "b6642ff94976e500f2be0f3378ca167756db4047eae1f0a1df7369e42f5831e0"
+    },
+    "evidence/validation/LCL_D204_V9_SCIENTIFIC_EXECUTION_001/LAUNCH.ps1.txt": {
+      "bytes": 2843,
+      "sha256": "c2162fdac5f0853f37d72258a721914db53c80e80d360986b0873f57e459e91c"
+    },
+    "evidence/validation/LCL_D204_V9_SCIENTIFIC_EXECUTION_001/MEASUREMENTS.json": {
+      "bytes": 2915,
+      "sha256": "d9f123898c4dea57e43539e85442b0232184099a5164755544c4cec630c6dd6a"
+    },
+    "evidence/validation/LCL_D204_V9_SCIENTIFIC_EXECUTION_001/RESULT.json": {
+      "bytes": 1257,
+      "sha256": "ff23e2d1dc4a9840f7469c9126f2c82109c6c0789d5de9ba933a8ac8814bdf1e"
+    },
+    "evidence/validation/LCL_D204_V9_SCIENTIFIC_EXECUTION_001/REVIEWS.md": {
+      "bytes": 2806,
+      "sha256": "d4ad7a32ecb3ae6b128feeb3859482f95137d1cc23090d94b5658d49fa9f481f"
+    },
+    "handoffs/CODEX-20261126-d204-v9-scientific-execution.md": {
+      "bytes": 1624,
+      "sha256": "b920b92d35316cd6f2ee358de72609354dc851c86834576e84858bb312f51233"
+    }
+  },
+  "run": "d204-science-v9",
+  "schema": "lcl-d204-v9-scientific-execution-v1",
+  "scientific_archive_bytes": 25322,
+  "scientific_limits": {
+    "audit": {
+      "allocation_states": 2366611480,
+      "cpu_seconds": 345600,
+      "fixed_edge_checks": 281105880,
+      "geometry_entries": 8518360,
+      "live_records": 6,
+      "pair_trials": 5338255680,
+      "placement_attempts": 2561339680,
+      "wall_seconds": 432000
+    },
+    "new_evidence_bytes": 128000000,
+    "primary": {
+      "allocation_states": 225145280,
+      "cpu_seconds": 172800,
+      "fixed_edge_checks": 351307720,
+      "geometry_entries": 8518360,
+      "live_records": 7,
+      "pair_trials": 210605520,
+      "placement_attempts": 14539760,
+      "wall_seconds": 259200
+    },
+    "workers": 1
+  },
+  "task": "LCL-D204-INTERRUPTION-EVIDENCE-QUALIFICATION-003",
+  "terminal_disposition": "STOP_REGISTERED_NEGATIVE"
+}

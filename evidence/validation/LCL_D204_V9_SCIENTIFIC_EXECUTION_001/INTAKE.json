@@ -1,0 +1,59 @@
+{
+  "acceptance_head": "9239fc162640f5b401e6e5c820a0040672e85fcf",
+  "accepted_hashes": {
+    "MANIFEST.json": "965008655aa3cee8930d37ea0073e9197c37d4eb1dd0e5278eaa042ffaa3fbe2",
+    "V9_ARCHIVE.json": "aafeb21138cb080f0bd7b246e589e9de338971fb41a670de69bc7d53d484419c",
+    "V9_FINAL_QUALIFICATION.json": "fcfdbb1d0a35ae8c48e4a5cd6d6219018356e86ca3ec7567ef21e6029fb16107",
+    "V9_FREEZE.json": "fea8700e37f7a51ca30f0b79558a91b23457f63c6ebfbc28786a664cda895dc7",
+    "V9_RUN/seal.json": "91b065390c885bfdc00a01ea58c6a7603b7b5489b3d8e6d5956619472b17c5ec",
+    "V9_RUN/terminal.json": "04eddd9d5550331b027d550a0491f3ee040f0a8f24c8a0ba25b26e0183673e79"
+  },
+  "archive": 84,
+  "check_cpu_seconds": 1.140625,
+  "custody_observation_limit": "Bounded census and repository custody only. Windows process metadata showed the unrelated ComfyUI runtime and OpenChamber server with the returned foreground window titled for a different repository. No process associated with an LCL write or D204 worker, no Git lock, no prior official run or second worktree. OpenCode HTTP status needed authentication and the OpenChamber app inspection was not approved. No app was altered.",
+  "final_admission_reference_observation": "9239fc162640f5b401e6e5c820a0040672e85fcf\trefs/heads/main\nfddfc1dd9541324b2ed2de2505bc750b3e3f0b9d\trefs/tags/lcl-v0.1.0-baseline\n36ea1603602491bf3c1c5b81ed4c23aaa2210e70\trefs/tags/lcl-v0.1.0-baseline^{}\n858a8c1fcfda87ba40bb1adee498a6131504a803\tHEAD\ne48b94eec4091b4fe189e325cab2eda464409943\tHEAD\nhead=9239fc162640f5b401e6e5c820a0040672e85fcf\r\nchecked_unix=1795747359\r\n",
+  "git_history_check": "HEAD ancestry and vacant official paths checked. A separate all-ref history query encountered an unrelated invalid internal Codex capture ref. No accepted LCL ref or tracked data depended on it.",
+  "initial_custody": "clean single listed worktree; no competing process found in bounded census",
+  "initial_live_reference_observation": "55cb26095b2360cb6a43594b921b500bb8eb0fc9\trefs/heads/main\nfddfc1dd9541324b2ed2de2505bc750b3e3f0b9d\trefs/tags/lcl-v0.1.0-baseline\n36ea1603602491bf3c1c5b81ed4c23aaa2210e70\trefs/tags/lcl-v0.1.0-baseline^{}\n858a8c1fcfda87ba40bb1adee498a6131504a803\tHEAD\ne48b94eec4091b4fe189e325cab2eda464409943\tHEAD\n",
+  "limits": {
+    "audit": {
+      "allocation_states": 2366611480,
+      "cpu_seconds": 345600,
+      "fixed_edge_checks": 281105880,
+      "geometry_entries": 8518360,
+      "live_records": 6,
+      "pair_trials": 5338255680,
+      "placement_attempts": 2561339680,
+      "wall_seconds": 432000
+    },
+    "new_evidence_bytes": 128000000,
+    "primary": {
+      "allocation_states": 225145280,
+      "cpu_seconds": 172800,
+      "fixed_edge_checks": 351307720,
+      "geometry_entries": 8518360,
+      "live_records": 7,
+      "pair_trials": 210605520,
+      "placement_attempts": 14539760,
+      "wall_seconds": 259200
+    },
+    "workers": 1
+  },
+  "phase_receipts": 16,
+  "project": 50,
+  "pure_regression_methods": 42,
+  "python_version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]",
+  "qualification_cases": 14,
+  "qualified_checkpoint": "55cb26095b2360cb6a43594b921b500bb8eb0fc9",
+  "runtime": 2628,
+  "runtime_executable": "C:\\Users\\Will\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+  "scientific_consumers": {
+    "audit.py": "ba0f5bb6991086330dc0f73bdc8423b921024b42c65d52efbb7f6d5abccd9ed8",
+    "budget.py": "5c8b5f013e995bae5f905bc5913c5d3d9e62bbcde9de7f1be4f0d485b2e99ed2",
+    "primary.py": "053c77dad6458bfad918ccbd9aa8d61635fd479f89413470611c2dc7b612f122",
+    "verify_positive.py": "da2375a9a372d71358547cd31903445d49969615b3268d5f137a5140a7e1d4b2"
+  },
+  "terminal_bound": 82,
+  "verified_authoritative_and_artifact_bindings": 115,
+  "verified_original_graphs": 3
+}

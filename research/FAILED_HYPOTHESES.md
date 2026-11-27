@@ -879,3 +879,7 @@ Both improper-cut cases fail for the required 41-edge return relation, by side s
 ## D204 execution admission — No change to scientific exclusions
 
 The required external hard CPU gate could not be established on the frozen host, so neither traversal started. The admission stop produces no witness or exhaustion and adds no mathematical exclusion to D204 or D203. [Terminal receipt](../evidence/runs/d204-consecutive-positive-coordinated-gap-return-001/TERMINAL.json)
+
+## D204 V9 — Registered coordinated-gap existence fails
+
+The hypothesized extreme-frontier return of the exact supplied input to the named 41-edge state fails for all registered strictly increasing embeddings. Accepted symbolic exclusions leave only frontier 0, induced cut 14 and physical cut 18 or 19. The two independent complete exhausted traversals of these residual streams exclude both rank classes. This is separate from D203's safe-support-only exclusion and the earlier admission stop. [Combined result](../evidence/validation/LCL_D204_V9_SCIENTIFIC_EXECUTION_001/ASSESSMENT.md)

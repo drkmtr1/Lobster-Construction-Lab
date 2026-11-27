@@ -1,0 +1,40 @@
+{
+  "accepted_qualification_commit": "55cb26095b2360cb6a43594b921b500bb8eb0fc9",
+  "approval_sha256": "710372d281dc81d6182cc866954367c6ba4493f184c055b1286a180b336c3552",
+  "approved_repository_head": "9239fc162640f5b401e6e5c820a0040672e85fcf",
+  "controller_command": [
+    "C:\\Users\\Will\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+    "-I",
+    "-S",
+    "-B",
+    "research/d204_readiness_v9/entry.py",
+    "LCL-D204-INTERRUPTION-EVIDENCE-QUALIFICATION-003",
+    "official",
+    "fea8700e37f7a51ca30f0b79558a91b23457f63c6ebfbc28786a664cda895dc7",
+    "710372d281dc81d6182cc866954367c6ba4493f184c055b1286a180b336c3552"
+  ],
+  "cwd": "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab",
+  "freeze": "fea8700e37f7a51ca30f0b79558a91b23457f63c6ebfbc28786a664cda895dc7",
+  "live_ref_receipt_sha256": "7fa46b725dfeb1a83a5e3e684e37300a62061ea83f3bd6fc6611ce7f25ae2387",
+  "official_invocations": 1,
+  "outer_initial": {
+    "started_controller_pid": 24012,
+    "started_unix_ms": 1795747414490
+  },
+  "outer_scope": "Same direct executable and arguments under bounded PowerShell process observation solely to retain a signaled controller exit and measured CPU. All scientific phase limits were enforced by frozen V9.",
+  "outer_terminal": {
+    "actual_outer_elapsed_ms": 231593,
+    "controller_cpu_kernel_ticks": 20312500,
+    "controller_cpu_total_ticks": 31875000,
+    "controller_cpu_user_ticks": 11562500,
+    "controller_signaled": true,
+    "exit_code": 0,
+    "outer_timeout": false,
+    "pid": 24012
+  },
+  "qualification_sha256": "fcfdbb1d0a35ae8c48e4a5cd6d6219018356e86ca3ec7567ef21e6029fb16107",
+  "run": "d204-science-v9",
+  "stderr_bytes": 0,
+  "stdout_bytes": 0,
+  "task": "LCL-D204-INTERRUPTION-EVIDENCE-QUALIFICATION-003"
+}
