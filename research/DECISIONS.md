@@ -689,3 +689,9 @@ Retain all four immutable infrastructure candidates and both bounded native fail
 Preserve the accepted comprehensive BLOCKED checkpoint and all four candidates. Replace window suppression with console detachment on all V5 CreateProcess paths. Qualify the full frozen inert matrix, retaining direct CPython, atomic Job assignment, strict reconciliation, and unchanged science. The exact FILETIME correction is separate from the historical evidence.
 
 Seal V5 through V8 and retain **D204_EXECUTION_READINESS_BLOCKED**. Preserve the raw owner and child exit records and V8 emergency evidence. The final revision did not pass the complete matrix. The held launch and draft confer no execution authority. [Independent reviews](../evidence/validation/LCL_D204_CONSOLE_DETACHED_EXECUTION_READINESS_002/REVIEWS.md)
+
+## D204 V9 interruption-evidence qualification
+
+Director accepts V5 through V8 within the observed BLOCKED disposition at `aa99a057721705cb79283854534f5b8d703bdad6`. V9 isolates the interruption classifier and raw-first phase reconciliation. Its exact constraints, unchanged science and discriminating checks are in [V9 scope](../evidence/validation/LCL_D204_INTERRUPTION_EVIDENCE_QUALIFICATION_003/CHANGE_SCOPE.md).
+
+Record **D204_EXECUTION_READY_AWAITING_OWNER_AUTHORIZATION** for exact V9 and the observed host. Preserve all V1–V8 receipts. Retain one completed infrastructure invocation and no science. Separate Owner authorization and fresh admission remain required. [Independent reviews](../evidence/validation/LCL_D204_INTERRUPTION_EVIDENCE_QUALIFICATION_003/REVIEWS.md)

@@ -1,0 +1,40 @@
+{
+  "accepted_cases": 14,
+  "accepted_phases": 16,
+  "all_required_checks_passed": true,
+  "archive": {
+    "bytes": 18705,
+    "sha256": "aafeb21138cb080f0bd7b246e589e9de338971fb41a670de69bc7d53d484419c"
+  },
+  "disposition": "D204_EXECUTION_READY_AWAITING_OWNER_AUTHORIZATION",
+  "freeze": "fea8700e37f7a51ca30f0b79558a91b23457f63c6ebfbc28786a664cda895dc7",
+  "host_scope": "Exact V9 freeze and observed Windows host/runtime only",
+  "native_matrix_invocations": 1,
+  "outer": {
+    "bytes": 231,
+    "sha256": "7f7018a7a51dea3faa3ff99aa3a50b89a9ba2414610672799aacfe4f1b20ef81"
+  },
+  "prelaunch_review": {
+    "bytes": 1372,
+    "sha256": "f5aee114cb31b569fdc2777b5dd5c612d874ccddb7d446bef57564a7c76e831f"
+  },
+  "ready": true,
+  "regression": {
+    "bytes": 6120,
+    "sha256": "66a178898b927ff06a4652df3c448ebd55a2bf04613a3ffef6121f2c054d0986"
+  },
+  "review": {
+    "bytes": 2276,
+    "sha256": "19ff97000c302d26d0a9f37f819c64411415eafcefa1d462a0b586a984556cad"
+  },
+  "scientific_authorization": false,
+  "seal": {
+    "bytes": 343,
+    "sha256": "91b065390c885bfdc00a01ea58c6a7603b7b5489b3d8e6d5956619472b17c5ec"
+  },
+  "task": "LCL-D204-INTERRUPTION-EVIDENCE-QUALIFICATION-003",
+  "terminal": {
+    "bytes": 13768,
+    "sha256": "04eddd9d5550331b027d550a0491f3ee040f0a8f24c8a0ba25b26e0183673e79"
+  }
+}

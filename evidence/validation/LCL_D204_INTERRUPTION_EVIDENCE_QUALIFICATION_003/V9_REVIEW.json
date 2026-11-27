@@ -1,0 +1,18 @@
+{
+  "task": "LCL-D204-INTERRUPTION-EVIDENCE-QUALIFICATION-003",
+  "freeze": "fea8700e37f7a51ca30f0b79558a91b23457f63c6ebfbc28786a664cda895dc7",
+  "disposition": "PASS_FOR_SYNTHETIC_QUALIFICATION",
+  "reviews": [
+    {
+      "role": "Independent native Windows and process control",
+      "agent": "d5native",
+      "finding": "Actual frozen launch retains the unnamed, noninheritable inner Job and four-handle allowlist. Observer retains bound owner and child process objects and can terminate only the owner. It checks active and suspended ownership, identity and activation, deliberate interruption, independent bounded process waits, raw-first durable observations, terminal CPU and both controller deadlines. This inert exception keeps ordinary Job reconciliation intact. Static approval only."
+    },
+    {
+      "role": "Independent integration and evidence custody",
+      "agent": "d5integrate",
+      "finding": "Independently matched all 50 project bindings, retained all 2,628 runtime rows and exact V8 limits, verified unchanged protected science and the same 14-case/16-phase matrix. Inspected actual implementation and adverse regressions, raw propagation, custody stop and the evidence-backed official marker gate. The V9 native and future scientific paths were vacant. Static approval for inert execution only."
+    }
+  ],
+  "scientific_dispatch": false
+}

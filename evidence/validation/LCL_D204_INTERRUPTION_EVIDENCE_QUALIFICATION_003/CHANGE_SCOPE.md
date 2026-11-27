@@ -1,0 +1,9 @@
+# V9 implementation scope
+
+Director accepted the completed V5–V8 evidence and its blocked readiness at `aa99a057721705cb79283854534f5b8d703bdad6`. Previous source, matrix, receipts and dispositions are immutable. The V8 raw exit observations identify the two process exits and do not supply a V9 qualification receipt.
+
+V9 keeps the console-detached startup, native Job policy, atomic association, 14 cases and 16 phase entries, and the original scientific source and ceilings. The crash owner will relay suspended and active Job observations. The observer will retain the exact two process handles, record the owner termination request and both independent waits, save all raw observations, then classify the controlled sequence. Phase reconciliation will distinguish observed exits, qualified interruption and unavailable cleanup. The scientific entry will continue to require explicit fresh Owner approval and a committed exact qualification marker backed by sealed native evidence.
+
+Microsoft documents that last-handle close terminates members of a kill-on-close Job. External process termination is asynchronous and a retained process handle can verify completion. No specific exit status is assumed for last-handle closure. [Job Objects](https://learn.microsoft.com/en-us/windows/win32/procthread/job-objects) · [Terminating a Process](https://learn.microsoft.com/en-us/windows/win32/procthread/terminating-a-process) · [TerminateProcess](https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-terminateprocess)
+
+Pure adverse records challenge identities, activation, alternate exits and termination, deadlines, CPU accounting, Job ownership, fail-closed phase flow and raw-record durability. Only the exact reviewed V9 may enter the existing inert matrix, once. No scientific work or approval is authorized.

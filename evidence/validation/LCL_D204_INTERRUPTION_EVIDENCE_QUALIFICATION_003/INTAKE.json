@@ -1,0 +1,59 @@
+{
+  "task": "LCL-D204-INTERRUPTION-EVIDENCE-QUALIFICATION-003",
+  "parent": "aa99a057721705cb79283854534f5b8d703bdad6",
+  "previous_parent": "0e166855f33e719552b9259adcf8f721eb0f23bc",
+  "starting_clean": true,
+  "accepted": {
+    "MANIFEST.json": "5ecc9b248f174e012879ea178b421d02c6c9bd73b98660feb5c52e9a96e069e0",
+    "V8_FREEZE.json": "e8fff596bcd685a0924699840e751d4f4fd32d0baceb71b8aeb4bffc23ac2183",
+    "ASSESSMENT.md": "153bf556fa912fb658659186635d8e83872a1be4c07fce931e7cbbe95f4a67f2",
+    "RESULT.json": "2763ed91deb7dac36521e908a21fe524750442f931600323ee9e17c0e07b2aa9",
+    "V8_RUN/crash-primary-crash-exit.json": "d90e1b43e3ff1b454591c2342047c8c3f3f290bb3f52f413b44069d94d84e7e1"
+  },
+  "previous_commit_changed_paths": 284,
+  "artifact_and_authority_bindings": 284,
+  "ref_observation": "aa99a057721705cb79283854534f5b8d703bdad6\trefs/heads/main\nfddfc1dd9541324b2ed2de2505bc750b3e3f0b9d\trefs/tags/lcl-v0.1.0-baseline\n36ea1603602491bf3c1c5b81ed4c23aaa2210e70\trefs/tags/lcl-v0.1.0-baseline^{}\n858a8c1fcfda87ba40bb1adee498a6131504a803\tHEAD\ne48b94eec4091b4fe189e325cab2eda464409943\tHEAD",
+  "exact_scientific_domain": {
+    "both_rank_classes": true,
+    "deterministic_suffix_edges": 48,
+    "frontier": 0,
+    "induced_old_cut": 14,
+    "intermediate_geometry_occurrences": 8518360,
+    "new_target_edges": 41,
+    "old_prefix_edges": 32,
+    "physical_cuts": [
+      18,
+      19
+    ],
+    "threshold": "C+2"
+  },
+  "scientific_limits": {
+    "audit": {
+      "allocation_states": 2366611480,
+      "cpu_seconds": 345600,
+      "fixed_edge_checks": 281105880,
+      "geometry_entries": 8518360,
+      "live_records": 6,
+      "pair_trials": 5338255680,
+      "placement_attempts": 2561339680,
+      "wall_seconds": 432000
+    },
+    "new_evidence_bytes": 128000000,
+    "primary": {
+      "allocation_states": 225145280,
+      "cpu_seconds": 172800,
+      "fixed_edge_checks": 351307720,
+      "geometry_entries": 8518360,
+      "live_records": 7,
+      "pair_trials": 210605520,
+      "placement_attempts": 14539760,
+      "wall_seconds": 259200
+    },
+    "workers": 1
+  },
+  "v8_project_count": 44,
+  "runtime_count": 2628,
+  "python_base": "C:\\Users\\Will\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+  "preparation_cpu_seconds_for_this_check": 1.171875,
+  "science_authorized": false
+}

@@ -1,0 +1,48 @@
+{
+  "aggregate_preparation_cpu_fully_measured": false,
+  "matrix_cpu_ticks": 30000000,
+  "matrix_elapsed_ms": 13594,
+  "native_accepted_cases": 14,
+  "native_accepted_phases": 16,
+  "native_entered_phases": 16,
+  "one_next_action": "Director review of D204 V9 interruption-evidence qualification and final execution-readiness disposition.",
+  "parent": "aa99a057721705cb79283854534f5b8d703bdad6",
+  "precise_interruption": {
+    "owner_born_filetime": "134402197617658423",
+    "owner_end_filetime": "134402197619708295",
+    "owner_exit": 3791912961,
+    "owner_pid": 26412,
+    "raw_receipt": {
+      "bytes": 14551,
+      "sha256": "8b022a716684a6f8ddf04c0a3bba5f54aa334ba5f204fe705ee8e4c212126eff"
+    },
+    "terminal_inner_job_accounting_available": false,
+    "worker_born_filetime": "134402197618820003",
+    "worker_end_filetime": "134402197619720084",
+    "worker_exit": 0,
+    "worker_pid": 28976
+  },
+  "prior_terminal_disposition": "D204_EXECUTION_READINESS_BLOCKED",
+  "prior_v5_v8_director_accepted": true,
+  "ready_receipt": {
+    "bytes": 1311,
+    "sha256": "fcfdbb1d0a35ae8c48e4a5cd6d6219018356e86ca3ec7567ef21e6029fb16107"
+  },
+  "regression_methods": 42,
+  "scientific_status": {
+    "active_approval": false,
+    "audit": "NOT_STARTED",
+    "campaign_replays": 0,
+    "checker_invocations": 0,
+    "consumer_imports": 0,
+    "original_admission": "BLOCKED_AT_ADMISSION_NO_EXECUTION",
+    "primary": "NOT_STARTED",
+    "registered_existence": "UNRESOLVED",
+    "scientific_workers": 0,
+    "search_nodes": 0,
+    "solver_states": 0
+  },
+  "task": "LCL-D204-INTERRUPTION-EVIDENCE-QUALIFICATION-003",
+  "terminal_disposition": "D204_EXECUTION_READY_AWAITING_OWNER_AUTHORIZATION",
+  "unentered": []
+}
