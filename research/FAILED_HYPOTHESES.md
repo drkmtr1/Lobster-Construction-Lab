@@ -943,3 +943,7 @@ With the unit-flank shell and donor maximum lower label 3, the unique normalized
 ## D217 distinct fixed-label reconstruction interfaces
 
 The empty-interior five-edge positive exchanges weights 1 and 3 and violates both individual midpoint equations. The D216 graceful certificate of `[[1],[2,2,2],[2,2,3],[1]]` folds to two new attachments of weight 1, which also occurs on a retained internal edge. It loses weights 21 and 25. This excludes that one fixed label assignment as a folded source, while its original D216 certificate retains full validity. The selected D217 target has an independent marked source. [Proof](MARKED_DIAMETER_FIVE_EXTERIOR_RECONSTRUCTION.md) · [Controls](../evidence/validation/D217_MARKED_DIAMETER_FIVE_RECONSTRUCTION/HAND_CONTROLS.md)
+
+## D218 interval-order parity boundary
+
+For distinct outside hosts on a specified nonempty moved interval, preservation of its attachment multiset forces its endpoint sum to equal the host sum. In D218's reserved-slot order a nonfinal quota of the wrong parity or smaller than the magnitude of its endpoint-sum jump has no symmetric end retention with that quota. This is an exact restriction of the chosen transfer order and palette, with no inference of ordinary nongracefulness or failure of another labeling or reconstruction. [Proof](INDEPENDENT_RESERVED_MARK_TRANSFER_SUPPLIER.md#2-exact-transfer-lemma-and-parity-schedule)
