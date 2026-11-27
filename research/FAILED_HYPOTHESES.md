@@ -951,3 +951,7 @@ For distinct outside hosts on a specified nonempty moved interval, preservation 
 ## D219 all-quota-two boundary of equal-length trimming
 
 The fixed D218 order with all quotas two requires a single-interval first move at jump −2 and a split before the second move's jump +1. Later the equal-length recipe at m−5 has jump +2 and a=1, which violates a≥|Δ|. Thus every declared phase choice fails in that fixed all-quota-two setting. It leaves other marked sources, host orders, terminal geometries and ordinary gracefulness undecided. [Proof](INDEPENDENT_MARKED_PHASE_TRANSITION_SUPPLIER.md#5-domain-b-with-all-quotas-independently-even)
+
+## D220 stronger all-quota-two sequential transfer exclusion
+
+With the D218 initialization, outside hosts, reserves and exact host order, an arbitrary moved set has to be invariant under reflection in the sum of each pair of successive host labels. At all-quota-two inputs the first seven steps are forced for every h≥5. At the eighth step the intersection excludes four labels even though the departing host may retain only two. At h=5 the eligible intersection is empty. This strengthens the D219 trimming-specific boundary to arbitrary nested subsets within the specified transfer architecture. The same six marks and slot bands admit direct joint allocation on the exact 30-edge target, so neither marks nor bands are excluded there. [Proof](DIRECT_JOINT_FIXED_MARK_ALLOCATION.md#2-arbitrary-nested-subsets-in-the-d218-transfer-order)
