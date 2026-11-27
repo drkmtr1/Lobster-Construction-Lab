@@ -923,3 +923,7 @@ On the named path with labels (0,4,1,3,2), hosts at labels 0 and 2 individually 
 ## Official D212 resource limits and inference boundary
 
 The registered bounded traversal produced no complete graceful labeling, joined certificate or implementation exhaustion before the three label-node caps. This records a limit of the executed attempt. It supplies no impossibility result for matched-gap growth, no ordinary nongracefulness inference and no failed candidate to investigate. [Official outcome evidence](../evidence/runs/d212-multi-center-quota-growth-001/SESSION_RECEIPT.json)
+
+## D213 unbounded simultaneous all-center D212 supply is excluded
+
+The exact all-center matched-gap architecture cannot serve the positive-quota four-section original at any central multiplicity ℓ>10, regardless of the graceful base labeling. This is a structural exclusion only for that simultaneous certificate. It does not exclude ordinary gracefulness, compatible subsets, independently renewed sequential constructions or other allocation/reconstruction architectures. It does not classify B2, B3 or B4. [Primary proof](ALL_CENTER_SAFE_GAP_STRUCTURAL_LIMIT.md)

@@ -2065,3 +2065,7 @@ For a named graceful input with distinct safe cuts and distinct receiving hosts,
 ## Official D212 diagnostic outcome
 
 The one authorized D212 invocation ran the exact B2, B3 and B4 in frozen order. Each reached its respective label-node cap at 2,000,000, 4,000,000 or 8,000,000. All three cases are INCOMPLETE, with no complete graceful labeling reached and zero join nodes. No candidate, original-target checker invocation, audit result or new structural signature exists from the run. The orderly terminal and external exit reconcile with the admitted evidence and resource limits. The accepted D212 theorem and path controls retain their exact scopes. [Official outcome evidence](../evidence/runs/d212-multi-center-quota-growth-001/SESSION_RECEIPT.json)
+
+## D213 component bound and all-center structural limit
+
+For a nonempty D212-compatible selection, each separating band between successive upper-host cuts has no lower-side exit at the minimum-threshold cut. It contains an original nonleaf, since an all-leaf band would make the two upper-host constants equal. The disjoint bands force h₊≤C₋+1; the complementary orientation gives h₋≤C₊+1. Counting the original nonleaf components in the named four-section family [[p],[q_1,...,q_ell],[b],[t]] with all quotas positive gives ℓ≤10 whenever every branch center is certified simultaneously. The separate review and both hand controls passed. [Primary proof](ALL_CENTER_SAFE_GAP_STRUCTURAL_LIMIT.md)

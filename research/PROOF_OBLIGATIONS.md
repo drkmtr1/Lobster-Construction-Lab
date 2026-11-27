@@ -1206,3 +1206,7 @@ B2, B3 and B4 remain unresolved for simultaneous compatible matched-gap growth a
 ## Official D212 unresolved bases and held boundary observation
 
 B2, B3 and B4 remain unresolved under simultaneous matched-gap growth after one capped diagnostic. No new finite supplier or arbitrary-multiplicity construction follows. The Director's separate observation is held for later independent mathematical review: after admitted growth use Cᵢ=Lᵢ at a lower host and Cᵢ=Lᵢ+gᵢ at an upper host. The proposed threshold is Bᵢ, with old crossing edges and growth batches of threshold at least Dᵢ expected to give [Bᵢ,M] and preserve the constants and cut-span coefficients. The official task did not investigate this observation. Preserve D207 as unresolved and deferred. [Official outcome evidence](../evidence/runs/d212-multi-center-quota-growth-001/SESSION_RECEIPT.json)
+
+## D213 held renewable central insertion obligation
+
+For Director consideration only, prove a renewable central-center insertion theorem on the named family [[1],[q_1,...,q_ell],[1],[1]]. An independently supplied nonempty ordinary labeling state should admit insertion at s:1 of the next indexed center with arbitrary positive quota and its actual terminals, preserve earlier actual incidences and return the same insertion guarantee. It need not certify every existing center. No work under this obligation has been opened. B2, B3 and B4 remain INCOMPLETE and mathematically undecided. The D212 boundary-closure observation remains separate and held. [Primary proof](ALL_CENTER_SAFE_GAP_STRUCTURAL_LIMIT.md)
