@@ -1,0 +1,56 @@
+{
+  "accepted_execution_checkpoint": "f32203c12d28afe3a78e0d1c462d6fc00eebc75c",
+  "authorized_next_task": "D207 Independent Supplier Architecture and Coverage Audit",
+  "decision": "ACCEPT D206 within its exact proved mathematical scope.",
+  "director_review": {
+    "actual_edge_differences": 448,
+    "boundary_resource_records": 74,
+    "matched_critical_artifact_hashes": 5,
+    "verified_saved_certificates": 10,
+    "vertex_label_assignments": 458
+  },
+  "live_pins": {
+    "baseline_peel": "36ea1603602491bf3c1c5b81ed4c23aaa2210e70",
+    "baseline_tag": "fddfc1dd9541324b2ed2de2505bc750b3e3f0b9d",
+    "bounded_search": "e48b94eec4091b4fe189e325cab2eda464409943",
+    "mdl": "858a8c1fcfda87ba40bb1adee498a6131504a803"
+  },
+  "local_recheck": {
+    "artifact_bindings": 21,
+    "authoritative_bindings": 5,
+    "critical_artifacts": {
+      "evidence/validation/LCL_ORDINARY_SPINE_BOUNDARY_ROOT_JOINT_BLOCK_001/CERTIFICATES.json": {
+        "bytes": 1134933,
+        "sha256": "82c3fbef5f3f0107ae3b5f79244c618fe3b6846d25ff71158b8e8d741aca905f"
+      },
+      "evidence/validation/LCL_ORDINARY_SPINE_BOUNDARY_ROOT_JOINT_BLOCK_001/CHECKER_CALLS.jsonl": {
+        "bytes": 5906,
+        "sha256": "c61c671cb4905e5ee30bad4c5789acb3636d7e1f22596f9c955a8bc293dceac5"
+      },
+      "evidence/validation/LCL_ORDINARY_SPINE_BOUNDARY_ROOT_JOINT_BLOCK_001/FREEZE.json": {
+        "bytes": 6751,
+        "sha256": "584a1ff71312e47be305c17b4ef44d9f9f71c9ceebed9ab5a9b9e021368fc467"
+      },
+      "evidence/validation/LCL_ORDINARY_SPINE_BOUNDARY_ROOT_JOINT_BLOCK_001/MANIFEST.json": {
+        "bytes": 12255,
+        "sha256": "cd25db0a445a0ab322aa69dfbf346a937189fa2d175ed5b7f56607681d41672f"
+      },
+      "research/ORDINARY_SPINE_BOUNDARY_ROOT_JOINT_BLOCK.md": {
+        "bytes": 13426,
+        "sha256": "63653fc0f18361865ae5152eeed799e36a4357ff42bd088fdea334cd2f41082f"
+      }
+    },
+    "manifest": {
+      "bytes": 12255,
+      "sha256": "cd25db0a445a0ab322aa69dfbf346a937189fa2d175ed5b7f56607681d41672f"
+    },
+    "protected_blobs": {
+      "lcl/__init__.py": "5a37d7ad22fd13703abb54b68367e2fcbd6a2082",
+      "lcl/model.py": "8d1e9948e8bf5ef01e67c9afe0155412c57d79fa",
+      "lcl/verify.py": "d008f35f0843e1a5c770db3e7f42ed7d987360d7"
+    },
+    "source_bindings": 24
+  },
+  "previous_checkpoint": "f8b6df33195795d2e283d3dccdf1906efbe40e5d",
+  "scope": "Shared-root interval substitution with an independently supplied ordinary graceful extreme-frontier prefix and independently alpha-labeled block, with exact topology, entry and exit premises. Explicit 16-edge block and admitted finite repetition. Earlier scoped negatives remain intact."
+}

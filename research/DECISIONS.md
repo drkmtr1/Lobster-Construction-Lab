@@ -735,3 +735,7 @@ ACCEPT D205 STOP_REGISTERED_NEGATIVE at ef63707b21bbe86b71524839238533d94d8831d0
 ## D206 fixed-formula disposition
 
 Record SYMBOLIC_CONSTRUCTION_PROVED_FIXED_CERTIFICATES_VERIFIED, pending Director review. The shared-root interval partition and actual endpoint subtraction settle the selected construction, so numerical search has no role in this task. The independently frozen originals, ten checker invocations and separate reviews remain fixed under the D206 identity. Preserve the separately accepted D205 checkpoint `f8b6df33195795d2e283d3dccdf1906efbe40e5d`. [Fixed checks](../evidence/validation/LCL_ORDINARY_SPINE_BOUNDARY_ROOT_JOINT_BLOCK_001/RESULT.json)
+
+## D206 Director acceptance and D207 strategic admission
+
+ACCEPT D206 at f32203c12d28afe3a78e0d1c462d6fc00eebc75c within the exact proved shared-boundary, independent-supply and finite-list premises. The Director reviewed the symbolic proof and ten saved certificates. D204 and D205 retain their exact restricted negatives. Authorize only D207 Independent Supplier Architecture and Coverage Audit, a pinned-source symbolic planning audit with separate mathematical review. [D206 acceptance](../evidence/validation/LCL_ORDINARY_SPINE_BOUNDARY_ROOT_JOINT_BLOCK_001/DIRECTOR_ACCEPTANCE.json)
