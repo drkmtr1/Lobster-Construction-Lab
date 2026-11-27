@@ -795,3 +795,9 @@ Close the D209–D211 sequence without automatically pursuing its remaining pari
 ## D212 symbolic closeout and held diagnostic
 
 Record the exact robust matched-gap theorem, the two hand controls and the unresolved B2/B3/B4 questions. Freeze one dormant exact diagnostic with a separate audit, finite limits and separately reviewed admission requirements. No auxiliary mathematical execution, search node, solver call, checker use, replay, upstream edit, infrastructure change or successor occurred. Execution requires separate authorization and fresh admission. Preserve the completed D209–D211 sequence and all earlier scoped results. KEEP v13. [Proof and hand controls](SIMULTANEOUS_SAFE_GAP_QUOTA_GROWTH.md) · [Preparation](../evidence/validation/D212_MULTI_CENTER_QUOTA_GROWTH/PREPARATION.md)
+
+## D212 Director acceptance and one-shot admission
+
+ACCEPT D212 at bc3801da2c9ef0770e37a577baa064dc2283a020 within the exact mathematical and static preparation scopes. The Director inspected the proof, frozen originals, discovery and growth audit sources, exact limits, source bindings, separate reviews, handoff, and live state and instructions. All eleven registered Git blobs, continuity and both upstream pins were confirmed. B2, B3 and B4 remain unresolved. Preserve D207's deferred question, D211's accepted coverage, and every prior scoped negative and incomplete disposition.
+
+Authorize one official diagnostic on the unchanged B2–B4 scope and exact frozen limits after fresh admission and separate review of the minimal runner. Preserve the proposed host-side boundary closure observation as pending future mathematical review; it does not enter the diagnostic. No retry, escalation or successor is authorized. KEEP v13.
