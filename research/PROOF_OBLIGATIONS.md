@@ -1194,3 +1194,7 @@ Ordinary existence is open on the exact complement of the D209 proved union in S
 ## D210 combined unit-flank coverage and remaining equal-flank supply
 
 Within the D117 unit-flank slice, D209 and D210 together cover the divisibility cases b+2 dividing q+1 or a+1, and the simultaneous-construction domain with even a and at least one of q and b even. The remaining cases have neither divisibility and either odd a or even a with both q and b odd. The exact D209 larger equal-flank complement is unchanged. Broader independent whole-original allocations and universal decomposition or supply remain open. D207's fixed monotone-return question is still unresolved and deferred. [Proof and independent review](ORDINARY_SPINE_SIMULTANEOUS_ORDINARY_SUPPLIER.md)
+
+## D211 all-even flank coverage complete within the exact original
+
+The all-even subdomain q≥6, a≥4, b≥2 now covers every positive flank pair on the named four-section original. Throughout D117 all unequal pairs are already supplied. Outside the all-even subdomain the unresolved equal-flank inputs are the complement of the D209 domains and D210 unit domain, with any still-uncovered s necessarily below the central edge count n. General supply for other section words, joint palette supply beyond the proved layout and ordinary closure remain open. D207's exact monotone-return question stays unresolved and deferred. [Proof and independent review](ORDINARY_SPINE_COORDINATED_FOUR_HOST_SUPPLIER.md)

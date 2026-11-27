@@ -911,3 +911,7 @@ For even q,a,b the actual degree-two core port has even label in every graceful 
 ## D210 exact odd–odd transfer obstruction
 
 Under the fixed D210 base placement with even a, a transfer from label-3 host to label-(m−4) host preserves the weight inventory exactly when its labels form complete reflection orbits. If both q and b are odd, m is even, there is no integer midpoint and the required odd transfer b−2 cannot occur. The specified [[1],[5,4],[3],[1]] hand control requires an impossible singleton at 2z=21. It already has a separate D209 ordinary construction. D210 also supplies the all-even unit originals without weakening D209's sequential-D131 and translated-core exclusions. [Proof and independent review](ORDINARY_SPINE_SIMULTANEOUS_ORDINARY_SUPPLIER.md)
+
+## D211 scope of independently balanced transfers and retained negatives
+
+A split σ-pair uses an exchange of two weights across four actual hosts. In the {7,m−6} pair the individual donor-to-recipient moves change weights 5 and 2 to 2 and 5, respectively. Neither move preserves a fixed local inventory by itself. Joint invariance gives the exact simultaneous conservation here. The D209 two-step and translated-core restrictions and D210 odd–odd obstruction retain their operation-specific scopes. No ordinary impossibility is inferred for the other parity regimes. [Proof and independent review](ORDINARY_SPINE_COORDINATED_FOUR_HOST_SUPPLIER.md)
