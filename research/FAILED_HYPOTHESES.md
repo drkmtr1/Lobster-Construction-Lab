@@ -935,3 +935,7 @@ The D213 necessary bound ℓ≤10 continues to exclude the simultaneous all-cent
 ## D215 continued scope of the all-center certificate obstruction
 
 D215 gives ordinary gracefulness even at arbitrarily large central multiplicity throughout the positive-quota D213 family with ℓ≥3. The D213 bound ℓ≤10 still excludes the D212 simultaneous all-center architecture at larger multiplicities. D215 uses a separate ordinary cluster and an alpha shell. The three compatible growth hosts in the positive-quotas shell do not certify the combined original. No new exclusion is inferred at degree two or on B2, B3 or B4, and the earlier D209–D211 interface failures retain their scopes. [Proof](INDEPENDENT_NONNEGATIVE_EXTERIOR_SHELL.md)
+
+## D216 normalized unit-flank plain transfer and separate palette failures
+
+With the unit-flank shell and donor maximum lower label 3, the unique normalized alpha labeling in either physical donor orientation forces δ=4. If N is odd and both interior branch counts are odd, an unchanged-label receiver move cannot have an invariant center palette. The two adverse selections from the 20-edge hand control separately show failure of each palette condition when the other holds. These results apply to the prescribed operations. Both mixed-quota controls, including the selected 26-edge original, have ordinary graceful joint reconstructions. [Proof](JOINT_POOLED_CLUSTER_REFLECTION.md) · [Adverse controls](../evidence/validation/D216_JOINT_POOLED_CLUSTER_REFLECTION/HAND_CONTROLS.md#1-prescribed-20-edge-positive-and-two-adverse-selections)
