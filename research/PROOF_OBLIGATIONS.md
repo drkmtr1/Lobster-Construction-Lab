@@ -1261,3 +1261,8 @@ D224 resolves all h≥9, ℓ=2, j=2h−5 with unit flanks and arbitrary independ
 ## D225 exact held three-quota boundary
 
 The ℓ=2,h≥6 two-left/one-right bottleneck is discharged by the D225 anchored enlargement and its repeatable unit supplier. At j=3,h≠6 in the exact unit-flank family, the D222–D225 supplier combination leaves two enlarged j-side quotas held, including when the selected ℓ-side quota is one. Retain any exact earlier overlap. No global unclassified or nonexistence assertion follows. Accepted earlier unit and registered two-quota scopes retain their premises. The two unclassified D224 proposed-mark interfaces, D212 held closure, D213 held insertion, deferred D207 and historical B2/B3/B4 INCOMPLETE dispositions carry forward. [Exact closure](THREE_INTERIOR_ODD_QUOTA_SUPPLIER.md#5-exact-closure).
+
+
+## D226 coverage boundary
+
+The entire registered capacity domain is proved, including arbitrary odd exterior growth and physical reversal. For a fixed lawful role assignment the proof also supplies the exact sufficient region r+1≥K and s≥P+D. Quota inputs outside those admission conditions, and outside the prior proved domains, still need an independently justified allocation or a transport with different premises. Neither condition is a general necessity. The unit-flank cross-interior two-quota obligation extends to all positive integer values on the retained registrations. The clarified D225 two-odd-side boundary, D224 proposed-mark interfaces, D212 closure, D213 insertion, B2/B3/B4 historical INCOMPLETE and D207 deferred remain separate. No follow-on investigation is selected. [Scope](UNBOUNDED_MULTI_HOST_ANCHOR_BANK_SUPPLY.md#5-full-operation-order-and-exact-admission).
