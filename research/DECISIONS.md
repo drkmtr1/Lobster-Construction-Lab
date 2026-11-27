@@ -719,3 +719,7 @@ ACCEPT the exact D205 mathematical preparation at `e7e91b7627aad9ce19296e16b777b
 ## D205 V1 qualification disposition
 
 Record **D205_EXECUTION_READY_AWAITING_OWNER_AUTHORIZATION** within the exact freeze, runtime and observed host. Keep the D205 preparation configuration, all mathematical consumers, D204 history and exact logical limits immutable. Preserve the selected RSS deferral and the one-shot inert evidence. No future approval, scientific invocation, restarts or successor. [Independent reviews](../evidence/validation/LCL_D205_INDEPENDENT_PATH_ORDER_EXECUTION_QUALIFICATION_001/REVIEWS.md)
+
+## D205 V1 Director qualification acceptance and one-shot science authorization
+
+ACCEPT D205 V1 execution readiness within its exact frozen source, observed Windows host and runtime scope. Bind the acceptance to qualification checkpoint `7030a277fa299082a8c9fd8b890d4141d243c239` and the exact freeze and historical qualification receipt. The Owner authorizes one gated `LCL-D205-INDEPENDENT-PATH-ORDER-EXECUTION-QUALIFICATION-001` invocation under `d205-independent-path-order-menu-001` for the B/C streams with exact immutable inputs, ceilings and conditional audit and verification. The A control is retained separately. No qualification replay, infrastructure change, retry or successor is authorized. [Bound Director record](../evidence/validation/LCL_D205_INDEPENDENT_PATH_ORDER_EXECUTION_QUALIFICATION_001/DIRECTOR_ACCEPTANCE.json)
