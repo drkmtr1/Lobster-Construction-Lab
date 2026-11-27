@@ -775,3 +775,9 @@ Authorize only D210, a bounded symbolic investigation of the Director's simultan
 ## D210 symbolic closeout
 
 The Director derived the simultaneous allocation candidate before computational preparation. The independently reviewed proof and fixed hand controls establish the exact stated domain and resolve the all-even unit benchmark, so defer its proposed hybrid preparation without execution. Record the proof for Director review, retain the D209 interface exclusions and D207 deferred question, and keep current governance v13. No numerical worker, executable verification, protected checker, search, solver, replay, infrastructure change, upstream write or successor occurred. [Proof and independent review](ORDINARY_SPINE_SIMULTANEOUS_ORDINARY_SUPPLIER.md)
+
+## D210 Director acceptance and D211 admission
+
+ACCEPT D210 at e07b1f13f2a5361ae7c52fda98bbdedcacb70aee within its exact proved parameterized scope. The Director inspected the primary proof, independently frozen originals, fixed hand controls, separate mathematical review, handoff, live state and instructions, and confirmed repository continuity and both upstream pins. Preserve D210's fixed reflection-menu obstruction, D209's two exact interface exclusions and handoff erratum, and D207's unresolved deferred monotone-return question.
+
+Authorize only D211, one bounded symbolic investigation of the Director's coordinated four-host allocation, with six prescribed fixed hand arithmetic controls and separate mathematical review. No numerical worker, executable verification, solver, search, protected checker, replay, upstream write, infrastructure change or automatic successor is authorized. Reassess strategy at this closeout. KEEP v13. [Accepted D210 proof](ORDINARY_SPINE_SIMULTANEOUS_ORDINARY_SUPPLIER.md)
