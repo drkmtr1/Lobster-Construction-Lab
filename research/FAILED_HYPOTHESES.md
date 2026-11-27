@@ -991,3 +991,8 @@ With G>0, high-only support has no row at input G−1. A selected low shift of m
 ## D228 four-state arbitrary-word coverage
 
 The prescribed X self-transition from (0,1) fails. More generally X fails at every departure with β=1 and at any (β,β′)=(2,2) return. This excludes XX even when the initial subset contains all four states. A single X has the stated (0,2)→(0,1) positive. The exclusion concerns this exact transport, menu and word order. It leaves other state models, alternative encodings, and ordinary or marked supply for the corresponding named profiles outside its conclusion. [Obstruction](FINITE_STATE_BINARY_MULTIPLICITY_GROWTH.md#4-exact-short-word-obstruction).
+
+
+## D229 scoped terminal cap adverse
+
+The cap X=(3,1,1,1;1,1,1,1) at S1 fails even when the two return anchors are omitted. The two lower low input coordinates have sum C≥1, while the high-upper weights require 10+C by the high sums and 10−C by the upper-low inventory. The same cap at S2 has the retained D228 43-edge positive. This is a cap/state distinction, with no other cap or ordinary-labeling exclusion. [Proof](HOMOGENEOUS_PAIR_FINITE_KERNEL_SUPPLY.md#2-homogeneous-self-transitions-and-terminal-caps).

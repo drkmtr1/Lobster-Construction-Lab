@@ -1,0 +1,19 @@
+# D229 — Separate independent reviews
+
+The integrator was the sole writer. Separate mathematical and implementation/evidence AI reviewers inspected the actual proof, controls and static package. Neither reviewer imported a task module or used scientific execution.
+
+## Mathematical review
+
+**PASS for the conditional reduction.** The reviewer independently recovered both complete U/V resource alphabets and all shifts and sums, the exact quota counts, the omitted-row replacements and both anchor returns. The h=6 sources and both V packets reproduce the actual named 57-edge originals and folds. The independent subtraction yields term labels [13,47], term differences [10,44], spine weights 48,57,46, folded skeleton [1,9]∪[45,57] and the literal exterior exchange 1↔47. Both original reversals preserve these inventories. For the adverse X/S1 cap the lower counts force all four highs to be lower-to-upper and exactly two lower lows. The two upper enumerations yield 10+C and 10−C, contradicting C≥1. The D228 X/S2 witness supplies the same physical cap control.
+
+The reviewer verified the special bits and complete pair capacities, including ℓ=2 and j=3. The truncation inequality gives M₁+M₃≥h−4, meaning four actual pairs can be removed while preserving both multiplicity minima. Inserting U/V blocks before the same cap restores exact quotas, sides and names. The counts 416, 3,840, 64 and 13,632 were independently derived. The proof of the entire h≥10 family remains conditional on full compatible coverage of the finite kernel.
+
+## Implementation and evidence review
+
+**PASS for static preparation.** The reviewer inspected the frozen Python and JSON. The primary model has exact fixed anchors, homogeneous pair counts, both resource inventories and actual affine row tests. Its selected-column rule and capacity pruning retain every possible completion. The separate endpoint-based row reconstruction and host-subset negative traversal do not use the primary generator or search. The verifier requires the exact key, host multiplicities, inventories, tags and both core anchors. The reviewed D225 and D228 hand rows agree with the retained source literals. In D227 multiplication, the first copy retains L₄ and the final identity copy establishes the requested L₃ anchor.
+
+The arithmetic coverage audit includes every admissible special bit and cap-pair choice on the same beta. The two relations preserve unresolved status for any missing, capped or single-traversal negative. Covered representatives are reconstructed at their exact original names and rechecked by actual endpoint subtraction. The prospective per-key bound allows 848 million primary nodes before independent audits, so the 400 million shared ceiling may cut any later run. The checked prospective record count is at most 1,176, with 213 coverage batches. Source and approval parsing binds the exact read bytes for the registration and the actual later receipt following a review suggestion. Receipt custody, runtime and cooperative ceilings agree with the preparation contract. No performance or exhaustibility claim is made.
+
+The reviewer recomputed all 32 entries of the source manifest and its own SHA-256. The output and archive locations are vacant, no task bytecode was present, and the inherited `lcl` files are unchanged. The parse-only receipt and frozen originals matched the reviewed source. The separate acceptance `219638b19d8613f12c9da65103db67ee9d4f310c` directly follows D228 `3055c43d98c307f26ab306c0c8a590ff18695f6b` and changes only STATE, FINDINGS and DECISIONS. Historical D228 proof, controls and review hashes match. The live refs were verified separately by the integrator.
+
+[Primary proof](../../../research/HOMOGENEOUS_PAIR_FINITE_KERNEL_SUPPLY.md) · [Hand controls](HAND_CONTROLS.md) · [Preparation](PREPARATION.md)

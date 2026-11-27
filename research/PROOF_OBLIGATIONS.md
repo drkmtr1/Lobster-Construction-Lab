@@ -1276,3 +1276,8 @@ General independent supply for every quota pattern in {1,3} at the registered mu
 ## D228 exact coverage scope
 
 The registered four-state arbitrary-word question is decided negatively by a symbolic obstruction. The full 4,096-key transition table was unnecessary and its individual unknown entries have no reported disposition. General binary supply, independent base-state sets for any broader claim, and lawful physical role coverage remain separate obligations. No broader menu, base enumeration or successor is admitted. Preserve all prior holds and incomplete scopes. [Word logic](FINITE_STATE_BINARY_MULTIPLICITY_GROWTH.md#5-finite-word-logic-and-disposition).
+
+
+## D229 declared finite core/cap coverage
+
+Decide full coverage of the 13,632 physical count-type representatives by compatible independently audited core and cap certificates. An uncovered positive relation alone leaves a target unresolved. An upper-relation exclusion rejects only the declared kernel architecture on that target. The 10≤h≤13 compatibility premise suffices for all h≥10 through the proved homogeneous removals and restoration. Numerical cores h₀=6,…,9 supply no independent claim about general physical originals at those sizes. Preserve the D225 clarified boundary, the D224 exact unresolved interfaces, all accepted scopes and earlier incomplete, held or deferred records. [Exact preparation](../evidence/validation/D229_HOMOGENEOUS_PAIR_FINITE_KERNEL_SUPPLY/PREPARATION.md).
