@@ -947,3 +947,7 @@ The empty-interior five-edge positive exchanges weights 1 and 3 and violates bot
 ## D218 interval-order parity boundary
 
 For distinct outside hosts on a specified nonempty moved interval, preservation of its attachment multiset forces its endpoint sum to equal the host sum. In D218's reserved-slot order a nonfinal quota of the wrong parity or smaller than the magnitude of its endpoint-sum jump has no symmetric end retention with that quota. This is an exact restriction of the chosen transfer order and palette, with no inference of ordinary nongracefulness or failure of another labeling or reconstruction. [Proof](INDEPENDENT_RESERVED_MARK_TRANSFER_SUPPLIER.md#2-exact-transfer-lemma-and-parity-schedule)
+
+## D219 all-quota-two boundary of equal-length trimming
+
+The fixed D218 order with all quotas two requires a single-interval first move at jump −2 and a split before the second move's jump +1. Later the equal-length recipe at m−5 has jump +2 and a=1, which violates a≥|Δ|. Thus every declared phase choice fails in that fixed all-quota-two setting. It leaves other marked sources, host orders, terminal geometries and ordinary gracefulness undecided. [Proof](INDEPENDENT_MARKED_PHASE_TRANSITION_SUPPLIER.md#5-domain-b-with-all-quotas-independently-even)
