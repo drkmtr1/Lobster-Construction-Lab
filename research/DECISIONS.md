@@ -763,3 +763,11 @@ ACCEPT D208 at f8e74c03652b1f20f380ccc87a5f09288669acf7 within its exact supplie
 ## D209 symbolic closeout
 
 Record the parameterized proved subdomain and open complement for Director review. Independent review passed the explicit D131 and descending-path constructions, the additional alpha-compatible subdomain, the restricted obstructions and all four prescribed hand controls. Retain one held recommendation for simultaneous allocation preparation targeting [[1],[6,4],[2],[1]] with the two specified matched controls. No numerical worker, executable verification, checker, search, solver, historical replay, upstream write or successor occurred. Preserve D208's separate acceptance at ce62f67fabf94ba9403b41243e300fb26f6bdfb5, D207's deferred monotone question and KEEP v12. [Proof and independent mathematical review](ORDINARY_SPINE_TWO_SIDED_ORDINARY_SUPPLIER.md)
+
+## D209 Director acceptance, handoff erratum and D210 admission
+
+ACCEPT D209 at 73868ad147f64845de2a770d8b5d0ccc261f50a1 within its exact proved parameterized scope. The Director inspected the primary proof, fixed arithmetic, independent review, handoff, live STATE.md and AGENTS.md, and confirmed continuity and both upstream heads. Preserve the precise D209 interface exclusions and the unresolved and deferred D207 monotone-return question.
+
+**Erratum to the archived D209 handoff.** The proposed original `[[1],[6,4],[2],[1]]` has four spine vertices and five centers, totaling nine skeleton vertices. Its indexed terminal count is 1+6+4+2+1=14. Its total is 23 vertices and 22 edges. The archived handoff said thirteen terminals. The primary theorem retains its scope and the original handoff remains archived as written. [Archived handoff](../handoffs/CODEX-20261126-d209-two-sided-ordinary-supplier.md)
+
+Authorize only D210, a bounded symbolic investigation of the Director's simultaneous allocation candidate with four positive and one adverse fixed hand control and separate mathematical review. The held hybrid benchmark is deferred because the Director supplied a symbolic candidate before computational preparation. Governance is KEEP v13. Earlier v12 decisions and evidence retain their historical wording. ChatGPT Project settings were left as supplied by the Director.
