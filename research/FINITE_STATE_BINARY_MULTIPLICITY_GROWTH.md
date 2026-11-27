@@ -1,0 +1,73 @@
+# D228 — Exact local transport and a four-state word obstruction
+
+**SYMBOLIC DISPOSITION.** The proposed transport is size-independent and its exact row model is valid. The registered four-state menu fails arbitrary finite-word coverage. The letter `X=(3,1,1,1;1,1,1,1)` has a supplied transition from (0,2) to (0,1), but `XX` has no path from any of the four states. This decides the registered coverage question before diagnostic preparation. Separately, the former 33-edge D227 comparison is centered negative and general marked positive. [Named hand controls](../evidence/validation/D228_FINITE_STATE_BINARY_MULTIPLICITY_GROWTH/HAND_CONTROLS.md)
+
+## 1. Geometry and old-row transport
+
+Use D226's four-section named fold. There are 2h−1 active branch roles, F terminals and m=2h+2+F edges, with F≥2h−1≥11. Keep low roles `L_k` for `k∈[1,h+2]\{h+1}` and high roles `H_k` for `k∈[1,h−2]`. At the respective labels k and m−k, their normalized row equations are w=i+3−k and w+i=F−1−k. The conversion is z=h+3+i for terminal labels and d=h+w for absolute differences. The terminal labels lie between the two slot bands, and their differences complement [1,h−1]∪[m−h−2,m], as proved by actual subtraction in D226. [D226 geometry](UNBOUNDED_MULTI_HOST_ANCHOR_BANK_SUPPLY.md#1-exact-original-folded-skeleton-and-independent-unit-supplier)
+
+The eight new roles are L₁,…,L₄ and H₁,…,H₄. Let Q be their ordered quota vector in {1,3}⁸. Its total 2n is even, with 4≤n≤12. Set h′=h+4 and F′=F+2n. Move every old offset k to k+4, with the same low/high type. Shifted low roles are [5,h+6] except h+5, and shifted high roles [5,h+2]. These ranges and the eight new roles partition the active roles at h′, including the correct relocated reserves. Away from the stated two omitted rows, transport (i,w) to (i+n,w+n−4). Low displacement decreases by 4 as required, and the high sum increases by 2n−4, equaling F′−1−(k+4). The entire unpunctured transported coordinate ranges are [n,F+n−1] and [n−4,F+n−5]. They fit in the new alphabet even when n=4.
+
+This is an induction on numerical roles. The old physical flank or branch name need not take its original role at h′. After the final numerical allocation, choose the lawful complementary pairs to match the named quotas. The ordered marks on `(s:1,s:2,s:0,s:3,b:0:0,b:3:0)` are `(0,m,m−h+1,h+1,1,h)` at the final parameters. Keep pairs 1,h−1 left, put the unpaired h,h+1,h+2 right, and allocate whole remaining pairs to count. The selected flank roles must match their actual named quotas, as must each interior role. A pair uses both attachment weights {k,m−k} on either side. The unpaired attachments and inner spine edge account for the rest of the skeleton. The only changes from fold S to original T are the two literal exterior attachments, which exchange 1 and m−h. Transport along section reversal i↦3−i carries every branch and terminal index and edge to its reflected name. Independent base-state supply and lawful final role coverage would both be necessary to turn word coverage into a theorem about all named originals. [D227 role placement](INDEPENDENT_CAPACITY_FREE_PAIRED_PACKET_SUPPLY.md#4-embedded-unit-packets-and-their-physical-scope)
+
+## 2. Exact vacancies and return anchors
+
+The four states (α,β) are {0,1}×{1,2}. A source has the distinguished L₃ row (F−1−α,F−1−α) and L₄ row (β,β−1). The two rows are distinct in both alphabets since F≥11. Omit them alone. Their translated holes are (F+n−1−α,F+n−5−α) and (n+β,n+β−5). The first lies at the upper end of the transported ranges and the other at their lower end. Thus the vacant coordinate sets are exactly as follows. A `+` column is the upper coordinate after subtracting F. Empty intervals have the usual reversed endpoints.
+
+| Side | Lower input I₋ | Upper input offset I₊ | Lower weight W₋ | Upper weight offset W₊ |
+|---|---|---|---|---|
+| Before return anchors | [0,n−1] ∪ {n+β} | [n,2n−1] ∪ {n−1−α} | [0,n−5] ∪ {n+β−5} | [n−4,2n−1] ∪ {n−5−α} |
+| Remove for return | β′ | 2n−1−α′ | β′−1 | 2n−1−α′ |
+
+All unions in these columns are disjoint. In particular the special lower weight is at least n−4, above the initial lower interval. The lower and upper alphabets in actual coordinates are disjoint by the endpoint bounds in Section 3. Install L₄ at (β′,β′−1) and L₃ at (F′−1−α′,F′−1−α′) only if their rows exist in the respective vacant sets. L₄'s weight is the only possibly unavailable coordinate of the two anchors. Their shifts are −1 and 0, so both satisfy the actual low equations. The pre-anchor cardinalities are n+1,n+1 and n−3,n+5. After the removals the input cardinalities are n,n and the weight cardinalities n−4,n+4. Both residual alphabets therefore contain 2n coordinates. In particular when n=4 the lower weight set is empty after the L₄ return.
+
+Subtract one from each new L₃ and L₄ demand and require one additional row at each shifted host L₇,L₈. The other transported rows at these two hosts remain if their old quotas were three. The total new residual demand is 2n. This restores the old counts at shifted roles and achieves exactly Q on new roles, with no extra terminals.
+
+## 3. Size-independent rows and exact equivalence
+
+The permitted packet hosts are L₁,L₂,L₃,L₄,L₇,L₈ and H₁,…,H₄. Low shifts range from −5 to +2. Before either anchor is removed, the maxima of the two lower sets are at most n+2 for inputs and n−3 for weights, and the upper actual minima are bounded below by F+n−2 and F+n−6 respectively.
+
+- A low row from lower input to upper weight would have w−i≥F−8≥3. A low row from upper input to lower weight would have w−i≤−F−1≤−12. Both are outside the low range.
+- A high row needs i+w=F+2n−1−k with 1≤k≤4. The lower/lower sum is at most 2n−1, strictly less by at least F−4. The upper/upper sum is at least 2F+2n−8, exceeding even the greatest required sum F+2n−2 by F−6≥5.
+
+Removing anchors only restricts these sets. Hence retain the lower/upper tag on each coordinate. For lows require the same tag, and impose v−u=3−k after subtracting F on both upper coordinates. For highs require opposite tags with u+v=2n−1−k after subtracting F from the one upper coordinate. The rules use only Q, α, β, α′, β′. This remains valid for the possibly negative **offset** on an upper weight coordinate at n=4. Its actual coordinate includes F.
+
+A local row with its host tag, input tag and value, and weight tag and value consumes one input, one weight, and one unit of the specified host demand. A feasible packet uses each residual coordinate exactly once and uses exactly the demanded count of each host. Necessity follows by taking the remaining rows of an actual transport after excluding its supplied anchors and prescribed old rows. Sufficiency follows by adding F to the upper offsets, installing the returned anchors, and adjoining the prescribed old transport. All label and weight slots agree exactly by Section 2, all host quotas agree, and the affine equations hold. The next state has its own distinct distinguished rows. A row-level certificate can therefore be verified independently by direct coordinate membership, unique consumption, equations and counts, then by the exact named skeleton if a physical target is supplied. Cardinality by itself certifies none of this incidence.
+
+For all-unit Q and (0,1)→(0,1), the actual residual packet is the retained D225 packet with the new low 4 row and maximum row separately restored. Control C supplies a different state transfer for X. [D225 recurrence](THREE_INTERIOR_ODD_QUOTA_SUPPLIER.md#4-full-two-left-pair-supplier-for-h6) · [Controls A–C](../evidence/validation/D228_FINITE_STATE_BINARY_MULTIPLICITY_GROWTH/HAND_CONTROLS.md)
+
+## 4. Exact short-word obstruction
+
+Take the letter X, with q(L₁)=3 and all seven other new quotas one. Then n=5. The two returned lows use up the demands of L₃,L₄. The packet contains four high rows, three L₁ rows and one each at L₂,L₇,L₈. The inputs are five lower and five upper, and weights one lower and nine upper. Let y be the number of highs from lower to upper and x the number from upper to lower. A same-block low consumes one row from the same side of both inventories. It follows that y−x=4. Since y+x=4, all four highs travel lower to upper, with exactly one low in the lower block.
+
+The pre-return lower weights are {0,β}. Thus β=2,β′=2 fails at the L₄ anchor, and any transition from β=2 returns β′=1. For β=1, consider both possible returns, independently of α and α′.
+
+| β′ | Lower inputs after anchors | Sole lower weight | Possible lower low |
+|---|---|---|---|
+| 1 | {0,2,3,4,6} | 1 | L₂ at input 0 or L₈ at input 6 |
+| 2 | {0,1,3,4,6} | 0 | L₇ at input 4 |
+
+These lists follow by subtracting each allowed low shift from the sole lower weight. No L₃ or L₄ residual demand remains. In both cases the upper offset alphabets are
+```text
+I₊ = ({4−α} ∪ [5,9]) without 9−α′
+W₊ = ({−α}  ∪ [1,9]) without 9−α′.
+```
+If β′=1 and L₂ is lower, the high input sum is 15. The four high offset sums are 8,7,6,5, so the high output sum must be 26−15=11. But ΣW₊−ΣI₊=6, regardless of both alphas. The five upper lows have total shift 3·2−4−5=−3. They consume all upper inputs, leaving high weight sum 6−(−3)=9, a contradiction.
+
+In both remaining cases L₂ is upper and all three L₁ rows are upper. For α′=0, upper offset weight 9 is absent and the three L₁ rows must take exactly inputs {4−α,5,6}. They occupy weight 8 at input 6. The only remaining upper inputs are 7 and 8, so L₂'s shift +1 has only the used 8 or the absent 9. For α′=1, weight 8 is absent and the L₁ inputs must be exactly {4−α,5,7}. They occupy weight 7 at input 5. The remaining upper inputs are 6 and 9, giving L₂ only the used 7 or the out-of-range 10. These cases exhaust both alphas and both proposed returns. Thus no state with β=1 can accept X. In particular Control B's prescribed (0,1) self-transition fails, as part of this stronger result. The obstruction concerns **only** the stated transport and menu.
+
+## 5. Finite-word logic and disposition
+
+For any relation R(s,Q) on the four states, start from a chosen nonempty subset S₀ and apply the union map
+```text
+S_{k+1} = union of R(s,Q_k) over s in S_k.
+```
+By induction, Sₖ consists exactly of reachable states after that prefix of the word. An independent source allocation at any feasible initial state and an exact local witness at each transition suffice to realize each path, because the local lifting holds for every source at that state and F≥11. There are at most 16 subsets including the empty subset, which is absorbing. Reachable-subset search in a complete table would therefore decide whether every finite word stays nonempty. This proof needs no assumption about every state accepting every letter. A lower relation of verified positives proves coverage if all reachable subsets avoid empty. An upper relation that includes the verified positives and all unresolved pairs, omitting only pairs excluded by proof or independently audited exhaustion, provides impossibility if it reaches empty on a word. Inclusion and monotonicity of union prove both statements. Failure in the lower relation alone leaves unknown entries relevant.
+
+Here Section 4 gives a symbolic upper relation sufficient to decide the question. From any initial subset, X returns only β′=1 states. From those, the same letter yields empty. The letter X sets the new L₄ quota to one, so its output cannot simultaneously carry the β=2 anchor and switch states by reinterpreting its rows. The word XX is therefore impossible even from the full four-state set. Control C realizes one X, so the particular letter is not excluded on all states. This determines arbitrary-word coverage of the registered candidate without classifying all 4,096 keys. It leaves ordinary gracefulness, alternative allocations, other state sets and reordered role encodings outside this obstruction.
+
+A complete diagnostic would have 256 ordered binary letters and 4×4 state pairs, hence 4,096 numerical keys. The residual row model has at most 24 input and weight coordinates and at most ten host tags, so 983,040 proposed host-input attempts is a valid initial-generation bound. With fixed tags each input/host determines at most one weight. A row-by-row branch method would select ≤24 rows with ≤25 frames. The contemplated ceilings were one worker, 250,000 primary branch nodes per key, 100,000,000 combined primary and independent-audit nodes, 1,800 aggregate CPU seconds, 2,400 seconds foreground wall, 8,192 status or certificate records and 16 MiB of new evidence. The primary per-key allowance summed over the keys is 1,024,000,000 nodes. The smaller shared cap could interrupt the table or its audits. Two records per key would fill the full record ceiling, leaving no room for separate overhead records. At that ceiling the evidence limit averages 2,048 bytes per record before any overhead. These are checks of the contemplated limits only. The symbolic result removes the reason to allocate any such budget. No diagnostic registration package, solver, audit program or numerical run is produced.
+
+## 6. Relation to retained methods
+
+D223 and D225 independently supply unit recurrences with a reusable return, using uniform unit demands per new role. Control A recovers D225 exactly. D226 manages movable extreme rows and quota-funded capacity at a fixed h. D227 adds independently supplied packets at a fixed h or lifts paired cycles, with separate obstructions to centered transport. Here h grows and the local state records the return anchors that make the punched vacancies independent of F; the remaining obstruction is compatibility across letters. The retained E10 finite-rule assessment distinguishes finite candidate discovery from a proof of closure. Its described certificate concerns subcubic lobsters. A quota-three branch here already has degree four, and the D228 transport has its own input and return conditions. D228 uses exact symbolic reachability to prove failure on a word within those conditions. A larger menu or another supplier would need a new justified statement and is outside this pass. The exact 33-edge D227 positive uses four movable old rows and does not pass through the centered interface that was proved negative. [D223](AFFINE_CYCLE_CROSS_INTERIOR_ODD_SUPPLY.md) · [D225](THREE_INTERIOR_ODD_QUOTA_SUPPLIER.md) · [D226](UNBOUNDED_MULTI_HOST_ANCHOR_BANK_SUPPLY.md) · [D227](INDEPENDENT_CAPACITY_FREE_PAIRED_PACKET_SUPPLY.md) · [Finite-rule assessment](../docs/METHOD_SELECTION.md) · [33-edge control](../evidence/validation/D228_FINITE_STATE_BINARY_MULTIPLICITY_GROWTH/HAND_CONTROLS.md#1-former-d227-comparison-33-edges)

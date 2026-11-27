@@ -986,3 +986,8 @@ At unit quota a low-only invariant block in the imbalance-three geometry has zer
 ## D227 exact restrictions of centered packets
 
 With G>0, high-only support has no row at input G−1. A selected low shift of magnitude at least G or high offset at least G has no projected row. Repeated centered growth shares the same total-width obstruction. For every h≥6 at ℓ=2, both left interiors enlarged and all other quotas unit, the sparse support is impossible for centered growth on these marks. The D225 movable adjustment supplies the same originals directly. The named 29-edge control verifies this separation. The joint binary support in Section 6 also fails the moment condition of a single duplicated packet, although a sequence of two independent packets supplies its counts. [Proof](INDEPENDENT_CAPACITY_FREE_PAIRED_PACKET_SUPPLY.md#6-focused-repair-and-an-exact-packet-only-limitation).
+
+
+## D228 four-state arbitrary-word coverage
+
+The prescribed X self-transition from (0,1) fails. More generally X fails at every departure with β=1 and at any (β,β′)=(2,2) return. This excludes XX even when the initial subset contains all four states. A single X has the stated (0,2)→(0,1) positive. The exclusion concerns this exact transport, menu and word order. It leaves other state models, alternative encodings, and ordinary or marked supply for the corresponding named profiles outside its conclusion. [Obstruction](FINITE_STATE_BINARY_MULTIPLICITY_GROWTH.md#4-exact-short-word-obstruction).
