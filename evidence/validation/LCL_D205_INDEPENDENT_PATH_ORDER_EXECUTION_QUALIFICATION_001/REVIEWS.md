@@ -1,0 +1,15 @@
+# Independent final D205 readiness reviews
+
+## Native and infrastructure — PASS
+
+The reviewer matched all 82 pre-terminal artifacts to the terminal manifest and verified the exact seal, 14 frozen case families and 16 measured phase receipts. The 15 ordinary Job rosters closed with one lifetime member, zero active members, empty PID lists and no observed unexpected identity. All 16 worker runtimes and the additional crash inner runtime were the approved detached isolated CPython 3.13.17 image and DLL. Four ordinary reconciliations used the exact V9 one-increment guard of 156,250 ticks and charged the higher combined total. The native stop reproduced `0xC0000044` with the Job time-limit event and terminated count one. The child case recorded Win32 1816 and no created process. The injected 2,359 ms gap was correctly rejected. Other maximum observation gaps were at most 250 ms.
+
+The interruption retained owner PID 22404 and worker PID 29480 with exact matching birth identities and one suspended and then active member in the noninheritable Job. Both processes were observed live before the successful owner-only termination request. Their retained handles signaled 16 ms later within the deadline. The owner status was `0xE2040001`, the worker status was 0, and the exact terminal-time difference was 10,449 FILETIME ticks. Owner plus worker charged 1,250,000 CPU ticks. The full crash phase was 1,562,500 ticks including controller and evidence work, and 266 ms elapsed. The reviewer confirmed the 30,000,000-tick, 13,531 ms matrix and the separately measured normal outer exit. The result supports readiness on this host and establishes no universal exit status, instantaneous sampled limit, or worst-case latency.
+
+## Scientific integration and evidence custody — PASS
+
+A different reviewer matched all 84 archived files to the original local run and ledger, totaling 215,638 bytes. All 82 pre-terminal files matched their exact hashes and sizes at 201,502 bytes. The terminal, seal, external PID and normal signaled exit agree. The admission binds exact qualification mode, freeze and independent pre-launch review. Both reviews distinguish measured synthetic phase outcomes from science.
+
+Three inert candidate receipts retained their exact raw bytes, hashes, matching PID/nonce contexts and stream bindings before the verification response. Successful responses were explicitly synthetic and the deliberately failed verification was retained. The three synthetic exhaustion frames carried all twelve expected fixed counts in order, with zero rank-compatible counts. The byte-cap adverse produced neither candidate artifact. All 58 infrastructure methods passed. No D205 science module or original checker was invoked, no task bytecode was generated, and the future official approval, live-reference, Director acceptance and output paths remained vacant. The protected D204 and D205 mathematical sources and checklist remain unchanged.
+
+Both reviewers concur with readiness for separate Director acceptance and actual Owner authorization. Neither qualification nor review decides the D205 existence question or exercises the official scientific entry.

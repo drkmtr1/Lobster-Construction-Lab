@@ -1,0 +1,40 @@
+{
+  "acceptance_checkpoint": "467d5c30bf79d3728e1e8afb20ee1dc2998d3a26",
+  "accepted_v9_checkpoint": "55cb26095b2360cb6a43594b921b500bb8eb0fc9",
+  "authorized_scope": "One bounded inert D205 qualification only",
+  "initial_checks": {
+    "accepted_checkpoint": "e7e91b7627aad9ce19296e16b777b7c5704128e7",
+    "artifacts": 21,
+    "authorities": 5,
+    "cpu": 1.328125,
+    "dependencies": 26,
+    "originals": {
+      "main_41": "5554c99f3db5b777a5e139369479c470b9e220753da2193aecbaa3c9ac6d3515",
+      "main_48_if_admitted": "1e9d8d99227973991cb6fb850cfbcd44cfac2c3470396886c59a9264bd3de3cb",
+      "matched_41": "9e1e04f932faf8c8b41a1fc835419e5c3d7a76063e0e10119fb31cb5bf27ac24",
+      "matched_48": "1f6e94e3293bdf090585064e1634046a6e82f246e738b16da1ea564a1d5b8270"
+    },
+    "prefixes": [
+      "fd4289cb555097994341bf023415e231841e01e95c1098c7890643252241f061",
+      "fd4289cb555097994341bf023415e231841e01e95c1098c7890643252241f061",
+      "5554c99f3db5b777a5e139369479c470b9e220753da2193aecbaa3c9ac6d3515",
+      "fd4289cb555097994341bf023415e231841e01e95c1098c7890643252241f061",
+      "fd4289cb555097994341bf023415e231841e01e95c1098c7890643252241f061",
+      "9e1e04f932faf8c8b41a1fc835419e5c3d7a76063e0e10119fb31cb5bf27ac24"
+    ],
+    "runtime": 2628,
+    "runtime_executable": "C:\\Users\\Will\\AppData\\Local\\Programs\\Python\\Python313\\python.exe"
+  },
+  "live_ref_observation": "e7e91b7627aad9ce19296e16b777b7c5704128e7\trefs/heads/main\nfddfc1dd9541324b2ed2de2505bc750b3e3f0b9d\trefs/tags/lcl-v0.1.0-baseline\n36ea1603602491bf3c1c5b81ed4c23aaa2210e70\trefs/tags/lcl-v0.1.0-baseline^{}\n858a8c1fcfda87ba40bb1adee498a6131504a803\tHEAD\ne48b94eec4091b4fe189e325cab2eda464409943\tHEAD\nCompeting LCL process candidates: 0\r\n",
+  "preparation_checkpoint": "e7e91b7627aad9ce19296e16b777b7c5704128e7",
+  "prior_d204_acceptance": "de9402b5a516078badb4ce30c24595ec478cd0ac",
+  "scientific_approval": false,
+  "vacant_at_freeze": [
+    "evidence/validation/LCL_D205_INDEPENDENT_PATH_ORDER_EXECUTION_QUALIFICATION_001/DIRECTOR_ACCEPTANCE.json",
+    "evidence/validation/LCL_D205_INDEPENDENT_PATH_ORDER_EXECUTION_QUALIFICATION_001/V1_FINAL_QUALIFICATION.json",
+    "runs/d205-readiness-v1",
+    "runs/d205-independent-path-order-menu-001-approval.json",
+    "runs/d205-independent-path-order-menu-001-live-refs.json",
+    "evidence/runs/d205-independent-path-order-menu-001"
+  ]
+}

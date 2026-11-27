@@ -1,0 +1,17 @@
+$ErrorActionPreference = 'Stop'
+if ((Get-FileHash -Algorithm SHA256 -LiteralPath 'evidence/validation/LCL_D205_INDEPENDENT_PATH_ORDER_EXECUTION_QUALIFICATION_001/V1_FREEZE.json').Hash.ToLowerInvariant() -ne '3be2f049a031a52b4229c9ce1a754f72fb88efbad08cc365cff5f8996b5c598e') { throw 'Qualification freeze mismatch' }
+$stdout = Join-Path (Get-Location) 'evidence/validation/LCL_D205_INDEPENDENT_PATH_ORDER_EXECUTION_QUALIFICATION_001/V1_PURE_STDOUT.txt'
+$stderr = Join-Path (Get-Location) 'evidence/validation/LCL_D205_INDEPENDENT_PATH_ORDER_EXECUTION_QUALIFICATION_001/V1_PURE_STDERR.txt'
+if ((Test-Path -LiteralPath $stdout) -or (Test-Path -LiteralPath $stderr)) { throw 'Pure output identity occupied' }
+$exe = & .\.venv\Scripts\python.exe -I -S -B -c 'import sys; print(sys._base_executable)'
+if ($LASTEXITCODE -ne 0 -or $exe -ne 'C:\Users\Will\AppData\Local\Programs\Python\Python313\python.exe') { throw 'Interpreter mismatch' }
+$test = Join-Path (Get-Location) 'research/d205_readiness_v1/test_infrastructure.py'
+$watch = [Diagnostics.Stopwatch]::StartNew()
+$proc = Start-Process -FilePath $exe -ArgumentList @('-I','-S','-B',('"' + $test + '"')) -WorkingDirectory (Get-Location) -WindowStyle Hidden -RedirectStandardOutput $stdout -RedirectStandardError $stderr -PassThru
+$timeout = -not $proc.WaitForExit(55000)
+if ($timeout) { $proc.Kill(); $closed = $proc.WaitForExit(5000) } else { $closed = $true }
+$user = $null; $kernel = $null; $code = $null
+if ($closed) { $code=$proc.ExitCode; $user=$proc.UserProcessorTime.Ticks; $kernel=$proc.PrivilegedProcessorTime.Ticks }
+[ordered]@{pid=$proc.Id;signaled=$closed;timed_out=$timeout;exit_code=$code;elapsed_ms=$watch.ElapsedMilliseconds;user_ticks=$user;kernel_ticks=$kernel} | ConvertTo-Json -Compress
+if ($null -eq $code) { exit 2 }
+exit $code

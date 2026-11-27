@@ -1,0 +1,24 @@
+$ErrorActionPreference = 'Stop'
+if ((Get-FileHash -Algorithm SHA256 -LiteralPath 'evidence/validation/LCL_D205_INDEPENDENT_PATH_ORDER_EXECUTION_QUALIFICATION_001/V1_FREEZE.json').Hash.ToLowerInvariant() -ne '3be2f049a031a52b4229c9ce1a754f72fb88efbad08cc365cff5f8996b5c598e') { throw 'Frozen source identity mismatch' }
+if ((Get-FileHash -Algorithm SHA256 -LiteralPath 'evidence/validation/LCL_D205_INDEPENDENT_PATH_ORDER_EXECUTION_QUALIFICATION_001/V1_REVIEW.json').Hash.ToLowerInvariant() -ne '7305fe9665552d9eaa22c58412144aae99bbbe89ce9db3253eb9fe21c4f011ba') { throw 'Pre-launch review mismatch' }
+$out = Join-Path (Get-Location) 'evidence/validation/LCL_D205_INDEPENDENT_PATH_ORDER_EXECUTION_QUALIFICATION_001/V1_STDOUT.txt'
+$err = Join-Path (Get-Location) 'evidence/validation/LCL_D205_INDEPENDENT_PATH_ORDER_EXECUTION_QUALIFICATION_001/V1_STDERR.txt'
+if ((Test-Path -LiteralPath $out) -or (Test-Path -LiteralPath $err) -or (Test-Path -LiteralPath 'runs/d205-readiness-v1')) { throw 'Occupied qualification identity' }
+$exe = & .\.venv\Scripts\python.exe -I -S -B -c 'import sys; print(sys._base_executable)'
+if ($LASTEXITCODE -ne 0 -or $exe -ne 'C:\Users\Will\AppData\Local\Programs\Python\Python313\python.exe') { throw 'Interpreter mismatch' }
+$script = Join-Path (Get-Location) 'research/d205_readiness_v1/entry.py'
+$vector = @('-I','-S','-B',('"' + $script + '"'),'LCL-D205-INDEPENDENT-PATH-ORDER-EXECUTION-QUALIFICATION-001','qualify','3be2f049a031a52b4229c9ce1a754f72fb88efbad08cc365cff5f8996b5c598e','7305fe9665552d9eaa22c58412144aae99bbbe89ce9db3253eb9fe21c4f011ba')
+$watch = [Diagnostics.Stopwatch]::StartNew()
+$outer = Start-Process -FilePath $exe -ArgumentList $vector -WorkingDirectory (Get-Location) -WindowStyle Hidden -RedirectStandardOutput $out -RedirectStandardError $err -PassThru
+$timeout = -not $outer.WaitForExit(790000)
+if ($timeout) { $outer.Kill(); $closed = $outer.WaitForExit(5000) } else { $closed = $true }
+$user = $null; $kernel = $null; $total = $null; $code = $null
+if ($closed) {
+    $code = $outer.ExitCode
+    try {
+        $total = $outer.TotalProcessorTime.TotalSeconds
+        $user = $outer.UserProcessorTime.TotalSeconds
+        $kernel = $outer.PrivilegedProcessorTime.TotalSeconds
+    } catch {}
+}
+[ordered]@{pid=$outer.Id;controller_signaled=$closed;outer_timeout=$timeout;actual_outer_elapsed_ms=$watch.ElapsedMilliseconds;exit_code=$code;controller_cpu_total=$total;controller_cpu_user=$user;controller_cpu_kernel=$kernel} | ConvertTo-Json -Compress

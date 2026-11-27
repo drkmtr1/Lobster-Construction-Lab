@@ -1,0 +1,923 @@
+--- research/d204_readiness_v9/controller.py
++++ research/d205_readiness_v1/controller.py
+@@ -1,4 +1,4 @@
+-"""One live controller, one worker and one absolute deadline per D204 phase."""
++"""One live controller, one worker and one absolute deadline per D205 phase."""
+ from contextlib import ExitStack
+ import os
+ from pathlib import Path
+@@ -24,7 +24,7 @@
+ U64_MAX = (1 << 64) - 1
+ CPU_MAX = (1 << 63) - 1
+ ROOT = HERE.parents[1]
+-TASK = "LCL-D204-INTERRUPTION-EVIDENCE-QUALIFICATION-003"
++TASK = "LCL-D205-INDEPENDENT-PATH-ORDER-EXECUTION-QUALIFICATION-001"
+ TARGETS = ["5554c99f3db5b777a5e139369479c470b9e220753da2193aecbaa3c9ac6d3515",
+            "1e9d8d99227973991cb6fb850cfbcd44cfac2c3470396886c59a9264bd3de3cb"]
+ 
+@@ -198,7 +198,8 @@
+         result = read()
+         p.need(result is not None and result[0] in (b"C", b"R"), "IPC_EXPECTED_RESULT")
+         kind, raw = result
+-        value = p.result_record(raw, phase, bundle["limits"][phase])
++        value = p.result_record(raw, phase, bundle["limits"][phase],
++                                bundle["candidate_domain"] if scientific else None)
+         p.need((kind == b"C") == (value["status"] == "CANDIDATE"), "IPC_RESULT_TAG")
+         records["result"] = {k: v for k, v in value.items() if k not in ("labels", "inert_padding")}
+         if kind == b"C":
+--- research/d204_readiness_v9/entry.py
++++ research/d205_readiness_v1/entry.py
+@@ -1,4 +1,4 @@
+-"""Fixed qualification entry and separately Owner-gated D204 science entry."""
++"""Fixed qualification entry and separately Director- and Owner-gated D205 science entry."""
+ from contextlib import ExitStack
+ import hashlib
+ import json
+@@ -14,10 +14,10 @@
+ 
+ HERE = Path(os.path.abspath(__file__)).parent
+ ROOT = HERE.parents[1]
+-EVIDENCE = ROOT / "evidence/validation/LCL_D204_INTERRUPTION_EVIDENCE_QUALIFICATION_003"
+-FREEZE = EVIDENCE / "V9_FREEZE.json"
+-TASK = "LCL-D204-INTERRUPTION-EVIDENCE-QUALIFICATION-003"
+-SCIENCE_RUN = "d204-science-v9"
++EVIDENCE = ROOT / "evidence/validation/LCL_D205_INDEPENDENT_PATH_ORDER_EXECUTION_QUALIFICATION_001"
++FREEZE = EVIDENCE / "V1_FREEZE.json"
++TASK = "LCL-D205-INDEPENDENT-PATH-ORDER-EXECUTION-QUALIFICATION-001"
++SCIENCE_RUN = "d205-independent-path-order-menu-001"
+ CANONICAL_REMOTE = "https://github.com/drkmtr1/Lobster-Construction-Lab.git"
+ 
+ def need(condition, label):
+@@ -47,7 +47,7 @@
+     data = raw(FREEZE, 2_000_000)
+     need(binding(data)["sha256"] == sha, "FREEZE_HASH")
+     bundle = json.loads(data)
+-    need(bundle["task"] == TASK and bundle["version"] == 9 and bundle["authorized_science"] is False,
++    need(bundle["task"] == TASK and bundle["version"] == 1 and bundle["authorized_science"] is False,
+          "FREEZE_IDENTITY")
+     source = {}
+     for unit in ("entry", "protocol", "native", "controller"):
+@@ -65,6 +65,10 @@
+         exec(compile(source[unit], module.__file__, "exec", dont_inherit=True), vars(module))
+     p, n, c = (sys.modules["ready_" + unit] for unit in ("protocol", "native", "controller"))
+     n.verify_layout()
++    need(bundle["streams"] == p.STREAM_COUNTS
++         and list(bundle["streams"]) == list(p.STREAM_COUNTS)
++         and all(bundle["limits"][phase]["geometry_entries"] == sum(p.STREAM_COUNTS.values())
++                 for phase in ("primary", "audit")), "FROZEN_STREAM_CONTRACT")
+     return p, n, c, bundle, data, source
+ 
+ def lock_inputs(n, stack, bundle, exe, data, sources):
+@@ -134,7 +138,7 @@
+     """Check the archived native qualification to which an official marker refers."""
+     need(marker.get("task") == TASK and marker.get("freeze") == freeze_sha
+          and marker.get("ready") is True and marker.get("all_required_checks_passed") is True
+-         and marker.get("disposition") == "D204_EXECUTION_READY_AWAITING_OWNER_AUTHORIZATION",
++         and marker.get("disposition") == "D205_EXECUTION_READY_AWAITING_OWNER_AUTHORIZATION",
+          "FINAL_QUALIFICATION_REQUIRED")
+     for name, payload in (("terminal", terminal_raw), ("seal", seal_raw), ("outer", outer_raw)):
+         need(marker.get(name) == binding(payload), "QUALIFICATION_RECEIPT_BINDING")
+@@ -197,10 +201,10 @@
+ 
+ 
+ def verify_qualification(n, stack, p, marker, freeze_sha):
+-    folder = EVIDENCE / "V9_RUN"
++    folder = EVIDENCE / "V1_RUN"
+     archive_files = {}
+     for key, path in (("terminal", folder / "terminal.json"), ("seal", folder / "seal.json"),
+-                      ("outer", EVIDENCE / "V9_LAUNCH.json")):
++                      ("outer", EVIDENCE / "V1_LAUNCH.json")):
+         expected = marker.get(key, {}).get("sha256")
+         _, archive_files[key] = read_bound_doc(n, stack, path, expected, p.decode)
+     matrix_raw = n.locked_bytes(stack, HERE / "matrix.json", 65536)
+@@ -215,28 +219,42 @@
+                        archive_files["outer"], phases)
+ 
+ 
++def director_gate(record, freeze_sha, qualification_sha):
++    need(type(record) is dict and record.get("task") == TASK
++         and record.get("disposition") == "ACCEPT_D205_EXECUTION_READINESS"
++         and record.get("freeze") == freeze_sha
++         and record.get("qualification_sha256") == qualification_sha
++         and type(record.get("director_decision")) is str and bool(record["director_decision"].strip()),
++         "EXACT_DIRECTOR_QUALIFICATION_ACCEPTANCE_REQUIRED")
++
++
+ def authorize(n, stack, p, mode, review_sha, freeze_sha, bundle):
+     if mode == "qualify":
+-        review, _ = read_bound_doc(n, stack, EVIDENCE / "V9_REVIEW.json", review_sha, p.decode)
++        review, _ = read_bound_doc(n, stack, EVIDENCE / "V1_REVIEW.json", review_sha, p.decode)
+         need(review.get("task") == TASK and review.get("freeze") == freeze_sha
+              and review.get("disposition") == "PASS_FOR_SYNTHETIC_QUALIFICATION",
+              "PRELAUNCH_REVIEW_REQUIRED")
+-        return ROOT / "runs/d204-readiness-v9", None, None
+-    q = EVIDENCE / "V9_FINAL_QUALIFICATION.json"
+-    path = ROOT / "runs/d204-science-v9-approval.json"
++        return ROOT / "runs/d205-readiness-v1", None, None, None
++    q = EVIDENCE / "V1_FINAL_QUALIFICATION.json"
++    path = ROOT / "runs/d205-independent-path-order-menu-001-approval.json"
+     approval, exact = read_bound_doc(n, stack, path, review_sha, p.decode, 65536)
+-    need(approval.get("intent") == "AUTHORIZE_ONE_D204_SCIENTIFIC_RUN"
++    need(approval.get("intent") == "AUTHORIZE_ONE_D205_SCIENTIFIC_RUN"
+          and approval.get("run") == SCIENCE_RUN and approval.get("freeze") == freeze_sha
+          and approval.get("limits") == bundle["limits"]
+          and approval.get("task") == TASK and type(approval.get("owner_authorization")) is str
+          and bool(approval["owner_authorization"].strip())
++         and re.fullmatch("[0-9a-f]{64}", approval.get("director_acceptance_sha256", ""))
+          and re.fullmatch("[0-9a-f]{40}", approval.get("approved_repository_head", "")),
+          "EXACT_FRESH_OWNER_AUTHORIZATION_REQUIRED")
+     qualified, qualification = read_bound_doc(n, stack, q, approval["qualification_sha256"], p.decode)
+     need(qualified.get("freeze") == freeze_sha and qualified.get("ready") is True
+-         and qualified.get("disposition") == "D204_EXECUTION_READY_AWAITING_OWNER_AUTHORIZATION"
++         and qualified.get("disposition") == "D205_EXECUTION_READY_AWAITING_OWNER_AUTHORIZATION"
+          and qualified.get("all_required_checks_passed") is True,
+          "FINAL_QUALIFICATION_REQUIRED")
++    director_path = EVIDENCE / "DIRECTOR_ACCEPTANCE.json"
++    director, director_bytes = read_bound_doc(n, stack, director_path,
++                                              approval["director_acceptance_sha256"], p.decode, 65536)
++    director_gate(director, freeze_sha, approval["qualification_sha256"])
+     verify_qualification(n, stack, p, qualified, freeze_sha)
+     head = approval["approved_repository_head"]
+     need(local_git("rev-parse", "HEAD", "origin/main").decode().splitlines() == [head, head]
+@@ -244,6 +262,7 @@
+          and not local_git("status", "--porcelain", "--ignore-submodules=all"),
+          "FRESH_SCIENTIFIC_GIT_CUSTODY")
+     need(local_git("show", head + ":" + q.relative_to(ROOT).as_posix()) == qualification
++         and local_git("show", head + ":" + director_path.relative_to(ROOT).as_posix()) == director_bytes
+          and local_git("show", head + ":" + FREEZE.relative_to(ROOT).as_posix()) ==
+          n.locked_bytes(stack, FREEZE, 2_000_000), "APPROVED_GIT_BLOBS")
+     expected = {"lcl_main":head, "mdl_head":"858a8c1fcfda87ba40bb1adee498a6131504a803",
+@@ -253,13 +272,13 @@
+     need(local_git("rev-parse", "lcl-v0.1.0-baseline", "lcl-v0.1.0-baseline^{}").decode().splitlines()
+          == [expected["tag"], expected["peel"]] and approval.get("verified_live_refs") == expected,
+          "FRESH_REMOTE_AND_TAG_RECEIPT")
+-    receipt, live_bytes = read_bound_doc(n, stack, ROOT / "runs/d204-science-v9-live-refs.json",
++    receipt, live_bytes = read_bound_doc(n, stack, ROOT / "runs/d205-independent-path-order-menu-001-live-refs.json",
+                                 approval["live_ref_receipt_sha256"], p.decode, 65536)
+     need(receipt.get("task") == TASK and receipt.get("run") == SCIENCE_RUN
+          and receipt.get("refs") == expected and type(receipt.get("checked_unix")) is int
+          and 0 <= time.time() - receipt["checked_unix"] <= 900,
+          "CHECKED_LIVE_REFS_REQUIRED")
+-    return ROOT / "evidence/runs/d204-science-v9", exact, live_bytes
++    return ROOT / "evidence/runs/d205-independent-path-order-menu-001", exact, live_bytes, director_bytes
+ 
+ 
+ def sequence(c, p, exe, sha, bundle, ledger, run, label, plan, config_for, scientific=False,
+@@ -393,7 +412,8 @@
+     with ExitStack() as stack:
+         def admission():
+             with ExitStack() as bindings:
+-                run, approval, live_receipt = authorize(n, bindings, p, mode, review_sha, sha, bundle)
++                run, approval, live_receipt, director_receipt = authorize(
++                    n, bindings, p, mode, review_sha, sha, bundle)
+                 project = lock_inputs(n, bindings, bundle, exe, data, sources)
+                 regular(run.parent)
+                 p.reserve(run)
+@@ -403,7 +423,8 @@
+                 ledger.save("admission.json", p.encode(dict(
+                     task=TASK, freeze=sha, mode=mode, run=run.name, source_review_or_approval=review_sha)))
+                 if approval is not None:
+-                    ledger.save_all([("approval.json", approval), ("live-refs.json", live_receipt)])
++                    ledger.save_all([("approval.json", approval), ("live-refs.json", live_receipt),
++                                     ("director-acceptance.json", director_receipt)])
+                 return bindings.pop_all(), run, project, ledger
+         locked, run, project, ledger = c.bounded_io(admission, n.Tick()+180000)
+         stack.enter_context(locked)
+--- research/d204_readiness_v9/matrix.json
++++ research/d205_readiness_v1/matrix.json
+@@ -1,6 +1,6 @@
+ {
+-  "task": "LCL-D204-INTERRUPTION-EVIDENCE-QUALIFICATION-003",
+-  "freeze_version": 9,
++  "task": "LCL-D205-INDEPENDENT-PATH-ORDER-EXECUTION-QUALIFICATION-001",
++  "freeze_version": 1,
+   "scientific_dispatch": false,
+   "maximum_workers": 16,
+   "maximum_sequence_ms": 480000,
+--- research/d204_readiness_v9/protocol.py
++++ research/d205_readiness_v1/protocol.py
+@@ -1,4 +1,4 @@
+-"""D204 receipt, framing and phase rules with no native or scientific imports."""
++"""D205 receipt, framing and phase rules with no native or scientific imports."""
+ import hashlib
+ import json
+ import math
+@@ -13,6 +13,17 @@
+ TERMINAL_RESERVE = 65536
+ COUNTERS = ("geometry_entries", "placement_attempts", "allocation_states",
+             "pair_trials", "fixed_edge_checks")
++
++RANK_CLASSES = ("rank_preserving", "rank_changing")
++STREAM_COUNTS = {
++    f"{variant}:{h}:{cut}": count
++    for variant in ("B", "C")
++    for h, cut, count in (
++        (14, 18, 52360), (14, 19, 936360), (15, 18, 95608),
++        (15, 19, 1955952), (16, 18, 464151), (16, 19, 4029102),
++    )
++}
++
+ 
+ class Rejected(RuntimeError):
+     pass
+@@ -132,12 +143,23 @@
+     except FileExistsError as error:
+         raise Rejected("RUN_ALREADY_RESERVED") from error
+ 
+-def result_record(raw, phase, limits):
++def result_record(raw, phase, limits, domain=None):
++    """Validate the exact D205 stream prefix before accepting an engine receipt."""
+     value = decode(raw)
+     need(type(value) is dict, "RESULT_SCHEMA")
+     status = value.get("status")
+-    need(status in ("CANDIDATE", "EXHAUSTED", "INCOMPLETE"), "RESULT_STATUS")
+-    counts = value.get("counters")
++    fields = {"status", "counters", "streams"}
++    if status == "CANDIDATE":
++        fields |= {"variant", "induced_old_cut", "cut", "rank_class", "labels"}
++    elif status == "INCOMPLETE":
++        fields.add("limit")
++    else:
++        need(status == "EXHAUSTED", "RESULT_STATUS")
++    if domain is None and "inert_padding" in value:
++        need(status == "CANDIDATE" and type(value["inert_padding"]) is str, "INERT_PADDING")
++        fields.add("inert_padding")
++    need(set(value) == fields and phase in ("primary", "audit"), "RESULT_SCHEMA")
++    counts = value["counters"]
+     expected = set(COUNTERS) | {"process_cpu_seconds", "wall_seconds", "peak_live_records"}
+     need(type(counts) is dict and set(counts) == expected, "COUNTER_SCHEMA")
+     for key in COUNTERS:
+@@ -146,24 +168,48 @@
+     for key in ("process_cpu_seconds", "wall_seconds"):
+         need(finite(counts[key], limits["cpu_seconds" if key == "process_cpu_seconds" else key]),
+              "IN_ENGINE_TIME")
+-    ranks = value.get("compatible_rank_counts")
+-    need(type(ranks) is dict and set(ranks) == {"rank_preserving", "rank_changing"}
+-         and all(exact_int(x, 0, counts["geometry_entries"]) for x in ranks.values())
+-         and sum(ranks.values()) <= counts["geometry_entries"], "RANK_COUNTERS")
++    streams = value["streams"]
++    need(type(streams) is dict and list(streams) == list(STREAM_COUNTS)[:len(streams)],
++         "STREAM_ORDER_OR_IDENTITY")
++    aggregate = 0
++    last = None
++    for index, (name, stream) in enumerate(streams.items()):
++        cap = STREAM_COUNTS[name]
++        need(type(stream) is dict and set(stream) == {"geometry_entries", *RANK_CLASSES},
++             "STREAM_SCHEMA")
++        visits = stream["geometry_entries"]
++        need(exact_int(visits, 0, cap), "STREAM_GEOMETRY")
++        if index + 1 < len(streams) or status == "EXHAUSTED":
++            need(visits == cap, "INEXACT_COMPLETED_STREAM")
++        need(all(exact_int(stream[r], 0, visits) for r in RANK_CLASSES)
++             and sum(stream[r] for r in RANK_CLASSES) <= visits, "STREAM_RANK_COUNTERS")
++        aggregate += visits
++        last = name
++    need(counts["geometry_entries"] == aggregate, "STREAM_AGGREGATE")
+     if status == "EXHAUSTED":
+-        need(counts["geometry_entries"] == limits["geometry_entries"], "PARTIAL_EXHAUSTION")
++        need(len(streams) == len(STREAM_COUNTS) and aggregate == sum(STREAM_COUNTS.values())
++             == limits["geometry_entries"], "PARTIAL_EXHAUSTION")
+     elif status == "INCOMPLETE":
+-        need(type(value.get("limit")) is str and len(value["limit"]) <= 100, "INCOMPLETE_CAUSE")
++        need(type(value["limit"]) is str and 0 < len(value["limit"]) <= 100, "INCOMPLETE_CAUSE")
+     else:
+-        need(value.get("rank_class") in ranks
+-             and ranks[value["rank_class"]] >= 1
+-             and type(value.get("labels")) is dict
+-             and exact_int(value.get("cut"), 18, 19), "CANDIDATE_SCHEMA")
+-        if phase == "primary":
+-            cuts = value.get("admissible_old_cuts")
+-            need(type(cuts) is list and value["cut"] in cuts
+-                 and all(exact_int(cut, 18, 19) for cut in cuts), "PRIMARY_CUT_SCHEMA")
++        variant, h, cut = value["variant"], value["induced_old_cut"], value["cut"]
++        rank = value["rank_class"]
++        need(variant in ("B", "C") and exact_int(h, 14, 16) and exact_int(cut, 18, 19)
++             and rank in RANK_CLASSES, "CANDIDATE_SCHEMA")
++        need(last == f"{variant}:{h}:{cut}" and streams[last][rank] > 0, "CANDIDATE_STREAM_POSITION")
++        labels = value["labels"]
++        need(type(labels) is dict, "CANDIDATE_LABELS")
++        if domain is not None:
++            need(set(labels) == set(domain["vertices_41"]) and len(labels) == 42
++                 and all(exact_int(x, 0, 41) for x in labels.values())
++                 and len(set(labels.values())) == 42 and labels["s:6"] == 0, "CANDIDATE_NAMED_ALPHABET")
++            old = [labels[v] for v in domain["old_order"][variant]]
++            need(all(a < b for a, b in zip(old, old[1:])) and sum(x < cut for x in old) == h,
++                 "CANDIDATE_OLD_EMBEDDING")
++        else:
++            need(labels == {"inert": 7}, "INERT_CANDIDATE_REQUIRED")
+     return value
++
+ 
+ def verified_record(raw, context, candidate, scientific, digests, rank=None, exact_candidate=None):
+     value = decode(raw)
+@@ -180,6 +226,7 @@
+     need(type(checks) is list and len(checks) == 2
+          and all(type(c) is dict and c.get("valid") is True for c in checks), "CHECKER_RECEIPTS")
+     if scientific:
++        need("synthetic" not in result and "same_pid" not in result, "SYNTHETIC_VERIFICATION_FORBIDDEN")
+         need([c.get("graph_digest") for c in checks] == digests
+              and [c.get("m") for c in checks] == [41, 48]
+              and [c.get("n") for c in checks] == [42, 49]
+@@ -193,6 +240,16 @@
+         need(type(exact_candidate) is dict and cut == exact_candidate.get("cut")
+              and states[0].get("actual_labels") == exact_candidate.get("labels"),
+              "REPORT_DIFFERS_FROM_DURABLE_CANDIDATE")
++        need(result.get("variant") == exact_candidate.get("variant")
++             and exact_int(result.get("induced_old_cut"), 14, 16)
++             and result["induced_old_cut"] == exact_candidate.get("induced_old_cut"),
++             "VERIFIED_MENU_BINDING")
++        lifted = {v: 3+x+3*(x >= cut) for v, x in exact_candidate["labels"].items()}
++        lifted["s:7"] = 48
++        for j, position in enumerate((0, 2, 1)):
++            lifted[f"b:7:{j}"] = j
++            lifted[f"l:7:{j}:0"] = cut+3+position
++        need(states[1].get("actual_labels") == lifted, "VERIFIED_SUFFIX_TRANSPORT")
+         for state, size, place in zip(states, (41, 48), (cut, cut+3)):
+             need(state.get("size") == size and state.get("actual_cut") == place
+                  and state.get("complementary_cut") == size+1-place and state.get("threshold") == cut+2,
+@@ -207,13 +264,20 @@
+             need(type(result.get(key)) is list and len(result[key]) == length, "VERIFIED_ARTIFACTS")
+         need(result.get("rank_class") == rank and type(result.get("rank_inversions")) is list,
+              "VERIFIED_RANK_CLASS")
++    else:
++        need(result.get("synthetic") is True and result.get("same_pid") == context.get("pid"),
++             "INERT_VERIFICATION_REQUIRED")
+     return True
+ 
+ def persist_candidate(ledger, base, raw, value, context, local_cap=None):
+     identity = binding(raw)
++    stream = f"{value['variant']}:{value['induced_old_cut']}:{value['cut']}"
+     receipt = encode({"candidate": identity, "context": context,
+                       "status": value["status"], "rank_class": value["rank_class"],
+-                      "cut": value["cut"], "counters": value["counters"]})
++                      "cut": value["cut"], "induced_old_cut": value["induced_old_cut"],
++                      "variant": value["variant"], "stream": stream,
++                      "stream_geometry_entries": value["streams"][stream]["geometry_entries"],
++                      "counters": value["counters"]})
+     ledger.save_all([(base + "-candidate.bin", raw), (base + "-candidate.json", receipt)],
+                     local_cap=local_cap)
+     return identity
+--- research/d204_readiness_v9/test_infrastructure.py
++++ research/d205_readiness_v1/test_infrastructure.py
+@@ -1,5 +1,6 @@
+ """Bounded infrastructure-only regressions. Imports no Win32 or scientific consumer."""
+ import io
++import json
+ import os
+ from pathlib import Path
+ import struct
+@@ -28,8 +29,13 @@
+ fake_native.read = lambda pipe, size: pipe.read(size)
+ sys.modules["ready_native"] = fake_native
+ controller = load("ready_controller_tests", HERE/"controller.py")
+-LIMIT = dict.fromkeys(p.COUNTERS, 10) | dict(cpu_seconds=10, wall_seconds=30, live_records=7)
++LIMIT = dict.fromkeys(p.COUNTERS, 10) | dict(cpu_seconds=10, wall_seconds=30, live_records=7,
++                                            geometry_entries=sum(p.STREAM_COUNTS.values()))
+ CONTEXT = dict(pid=17, phase="primary", nonce="1"*32)
++
++
++def inert_fixture(limits, phase, mode, context):
++    return child.fixture(limits, phase, mode, context, p.STREAM_COUNTS)
+ 
+ class ProtocolTests(unittest.TestCase):
+     def test_native_quota_exit_requires_job_corroboration(self):
+@@ -70,24 +76,26 @@
+                 p.decode(raw)
+ 
+     def test_exhaustion_requires_exact_geometry(self):
+-        r, _ = child.fixture(LIMIT, "primary", "exhaust", CONTEXT)
++        r, _ = inert_fixture(LIMIT, "primary", "exhaust", CONTEXT)
+         self.assertEqual(p.result_record(p.encode(r), "primary", LIMIT)["status"], "EXHAUSTED")
+         r["counters"]["geometry_entries"] -= 1
+-        with self.assertRaisesRegex(p.Rejected, "PARTIAL_EXHAUSTION"):
++        with self.assertRaisesRegex(p.Rejected, "STREAM_AGGREGATE"):
+             p.result_record(p.encode(r), "primary", LIMIT)
+ 
+     def test_counter_boolean_and_out_of_cap_rejected(self):
+-        r, _ = child.fixture(LIMIT, "primary", "exhaust", CONTEXT)
++        r, _ = inert_fixture(LIMIT, "primary", "exhaust", CONTEXT)
+         for bad in (True, 11, -1):
+             r["counters"]["allocation_states"] = bad
+             with self.subTest(bad=bad), self.assertRaisesRegex(p.Rejected, "COUNTER_LIMIT"):
+                 p.result_record(p.encode(r), "primary", LIMIT)
+ 
+-    def test_audit_candidate_does_not_require_primary_cuts(self):
+-        r, _ = child.fixture(LIMIT, "audit", "positive", CONTEXT)
++    def test_both_engines_use_same_candidate_cut_schema(self):
++        r, _ = inert_fixture(LIMIT, "audit", "positive", CONTEXT)
+         self.assertNotIn("admissible_old_cuts", r)
+-        self.assertEqual(p.result_record(p.encode(r), "audit", LIMIT)["status"], "CANDIDATE")
+-        with self.assertRaisesRegex(p.Rejected, "PRIMARY_CUT_SCHEMA"):
++        for phase in ("audit", "primary"):
++            self.assertEqual(p.result_record(p.encode(r), phase, LIMIT)["status"], "CANDIDATE")
++        r["admissible_old_cuts"] = [18]
++        with self.assertRaisesRegex(p.Rejected, "RESULT_SCHEMA"):
+             p.result_record(p.encode(r), "primary", LIMIT)
+ 
+     def test_ordered_fixture_dispositions(self):
+@@ -110,7 +118,7 @@
+         raw, info = b"candidate", CONTEXT
+         pair = p.binding(raw)
+         checks = [dict(valid=True, graph_digest=str(m), m=m, n=m+1, errors=[]) for m in (41,48)]
+-        result = dict(verified_fixture=True, rank_class="rank_preserving", rank_inversions=[],
++        result = dict(variant="B", induced_old_cut=14, rank_class="rank_preserving", rank_inversions=[],
+                       normalized_suffix=[48,28,20], status="INDEPENDENTLY_VERIFIED_POSITIVE",
+                       checker_results=checks)
+         result["states"] = [
+@@ -123,8 +131,14 @@
+                             ("local_inventories",2),("final_inventories",2),
+                             ("changed_resources",2),("transport",3)):
+             result[key] = [{}]*length
++        original = dict(variant="B", induced_old_cut=14, cut=18, labels=result["states"][0]["actual_labels"])
++        lifted = {v: 3+x+3*(x >= 18) for v, x in original["labels"].items()}
++        lifted["s:7"] = 48
++        for j, slot in enumerate((0, 2, 1)):
++            lifted[f"b:7:{j}"] = j
++            lifted[f"l:7:{j}:0"] = 21+slot
++        result["states"][1]["actual_labels"] = lifted
+         wire = p.encode({"context": info, "candidate": pair, "result": result})
+-        original = dict(cut=18, labels=result["states"][0]["actual_labels"])
+         self.assertTrue(p.verified_record(wire, info, pair, True, ["41","48"], "rank_preserving", original))
+         with self.assertRaisesRegex(p.Rejected, "REPORT_DIFFERS_FROM_DURABLE_CANDIDATE"):
+             p.verified_record(wire, info, pair, True, ["41","48"], "rank_preserving",
+@@ -186,7 +200,7 @@
+         old = sys.argv
+         try:
+             sys.argv = [child.__file__, child.TASK, "0"*64, "synthetic", "primary", "science",
+-                        "a"*32, "d204-readiness-v9", "primary", "0", "0"]
++                        "a"*32, "d205-readiness-v1", "primary", "0", "0"]
+             with self.assertRaises(SystemExit) as error:
+                 child.main()
+             self.assertEqual(error.exception.code, 65)
+@@ -195,7 +209,7 @@
+ 
+     def test_supplied_signaled_grant_cannot_launch_direct_science(self):
+         args = [child.__file__, child.TASK, "0"*64, "official", "primary", "science",
+-                "a"*32, "d204-science-v9", "primary", "17", "18"]
++                "a"*32, "d205-independent-path-order-menu-001", "primary", "17", "18"]
+         with TemporaryDirectory() as tmp, patch.object(child, "ROOT", Path(tmp)), \
+              patch.object(sys, "argv", args), patch.object(child, "hello", return_value={}), \
+              patch.object(child, "ipc_frame"), patch.object(child, "wait_for_grant"), \
+@@ -249,7 +263,7 @@
+                 calls.append(fd)
+                 os.fsync(fd)
+             ledger = p.Ledger(path, 80_000, sync=sync)
+-            result, _ = child.fixture(LIMIT, "primary", "positive", CONTEXT)
++            result, _ = inert_fixture(LIMIT, "primary", "positive", CONTEXT)
+             raw = p.encode(result)
+             ident = p.persist_candidate(ledger, "primary", raw, result, CONTEXT)
+             self.assertEqual(len(calls), 2)
+@@ -267,7 +281,7 @@
+                     raise OSError("synthetic receipt fsync failure")
+                 os.fsync(fd)
+             ledger = p.Ledger(path, 80_000, sync=sync)
+-            result, _ = child.fixture(LIMIT, "primary", "positive", CONTEXT)
++            result, _ = inert_fixture(LIMIT, "primary", "positive", CONTEXT)
+             with self.assertRaisesRegex(OSError, "fsync"):
+                 p.persist_candidate(ledger, "primary", p.encode(result), result, CONTEXT)
+             self.assertIn("primary-candidate.bin", ledger.records)
+@@ -305,7 +319,7 @@
+                     raise OSError("inert candidate receipt sync failure")
+                 os.fsync(fd)
+             ledger = p.Ledger(Path(tmp), 131072, sync=sync)
+-            candidate, _ = child.fixture(LIMIT, "primary", "positive", CONTEXT)
++            candidate, _ = inert_fixture(LIMIT, "primary", "positive", CONTEXT)
+             wire = io.BytesIO(p.packet(b"H", b"{}") + p.packet(b"C", p.encode(candidate)))
+             events, retained = queue.SimpleQueue(), {}
+             with patch.object(controller, "hello_check", return_value={}):
+@@ -555,7 +569,7 @@
+ 
+     def test_artificial_marker_cannot_replace_sealed_actual_matrix(self):
+         ready = dict(task=entry.TASK, freeze="a"*64, ready=True, all_required_checks_passed=True,
+-                     disposition="D204_EXECUTION_READY_AWAITING_OWNER_AUTHORIZATION")
++                     disposition="D205_EXECUTION_READY_AWAITING_OWNER_AUTHORIZATION")
+         with self.assertRaisesRegex(RuntimeError, "QUALIFICATION_RECEIPT_BINDING"):
+             entry.qualification_gate(p, ready, ready["freeze"], {}, b"{}", b"{}", b"{}", {})
+         ready.update({kind:p.binding(b"{}") for kind in ("terminal", "seal", "outer")})
+@@ -563,5 +577,243 @@
+             entry.qualification_gate(p, ready, ready["freeze"], {}, b"{}", b"{}", b"{}", {})
+ 
+ 
++class D205StreamAndAdapterTests(unittest.TestCase):
++    def receipt(self, mode="exhaust"):
++        return inert_fixture(LIMIT, "primary", mode, CONTEXT)[0]
++
++    def validate(self, row, domain=None, limits=LIMIT):
++        return p.result_record(p.encode(row), "primary", limits, domain)
++
++    def test_exact_exhaustion_order_and_all_twelve_counts(self):
++        row = self.validate(self.receipt())
++        self.assertEqual(list(row["streams"]), list(p.STREAM_COUNTS))
++        self.assertEqual(sum(r["geometry_entries"] for r in row["streams"].values()), 15067066)
++
++    def test_missing_stream_with_correct_claimed_aggregate(self):
++        row = self.receipt()
++        row["streams"].pop("C:16:19")
++        self.assertEqual(row["counters"]["geometry_entries"], 15067066)
++        with self.assertRaisesRegex(p.Rejected, "STREAM_AGGREGATE"):
++            self.validate(row)
++
++    def test_wrong_stream_distribution_preserves_total_but_fails(self):
++        row = self.receipt()
++        row["streams"]["B:14:18"]["geometry_entries"] -= 1
++        row["streams"]["B:14:19"]["geometry_entries"] += 1
++        with self.assertRaisesRegex(p.Rejected, "INEXACT_COMPLETED_STREAM"):
++            self.validate(row)
++
++    def test_unknown_duplicate_and_out_of_order_streams(self):
++        row = self.receipt()
++        duplicate = p.encode(row).replace(b'"B:14:18":{', b'"B:14:18":{},"B:14:18":{', 1)
++        self.assertNotEqual(duplicate, p.encode(row))
++        with self.assertRaisesRegex(p.Rejected, "DUPLICATE_JSON_KEY"):
++            p.result_record(duplicate, "primary", LIMIT)
++        row["streams"] = dict(reversed(list(row["streams"].items())))
++        with self.assertRaisesRegex(p.Rejected, "STREAM_ORDER_OR_IDENTITY"):
++            p.result_record(json.dumps(row).encode(), "primary", LIMIT)
++        row["streams"]["A:14:18"] = row["streams"].pop("B:14:18")
++        with self.assertRaisesRegex(p.Rejected, "STREAM_ORDER_OR_IDENTITY"):
++            self.validate(row)
++
++    def test_partial_stream_prefix_may_end_at_zero_visited(self):
++        row = self.receipt("incomplete")
++        self.assertEqual(self.validate(row)["status"], "INCOMPLETE")
++        first, second = list(p.STREAM_COUNTS)[:2]
++        row["streams"][first]["geometry_entries"] = p.STREAM_COUNTS[first]
++        row["streams"][second] = dict(geometry_entries=1, rank_preserving=1, rank_changing=0)
++        row["counters"]["geometry_entries"] = p.STREAM_COUNTS[first]+1
++        self.assertEqual(self.validate(row)["streams"][second]["geometry_entries"], 1)
++        row["streams"][first]["geometry_entries"] -= 1
++        row["counters"]["geometry_entries"] -= 1
++        with self.assertRaisesRegex(p.Rejected, "INEXACT_COMPLETED_STREAM"):
++            self.validate(row)
++
++    def test_rank_types_range_and_joint_limit(self):
++        for x, y in ((True, 0), (1.0, 0), (-1, 0), (1, 1)):
++            row = self.receipt("positive")
++            row["streams"]["B:14:18"].update(rank_preserving=x, rank_changing=y)
++            with self.subTest(x=x, y=y), self.assertRaisesRegex(p.Rejected, "STREAM_RANK_COUNTERS"):
++                self.validate(row)
++        row = self.receipt("positive")
++        row["streams"]["B:14:18"]["geometry_entries"] = 1.0
++        with self.assertRaisesRegex(p.Rejected, "STREAM_GEOMETRY"):
++            self.validate(row)
++
++    def test_large_exact_caps_without_32_bit_truncation(self):
++        cap = LIMIT | dict(placement_attempts=11769116626, allocation_states=7092178966,
++                           pair_trials=28121614404)
++        row = self.receipt()
++        for key in ("placement_attempts", "allocation_states", "pair_trials"):
++            row["counters"][key] = cap[key]
++        result = self.validate(row, limits=cap)
++        self.assertEqual(result["counters"]["pair_trials"], 28121614404)
++        for bad in (28121614405, 28121614404.0, True):
++            row["counters"]["pair_trials"] = bad
++            with self.subTest(count=bad), self.assertRaisesRegex(p.Rejected, "COUNTER_LIMIT"):
++                self.validate(row, limits=cap)
++
++    def test_candidate_variant_rank_and_stream_position_are_bound(self):
++        for update, reason in (({"variant": "A"}, "CANDIDATE_SCHEMA"),
++                               ({"variant": "C"}, "CANDIDATE_STREAM_POSITION"),
++                               ({"induced_old_cut": True}, "CANDIDATE_SCHEMA"),
++                               ({"induced_old_cut": 15}, "CANDIDATE_STREAM_POSITION"),
++                               ({"cut": 19}, "CANDIDATE_STREAM_POSITION"),
++                               ({"rank_class": "rank_changing"}, "CANDIDATE_STREAM_POSITION")):
++            row = self.receipt("positive")
++            row.update(update)
++            with self.subTest(fields=update), self.assertRaisesRegex(p.Rejected, reason):
++                self.validate(row)
++
++    def dummy_named_domain(self):
++        # Synthetic names and no graph or edge weights.
++        old = [f"inert-old-{i}" for i in range(33)]
++        fresh = ["s:6", *(f"inert-fresh-{i}" for i in range(8))]
++        names = old+fresh
++        images = [*range(1, 15), *range(18, 37)]
++        vacant = sorted(set(range(42))-set(images))
++        domain = dict(vertices_41=sorted(names), old_order={"B":old, "C":old})
++        return domain, dict(zip(names, (*images, *vacant), strict=True))
++
++    def test_exact_named_alphabet_must_agree_with_actual_induced_cut(self):
++        domain, labels = self.dummy_named_domain()
++        row = self.receipt("positive")
++        row["labels"] = labels
++        self.assertEqual(self.validate(row, domain)["cut"], 18)
++        # Claim third stream, including correct earlier totals, with an unchanged cut-14 map.
++        visits = 0
++        for i, (stream, ceiling) in enumerate(p.STREAM_COUNTS.items()):
++            row["streams"][stream] = dict(geometry_entries=1 if i==2 else ceiling,
++                                          rank_preserving=1 if i==2 else 0, rank_changing=0)
++            visits += row["streams"][stream]["geometry_entries"]
++            if i==2:
++                break
++        row["induced_old_cut"] = 15
++        row["counters"]["geometry_entries"] = visits
++        with self.assertRaisesRegex(p.Rejected, "CANDIDATE_OLD_EMBEDDING"):
++            self.validate(row, domain)
++        row = self.receipt("positive")
++        row["labels"] = dict(labels, unexpected=42)
++        with self.assertRaisesRegex(p.Rejected, "CANDIDATE_NAMED_ALPHABET"):
++            self.validate(row, domain)
++
++    def test_persisted_receipt_repeats_exact_menu_and_stream_fields(self):
++        row = self.receipt("positive")
++        raw = p.encode(row)
++        with TemporaryDirectory() as tmp:
++            ledger = p.Ledger(Path(tmp), 131072)
++            p.persist_candidate(ledger, "fixture", raw, row, CONTEXT)
++            stored = p.decode(Path(tmp, "fixture-candidate.json").read_bytes())
++            self.assertEqual([stored[k] for k in ("variant", "induced_old_cut", "cut")], ["B", 14, 18])
++            self.assertEqual(stored["stream"], "B:14:18")
++            self.assertEqual(stored["stream_geometry_entries"], 1)
++            self.assertEqual(Path(tmp, "fixture-candidate.bin").read_bytes(), raw)
++            ledger.verify()
++
++    def test_inert_verification_never_accepted_as_scientific(self):
++        row, check = inert_fixture(LIMIT, "primary", "positive", CONTEXT)
++        ident = p.binding(p.encode(row))
++        raw = p.encode(dict(context=CONTEXT, candidate=ident, result=check(row)))
++        self.assertTrue(p.verified_record(raw, CONTEXT, ident, False, []))
++        with self.assertRaisesRegex(p.Rejected, "SYNTHETIC_VERIFICATION_FORBIDDEN"):
++            p.verified_record(raw, CONTEXT, ident, True, [], row["rank_class"], row)
++
++    def test_reject_verifier_variant_cut_and_suffix_substitutions(self):
++        domain, labels = self.dummy_named_domain()
++        row = self.receipt("positive")
++        row["labels"] = labels
++        self.validate(row, domain)
++        ident = p.binding(p.encode(row))
++        result = dict(status="INDEPENDENTLY_VERIFIED_POSITIVE", variant="C", induced_old_cut=14,
++                      normalized_suffix=[48,28,20],
++                      checker_results=[dict(valid=True, graph_digest=str(m), m=m, n=m+1, errors=[])
++                                       for m in (41,48)],
++                      states=[dict(actual_cut=18, actual_labels=labels), dict(actual_labels={})])
++        def rejected(reason):
++            with self.assertRaisesRegex(p.Rejected, reason):
++                p.verified_record(p.encode(dict(context=CONTEXT, candidate=ident, result=result)),
++                                  CONTEXT, ident, True, ["41","48"], row["rank_class"], row)
++        rejected("VERIFIED_MENU_BINDING")
++        result.update(variant="B", induced_old_cut=15)
++        rejected("VERIFIED_MENU_BINDING")
++        result["induced_old_cut"] = 14
++        rejected("VERIFIED_SUFFIX_TRANSPORT")
++
++    def test_separate_director_and_owner_receipts_are_required(self):
++        with self.assertRaisesRegex(RuntimeError, "EXACT_DIRECTOR_QUALIFICATION_ACCEPTANCE_REQUIRED"):
++            entry.director_gate(None, "f"*64, "q"*64)
++        director = dict(task=entry.TASK, freeze="f"*64, qualification_sha256="8"*64,
++                        disposition="ACCEPT_D205_EXECUTION_READINESS", director_decision="inert acceptance")
++        with self.assertRaisesRegex(RuntimeError, "EXACT_DIRECTOR_QUALIFICATION_ACCEPTANCE_REQUIRED"):
++            entry.director_gate(director, "f"*64, "9"*64)
++        entry.director_gate(director, "f"*64, "8"*64)
++        with patch.object(entry, "read_bound_doc", side_effect=FileNotFoundError("inert missing approval")), \
++             patch.object(entry, "local_git") as git:
++            with self.assertRaises(FileNotFoundError):
++                entry.authorize(None, None, p, "official", "9"*64, "f"*64, {"limits": {}})
++            git.assert_not_called()
++
++    def test_d204_owner_intent_cannot_admit_d205(self):
++        wrong = {"intent": "AUTHORIZE_ONE_D204_SCIENTIFIC_RUN"}
++        with patch.object(entry, "read_bound_doc", return_value=(wrong, b"old")), \
++             patch.object(entry, "verify_qualification") as qualifier:
++            with self.assertRaisesRegex(RuntimeError, "EXACT_FRESH_OWNER_AUTHORIZATION_REQUIRED"):
++                entry.authorize(None, None, p, "official", "a"*64, "b"*64, {"limits": {}})
++            qualifier.assert_not_called()
++
++    def adapter_inputs(self):
++        domain, _ = self.dummy_named_domain()
++        menu = {v: dict(prefix_digest=child.PREFIX_DIGEST, unique=v,
++                       state={"minimum_labels": {name:i for i,name in enumerate(domain["old_order"][v])}})
++                for v in ("B", "C")}
++        records = {"main_41":{"original":{"digest":child.TARGETS[0],"graph":{"vertices":domain["vertices_41"]}},
++                              "prefixes":[{"digest":child.PREFIX_DIGEST,"graph":{"dummy":"actual-old"}}]},
++                   "main_48_if_admitted":{"original":{"digest":child.TARGETS[1]}}}
++        limits = {"primary":LIMIT, "audit":LIMIT | {"pair_trials": 28121614404}}
++        files = {
++            child.PREP+"CONFIG.json": p.encode(dict(menu=["B","C"], prospective_limits=limits)),
++            child.PREP+"PREFIXES.json": p.encode(dict(menu={"A":{"never":"dispatch"},**menu})),
++            child.PREP+"ORIGINALS.json": p.encode(dict(records=records)),
++        }
++        return domain, menu, records, limits, files
++
++    def test_actual_adapter_argument_bindings_with_inert_substitutes_only(self):
++        domain, menu, records, limits, files = self.adapter_inputs()
++        invocations = []
++        marker = object()
++        def substitute_capture(_bundle, name):
++            return files[name] if name in files else b"inert substitute"
++        def substitute_load(name, source, path, package=False):
++            invocations.append(("load", name, source, path, package))
++            def caller(*args):
++                invocations.append(("call", name, args))
++                return marker
++            return SimpleNamespace(primary_search=caller, audit_search=caller, verify_future_positive=caller)
++        with patch.object(child, "capture", side_effect=substitute_capture), \
++             patch.object(child, "exact_load", side_effect=substitute_load):
++            for phase in ("primary","audit"):
++                invocations.clear()
++                result, verify = child.scientific_adapter(dict(candidate_domain=domain, limits=limits), phase)
++                self.assertIs(result, marker)
++                before = [r for r in invocations if r[0]=="call"]
++                args = (menu, limits[phase]) if phase=="primary" else (menu, {"dummy":"actual-old"}, limits[phase])
++                self.assertEqual(before, [("call", child.PACKAGE+"."+phase, args)])
++                self.assertEqual(list(before[0][2][0]), ["B","C"])
++                self.assertIs(verify({"dummy":"candidate"}), marker)
++                self.assertEqual(invocations[-1],
++                                 ("call", child.PACKAGE+".verify_positive", ({"dummy":"candidate"}, records, menu)))
++                self.assertFalse(any(r[0]=="load" and r[1]==child.PACKAGE+
++                                    (".audit" if phase=="primary" else ".primary") for r in invocations))
++
++    def test_adapter_wrong_limits_fails_before_any_load(self):
++        domain, _, _, limits, files = self.adapter_inputs()
++        drift = limits | {"primary":limits["primary"] | {"pair_trials":1}}
++        with patch.object(child, "capture", side_effect=lambda _bundle,n: files[n]), \
++             patch.object(child, "exact_load") as loader:
++            with self.assertRaisesRegex(RuntimeError, "wrong scientific limits"):
++                child.scientific_adapter(dict(candidate_domain=domain, limits=drift), "primary")
++            loader.assert_not_called()
++
++
+ if __name__ == "__main__":
+     unittest.main(verbosity=2)
+--- research/d204_readiness_v9/worker.py
++++ research/d205_readiness_v1/worker.py
+@@ -1,4 +1,4 @@
+-"""Bound D204 child entry. Real consumers load only after a private scientific grant."""
++"""Bound D205 child entry. Real consumers load only after a private scientific grant."""
+ import ctypes as ct
+ import hashlib
+ import json
+@@ -11,13 +11,13 @@
+ import time
+ from types import ModuleType
+ 
+-TASK = "LCL-D204-INTERRUPTION-EVIDENCE-QUALIFICATION-003"
++TASK = "LCL-D205-INDEPENDENT-PATH-ORDER-EXECUTION-QUALIFICATION-001"
+ ROOT = Path(os.path.abspath(__file__)).parents[2]
+ DIR = Path(__file__).parent
+-FREEZE = ROOT / "evidence/validation/LCL_D204_INTERRUPTION_EVIDENCE_QUALIFICATION_003/V9_FREEZE.json"
+-PREP = "evidence/validation/LCL_ORDINARY_SPINE_CONSECUTIVE_POSITIVE_COORDINATED_GAP_RETURN_001_PREP/"
+-ENGINE = "research/coordinated_gap_return_001/"
+-PACKAGE = "_d204_frozen_consumer"
++FREEZE = ROOT / "evidence/validation/LCL_D205_INDEPENDENT_PATH_ORDER_EXECUTION_QUALIFICATION_001/V1_FREEZE.json"
++PREP = "evidence/validation/LCL_ORDINARY_SPINE_INDEPENDENT_PATH_ORDER_MENU_001_PREP/"
++ENGINE = "research/independent_path_order_menu_001/"
++PACKAGE = "_d205_frozen_consumer"
+ PREFIX_DIGEST = "fd4289cb555097994341bf023415e231841e01e95c1098c7890643252241f061"
+ TARGETS = ("5554c99f3db5b777a5e139369479c470b9e220753da2193aecbaa3c9ac6d3515",
+            "1e9d8d99227973991cb6fb850cfbcd44cfac2c3470396886c59a9264bd3de3cb")
+@@ -69,52 +69,64 @@
+     return module
+ 
+ def scientific_adapter(bundle, phase):
+-    """This function is never called by a qualification grant."""
++    """Only the admitted official grant reaches the actual frozen invocation."""
++    if phase not in ("primary", "audit"):
++        raise RuntimeError("wrong scientific phase")
+     config = json.loads(capture(bundle, PREP + "CONFIG.json"))
+-    prefix = json.loads(capture(bundle, PREP + "PREFIXES.json"))["records"]["independent_32"]
++    records = json.loads(capture(bundle, PREP + "PREFIXES.json"))["menu"]
++    menu = {variant: records[variant] for variant in ("B", "C")}
+     originals = json.loads(capture(bundle, PREP + "ORIGINALS.json"))["records"]
+     incoming = originals["main_41"]["prefixes"][0]
+-    if (prefix["prefix_digest"] != PREFIX_DIGEST or incoming["digest"] != PREFIX_DIGEST
+-            or (originals["main_41"]["original"]["digest"],
+-                originals["main_48_if_admitted"]["original"]["digest"]) != TARGETS):
++    targets = (originals["main_41"]["original"], originals["main_48_if_admitted"]["original"])
++    if (config["menu"] != ["B", "C"] or incoming["digest"] != PREFIX_DIGEST
++            or any(row["prefix_digest"] != PREFIX_DIGEST for row in menu.values())
++            or tuple(row["digest"] for row in targets) != TARGETS):
+         raise RuntimeError("wrong original identities")
+-    limits = config["future_allocation_caps"][phase]
++    domain = bundle["candidate_domain"]
++    if (sorted(targets[0]["graph"]["vertices"]) != domain["vertices_41"]
++            or {variant: sorted(row["state"]["minimum_labels"],
++                                key=row["state"]["minimum_labels"].__getitem__)
++                for variant, row in menu.items()} != domain["old_order"]):
++        raise RuntimeError("wrong candidate domain")
++    limits = config["prospective_limits"][phase]
++    if limits != bundle["limits"][phase]:
++        raise RuntimeError("wrong scientific limits")
+     exact_load(PACKAGE, b"", ROOT / ENGINE, package=True)
+     def engine(name):
+         path = ENGINE + name + ".py"
+         return exact_load(PACKAGE + "." + name, capture(bundle, path), ROOT / path)
+     engine("budget")
+     if phase == "primary":
+-        runner = engine("primary").primary_search
+-        result = runner(prefix, limits)
++        result = engine("primary").primary_search(menu, limits)
+     else:
+-        runner = engine("audit").audit_search
+-        result = runner(prefix, incoming["graph"], limits)
++        result = engine("audit").audit_search(menu, incoming["graph"], limits)
+     def verify(candidate):
+         path = "lcl/__init__.py"
+         exact_load("lcl", capture(bundle, path), ROOT / path, package=True)
+         path = "lcl/verify.py"
+         exact_load("lcl.verify", capture(bundle, path), ROOT / path)
+-        return engine("verify_positive").verify_future_positive(candidate, originals, prefix)
++        return engine("verify_positive").verify_future_positive(candidate, originals, menu)
+     return result, verify
+ 
+-def fixture(limits, phase, mode, context):
++
++def fixture(limits, phase, mode, context, expected_streams):
+     keys = ("geometry_entries", "placement_attempts", "allocation_states", "pair_trials", "fixed_edge_checks")
+     counts = {key: 0 for key in keys}
+     counts.update(process_cpu_seconds=0.0, wall_seconds=0.0, peak_live_records=1)
+-    result = dict(status="EXHAUSTED", counters=counts,
+-                  compatible_rank_counts=dict(rank_preserving=0, rank_changing=0))
++    result = dict(status="EXHAUSTED", counters=counts, streams={})
+     if mode == "exhaust":
++        for stream, ceiling in expected_streams.items():
++            result["streams"][stream] = dict(geometry_entries=ceiling,
++                                              rank_preserving=0, rank_changing=0)
+         counts["geometry_entries"] = limits["geometry_entries"]
+     elif mode == "incomplete":
+         result.update(status="INCOMPLETE", limit="fixture")
++        result["streams"]["B:14:18"] = dict(geometry_entries=0, rank_preserving=0, rank_changing=0)
+     else:
+-        result.update(status="CANDIDATE", cut=18, rank_class="rank_preserving",
+-                      labels={"inert": 7})
+-        result["compatible_rank_counts"]["rank_preserving"] = 1
++        result.update(status="CANDIDATE", variant="B", induced_old_cut=14,
++                      cut=18, rank_class="rank_preserving", labels={"inert": 7})
++        result["streams"]["B:14:18"] = dict(geometry_entries=1, rank_preserving=1, rank_changing=0)
+         counts["geometry_entries"] = 1
+-        if phase == "primary":
+-            result["admissible_old_cuts"] = [18]
+     def verify(_):
+         if mode == "verify-failure":
+             raise ValueError("inert synthetic verification failure")
+@@ -122,6 +134,7 @@
+                     checker_results=[{"valid": True}, {"valid": True}], synthetic=True,
+                     same_pid=context["pid"])
+     return result, verify
++
+ 
+ def hello(context):
+     exe = Path(sys.executable)
+@@ -176,7 +189,7 @@
+     if not re.fullmatch(r"[a-z0-9-]{1,80}", base):
+         raise RuntimeError("wrong phase name")
+     official = profile == "official"
+-    if run_name != ("d204-science-v9" if official else "d204-readiness-v9"):
++    if run_name != ("d205-independent-path-order-menu-001" if official else "d205-readiness-v1"):
+         raise RuntimeError("wrong run name")
+     folder = ROOT / ("evidence/runs" if official else "runs") / run_name
+     admission = json.loads(bounded(folder / "admission.json", 65536))
+@@ -191,13 +204,19 @@
+     if official:
+         approval_raw = bounded(folder / "approval.json", 65536)
+         approval = json.loads(approval_raw)
++        director_raw = bounded(folder / "director-acceptance.json", 65536)
++        director = json.loads(director_raw)
+         qualification = bounded(DIR.parents[1] / "evidence/validation" /
+-                                 "LCL_D204_INTERRUPTION_EVIDENCE_QUALIFICATION_003" /
+-                                 "V9_FINAL_QUALIFICATION.json", 1 << 20)
++                                 "LCL_D205_INDEPENDENT_PATH_ORDER_EXECUTION_QUALIFICATION_001" /
++                                 "V1_FINAL_QUALIFICATION.json", 1 << 20)
+         if (identity(approval_raw)["sha256"] != admission["source_review_or_approval"]
+-                or approval.get("intent") != "AUTHORIZE_ONE_D204_SCIENTIFIC_RUN"
++                or approval.get("intent") != "AUTHORIZE_ONE_D205_SCIENTIFIC_RUN"
+                 or approval.get("run") != run_name or approval.get("freeze") != sha
+                 or approval.get("limits") != bundle["limits"]
++                or identity(director_raw)["sha256"] != approval.get("director_acceptance_sha256")
++                or director.get("task") != TASK or director.get("freeze") != sha
++                or director.get("disposition") != "ACCEPT_D205_EXECUTION_READINESS"
++                or director.get("qualification_sha256") != approval.get("qualification_sha256")
+                 or identity(qualification)["sha256"] != approval.get("qualification_sha256")
+                 or json.loads(qualification).get("ready") is not True):
+             raise RuntimeError("no matching fresh scientific approval")
+@@ -258,7 +277,7 @@
+     task, sha, profile, phase, mode, token, run_name, base, grant, ack = sys.argv[1:]
+     if (task != TASK or phase not in ("primary", "audit") or len(token) != 32
+             or profile not in ("synthetic", "official") or
+-            (profile == "official" and (mode != "science" or run_name != "d204-science-v9"))):
++            (profile == "official" and (mode != "science" or run_name != "d205-independent-path-order-menu-001"))):
+         raise SystemExit(65)
+     if profile == "synthetic" and mode not in {
+             "positive", "exhaust", "incomplete", "verify-failure", "native", "sampled",
+@@ -300,7 +319,7 @@
+     if profile == "official":
+         result, verify = scientific_adapter(bundle, phase)
+     else:
+-        result, verify = fixture(bundle["limits"][phase], phase, mode, context)
++        result, verify = fixture(bundle["limits"][phase], phase, mode, context, bundle["streams"])
+         if mode == "byte-cap":
+             result["inert_padding"] = ">" * 160000
+     raw = encoded(result)
+@@ -308,7 +327,12 @@
+     if result["status"] == "CANDIDATE":
+         wait_for_grant(int(ack), 60000 if profile == "official" else 20000)
+         receipt = json.loads(bounded(folder / (base + "-candidate.json"), 65536))
+-        if receipt["context"] != context or receipt["candidate"] != identity(raw):
++        stream = f"{result['variant']}:{result['induced_old_cut']}:{result['cut']}"
++        if (receipt["context"] != context or receipt["candidate"] != identity(raw)
++                or any(receipt.get(key) != result[key] for key in (
++                    "variant", "induced_old_cut", "cut", "rank_class", "counters", "status"))
++                or receipt.get("stream") != stream
++                or receipt.get("stream_geometry_entries") != result["streams"][stream]["geometry_entries"]):
+             raise RuntimeError("verification acknowledgement has no durable matching receipt")
+         payload = dict(context=context, candidate=identity(raw))
+         try:

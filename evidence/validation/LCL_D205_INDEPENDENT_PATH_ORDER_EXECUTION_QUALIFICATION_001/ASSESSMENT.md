@@ -1,0 +1,23 @@
+# D205 V9-derived execution qualification
+
+## Director acceptance and immutable scope
+
+The Director accepted the exact D205 preparation at `e7e91b7627aad9ce19296e16b777b7c5704128e7`. The separate acceptance checkpoint is `467d5c30bf79d3728e1e8afb20ee1dc2998d3a26`. The certified B/C supply, scoped symbolic exclusions, exact residual stream definitions and mathematical consumers are unchanged. D204's separate accepted registered negative, science archive and V1–V9 history remain intact. The D205 continuation question remains **UNRESOLVED**. [Custody](CUSTODY.json) · [Accepted preparation](../LCL_ORDINARY_SPINE_INDEPENDENT_PATH_ORDER_MENU_001_PREP/MANIFEST.json)
+
+## Frozen adaptation
+
+D205 readiness uses `d205-readiness-v1` with freeze `3be2f049a031a52b4229c9ce1a754f72fb88efbad08cc365cff5f8996b5c598e`. The native implementation is byte-identical to V9. The delta adds D205 input and protocol bindings, exact twelve-stream result checks, durable candidate/verification metadata, a separate future Director acceptance gate and inert fixture records for the D205 schema. It retains the original matrix and the measured Job, watchdog, interruption and cleanup policy. The 256 MiB physical RSS proposals are deferred as directed; the seven- and six-record logical ceilings are unchanged. No protection of historical source or proof was removed. [Source delta](SOURCE_DELTA.diff) · [Qualification contract](CONTRACT.md) · [Freeze](V1_FREEZE.json)
+
+The stream validators reject earlier partial streams, wrong order, duplicate or unknown identities, mismatched aggregate counts, invalid named candidates and any per-stream or global counter outside its exact integer limit. The candidate's raw bytes and the stream, cuts, variant, rank, counts and context are durable before acknowledgment. Independent verification binds the same candidate, reported return, exact D196 suffix and both original identities. Inert fixture verification explicitly marks itself and is inadmissible as science. The accepted verifier and checker were never imported or run during qualification. [Pure controls](V1_PURE_STDERR.txt) · [Native archive ledger](V1_ARCHIVE.json)
+
+## Qualification measurements
+
+The one pure suite passed all 58 methods in a signaled exit-0 process. The measured process used 2,343,750 CPU ticks and the outer elapsed time was 357 ms. It covers the existing V9 behavioral controls and the D205 per-stream, counters, candidate binding, authority and inert adapter substitutions.
+
+The one native invocation passed all **14 cases and 16 measured phases**. The native matrix consumed 30,000,000 controller and worker CPU ticks (3 seconds) in 13,531 ms. The highest phase readings were 9,687,500 CPU ticks and 6,140 ms. The separate outer controller PID 20536 was signaled and exited 0 in 15,117 ms, without timeout. It consumed 1.765625 CPU seconds, split into 0.75 user and 1.015625 kernel seconds. That outer observation overlaps the matrix controller accounting. The sealed native archive has 84 files and 215,638 bytes. No native controller stdout or stderr was emitted. [Pure receipt](V1_PURE.json) · [Native phase measurements](V1_MEASUREMENTS.json) · [Outer exit](V1_LAUNCH.json) · [Terminal](V1_RUN/terminal.json) · [Seal](V1_RUN/seal.json)
+
+The inert dual-exhaustion and audit-disagreement trials exercised the true D205 twelve-stream receipt with no actual enumeration. The bounded Job tests observed exact measured acceptance or their designated adverse dispositions. The controlled interruption retained the sole Job-owner and activated worker process handles, observed both unsignaled before a successful owner-only request at tick 88,790,437, and independently observed both signaled at tick 88,790,453, inside the deadline. The owner exited `0xE2040001` and the worker exited 0. Exactly 10,449 FILETIME ticks separate their observed terminal timestamps. The phase reconciled elapsed and measured CPU without a terminal inner-Job query. These are finite observed host results. They establish no worst-case termination bound. [Raw interruption](V1_RUN/crash-primary-crash-exit.json)
+
+## Admission boundary
+
+No scientific process, original checker, solver, qualification replay or D204 replay was invoked. The official entry and future approval, live-ref and output paths remain unused. A separate Director acceptance, actual Owner approval, fresh repo and ref custody, exact committed bindings and a vacant official identity are still required. The future launch command and record schema are held for that separate session. Aggregate preparation CPU coverage is incomplete for external tooling and agents; the pure, native matrix and outer-controller observations are retained individually. [Future launch](LAUNCH_RECORD.md)

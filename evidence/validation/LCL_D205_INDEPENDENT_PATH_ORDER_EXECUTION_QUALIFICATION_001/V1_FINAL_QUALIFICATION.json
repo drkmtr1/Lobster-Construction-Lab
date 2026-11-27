@@ -1,0 +1,41 @@
+{
+  "accepted_cases": 14,
+  "accepted_phases": 16,
+  "all_required_checks_passed": true,
+  "archive": {
+    "bytes": 18691,
+    "sha256": "3e64372aacc599f1224dec0271b30ac97075e2b9622a7ed797a48072da8398b2"
+  },
+  "director_execution_readiness_acceptance": false,
+  "disposition": "D205_EXECUTION_READY_AWAITING_OWNER_AUTHORIZATION",
+  "freeze": "3be2f049a031a52b4229c9ce1a754f72fb88efbad08cc365cff5f8996b5c598e",
+  "host_scope": "Exact D205 V1 freeze and observed Windows host/runtime only",
+  "native_matrix_invocations": 1,
+  "outer": {
+    "bytes": 234,
+    "sha256": "ca9c38615457cf5afe95759fc57b155dbaf2273f168929bbec83c26c5a4d43c5"
+  },
+  "prelaunch_review": {
+    "bytes": 1240,
+    "sha256": "7305fe9665552d9eaa22c58412144aae99bbbe89ce9db3253eb9fe21c4f011ba"
+  },
+  "ready": true,
+  "regression": {
+    "bytes": 351,
+    "sha256": "085d5394d1be33d0dd57c28cac7f9d2c23817dee2b6d37e3a1ab91f9137bfb80"
+  },
+  "review": {
+    "bytes": 3172,
+    "sha256": "13a9469c6078f8ea6bfc2434df777ea08a7f436b26240d526d86dc92e38d9d6d"
+  },
+  "scientific_authorization": false,
+  "seal": {
+    "bytes": 354,
+    "sha256": "677ba436fb32263cc5e50e686b4ac01090e0443bfd6398acd6de1ce9cf4c913a"
+  },
+  "task": "LCL-D205-INDEPENDENT-PATH-ORDER-EXECUTION-QUALIFICATION-001",
+  "terminal": {
+    "bytes": 13782,
+    "sha256": "c0fd7838f344db1b3d27824da8f2e32dc0056d6ba5c8b57e4d1f3ac227ceb4e3"
+  }
+}

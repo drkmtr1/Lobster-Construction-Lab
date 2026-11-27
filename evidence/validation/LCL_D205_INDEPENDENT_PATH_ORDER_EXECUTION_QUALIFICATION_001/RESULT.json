@@ -1,0 +1,31 @@
+{
+  "active_approval": false,
+  "aggregate_matrix_cpu_ticks": 30000000,
+  "aggregate_matrix_elapsed_ms": 13531,
+  "bytecode_generated": 0,
+  "checker_calls": 0,
+  "disposition": "D205_EXECUTION_READY_AWAITING_OWNER_AUTHORIZATION",
+  "exact_qualification": {
+    "bytes": 1378,
+    "sha256": "70c13b6de8bcd97850abfefea5f4d2d66ef0c64de4b689f466ba8dfcdfb340f9"
+  },
+  "future_run": "d205-independent-path-order-menu-001",
+  "historical_replays": 0,
+  "native_accepted_phases": 16,
+  "native_matrix_invocations": 1,
+  "native_passed_cases": 14,
+  "one_next_action": "Director review of D205 V9-derived execution qualification and scientific admission readiness.",
+  "preparation_accepted": "e7e91b7627aad9ce19296e16b777b7c5704128e7",
+  "preparation_cpu_fully_measured": false,
+  "pure_invocations": 1,
+  "pure_passed": 58,
+  "qualification_run": "d205-readiness-v1",
+  "rss_enforcement": "DEFERRED",
+  "scientific_consumer_imports": 0,
+  "scientific_invocations": 0,
+  "scientific_status": "UNRESOLVED",
+  "scientific_workers": 0,
+  "separate_acceptance_checkpoint": "467d5c30bf79d3728e1e8afb20ee1dc2998d3a26",
+  "solver_calls": 0,
+  "task": "LCL-D205-INDEPENDENT-PATH-ORDER-EXECUTION-QUALIFICATION-001"
+}

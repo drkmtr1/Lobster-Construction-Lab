@@ -1,0 +1,77 @@
+{
+  "accepted_v9_native_byte_identical": true,
+  "bytecode": 0,
+  "case_matrix_only_task_and_version_changed": true,
+  "current_process_cpu_seconds": 0.671875,
+  "imports": 0,
+  "interpreter": "C:\\Users\\Will\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+  "mode": "parse-only",
+  "pure_methods": 58,
+  "runtime_dependency_count": 2628,
+  "scientific_consumers_invoked": 0,
+  "sources": {
+    "research/d205_readiness_v1/controller.py": {
+      "binding": {
+        "bytes": 43934,
+        "sha256": "eda939c0c8845c7c026fd385d0f648d5b44bfa9fa27c9301245bdf098593326b"
+      },
+      "changed_top_level_functions": [
+        "transport"
+      ]
+    },
+    "research/d205_readiness_v1/entry.py": {
+      "binding": {
+        "bytes": 26817,
+        "sha256": "dbd092dc128aa202ed9932ef2c30ed70e36ea3fac6a80a99e0e69bfecf084ff6"
+      },
+      "changed_top_level_functions": [
+        "authorize",
+        "boot",
+        "director_gate",
+        "main",
+        "qualification_gate",
+        "verify_qualification"
+      ]
+    },
+    "research/d205_readiness_v1/native.py": {
+      "binding": {
+        "bytes": 15851,
+        "sha256": "a5f0448841bdc639a5ed1d278fe4c416c524f190bcf09babb1dce4a7c0cfff16"
+      },
+      "changed_top_level_functions": []
+    },
+    "research/d205_readiness_v1/protocol.py": {
+      "binding": {
+        "bytes": 14498,
+        "sha256": "39e8a16d974626493a4fe18a6954ed5b17bef9649073cb8fd2efcc2a8b0a83d6"
+      },
+      "changed_top_level_functions": [
+        "persist_candidate",
+        "result_record",
+        "verified_record"
+      ]
+    },
+    "research/d205_readiness_v1/test_infrastructure.py": {
+      "binding": {
+        "bytes": 45583,
+        "sha256": "405c581f57809c0f042fc8f72f8d2fd13136a325840e04ac510960fa03d50344"
+      },
+      "changed_top_level_functions": [
+        "inert_fixture"
+      ]
+    },
+    "research/d205_readiness_v1/worker.py": {
+      "binding": {
+        "bytes": 17553,
+        "sha256": "aaba423e91549a7b6e5d36a1a473bd9b171171cef5e20f2f143a00a1b494ae86"
+      },
+      "changed_top_level_functions": [
+        "authorize_grant",
+        "fixture",
+        "main",
+        "scientific_adapter"
+      ]
+    }
+  },
+  "v9_applicable_methods": 42
+}

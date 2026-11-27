@@ -1,0 +1,250 @@
+{
+  "aggregate_matrix_ticks": 30000000,
+  "controller_outer": {
+    "actual_outer_elapsed_ms": 15117,
+    "controller_cpu_kernel": 1.015625,
+    "controller_cpu_total": 1.765625,
+    "controller_cpu_user": 0.75,
+    "controller_signaled": true,
+    "exit_code": 0,
+    "outer_timeout": false,
+    "pid": 20536
+  },
+  "crash_initial_held": {
+    "owner": {
+      "image": "C:\\Users\\Will\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "pid": 22404,
+      "times": {
+        "born": 134402250678489656,
+        "kernel": 156250,
+        "user": 468750
+      }
+    },
+    "worker": {
+      "image": "C:\\Users\\Will\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "pid": 29480,
+      "times": {
+        "born": 134402250679655389,
+        "kernel": 0,
+        "user": 0
+      }
+    }
+  },
+  "crash_observed_exits": {
+    "owner": {
+      "code": 3791912961,
+      "signaled_tick": 88790453,
+      "times": {
+        "born": 134402250678489656,
+        "end": 134402250680484155,
+        "kernel": 156250,
+        "user": 468750
+      }
+    },
+    "worker": {
+      "code": 0,
+      "signaled_tick": 88790453,
+      "times": {
+        "born": 134402250679655389,
+        "end": 134402250680494604,
+        "kernel": 312500,
+        "user": 312500
+      }
+    }
+  },
+  "crash_reconciliation": {
+    "guard_ticks": 0,
+    "mode": "isolated-crash-process-times",
+    "ordinary_job_reconciliation": false,
+    "terminal_job_unavailable_by_design": true
+  },
+  "crash_request": {
+    "api_succeeded": true,
+    "checked_tick": 88790437,
+    "intended_status": 3791912961,
+    "issued_tick": 88790437,
+    "owner_unsignaled": true,
+    "prior_samples": {
+      "owner": {
+        "born": 134402250678489656,
+        "kernel": 156250,
+        "user": 468750
+      },
+      "worker": {
+        "born": 134402250679655389,
+        "kernel": 312500,
+        "user": 312500
+      }
+    },
+    "returned_tick": 88790437,
+    "target_born": 134402250678489656,
+    "target_pid": 22404,
+    "winerror": null,
+    "worker_unsignaled": true
+  },
+  "elapsed_matrix_ms": 13531,
+  "phases": [
+    {
+      "actual_cpu_ticks": 781250,
+      "actual_elapsed_ms": 172,
+      "disagreement": false,
+      "disposition": "STOP_VERIFIED_POSITIVE",
+      "measured": true,
+      "mode": "positive",
+      "name": "positive-primary",
+      "phase": "primary"
+    },
+    {
+      "actual_cpu_ticks": 937500,
+      "actual_elapsed_ms": 125,
+      "disagreement": false,
+      "disposition": "ADMIT_AUDIT",
+      "measured": true,
+      "mode": "exhaust",
+      "name": "dual-exhaustion-primary",
+      "phase": "primary"
+    },
+    {
+      "actual_cpu_ticks": 625000,
+      "actual_elapsed_ms": 140,
+      "disagreement": false,
+      "disposition": "STOP_REGISTERED_NEGATIVE",
+      "measured": true,
+      "mode": "exhaust",
+      "name": "dual-exhaustion-audit",
+      "phase": "audit"
+    },
+    {
+      "actual_cpu_ticks": 1093750,
+      "actual_elapsed_ms": 141,
+      "disagreement": false,
+      "disposition": "STOP_INCOMPLETE",
+      "measured": true,
+      "mode": "incomplete",
+      "name": "incomplete-primary",
+      "phase": "primary"
+    },
+    {
+      "actual_cpu_ticks": 468750,
+      "actual_elapsed_ms": 141,
+      "disagreement": false,
+      "disposition": "STOP_VERIFICATION_FAILURE",
+      "measured": true,
+      "mode": "verify-failure",
+      "name": "verify-failure-primary",
+      "phase": "primary"
+    },
+    {
+      "actual_cpu_ticks": 312500,
+      "actual_elapsed_ms": 140,
+      "disagreement": false,
+      "disposition": "ADMIT_AUDIT",
+      "measured": true,
+      "mode": "exhaust",
+      "name": "audit-disagreement-primary",
+      "phase": "primary"
+    },
+    {
+      "actual_cpu_ticks": 625000,
+      "actual_elapsed_ms": 141,
+      "disagreement": false,
+      "disposition": "STOP_ENGINE_DISCREPANCY",
+      "measured": true,
+      "mode": "positive",
+      "name": "audit-disagreement-audit",
+      "phase": "audit"
+    },
+    {
+      "actual_cpu_ticks": 8437500,
+      "actual_elapsed_ms": 6140,
+      "disagreement": false,
+      "disposition": "NATIVE_USER_LIMIT",
+      "measured": true,
+      "mode": "native",
+      "name": "native-primary",
+      "phase": "primary"
+    },
+    {
+      "actual_cpu_ticks": 9687500,
+      "actual_elapsed_ms": 1094,
+      "disagreement": false,
+      "disposition": "SAMPLED_COMBINED_CPU",
+      "measured": true,
+      "mode": "sampled",
+      "name": "sampled-primary",
+      "phase": "primary"
+    },
+    {
+      "actual_cpu_ticks": 937500,
+      "actual_elapsed_ms": 2031,
+      "disagreement": false,
+      "disposition": "SAMPLED_ELAPSED",
+      "measured": true,
+      "mode": "sleep",
+      "name": "elapsed-primary",
+      "phase": "primary"
+    },
+    {
+      "actual_cpu_ticks": 781250,
+      "actual_elapsed_ms": 2407,
+      "disagreement": false,
+      "disposition": "OBSERVATION_GAP",
+      "measured": true,
+      "mode": "gap",
+      "name": "gap-primary",
+      "phase": "primary"
+    },
+    {
+      "actual_cpu_ticks": 937500,
+      "actual_elapsed_ms": 156,
+      "disagreement": false,
+      "disposition": "CHILD_REFUSED",
+      "measured": true,
+      "mode": "child-refusal",
+      "name": "child-primary",
+      "phase": "primary"
+    },
+    {
+      "actual_cpu_ticks": 1562500,
+      "actual_elapsed_ms": 266,
+      "disagreement": false,
+      "disposition": "KILL_ON_CLOSE_OBSERVED",
+      "measured": true,
+      "mode": "crash-owner",
+      "name": "crash-primary",
+      "phase": "primary"
+    },
+    {
+      "actual_cpu_ticks": 937500,
+      "actual_elapsed_ms": 140,
+      "disagreement": false,
+      "disposition": "IPC_FRAME_LIMIT",
+      "measured": true,
+      "mode": "oversize",
+      "name": "oversize-primary",
+      "phase": "primary"
+    },
+    {
+      "actual_cpu_ticks": 937500,
+      "actual_elapsed_ms": 141,
+      "disagreement": false,
+      "disposition": "IPC_TRUNCATED",
+      "measured": true,
+      "mode": "truncated",
+      "name": "truncated-primary",
+      "phase": "primary"
+    },
+    {
+      "actual_cpu_ticks": 937500,
+      "actual_elapsed_ms": 156,
+      "disagreement": false,
+      "disposition": "EVIDENCE_LIMIT",
+      "measured": true,
+      "mode": "byte-cap",
+      "name": "bytes-primary",
+      "phase": "primary"
+    }
+  ],
+  "scientific_checker_invocations": 0,
+  "scientific_workers": 0
+}

@@ -1,0 +1,20 @@
+{
+  "task": "LCL-D205-INDEPENDENT-PATH-ORDER-EXECUTION-QUALIFICATION-001",
+  "freeze": "3be2f049a031a52b4229c9ce1a754f72fb88efbad08cc365cff5f8996b5c598e",
+  "disposition": "PASS_FOR_SYNTHETIC_QUALIFICATION",
+  "scientific_dispatch": false,
+  "reviewers": [
+    {
+      "scope": "Independent admission safety and native controls",
+      "reviewer": "d5native",
+      "outcome": "PASS_FOR_INERT_ONLY",
+      "findings": "All eight frozen source and matrix hashes checked. Native source byte-identical to accepted V9; Job, watchdog, interruption and fourteen-case controls retained. Synthetic profile cannot reach the scientific adapter. A later official worker needs the distinct D205 seal, committed Director acceptance, new Owner approval, fresh custody and private grant."
+    },
+    {
+      "scope": "Independent protocol, implementation and evidence custody",
+      "reviewer": "d5integrate",
+      "outcome": "PASS_FOR_INERT_ONLY",
+      "findings": "All 44 project bindings and 2,628 runtime rows checked. Exact 12-stream streams, large limits, named B/C orders, no A dispatch, candidate/verification bindings, durable receipt ordering, and mocked-only adapter tests checked. Official paths and one inert run path vacant."
+    }
+  ]
+}
