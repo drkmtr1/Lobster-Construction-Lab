@@ -1,0 +1,41 @@
+{
+  "run_id": "d231-unequal-pair-return-kernel-001",
+  "receipt": "runs/d231-unequal-pair-return-kernel-001-admission.json",
+  "receipt_sha256": "2dfa44fed548166b62c2154e5a2d9f92819abcfb271d1090919f10cda7b97601",
+  "start_utc": "2026-11-28T01:20:59.2913363+00:00",
+  "end_utc": "2026-11-28T01:21:03.9159735+00:00",
+  "observer_argv": [
+    "-I",
+    "-S",
+    "-B",
+    "\"C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\research\\d231_operations\\observe_v1.py\"",
+    "\"C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\runs\\d231-unequal-pair-return-kernel-001-admission.json\"",
+    "2dfa44fed548166b62c2154e5a2d9f92819abcfb271d1090919f10cda7b97601"
+  ],
+  "observer_pid": 24012,
+  "observer_signaled": true,
+  "observer_exit": 0,
+  "outer_status": "NATURAL",
+  "error": null,
+  "outer_stop_seconds": 1199.0,
+  "hard_seconds": 1200.0,
+  "foreground_seconds": 4.6237138,
+  "observer_cpu_seconds": 0.203125,
+  "outer_monitor_cpu_seconds": 4.328125,
+  "combined_cpu_seconds": 8.625,
+  "cpu_ceiling_seconds": 900.0,
+  "member_exit": {
+    "suspended": {
+      "pid": 24768,
+      "signaled": true,
+      "cpu_seconds": 0.0
+    },
+    "worker": {
+      "pid": 23000,
+      "signaled": true,
+      "cpu_seconds": 4.09375
+    }
+  },
+  "released": true,
+  "inner_sha256": "f77a32f56cd49547a05302e94db9601c0c86c7d2a8dbeeb2baa30ddee00e2535"
+}
