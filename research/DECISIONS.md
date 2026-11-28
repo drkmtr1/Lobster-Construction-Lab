@@ -1073,3 +1073,9 @@ The Owner authorizes one D232 symbolic investigation of independent host-chain g
 ## D232 symbolic closeout
 
 Submit the sparse and independent chain suppliers, their exact physical grouping theorem, the separately proved ordered obstruction and complete three named hand controls for Director review. The single dominant-quota discriminator is a proposal only. Preserve D231 scientific and V3 operational evidence and every previous accepted, held, deferred and incomplete scope. No scientific discovery, checker or task module was invoked. Keep v15. [Proof](INDEPENDENT_HOST_CHAIN_HETEROGENEOUS_PAIR_SUPPLY.md) · [Handoff](../handoffs/CODEX-20261127-d232-independent-host-chain.md).
+
+## D232 Director acceptance and D233 bounded authority
+
+The Director accepts D232 at scientific checkpoint `36bf9cbec4d92631b387388da516ade717014cd7` within its exact unequal sparse, independent chain, simultaneous reservoir conditions, common even augmentation, physical grouping and strict comparison, named control and ordered dominant-L3 exclusion scopes. The Director directly verified live ancestry, all five D232 artifact SHA-256 identities, both protected upstream heads, baseline annotated tag and peel, D231 frozen continuity, all three named original, fold and reverse spectra and the 191 terminal endpoint differences. [D232 handoff](../handoffs/CODEX-20261127-d232-independent-host-chain.md)
+
+The Owner authorizes one bounded D233 symbolic construction, unit-partner decomposition and independent review, with static preparation conditional on a justified residual registration. Scientific discovery, solver execution, task imports, protected-checker invocation, installation and infrastructure revisions are outside the authority. Preserve all earlier scopes and evidence. KEEP v15.
