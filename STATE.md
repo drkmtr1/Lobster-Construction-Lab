@@ -216,7 +216,7 @@ D231's first fresh live admission stopped on a PowerShell timestamp-type compari
 
 ## One next action
 
-Qualify the corrected D231 operational path, then perform the sole Owner-authorized scientific invocation if all gates pass.
+Perform fresh admission using the qualified D231 V3 operational path and release the sole Owner-authorized scientific invocation if admitted.
 
 ## Deferred obligations
 

@@ -1,0 +1,60 @@
+[
+  {
+    "id": "one UTC tick changed",
+    "rejected": true,
+    "reason": "Cache creation time: runs/D231_EXECUTION_ADMISSION_RECOVERY_001/__init__.cpython-313.pyc.quarantined"
+  },
+  {
+    "id": "missing timezone",
+    "rejected": true,
+    "reason": "Expected strict timezone-aware ISO timestamp"
+  },
+  {
+    "id": "malformed ISO calendar",
+    "rejected": true,
+    "reason": "Exception calling \"ParseExact\" with \"4\" argument(s): \"The DateTime represented by the string '2026-13-21T06:25:49.9904096+00:00' is not supported in calendar 'System.Globalization.GregorianCalendar'.\""
+  },
+  {
+    "id": "incorrect hash",
+    "rejected": true,
+    "reason": "Cache hash: runs/D231_EXECUTION_ADMISSION_RECOVERY_001/__init__.cpython-313.pyc.quarantined"
+  },
+  {
+    "id": "incorrect size",
+    "rejected": true,
+    "reason": "Cache size or type: runs/D231_EXECUTION_ADMISSION_RECOVERY_001/__init__.cpython-313.pyc.quarantined"
+  },
+  {
+    "id": "missing file",
+    "rejected": true,
+    "reason": "Cannot find path 'runs\\D231_OPERATIONAL_QUALIFICATION_001\\pass-3\\missing' because it does not exist."
+  },
+  {
+    "id": "genuinely changed fixture bytes",
+    "rejected": true,
+    "reason": "Cache hash: runs\\D231_OPERATIONAL_QUALIFICATION_001\\pass-3\\cache-guard-fixture.dat"
+  },
+  {
+    "id": "genuine fixture truncation",
+    "rejected": true,
+    "reason": "Cache size or type: runs\\D231_OPERATIONAL_QUALIFICATION_001\\pass-3\\cache-guard-fixture.dat"
+  },
+  {
+    "id": "occupied destination",
+    "rejected": true,
+    "reason": "Occupied destination: runs\\D231_OPERATIONAL_QUALIFICATION_001\\pass-3\\immutable.json"
+  },
+  {
+    "id": "immutable overwrite",
+    "rejected": true,
+    "reason": "Exception calling \"Open\" with \"4\" argument(s): \"The file 'C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\runs\\D231_OPERATIONAL_QUALIFICATION_001\\pass-3\\immutable.json' already exists.\""
+  },
+  {
+    "rejected": true,
+    "id": "invalid receipt hash and coherent invalid decision"
+  },
+  {
+    "passed": true,
+    "id": "all seven exact metadata and independent offset-equivalence controls"
+  }
+]

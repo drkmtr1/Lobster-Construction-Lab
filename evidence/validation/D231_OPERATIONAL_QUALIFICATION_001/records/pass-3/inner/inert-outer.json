@@ -1,0 +1,41 @@
+{
+  "run_id": "D231_OPERATIONAL_QUALIFICATION_001-pass-3-inner",
+  "receipt": "runs\\D231_OPERATIONAL_QUALIFICATION_001\\pass-3\\inner\\admission.json",
+  "receipt_sha256": "72bc0d83bed71cab387bd46d80e723b7019e299b04afd9193d89ca1f1d0d1794",
+  "start_utc": "2026-11-28T01:16:59.0777412+00:00",
+  "end_utc": "2026-11-28T01:17:00.9741107+00:00",
+  "observer_argv": [
+    "-I",
+    "-S",
+    "-B",
+    "\"C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\research\\d231_operations\\observe_v1.py\"",
+    "\"C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\runs\\D231_OPERATIONAL_QUALIFICATION_001\\pass-3\\inner\\admission.json\"",
+    "72bc0d83bed71cab387bd46d80e723b7019e299b04afd9193d89ca1f1d0d1794"
+  ],
+  "observer_pid": 26416,
+  "observer_signaled": true,
+  "observer_exit": 1,
+  "outer_status": "NATURAL",
+  "error": null,
+  "outer_stop_seconds": 5.0,
+  "hard_seconds": 6.0,
+  "foreground_seconds": 1.896366,
+  "observer_cpu_seconds": 0.296875,
+  "outer_monitor_cpu_seconds": 1.9375,
+  "combined_cpu_seconds": 2.296875,
+  "cpu_ceiling_seconds": 6.0,
+  "member_exit": {
+    "suspended": {
+      "pid": 30876,
+      "signaled": true,
+      "cpu_seconds": 0.015625
+    },
+    "worker": {
+      "pid": 28172,
+      "signaled": true,
+      "cpu_seconds": 0.046875
+    }
+  },
+  "released": true,
+  "inner_sha256": "896cc254fc2e9e8cfa278003cc3cf7a7c2def3a8278045a287372a77b720aea5"
+}

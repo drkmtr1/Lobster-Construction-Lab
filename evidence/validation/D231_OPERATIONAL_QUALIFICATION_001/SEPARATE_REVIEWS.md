@@ -1,0 +1,15 @@
+# D231 separate V3 qualification reviews
+
+Three separate read-only reviewers inspected the actual V3 source, V2 failed test, V3 executed records, runtime references and accepted scientific identities. No reviewer executed a payload, imported the task, edited an artifact or accessed either upstream.
+
+## Operational correctness — PASS
+
+The reviewer independently recalculated all seven cache metadata and exact hash matches, 68,269 bytes total with original paths absent, and frozen/runtime hashes. The twelve executed controls covered timezone-aware UTC ticks, altered and malformed timestamps, missing or changed files, unsafe overwrite and occupied destinations, and both incorrect-byte and coherent-invalid receipts. All eight admission sections passed from the clean V3 checkpoint. Every inert receipt and observer hash matched; inert and scientific routes use distinct decisions, destinations and commands. A read-only direct collision check found no project or venv shadowing of the inspected standard-library names. The PathFinder probe's import order supports the observed clean host; this is not a general security guarantee against a deliberately hostile interpreter startup.
+
+## Containment and resource accounting — PASS
+
+V2's failed Job lifetime count of three was confirmed, as was V3's observed codepage 437 and creation flags 525316 with atomic at-creation Job assignment and no detached flag. V3 retained a noninheritable kill-on-close Job handle and restricted inheritable handles to the three streams. Each benign launcher was checked suspended in its Job with one active and lifetime member. Normal and inner runs recorded one resume, correct worker image, no active terminal members and exactly two lifetime members. The outer kill returned both retained PID/creation-bound handles signaled within 2.5236902 seconds. All expected benign streams were retained. Timing is pre-creation monotonic with a subtractive absolute deadline. Measured Job plus observer plus outer totals reconcile, with matching exact member-handle accounting on outer kill. Scientific closeout must retain actual worker image and terminal Job/lifetime evidence. Lifetime count alone cannot substitute for a missed short-lived worker image.
+
+## Evidence custody and frozen semantics — PASS
+
+All 26 scientific working hashes matched the approved manifest and the corresponding blobs at the preparation checkpoint. The protected checker, registration, source manifest and historical wrapper matched. The real receipt, launch and output paths remained vacant. Raw records for all four inert launches and three completed V3 cases matched their recorded receipts and available inner observation hashes. Normal and inner timeout drained the Job, and outer kill signaled observer and both retained members. Exactly 51 original inert evidence files totaling 49,618 bytes were reconciled before copy. The exclusive-write operational receipt and frozen scientific writer keep independent identities. A missing or partial record remains incomplete. This qualification introduces no scientific witness or classification and does not change any frozen algorithm or ceiling.

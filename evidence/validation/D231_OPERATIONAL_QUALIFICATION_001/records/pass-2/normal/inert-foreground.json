@@ -1,0 +1,73 @@
+{
+  "run_id": "D231_OPERATIONAL_QUALIFICATION_001-pass-2-normal",
+  "admission_sha256": "6ed25d4b5e3334250435de5d6765f195c91ca8079224b7ba2512cd74985c9e0a",
+  "arguments": [
+    "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv\\Scripts\\python.exe",
+    "-I",
+    "-S",
+    "-B",
+    "-c",
+    "import sys,time; print('D231 inert stdout',flush=True); print('D231 inert stderr',file=sys.stderr,flush=True); time.sleep(float(sys.argv[1]))",
+    "0.35"
+  ],
+  "native_sha256": "a5f0448841bdc639a5ed1d278fe4c416c524f190bcf09babb1dce4a7c0cfff16",
+  "start_utc": "2026-11-28T01:15:12.526734+00:00",
+  "scientific": false,
+  "resume_attempted": true,
+  "stop_reason": "RuntimeError: unexpected process count",
+  "worker": {
+    "pid": 32084,
+    "image": "C:\\Users\\Will\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+    "times": {
+      "born": 134403021125613280,
+      "end": 0,
+      "user": 0,
+      "kernel": 0
+    }
+  },
+  "job_limits": {
+    "native_user_ticks": 40000000,
+    "flags": 8204,
+    "active_limit": 2,
+    "end_action": 0,
+    "job_handle_inheritable": false
+  },
+  "suspended": {
+    "pid": 26736,
+    "image": "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv\\Scripts\\python.exe",
+    "in_job": true,
+    "times": {
+      "born": 134403021125298121,
+      "end": 0,
+      "user": 0,
+      "kernel": 0
+    },
+    "job": {
+      "user": 0,
+      "kernel": 0,
+      "period_user": 0,
+      "period_kernel": 0,
+      "faults": 528,
+      "lifetime": 1,
+      "active": 1,
+      "terminated": 0
+    }
+  },
+  "resume_previous_count": 1,
+  "termination_errors": [],
+  "job_final": {
+    "user": 0,
+    "kernel": 0,
+    "period_user": 0,
+    "period_kernel": 0,
+    "faults": 2595,
+    "lifetime": 3,
+    "active": 0,
+    "terminated": 0
+  },
+  "launcher_signaled": false,
+  "worker_signaled": false,
+  "foreground_seconds": 0.08539970000856556,
+  "observer_python_cpu_seconds": 0.03125,
+  "end_utc": "2026-11-28T01:15:12.579962+00:00"
+}

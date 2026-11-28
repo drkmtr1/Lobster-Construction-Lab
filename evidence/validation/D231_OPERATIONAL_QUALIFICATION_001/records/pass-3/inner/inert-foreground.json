@@ -1,0 +1,105 @@
+{
+  "run_id": "D231_OPERATIONAL_QUALIFICATION_001-pass-3-inner",
+  "admission_sha256": "72bc0d83bed71cab387bd46d80e723b7019e299b04afd9193d89ca1f1d0d1794",
+  "arguments": [
+    "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv\\Scripts\\python.exe",
+    "-I",
+    "-S",
+    "-B",
+    "-c",
+    "import sys,time; print('D231 inert stdout',flush=True); print('D231 inert stderr',file=sys.stderr,flush=True); time.sleep(float(sys.argv[1]))",
+    "10"
+  ],
+  "native_sha256": "a5f0448841bdc639a5ed1d278fe4c416c524f190bcf09babb1dce4a7c0cfff16",
+  "start_utc": "2026-11-28T01:16:59.320845+00:00",
+  "scientific": false,
+  "resume_attempted": true,
+  "stop_reason": "INNER_WALL",
+  "worker": {
+    "pid": 28172,
+    "image": "C:\\Users\\Will\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+    "times": {
+      "born": 134403022193493499,
+      "end": 0,
+      "user": 0,
+      "kernel": 0
+    }
+  },
+  "console_cp": 437,
+  "job_creation_flags": 525316,
+  "job_events": [
+    {
+      "message": 6,
+      "parameter": 30876,
+      "tick": 165949484
+    },
+    {
+      "message": 6,
+      "parameter": 28172,
+      "tick": 165949484
+    },
+    {
+      "message": 4,
+      "parameter": null,
+      "tick": 165951031
+    }
+  ],
+  "job_limits": {
+    "native_user_ticks": 40000000,
+    "flags": 8204,
+    "active_limit": 2,
+    "end_action": 0,
+    "job_handle_inheritable": false
+  },
+  "suspended": {
+    "pid": 30876,
+    "image": "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv\\Scripts\\python.exe",
+    "in_job": true,
+    "times": {
+      "born": 134403022193237415,
+      "end": 0,
+      "user": 0,
+      "kernel": 0
+    },
+    "job": {
+      "user": 0,
+      "kernel": 0,
+      "period_user": 0,
+      "period_kernel": 0,
+      "faults": 527,
+      "lifetime": 1,
+      "active": 1,
+      "terminated": 0
+    }
+  },
+  "resume_previous_count": 1,
+  "termination_errors": [],
+  "job_final": {
+    "user": 312500,
+    "kernel": 312500,
+    "period_user": 312500,
+    "period_kernel": 312500,
+    "faults": 3678,
+    "lifetime": 2,
+    "active": 0,
+    "terminated": 0
+  },
+  "launcher_signaled": true,
+  "launcher_exit_code": 3791912961,
+  "launcher_times": {
+    "born": 134403022193237415,
+    "end": 134403022208968111,
+    "user": 0,
+    "kernel": 156250
+  },
+  "worker_signaled": true,
+  "worker_times": {
+    "born": 134403022193493499,
+    "end": 134403022208967773,
+    "user": 312500,
+    "kernel": 156250
+  },
+  "foreground_seconds": 1.6185822999977972,
+  "observer_python_cpu_seconds": 0.078125,
+  "end_utc": "2026-11-28T01:17:00.907612+00:00"
+}
