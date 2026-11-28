@@ -244,7 +244,7 @@ foreach($case in @('normal','inner','outer')){
     Assert-D231 ($result.released -and $result.observer_signaled -and
         $result.foreground_seconds -le $result.hard_seconds -and $null -ne $result.combined_cpu_seconds -and $result.combined_cpu_seconds -lt 6) "Inert terminal accounting $case"
     foreach ($stream in @('stdout','stderr')) {
-        $str=Get-Content -Raw -LiteralPath ($target.prefix+"-$stream.txt")
+        [string]$str=Get-Content -Raw -LiteralPath ($target.prefix+"-$stream.txt")
         Assert-D231 ($str.Trim() -ceq "D231 inert $stream") "Inert stream mismatch $case/$stream"
     }
     $s=Read-D231Json ($target.prefix+'-suspended.json')

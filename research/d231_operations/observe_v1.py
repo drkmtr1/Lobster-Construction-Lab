@@ -92,6 +92,12 @@ def supervise(receipt, receipt_hash):
     n = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(n)
     n.verify_layout()
+    console_cp = n.api("GetConsoleCP", n.DWORD)()
+    if not console_cp:
+        raise RuntimeError("hidden observer requires an existing console")
+    # The venv redirector creates a console-subsystem child with default flags.
+    # Reuse the hidden observer console rather than requesting a detached tree.
+    creation_flags = n.WORKER_CREATION_FLAGS & ~n.DETACHED_PROCESS
     args = [str(exe), *child_args]
     paths = {suffix: prefix.with_name(prefix.name + "-" + suffix)
              for suffix in ("stdout.txt", "stderr.txt", "suspended.json", "released.json", "worker.json", "foreground.json")}
@@ -103,6 +109,9 @@ def supervise(receipt, receipt_hash):
               "resume_attempted": False, "stop_reason": None, "worker": None}
     proc = worker = None
     drained = False
+    report["console_cp"] = console_cp
+    report["job_creation_flags"] = creation_flags
+    report["job_events"] = []
     hard = started + data["inner_wall_seconds"]
     native_seconds = 899 if report["scientific"] else 4
     with ExitStack() as stack:
@@ -120,6 +129,13 @@ def supervise(receipt, receipt_hash):
                 or settings["end_action"] != 0 or settings["job_handle_inheritable"]
                 or n.accounting(job)["lifetime"]):
             raise RuntimeError("Job configuration mismatch")
+        port = n.attach_job_port(stack, job)
+        def collect_job_events():
+            for _ in range(32-len(report["job_events"])):
+                event = n.job_event(port.handle, job)
+                if event is None:
+                    break
+                report["job_events"].append(event)
         try:
             streams = [stack.enter_context(open(os.devnull, "rb")),
                        stack.enter_context(paths["stdout.txt"].open("xb")),
@@ -134,7 +150,7 @@ def supervise(receipt, receipt_hash):
                 startup.startup.length, startup.startup.flags = n.ct.sizeof(startup), 0x100
                 startup.startup.stdin, startup.startup.stdout, startup.startup.stderr = handles
                 startup.attributes = attrs
-                n.check(n.CreateProcess(str(exe), command, None, None, True, n.WORKER_CREATION_FLAGS,
+                n.check(n.CreateProcess(str(exe), command, None, None, True, creation_flags,
                                         None, str(ROOT), n.OUT(startup), n.OUT(info)))
             proc = stack.enter_context(n.Owned(info.process)).handle
             thread = stack.enter_context(n.Owned(info.thread)).handle
@@ -159,6 +175,7 @@ def supervise(receipt, receipt_hash):
                 raise RuntimeError("resume count")
             while True:
                 signaled = n.wait(proc, 10)
+                collect_job_events()
                 stats = n.accounting(job)
                 if stats["lifetime"] > 2:
                     raise RuntimeError("unexpected process count")
@@ -190,8 +207,12 @@ def supervise(receipt, receipt_hash):
             if not drained:
                 report["termination_errors"] = n.stop_worker(job, proc)
                 end = min(hard + .65, monotonic() + .65)
-                while n.accounting(job)["active"] and monotonic() < end:
+                while monotonic() < end:
+                    if (not n.accounting(job)["active"] and (proc is None or n.wait(proc, 0))
+                            and (worker is None or n.wait(worker, 0))):
+                        break
                     sleep(.01)
+            collect_job_events()
             report["job_final"] = n.accounting(job)
             report["launcher_signaled"] = bool(proc and n.wait(proc, 0))
             if report["launcher_signaled"]:
