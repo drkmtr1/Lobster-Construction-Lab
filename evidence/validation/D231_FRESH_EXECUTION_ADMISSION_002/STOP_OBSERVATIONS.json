@@ -1,0 +1,116 @@
+{
+  "id": "D231_FRESH_EXECUTION_ADMISSION_002",
+  "run_id": "d231-unequal-pair-return-kernel-001",
+  "disposition": "BLOCKED_AT_ADMISSION_NO_EXECUTION",
+  "cause": "OPERATOR_METADATA_COMPARISON_ERROR",
+  "failed_guard_report": "Quarantine custody mismatch: runs/D231_EXECUTION_ADMISSION_RECOVERY_001/__init__.cpython-313.pyc.quarantined",
+  "powershell_exit_code": 1,
+  "approved_preparation": "ba91a5873470256d889a171132817959054c98cc",
+  "execution_checkout": "4b18a8eb180eb84d7cf654daaa7ac00a3504e873",
+  "accepted_recovery": "40a00570adda5941b027be727d9c0f14aa97f33d",
+  "historical_blocked_admission": "0a461a9d922216e00620d11cb7d90135f804d23c",
+  "quarantine_entries_read_only_recheck": [
+    {
+      "path": "runs/D231_EXECUTION_ADMISSION_RECOVERY_001/__init__.cpython-313.pyc.quarantined",
+      "bytes": 254,
+      "sha256": "13ed31177a86852324cc6cbee78bd71383f0d49fe83798702ff80e4170d4342d",
+      "matches_creation": true,
+      "matches_write": true,
+      "identity_ok": true,
+      "original_absent": true,
+      "attributes": "Archive"
+    },
+    {
+      "path": "runs/D231_EXECUTION_ADMISSION_RECOVERY_001/budget.cpython-313.pyc.quarantined",
+      "bytes": 4013,
+      "sha256": "9783b521b3dc11f27a96c93c586cc652324a039145ab4a8e6d690f51af91a8b1",
+      "matches_creation": true,
+      "matches_write": true,
+      "identity_ok": true,
+      "original_absent": true,
+      "attributes": "Archive"
+    },
+    {
+      "path": "runs/D231_EXECUTION_ADMISSION_RECOVERY_001/engines.cpython-313.pyc.quarantined",
+      "bytes": 7774,
+      "sha256": "b9fb6220dccd1c2a96ae921bc864a75a23abf77f2c0a14bdddf216172bba737a",
+      "matches_creation": true,
+      "matches_write": true,
+      "identity_ok": true,
+      "original_absent": true,
+      "attributes": "Archive"
+    },
+    {
+      "path": "runs/D231_EXECUTION_ADMISSION_RECOVERY_001/model.cpython-313.pyc.quarantined",
+      "bytes": 16628,
+      "sha256": "8e24f96596e0646845acccc3fdedc756ab98751345ac7952a3bca6e14464ced3",
+      "matches_creation": true,
+      "matches_write": true,
+      "identity_ok": true,
+      "original_absent": true,
+      "attributes": "Archive"
+    },
+    {
+      "path": "runs/D231_EXECUTION_ADMISSION_RECOVERY_001/records.cpython-313.pyc.quarantined",
+      "bytes": 12380,
+      "sha256": "3d4b3a4256cd00e16b7f5af43bf602ded17acccdaf3238256261f5270fe994aa",
+      "matches_creation": true,
+      "matches_write": true,
+      "identity_ok": true,
+      "original_absent": true,
+      "attributes": "Archive"
+    },
+    {
+      "path": "runs/D231_EXECUTION_ADMISSION_RECOVERY_001/search.cpython-313.pyc.quarantined",
+      "bytes": 7016,
+      "sha256": "752e10deb6fbd490f6554ad5a9cd47d21c439f187d0f56111b58f1328169dc90",
+      "matches_creation": true,
+      "matches_write": true,
+      "identity_ok": true,
+      "original_absent": true,
+      "attributes": "Archive"
+    },
+    {
+      "path": "runs/D231_EXECUTION_ADMISSION_RECOVERY_001/verify.cpython-313.pyc.quarantined",
+      "bytes": 20204,
+      "sha256": "261e53265b9d37fb94e07e151c8581d13cfeec2021a266a498d365cdf127fc84",
+      "matches_creation": true,
+      "matches_write": true,
+      "identity_ok": true,
+      "original_absent": true,
+      "attributes": "Archive"
+    }
+  ],
+  "default_json_coercion_observation": {
+    "default_creation_type": "System.DateTime",
+    "default_last_write_type": "System.DateTime",
+    "raw_creation_comparison": false,
+    "raw_write_comparison": false,
+    "actual_creation": "2026-11-21T06:25:49.9904096Z",
+    "actual_write": "2026-11-21T06:25:49.9904096Z"
+  },
+  "observed_path_vacancies": {
+    "runs/d231-unequal-pair-return-kernel-001": true,
+    "evidence/runs/d231-unequal-pair-return-kernel-001": true,
+    "runs/d231-unequal-pair-return-kernel-001-admission.json": true,
+    "runs/d231-unequal-pair-return-kernel-001-foreground.json": true,
+    "runs/d231-unequal-pair-return-kernel-001-stdout.txt": true,
+    "runs/d231-unequal-pair-return-kernel-001-stderr.txt": true,
+    "runs/d231-unequal-pair-return-kernel-001-outer.json": true,
+    "runs/d231-unequal-pair-return-kernel-001-outer-stdout.txt": true,
+    "runs/d231-unequal-pair-return-kernel-001-outer-stderr.txt": true
+  },
+  "receipt_created": false,
+  "observer_started": false,
+  "driver_invocations": 0,
+  "residual_aggregates": {
+    "covered": 0,
+    "excluded": 0,
+    "unresolved": 29
+  },
+  "placements": {
+    "attempted": 0,
+    "unvisited": 322
+  },
+  "audit": "Post-stop forensic file and JSON metadata reads only; original admission was not rerun."
+}
