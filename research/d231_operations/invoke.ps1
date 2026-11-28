@@ -182,6 +182,15 @@ $changed.sha256=$row.before.sha256
 $changed.bytes=$row.before.bytes+1
 Expect-Reject 'incorrect size' { Assert-D231Cache $row.quarantined $changed } '^Cache size'
 Expect-Reject 'missing file' { Assert-D231Cache (Join-Path $folder 'missing') $changed } 'Cannot find path'
+$fixture=Join-Path $folder 'cache-guard-fixture.dat'
+[IO.File]::WriteAllBytes($fixture,[byte[]](17,64))
+$info=Get-Item -LiteralPath $fixture
+$bytesExpected=@{bytes=$info.Length;sha256=(Get-D231Hash $fixture);creation_utc=$info.CreationTimeUtc.ToString('o');last_write_utc=$info.LastWriteTimeUtc.ToString('o');attributes=$info.Attributes.ToString()}
+Assert-D231Cache $fixture $bytesExpected
+[IO.File]::WriteAllBytes($fixture,[byte[]](17,65))
+Expect-Reject 'genuinely changed fixture bytes' { Assert-D231Cache $fixture $bytesExpected } '^Cache hash:'
+[IO.File]::WriteAllBytes($fixture,[byte[]](17))
+Expect-Reject 'genuine fixture truncation' { Assert-D231Cache $fixture $bytesExpected } '^Cache size'
 $collision=Join-Path $folder 'immutable.json'
 Write-D231NewJson $collision @{payload='first'}
 $held=Get-D231Hash $collision

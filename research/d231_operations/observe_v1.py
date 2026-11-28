@@ -12,10 +12,10 @@ import subprocess
 import sys
 from time import monotonic, process_time, sleep
 
-VERSION = "D231-operations-v1"
 OPS = Path(__file__).resolve().parent
 ROOT = OPS.parent.parent
 CONFIG = json.loads((OPS / "identities.json").read_bytes())
+VERSION = CONFIG["version"]
 
 
 def utc():

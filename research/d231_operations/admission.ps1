@@ -17,10 +17,10 @@ function Get-D231Ticks($Iso) {
         [Globalization.CultureInfo]::InvariantCulture,[Globalization.DateTimeStyles]::None).UtcTicks
 }
 function Assert-D231PlainPath([string]$Path) {
-    $item = Get-Item -LiteralPath $Path -Force
+    $item = Get-Item -LiteralPath $Path -Force -ErrorAction Stop
     while ($null -ne $item) {
         Assert-D231 (!($item.Attributes -band [IO.FileAttributes]::ReparsePoint)) "Reparse ancestor: $($item.FullName)"
-        $item = if ($item.PSIsContainer) { $item.Parent } else { $item.Directory }
+        $item = if ($item -is [IO.DirectoryInfo]) { $item.Parent } else { $item.Directory }
     }
 }
 function Assert-D231Vacant([string]$Path) {
@@ -32,8 +32,8 @@ function Assert-D231Vacant([string]$Path) {
 }
 function Assert-D231Cache([string]$Path,$Expected) {
     Assert-D231PlainPath $Path
-    $item = Get-Item -LiteralPath $Path -Force
-    Assert-D231 (!$item.PSIsContainer -and $item.Length -eq $Expected.bytes) "Cache size or type: $Path"
+    $item = Get-Item -LiteralPath $Path -Force -ErrorAction Stop
+    Assert-D231 ($item -is [IO.FileInfo] -and $item.Length -eq $Expected.bytes) "Cache size or type: $Path"
     Assert-D231 ((Get-D231Hash $Path) -ceq $Expected.sha256) "Cache hash: $Path"
     Assert-D231 ($item.CreationTimeUtc.Ticks -eq (Get-D231Ticks $Expected.creation_utc)) "Cache creation time: $Path"
     Assert-D231 ($item.LastWriteTimeUtc.Ticks -eq (Get-D231Ticks $Expected.last_write_utc)) "Cache write time: $Path"
