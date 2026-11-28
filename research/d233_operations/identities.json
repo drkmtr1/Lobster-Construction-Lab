@@ -1,0 +1,50 @@
+{
+  "version": "D233-operations-v1",
+  "run_id": "d233-unit-partner-return-kernel-001",
+  "science": {
+    "output": "runs/d233-unit-partner-return-kernel-001",
+    "archive": "evidence/runs/d233-unit-partner-return-kernel-001",
+    "preparation": "22e3c86d3a2acbc5654ca4385ae4fd127e399f5d",
+    "manifest_path": "research/d233_unit_partner_kernel/source_manifest.json",
+    "manifest_sha256": "072f209bf1110342201c8e8edd841b63e075068227fba1d67f80b3bf407e54ea",
+    "registration_path": "research/d233_unit_partner_kernel/registration.json",
+    "registration_sha256": "2840da288676cfe0e4e57527888c0206fd49dfde7ba64bac7fb59a3cefa19a15",
+    "authority_checkpoint": "d9c3a50b4e4bd90efe9ce1514a231a2a4b4f9d18",
+    "history": [
+      "d9c3a50b4e4bd90efe9ce1514a231a2a4b4f9d18",
+      "22e3c86d3a2acbc5654ca4385ae4fd127e399f5d",
+      "4eef714acd2d453ef1aa050dd266c709544f09d4",
+      "36bf9cbec4d92631b387388da516ade717014cd7"
+    ],
+    "binding_count": 22,
+    "module": "research.d233_unit_partner_kernel.driver",
+    "decision": "AUTHORIZE_D233_EXECUTION",
+    "max_cpu_seconds": 1800,
+    "max_wall_seconds": 2400,
+    "inner_wall_seconds": 2398,
+    "outer_stop_seconds": 2399,
+    "job_user_seconds": 1799
+  },
+  "repos": {
+    "baseline_tag": "refs/tags/lcl-v0.1.0-baseline",
+    "baseline_object": "fddfc1dd9541324b2ed2de2505bc750b3e3f0b9d",
+    "baseline_peel": "36ea1603602491bf3c1c5b81ed4c23aaa2210e70",
+    "mdl": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+    "bounded": "e48b94eec4091b4fe189e325cab2eda464409943"
+  },
+  "referents": {
+    "inventory": "evidence/validation/D231_EXECUTION_ADMISSION_RECOVERY_001/CACHE_INVENTORY.json",
+    "inventory_sha256": "54dc7dec5be15b19af582b894dc0c481428ea53b3a475258ed7f5ecc093fd679",
+    "readiness": "evidence/validation/D231_EXECUTION_ADMISSION_RECOVERY_001/READINESS_OBSERVATIONS.json",
+    "readiness_sha256": "130473809f92d736139b13f19add9b0cfaf793877e11ccce42417f50cfe4a9f8",
+    "native": "research/d204_readiness_v9/native.py",
+    "historical_wrapper": "runs/d231-unequal-pair-return-kernel-001-foreground.py",
+    "outer_template": "evidence/validation/LCL_D204_INTERRUPTION_EVIDENCE_QUALIFICATION_003/V9_LAUNCH.ps1.txt",
+    "legacy_receipt": "evidence/runs/d229-homogeneous-pair-finite-kernel-001/admission.json",
+    "v3_qualification": "evidence/validation/D231_OPERATIONAL_QUALIFICATION_001/QUALIFIED.json",
+    "v3_qualification_sha256": "1d047630c5641a8e5b0e0d97a8c2e406e794bc862448735e2806802533a79731",
+    "observer": "research/d233_operations/observe_v1.py"
+  },
+  "qualification_root": "runs/D233_OPERATIONAL_QUALIFICATION_001",
+  "qualification_manifest": "evidence/validation/D233_OPERATIONAL_QUALIFICATION_001/QUALIFIED.json"
+}
