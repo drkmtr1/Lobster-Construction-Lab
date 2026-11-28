@@ -1,0 +1,19 @@
+# D233 — Operational sweep and V1 qualification
+
+**QUALIFIED FOR FRESH ADMISSION.** This record covers the actual D233-specific adapter. Scientific release remains subject to the exact qualified binding, fresh admission and the recorded Owner authority.
+
+The synchronized authority `d9c3a50b4e4bd90efe9ce1514a231a2a4b4f9d18` directly descends from accepted preparation `22e3c86d3a2acbc5654ca4385ae4fd127e399f5d`. The source-qualified checkout is `f77442b91218d3bc71fb2d674fbefb00ea2c191e`. The adapter binds one D233 entrypoint, exact scientific argv, manifest and registration hashes, declared destinations, supported runtime and immutable receipt. It reuses the V3 exact tick comparison, filesystem types, byte/blob checks, hidden console, retained V9 JOB_LIST at creation, restricted inherited handles, noninherited kill-on-close two-member Job, single resume, held process handles and monotonic watchdog. CPU and wall bindings are D233-specific. Absolute outer elapsed time starts before observer creation. Inner wall, outer trip and outer hard thresholds are 2,398, 2,399 and 2,400 seconds. The 1,799-second native Job user time limit and sampled CPU tripwire leave margin against the 1,800 measured combined CPU ceiling. The driver still has its frozen ordinary limits.
+
+The initial adaptation completed on the first full validation pass. No corrective revision or failed test launch occurred. The comprehensive sweep inspected PowerShell 7.6.9 explicit string deserialization and exact UTC ticks, genuine cache bytes and metadata, Python runtime hashes and no-shadowing bytecode-free import closure, actual Git refs and exit codes, sole writer and process checks, qualification bindings, argument construction, atomic receipt/destination vacancy, process identity and containment, monotonic deadlines, CPU accounting and archival byte preservation. Nine live admission checks passed on the synchronized source checkout. These included 22 frozen current-byte and preparation-blob bindings, 59 retained V3 bindings, the seven-object 68,269-byte quarantine and exact 20-path task/observer import closure. The preflight was non-scientific.
+
+Thirteen regressions established valid retained metadata, timezone-aware equivalence, rejection of one-tick drift and malformed or ambiguous times, rejection of genuinely changed bytes and size, missing path, occupied path and overwrite, receipt digest mismatch, coherent incorrect decision and coherent inappropriate inert timing. The raw records are preserved from the actual qualification pass.
+
+| Benign case | Outer disposition | Total measured CPU seconds | Foreground seconds |
+|---|---|---:|---:|
+| Normal | Natural, exits 0 | 0.375 | 0.7809878 |
+| Inner timeout | Inner wall stop, exit 1, no termination error | 2.125 | 1.8845098 |
+| Outer timeout | Outer wall kill, both born-time-matched member handles signal | 2.390625 | 2.5403369 |
+
+Three launches used 4.890625 combined CPU seconds and 5.2058345 foreground seconds. The normal and inner cases recorded one resume, lifetime two, active zero and launcher and worker signaled. In the outer hard-stop case the two held member times are used instead of a nonexistent terminal Job sum. The accounting adds Job user and kernel time once to the observer and outer monitor CPU. Final sidecar serialization follows the terminal timing sample. The normal and inner inert streams match their intended payload. No D233 scientific module or protected checker was imported or executed in qualification. All real destinations remained vacant.
+
+The archived pass contains 36 raw files totaling 32,874 bytes. The independent reviews cover operational correctness, containment and accounting, and evidence and frozen-science custody. Their pass results and exact source and record hashes are part of the qualification freeze.
