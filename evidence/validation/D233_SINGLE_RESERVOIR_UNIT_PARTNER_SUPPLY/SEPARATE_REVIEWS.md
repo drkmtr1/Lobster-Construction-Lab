@@ -1,0 +1,17 @@
+# D233 — Separate independent reviews
+
+## Mathematical review
+
+The independent read-only mathematical session `/root/d233_math` reviewed the actual manuscript, frozen originals and key controls. **PASS after correction of the proposed low-role argument and incorporation of independent path suppliers.** The reviewer subtracted all four sparse vacancy sets, checked the five forced LU coordinates and width-eight and odd-width cases, and independently derived the crossing counts. The reviewer checked all shared cut indicators, the exact safe interval, equality of resource embeddings and inheritance of both replacements and returns. The numerical thresholds, same-side capacities, both physical padding regimes, the binary core/cap prerequisite, reattachment and the stated strict comparisons passed.
+
+A lower inventory moment alone misses the lower input terms of all four LU rows. The reviewer checked the corrected full-moment exclusions for L1, L2 and L3, confirmed the constructed L3 boundary at n=6, and derived the unbounded L4 counter-supplier. The two symbolic L3/L4 path families supply seven of the original ten t=2 keys, including the special n=6,7,8 cases. Exactly 248 keys and 42,512 distinct placements remain at maximum 64 residual rows. All-low placement families remain admitted for the residual when legal.
+
+## Named evidence and scope review
+
+The independent read-only session `/root/d233_evidence` verified the frozen original profiles, each hand input and endpoint difference, the carried rows and omitted-row replacements, both return anchors and complete spectra. **PASS.** The reviewer independently recomputed 231 terminal differences across seven named original certificates, the 22 skeleton edges in each, every literal exterior exchange, all folded and reverse incidences and the branch-index transport to the exact earlier dominant-17 target. The reviewer independently confirmed the ordered counterexamples and the exact singleton-three anchor collision, and checked the two-low path scopes and residual count. All five D232 artifact bytes and all 26 D231 frozen bytes and preparation blob identities matched. The hand arithmetic did not invoke a scientific program.
+
+## Static implementation review
+
+The independent read-only session `/root/d233_implementation` examined the actual registry, row model, independent endpoint auditor, host-subset exhaustion, driver, contract, preflight and original definitions. **PASS for static preparation.** The reviewer checked all legal pair orderings and orientations, 248 aggregates, 42,512 placements, 64 residual rows and 97 original edges, and the independent pivot and subset semantics. The positive audit checks actual endpoints and every complete named graph before a positive, with explicit contrary-witness and rejected-positive preservation. The reviewer verified the caps, stop and immutable record interpretation and checked all 22 manifest hashes, the exact reachable local imports, vacant scientific paths and absence of new task bytecode. The protected checker appears only through a bound library import dependency of the future writer. Neither model invokes it. Actual fresh admission and D233 supervision qualification remain for any separately authorized future invocation.
+
+The reviews were conducted in separate sessions with no writes to evidence or project source. No task module, science, solver, protected checker or scientific executable was run under D233.

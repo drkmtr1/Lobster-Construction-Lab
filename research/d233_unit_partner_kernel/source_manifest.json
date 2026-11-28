@@ -1,0 +1,28 @@
+{
+  "schema": "lcl.d233.unit-partner-return-kernel.source-manifest.v1",
+  "scope": "static preparation only",
+  "sha256": {
+    "evidence/validation/D233_SINGLE_RESERVOIR_UNIT_PARTNER_SUPPLY/HAND_CONTROLS.md": "f720afb218402b2a3f72d41dea92f35c02c8577c4d7cda8499d4fa9c5b549409",
+    "evidence/validation/D233_SINGLE_RESERVOIR_UNIT_PARTNER_SUPPLY/ORIGINALS.md": "d13931f29a43830069cc4a9fb3c8b4c0c02e65348b85f69c895e89ffc979f21d",
+    "evidence/validation/D233_SINGLE_RESERVOIR_UNIT_PARTNER_SUPPLY/PREPARATION.md": "2cdd13e04d4c9bb653085d7c5397f03b588f9ef7313339e9fd33624bd3f412b3",
+    "lcl/__init__.py": "134055506d3e9cd4fa538177844d28a44d5ab567ec220cf54048e63d1a8a7374",
+    "lcl/budget.py": "02145a6b4bc10eda53d2f3736fdf082c1414f96905c71e74a407c0cefd73b16a",
+    "lcl/engines.py": "8a67ba56d97676b613f9fa89e18e30d8642d74d5c6ada7ec55f97733b0dc7207",
+    "lcl/model.py": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6",
+    "lcl/records.py": "ba7299dac2b3f2c1907c3cce40e0ba20c603b19fc8dcee2f9b2b0760b925391e",
+    "lcl/search.py": "f8291a3446e04422095131e4d75100ec9bfd3213d039d17ce83c04ec82d671ff",
+    "lcl/verify.py": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909",
+    "research/SINGLE_RESERVOIR_UNIT_PARTNER_SUPPLY.md": "f568e2dfb32693403aced333f713186bc69d81e5cf42e18fa89c5da35a85d1a7",
+    "research/d229_homogeneous_pair_kernel/audit.py": "afbe440e304798d4dc22d23898f6a8a4d4a810d7cae0cf94e64e7cbaa567781f",
+    "research/d229_homogeneous_pair_kernel/coverage.py": "e618a12e41f10d43ee7505bccd791cf19bb7489ceeeb32c7398ba748d68817fd",
+    "research/d229_homogeneous_pair_kernel/model.py": "c1d36ffc822c485089412597a9669643ee22e8c5cfb88bae5a9dd8eda5bde417",
+    "research/d229_homogeneous_pair_kernel/retained.py": "90e043fd07ae8fb26ae7d5dead70431bd9343f4280a841ebf85fd14645333410",
+    "research/d229_homogeneous_pair_kernel/search.py": "8919eacc7f605b45dac791fed07614ed557055d9d69da2267e72beaeb34a2af0",
+    "research/d231_unequal_pair_kernel/driver.py": "18e1087aaa110e9eca5dc6cca0b891373b5f463f014a907c050b1581a839fc96",
+    "research/d233_unit_partner_kernel/audit.py": "eccbfea4ae55454a9a422d07d09e56de91010acb58def0f9a82df7cbcb224d86",
+    "research/d233_unit_partner_kernel/driver.py": "5674e1728a8db077302f6245aff3daeedd795d4dbb55ebbac3e0ab61dba5cb43",
+    "research/d233_unit_partner_kernel/model.py": "8e5cf6dfe3401a990220e35eb59ed3470f1c29fd5e8f5f3140ba7a48a402e7e7",
+    "research/d233_unit_partner_kernel/registration.json": "2840da288676cfe0e4e57527888c0206fd49dfde7ba64bac7fb59a3cefa19a15",
+    "research/d233_unit_partner_kernel/registry.py": "6b5e4c1f6935101f6a67e4a462b3433b8cb7a0c2aad9df53c7206f550ea10c09"
+  }
+}
