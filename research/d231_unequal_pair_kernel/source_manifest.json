@@ -1,0 +1,32 @@
+{
+  "schema": "lcl.d231.unequal-pair-kernel.source-manifest.v1",
+  "scope": "static preparation only",
+  "sha256": {
+    "evidence/validation/D228_FINITE_STATE_BINARY_MULTIPLICITY_GROWTH/HAND_CONTROLS.md": "4f572cc98106e20fd976fc0b83662b7a6530ca49a5ce169b5549c3482cffa6f6",
+    "evidence/validation/D229_HOMOGENEOUS_PAIR_FINITE_KERNEL_SUPPLY/HAND_CONTROLS.md": "f231c7be67fd68ce08e2ac4bcf7980ca5966b42a4b460d4b48690b736eab92bb",
+    "evidence/validation/D231_INDEPENDENT_COORDINATE_INSERTION_SUPPLIER/HAND_CONTROLS.md": "0e8676c95f78cdc3a8f186cdb64f9321ac440d62192a0bea6c12ace35d7d46da",
+    "evidence/validation/D231_INDEPENDENT_COORDINATE_INSERTION_SUPPLIER/ORIGINALS.md": "e3ad5ddeb7870fa20fdb8c1d8bfbe5e2124e26ebf83549bf82dd610c102efee9",
+    "evidence/validation/D231_INDEPENDENT_COORDINATE_INSERTION_SUPPLIER/PREPARATION.md": "94be6bf611d76c540a03546287a2b4aa7d8735e3c685a961334663c36d98e434",
+    "evidence/validation/D231_INDEPENDENT_COORDINATE_INSERTION_SUPPLIER/SEPARATE_REVIEWS.md": "39619f73c84144f067cba773d11b47826a0554bb9c557625f23768f9e05e8ba0",
+    "lcl/__init__.py": "134055506d3e9cd4fa538177844d28a44d5ab567ec220cf54048e63d1a8a7374",
+    "lcl/budget.py": "02145a6b4bc10eda53d2f3736fdf082c1414f96905c71e74a407c0cefd73b16a",
+    "lcl/engines.py": "8a67ba56d97676b613f9fa89e18e30d8642d74d5c6ada7ec55f97733b0dc7207",
+    "lcl/model.py": "7cfe57895aaf6ec977f3ce6ff948ecdc6ed9d9629c4b28c603d57200db4849a6",
+    "lcl/records.py": "ba7299dac2b3f2c1907c3cce40e0ba20c603b19fc8dcee2f9b2b0760b925391e",
+    "lcl/search.py": "f8291a3446e04422095131e4d75100ec9bfd3213d039d17ce83c04ec82d671ff",
+    "lcl/verify.py": "230b852035a49eb2973a42730f31a5b94c733a92886dcc9158b50c3e94649909",
+    "research/FINITE_STATE_BINARY_MULTIPLICITY_GROWTH.md": "2febd36ea4318b65806a8e36494fc7d52625479624c6ee5c6b7c6a4c0fb2d7cd",
+    "research/HOMOGENEOUS_PAIR_FINITE_KERNEL_SUPPLY.md": "0cc5ffdd617563101cd41ae43b8d5b55686b2f30237b1fe5c198f4aa28d47eba",
+    "research/INDEPENDENT_COORDINATE_INSERTION_SUPPLIER.md": "b0f07205791a525c46e6771d647fba0b9e2482ec74340d77609604e025d084e1",
+    "research/PARAMETERIZED_INDEPENDENT_PAIR_QUOTA_GROWTH.md": "5ad9f2de49b94a61299d9c172ba25898d53fdb8e72e91ad2c31bd631a560953e",
+    "research/d229_homogeneous_pair_kernel/audit.py": "afbe440e304798d4dc22d23898f6a8a4d4a810d7cae0cf94e64e7cbaa567781f",
+    "research/d229_homogeneous_pair_kernel/coverage.py": "e618a12e41f10d43ee7505bccd791cf19bb7489ceeeb32c7398ba748d68817fd",
+    "research/d229_homogeneous_pair_kernel/model.py": "c1d36ffc822c485089412597a9669643ee22e8c5cfb88bae5a9dd8eda5bde417",
+    "research/d229_homogeneous_pair_kernel/retained.py": "90e043fd07ae8fb26ae7d5dead70431bd9343f4280a841ebf85fd14645333410",
+    "research/d229_homogeneous_pair_kernel/search.py": "8919eacc7f605b45dac791fed07614ed557055d9d69da2267e72beaeb34a2af0",
+    "research/d231_unequal_pair_kernel/audit.py": "a8286a642d1681e070758fdee78c288b8813d0ddf0fbef4d78d8e4d5b5d3e492",
+    "research/d231_unequal_pair_kernel/driver.py": "18e1087aaa110e9eca5dc6cca0b891373b5f463f014a907c050b1581a839fc96",
+    "research/d231_unequal_pair_kernel/model.py": "ce446d66e25dfc642dfd032c74e34d9c9713b1c9eeaa85558f29e1f3eab52842",
+    "research/d231_unequal_pair_kernel/registration.json": "298114c1d88e2da7ef7fc35fc72e97e7aabfddac059912d1f5af726ccb0a06f0"
+  }
+}

@@ -1000,3 +1000,7 @@ The cap X=(3,1,1,1;1,1,1,1) at S1 fails even when the two return anchors are omi
 ## D230 single-pair augmentation by uniform within-packet shift
 
 For a returning S2 packet, shifting every residual coordinate by p within its block and relocating the same two anchors fails for p=1,2 at returned input 2. At p≥3 the fresh isolated lower input p+2 forces a row at L₄ and excludes growth confined to a single pair other than offset 4. Confined growth at offset 4 cannot fill fresh upper weight p−2. At p=4 the remaining three choices with two pairs each growing by two also fail the same template by forced lower and crossing rows. This is an obstruction to that specific internal translation and fresh-only allocation; unrestricted jointly reallocating returning packets, other states, and ordinary gracefulness are outside its conclusion. [Exact argument](PARAMETERIZED_INDEPENDENT_PAIR_QUOTA_GROWTH.md#focused-unequal-augmentation-attempt-and-obstruction).
+
+## D231 crossing at an unreserved cut coordinate
+
+A double H₃ crossing at coordinate 8 sees opposite insertion indicators at the first pair-1 cuts, lower 10 and upper 8. A positive width on that cut breaks its required reflected zero displacement. The aligned supplier reserves identities at all such disagreement coordinates, which restores row preservation. This adverse calculation concerns the tested cut and unreserved crossing. [Exact cut argument](INDEPENDENT_COORDINATE_INSERTION_SUPPLIER.md#3-independent-cut-insertion-for-a-large-quota).

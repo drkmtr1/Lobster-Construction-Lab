@@ -1,0 +1,55 @@
+{
+  "run_id": "d231-unequal-pair-return-kernel-001",
+  "output": "runs/d231-unequal-pair-return-kernel-001",
+  "archive": "evidence/runs/d231-unequal-pair-return-kernel-001",
+  "source_h": 6,
+  "source_F": 11,
+  "source_beta": 2,
+  "target_h": 10,
+  "roles": [
+    [
+      "L1"
+    ],
+    [
+      "H1",
+      "L9"
+    ],
+    [
+      "L2",
+      "L3",
+      "L4",
+      "H2",
+      "H3",
+      "H4",
+      "L5",
+      "L6",
+      "L7",
+      "L8",
+      "L12",
+      "H5",
+      "H6",
+      "H7",
+      "H8"
+    ],
+    [
+      "L10"
+    ]
+  ],
+  "worker_count": 1,
+  "aggregate_keys": 29,
+  "ordered_placements": 322,
+  "max_packet_rows": 56,
+  "max_primary_frames": 57,
+  "max_audit_frames": 11,
+  "max_row_attempts": 360640,
+  "max_primary_nodes_per_placement": 200000,
+  "max_audit_nodes_per_placement": 400000,
+  "max_all_nodes": 25000000,
+  "work_cpu_seconds": 870,
+  "work_wall_seconds": 1170,
+  "max_cpu_seconds": 900,
+  "max_wall_seconds": 1200,
+  "max_records": 700,
+  "max_record_bytes": 65536,
+  "max_evidence_bytes": 16777216
+}
