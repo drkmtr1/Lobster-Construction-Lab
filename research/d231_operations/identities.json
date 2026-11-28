@@ -1,0 +1,43 @@
+{
+  "version": "D231-operations-v1",
+  "run_id": "d231-unequal-pair-return-kernel-001",
+  "science": {
+    "output": "runs/d231-unequal-pair-return-kernel-001",
+    "archive": "evidence/runs/d231-unequal-pair-return-kernel-001",
+    "preparation": "ba91a5873470256d889a171132817959054c98cc",
+    "manifest_path": "research/d231_unequal_pair_kernel/source_manifest.json",
+    "manifest_sha256": "ca2f6a00371c834e8c4c41c2a5aaf89270bd9dff042c6e0aefd10e8a6492ad41",
+    "registration_path": "research/d231_unequal_pair_kernel/registration.json",
+    "registration_sha256": "298114c1d88e2da7ef7fc35fc72e97e7aabfddac059912d1f5af726ccb0a06f0",
+    "authority_checkpoint": "239c1ca75f03ff5d8bf2c7bab193596492c57236",
+    "accepted_recovery": "40a00570adda5941b027be727d9c0f14aa97f33d",
+    "accepted_operator_stop": "45d5704e448888bcd6cfe3fe4fb6368a3a4af7ef",
+    "history": [
+      "239c1ca75f03ff5d8bf2c7bab193596492c57236",
+      "45d5704e448888bcd6cfe3fe4fb6368a3a4af7ef",
+      "4b18a8eb180eb84d7cf654daaa7ac00a3504e873",
+      "40a00570adda5941b027be727d9c0f14aa97f33d",
+      "0bb104e82f661de780e29f1a17bc5c4095bd1b75",
+      "0a461a9d922216e00620d11cb7d90135f804d23c",
+      "a6c4843c49c7c0327f3866f7c662f43267ee8934",
+      "ba91a5873470256d889a171132817959054c98cc"
+    ]
+  },
+  "repos": {
+    "baseline_tag": "refs/tags/lcl-v0.1.0-baseline",
+    "baseline_object": "fddfc1dd9541324b2ed2de2505bc750b3e3f0b9d",
+    "baseline_peel": "36ea1603602491bf3c1c5b81ed4c23aaa2210e70",
+    "mdl": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+    "bounded": "e48b94eec4091b4fe189e325cab2eda464409943"
+  },
+  "referents": {
+    "inventory": "evidence/validation/D231_EXECUTION_ADMISSION_RECOVERY_001/CACHE_INVENTORY.json",
+    "inventory_sha256": "54dc7dec5be15b19af582b894dc0c481428ea53b3a475258ed7f5ecc093fd679",
+    "readiness": "evidence/validation/D231_EXECUTION_ADMISSION_RECOVERY_001/READINESS_OBSERVATIONS.json",
+    "readiness_sha256": "130473809f92d736139b13f19add9b0cfaf793877e11ccce42417f50cfe4a9f8",
+    "native": "research/d204_readiness_v9/native.py",
+    "historical_wrapper": "runs/d231-unequal-pair-return-kernel-001-foreground.py",
+    "outer_template": "evidence/validation/LCL_D204_INTERRUPTION_EVIDENCE_QUALIFICATION_003/V9_LAUNCH.ps1.txt",
+    "legacy_receipt": "evidence/runs/d229-homogeneous-pair-finite-kernel-001/admission.json"
+  }
+}
