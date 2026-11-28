@@ -1,0 +1,195 @@
+{
+  "id": "D231_EXECUTION_ADMISSION_RECOVERY_001",
+  "authority_checkpoint": "0bb104e82f661de780e29f1a17bc5c4095bd1b75",
+  "quarantine": "runs/D231_EXECUTION_ADMISSION_RECOVERY_001",
+  "status": "QUARANTINE_VERIFIED",
+  "failure": null,
+  "process_observed_utc": "2026-11-28T00:34:21.3215073+00:00",
+  "pre_move_utc": "2026-11-28T00:34:21.6754766+00:00",
+  "verified_through_utc": "2026-11-28T00:34:21.7142063+00:00",
+  "move_count": 7,
+  "authorized_bytes": 68269,
+  "files": [
+    {
+      "original": "lcl/__pycache__/__init__.cpython-313.pyc",
+      "quarantined": "runs/D231_EXECUTION_ADMISSION_RECOVERY_001/__init__.cpython-313.pyc.quarantined",
+      "before": {
+        "bytes": 254,
+        "sha256": "13ed31177a86852324cc6cbee78bd71383f0d49fe83798702ff80e4170d4342d",
+        "creation_utc": "2026-11-21T06:25:49.9904096Z",
+        "last_write_utc": "2026-11-21T06:25:49.9904096Z",
+        "last_access_utc": "2026-11-28T00:26:24.7565352Z",
+        "attributes": "Archive"
+      },
+      "move_completed": true,
+      "after": {
+        "bytes": 254,
+        "sha256": "13ed31177a86852324cc6cbee78bd71383f0d49fe83798702ff80e4170d4342d",
+        "creation_utc": "2026-11-21T06:25:49.9904096Z",
+        "last_write_utc": "2026-11-21T06:25:49.9904096Z",
+        "last_access_utc": "2026-11-28T00:34:21.4605675Z",
+        "attributes": "Archive"
+      },
+      "original_absent": true,
+      "destination_present": true
+    },
+    {
+      "original": "lcl/__pycache__/budget.cpython-313.pyc",
+      "quarantined": "runs/D231_EXECUTION_ADMISSION_RECOVERY_001/budget.cpython-313.pyc.quarantined",
+      "before": {
+        "bytes": 4013,
+        "sha256": "9783b521b3dc11f27a96c93c586cc652324a039145ab4a8e6d690f51af91a8b1",
+        "creation_utc": "2026-11-21T06:25:50.1076003Z",
+        "last_write_utc": "2026-11-21T06:25:50.1086002Z",
+        "last_access_utc": "2026-11-28T00:26:24.8442383Z",
+        "attributes": "Archive"
+      },
+      "move_completed": true,
+      "after": {
+        "bytes": 4013,
+        "sha256": "9783b521b3dc11f27a96c93c586cc652324a039145ab4a8e6d690f51af91a8b1",
+        "creation_utc": "2026-11-21T06:25:50.1076003Z",
+        "last_write_utc": "2026-11-21T06:25:50.1086002Z",
+        "last_access_utc": "2026-11-28T00:34:21.5002921Z",
+        "attributes": "Archive"
+      },
+      "original_absent": true,
+      "destination_present": true
+    },
+    {
+      "original": "lcl/__pycache__/engines.cpython-313.pyc",
+      "quarantined": "runs/D231_EXECUTION_ADMISSION_RECOVERY_001/engines.cpython-313.pyc.quarantined",
+      "before": {
+        "bytes": 7774,
+        "sha256": "b9fb6220dccd1c2a96ae921bc864a75a23abf77f2c0a14bdddf216172bba737a",
+        "creation_utc": "2026-11-21T06:25:50.1376233Z",
+        "last_write_utc": "2026-11-21T06:25:50.1376233Z",
+        "last_access_utc": "2026-11-28T00:26:24.8837756Z",
+        "attributes": "Archive"
+      },
+      "move_completed": true,
+      "after": {
+        "bytes": 7774,
+        "sha256": "b9fb6220dccd1c2a96ae921bc864a75a23abf77f2c0a14bdddf216172bba737a",
+        "creation_utc": "2026-11-21T06:25:50.1376233Z",
+        "last_write_utc": "2026-11-21T06:25:50.1376233Z",
+        "last_access_utc": "2026-11-28T00:34:21.5382511Z",
+        "attributes": "Archive"
+      },
+      "original_absent": true,
+      "destination_present": true
+    },
+    {
+      "original": "lcl/__pycache__/model.cpython-313.pyc",
+      "quarantined": "runs/D231_EXECUTION_ADMISSION_RECOVERY_001/model.cpython-313.pyc.quarantined",
+      "before": {
+        "bytes": 16628,
+        "sha256": "8e24f96596e0646845acccc3fdedc756ab98751345ac7952a3bca6e14464ced3",
+        "creation_utc": "2026-11-21T06:25:50.0920805Z",
+        "last_write_utc": "2026-11-21T06:25:50.0920805Z",
+        "last_access_utc": "2026-11-28T00:26:24.9229505Z",
+        "attributes": "Archive"
+      },
+      "move_completed": true,
+      "after": {
+        "bytes": 16628,
+        "sha256": "8e24f96596e0646845acccc3fdedc756ab98751345ac7952a3bca6e14464ced3",
+        "creation_utc": "2026-11-21T06:25:50.0920805Z",
+        "last_write_utc": "2026-11-21T06:25:50.0920805Z",
+        "last_access_utc": "2026-11-28T00:34:21.5673937Z",
+        "attributes": "Archive"
+      },
+      "original_absent": true,
+      "destination_present": true
+    },
+    {
+      "original": "lcl/__pycache__/records.cpython-313.pyc",
+      "quarantined": "runs/D231_EXECUTION_ADMISSION_RECOVERY_001/records.cpython-313.pyc.quarantined",
+      "before": {
+        "bytes": 12380,
+        "sha256": "3d4b3a4256cd00e16b7f5af43bf602ded17acccdaf3238256261f5270fe994aa",
+        "creation_utc": "2026-11-21T06:25:50.1961473Z",
+        "last_write_utc": "2026-11-21T06:25:50.1961473Z",
+        "last_access_utc": "2026-11-28T00:26:24.9516065Z",
+        "attributes": "Archive"
+      },
+      "move_completed": true,
+      "after": {
+        "bytes": 12380,
+        "sha256": "3d4b3a4256cd00e16b7f5af43bf602ded17acccdaf3238256261f5270fe994aa",
+        "creation_utc": "2026-11-21T06:25:50.1961473Z",
+        "last_write_utc": "2026-11-21T06:25:50.1961473Z",
+        "last_access_utc": "2026-11-28T00:34:21.5994306Z",
+        "attributes": "Archive"
+      },
+      "original_absent": true,
+      "destination_present": true
+    },
+    {
+      "original": "lcl/__pycache__/search.cpython-313.pyc",
+      "quarantined": "runs/D231_EXECUTION_ADMISSION_RECOVERY_001/search.cpython-313.pyc.quarantined",
+      "before": {
+        "bytes": 7016,
+        "sha256": "752e10deb6fbd490f6554ad5a9cd47d21c439f187d0f56111b58f1328169dc90",
+        "creation_utc": "2026-11-21T06:25:50.1356199Z",
+        "last_write_utc": "2026-11-21T06:25:50.1356199Z",
+        "last_access_utc": "2026-11-28T00:26:24.9551458Z",
+        "attributes": "Archive"
+      },
+      "move_completed": true,
+      "after": {
+        "bytes": 7016,
+        "sha256": "752e10deb6fbd490f6554ad5a9cd47d21c439f187d0f56111b58f1328169dc90",
+        "creation_utc": "2026-11-21T06:25:50.1356199Z",
+        "last_write_utc": "2026-11-21T06:25:50.1356199Z",
+        "last_access_utc": "2026-11-28T00:34:21.6295018Z",
+        "attributes": "Archive"
+      },
+      "original_absent": true,
+      "destination_present": true
+    },
+    {
+      "original": "lcl/__pycache__/verify.cpython-313.pyc",
+      "quarantined": "runs/D231_EXECUTION_ADMISSION_RECOVERY_001/verify.cpython-313.pyc.quarantined",
+      "before": {
+        "bytes": 20204,
+        "sha256": "261e53265b9d37fb94e07e151c8581d13cfeec2021a266a498d365cdf127fc84",
+        "creation_utc": "2026-11-21T06:25:50.2196685Z",
+        "last_write_utc": "2026-11-21T06:25:50.2196685Z",
+        "last_access_utc": "2026-11-28T00:26:24.9758952Z",
+        "attributes": "Archive"
+      },
+      "move_completed": true,
+      "after": {
+        "bytes": 20204,
+        "sha256": "261e53265b9d37fb94e07e151c8581d13cfeec2021a266a498d365cdf127fc84",
+        "creation_utc": "2026-11-21T06:25:50.2196685Z",
+        "last_write_utc": "2026-11-21T06:25:50.2196685Z",
+        "last_access_utc": "2026-11-28T00:34:21.6573324Z",
+        "attributes": "Archive"
+      },
+      "original_absent": true,
+      "destination_present": true
+    }
+  ],
+  "preflight_observation": "Initial sandbox denied CIM process inspection before cache path checks or writes. A separate read-only OS-level observation and the authorized move operation confirmed zero matching project processes.",
+  "quarantine_policy": {
+    "git_ignored": true,
+    "git_tracked_objects": 0,
+    "path_redirects_found": 0,
+    "source_and_destination_same_volume": true,
+    "overwrite": false,
+    "objects_published": false
+  },
+  "unrelated_cache_files_left_at_source": [
+    "lcl/__pycache__/__main__.cpython-313.pyc",
+    "lcl/__pycache__/allocation.cpython-313.pyc",
+    "lcl/__pycache__/constructors.cpython-313.pyc",
+    "lcl/__pycache__/consumers.cpython-313.pyc",
+    "lcl/__pycache__/dp.cpython-313.pyc",
+    "lcl/__pycache__/experiments.cpython-313.pyc",
+    "lcl/__pycache__/ingest.cpython-313.pyc",
+    "lcl/__pycache__/oracle.cpython-313.pyc",
+    "lcl/__pycache__/states.cpython-313.pyc"
+  ]
+}
