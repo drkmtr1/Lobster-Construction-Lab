@@ -1,0 +1,115 @@
+{
+  "run_id": "d233-unit-partner-return-kernel-001",
+  "admission_sha256": "bba63844772ab09edc2d6441f63cffc2c19236906ae092bff5cd560c3f926640",
+  "arguments": [
+    "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-m",
+    "research.d233_unit_partner_kernel.driver",
+    "--admission",
+    "runs\\d233-unit-partner-return-kernel-001-admission.json",
+    "--admission-sha256",
+    "bba63844772ab09edc2d6441f63cffc2c19236906ae092bff5cd560c3f926640"
+  ],
+  "native_sha256": "a5f0448841bdc639a5ed1d278fe4c416c524f190bcf09babb1dce4a7c0cfff16",
+  "start_utc": "2026-11-28T03:08:12.413541+00:00",
+  "scientific": true,
+  "resume_attempted": true,
+  "stop_reason": null,
+  "worker": {
+    "pid": 9612,
+    "image": "C:\\Users\\Will\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+    "times": {
+      "born": 134403088924503671,
+      "end": 0,
+      "user": 0,
+      "kernel": 0
+    }
+  },
+  "console_cp": 437,
+  "job_creation_flags": 525316,
+  "job_events": [
+    {
+      "message": 6,
+      "parameter": 5660,
+      "tick": 172622593
+    },
+    {
+      "message": 6,
+      "parameter": 9612,
+      "tick": 172622593
+    },
+    {
+      "message": 7,
+      "parameter": 9612,
+      "tick": 174402968
+    },
+    {
+      "message": 7,
+      "parameter": 5660,
+      "tick": 174402968
+    },
+    {
+      "message": 4,
+      "parameter": null,
+      "tick": 174402968
+    }
+  ],
+  "job_limits": {
+    "native_user_ticks": 17990000000,
+    "flags": 8204,
+    "active_limit": 2,
+    "end_action": 0,
+    "job_handle_inheritable": false
+  },
+  "suspended": {
+    "pid": 5660,
+    "image": "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv\\Scripts\\python.exe",
+    "in_job": true,
+    "times": {
+      "born": 134403088924229639,
+      "end": 0,
+      "user": 0,
+      "kernel": 0
+    },
+    "job": {
+      "user": 0,
+      "kernel": 0,
+      "period_user": 0,
+      "period_kernel": 0,
+      "faults": 527,
+      "lifetime": 1,
+      "active": 1,
+      "terminated": 0
+    }
+  },
+  "resume_previous_count": 1,
+  "job_final": {
+    "user": 13093125000,
+    "kernel": 4608906250,
+    "period_user": 13093125000,
+    "period_kernel": 4608906250,
+    "faults": 17647,
+    "lifetime": 2,
+    "active": 0,
+    "terminated": 0
+  },
+  "launcher_signaled": true,
+  "launcher_exit_code": 1,
+  "launcher_times": {
+    "born": 134403088924229639,
+    "end": 134403106728379941,
+    "user": 0,
+    "kernel": 156250
+  },
+  "worker_signaled": true,
+  "worker_times": {
+    "born": 134403088924503671,
+    "end": 134403106728267016,
+    "user": 13093125000,
+    "kernel": 4608750000
+  },
+  "foreground_seconds": 1780.4619049999746,
+  "observer_python_cpu_seconds": 11.125,
+  "end_utc": "2026-11-28T03:37:52.841033+00:00"
+}

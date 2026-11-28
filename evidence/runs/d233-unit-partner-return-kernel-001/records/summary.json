@@ -1,0 +1,22 @@
+{
+  "complete_positive_coverage": false,
+  "completed_by_disposition": {
+    "COVERED": 202
+  },
+  "counters_before_summary": {
+    "cpu_seconds": 1770.0,
+    "nodes": {
+      "primary": 3414795
+    },
+    "row_attempts": {
+      "primary": 67500
+    },
+    "wall_seconds": 1780.1672177000146
+  },
+  "evidence_before_summary": {
+    "bytes": 1560685,
+    "records": 616
+  },
+  "stop_reason": "CPU",
+  "unfinished_aggregates": 46
+}

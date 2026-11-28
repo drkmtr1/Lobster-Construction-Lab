@@ -1,0 +1,154 @@
+{
+  "pass": true,
+  "checked_utc": "2026-11-28T03:08:11.7452698+00:00",
+  "checks": {
+    "checkout": {
+      "passed": true,
+      "value": "736218f5b16bc96defb4d568a4b0c2e74a65cec3"
+    },
+    "live_refs": {
+      "passed": true,
+      "value": {
+        "head": "736218f5b16bc96defb4d568a4b0c2e74a65cec3",
+        "tag": "fddfc1dd9541324b2ed2de2505bc750b3e3f0b9d",
+        "peel": "36ea1603602491bf3c1c5b81ed4c23aaa2210e70",
+        "mdl": "858a8c1fcfda87ba40bb1adee498a6131504a803",
+        "bounded": "e48b94eec4091b4fe189e325cab2eda464409943"
+      }
+    },
+    "scientific_bytes_and_blobs": {
+      "passed": true,
+      "value": 22
+    },
+    "destinations": {
+      "passed": true,
+      "value": [
+        "runs/d233-unit-partner-return-kernel-001",
+        "evidence/runs/d233-unit-partner-return-kernel-001",
+        "runs/d233-unit-partner-return-kernel-001-admission.json",
+        "runs/d233-unit-partner-return-kernel-001-stdout.txt",
+        "runs/d233-unit-partner-return-kernel-001-stderr.txt",
+        "runs/d233-unit-partner-return-kernel-001-suspended.json",
+        "runs/d233-unit-partner-return-kernel-001-released.json",
+        "runs/d233-unit-partner-return-kernel-001-worker.json",
+        "runs/d233-unit-partner-return-kernel-001-foreground.json",
+        "runs/d233-unit-partner-return-kernel-001-outer.json",
+        "runs/d233-unit-partner-return-kernel-001-outer-stdout.txt",
+        "runs/d233-unit-partner-return-kernel-001-outer-stderr.txt"
+      ]
+    },
+    "qualified_v3_custody": {
+      "passed": true,
+      "value": 59
+    },
+    "quarantine": {
+      "passed": true,
+      "value": 68269
+    },
+    "processes": {
+      "passed": true,
+      "value": 0
+    },
+    "runtime_files": {
+      "passed": true,
+      "value": {
+        "implementation": "cpython",
+        "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]",
+        "machine": "AMD64",
+        "executable": "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv\\Scripts\\python.exe",
+        "base_executable": "C:\\Users\\Will\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "prefix": "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv",
+        "base_prefix": "C:\\Users\\Will\\AppData\\Local\\Programs\\Python\\Python313",
+        "dont_write_bytecode": true,
+        "applicable_module_files": [
+          "lcl/__init__.py",
+          "lcl/budget.py",
+          "lcl/engines.py",
+          "lcl/model.py",
+          "lcl/records.py",
+          "lcl/search.py",
+          "lcl/verify.py",
+          "research/d229_homogeneous_pair_kernel/audit.py",
+          "research/d229_homogeneous_pair_kernel/coverage.py",
+          "research/d229_homogeneous_pair_kernel/model.py",
+          "research/d229_homogeneous_pair_kernel/retained.py",
+          "research/d229_homogeneous_pair_kernel/search.py",
+          "research/d231_unequal_pair_kernel/audit.py",
+          "research/d231_unequal_pair_kernel/driver.py",
+          "research/d231_unequal_pair_kernel/model.py",
+          "research/d204_readiness_v9/native.py"
+        ],
+        "startup_paths": [
+          "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab",
+          "C:\\Users\\Will\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip",
+          "C:\\Users\\Will\\AppData\\Local\\Programs\\Python\\Python313\\DLLs",
+          "C:\\Users\\Will\\AppData\\Local\\Programs\\Python\\Python313\\Lib",
+          "C:\\Users\\Will\\AppData\\Local\\Programs\\Python\\Python313",
+          "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv",
+          "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv\\Lib\\site-packages"
+        ],
+        "standard_library_shadow_checks": 22,
+        "uninvoked_optional_adapters": [
+          "networkx",
+          "sympy",
+          "z3"
+        ],
+        "lookup": "PathFinder only, no project or task modules imported",
+        "probe_cpu_seconds": 0.25,
+        "launcher_sha256": "4e67d9e9a3673aa7b6219f1280d5ec3f1b6c0d5bd98ea8688c72d0cb7582d664",
+        "base_sha256": "7c2fc2b303a4ee3cc14cc17b47bc6e8bca98c78792edd123b846a560da44b203",
+        "dll_sha256": "26026530507a7389e7892ce130e7c1753b32a2df03ec3721d45ad8c1705d40eb",
+        "venv_config_sha256": "78989c73c08f515aadaf1ec5f8f24929021b48b284f4efc907a04938634af28b",
+        "native_api_probe": {
+          "executable": "C:\\Users\\Will\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+          "kernel_exports_resolved": 10,
+          "source_modules_imported": 0,
+          "processes_or_jobs_created_by_probe": 0
+        }
+      }
+    },
+    "runtime_and_import_probe": {
+      "passed": true,
+      "value": {
+        "implementation": "cpython",
+        "version": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]",
+        "executable": "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv\\Scripts\\python.exe",
+        "base_executable": "C:\\Users\\Will\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "prefix": "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv",
+        "base_prefix": "C:\\Users\\Will\\AppData\\Local\\Programs\\Python\\Python313",
+        "machine": "AMD64",
+        "bound_source_paths": [
+          "lcl/__init__.py",
+          "lcl/budget.py",
+          "lcl/engines.py",
+          "lcl/model.py",
+          "lcl/records.py",
+          "lcl/search.py",
+          "lcl/verify.py",
+          "research/d204_readiness_v9/native.py",
+          "research/d229_homogeneous_pair_kernel/audit.py",
+          "research/d229_homogeneous_pair_kernel/coverage.py",
+          "research/d229_homogeneous_pair_kernel/model.py",
+          "research/d229_homogeneous_pair_kernel/retained.py",
+          "research/d229_homogeneous_pair_kernel/search.py",
+          "research/d231_unequal_pair_kernel/driver.py",
+          "research/d233_operations/observe_v1.py",
+          "research/d233_unit_partner_kernel/audit.py",
+          "research/d233_unit_partner_kernel/driver.py",
+          "research/d233_unit_partner_kernel/model.py",
+          "research/d233_unit_partner_kernel/registry.py"
+        ],
+        "startup_paths": [
+          "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab",
+          "C:\\Users\\Will\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip",
+          "C:\\Users\\Will\\AppData\\Local\\Programs\\Python\\Python313\\DLLs",
+          "C:\\Users\\Will\\AppData\\Local\\Programs\\Python\\Python313\\Lib",
+          "C:\\Users\\Will\\AppData\\Local\\Programs\\Python\\Python313",
+          "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv",
+          "C:\\Users\\Will\\Projects\\Lobster_Construction_Lab\\.venv\\Lib\\site-packages"
+        ],
+        "stdlib_shadow_checks": 22
+      }
+    }
+  }
+}

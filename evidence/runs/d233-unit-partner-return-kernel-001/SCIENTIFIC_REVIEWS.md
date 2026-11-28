@@ -1,0 +1,13 @@
+# D233 — Separate scientific closeout reviews
+
+## Mathematical closeout
+
+The independent read-only session `/root/d233_ops_correctness` regenerated the 248-key, 42,512-placement registry and reconstructed every positive from the raw snapshots with its own standard-library stdin verifier. **PASS within the retained partial evidence.** The review checked 6,992 reflected residual rows, 9,214 actual normalized lifted rows, 808 named original, fold and reversal spectra and digests, and 54,632 endpoint differences. Neither frozen science nor the protected checker was replayed.
+
+The review independently obtained 103 covered nonbinary keys, all remaining 46 unresolved, and 99 covered keys containing a quota-three partner. The missing set equals indices 167, 172–177, 208, 210 and 211–247, all t=4 with positive odd nonbinary partners. The nine caps and CPU interruption are incomplete attempts. Separately, frozen ordering and terminal arithmetic identify index 211, rank zero, with 486 attempts and 22,329 charges since the completed index 210 cap. The scope supports neither requested theorem instantiation. The reviewer verified the same-side capacity and conditional construction proof for the narrower theorem.
+
+## Evidence and supervision closeout
+
+The independent read-only session `/root/d233_ops_custody` verified the 617 untouched scientific records and all 11 live execution sidecars against their byte-identical archives. **PASS.** The raw-and-sidecar inventory (628 files, 1,577,215 bytes) independently hashes to `8dfea0d5e95b6641b6bc9347e5b7d91e5f612a6053bea0279694e79e32d44789`.
+
+The reviewer matched the actual hash-bound receipt, fresh admission, exact driver command, accepted preparation and execution checkout and the qualified V1 binding, both protected refs, baseline, runtime identities and historical D231 preservation. Suspended membership, one resume, exact launcher and worker, Job lifetime two and active zero, and all terminal handles were confirmed. The reviewer independently summed Job user/kernel, observer and monitor CPU to 1,796.03125 seconds and read the 1,780.7712846-second foreground observation. It confirmed driver stop `CPU`, exit 1, and no external kill. No corroborated-exclusion, contradiction or pending-audit record was present. Numeric summaries were checked directly from raw records. The raw 42,301 no-record placements comprise 42,300 unvisited and the single inferred interrupted placement. No raw artifact was overwritten. Both reviewer sessions were separate from the writer, made no workspace writes, and ran no search, task module or protected checker.

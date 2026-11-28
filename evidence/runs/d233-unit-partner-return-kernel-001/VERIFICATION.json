@@ -1,0 +1,5338 @@
+{
+  "aggregate_dispositions": {
+    "COVERED": 202,
+    "UNRESOLVED": 46
+  },
+  "subdomains": {
+    "nonbinary_only": {
+      "aggregates": {
+        "COVERED": 103,
+        "UNRESOLVED": 46
+      },
+      "placements": {
+        "VERIFIED_POSITIVE": 103,
+        "UNVISITED": 22767,
+        "PRIMARY_INCOMPLETE": 9,
+        "INTERRUPTED_UNRECORDED": 1
+      }
+    },
+    "includes_three": {
+      "aggregates": {
+        "COVERED": 99
+      },
+      "placements": {
+        "VERIFIED_POSITIVE": 99,
+        "UNVISITED": 19533
+      }
+    }
+  },
+  "summary": {
+    "complete_positive_coverage": false,
+    "completed_by_disposition": {
+      "COVERED": 202
+    },
+    "counters_before_summary": {
+      "cpu_seconds": 1770.0,
+      "nodes": {
+        "primary": 3414795
+      },
+      "row_attempts": {
+        "primary": 67500
+      },
+      "wall_seconds": 1780.1672177000146
+    },
+    "evidence_before_summary": {
+      "bytes": 1560685,
+      "records": 616
+    },
+    "stop_reason": "CPU",
+    "unfinished_aggregates": 46
+  },
+  "observed_aggregate_records": {
+    "COVERED": 202
+  },
+  "scientific_records": 617,
+  "scientific_bytes": 1561116,
+  "latest_durable_counters": {
+    "cpu_seconds": 1637.890625,
+    "nodes": {
+      "primary": 3192466
+    },
+    "row_attempts": {
+      "primary": 66546
+    },
+    "wall_seconds": 1647.3834235999966
+  },
+  "temporary_files": [],
+  "receipt_sha256": "bba63844772ab09edc2d6441f63cffc2c19236906ae092bff5cd560c3f926640",
+  "interrupted_placement": {
+    "key_index": 211,
+    "placement_index": 0,
+    "placement": [
+      [
+        7,
+        13,
+        1,
+        15
+      ],
+      [
+        1,
+        1,
+        15,
+        1
+      ]
+    ],
+    "aggregate": [
+      7,
+      13,
+      15,
+      15
+    ],
+    "row_attempts": 486,
+    "primary_charges": 22329,
+    "provenance": "terminal accounting and exact record prefix"
+  },
+  "measured_combined_cpu_seconds": 1796.03125,
+  "measured_foreground_seconds": 1780.7712846,
+  "residual_rows": 6992,
+  "lifted_rows": 9214,
+  "graph_digests": 808,
+  "endpoint_differences": 54632,
+  "placement_inventory": [
+    {
+      "index": 0,
+      "aggregate": [
+        1,
+        1,
+        7,
+        7
+      ],
+      "status": "COVERED",
+      "placements": 24,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 23
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 1,
+      "aggregate": [
+        1,
+        1,
+        7,
+        9
+      ],
+      "status": "COVERED",
+      "placements": 48,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 47
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 2,
+      "aggregate": [
+        1,
+        1,
+        9,
+        9
+      ],
+      "status": "COVERED",
+      "placements": 24,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 23
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 3,
+      "aggregate": [
+        1,
+        3,
+        3,
+        3
+      ],
+      "status": "COVERED",
+      "placements": 32,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 31
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 4,
+      "aggregate": [
+        1,
+        3,
+        3,
+        5
+      ],
+      "status": "COVERED",
+      "placements": 96,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 95
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 5,
+      "aggregate": [
+        1,
+        3,
+        3,
+        7
+      ],
+      "status": "COVERED",
+      "placements": 96,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 95
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 6,
+      "aggregate": [
+        1,
+        3,
+        3,
+        9
+      ],
+      "status": "COVERED",
+      "placements": 96,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 95
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 7,
+      "aggregate": [
+        1,
+        3,
+        3,
+        11
+      ],
+      "status": "COVERED",
+      "placements": 96,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 95
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 8,
+      "aggregate": [
+        1,
+        3,
+        5,
+        5
+      ],
+      "status": "COVERED",
+      "placements": 96,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 95
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 9,
+      "aggregate": [
+        1,
+        3,
+        5,
+        7
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 10,
+      "aggregate": [
+        1,
+        3,
+        5,
+        9
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 11,
+      "aggregate": [
+        1,
+        3,
+        5,
+        11
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 12,
+      "aggregate": [
+        1,
+        3,
+        7,
+        7
+      ],
+      "status": "COVERED",
+      "placements": 96,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 95
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 13,
+      "aggregate": [
+        1,
+        3,
+        7,
+        9
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 14,
+      "aggregate": [
+        1,
+        3,
+        7,
+        11
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 15,
+      "aggregate": [
+        1,
+        3,
+        9,
+        9
+      ],
+      "status": "COVERED",
+      "placements": 96,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 95
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 16,
+      "aggregate": [
+        1,
+        3,
+        9,
+        11
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 17,
+      "aggregate": [
+        1,
+        3,
+        11,
+        11
+      ],
+      "status": "COVERED",
+      "placements": 96,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 95
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 18,
+      "aggregate": [
+        1,
+        5,
+        5,
+        5
+      ],
+      "status": "COVERED",
+      "placements": 32,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 31
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 19,
+      "aggregate": [
+        1,
+        5,
+        5,
+        7
+      ],
+      "status": "COVERED",
+      "placements": 96,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 95
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 20,
+      "aggregate": [
+        1,
+        5,
+        5,
+        9
+      ],
+      "status": "COVERED",
+      "placements": 96,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 95
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 21,
+      "aggregate": [
+        1,
+        5,
+        5,
+        11
+      ],
+      "status": "COVERED",
+      "placements": 96,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 95
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 22,
+      "aggregate": [
+        1,
+        5,
+        7,
+        7
+      ],
+      "status": "COVERED",
+      "placements": 96,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 95
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 23,
+      "aggregate": [
+        1,
+        5,
+        7,
+        9
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 24,
+      "aggregate": [
+        1,
+        5,
+        7,
+        11
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 25,
+      "aggregate": [
+        1,
+        5,
+        9,
+        9
+      ],
+      "status": "COVERED",
+      "placements": 96,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 95
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 26,
+      "aggregate": [
+        1,
+        5,
+        9,
+        11
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 27,
+      "aggregate": [
+        1,
+        5,
+        11,
+        11
+      ],
+      "status": "COVERED",
+      "placements": 96,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 95
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 28,
+      "aggregate": [
+        1,
+        7,
+        7,
+        7
+      ],
+      "status": "COVERED",
+      "placements": 32,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 31
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 29,
+      "aggregate": [
+        1,
+        7,
+        7,
+        9
+      ],
+      "status": "COVERED",
+      "placements": 96,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 95
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 30,
+      "aggregate": [
+        1,
+        7,
+        7,
+        11
+      ],
+      "status": "COVERED",
+      "placements": 96,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 95
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 31,
+      "aggregate": [
+        1,
+        7,
+        9,
+        9
+      ],
+      "status": "COVERED",
+      "placements": 96,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 95
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 32,
+      "aggregate": [
+        1,
+        7,
+        9,
+        11
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 33,
+      "aggregate": [
+        1,
+        7,
+        11,
+        11
+      ],
+      "status": "COVERED",
+      "placements": 96,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 95
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 34,
+      "aggregate": [
+        1,
+        9,
+        9,
+        9
+      ],
+      "status": "COVERED",
+      "placements": 32,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 31
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 35,
+      "aggregate": [
+        1,
+        9,
+        9,
+        11
+      ],
+      "status": "COVERED",
+      "placements": 96,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 95
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 36,
+      "aggregate": [
+        1,
+        9,
+        11,
+        11
+      ],
+      "status": "COVERED",
+      "placements": 96,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 95
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 37,
+      "aggregate": [
+        1,
+        11,
+        11,
+        11
+      ],
+      "status": "COVERED",
+      "placements": 32,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 31
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 38,
+      "aggregate": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "status": "COVERED",
+      "placements": 16,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 15
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 39,
+      "aggregate": [
+        3,
+        3,
+        3,
+        5
+      ],
+      "status": "COVERED",
+      "placements": 64,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 63
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 40,
+      "aggregate": [
+        3,
+        3,
+        3,
+        7
+      ],
+      "status": "COVERED",
+      "placements": 64,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 63
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 41,
+      "aggregate": [
+        3,
+        3,
+        3,
+        9
+      ],
+      "status": "COVERED",
+      "placements": 64,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 63
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 42,
+      "aggregate": [
+        3,
+        3,
+        3,
+        11
+      ],
+      "status": "COVERED",
+      "placements": 64,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 63
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 43,
+      "aggregate": [
+        3,
+        3,
+        3,
+        13
+      ],
+      "status": "COVERED",
+      "placements": 64,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 63
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 44,
+      "aggregate": [
+        3,
+        3,
+        3,
+        15
+      ],
+      "status": "COVERED",
+      "placements": 64,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 63
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 45,
+      "aggregate": [
+        3,
+        3,
+        5,
+        5
+      ],
+      "status": "COVERED",
+      "placements": 96,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 95
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 46,
+      "aggregate": [
+        3,
+        3,
+        5,
+        7
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 47,
+      "aggregate": [
+        3,
+        3,
+        5,
+        9
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 48,
+      "aggregate": [
+        3,
+        3,
+        5,
+        11
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 49,
+      "aggregate": [
+        3,
+        3,
+        5,
+        13
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 50,
+      "aggregate": [
+        3,
+        3,
+        5,
+        15
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 51,
+      "aggregate": [
+        3,
+        3,
+        7,
+        7
+      ],
+      "status": "COVERED",
+      "placements": 96,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 95
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 52,
+      "aggregate": [
+        3,
+        3,
+        7,
+        9
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 53,
+      "aggregate": [
+        3,
+        3,
+        7,
+        11
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 54,
+      "aggregate": [
+        3,
+        3,
+        7,
+        13
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 55,
+      "aggregate": [
+        3,
+        3,
+        7,
+        15
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 56,
+      "aggregate": [
+        3,
+        3,
+        9,
+        9
+      ],
+      "status": "COVERED",
+      "placements": 96,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 95
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 57,
+      "aggregate": [
+        3,
+        3,
+        9,
+        11
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 58,
+      "aggregate": [
+        3,
+        3,
+        9,
+        13
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 59,
+      "aggregate": [
+        3,
+        3,
+        9,
+        15
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 60,
+      "aggregate": [
+        3,
+        3,
+        11,
+        11
+      ],
+      "status": "COVERED",
+      "placements": 96,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 95
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 61,
+      "aggregate": [
+        3,
+        3,
+        11,
+        13
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 62,
+      "aggregate": [
+        3,
+        3,
+        11,
+        15
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 63,
+      "aggregate": [
+        3,
+        3,
+        13,
+        13
+      ],
+      "status": "COVERED",
+      "placements": 96,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 95
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 64,
+      "aggregate": [
+        3,
+        3,
+        13,
+        15
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 65,
+      "aggregate": [
+        3,
+        3,
+        15,
+        15
+      ],
+      "status": "COVERED",
+      "placements": 96,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 95
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 66,
+      "aggregate": [
+        3,
+        5,
+        5,
+        5
+      ],
+      "status": "COVERED",
+      "placements": 64,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 63
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 67,
+      "aggregate": [
+        3,
+        5,
+        5,
+        7
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 68,
+      "aggregate": [
+        3,
+        5,
+        5,
+        9
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 69,
+      "aggregate": [
+        3,
+        5,
+        5,
+        11
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 70,
+      "aggregate": [
+        3,
+        5,
+        5,
+        13
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 71,
+      "aggregate": [
+        3,
+        5,
+        5,
+        15
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 72,
+      "aggregate": [
+        3,
+        5,
+        7,
+        7
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 73,
+      "aggregate": [
+        3,
+        5,
+        7,
+        9
+      ],
+      "status": "COVERED",
+      "placements": 384,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 383
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 74,
+      "aggregate": [
+        3,
+        5,
+        7,
+        11
+      ],
+      "status": "COVERED",
+      "placements": 384,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 383
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 75,
+      "aggregate": [
+        3,
+        5,
+        7,
+        13
+      ],
+      "status": "COVERED",
+      "placements": 384,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 383
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 76,
+      "aggregate": [
+        3,
+        5,
+        7,
+        15
+      ],
+      "status": "COVERED",
+      "placements": 384,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 383
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 77,
+      "aggregate": [
+        3,
+        5,
+        9,
+        9
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 78,
+      "aggregate": [
+        3,
+        5,
+        9,
+        11
+      ],
+      "status": "COVERED",
+      "placements": 384,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 383
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 79,
+      "aggregate": [
+        3,
+        5,
+        9,
+        13
+      ],
+      "status": "COVERED",
+      "placements": 384,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 383
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 80,
+      "aggregate": [
+        3,
+        5,
+        9,
+        15
+      ],
+      "status": "COVERED",
+      "placements": 384,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 383
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 81,
+      "aggregate": [
+        3,
+        5,
+        11,
+        11
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 82,
+      "aggregate": [
+        3,
+        5,
+        11,
+        13
+      ],
+      "status": "COVERED",
+      "placements": 384,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 383
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 83,
+      "aggregate": [
+        3,
+        5,
+        11,
+        15
+      ],
+      "status": "COVERED",
+      "placements": 384,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 383
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 84,
+      "aggregate": [
+        3,
+        5,
+        13,
+        13
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 85,
+      "aggregate": [
+        3,
+        5,
+        13,
+        15
+      ],
+      "status": "COVERED",
+      "placements": 384,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 383
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 86,
+      "aggregate": [
+        3,
+        5,
+        15,
+        15
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 87,
+      "aggregate": [
+        3,
+        7,
+        7,
+        7
+      ],
+      "status": "COVERED",
+      "placements": 64,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 63
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 88,
+      "aggregate": [
+        3,
+        7,
+        7,
+        9
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 89,
+      "aggregate": [
+        3,
+        7,
+        7,
+        11
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 90,
+      "aggregate": [
+        3,
+        7,
+        7,
+        13
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 91,
+      "aggregate": [
+        3,
+        7,
+        7,
+        15
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 92,
+      "aggregate": [
+        3,
+        7,
+        9,
+        9
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 93,
+      "aggregate": [
+        3,
+        7,
+        9,
+        11
+      ],
+      "status": "COVERED",
+      "placements": 384,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 383
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 94,
+      "aggregate": [
+        3,
+        7,
+        9,
+        13
+      ],
+      "status": "COVERED",
+      "placements": 384,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 383
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 95,
+      "aggregate": [
+        3,
+        7,
+        9,
+        15
+      ],
+      "status": "COVERED",
+      "placements": 384,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 383
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 96,
+      "aggregate": [
+        3,
+        7,
+        11,
+        11
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 97,
+      "aggregate": [
+        3,
+        7,
+        11,
+        13
+      ],
+      "status": "COVERED",
+      "placements": 384,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 383
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 98,
+      "aggregate": [
+        3,
+        7,
+        11,
+        15
+      ],
+      "status": "COVERED",
+      "placements": 384,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 383
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 99,
+      "aggregate": [
+        3,
+        7,
+        13,
+        13
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 100,
+      "aggregate": [
+        3,
+        7,
+        13,
+        15
+      ],
+      "status": "COVERED",
+      "placements": 384,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 383
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 101,
+      "aggregate": [
+        3,
+        7,
+        15,
+        15
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 102,
+      "aggregate": [
+        3,
+        9,
+        9,
+        9
+      ],
+      "status": "COVERED",
+      "placements": 64,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 63
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 103,
+      "aggregate": [
+        3,
+        9,
+        9,
+        11
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 104,
+      "aggregate": [
+        3,
+        9,
+        9,
+        13
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 105,
+      "aggregate": [
+        3,
+        9,
+        9,
+        15
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 106,
+      "aggregate": [
+        3,
+        9,
+        11,
+        11
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 107,
+      "aggregate": [
+        3,
+        9,
+        11,
+        13
+      ],
+      "status": "COVERED",
+      "placements": 384,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 383
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 108,
+      "aggregate": [
+        3,
+        9,
+        11,
+        15
+      ],
+      "status": "COVERED",
+      "placements": 384,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 383
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 109,
+      "aggregate": [
+        3,
+        9,
+        13,
+        13
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 110,
+      "aggregate": [
+        3,
+        9,
+        13,
+        15
+      ],
+      "status": "COVERED",
+      "placements": 384,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 383
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 111,
+      "aggregate": [
+        3,
+        9,
+        15,
+        15
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 112,
+      "aggregate": [
+        3,
+        11,
+        11,
+        11
+      ],
+      "status": "COVERED",
+      "placements": 64,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 63
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 113,
+      "aggregate": [
+        3,
+        11,
+        11,
+        13
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 114,
+      "aggregate": [
+        3,
+        11,
+        11,
+        15
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 115,
+      "aggregate": [
+        3,
+        11,
+        13,
+        13
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 116,
+      "aggregate": [
+        3,
+        11,
+        13,
+        15
+      ],
+      "status": "COVERED",
+      "placements": 384,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 383
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 117,
+      "aggregate": [
+        3,
+        11,
+        15,
+        15
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 118,
+      "aggregate": [
+        3,
+        13,
+        13,
+        13
+      ],
+      "status": "COVERED",
+      "placements": 64,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 63
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 119,
+      "aggregate": [
+        3,
+        13,
+        13,
+        15
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 120,
+      "aggregate": [
+        3,
+        13,
+        15,
+        15
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 121,
+      "aggregate": [
+        3,
+        15,
+        15,
+        15
+      ],
+      "status": "COVERED",
+      "placements": 64,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 63
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 122,
+      "aggregate": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "status": "COVERED",
+      "placements": 16,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 15
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 123,
+      "aggregate": [
+        5,
+        5,
+        5,
+        7
+      ],
+      "status": "COVERED",
+      "placements": 64,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 63
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 124,
+      "aggregate": [
+        5,
+        5,
+        5,
+        9
+      ],
+      "status": "COVERED",
+      "placements": 64,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 63
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 125,
+      "aggregate": [
+        5,
+        5,
+        5,
+        11
+      ],
+      "status": "COVERED",
+      "placements": 64,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 63
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 126,
+      "aggregate": [
+        5,
+        5,
+        5,
+        13
+      ],
+      "status": "COVERED",
+      "placements": 64,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 63
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 127,
+      "aggregate": [
+        5,
+        5,
+        5,
+        15
+      ],
+      "status": "COVERED",
+      "placements": 64,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 63
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 128,
+      "aggregate": [
+        5,
+        5,
+        7,
+        7
+      ],
+      "status": "COVERED",
+      "placements": 96,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 95
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 129,
+      "aggregate": [
+        5,
+        5,
+        7,
+        9
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 130,
+      "aggregate": [
+        5,
+        5,
+        7,
+        11
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 131,
+      "aggregate": [
+        5,
+        5,
+        7,
+        13
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 132,
+      "aggregate": [
+        5,
+        5,
+        7,
+        15
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 133,
+      "aggregate": [
+        5,
+        5,
+        9,
+        9
+      ],
+      "status": "COVERED",
+      "placements": 96,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 95
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 134,
+      "aggregate": [
+        5,
+        5,
+        9,
+        11
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 135,
+      "aggregate": [
+        5,
+        5,
+        9,
+        13
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 136,
+      "aggregate": [
+        5,
+        5,
+        9,
+        15
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 137,
+      "aggregate": [
+        5,
+        5,
+        11,
+        11
+      ],
+      "status": "COVERED",
+      "placements": 96,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 95
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 138,
+      "aggregate": [
+        5,
+        5,
+        11,
+        13
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 139,
+      "aggregate": [
+        5,
+        5,
+        11,
+        15
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 140,
+      "aggregate": [
+        5,
+        5,
+        13,
+        13
+      ],
+      "status": "COVERED",
+      "placements": 96,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 95
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 141,
+      "aggregate": [
+        5,
+        5,
+        13,
+        15
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 142,
+      "aggregate": [
+        5,
+        5,
+        15,
+        15
+      ],
+      "status": "COVERED",
+      "placements": 96,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 95
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 143,
+      "aggregate": [
+        5,
+        7,
+        7,
+        7
+      ],
+      "status": "COVERED",
+      "placements": 64,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 63
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 144,
+      "aggregate": [
+        5,
+        7,
+        7,
+        9
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 145,
+      "aggregate": [
+        5,
+        7,
+        7,
+        11
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 146,
+      "aggregate": [
+        5,
+        7,
+        7,
+        13
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 147,
+      "aggregate": [
+        5,
+        7,
+        7,
+        15
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 148,
+      "aggregate": [
+        5,
+        7,
+        9,
+        9
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 149,
+      "aggregate": [
+        5,
+        7,
+        9,
+        11
+      ],
+      "status": "COVERED",
+      "placements": 384,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 383
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 150,
+      "aggregate": [
+        5,
+        7,
+        9,
+        13
+      ],
+      "status": "COVERED",
+      "placements": 384,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 383
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 151,
+      "aggregate": [
+        5,
+        7,
+        9,
+        15
+      ],
+      "status": "COVERED",
+      "placements": 384,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 383
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 152,
+      "aggregate": [
+        5,
+        7,
+        11,
+        11
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 153,
+      "aggregate": [
+        5,
+        7,
+        11,
+        13
+      ],
+      "status": "COVERED",
+      "placements": 384,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 383
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 154,
+      "aggregate": [
+        5,
+        7,
+        11,
+        15
+      ],
+      "status": "COVERED",
+      "placements": 384,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 383
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 155,
+      "aggregate": [
+        5,
+        7,
+        13,
+        13
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 156,
+      "aggregate": [
+        5,
+        7,
+        13,
+        15
+      ],
+      "status": "COVERED",
+      "placements": 384,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 383
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 157,
+      "aggregate": [
+        5,
+        7,
+        15,
+        15
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 158,
+      "aggregate": [
+        5,
+        9,
+        9,
+        9
+      ],
+      "status": "COVERED",
+      "placements": 64,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 63
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 159,
+      "aggregate": [
+        5,
+        9,
+        9,
+        11
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 160,
+      "aggregate": [
+        5,
+        9,
+        9,
+        13
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 161,
+      "aggregate": [
+        5,
+        9,
+        9,
+        15
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 162,
+      "aggregate": [
+        5,
+        9,
+        11,
+        11
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 163,
+      "aggregate": [
+        5,
+        9,
+        11,
+        13
+      ],
+      "status": "COVERED",
+      "placements": 384,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 383
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 164,
+      "aggregate": [
+        5,
+        9,
+        11,
+        15
+      ],
+      "status": "COVERED",
+      "placements": 384,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 383
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 165,
+      "aggregate": [
+        5,
+        9,
+        13,
+        13
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 166,
+      "aggregate": [
+        5,
+        9,
+        13,
+        15
+      ],
+      "status": "COVERED",
+      "placements": 384,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 383
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 167,
+      "aggregate": [
+        5,
+        9,
+        15,
+        15
+      ],
+      "status": "UNRESOLVED",
+      "placements": 192,
+      "counts": {
+        "PRIMARY_INCOMPLETE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "PRIMARY_INCOMPLETE"
+        ]
+      ],
+      "aggregate_record": false
+    },
+    {
+      "index": 168,
+      "aggregate": [
+        5,
+        11,
+        11,
+        11
+      ],
+      "status": "COVERED",
+      "placements": 64,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 63
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 169,
+      "aggregate": [
+        5,
+        11,
+        11,
+        13
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 170,
+      "aggregate": [
+        5,
+        11,
+        11,
+        15
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 171,
+      "aggregate": [
+        5,
+        11,
+        13,
+        13
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 172,
+      "aggregate": [
+        5,
+        11,
+        13,
+        15
+      ],
+      "status": "UNRESOLVED",
+      "placements": 384,
+      "counts": {
+        "PRIMARY_INCOMPLETE": 1,
+        "UNVISITED": 383
+      },
+      "visited": [
+        [
+          0,
+          "PRIMARY_INCOMPLETE"
+        ]
+      ],
+      "aggregate_record": false
+    },
+    {
+      "index": 173,
+      "aggregate": [
+        5,
+        11,
+        15,
+        15
+      ],
+      "status": "UNRESOLVED",
+      "placements": 192,
+      "counts": {
+        "PRIMARY_INCOMPLETE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "PRIMARY_INCOMPLETE"
+        ]
+      ],
+      "aggregate_record": false
+    },
+    {
+      "index": 174,
+      "aggregate": [
+        5,
+        13,
+        13,
+        13
+      ],
+      "status": "UNRESOLVED",
+      "placements": 64,
+      "counts": {
+        "PRIMARY_INCOMPLETE": 1,
+        "UNVISITED": 63
+      },
+      "visited": [
+        [
+          0,
+          "PRIMARY_INCOMPLETE"
+        ]
+      ],
+      "aggregate_record": false
+    },
+    {
+      "index": 175,
+      "aggregate": [
+        5,
+        13,
+        13,
+        15
+      ],
+      "status": "UNRESOLVED",
+      "placements": 192,
+      "counts": {
+        "PRIMARY_INCOMPLETE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "PRIMARY_INCOMPLETE"
+        ]
+      ],
+      "aggregate_record": false
+    },
+    {
+      "index": 176,
+      "aggregate": [
+        5,
+        13,
+        15,
+        15
+      ],
+      "status": "UNRESOLVED",
+      "placements": 192,
+      "counts": {
+        "PRIMARY_INCOMPLETE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "PRIMARY_INCOMPLETE"
+        ]
+      ],
+      "aggregate_record": false
+    },
+    {
+      "index": 177,
+      "aggregate": [
+        5,
+        15,
+        15,
+        15
+      ],
+      "status": "UNRESOLVED",
+      "placements": 64,
+      "counts": {
+        "PRIMARY_INCOMPLETE": 1,
+        "UNVISITED": 63
+      },
+      "visited": [
+        [
+          0,
+          "PRIMARY_INCOMPLETE"
+        ]
+      ],
+      "aggregate_record": false
+    },
+    {
+      "index": 178,
+      "aggregate": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "status": "COVERED",
+      "placements": 16,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 15
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 179,
+      "aggregate": [
+        7,
+        7,
+        7,
+        9
+      ],
+      "status": "COVERED",
+      "placements": 64,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 63
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 180,
+      "aggregate": [
+        7,
+        7,
+        7,
+        11
+      ],
+      "status": "COVERED",
+      "placements": 64,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 63
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 181,
+      "aggregate": [
+        7,
+        7,
+        7,
+        13
+      ],
+      "status": "COVERED",
+      "placements": 64,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 63
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 182,
+      "aggregate": [
+        7,
+        7,
+        7,
+        15
+      ],
+      "status": "COVERED",
+      "placements": 64,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 63
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 183,
+      "aggregate": [
+        7,
+        7,
+        9,
+        9
+      ],
+      "status": "COVERED",
+      "placements": 96,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 95
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 184,
+      "aggregate": [
+        7,
+        7,
+        9,
+        11
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 185,
+      "aggregate": [
+        7,
+        7,
+        9,
+        13
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 186,
+      "aggregate": [
+        7,
+        7,
+        9,
+        15
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 187,
+      "aggregate": [
+        7,
+        7,
+        11,
+        11
+      ],
+      "status": "COVERED",
+      "placements": 96,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 95
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 188,
+      "aggregate": [
+        7,
+        7,
+        11,
+        13
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 189,
+      "aggregate": [
+        7,
+        7,
+        11,
+        15
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 190,
+      "aggregate": [
+        7,
+        7,
+        13,
+        13
+      ],
+      "status": "COVERED",
+      "placements": 96,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 95
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 191,
+      "aggregate": [
+        7,
+        7,
+        13,
+        15
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 192,
+      "aggregate": [
+        7,
+        7,
+        15,
+        15
+      ],
+      "status": "COVERED",
+      "placements": 96,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 95
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 193,
+      "aggregate": [
+        7,
+        9,
+        9,
+        9
+      ],
+      "status": "COVERED",
+      "placements": 64,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 63
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 194,
+      "aggregate": [
+        7,
+        9,
+        9,
+        11
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 195,
+      "aggregate": [
+        7,
+        9,
+        9,
+        13
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 196,
+      "aggregate": [
+        7,
+        9,
+        9,
+        15
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 197,
+      "aggregate": [
+        7,
+        9,
+        11,
+        11
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 198,
+      "aggregate": [
+        7,
+        9,
+        11,
+        13
+      ],
+      "status": "COVERED",
+      "placements": 384,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 383
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 199,
+      "aggregate": [
+        7,
+        9,
+        11,
+        15
+      ],
+      "status": "COVERED",
+      "placements": 384,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 383
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 200,
+      "aggregate": [
+        7,
+        9,
+        13,
+        13
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 201,
+      "aggregate": [
+        7,
+        9,
+        13,
+        15
+      ],
+      "status": "COVERED",
+      "placements": 384,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 383
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 202,
+      "aggregate": [
+        7,
+        9,
+        15,
+        15
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 203,
+      "aggregate": [
+        7,
+        11,
+        11,
+        11
+      ],
+      "status": "COVERED",
+      "placements": 64,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 63
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 204,
+      "aggregate": [
+        7,
+        11,
+        11,
+        13
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 205,
+      "aggregate": [
+        7,
+        11,
+        11,
+        15
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 206,
+      "aggregate": [
+        7,
+        11,
+        13,
+        13
+      ],
+      "status": "COVERED",
+      "placements": 192,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 207,
+      "aggregate": [
+        7,
+        11,
+        13,
+        15
+      ],
+      "status": "COVERED",
+      "placements": 384,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 383
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 208,
+      "aggregate": [
+        7,
+        11,
+        15,
+        15
+      ],
+      "status": "UNRESOLVED",
+      "placements": 192,
+      "counts": {
+        "PRIMARY_INCOMPLETE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "PRIMARY_INCOMPLETE"
+        ]
+      ],
+      "aggregate_record": false
+    },
+    {
+      "index": 209,
+      "aggregate": [
+        7,
+        13,
+        13,
+        13
+      ],
+      "status": "COVERED",
+      "placements": 64,
+      "counts": {
+        "VERIFIED_POSITIVE": 1,
+        "UNVISITED": 63
+      },
+      "visited": [
+        [
+          0,
+          "VERIFIED_POSITIVE"
+        ]
+      ],
+      "aggregate_record": true
+    },
+    {
+      "index": 210,
+      "aggregate": [
+        7,
+        13,
+        13,
+        15
+      ],
+      "status": "UNRESOLVED",
+      "placements": 192,
+      "counts": {
+        "PRIMARY_INCOMPLETE": 1,
+        "UNVISITED": 191
+      },
+      "visited": [
+        [
+          0,
+          "PRIMARY_INCOMPLETE"
+        ]
+      ],
+      "aggregate_record": false
+    },
+    {
+      "index": 211,
+      "aggregate": [
+        7,
+        13,
+        15,
+        15
+      ],
+      "status": "UNRESOLVED",
+      "placements": 192,
+      "counts": {
+        "UNVISITED": 191,
+        "INTERRUPTED_UNRECORDED": 1
+      },
+      "visited": [],
+      "aggregate_record": false
+    },
+    {
+      "index": 212,
+      "aggregate": [
+        7,
+        15,
+        15,
+        15
+      ],
+      "status": "UNRESOLVED",
+      "placements": 64,
+      "counts": {
+        "UNVISITED": 64
+      },
+      "visited": [],
+      "aggregate_record": false
+    },
+    {
+      "index": 213,
+      "aggregate": [
+        9,
+        9,
+        9,
+        9
+      ],
+      "status": "UNRESOLVED",
+      "placements": 16,
+      "counts": {
+        "UNVISITED": 16
+      },
+      "visited": [],
+      "aggregate_record": false
+    },
+    {
+      "index": 214,
+      "aggregate": [
+        9,
+        9,
+        9,
+        11
+      ],
+      "status": "UNRESOLVED",
+      "placements": 64,
+      "counts": {
+        "UNVISITED": 64
+      },
+      "visited": [],
+      "aggregate_record": false
+    },
+    {
+      "index": 215,
+      "aggregate": [
+        9,
+        9,
+        9,
+        13
+      ],
+      "status": "UNRESOLVED",
+      "placements": 64,
+      "counts": {
+        "UNVISITED": 64
+      },
+      "visited": [],
+      "aggregate_record": false
+    },
+    {
+      "index": 216,
+      "aggregate": [
+        9,
+        9,
+        9,
+        15
+      ],
+      "status": "UNRESOLVED",
+      "placements": 64,
+      "counts": {
+        "UNVISITED": 64
+      },
+      "visited": [],
+      "aggregate_record": false
+    },
+    {
+      "index": 217,
+      "aggregate": [
+        9,
+        9,
+        11,
+        11
+      ],
+      "status": "UNRESOLVED",
+      "placements": 96,
+      "counts": {
+        "UNVISITED": 96
+      },
+      "visited": [],
+      "aggregate_record": false
+    },
+    {
+      "index": 218,
+      "aggregate": [
+        9,
+        9,
+        11,
+        13
+      ],
+      "status": "UNRESOLVED",
+      "placements": 192,
+      "counts": {
+        "UNVISITED": 192
+      },
+      "visited": [],
+      "aggregate_record": false
+    },
+    {
+      "index": 219,
+      "aggregate": [
+        9,
+        9,
+        11,
+        15
+      ],
+      "status": "UNRESOLVED",
+      "placements": 192,
+      "counts": {
+        "UNVISITED": 192
+      },
+      "visited": [],
+      "aggregate_record": false
+    },
+    {
+      "index": 220,
+      "aggregate": [
+        9,
+        9,
+        13,
+        13
+      ],
+      "status": "UNRESOLVED",
+      "placements": 96,
+      "counts": {
+        "UNVISITED": 96
+      },
+      "visited": [],
+      "aggregate_record": false
+    },
+    {
+      "index": 221,
+      "aggregate": [
+        9,
+        9,
+        13,
+        15
+      ],
+      "status": "UNRESOLVED",
+      "placements": 192,
+      "counts": {
+        "UNVISITED": 192
+      },
+      "visited": [],
+      "aggregate_record": false
+    },
+    {
+      "index": 222,
+      "aggregate": [
+        9,
+        9,
+        15,
+        15
+      ],
+      "status": "UNRESOLVED",
+      "placements": 96,
+      "counts": {
+        "UNVISITED": 96
+      },
+      "visited": [],
+      "aggregate_record": false
+    },
+    {
+      "index": 223,
+      "aggregate": [
+        9,
+        11,
+        11,
+        11
+      ],
+      "status": "UNRESOLVED",
+      "placements": 64,
+      "counts": {
+        "UNVISITED": 64
+      },
+      "visited": [],
+      "aggregate_record": false
+    },
+    {
+      "index": 224,
+      "aggregate": [
+        9,
+        11,
+        11,
+        13
+      ],
+      "status": "UNRESOLVED",
+      "placements": 192,
+      "counts": {
+        "UNVISITED": 192
+      },
+      "visited": [],
+      "aggregate_record": false
+    },
+    {
+      "index": 225,
+      "aggregate": [
+        9,
+        11,
+        11,
+        15
+      ],
+      "status": "UNRESOLVED",
+      "placements": 192,
+      "counts": {
+        "UNVISITED": 192
+      },
+      "visited": [],
+      "aggregate_record": false
+    },
+    {
+      "index": 226,
+      "aggregate": [
+        9,
+        11,
+        13,
+        13
+      ],
+      "status": "UNRESOLVED",
+      "placements": 192,
+      "counts": {
+        "UNVISITED": 192
+      },
+      "visited": [],
+      "aggregate_record": false
+    },
+    {
+      "index": 227,
+      "aggregate": [
+        9,
+        11,
+        13,
+        15
+      ],
+      "status": "UNRESOLVED",
+      "placements": 384,
+      "counts": {
+        "UNVISITED": 384
+      },
+      "visited": [],
+      "aggregate_record": false
+    },
+    {
+      "index": 228,
+      "aggregate": [
+        9,
+        11,
+        15,
+        15
+      ],
+      "status": "UNRESOLVED",
+      "placements": 192,
+      "counts": {
+        "UNVISITED": 192
+      },
+      "visited": [],
+      "aggregate_record": false
+    },
+    {
+      "index": 229,
+      "aggregate": [
+        9,
+        13,
+        13,
+        13
+      ],
+      "status": "UNRESOLVED",
+      "placements": 64,
+      "counts": {
+        "UNVISITED": 64
+      },
+      "visited": [],
+      "aggregate_record": false
+    },
+    {
+      "index": 230,
+      "aggregate": [
+        9,
+        13,
+        13,
+        15
+      ],
+      "status": "UNRESOLVED",
+      "placements": 192,
+      "counts": {
+        "UNVISITED": 192
+      },
+      "visited": [],
+      "aggregate_record": false
+    },
+    {
+      "index": 231,
+      "aggregate": [
+        9,
+        13,
+        15,
+        15
+      ],
+      "status": "UNRESOLVED",
+      "placements": 192,
+      "counts": {
+        "UNVISITED": 192
+      },
+      "visited": [],
+      "aggregate_record": false
+    },
+    {
+      "index": 232,
+      "aggregate": [
+        9,
+        15,
+        15,
+        15
+      ],
+      "status": "UNRESOLVED",
+      "placements": 64,
+      "counts": {
+        "UNVISITED": 64
+      },
+      "visited": [],
+      "aggregate_record": false
+    },
+    {
+      "index": 233,
+      "aggregate": [
+        11,
+        11,
+        11,
+        11
+      ],
+      "status": "UNRESOLVED",
+      "placements": 16,
+      "counts": {
+        "UNVISITED": 16
+      },
+      "visited": [],
+      "aggregate_record": false
+    },
+    {
+      "index": 234,
+      "aggregate": [
+        11,
+        11,
+        11,
+        13
+      ],
+      "status": "UNRESOLVED",
+      "placements": 64,
+      "counts": {
+        "UNVISITED": 64
+      },
+      "visited": [],
+      "aggregate_record": false
+    },
+    {
+      "index": 235,
+      "aggregate": [
+        11,
+        11,
+        11,
+        15
+      ],
+      "status": "UNRESOLVED",
+      "placements": 64,
+      "counts": {
+        "UNVISITED": 64
+      },
+      "visited": [],
+      "aggregate_record": false
+    },
+    {
+      "index": 236,
+      "aggregate": [
+        11,
+        11,
+        13,
+        13
+      ],
+      "status": "UNRESOLVED",
+      "placements": 96,
+      "counts": {
+        "UNVISITED": 96
+      },
+      "visited": [],
+      "aggregate_record": false
+    },
+    {
+      "index": 237,
+      "aggregate": [
+        11,
+        11,
+        13,
+        15
+      ],
+      "status": "UNRESOLVED",
+      "placements": 192,
+      "counts": {
+        "UNVISITED": 192
+      },
+      "visited": [],
+      "aggregate_record": false
+    },
+    {
+      "index": 238,
+      "aggregate": [
+        11,
+        11,
+        15,
+        15
+      ],
+      "status": "UNRESOLVED",
+      "placements": 96,
+      "counts": {
+        "UNVISITED": 96
+      },
+      "visited": [],
+      "aggregate_record": false
+    },
+    {
+      "index": 239,
+      "aggregate": [
+        11,
+        13,
+        13,
+        13
+      ],
+      "status": "UNRESOLVED",
+      "placements": 64,
+      "counts": {
+        "UNVISITED": 64
+      },
+      "visited": [],
+      "aggregate_record": false
+    },
+    {
+      "index": 240,
+      "aggregate": [
+        11,
+        13,
+        13,
+        15
+      ],
+      "status": "UNRESOLVED",
+      "placements": 192,
+      "counts": {
+        "UNVISITED": 192
+      },
+      "visited": [],
+      "aggregate_record": false
+    },
+    {
+      "index": 241,
+      "aggregate": [
+        11,
+        13,
+        15,
+        15
+      ],
+      "status": "UNRESOLVED",
+      "placements": 192,
+      "counts": {
+        "UNVISITED": 192
+      },
+      "visited": [],
+      "aggregate_record": false
+    },
+    {
+      "index": 242,
+      "aggregate": [
+        11,
+        15,
+        15,
+        15
+      ],
+      "status": "UNRESOLVED",
+      "placements": 64,
+      "counts": {
+        "UNVISITED": 64
+      },
+      "visited": [],
+      "aggregate_record": false
+    },
+    {
+      "index": 243,
+      "aggregate": [
+        13,
+        13,
+        13,
+        13
+      ],
+      "status": "UNRESOLVED",
+      "placements": 16,
+      "counts": {
+        "UNVISITED": 16
+      },
+      "visited": [],
+      "aggregate_record": false
+    },
+    {
+      "index": 244,
+      "aggregate": [
+        13,
+        13,
+        13,
+        15
+      ],
+      "status": "UNRESOLVED",
+      "placements": 64,
+      "counts": {
+        "UNVISITED": 64
+      },
+      "visited": [],
+      "aggregate_record": false
+    },
+    {
+      "index": 245,
+      "aggregate": [
+        13,
+        13,
+        15,
+        15
+      ],
+      "status": "UNRESOLVED",
+      "placements": 96,
+      "counts": {
+        "UNVISITED": 96
+      },
+      "visited": [],
+      "aggregate_record": false
+    },
+    {
+      "index": 246,
+      "aggregate": [
+        13,
+        15,
+        15,
+        15
+      ],
+      "status": "UNRESOLVED",
+      "placements": 64,
+      "counts": {
+        "UNVISITED": 64
+      },
+      "visited": [],
+      "aggregate_record": false
+    },
+    {
+      "index": 247,
+      "aggregate": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "status": "UNRESOLVED",
+      "placements": 16,
+      "counts": {
+        "UNVISITED": 16
+      },
+      "visited": [],
+      "aggregate_record": false
+    }
+  ]
+}
