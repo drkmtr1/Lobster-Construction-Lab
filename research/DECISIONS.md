@@ -1083,3 +1083,9 @@ The Owner authorizes one bounded D233 symbolic construction, unit-partner decomp
 ## D233 symbolic closeout and conditional static preparation
 
 Submit the single-reservoir and alternative singleton ordered suppliers, exact exclusions, unit-partner thresholds and physical regimes. Supersede the D232 dominant-17 comparison symbolically. Freeze one dormant residual D233 registration and independent endpoint/exhaustion audit. Prepare statically only. Any future invocation requires separate Director acceptance, Owner authorization and fresh admission with applicable integrated D231 V3-style operational qualification. Preserve all earlier accepted, held, deferred and incomplete dispositions and keep v15. [Proof](SINGLE_RESERVOIR_UNIT_PARTNER_SUPPLY.md) · [Handoff](../handoffs/CODEX-20261127-d233-single-reservoir.md).
+
+## D233 Director acceptance and integrated Owner authority
+
+The Director accepts the mathematical and static preparation at `22e3c86d3a2acbc5654ca4385ae4fd127e399f5d`, including the exact sparse and chain bounds, singleton and ordered classification, the two-low path suppliers, both named physical regimes and all seven original, folded and reversed controls. The Director verified the 12 artifact hashes, 22 frozen bindings, 231 terminal differences, ledgers, ancestry, baseline and both read-only upstream pins. The frozen discovery registry has 248 aggregates and 42,512 placements, with all stated ceilings accepted. The superseded D232 comparison remains never prepared and never executed.
+
+The Owner separately authorizes bounded adaptation, benign qualification, fresh admission and one scientific launcher release through a qualified D233 supervisor. Reuse D231 V3 without editing its source or evidence. Preserve every frozen binding and every earlier disposition. Authorize no successor. KEEP v15.
